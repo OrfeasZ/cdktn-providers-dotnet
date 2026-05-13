@@ -9,32 +9,58 @@ namespace scaleway.Container
     {
         /// <summary>Number of consecutive health check failures before considering the container unhealthy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#failure_threshold Container#failure_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#failure_threshold Container#failure_threshold}
         /// </remarks>
-        [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}")]
-        double FailureThreshold
+        [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? FailureThreshold
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#http Container#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#http Container#http}
         /// </remarks>
-        [JsiiProperty(name: "http", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"},\"kind\":\"array\"}}]}}")]
-        object Http
+        [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        scaleway.Container.IContainerHealthCheckHttp? Http
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         /// <summary>Period between health checks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#interval Container#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#interval Container#interval}
         /// </remarks>
-        [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
-        string Interval
+        [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Interval
         {
-            get;
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Perform TCP check on the container.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#tcp Container#tcp}
+        /// </remarks>
+        [JsiiProperty(name: "tcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? Tcp
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IContainerHealthCheck), fullyQualifiedName: "scaleway.container.ContainerHealthCheck")]
@@ -46,32 +72,46 @@ namespace scaleway.Container
 
             /// <summary>Number of consecutive health check failures before considering the container unhealthy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#failure_threshold Container#failure_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#failure_threshold Container#failure_threshold}
             /// </remarks>
-            [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}")]
-            public double FailureThreshold
+            [JsiiOptional]
+            [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? FailureThreshold
             {
-                get => GetInstanceProperty<double>()!;
+                get => GetInstanceProperty<double?>();
             }
 
             /// <summary>http block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#http Container#http}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#http Container#http}
             /// </remarks>
-            [JsiiProperty(name: "http", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"},\"kind\":\"array\"}}]}}")]
-            public object Http
+            [JsiiOptional]
+            [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"}", isOptional: true)]
+            public scaleway.Container.IContainerHealthCheckHttp? Http
             {
-                get => GetInstanceProperty<object>()!;
+                get => GetInstanceProperty<scaleway.Container.IContainerHealthCheckHttp?>();
             }
 
             /// <summary>Period between health checks.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#interval Container#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#interval Container#interval}
             /// </remarks>
-            [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
-            public string Interval
+            [JsiiOptional]
+            [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Interval
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Perform TCP check on the container.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#tcp Container#tcp}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "tcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? Tcp
+            {
+                get => GetInstanceProperty<object?>();
             }
         }
     }

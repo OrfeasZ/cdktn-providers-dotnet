@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.ContainerTrigger
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger scaleway_container_trigger}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger scaleway_container_trigger}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.ContainerTrigger.ContainerTrigger), fullyQualifiedName: "scaleway.containerTrigger.ContainerTrigger", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerConfig\"}}]")]
     public class ContainerTrigger : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger scaleway_container_trigger} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger scaleway_container_trigger} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ContainerTrigger(Constructs.Construct scope, string id, scaleway.ContainerTrigger.IContainerTriggerConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,22 @@ namespace scaleway.ContainerTrigger
         /// <param name="importToId">The construct id used in the generated config for the ContainerTrigger to import.</param>
         /// <param name="importFromId">The id of the existing ContainerTrigger that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ContainerTrigger to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ContainerTrigger to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ContainerTrigger that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ContainerTrigger to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ContainerTrigger to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ContainerTrigger that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ContainerTrigger to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.ContainerTrigger.ContainerTrigger), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putCron", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerCron\"}}]")]
+        public virtual void PutCron(scaleway.ContainerTrigger.IContainerTriggerCron @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.ContainerTrigger.IContainerTriggerCron)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putDestinationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerDestinationConfig\"}}]")]
+        public virtual void PutDestinationConfig(scaleway.ContainerTrigger.IContainerTriggerDestinationConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.ContainerTrigger.IContainerTriggerDestinationConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putNats", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerNats\"}}]")]
@@ -62,6 +74,12 @@ namespace scaleway.ContainerTrigger
         public virtual void PutTimeouts(scaleway.ContainerTrigger.IContainerTriggerTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.ContainerTrigger.IContainerTriggerTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetCron")]
+        public virtual void ResetCron()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDescription")]
@@ -100,6 +118,12 @@ namespace scaleway.ContainerTrigger
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTags")]
+        public virtual void ResetTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -124,6 +148,18 @@ namespace scaleway.ContainerTrigger
             get;
         }
         = GetStaticProperty<string>(typeof(scaleway.ContainerTrigger.ContainerTrigger))!;
+
+        [JsiiProperty(name: "cron", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerCronOutputReference\"}")]
+        public virtual scaleway.ContainerTrigger.ContainerTriggerCronOutputReference Cron
+        {
+            get => GetInstanceProperty<scaleway.ContainerTrigger.ContainerTriggerCronOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "destinationConfig", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerDestinationConfigOutputReference\"}")]
+        public virtual scaleway.ContainerTrigger.ContainerTriggerDestinationConfigOutputReference DestinationConfig
+        {
+            get => GetInstanceProperty<scaleway.ContainerTrigger.ContainerTriggerDestinationConfigOutputReference>()!;
+        }
 
         [JsiiProperty(name: "nats", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerNatsOutputReference\"}")]
         public virtual scaleway.ContainerTrigger.ContainerTriggerNatsOutputReference Nats
@@ -151,10 +187,24 @@ namespace scaleway.ContainerTrigger
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "cronInput", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerCron\"}", isOptional: true)]
+        public virtual scaleway.ContainerTrigger.IContainerTriggerCron? CronInput
+        {
+            get => GetInstanceProperty<scaleway.ContainerTrigger.IContainerTriggerCron?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "destinationConfigInput", typeJson: "{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerDestinationConfig\"}", isOptional: true)]
+        public virtual scaleway.ContainerTrigger.IContainerTriggerDestinationConfig? DestinationConfigInput
+        {
+            get => GetInstanceProperty<scaleway.ContainerTrigger.IContainerTriggerDestinationConfig?>();
         }
 
         [JsiiOptional]
@@ -190,6 +240,13 @@ namespace scaleway.ContainerTrigger
         public virtual scaleway.ContainerTrigger.IContainerTriggerSqs? SqsInput
         {
             get => GetInstanceProperty<scaleway.ContainerTrigger.IContainerTriggerSqs?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? TagsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -231,6 +288,13 @@ namespace scaleway.ContainerTrigger
         public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Tags
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
     }

@@ -11,7 +11,7 @@ namespace random.Uuid4
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/uuid4#keepers Uuid4#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/uuid4#keepers Uuid4#keepers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

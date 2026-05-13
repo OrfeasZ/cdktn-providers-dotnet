@@ -9,7 +9,7 @@ namespace random.Shuffle
     {
         /// <summary>The list of strings to shuffle.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#input Shuffle#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#input Shuffle#input}
         /// </remarks>
         [JsiiProperty(name: "input", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Input
@@ -21,7 +21,7 @@ namespace random.Shuffle
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#keepers Shuffle#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#keepers Shuffle#keepers}
         /// </remarks>
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace random.Shuffle
         /// <remarks>
         /// Defaults to the number of items in the <c>input</c> list. If fewer items are requested, some elements will be excluded from the result. If more items are requested, items will be repeated in the result but not more frequently than the number of items in the input list.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#result_count Shuffle#result_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#result_count Shuffle#result_count}
         /// </remarks>
         [JsiiProperty(name: "resultCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace random.Shuffle
         /// <remarks>
         /// <strong>Important:</strong> Even with an identical seed, it is not guaranteed that the same permutation will be produced across different versions of Terraform. This argument causes the result to be <em>less volatile</em>, but not fixed for all time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#seed Shuffle#seed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#seed Shuffle#seed}
         /// </remarks>
         [JsiiProperty(name: "seed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace random.Shuffle
 
             /// <summary>The list of strings to shuffle.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#input Shuffle#input}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#input Shuffle#input}
             /// </remarks>
             [JsiiProperty(name: "input", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Input
@@ -86,7 +86,7 @@ namespace random.Shuffle
             /// <remarks>
             /// See <a href="../index.html">the main provider documentation</a> for more information.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#keepers Shuffle#keepers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#keepers Shuffle#keepers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace random.Shuffle
             /// <remarks>
             /// Defaults to the number of items in the <c>input</c> list. If fewer items are requested, some elements will be excluded from the result. If more items are requested, items will be repeated in the result but not more frequently than the number of items in the input list.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#result_count Shuffle#result_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#result_count Shuffle#result_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resultCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace random.Shuffle
             /// <remarks>
             /// <strong>Important:</strong> Even with an identical seed, it is not guaranteed that the same permutation will be produced across different versions of Terraform. This argument causes the result to be <em>less volatile</em>, but not fixed for all time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#seed Shuffle#seed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/shuffle#seed Shuffle#seed}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "seed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

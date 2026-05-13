@@ -11,7 +11,7 @@ namespace Providers.Null.DataNullDataSource
         /// <remarks>
         /// If not, its value defaults to <c>"default"</c>. This argument exists primarily for testing and has little practical use.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source#has_computed_default DataNullDataSource#has_computed_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/data-sources/data_source#has_computed_default DataNullDataSource#has_computed_default}
         /// </remarks>
         [JsiiProperty(name: "hasComputedDefault", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +25,7 @@ namespace Providers.Null.DataNullDataSource
 
         /// <summary>A map of arbitrary strings that is copied into the `outputs` attribute, and accessible directly for interpolation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source#inputs DataNullDataSource#inputs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/data-sources/data_source#inputs DataNullDataSource#inputs}
         /// </remarks>
         [JsiiProperty(name: "inputs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace Providers.Null.DataNullDataSource
             /// <remarks>
             /// If not, its value defaults to <c>"default"</c>. This argument exists primarily for testing and has little practical use.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source#has_computed_default DataNullDataSource#has_computed_default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/data-sources/data_source#has_computed_default DataNullDataSource#has_computed_default}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hasComputedDefault", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace Providers.Null.DataNullDataSource
 
             /// <summary>A map of arbitrary strings that is copied into the `outputs` attribute, and accessible directly for interpolation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source#inputs DataNullDataSource#inputs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/data-sources/data_source#inputs DataNullDataSource#inputs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inputs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

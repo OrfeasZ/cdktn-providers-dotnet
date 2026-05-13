@@ -7,9 +7,9 @@
     "digitalocean": "2.85.1",
     "hcloud": "1.63.0",
     "neon": "0.13.0",
-    "null": "3.2.4",
-    "random": "3.8.1",
-    "scaleway": "2.74.0",
+    "null": "3.3.0",
+    "random": "3.9.0",
+    "scaleway": "2.75.0",
     "stripe": "0.2.2"
   }
 }

@@ -9,24 +9,45 @@ namespace scaleway.ContainerTrigger
     [JsiiByValue(fqn: "scaleway.containerTrigger.ContainerTriggerSqs")]
     public class ContainerTriggerSqs : scaleway.ContainerTrigger.IContainerTriggerSqs
     {
-        /// <summary>Name of the queue.</summary>
+        /// <summary>The access key for accessing the SQS queue.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#queue ContainerTrigger#queue}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#access_key ContainerTrigger#access_key}
         /// </remarks>
-        [JsiiProperty(name: "queue", typeJson: "{\"primitive\":\"string\"}")]
-        public string Queue
+        [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccessKey
         {
             get;
             set;
         }
 
-        /// <summary>ID of the mnq namespace.</summary>
+        /// <summary>Endpoint URL to use to access SQS (e.g., "https://sqs.mnq.fr-par.scaleway.com").</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#namespace_id ContainerTrigger#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#endpoint ContainerTrigger#endpoint}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? NamespaceId
+        [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public string Endpoint
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The URL of the SQS queue to monitor for messages.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#queue_url ContainerTrigger#queue_url}
+        /// </remarks>
+        [JsiiProperty(name: "queueUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public string QueueUrl
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The secret key for accessing the SQS queue.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#secret_key ContainerTrigger#secret_key}
+        /// </remarks>
+        [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
+        public string SecretKey
         {
             get;
             set;
@@ -34,7 +55,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>Project ID of the project where the mnq sqs exists, defaults to provider project_id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#project_id ContainerTrigger#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#project_id ContainerTrigger#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -44,9 +65,21 @@ namespace scaleway.ContainerTrigger
             set;
         }
 
-        /// <summary>Region where the mnq sqs exists, defaults to function's region.</summary>
+        /// <summary>Name of the queue.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container_trigger#region ContainerTrigger#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#queue ContainerTrigger#queue}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "queue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Queue
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The region where the SQS queue is hosted, defaults to function's region.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#region ContainerTrigger#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

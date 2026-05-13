@@ -33,14 +33,14 @@ namespace scaleway.ContainerTrigger
         {
         }
 
-        [JsiiMethod(name: "resetNamespaceId")]
-        public virtual void ResetNamespaceId()
+        [JsiiMethod(name: "resetProjectId")]
+        public virtual void ResetProjectId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetProjectId")]
-        public virtual void ResetProjectId()
+        [JsiiMethod(name: "resetQueue")]
+        public virtual void ResetQueue()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -52,8 +52,15 @@ namespace scaleway.ContainerTrigger
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "namespaceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? NamespaceIdInput
+        [JsiiProperty(name: "accessKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AccessKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "endpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EndpointInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -73,14 +80,35 @@ namespace scaleway.ContainerTrigger
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "queueUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? QueueUrlInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
         }
 
-        [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string NamespaceId
+        [JsiiOptional]
+        [JsiiProperty(name: "secretKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SecretKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccessKey
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Endpoint
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -100,8 +128,22 @@ namespace scaleway.ContainerTrigger
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "queueUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string QueueUrl
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretKey
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

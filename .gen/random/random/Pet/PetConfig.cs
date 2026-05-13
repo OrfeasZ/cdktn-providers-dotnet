@@ -11,7 +11,7 @@ namespace random.Pet
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#keepers Pet#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#keepers Pet#keepers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace random.Pet
 
         /// <summary>The length (in words) of the pet name. Defaults to 2.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#length Pet#length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#length Pet#length}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace random.Pet
 
         /// <summary>A string to prefix the name with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#prefix Pet#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#prefix Pet#prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace random.Pet
 
         /// <summary>The character to separate words in the pet name. Defaults to "-".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#separator Pet#separator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#separator Pet#separator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "separator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -53,6 +53,12 @@ namespace scaleway.DataScalewayContainer
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tcp", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Tcp
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"scaleway.dataScalewayContainer.DataScalewayContainerHealthCheck\"}", isOptional: true)]
         public virtual scaleway.DataScalewayContainer.IDataScalewayContainerHealthCheck? InternalValue

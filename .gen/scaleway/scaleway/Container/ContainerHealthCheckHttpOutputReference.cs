@@ -4,21 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.Container
 {
-    [JsiiClass(nativeType: typeof(scaleway.Container.ContainerHealthCheckHttpOutputReference), fullyQualifiedName: "scaleway.container.ContainerHealthCheckHttpOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    [JsiiClass(nativeType: typeof(scaleway.Container.ContainerHealthCheckHttpOutputReference), fullyQualifiedName: "scaleway.container.ContainerHealthCheckHttpOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
     public class ContainerHealthCheckHttpOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        /// <param name="complexObjectIndex">the index of this item in the list.</param>
-        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
-        public ContainerHealthCheckHttpOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        public ContainerHealthCheckHttpOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
         {
-            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
         }
 
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
@@ -33,6 +31,12 @@ namespace scaleway.Container
         [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
         protected ContainerHealthCheckHttpOutputReference(DeputyProps props): base(props)
         {
+        }
+
+        [JsiiMethod(name: "resetPath")]
+        public virtual void ResetPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiOptional]
@@ -50,31 +54,11 @@ namespace scaleway.Container
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"}]}}", isOptional: true)]
-        public virtual object? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"scaleway.container.ContainerHealthCheckHttp\"}", isOptional: true)]
+        public virtual scaleway.Container.IContainerHealthCheckHttp? InternalValue
         {
-            get => GetInstanceProperty<object?>();
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case scaleway.Container.IContainerHealthCheckHttp cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            break;
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.Container.IContainerHealthCheckHttp).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
+            get => GetInstanceProperty<scaleway.Container.IContainerHealthCheckHttp?>();
+            set => SetInstanceProperty(value);
         }
     }
 }
