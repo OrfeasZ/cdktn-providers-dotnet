@@ -9,7 +9,7 @@ namespace Providers.Null.Resource
     {
         /// <summary>A map of arbitrary strings that, when changed, will force the null resource to be replaced, re-running any associated provisioners.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/resources/resource#triggers Resource#triggers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/resources/resource#triggers Resource#triggers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "triggers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

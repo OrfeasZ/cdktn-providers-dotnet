@@ -9,7 +9,7 @@ namespace random.Integer
     {
         /// <summary>The maximum inclusive value of the range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#max Integer#max}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#max Integer#max}
         /// </remarks>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         double Max
@@ -19,7 +19,7 @@ namespace random.Integer
 
         /// <summary>The minimum inclusive value of the range.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#min Integer#min}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#min Integer#min}
         /// </remarks>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         double Min
@@ -31,7 +31,7 @@ namespace random.Integer
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#keepers Integer#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#keepers Integer#keepers}
         /// </remarks>
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace random.Integer
 
         /// <summary>A custom seed to always produce the same value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#seed Integer#seed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#seed Integer#seed}
         /// </remarks>
         [JsiiProperty(name: "seed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace random.Integer
 
             /// <summary>The maximum inclusive value of the range.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#max Integer#max}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#max Integer#max}
             /// </remarks>
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
             public double Max
@@ -76,7 +76,7 @@ namespace random.Integer
 
             /// <summary>The minimum inclusive value of the range.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#min Integer#min}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#min Integer#min}
             /// </remarks>
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
             public double Min
@@ -88,7 +88,7 @@ namespace random.Integer
             /// <remarks>
             /// See <a href="../index.html">the main provider documentation</a> for more information.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#keepers Integer#keepers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#keepers Integer#keepers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace random.Integer
 
             /// <summary>A custom seed to always produce the same value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#seed Integer#seed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#seed Integer#seed}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "seed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -59,6 +59,13 @@ namespace scaleway.ContainerTrigger
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "credentialsFileContentInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CredentialsFileContentInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "projectIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ProjectIdInput
         {
@@ -70,6 +77,13 @@ namespace scaleway.ContainerTrigger
         public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "serverUrlsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ServerUrlsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -86,6 +100,13 @@ namespace scaleway.ContainerTrigger
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "credentialsFileContent", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CredentialsFileContent
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProjectId
         {
@@ -97,6 +118,13 @@ namespace scaleway.ContainerTrigger
         public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "serverUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ServerUrls
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

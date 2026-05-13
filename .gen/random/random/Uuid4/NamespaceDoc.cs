@@ -5,7 +5,7 @@ namespace random.Uuid4
     /// <remarks>
     /// <h1><c>random_uuid4</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/uuid4"><c>random_uuid4</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/uuid4"><c>random_uuid4</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

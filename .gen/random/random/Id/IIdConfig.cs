@@ -9,7 +9,7 @@ namespace random.Id
     {
         /// <summary>The number of random bytes to produce. The minimum value is 1, which produces eight bits of randomness.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#byte_length Id#byte_length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/id#byte_length Id#byte_length}
         /// </remarks>
         [JsiiProperty(name: "byteLength", typeJson: "{\"primitive\":\"number\"}")]
         double ByteLength
@@ -21,7 +21,7 @@ namespace random.Id
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#keepers Id#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/id#keepers Id#keepers}
         /// </remarks>
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace random.Id
         /// <remarks>
         /// This string is supplied as-is, meaning it is not guaranteed to be URL-safe or base64 encoded.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#prefix Id#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/id#prefix Id#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace random.Id
 
             /// <summary>The number of random bytes to produce. The minimum value is 1, which produces eight bits of randomness.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#byte_length Id#byte_length}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/id#byte_length Id#byte_length}
             /// </remarks>
             [JsiiProperty(name: "byteLength", typeJson: "{\"primitive\":\"number\"}")]
             public double ByteLength
@@ -70,7 +70,7 @@ namespace random.Id
             /// <remarks>
             /// See <a href="../index.html">the main provider documentation</a> for more information.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#keepers Id#keepers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/id#keepers Id#keepers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace random.Id
             /// <remarks>
             /// This string is supplied as-is, meaning it is not guaranteed to be URL-safe or base64 encoded.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#prefix Id#prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/id#prefix Id#prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

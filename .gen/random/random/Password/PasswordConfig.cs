@@ -13,7 +13,7 @@ namespace random.Password
         /// <remarks>
         /// The minimum value for length is 1 and, length must also be &gt;= (<c>min_upper</c> + <c>min_lower</c> + <c>min_numeric</c> + <c>min_special</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#length Password#length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#length Password#length}
         /// </remarks>
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
         public double Length
@@ -26,7 +26,7 @@ namespace random.Password
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#keepers Password#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#keepers Password#keepers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace random.Password
 
         /// <summary>Include lowercase alphabet characters in the result. Default value is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#lower Password#lower}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#lower Password#lower}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lower", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace random.Password
 
         /// <summary>Minimum number of lowercase alphabet characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#min_lower Password#min_lower}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#min_lower Password#min_lower}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minLower", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace random.Password
 
         /// <summary>Minimum number of numeric characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#min_numeric Password#min_numeric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#min_numeric Password#min_numeric}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minNumeric", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace random.Password
 
         /// <summary>Minimum number of special characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#min_special Password#min_special}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#min_special Password#min_special}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minSpecial", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace random.Password
 
         /// <summary>Minimum number of uppercase alphabet characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#min_upper Password#min_upper}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#min_upper Password#min_upper}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minUpper", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace random.Password
         /// <remarks>
         /// Default value is <c>true</c>. If <c>number</c>, <c>upper</c>, <c>lower</c>, and <c>special</c> are all configured, at least one of them must be set to <c>true</c>. <strong>NOTE</strong>: This is deprecated, use <c>numeric</c> instead.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#number Password#number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#number Password#number}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "number", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace random.Password
         /// <remarks>
         /// Default value is <c>true</c>. If <c>numeric</c>, <c>upper</c>, <c>lower</c>, and <c>special</c> are all configured, at least one of them must be set to <c>true</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#numeric Password#numeric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#numeric Password#numeric}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "numeric", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace random.Password
         /// <remarks>
         /// This overrides the default character list in the special argument.  The <c>special</c> argument must still be set to true for any overwritten characters to be used in generation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#override_special Password#override_special}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#override_special Password#override_special}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideSpecial", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace random.Password
 
         /// <summary>Include special characters in the result. These are `!@#$%&amp;*()-_=+[]{}&lt;&gt;:?`. Default value is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#special Password#special}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#special Password#special}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "special", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace random.Password
 
         /// <summary>Include uppercase alphabet characters in the result. Default value is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/password#upper Password#upper}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/password#upper Password#upper}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upper", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

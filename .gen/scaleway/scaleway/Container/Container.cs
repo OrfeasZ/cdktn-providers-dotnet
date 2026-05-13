@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.Container
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container scaleway_container}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container scaleway_container}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.Container.Container), fullyQualifiedName: "scaleway.container.Container", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.container.ContainerConfig\"}}]")]
     public class Container : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container scaleway_container} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container scaleway_container} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Container(Constructs.Construct scope, string id, scaleway.Container.IContainerConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,33 +40,22 @@ namespace scaleway.Container
         /// <param name="importToId">The construct id used in the generated config for the Container to import.</param>
         /// <param name="importFromId">The id of the existing Container that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Container to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Container to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Container that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Container to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Container to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Container that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Container to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.Container.Container), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putHealthCheck", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.container.ContainerHealthCheck\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutHealthCheck(object @value)
+        [JsiiMethod(name: "putHealthCheck", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.container.ContainerHealthCheck\"}}]")]
+        public virtual void PutHealthCheck(scaleway.Container.IContainerHealthCheck @value)
         {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case scaleway.Container.IContainerHealthCheck[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.Container.IContainerHealthCheck).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.Container.IContainerHealthCheck).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.Container.IContainerHealthCheck)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putLivenessProbe", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.container.ContainerLivenessProbe\"}}]")]
+        public virtual void PutLivenessProbe(scaleway.Container.IContainerLivenessProbe @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.Container.IContainerLivenessProbe)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putScalingOption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.container.ContainerScalingOption\"},\"kind\":\"array\"}}]}}}]")]
@@ -90,6 +79,12 @@ namespace scaleway.Container
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putStartupProbe", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.container.ContainerStartupProbe\"}}]")]
+        public virtual void PutStartupProbe(scaleway.Container.IContainerStartupProbe @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.Container.IContainerStartupProbe)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.container.ContainerTimeouts\"}}]")]
@@ -146,8 +141,26 @@ namespace scaleway.Container
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetHttpsConnectionsOnly")]
+        public virtual void ResetHttpsConnectionsOnly()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetImage")]
+        public virtual void ResetImage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLivenessProbe")]
+        public virtual void ResetLivenessProbe()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -158,8 +171,8 @@ namespace scaleway.Container
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetMaxConcurrency")]
-        public virtual void ResetMaxConcurrency()
+        [JsiiMethod(name: "resetLocalStorageLimitBytes")]
+        public virtual void ResetLocalStorageLimitBytes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -172,6 +185,12 @@ namespace scaleway.Container
 
         [JsiiMethod(name: "resetMemoryLimit")]
         public virtual void ResetMemoryLimit()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMemoryLimitBytes")]
+        public virtual void ResetMemoryLimitBytes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -248,8 +267,8 @@ namespace scaleway.Container
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetStatus")]
-        public virtual void ResetStatus()
+        [JsiiMethod(name: "resetStartupProbe")]
+        public virtual void ResetStartupProbe()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -309,16 +328,40 @@ namespace scaleway.Container
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"scaleway.container.ContainerHealthCheckList\"}")]
-        public virtual scaleway.Container.ContainerHealthCheckList HealthCheck
+        [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"scaleway.container.ContainerHealthCheckOutputReference\"}")]
+        public virtual scaleway.Container.ContainerHealthCheckOutputReference HealthCheck
         {
-            get => GetInstanceProperty<scaleway.Container.ContainerHealthCheckList>()!;
+            get => GetInstanceProperty<scaleway.Container.ContainerHealthCheckOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "livenessProbe", typeJson: "{\"fqn\":\"scaleway.container.ContainerLivenessProbeOutputReference\"}")]
+        public virtual scaleway.Container.ContainerLivenessProbeOutputReference LivenessProbe
+        {
+            get => GetInstanceProperty<scaleway.Container.ContainerLivenessProbeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "publicEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PublicEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "scalingOption", typeJson: "{\"fqn\":\"scaleway.container.ContainerScalingOptionList\"}")]
         public virtual scaleway.Container.ContainerScalingOptionList ScalingOption
         {
             get => GetInstanceProperty<scaleway.Container.ContainerScalingOptionList>()!;
+        }
+
+        [JsiiProperty(name: "startupProbe", typeJson: "{\"fqn\":\"scaleway.container.ContainerStartupProbeOutputReference\"}")]
+        public virtual scaleway.Container.ContainerStartupProbeOutputReference StartupProbe
+        {
+            get => GetInstanceProperty<scaleway.Container.ContainerStartupProbeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Status
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.container.ContainerTimeoutsOutputReference\"}")]
@@ -370,10 +413,10 @@ namespace scaleway.Container
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "healthCheckInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.container.ContainerHealthCheck\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? HealthCheckInput
+        [JsiiProperty(name: "healthCheckInput", typeJson: "{\"fqn\":\"scaleway.container.ContainerHealthCheck\"}", isOptional: true)]
+        public virtual scaleway.Container.IContainerHealthCheck? HealthCheckInput
         {
-            get => GetInstanceProperty<object?>();
+            get => GetInstanceProperty<scaleway.Container.IContainerHealthCheck?>();
         }
 
         [JsiiOptional]
@@ -384,10 +427,38 @@ namespace scaleway.Container
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "httpsConnectionsOnlyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? HttpsConnectionsOnlyInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "imageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ImageInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "livenessProbeInput", typeJson: "{\"fqn\":\"scaleway.container.ContainerLivenessProbe\"}", isOptional: true)]
+        public virtual scaleway.Container.IContainerLivenessProbe? LivenessProbeInput
+        {
+            get => GetInstanceProperty<scaleway.Container.IContainerLivenessProbe?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "localStorageLimitBytesInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? LocalStorageLimitBytesInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -398,15 +469,15 @@ namespace scaleway.Container
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "maxConcurrencyInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? MaxConcurrencyInput
+        [JsiiProperty(name: "maxScaleInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MaxScaleInput
         {
             get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "maxScaleInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? MaxScaleInput
+        [JsiiProperty(name: "memoryLimitBytesInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MemoryLimitBytesInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -510,10 +581,10 @@ namespace scaleway.Container
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "statusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StatusInput
+        [JsiiProperty(name: "startupProbeInput", typeJson: "{\"fqn\":\"scaleway.container.ContainerStartupProbe\"}", isOptional: true)]
+        public virtual scaleway.Container.IContainerStartupProbe? StartupProbeInput
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<scaleway.Container.IContainerStartupProbe?>();
         }
 
         [JsiiOptional]
@@ -606,8 +677,42 @@ namespace scaleway.Container
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "httpsConnectionsOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object HttpsConnectionsOnly
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Image
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -620,8 +725,8 @@ namespace scaleway.Container
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "maxConcurrency", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double MaxConcurrency
+        [JsiiProperty(name: "localStorageLimitBytes", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LocalStorageLimitBytes
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
@@ -636,6 +741,13 @@ namespace scaleway.Container
 
         [JsiiProperty(name: "memoryLimit", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MemoryLimit
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "memoryLimitBytes", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MemoryLimitBytes
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
@@ -722,13 +834,6 @@ namespace scaleway.Container
         public virtual System.Collections.Generic.IDictionary<string, string> SecretEnvironmentVariables
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Status
-        {
-            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

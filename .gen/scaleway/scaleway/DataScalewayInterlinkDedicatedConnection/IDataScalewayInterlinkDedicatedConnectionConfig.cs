@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
     {
         /// <summary>The ID of the dedicated connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#connection_id DataScalewayInterlinkDedicatedConnection#connection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#connection_id DataScalewayInterlinkDedicatedConnection#connection_id}
         /// </remarks>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#id DataScalewayInterlinkDedicatedConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#id DataScalewayInterlinkDedicatedConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
 
         /// <summary>The name of the dedicated connection to filter for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#name DataScalewayInterlinkDedicatedConnection#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#name DataScalewayInterlinkDedicatedConnection#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#region DataScalewayInterlinkDedicatedConnection#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#region DataScalewayInterlinkDedicatedConnection#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
 
             /// <summary>The ID of the dedicated connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#connection_id DataScalewayInterlinkDedicatedConnection#connection_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#connection_id DataScalewayInterlinkDedicatedConnection#connection_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#id DataScalewayInterlinkDedicatedConnection#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#id DataScalewayInterlinkDedicatedConnection#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
 
             /// <summary>The name of the dedicated connection to filter for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#name DataScalewayInterlinkDedicatedConnection#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#name DataScalewayInterlinkDedicatedConnection#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace scaleway.DataScalewayInterlinkDedicatedConnection
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/data-sources/interlink_dedicated_connection#region DataScalewayInterlinkDedicatedConnection#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/interlink_dedicated_connection#region DataScalewayInterlinkDedicatedConnection#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

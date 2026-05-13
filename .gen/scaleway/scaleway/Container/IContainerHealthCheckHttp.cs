@@ -9,12 +9,16 @@ namespace scaleway.Container
     {
         /// <summary>Path to use for the HTTP health check.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#path Container#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#path Container#path}
         /// </remarks>
-        [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
-        string Path
+        [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Path
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IContainerHealthCheckHttp), fullyQualifiedName: "scaleway.container.ContainerHealthCheckHttp")]
@@ -26,12 +30,13 @@ namespace scaleway.Container
 
             /// <summary>Path to use for the HTTP health check.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.74.0/docs/resources/container#path Container#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container#path Container#path}
             /// </remarks>
-            [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
-            public string Path
+            [JsiiOptional]
+            [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Path
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
         }
     }
