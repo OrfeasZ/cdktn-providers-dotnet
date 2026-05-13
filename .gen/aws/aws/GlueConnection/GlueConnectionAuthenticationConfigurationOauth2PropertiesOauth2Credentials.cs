@@ -7,7 +7,7 @@ namespace aws.GlueConnection
     [JsiiByValue(fqn: "aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials")]
     public class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials : aws.GlueConnection.IGlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#access_token GlueConnection#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#access_token GlueConnection#access_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessToken
@@ -16,7 +16,7 @@ namespace aws.GlueConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jwtToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JwtToken
@@ -25,7 +25,7 @@ namespace aws.GlueConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RefreshToken
@@ -34,7 +34,7 @@ namespace aws.GlueConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userManagedClientApplicationClientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserManagedClientApplicationClientSecret

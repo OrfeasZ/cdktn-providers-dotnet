@@ -11,7 +11,7 @@ namespace aws.Codepipeline
     {
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/codepipeline#condition Codepipeline#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/codepipeline#condition Codepipeline#condition}
         /// </remarks>
         [JsiiProperty(name: "condition", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccessCondition\"}")]
         public aws.Codepipeline.ICodepipelineStageOnSuccessCondition Condition

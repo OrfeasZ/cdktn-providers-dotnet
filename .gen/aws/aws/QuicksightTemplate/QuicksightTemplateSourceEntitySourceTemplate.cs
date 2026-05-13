@@ -9,7 +9,7 @@ namespace aws.QuicksightTemplate
     [JsiiByValue(fqn: "aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceTemplate")]
     public class QuicksightTemplateSourceEntitySourceTemplate : aws.QuicksightTemplate.IQuicksightTemplateSourceEntitySourceTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
         {

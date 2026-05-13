@@ -7,7 +7,7 @@ namespace aws.DbSnapshotCopy
     [JsiiByValue(fqn: "aws.dbSnapshotCopy.DbSnapshotCopyTimeouts")]
     public class DbSnapshotCopyTimeouts : aws.DbSnapshotCopy.IDbSnapshotCopyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/db_snapshot_copy#create DbSnapshotCopy#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

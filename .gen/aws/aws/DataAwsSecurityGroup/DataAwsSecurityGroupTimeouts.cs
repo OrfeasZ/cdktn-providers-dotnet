@@ -7,7 +7,7 @@ namespace aws.DataAwsSecurityGroup
     [JsiiByValue(fqn: "aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeouts")]
     public class DataAwsSecurityGroupTimeouts : aws.DataAwsSecurityGroup.IDataAwsSecurityGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/data-sources/security_group#read DataAwsSecurityGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/security_group#read DataAwsSecurityGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

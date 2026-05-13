@@ -9,7 +9,7 @@ namespace aws.GlueConnection
     {
         /// <summary>authorization_code_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
         /// </remarks>
         [JsiiProperty(name: "authorizationCodeProperties", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizationCodeProperties\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.GlueConnection
 
         /// <summary>oauth2_client_application block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#oauth2_client_application GlueConnection#oauth2_client_application}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#oauth2_client_application GlueConnection#oauth2_client_application}
         /// </remarks>
         [JsiiProperty(name: "oauth2ClientApplication", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2ClientApplication\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.GlueConnection
 
         /// <summary>oauth2_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#oauth2_credentials GlueConnection#oauth2_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#oauth2_credentials GlueConnection#oauth2_credentials}
         /// </remarks>
         [JsiiProperty(name: "oauth2Credentials", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace aws.GlueConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#oauth2_grant_type GlueConnection#oauth2_grant_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#oauth2_grant_type GlueConnection#oauth2_grant_type}.</summary>
         [JsiiProperty(name: "oauth2GrantType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Oauth2GrantType
@@ -60,7 +60,7 @@ namespace aws.GlueConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#token_url GlueConnection#token_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#token_url GlueConnection#token_url}.</summary>
         [JsiiProperty(name: "tokenUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TokenUrl
@@ -71,7 +71,7 @@ namespace aws.GlueConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}.</summary>
         [JsiiProperty(name: "tokenUrlParametersMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TokenUrlParametersMap
@@ -91,7 +91,7 @@ namespace aws.GlueConnection
 
             /// <summary>authorization_code_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authorizationCodeProperties", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizationCodeProperties\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace aws.GlueConnection
 
             /// <summary>oauth2_client_application block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#oauth2_client_application GlueConnection#oauth2_client_application}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#oauth2_client_application GlueConnection#oauth2_client_application}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauth2ClientApplication", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2ClientApplication\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace aws.GlueConnection
 
             /// <summary>oauth2_credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#oauth2_credentials GlueConnection#oauth2_credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#oauth2_credentials GlueConnection#oauth2_credentials}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauth2Credentials", typeJson: "{\"fqn\":\"aws.glueConnection.GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace aws.GlueConnection
                 get => GetInstanceProperty<aws.GlueConnection.IGlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Credentials?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#oauth2_grant_type GlueConnection#oauth2_grant_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#oauth2_grant_type GlueConnection#oauth2_grant_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oauth2GrantType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Oauth2GrantType
@@ -130,7 +130,7 @@ namespace aws.GlueConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#token_url GlueConnection#token_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#token_url GlueConnection#token_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tokenUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TokenUrl
@@ -138,7 +138,7 @@ namespace aws.GlueConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tokenUrlParametersMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TokenUrlParametersMap

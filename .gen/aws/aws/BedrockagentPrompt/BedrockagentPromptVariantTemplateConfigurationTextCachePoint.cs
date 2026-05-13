@@ -9,7 +9,7 @@ namespace aws.BedrockagentPrompt
     [JsiiByValue(fqn: "aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationTextCachePoint")]
     public class BedrockagentPromptVariantTemplateConfigurationTextCachePoint : aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationTextCachePoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/bedrockagent_prompt#type BedrockagentPrompt#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

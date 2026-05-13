@@ -9,7 +9,7 @@ namespace aws.AppsyncDatasource
     [JsiiByValue(fqn: "aws.appsyncDatasource.AppsyncDatasourceLambdaConfig")]
     public class AppsyncDatasourceLambdaConfig : aws.AppsyncDatasource.IAppsyncDatasourceLambdaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appsync_datasource#function_arn AppsyncDatasource#function_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appsync_datasource#function_arn AppsyncDatasource#function_arn}.</summary>
         [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionArn
         {

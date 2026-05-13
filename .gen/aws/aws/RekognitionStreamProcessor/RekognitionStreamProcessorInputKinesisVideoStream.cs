@@ -11,7 +11,7 @@ namespace aws.RekognitionStreamProcessor
     {
         /// <summary>ARN of the Kinesis video stream stream that streams the source video.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/rekognition_stream_processor#arn RekognitionStreamProcessor#arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/rekognition_stream_processor#arn RekognitionStreamProcessor#arn}
         /// </remarks>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public string Arn
