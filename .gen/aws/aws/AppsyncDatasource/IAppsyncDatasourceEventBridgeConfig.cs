@@ -7,7 +7,7 @@ namespace aws.AppsyncDatasource
     [JsiiInterface(nativeType: typeof(IAppsyncDatasourceEventBridgeConfig), fullyQualifiedName: "aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfig")]
     public interface IAppsyncDatasourceEventBridgeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appsync_datasource#event_bus_arn AppsyncDatasource#event_bus_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appsync_datasource#event_bus_arn AppsyncDatasource#event_bus_arn}.</summary>
         [JsiiProperty(name: "eventBusArn", typeJson: "{\"primitive\":\"string\"}")]
         string EventBusArn
         {
@@ -21,7 +21,7 @@ namespace aws.AppsyncDatasource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/appsync_datasource#event_bus_arn AppsyncDatasource#event_bus_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appsync_datasource#event_bus_arn AppsyncDatasource#event_bus_arn}.</summary>
             [JsiiProperty(name: "eventBusArn", typeJson: "{\"primitive\":\"string\"}")]
             public string EventBusArn
             {

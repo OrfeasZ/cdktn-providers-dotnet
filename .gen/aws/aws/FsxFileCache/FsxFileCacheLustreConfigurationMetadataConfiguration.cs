@@ -9,7 +9,7 @@ namespace aws.FsxFileCache
     [JsiiByValue(fqn: "aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfiguration")]
     public class FsxFileCacheLustreConfigurationMetadataConfiguration : aws.FsxFileCache.IFsxFileCacheLustreConfigurationMetadataConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/fsx_file_cache#storage_capacity FsxFileCache#storage_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/fsx_file_cache#storage_capacity FsxFileCache#storage_capacity}.</summary>
         [JsiiProperty(name: "storageCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double StorageCapacity
         {

@@ -9,7 +9,7 @@ namespace aws.GlueConnection
     [JsiiByValue(fqn: "aws.glueConnection.GlueConnectionAuthenticationConfigurationBasicAuthenticationCredentials")]
     public class GlueConnectionAuthenticationConfigurationBasicAuthenticationCredentials : aws.GlueConnection.IGlueConnectionAuthenticationConfigurationBasicAuthenticationCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#password GlueConnection#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#password GlueConnection#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace aws.GlueConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.44.0/docs/resources/glue_connection#username GlueConnection#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_connection#username GlueConnection#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {
