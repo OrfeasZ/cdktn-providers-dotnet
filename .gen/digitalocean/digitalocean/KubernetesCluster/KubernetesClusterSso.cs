@@ -4,15 +4,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.KubernetesCluster
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "digitalocean.kubernetesCluster.KubernetesClusterSso")]
     public class KubernetesClusterSso : digitalocean.KubernetesCluster.IKubernetesClusterSso
     {
-        private object? _enabled;
+        private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public object? Enabled
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
+        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object Enabled
         {
             get => _enabled;
             set
@@ -29,7 +30,7 @@ namespace digitalocean.KubernetesCluster
                             // Not enough information to type-check...
                             break;
                         case null:
-                            break;
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
@@ -38,9 +39,27 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/resources/kubernetes_cluster#client_id KubernetesCluster#client_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ClientId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/resources/kubernetes_cluster#issuer_url KubernetesCluster#issuer_url}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "issuerUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? IssuerUrl
+        {
+            get;
+            set;
+        }
+
         private object? _required;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/resources/kubernetes_cluster#required KubernetesCluster#required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/resources/kubernetes_cluster#required KubernetesCluster#required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "required", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Required

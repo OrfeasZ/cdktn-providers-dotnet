@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanSpacesBucketObjects
     /// <remarks>
     /// <h1><c>data_digitalocean_spaces_bucket_objects</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/data-sources/spaces_bucket_objects"><c>data_digitalocean_spaces_bucket_objects</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/data-sources/spaces_bucket_objects"><c>data_digitalocean_spaces_bucket_objects</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
