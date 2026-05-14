@@ -4,21 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.KubernetesCluster
 {
-    [JsiiClass(nativeType: typeof(digitalocean.KubernetesCluster.KubernetesClusterSsoOutputReference), fullyQualifiedName: "digitalocean.kubernetesCluster.KubernetesClusterSsoOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    [JsiiClass(nativeType: typeof(digitalocean.KubernetesCluster.KubernetesClusterSsoOutputReference), fullyQualifiedName: "digitalocean.kubernetesCluster.KubernetesClusterSsoOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
     public class KubernetesClusterSsoOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        /// <param name="complexObjectIndex">the index of this item in the list.</param>
-        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
-        public KubernetesClusterSsoOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        public KubernetesClusterSsoOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
         {
-            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
         }
 
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
@@ -35,8 +33,14 @@ namespace digitalocean.KubernetesCluster
         {
         }
 
-        [JsiiMethod(name: "resetEnabled")]
-        public virtual void ResetEnabled()
+        [JsiiMethod(name: "resetClientId")]
+        public virtual void ResetClientId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIssuerUrl")]
+        public virtual void ResetIssuerUrl()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -48,6 +52,13 @@ namespace digitalocean.KubernetesCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "clientIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ClientIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
         {
@@ -55,10 +66,24 @@ namespace digitalocean.KubernetesCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "issuerUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IssuerUrlInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "requiredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RequiredInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -86,6 +111,13 @@ namespace digitalocean.KubernetesCluster
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "issuerUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IssuerUrl
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "required", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -116,31 +148,11 @@ namespace digitalocean.KubernetesCluster
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterSso\"}]}}", isOptional: true)]
-        public virtual object? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterSso\"}", isOptional: true)]
+        public virtual digitalocean.KubernetesCluster.IKubernetesClusterSso? InternalValue
         {
-            get => GetInstanceProperty<object?>();
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case digitalocean.KubernetesCluster.IKubernetesClusterSso cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            break;
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.KubernetesCluster.IKubernetesClusterSso).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
+            get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterSso?>();
+            set => SetInstanceProperty(value);
         }
     }
 }

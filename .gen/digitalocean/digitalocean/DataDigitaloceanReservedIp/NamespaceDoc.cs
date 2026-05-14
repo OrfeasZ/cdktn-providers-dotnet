@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanReservedIp
     /// <remarks>
     /// <h1><c>data_digitalocean_reserved_ip</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/data-sources/reserved_ip"><c>data_digitalocean_reserved_ip</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/data-sources/reserved_ip"><c>data_digitalocean_reserved_ip</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

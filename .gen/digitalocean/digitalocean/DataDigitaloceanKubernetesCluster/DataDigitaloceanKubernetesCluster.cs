@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.DataDigitaloceanKubernetesCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster), fullyQualifiedName: "digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterConfig\"}}]")]
     public class DataDigitaloceanKubernetesCluster : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataDigitaloceanKubernetesCluster(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         /// <param name="importToId">The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.</param>
         /// <param name="importFromId">The id of the existing DataDigitaloceanKubernetesCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.85.1/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanKubernetesCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanKubernetesCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -99,27 +99,10 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterRoutingAgent)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putSso", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSso\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutSso(object @value)
+        [JsiiMethod(name: "putSso", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSso\"}}]")]
+        public virtual void PutSso(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso @value)
         {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAmdGpuDeviceMetricsExporterPlugin")]
@@ -309,10 +292,10 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "sso", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSsoList\"}")]
-        public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSsoList Sso
+        [JsiiProperty(name: "sso", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSsoOutputReference\"}")]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSsoOutputReference Sso
         {
-            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSsoList>()!;
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSsoOutputReference>()!;
         }
 
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
@@ -415,10 +398,10 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "ssoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSso\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? SsoInput
+        [JsiiProperty(name: "ssoInput", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterSso\"}", isOptional: true)]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso? SsoInput
         {
-            get => GetInstanceProperty<object?>();
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterSso?>();
         }
 
         [JsiiOptional]
