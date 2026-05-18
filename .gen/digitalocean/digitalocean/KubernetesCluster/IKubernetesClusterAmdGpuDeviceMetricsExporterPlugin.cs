@@ -7,7 +7,7 @@ namespace digitalocean.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterAmdGpuDeviceMetricsExporterPlugin), fullyQualifiedName: "digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDeviceMetricsExporterPlugin")]
     public interface IKubernetesClusterAmdGpuDeviceMetricsExporterPlugin
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.87.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enabled
         {
@@ -21,7 +21,7 @@ namespace digitalocean.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.87.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}.</summary>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enabled
             {
