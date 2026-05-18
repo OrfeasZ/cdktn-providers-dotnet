@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanSizes
     /// <remarks>
     /// <h1><c>data_digitalocean_sizes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.86.0/docs/data-sources/sizes"><c>data_digitalocean_sizes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.87.0/docs/data-sources/sizes"><c>data_digitalocean_sizes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
