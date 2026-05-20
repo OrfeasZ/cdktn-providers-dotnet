@@ -53,6 +53,12 @@ namespace aws.DataAwsOpensearchDomain
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "jwtOptions", typeJson: "{\"fqn\":\"aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsList\"}")]
+        public virtual aws.DataAwsOpensearchDomain.DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsList JwtOptions
+        {
+            get => GetInstanceProperty<aws.DataAwsOpensearchDomain.DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainAdvancedSecurityOptions\"}", isOptional: true)]
         public virtual aws.DataAwsOpensearchDomain.IDataAwsOpensearchDomainAdvancedSecurityOptions? InternalValue

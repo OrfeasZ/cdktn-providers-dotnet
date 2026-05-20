@@ -9,7 +9,7 @@ namespace aws.EcsService
     {
         /// <summary>header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/ecs_service#header EcsService#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/ecs_service#header EcsService#header}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "header", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeader\"}", isOptional: true)]

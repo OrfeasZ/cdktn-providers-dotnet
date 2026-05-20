@@ -9,7 +9,7 @@ namespace aws.SagemakerPipeline
     [JsiiByValue(fqn: "aws.sagemakerPipeline.SagemakerPipelineParallelismConfiguration")]
     public class SagemakerPipelineParallelismConfiguration : aws.SagemakerPipeline.ISagemakerPipelineParallelismConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sagemaker_pipeline#max_parallel_execution_steps SagemakerPipeline#max_parallel_execution_steps}.</summary>
         [JsiiProperty(name: "maxParallelExecutionSteps", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxParallelExecutionSteps
         {

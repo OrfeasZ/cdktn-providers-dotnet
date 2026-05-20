@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSource
     [JsiiByValue(fqn: "aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalytics")]
     public class QuicksightDataSourceParametersAwsIotAnalytics : aws.QuicksightDataSource.IQuicksightDataSourceParametersAwsIotAnalytics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/quicksight_data_source#data_set_name QuicksightDataSource#data_set_name}.</summary>
         [JsiiProperty(name: "dataSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSetName
         {

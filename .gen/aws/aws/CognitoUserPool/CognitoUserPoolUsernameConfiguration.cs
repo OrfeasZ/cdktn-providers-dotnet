@@ -9,7 +9,7 @@ namespace aws.CognitoUserPool
     {
         private object? _caseSensitive;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cognito_user_pool#case_sensitive CognitoUserPool#case_sensitive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cognito_user_pool#case_sensitive CognitoUserPool#case_sensitive}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "caseSensitive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CaseSensitive

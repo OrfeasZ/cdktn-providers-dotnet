@@ -7,7 +7,7 @@ namespace aws.GlueCatalog
     [JsiiInterface(nativeType: typeof(IGlueCatalogTargetRedshiftCatalog), fullyQualifiedName: "aws.glueCatalog.GlueCatalogTargetRedshiftCatalog")]
     public interface IGlueCatalogTargetRedshiftCatalog
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}.</summary>
         [JsiiProperty(name: "catalogArn", typeJson: "{\"primitive\":\"string\"}")]
         string CatalogArn
         {
@@ -21,7 +21,7 @@ namespace aws.GlueCatalog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}.</summary>
             [JsiiProperty(name: "catalogArn", typeJson: "{\"primitive\":\"string\"}")]
             public string CatalogArn
             {

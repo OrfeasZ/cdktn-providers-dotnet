@@ -7,7 +7,7 @@ namespace aws.EmrserverlessApplication
     [JsiiByValue(fqn: "aws.emrserverlessApplication.EmrserverlessApplicationMonitoringConfigurationPrometheusMonitoringConfiguration")]
     public class EmrserverlessApplicationMonitoringConfigurationPrometheusMonitoringConfiguration : aws.EmrserverlessApplication.IEmrserverlessApplicationMonitoringConfigurationPrometheusMonitoringConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/emrserverless_application#remote_write_url EmrserverlessApplication#remote_write_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/emrserverless_application#remote_write_url EmrserverlessApplication#remote_write_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "remoteWriteUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RemoteWriteUrl

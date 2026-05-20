@@ -7,7 +7,7 @@ namespace aws.DataAwsVpcIpamPool
     [JsiiByValue(fqn: "aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolTimeouts")]
     public class DataAwsVpcIpamPoolTimeouts : aws.DataAwsVpcIpamPool.IDataAwsVpcIpamPoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/vpc_ipam_pool#read DataAwsVpcIpamPool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/vpc_ipam_pool#read DataAwsVpcIpamPool#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

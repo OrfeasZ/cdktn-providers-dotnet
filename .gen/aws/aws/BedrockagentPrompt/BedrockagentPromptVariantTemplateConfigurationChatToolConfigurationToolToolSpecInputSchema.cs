@@ -7,7 +7,7 @@ namespace aws.BedrockagentPrompt
     [JsiiByValue(fqn: "aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema")]
     public class BedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema : aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/bedrockagent_prompt#json BedrockagentPrompt#json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagent_prompt#json BedrockagentPrompt#json}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "json", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Json

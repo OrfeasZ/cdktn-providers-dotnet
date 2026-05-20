@@ -9,7 +9,7 @@ namespace aws.SecurityhubInsight
     [JsiiByValue(fqn: "aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4")]
     public class SecurityhubInsightFiltersNetworkDestinationIpv4 : aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationIpv4
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}.</summary>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public string Cidr
         {

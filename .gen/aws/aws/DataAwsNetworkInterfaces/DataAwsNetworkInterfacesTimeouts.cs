@@ -7,7 +7,7 @@ namespace aws.DataAwsNetworkInterfaces
     [JsiiByValue(fqn: "aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfacesTimeouts")]
     public class DataAwsNetworkInterfacesTimeouts : aws.DataAwsNetworkInterfaces.IDataAwsNetworkInterfacesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/data-sources/network_interfaces#read DataAwsNetworkInterfaces#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/network_interfaces#read DataAwsNetworkInterfaces#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

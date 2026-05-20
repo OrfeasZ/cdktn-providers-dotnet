@@ -1,0 +1,14 @@
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.ObservabilityadminTelemetryRuleForOrganization
+{
+    /// <remarks>
+    /// <h1><c>aws_observabilityadmin_telemetry_rule_for_organization</c></h1>
+    ///
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/observabilityadmin_telemetry_rule_for_organization"><c>aws_observabilityadmin_telemetry_rule_for_organization</c></a>.
+    /// </remarks>
+    [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+    public class NamespaceDoc
+    {
+    }
+}

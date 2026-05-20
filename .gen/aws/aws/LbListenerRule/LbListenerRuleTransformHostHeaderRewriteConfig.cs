@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     {
         /// <summary>rewrite block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/lb_listener_rule#rewrite LbListenerRule#rewrite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/lb_listener_rule#rewrite LbListenerRule#rewrite}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rewrite", typeJson: "{\"fqn\":\"aws.lbListenerRule.LbListenerRuleTransformHostHeaderRewriteConfigRewrite\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.MedialiveInputSecurityGroup
     [JsiiByValue(fqn: "aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRules")]
     public class MedialiveInputSecurityGroupWhitelistRules : aws.MedialiveInputSecurityGroup.IMedialiveInputSecurityGroupWhitelistRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/medialive_input_security_group#cidr MedialiveInputSecurityGroup#cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/medialive_input_security_group#cidr MedialiveInputSecurityGroup#cidr}.</summary>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public string Cidr
         {

@@ -7,14 +7,14 @@ namespace aws.SecurityhubConnectorV2
     [JsiiInterface(nativeType: typeof(ISecurityhubConnectorV2ConnectorProviderServiceNow), fullyQualifiedName: "aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderServiceNow")]
     public interface ISecurityhubConnectorV2ConnectorProviderServiceNow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}.</summary>
         [JsiiProperty(name: "instanceName", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}.</summary>
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
         string SecretArn
         {
@@ -28,14 +28,14 @@ namespace aws.SecurityhubConnectorV2
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}.</summary>
             [JsiiProperty(name: "instanceName", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}.</summary>
             [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretArn
             {
