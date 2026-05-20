@@ -9,7 +9,7 @@ namespace aws.InternetmonitorMonitor
     {
         /// <summary>s3_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/internetmonitor_monitor#s3_config InternetmonitorMonitor#s3_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/internetmonitor_monitor#s3_config InternetmonitorMonitor#s3_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Config", typeJson: "{\"fqn\":\"aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace aws.KinesisAnalyticsApplication
     {
         /// <summary>lambda block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/kinesis_analytics_application#lambda KinesisAnalyticsApplication#lambda}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/kinesis_analytics_application#lambda KinesisAnalyticsApplication#lambda}
         /// </remarks>
         [JsiiProperty(name: "lambda", typeJson: "{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsProcessingConfigurationLambda\"}")]
         public aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsProcessingConfigurationLambda Lambda

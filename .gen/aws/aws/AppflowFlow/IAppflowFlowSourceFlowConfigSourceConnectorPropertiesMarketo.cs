@@ -7,7 +7,7 @@ namespace aws.AppflowFlow
     [JsiiInterface(nativeType: typeof(IAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo), fullyQualifiedName: "aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo")]
     public interface IAppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         string Object
         {
@@ -21,7 +21,7 @@ namespace aws.AppflowFlow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/appflow_flow#object AppflowFlow#object}.</summary>
             [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
             public string Object
             {

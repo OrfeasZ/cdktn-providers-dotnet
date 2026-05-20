@@ -9,7 +9,7 @@ namespace aws.RedshiftIdcApplication
     [JsiiByValue(fqn: "aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshiftConnect")]
     public class RedshiftIdcApplicationServiceIntegrationRedshiftConnect : aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationRedshiftConnect
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         public string Authorization
         {

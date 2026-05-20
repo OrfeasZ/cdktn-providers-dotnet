@@ -7,7 +7,7 @@ namespace aws.CleanroomsMembership
     [JsiiInterface(nativeType: typeof(ICleanroomsMembershipPaymentConfigurationQueryCompute), fullyQualifiedName: "aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute")]
     public interface ICleanroomsMembershipPaymentConfigurationQueryCompute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.</summary>
         [JsiiProperty(name: "isResponsible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object IsResponsible
         {
@@ -21,7 +21,7 @@ namespace aws.CleanroomsMembership
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.</summary>
             [JsiiProperty(name: "isResponsible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object IsResponsible
             {

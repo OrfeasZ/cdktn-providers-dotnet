@@ -9,7 +9,7 @@ namespace aws.PipesPipe
     [JsiiByValue(fqn: "aws.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters")]
     public class PipesPipeTargetParametersKinesisStreamParameters : aws.PipesPipe.IPipesPipeTargetParametersKinesisStreamParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.</summary>
         [JsiiProperty(name: "partitionKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PartitionKey
         {

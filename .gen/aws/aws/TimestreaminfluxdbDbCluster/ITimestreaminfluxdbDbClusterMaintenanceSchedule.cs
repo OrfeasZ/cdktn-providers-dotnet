@@ -12,7 +12,7 @@ namespace aws.TimestreaminfluxdbDbCluster
         /// Day must be one of Mon, Tue, Wed, Thu, Fri, Sat, or Sun. Provide an empty
         /// string to let the system choose a window.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_cluster#preferred_maintenance_window TimestreaminfluxdbDbCluster#preferred_maintenance_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/timestreaminfluxdb_db_cluster#preferred_maintenance_window TimestreaminfluxdbDbCluster#preferred_maintenance_window}
         /// </remarks>
         [JsiiProperty(name: "preferredMaintenanceWindow", typeJson: "{\"primitive\":\"string\"}")]
         string PreferredMaintenanceWindow
@@ -22,7 +22,7 @@ namespace aws.TimestreaminfluxdbDbCluster
 
         /// <summary>The IANA timezone identifier for the maintenance window. For 								example, America/New_York or UTC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_cluster#timezone TimestreaminfluxdbDbCluster#timezone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/timestreaminfluxdb_db_cluster#timezone TimestreaminfluxdbDbCluster#timezone}
         /// </remarks>
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
         string Timezone
@@ -42,7 +42,7 @@ namespace aws.TimestreaminfluxdbDbCluster
             /// Day must be one of Mon, Tue, Wed, Thu, Fri, Sat, or Sun. Provide an empty
             /// string to let the system choose a window.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_cluster#preferred_maintenance_window TimestreaminfluxdbDbCluster#preferred_maintenance_window}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/timestreaminfluxdb_db_cluster#preferred_maintenance_window TimestreaminfluxdbDbCluster#preferred_maintenance_window}
             /// </remarks>
             [JsiiProperty(name: "preferredMaintenanceWindow", typeJson: "{\"primitive\":\"string\"}")]
             public string PreferredMaintenanceWindow
@@ -52,7 +52,7 @@ namespace aws.TimestreaminfluxdbDbCluster
 
             /// <summary>The IANA timezone identifier for the maintenance window. For 								example, America/New_York or UTC.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/timestreaminfluxdb_db_cluster#timezone TimestreaminfluxdbDbCluster#timezone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/timestreaminfluxdb_db_cluster#timezone TimestreaminfluxdbDbCluster#timezone}
             /// </remarks>
             [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
             public string Timezone

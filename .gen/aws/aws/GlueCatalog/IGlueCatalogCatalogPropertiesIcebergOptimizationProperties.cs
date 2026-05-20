@@ -7,7 +7,7 @@ namespace aws.GlueCatalog
     [JsiiInterface(nativeType: typeof(IGlueCatalogCatalogPropertiesIcebergOptimizationProperties), fullyQualifiedName: "aws.glueCatalog.GlueCatalogCatalogPropertiesIcebergOptimizationProperties")]
     public interface IGlueCatalogCatalogPropertiesIcebergOptimizationProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#compaction GlueCatalog#compaction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#compaction GlueCatalog#compaction}.</summary>
         [JsiiProperty(name: "compaction", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Compaction
@@ -18,7 +18,7 @@ namespace aws.GlueCatalog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#orphan_file_deletion GlueCatalog#orphan_file_deletion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#orphan_file_deletion GlueCatalog#orphan_file_deletion}.</summary>
         [JsiiProperty(name: "orphanFileDeletion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? OrphanFileDeletion
@@ -29,7 +29,7 @@ namespace aws.GlueCatalog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#retention GlueCatalog#retention}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#retention GlueCatalog#retention}.</summary>
         [JsiiProperty(name: "retention", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Retention
@@ -40,7 +40,7 @@ namespace aws.GlueCatalog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RoleArn
@@ -58,7 +58,7 @@ namespace aws.GlueCatalog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#compaction GlueCatalog#compaction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#compaction GlueCatalog#compaction}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compaction", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Compaction
@@ -66,7 +66,7 @@ namespace aws.GlueCatalog
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#orphan_file_deletion GlueCatalog#orphan_file_deletion}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#orphan_file_deletion GlueCatalog#orphan_file_deletion}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "orphanFileDeletion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? OrphanFileDeletion
@@ -74,7 +74,7 @@ namespace aws.GlueCatalog
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#retention GlueCatalog#retention}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#retention GlueCatalog#retention}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retention", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Retention
@@ -82,7 +82,7 @@ namespace aws.GlueCatalog
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RoleArn

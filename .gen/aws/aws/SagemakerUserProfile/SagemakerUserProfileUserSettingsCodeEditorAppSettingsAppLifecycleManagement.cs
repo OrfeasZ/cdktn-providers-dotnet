@@ -9,7 +9,7 @@ namespace aws.SagemakerUserProfile
     {
         /// <summary>idle_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/sagemaker_user_profile#idle_settings SagemakerUserProfile#idle_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/sagemaker_user_profile#idle_settings SagemakerUserProfile#idle_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "idleSettings", typeJson: "{\"fqn\":\"aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings\"}", isOptional: true)]

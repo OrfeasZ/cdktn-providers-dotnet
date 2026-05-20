@@ -7,7 +7,7 @@ namespace aws.ComprehendEntityRecognizer
     [JsiiInterface(nativeType: typeof(IComprehendEntityRecognizerInputDataConfigEntityTypes), fullyQualifiedName: "aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityTypes")]
     public interface IComprehendEntityRecognizerInputDataConfigEntityTypes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/comprehend_entity_recognizer#type ComprehendEntityRecognizer#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/comprehend_entity_recognizer#type ComprehendEntityRecognizer#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace aws.ComprehendEntityRecognizer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.45.0/docs/resources/comprehend_entity_recognizer#type ComprehendEntityRecognizer#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/comprehend_entity_recognizer#type ComprehendEntityRecognizer#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
