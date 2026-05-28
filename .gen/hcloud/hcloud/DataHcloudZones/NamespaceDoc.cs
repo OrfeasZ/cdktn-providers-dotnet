@@ -5,7 +5,7 @@ namespace hcloud.DataHcloudZones
     /// <remarks>
     /// <h1><c>data_hcloud_zones</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/data-sources/zones"><c>data_hcloud_zones</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/data-sources/zones"><c>data_hcloud_zones</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
