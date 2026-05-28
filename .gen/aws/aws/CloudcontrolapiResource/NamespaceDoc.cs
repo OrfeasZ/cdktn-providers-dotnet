@@ -5,7 +5,7 @@ namespace aws.CloudcontrolapiResource
     /// <remarks>
     /// <h1><c>aws_cloudcontrolapi_resource</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudcontrolapi_resource"><c>aws_cloudcontrolapi_resource</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/cloudcontrolapi_resource"><c>aws_cloudcontrolapi_resource</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

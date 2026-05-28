@@ -95,6 +95,12 @@ namespace aws.RouteTable
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOdbNetworkArn")]
+        public virtual void ResetOdbNetworkArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTransitGatewayId")]
         public virtual void ResetTransitGatewayId()
         {
@@ -179,6 +185,13 @@ namespace aws.RouteTable
         [JsiiOptional]
         [JsiiProperty(name: "networkInterfaceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NetworkInterfaceIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "odbNetworkArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OdbNetworkArnInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -269,6 +282,13 @@ namespace aws.RouteTable
 
         [JsiiProperty(name: "networkInterfaceId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NetworkInterfaceId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "odbNetworkArn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OdbNetworkArn
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

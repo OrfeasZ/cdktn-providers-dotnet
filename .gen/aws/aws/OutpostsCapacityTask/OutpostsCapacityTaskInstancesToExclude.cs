@@ -9,7 +9,7 @@ namespace aws.OutpostsCapacityTask
     [JsiiByValue(fqn: "aws.outpostsCapacityTask.OutpostsCapacityTaskInstancesToExclude")]
     public class OutpostsCapacityTaskInstancesToExclude : aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancesToExclude
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/outposts_capacity_task#instances OutpostsCapacityTask#instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/outposts_capacity_task#instances OutpostsCapacityTask#instances}.</summary>
         [JsiiProperty(name: "instances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Instances
         {

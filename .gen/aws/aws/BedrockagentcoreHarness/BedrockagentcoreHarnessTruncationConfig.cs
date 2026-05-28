@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreHarness
     {
         private object? _slidingWindow;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#sliding_window BedrockagentcoreHarness#sliding_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#sliding_window BedrockagentcoreHarness#sliding_window}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "slidingWindow", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessTruncationConfigSlidingWindow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? SlidingWindow
@@ -40,7 +40,7 @@ namespace aws.BedrockagentcoreHarness
 
         private object? _summarization;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#summarization BedrockagentcoreHarness#summarization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#summarization BedrockagentcoreHarness#summarization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "summarization", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessTruncationConfigSummarization\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Summarization

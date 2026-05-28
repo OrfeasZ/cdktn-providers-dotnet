@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelCdiInputSpecification")]
     public class MedialiveChannelCdiInputSpecification : aws.MedialiveChannel.IMedialiveChannelCdiInputSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/medialive_channel#resolution MedialiveChannel#resolution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/medialive_channel#resolution MedialiveChannel#resolution}.</summary>
         [JsiiProperty(name: "resolution", typeJson: "{\"primitive\":\"string\"}")]
         public string Resolution
         {

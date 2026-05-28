@@ -5,7 +5,7 @@ namespace aws.ArczonalshiftAutoshiftObserverNotificationStatus
     /// <remarks>
     /// <h1><c>aws_arczonalshift_autoshift_observer_notification_status</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arczonalshift_autoshift_observer_notification_status"><c>aws_arczonalshift_autoshift_observer_notification_status</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arczonalshift_autoshift_observer_notification_status"><c>aws_arczonalshift_autoshift_observer_notification_status</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

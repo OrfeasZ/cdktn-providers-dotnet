@@ -7,7 +7,7 @@ namespace aws.GlueCatalog
     [JsiiInterface(nativeType: typeof(IGlueCatalogCreateTableDefaultPermissionsPrincipal), fullyQualifiedName: "aws.glueCatalog.GlueCatalogCreateTableDefaultPermissionsPrincipal")]
     public interface IGlueCatalogCreateTableDefaultPermissionsPrincipal
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}.</summary>
         [JsiiProperty(name: "dataLakePrincipalIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataLakePrincipalIdentifier
@@ -25,7 +25,7 @@ namespace aws.GlueCatalog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataLakePrincipalIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataLakePrincipalIdentifier

@@ -101,6 +101,12 @@ namespace aws.DataAwsRouteTable
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "odbNetworkArn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OdbNetworkArn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "transitGatewayId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TransitGatewayId
         {

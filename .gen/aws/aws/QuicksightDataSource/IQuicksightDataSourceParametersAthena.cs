@@ -7,7 +7,18 @@ namespace aws.QuicksightDataSource
     [JsiiInterface(nativeType: typeof(IQuicksightDataSourceParametersAthena), fullyQualifiedName: "aws.quicksightDataSource.QuicksightDataSourceParametersAthena")]
     public interface IQuicksightDataSourceParametersAthena
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.</summary>
+        [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? RoleArn
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}.</summary>
         [JsiiProperty(name: "workGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkGroup
@@ -25,7 +36,15 @@ namespace aws.QuicksightDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? RoleArn
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkGroup

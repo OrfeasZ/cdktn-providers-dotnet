@@ -7,7 +7,7 @@ namespace aws.ArczonalshiftAutoshiftObserverNotificationStatus
     [JsiiInterface(nativeType: typeof(IArczonalshiftAutoshiftObserverNotificationStatusConfig), fullyQualifiedName: "aws.arczonalshiftAutoshiftObserverNotificationStatus.ArczonalshiftAutoshiftObserverNotificationStatusConfig")]
     public interface IArczonalshiftAutoshiftObserverNotificationStatusConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         string Status
         {
@@ -16,7 +16,7 @@ namespace aws.ArczonalshiftAutoshiftObserverNotificationStatus
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arczonalshift_autoshift_observer_notification_status#region ArczonalshiftAutoshiftObserverNotificationStatus#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arczonalshift_autoshift_observer_notification_status#region ArczonalshiftAutoshiftObserverNotificationStatus#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.ArczonalshiftAutoshiftObserverNotificationStatus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arczonalshift_autoshift_observer_notification_status#status ArczonalshiftAutoshiftObserverNotificationStatus#status}.</summary>
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
             public string Status
             {
@@ -44,7 +44,7 @@ namespace aws.ArczonalshiftAutoshiftObserverNotificationStatus
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arczonalshift_autoshift_observer_notification_status#region ArczonalshiftAutoshiftObserverNotificationStatus#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arczonalshift_autoshift_observer_notification_status#region ArczonalshiftAutoshiftObserverNotificationStatus#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

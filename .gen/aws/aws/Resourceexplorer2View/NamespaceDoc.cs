@@ -5,7 +5,7 @@ namespace aws.Resourceexplorer2View
     /// <remarks>
     /// <h1><c>aws_resourceexplorer2_view</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/resourceexplorer2_view"><c>aws_resourceexplorer2_view</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/resourceexplorer2_view"><c>aws_resourceexplorer2_view</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

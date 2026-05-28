@@ -9,7 +9,7 @@ namespace aws.RedshiftNamespaceRegistration
     [JsiiByValue(fqn: "aws.redshiftNamespaceRegistration.RedshiftNamespaceRegistrationConfig")]
     public class RedshiftNamespaceRegistrationConfig : aws.RedshiftNamespaceRegistration.IRedshiftNamespaceRegistrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_namespace_registration#consumer_identifier RedshiftNamespaceRegistration#consumer_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/redshift_namespace_registration#consumer_identifier RedshiftNamespaceRegistration#consumer_identifier}.</summary>
         [JsiiProperty(name: "consumerIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsumerIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.RedshiftNamespaceRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_namespace_registration#namespace_type RedshiftNamespaceRegistration#namespace_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/redshift_namespace_registration#namespace_type RedshiftNamespaceRegistration#namespace_type}.</summary>
         [JsiiProperty(name: "namespaceType", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceType
         {
@@ -25,7 +25,7 @@ namespace aws.RedshiftNamespaceRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_namespace_registration#provisioned_cluster_identifier RedshiftNamespaceRegistration#provisioned_cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/redshift_namespace_registration#provisioned_cluster_identifier RedshiftNamespaceRegistration#provisioned_cluster_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedClusterIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProvisionedClusterIdentifier
@@ -36,7 +36,7 @@ namespace aws.RedshiftNamespaceRegistration
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_namespace_registration#region RedshiftNamespaceRegistration#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/redshift_namespace_registration#region RedshiftNamespaceRegistration#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.RedshiftNamespaceRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_namespace_registration#serverless_namespace_identifier RedshiftNamespaceRegistration#serverless_namespace_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/redshift_namespace_registration#serverless_namespace_identifier RedshiftNamespaceRegistration#serverless_namespace_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverlessNamespaceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerlessNamespaceIdentifier
@@ -55,7 +55,7 @@ namespace aws.RedshiftNamespaceRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/redshift_namespace_registration#serverless_workgroup_identifier RedshiftNamespaceRegistration#serverless_workgroup_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/redshift_namespace_registration#serverless_workgroup_identifier RedshiftNamespaceRegistration#serverless_workgroup_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverlessWorkgroupIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerlessWorkgroupIdentifier

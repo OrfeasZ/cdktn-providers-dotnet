@@ -7,7 +7,7 @@ namespace aws.SecurityhubConnectorV2
     [JsiiInterface(nativeType: typeof(ISecurityhubConnectorV2ConnectorProviderJiraCloud), fullyQualifiedName: "aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderJiraCloud")]
     public interface ISecurityhubConnectorV2ConnectorProviderJiraCloud
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}.</summary>
         [JsiiProperty(name: "projectKey", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectKey
         {
@@ -21,7 +21,7 @@ namespace aws.SecurityhubConnectorV2
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}.</summary>
             [JsiiProperty(name: "projectKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectKey
             {

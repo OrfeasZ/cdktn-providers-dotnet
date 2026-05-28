@@ -33,6 +33,12 @@ namespace aws.QuicksightDataSource
         {
         }
 
+        [JsiiMethod(name: "resetRoleArn")]
+        public virtual void ResetRoleArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetWorkGroup")]
         public virtual void ResetWorkGroup()
         {
@@ -40,10 +46,24 @@ namespace aws.QuicksightDataSource
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "roleArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RoleArnInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "workGroupInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? WorkGroupInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RoleArn
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "workGroup", typeJson: "{\"primitive\":\"string\"}")]

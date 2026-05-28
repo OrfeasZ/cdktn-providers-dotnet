@@ -7,7 +7,7 @@ namespace aws.AcmpcaCertificateAuthority
     [JsiiByValue(fqn: "aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityTimeouts")]
     public class AcmpcaCertificateAuthorityTimeouts : aws.AcmpcaCertificateAuthority.IAcmpcaCertificateAuthorityTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/acmpca_certificate_authority#create AcmpcaCertificateAuthority#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/acmpca_certificate_authority#create AcmpcaCertificateAuthority#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create

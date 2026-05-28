@@ -7,7 +7,7 @@ namespace aws.TransferUser
     [JsiiByValue(fqn: "aws.transferUser.TransferUserTimeouts")]
     public class TransferUserTimeouts : aws.TransferUser.ITransferUserTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_user#delete TransferUser#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_user#delete TransferUser#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

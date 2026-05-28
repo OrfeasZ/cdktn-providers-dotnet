@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreAgentRuntime
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreAgentRuntimeFilesystemConfigurationSessionStorage), fullyQualifiedName: "aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeFilesystemConfigurationSessionStorage")]
     public interface IBedrockagentcoreAgentRuntimeFilesystemConfigurationSessionStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
         string MountPath
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreAgentRuntime
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.</summary>
             [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
             public string MountPath
             {

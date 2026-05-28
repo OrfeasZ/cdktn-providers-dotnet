@@ -33,6 +33,18 @@ namespace aws.SsmResourceDataSync
         {
         }
 
+        [JsiiMethod(name: "putDestinationDataSharing", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationDestinationDataSharing\"}}]")]
+        public virtual void PutDestinationDataSharing(aws.SsmResourceDataSync.ISsmResourceDataSyncS3DestinationDestinationDataSharing @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SsmResourceDataSync.ISsmResourceDataSyncS3DestinationDestinationDataSharing)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetDestinationDataSharing")]
+        public virtual void ResetDestinationDataSharing()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKmsKeyArn")]
         public virtual void ResetKmsKeyArn()
         {
@@ -51,11 +63,24 @@ namespace aws.SsmResourceDataSync
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "destinationDataSharing", typeJson: "{\"fqn\":\"aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationDestinationDataSharingOutputReference\"}")]
+        public virtual aws.SsmResourceDataSync.SsmResourceDataSyncS3DestinationDestinationDataSharingOutputReference DestinationDataSharing
+        {
+            get => GetInstanceProperty<aws.SsmResourceDataSync.SsmResourceDataSyncS3DestinationDestinationDataSharingOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "bucketNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BucketNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "destinationDataSharingInput", typeJson: "{\"fqn\":\"aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationDestinationDataSharing\"}", isOptional: true)]
+        public virtual aws.SsmResourceDataSync.ISsmResourceDataSyncS3DestinationDestinationDataSharing? DestinationDataSharingInput
+        {
+            get => GetInstanceProperty<aws.SsmResourceDataSync.ISsmResourceDataSyncS3DestinationDestinationDataSharing?>();
         }
 
         [JsiiOptional]

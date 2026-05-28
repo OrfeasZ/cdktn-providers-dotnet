@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>ebs_storage_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_cluster#ebs_storage_info MskCluster#ebs_storage_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_cluster#ebs_storage_info MskCluster#ebs_storage_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsStorageInfo", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfo\"}", isOptional: true)]

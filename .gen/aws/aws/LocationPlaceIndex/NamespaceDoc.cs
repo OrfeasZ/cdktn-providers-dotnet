@@ -5,7 +5,7 @@ namespace aws.LocationPlaceIndex
     /// <remarks>
     /// <h1><c>aws_location_place_index</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/location_place_index"><c>aws_location_place_index</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/location_place_index"><c>aws_location_place_index</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

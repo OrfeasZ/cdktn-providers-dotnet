@@ -11,7 +11,7 @@ namespace aws.BedrockagentcoreGateway
 
         /// <summary>lambda block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_gateway#lambda BedrockagentcoreGateway#lambda}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_gateway#lambda BedrockagentcoreGateway#lambda}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambda", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInterceptorLambda\"},\"kind\":\"array\"}}]}}", isOptional: true)]

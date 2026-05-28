@@ -7,7 +7,7 @@ namespace aws.XrayIndexingRule
     [JsiiInterface(nativeType: typeof(IXrayIndexingRuleRuleProbabilistic), fullyQualifiedName: "aws.xrayIndexingRule.XrayIndexingRuleRuleProbabilistic")]
     public interface IXrayIndexingRuleRuleProbabilistic
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/xray_indexing_rule#desired_sampling_percentage XrayIndexingRule#desired_sampling_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/xray_indexing_rule#desired_sampling_percentage XrayIndexingRule#desired_sampling_percentage}.</summary>
         [JsiiProperty(name: "desiredSamplingPercentage", typeJson: "{\"primitive\":\"number\"}")]
         double DesiredSamplingPercentage
         {
@@ -21,7 +21,7 @@ namespace aws.XrayIndexingRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/xray_indexing_rule#desired_sampling_percentage XrayIndexingRule#desired_sampling_percentage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/xray_indexing_rule#desired_sampling_percentage XrayIndexingRule#desired_sampling_percentage}.</summary>
             [JsiiProperty(name: "desiredSamplingPercentage", typeJson: "{\"primitive\":\"number\"}")]
             public double DesiredSamplingPercentage
             {

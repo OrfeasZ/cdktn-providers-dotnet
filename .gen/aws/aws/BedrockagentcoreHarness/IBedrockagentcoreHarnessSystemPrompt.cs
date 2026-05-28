@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreHarness
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreHarnessSystemPrompt), fullyQualifiedName: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSystemPrompt")]
     public interface IBedrockagentcoreHarnessSystemPrompt
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
         string Text
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreHarness
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
             [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
             public string Text
             {

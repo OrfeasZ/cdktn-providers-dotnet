@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionCacheTagConfig")]
     public class CloudfrontDistributionCacheTagConfig : aws.CloudfrontDistribution.ICloudfrontDistributionCacheTagConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudfront_distribution#header_name CloudfrontDistribution#header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/cloudfront_distribution#header_name CloudfrontDistribution#header_name}.</summary>
         [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}")]
         public string HeaderName
         {

@@ -11,7 +11,7 @@ namespace aws.CleanroomsMembership
 
         /// <summary>query_compute block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryCompute", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute\"},\"kind\":\"array\"}}]}}", isOptional: true)]

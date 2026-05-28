@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreHarness
     [JsiiByValue(fqn: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalConfig")]
     public class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalConfig : aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#map_block_key BedrockagentcoreHarness#map_block_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#map_block_key BedrockagentcoreHarness#map_block_key}.</summary>
         [JsiiProperty(name: "mapBlockKey", typeJson: "{\"primitive\":\"string\"}")]
         public string MapBlockKey
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentcoreHarness
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#relevance_score BedrockagentcoreHarness#relevance_score}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#relevance_score BedrockagentcoreHarness#relevance_score}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relevanceScore", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RelevanceScore
@@ -26,7 +26,7 @@ namespace aws.BedrockagentcoreHarness
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#strategy_id BedrockagentcoreHarness#strategy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#strategy_id BedrockagentcoreHarness#strategy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "strategyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StrategyId
@@ -35,7 +35,7 @@ namespace aws.BedrockagentcoreHarness
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#top_k BedrockagentcoreHarness#top_k}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#top_k BedrockagentcoreHarness#top_k}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "topK", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TopK

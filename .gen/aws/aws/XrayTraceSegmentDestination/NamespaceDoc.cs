@@ -5,7 +5,7 @@ namespace aws.XrayTraceSegmentDestination
     /// <remarks>
     /// <h1><c>aws_xray_trace_segment_destination</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/xray_trace_segment_destination"><c>aws_xray_trace_segment_destination</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/xray_trace_segment_destination"><c>aws_xray_trace_segment_destination</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

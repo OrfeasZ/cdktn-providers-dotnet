@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.TransferServer
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_server aws_transfer_server}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_server aws_transfer_server}.</summary>
     [JsiiClass(nativeType: typeof(aws.TransferServer.TransferServer), fullyQualifiedName: "aws.transferServer.TransferServer", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"aws.transferServer.TransferServerConfig\"}}]")]
     public class TransferServer : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_server aws_transfer_server} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_server aws_transfer_server} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public TransferServer(Constructs.Construct scope, string id, aws.TransferServer.ITransferServerConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.TransferServer
         /// <param name="importToId">The construct id used in the generated config for the TransferServer to import.</param>
         /// <param name="importFromId">The id of the existing TransferServer that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the TransferServer to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TransferServer to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/transfer_server#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TransferServer that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TransferServer to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TransferServer to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_server#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TransferServer that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TransferServer to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TransferServer.TransferServer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -132,6 +132,12 @@ namespace aws.TransferServer
 
         [JsiiMethod(name: "resetInvocationRole")]
         public virtual void ResetInvocationRole()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIpAddressType")]
+        public virtual void ResetIpAddressType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -359,6 +365,13 @@ namespace aws.TransferServer
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "ipAddressTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IpAddressTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "loggingRoleInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LoggingRoleInput
         {
@@ -541,6 +554,13 @@ namespace aws.TransferServer
 
         [JsiiProperty(name: "invocationRole", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InvocationRole
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpAddressType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
