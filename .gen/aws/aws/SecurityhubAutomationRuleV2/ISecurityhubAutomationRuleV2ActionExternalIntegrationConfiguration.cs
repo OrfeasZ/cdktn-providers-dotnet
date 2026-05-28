@@ -9,7 +9,7 @@ namespace aws.SecurityhubAutomationRuleV2
     {
         /// <summary>The ARN of the connector.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
         /// </remarks>
         [JsiiProperty(name: "connectorArn", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectorArn
@@ -26,7 +26,7 @@ namespace aws.SecurityhubAutomationRuleV2
 
             /// <summary>The ARN of the connector.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
             /// </remarks>
             [JsiiProperty(name: "connectorArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectorArn

@@ -242,6 +242,52 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putRdsCreateCrossRegionReadReplicaConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRdsCreateCrossRegionReadReplicaConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putRdsPromoteReadReplicaConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRdsPromoteReadReplicaConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putRegionSwitchPlanConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegionSwitchPlanConfig(object @value)
         {
@@ -348,6 +394,18 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRdsCreateCrossRegionReadReplicaConfig")]
+        public virtual void ResetRdsCreateCrossRegionReadReplicaConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRdsPromoteReadReplicaConfig")]
+        public virtual void ResetRdsPromoteReadReplicaConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRegionSwitchPlanConfig")]
         public virtual void ResetRegionSwitchPlanConfig()
         {
@@ -412,6 +470,18 @@ namespace aws.ArcregionswitchPlan
         public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigList ParallelConfig
         {
             get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigList>()!;
+        }
+
+        [JsiiProperty(name: "rdsCreateCrossRegionReadReplicaConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfigList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfigList RdsCreateCrossRegionReadReplicaConfig
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfigList>()!;
+        }
+
+        [JsiiProperty(name: "rdsPromoteReadReplicaConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigList RdsPromoteReadReplicaConfig
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigList>()!;
         }
 
         [JsiiProperty(name: "regionSwitchPlanConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList\"}")]
@@ -506,6 +576,20 @@ namespace aws.ArcregionswitchPlan
         [JsiiOptional]
         [JsiiProperty(name: "parallelConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParallelConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "rdsCreateCrossRegionReadReplicaConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RdsCreateCrossRegionReadReplicaConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "rdsPromoteReadReplicaConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RdsPromoteReadReplicaConfigInput
         {
             get => GetInstanceProperty<object?>();
         }

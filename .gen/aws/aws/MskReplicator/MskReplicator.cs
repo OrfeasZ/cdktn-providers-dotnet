@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.MskReplicator
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_replicator aws_msk_replicator}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_replicator aws_msk_replicator}.</summary>
     [JsiiClass(nativeType: typeof(aws.MskReplicator.MskReplicator), fullyQualifiedName: "aws.mskReplicator.MskReplicator", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorConfig\"}}]")]
     public class MskReplicator : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_replicator aws_msk_replicator} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_replicator aws_msk_replicator} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public MskReplicator(Constructs.Construct scope, string id, aws.MskReplicator.IMskReplicatorConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.MskReplicator
         /// <param name="importToId">The construct id used in the generated config for the MskReplicator to import.</param>
         /// <param name="importFromId">The id of the existing MskReplicator that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the MskReplicator to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MskReplicator to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/msk_replicator#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MskReplicator that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MskReplicator to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MskReplicator to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/msk_replicator#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MskReplicator that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MskReplicator to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.MskReplicator.MskReplicator), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -69,6 +69,12 @@ namespace aws.MskReplicator
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putLogDelivery", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDelivery\"}}]")]
+        public virtual void PutLogDelivery(aws.MskReplicator.IMskReplicatorLogDelivery @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskReplicator.IMskReplicatorLogDelivery)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putReplicationInfoList", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListStruct\"}}]")]
         public virtual void PutReplicationInfoList(aws.MskReplicator.IMskReplicatorReplicationInfoListStruct @value)
         {
@@ -89,6 +95,12 @@ namespace aws.MskReplicator
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLogDelivery")]
+        public virtual void ResetLogDelivery()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -154,6 +166,12 @@ namespace aws.MskReplicator
             get => GetInstanceProperty<aws.MskReplicator.MskReplicatorKafkaClusterList>()!;
         }
 
+        [JsiiProperty(name: "logDelivery", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDeliveryOutputReference\"}")]
+        public virtual aws.MskReplicator.MskReplicatorLogDeliveryOutputReference LogDelivery
+        {
+            get => GetInstanceProperty<aws.MskReplicator.MskReplicatorLogDeliveryOutputReference>()!;
+        }
+
         [JsiiProperty(name: "replicationInfoList", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListStructOutputReference\"}")]
         public virtual aws.MskReplicator.MskReplicatorReplicationInfoListStructOutputReference ReplicationInfoList
         {
@@ -185,6 +203,13 @@ namespace aws.MskReplicator
         public virtual object? KafkaClusterInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "logDeliveryInput", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDelivery\"}", isOptional: true)]
+        public virtual aws.MskReplicator.IMskReplicatorLogDelivery? LogDeliveryInput
+        {
+            get => GetInstanceProperty<aws.MskReplicator.IMskReplicatorLogDelivery?>();
         }
 
         [JsiiOptional]

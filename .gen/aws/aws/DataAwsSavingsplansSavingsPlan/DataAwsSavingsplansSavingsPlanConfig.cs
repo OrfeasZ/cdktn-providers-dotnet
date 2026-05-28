@@ -11,7 +11,7 @@ namespace aws.DataAwsSavingsplansSavingsPlan
     {
         /// <summary>The ID of the Savings Plan.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/data-sources/savingsplans_savings_plan#savings_plan_id DataAwsSavingsplansSavingsPlan#savings_plan_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/savingsplans_savings_plan#savings_plan_id DataAwsSavingsplansSavingsPlan#savings_plan_id}
         /// </remarks>
         [JsiiProperty(name: "savingsPlanId", typeJson: "{\"primitive\":\"string\"}")]
         public string SavingsPlanId

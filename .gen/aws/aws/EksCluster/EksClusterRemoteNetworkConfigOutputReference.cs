@@ -45,6 +45,12 @@ namespace aws.EksCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterRemoteNetworkConfigRemotePodNetworks)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetRemoteNodeNetworks")]
+        public virtual void ResetRemoteNodeNetworks()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRemotePodNetworks")]
         public virtual void ResetRemotePodNetworks()
         {

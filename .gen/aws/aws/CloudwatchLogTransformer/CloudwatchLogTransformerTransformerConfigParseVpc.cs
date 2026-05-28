@@ -7,7 +7,7 @@ namespace aws.CloudwatchLogTransformer
     [JsiiByValue(fqn: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpc")]
     public class CloudwatchLogTransformerTransformerConfigParseVpc : aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseVpc
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Source

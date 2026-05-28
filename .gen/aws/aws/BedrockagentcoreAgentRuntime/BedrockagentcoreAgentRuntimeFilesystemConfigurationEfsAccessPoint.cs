@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreAgentRuntime
     [JsiiByValue(fqn: "aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeFilesystemConfigurationEfsAccessPoint")]
     public class BedrockagentcoreAgentRuntimeFilesystemConfigurationEfsAccessPoint : aws.BedrockagentcoreAgentRuntime.IBedrockagentcoreAgentRuntimeFilesystemConfigurationEfsAccessPoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime#access_point_arn BedrockagentcoreAgentRuntime#access_point_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_agent_runtime#access_point_arn BedrockagentcoreAgentRuntime#access_point_arn}.</summary>
         [JsiiProperty(name: "accessPointArn", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessPointArn
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentcoreAgentRuntime
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
         public string MountPath
         {

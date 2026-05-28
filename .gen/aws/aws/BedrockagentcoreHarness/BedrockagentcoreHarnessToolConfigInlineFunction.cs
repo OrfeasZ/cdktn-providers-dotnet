@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreHarness
     [JsiiByValue(fqn: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessToolConfigInlineFunction")]
     public class BedrockagentcoreHarnessToolConfigInlineFunction : aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessToolConfigInlineFunction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#description BedrockagentcoreHarness#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#description BedrockagentcoreHarness#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentcoreHarness
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#input_schema BedrockagentcoreHarness#input_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#input_schema BedrockagentcoreHarness#input_schema}.</summary>
         [JsiiProperty(name: "inputSchema", typeJson: "{\"primitive\":\"string\"}")]
         public string InputSchema
         {

@@ -7,7 +7,7 @@ namespace aws.GlueCatalog
     [JsiiByValue(fqn: "aws.glueCatalog.GlueCatalogCatalogProperties")]
     public class GlueCatalogCatalogProperties : aws.GlueCatalog.IGlueCatalogCatalogProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#custom_properties GlueCatalog#custom_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_catalog#custom_properties GlueCatalog#custom_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? CustomProperties
@@ -20,7 +20,7 @@ namespace aws.GlueCatalog
 
         /// <summary>data_lake_access_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataLakeAccessProperties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.GlueCatalog
 
         /// <summary>iceberg_optimization_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/glue_catalog#iceberg_optimization_properties GlueCatalog#iceberg_optimization_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/glue_catalog#iceberg_optimization_properties GlueCatalog#iceberg_optimization_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergOptimizationProperties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogPropertiesIcebergOptimizationProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreHarness
     [JsiiByValue(fqn: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentArtifactContainerConfiguration")]
     public class BedrockagentcoreHarnessEnvironmentArtifactContainerConfiguration : aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessEnvironmentArtifactContainerConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/bedrockagentcore_harness#container_uri BedrockagentcoreHarness#container_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/bedrockagentcore_harness#container_uri BedrockagentcoreHarness#container_uri}.</summary>
         [JsiiProperty(name: "containerUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerUri
         {

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.ArcregionswitchPlan
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan}.</summary>
     [JsiiClass(nativeType: typeof(aws.ArcregionswitchPlan.ArcregionswitchPlan), fullyQualifiedName: "aws.arcregionswitchPlan.ArcregionswitchPlan", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanConfig\"}}]")]
     public class ArcregionswitchPlan : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ArcregionswitchPlan(Constructs.Construct scope, string id, aws.ArcregionswitchPlan.IArcregionswitchPlanConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.ArcregionswitchPlan
         /// <param name="importToId">The construct id used in the generated config for the ArcregionswitchPlan to import.</param>
         /// <param name="importFromId">The id of the existing ArcregionswitchPlan that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ArcregionswitchPlan to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ArcregionswitchPlan to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/arcregionswitch_plan#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ArcregionswitchPlan that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ArcregionswitchPlan to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ArcregionswitchPlan to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ArcregionswitchPlan that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ArcregionswitchPlan to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ArcregionswitchPlan.ArcregionswitchPlan), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -64,6 +64,29 @@ namespace aws.ArcregionswitchPlan
                         throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanAssociatedAlarms).FullName}[]; received null", nameof(@value));
                     default:
                         throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanAssociatedAlarms).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putReportConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutReportConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
@@ -151,6 +174,12 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetReportConfiguration")]
+        public virtual void ResetReportConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
         {
@@ -204,6 +233,12 @@ namespace aws.ArcregionswitchPlan
         public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanAssociatedAlarmsList AssociatedAlarms
         {
             get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanAssociatedAlarmsList>()!;
+        }
+
+        [JsiiProperty(name: "reportConfiguration", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfigurationList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanReportConfigurationList ReportConfiguration
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanReportConfigurationList>()!;
         }
 
         [JsiiProperty(name: "tagsAll", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
@@ -291,6 +326,13 @@ namespace aws.ArcregionswitchPlan
         public virtual string[]? RegionsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "reportConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ReportConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

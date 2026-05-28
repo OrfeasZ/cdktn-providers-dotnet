@@ -5,7 +5,7 @@ namespace aws.VpcPeeringConnectionOptions
     /// <remarks>
     /// <h1><c>aws_vpc_peering_connection_options</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/vpc_peering_connection_options"><c>aws_vpc_peering_connection_options</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_peering_connection_options"><c>aws_vpc_peering_connection_options</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

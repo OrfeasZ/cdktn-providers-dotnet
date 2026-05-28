@@ -5,7 +5,7 @@ namespace aws.OrganizationsPolicyAttachment
     /// <remarks>
     /// <h1><c>aws_organizations_policy_attachment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/organizations_policy_attachment"><c>aws_organizations_policy_attachment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/organizations_policy_attachment"><c>aws_organizations_policy_attachment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

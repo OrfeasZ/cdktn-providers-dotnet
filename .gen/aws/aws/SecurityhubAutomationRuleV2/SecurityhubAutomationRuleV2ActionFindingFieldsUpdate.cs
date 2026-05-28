@@ -9,7 +9,7 @@ namespace aws.SecurityhubAutomationRuleV2
     {
         /// <summary>A comment for the finding.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_automation_rule_v2#comment SecurityhubAutomationRuleV2#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_automation_rule_v2#comment SecurityhubAutomationRuleV2#comment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.SecurityhubAutomationRuleV2
 
         /// <summary>The severity ID to assign.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_automation_rule_v2#severity_id SecurityhubAutomationRuleV2#severity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_automation_rule_v2#severity_id SecurityhubAutomationRuleV2#severity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "severityId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.SecurityhubAutomationRuleV2
 
         /// <summary>The status ID to assign.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.46.0/docs/resources/securityhub_automation_rule_v2#status_id SecurityhubAutomationRuleV2#status_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/securityhub_automation_rule_v2#status_id SecurityhubAutomationRuleV2#status_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
