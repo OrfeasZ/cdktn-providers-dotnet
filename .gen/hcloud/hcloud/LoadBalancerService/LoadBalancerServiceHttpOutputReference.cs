@@ -63,6 +63,12 @@ namespace hcloud.LoadBalancerService
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeoutIdle")]
+        public virtual void ResetTimeoutIdle()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "certificatesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual double[]? CertificatesInput
@@ -96,6 +102,13 @@ namespace hcloud.LoadBalancerService
         public virtual object? StickySessionsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutIdleInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? TimeoutIdleInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiProperty(name: "certificates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
@@ -171,6 +184,13 @@ namespace hcloud.LoadBalancerService
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "timeoutIdle", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TimeoutIdle
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

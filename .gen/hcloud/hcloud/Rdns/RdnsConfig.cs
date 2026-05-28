@@ -9,7 +9,10 @@ namespace hcloud.Rdns
     [JsiiByValue(fqn: "hcloud.rdns.RdnsConfig")]
     public class RdnsConfig : hcloud.Rdns.IRdnsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#dns_ptr Rdns#dns_ptr}.</summary>
+        /// <summary>Domain name `ip_address` should point to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/resources/rdns#dns_ptr Rdns#dns_ptr}
+        /// </remarks>
         [JsiiProperty(name: "dnsPtr", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsPtr
         {
@@ -17,7 +20,10 @@ namespace hcloud.Rdns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#ip_address Rdns#ip_address}.</summary>
+        /// <summary>IP address that should point to `dns_ptr`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/resources/rdns#ip_address Rdns#ip_address}
+        /// </remarks>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string IpAddress
         {
@@ -25,7 +31,10 @@ namespace hcloud.Rdns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#floating_ip_id Rdns#floating_ip_id}.</summary>
+        /// <summary>ID of the Floating IP the `ip_address` belongs to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/resources/rdns#floating_ip_id Rdns#floating_ip_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "floatingIpId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FloatingIpId
@@ -34,20 +43,10 @@ namespace hcloud.Rdns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#id Rdns#id}.</summary>
+        /// <summary>ID of the Load Balancer the `ip_address` belongs to.</summary>
         /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/resources/rdns#load_balancer_id Rdns#load_balancer_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#load_balancer_id Rdns#load_balancer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LoadBalancerId
@@ -56,7 +55,10 @@ namespace hcloud.Rdns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#primary_ip_id Rdns#primary_ip_id}.</summary>
+        /// <summary>ID of the Primary IP the `ip_address` belongs to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/resources/rdns#primary_ip_id Rdns#primary_ip_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "primaryIpId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PrimaryIpId
@@ -65,7 +67,10 @@ namespace hcloud.Rdns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.63.0/docs/resources/rdns#server_id Rdns#server_id}.</summary>
+        /// <summary>ID of the Server the `ip_address` belongs to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.64.0/docs/resources/rdns#server_id Rdns#server_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ServerId

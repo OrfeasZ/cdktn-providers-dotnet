@@ -65,6 +65,12 @@ namespace hcloud.DataHcloudLoadBalancer
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "timeoutIdle", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TimeoutIdle
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"hcloud.dataHcloudLoadBalancer.DataHcloudLoadBalancerServiceHttp\"}", isOptional: true)]
         public virtual hcloud.DataHcloudLoadBalancer.IDataHcloudLoadBalancerServiceHttp? InternalValue
