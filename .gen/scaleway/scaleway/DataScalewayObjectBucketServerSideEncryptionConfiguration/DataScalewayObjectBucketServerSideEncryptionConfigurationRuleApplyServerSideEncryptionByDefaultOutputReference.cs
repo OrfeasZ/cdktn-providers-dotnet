@@ -35,6 +35,12 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
         {
         }
 
+        [JsiiProperty(name: "kmsMasterKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsMasterKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sseAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SseAlgorithm
         {

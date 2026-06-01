@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
     {
         /// <summary>The bucket's name or regional ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket ObjectBucketServerSideEncryptionConfiguration#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket ObjectBucketServerSideEncryptionConfiguration#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
@@ -19,7 +19,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_server_side_encryption_configuration#rule ObjectBucketServerSideEncryptionConfiguration#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#rule ObjectBucketServerSideEncryptionConfiguration#rule}
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketServerSideEncryptionConfiguration.ObjectBucketServerSideEncryptionConfigurationRule\"},\"kind\":\"array\"}}]}}")]
         object Rule
@@ -27,7 +27,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_server_side_encryption_configuration#id ObjectBucketServerSideEncryptionConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#id ObjectBucketServerSideEncryptionConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,6 +35,20 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Id
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>The region you want to attach the resource to.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#region ObjectBucketServerSideEncryptionConfiguration#region}
+        /// </remarks>
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Region
         {
             get
             {
@@ -51,7 +65,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>The bucket's name or regional ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket ObjectBucketServerSideEncryptionConfiguration#bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket ObjectBucketServerSideEncryptionConfiguration#bucket}
             /// </remarks>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
@@ -61,7 +75,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_server_side_encryption_configuration#rule ObjectBucketServerSideEncryptionConfiguration#rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#rule ObjectBucketServerSideEncryptionConfiguration#rule}
             /// </remarks>
             [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketServerSideEncryptionConfiguration.ObjectBucketServerSideEncryptionConfigurationRule\"},\"kind\":\"array\"}}]}}")]
             public object Rule
@@ -69,7 +83,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_server_side_encryption_configuration#id ObjectBucketServerSideEncryptionConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#id ObjectBucketServerSideEncryptionConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,6 +91,17 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
             [JsiiOptional]
             [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Id
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>The region you want to attach the resource to.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#region ObjectBucketServerSideEncryptionConfiguration#region}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Region
             {
                 get => GetInstanceProperty<string?>();
             }

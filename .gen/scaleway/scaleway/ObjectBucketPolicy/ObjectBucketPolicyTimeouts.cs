@@ -7,7 +7,7 @@ namespace scaleway.ObjectBucketPolicy
     [JsiiByValue(fqn: "scaleway.objectBucketPolicy.ObjectBucketPolicyTimeouts")]
     public class ObjectBucketPolicyTimeouts : scaleway.ObjectBucketPolicy.IObjectBucketPolicyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/object_bucket_policy#default ObjectBucketPolicy#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_policy#default ObjectBucketPolicy#default}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Default

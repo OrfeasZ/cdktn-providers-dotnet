@@ -41,6 +41,35 @@ namespace scaleway.ObjectBucket
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.ObjectBucket.IObjectBucketLifecycleRuleExpiration)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putNoncurrentVersionExpiration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpiration\"}}]")]
+        public virtual void PutNoncurrentVersionExpiration(scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionExpiration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionExpiration)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putNoncurrentVersionTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutNoncurrentVersionTransition(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleTransition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransition(object @value)
         {
@@ -82,6 +111,30 @@ namespace scaleway.ObjectBucket
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNoncurrentVersionExpiration")]
+        public virtual void ResetNoncurrentVersionExpiration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNoncurrentVersionTransition")]
+        public virtual void ResetNoncurrentVersionTransition()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetObjectSizeGreaterThan")]
+        public virtual void ResetObjectSizeGreaterThan()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetObjectSizeLessThan")]
+        public virtual void ResetObjectSizeLessThan()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPrefix")]
         public virtual void ResetPrefix()
         {
@@ -104,6 +157,18 @@ namespace scaleway.ObjectBucket
         public virtual scaleway.ObjectBucket.ObjectBucketLifecycleRuleExpirationOutputReference Expiration
         {
             get => GetInstanceProperty<scaleway.ObjectBucket.ObjectBucketLifecycleRuleExpirationOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "noncurrentVersionExpiration", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpirationOutputReference\"}")]
+        public virtual scaleway.ObjectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpirationOutputReference NoncurrentVersionExpiration
+        {
+            get => GetInstanceProperty<scaleway.ObjectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpirationOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "noncurrentVersionTransition", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransitionList\"}")]
+        public virtual scaleway.ObjectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransitionList NoncurrentVersionTransition
+        {
+            get => GetInstanceProperty<scaleway.ObjectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransitionList>()!;
         }
 
         [JsiiProperty(name: "transition", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleTransitionList\"}")]
@@ -138,6 +203,34 @@ namespace scaleway.ObjectBucket
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "noncurrentVersionExpirationInput", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpiration\"}", isOptional: true)]
+        public virtual scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionExpiration? NoncurrentVersionExpirationInput
+        {
+            get => GetInstanceProperty<scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionExpiration?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "noncurrentVersionTransitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? NoncurrentVersionTransitionInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "objectSizeGreaterThanInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? ObjectSizeGreaterThanInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "objectSizeLessThanInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? ObjectSizeLessThanInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -199,6 +292,20 @@ namespace scaleway.ObjectBucket
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "objectSizeGreaterThan", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ObjectSizeGreaterThan
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "objectSizeLessThan", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ObjectSizeLessThan
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

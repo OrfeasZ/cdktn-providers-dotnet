@@ -59,6 +59,30 @@ namespace scaleway.DataScalewayObjectBucket
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "noncurrentVersionExpiration", typeJson: "{\"fqn\":\"scaleway.dataScalewayObjectBucket.DataScalewayObjectBucketLifecycleRuleNoncurrentVersionExpirationList\"}")]
+        public virtual scaleway.DataScalewayObjectBucket.DataScalewayObjectBucketLifecycleRuleNoncurrentVersionExpirationList NoncurrentVersionExpiration
+        {
+            get => GetInstanceProperty<scaleway.DataScalewayObjectBucket.DataScalewayObjectBucketLifecycleRuleNoncurrentVersionExpirationList>()!;
+        }
+
+        [JsiiProperty(name: "noncurrentVersionTransition", typeJson: "{\"fqn\":\"scaleway.dataScalewayObjectBucket.DataScalewayObjectBucketLifecycleRuleNoncurrentVersionTransitionList\"}")]
+        public virtual scaleway.DataScalewayObjectBucket.DataScalewayObjectBucketLifecycleRuleNoncurrentVersionTransitionList NoncurrentVersionTransition
+        {
+            get => GetInstanceProperty<scaleway.DataScalewayObjectBucket.DataScalewayObjectBucketLifecycleRuleNoncurrentVersionTransitionList>()!;
+        }
+
+        [JsiiProperty(name: "objectSizeGreaterThan", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ObjectSizeGreaterThan
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "objectSizeLessThan", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ObjectSizeLessThan
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Prefix
         {

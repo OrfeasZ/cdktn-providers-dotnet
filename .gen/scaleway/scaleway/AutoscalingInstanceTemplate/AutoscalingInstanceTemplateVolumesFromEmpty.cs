@@ -11,7 +11,7 @@ namespace scaleway.AutoscalingInstanceTemplate
     {
         /// <summary>Size in GB of the new empty volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/autoscaling_instance_template#size AutoscalingInstanceTemplate#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/autoscaling_instance_template#size AutoscalingInstanceTemplate#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size

@@ -9,7 +9,7 @@ namespace scaleway.K8SCluster
     {
         /// <summary>Detect similar node groups and balance the number of nodes between them.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#balance_similar_node_groups K8SCluster#balance_similar_node_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#balance_similar_node_groups K8SCluster#balance_similar_node_groups}
         /// </remarks>
         [JsiiProperty(name: "balanceSimilarNodeGroups", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>Disable the scale down feature of the autoscaler.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#disable_scale_down K8SCluster#disable_scale_down}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#disable_scale_down K8SCluster#disable_scale_down}
         /// </remarks>
         [JsiiProperty(name: "disableScaleDown", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>Type of resource estimator to be used in scale up.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#estimator K8SCluster#estimator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#estimator K8SCluster#estimator}
         /// </remarks>
         [JsiiProperty(name: "estimator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>Type of node group expander to be used in scale up.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#expander K8SCluster#expander}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#expander K8SCluster#expander}
         /// </remarks>
         [JsiiProperty(name: "expander", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace scaleway.K8SCluster
         /// <remarks>
         /// They can be killed without any consideration during scale down and they don't cause scale up. Pods with null priority (PodPriority disabled) are non expendable
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#expendable_pods_priority_cutoff K8SCluster#expendable_pods_priority_cutoff}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#expendable_pods_priority_cutoff K8SCluster#expendable_pods_priority_cutoff}
         /// </remarks>
         [JsiiProperty(name: "expendablePodsPriorityCutoff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>Ignore DaemonSet pods when calculating resource utilization for scaling down.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#ignore_daemonsets_utilization K8SCluster#ignore_daemonsets_utilization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#ignore_daemonsets_utilization K8SCluster#ignore_daemonsets_utilization}
         /// </remarks>
         [JsiiProperty(name: "ignoreDaemonsetsUtilization", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,9 +93,23 @@ namespace scaleway.K8SCluster
             }
         }
 
+        /// <summary>Autoscaler logging level expressed from 0 to 4 (4 being the more verbose), defaults to 2.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#log_level K8SCluster#log_level}
+        /// </remarks>
+        [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? LogLevel
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Maximum number of seconds the cluster autoscaler waits for pod termination when trying to scale down a node.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#max_graceful_termination_sec K8SCluster#max_graceful_termination_sec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#max_graceful_termination_sec K8SCluster#max_graceful_termination_sec}
         /// </remarks>
         [JsiiProperty(name: "maxGracefulTerminationSec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +123,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>How long after scale up that scale down evaluation resumes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#scale_down_delay_after_add K8SCluster#scale_down_delay_after_add}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#scale_down_delay_after_add K8SCluster#scale_down_delay_after_add}
         /// </remarks>
         [JsiiProperty(name: "scaleDownDelayAfterAdd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,7 +137,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>How long a node should be unneeded before it is eligible for scale down.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#scale_down_unneeded_time K8SCluster#scale_down_unneeded_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#scale_down_unneeded_time K8SCluster#scale_down_unneeded_time}
         /// </remarks>
         [JsiiProperty(name: "scaleDownUnneededTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -137,11 +151,25 @@ namespace scaleway.K8SCluster
 
         /// <summary>Node utilization level, defined as sum of requested resources divided by capacity, below which a node can be considered for scale down.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#scale_down_utilization_threshold K8SCluster#scale_down_utilization_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#scale_down_utilization_threshold K8SCluster#scale_down_utilization_threshold}
         /// </remarks>
         [JsiiProperty(name: "scaleDownUtilizationThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ScaleDownUtilizationThreshold
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>If true, the autoscaler will never delete nodes with pods with local storage, e.g. EmptyDir or HostPath, defaults to true.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#skip_nodes_with_local_storage K8SCluster#skip_nodes_with_local_storage}
+        /// </remarks>
+        [JsiiProperty(name: "skipNodesWithLocalStorage", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? SkipNodesWithLocalStorage
         {
             get
             {
@@ -158,7 +186,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Detect similar node groups and balance the number of nodes between them.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#balance_similar_node_groups K8SCluster#balance_similar_node_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#balance_similar_node_groups K8SCluster#balance_similar_node_groups}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "balanceSimilarNodeGroups", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -169,7 +197,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Disable the scale down feature of the autoscaler.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#disable_scale_down K8SCluster#disable_scale_down}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#disable_scale_down K8SCluster#disable_scale_down}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disableScaleDown", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -180,7 +208,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Type of resource estimator to be used in scale up.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#estimator K8SCluster#estimator}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#estimator K8SCluster#estimator}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "estimator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -191,7 +219,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Type of node group expander to be used in scale up.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#expander K8SCluster#expander}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#expander K8SCluster#expander}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expander", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -204,7 +232,7 @@ namespace scaleway.K8SCluster
             /// <remarks>
             /// They can be killed without any consideration during scale down and they don't cause scale up. Pods with null priority (PodPriority disabled) are non expendable
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#expendable_pods_priority_cutoff K8SCluster#expendable_pods_priority_cutoff}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#expendable_pods_priority_cutoff K8SCluster#expendable_pods_priority_cutoff}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expendablePodsPriorityCutoff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -215,7 +243,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Ignore DaemonSet pods when calculating resource utilization for scaling down.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#ignore_daemonsets_utilization K8SCluster#ignore_daemonsets_utilization}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#ignore_daemonsets_utilization K8SCluster#ignore_daemonsets_utilization}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreDaemonsetsUtilization", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -224,9 +252,20 @@ namespace scaleway.K8SCluster
                 get => GetInstanceProperty<object?>();
             }
 
+            /// <summary>Autoscaler logging level expressed from 0 to 4 (4 being the more verbose), defaults to 2.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#log_level K8SCluster#log_level}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? LogLevel
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
             /// <summary>Maximum number of seconds the cluster autoscaler waits for pod termination when trying to scale down a node.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#max_graceful_termination_sec K8SCluster#max_graceful_termination_sec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#max_graceful_termination_sec K8SCluster#max_graceful_termination_sec}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxGracefulTerminationSec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -237,7 +276,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>How long after scale up that scale down evaluation resumes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#scale_down_delay_after_add K8SCluster#scale_down_delay_after_add}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#scale_down_delay_after_add K8SCluster#scale_down_delay_after_add}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scaleDownDelayAfterAdd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -248,7 +287,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>How long a node should be unneeded before it is eligible for scale down.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#scale_down_unneeded_time K8SCluster#scale_down_unneeded_time}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#scale_down_unneeded_time K8SCluster#scale_down_unneeded_time}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scaleDownUnneededTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -259,13 +298,24 @@ namespace scaleway.K8SCluster
 
             /// <summary>Node utilization level, defined as sum of requested resources divided by capacity, below which a node can be considered for scale down.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_cluster#scale_down_utilization_threshold K8SCluster#scale_down_utilization_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#scale_down_utilization_threshold K8SCluster#scale_down_utilization_threshold}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scaleDownUtilizationThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ScaleDownUtilizationThreshold
             {
                 get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>If true, the autoscaler will never delete nodes with pods with local storage, e.g. EmptyDir or HostPath, defaults to true.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_cluster#skip_nodes_with_local_storage K8SCluster#skip_nodes_with_local_storage}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "skipNodesWithLocalStorage", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? SkipNodesWithLocalStorage
+            {
+                get => GetInstanceProperty<object?>();
             }
         }
     }

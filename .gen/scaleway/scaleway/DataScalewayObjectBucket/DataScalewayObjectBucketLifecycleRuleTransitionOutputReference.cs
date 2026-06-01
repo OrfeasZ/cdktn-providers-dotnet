@@ -35,6 +35,12 @@ namespace scaleway.DataScalewayObjectBucket
         {
         }
 
+        [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Date
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Days
         {

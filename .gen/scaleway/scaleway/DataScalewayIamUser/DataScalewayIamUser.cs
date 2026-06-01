@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.DataScalewayIamUser
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/iam_user scaleway_iam_user}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/iam_user scaleway_iam_user}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.DataScalewayIamUser.DataScalewayIamUser), fullyQualifiedName: "scaleway.dataScalewayIamUser.DataScalewayIamUser", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"scaleway.dataScalewayIamUser.DataScalewayIamUserConfig\"}}]")]
     public class DataScalewayIamUser : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/iam_user scaleway_iam_user} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/iam_user scaleway_iam_user} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataScalewayIamUser(Constructs.Construct scope, string id, scaleway.DataScalewayIamUser.IDataScalewayIamUserConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayIamUser
         /// <param name="importToId">The construct id used in the generated config for the DataScalewayIamUser to import.</param>
         /// <param name="importFromId">The id of the existing DataScalewayIamUser that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataScalewayIamUser to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayIamUser to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/iam_user#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayIamUser that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayIamUser to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayIamUser to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/iam_user#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayIamUser that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayIamUser to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.DataScalewayIamUser.DataScalewayIamUser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -94,6 +94,120 @@ namespace scaleway.DataScalewayIamUser
             get;
         }
         = GetStaticProperty<string>(typeof(scaleway.DataScalewayIamUser.DataScalewayIamUser))!;
+
+        [JsiiProperty(name: "accountRootUserId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountRootUserId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreatedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "deletable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Deletable
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FirstName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "lastLoginAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastLoginAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Locale
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "locked", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Locked
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "mfa", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Mfa
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Password
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PasswordWo
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PasswordWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PhoneNumber
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sendPasswordEmail", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable SendPasswordEmail
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "sendWelcomeEmail", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable SendWelcomeEmail
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Status
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpdatedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Username
+        {
+            get => GetInstanceProperty<string>()!;
+        }
 
         [JsiiOptional]
         [JsiiProperty(name: "emailInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -35,10 +35,23 @@ namespace scaleway.ObjectBucket
         {
         }
 
+        [JsiiMethod(name: "resetDate")]
+        public virtual void ResetDate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDays")]
         public virtual void ResetDays()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DateInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -53,6 +66,13 @@ namespace scaleway.ObjectBucket
         public virtual string? StorageClassInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Date
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]

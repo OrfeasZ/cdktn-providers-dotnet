@@ -7,7 +7,7 @@ namespace scaleway.InstanceIp
     [JsiiByValue(fqn: "scaleway.instanceIp.InstanceIpTimeouts")]
     public class InstanceIpTimeouts : scaleway.InstanceIp.IInstanceIpTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/instance_ip#default InstanceIp#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/instance_ip#default InstanceIp#default}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Default

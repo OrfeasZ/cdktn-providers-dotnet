@@ -33,11 +33,31 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
         {
         }
 
+        [JsiiMethod(name: "resetKmsMasterKeyId")]
+        public virtual void ResetKmsMasterKeyId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kmsMasterKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KmsMasterKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "sseAlgorithmInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SseAlgorithmInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "kmsMasterKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsMasterKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "sseAlgorithm", typeJson: "{\"primitive\":\"string\"}")]

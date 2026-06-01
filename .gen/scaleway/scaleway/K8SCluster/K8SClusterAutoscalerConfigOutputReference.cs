@@ -69,6 +69,12 @@ namespace scaleway.K8SCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLogLevel")]
+        public virtual void ResetLogLevel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMaxGracefulTerminationSec")]
         public virtual void ResetMaxGracefulTerminationSec()
         {
@@ -89,6 +95,12 @@ namespace scaleway.K8SCluster
 
         [JsiiMethod(name: "resetScaleDownUtilizationThreshold")]
         public virtual void ResetScaleDownUtilizationThreshold()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSkipNodesWithLocalStorage")]
+        public virtual void ResetSkipNodesWithLocalStorage()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -136,6 +148,13 @@ namespace scaleway.K8SCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "logLevelInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? LogLevelInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "maxGracefulTerminationSecInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? MaxGracefulTerminationSecInput
         {
@@ -161,6 +180,13 @@ namespace scaleway.K8SCluster
         public virtual double? ScaleDownUtilizationThresholdInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "skipNodesWithLocalStorageInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? SkipNodesWithLocalStorageInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "balanceSimilarNodeGroups", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -265,6 +291,13 @@ namespace scaleway.K8SCluster
             }
         }
 
+        [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LogLevel
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "maxGracefulTerminationSec", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxGracefulTerminationSec
         {
@@ -291,6 +324,33 @@ namespace scaleway.K8SCluster
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "skipNodesWithLocalStorage", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object SkipNodesWithLocalStorage
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiOptional]

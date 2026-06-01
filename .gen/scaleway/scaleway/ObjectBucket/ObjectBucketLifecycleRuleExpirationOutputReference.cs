@@ -33,6 +33,31 @@ namespace scaleway.ObjectBucket
         {
         }
 
+        [JsiiMethod(name: "resetDate")]
+        public virtual void ResetDate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDays")]
+        public virtual void ResetDays()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExpiredObjectDeleteMarker")]
+        public virtual void ResetExpiredObjectDeleteMarker()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DateInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "daysInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? DaysInput
@@ -40,11 +65,52 @@ namespace scaleway.ObjectBucket
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "expiredObjectDeleteMarkerInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ExpiredObjectDeleteMarkerInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Date
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Days
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "expiredObjectDeleteMarker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object ExpiredObjectDeleteMarker
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiOptional]

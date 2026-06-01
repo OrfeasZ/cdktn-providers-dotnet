@@ -7,7 +7,7 @@ namespace scaleway.IotHub
     [JsiiByValue(fqn: "scaleway.iotHub.IotHubTimeouts")]
     public class IotHubTimeouts : scaleway.IotHub.IIotHubTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/iot_hub#default IotHub#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/iot_hub#default IotHub#default}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Default
