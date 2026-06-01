@@ -41,6 +41,12 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
             get => GetInstanceProperty<scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration.DataScalewayObjectBucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefaultList>()!;
         }
 
+        [JsiiProperty(name: "bucketKeyEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable BucketKeyEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"scaleway.dataScalewayObjectBucketServerSideEncryptionConfiguration.DataScalewayObjectBucketServerSideEncryptionConfigurationRule\"}", isOptional: true)]
         public virtual scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration.IDataScalewayObjectBucketServerSideEncryptionConfigurationRule? InternalValue

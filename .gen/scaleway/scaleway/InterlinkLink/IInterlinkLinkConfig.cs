@@ -9,7 +9,7 @@ namespace scaleway.InterlinkLink
     {
         /// <summary>Desired bandwidth for the link. Must be compatible with available link bandwidths and remaining bandwidth capacity of the connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#bandwidth_mbps InterlinkLink#bandwidth_mbps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#bandwidth_mbps InterlinkLink#bandwidth_mbps}
         /// </remarks>
         [JsiiProperty(name: "bandwidthMbps", typeJson: "{\"primitive\":\"number\"}")]
         double BandwidthMbps
@@ -19,7 +19,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>PoP (location) where the link will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#pop_id InterlinkLink#pop_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#pop_id InterlinkLink#pop_id}
         /// </remarks>
         [JsiiProperty(name: "popId", typeJson: "{\"primitive\":\"string\"}")]
         string PopId
@@ -29,7 +29,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>If set, creates a self-hosted link using this dedicated physical connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#connection_id InterlinkLink#connection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#connection_id InterlinkLink#connection_id}
         /// </remarks>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>Defines whether route propagation is enabled or not. Defaults to false.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#enable_route_propagation InterlinkLink#enable_route_propagation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#enable_route_propagation InterlinkLink#enable_route_propagation}
         /// </remarks>
         [JsiiProperty(name: "enableRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace scaleway.InterlinkLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#id InterlinkLink#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#id InterlinkLink#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>Name of the link.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#name InterlinkLink#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#name InterlinkLink#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace scaleway.InterlinkLink
         /// <remarks>
         /// Specify the ID of the chosen partner, who already has a shared connection with available bandwidth
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#partner_id InterlinkLink#partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#partner_id InterlinkLink#partner_id}
         /// </remarks>
         [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,11 +100,9 @@ namespace scaleway.InterlinkLink
             }
         }
 
-        /// <summary>For self-hosted links, the peer AS Number to establish BGP session.</summary>
+        /// <summary>For self-hosted links, the peer AS Number to establish BGP session. Required when `connection_id` is set.</summary>
         /// <remarks>
-        /// If not given, a default one will be assigned
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#peer_asn InterlinkLink#peer_asn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#peer_asn InterlinkLink#peer_asn}
         /// </remarks>
         [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -118,7 +116,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#project_id InterlinkLink#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#project_id InterlinkLink#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -132,7 +130,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#region InterlinkLink#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#region InterlinkLink#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -146,7 +144,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>If set, attaches this routing policy containing IPv4 prefixes to the link. A BGP IPv4 session will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#routing_policy_v4_id InterlinkLink#routing_policy_v4_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#routing_policy_v4_id InterlinkLink#routing_policy_v4_id}
         /// </remarks>
         [JsiiProperty(name: "routingPolicyV4Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -160,7 +158,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>If set, attaches this routing policy containing IPv6 prefixes to the link. A BGP IPv6 session will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#routing_policy_v6_id InterlinkLink#routing_policy_v6_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#routing_policy_v6_id InterlinkLink#routing_policy_v6_id}
         /// </remarks>
         [JsiiProperty(name: "routingPolicyV6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -174,7 +172,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>List of tags associated with the link.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#tags InterlinkLink#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#tags InterlinkLink#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -188,7 +186,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#timeouts InterlinkLink#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#timeouts InterlinkLink#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.interlinkLink.InterlinkLinkTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -204,7 +202,7 @@ namespace scaleway.InterlinkLink
         /// <remarks>
         /// If the VLAN is not available (already taken or out of range), an error is returned
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#vlan InterlinkLink#vlan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#vlan InterlinkLink#vlan}
         /// </remarks>
         [JsiiProperty(name: "vlan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -218,7 +216,7 @@ namespace scaleway.InterlinkLink
 
         /// <summary>ID of the Scaleway VPC to attach to the link.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#vpc_id InterlinkLink#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#vpc_id InterlinkLink#vpc_id}
         /// </remarks>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -239,7 +237,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>Desired bandwidth for the link. Must be compatible with available link bandwidths and remaining bandwidth capacity of the connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#bandwidth_mbps InterlinkLink#bandwidth_mbps}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#bandwidth_mbps InterlinkLink#bandwidth_mbps}
             /// </remarks>
             [JsiiProperty(name: "bandwidthMbps", typeJson: "{\"primitive\":\"number\"}")]
             public double BandwidthMbps
@@ -249,7 +247,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>PoP (location) where the link will be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#pop_id InterlinkLink#pop_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#pop_id InterlinkLink#pop_id}
             /// </remarks>
             [JsiiProperty(name: "popId", typeJson: "{\"primitive\":\"string\"}")]
             public string PopId
@@ -259,7 +257,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>If set, creates a self-hosted link using this dedicated physical connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#connection_id InterlinkLink#connection_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#connection_id InterlinkLink#connection_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -270,7 +268,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>Defines whether route propagation is enabled or not. Defaults to false.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#enable_route_propagation InterlinkLink#enable_route_propagation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#enable_route_propagation InterlinkLink#enable_route_propagation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enableRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -279,7 +277,7 @@ namespace scaleway.InterlinkLink
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#id InterlinkLink#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#id InterlinkLink#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -293,7 +291,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>Name of the link.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#name InterlinkLink#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#name InterlinkLink#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -306,7 +304,7 @@ namespace scaleway.InterlinkLink
             /// <remarks>
             /// Specify the ID of the chosen partner, who already has a shared connection with available bandwidth
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#partner_id InterlinkLink#partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#partner_id InterlinkLink#partner_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -315,11 +313,9 @@ namespace scaleway.InterlinkLink
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>For self-hosted links, the peer AS Number to establish BGP session.</summary>
+            /// <summary>For self-hosted links, the peer AS Number to establish BGP session. Required when `connection_id` is set.</summary>
             /// <remarks>
-            /// If not given, a default one will be assigned
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#peer_asn InterlinkLink#peer_asn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#peer_asn InterlinkLink#peer_asn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -330,7 +326,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#project_id InterlinkLink#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#project_id InterlinkLink#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -341,7 +337,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#region InterlinkLink#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#region InterlinkLink#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -352,7 +348,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>If set, attaches this routing policy containing IPv4 prefixes to the link. A BGP IPv4 session will be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#routing_policy_v4_id InterlinkLink#routing_policy_v4_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#routing_policy_v4_id InterlinkLink#routing_policy_v4_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routingPolicyV4Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -363,7 +359,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>If set, attaches this routing policy containing IPv6 prefixes to the link. A BGP IPv6 session will be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#routing_policy_v6_id InterlinkLink#routing_policy_v6_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#routing_policy_v6_id InterlinkLink#routing_policy_v6_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routingPolicyV6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -374,7 +370,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>List of tags associated with the link.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#tags InterlinkLink#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#tags InterlinkLink#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -385,7 +381,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#timeouts InterlinkLink#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#timeouts InterlinkLink#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.interlinkLink.InterlinkLinkTimeouts\"}", isOptional: true)]
@@ -398,7 +394,7 @@ namespace scaleway.InterlinkLink
             /// <remarks>
             /// If the VLAN is not available (already taken or out of range), an error is returned
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#vlan InterlinkLink#vlan}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#vlan InterlinkLink#vlan}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vlan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -409,7 +405,7 @@ namespace scaleway.InterlinkLink
 
             /// <summary>ID of the Scaleway VPC to attach to the link.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/interlink_link#vpc_id InterlinkLink#vpc_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/interlink_link#vpc_id InterlinkLink#vpc_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

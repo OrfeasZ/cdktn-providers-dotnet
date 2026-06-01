@@ -11,7 +11,7 @@ namespace scaleway.KafkaCluster
     {
         /// <summary>The private network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/kafka_cluster#pn_id KafkaCluster#pn_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/kafka_cluster#pn_id KafkaCluster#pn_id}
         /// </remarks>
         [JsiiProperty(name: "pnId", typeJson: "{\"primitive\":\"string\"}")]
         public string PnId

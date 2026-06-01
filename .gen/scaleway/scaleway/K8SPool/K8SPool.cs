@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.K8SPool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_pool scaleway_k8s_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_pool scaleway_k8s_pool}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.K8SPool.K8SPool), fullyQualifiedName: "scaleway.k8SPool.K8SPool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.k8SPool.K8SPoolConfig\"}}]")]
     public class K8SPool : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_pool scaleway_k8s_pool} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_pool scaleway_k8s_pool} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public K8SPool(Constructs.Construct scope, string id, scaleway.K8SPool.IK8SPoolConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,56 @@ namespace scaleway.K8SPool
         /// <param name="importToId">The construct id used in the generated config for the K8SPool to import.</param>
         /// <param name="importFromId">The id of the existing K8SPool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the K8SPool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the K8SPool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/k8s_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing K8SPool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the K8SPool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the K8SPool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/k8s_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing K8SPool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the K8SPool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.K8SPool.K8SPool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putStartupTaints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaints\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutStartupTaints(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case scaleway.K8SPool.IK8SPoolStartupTaints[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.K8SPool.IK8SPoolStartupTaints).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.K8SPool.IK8SPoolStartupTaints).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTaints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolTaints\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutTaints(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case scaleway.K8SPool.IK8SPoolTaints[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.K8SPool.IK8SPoolTaints).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.K8SPool.IK8SPoolTaints).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.k8SPool.K8SPoolTimeouts\"}}]")]
@@ -84,6 +130,12 @@ namespace scaleway.K8SPool
 
         [JsiiMethod(name: "resetKubeletArgs")]
         public virtual void ResetKubeletArgs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLabels")]
+        public virtual void ResetLabels()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -136,8 +188,20 @@ namespace scaleway.K8SPool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetStartupTaints")]
+        public virtual void ResetStartupTaints()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTaints")]
+        public virtual void ResetTaints()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -203,10 +267,22 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<scaleway.K8SPool.K8SPoolNodesList>()!;
         }
 
+        [JsiiProperty(name: "startupTaints", typeJson: "{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaintsList\"}")]
+        public virtual scaleway.K8SPool.K8SPoolStartupTaintsList StartupTaints
+        {
+            get => GetInstanceProperty<scaleway.K8SPool.K8SPoolStartupTaintsList>()!;
+        }
+
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "taints", typeJson: "{\"fqn\":\"scaleway.k8SPool.K8SPoolTaintsList\"}")]
+        public virtual scaleway.K8SPool.K8SPoolTaintsList Taints
+        {
+            get => GetInstanceProperty<scaleway.K8SPool.K8SPoolTaintsList>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.k8SPool.K8SPoolTimeoutsOutputReference\"}")]
@@ -271,6 +347,13 @@ namespace scaleway.K8SPool
         [JsiiOptional]
         [JsiiProperty(name: "kubeletArgsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? KubeletArgsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "labelsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? LabelsInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
@@ -353,10 +436,24 @@ namespace scaleway.K8SPool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "startupTaintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? StartupTaintsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? TagsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "taintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolTaints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? TaintsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -464,6 +561,13 @@ namespace scaleway.K8SPool
 
         [JsiiProperty(name: "kubeletArgs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> KubeletArgs
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> Labels
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);

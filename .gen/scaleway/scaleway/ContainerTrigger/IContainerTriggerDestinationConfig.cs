@@ -9,7 +9,7 @@ namespace scaleway.ContainerTrigger
     {
         /// <summary>The HTTP method to use when sending the request (e.g., get, post, put, patch, delete).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#http_method ContainerTrigger#http_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/container_trigger#http_method ContainerTrigger#http_method}
         /// </remarks>
         [JsiiProperty(name: "httpMethod", typeJson: "{\"primitive\":\"string\"}")]
         string HttpMethod
@@ -19,7 +19,7 @@ namespace scaleway.ContainerTrigger
 
         /// <summary>The HTTP path to send the request to (e.g., "/my-webhook-endpoint").</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#http_path ContainerTrigger#http_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/container_trigger#http_path ContainerTrigger#http_path}
         /// </remarks>
         [JsiiProperty(name: "httpPath", typeJson: "{\"primitive\":\"string\"}")]
         string HttpPath
@@ -36,7 +36,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>The HTTP method to use when sending the request (e.g., get, post, put, patch, delete).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#http_method ContainerTrigger#http_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/container_trigger#http_method ContainerTrigger#http_method}
             /// </remarks>
             [JsiiProperty(name: "httpMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string HttpMethod
@@ -46,7 +46,7 @@ namespace scaleway.ContainerTrigger
 
             /// <summary>The HTTP path to send the request to (e.g., "/my-webhook-endpoint").</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/container_trigger#http_path ContainerTrigger#http_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/container_trigger#http_path ContainerTrigger#http_path}
             /// </remarks>
             [JsiiProperty(name: "httpPath", typeJson: "{\"primitive\":\"string\"}")]
             public string HttpPath

@@ -71,6 +71,12 @@ namespace scaleway.DataScalewayK8SCluster
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LogLevel
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "maxGracefulTerminationSec", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxGracefulTerminationSec
         {
@@ -93,6 +99,12 @@ namespace scaleway.DataScalewayK8SCluster
         public virtual double ScaleDownUtilizationThreshold
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "skipNodesWithLocalStorage", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable SkipNodesWithLocalStorage
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiOptional]

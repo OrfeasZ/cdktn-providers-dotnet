@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.DataScalewayK8SPool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/k8s_pool scaleway_k8s_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/k8s_pool scaleway_k8s_pool}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.DataScalewayK8SPool.DataScalewayK8SPool), fullyQualifiedName: "scaleway.dataScalewayK8SPool.DataScalewayK8SPool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"scaleway.dataScalewayK8SPool.DataScalewayK8SPoolConfig\"}}]")]
     public class DataScalewayK8SPool : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/k8s_pool scaleway_k8s_pool} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/k8s_pool scaleway_k8s_pool} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataScalewayK8SPool(Constructs.Construct scope, string id, scaleway.DataScalewayK8SPool.IDataScalewayK8SPoolConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayK8SPool
         /// <param name="importToId">The construct id used in the generated config for the DataScalewayK8SPool to import.</param>
         /// <param name="importFromId">The id of the existing DataScalewayK8SPool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataScalewayK8SPool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayK8SPool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/data-sources/k8s_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayK8SPool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayK8SPool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayK8SPool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/k8s_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayK8SPool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayK8SPool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.DataScalewayK8SPool.DataScalewayK8SPool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -137,6 +137,12 @@ namespace scaleway.DataScalewayK8SPool
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "labels", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap Labels
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "maxSize", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxSize
         {
@@ -191,6 +197,12 @@ namespace scaleway.DataScalewayK8SPool
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "startupTaints", typeJson: "{\"fqn\":\"scaleway.dataScalewayK8SPool.DataScalewayK8SPoolStartupTaintsList\"}")]
+        public virtual scaleway.DataScalewayK8SPool.DataScalewayK8SPoolStartupTaintsList StartupTaints
+        {
+            get => GetInstanceProperty<scaleway.DataScalewayK8SPool.DataScalewayK8SPoolStartupTaintsList>()!;
+        }
+
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {
@@ -201,6 +213,12 @@ namespace scaleway.DataScalewayK8SPool
         public virtual string[] Tags
         {
             get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "taints", typeJson: "{\"fqn\":\"scaleway.dataScalewayK8SPool.DataScalewayK8SPoolTaintsList\"}")]
+        public virtual scaleway.DataScalewayK8SPool.DataScalewayK8SPoolTaintsList Taints
+        {
+            get => GetInstanceProperty<scaleway.DataScalewayK8SPool.DataScalewayK8SPoolTaintsList>()!;
         }
 
         [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]

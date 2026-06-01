@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.EdgeServicesBackendStage
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/edge_services_backend_stage scaleway_edge_services_backend_stage}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/edge_services_backend_stage scaleway_edge_services_backend_stage}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.EdgeServicesBackendStage.EdgeServicesBackendStage), fullyQualifiedName: "scaleway.edgeServicesBackendStage.EdgeServicesBackendStage", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageConfig\"}}]")]
     public class EdgeServicesBackendStage : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/edge_services_backend_stage scaleway_edge_services_backend_stage} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/edge_services_backend_stage scaleway_edge_services_backend_stage} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public EdgeServicesBackendStage(Constructs.Construct scope, string id, scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,22 @@ namespace scaleway.EdgeServicesBackendStage
         /// <param name="importToId">The construct id used in the generated config for the EdgeServicesBackendStage to import.</param>
         /// <param name="importFromId">The id of the existing EdgeServicesBackendStage that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EdgeServicesBackendStage to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EdgeServicesBackendStage to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.75.0/docs/resources/edge_services_backend_stage#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EdgeServicesBackendStage that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EdgeServicesBackendStage to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EdgeServicesBackendStage to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/edge_services_backend_stage#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EdgeServicesBackendStage that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EdgeServicesBackendStage to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.EdgeServicesBackendStage.EdgeServicesBackendStage), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putContainerBackendConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageContainerBackendConfig\"}}]")]
+        public virtual void PutContainerBackendConfig(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageContainerBackendConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageContainerBackendConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putFunctionBackendConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageFunctionBackendConfig\"}}]")]
+        public virtual void PutFunctionBackendConfig(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageFunctionBackendConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageFunctionBackendConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putLbBackendConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfig\"},\"kind\":\"array\"}}]}}}]")]
@@ -73,6 +85,18 @@ namespace scaleway.EdgeServicesBackendStage
         public virtual void PutS3BackendConfig(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageS3BackendConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageS3BackendConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetContainerBackendConfig")]
+        public virtual void ResetContainerBackendConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFunctionBackendConfig")]
+        public virtual void ResetFunctionBackendConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetId")]
@@ -118,10 +142,22 @@ namespace scaleway.EdgeServicesBackendStage
         }
         = GetStaticProperty<string>(typeof(scaleway.EdgeServicesBackendStage.EdgeServicesBackendStage))!;
 
+        [JsiiProperty(name: "containerBackendConfig", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageContainerBackendConfigOutputReference\"}")]
+        public virtual scaleway.EdgeServicesBackendStage.EdgeServicesBackendStageContainerBackendConfigOutputReference ContainerBackendConfig
+        {
+            get => GetInstanceProperty<scaleway.EdgeServicesBackendStage.EdgeServicesBackendStageContainerBackendConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "functionBackendConfig", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageFunctionBackendConfigOutputReference\"}")]
+        public virtual scaleway.EdgeServicesBackendStage.EdgeServicesBackendStageFunctionBackendConfigOutputReference FunctionBackendConfig
+        {
+            get => GetInstanceProperty<scaleway.EdgeServicesBackendStage.EdgeServicesBackendStageFunctionBackendConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "lbBackendConfig", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfigList\"}")]
@@ -140,6 +176,20 @@ namespace scaleway.EdgeServicesBackendStage
         public virtual string UpdatedAt
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "containerBackendConfigInput", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageContainerBackendConfig\"}", isOptional: true)]
+        public virtual scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageContainerBackendConfig? ContainerBackendConfigInput
+        {
+            get => GetInstanceProperty<scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageContainerBackendConfig?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "functionBackendConfigInput", typeJson: "{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageFunctionBackendConfig\"}", isOptional: true)]
+        public virtual scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageFunctionBackendConfig? FunctionBackendConfigInput
+        {
+            get => GetInstanceProperty<scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageFunctionBackendConfig?>();
         }
 
         [JsiiOptional]
