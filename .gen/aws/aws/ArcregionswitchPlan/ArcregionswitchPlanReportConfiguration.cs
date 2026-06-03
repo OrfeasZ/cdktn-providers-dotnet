@@ -11,7 +11,7 @@ namespace aws.ArcregionswitchPlan
 
         /// <summary>report_output block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/arcregionswitch_plan#report_output ArcregionswitchPlan#report_output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/arcregionswitch_plan#report_output ArcregionswitchPlan#report_output}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reportOutput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfigurationReportOutput\"},\"kind\":\"array\"}}]}}", isOptional: true)]
