@@ -39,6 +39,12 @@ namespace aws.OpensearchDomain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetJwksUrl")]
+        public virtual void ResetJwksUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPublicKey")]
         public virtual void ResetPublicKey()
         {
@@ -62,6 +68,13 @@ namespace aws.OpensearchDomain
         public virtual object? EnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "jwksUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? JwksUrlInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -110,6 +123,13 @@ namespace aws.OpensearchDomain
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "jwksUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string JwksUrl
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]

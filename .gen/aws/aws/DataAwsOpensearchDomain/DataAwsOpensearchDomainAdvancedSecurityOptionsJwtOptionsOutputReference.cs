@@ -41,6 +41,12 @@ namespace aws.DataAwsOpensearchDomain
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "jwksUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string JwksUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PublicKey
         {

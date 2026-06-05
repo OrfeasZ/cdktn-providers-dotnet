@@ -9,7 +9,7 @@ namespace aws.DataAwsEc2Hosts
     [JsiiByValue(fqn: "aws.dataAwsEc2Hosts.DataAwsEc2HostsFilter")]
     public class DataAwsEc2HostsFilter : aws.DataAwsEc2Hosts.IDataAwsEc2HostsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_hosts#name DataAwsEc2Hosts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/ec2_hosts#name DataAwsEc2Hosts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.DataAwsEc2Hosts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_hosts#values DataAwsEc2Hosts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/ec2_hosts#values DataAwsEc2Hosts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

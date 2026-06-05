@@ -9,7 +9,7 @@ namespace aws.MskReplicator
     {
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/msk_replicator#cloudwatch_logs MskReplicator#cloudwatch_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/msk_replicator#cloudwatch_logs MskReplicator#cloudwatch_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogs\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MskReplicator
 
         /// <summary>firehose block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/msk_replicator#firehose MskReplicator#firehose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/msk_replicator#firehose MskReplicator#firehose}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firehose", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDeliveryReplicatorLogDeliveryFirehose\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.MskReplicator
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/msk_replicator#s3 MskReplicator#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/msk_replicator#s3 MskReplicator#s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDeliveryReplicatorLogDeliveryS3\"}", isOptional: true)]
