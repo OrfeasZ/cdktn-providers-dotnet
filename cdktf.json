@@ -13,7 +13,8 @@
     "kislerdm/neon@0.13.0",
     "scaleway/scaleway@2.76.0",
     "stripe/stripe@0.2.2",
-    "hashicorp/null@3.3.0"
+    "hashicorp/null@3.3.0",
+    "tailscale/tailscale@0.29.2"
   ],
   "terraformModules": [],
   "context": {}
