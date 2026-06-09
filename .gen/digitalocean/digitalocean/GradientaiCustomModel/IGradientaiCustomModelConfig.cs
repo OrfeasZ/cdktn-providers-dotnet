@@ -9,7 +9,7 @@ namespace digitalocean.GradientaiCustomModel
     {
         /// <summary>A human-readable name for the custom model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#name GradientaiCustomModel#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#name GradientaiCustomModel#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>source_ref block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#source_ref GradientaiCustomModel#source_ref}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#source_ref GradientaiCustomModel#source_ref}
         /// </remarks>
         [JsiiProperty(name: "sourceRef", typeJson: "{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelSourceRef\"}")]
         digitalocean.GradientaiCustomModel.IGradientaiCustomModelSourceRef SourceRef
@@ -29,7 +29,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>Source of the model to import. One of SOURCE_TYPE_HUGGINGFACE, SOURCE_TYPE_SPACES_BUCKET, SOURCE_TYPE_SDK_UPLOAD, SOURCE_TYPE_FINE_TUNING.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#source_type GradientaiCustomModel#source_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#source_type GradientaiCustomModel#source_type}
         /// </remarks>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
@@ -39,7 +39,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>Whether the caller accepts the model provider's terms and conditions. Write-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#accept_terms_and_conditions GradientaiCustomModel#accept_terms_and_conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#accept_terms_and_conditions GradientaiCustomModel#accept_terms_and_conditions}
         /// </remarks>
         [JsiiProperty(name: "acceptTermsAndConditions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>Description of the custom model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#description GradientaiCustomModel#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#description GradientaiCustomModel#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace digitalocean.GradientaiCustomModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#id GradientaiCustomModel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#id GradientaiCustomModel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>Preferred GPU region where the model artifacts should be staged.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#preferred_gpu_region GradientaiCustomModel#preferred_gpu_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#preferred_gpu_region GradientaiCustomModel#preferred_gpu_region}
         /// </remarks>
         [JsiiProperty(name: "preferredGpuRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +96,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>User-defined tags associated with the custom model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#tags GradientaiCustomModel#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#tags GradientaiCustomModel#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace digitalocean.GradientaiCustomModel
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#timeouts GradientaiCustomModel#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#timeouts GradientaiCustomModel#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +131,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>A human-readable name for the custom model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#name GradientaiCustomModel#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#name GradientaiCustomModel#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -141,7 +141,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>source_ref block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#source_ref GradientaiCustomModel#source_ref}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#source_ref GradientaiCustomModel#source_ref}
             /// </remarks>
             [JsiiProperty(name: "sourceRef", typeJson: "{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelSourceRef\"}")]
             public digitalocean.GradientaiCustomModel.IGradientaiCustomModelSourceRef SourceRef
@@ -151,7 +151,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>Source of the model to import. One of SOURCE_TYPE_HUGGINGFACE, SOURCE_TYPE_SPACES_BUCKET, SOURCE_TYPE_SDK_UPLOAD, SOURCE_TYPE_FINE_TUNING.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#source_type GradientaiCustomModel#source_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#source_type GradientaiCustomModel#source_type}
             /// </remarks>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
@@ -161,7 +161,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>Whether the caller accepts the model provider's terms and conditions. Write-only.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#accept_terms_and_conditions GradientaiCustomModel#accept_terms_and_conditions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#accept_terms_and_conditions GradientaiCustomModel#accept_terms_and_conditions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "acceptTermsAndConditions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>Description of the custom model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#description GradientaiCustomModel#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#description GradientaiCustomModel#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -181,7 +181,7 @@ namespace digitalocean.GradientaiCustomModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#id GradientaiCustomModel#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#id GradientaiCustomModel#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -195,7 +195,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>Preferred GPU region where the model artifacts should be staged.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#preferred_gpu_region GradientaiCustomModel#preferred_gpu_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#preferred_gpu_region GradientaiCustomModel#preferred_gpu_region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preferredGpuRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>User-defined tags associated with the custom model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#tags GradientaiCustomModel#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#tags GradientaiCustomModel#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -217,7 +217,7 @@ namespace digitalocean.GradientaiCustomModel
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/gradientai_custom_model#timeouts GradientaiCustomModel#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#timeouts GradientaiCustomModel#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelTimeouts\"}", isOptional: true)]
