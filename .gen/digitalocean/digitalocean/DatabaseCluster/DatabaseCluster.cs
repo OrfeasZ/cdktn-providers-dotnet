@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.DatabaseCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.87.0/docs/resources/database_cluster digitalocean_database_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/database_cluster digitalocean_database_cluster}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.DatabaseCluster.DatabaseCluster), fullyQualifiedName: "digitalocean.databaseCluster.DatabaseCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterConfig\"}}]")]
     public class DatabaseCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.87.0/docs/resources/database_cluster digitalocean_database_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/database_cluster digitalocean_database_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseCluster(Constructs.Construct scope, string id, digitalocean.DatabaseCluster.IDatabaseClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace digitalocean.DatabaseCluster
         /// <param name="importToId">The construct id used in the generated config for the DatabaseCluster to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.87.0/docs/resources/database_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.88.0/docs/resources/database_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DatabaseCluster.DatabaseCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -73,6 +73,12 @@ namespace digitalocean.DatabaseCluster
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putStorageAutoscale", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterStorageAutoscale\"}}]")]
+        public virtual void PutStorageAutoscale(digitalocean.DatabaseCluster.IDatabaseClusterStorageAutoscale @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DatabaseCluster.IDatabaseClusterStorageAutoscale)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterTimeouts\"}}]")]
@@ -119,6 +125,12 @@ namespace digitalocean.DatabaseCluster
 
         [JsiiMethod(name: "resetSqlMode")]
         public virtual void ResetSqlMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStorageAutoscale")]
+        public virtual void ResetStorageAutoscale()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -218,6 +230,12 @@ namespace digitalocean.DatabaseCluster
         public virtual string PrivateUri
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "storageAutoscale", typeJson: "{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterStorageAutoscaleOutputReference\"}")]
+        public virtual digitalocean.DatabaseCluster.DatabaseClusterStorageAutoscaleOutputReference StorageAutoscale
+        {
+            get => GetInstanceProperty<digitalocean.DatabaseCluster.DatabaseClusterStorageAutoscaleOutputReference>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterTimeoutsOutputReference\"}")]
@@ -362,6 +380,13 @@ namespace digitalocean.DatabaseCluster
         public virtual string? SqlModeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "storageAutoscaleInput", typeJson: "{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterStorageAutoscale\"}", isOptional: true)]
+        public virtual digitalocean.DatabaseCluster.IDatabaseClusterStorageAutoscale? StorageAutoscaleInput
+        {
+            get => GetInstanceProperty<digitalocean.DatabaseCluster.IDatabaseClusterStorageAutoscale?>();
         }
 
         [JsiiOptional]
