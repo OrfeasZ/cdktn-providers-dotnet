@@ -7,7 +7,7 @@ namespace aws.LambdaAlias
     [JsiiByValue(fqn: "aws.lambdaAlias.LambdaAliasTimeouts")]
     public class LambdaAliasTimeouts : aws.LambdaAlias.ILambdaAliasTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lambda_alias#update LambdaAlias#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/lambda_alias#update LambdaAlias#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

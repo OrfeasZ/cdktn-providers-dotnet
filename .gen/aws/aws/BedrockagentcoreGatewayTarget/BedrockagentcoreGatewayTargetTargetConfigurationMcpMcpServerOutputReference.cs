@@ -35,6 +35,12 @@ namespace aws.BedrockagentcoreGatewayTarget
         {
         }
 
+        [JsiiMethod(name: "resetListingMode")]
+        public virtual void ResetListingMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "endpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EndpointInput
@@ -42,8 +48,22 @@ namespace aws.BedrockagentcoreGatewayTarget
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "listingModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ListingModeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Endpoint
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "listingMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ListingMode
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

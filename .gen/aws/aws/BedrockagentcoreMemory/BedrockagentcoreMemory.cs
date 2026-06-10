@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreMemory
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory}.</summary>
     [JsiiClass(nativeType: typeof(aws.BedrockagentcoreMemory.BedrockagentcoreMemory), fullyQualifiedName: "aws.bedrockagentcoreMemory.BedrockagentcoreMemory", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryConfig\"}}]")]
     public class BedrockagentcoreMemory : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BedrockagentcoreMemory(Constructs.Construct scope, string id, aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,56 @@ namespace aws.BedrockagentcoreMemory
         /// <param name="importToId">The construct id used in the generated config for the BedrockagentcoreMemory to import.</param>
         /// <param name="importFromId">The id of the existing BedrockagentcoreMemory that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BedrockagentcoreMemory to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreMemory to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreMemory that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreMemory to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreMemory to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreMemory that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreMemory to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreMemory.BedrockagentcoreMemory), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putIndexedKey", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKey\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutIndexedKey(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryIndexedKey[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryIndexedKey).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryIndexedKey).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putStreamDeliveryResources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResources\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutStreamDeliveryResources(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResources[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResources).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResources).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeouts\"}}]")]
@@ -64,6 +110,12 @@ namespace aws.BedrockagentcoreMemory
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIndexedKey")]
+        public virtual void ResetIndexedKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMemoryExecutionRoleArn")]
         public virtual void ResetMemoryExecutionRoleArn()
         {
@@ -72,6 +124,12 @@ namespace aws.BedrockagentcoreMemory
 
         [JsiiMethod(name: "resetRegion")]
         public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStreamDeliveryResources")]
+        public virtual void ResetStreamDeliveryResources()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,6 +177,18 @@ namespace aws.BedrockagentcoreMemory
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "indexedKey", typeJson: "{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKeyList\"}")]
+        public virtual aws.BedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKeyList IndexedKey
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKeyList>()!;
+        }
+
+        [JsiiProperty(name: "streamDeliveryResources", typeJson: "{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesList\"}")]
+        public virtual aws.BedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesList StreamDeliveryResources
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesList>()!;
+        }
+
         [JsiiProperty(name: "tagsAll", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap TagsAll
         {
@@ -153,6 +223,13 @@ namespace aws.BedrockagentcoreMemory
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "indexedKeyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? IndexedKeyInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "memoryExecutionRoleArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MemoryExecutionRoleArnInput
         {
@@ -171,6 +248,13 @@ namespace aws.BedrockagentcoreMemory
         public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "streamDeliveryResourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? StreamDeliveryResourcesInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

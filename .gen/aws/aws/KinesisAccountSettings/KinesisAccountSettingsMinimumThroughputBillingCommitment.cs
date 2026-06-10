@@ -9,7 +9,7 @@ namespace aws.KinesisAccountSettings
     [JsiiByValue(fqn: "aws.kinesisAccountSettings.KinesisAccountSettingsMinimumThroughputBillingCommitment")]
     public class KinesisAccountSettingsMinimumThroughputBillingCommitment : aws.KinesisAccountSettings.IKinesisAccountSettingsMinimumThroughputBillingCommitment
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/kinesis_account_settings#status KinesisAccountSettings#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/kinesis_account_settings#status KinesisAccountSettings#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
