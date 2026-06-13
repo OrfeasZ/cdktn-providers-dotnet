@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.EmailSecurityTrustedDomains
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains cloudflare_email_security_trusted_domains}.</summary>
-    [JsiiClass(nativeType: typeof(cloudflare.EmailSecurityTrustedDomains.EmailSecurityTrustedDomains), fullyQualifiedName: "cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomains", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/email_security_trusted_domains cloudflare_email_security_trusted_domains}.</summary>
+    [JsiiClass(nativeType: typeof(cloudflare.EmailSecurityTrustedDomains.EmailSecurityTrustedDomains), fullyQualifiedName: "cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomains", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsConfig\"}}]")]
     public class EmailSecurityTrustedDomains : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains cloudflare_email_security_trusted_domains} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/email_security_trusted_domains cloudflare_email_security_trusted_domains} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public EmailSecurityTrustedDomains(Constructs.Construct scope, string id, cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsConfig? config = null): base(_MakeDeputyProps(scope, id, config))
+        public EmailSecurityTrustedDomains(Constructs.Construct scope, string id, cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsConfig config): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsConfig? config = null)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsConfig config)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,43 +40,14 @@ namespace cloudflare.EmailSecurityTrustedDomains
         /// <param name="importToId">The construct id used in the generated config for the EmailSecurityTrustedDomains to import.</param>
         /// <param name="importFromId">The id of the existing EmailSecurityTrustedDomains that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EmailSecurityTrustedDomains to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EmailSecurityTrustedDomains to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_trusted_domains#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EmailSecurityTrustedDomains that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EmailSecurityTrustedDomains to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EmailSecurityTrustedDomains to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/email_security_trusted_domains#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EmailSecurityTrustedDomains that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EmailSecurityTrustedDomains to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.EmailSecurityTrustedDomains.EmailSecurityTrustedDomains), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putBody", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsBody\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutBody(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsBody[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsBody).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.EmailSecurityTrustedDomains.IEmailSecurityTrustedDomainsBody).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetAccountId")]
         public virtual void ResetAccountId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetBody")]
-        public virtual void ResetBody()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -105,12 +76,6 @@ namespace cloudflare.EmailSecurityTrustedDomains
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetPattern")]
-        public virtual void ResetPattern()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -130,26 +95,26 @@ namespace cloudflare.EmailSecurityTrustedDomains
         }
         = GetStaticProperty<string>(typeof(cloudflare.EmailSecurityTrustedDomains.EmailSecurityTrustedDomains))!;
 
-        [JsiiProperty(name: "body", typeJson: "{\"fqn\":\"cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsBodyList\"}")]
-        public virtual cloudflare.EmailSecurityTrustedDomains.EmailSecurityTrustedDomainsBodyList Body
-        {
-            get => GetInstanceProperty<cloudflare.EmailSecurityTrustedDomains.EmailSecurityTrustedDomainsBodyList>()!;
-        }
-
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
-            get => GetInstanceProperty<double>()!;
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "lastModified", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastModified
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "modifiedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModifiedAt
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -159,13 +124,6 @@ namespace cloudflare.EmailSecurityTrustedDomains
         public virtual string? AccountIdInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "bodyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailSecurityTrustedDomains.EmailSecurityTrustedDomainsBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? BodyInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

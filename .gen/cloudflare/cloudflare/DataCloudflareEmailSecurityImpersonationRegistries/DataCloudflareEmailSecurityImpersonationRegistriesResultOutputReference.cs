@@ -71,10 +71,10 @@ namespace cloudflare.DataCloudflareEmailSecurityImpersonationRegistries
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
-            get => GetInstanceProperty<double>()!;
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "isEmailRegex", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -85,6 +85,12 @@ namespace cloudflare.DataCloudflareEmailSecurityImpersonationRegistries
 
         [JsiiProperty(name: "lastModified", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastModified
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "modifiedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModifiedAt
         {
             get => GetInstanceProperty<string>()!;
         }

@@ -71,6 +71,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "errorDetails", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersErrorDetailsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersErrorDetailsOutputReference ErrorDetails
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersErrorDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Hostname
         {
@@ -81,6 +87,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "isSharedOauthCallbackEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsSharedOauthCallbackEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "lastSuccessfulSync", typeJson: "{\"primitive\":\"string\"}")]
@@ -123,6 +135,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal
         public virtual Io.Cdktn.StringMapList Prompts
         {
             get => GetInstanceProperty<Io.Cdktn.StringMapList>()!;
+        }
+
+        [JsiiProperty(name: "secureWebGateway", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable SecureWebGateway
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]

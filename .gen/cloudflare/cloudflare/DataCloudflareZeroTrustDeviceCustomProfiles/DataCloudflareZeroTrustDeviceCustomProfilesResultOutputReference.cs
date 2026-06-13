@@ -83,6 +83,12 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "dnsSearchSuffixes", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultDnsSearchSuffixesList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultDnsSearchSuffixesList DnsSearchSuffixes
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultDnsSearchSuffixesList>()!;
+        }
+
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Enabled
         {
@@ -201,6 +207,12 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles
         public virtual string TunnelProtocol
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "virtualNetworks", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultVirtualNetworksOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultVirtualNetworksOutputReference VirtualNetworks
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultVirtualNetworksOutputReference>()!;
         }
 
         [JsiiOptional]

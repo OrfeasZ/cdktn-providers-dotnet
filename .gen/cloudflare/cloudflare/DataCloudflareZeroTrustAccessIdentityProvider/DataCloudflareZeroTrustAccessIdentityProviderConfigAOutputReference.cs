@@ -117,6 +117,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProvider
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "enableEncryption", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable EnableEncryption
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "headerAttributes", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessIdentityProvider.DataCloudflareZeroTrustAccessIdentityProviderConfigHeaderAttributesList\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustAccessIdentityProvider.DataCloudflareZeroTrustAccessIdentityProviderConfigHeaderAttributesList HeaderAttributes
         {
@@ -169,6 +175,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProvider
         public virtual string RedirectUrl
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "restrictToAccountMembers", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable RestrictToAccountMembers
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

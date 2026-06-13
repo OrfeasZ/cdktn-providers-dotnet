@@ -35,12 +35,6 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
         {
         }
 
-        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Description
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Enabled
         {
@@ -59,8 +53,20 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "portalDescription", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PortalDescription
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "serverAlias", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ServerAlias
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "serverDescription", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServerDescription
         {
             get => GetInstanceProperty<string>()!;
         }

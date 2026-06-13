@@ -9,15 +9,7 @@ namespace cloudflare.AiGateway
     [JsiiByValue(fqn: "cloudflare.aiGateway.AiGatewayOtel")]
     public class AiGatewayOtel : cloudflare.AiGateway.IAiGatewayOtel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
-        [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
-        public string Authorization
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#headers AiGateway#headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway#headers AiGateway#headers}.</summary>
         [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Headers
         {
@@ -25,7 +17,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#url AiGateway#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway#url AiGateway#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {
@@ -33,9 +25,18 @@ namespace cloudflare.AiGateway
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Authorization
+        {
+            get;
+            set;
+        }
+
         /// <summary>Available values: "json", "protobuf".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#content_type AiGateway#content_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway#content_type AiGateway#content_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareOrganizations
             get => GetInstanceProperty<cloudflare.DataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaFlagsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "hierarchyTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] HierarchyTags
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "managedBy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ManagedBy
         {

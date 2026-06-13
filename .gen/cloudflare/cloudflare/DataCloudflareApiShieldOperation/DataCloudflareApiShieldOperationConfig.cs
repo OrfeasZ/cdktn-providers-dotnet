@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
         /// <remarks>
         /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#feature DataCloudflareApiShieldOperation#feature}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#feature DataCloudflareApiShieldOperation#feature}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#filter DataCloudflareApiShieldOperation#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#filter DataCloudflareApiShieldOperation#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareApiShieldOperation.DataCloudflareApiShieldOperationFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareApiShieldOperation.IDataCloudflareApiShieldOperationFilter? Filter
@@ -32,7 +32,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
 
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#operation_id DataCloudflareApiShieldOperation#operation_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#operation_id DataCloudflareApiShieldOperation#operation_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "operationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,9 +42,45 @@ namespace cloudflare.DataCloudflareApiShieldOperation
             set;
         }
 
+        private object? _withSchemas;
+
+        /// <summary>When true, includes OpenAPI schemas (both uploaded and learned) for the operation in the response.</summary>
+        /// <remarks>
+        /// Due to the conversion overhead, this parameter is only supported on single-operation retrieval.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#with_schemas DataCloudflareApiShieldOperation#with_schemas}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "withSchemas", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? WithSchemas
+        {
+            get => _withSchemas;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _withSchemas = value;
+            }
+        }
+
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#zone_id DataCloudflareApiShieldOperation#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#zone_id DataCloudflareApiShieldOperation#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

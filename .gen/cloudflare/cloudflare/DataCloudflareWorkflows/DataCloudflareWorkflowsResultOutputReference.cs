@@ -71,6 +71,12 @@ namespace cloudflare.DataCloudflareWorkflows
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "schedules", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkflows.DataCloudflareWorkflowsResultSchedulesList\"}")]
+        public virtual cloudflare.DataCloudflareWorkflows.DataCloudflareWorkflowsResultSchedulesList Schedules
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkflows.DataCloudflareWorkflowsResultSchedulesList>()!;
+        }
+
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ScriptName
         {

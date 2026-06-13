@@ -1,0 +1,354 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.DataCloudflareShares
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "cloudflare.dataCloudflareShares.DataCloudflareSharesConfig")]
+    public class DataCloudflareSharesConfig : cloudflare.DataCloudflareShares.IDataCloudflareSharesConfig
+    {
+        /// <summary>Account identifier.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#account_id DataCloudflareShares#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Direction to sort objects. Available values: "asc", "desc".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#direction DataCloudflareShares#direction}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Direction
+        {
+            get;
+            set;
+        }
+
+        private object? _includeRecipientCounts;
+
+        /// <summary>Include recipient counts in the response.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#include_recipient_counts DataCloudflareShares#include_recipient_counts}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "includeRecipientCounts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? IncludeRecipientCounts
+        {
+            get => _includeRecipientCounts;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _includeRecipientCounts = value;
+            }
+        }
+
+        private object? _includeResources;
+
+        /// <summary>Include resources in the response.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#include_resources DataCloudflareShares#include_resources}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "includeResources", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? IncludeResources
+        {
+            get => _includeResources;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _includeResources = value;
+            }
+        }
+
+        /// <summary>Filter shares by kind. Available values: "sent", "received".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#kind DataCloudflareShares#kind}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Kind
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Max items to fetch, default: 1000.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#max_items DataCloudflareShares#max_items}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? MaxItems
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Order shares by values in the given field. Available values: "name", "created".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#order DataCloudflareShares#order}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Order
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Filter share resources by resource_types.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#resource_types DataCloudflareShares#resource_types}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "resourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? ResourceTypes
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Filter shares by status. Available values: "active", "deleting", "deleted".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#status DataCloudflareShares#status}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Status
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Filter shares by tag.</summary>
+        /// <remarks>
+        /// Each value is either <c>key=value</c> (matches shares whose tags contain that key/value pair) or <c>key</c> alone (matches shares that have any value for that key). May be repeated; multiple <c>tag</c> parameters are ANDed together. Maximum 20 <c>tag</c> parameters per request.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#tag DataCloudflareShares#tag}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "tag", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? Tag
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Filter shares by target_type. Available values: "account", "organization".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/shares#target_type DataCloudflareShares#target_type}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? TargetType
+        {
+            get;
+            set;
+        }
+
+        private object? _connection;
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
+        public object? Connection
+        {
+            get => _connection;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.ISSHProvisionerConnection cast_cd4240:
+                            break;
+                        case Io.Cdktn.IWinrmProvisionerConnection cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.ISSHProvisionerConnection).FullName}, {typeof(Io.Cdktn.IWinrmProvisionerConnection).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _connection = value;
+            }
+        }
+
+        private object? _count;
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
+        public object? Count
+        {
+            get => _count;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case double cast_cd4240:
+                            break;
+                        case byte cast_cd4240:
+                            break;
+                        case decimal cast_cd4240:
+                            break;
+                        case float cast_cd4240:
+                            break;
+                        case int cast_cd4240:
+                            break;
+                        case long cast_cd4240:
+                            break;
+                        case sbyte cast_cd4240:
+                            break;
+                        case short cast_cd4240:
+                            break;
+                        case uint cast_cd4240:
+                            break;
+                        case ulong cast_cd4240:
+                            break;
+                        case ushort cast_cd4240:
+                            break;
+                        case Io.Cdktn.TerraformCount cast_cd4240:
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: double, {typeof(Io.Cdktn.TerraformCount).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _count = value;
+            }
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"fqn\":\"cdktn.ITerraformDependable\"},\"kind\":\"array\"}}", isOptional: true)]
+        public Io.Cdktn.ITerraformDependable[]? DependsOn
+        {
+            get;
+            set;
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "forEach", typeJson: "{\"fqn\":\"cdktn.ITerraformIterator\"}", isOptional: true)]
+        public Io.Cdktn.ITerraformIterator? ForEach
+        {
+            get;
+            set;
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "lifecycle", typeJson: "{\"fqn\":\"cdktn.TerraformResourceLifecycle\"}", isOptional: true)]
+        public Io.Cdktn.ITerraformResourceLifecycle? Lifecycle
+        {
+            get;
+            set;
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"cdktn.TerraformProvider\"}", isOptional: true)]
+        public Io.Cdktn.TerraformProvider? Provider
+        {
+            get;
+            set;
+        }
+
+        private object[]? _provisioners;
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]
+        public object[]? Provisioners
+        {
+            get => _provisioners;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    for (var __idx_cd4240 = 0 ; __idx_cd4240 < value.Length ; __idx_cd4240++)
+                    {
+                        switch (value[__idx_cd4240])
+                        {
+                            case Io.Cdktn.IFileProvisioner cast_e9c63e:
+                                break;
+                            case Io.Cdktn.ILocalExecProvisioner cast_e9c63e:
+                                break;
+                            case Io.Cdktn.IRemoteExecProvisioner cast_e9c63e:
+                                break;
+                            case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_e9c63e:
+                                // Not enough information to type-check...
+                                break;
+                            case null:
+                                throw new System.ArgumentException($"Expected {nameof(value)}[{__idx_cd4240}] to be one of: {typeof(Io.Cdktn.IFileProvisioner).FullName}, {typeof(Io.Cdktn.ILocalExecProvisioner).FullName}, {typeof(Io.Cdktn.IRemoteExecProvisioner).FullName}; received null", nameof(value));
+                            default:
+                                throw new System.ArgumentException($"Expected {nameof(value)}[{__idx_cd4240}] to be one of: {typeof(Io.Cdktn.IFileProvisioner).FullName}, {typeof(Io.Cdktn.ILocalExecProvisioner).FullName}, {typeof(Io.Cdktn.IRemoteExecProvisioner).FullName}; received {value[__idx_cd4240].GetType().FullName}", nameof(value));
+                        }
+                    }
+                }
+                _provisioners = value;
+            }
+        }
+    }
+}

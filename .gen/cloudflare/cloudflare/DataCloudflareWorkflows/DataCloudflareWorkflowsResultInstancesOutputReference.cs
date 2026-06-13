@@ -57,6 +57,12 @@ namespace cloudflare.DataCloudflareWorkflows
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "rollingBack", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RollingBack
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "running", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Running
         {

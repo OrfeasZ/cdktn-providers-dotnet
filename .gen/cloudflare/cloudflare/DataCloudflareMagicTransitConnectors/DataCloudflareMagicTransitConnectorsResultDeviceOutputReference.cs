@@ -45,6 +45,12 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicTransitConnectors.DataCloudflareMagicTransitConnectorsResultDevice\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareMagicTransitConnectors.IDataCloudflareMagicTransitConnectorsResultDevice? InternalValue

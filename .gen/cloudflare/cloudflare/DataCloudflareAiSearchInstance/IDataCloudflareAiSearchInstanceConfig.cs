@@ -7,7 +7,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
     [JsiiInterface(nativeType: typeof(IDataCloudflareAiSearchInstanceConfig), fullyQualifiedName: "cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceConfig")]
     public interface IDataCloudflareAiSearchInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_instance#account_id DataCloudflareAiSearchInstance#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/ai_search_instance#account_id DataCloudflareAiSearchInstance#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountId
@@ -18,7 +18,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_instance#filter DataCloudflareAiSearchInstance#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/ai_search_instance#filter DataCloudflareAiSearchInstance#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareAiSearchInstance.IDataCloudflareAiSearchInstanceFilter? Filter
@@ -29,10 +29,8 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             }
         }
 
-        /// <summary>AI Search instance ID. Lowercase alphanumeric, hyphens, and underscores.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/ai_search_instance#id DataCloudflareAiSearchInstance#id}.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_instance#id DataCloudflareAiSearchInstance#id}
-        ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
@@ -53,7 +51,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_instance#account_id DataCloudflareAiSearchInstance#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/ai_search_instance#account_id DataCloudflareAiSearchInstance#account_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountId
@@ -61,7 +59,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_instance#filter DataCloudflareAiSearchInstance#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/ai_search_instance#filter DataCloudflareAiSearchInstance#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareAiSearchInstance.IDataCloudflareAiSearchInstanceFilter? Filter
@@ -69,10 +67,8 @@ namespace cloudflare.DataCloudflareAiSearchInstance
                 get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstance.IDataCloudflareAiSearchInstanceFilter?>();
             }
 
-            /// <summary>AI Search instance ID. Lowercase alphanumeric, hyphens, and underscores.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/ai_search_instance#id DataCloudflareAiSearchInstance#id}.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/ai_search_instance#id DataCloudflareAiSearchInstance#id}
-            ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
             /// </remarks>

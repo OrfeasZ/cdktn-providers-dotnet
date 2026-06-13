@@ -71,6 +71,12 @@ namespace cloudflare.DataCloudflareAiGateways
             get => GetInstanceProperty<cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultDlpOutputReference>()!;
         }
 
+        [JsiiProperty(name: "guardrails", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiGateways.DataCloudflareAiGatewaysResultGuardrailsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultGuardrailsOutputReference Guardrails
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultGuardrailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -153,6 +159,12 @@ namespace cloudflare.DataCloudflareAiGateways
         public virtual double RetryMaxAttempts
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "spendLimits", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiGateways.DataCloudflareAiGatewaysResultSpendLimitsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultSpendLimitsOutputReference SpendLimits
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultSpendLimitsOutputReference>()!;
         }
 
         [JsiiProperty(name: "storeId", typeJson: "{\"primitive\":\"string\"}")]

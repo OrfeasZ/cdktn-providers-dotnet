@@ -57,6 +57,12 @@ namespace cloudflare.DataCloudflareWorkers
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "propagationPolicy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PropagationPolicy
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkers.DataCloudflareWorkersResultObservabilityTraces\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareWorkers.IDataCloudflareWorkersResultObservabilityTraces? InternalValue

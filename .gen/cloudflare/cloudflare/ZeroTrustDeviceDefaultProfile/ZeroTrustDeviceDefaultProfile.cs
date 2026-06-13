@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustDeviceDefaultProfile
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_default_profile cloudflare_zero_trust_device_default_profile}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_default_profile cloudflare_zero_trust_device_default_profile}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfile), fullyQualifiedName: "cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfile", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileConfig\"}}]")]
     public class ZeroTrustDeviceDefaultProfile : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_default_profile cloudflare_zero_trust_device_default_profile} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_default_profile cloudflare_zero_trust_device_default_profile} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ZeroTrustDeviceDefaultProfile(Constructs.Construct scope, string id, cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,33 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustDeviceDefaultProfile to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustDeviceDefaultProfile that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustDeviceDefaultProfile to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustDeviceDefaultProfile to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/zero_trust_device_default_profile#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustDeviceDefaultProfile that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustDeviceDefaultProfile to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustDeviceDefaultProfile to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_default_profile#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustDeviceDefaultProfile that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustDeviceDefaultProfile to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putDnsSearchSuffixes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileDnsSearchSuffixes\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDnsSearchSuffixes(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileDnsSearchSuffixes[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileDnsSearchSuffixes).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileDnsSearchSuffixes).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putExclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileExclude\"},\"kind\":\"array\"}}]}}}]")]
@@ -98,6 +121,12 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileServiceModeV2)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putVirtualNetworks", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileVirtualNetworks\"}}]")]
+        public virtual void PutVirtualNetworks(cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileVirtualNetworks @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDeviceDefaultProfile.IZeroTrustDeviceDefaultProfileVirtualNetworks)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAllowedToLeave")]
         public virtual void ResetAllowedToLeave()
         {
@@ -130,6 +159,12 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
 
         [JsiiMethod(name: "resetDisableAutoFallback")]
         public virtual void ResetDisableAutoFallback()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDnsSearchSuffixes")]
+        public virtual void ResetDnsSearchSuffixes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -200,6 +235,12 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVirtualNetworks")]
+        public virtual void ResetVirtualNetworks()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -223,6 +264,12 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
         public virtual Io.Cdktn.IResolvable Default
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "dnsSearchSuffixes", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileDnsSearchSuffixesList\"}")]
+        public virtual cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileDnsSearchSuffixesList DnsSearchSuffixes
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileDnsSearchSuffixesList>()!;
         }
 
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -273,6 +320,12 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
             get => GetInstanceProperty<cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileServiceModeV2OutputReference>()!;
         }
 
+        [JsiiProperty(name: "virtualNetworks", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileVirtualNetworksOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileVirtualNetworksOutputReference VirtualNetworks
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileVirtualNetworksOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "accountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AccountIdInput
@@ -318,6 +371,13 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
         [JsiiOptional]
         [JsiiProperty(name: "disableAutoFallbackInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisableAutoFallbackInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dnsSearchSuffixesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileDnsSearchSuffixes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DnsSearchSuffixesInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -397,6 +457,13 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfile
         public virtual string? TunnelProtocolInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "virtualNetworksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDeviceDefaultProfile.ZeroTrustDeviceDefaultProfileVirtualNetworks\"}]}}", isOptional: true)]
+        public virtual object? VirtualNetworksInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]

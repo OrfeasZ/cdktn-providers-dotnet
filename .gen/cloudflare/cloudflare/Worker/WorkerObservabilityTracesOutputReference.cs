@@ -57,6 +57,12 @@ namespace cloudflare.Worker
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPropagationPolicy")]
+        public virtual void ResetPropagationPolicy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "destinationsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? DestinationsInput
@@ -83,6 +89,13 @@ namespace cloudflare.Worker
         public virtual object? PersistInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "propagationPolicyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PropagationPolicyInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "destinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
@@ -151,6 +164,13 @@ namespace cloudflare.Worker
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "propagationPolicy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PropagationPolicy
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

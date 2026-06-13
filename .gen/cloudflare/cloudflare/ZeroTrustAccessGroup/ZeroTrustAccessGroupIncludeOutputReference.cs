@@ -65,6 +65,12 @@ namespace cloudflare.ZeroTrustAccessGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupIncludeCertificate)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putCloudflareAccountMember", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCloudflareAccountMember\"}}]")]
+        public virtual void PutCloudflareAccountMember(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupIncludeCloudflareAccountMember @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupIncludeCloudflareAccountMember)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putCommonName", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCommonName\"}}]")]
         public virtual void PutCommonName(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupIncludeCommonName @value)
         {
@@ -211,6 +217,12 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         [JsiiMethod(name: "resetCertificate")]
         public virtual void ResetCertificate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCloudflareAccountMember")]
+        public virtual void ResetCloudflareAccountMember()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -365,6 +377,12 @@ namespace cloudflare.ZeroTrustAccessGroup
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCertificateOutputReference>()!;
         }
 
+        [JsiiProperty(name: "cloudflareAccountMember", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCloudflareAccountMemberOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCloudflareAccountMemberOutputReference CloudflareAccountMember
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCloudflareAccountMemberOutputReference>()!;
+        }
+
         [JsiiProperty(name: "commonName", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCommonNameOutputReference\"}")]
         public virtual cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCommonNameOutputReference CommonName
         {
@@ -516,6 +534,13 @@ namespace cloudflare.ZeroTrustAccessGroup
         [JsiiOptional]
         [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCertificate\"}]}}", isOptional: true)]
         public virtual object? CertificateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "cloudflareAccountMemberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupIncludeCloudflareAccountMember\"}]}}", isOptional: true)]
+        public virtual object? CloudflareAccountMemberInput
         {
             get => GetInstanceProperty<object?>();
         }

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareEmailSecurityTrustedDomains
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/email_security_trusted_domains cloudflare_email_security_trusted_domains}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/email_security_trusted_domains cloudflare_email_security_trusted_domains}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareEmailSecurityTrustedDomains.DataCloudflareEmailSecurityTrustedDomains), fullyQualifiedName: "cloudflare.dataCloudflareEmailSecurityTrustedDomains.DataCloudflareEmailSecurityTrustedDomains", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.dataCloudflareEmailSecurityTrustedDomains.DataCloudflareEmailSecurityTrustedDomainsConfig\"}}]")]
     public class DataCloudflareEmailSecurityTrustedDomains : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/email_security_trusted_domains cloudflare_email_security_trusted_domains} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/email_security_trusted_domains cloudflare_email_security_trusted_domains} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataCloudflareEmailSecurityTrustedDomains(Constructs.Construct scope, string id, cloudflare.DataCloudflareEmailSecurityTrustedDomains.IDataCloudflareEmailSecurityTrustedDomainsConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.DataCloudflareEmailSecurityTrustedDomains
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareEmailSecurityTrustedDomains to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareEmailSecurityTrustedDomains that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareEmailSecurityTrustedDomains to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareEmailSecurityTrustedDomains to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/email_security_trusted_domains#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareEmailSecurityTrustedDomains that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareEmailSecurityTrustedDomains to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareEmailSecurityTrustedDomains to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/email_security_trusted_domains#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareEmailSecurityTrustedDomains that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareEmailSecurityTrustedDomains to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareEmailSecurityTrustedDomains.DataCloudflareEmailSecurityTrustedDomains), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -107,10 +107,10 @@ namespace cloudflare.DataCloudflareEmailSecurityTrustedDomains
             get => GetInstanceProperty<cloudflare.DataCloudflareEmailSecurityTrustedDomains.DataCloudflareEmailSecurityTrustedDomainsFilterOutputReference>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
-            get => GetInstanceProperty<double>()!;
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "isRecent", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -137,6 +137,12 @@ namespace cloudflare.DataCloudflareEmailSecurityTrustedDomains
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "modifiedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModifiedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Pattern
         {
@@ -158,10 +164,10 @@ namespace cloudflare.DataCloudflareEmailSecurityTrustedDomains
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "trustedDomainIdInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? TrustedDomainIdInput
+        [JsiiProperty(name: "trustedDomainIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TrustedDomainIdInput
         {
-            get => GetInstanceProperty<double?>();
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
@@ -171,10 +177,10 @@ namespace cloudflare.DataCloudflareEmailSecurityTrustedDomains
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "trustedDomainId", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double TrustedDomainId
+        [JsiiProperty(name: "trustedDomainId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustedDomainId
         {
-            get => GetInstanceProperty<double>()!;
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
     }

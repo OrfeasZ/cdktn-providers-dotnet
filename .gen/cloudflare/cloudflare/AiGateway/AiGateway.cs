@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.AiGateway
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway cloudflare_ai_gateway}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway cloudflare_ai_gateway}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.AiGateway.AiGateway), fullyQualifiedName: "cloudflare.aiGateway.AiGateway", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.aiGateway.AiGatewayConfig\"}}]")]
     public class AiGateway : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway cloudflare_ai_gateway} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway cloudflare_ai_gateway} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public AiGateway(Constructs.Construct scope, string id, cloudflare.AiGateway.IAiGatewayConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.AiGateway
         /// <param name="importToId">The construct id used in the generated config for the AiGateway to import.</param>
         /// <param name="importFromId">The id of the existing AiGateway that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the AiGateway to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AiGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/ai_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AiGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AiGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AiGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AiGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AiGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.AiGateway.AiGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace cloudflare.AiGateway
         public virtual void PutDlp(cloudflare.AiGateway.IAiGatewayDlp @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiGateway.IAiGatewayDlp)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putGuardrails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrails\"}}]")]
+        public virtual void PutGuardrails(cloudflare.AiGateway.IAiGatewayGuardrails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiGateway.IAiGatewayGuardrails)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putOtel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewayOtel\"},\"kind\":\"array\"}}]}}}]")]
@@ -75,6 +81,12 @@ namespace cloudflare.AiGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putSpendLimits", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimits\"}}]")]
+        public virtual void PutSpendLimits(cloudflare.AiGateway.IAiGatewaySpendLimits @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiGateway.IAiGatewaySpendLimits)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putStripe", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiGateway.AiGatewayStripe\"}}]")]
         public virtual void PutStripe(cloudflare.AiGateway.IAiGatewayStripe @value)
         {
@@ -95,6 +107,12 @@ namespace cloudflare.AiGateway
 
         [JsiiMethod(name: "resetDlp")]
         public virtual void ResetDlp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetGuardrails")]
+        public virtual void ResetGuardrails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -149,6 +167,12 @@ namespace cloudflare.AiGateway
 
         [JsiiMethod(name: "resetRetryMaxAttempts")]
         public virtual void ResetRetryMaxAttempts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSpendLimits")]
+        public virtual void ResetSpendLimits()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -208,6 +232,12 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<cloudflare.AiGateway.AiGatewayDlpOutputReference>()!;
         }
 
+        [JsiiProperty(name: "guardrails", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrailsOutputReference\"}")]
+        public virtual cloudflare.AiGateway.AiGatewayGuardrailsOutputReference Guardrails
+        {
+            get => GetInstanceProperty<cloudflare.AiGateway.AiGatewayGuardrailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "isDefault", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsDefault
         {
@@ -224,6 +254,12 @@ namespace cloudflare.AiGateway
         public virtual cloudflare.AiGateway.AiGatewayOtelList Otel
         {
             get => GetInstanceProperty<cloudflare.AiGateway.AiGatewayOtelList>()!;
+        }
+
+        [JsiiProperty(name: "spendLimits", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsOutputReference\"}")]
+        public virtual cloudflare.AiGateway.AiGatewaySpendLimitsOutputReference SpendLimits
+        {
+            get => GetInstanceProperty<cloudflare.AiGateway.AiGatewaySpendLimitsOutputReference>()!;
         }
 
         [JsiiProperty(name: "stripe", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewayStripeOutputReference\"}")]
@@ -270,6 +306,13 @@ namespace cloudflare.AiGateway
         [JsiiOptional]
         [JsiiProperty(name: "dlpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayDlp\"}]}}", isOptional: true)]
         public virtual object? DlpInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "guardrailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrails\"}]}}", isOptional: true)]
+        public virtual object? GuardrailsInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -356,6 +399,13 @@ namespace cloudflare.AiGateway
         public virtual double? RetryMaxAttemptsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "spendLimitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimits\"}]}}", isOptional: true)]
+        public virtual object? SpendLimitsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

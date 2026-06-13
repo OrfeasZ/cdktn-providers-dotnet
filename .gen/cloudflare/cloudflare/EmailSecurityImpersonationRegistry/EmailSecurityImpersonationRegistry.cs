@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.EmailSecurityImpersonationRegistry
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_impersonation_registry cloudflare_email_security_impersonation_registry}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/email_security_impersonation_registry cloudflare_email_security_impersonation_registry}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.EmailSecurityImpersonationRegistry.EmailSecurityImpersonationRegistry), fullyQualifiedName: "cloudflare.emailSecurityImpersonationRegistry.EmailSecurityImpersonationRegistry", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.emailSecurityImpersonationRegistry.EmailSecurityImpersonationRegistryConfig\"}}]")]
     public class EmailSecurityImpersonationRegistry : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_impersonation_registry cloudflare_email_security_impersonation_registry} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/email_security_impersonation_registry cloudflare_email_security_impersonation_registry} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public EmailSecurityImpersonationRegistry(Constructs.Construct scope, string id, cloudflare.EmailSecurityImpersonationRegistry.IEmailSecurityImpersonationRegistryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
         /// <param name="importToId">The construct id used in the generated config for the EmailSecurityImpersonationRegistry to import.</param>
         /// <param name="importFromId">The id of the existing EmailSecurityImpersonationRegistry that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EmailSecurityImpersonationRegistry to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EmailSecurityImpersonationRegistry to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/email_security_impersonation_registry#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EmailSecurityImpersonationRegistry that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EmailSecurityImpersonationRegistry to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EmailSecurityImpersonationRegistry to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/email_security_impersonation_registry#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EmailSecurityImpersonationRegistry that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EmailSecurityImpersonationRegistry to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.EmailSecurityImpersonationRegistry.EmailSecurityImpersonationRegistry), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -48,6 +48,36 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
 
         [JsiiMethod(name: "resetAccountId")]
         public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetComments")]
+        public virtual void ResetComments()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDirectoryId")]
+        public virtual void ResetDirectoryId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDirectoryNodeId")]
+        public virtual void ResetDirectoryNodeId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExternalDirectoryNodeId")]
+        public virtual void ResetExternalDirectoryNodeId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetProvenance")]
+        public virtual void ResetProvenance()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -71,40 +101,16 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
         }
         = GetStaticProperty<string>(typeof(cloudflare.EmailSecurityImpersonationRegistry.EmailSecurityImpersonationRegistry))!;
 
-        [JsiiProperty(name: "comments", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Comments
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double DirectoryId
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "directoryNodeId", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double DirectoryNodeId
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "externalDirectoryNodeId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ExternalDirectoryNodeId
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Id
-        {
-            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "lastModified", typeJson: "{\"primitive\":\"string\"}")]
@@ -113,8 +119,8 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "provenance", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Provenance
+        [JsiiProperty(name: "modifiedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModifiedAt
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -127,8 +133,36 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "commentsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CommentsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "directoryIdInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DirectoryIdInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "directoryNodeIdInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DirectoryNodeIdInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "emailInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EmailInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "externalDirectoryNodeIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ExternalDirectoryNodeIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -147,6 +181,13 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "provenanceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ProvenanceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AccountId
         {
@@ -154,8 +195,36 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "comments", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Comments
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "directoryId", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DirectoryId
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "directoryNodeId", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DirectoryNodeId
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Email
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "externalDirectoryNodeId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExternalDirectoryNodeId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -190,6 +259,13 @@ namespace cloudflare.EmailSecurityImpersonationRegistry
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "provenance", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Provenance
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

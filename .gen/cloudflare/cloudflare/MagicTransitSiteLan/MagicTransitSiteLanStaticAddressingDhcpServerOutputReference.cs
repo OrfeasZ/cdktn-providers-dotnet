@@ -33,6 +33,35 @@ namespace cloudflare.MagicTransitSiteLan
         {
         }
 
+        [JsiiMethod(name: "putDhcpOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDhcpOptions(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetDhcpOptions")]
+        public virtual void ResetDhcpOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDhcpPoolEnd")]
         public virtual void ResetDhcpPoolEnd()
         {
@@ -61,6 +90,19 @@ namespace cloudflare.MagicTransitSiteLan
         public virtual void ResetReservations()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "dhcpOptions", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList\"}")]
+        public virtual cloudflare.MagicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList DhcpOptions
+        {
+            get => GetInstanceProperty<cloudflare.MagicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dhcpOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DhcpOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

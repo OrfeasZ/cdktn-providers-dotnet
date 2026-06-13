@@ -77,6 +77,12 @@ namespace cloudflare.DataCloudflareZeroTrustNetworkHostnameRoutes
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tunType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TunType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustNetworkHostnameRoutes.DataCloudflareZeroTrustNetworkHostnameRoutesResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustNetworkHostnameRoutes.IDataCloudflareZeroTrustNetworkHostnameRoutesResult? InternalValue

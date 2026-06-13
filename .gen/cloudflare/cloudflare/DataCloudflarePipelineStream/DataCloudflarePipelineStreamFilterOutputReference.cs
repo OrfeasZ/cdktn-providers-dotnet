@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflarePipelineStream
         {
         }
 
+        [JsiiMethod(name: "resetName")]
+        public virtual void ResetName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPipelineId")]
         public virtual void ResetPipelineId()
         {
@@ -40,10 +46,24 @@ namespace cloudflare.DataCloudflarePipelineStream
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "pipelineIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PipelineIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]

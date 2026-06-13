@@ -35,6 +35,12 @@ namespace cloudflare.AiGateway
         {
         }
 
+        [JsiiMethod(name: "resetAuthorization")]
+        public virtual void ResetAuthorization()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetContentType")]
         public virtual void ResetContentType()
         {

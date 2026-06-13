@@ -51,6 +51,12 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isValid", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsValid
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VersionId
         {

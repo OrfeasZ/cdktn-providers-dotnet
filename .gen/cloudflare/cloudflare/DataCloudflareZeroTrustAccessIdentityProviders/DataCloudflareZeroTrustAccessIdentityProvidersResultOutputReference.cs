@@ -53,6 +53,24 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProviders
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "readOnly", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ReadOnly
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "samlCertificateSet", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultSamlCertificateSetOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultSamlCertificateSetOutputReference SamlCertificateSet
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultSamlCertificateSetOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "samlCertificateSetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SamlCertificateSetId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "scimConfig", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultScimConfigOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultScimConfigOutputReference ScimConfig
         {

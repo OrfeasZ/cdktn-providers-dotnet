@@ -75,6 +75,12 @@ namespace cloudflare.DataCloudflareZone
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetType")]
+        public virtual void ResetType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "account", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZone.DataCloudflareZoneFilterAccountOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZone.DataCloudflareZoneFilterAccountOutputReference Account
         {
@@ -123,6 +129,13 @@ namespace cloudflare.DataCloudflareZone
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "typeInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? TypeInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Direction
         {
@@ -155,6 +168,13 @@ namespace cloudflare.DataCloudflareZone
         public virtual string Status
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Type
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

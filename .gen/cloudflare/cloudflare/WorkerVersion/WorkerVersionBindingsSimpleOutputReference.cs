@@ -33,9 +33,22 @@ namespace cloudflare.WorkerVersion
         {
         }
 
+        [JsiiMethod(name: "resetMitigationTimeout")]
+        public virtual void ResetMitigationTimeout()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "limitInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? LimitInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mitigationTimeoutInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MitigationTimeoutInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -49,6 +62,13 @@ namespace cloudflare.WorkerVersion
 
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Limit
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mitigationTimeout", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MitigationTimeout
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

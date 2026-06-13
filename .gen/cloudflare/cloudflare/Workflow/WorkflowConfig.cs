@@ -9,7 +9,7 @@ namespace cloudflare.Workflow
     [JsiiByValue(fqn: "cloudflare.workflow.WorkflowConfig")]
     public class WorkflowConfig : cloudflare.Workflow.IWorkflowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workflow#class_name Workflow#class_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/workflow#class_name Workflow#class_name}.</summary>
         [JsiiProperty(name: "className", typeJson: "{\"primitive\":\"string\"}")]
         public string ClassName
         {
@@ -17,7 +17,7 @@ namespace cloudflare.Workflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workflow#script_name Workflow#script_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/workflow#script_name Workflow#script_name}.</summary>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptName
         {
@@ -25,7 +25,7 @@ namespace cloudflare.Workflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workflow#workflow_name Workflow#workflow_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/workflow#workflow_name Workflow#workflow_name}.</summary>
         [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkflowName
         {
@@ -33,7 +33,7 @@ namespace cloudflare.Workflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workflow#account_id Workflow#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/workflow#account_id Workflow#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -42,13 +42,44 @@ namespace cloudflare.Workflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/resources/workflow#limits Workflow#limits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/workflow#limits Workflow#limits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.workflow.WorkflowLimits\"}", isOptional: true)]
         public cloudflare.Workflow.IWorkflowLimits? Limits
         {
             get;
             set;
+        }
+
+        private object? _schedules;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/workflow#schedules Workflow#schedules}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "schedules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workflow.WorkflowSchedules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Schedules
+        {
+            get => _schedules;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case cloudflare.Workflow.IWorkflowSchedules[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.Workflow.IWorkflowSchedules).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _schedules = value;
+            }
         }
 
         private object? _connection;

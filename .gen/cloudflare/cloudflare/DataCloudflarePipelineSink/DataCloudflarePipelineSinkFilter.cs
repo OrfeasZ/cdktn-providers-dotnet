@@ -7,7 +7,19 @@ namespace cloudflare.DataCloudflarePipelineSink
     [JsiiByValue(fqn: "cloudflare.dataCloudflarePipelineSink.DataCloudflarePipelineSinkFilter")]
     public class DataCloudflarePipelineSinkFilter : cloudflare.DataCloudflarePipelineSink.IDataCloudflarePipelineSinkFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/pipeline_sink#pipeline_id DataCloudflarePipelineSink#pipeline_id}.</summary>
+        /// <summary>Filters sinks by name (case-insensitive substring).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/pipeline_sink#name DataCloudflarePipelineSink#name}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Name
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/pipeline_sink#pipeline_id DataCloudflarePipelineSink#pipeline_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PipelineId

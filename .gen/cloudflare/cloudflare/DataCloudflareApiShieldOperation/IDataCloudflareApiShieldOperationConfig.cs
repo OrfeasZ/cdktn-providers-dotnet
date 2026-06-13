@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
         /// <remarks>
         /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#feature DataCloudflareApiShieldOperation#feature}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#feature DataCloudflareApiShieldOperation#feature}
         /// </remarks>
         [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#filter DataCloudflareApiShieldOperation#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#filter DataCloudflareApiShieldOperation#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareApiShieldOperation.DataCloudflareApiShieldOperationFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareApiShieldOperation.IDataCloudflareApiShieldOperationFilter? Filter
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
 
         /// <summary>UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#operation_id DataCloudflareApiShieldOperation#operation_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#operation_id DataCloudflareApiShieldOperation#operation_id}
         /// </remarks>
         [JsiiProperty(name: "operationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,9 +48,25 @@ namespace cloudflare.DataCloudflareApiShieldOperation
             }
         }
 
+        /// <summary>When true, includes OpenAPI schemas (both uploaded and learned) for the operation in the response.</summary>
+        /// <remarks>
+        /// Due to the conversion overhead, this parameter is only supported on single-operation retrieval.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#with_schemas DataCloudflareApiShieldOperation#with_schemas}
+        /// </remarks>
+        [JsiiProperty(name: "withSchemas", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? WithSchemas
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#zone_id DataCloudflareApiShieldOperation#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#zone_id DataCloudflareApiShieldOperation#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +89,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
             /// <remarks>
             /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#feature DataCloudflareApiShieldOperation#feature}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#feature DataCloudflareApiShieldOperation#feature}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -82,7 +98,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#filter DataCloudflareApiShieldOperation#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#filter DataCloudflareApiShieldOperation#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareApiShieldOperation.DataCloudflareApiShieldOperationFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareApiShieldOperation.IDataCloudflareApiShieldOperationFilter? Filter
@@ -92,7 +108,7 @@ namespace cloudflare.DataCloudflareApiShieldOperation
 
             /// <summary>UUID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#operation_id DataCloudflareApiShieldOperation#operation_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#operation_id DataCloudflareApiShieldOperation#operation_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "operationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -101,9 +117,22 @@ namespace cloudflare.DataCloudflareApiShieldOperation
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>When true, includes OpenAPI schemas (both uploaded and learned) for the operation in the response.</summary>
+            /// <remarks>
+            /// Due to the conversion overhead, this parameter is only supported on single-operation retrieval.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#with_schemas DataCloudflareApiShieldOperation#with_schemas}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "withSchemas", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? WithSchemas
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.19.1/docs/data-sources/api_shield_operation#zone_id DataCloudflareApiShieldOperation#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/api_shield_operation#zone_id DataCloudflareApiShieldOperation#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

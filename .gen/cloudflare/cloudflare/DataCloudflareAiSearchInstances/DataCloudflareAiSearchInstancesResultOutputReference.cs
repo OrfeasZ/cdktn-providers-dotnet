@@ -59,6 +59,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "cacheTtl", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CacheTtl
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "chunkOverlap", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ChunkOverlap
         {

@@ -1,0 +1,167 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.ZeroTrustDeviceDeploymentGroups
+{
+    [JsiiInterface(nativeType: typeof(IZeroTrustDeviceDeploymentGroupsConfig), fullyQualifiedName: "cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsConfig")]
+    public interface IZeroTrustDeviceDeploymentGroupsConfig : Io.Cdktn.ITerraformMetaArguments
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#account_id ZeroTrustDeviceDeploymentGroups#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
+        {
+            get;
+        }
+
+        /// <summary>A user-friendly name for the deployment group.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#name ZeroTrustDeviceDeploymentGroups#name}
+        /// </remarks>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        string Name
+        {
+            get;
+        }
+
+        /// <summary>Contains at least one version configuration.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#version_config ZeroTrustDeviceDeploymentGroups#version_config}
+        /// </remarks>
+        [JsiiProperty(name: "versionConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsVersionConfig\"},\"kind\":\"array\"}}]}}")]
+        object VersionConfig
+        {
+            get;
+        }
+
+        /// <summary>Contains an optional list of policy IDs assigned to a group.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#policy_ids ZeroTrustDeviceDeploymentGroups#policy_ids}
+        /// </remarks>
+        [JsiiProperty(name: "policyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? PolicyIds
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IZeroTrustDeviceDeploymentGroupsConfig), fullyQualifiedName: "cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsConfig")]
+        internal sealed class _Proxy : DeputyBase, cloudflare.ZeroTrustDeviceDeploymentGroups.IZeroTrustDeviceDeploymentGroupsConfig
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#account_id ZeroTrustDeviceDeploymentGroups#account_id}.</summary>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>A user-friendly name for the deployment group.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#name ZeroTrustDeviceDeploymentGroups#name}
+            /// </remarks>
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+            public string Name
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Contains at least one version configuration.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#version_config ZeroTrustDeviceDeploymentGroups#version_config}
+            /// </remarks>
+            [JsiiProperty(name: "versionConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsVersionConfig\"},\"kind\":\"array\"}}]}}")]
+            public object VersionConfig
+            {
+                get => GetInstanceProperty<object>()!;
+            }
+
+            /// <summary>Contains an optional list of policy IDs assigned to a group.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_deployment_groups#policy_ids ZeroTrustDeviceDeploymentGroups#policy_ids}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "policyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? PolicyIds
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
+            public object? Connection
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
+            public object? Count
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"fqn\":\"cdktn.ITerraformDependable\"},\"kind\":\"array\"}}", isOptional: true)]
+            public Io.Cdktn.ITerraformDependable[]? DependsOn
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformDependable[]?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "forEach", typeJson: "{\"fqn\":\"cdktn.ITerraformIterator\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformIterator? ForEach
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformIterator?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "lifecycle", typeJson: "{\"fqn\":\"cdktn.TerraformResourceLifecycle\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformResourceLifecycle? Lifecycle
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformResourceLifecycle?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"cdktn.TerraformProvider\"}", isOptional: true)]
+            public Io.Cdktn.TerraformProvider? Provider
+            {
+                get => GetInstanceProperty<Io.Cdktn.TerraformProvider?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]
+            public object[]? Provisioners
+            {
+                get => GetInstanceProperty<object[]?>();
+            }
+        }
+    }
+}

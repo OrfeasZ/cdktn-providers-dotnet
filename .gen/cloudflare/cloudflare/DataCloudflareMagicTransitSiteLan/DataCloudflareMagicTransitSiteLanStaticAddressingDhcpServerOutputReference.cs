@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareMagicTransitSiteLan
         {
         }
 
+        [JsiiProperty(name: "dhcpOptions", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicTransitSiteLan.DataCloudflareMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList\"}")]
+        public virtual cloudflare.DataCloudflareMagicTransitSiteLan.DataCloudflareMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList DhcpOptions
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareMagicTransitSiteLan.DataCloudflareMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList>()!;
+        }
+
         [JsiiProperty(name: "dhcpPoolEnd", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DhcpPoolEnd
         {

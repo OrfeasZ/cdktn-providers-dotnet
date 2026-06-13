@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "mitigationTimeout", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MitigationTimeout
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "period", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Period
         {
