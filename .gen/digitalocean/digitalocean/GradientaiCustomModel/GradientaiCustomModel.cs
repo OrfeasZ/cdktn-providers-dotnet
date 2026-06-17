@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.GradientaiCustomModel
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model digitalocean_gradientai_custom_model}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/resources/gradientai_custom_model digitalocean_gradientai_custom_model}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.GradientaiCustomModel.GradientaiCustomModel), fullyQualifiedName: "digitalocean.gradientaiCustomModel.GradientaiCustomModel", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelConfig\"}}]")]
     public class GradientaiCustomModel : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model digitalocean_gradientai_custom_model} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/resources/gradientai_custom_model digitalocean_gradientai_custom_model} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public GradientaiCustomModel(Constructs.Construct scope, string id, digitalocean.GradientaiCustomModel.IGradientaiCustomModelConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace digitalocean.GradientaiCustomModel
         /// <param name="importToId">The construct id used in the generated config for the GradientaiCustomModel to import.</param>
         /// <param name="importFromId">The id of the existing GradientaiCustomModel that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the GradientaiCustomModel to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GradientaiCustomModel to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/resources/gradientai_custom_model#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GradientaiCustomModel that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GradientaiCustomModel to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GradientaiCustomModel to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/resources/gradientai_custom_model#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GradientaiCustomModel that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GradientaiCustomModel to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.GradientaiCustomModel.GradientaiCustomModel), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -72,6 +72,30 @@ namespace digitalocean.GradientaiCustomModel
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInputModalities")]
+        public virtual void ResetInputModalities()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLicense")]
+        public virtual void ResetLicense()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOutputModalities")]
+        public virtual void ResetOutputModalities()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetParameters")]
+        public virtual void ResetParameters()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -149,30 +173,6 @@ namespace digitalocean.GradientaiCustomModel
             get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "inputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] InputModalities
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
-        [JsiiProperty(name: "license", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string License
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "outputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] OutputModalities
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
-        [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Parameters
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "sourceRef", typeJson: "{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelSourceRefOutputReference\"}")]
         public virtual digitalocean.GradientaiCustomModel.GradientaiCustomModelSourceRefOutputReference SourceRef
         {
@@ -243,8 +243,36 @@ namespace digitalocean.GradientaiCustomModel
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "inputModalitiesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? InputModalitiesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "licenseInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LicenseInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "outputModalitiesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? OutputModalitiesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "parametersInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ParametersInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -325,8 +353,36 @@ namespace digitalocean.GradientaiCustomModel
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "inputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] InputModalities
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "license", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string License
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "outputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] OutputModalities
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Parameters
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

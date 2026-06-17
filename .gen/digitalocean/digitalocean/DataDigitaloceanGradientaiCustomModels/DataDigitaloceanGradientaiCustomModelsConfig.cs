@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/data-sources/gradientai_custom_models#filter DataDigitaloceanGradientaiCustomModels#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/data-sources/gradientai_custom_models#filter DataDigitaloceanGradientaiCustomModels#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiCustomModels.DataDigitaloceanGradientaiCustomModelsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/data-sources/gradientai_custom_models#id DataDigitaloceanGradientaiCustomModels#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/data-sources/gradientai_custom_models#id DataDigitaloceanGradientaiCustomModels#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/data-sources/gradientai_custom_models#sort DataDigitaloceanGradientaiCustomModels#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/data-sources/gradientai_custom_models#sort DataDigitaloceanGradientaiCustomModels#sort}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiCustomModels.DataDigitaloceanGradientaiCustomModelsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
 
         /// <summary>Optional status filter forwarded to the list API (e.g. STATUS_READY).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.89.0/docs/data-sources/gradientai_custom_models#status DataDigitaloceanGradientaiCustomModels#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.90.0/docs/data-sources/gradientai_custom_models#status DataDigitaloceanGradientaiCustomModels#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
