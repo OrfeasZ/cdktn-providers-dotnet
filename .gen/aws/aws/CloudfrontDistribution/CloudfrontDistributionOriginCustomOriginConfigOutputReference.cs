@@ -33,6 +33,12 @@ namespace aws.CloudfrontDistribution
         {
         }
 
+        [JsiiMethod(name: "putOriginMtlsConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig\"}}]")]
+        public virtual void PutOriginMtlsConfig(aws.CloudfrontDistribution.ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontDistribution.ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetIpAddressType")]
         public virtual void ResetIpAddressType()
         {
@@ -45,10 +51,22 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOriginMtlsConfig")]
+        public virtual void ResetOriginMtlsConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOriginReadTimeout")]
         public virtual void ResetOriginReadTimeout()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "originMtlsConfig", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfigOutputReference\"}")]
+        public virtual aws.CloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfigOutputReference OriginMtlsConfig
+        {
+            get => GetInstanceProperty<aws.CloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfigOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -77,6 +95,13 @@ namespace aws.CloudfrontDistribution
         public virtual double? OriginKeepaliveTimeoutInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "originMtlsConfigInput", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig\"}", isOptional: true)]
+        public virtual aws.CloudfrontDistribution.ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig? OriginMtlsConfigInput
+        {
+            get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig?>();
         }
 
         [JsiiOptional]

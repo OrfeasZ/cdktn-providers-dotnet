@@ -4,14 +4,22 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.EksCluster
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "aws.eksCluster.EksClusterOutpostConfigControlPlanePlacement")]
     public class EksClusterOutpostConfigControlPlanePlacement : aws.EksCluster.IEksClusterOutpostConfigControlPlanePlacement
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
-        [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}")]
-        public string GroupName
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? GroupName
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "spreadLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SpreadLevel
         {
             get;
             set;

@@ -2,7 +2,7 @@
   "cdktf": "0.22.1",
   "providers": {
     "acme": "2.48.1",
-    "aws": "6.50.0",
+    "aws": "6.51.0",
     "cloudflare": "5.20.0",
     "digitalocean": "2.90.0",
     "hcloud": "1.65.0",

@@ -1,0 +1,37 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.OpensearchserverlessCollection
+{
+    [JsiiInterface(nativeType: typeof(IOpensearchserverlessCollectionVectorOptions), fullyQualifiedName: "aws.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions")]
+    public interface IOpensearchserverlessCollectionVectorOptions
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.</summary>
+        [JsiiProperty(name: "serverlessVectorAcceleration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ServerlessVectorAcceleration
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IOpensearchserverlessCollectionVectorOptions), fullyQualifiedName: "aws.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions")]
+        internal sealed class _Proxy : DeputyBase, aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionVectorOptions
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "serverlessVectorAcceleration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ServerlessVectorAcceleration
+            {
+                get => GetInstanceProperty<string?>();
+            }
+        }
+    }
+}

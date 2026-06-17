@@ -9,7 +9,7 @@ namespace aws.BedrockagentcorePolicy
     [JsiiByValue(fqn: "aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar")]
     public class BedrockagentcorePolicyDefinitionCedar : aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinitionCedar
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.</summary>
         [JsiiProperty(name: "statement", typeJson: "{\"primitive\":\"string\"}")]
         public string Statement
         {

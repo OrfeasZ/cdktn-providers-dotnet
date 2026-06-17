@@ -39,8 +39,26 @@ namespace aws.EksCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterOutpostConfigControlPlanePlacement)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putEtcdPlacement", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfigEtcdPlacement\"}}]")]
+        public virtual void PutEtcdPlacement(aws.EksCluster.IEksClusterOutpostConfigEtcdPlacement @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterOutpostConfigEtcdPlacement)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetControlPlanePlacement")]
         public virtual void ResetControlPlanePlacement()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEtcdInstanceType")]
+        public virtual void ResetEtcdInstanceType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEtcdPlacement")]
+        public virtual void ResetEtcdPlacement()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -49,6 +67,12 @@ namespace aws.EksCluster
         public virtual aws.EksCluster.EksClusterOutpostConfigControlPlanePlacementOutputReference ControlPlanePlacement
         {
             get => GetInstanceProperty<aws.EksCluster.EksClusterOutpostConfigControlPlanePlacementOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "etcdPlacement", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfigEtcdPlacementOutputReference\"}")]
+        public virtual aws.EksCluster.EksClusterOutpostConfigEtcdPlacementOutputReference EtcdPlacement
+        {
+            get => GetInstanceProperty<aws.EksCluster.EksClusterOutpostConfigEtcdPlacementOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -66,6 +90,20 @@ namespace aws.EksCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "etcdInstanceTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EtcdInstanceTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "etcdPlacementInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfigEtcdPlacement\"}", isOptional: true)]
+        public virtual aws.EksCluster.IEksClusterOutpostConfigEtcdPlacement? EtcdPlacementInput
+        {
+            get => GetInstanceProperty<aws.EksCluster.IEksClusterOutpostConfigEtcdPlacement?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "outpostArnsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? OutpostArnsInput
         {
@@ -74,6 +112,13 @@ namespace aws.EksCluster
 
         [JsiiProperty(name: "controlPlaneInstanceType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ControlPlaneInstanceType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "etcdInstanceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EtcdInstanceType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

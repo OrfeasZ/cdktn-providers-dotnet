@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.ElasticacheReplicationGroup
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group}.</summary>
     [JsiiClass(nativeType: typeof(aws.ElasticacheReplicationGroup.ElasticacheReplicationGroup), fullyQualifiedName: "aws.elasticacheReplicationGroup.ElasticacheReplicationGroup", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupConfig\"}}]")]
     public class ElasticacheReplicationGroup : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ElasticacheReplicationGroup(Constructs.Construct scope, string id, aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.ElasticacheReplicationGroup
         /// <param name="importToId">The construct id used in the generated config for the ElasticacheReplicationGroup to import.</param>
         /// <param name="importFromId">The id of the existing ElasticacheReplicationGroup that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ElasticacheReplicationGroup to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ElasticacheReplicationGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/elasticache_replication_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ElasticacheReplicationGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ElasticacheReplicationGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ElasticacheReplicationGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/elasticache_replication_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ElasticacheReplicationGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ElasticacheReplicationGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ElasticacheReplicationGroup.ElasticacheReplicationGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -142,6 +142,12 @@ namespace aws.ElasticacheReplicationGroup
 
         [JsiiMethod(name: "resetDataTieringEnabled")]
         public virtual void ResetDataTieringEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDurability")]
+        public virtual void ResetDurability()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -488,6 +494,13 @@ namespace aws.ElasticacheReplicationGroup
         [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "durabilityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DurabilityInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -855,6 +868,13 @@ namespace aws.ElasticacheReplicationGroup
 
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "durability", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Durability
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

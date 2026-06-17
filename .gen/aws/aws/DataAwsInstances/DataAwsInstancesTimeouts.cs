@@ -7,7 +7,7 @@ namespace aws.DataAwsInstances
     [JsiiByValue(fqn: "aws.dataAwsInstances.DataAwsInstancesTimeouts")]
     public class DataAwsInstancesTimeouts : aws.DataAwsInstances.IDataAwsInstancesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/instances#read DataAwsInstances#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/instances#read DataAwsInstances#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

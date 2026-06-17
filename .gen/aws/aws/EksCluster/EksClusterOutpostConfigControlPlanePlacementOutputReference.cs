@@ -33,6 +33,18 @@ namespace aws.EksCluster
         {
         }
 
+        [JsiiMethod(name: "resetGroupName")]
+        public virtual void ResetGroupName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSpreadLevel")]
+        public virtual void ResetSpreadLevel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "groupNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? GroupNameInput
@@ -40,8 +52,22 @@ namespace aws.EksCluster
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "spreadLevelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SpreadLevelInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string GroupName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "spreadLevel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SpreadLevel
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

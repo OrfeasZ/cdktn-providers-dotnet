@@ -47,6 +47,18 @@ namespace aws.DataAwsEksCluster
             get => GetInstanceProperty<aws.DataAwsEksCluster.DataAwsEksClusterOutpostConfigControlPlanePlacementList>()!;
         }
 
+        [JsiiProperty(name: "etcdInstanceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EtcdInstanceType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "etcdPlacement", typeJson: "{\"fqn\":\"aws.dataAwsEksCluster.DataAwsEksClusterOutpostConfigEtcdPlacementList\"}")]
+        public virtual aws.DataAwsEksCluster.DataAwsEksClusterOutpostConfigEtcdPlacementList EtcdPlacement
+        {
+            get => GetInstanceProperty<aws.DataAwsEksCluster.DataAwsEksClusterOutpostConfigEtcdPlacementList>()!;
+        }
+
         [JsiiProperty(name: "outpostArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] OutpostArns
         {

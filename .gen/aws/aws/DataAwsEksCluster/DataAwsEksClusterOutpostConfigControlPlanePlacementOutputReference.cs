@@ -41,6 +41,12 @@ namespace aws.DataAwsEksCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "spreadLevel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SpreadLevel
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.dataAwsEksCluster.DataAwsEksClusterOutpostConfigControlPlanePlacement\"}", isOptional: true)]
         public virtual aws.DataAwsEksCluster.IDataAwsEksClusterOutpostConfigControlPlanePlacement? InternalValue
