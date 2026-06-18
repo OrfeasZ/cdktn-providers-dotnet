@@ -95,12 +95,6 @@ namespace hcloud.DataHcloudImages
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Selector
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {

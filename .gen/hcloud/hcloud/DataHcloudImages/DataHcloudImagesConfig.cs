@@ -7,22 +7,12 @@ namespace hcloud.DataHcloudImages
     [JsiiByValue(fqn: "hcloud.dataHcloudImages.DataHcloudImagesConfig")]
     public class DataHcloudImagesConfig : hcloud.DataHcloudImages.IDataHcloudImagesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.65.0/docs/data-sources/images#id DataHcloudImages#id}.</summary>
-        /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
         private object? _includeDeprecated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.65.0/docs/data-sources/images#include_deprecated DataHcloudImages#include_deprecated}.</summary>
+        /// <summary>Include deprecated images.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/images#include_deprecated DataHcloudImages#include_deprecated}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeDeprecated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IncludeDeprecated
@@ -53,7 +43,10 @@ namespace hcloud.DataHcloudImages
 
         private object? _mostRecent;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.65.0/docs/data-sources/images#most_recent DataHcloudImages#most_recent}.</summary>
+        /// <summary>Sort results by created date.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/images#most_recent DataHcloudImages#most_recent}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MostRecent
@@ -82,7 +75,10 @@ namespace hcloud.DataHcloudImages
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.65.0/docs/data-sources/images#with_architecture DataHcloudImages#with_architecture}.</summary>
+        /// <summary>Filter results by architecture, for example `x86` or `arm`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/images#with_architecture DataHcloudImages#with_architecture}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withArchitecture", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? WithArchitecture
@@ -91,7 +87,10 @@ namespace hcloud.DataHcloudImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.65.0/docs/data-sources/images#with_selector DataHcloudImages#with_selector}.</summary>
+        /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/hetzner#label-selector).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/images#with_selector DataHcloudImages#with_selector}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WithSelector
@@ -100,7 +99,10 @@ namespace hcloud.DataHcloudImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.65.0/docs/data-sources/images#with_status DataHcloudImages#with_status}.</summary>
+        /// <summary>Filter results by statuses, for example `creating` or `available`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/images#with_status DataHcloudImages#with_status}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withStatus", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? WithStatus
