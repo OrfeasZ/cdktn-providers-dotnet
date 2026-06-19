@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareGoogleTagGateway
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/data-sources/google_tag_gateway#zone_id DataCloudflareGoogleTagGateway#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/google_tag_gateway#zone_id DataCloudflareGoogleTagGateway#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

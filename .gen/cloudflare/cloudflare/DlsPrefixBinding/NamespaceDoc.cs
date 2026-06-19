@@ -5,7 +5,7 @@ namespace cloudflare.DlsPrefixBinding
     /// <remarks>
     /// <h1><c>cloudflare_dls_prefix_binding</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/dls_prefix_binding"><c>cloudflare_dls_prefix_binding</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/dls_prefix_binding"><c>cloudflare_dls_prefix_binding</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,9 +9,20 @@ namespace cloudflare.Pipeline
     [JsiiByValue(fqn: "cloudflare.pipeline.PipelineConfig")]
     public class PipelineConfig : cloudflare.Pipeline.IPipelineConfig
     {
+        /// <summary>Specifies the public ID of the account.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline#account_id Pipeline#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Specifies the name of the Pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline#name Pipeline#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline#name Pipeline#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,22 +33,10 @@ namespace cloudflare.Pipeline
 
         /// <summary>Specifies SQL for the Pipeline processing flow.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline#sql Pipeline#sql}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline#sql Pipeline#sql}
         /// </remarks>
         [JsiiProperty(name: "sql", typeJson: "{\"primitive\":\"string\"}")]
         public string Sql
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Specifies the public ID of the account.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline#account_id Pipeline#account_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
         {
             get;
             set;

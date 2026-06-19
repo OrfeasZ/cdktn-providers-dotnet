@@ -9,9 +9,20 @@ namespace cloudflare.PipelineSink
     [JsiiByValue(fqn: "cloudflare.pipelineSink.PipelineSinkConfig")]
     public class PipelineSinkConfig : cloudflare.PipelineSink.IPipelineSinkConfig
     {
+        /// <summary>Specifies the public ID of the account.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline_sink#account_id PipelineSink#account_id}
+        /// </remarks>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
         /// <summary>Defines the name of the Sink.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline_sink#name PipelineSink#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline_sink#name PipelineSink#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +33,7 @@ namespace cloudflare.PipelineSink
 
         /// <summary>Specifies the type of sink. Available values: "r2", "r2_data_catalog".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline_sink#type PipelineSink#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline_sink#type PipelineSink#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -31,21 +42,9 @@ namespace cloudflare.PipelineSink
             set;
         }
 
-        /// <summary>Specifies the public ID of the account.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline_sink#account_id PipelineSink#account_id}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
         /// <summary>Defines the configuration of the R2 Sink.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline_sink#config PipelineSink#config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline_sink#config PipelineSink#config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigA\"}", isOptional: true)]
@@ -55,7 +54,7 @@ namespace cloudflare.PipelineSink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline_sink#format PipelineSink#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline_sink#format PipelineSink#format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkFormat\"}", isOptional: true)]
         public cloudflare.PipelineSink.IPipelineSinkFormat? Format
@@ -64,7 +63,7 @@ namespace cloudflare.PipelineSink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/pipeline_sink#schema PipelineSink#schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pipeline_sink#schema PipelineSink#schema}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schema", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchema\"}", isOptional: true)]
         public cloudflare.PipelineSink.IPipelineSinkSchema? Schema

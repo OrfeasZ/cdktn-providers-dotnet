@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
         /// <remarks>
         /// When virtual_networks is set, at least one entry is required.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_custom_profile#allowed ZeroTrustDeviceCustomProfile#allowed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_custom_profile#allowed ZeroTrustDeviceCustomProfile#allowed}
         /// </remarks>
         [JsiiProperty(name: "allowed", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Allowed
@@ -21,7 +21,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
 
         /// <summary>The default virtual network ID. Must be included in the `allowed` list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_custom_profile#default ZeroTrustDeviceCustomProfile#default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_custom_profile#default ZeroTrustDeviceCustomProfile#default}
         /// </remarks>
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}")]
         string Default
@@ -40,7 +40,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             /// <remarks>
             /// When virtual_networks is set, at least one entry is required.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_custom_profile#allowed ZeroTrustDeviceCustomProfile#allowed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_custom_profile#allowed ZeroTrustDeviceCustomProfile#allowed}
             /// </remarks>
             [JsiiProperty(name: "allowed", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Allowed
@@ -50,7 +50,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
 
             /// <summary>The default virtual network ID. Must be included in the `allowed` list.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/zero_trust_device_custom_profile#default ZeroTrustDeviceCustomProfile#default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_custom_profile#default ZeroTrustDeviceCustomProfile#default}
             /// </remarks>
             [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"string\"}")]
             public string Default

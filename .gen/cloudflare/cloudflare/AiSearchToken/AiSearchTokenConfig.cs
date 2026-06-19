@@ -9,7 +9,15 @@ namespace cloudflare.AiSearchToken
     [JsiiByValue(fqn: "cloudflare.aiSearchToken.AiSearchTokenConfig")]
     public class AiSearchTokenConfig : cloudflare.AiSearchToken.IAiSearchTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_search_token#cf_api_id AiSearchToken#cf_api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_token#account_id AiSearchToken#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public string AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_token#cf_api_id AiSearchToken#cf_api_id}.</summary>
         [JsiiProperty(name: "cfApiId", typeJson: "{\"primitive\":\"string\"}")]
         public string CfApiId
         {
@@ -17,7 +25,7 @@ namespace cloudflare.AiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_search_token#cf_api_key AiSearchToken#cf_api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_token#cf_api_key AiSearchToken#cf_api_key}.</summary>
         [JsiiProperty(name: "cfApiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CfApiKey
         {
@@ -25,7 +33,7 @@ namespace cloudflare.AiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_search_token#name AiSearchToken#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_token#name AiSearchToken#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,18 +41,9 @@ namespace cloudflare.AiSearchToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_search_token#account_id AiSearchToken#account_id}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? AccountId
-        {
-            get;
-            set;
-        }
-
         private object? _legacy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.20.0/docs/resources/ai_search_token#legacy AiSearchToken#legacy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_token#legacy AiSearchToken#legacy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "legacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Legacy
