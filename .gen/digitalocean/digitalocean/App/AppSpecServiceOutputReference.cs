@@ -129,6 +129,12 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecServiceImage)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putLivenessHealthCheck", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.app.AppSpecServiceLivenessHealthCheck\"}}]")]
+        public virtual void PutLivenessHealthCheck(digitalocean.App.IAppSpecServiceLivenessHealthCheck @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecServiceLivenessHealthCheck)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putLogDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceLogDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogDestination(object @value)
         {
@@ -283,6 +289,12 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLivenessHealthCheck")]
+        public virtual void ResetLivenessHealthCheck()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLogDestination")]
         public virtual void ResetLogDestination()
         {
@@ -371,6 +383,12 @@ namespace digitalocean.App
         public virtual digitalocean.App.AppSpecServiceImageOutputReference Image
         {
             get => GetInstanceProperty<digitalocean.App.AppSpecServiceImageOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "livenessHealthCheck", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecServiceLivenessHealthCheckOutputReference\"}")]
+        public virtual digitalocean.App.AppSpecServiceLivenessHealthCheckOutputReference LivenessHealthCheck
+        {
+            get => GetInstanceProperty<digitalocean.App.AppSpecServiceLivenessHealthCheckOutputReference>()!;
         }
 
         [JsiiProperty(name: "logDestination", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecServiceLogDestinationList\"}")]
@@ -508,6 +526,13 @@ namespace digitalocean.App
         public virtual double[]? InternalPortsInput
         {
             get => GetInstanceProperty<double[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "livenessHealthCheckInput", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecServiceLivenessHealthCheck\"}", isOptional: true)]
+        public virtual digitalocean.App.IAppSpecServiceLivenessHealthCheck? LivenessHealthCheckInput
+        {
+            get => GetInstanceProperty<digitalocean.App.IAppSpecServiceLivenessHealthCheck?>();
         }
 
         [JsiiOptional]

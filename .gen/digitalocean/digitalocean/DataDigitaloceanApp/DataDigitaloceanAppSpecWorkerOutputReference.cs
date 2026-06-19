@@ -113,6 +113,12 @@ namespace digitalocean.DataDigitaloceanApp
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "livenessHealthCheck", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppSpecWorkerLivenessHealthCheckList\"}")]
+        public virtual digitalocean.DataDigitaloceanApp.DataDigitaloceanAppSpecWorkerLivenessHealthCheckList LivenessHealthCheck
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanApp.DataDigitaloceanAppSpecWorkerLivenessHealthCheckList>()!;
+        }
+
         [JsiiProperty(name: "logDestination", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppSpecWorkerLogDestinationList\"}")]
         public virtual digitalocean.DataDigitaloceanApp.DataDigitaloceanAppSpecWorkerLogDestinationList LogDestination
         {
