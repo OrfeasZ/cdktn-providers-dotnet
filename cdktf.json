@@ -15,7 +15,7 @@
     "stripe/stripe@0.2.2",
     "hashicorp/null@3.3.0",
     "tailscale/tailscale@0.29.2",
-    "dmacvicar/libvirt@0.9.7"
+    "dmacvicar/libvirt@0.9.8"
   ],
   "terraformModules": [],
   "context": {}
