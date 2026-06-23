@@ -9,7 +9,7 @@ namespace cloudflare.MagicTransitCf1Site
     {
         /// <summary>Latitude of the CF1 Site.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#lat MagicTransitCf1Site#lat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#lat MagicTransitCf1Site#lat}
         /// </remarks>
         [JsiiProperty(name: "lat", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.MagicTransitCf1Site
 
         /// <summary>Longitude of the CF1 Site.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#long MagicTransitCf1Site#long}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#long MagicTransitCf1Site#long}
         /// </remarks>
         [JsiiProperty(name: "long", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.MagicTransitCf1Site
 
         /// <summary>Name of nearest town, city, or village.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#name MagicTransitCf1Site#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#name MagicTransitCf1Site#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace cloudflare.MagicTransitCf1Site
 
             /// <summary>Latitude of the CF1 Site.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#lat MagicTransitCf1Site#lat}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#lat MagicTransitCf1Site#lat}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lat", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace cloudflare.MagicTransitCf1Site
 
             /// <summary>Longitude of the CF1 Site.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#long MagicTransitCf1Site#long}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#long MagicTransitCf1Site#long}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "long", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace cloudflare.MagicTransitCf1Site
 
             /// <summary>Name of nearest town, city, or village.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#name MagicTransitCf1Site#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#name MagicTransitCf1Site#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

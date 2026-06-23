@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareZeroTrustTunnelWarpConnectorConfig
     /// <remarks>
     /// <h1><c>data_cloudflare_zero_trust_tunnel_warp_connector_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_tunnel_warp_connector_config"><c>data_cloudflare_zero_trust_tunnel_warp_connector_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_tunnel_warp_connector_config"><c>data_cloudflare_zero_trust_tunnel_warp_connector_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

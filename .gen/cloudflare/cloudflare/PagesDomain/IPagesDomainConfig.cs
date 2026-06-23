@@ -9,7 +9,7 @@ namespace cloudflare.PagesDomain
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pages_domain#account_id PagesDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pages_domain#account_id PagesDomain#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.PagesDomain
 
         /// <summary>The domain name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pages_domain#name PagesDomain#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pages_domain#name PagesDomain#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace cloudflare.PagesDomain
 
         /// <summary>Name of the project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pages_domain#project_name PagesDomain#project_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pages_domain#project_name PagesDomain#project_name}
         /// </remarks>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectName
@@ -46,7 +46,7 @@ namespace cloudflare.PagesDomain
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pages_domain#account_id PagesDomain#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pages_domain#account_id PagesDomain#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -56,7 +56,7 @@ namespace cloudflare.PagesDomain
 
             /// <summary>The domain name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pages_domain#name PagesDomain#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pages_domain#name PagesDomain#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -66,7 +66,7 @@ namespace cloudflare.PagesDomain
 
             /// <summary>Name of the project.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/pages_domain#project_name PagesDomain#project_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pages_domain#project_name PagesDomain#project_name}
             /// </remarks>
             [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectName

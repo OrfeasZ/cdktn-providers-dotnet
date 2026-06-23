@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareQueueConsumer
     {
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/queue_consumer#account_id DataCloudflareQueueConsumer#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/queue_consumer#account_id DataCloudflareQueueConsumer#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareQueueConsumer
 
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/queue_consumer#queue_id DataCloudflareQueueConsumer#queue_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/queue_consumer#queue_id DataCloudflareQueueConsumer#queue_id}
         /// </remarks>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         public string QueueId

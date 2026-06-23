@@ -9,7 +9,7 @@ namespace cloudflare.FlagshipFlag
     {
         /// <summary>Conditions the context must satisfy for this rule to match. An empty array matches all contexts.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#conditions FlagshipFlag#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#conditions FlagshipFlag#conditions}
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesConditions\"},\"kind\":\"array\"}}]}}")]
         object Conditions
@@ -19,7 +19,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Evaluation order; lower numbers are evaluated first. Must be unique across the flag's rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#priority FlagshipFlag#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#priority FlagshipFlag#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         double Priority
@@ -29,7 +29,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Variation served when this rule matches. Must be a key in `variations`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#serve_variation FlagshipFlag#serve_variation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#serve_variation FlagshipFlag#serve_variation}
         /// </remarks>
         [JsiiProperty(name: "serveVariation", typeJson: "{\"primitive\":\"string\"}")]
         string ServeVariation
@@ -37,7 +37,7 @@ namespace cloudflare.FlagshipFlag
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#rollout FlagshipFlag#rollout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#rollout FlagshipFlag#rollout}.</summary>
         [JsiiProperty(name: "rollout", typeJson: "{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesRollout\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.FlagshipFlag.IFlagshipFlagRulesRollout? Rollout
@@ -57,7 +57,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Conditions the context must satisfy for this rule to match. An empty array matches all contexts.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#conditions FlagshipFlag#conditions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#conditions FlagshipFlag#conditions}
             /// </remarks>
             [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesConditions\"},\"kind\":\"array\"}}]}}")]
             public object Conditions
@@ -67,7 +67,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Evaluation order; lower numbers are evaluated first. Must be unique across the flag's rules.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#priority FlagshipFlag#priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#priority FlagshipFlag#priority}
             /// </remarks>
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
             public double Priority
@@ -77,7 +77,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Variation served when this rule matches. Must be a key in `variations`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#serve_variation FlagshipFlag#serve_variation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#serve_variation FlagshipFlag#serve_variation}
             /// </remarks>
             [JsiiProperty(name: "serveVariation", typeJson: "{\"primitive\":\"string\"}")]
             public string ServeVariation
@@ -85,7 +85,7 @@ namespace cloudflare.FlagshipFlag
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/flagship_flag#rollout FlagshipFlag#rollout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/flagship_flag#rollout FlagshipFlag#rollout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rollout", typeJson: "{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesRollout\"}", isOptional: true)]
             public cloudflare.FlagshipFlag.IFlagshipFlagRulesRollout? Rollout

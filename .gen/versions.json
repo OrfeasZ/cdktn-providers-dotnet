@@ -1,7 +1,7 @@
 {
   "registry.terraform.io/vancluever/acme": "2.48.1",
   "registry.terraform.io/hashicorp/aws": "6.51.0",
-  "registry.terraform.io/cloudflare/cloudflare": "5.21.0",
+  "registry.terraform.io/cloudflare/cloudflare": "5.21.1",
   "registry.terraform.io/digitalocean/digitalocean": "2.91.0",
   "registry.terraform.io/hashicorp/random": "3.9.0",
   "registry.terraform.io/hetznercloud/hcloud": "1.66.0",

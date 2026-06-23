@@ -11,7 +11,7 @@ namespace cloudflare.OriginTlsComplianceModes
         /// <remarks>
         /// Currently supported values are <c>fips</c> (FIPS-approved curves) and <c>pqh</c> (post-quantum hybrid). Future modes (e.g. <c>cnsa2</c>) may be added; clients should treat unknown values as opaque strings. Multiple modes are combined as the intersection of their permitted algorithm lists; selections whose intersection is empty are rejected. An empty list clears the constraint.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/origin_tls_compliance_modes#value OriginTlsComplianceModes#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_tls_compliance_modes#value OriginTlsComplianceModes#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Value
@@ -21,7 +21,7 @@ namespace cloudflare.OriginTlsComplianceModes
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/origin_tls_compliance_modes#zone_id OriginTlsComplianceModes#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_tls_compliance_modes#zone_id OriginTlsComplianceModes#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -40,7 +40,7 @@ namespace cloudflare.OriginTlsComplianceModes
             /// <remarks>
             /// Currently supported values are <c>fips</c> (FIPS-approved curves) and <c>pqh</c> (post-quantum hybrid). Future modes (e.g. <c>cnsa2</c>) may be added; clients should treat unknown values as opaque strings. Multiple modes are combined as the intersection of their permitted algorithm lists; selections whose intersection is empty are rejected. An empty list clears the constraint.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/origin_tls_compliance_modes#value OriginTlsComplianceModes#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_tls_compliance_modes#value OriginTlsComplianceModes#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Value
@@ -50,7 +50,7 @@ namespace cloudflare.OriginTlsComplianceModes
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/origin_tls_compliance_modes#zone_id OriginTlsComplianceModes#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_tls_compliance_modes#zone_id OriginTlsComplianceModes#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

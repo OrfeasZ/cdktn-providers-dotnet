@@ -9,7 +9,7 @@ namespace cloudflare.AiSearchNamespace
     [JsiiByValue(fqn: "cloudflare.aiSearchNamespace.AiSearchNamespaceConfig")]
     public class AiSearchNamespaceConfig : cloudflare.AiSearchNamespace.IAiSearchNamespaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_namespace#account_id AiSearchNamespace#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_search_namespace#account_id AiSearchNamespace#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.AiSearchNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_namespace#name AiSearchNamespace#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_search_namespace#name AiSearchNamespace#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace cloudflare.AiSearchNamespace
 
         /// <summary>Optional description for the namespace. Max 256 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_search_namespace#description AiSearchNamespace#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_search_namespace#description AiSearchNamespace#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

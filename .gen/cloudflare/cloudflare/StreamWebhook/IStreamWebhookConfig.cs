@@ -9,7 +9,7 @@ namespace cloudflare.StreamWebhook
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/stream_webhook#account_id StreamWebhook#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/stream_webhook#account_id StreamWebhook#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.StreamWebhook
 
         /// <summary>The URL where webhooks will be sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/stream_webhook#notification_url StreamWebhook#notification_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/stream_webhook#notification_url StreamWebhook#notification_url}
         /// </remarks>
         [JsiiProperty(name: "notificationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace cloudflare.StreamWebhook
 
             /// <summary>The account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/stream_webhook#account_id StreamWebhook#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/stream_webhook#account_id StreamWebhook#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -50,7 +50,7 @@ namespace cloudflare.StreamWebhook
 
             /// <summary>The URL where webhooks will be sent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/stream_webhook#notification_url StreamWebhook#notification_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/stream_webhook#notification_url StreamWebhook#notification_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notificationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

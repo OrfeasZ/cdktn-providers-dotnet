@@ -9,7 +9,7 @@ namespace cloudflare.WorkersCronTrigger
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/workers_cron_trigger#account_id WorkersCronTrigger#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_cron_trigger#account_id WorkersCronTrigger#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -17,7 +17,7 @@ namespace cloudflare.WorkersCronTrigger
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/workers_cron_trigger#schedules WorkersCronTrigger#schedules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_cron_trigger#schedules WorkersCronTrigger#schedules}.</summary>
         [JsiiProperty(name: "schedules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersCronTrigger.WorkersCronTriggerSchedules\"},\"kind\":\"array\"}}]}}")]
         object Schedules
         {
@@ -26,7 +26,7 @@ namespace cloudflare.WorkersCronTrigger
 
         /// <summary>Name of the script, used in URLs and route configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/workers_cron_trigger#script_name WorkersCronTrigger#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_cron_trigger#script_name WorkersCronTrigger#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         string ScriptName
@@ -43,7 +43,7 @@ namespace cloudflare.WorkersCronTrigger
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/workers_cron_trigger#account_id WorkersCronTrigger#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_cron_trigger#account_id WorkersCronTrigger#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -51,7 +51,7 @@ namespace cloudflare.WorkersCronTrigger
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/workers_cron_trigger#schedules WorkersCronTrigger#schedules}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_cron_trigger#schedules WorkersCronTrigger#schedules}.</summary>
             [JsiiProperty(name: "schedules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersCronTrigger.WorkersCronTriggerSchedules\"},\"kind\":\"array\"}}]}}")]
             public object Schedules
             {
@@ -60,7 +60,7 @@ namespace cloudflare.WorkersCronTrigger
 
             /// <summary>Name of the script, used in URLs and route configuration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/workers_cron_trigger#script_name WorkersCronTrigger#script_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_cron_trigger#script_name WorkersCronTrigger#script_name}
             /// </remarks>
             [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
             public string ScriptName

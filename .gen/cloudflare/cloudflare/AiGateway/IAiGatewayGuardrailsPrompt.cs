@@ -9,7 +9,7 @@ namespace cloudflare.AiGateway
     {
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#p1 AiGateway#p1}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#p1 AiGateway#p1}
         /// </remarks>
         [JsiiProperty(name: "p1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s1 AiGateway#s1}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s1 AiGateway#s1}
         /// </remarks>
         [JsiiProperty(name: "s1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s10 AiGateway#s10}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s10 AiGateway#s10}
         /// </remarks>
         [JsiiProperty(name: "s10", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s11 AiGateway#s11}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s11 AiGateway#s11}
         /// </remarks>
         [JsiiProperty(name: "s11", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s12 AiGateway#s12}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s12 AiGateway#s12}
         /// </remarks>
         [JsiiProperty(name: "s12", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s13 AiGateway#s13}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s13 AiGateway#s13}
         /// </remarks>
         [JsiiProperty(name: "s13", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s2 AiGateway#s2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s2 AiGateway#s2}
         /// </remarks>
         [JsiiProperty(name: "s2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s3 AiGateway#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s3 AiGateway#s3}
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s4 AiGateway#s4}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s4 AiGateway#s4}
         /// </remarks>
         [JsiiProperty(name: "s4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s5 AiGateway#s5}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s5 AiGateway#s5}
         /// </remarks>
         [JsiiProperty(name: "s5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s6 AiGateway#s6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s6 AiGateway#s6}
         /// </remarks>
         [JsiiProperty(name: "s6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s7 AiGateway#s7}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s7 AiGateway#s7}
         /// </remarks>
         [JsiiProperty(name: "s7", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -177,7 +177,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s8 AiGateway#s8}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s8 AiGateway#s8}
         /// </remarks>
         [JsiiProperty(name: "s8", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -191,7 +191,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "FLAG", "BLOCK".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s9 AiGateway#s9}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s9 AiGateway#s9}
         /// </remarks>
         [JsiiProperty(name: "s9", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -212,7 +212,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#p1 AiGateway#p1}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#p1 AiGateway#p1}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "p1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -223,7 +223,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s1 AiGateway#s1}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s1 AiGateway#s1}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s10 AiGateway#s10}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s10 AiGateway#s10}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s10", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -245,7 +245,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s11 AiGateway#s11}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s11 AiGateway#s11}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s11", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -256,7 +256,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s12 AiGateway#s12}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s12 AiGateway#s12}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s12", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -267,7 +267,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s13 AiGateway#s13}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s13 AiGateway#s13}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s13", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -278,7 +278,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s2 AiGateway#s2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s2 AiGateway#s2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -289,7 +289,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s3 AiGateway#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s3 AiGateway#s3}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -300,7 +300,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s4 AiGateway#s4}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s4 AiGateway#s4}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -311,7 +311,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s5 AiGateway#s5}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s5 AiGateway#s5}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -322,7 +322,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s6 AiGateway#s6}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s6 AiGateway#s6}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -333,7 +333,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s7 AiGateway#s7}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s7 AiGateway#s7}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s7", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -344,7 +344,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s8 AiGateway#s8}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s8 AiGateway#s8}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s8", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -355,7 +355,7 @@ namespace cloudflare.AiGateway
 
             /// <summary>Available values: "FLAG", "BLOCK".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#s9 AiGateway#s9}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#s9 AiGateway#s9}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s9", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

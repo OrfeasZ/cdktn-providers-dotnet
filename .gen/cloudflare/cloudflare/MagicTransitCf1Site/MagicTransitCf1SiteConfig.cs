@@ -11,7 +11,7 @@ namespace cloudflare.MagicTransitCf1Site
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#account_id MagicTransitCf1Site#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#account_id MagicTransitCf1Site#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.MagicTransitCf1Site
 
         private object _body;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#body MagicTransitCf1Site#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#body MagicTransitCf1Site#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitCf1Site.MagicTransitCf1SiteBody\"},\"kind\":\"array\"}}]}}")]
         public object Body
         {
@@ -52,7 +52,7 @@ namespace cloudflare.MagicTransitCf1Site
 
         /// <summary>A human-provided description of the CF1 Site.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#description MagicTransitCf1Site#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#description MagicTransitCf1Site#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace cloudflare.MagicTransitCf1Site
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#location MagicTransitCf1Site#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#location MagicTransitCf1Site#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"fqn\":\"cloudflare.magicTransitCf1Site.MagicTransitCf1SiteLocation\"}", isOptional: true)]
         public cloudflare.MagicTransitCf1Site.IMagicTransitCf1SiteLocation? Location
@@ -73,7 +73,7 @@ namespace cloudflare.MagicTransitCf1Site
 
         /// <summary>A human-provided name describing the CF1 Site that should be unique within the account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_transit_cf1_site#name MagicTransitCf1Site#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_cf1_site#name MagicTransitCf1Site#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

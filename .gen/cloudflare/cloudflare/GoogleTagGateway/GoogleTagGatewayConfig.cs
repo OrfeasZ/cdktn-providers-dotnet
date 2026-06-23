@@ -13,7 +13,7 @@ namespace cloudflare.GoogleTagGateway
 
         /// <summary>Enables or disables Google Tag Gateway for this zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/google_tag_gateway#enabled GoogleTagGateway#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/google_tag_gateway#enabled GoogleTagGateway#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
@@ -46,7 +46,7 @@ namespace cloudflare.GoogleTagGateway
         /// <remarks>
         /// Use an absolute path starting with '/', with no nested paths and alphanumeric characters only (e.g. /metrics).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/google_tag_gateway#endpoint GoogleTagGateway#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/google_tag_gateway#endpoint GoogleTagGateway#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string Endpoint
@@ -59,7 +59,7 @@ namespace cloudflare.GoogleTagGateway
 
         /// <summary>Hides the original client IP address from Google when enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/google_tag_gateway#hide_original_ip GoogleTagGateway#hide_original_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/google_tag_gateway#hide_original_ip GoogleTagGateway#hide_original_ip}
         /// </remarks>
         [JsiiProperty(name: "hideOriginalIp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object HideOriginalIp
@@ -90,7 +90,7 @@ namespace cloudflare.GoogleTagGateway
 
         /// <summary>Specify the Google Tag Manager container or measurement ID (e.g. GTM-XXXXXXX or G-XXXXXXXXXX).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/google_tag_gateway#measurement_id GoogleTagGateway#measurement_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/google_tag_gateway#measurement_id GoogleTagGateway#measurement_id}
         /// </remarks>
         [JsiiProperty(name: "measurementId", typeJson: "{\"primitive\":\"string\"}")]
         public string MeasurementId
@@ -101,7 +101,7 @@ namespace cloudflare.GoogleTagGateway
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/google_tag_gateway#zone_id GoogleTagGateway#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/google_tag_gateway#zone_id GoogleTagGateway#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -114,7 +114,7 @@ namespace cloudflare.GoogleTagGateway
 
         /// <summary>Set up the associated Google Tag on the zone automatically when enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/google_tag_gateway#set_up_tag GoogleTagGateway#set_up_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/google_tag_gateway#set_up_tag GoogleTagGateway#set_up_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "setUpTag", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

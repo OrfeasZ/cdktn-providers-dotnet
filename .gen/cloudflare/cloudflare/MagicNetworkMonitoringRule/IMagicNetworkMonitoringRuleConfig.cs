@@ -7,7 +7,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
     [JsiiInterface(nativeType: typeof(IMagicNetworkMonitoringRuleConfig), fullyQualifiedName: "cloudflare.magicNetworkMonitoringRule.MagicNetworkMonitoringRuleConfig")]
     public interface IMagicNetworkMonitoringRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#account_id MagicNetworkMonitoringRule#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#account_id MagicNetworkMonitoringRule#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
@@ -18,7 +18,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// <remarks>
         /// Only available for users of Magic Transit.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#automatic_advertisement MagicNetworkMonitoringRule#automatic_advertisement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#automatic_advertisement MagicNetworkMonitoringRule#automatic_advertisement}
         /// </remarks>
         [JsiiProperty(name: "automaticAdvertisement", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object AutomaticAdvertisement
@@ -30,7 +30,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// <remarks>
         /// Must be unique. Supports characters A-Z, a-z, 0-9, underscore (_), dash (-), period (.), and tilde (~). You can’t have a space in the rule name. Max 256 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#name MagicNetworkMonitoringRule#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#name MagicNetworkMonitoringRule#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -38,7 +38,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#prefixes MagicNetworkMonitoringRule#prefixes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#prefixes MagicNetworkMonitoringRule#prefixes}.</summary>
         [JsiiProperty(name: "prefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Prefixes
         {
@@ -47,7 +47,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
 
         /// <summary>MNM rule type. Available values: "threshold", "zscore", "advanced_ddos".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#type MagicNetworkMonitoringRule#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#type MagicNetworkMonitoringRule#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -59,7 +59,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// <remarks>
         /// When this value is exceeded for the set duration, an alert notification is sent. Minimum of 1 and no maximum.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#bandwidth_threshold MagicNetworkMonitoringRule#bandwidth_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#bandwidth_threshold MagicNetworkMonitoringRule#bandwidth_threshold}
         /// </remarks>
         [JsiiProperty(name: "bandwidthThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// The final value must be equivalent to one of the following 8 values ["1m","5m","10m","15m","20m","30m","45m","60m"].
         /// Available values: "1m", "5m", "10m", "15m", "20m", "30m", "45m", "60m".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#duration MagicNetworkMonitoringRule#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#duration MagicNetworkMonitoringRule#duration}
         /// </remarks>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// <remarks>
         /// When this value is exceeded for the set duration, an alert notification is sent. Minimum of 1 and no maximum.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#packet_threshold MagicNetworkMonitoringRule#packet_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#packet_threshold MagicNetworkMonitoringRule#packet_threshold}
         /// </remarks>
         [JsiiProperty(name: "packetThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
         /// <remarks>
         /// Available values: "exact", "subnet", "supernet".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#prefix_match MagicNetworkMonitoringRule#prefix_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#prefix_match MagicNetworkMonitoringRule#prefix_match}
         /// </remarks>
         [JsiiProperty(name: "prefixMatch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
 
         /// <summary>Level of sensitivity set for zscore rules. Available values: "low", "medium", "high".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#zscore_sensitivity MagicNetworkMonitoringRule#zscore_sensitivity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#zscore_sensitivity MagicNetworkMonitoringRule#zscore_sensitivity}
         /// </remarks>
         [JsiiProperty(name: "zscoreSensitivity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
 
         /// <summary>Target of the zscore rule analysis. Available values: "bits", "packets".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#zscore_target MagicNetworkMonitoringRule#zscore_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#zscore_target MagicNetworkMonitoringRule#zscore_target}
         /// </remarks>
         [JsiiProperty(name: "zscoreTarget", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -155,7 +155,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#account_id MagicNetworkMonitoringRule#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#account_id MagicNetworkMonitoringRule#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
@@ -166,7 +166,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             /// <remarks>
             /// Only available for users of Magic Transit.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#automatic_advertisement MagicNetworkMonitoringRule#automatic_advertisement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#automatic_advertisement MagicNetworkMonitoringRule#automatic_advertisement}
             /// </remarks>
             [JsiiProperty(name: "automaticAdvertisement", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object AutomaticAdvertisement
@@ -178,7 +178,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             /// <remarks>
             /// Must be unique. Supports characters A-Z, a-z, 0-9, underscore (_), dash (-), period (.), and tilde (~). You can’t have a space in the rule name. Max 256 characters.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#name MagicNetworkMonitoringRule#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#name MagicNetworkMonitoringRule#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -186,7 +186,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#prefixes MagicNetworkMonitoringRule#prefixes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#prefixes MagicNetworkMonitoringRule#prefixes}.</summary>
             [JsiiProperty(name: "prefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Prefixes
             {
@@ -195,7 +195,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
 
             /// <summary>MNM rule type. Available values: "threshold", "zscore", "advanced_ddos".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#type MagicNetworkMonitoringRule#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#type MagicNetworkMonitoringRule#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -207,7 +207,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             /// <remarks>
             /// When this value is exceeded for the set duration, an alert notification is sent. Minimum of 1 and no maximum.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#bandwidth_threshold MagicNetworkMonitoringRule#bandwidth_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#bandwidth_threshold MagicNetworkMonitoringRule#bandwidth_threshold}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bandwidthThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -221,7 +221,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             /// The final value must be equivalent to one of the following 8 values ["1m","5m","10m","15m","20m","30m","45m","60m"].
             /// Available values: "1m", "5m", "10m", "15m", "20m", "30m", "45m", "60m".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#duration MagicNetworkMonitoringRule#duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#duration MagicNetworkMonitoringRule#duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             /// <remarks>
             /// When this value is exceeded for the set duration, an alert notification is sent. Minimum of 1 and no maximum.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#packet_threshold MagicNetworkMonitoringRule#packet_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#packet_threshold MagicNetworkMonitoringRule#packet_threshold}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "packetThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -247,7 +247,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
             /// <remarks>
             /// Available values: "exact", "subnet", "supernet".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#prefix_match MagicNetworkMonitoringRule#prefix_match}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#prefix_match MagicNetworkMonitoringRule#prefix_match}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prefixMatch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
 
             /// <summary>Level of sensitivity set for zscore rules. Available values: "low", "medium", "high".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#zscore_sensitivity MagicNetworkMonitoringRule#zscore_sensitivity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#zscore_sensitivity MagicNetworkMonitoringRule#zscore_sensitivity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zscoreSensitivity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -269,7 +269,7 @@ namespace cloudflare.MagicNetworkMonitoringRule
 
             /// <summary>Target of the zscore rule analysis. Available values: "bits", "packets".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/magic_network_monitoring_rule#zscore_target MagicNetworkMonitoringRule#zscore_target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_network_monitoring_rule#zscore_target MagicNetworkMonitoringRule#zscore_target}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zscoreTarget", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

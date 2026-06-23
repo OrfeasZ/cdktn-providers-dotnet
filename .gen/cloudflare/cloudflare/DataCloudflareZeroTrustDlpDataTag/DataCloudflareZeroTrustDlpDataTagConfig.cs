@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTag
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpDataTag.DataCloudflareZeroTrustDlpDataTagConfig")]
     public class DataCloudflareZeroTrustDlpDataTagConfig : cloudflare.DataCloudflareZeroTrustDlpDataTag.IDataCloudflareZeroTrustDlpDataTagConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_data_tag#account_id DataCloudflareZeroTrustDlpDataTag#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_data_tag#account_id DataCloudflareZeroTrustDlpDataTag#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_data_tag#category_id DataCloudflareZeroTrustDlpDataTag#category_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_data_tag#category_id DataCloudflareZeroTrustDlpDataTag#category_id}.</summary>
         [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string CategoryId
         {
@@ -25,7 +25,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_data_tag#tag_id DataCloudflareZeroTrustDlpDataTag#tag_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_data_tag#tag_id DataCloudflareZeroTrustDlpDataTag#tag_id}.</summary>
         [JsiiProperty(name: "tagId", typeJson: "{\"primitive\":\"string\"}")]
         public string TagId
         {

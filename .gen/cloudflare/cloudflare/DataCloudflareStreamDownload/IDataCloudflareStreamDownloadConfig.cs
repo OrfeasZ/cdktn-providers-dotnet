@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareStreamDownload
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/stream_download#account_id DataCloudflareStreamDownload#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/stream_download#account_id DataCloudflareStreamDownload#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareStreamDownload
 
         /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/stream_download#identifier DataCloudflareStreamDownload#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/stream_download#identifier DataCloudflareStreamDownload#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         string Identifier
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareStreamDownload
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/stream_download#account_id DataCloudflareStreamDownload#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/stream_download#account_id DataCloudflareStreamDownload#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareStreamDownload
 
             /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/stream_download#identifier DataCloudflareStreamDownload#identifier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/stream_download#identifier DataCloudflareStreamDownload#identifier}
             /// </remarks>
             [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
             public string Identifier

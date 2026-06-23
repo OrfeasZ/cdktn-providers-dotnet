@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareShares
     {
         /// <summary>Account identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#account_id DataCloudflareShares#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#account_id DataCloudflareShares#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Direction to sort objects. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#direction DataCloudflareShares#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#direction DataCloudflareShares#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Include recipient counts in the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#include_recipient_counts DataCloudflareShares#include_recipient_counts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#include_recipient_counts DataCloudflareShares#include_recipient_counts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeRecipientCounts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Include resources in the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#include_resources DataCloudflareShares#include_resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#include_resources DataCloudflareShares#include_resources}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeResources", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Filter shares by kind. Available values: "sent", "received".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#kind DataCloudflareShares#kind}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#kind DataCloudflareShares#kind}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#max_items DataCloudflareShares#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#max_items DataCloudflareShares#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Order shares by values in the given field. Available values: "name", "created".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#order DataCloudflareShares#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#order DataCloudflareShares#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Filter share resources by resource_types.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#resource_types DataCloudflareShares#resource_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#resource_types DataCloudflareShares#resource_types}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Filter shares by status. Available values: "active", "deleting", "deleted".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#status DataCloudflareShares#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#status DataCloudflareShares#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -164,7 +164,7 @@ namespace cloudflare.DataCloudflareShares
         /// <remarks>
         /// Each value is either <c>key=value</c> (matches shares whose tags contain that key/value pair) or <c>key</c> alone (matches shares that have any value for that key). May be repeated; multiple <c>tag</c> parameters are ANDed together. Maximum 20 <c>tag</c> parameters per request.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#tag DataCloudflareShares#tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#tag DataCloudflareShares#tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tag", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace cloudflare.DataCloudflareShares
 
         /// <summary>Filter shares by target_type. Available values: "account", "organization".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/shares#target_type DataCloudflareShares#target_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/shares#target_type DataCloudflareShares#target_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

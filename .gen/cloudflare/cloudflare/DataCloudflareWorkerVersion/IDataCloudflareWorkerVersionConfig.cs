@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#account_id DataCloudflareWorkerVersion#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#account_id DataCloudflareWorkerVersion#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
 
         /// <summary>Identifier for the version, which can be a UUID, a UUID prefix (minimum length 8), or the literal "latest" to operate on the most recently created version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#version_id DataCloudflareWorkerVersion#version_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#version_id DataCloudflareWorkerVersion#version_id}
         /// </remarks>
         [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}")]
         string VersionId
@@ -29,7 +29,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
 
         /// <summary>Identifier for the Worker, which can be ID or name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#worker_id DataCloudflareWorkerVersion#worker_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#worker_id DataCloudflareWorkerVersion#worker_id}
         /// </remarks>
         [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkerId
@@ -41,7 +41,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
         /// <remarks>
         /// Available values: "modules".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#include DataCloudflareWorkerVersion#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#include DataCloudflareWorkerVersion#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#account_id DataCloudflareWorkerVersion#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#account_id DataCloudflareWorkerVersion#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -72,7 +72,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
 
             /// <summary>Identifier for the version, which can be a UUID, a UUID prefix (minimum length 8), or the literal "latest" to operate on the most recently created version.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#version_id DataCloudflareWorkerVersion#version_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#version_id DataCloudflareWorkerVersion#version_id}
             /// </remarks>
             [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}")]
             public string VersionId
@@ -82,7 +82,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
 
             /// <summary>Identifier for the Worker, which can be ID or name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#worker_id DataCloudflareWorkerVersion#worker_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#worker_id DataCloudflareWorkerVersion#worker_id}
             /// </remarks>
             [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkerId
@@ -94,7 +94,7 @@ namespace cloudflare.DataCloudflareWorkerVersion
             /// <remarks>
             /// Available values: "modules".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/worker_version#include DataCloudflareWorkerVersion#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/worker_version#include DataCloudflareWorkerVersion#include}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "include", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

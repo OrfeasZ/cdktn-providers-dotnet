@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
     {
         /// <summary>Cloudflare account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#account_id ZeroTrustDeviceSubnet#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#account_id ZeroTrustDeviceSubnet#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
         /// <summary>A user-friendly name for the subnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#name ZeroTrustDeviceSubnet#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#name ZeroTrustDeviceSubnet#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
         /// <summary>The private IPv4 or IPv6 range defining the subnet, in CIDR notation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#network ZeroTrustDeviceSubnet#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#network ZeroTrustDeviceSubnet#network}
         /// </remarks>
         [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
         string Network
@@ -39,7 +39,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
         /// <summary>An optional description of the subnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#comment ZeroTrustDeviceSubnet#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#comment ZeroTrustDeviceSubnet#comment}
         /// </remarks>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
         /// <summary>If `true`, this is the default subnet for the account. There can only be one default subnet per account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#is_default_network ZeroTrustDeviceSubnet#is_default_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#is_default_network ZeroTrustDeviceSubnet#is_default_network}
         /// </remarks>
         [JsiiProperty(name: "isDefaultNetwork", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
             /// <summary>Cloudflare account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#account_id ZeroTrustDeviceSubnet#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#account_id ZeroTrustDeviceSubnet#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -84,7 +84,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
             /// <summary>A user-friendly name for the subnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#name ZeroTrustDeviceSubnet#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#name ZeroTrustDeviceSubnet#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -94,7 +94,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
             /// <summary>The private IPv4 or IPv6 range defining the subnet, in CIDR notation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#network ZeroTrustDeviceSubnet#network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#network ZeroTrustDeviceSubnet#network}
             /// </remarks>
             [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
             public string Network
@@ -104,7 +104,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
             /// <summary>An optional description of the subnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#comment ZeroTrustDeviceSubnet#comment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#comment ZeroTrustDeviceSubnet#comment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace cloudflare.ZeroTrustDeviceSubnet
 
             /// <summary>If `true`, this is the default subnet for the account. There can only be one default subnet per account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_device_subnet#is_default_network ZeroTrustDeviceSubnet#is_default_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_device_subnet#is_default_network ZeroTrustDeviceSubnet#is_default_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isDefaultNetwork", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

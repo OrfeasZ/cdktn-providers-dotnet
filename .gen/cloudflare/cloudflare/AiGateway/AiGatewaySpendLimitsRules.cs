@@ -9,7 +9,7 @@ namespace cloudflare.AiGateway
     [JsiiByValue(fqn: "cloudflare.aiGateway.AiGatewaySpendLimitsRules")]
     public class AiGatewaySpendLimitsRules : cloudflare.AiGateway.IAiGatewaySpendLimitsRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#limit AiGateway#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#limit AiGateway#limit}.</summary>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
         public double Limit
         {
@@ -19,7 +19,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "cost".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#limit_type AiGateway#limit_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#limit_type AiGateway#limit_type}
         /// </remarks>
         [JsiiProperty(name: "limitType", typeJson: "{\"primitive\":\"string\"}")]
         public string LimitType
@@ -28,7 +28,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#window AiGateway#window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#window AiGateway#window}.</summary>
         [JsiiProperty(name: "window", typeJson: "{\"primitive\":\"number\"}")]
         public double Window
         {
@@ -36,7 +36,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#ai_gateway_provider AiGateway#ai_gateway_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#ai_gateway_provider AiGateway#ai_gateway_provider}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aiGatewayProvider", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesAiGatewayProvider\"}", isOptional: true)]
         public cloudflare.AiGateway.IAiGatewaySpendLimitsRulesAiGatewayProvider? AiGatewayProvider
@@ -47,7 +47,7 @@ namespace cloudflare.AiGateway
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#enabled AiGateway#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#enabled AiGateway#enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -76,7 +76,7 @@ namespace cloudflare.AiGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#id AiGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#id AiGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace cloudflare.AiGateway
 
         private object? _metadata;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#metadata AiGateway#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#metadata AiGateway#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesMetadata\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public object? Metadata
@@ -120,7 +120,7 @@ namespace cloudflare.AiGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#model AiGateway#model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#model AiGateway#model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "model", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesModel\"}", isOptional: true)]
         public cloudflare.AiGateway.IAiGatewaySpendLimitsRulesModel? Model
@@ -131,7 +131,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "fixed", "sliding".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway#technique AiGateway#technique}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway#technique AiGateway#technique}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "technique", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

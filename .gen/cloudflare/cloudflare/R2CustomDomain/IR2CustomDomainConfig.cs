@@ -9,7 +9,7 @@ namespace cloudflare.R2CustomDomain
     {
         /// <summary>Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#account_id R2CustomDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#account_id R2CustomDomain#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.R2CustomDomain
 
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#bucket_name R2CustomDomain#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#bucket_name R2CustomDomain#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
@@ -29,7 +29,7 @@ namespace cloudflare.R2CustomDomain
 
         /// <summary>Name of the custom domain to be added.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#domain R2CustomDomain#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#domain R2CustomDomain#domain}
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         string Domain
@@ -39,7 +39,7 @@ namespace cloudflare.R2CustomDomain
 
         /// <summary>Whether to enable public bucket access at the custom domain. If undefined, the domain will be enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#enabled R2CustomDomain#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#enabled R2CustomDomain#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Enabled
@@ -49,7 +49,7 @@ namespace cloudflare.R2CustomDomain
 
         /// <summary>Zone ID of the custom domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#zone_id R2CustomDomain#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#zone_id R2CustomDomain#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -59,7 +59,7 @@ namespace cloudflare.R2CustomDomain
 
         /// <summary>An allowlist of ciphers for TLS termination. These ciphers must be in the BoringSSL format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#ciphers R2CustomDomain#ciphers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#ciphers R2CustomDomain#ciphers}
         /// </remarks>
         [JsiiProperty(name: "ciphers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace cloudflare.R2CustomDomain
 
         /// <summary>Jurisdiction of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#jurisdiction R2CustomDomain#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#jurisdiction R2CustomDomain#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace cloudflare.R2CustomDomain
         /// If not set, defaults to 1.0.
         /// Available values: "1.0", "1.1", "1.2", "1.3".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#min_tls R2CustomDomain#min_tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#min_tls R2CustomDomain#min_tls}
         /// </remarks>
         [JsiiProperty(name: "minTls", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#account_id R2CustomDomain#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#account_id R2CustomDomain#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -121,7 +121,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>Name of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#bucket_name R2CustomDomain#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#bucket_name R2CustomDomain#bucket_name}
             /// </remarks>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
@@ -131,7 +131,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>Name of the custom domain to be added.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#domain R2CustomDomain#domain}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#domain R2CustomDomain#domain}
             /// </remarks>
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
             public string Domain
@@ -141,7 +141,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>Whether to enable public bucket access at the custom domain. If undefined, the domain will be enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#enabled R2CustomDomain#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#enabled R2CustomDomain#enabled}
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Enabled
@@ -151,7 +151,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>Zone ID of the custom domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#zone_id R2CustomDomain#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#zone_id R2CustomDomain#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -161,7 +161,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>An allowlist of ciphers for TLS termination. These ciphers must be in the BoringSSL format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#ciphers R2CustomDomain#ciphers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#ciphers R2CustomDomain#ciphers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ciphers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace cloudflare.R2CustomDomain
 
             /// <summary>Jurisdiction of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#jurisdiction R2CustomDomain#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#jurisdiction R2CustomDomain#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace cloudflare.R2CustomDomain
             /// If not set, defaults to 1.0.
             /// Available values: "1.0", "1.1", "1.2", "1.3".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/r2_custom_domain#min_tls R2CustomDomain#min_tls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_custom_domain#min_tls R2CustomDomain#min_tls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minTls", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

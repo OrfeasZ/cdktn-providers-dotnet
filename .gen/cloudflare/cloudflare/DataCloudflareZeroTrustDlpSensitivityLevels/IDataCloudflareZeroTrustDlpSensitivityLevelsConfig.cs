@@ -7,14 +7,14 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSensitivityLevels
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDlpSensitivityLevelsConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDlpSensitivityLevels.DataCloudflareZeroTrustDlpSensitivityLevelsConfig")]
     public interface IDataCloudflareZeroTrustDlpSensitivityLevelsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_sensitivity_levels#account_id DataCloudflareZeroTrustDlpSensitivityLevels#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_sensitivity_levels#account_id DataCloudflareZeroTrustDlpSensitivityLevels#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_sensitivity_levels#sensitivity_group_id DataCloudflareZeroTrustDlpSensitivityLevels#sensitivity_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_sensitivity_levels#sensitivity_group_id DataCloudflareZeroTrustDlpSensitivityLevels#sensitivity_group_id}.</summary>
         [JsiiProperty(name: "sensitivityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string SensitivityGroupId
         {
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSensitivityLevels
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_sensitivity_levels#max_items DataCloudflareZeroTrustDlpSensitivityLevels#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_sensitivity_levels#max_items DataCloudflareZeroTrustDlpSensitivityLevels#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,14 +42,14 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSensitivityLevels
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_sensitivity_levels#account_id DataCloudflareZeroTrustDlpSensitivityLevels#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_sensitivity_levels#account_id DataCloudflareZeroTrustDlpSensitivityLevels#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_sensitivity_levels#sensitivity_group_id DataCloudflareZeroTrustDlpSensitivityLevels#sensitivity_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_sensitivity_levels#sensitivity_group_id DataCloudflareZeroTrustDlpSensitivityLevels#sensitivity_group_id}.</summary>
             [JsiiProperty(name: "sensitivityGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string SensitivityGroupId
             {
@@ -58,7 +58,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSensitivityLevels
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_sensitivity_levels#max_items DataCloudflareZeroTrustDlpSensitivityLevels#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_sensitivity_levels#max_items DataCloudflareZeroTrustDlpSensitivityLevels#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

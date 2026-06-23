@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataClass
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpDataClass.DataCloudflareZeroTrustDlpDataClassConfig")]
     public class DataCloudflareZeroTrustDlpDataClassConfig : cloudflare.DataCloudflareZeroTrustDlpDataClass.IDataCloudflareZeroTrustDlpDataClassConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_data_class#account_id DataCloudflareZeroTrustDlpDataClass#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_data_class#account_id DataCloudflareZeroTrustDlpDataClass#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataClass
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/zero_trust_dlp_data_class#data_class_id DataCloudflareZeroTrustDlpDataClass#data_class_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/zero_trust_dlp_data_class#data_class_id DataCloudflareZeroTrustDlpDataClass#data_class_id}.</summary>
         [JsiiProperty(name: "dataClassId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataClassId
         {

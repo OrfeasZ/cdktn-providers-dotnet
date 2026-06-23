@@ -501,6 +501,12 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "vary", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersVaryOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersVaryOutputReference Vary
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersVaryOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParameters\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareRuleset.IDataCloudflareRulesetRulesActionParameters? InternalValue

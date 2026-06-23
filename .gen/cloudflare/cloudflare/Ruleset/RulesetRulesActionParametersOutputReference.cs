@@ -356,6 +356,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersUri)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putVary", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVary\"}}]")]
+        public virtual void PutVary(cloudflare.Ruleset.IRulesetRulesActionParametersVary @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersVary)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAdditionalCacheablePorts")]
         public virtual void ResetAdditionalCacheablePorts()
         {
@@ -824,6 +830,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVary")]
+        public virtual void ResetVary()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "algorithms", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersAlgorithmsList\"}")]
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersAlgorithmsList Algorithms
         {
@@ -1026,6 +1038,12 @@ namespace cloudflare.Ruleset
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersUriOutputReference Uri
         {
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersUriOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "vary", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVaryOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersVaryOutputReference Vary
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersVaryOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -1572,6 +1590,13 @@ namespace cloudflare.Ruleset
         public virtual string[]? ValuesInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "varyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVary\"}]}}", isOptional: true)]
+        public virtual object? VaryInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "additionalCacheablePorts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]

@@ -9,7 +9,7 @@ namespace cloudflare.AiGatewayDynamicRouting
     [JsiiByValue(fqn: "cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingConfig")]
     public class AiGatewayDynamicRoutingConfig : cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway_dynamic_routing#account_id AiGatewayDynamicRouting#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway_dynamic_routing#account_id AiGatewayDynamicRouting#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -19,7 +19,7 @@ namespace cloudflare.AiGatewayDynamicRouting
 
         private object _elements;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway_dynamic_routing#elements AiGatewayDynamicRouting#elements}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway_dynamic_routing#elements AiGatewayDynamicRouting#elements}.</summary>
         [JsiiProperty(name: "elements", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElements\"},\"kind\":\"array\"}}]}}")]
         public object Elements
         {
@@ -47,7 +47,7 @@ namespace cloudflare.AiGatewayDynamicRouting
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway_dynamic_routing#gateway_id AiGatewayDynamicRouting#gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway_dynamic_routing#gateway_id AiGatewayDynamicRouting#gateway_id}.</summary>
         [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}")]
         public string GatewayId
         {
@@ -55,7 +55,7 @@ namespace cloudflare.AiGatewayDynamicRouting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/ai_gateway_dynamic_routing#name AiGatewayDynamicRouting#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_gateway_dynamic_routing#name AiGatewayDynamicRouting#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

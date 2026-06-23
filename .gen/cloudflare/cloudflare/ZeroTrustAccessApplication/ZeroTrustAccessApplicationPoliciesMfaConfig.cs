@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>The authenticators allowed for MFA. Available values: "totp", "biometrics", "security_key", "ssh_piv_key".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_access_application#allowed_authenticators ZeroTrustAccessApplication#allowed_authenticators}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_access_application#allowed_authenticators ZeroTrustAccessApplication#allowed_authenticators}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedAuthenticators", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether MFA is disabled for this policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_access_application#mfa_disabled ZeroTrustAccessApplication#mfa_disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_access_application#mfa_disabled ZeroTrustAccessApplication#mfa_disabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mfaDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>How often a user will be forced to re-authenticate with MFA.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/zero_trust_access_application#session_duration ZeroTrustAccessApplication#session_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_access_application#session_duration ZeroTrustAccessApplication#session_duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

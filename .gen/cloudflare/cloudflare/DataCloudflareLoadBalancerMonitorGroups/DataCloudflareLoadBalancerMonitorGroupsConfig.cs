@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareLoadBalancerMonitorGroups
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/load_balancer_monitor_groups#account_id DataCloudflareLoadBalancerMonitorGroups#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/load_balancer_monitor_groups#account_id DataCloudflareLoadBalancerMonitorGroups#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareLoadBalancerMonitorGroups
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/data-sources/load_balancer_monitor_groups#max_items DataCloudflareLoadBalancerMonitorGroups#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/load_balancer_monitor_groups#max_items DataCloudflareLoadBalancerMonitorGroups#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

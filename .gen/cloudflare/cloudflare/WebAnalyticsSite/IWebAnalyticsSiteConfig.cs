@@ -9,7 +9,7 @@ namespace cloudflare.WebAnalyticsSite
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#account_id WebAnalyticsSite#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#account_id WebAnalyticsSite#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.WebAnalyticsSite
 
         /// <summary>If enabled, the JavaScript snippet is automatically injected for orange-clouded sites.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#auto_install WebAnalyticsSite#auto_install}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#auto_install WebAnalyticsSite#auto_install}
         /// </remarks>
         [JsiiProperty(name: "autoInstall", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace cloudflare.WebAnalyticsSite
 
         /// <summary>Enables or disables RUM. This option can be used only when auto_install is set to true.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#enabled WebAnalyticsSite#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#enabled WebAnalyticsSite#enabled}
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace cloudflare.WebAnalyticsSite
 
         /// <summary>The hostname to use for gray-clouded sites.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#host WebAnalyticsSite#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#host WebAnalyticsSite#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace cloudflare.WebAnalyticsSite
 
         /// <summary>If enabled, the JavaScript snippet will not be injected for visitors from the EU.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#lite WebAnalyticsSite#lite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#lite WebAnalyticsSite#lite}
         /// </remarks>
         [JsiiProperty(name: "lite", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace cloudflare.WebAnalyticsSite
 
         /// <summary>The zone identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#zone_tag WebAnalyticsSite#zone_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#zone_tag WebAnalyticsSite#zone_tag}
         /// </remarks>
         [JsiiProperty(name: "zoneTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +96,7 @@ namespace cloudflare.WebAnalyticsSite
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#account_id WebAnalyticsSite#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#account_id WebAnalyticsSite#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -106,7 +106,7 @@ namespace cloudflare.WebAnalyticsSite
 
             /// <summary>If enabled, the JavaScript snippet is automatically injected for orange-clouded sites.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#auto_install WebAnalyticsSite#auto_install}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#auto_install WebAnalyticsSite#auto_install}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoInstall", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace cloudflare.WebAnalyticsSite
 
             /// <summary>Enables or disables RUM. This option can be used only when auto_install is set to true.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#enabled WebAnalyticsSite#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#enabled WebAnalyticsSite#enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace cloudflare.WebAnalyticsSite
 
             /// <summary>The hostname to use for gray-clouded sites.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#host WebAnalyticsSite#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#host WebAnalyticsSite#host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace cloudflare.WebAnalyticsSite
 
             /// <summary>If enabled, the JavaScript snippet will not be injected for visitors from the EU.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#lite WebAnalyticsSite#lite}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#lite WebAnalyticsSite#lite}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lite", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace cloudflare.WebAnalyticsSite
 
             /// <summary>The zone identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/web_analytics_site#zone_tag WebAnalyticsSite#zone_tag}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/web_analytics_site#zone_tag WebAnalyticsSite#zone_tag}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

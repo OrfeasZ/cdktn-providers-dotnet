@@ -11,7 +11,7 @@ namespace cloudflare.Queue
     {
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/queue#account_id Queue#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/queue#account_id Queue#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,7 +20,7 @@ namespace cloudflare.Queue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/queue#queue_name Queue#queue_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/queue#queue_name Queue#queue_name}.</summary>
         [JsiiProperty(name: "queueName", typeJson: "{\"primitive\":\"string\"}")]
         public string QueueName
         {
@@ -28,7 +28,7 @@ namespace cloudflare.Queue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.0/docs/resources/queue#settings Queue#settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/queue#settings Queue#settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.queue.QueueSettings\"}", isOptional: true)]
         public cloudflare.Queue.IQueueSettings? Settings
