@@ -14,7 +14,8 @@
     "scaleway/scaleway@2.76.0",
     "stripe/stripe@0.2.2",
     "hashicorp/null@3.3.0",
-    "tailscale/tailscale@0.29.2"
+    "tailscale/tailscale@0.29.2",
+    "dmacvicar/libvirt@0.9.7"
   ],
   "terraformModules": [],
   "context": {}
