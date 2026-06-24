@@ -7,19 +7,9 @@ namespace scaleway.OpensearchDeployment
     [JsiiInterface(nativeType: typeof(IOpensearchDeploymentConfig), fullyQualifiedName: "scaleway.opensearchDeployment.OpensearchDeploymentConfig")]
     public interface IOpensearchDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Number of nodes.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#node_amount OpensearchDeployment#node_amount}
-        /// </remarks>
-        [JsiiProperty(name: "nodeAmount", typeJson: "{\"primitive\":\"number\"}")]
-        double NodeAmount
-        {
-            get;
-        }
-
         /// <summary>Type of node.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#node_type OpensearchDeployment#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#node_type OpensearchDeployment#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         string NodeType
@@ -29,7 +19,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>OpenSearch version to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#version OpensearchDeployment#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#version OpensearchDeployment#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         string Version
@@ -37,7 +27,7 @@ namespace scaleway.OpensearchDeployment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#id OpensearchDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#id OpensearchDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +44,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>Name of the OpenSearch deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#name OpensearchDeployment#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#name OpensearchDeployment#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,9 +56,37 @@ namespace scaleway.OpensearchDeployment
             }
         }
 
+        /// <summary>Number of nodes.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#node_amount OpensearchDeployment#node_amount}
+        /// </remarks>
+        [JsiiProperty(name: "nodeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? NodeAmount
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Number of nodes.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#node_count OpensearchDeployment#node_count}
+        /// </remarks>
+        [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? NodeCount
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Password for the deployment user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#password OpensearchDeployment#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#password OpensearchDeployment#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +100,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#private_network OpensearchDeployment#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#private_network OpensearchDeployment#private_network}
         /// </remarks>
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentPrivateNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +114,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#project_id OpensearchDeployment#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#project_id OpensearchDeployment#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +128,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#region OpensearchDeployment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#region OpensearchDeployment#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +142,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>List of tags to apply.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#tags OpensearchDeployment#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#tags OpensearchDeployment#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +156,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#timeouts OpensearchDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#timeouts OpensearchDeployment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +170,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>Username for the deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#user_name OpensearchDeployment#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#user_name OpensearchDeployment#user_name}
         /// </remarks>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -166,7 +184,7 @@ namespace scaleway.OpensearchDeployment
 
         /// <summary>volume block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#volume OpensearchDeployment#volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#volume OpensearchDeployment#volume}
         /// </remarks>
         [JsiiProperty(name: "volume", typeJson: "{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentVolume\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -185,19 +203,9 @@ namespace scaleway.OpensearchDeployment
             {
             }
 
-            /// <summary>Number of nodes.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#node_amount OpensearchDeployment#node_amount}
-            /// </remarks>
-            [JsiiProperty(name: "nodeAmount", typeJson: "{\"primitive\":\"number\"}")]
-            public double NodeAmount
-            {
-                get => GetInstanceProperty<double>()!;
-            }
-
             /// <summary>Type of node.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#node_type OpensearchDeployment#node_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#node_type OpensearchDeployment#node_type}
             /// </remarks>
             [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeType
@@ -207,7 +215,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>OpenSearch version to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#version OpensearchDeployment#version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#version OpensearchDeployment#version}
             /// </remarks>
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
             public string Version
@@ -215,7 +223,7 @@ namespace scaleway.OpensearchDeployment
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#id OpensearchDeployment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#id OpensearchDeployment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -229,7 +237,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>Name of the OpenSearch deployment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#name OpensearchDeployment#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#name OpensearchDeployment#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -238,9 +246,31 @@ namespace scaleway.OpensearchDeployment
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Number of nodes.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#node_amount OpensearchDeployment#node_amount}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "nodeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? NodeAmount
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Number of nodes.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#node_count OpensearchDeployment#node_count}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? NodeCount
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
             /// <summary>Password for the deployment user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#password OpensearchDeployment#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#password OpensearchDeployment#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -251,7 +281,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>private_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#private_network OpensearchDeployment#private_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#private_network OpensearchDeployment#private_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentPrivateNetwork\"}", isOptional: true)]
@@ -262,7 +292,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#project_id OpensearchDeployment#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#project_id OpensearchDeployment#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -273,7 +303,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#region OpensearchDeployment#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#region OpensearchDeployment#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -284,7 +314,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>List of tags to apply.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#tags OpensearchDeployment#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#tags OpensearchDeployment#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -295,7 +325,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#timeouts OpensearchDeployment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#timeouts OpensearchDeployment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentTimeouts\"}", isOptional: true)]
@@ -306,7 +336,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>Username for the deployment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#user_name OpensearchDeployment#user_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#user_name OpensearchDeployment#user_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -317,7 +347,7 @@ namespace scaleway.OpensearchDeployment
 
             /// <summary>volume block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/opensearch_deployment#volume OpensearchDeployment#volume}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/opensearch_deployment#volume OpensearchDeployment#volume}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "volume", typeJson: "{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentVolume\"}", isOptional: true)]

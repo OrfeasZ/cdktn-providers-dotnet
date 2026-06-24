@@ -51,6 +51,12 @@ namespace scaleway.DomainRegistration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCompanyIdentificationCode")]
+        public virtual void ResetCompanyIdentificationCode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCompanyName")]
         public virtual void ResetCompanyName()
         {
@@ -101,6 +107,12 @@ namespace scaleway.DomainRegistration
 
         [JsiiMethod(name: "resetState")]
         public virtual void ResetState()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVatIdentificationCode")]
+        public virtual void ResetVatIdentificationCode()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }

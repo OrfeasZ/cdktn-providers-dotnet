@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
     {
         /// <summary>apply_server_side_encryption_by_default block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#apply_server_side_encryption_by_default ObjectBucketServerSideEncryptionConfiguration#apply_server_side_encryption_by_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket_server_side_encryption_configuration#apply_server_side_encryption_by_default ObjectBucketServerSideEncryptionConfiguration#apply_server_side_encryption_by_default}
         /// </remarks>
         [JsiiProperty(name: "applyServerSideEncryptionByDefault", typeJson: "{\"fqn\":\"scaleway.objectBucketServerSideEncryptionConfiguration.ObjectBucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
         /// <summary>Whether or not to use Scaleway Object Bucket Keys for SSE-KMS.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket_key_enabled ObjectBucketServerSideEncryptionConfiguration#bucket_key_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket_key_enabled ObjectBucketServerSideEncryptionConfiguration#bucket_key_enabled}
         /// </remarks>
         [JsiiProperty(name: "bucketKeyEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>apply_server_side_encryption_by_default block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#apply_server_side_encryption_by_default ObjectBucketServerSideEncryptionConfiguration#apply_server_side_encryption_by_default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket_server_side_encryption_configuration#apply_server_side_encryption_by_default ObjectBucketServerSideEncryptionConfiguration#apply_server_side_encryption_by_default}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applyServerSideEncryptionByDefault", typeJson: "{\"fqn\":\"scaleway.objectBucketServerSideEncryptionConfiguration.ObjectBucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace scaleway.ObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>Whether or not to use Scaleway Object Bucket Keys for SSE-KMS.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket_key_enabled ObjectBucketServerSideEncryptionConfiguration#bucket_key_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket_server_side_encryption_configuration#bucket_key_enabled ObjectBucketServerSideEncryptionConfiguration#bucket_key_enabled}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bucketKeyEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

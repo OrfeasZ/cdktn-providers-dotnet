@@ -5,7 +5,7 @@ namespace scaleway.DataScalewayMongodbDatabases
     /// <remarks>
     /// <h1><c>data_scaleway_mongodb_databases</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/data-sources/mongodb_databases"><c>data_scaleway_mongodb_databases</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/mongodb_databases"><c>data_scaleway_mongodb_databases</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

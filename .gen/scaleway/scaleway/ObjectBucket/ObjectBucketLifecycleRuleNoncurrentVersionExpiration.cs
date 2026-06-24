@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucket
     {
         /// <summary>Number of noncurrent versions Scaleway Object Storage will retain. Must be a non-zero positive integer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#newer_noncurrent_versions ObjectBucket#newer_noncurrent_versions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#newer_noncurrent_versions ObjectBucket#newer_noncurrent_versions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "newerNoncurrentVersions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace scaleway.ObjectBucket
         /// <remarks>
         /// Must be a positive integer
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#noncurrent_days ObjectBucket#noncurrent_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#noncurrent_days ObjectBucket#noncurrent_days}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noncurrentDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

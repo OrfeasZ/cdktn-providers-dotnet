@@ -11,7 +11,7 @@ namespace scaleway.ObjectBucket
         /// <remarks>
         /// The date value must be in RFC3339 full-date format e.g. <c>2023-08-22</c>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#date ObjectBucket#date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#date ObjectBucket#date}
         /// </remarks>
         [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +25,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>Specifies the number of days after object creation when the specific rule action takes effect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#days ObjectBucket#days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#days ObjectBucket#days}
         /// </remarks>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace scaleway.ObjectBucket
         /// <remarks>
         /// If set to <c>true</c>, the delete marker will be expired; if set to <c>false</c> the policy takes no action
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#expired_object_delete_marker ObjectBucket#expired_object_delete_marker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#expired_object_delete_marker ObjectBucket#expired_object_delete_marker}
         /// </remarks>
         [JsiiProperty(name: "expiredObjectDeleteMarker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace scaleway.ObjectBucket
             /// <remarks>
             /// The date value must be in RFC3339 full-date format e.g. <c>2023-08-22</c>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#date ObjectBucket#date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#date ObjectBucket#date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>Specifies the number of days after object creation when the specific rule action takes effect.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#days ObjectBucket#days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#days ObjectBucket#days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace scaleway.ObjectBucket
             /// <remarks>
             /// If set to <c>true</c>, the delete marker will be expired; if set to <c>false</c> the policy takes no action
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.76.0/docs/resources/object_bucket#expired_object_delete_marker ObjectBucket#expired_object_delete_marker}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#expired_object_delete_marker ObjectBucket#expired_object_delete_marker}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiredObjectDeleteMarker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
