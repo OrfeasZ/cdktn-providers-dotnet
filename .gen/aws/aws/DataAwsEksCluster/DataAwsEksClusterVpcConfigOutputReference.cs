@@ -41,6 +41,12 @@ namespace aws.DataAwsEksCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "controlPlaneEgressMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ControlPlaneEgressMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "endpointPrivateAccess", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable EndpointPrivateAccess
         {

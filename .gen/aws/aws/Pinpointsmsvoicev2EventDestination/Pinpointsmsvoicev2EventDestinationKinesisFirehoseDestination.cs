@@ -11,7 +11,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
     {
         /// <summary>ARN of the Amazon Data Firehose delivery stream that receives the events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/pinpointsmsvoicev2_event_destination#delivery_stream_arn Pinpointsmsvoicev2EventDestination#delivery_stream_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pinpointsmsvoicev2_event_destination#delivery_stream_arn Pinpointsmsvoicev2EventDestination#delivery_stream_arn}
         /// </remarks>
         [JsiiProperty(name: "deliveryStreamArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DeliveryStreamArn
@@ -22,7 +22,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
 
         /// <summary>ARN of the IAM role that End User Messaging SMS assumes to write to the delivery stream.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/pinpointsmsvoicev2_event_destination#iam_role_arn Pinpointsmsvoicev2EventDestination#iam_role_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pinpointsmsvoicev2_event_destination#iam_role_arn Pinpointsmsvoicev2EventDestination#iam_role_arn}
         /// </remarks>
         [JsiiProperty(name: "iamRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string IamRoleArn

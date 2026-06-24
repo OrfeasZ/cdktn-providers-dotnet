@@ -7,7 +7,7 @@ namespace aws.CloudfrontDistribution
     [JsiiInterface(nativeType: typeof(ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig), fullyQualifiedName: "aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig")]
     public interface ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/cloudfront_distribution#client_certificate_arn CloudfrontDistribution#client_certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudfront_distribution#client_certificate_arn CloudfrontDistribution#client_certificate_arn}.</summary>
         [JsiiProperty(name: "clientCertificateArn", typeJson: "{\"primitive\":\"string\"}")]
         string ClientCertificateArn
         {
@@ -21,7 +21,7 @@ namespace aws.CloudfrontDistribution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/cloudfront_distribution#client_certificate_arn CloudfrontDistribution#client_certificate_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudfront_distribution#client_certificate_arn CloudfrontDistribution#client_certificate_arn}.</summary>
             [JsiiProperty(name: "clientCertificateArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientCertificateArn
             {

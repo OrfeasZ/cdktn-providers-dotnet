@@ -9,7 +9,7 @@ namespace aws.EcsCluster
     [JsiiByValue(fqn: "aws.ecsCluster.EcsClusterServiceConnectDefaults")]
     public class EcsClusterServiceConnectDefaults : aws.EcsCluster.IEcsClusterServiceConnectDefaults
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_cluster#namespace EcsCluster#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_cluster#namespace EcsCluster#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {

@@ -33,6 +33,12 @@ namespace aws.EksCluster
         {
         }
 
+        [JsiiMethod(name: "resetControlPlaneEgressMode")]
+        public virtual void ResetControlPlaneEgressMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetEndpointPrivateAccess")]
         public virtual void ResetEndpointPrivateAccess()
         {
@@ -70,6 +76,13 @@ namespace aws.EksCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "controlPlaneEgressModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ControlPlaneEgressModeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "endpointPrivateAccessInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EndpointPrivateAccessInput
         {
@@ -102,6 +115,13 @@ namespace aws.EksCluster
         public virtual string[]? SubnetIdsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiProperty(name: "controlPlaneEgressMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ControlPlaneEgressMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "endpointPrivateAccess", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]

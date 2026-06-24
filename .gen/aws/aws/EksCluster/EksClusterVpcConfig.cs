@@ -9,7 +9,7 @@ namespace aws.EksCluster
     [JsiiByValue(fqn: "aws.eksCluster.EksClusterVpcConfig")]
     public class EksClusterVpcConfig : aws.EksCluster.IEksClusterVpcConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#subnet_ids EksCluster#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_cluster#subnet_ids EksCluster#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {
@@ -17,9 +17,18 @@ namespace aws.EksCluster
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_cluster#control_plane_egress_mode EksCluster#control_plane_egress_mode}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "controlPlaneEgressMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ControlPlaneEgressMode
+        {
+            get;
+            set;
+        }
+
         private object? _endpointPrivateAccess;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#endpoint_private_access EksCluster#endpoint_private_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_cluster#endpoint_private_access EksCluster#endpoint_private_access}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointPrivateAccess", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EndpointPrivateAccess
@@ -50,7 +59,7 @@ namespace aws.EksCluster
 
         private object? _endpointPublicAccess;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#endpoint_public_access EksCluster#endpoint_public_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_cluster#endpoint_public_access EksCluster#endpoint_public_access}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointPublicAccess", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EndpointPublicAccess
@@ -79,7 +88,7 @@ namespace aws.EksCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#public_access_cidrs EksCluster#public_access_cidrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_cluster#public_access_cidrs EksCluster#public_access_cidrs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicAccessCidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PublicAccessCidrs
@@ -88,7 +97,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_cluster#security_group_ids EksCluster#security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_cluster#security_group_ids EksCluster#security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroupIds

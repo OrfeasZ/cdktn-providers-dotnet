@@ -11,7 +11,7 @@ namespace aws.BedrockagentcorePolicy
 
         /// <summary>cedar block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cedar", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar\"},\"kind\":\"array\"}}]}}", isOptional: true)]
