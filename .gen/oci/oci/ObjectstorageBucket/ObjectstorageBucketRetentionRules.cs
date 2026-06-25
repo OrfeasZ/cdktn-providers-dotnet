@@ -9,7 +9,7 @@ namespace oci.ObjectstorageBucket
     [JsiiByValue(fqn: "oci.objectstorageBucket.ObjectstorageBucketRetentionRules")]
     public class ObjectstorageBucketRetentionRules : oci.ObjectstorageBucket.IObjectstorageBucketRetentionRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -19,7 +19,7 @@ namespace oci.ObjectstorageBucket
 
         /// <summary>duration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketRetentionRulesDuration\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeRuleLocked", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeRuleLocked

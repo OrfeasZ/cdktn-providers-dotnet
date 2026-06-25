@@ -9,7 +9,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAzureBlobMount.DbmulticloudOracleDbAzureBlobMountConfig")]
     public class DbmulticloudOracleDbAzureBlobMountConfig : oci.DbmulticloudOracleDbAzureBlobMount.IDbmulticloudOracleDbAzureBlobMountConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#compartment_id DbmulticloudOracleDbAzureBlobMount#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#compartment_id DbmulticloudOracleDbAzureBlobMount#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#display_name DbmulticloudOracleDbAzureBlobMount#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#display_name DbmulticloudOracleDbAzureBlobMount#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_container_id DbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_container_id DbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_container_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureBlobContainerId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAzureBlobContainerId
         {
@@ -33,7 +33,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_connector_id DbmulticloudOracleDbAzureBlobMount#oracle_db_azure_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_connector_id DbmulticloudOracleDbAzureBlobMount#oracle_db_azure_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAzureConnectorId
         {
@@ -41,7 +41,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#defined_tags DbmulticloudOracleDbAzureBlobMount#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#defined_tags DbmulticloudOracleDbAzureBlobMount#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#freeform_tags DbmulticloudOracleDbAzureBlobMount#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#freeform_tags DbmulticloudOracleDbAzureBlobMount#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -59,7 +59,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#id DbmulticloudOracleDbAzureBlobMount#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#id DbmulticloudOracleDbAzureBlobMount#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#timeouts DbmulticloudOracleDbAzureBlobMount#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#timeouts DbmulticloudOracleDbAzureBlobMount#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAzureBlobMount.DbmulticloudOracleDbAzureBlobMountTimeouts\"}", isOptional: true)]

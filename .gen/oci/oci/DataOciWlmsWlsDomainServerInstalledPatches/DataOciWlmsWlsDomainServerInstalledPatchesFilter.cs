@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomainServerInstalledPatches.DataOciWlmsWlsDomainServerInstalledPatchesFilter")]
     public class DataOciWlmsWlsDomainServerInstalledPatchesFilter : oci.DataOciWlmsWlsDomainServerInstalledPatches.IDataOciWlmsWlsDomainServerInstalledPatchesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_server_installed_patches#name DataOciWlmsWlsDomainServerInstalledPatches#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_wls_domain_server_installed_patches#name DataOciWlmsWlsDomainServerInstalledPatches#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_server_installed_patches#values DataOciWlmsWlsDomainServerInstalledPatches#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_wls_domain_server_installed_patches#values DataOciWlmsWlsDomainServerInstalledPatches#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_server_installed_patches#regex DataOciWlmsWlsDomainServerInstalledPatches#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_wls_domain_server_installed_patches#regex DataOciWlmsWlsDomainServerInstalledPatches#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

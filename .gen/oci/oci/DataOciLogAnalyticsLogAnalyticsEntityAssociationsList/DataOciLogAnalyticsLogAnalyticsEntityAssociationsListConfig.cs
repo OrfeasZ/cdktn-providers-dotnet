@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsEntityAssociationsList.DataOciLogAnalyticsLogAnalyticsEntityAssociationsListConfig")]
     public class DataOciLogAnalyticsLogAnalyticsEntityAssociationsListConfig : oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList.IDataOciLogAnalyticsLogAnalyticsEntityAssociationsListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#log_analytics_entity_id DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#log_analytics_entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#log_analytics_entity_id DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#log_analytics_entity_id}.</summary>
         [JsiiProperty(name: "logAnalyticsEntityId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsEntityId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#namespace DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#namespace DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#direct_or_all_associations DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#direct_or_all_associations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#direct_or_all_associations DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#direct_or_all_associations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "directOrAllAssociations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DirectOrAllAssociations
@@ -38,7 +38,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#filter DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#filter DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList.IDataOciLogAnalyticsLogAnalyticsEntityAssociationsListFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#id DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#id DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

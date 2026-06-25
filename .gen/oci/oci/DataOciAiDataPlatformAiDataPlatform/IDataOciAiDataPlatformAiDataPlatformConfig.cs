@@ -7,7 +7,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatform
     [JsiiInterface(nativeType: typeof(IDataOciAiDataPlatformAiDataPlatformConfig), fullyQualifiedName: "oci.dataOciAiDataPlatformAiDataPlatform.DataOciAiDataPlatformAiDataPlatformConfig")]
     public interface IDataOciAiDataPlatformAiDataPlatformConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platform#ai_data_platform_id DataOciAiDataPlatformAiDataPlatform#ai_data_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_data_platform_ai_data_platform#ai_data_platform_id DataOciAiDataPlatformAiDataPlatform#ai_data_platform_id}.</summary>
         [JsiiProperty(name: "aiDataPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         string AiDataPlatformId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatform
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platform#ai_data_platform_id DataOciAiDataPlatformAiDataPlatform#ai_data_platform_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_data_platform_ai_data_platform#ai_data_platform_id DataOciAiDataPlatformAiDataPlatform#ai_data_platform_id}.</summary>
             [JsiiProperty(name: "aiDataPlatformId", typeJson: "{\"primitive\":\"string\"}")]
             public string AiDataPlatformId
             {

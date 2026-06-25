@@ -9,7 +9,7 @@ namespace oci.DemandSignalOccDemandSignal
     [JsiiByValue(fqn: "oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalConfig")]
     public class DemandSignalOccDemandSignalConfig : oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#compartment_id DemandSignalOccDemandSignal#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#compartment_id DemandSignalOccDemandSignal#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.DemandSignalOccDemandSignal
 
         private object _isActive;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#is_active DemandSignalOccDemandSignal#is_active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#is_active DemandSignalOccDemandSignal#is_active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace oci.DemandSignalOccDemandSignal
 
         /// <summary>occ_demand_signals block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#occ_demand_signals DemandSignalOccDemandSignal#occ_demand_signals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#occ_demand_signals DemandSignalOccDemandSignal#occ_demand_signals}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignals" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "occDemandSignals", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignals\"},\"kind\":\"array\"}}]}}")]
@@ -84,7 +84,7 @@ namespace oci.DemandSignalOccDemandSignal
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#defined_tags DemandSignalOccDemandSignal#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#defined_tags DemandSignalOccDemandSignal#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -93,7 +93,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#display_name DemandSignalOccDemandSignal#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#display_name DemandSignalOccDemandSignal#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -102,7 +102,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#freeform_tags DemandSignalOccDemandSignal#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#freeform_tags DemandSignalOccDemandSignal#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -111,7 +111,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#id DemandSignalOccDemandSignal#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#id DemandSignalOccDemandSignal#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#occ_demand_signal_id DemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#occ_demand_signal_id DemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "occDemandSignalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OccDemandSignalId
@@ -137,7 +137,7 @@ namespace oci.DemandSignalOccDemandSignal
 
         /// <summary>patch_operations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#patch_operations DemandSignalOccDemandSignal#patch_operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#patch_operations DemandSignalOccDemandSignal#patch_operations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalPatchOperations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -170,7 +170,7 @@ namespace oci.DemandSignalOccDemandSignal
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/demand_signal_occ_demand_signal#timeouts DemandSignalOccDemandSignal#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#timeouts DemandSignalOccDemandSignal#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalTimeouts\"}", isOptional: true)]

@@ -7,14 +7,14 @@ namespace oci.DataOciContainerengineAddonOptions
     [JsiiInterface(nativeType: typeof(IDataOciContainerengineAddonOptionsConfig), fullyQualifiedName: "oci.dataOciContainerengineAddonOptions.DataOciContainerengineAddonOptionsConfig")]
     public interface IDataOciContainerengineAddonOptionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#kubernetes_version DataOciContainerengineAddonOptions#kubernetes_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#kubernetes_version DataOciContainerengineAddonOptions#kubernetes_version}.</summary>
         [JsiiProperty(name: "kubernetesVersion", typeJson: "{\"primitive\":\"string\"}")]
         string KubernetesVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#addon_name DataOciContainerengineAddonOptions#addon_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#addon_name DataOciContainerengineAddonOptions#addon_name}.</summary>
         [JsiiProperty(name: "addonName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AddonName
@@ -27,7 +27,7 @@ namespace oci.DataOciContainerengineAddonOptions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#filter DataOciContainerengineAddonOptions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#filter DataOciContainerengineAddonOptions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineAddonOptions.IDataOciContainerengineAddonOptionsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciContainerengineAddonOptions.DataOciContainerengineAddonOptionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciContainerengineAddonOptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#id DataOciContainerengineAddonOptions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#id DataOciContainerengineAddonOptions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciContainerengineAddonOptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#should_show_all_versions DataOciContainerengineAddonOptions#should_show_all_versions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#should_show_all_versions DataOciContainerengineAddonOptions#should_show_all_versions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -76,14 +76,14 @@ namespace oci.DataOciContainerengineAddonOptions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#kubernetes_version DataOciContainerengineAddonOptions#kubernetes_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#kubernetes_version DataOciContainerengineAddonOptions#kubernetes_version}.</summary>
             [JsiiProperty(name: "kubernetesVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string KubernetesVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#addon_name DataOciContainerengineAddonOptions#addon_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#addon_name DataOciContainerengineAddonOptions#addon_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "addonName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AddonName
@@ -93,7 +93,7 @@ namespace oci.DataOciContainerengineAddonOptions
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#filter DataOciContainerengineAddonOptions#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#filter DataOciContainerengineAddonOptions#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineAddonOptions.IDataOciContainerengineAddonOptionsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -103,7 +103,7 @@ namespace oci.DataOciContainerengineAddonOptions
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#id DataOciContainerengineAddonOptions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#id DataOciContainerengineAddonOptions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +115,7 @@ namespace oci.DataOciContainerengineAddonOptions
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon_options#should_show_all_versions DataOciContainerengineAddonOptions#should_show_all_versions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon_options#should_show_all_versions DataOciContainerengineAddonOptions#should_show_all_versions}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

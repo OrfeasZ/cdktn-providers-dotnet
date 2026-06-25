@@ -9,7 +9,7 @@ namespace oci.ObjectstorageBucket
     [JsiiByValue(fqn: "oci.objectstorageBucket.ObjectstorageBucketConfig")]
     public class ObjectstorageBucketConfig : oci.ObjectstorageBucket.IObjectstorageBucketConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#compartment_id ObjectstorageBucket#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#compartment_id ObjectstorageBucket#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#name ObjectstorageBucket#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#name ObjectstorageBucket#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#namespace ObjectstorageBucket#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#namespace ObjectstorageBucket#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#access_type ObjectstorageBucket#access_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#access_type ObjectstorageBucket#access_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessType
@@ -42,7 +42,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#auto_tiering ObjectstorageBucket#auto_tiering}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#auto_tiering ObjectstorageBucket#auto_tiering}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoTiering", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutoTiering
@@ -51,7 +51,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#bucket_scope ObjectstorageBucket#bucket_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#bucket_scope ObjectstorageBucket#bucket_scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucketScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BucketScope
@@ -60,7 +60,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#defined_tags ObjectstorageBucket#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#defined_tags ObjectstorageBucket#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -69,7 +69,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#freeform_tags ObjectstorageBucket#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#freeform_tags ObjectstorageBucket#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -78,7 +78,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#id ObjectstorageBucket#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#id ObjectstorageBucket#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#kms_key_id ObjectstorageBucket#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#kms_key_id ObjectstorageBucket#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -100,7 +100,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#metadata ObjectstorageBucket#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#metadata ObjectstorageBucket#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -111,7 +111,7 @@ namespace oci.ObjectstorageBucket
 
         private object? _objectEventsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#object_events_enabled ObjectstorageBucket#object_events_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#object_events_enabled ObjectstorageBucket#object_events_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -147,7 +147,7 @@ namespace oci.ObjectstorageBucket
 
         /// <summary>retention_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#retention_rules ObjectstorageBucket#retention_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#retention_rules ObjectstorageBucket#retention_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstorageBucket.IObjectstorageBucketRetentionRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -178,7 +178,7 @@ namespace oci.ObjectstorageBucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#storage_tier ObjectstorageBucket#storage_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#storage_tier ObjectstorageBucket#storage_tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageTier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageTier
@@ -189,7 +189,7 @@ namespace oci.ObjectstorageBucket
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#timeouts ObjectstorageBucket#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#timeouts ObjectstorageBucket#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketTimeouts\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#versioning ObjectstorageBucket#versioning}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#versioning ObjectstorageBucket#versioning}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versioning", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Versioning

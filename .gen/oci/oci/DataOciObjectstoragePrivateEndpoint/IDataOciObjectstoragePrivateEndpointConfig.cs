@@ -7,14 +7,14 @@ namespace oci.DataOciObjectstoragePrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciObjectstoragePrivateEndpointConfig), fullyQualifiedName: "oci.dataOciObjectstoragePrivateEndpoint.DataOciObjectstoragePrivateEndpointConfig")]
     public interface IDataOciObjectstoragePrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_private_endpoint#name DataOciObjectstoragePrivateEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_private_endpoint#name DataOciObjectstoragePrivateEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_private_endpoint#namespace DataOciObjectstoragePrivateEndpoint#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_private_endpoint#namespace DataOciObjectstoragePrivateEndpoint#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciObjectstoragePrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_private_endpoint#name DataOciObjectstoragePrivateEndpoint#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_private_endpoint#name DataOciObjectstoragePrivateEndpoint#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_private_endpoint#namespace DataOciObjectstoragePrivateEndpoint#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_private_endpoint#namespace DataOciObjectstoragePrivateEndpoint#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

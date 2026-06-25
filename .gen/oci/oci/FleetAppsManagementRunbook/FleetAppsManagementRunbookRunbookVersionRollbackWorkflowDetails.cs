@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementRunbook
     [JsiiByValue(fqn: "oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetails")]
     public class FleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetails : oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_runbook#scope FleetAppsManagementRunbook#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook#scope FleetAppsManagementRunbook#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -21,7 +21,7 @@ namespace oci.FleetAppsManagementRunbook
 
         /// <summary>workflow block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_runbook#workflow FleetAppsManagementRunbook#workflow}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook#workflow FleetAppsManagementRunbook#workflow}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetailsWorkflow" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "workflow", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetailsWorkflow\"},\"kind\":\"array\"}}]}}")]

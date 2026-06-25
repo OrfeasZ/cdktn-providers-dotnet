@@ -7,7 +7,7 @@ namespace oci.CloudMigrationsTargetAsset
     [JsiiInterface(nativeType: typeof(ICloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig), fullyQualifiedName: "oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig")]
     public interface ICloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_target_asset#desired_state CloudMigrationsTargetAsset#desired_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#desired_state CloudMigrationsTargetAsset#desired_state}.</summary>
         [JsiiProperty(name: "desiredState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DesiredState
@@ -18,7 +18,7 @@ namespace oci.CloudMigrationsTargetAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_target_asset#name CloudMigrationsTargetAsset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#name CloudMigrationsTargetAsset#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -36,7 +36,7 @@ namespace oci.CloudMigrationsTargetAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_target_asset#desired_state CloudMigrationsTargetAsset#desired_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#desired_state CloudMigrationsTargetAsset#desired_state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "desiredState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DesiredState
@@ -44,7 +44,7 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_target_asset#name CloudMigrationsTargetAsset#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#name CloudMigrationsTargetAsset#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

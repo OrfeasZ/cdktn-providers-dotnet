@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsOauthPartnerCertificate
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsOauthPartnerCertificate.DataOciIdentityDomainsOauthPartnerCertificateConfig")]
     public class DataOciIdentityDomainsOauthPartnerCertificateConfig : oci.DataOciIdentityDomainsOauthPartnerCertificate.IDataOciIdentityDomainsOauthPartnerCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oauth_partner_certificate#idcs_endpoint DataOciIdentityDomainsOauthPartnerCertificate#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_oauth_partner_certificate#idcs_endpoint DataOciIdentityDomainsOauthPartnerCertificate#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsOauthPartnerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oauth_partner_certificate#o_auth_partner_certificate_id DataOciIdentityDomainsOauthPartnerCertificate#o_auth_partner_certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_oauth_partner_certificate#o_auth_partner_certificate_id DataOciIdentityDomainsOauthPartnerCertificate#o_auth_partner_certificate_id}.</summary>
         [JsiiProperty(name: "oAuthPartnerCertificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string OAuthPartnerCertificateId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsOauthPartnerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oauth_partner_certificate#authorization DataOciIdentityDomainsOauthPartnerCertificate#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_oauth_partner_certificate#authorization DataOciIdentityDomainsOauthPartnerCertificate#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsOauthPartnerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oauth_partner_certificate#resource_type_schema_version DataOciIdentityDomainsOauthPartnerCertificate#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_oauth_partner_certificate#resource_type_schema_version DataOciIdentityDomainsOauthPartnerCertificate#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

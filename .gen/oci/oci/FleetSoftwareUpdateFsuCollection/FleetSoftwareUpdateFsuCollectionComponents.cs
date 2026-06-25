@@ -9,7 +9,7 @@ namespace oci.FleetSoftwareUpdateFsuCollection
     [JsiiByValue(fqn: "oci.fleetSoftwareUpdateFsuCollection.FleetSoftwareUpdateFsuCollectionComponents")]
     public class FleetSoftwareUpdateFsuCollectionComponents : oci.FleetSoftwareUpdateFsuCollection.IFleetSoftwareUpdateFsuCollectionComponents
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_software_update_fsu_collection#component_type FleetSoftwareUpdateFsuCollection#component_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_software_update_fsu_collection#component_type FleetSoftwareUpdateFsuCollection#component_type}.</summary>
         [JsiiProperty(name: "componentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ComponentType
         {
@@ -17,7 +17,7 @@ namespace oci.FleetSoftwareUpdateFsuCollection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_software_update_fsu_collection#source_major_version FleetSoftwareUpdateFsuCollection#source_major_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_software_update_fsu_collection#source_major_version FleetSoftwareUpdateFsuCollection#source_major_version}.</summary>
         [JsiiProperty(name: "sourceMajorVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceMajorVersion
         {
@@ -27,7 +27,7 @@ namespace oci.FleetSoftwareUpdateFsuCollection
 
         /// <summary>fleet_discovery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_software_update_fsu_collection#fleet_discovery FleetSoftwareUpdateFsuCollection#fleet_discovery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_software_update_fsu_collection#fleet_discovery FleetSoftwareUpdateFsuCollection#fleet_discovery}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fleetDiscovery", typeJson: "{\"fqn\":\"oci.fleetSoftwareUpdateFsuCollection.FleetSoftwareUpdateFsuCollectionComponentsFleetDiscovery\"}", isOptional: true)]

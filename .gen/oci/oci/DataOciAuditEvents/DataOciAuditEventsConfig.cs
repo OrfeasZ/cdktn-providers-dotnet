@@ -9,7 +9,7 @@ namespace oci.DataOciAuditEvents
     [JsiiByValue(fqn: "oci.dataOciAuditEvents.DataOciAuditEventsConfig")]
     public class DataOciAuditEventsConfig : oci.DataOciAuditEvents.IDataOciAuditEventsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/audit_events#compartment_id DataOciAuditEvents#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/audit_events#compartment_id DataOciAuditEvents#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAuditEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/audit_events#end_time DataOciAuditEvents#end_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/audit_events#end_time DataOciAuditEvents#end_time}.</summary>
         [JsiiProperty(name: "endTime", typeJson: "{\"primitive\":\"string\"}")]
         public string EndTime
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciAuditEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/audit_events#start_time DataOciAuditEvents#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/audit_events#start_time DataOciAuditEvents#start_time}.</summary>
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}")]
         public string StartTime
         {
@@ -37,7 +37,7 @@ namespace oci.DataOciAuditEvents
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/audit_events#filter DataOciAuditEvents#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/audit_events#filter DataOciAuditEvents#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAuditEvents.IDataOciAuditEventsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.DataOciAuditEvents
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/audit_events#id DataOciAuditEvents#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/audit_events#id DataOciAuditEvents#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

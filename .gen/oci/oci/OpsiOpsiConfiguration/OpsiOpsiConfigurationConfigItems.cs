@@ -9,7 +9,7 @@ namespace oci.OpsiOpsiConfiguration
     [JsiiByValue(fqn: "oci.opsiOpsiConfiguration.OpsiOpsiConfigurationConfigItems")]
     public class OpsiOpsiConfigurationConfigItems : oci.OpsiOpsiConfiguration.IOpsiOpsiConfigurationConfigItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_opsi_configuration#config_item_type OpsiOpsiConfiguration#config_item_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opsi_opsi_configuration#config_item_type OpsiOpsiConfiguration#config_item_type}.</summary>
         [JsiiProperty(name: "configItemType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigItemType
         {
@@ -17,7 +17,7 @@ namespace oci.OpsiOpsiConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_opsi_configuration#name OpsiOpsiConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opsi_opsi_configuration#name OpsiOpsiConfiguration#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -26,7 +26,7 @@ namespace oci.OpsiOpsiConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_opsi_configuration#value OpsiOpsiConfiguration#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opsi_opsi_configuration#value OpsiOpsiConfiguration#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

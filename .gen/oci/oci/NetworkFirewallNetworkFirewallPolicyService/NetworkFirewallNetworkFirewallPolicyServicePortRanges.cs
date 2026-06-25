@@ -9,7 +9,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyService
     [JsiiByValue(fqn: "oci.networkFirewallNetworkFirewallPolicyService.NetworkFirewallNetworkFirewallPolicyServicePortRanges")]
     public class NetworkFirewallNetworkFirewallPolicyServicePortRanges : oci.NetworkFirewallNetworkFirewallPolicyService.INetworkFirewallNetworkFirewallPolicyServicePortRanges
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/network_firewall_network_firewall_policy_service#minimum_port NetworkFirewallNetworkFirewallPolicyService#minimum_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_service#minimum_port NetworkFirewallNetworkFirewallPolicyService#minimum_port}.</summary>
         [JsiiProperty(name: "minimumPort", typeJson: "{\"primitive\":\"number\"}")]
         public double MinimumPort
         {
@@ -17,7 +17,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/network_firewall_network_firewall_policy_service#maximum_port NetworkFirewallNetworkFirewallPolicyService#maximum_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_service#maximum_port NetworkFirewallNetworkFirewallPolicyService#maximum_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumPort

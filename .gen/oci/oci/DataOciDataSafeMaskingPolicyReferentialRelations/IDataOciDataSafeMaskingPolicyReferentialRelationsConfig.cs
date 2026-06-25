@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeMaskingPolicyReferentialRelationsConfig), fullyQualifiedName: "oci.dataOciDataSafeMaskingPolicyReferentialRelations.DataOciDataSafeMaskingPolicyReferentialRelationsConfig")]
     public interface IDataOciDataSafeMaskingPolicyReferentialRelationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#masking_policy_id DataOciDataSafeMaskingPolicyReferentialRelations#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#masking_policy_id DataOciDataSafeMaskingPolicyReferentialRelations#masking_policy_id}.</summary>
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string MaskingPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#column_name DataOciDataSafeMaskingPolicyReferentialRelations#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#column_name DataOciDataSafeMaskingPolicyReferentialRelations#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ColumnName
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#filter DataOciDataSafeMaskingPolicyReferentialRelations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#filter DataOciDataSafeMaskingPolicyReferentialRelations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingPolicyReferentialRelations.IDataOciDataSafeMaskingPolicyReferentialRelationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeMaskingPolicyReferentialRelations.DataOciDataSafeMaskingPolicyReferentialRelationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#id DataOciDataSafeMaskingPolicyReferentialRelations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#id DataOciDataSafeMaskingPolicyReferentialRelations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#object DataOciDataSafeMaskingPolicyReferentialRelations#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#object DataOciDataSafeMaskingPolicyReferentialRelations#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Object
@@ -66,7 +66,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#relation_type DataOciDataSafeMaskingPolicyReferentialRelations#relation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#relation_type DataOciDataSafeMaskingPolicyReferentialRelations#relation_type}.</summary>
         [JsiiProperty(name: "relationType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RelationType
@@ -77,7 +77,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#schema_name DataOciDataSafeMaskingPolicyReferentialRelations#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#schema_name DataOciDataSafeMaskingPolicyReferentialRelations#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SchemaName
@@ -95,14 +95,14 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#masking_policy_id DataOciDataSafeMaskingPolicyReferentialRelations#masking_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#masking_policy_id DataOciDataSafeMaskingPolicyReferentialRelations#masking_policy_id}.</summary>
             [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaskingPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#column_name DataOciDataSafeMaskingPolicyReferentialRelations#column_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#column_name DataOciDataSafeMaskingPolicyReferentialRelations#column_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "columnName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ColumnName
@@ -112,7 +112,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#filter DataOciDataSafeMaskingPolicyReferentialRelations#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#filter DataOciDataSafeMaskingPolicyReferentialRelations#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingPolicyReferentialRelations.IDataOciDataSafeMaskingPolicyReferentialRelationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#id DataOciDataSafeMaskingPolicyReferentialRelations#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#id DataOciDataSafeMaskingPolicyReferentialRelations#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -134,7 +134,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#object DataOciDataSafeMaskingPolicyReferentialRelations#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#object DataOciDataSafeMaskingPolicyReferentialRelations#object}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Object
@@ -142,7 +142,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#relation_type DataOciDataSafeMaskingPolicyReferentialRelations#relation_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#relation_type DataOciDataSafeMaskingPolicyReferentialRelations#relation_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "relationType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RelationType
@@ -150,7 +150,7 @@ namespace oci.DataOciDataSafeMaskingPolicyReferentialRelations
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_referential_relations#schema_name DataOciDataSafeMaskingPolicyReferentialRelations#schema_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_masking_policy_referential_relations#schema_name DataOciDataSafeMaskingPolicyReferentialRelations#schema_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SchemaName

@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceMlApplication
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceMlApplicationConfig), fullyQualifiedName: "oci.dataOciDatascienceMlApplication.DataOciDatascienceMlApplicationConfig")]
     public interface IDataOciDatascienceMlApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_ml_application#ml_application_id DataOciDatascienceMlApplication#ml_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_ml_application#ml_application_id DataOciDatascienceMlApplication#ml_application_id}.</summary>
         [JsiiProperty(name: "mlApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         string MlApplicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceMlApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_ml_application#ml_application_id DataOciDatascienceMlApplication#ml_application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_ml_application#ml_application_id DataOciDatascienceMlApplication#ml_application_id}.</summary>
             [JsiiProperty(name: "mlApplicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MlApplicationId
             {

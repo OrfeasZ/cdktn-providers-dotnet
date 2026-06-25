@@ -9,7 +9,7 @@ namespace oci.DataOciHealthChecksHttpMonitor
     [JsiiByValue(fqn: "oci.dataOciHealthChecksHttpMonitor.DataOciHealthChecksHttpMonitorConfig")]
     public class DataOciHealthChecksHttpMonitorConfig : oci.DataOciHealthChecksHttpMonitor.IDataOciHealthChecksHttpMonitorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/health_checks_http_monitor#monitor_id DataOciHealthChecksHttpMonitor#monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/health_checks_http_monitor#monitor_id DataOciHealthChecksHttpMonitor#monitor_id}.</summary>
         [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitorId
         {

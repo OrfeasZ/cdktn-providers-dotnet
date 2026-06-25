@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchema
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGlobalImageCapabilitySchema.DataOciCoreComputeGlobalImageCapabilitySchemaConfig")]
     public class DataOciCoreComputeGlobalImageCapabilitySchemaConfig : oci.DataOciCoreComputeGlobalImageCapabilitySchema.IDataOciCoreComputeGlobalImageCapabilitySchemaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_global_image_capability_schema#compute_global_image_capability_schema_id DataOciCoreComputeGlobalImageCapabilitySchema#compute_global_image_capability_schema_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_global_image_capability_schema#compute_global_image_capability_schema_id DataOciCoreComputeGlobalImageCapabilitySchema#compute_global_image_capability_schema_id}.</summary>
         [JsiiProperty(name: "computeGlobalImageCapabilitySchemaId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGlobalImageCapabilitySchemaId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_global_image_capability_schema#id DataOciCoreComputeGlobalImageCapabilitySchema#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_global_image_capability_schema#id DataOciCoreComputeGlobalImageCapabilitySchema#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

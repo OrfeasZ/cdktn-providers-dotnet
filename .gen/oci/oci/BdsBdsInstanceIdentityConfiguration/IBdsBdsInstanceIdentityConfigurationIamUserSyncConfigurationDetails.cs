@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails), fullyQualifiedName: "oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails")]
     public interface IBdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#is_posix_attributes_addition_required BdsBdsInstanceIdentityConfiguration#is_posix_attributes_addition_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_identity_configuration#is_posix_attributes_addition_required BdsBdsInstanceIdentityConfiguration#is_posix_attributes_addition_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#is_posix_attributes_addition_required BdsBdsInstanceIdentityConfiguration#is_posix_attributes_addition_required}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_identity_configuration#is_posix_attributes_addition_required BdsBdsInstanceIdentityConfiguration#is_posix_attributes_addition_required}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

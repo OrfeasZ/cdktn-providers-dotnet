@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccAvailabilityCatalogs.DataOciCapacityManagementInternalOccAvailabilityCatalogsFilter")]
     public class DataOciCapacityManagementInternalOccAvailabilityCatalogsFilter : oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs.IDataOciCapacityManagementInternalOccAvailabilityCatalogsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#name DataOciCapacityManagementInternalOccAvailabilityCatalogs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#name DataOciCapacityManagementInternalOccAvailabilityCatalogs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#values DataOciCapacityManagementInternalOccAvailabilityCatalogs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#values DataOciCapacityManagementInternalOccAvailabilityCatalogs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#regex DataOciCapacityManagementInternalOccAvailabilityCatalogs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#regex DataOciCapacityManagementInternalOccAvailabilityCatalogs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

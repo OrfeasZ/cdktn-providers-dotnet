@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
     [JsiiByValue(fqn: "oci.bdsBdsInstanceNodeBackupConfiguration.BdsBdsInstanceNodeBackupConfigurationTimeouts")]
     public class BdsBdsInstanceNodeBackupConfigurationTimeouts : oci.BdsBdsInstanceNodeBackupConfiguration.IBdsBdsInstanceNodeBackupConfigurationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#create BdsBdsInstanceNodeBackupConfiguration#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_node_backup_configuration#create BdsBdsInstanceNodeBackupConfiguration#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#delete BdsBdsInstanceNodeBackupConfiguration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_node_backup_configuration#delete BdsBdsInstanceNodeBackupConfiguration#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#update BdsBdsInstanceNodeBackupConfiguration#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_node_backup_configuration#update BdsBdsInstanceNodeBackupConfiguration#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

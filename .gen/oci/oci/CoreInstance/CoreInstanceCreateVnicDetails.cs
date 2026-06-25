@@ -9,7 +9,7 @@ namespace oci.CoreInstance
     {
         private object? _assignIpv6Ip;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#assign_ipv6ip CoreInstance#assign_ipv6ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#assign_ipv6ip CoreInstance#assign_ipv6ip}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace oci.CoreInstance
 
         private object? _assignPrivateDnsRecord;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#assign_private_dns_record CoreInstance#assign_private_dns_record}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#assign_private_dns_record CoreInstance#assign_private_dns_record}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#assign_public_ip CoreInstance#assign_public_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#assign_public_ip CoreInstance#assign_public_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assignPublicIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssignPublicIp
@@ -84,7 +84,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#defined_tags CoreInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#defined_tags CoreInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -93,7 +93,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#display_name CoreInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#display_name CoreInstance#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -102,7 +102,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#freeform_tags CoreInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#freeform_tags CoreInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -111,7 +111,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#hostname_label CoreInstance#hostname_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#hostname_label CoreInstance#hostname_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostnameLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostnameLabel
@@ -124,7 +124,7 @@ namespace oci.CoreInstance
 
         /// <summary>ipv6address_ipv6subnet_cidr_pair_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#ipv6address_ipv6subnet_cidr_pair_details CoreInstance#ipv6address_ipv6subnet_cidr_pair_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#ipv6address_ipv6subnet_cidr_pair_details CoreInstance#ipv6address_ipv6subnet_cidr_pair_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstance.ICoreInstanceCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -155,7 +155,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#nsg_ids CoreInstance#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#nsg_ids CoreInstance#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds
@@ -164,7 +164,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#private_ip CoreInstance#private_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#private_ip CoreInstance#private_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateIp
@@ -173,7 +173,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#private_ip_id CoreInstance#private_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#private_ip_id CoreInstance#private_ip_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateIpId
@@ -182,7 +182,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#security_attributes CoreInstance#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#security_attributes CoreInstance#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -193,7 +193,7 @@ namespace oci.CoreInstance
 
         private object? _skipSourceDestCheck;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#skip_source_dest_check CoreInstance#skip_source_dest_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#skip_source_dest_check CoreInstance#skip_source_dest_check}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -225,7 +225,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#subnet_cidr CoreInstance#subnet_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#subnet_cidr CoreInstance#subnet_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetCidr
@@ -234,7 +234,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#subnet_id CoreInstance#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#subnet_id CoreInstance#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -243,7 +243,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#vlan_id CoreInstance#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#vlan_id CoreInstance#vlan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VlanId

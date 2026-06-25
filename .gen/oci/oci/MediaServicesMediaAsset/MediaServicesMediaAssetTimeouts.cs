@@ -7,7 +7,7 @@ namespace oci.MediaServicesMediaAsset
     [JsiiByValue(fqn: "oci.mediaServicesMediaAsset.MediaServicesMediaAssetTimeouts")]
     public class MediaServicesMediaAssetTimeouts : oci.MediaServicesMediaAsset.IMediaServicesMediaAssetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/media_services_media_asset#create MediaServicesMediaAsset#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/media_services_media_asset#create MediaServicesMediaAsset#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.MediaServicesMediaAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/media_services_media_asset#delete MediaServicesMediaAsset#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/media_services_media_asset#delete MediaServicesMediaAsset#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.MediaServicesMediaAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/media_services_media_asset#update MediaServicesMediaAsset#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/media_services_media_asset#update MediaServicesMediaAsset#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

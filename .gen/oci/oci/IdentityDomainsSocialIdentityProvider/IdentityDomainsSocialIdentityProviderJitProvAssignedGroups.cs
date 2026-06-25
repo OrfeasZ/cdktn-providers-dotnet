@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsSocialIdentityProvider
     [JsiiByValue(fqn: "oci.identityDomainsSocialIdentityProvider.IdentityDomainsSocialIdentityProviderJitProvAssignedGroups")]
     public class IdentityDomainsSocialIdentityProviderJitProvAssignedGroups : oci.IdentityDomainsSocialIdentityProvider.IIdentityDomainsSocialIdentityProviderJitProvAssignedGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_social_identity_provider#value IdentityDomainsSocialIdentityProvider#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_social_identity_provider#value IdentityDomainsSocialIdentityProvider#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

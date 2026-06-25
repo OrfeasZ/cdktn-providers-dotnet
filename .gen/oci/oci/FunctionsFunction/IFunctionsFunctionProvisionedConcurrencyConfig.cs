@@ -7,14 +7,14 @@ namespace oci.FunctionsFunction
     [JsiiInterface(nativeType: typeof(IFunctionsFunctionProvisionedConcurrencyConfig), fullyQualifiedName: "oci.functionsFunction.FunctionsFunctionProvisionedConcurrencyConfig")]
     public interface IFunctionsFunctionProvisionedConcurrencyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}.</summary>
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
         string Strategy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_function#count FunctionsFunction#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/functions_function#count FunctionsFunction#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Count
@@ -32,14 +32,14 @@ namespace oci.FunctionsFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}.</summary>
             [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
             public string Strategy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_function#count FunctionsFunction#count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/functions_function#count FunctionsFunction#count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Count

@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardManagedList
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardManagedListConfig), fullyQualifiedName: "oci.dataOciCloudGuardManagedList.DataOciCloudGuardManagedListConfig")]
     public interface IDataOciCloudGuardManagedListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_managed_list#managed_list_id DataOciCloudGuardManagedList#managed_list_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_managed_list#managed_list_id DataOciCloudGuardManagedList#managed_list_id}.</summary>
         [JsiiProperty(name: "managedListId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedListId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardManagedList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_managed_list#managed_list_id DataOciCloudGuardManagedList#managed_list_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_managed_list#managed_list_id DataOciCloudGuardManagedList#managed_list_id}.</summary>
             [JsiiProperty(name: "managedListId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedListId
             {

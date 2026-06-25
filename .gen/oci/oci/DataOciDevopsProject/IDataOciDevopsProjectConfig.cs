@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsProject
     [JsiiInterface(nativeType: typeof(IDataOciDevopsProjectConfig), fullyQualifiedName: "oci.dataOciDevopsProject.DataOciDevopsProjectConfig")]
     public interface IDataOciDevopsProjectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_project#project_id DataOciDevopsProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_project#project_id DataOciDevopsProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_project#project_id DataOciDevopsProject#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_project#project_id DataOciDevopsProject#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {

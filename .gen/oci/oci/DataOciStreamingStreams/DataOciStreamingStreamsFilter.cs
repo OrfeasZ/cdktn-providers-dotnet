@@ -9,7 +9,7 @@ namespace oci.DataOciStreamingStreams
     [JsiiByValue(fqn: "oci.dataOciStreamingStreams.DataOciStreamingStreamsFilter")]
     public class DataOciStreamingStreamsFilter : oci.DataOciStreamingStreams.IDataOciStreamingStreamsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/streaming_streams#name DataOciStreamingStreams#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/streaming_streams#name DataOciStreamingStreams#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciStreamingStreams
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/streaming_streams#values DataOciStreamingStreams#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/streaming_streams#values DataOciStreamingStreams#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciStreamingStreams
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/streaming_streams#regex DataOciStreamingStreams#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/streaming_streams#regex DataOciStreamingStreams#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

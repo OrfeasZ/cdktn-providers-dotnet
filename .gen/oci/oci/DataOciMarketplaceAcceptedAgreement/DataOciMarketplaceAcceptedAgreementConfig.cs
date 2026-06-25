@@ -9,7 +9,7 @@ namespace oci.DataOciMarketplaceAcceptedAgreement
     [JsiiByValue(fqn: "oci.dataOciMarketplaceAcceptedAgreement.DataOciMarketplaceAcceptedAgreementConfig")]
     public class DataOciMarketplaceAcceptedAgreementConfig : oci.DataOciMarketplaceAcceptedAgreement.IDataOciMarketplaceAcceptedAgreementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_accepted_agreement#accepted_agreement_id DataOciMarketplaceAcceptedAgreement#accepted_agreement_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/marketplace_accepted_agreement#accepted_agreement_id DataOciMarketplaceAcceptedAgreement#accepted_agreement_id}.</summary>
         [JsiiProperty(name: "acceptedAgreementId", typeJson: "{\"primitive\":\"string\"}")]
         public string AcceptedAgreementId
         {

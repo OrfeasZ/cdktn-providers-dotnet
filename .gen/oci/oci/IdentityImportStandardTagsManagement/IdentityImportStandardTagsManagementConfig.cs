@@ -9,7 +9,7 @@ namespace oci.IdentityImportStandardTagsManagement
     [JsiiByValue(fqn: "oci.identityImportStandardTagsManagement.IdentityImportStandardTagsManagementConfig")]
     public class IdentityImportStandardTagsManagementConfig : oci.IdentityImportStandardTagsManagement.IIdentityImportStandardTagsManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_import_standard_tags_management#compartment_id IdentityImportStandardTagsManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_import_standard_tags_management#compartment_id IdentityImportStandardTagsManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityImportStandardTagsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_import_standard_tags_management#standard_tag_namespace_name IdentityImportStandardTagsManagement#standard_tag_namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_import_standard_tags_management#standard_tag_namespace_name IdentityImportStandardTagsManagement#standard_tag_namespace_name}.</summary>
         [JsiiProperty(name: "standardTagNamespaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string StandardTagNamespaceName
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityImportStandardTagsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_import_standard_tags_management#id IdentityImportStandardTagsManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_import_standard_tags_management#id IdentityImportStandardTagsManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.IdentityImportStandardTagsManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_import_standard_tags_management#timeouts IdentityImportStandardTagsManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_import_standard_tags_management#timeouts IdentityImportStandardTagsManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityImportStandardTagsManagement.IdentityImportStandardTagsManagementTimeouts\"}", isOptional: true)]

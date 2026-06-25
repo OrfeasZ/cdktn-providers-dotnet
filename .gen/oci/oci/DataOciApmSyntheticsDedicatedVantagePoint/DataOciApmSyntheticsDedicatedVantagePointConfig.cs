@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsDedicatedVantagePoint
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsDedicatedVantagePoint.DataOciApmSyntheticsDedicatedVantagePointConfig")]
     public class DataOciApmSyntheticsDedicatedVantagePointConfig : oci.DataOciApmSyntheticsDedicatedVantagePoint.IDataOciApmSyntheticsDedicatedVantagePointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_dedicated_vantage_point#apm_domain_id DataOciApmSyntheticsDedicatedVantagePoint#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_dedicated_vantage_point#apm_domain_id DataOciApmSyntheticsDedicatedVantagePoint#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsDedicatedVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_dedicated_vantage_point#dedicated_vantage_point_id DataOciApmSyntheticsDedicatedVantagePoint#dedicated_vantage_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_dedicated_vantage_point#dedicated_vantage_point_id DataOciApmSyntheticsDedicatedVantagePoint#dedicated_vantage_point_id}.</summary>
         [JsiiProperty(name: "dedicatedVantagePointId", typeJson: "{\"primitive\":\"string\"}")]
         public string DedicatedVantagePointId
         {

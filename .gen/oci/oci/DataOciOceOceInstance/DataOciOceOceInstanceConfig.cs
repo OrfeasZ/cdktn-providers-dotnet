@@ -9,7 +9,7 @@ namespace oci.DataOciOceOceInstance
     [JsiiByValue(fqn: "oci.dataOciOceOceInstance.DataOciOceOceInstanceConfig")]
     public class DataOciOceOceInstanceConfig : oci.DataOciOceOceInstance.IDataOciOceOceInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}.</summary>
         [JsiiProperty(name: "oceInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string OceInstanceId
         {

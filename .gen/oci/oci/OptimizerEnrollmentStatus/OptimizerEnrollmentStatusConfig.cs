@@ -9,7 +9,7 @@ namespace oci.OptimizerEnrollmentStatus
     [JsiiByValue(fqn: "oci.optimizerEnrollmentStatus.OptimizerEnrollmentStatusConfig")]
     public class OptimizerEnrollmentStatusConfig : oci.OptimizerEnrollmentStatus.IOptimizerEnrollmentStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_enrollment_status#enrollment_status_id OptimizerEnrollmentStatus#enrollment_status_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_enrollment_status#enrollment_status_id OptimizerEnrollmentStatus#enrollment_status_id}.</summary>
         [JsiiProperty(name: "enrollmentStatusId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnrollmentStatusId
         {
@@ -17,7 +17,7 @@ namespace oci.OptimizerEnrollmentStatus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_enrollment_status#status OptimizerEnrollmentStatus#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_enrollment_status#status OptimizerEnrollmentStatus#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
@@ -25,7 +25,7 @@ namespace oci.OptimizerEnrollmentStatus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_enrollment_status#id OptimizerEnrollmentStatus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_enrollment_status#id OptimizerEnrollmentStatus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OptimizerEnrollmentStatus
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_enrollment_status#timeouts OptimizerEnrollmentStatus#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_enrollment_status#timeouts OptimizerEnrollmentStatus#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.optimizerEnrollmentStatus.OptimizerEnrollmentStatusTimeouts\"}", isOptional: true)]

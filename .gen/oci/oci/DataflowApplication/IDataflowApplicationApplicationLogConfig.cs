@@ -7,14 +7,14 @@ namespace oci.DataflowApplication
     [JsiiInterface(nativeType: typeof(IDataflowApplicationApplicationLogConfig), fullyQualifiedName: "oci.dataflowApplication.DataflowApplicationApplicationLogConfig")]
     public interface IDataflowApplicationApplicationLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         string LogId
         {
@@ -28,14 +28,14 @@ namespace oci.DataflowApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}.</summary>
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}.</summary>
             [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogId
             {

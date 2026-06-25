@@ -7,28 +7,28 @@ namespace oci.DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGateDeploymentDisasterRecoveryPrecheckReportConfig), fullyQualifiedName: "oci.dataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport.DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReportConfig")]
     public interface IDataOciGoldenGateDeploymentDisasterRecoveryPrecheckReportConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#availability_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#availability_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityDomain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#deployment_id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#deployment_id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string DeploymentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#fault_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#fault_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#fault_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#fault_domain}.</summary>
         [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}")]
         string FaultDomain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,28 +50,28 @@ namespace oci.DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#availability_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#availability_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#availability_domain}.</summary>
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityDomain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#deployment_id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#deployment_id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#deployment_id}.</summary>
             [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeploymentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#fault_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#fault_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#fault_domain DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#fault_domain}.</summary>
             [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string FaultDomain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_disaster_recovery_precheck_report#id DataOciGoldenGateDeploymentDisasterRecoveryPrecheckReport#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

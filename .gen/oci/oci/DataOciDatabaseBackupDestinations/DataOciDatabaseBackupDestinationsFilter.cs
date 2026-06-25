@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseBackupDestinations
     [JsiiByValue(fqn: "oci.dataOciDatabaseBackupDestinations.DataOciDatabaseBackupDestinationsFilter")]
     public class DataOciDatabaseBackupDestinationsFilter : oci.DataOciDatabaseBackupDestinations.IDataOciDatabaseBackupDestinationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backup_destinations#name DataOciDatabaseBackupDestinations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backup_destinations#name DataOciDatabaseBackupDestinations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseBackupDestinations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backup_destinations#values DataOciDatabaseBackupDestinations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backup_destinations#values DataOciDatabaseBackupDestinations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseBackupDestinations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backup_destinations#regex DataOciDatabaseBackupDestinations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backup_destinations#regex DataOciDatabaseBackupDestinations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

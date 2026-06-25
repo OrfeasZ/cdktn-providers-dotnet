@@ -9,7 +9,7 @@ namespace oci.AiVisionStreamSource
     [JsiiByValue(fqn: "oci.aiVisionStreamSource.AiVisionStreamSourceStreamSourceDetails")]
     public class AiVisionStreamSourceStreamSourceDetails : oci.AiVisionStreamSource.IAiVisionStreamSourceStreamSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_vision_stream_source#camera_url AiVisionStreamSource#camera_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_source#camera_url AiVisionStreamSource#camera_url}.</summary>
         [JsiiProperty(name: "cameraUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string CameraUrl
         {
@@ -17,7 +17,7 @@ namespace oci.AiVisionStreamSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_vision_stream_source#source_type AiVisionStreamSource#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_source#source_type AiVisionStreamSource#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {
@@ -27,7 +27,7 @@ namespace oci.AiVisionStreamSource
 
         /// <summary>stream_network_access_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_vision_stream_source#stream_network_access_details AiVisionStreamSource#stream_network_access_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_source#stream_network_access_details AiVisionStreamSource#stream_network_access_details}
         /// </remarks>
         [JsiiProperty(name: "streamNetworkAccessDetails", typeJson: "{\"fqn\":\"oci.aiVisionStreamSource.AiVisionStreamSourceStreamSourceDetailsStreamNetworkAccessDetails\"}")]
         public oci.AiVisionStreamSource.IAiVisionStreamSourceStreamSourceDetailsStreamNetworkAccessDetails StreamNetworkAccessDetails
@@ -36,7 +36,7 @@ namespace oci.AiVisionStreamSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_vision_stream_source#secret_id AiVisionStreamSource#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_source#secret_id AiVisionStreamSource#secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretId

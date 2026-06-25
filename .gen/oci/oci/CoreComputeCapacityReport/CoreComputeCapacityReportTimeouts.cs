@@ -7,7 +7,7 @@ namespace oci.CoreComputeCapacityReport
     [JsiiByValue(fqn: "oci.coreComputeCapacityReport.CoreComputeCapacityReportTimeouts")]
     public class CoreComputeCapacityReportTimeouts : oci.CoreComputeCapacityReport.ICoreComputeCapacityReportTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_capacity_report#create CoreComputeCapacityReport#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_capacity_report#create CoreComputeCapacityReport#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CoreComputeCapacityReport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_capacity_report#delete CoreComputeCapacityReport#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_capacity_report#delete CoreComputeCapacityReport#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CoreComputeCapacityReport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_capacity_report#update CoreComputeCapacityReport#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_capacity_report#update CoreComputeCapacityReport#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

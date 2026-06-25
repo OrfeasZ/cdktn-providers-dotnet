@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseBackups
     [JsiiByValue(fqn: "oci.dataOciDatabaseBackups.DataOciDatabaseBackupsConfig")]
     public class DataOciDatabaseBackupsConfig : oci.DataOciDatabaseBackups.IDataOciDatabaseBackupsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#backup_destination_type DataOciDatabaseBackups#backup_destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#backup_destination_type DataOciDatabaseBackups#backup_destination_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupDestinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupDestinationType
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#compartment_id DataOciDatabaseBackups#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#compartment_id DataOciDatabaseBackups#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#database_id DataOciDatabaseBackups#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#database_id DataOciDatabaseBackups#database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseId
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseBackups
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#filter DataOciDatabaseBackups#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#filter DataOciDatabaseBackups#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseBackups.IDataOciDatabaseBackupsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciDatabaseBackups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#id DataOciDatabaseBackups#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#id DataOciDatabaseBackups#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#shape_family DataOciDatabaseBackups#shape_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#shape_family DataOciDatabaseBackups#shape_family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shapeFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShapeFamily
@@ -91,7 +91,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#state DataOciDatabaseBackups#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#state DataOciDatabaseBackups#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -100,7 +100,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#time_expiry_scheduled_greater_than_or_equal_to DataOciDatabaseBackups#time_expiry_scheduled_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#time_expiry_scheduled_greater_than_or_equal_to DataOciDatabaseBackups#time_expiry_scheduled_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeExpiryScheduledGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeExpiryScheduledGreaterThanOrEqualTo
@@ -109,7 +109,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#time_expiry_scheduled_less_than DataOciDatabaseBackups#time_expiry_scheduled_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#time_expiry_scheduled_less_than DataOciDatabaseBackups#time_expiry_scheduled_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeExpiryScheduledLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeExpiryScheduledLessThan
@@ -118,7 +118,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#type DataOciDatabaseBackups#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#type DataOciDatabaseBackups#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -127,7 +127,7 @@ namespace oci.DataOciDatabaseBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_backups#version DataOciDatabaseBackups#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_backups#version DataOciDatabaseBackups#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

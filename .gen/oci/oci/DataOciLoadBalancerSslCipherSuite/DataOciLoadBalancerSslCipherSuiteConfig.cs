@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerSslCipherSuite
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerSslCipherSuite.DataOciLoadBalancerSslCipherSuiteConfig")]
     public class DataOciLoadBalancerSslCipherSuiteConfig : oci.DataOciLoadBalancerSslCipherSuite.IDataOciLoadBalancerSslCipherSuiteConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_ssl_cipher_suite#load_balancer_id DataOciLoadBalancerSslCipherSuite#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_ssl_cipher_suite#load_balancer_id DataOciLoadBalancerSslCipherSuite#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoadBalancerSslCipherSuite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_ssl_cipher_suite#name DataOciLoadBalancerSslCipherSuite#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_ssl_cipher_suite#name DataOciLoadBalancerSslCipherSuite#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

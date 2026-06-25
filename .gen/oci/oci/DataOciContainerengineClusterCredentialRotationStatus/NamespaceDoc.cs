@@ -5,7 +5,7 @@ namespace oci.DataOciContainerengineClusterCredentialRotationStatus
     /// <remarks>
     /// <h1><c>data_oci_containerengine_cluster_credential_rotation_status</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_cluster_credential_rotation_status"><c>data_oci_containerengine_cluster_credential_rotation_status</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_cluster_credential_rotation_status"><c>data_oci_containerengine_cluster_credential_rotation_status</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

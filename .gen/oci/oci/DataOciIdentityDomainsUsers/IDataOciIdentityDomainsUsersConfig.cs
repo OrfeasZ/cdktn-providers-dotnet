@@ -7,14 +7,14 @@ namespace oci.DataOciIdentityDomainsUsers
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsUsersConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsUsers.DataOciIdentityDomainsUsersConfig")]
     public interface IDataOciIdentityDomainsUsersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#idcs_endpoint DataOciIdentityDomainsUsers#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#idcs_endpoint DataOciIdentityDomainsUsers#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#attributes DataOciIdentityDomainsUsers#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#attributes DataOciIdentityDomainsUsers#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#attribute_sets DataOciIdentityDomainsUsers#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#attribute_sets DataOciIdentityDomainsUsers#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -36,7 +36,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#authorization DataOciIdentityDomainsUsers#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#authorization DataOciIdentityDomainsUsers#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -47,7 +47,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#compartment_id DataOciIdentityDomainsUsers#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#compartment_id DataOciIdentityDomainsUsers#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -58,7 +58,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#id DataOciIdentityDomainsUsers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#id DataOciIdentityDomainsUsers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#resource_type_schema_version DataOciIdentityDomainsUsers#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#resource_type_schema_version DataOciIdentityDomainsUsers#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#sort_by DataOciIdentityDomainsUsers#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#sort_by DataOciIdentityDomainsUsers#sort_by}.</summary>
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SortBy
@@ -95,7 +95,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#sort_order DataOciIdentityDomainsUsers#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#sort_order DataOciIdentityDomainsUsers#sort_order}.</summary>
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SortOrder
@@ -106,7 +106,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#start_index DataOciIdentityDomainsUsers#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#start_index DataOciIdentityDomainsUsers#start_index}.</summary>
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StartIndex
@@ -117,7 +117,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#user_count DataOciIdentityDomainsUsers#user_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#user_count DataOciIdentityDomainsUsers#user_count}.</summary>
         [JsiiProperty(name: "userCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UserCount
@@ -128,7 +128,7 @@ namespace oci.DataOciIdentityDomainsUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#user_filter DataOciIdentityDomainsUsers#user_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#user_filter DataOciIdentityDomainsUsers#user_filter}.</summary>
         [JsiiProperty(name: "userFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserFilter
@@ -146,14 +146,14 @@ namespace oci.DataOciIdentityDomainsUsers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#idcs_endpoint DataOciIdentityDomainsUsers#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#idcs_endpoint DataOciIdentityDomainsUsers#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#attributes DataOciIdentityDomainsUsers#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#attributes DataOciIdentityDomainsUsers#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -161,7 +161,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#attribute_sets DataOciIdentityDomainsUsers#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#attribute_sets DataOciIdentityDomainsUsers#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -169,7 +169,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#authorization DataOciIdentityDomainsUsers#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#authorization DataOciIdentityDomainsUsers#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -177,7 +177,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#compartment_id DataOciIdentityDomainsUsers#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#compartment_id DataOciIdentityDomainsUsers#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -185,7 +185,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#id DataOciIdentityDomainsUsers#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#id DataOciIdentityDomainsUsers#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -197,7 +197,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#resource_type_schema_version DataOciIdentityDomainsUsers#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#resource_type_schema_version DataOciIdentityDomainsUsers#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion
@@ -205,7 +205,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#sort_by DataOciIdentityDomainsUsers#sort_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#sort_by DataOciIdentityDomainsUsers#sort_by}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SortBy
@@ -213,7 +213,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#sort_order DataOciIdentityDomainsUsers#sort_order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#sort_order DataOciIdentityDomainsUsers#sort_order}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SortOrder
@@ -221,7 +221,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#start_index DataOciIdentityDomainsUsers#start_index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#start_index DataOciIdentityDomainsUsers#start_index}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StartIndex
@@ -229,7 +229,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#user_count DataOciIdentityDomainsUsers#user_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#user_count DataOciIdentityDomainsUsers#user_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UserCount
@@ -237,7 +237,7 @@ namespace oci.DataOciIdentityDomainsUsers
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_users#user_filter DataOciIdentityDomainsUsers#user_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_users#user_filter DataOciIdentityDomainsUsers#user_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserFilter

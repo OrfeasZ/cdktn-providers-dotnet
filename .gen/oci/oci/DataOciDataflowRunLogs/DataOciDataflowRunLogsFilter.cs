@@ -9,7 +9,7 @@ namespace oci.DataOciDataflowRunLogs
     [JsiiByValue(fqn: "oci.dataOciDataflowRunLogs.DataOciDataflowRunLogsFilter")]
     public class DataOciDataflowRunLogsFilter : oci.DataOciDataflowRunLogs.IDataOciDataflowRunLogsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_run_logs#name DataOciDataflowRunLogs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_run_logs#name DataOciDataflowRunLogs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataflowRunLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_run_logs#values DataOciDataflowRunLogs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_run_logs#values DataOciDataflowRunLogs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataflowRunLogs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_run_logs#regex DataOciDataflowRunLogs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_run_logs#regex DataOciDataflowRunLogs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

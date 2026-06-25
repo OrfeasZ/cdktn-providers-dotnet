@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementFleetCredential
     [JsiiByValue(fqn: "oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialConfig")]
     public class FleetAppsManagementFleetCredentialConfig : oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#compartment_id FleetAppsManagementFleetCredential#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#compartment_id FleetAppsManagementFleetCredential#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.FleetAppsManagementFleetCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#display_name FleetAppsManagementFleetCredential#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#display_name FleetAppsManagementFleetCredential#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -27,7 +27,7 @@ namespace oci.FleetAppsManagementFleetCredential
 
         /// <summary>entity_specifics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#entity_specifics FleetAppsManagementFleetCredential#entity_specifics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#entity_specifics FleetAppsManagementFleetCredential#entity_specifics}
         /// </remarks>
         [JsiiProperty(name: "entitySpecifics", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialEntitySpecifics\"}")]
         public oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialEntitySpecifics EntitySpecifics
@@ -36,7 +36,7 @@ namespace oci.FleetAppsManagementFleetCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#fleet_id FleetAppsManagementFleetCredential#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#fleet_id FleetAppsManagementFleetCredential#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {
@@ -46,7 +46,7 @@ namespace oci.FleetAppsManagementFleetCredential
 
         /// <summary>password block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#password FleetAppsManagementFleetCredential#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#password FleetAppsManagementFleetCredential#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialPassword\"}")]
         public oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialPassword Password
@@ -57,7 +57,7 @@ namespace oci.FleetAppsManagementFleetCredential
 
         /// <summary>user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#user FleetAppsManagementFleetCredential#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#user FleetAppsManagementFleetCredential#user}
         /// </remarks>
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialUser\"}")]
         public oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialUser User
@@ -66,7 +66,7 @@ namespace oci.FleetAppsManagementFleetCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#id FleetAppsManagementFleetCredential#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#id FleetAppsManagementFleetCredential#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace oci.FleetAppsManagementFleetCredential
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet_credential#timeouts FleetAppsManagementFleetCredential#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet_credential#timeouts FleetAppsManagementFleetCredential#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataInfrastructures
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudExadataInfrastructures.DataOciDatabaseManagementCloudExadataInfrastructuresConfig")]
     public class DataOciDatabaseManagementCloudExadataInfrastructuresConfig : oci.DataOciDatabaseManagementCloudExadataInfrastructures.IDataOciDatabaseManagementCloudExadataInfrastructuresConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_infrastructures#compartment_id DataOciDatabaseManagementCloudExadataInfrastructures#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_infrastructures#compartment_id DataOciDatabaseManagementCloudExadataInfrastructures#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataInfrastructures
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_infrastructures#display_name DataOciDatabaseManagementCloudExadataInfrastructures#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_infrastructures#display_name DataOciDatabaseManagementCloudExadataInfrastructures#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataInfrastructures
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_infrastructures#filter DataOciDatabaseManagementCloudExadataInfrastructures#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_infrastructures#filter DataOciDatabaseManagementCloudExadataInfrastructures#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudExadataInfrastructures.IDataOciDatabaseManagementCloudExadataInfrastructuresFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataInfrastructures
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_infrastructures#id DataOciDatabaseManagementCloudExadataInfrastructures#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_infrastructures#id DataOciDatabaseManagementCloudExadataInfrastructures#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInf
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformationConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation.DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformationConfig")]
     public interface IDataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#managed_my_sql_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#managed_my_sql_database_id}.</summary>
         [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedMySqlDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInf
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#managed_my_sql_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#managed_my_sql_database_id}.</summary>
             [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedMySqlDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

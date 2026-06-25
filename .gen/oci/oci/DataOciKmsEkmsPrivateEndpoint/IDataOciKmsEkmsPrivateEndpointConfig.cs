@@ -7,7 +7,7 @@ namespace oci.DataOciKmsEkmsPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciKmsEkmsPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciKmsEkmsPrivateEndpoint.DataOciKmsEkmsPrivateEndpointConfig")]
     public interface IDataOciKmsEkmsPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_ekms_private_endpoint#ekms_private_endpoint_id DataOciKmsEkmsPrivateEndpoint#ekms_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/kms_ekms_private_endpoint#ekms_private_endpoint_id DataOciKmsEkmsPrivateEndpoint#ekms_private_endpoint_id}.</summary>
         [JsiiProperty(name: "ekmsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string EkmsPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciKmsEkmsPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_ekms_private_endpoint#ekms_private_endpoint_id DataOciKmsEkmsPrivateEndpoint#ekms_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/kms_ekms_private_endpoint#ekms_private_endpoint_id DataOciKmsEkmsPrivateEndpoint#ekms_private_endpoint_id}.</summary>
             [JsiiProperty(name: "ekmsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string EkmsPrivateEndpointId
             {

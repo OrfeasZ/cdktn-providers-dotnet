@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsMyAuthToken
     [JsiiInterface(nativeType: typeof(IIdentityDomainsMyAuthTokenTags), fullyQualifiedName: "oci.identityDomainsMyAuthToken.IdentityDomainsMyAuthTokenTags")]
     public interface IIdentityDomainsMyAuthTokenTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_my_auth_token#key IdentityDomainsMyAuthToken#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_auth_token#key IdentityDomainsMyAuthToken#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace oci.IdentityDomainsMyAuthToken
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_my_auth_token#key IdentityDomainsMyAuthToken#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_auth_token#key IdentityDomainsMyAuthToken#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

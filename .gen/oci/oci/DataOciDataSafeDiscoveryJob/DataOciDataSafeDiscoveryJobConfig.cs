@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeDiscoveryJob
     [JsiiByValue(fqn: "oci.dataOciDataSafeDiscoveryJob.DataOciDataSafeDiscoveryJobConfig")]
     public class DataOciDataSafeDiscoveryJobConfig : oci.DataOciDataSafeDiscoveryJob.IDataOciDataSafeDiscoveryJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_discovery_job#discovery_job_id DataOciDataSafeDiscoveryJob#discovery_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_discovery_job#discovery_job_id DataOciDataSafeDiscoveryJob#discovery_job_id}.</summary>
         [JsiiProperty(name: "discoveryJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string DiscoveryJobId
         {

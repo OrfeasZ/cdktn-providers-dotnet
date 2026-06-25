@@ -9,7 +9,7 @@ namespace oci.CoreCaptureFilter
     {
         /// <summary>destination_port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationPortRange", typeJson: "{\"fqn\":\"oci.coreCaptureFilter.CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsDestinationPortRange\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace oci.CoreCaptureFilter
 
         /// <summary>source_port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourcePortRange", typeJson: "{\"fqn\":\"oci.coreCaptureFilter.CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsSourcePortRange\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DataOciDataflowInvokeRun
     [JsiiInterface(nativeType: typeof(IDataOciDataflowInvokeRunConfig), fullyQualifiedName: "oci.dataOciDataflowInvokeRun.DataOciDataflowInvokeRunConfig")]
     public interface IDataOciDataflowInvokeRunConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_invoke_run#run_id DataOciDataflowInvokeRun#run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_invoke_run#run_id DataOciDataflowInvokeRun#run_id}.</summary>
         [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
         string RunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataflowInvokeRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_invoke_run#run_id DataOciDataflowInvokeRun#run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_invoke_run#run_id DataOciDataflowInvokeRun#run_id}.</summary>
             [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
             public string RunId
             {

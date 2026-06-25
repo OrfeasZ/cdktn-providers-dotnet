@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGpuMemoryClusterInstances
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGpuMemoryClusterInstances.DataOciCoreComputeGpuMemoryClusterInstancesConfig")]
     public class DataOciCoreComputeGpuMemoryClusterInstancesConfig : oci.DataOciCoreComputeGpuMemoryClusterInstances.IDataOciCoreComputeGpuMemoryClusterInstancesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_gpu_memory_cluster_instances#compute_gpu_memory_cluster_id DataOciCoreComputeGpuMemoryClusterInstances#compute_gpu_memory_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_gpu_memory_cluster_instances#compute_gpu_memory_cluster_id DataOciCoreComputeGpuMemoryClusterInstances#compute_gpu_memory_cluster_id}.</summary>
         [JsiiProperty(name: "computeGpuMemoryClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGpuMemoryClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreComputeGpuMemoryClusterInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_gpu_memory_cluster_instances#filter DataOciCoreComputeGpuMemoryClusterInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_gpu_memory_cluster_instances#filter DataOciCoreComputeGpuMemoryClusterInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeGpuMemoryClusterInstances.IDataOciCoreComputeGpuMemoryClusterInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCoreComputeGpuMemoryClusterInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_gpu_memory_cluster_instances#id DataOciCoreComputeGpuMemoryClusterInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_gpu_memory_cluster_instances#id DataOciCoreComputeGpuMemoryClusterInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

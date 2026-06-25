@@ -9,7 +9,7 @@ namespace oci.GoldenGateDeploymentCertificate
     [JsiiByValue(fqn: "oci.goldenGateDeploymentCertificate.GoldenGateDeploymentCertificateConfig")]
     public class GoldenGateDeploymentCertificateConfig : oci.GoldenGateDeploymentCertificate.IGoldenGateDeploymentCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment_certificate#certificate_content GoldenGateDeploymentCertificate#certificate_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment_certificate#certificate_content GoldenGateDeploymentCertificate#certificate_content}.</summary>
         [JsiiProperty(name: "certificateContent", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateContent
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateDeploymentCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment_certificate#deployment_id GoldenGateDeploymentCertificate#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment_certificate#deployment_id GoldenGateDeploymentCertificate#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {
@@ -25,7 +25,7 @@ namespace oci.GoldenGateDeploymentCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment_certificate#key GoldenGateDeploymentCertificate#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment_certificate#key GoldenGateDeploymentCertificate#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -33,7 +33,7 @@ namespace oci.GoldenGateDeploymentCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment_certificate#id GoldenGateDeploymentCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment_certificate#id GoldenGateDeploymentCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.GoldenGateDeploymentCertificate
 
         private object? _isLockOverride;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment_certificate#is_lock_override GoldenGateDeploymentCertificate#is_lock_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment_certificate#is_lock_override GoldenGateDeploymentCertificate#is_lock_override}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -82,7 +82,7 @@ namespace oci.GoldenGateDeploymentCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment_certificate#timeouts GoldenGateDeploymentCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment_certificate#timeouts GoldenGateDeploymentCertificate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.goldenGateDeploymentCertificate.GoldenGateDeploymentCertificateTimeouts\"}", isOptional: true)]

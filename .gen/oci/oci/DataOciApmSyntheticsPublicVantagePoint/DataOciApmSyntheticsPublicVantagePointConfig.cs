@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsPublicVantagePoint
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsPublicVantagePoint.DataOciApmSyntheticsPublicVantagePointConfig")]
     public class DataOciApmSyntheticsPublicVantagePointConfig : oci.DataOciApmSyntheticsPublicVantagePoint.IDataOciApmSyntheticsPublicVantagePointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_public_vantage_point#apm_domain_id DataOciApmSyntheticsPublicVantagePoint#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_public_vantage_point#apm_domain_id DataOciApmSyntheticsPublicVantagePoint#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsPublicVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_public_vantage_point#display_name DataOciApmSyntheticsPublicVantagePoint#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_public_vantage_point#display_name DataOciApmSyntheticsPublicVantagePoint#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -26,7 +26,7 @@ namespace oci.DataOciApmSyntheticsPublicVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_public_vantage_point#id DataOciApmSyntheticsPublicVantagePoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_public_vantage_point#id DataOciApmSyntheticsPublicVantagePoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataOciApmSyntheticsPublicVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_public_vantage_point#name DataOciApmSyntheticsPublicVantagePoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_public_vantage_point#name DataOciApmSyntheticsPublicVantagePoint#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

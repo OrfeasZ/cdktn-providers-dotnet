@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsOnPremiseVantagePointWorkers.DataOciApmSyntheticsOnPremiseVantagePointWorkersFilter")]
     public class DataOciApmSyntheticsOnPremiseVantagePointWorkersFilter : oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers.IDataOciApmSyntheticsOnPremiseVantagePointWorkersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#values DataOciApmSyntheticsOnPremiseVantagePointWorkers#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#values DataOciApmSyntheticsOnPremiseVantagePointWorkers#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#regex DataOciApmSyntheticsOnPremiseVantagePointWorkers#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#regex DataOciApmSyntheticsOnPremiseVantagePointWorkers#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

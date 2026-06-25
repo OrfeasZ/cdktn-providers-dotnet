@@ -9,7 +9,7 @@ namespace oci.CoreInstanceConfiguration
     [JsiiByValue(fqn: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsLaunchDetailsPlacementConstraintDetails")]
     public class CoreInstanceConfigurationInstanceDetailsLaunchDetailsPlacementConstraintDetails : oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsLaunchDetailsPlacementConstraintDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#compute_host_group_id CoreInstanceConfiguration#compute_host_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#compute_host_group_id CoreInstanceConfiguration#compute_host_group_id}.</summary>
         [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeHostGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#type CoreInstanceConfiguration#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#type CoreInstanceConfiguration#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

@@ -9,7 +9,7 @@ namespace oci.DevopsBuildPipelineStage
     [JsiiByValue(fqn: "oci.devopsBuildPipelineStage.DevopsBuildPipelineStagePrivateAccessConfig")]
     public class DevopsBuildPipelineStagePrivateAccessConfig : oci.DevopsBuildPipelineStage.IDevopsBuildPipelineStagePrivateAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#network_channel_type DevopsBuildPipelineStage#network_channel_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_pipeline_stage#network_channel_type DevopsBuildPipelineStage#network_channel_type}.</summary>
         [JsiiProperty(name: "networkChannelType", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkChannelType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsBuildPipelineStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#subnet_id DevopsBuildPipelineStage#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_pipeline_stage#subnet_id DevopsBuildPipelineStage#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -25,7 +25,7 @@ namespace oci.DevopsBuildPipelineStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#nsg_ids DevopsBuildPipelineStage#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_pipeline_stage#nsg_ids DevopsBuildPipelineStage#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds

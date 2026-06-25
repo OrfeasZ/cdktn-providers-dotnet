@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceComputeTargets
     [JsiiByValue(fqn: "oci.dataOciDatascienceComputeTargets.DataOciDatascienceComputeTargetsFilter")]
     public class DataOciDatascienceComputeTargetsFilter : oci.DataOciDatascienceComputeTargets.IDataOciDatascienceComputeTargetsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_compute_targets#name DataOciDatascienceComputeTargets#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_compute_targets#name DataOciDatascienceComputeTargets#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceComputeTargets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_compute_targets#values DataOciDatascienceComputeTargets#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_compute_targets#values DataOciDatascienceComputeTargets#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceComputeTargets
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_compute_targets#regex DataOciDatascienceComputeTargets#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_compute_targets#regex DataOciDatascienceComputeTargets#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

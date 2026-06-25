@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManag
     [JsiiInterface(nativeType: typeof(IDatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagementTimeouts), fullyQualifiedName: "oci.databaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagementTimeouts")]
     public interface IDatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#create DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#create DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManag
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#delete DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#delete DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManag
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#update DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#update DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManag
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#create DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#create DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManag
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#delete DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#delete DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManag
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#update DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_my_sql_database_external_mysql_databases_management#update DatabaseManagementExternalMySqlDatabaseExternalMysqlDatabasesManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

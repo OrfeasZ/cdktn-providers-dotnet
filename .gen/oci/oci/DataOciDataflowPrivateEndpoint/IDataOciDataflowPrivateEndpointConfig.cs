@@ -7,7 +7,7 @@ namespace oci.DataOciDataflowPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDataflowPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDataflowPrivateEndpoint.DataOciDataflowPrivateEndpointConfig")]
     public interface IDataOciDataflowPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_private_endpoint#private_endpoint_id DataOciDataflowPrivateEndpoint#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_private_endpoint#private_endpoint_id DataOciDataflowPrivateEndpoint#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataflowPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataflow_private_endpoint#private_endpoint_id DataOciDataflowPrivateEndpoint#private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_private_endpoint#private_endpoint_id DataOciDataflowPrivateEndpoint#private_endpoint_id}.</summary>
             [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateEndpointId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciCertificatesManagementCaBundle
     [JsiiByValue(fqn: "oci.dataOciCertificatesManagementCaBundle.DataOciCertificatesManagementCaBundleConfig")]
     public class DataOciCertificatesManagementCaBundleConfig : oci.DataOciCertificatesManagementCaBundle.IDataOciCertificatesManagementCaBundleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}.</summary>
         [JsiiProperty(name: "caBundleId", typeJson: "{\"primitive\":\"string\"}")]
         public string CaBundleId
         {

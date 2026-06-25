@@ -7,7 +7,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems")]
     public class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? From
@@ -16,7 +16,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? To

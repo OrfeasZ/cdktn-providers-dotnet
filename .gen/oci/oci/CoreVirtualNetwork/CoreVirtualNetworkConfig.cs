@@ -9,7 +9,7 @@ namespace oci.CoreVirtualNetwork
     [JsiiByValue(fqn: "oci.coreVirtualNetwork.CoreVirtualNetworkConfig")]
     public class CoreVirtualNetworkConfig : oci.CoreVirtualNetwork.ICoreVirtualNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#compartment_id CoreVirtualNetwork#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#compartment_id CoreVirtualNetwork#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.CoreVirtualNetwork
 
         /// <summary>byoipv6cidr_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#byoipv6cidr_details CoreVirtualNetwork#byoipv6cidr_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#byoipv6cidr_details CoreVirtualNetwork#byoipv6cidr_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreVirtualNetwork.ICoreVirtualNetworkByoipv6CidrDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.CoreVirtualNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#cidr_block CoreVirtualNetwork#cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#cidr_block CoreVirtualNetwork#cidr_block}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CidrBlock
@@ -61,7 +61,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#cidr_blocks CoreVirtualNetwork#cidr_blocks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#cidr_blocks CoreVirtualNetwork#cidr_blocks}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cidrBlocks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CidrBlocks
@@ -70,7 +70,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#defined_tags CoreVirtualNetwork#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#defined_tags CoreVirtualNetwork#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -79,7 +79,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#display_name CoreVirtualNetwork#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#display_name CoreVirtualNetwork#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -88,7 +88,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#dns_label CoreVirtualNetwork#dns_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#dns_label CoreVirtualNetwork#dns_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DnsLabel
@@ -97,7 +97,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#freeform_tags CoreVirtualNetwork#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#freeform_tags CoreVirtualNetwork#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -106,7 +106,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#id CoreVirtualNetwork#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#id CoreVirtualNetwork#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace oci.CoreVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#ipv6private_cidr_blocks CoreVirtualNetwork#ipv6private_cidr_blocks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#ipv6private_cidr_blocks CoreVirtualNetwork#ipv6private_cidr_blocks}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6PrivateCidrBlocks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Ipv6PrivateCidrBlocks
@@ -130,7 +130,7 @@ namespace oci.CoreVirtualNetwork
 
         private object? _isIpv6Enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#is_ipv6enabled CoreVirtualNetwork#is_ipv6enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#is_ipv6enabled CoreVirtualNetwork#is_ipv6enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -164,7 +164,7 @@ namespace oci.CoreVirtualNetwork
 
         private object? _isOracleGuaAllocationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#is_oracle_gua_allocation_enabled CoreVirtualNetwork#is_oracle_gua_allocation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#is_oracle_gua_allocation_enabled CoreVirtualNetwork#is_oracle_gua_allocation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -196,7 +196,7 @@ namespace oci.CoreVirtualNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#security_attributes CoreVirtualNetwork#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#security_attributes CoreVirtualNetwork#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -207,7 +207,7 @@ namespace oci.CoreVirtualNetwork
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_virtual_network#timeouts CoreVirtualNetwork#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_virtual_network#timeouts CoreVirtualNetwork#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreVirtualNetwork.CoreVirtualNetworkTimeouts\"}", isOptional: true)]

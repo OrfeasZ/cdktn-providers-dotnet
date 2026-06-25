@@ -7,14 +7,14 @@ namespace oci.CoreVolume
     [JsiiInterface(nativeType: typeof(ICoreVolumeAutotunePolicies), fullyQualifiedName: "oci.coreVolume.CoreVolumeAutotunePolicies")]
     public interface ICoreVolumeAutotunePolicies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#autotune_type CoreVolume#autotune_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#autotune_type CoreVolume#autotune_type}.</summary>
         [JsiiProperty(name: "autotuneType", typeJson: "{\"primitive\":\"string\"}")]
         string AutotuneType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#max_vpus_per_gb CoreVolume#max_vpus_per_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#max_vpus_per_gb CoreVolume#max_vpus_per_gb}.</summary>
         [JsiiProperty(name: "maxVpusPerGb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaxVpusPerGb
@@ -32,14 +32,14 @@ namespace oci.CoreVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#autotune_type CoreVolume#autotune_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#autotune_type CoreVolume#autotune_type}.</summary>
             [JsiiProperty(name: "autotuneType", typeJson: "{\"primitive\":\"string\"}")]
             public string AutotuneType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#max_vpus_per_gb CoreVolume#max_vpus_per_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#max_vpus_per_gb CoreVolume#max_vpus_per_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxVpusPerGb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaxVpusPerGb

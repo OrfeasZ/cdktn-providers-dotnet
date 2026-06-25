@@ -9,7 +9,7 @@ namespace oci.StreamingStream
     [JsiiByValue(fqn: "oci.streamingStream.StreamingStreamConfig")]
     public class StreamingStreamConfig : oci.StreamingStream.IStreamingStreamConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#name StreamingStream#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#name StreamingStream#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#partitions StreamingStream#partitions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#partitions StreamingStream#partitions}.</summary>
         [JsiiProperty(name: "partitions", typeJson: "{\"primitive\":\"number\"}")]
         public double Partitions
         {
@@ -25,7 +25,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#compartment_id StreamingStream#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#compartment_id StreamingStream#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -34,7 +34,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#defined_tags StreamingStream#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#defined_tags StreamingStream#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -43,7 +43,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#freeform_tags StreamingStream#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#freeform_tags StreamingStream#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -52,7 +52,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#id StreamingStream#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#id StreamingStream#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#retention_in_hours StreamingStream#retention_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#retention_in_hours StreamingStream#retention_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionInHours
@@ -74,7 +74,7 @@ namespace oci.StreamingStream
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#stream_pool_id StreamingStream#stream_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#stream_pool_id StreamingStream#stream_pool_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "streamPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StreamPoolId
@@ -85,7 +85,7 @@ namespace oci.StreamingStream
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/streaming_stream#timeouts StreamingStream#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/streaming_stream#timeouts StreamingStream#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.streamingStream.StreamingStreamTimeouts\"}", isOptional: true)]

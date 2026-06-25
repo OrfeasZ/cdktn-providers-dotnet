@@ -5,7 +5,7 @@ namespace oci.BatchBatchContext
     /// <remarks>
     /// <h1><c>oci_batch_batch_context</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/batch_batch_context"><c>oci_batch_batch_context</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/batch_batch_context"><c>oci_batch_batch_context</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

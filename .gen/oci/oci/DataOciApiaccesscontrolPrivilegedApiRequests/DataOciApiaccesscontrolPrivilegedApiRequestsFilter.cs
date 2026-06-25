@@ -9,7 +9,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiRequests
     [JsiiByValue(fqn: "oci.dataOciApiaccesscontrolPrivilegedApiRequests.DataOciApiaccesscontrolPrivilegedApiRequestsFilter")]
     public class DataOciApiaccesscontrolPrivilegedApiRequestsFilter : oci.DataOciApiaccesscontrolPrivilegedApiRequests.IDataOciApiaccesscontrolPrivilegedApiRequestsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apiaccesscontrol_privileged_api_requests#name DataOciApiaccesscontrolPrivilegedApiRequests#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_privileged_api_requests#name DataOciApiaccesscontrolPrivilegedApiRequests#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apiaccesscontrol_privileged_api_requests#values DataOciApiaccesscontrolPrivilegedApiRequests#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_privileged_api_requests#values DataOciApiaccesscontrolPrivilegedApiRequests#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiRequests
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apiaccesscontrol_privileged_api_requests#regex DataOciApiaccesscontrolPrivilegedApiRequests#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_privileged_api_requests#regex DataOciApiaccesscontrolPrivilegedApiRequests#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

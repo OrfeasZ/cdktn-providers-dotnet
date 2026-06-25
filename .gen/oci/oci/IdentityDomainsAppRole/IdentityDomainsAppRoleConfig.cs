@@ -11,7 +11,7 @@ namespace oci.IdentityDomainsAppRole
     {
         /// <summary>app block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#app IdentityDomainsAppRole#app}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#app IdentityDomainsAppRole#app}
         /// </remarks>
         [JsiiProperty(name: "app", typeJson: "{\"fqn\":\"oci.identityDomainsAppRole.IdentityDomainsAppRoleApp\"}")]
         public oci.IdentityDomainsAppRole.IIdentityDomainsAppRoleApp App
@@ -20,7 +20,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#display_name IdentityDomainsAppRole#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#display_name IdentityDomainsAppRole#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -28,7 +28,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#idcs_endpoint IdentityDomainsAppRole#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#idcs_endpoint IdentityDomainsAppRole#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#schemas IdentityDomainsAppRole#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#schemas IdentityDomainsAppRole#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Schemas
         {
@@ -46,7 +46,7 @@ namespace oci.IdentityDomainsAppRole
 
         private object? _adminRole;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#admin_role IdentityDomainsAppRole#admin_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#admin_role IdentityDomainsAppRole#admin_role}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -78,7 +78,7 @@ namespace oci.IdentityDomainsAppRole
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#attributes IdentityDomainsAppRole#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#attributes IdentityDomainsAppRole#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -87,7 +87,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#attribute_sets IdentityDomainsAppRole#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#attribute_sets IdentityDomainsAppRole#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -96,7 +96,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#authorization IdentityDomainsAppRole#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#authorization IdentityDomainsAppRole#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -107,7 +107,7 @@ namespace oci.IdentityDomainsAppRole
 
         private object? _availableToClients;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#available_to_clients IdentityDomainsAppRole#available_to_clients}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#available_to_clients IdentityDomainsAppRole#available_to_clients}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -141,7 +141,7 @@ namespace oci.IdentityDomainsAppRole
 
         private object? _availableToGroups;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#available_to_groups IdentityDomainsAppRole#available_to_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#available_to_groups IdentityDomainsAppRole#available_to_groups}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -175,7 +175,7 @@ namespace oci.IdentityDomainsAppRole
 
         private object? _availableToUsers;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#available_to_users IdentityDomainsAppRole#available_to_users}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#available_to_users IdentityDomainsAppRole#available_to_users}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -207,7 +207,7 @@ namespace oci.IdentityDomainsAppRole
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#description IdentityDomainsAppRole#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#description IdentityDomainsAppRole#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -216,7 +216,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#legacy_group_name IdentityDomainsAppRole#legacy_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#legacy_group_name IdentityDomainsAppRole#legacy_group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "legacyGroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LegacyGroupName
@@ -225,7 +225,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#ocid IdentityDomainsAppRole#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#ocid IdentityDomainsAppRole#ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ocid
@@ -236,7 +236,7 @@ namespace oci.IdentityDomainsAppRole
 
         private object? _public;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#public IdentityDomainsAppRole#public}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#public IdentityDomainsAppRole#public}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -268,7 +268,7 @@ namespace oci.IdentityDomainsAppRole
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#resource_type_schema_version IdentityDomainsAppRole#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#resource_type_schema_version IdentityDomainsAppRole#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -281,7 +281,7 @@ namespace oci.IdentityDomainsAppRole
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#tags IdentityDomainsAppRole#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#tags IdentityDomainsAppRole#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsAppRole.IIdentityDomainsAppRoleTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -314,7 +314,7 @@ namespace oci.IdentityDomainsAppRole
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app_role#timeouts IdentityDomainsAppRole#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app_role#timeouts IdentityDomainsAppRole#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsAppRole.IdentityDomainsAppRoleTimeouts\"}", isOptional: true)]

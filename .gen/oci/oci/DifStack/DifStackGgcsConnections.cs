@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackGgcsConnections")]
     public class DifStackGgcsConnections : oci.DifStack.IDifStackGgcsConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#connection_name DifStack#connection_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#connection_name DifStack#connection_name}.</summary>
         [JsiiProperty(name: "connectionName", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionName
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#connection_id DifStack#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#connection_id DifStack#connection_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionId
@@ -30,7 +30,7 @@ namespace oci.DifStack
 
         /// <summary>dif_dependencies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DifStack.IDifStackGgcsConnectionsDifDependencies" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DifStack
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#gg_admin_secret_id DifStack#gg_admin_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#gg_admin_secret_id DifStack#gg_admin_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ggAdminSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GgAdminSecretId

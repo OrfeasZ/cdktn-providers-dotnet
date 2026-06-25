@@ -9,7 +9,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuCollection
     [JsiiByValue(fqn: "oci.dataOciFleetSoftwareUpdateFsuCollection.DataOciFleetSoftwareUpdateFsuCollectionConfig")]
     public class DataOciFleetSoftwareUpdateFsuCollectionConfig : oci.DataOciFleetSoftwareUpdateFsuCollection.IDataOciFleetSoftwareUpdateFsuCollectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_software_update_fsu_collection#fsu_collection_id DataOciFleetSoftwareUpdateFsuCollection#fsu_collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_software_update_fsu_collection#fsu_collection_id DataOciFleetSoftwareUpdateFsuCollection#fsu_collection_id}.</summary>
         [JsiiProperty(name: "fsuCollectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string FsuCollectionId
         {

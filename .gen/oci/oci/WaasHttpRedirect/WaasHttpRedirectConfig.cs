@@ -9,7 +9,7 @@ namespace oci.WaasHttpRedirect
     [JsiiByValue(fqn: "oci.waasHttpRedirect.WaasHttpRedirectConfig")]
     public class WaasHttpRedirectConfig : oci.WaasHttpRedirect.IWaasHttpRedirectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#compartment_id WaasHttpRedirect#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#compartment_id WaasHttpRedirect#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.WaasHttpRedirect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#domain WaasHttpRedirect#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#domain WaasHttpRedirect#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {
@@ -27,7 +27,7 @@ namespace oci.WaasHttpRedirect
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#target WaasHttpRedirect#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#target WaasHttpRedirect#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"oci.waasHttpRedirect.WaasHttpRedirectTarget\"}")]
         public oci.WaasHttpRedirect.IWaasHttpRedirectTarget Target
@@ -36,7 +36,7 @@ namespace oci.WaasHttpRedirect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#defined_tags WaasHttpRedirect#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#defined_tags WaasHttpRedirect#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -45,7 +45,7 @@ namespace oci.WaasHttpRedirect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#display_name WaasHttpRedirect#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#display_name WaasHttpRedirect#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -54,7 +54,7 @@ namespace oci.WaasHttpRedirect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#freeform_tags WaasHttpRedirect#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#freeform_tags WaasHttpRedirect#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -63,7 +63,7 @@ namespace oci.WaasHttpRedirect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#id WaasHttpRedirect#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#id WaasHttpRedirect#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace oci.WaasHttpRedirect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#response_code WaasHttpRedirect#response_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#response_code WaasHttpRedirect#response_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ResponseCode
@@ -87,7 +87,7 @@ namespace oci.WaasHttpRedirect
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_http_redirect#timeouts WaasHttpRedirect#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_http_redirect#timeouts WaasHttpRedirect#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.waasHttpRedirect.WaasHttpRedirectTimeouts\"}", isOptional: true)]

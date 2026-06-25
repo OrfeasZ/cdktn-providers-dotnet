@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringDiscoveryJob
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringDiscoveryJob.DataOciStackMonitoringDiscoveryJobConfig")]
     public class DataOciStackMonitoringDiscoveryJobConfig : oci.DataOciStackMonitoringDiscoveryJob.IDataOciStackMonitoringDiscoveryJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/stack_monitoring_discovery_job#discovery_job_id DataOciStackMonitoringDiscoveryJob#discovery_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_discovery_job#discovery_job_id DataOciStackMonitoringDiscoveryJob#discovery_job_id}.</summary>
         [JsiiProperty(name: "discoveryJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string DiscoveryJobId
         {

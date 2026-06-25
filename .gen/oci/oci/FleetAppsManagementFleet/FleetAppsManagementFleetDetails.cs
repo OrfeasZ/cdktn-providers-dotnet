@@ -7,7 +7,7 @@ namespace oci.FleetAppsManagementFleet
     [JsiiByValue(fqn: "oci.fleetAppsManagementFleet.FleetAppsManagementFleetDetails")]
     public class FleetAppsManagementFleetDetails : oci.FleetAppsManagementFleet.IFleetAppsManagementFleetDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_apps_management_fleet#fleet_type FleetAppsManagementFleet#fleet_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_fleet#fleet_type FleetAppsManagementFleet#fleet_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fleetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FleetType

@@ -9,7 +9,7 @@ namespace oci.DataOciCoreImage
     [JsiiByValue(fqn: "oci.dataOciCoreImage.DataOciCoreImageConfig")]
     public class DataOciCoreImageConfig : oci.DataOciCoreImage.IDataOciCoreImageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_image#image_id DataOciCoreImage#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_image#image_id DataOciCoreImage#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageId
         {

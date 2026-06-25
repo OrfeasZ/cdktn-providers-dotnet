@@ -7,14 +7,14 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubManagedInstanceGroupModulesConfig), fullyQualifiedName: "oci.dataOciOsManagementHubManagedInstanceGroupModules.DataOciOsManagementHubManagedInstanceGroupModulesConfig")]
     public interface IDataOciOsManagementHubManagedInstanceGroupModulesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupModules#managed_instance_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupModules#managed_instance_group_id}.</summary>
         [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#compartment_id DataOciOsManagementHubManagedInstanceGroupModules#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#compartment_id DataOciOsManagementHubManagedInstanceGroupModules#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -27,7 +27,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#filter DataOciOsManagementHubManagedInstanceGroupModules#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#filter DataOciOsManagementHubManagedInstanceGroupModules#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceGroupModules.IDataOciOsManagementHubManagedInstanceGroupModulesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOsManagementHubManagedInstanceGroupModules.DataOciOsManagementHubManagedInstanceGroupModulesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#id DataOciOsManagementHubManagedInstanceGroupModules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#id DataOciOsManagementHubManagedInstanceGroupModules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name DataOciOsManagementHubManagedInstanceGroupModules#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name DataOciOsManagementHubManagedInstanceGroupModules#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -66,7 +66,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name_contains DataOciOsManagementHubManagedInstanceGroupModules#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name_contains DataOciOsManagementHubManagedInstanceGroupModules#name_contains}.</summary>
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NameContains
@@ -77,7 +77,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#stream_name DataOciOsManagementHubManagedInstanceGroupModules#stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#stream_name DataOciOsManagementHubManagedInstanceGroupModules#stream_name}.</summary>
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StreamName
@@ -95,14 +95,14 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupModules#managed_instance_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupModules#managed_instance_group_id}.</summary>
             [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#compartment_id DataOciOsManagementHubManagedInstanceGroupModules#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#compartment_id DataOciOsManagementHubManagedInstanceGroupModules#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -112,7 +112,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#filter DataOciOsManagementHubManagedInstanceGroupModules#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#filter DataOciOsManagementHubManagedInstanceGroupModules#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceGroupModules.IDataOciOsManagementHubManagedInstanceGroupModulesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#id DataOciOsManagementHubManagedInstanceGroupModules#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#id DataOciOsManagementHubManagedInstanceGroupModules#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -134,7 +134,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name DataOciOsManagementHubManagedInstanceGroupModules#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name DataOciOsManagementHubManagedInstanceGroupModules#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -142,7 +142,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name_contains DataOciOsManagementHubManagedInstanceGroupModules#name_contains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#name_contains DataOciOsManagementHubManagedInstanceGroupModules#name_contains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NameContains
@@ -150,7 +150,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupModules
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_group_modules#stream_name DataOciOsManagementHubManagedInstanceGroupModules#stream_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_managed_instance_group_modules#stream_name DataOciOsManagementHubManagedInstanceGroupModules#stream_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StreamName

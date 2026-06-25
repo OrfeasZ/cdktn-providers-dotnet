@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsIdentitySetting
     [JsiiInterface(nativeType: typeof(IIdentityDomainsIdentitySettingTokens), fullyQualifiedName: "oci.identityDomainsIdentitySetting.IdentityDomainsIdentitySettingTokens")]
     public interface IIdentityDomainsIdentitySettingTokens
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_setting#type IdentityDomainsIdentitySetting#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#type IdentityDomainsIdentitySetting#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_setting#expires_after IdentityDomainsIdentitySetting#expires_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#expires_after IdentityDomainsIdentitySetting#expires_after}.</summary>
         [JsiiProperty(name: "expiresAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ExpiresAfter
@@ -32,14 +32,14 @@ namespace oci.IdentityDomainsIdentitySetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_setting#type IdentityDomainsIdentitySetting#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#type IdentityDomainsIdentitySetting#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_setting#expires_after IdentityDomainsIdentitySetting#expires_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#expires_after IdentityDomainsIdentitySetting#expires_after}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ExpiresAfter

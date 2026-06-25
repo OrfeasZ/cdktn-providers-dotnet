@@ -9,7 +9,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiByValue(fqn: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainersHealthChecks")]
     public class ContainerInstancesContainerInstanceContainersHealthChecks : oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersHealthChecks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#health_check_type ContainerInstancesContainerInstance#health_check_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#health_check_type ContainerInstancesContainerInstance#health_check_type}.</summary>
         [JsiiProperty(name: "healthCheckType", typeJson: "{\"primitive\":\"string\"}")]
         public string HealthCheckType
         {
@@ -17,7 +17,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#failure_action ContainerInstancesContainerInstance#failure_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#failure_action ContainerInstancesContainerInstance#failure_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failureAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FailureAction
@@ -26,7 +26,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#failure_threshold ContainerInstancesContainerInstance#failure_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#failure_threshold ContainerInstancesContainerInstance#failure_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailureThreshold
@@ -39,7 +39,7 @@ namespace oci.ContainerInstancesContainerInstance
 
         /// <summary>headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#headers ContainerInstancesContainerInstance#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#headers ContainerInstancesContainerInstance#headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersHealthChecksHeaders" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.ContainerInstancesContainerInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#initial_delay_in_seconds ContainerInstancesContainerInstance#initial_delay_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#initial_delay_in_seconds ContainerInstancesContainerInstance#initial_delay_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "initialDelayInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? InitialDelayInSeconds
@@ -79,7 +79,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#interval_in_seconds ContainerInstancesContainerInstance#interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#interval_in_seconds ContainerInstancesContainerInstance#interval_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "intervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IntervalInSeconds
@@ -88,7 +88,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#name ContainerInstancesContainerInstance#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#name ContainerInstancesContainerInstance#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -97,7 +97,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#path ContainerInstancesContainerInstance#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#path ContainerInstancesContainerInstance#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -106,7 +106,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#port ContainerInstancesContainerInstance#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#port ContainerInstancesContainerInstance#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -115,7 +115,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#status ContainerInstancesContainerInstance#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#status ContainerInstancesContainerInstance#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -124,7 +124,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#status_details ContainerInstancesContainerInstance#status_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#status_details ContainerInstancesContainerInstance#status_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "statusDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StatusDetails
@@ -133,7 +133,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#success_threshold ContainerInstancesContainerInstance#success_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#success_threshold ContainerInstancesContainerInstance#success_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "successThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SuccessThreshold
@@ -142,7 +142,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#timeout_in_seconds ContainerInstancesContainerInstance#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#timeout_in_seconds ContainerInstancesContainerInstance#timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInSeconds

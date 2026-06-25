@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseSchedulingPolicyRecommendedScheduledActionsConfig), fullyQualifiedName: "oci.dataOciDatabaseSchedulingPolicyRecommendedScheduledActions.DataOciDatabaseSchedulingPolicyRecommendedScheduledActionsConfig")]
     public interface IDataOciDatabaseSchedulingPolicyRecommendedScheduledActionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#plan_intent DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#plan_intent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#plan_intent DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#plan_intent}.</summary>
         [JsiiProperty(name: "planIntent", typeJson: "{\"primitive\":\"string\"}")]
         string PlanIntent
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SchedulingPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_target_resource_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_target_resource_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_target_resource_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyTargetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SchedulingPolicyTargetResourceId
         {
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#filter DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#filter DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions.IDataOciDatabaseSchedulingPolicyRecommendedScheduledActionsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseSchedulingPolicyRecommendedScheduledActions.DataOciDatabaseSchedulingPolicyRecommendedScheduledActionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,21 +65,21 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#plan_intent DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#plan_intent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#plan_intent DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#plan_intent}.</summary>
             [JsiiProperty(name: "planIntent", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanIntent
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_id}.</summary>
             [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SchedulingPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_target_resource_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_target_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#scheduling_policy_target_resource_id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#scheduling_policy_target_resource_id}.</summary>
             [JsiiProperty(name: "schedulingPolicyTargetResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SchedulingPolicyTargetResourceId
             {
@@ -88,7 +88,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#filter DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#filter DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions.IDataOciDatabaseSchedulingPolicyRecommendedScheduledActionsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -98,7 +98,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#id DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

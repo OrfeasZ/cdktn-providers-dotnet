@@ -5,7 +5,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentScheduledActivity
     /// <remarks>
     /// <h1><c>data_oci_fusion_apps_fusion_environment_scheduled_activity</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activity"><c>data_oci_fusion_apps_fusion_environment_scheduled_activity</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activity"><c>data_oci_fusion_apps_fusion_environment_scheduled_activity</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

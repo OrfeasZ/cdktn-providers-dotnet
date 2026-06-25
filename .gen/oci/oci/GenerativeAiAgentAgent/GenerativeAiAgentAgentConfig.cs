@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentAgent
     [JsiiByValue(fqn: "oci.generativeAiAgentAgent.GenerativeAiAgentAgentConfig")]
     public class GenerativeAiAgentAgentConfig : oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#compartment_id GenerativeAiAgentAgent#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#compartment_id GenerativeAiAgentAgent#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#defined_tags GenerativeAiAgentAgent#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#defined_tags GenerativeAiAgentAgent#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -26,7 +26,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#description GenerativeAiAgentAgent#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#description GenerativeAiAgentAgent#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -35,7 +35,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#display_name GenerativeAiAgentAgent#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#display_name GenerativeAiAgentAgent#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -44,7 +44,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#freeform_tags GenerativeAiAgentAgent#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#freeform_tags GenerativeAiAgentAgent#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -53,7 +53,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#id GenerativeAiAgentAgent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#id GenerativeAiAgentAgent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#knowledge_base_ids GenerativeAiAgentAgent#knowledge_base_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#knowledge_base_ids GenerativeAiAgentAgent#knowledge_base_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "knowledgeBaseIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? KnowledgeBaseIds
@@ -77,7 +77,7 @@ namespace oci.GenerativeAiAgentAgent
 
         /// <summary>llm_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#llm_config GenerativeAiAgentAgent#llm_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#llm_config GenerativeAiAgentAgent#llm_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "llmConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgent.GenerativeAiAgentAgentLlmConfig\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace oci.GenerativeAiAgentAgent
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#timeouts GenerativeAiAgentAgent#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#timeouts GenerativeAiAgentAgent#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgent.GenerativeAiAgentAgentTimeouts\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#welcome_message GenerativeAiAgentAgent#welcome_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent#welcome_message GenerativeAiAgentAgent#welcome_message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "welcomeMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WelcomeMessage

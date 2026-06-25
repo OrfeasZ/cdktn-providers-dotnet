@@ -7,7 +7,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     [JsiiInterface(nativeType: typeof(IGenerativeAiAgentAgentEndpointSessionConfig), fullyQualifiedName: "oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointSessionConfig")]
     public interface IGenerativeAiAgentAgentEndpointSessionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent_endpoint#idle_timeout_in_seconds GenerativeAiAgentAgentEndpoint#idle_timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent_endpoint#idle_timeout_in_seconds GenerativeAiAgentAgentEndpoint#idle_timeout_in_seconds}.</summary>
         [JsiiProperty(name: "idleTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? IdleTimeoutInSeconds
@@ -25,7 +25,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent_endpoint#idle_timeout_in_seconds GenerativeAiAgentAgentEndpoint#idle_timeout_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent_endpoint#idle_timeout_in_seconds GenerativeAiAgentAgentEndpoint#idle_timeout_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "idleTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? IdleTimeoutInSeconds

@@ -9,7 +9,7 @@ namespace oci.CloudBridgeAgent
     [JsiiByValue(fqn: "oci.cloudBridgeAgent.CloudBridgeAgentConfig")]
     public class CloudBridgeAgentConfig : oci.CloudBridgeAgent.ICloudBridgeAgentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#agent_type CloudBridgeAgent#agent_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#agent_type CloudBridgeAgent#agent_type}.</summary>
         [JsiiProperty(name: "agentType", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentType
         {
@@ -17,7 +17,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#agent_version CloudBridgeAgent#agent_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#agent_version CloudBridgeAgent#agent_version}.</summary>
         [JsiiProperty(name: "agentVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentVersion
         {
@@ -25,7 +25,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#compartment_id CloudBridgeAgent#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#compartment_id CloudBridgeAgent#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -33,7 +33,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#display_name CloudBridgeAgent#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#display_name CloudBridgeAgent#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -41,7 +41,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#environment_id CloudBridgeAgent#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#environment_id CloudBridgeAgent#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnvironmentId
         {
@@ -49,7 +49,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#os_version CloudBridgeAgent#os_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#os_version CloudBridgeAgent#os_version}.</summary>
         [JsiiProperty(name: "osVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string OsVersion
         {
@@ -57,7 +57,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#defined_tags CloudBridgeAgent#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#defined_tags CloudBridgeAgent#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -66,7 +66,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#freeform_tags CloudBridgeAgent#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#freeform_tags CloudBridgeAgent#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -75,7 +75,7 @@ namespace oci.CloudBridgeAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#id CloudBridgeAgent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#id CloudBridgeAgent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +90,7 @@ namespace oci.CloudBridgeAgent
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_agent#timeouts CloudBridgeAgent#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_agent#timeouts CloudBridgeAgent#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.cloudBridgeAgent.CloudBridgeAgentTimeouts\"}", isOptional: true)]

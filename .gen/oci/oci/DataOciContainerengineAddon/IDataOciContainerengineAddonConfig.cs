@@ -7,14 +7,14 @@ namespace oci.DataOciContainerengineAddon
     [JsiiInterface(nativeType: typeof(IDataOciContainerengineAddonConfig), fullyQualifiedName: "oci.dataOciContainerengineAddon.DataOciContainerengineAddonConfig")]
     public interface IDataOciContainerengineAddonConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon#addon_name DataOciContainerengineAddon#addon_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon#addon_name DataOciContainerengineAddon#addon_name}.</summary>
         [JsiiProperty(name: "addonName", typeJson: "{\"primitive\":\"string\"}")]
         string AddonName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon#cluster_id DataOciContainerengineAddon#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon#cluster_id DataOciContainerengineAddon#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciContainerengineAddon
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon#addon_name DataOciContainerengineAddon#addon_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon#addon_name DataOciContainerengineAddon#addon_name}.</summary>
             [JsiiProperty(name: "addonName", typeJson: "{\"primitive\":\"string\"}")]
             public string AddonName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_addon#cluster_id DataOciContainerengineAddon#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_addon#cluster_id DataOciContainerengineAddon#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {

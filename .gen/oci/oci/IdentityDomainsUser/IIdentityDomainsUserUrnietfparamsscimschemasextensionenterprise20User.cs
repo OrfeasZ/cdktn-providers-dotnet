@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsUser
     [JsiiInterface(nativeType: typeof(IIdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User), fullyQualifiedName: "oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User")]
     public interface IIdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#cost_center IdentityDomainsUser#cost_center}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#cost_center IdentityDomainsUser#cost_center}.</summary>
         [JsiiProperty(name: "costCenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CostCenter
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#department IdentityDomainsUser#department}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#department IdentityDomainsUser#department}.</summary>
         [JsiiProperty(name: "department", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Department
@@ -29,7 +29,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#division IdentityDomainsUser#division}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#division IdentityDomainsUser#division}.</summary>
         [JsiiProperty(name: "division", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Division
@@ -40,7 +40,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#employee_number IdentityDomainsUser#employee_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#employee_number IdentityDomainsUser#employee_number}.</summary>
         [JsiiProperty(name: "employeeNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmployeeNumber
@@ -53,7 +53,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>manager block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#manager IdentityDomainsUser#manager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#manager IdentityDomainsUser#manager}
         /// </remarks>
         [JsiiProperty(name: "manager", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20UserManager\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#organization IdentityDomainsUser#organization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#organization IdentityDomainsUser#organization}.</summary>
         [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Organization
@@ -83,7 +83,7 @@ namespace oci.IdentityDomainsUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#cost_center IdentityDomainsUser#cost_center}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#cost_center IdentityDomainsUser#cost_center}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "costCenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CostCenter
@@ -91,7 +91,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#department IdentityDomainsUser#department}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#department IdentityDomainsUser#department}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "department", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Department
@@ -99,7 +99,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#division IdentityDomainsUser#division}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#division IdentityDomainsUser#division}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "division", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Division
@@ -107,7 +107,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#employee_number IdentityDomainsUser#employee_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#employee_number IdentityDomainsUser#employee_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "employeeNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmployeeNumber
@@ -117,7 +117,7 @@ namespace oci.IdentityDomainsUser
 
             /// <summary>manager block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#manager IdentityDomainsUser#manager}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#manager IdentityDomainsUser#manager}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "manager", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20UserManager\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20UserManager?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#organization IdentityDomainsUser#organization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#organization IdentityDomainsUser#organization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Organization

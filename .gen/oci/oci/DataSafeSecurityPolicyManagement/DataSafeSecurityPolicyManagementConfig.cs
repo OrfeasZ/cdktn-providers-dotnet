@@ -9,7 +9,7 @@ namespace oci.DataSafeSecurityPolicyManagement
     [JsiiByValue(fqn: "oci.dataSafeSecurityPolicyManagement.DataSafeSecurityPolicyManagementConfig")]
     public class DataSafeSecurityPolicyManagementConfig : oci.DataSafeSecurityPolicyManagement.IDataSafeSecurityPolicyManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#compartment_id DataSafeSecurityPolicyManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#compartment_id DataSafeSecurityPolicyManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSecurityPolicyManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#defined_tags DataSafeSecurityPolicyManagement#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#defined_tags DataSafeSecurityPolicyManagement#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -26,7 +26,7 @@ namespace oci.DataSafeSecurityPolicyManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#description DataSafeSecurityPolicyManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#description DataSafeSecurityPolicyManagement#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -35,7 +35,7 @@ namespace oci.DataSafeSecurityPolicyManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#display_name DataSafeSecurityPolicyManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#display_name DataSafeSecurityPolicyManagement#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -44,7 +44,7 @@ namespace oci.DataSafeSecurityPolicyManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#freeform_tags DataSafeSecurityPolicyManagement#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#freeform_tags DataSafeSecurityPolicyManagement#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -53,7 +53,7 @@ namespace oci.DataSafeSecurityPolicyManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#id DataSafeSecurityPolicyManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#id DataSafeSecurityPolicyManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataSafeSecurityPolicyManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#target_id DataSafeSecurityPolicyManagement#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#target_id DataSafeSecurityPolicyManagement#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -77,7 +77,7 @@ namespace oci.DataSafeSecurityPolicyManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_management#timeouts DataSafeSecurityPolicyManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_management#timeouts DataSafeSecurityPolicyManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSecurityPolicyManagement.DataSafeSecurityPolicyManagementTimeouts\"}", isOptional: true)]

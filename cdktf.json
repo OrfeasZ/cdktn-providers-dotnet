@@ -16,7 +16,7 @@
     "hashicorp/null@3.3.0",
     "tailscale/tailscale@0.29.2",
     "dmacvicar/libvirt@0.9.8",
-    "oracle/oci@8.19.0"
+    "oracle/oci@8.20.0"
   ],
   "terraformModules": [],
   "context": {}

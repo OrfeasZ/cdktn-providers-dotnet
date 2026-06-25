@@ -5,7 +5,7 @@ namespace oci.DataOciMulticloudOmHubMultiCloudMetadata
     /// <remarks>
     /// <h1><c>data_oci_multicloud_om_hub_multi_cloud_metadata</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata"><c>data_oci_multicloud_om_hub_multi_cloud_metadata</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata"><c>data_oci_multicloud_om_hub_multi_cloud_metadata</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

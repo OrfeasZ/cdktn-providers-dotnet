@@ -9,7 +9,7 @@ namespace oci.CoreSecurityList
     [JsiiByValue(fqn: "oci.coreSecurityList.CoreSecurityListConfig")]
     public class CoreSecurityListConfig : oci.CoreSecurityList.ICoreSecurityListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#compartment_id CoreSecurityList#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#compartment_id CoreSecurityList#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#vcn_id CoreSecurityList#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#vcn_id CoreSecurityList#vcn_id}.</summary>
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         public string VcnId
         {
@@ -25,7 +25,7 @@ namespace oci.CoreSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#defined_tags CoreSecurityList#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#defined_tags CoreSecurityList#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.CoreSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#display_name CoreSecurityList#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#display_name CoreSecurityList#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -47,7 +47,7 @@ namespace oci.CoreSecurityList
 
         /// <summary>egress_security_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#egress_security_rules CoreSecurityList#egress_security_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#egress_security_rules CoreSecurityList#egress_security_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreSecurityList.ICoreSecurityListEgressSecurityRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -78,7 +78,7 @@ namespace oci.CoreSecurityList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#freeform_tags CoreSecurityList#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#freeform_tags CoreSecurityList#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -87,7 +87,7 @@ namespace oci.CoreSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#id CoreSecurityList#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#id CoreSecurityList#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ namespace oci.CoreSecurityList
 
         /// <summary>ingress_security_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#ingress_security_rules CoreSecurityList#ingress_security_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#ingress_security_rules CoreSecurityList#ingress_security_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreSecurityList.ICoreSecurityListIngressSecurityRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -137,7 +137,7 @@ namespace oci.CoreSecurityList
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_security_list#timeouts CoreSecurityList#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_security_list#timeouts CoreSecurityList#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreSecurityList.CoreSecurityListTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DataOciCertificatesManagementCertificates
     [JsiiInterface(nativeType: typeof(IDataOciCertificatesManagementCertificatesConfig), fullyQualifiedName: "oci.dataOciCertificatesManagementCertificates.DataOciCertificatesManagementCertificatesConfig")]
     public interface IDataOciCertificatesManagementCertificatesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#certificate_id DataOciCertificatesManagementCertificates#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#certificate_id DataOciCertificatesManagementCertificates#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificateId
@@ -18,7 +18,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#compartment_id DataOciCertificatesManagementCertificates#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#compartment_id DataOciCertificatesManagementCertificates#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -31,7 +31,7 @@ namespace oci.DataOciCertificatesManagementCertificates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#filter DataOciCertificatesManagementCertificates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#filter DataOciCertificatesManagementCertificates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCertificatesManagementCertificates.IDataOciCertificatesManagementCertificatesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCertificatesManagementCertificates.DataOciCertificatesManagementCertificatesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#id DataOciCertificatesManagementCertificates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#id DataOciCertificatesManagementCertificates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#issuer_certificate_authority_id DataOciCertificatesManagementCertificates#issuer_certificate_authority_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#issuer_certificate_authority_id DataOciCertificatesManagementCertificates#issuer_certificate_authority_id}.</summary>
         [JsiiProperty(name: "issuerCertificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IssuerCertificateAuthorityId
@@ -70,7 +70,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#name DataOciCertificatesManagementCertificates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#name DataOciCertificatesManagementCertificates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -81,7 +81,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#state DataOciCertificatesManagementCertificates#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#state DataOciCertificatesManagementCertificates#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -99,7 +99,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#certificate_id DataOciCertificatesManagementCertificates#certificate_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#certificate_id DataOciCertificatesManagementCertificates#certificate_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificateId
@@ -107,7 +107,7 @@ namespace oci.DataOciCertificatesManagementCertificates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#compartment_id DataOciCertificatesManagementCertificates#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#compartment_id DataOciCertificatesManagementCertificates#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -117,7 +117,7 @@ namespace oci.DataOciCertificatesManagementCertificates
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#filter DataOciCertificatesManagementCertificates#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#filter DataOciCertificatesManagementCertificates#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCertificatesManagementCertificates.IDataOciCertificatesManagementCertificatesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -127,7 +127,7 @@ namespace oci.DataOciCertificatesManagementCertificates
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#id DataOciCertificatesManagementCertificates#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#id DataOciCertificatesManagementCertificates#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,7 +139,7 @@ namespace oci.DataOciCertificatesManagementCertificates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#issuer_certificate_authority_id DataOciCertificatesManagementCertificates#issuer_certificate_authority_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#issuer_certificate_authority_id DataOciCertificatesManagementCertificates#issuer_certificate_authority_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "issuerCertificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IssuerCertificateAuthorityId
@@ -147,7 +147,7 @@ namespace oci.DataOciCertificatesManagementCertificates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#name DataOciCertificatesManagementCertificates#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#name DataOciCertificatesManagementCertificates#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -155,7 +155,7 @@ namespace oci.DataOciCertificatesManagementCertificates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificates#state DataOciCertificatesManagementCertificates#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/certificates_management_certificates#state DataOciCertificatesManagementCertificates#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

@@ -5,7 +5,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureVaultAssociations
     /// <remarks>
     /// <h1><c>data_oci_dbmulticloud_oracle_db_azure_vault_associations</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_vault_associations"><c>data_oci_dbmulticloud_oracle_db_azure_vault_associations</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_vault_associations"><c>data_oci_dbmulticloud_oracle_db_azure_vault_associations</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

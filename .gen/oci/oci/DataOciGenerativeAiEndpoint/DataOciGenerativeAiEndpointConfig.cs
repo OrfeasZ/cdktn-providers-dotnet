@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiEndpoint
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiEndpoint.DataOciGenerativeAiEndpointConfig")]
     public class DataOciGenerativeAiEndpointConfig : oci.DataOciGenerativeAiEndpoint.IDataOciGenerativeAiEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_endpoint#endpoint_id DataOciGenerativeAiEndpoint#endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_endpoint#endpoint_id DataOciGenerativeAiEndpoint#endpoint_id}.</summary>
         [JsiiProperty(name: "endpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointId
         {

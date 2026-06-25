@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsIdentity
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsIdentity.DataOciDatabaseToolsDatabaseToolsIdentityConfig")]
     public class DataOciDatabaseToolsDatabaseToolsIdentityConfig : oci.DataOciDatabaseToolsDatabaseToolsIdentity.IDataOciDatabaseToolsDatabaseToolsIdentityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_tools_database_tools_identity#database_tools_identity_id DataOciDatabaseToolsDatabaseToolsIdentity#database_tools_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_identity#database_tools_identity_id DataOciDatabaseToolsDatabaseToolsIdentity#database_tools_identity_id}.</summary>
         [JsiiProperty(name: "databaseToolsIdentityId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsIdentityId
         {

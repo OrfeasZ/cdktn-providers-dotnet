@@ -7,14 +7,14 @@ namespace oci.ApigatewayDeployment
     [JsiiInterface(nativeType: typeof(IApigatewayDeploymentLocks), fullyQualifiedName: "oci.apigatewayDeployment.ApigatewayDeploymentLocks")]
     public interface IApigatewayDeploymentLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#message ApigatewayDeployment#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#message ApigatewayDeployment#message}.</summary>
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Message
@@ -32,14 +32,14 @@ namespace oci.ApigatewayDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#message ApigatewayDeployment#message}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#message ApigatewayDeployment#message}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Message

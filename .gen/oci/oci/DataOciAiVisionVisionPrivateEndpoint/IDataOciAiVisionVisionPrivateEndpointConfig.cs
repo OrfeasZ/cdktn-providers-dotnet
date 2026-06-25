@@ -7,7 +7,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciAiVisionVisionPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciAiVisionVisionPrivateEndpoint.DataOciAiVisionVisionPrivateEndpointConfig")]
     public interface IDataOciAiVisionVisionPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_vision_vision_private_endpoint#vision_private_endpoint_id DataOciAiVisionVisionPrivateEndpoint#vision_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_vision_private_endpoint#vision_private_endpoint_id DataOciAiVisionVisionPrivateEndpoint#vision_private_endpoint_id}.</summary>
         [JsiiProperty(name: "visionPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string VisionPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_vision_vision_private_endpoint#vision_private_endpoint_id DataOciAiVisionVisionPrivateEndpoint#vision_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_vision_private_endpoint#vision_private_endpoint_id DataOciAiVisionVisionPrivateEndpoint#vision_private_endpoint_id}.</summary>
             [JsiiProperty(name: "visionPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string VisionPrivateEndpointId
             {

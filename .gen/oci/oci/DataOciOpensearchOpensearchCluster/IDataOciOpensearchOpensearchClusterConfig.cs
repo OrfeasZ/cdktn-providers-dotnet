@@ -7,7 +7,7 @@ namespace oci.DataOciOpensearchOpensearchCluster
     [JsiiInterface(nativeType: typeof(IDataOciOpensearchOpensearchClusterConfig), fullyQualifiedName: "oci.dataOciOpensearchOpensearchCluster.DataOciOpensearchOpensearchClusterConfig")]
     public interface IDataOciOpensearchOpensearchClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/opensearch_opensearch_cluster#opensearch_cluster_id DataOciOpensearchOpensearchCluster#opensearch_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/opensearch_opensearch_cluster#opensearch_cluster_id DataOciOpensearchOpensearchCluster#opensearch_cluster_id}.</summary>
         [JsiiProperty(name: "opensearchClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string OpensearchClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOpensearchOpensearchCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/opensearch_opensearch_cluster#opensearch_cluster_id DataOciOpensearchOpensearchCluster#opensearch_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/opensearch_opensearch_cluster#opensearch_cluster_id DataOciOpensearchOpensearchCluster#opensearch_cluster_id}.</summary>
             [JsiiProperty(name: "opensearchClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string OpensearchClusterId
             {

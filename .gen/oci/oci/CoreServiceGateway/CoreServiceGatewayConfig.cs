@@ -9,7 +9,7 @@ namespace oci.CoreServiceGateway
     [JsiiByValue(fqn: "oci.coreServiceGateway.CoreServiceGatewayConfig")]
     public class CoreServiceGatewayConfig : oci.CoreServiceGateway.ICoreServiceGatewayConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#compartment_id CoreServiceGateway#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#compartment_id CoreServiceGateway#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.CoreServiceGateway
 
         /// <summary>services block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#services CoreServiceGateway#services}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#services CoreServiceGateway#services}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreServiceGateway.ICoreServiceGatewayServices" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "services", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreServiceGateway.CoreServiceGatewayServices\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace oci.CoreServiceGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#vcn_id CoreServiceGateway#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#vcn_id CoreServiceGateway#vcn_id}.</summary>
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         public string VcnId
         {
@@ -59,7 +59,7 @@ namespace oci.CoreServiceGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#defined_tags CoreServiceGateway#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#defined_tags CoreServiceGateway#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -68,7 +68,7 @@ namespace oci.CoreServiceGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#display_name CoreServiceGateway#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#display_name CoreServiceGateway#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -77,7 +77,7 @@ namespace oci.CoreServiceGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#freeform_tags CoreServiceGateway#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#freeform_tags CoreServiceGateway#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -86,7 +86,7 @@ namespace oci.CoreServiceGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#id CoreServiceGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#id CoreServiceGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace oci.CoreServiceGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#route_table_id CoreServiceGateway#route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#route_table_id CoreServiceGateway#route_table_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routeTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RouteTableId
@@ -110,7 +110,7 @@ namespace oci.CoreServiceGateway
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_service_gateway#timeouts CoreServiceGateway#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_service_gateway#timeouts CoreServiceGateway#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreServiceGateway.CoreServiceGatewayTimeouts\"}", isOptional: true)]

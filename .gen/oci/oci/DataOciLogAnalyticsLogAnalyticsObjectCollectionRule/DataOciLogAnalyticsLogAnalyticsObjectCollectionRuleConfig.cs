@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsObjectCollectionRule
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsObjectCollectionRule.DataOciLogAnalyticsLogAnalyticsObjectCollectionRuleConfig")]
     public class DataOciLogAnalyticsLogAnalyticsObjectCollectionRuleConfig : oci.DataOciLogAnalyticsLogAnalyticsObjectCollectionRule.IDataOciLogAnalyticsLogAnalyticsObjectCollectionRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_object_collection_rule#log_analytics_object_collection_rule_id DataOciLogAnalyticsLogAnalyticsObjectCollectionRule#log_analytics_object_collection_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_object_collection_rule#log_analytics_object_collection_rule_id DataOciLogAnalyticsLogAnalyticsObjectCollectionRule#log_analytics_object_collection_rule_id}.</summary>
         [JsiiProperty(name: "logAnalyticsObjectCollectionRuleId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsObjectCollectionRuleId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsObjectCollectionRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_object_collection_rule#namespace DataOciLogAnalyticsLogAnalyticsObjectCollectionRule#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_object_collection_rule#namespace DataOciLogAnalyticsLogAnalyticsObjectCollectionRule#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {

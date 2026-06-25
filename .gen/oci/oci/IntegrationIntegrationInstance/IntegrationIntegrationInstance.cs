@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IntegrationIntegrationInstance
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/integration_integration_instance oci_integration_integration_instance}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/integration_integration_instance oci_integration_integration_instance}.</summary>
     [JsiiClass(nativeType: typeof(oci.IntegrationIntegrationInstance.IntegrationIntegrationInstance), fullyQualifiedName: "oci.integrationIntegrationInstance.IntegrationIntegrationInstance", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceConfig\"}}]")]
     public class IntegrationIntegrationInstance : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/integration_integration_instance oci_integration_integration_instance} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/integration_integration_instance oci_integration_integration_instance} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IntegrationIntegrationInstance(Constructs.Construct scope, string id, oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.IntegrationIntegrationInstance
         /// <param name="importToId">The construct id used in the generated config for the IntegrationIntegrationInstance to import.</param>
         /// <param name="importFromId">The id of the existing IntegrationIntegrationInstance that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IntegrationIntegrationInstance to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IntegrationIntegrationInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/integration_integration_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IntegrationIntegrationInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IntegrationIntegrationInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IntegrationIntegrationInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/integration_integration_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IntegrationIntegrationInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IntegrationIntegrationInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IntegrationIntegrationInstance.IntegrationIntegrationInstance), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -90,6 +90,12 @@ namespace oci.IntegrationIntegrationInstance
 
         [JsiiMethod(name: "resetAlternateCustomEndpoints")]
         public virtual void ResetAlternateCustomEndpoints()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAttachmentType")]
+        public virtual void ResetAttachmentType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -311,6 +317,12 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IntegrationIntegrationInstancePrivateEndpointOutboundConnectionList>()!;
         }
 
+        [JsiiProperty(name: "processAutomationLogGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProcessAutomationLogGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "stateMessage", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StateMessage
         {
@@ -343,6 +355,13 @@ namespace oci.IntegrationIntegrationInstance
         public virtual object? AlternateCustomEndpointsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "attachmentTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AttachmentTypeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -554,6 +573,13 @@ namespace oci.IntegrationIntegrationInstance
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "attachmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AttachmentType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]

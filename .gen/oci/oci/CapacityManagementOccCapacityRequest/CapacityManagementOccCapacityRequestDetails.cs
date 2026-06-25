@@ -9,7 +9,7 @@ namespace oci.CapacityManagementOccCapacityRequest
     [JsiiByValue(fqn: "oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestDetails")]
     public class CapacityManagementOccCapacityRequestDetails : oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#demand_quantity CapacityManagementOccCapacityRequest#demand_quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#demand_quantity CapacityManagementOccCapacityRequest#demand_quantity}.</summary>
         [JsiiProperty(name: "demandQuantity", typeJson: "{\"primitive\":\"string\"}")]
         public string DemandQuantity
         {
@@ -17,7 +17,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#resource_name CapacityManagementOccCapacityRequest#resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#resource_name CapacityManagementOccCapacityRequest#resource_name}.</summary>
         [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceName
         {
@@ -25,7 +25,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#resource_type CapacityManagementOccCapacityRequest#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#resource_type CapacityManagementOccCapacityRequest#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceType
         {
@@ -33,7 +33,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#workload_type CapacityManagementOccCapacityRequest#workload_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#workload_type CapacityManagementOccCapacityRequest#workload_type}.</summary>
         [JsiiProperty(name: "workloadType", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkloadType
         {
@@ -41,7 +41,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#actual_handover_quantity CapacityManagementOccCapacityRequest#actual_handover_quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#actual_handover_quantity CapacityManagementOccCapacityRequest#actual_handover_quantity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actualHandoverQuantity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActualHandoverQuantity
@@ -54,7 +54,7 @@ namespace oci.CapacityManagementOccCapacityRequest
 
         /// <summary>associated_occ_handover_resource_block_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#associated_occ_handover_resource_block_list CapacityManagementOccCapacityRequest#associated_occ_handover_resource_block_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#associated_occ_handover_resource_block_list CapacityManagementOccCapacityRequest#associated_occ_handover_resource_block_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetailsAssociatedOccHandoverResourceBlockListStruct" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -85,7 +85,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#availability_domain CapacityManagementOccCapacityRequest#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#availability_domain CapacityManagementOccCapacityRequest#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -94,7 +94,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#date_actual_handover CapacityManagementOccCapacityRequest#date_actual_handover}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#date_actual_handover CapacityManagementOccCapacityRequest#date_actual_handover}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dateActualHandover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DateActualHandover
@@ -103,7 +103,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#date_expected_handover CapacityManagementOccCapacityRequest#date_expected_handover}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#date_expected_handover CapacityManagementOccCapacityRequest#date_expected_handover}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dateExpectedHandover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DateExpectedHandover
@@ -112,7 +112,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#expected_handover_quantity CapacityManagementOccCapacityRequest#expected_handover_quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#expected_handover_quantity CapacityManagementOccCapacityRequest#expected_handover_quantity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expectedHandoverQuantity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpectedHandoverQuantity
@@ -121,7 +121,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#source_workload_type CapacityManagementOccCapacityRequest#source_workload_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_capacity_request#source_workload_type CapacityManagementOccCapacityRequest#source_workload_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceWorkloadType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceWorkloadType

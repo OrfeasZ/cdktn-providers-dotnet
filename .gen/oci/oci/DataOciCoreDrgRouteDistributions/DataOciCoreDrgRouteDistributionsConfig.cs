@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDrgRouteDistributions
     [JsiiByValue(fqn: "oci.dataOciCoreDrgRouteDistributions.DataOciCoreDrgRouteDistributionsConfig")]
     public class DataOciCoreDrgRouteDistributionsConfig : oci.DataOciCoreDrgRouteDistributions.IDataOciCoreDrgRouteDistributionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_drg_route_distributions#drg_id DataOciCoreDrgRouteDistributions#drg_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_drg_route_distributions#drg_id DataOciCoreDrgRouteDistributions#drg_id}.</summary>
         [JsiiProperty(name: "drgId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreDrgRouteDistributions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_drg_route_distributions#display_name DataOciCoreDrgRouteDistributions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_drg_route_distributions#display_name DataOciCoreDrgRouteDistributions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciCoreDrgRouteDistributions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_drg_route_distributions#filter DataOciCoreDrgRouteDistributions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_drg_route_distributions#filter DataOciCoreDrgRouteDistributions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreDrgRouteDistributions.IDataOciCoreDrgRouteDistributionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciCoreDrgRouteDistributions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_drg_route_distributions#id DataOciCoreDrgRouteDistributions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_drg_route_distributions#id DataOciCoreDrgRouteDistributions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciCoreDrgRouteDistributions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_drg_route_distributions#state DataOciCoreDrgRouteDistributions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_drg_route_distributions#state DataOciCoreDrgRouteDistributions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

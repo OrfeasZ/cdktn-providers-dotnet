@@ -5,7 +5,7 @@ namespace oci.DataOciCoreVcns
     /// <remarks>
     /// <h1><c>data_oci_core_vcns</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_vcns"><c>data_oci_core_vcns</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_vcns"><c>data_oci_core_vcns</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace oci.DnsSteeringPolicy
     [JsiiByValue(fqn: "oci.dnsSteeringPolicy.DnsSteeringPolicyRulesDefaultAnswerData")]
     public class DnsSteeringPolicyRulesDefaultAnswerData : oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesDefaultAnswerData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_steering_policy#answer_condition DnsSteeringPolicy#answer_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_steering_policy#answer_condition DnsSteeringPolicy#answer_condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "answerCondition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AnswerCondition
@@ -18,7 +18,7 @@ namespace oci.DnsSteeringPolicy
 
         private object? _shouldKeep;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_steering_policy#should_keep DnsSteeringPolicy#should_keep}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_steering_policy#should_keep DnsSteeringPolicy#should_keep}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.DnsSteeringPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_steering_policy#value DnsSteeringPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_steering_policy#value DnsSteeringPolicy#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Value

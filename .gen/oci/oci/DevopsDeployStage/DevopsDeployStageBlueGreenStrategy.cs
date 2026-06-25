@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageBlueGreenStrategy")]
     public class DevopsDeployStageBlueGreenStrategy : oci.DevopsDeployStage.IDevopsDeployStageBlueGreenStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_deploy_stage#ingress_name DevopsDeployStage#ingress_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deploy_stage#ingress_name DevopsDeployStage#ingress_name}.</summary>
         [JsiiProperty(name: "ingressName", typeJson: "{\"primitive\":\"string\"}")]
         public string IngressName
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_deploy_stage#namespace_a DevopsDeployStage#namespace_a}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deploy_stage#namespace_a DevopsDeployStage#namespace_a}.</summary>
         [JsiiProperty(name: "namespaceA", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceA
         {
@@ -25,7 +25,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_deploy_stage#namespace_b DevopsDeployStage#namespace_b}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deploy_stage#namespace_b DevopsDeployStage#namespace_b}.</summary>
         [JsiiProperty(name: "namespaceB", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceB
         {
@@ -33,7 +33,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_deploy_stage#strategy_type DevopsDeployStage#strategy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deploy_stage#strategy_type DevopsDeployStage#strategy_type}.</summary>
         [JsiiProperty(name: "strategyType", typeJson: "{\"primitive\":\"string\"}")]
         public string StrategyType
         {

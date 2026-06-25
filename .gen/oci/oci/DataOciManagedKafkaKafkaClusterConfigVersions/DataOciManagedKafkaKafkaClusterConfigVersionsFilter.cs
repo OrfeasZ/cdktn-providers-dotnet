@@ -9,7 +9,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigVersions
     [JsiiByValue(fqn: "oci.dataOciManagedKafkaKafkaClusterConfigVersions.DataOciManagedKafkaKafkaClusterConfigVersionsFilter")]
     public class DataOciManagedKafkaKafkaClusterConfigVersionsFilter : oci.DataOciManagedKafkaKafkaClusterConfigVersions.IDataOciManagedKafkaKafkaClusterConfigVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config_versions#name DataOciManagedKafkaKafkaClusterConfigVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config_versions#name DataOciManagedKafkaKafkaClusterConfigVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config_versions#values DataOciManagedKafkaKafkaClusterConfigVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config_versions#values DataOciManagedKafkaKafkaClusterConfigVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config_versions#regex DataOciManagedKafkaKafkaClusterConfigVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config_versions#regex DataOciManagedKafkaKafkaClusterConfigVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

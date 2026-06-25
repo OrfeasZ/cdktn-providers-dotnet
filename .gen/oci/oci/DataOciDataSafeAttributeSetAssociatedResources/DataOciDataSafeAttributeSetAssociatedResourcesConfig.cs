@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
     [JsiiByValue(fqn: "oci.dataOciDataSafeAttributeSetAssociatedResources.DataOciDataSafeAttributeSetAssociatedResourcesConfig")]
     public class DataOciDataSafeAttributeSetAssociatedResourcesConfig : oci.DataOciDataSafeAttributeSetAssociatedResources.IDataOciDataSafeAttributeSetAssociatedResourcesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_set_associated_resources#attribute_set_id DataOciDataSafeAttributeSetAssociatedResources#attribute_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_attribute_set_associated_resources#attribute_set_id DataOciDataSafeAttributeSetAssociatedResources#attribute_set_id}.</summary>
         [JsiiProperty(name: "attributeSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeSetId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_set_associated_resources#associated_resource_id DataOciDataSafeAttributeSetAssociatedResources#associated_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_attribute_set_associated_resources#associated_resource_id DataOciDataSafeAttributeSetAssociatedResources#associated_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "associatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssociatedResourceId
@@ -26,7 +26,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_set_associated_resources#associated_resource_type DataOciDataSafeAttributeSetAssociatedResources#associated_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_attribute_set_associated_resources#associated_resource_type DataOciDataSafeAttributeSetAssociatedResources#associated_resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "associatedResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssociatedResourceType
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_set_associated_resources#filter DataOciDataSafeAttributeSetAssociatedResources#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_attribute_set_associated_resources#filter DataOciDataSafeAttributeSetAssociatedResources#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeAttributeSetAssociatedResources.IDataOciDataSafeAttributeSetAssociatedResourcesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_set_associated_resources#id DataOciDataSafeAttributeSetAssociatedResources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_attribute_set_associated_resources#id DataOciDataSafeAttributeSetAssociatedResources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

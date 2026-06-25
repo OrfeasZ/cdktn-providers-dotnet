@@ -7,14 +7,14 @@ namespace oci.ArtifactsContainerRepository
     [JsiiInterface(nativeType: typeof(IArtifactsContainerRepositoryReadme), fullyQualifiedName: "oci.artifactsContainerRepository.ArtifactsContainerRepositoryReadme")]
     public interface IArtifactsContainerRepositoryReadme
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         string Format
         {
@@ -28,14 +28,14 @@ namespace oci.ArtifactsContainerRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}.</summary>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}.</summary>
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
             public string Format
             {

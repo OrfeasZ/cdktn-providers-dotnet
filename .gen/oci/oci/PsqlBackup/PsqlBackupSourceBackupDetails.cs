@@ -9,7 +9,7 @@ namespace oci.PsqlBackup
     [JsiiByValue(fqn: "oci.psqlBackup.PsqlBackupSourceBackupDetails")]
     public class PsqlBackupSourceBackupDetails : oci.PsqlBackup.IPsqlBackupSourceBackupDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_backup#source_backup_id PsqlBackup#source_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_backup#source_backup_id PsqlBackup#source_backup_id}.</summary>
         [JsiiProperty(name: "sourceBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceBackupId
         {
@@ -17,7 +17,7 @@ namespace oci.PsqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_backup#source_region PsqlBackup#source_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_backup#source_region PsqlBackup#source_region}.</summary>
         [JsiiProperty(name: "sourceRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceRegion
         {

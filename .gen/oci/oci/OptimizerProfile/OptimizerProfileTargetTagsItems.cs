@@ -9,7 +9,7 @@ namespace oci.OptimizerProfile
     [JsiiByValue(fqn: "oci.optimizerProfile.OptimizerProfileTargetTagsItems")]
     public class OptimizerProfileTargetTagsItems : oci.OptimizerProfile.IOptimizerProfileTargetTagsItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_profile#tag_definition_name OptimizerProfile#tag_definition_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_profile#tag_definition_name OptimizerProfile#tag_definition_name}.</summary>
         [JsiiProperty(name: "tagDefinitionName", typeJson: "{\"primitive\":\"string\"}")]
         public string TagDefinitionName
         {
@@ -17,7 +17,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_profile#tag_namespace_name OptimizerProfile#tag_namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_profile#tag_namespace_name OptimizerProfile#tag_namespace_name}.</summary>
         [JsiiProperty(name: "tagNamespaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string TagNamespaceName
         {
@@ -25,7 +25,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_profile#tag_value_type OptimizerProfile#tag_value_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_profile#tag_value_type OptimizerProfile#tag_value_type}.</summary>
         [JsiiProperty(name: "tagValueType", typeJson: "{\"primitive\":\"string\"}")]
         public string TagValueType
         {
@@ -33,7 +33,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_profile#tag_values OptimizerProfile#tag_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_profile#tag_values OptimizerProfile#tag_values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TagValues

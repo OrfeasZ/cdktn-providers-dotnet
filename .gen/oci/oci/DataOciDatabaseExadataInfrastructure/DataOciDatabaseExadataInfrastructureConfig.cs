@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExadataInfrastructure
     [JsiiByValue(fqn: "oci.dataOciDatabaseExadataInfrastructure.DataOciDatabaseExadataInfrastructureConfig")]
     public class DataOciDatabaseExadataInfrastructureConfig : oci.DataOciDatabaseExadataInfrastructure.IDataOciDatabaseExadataInfrastructureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_exadata_infrastructure#exadata_infrastructure_id DataOciDatabaseExadataInfrastructure#exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_exadata_infrastructure#exadata_infrastructure_id DataOciDatabaseExadataInfrastructure#exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExadataInfrastructureId
         {

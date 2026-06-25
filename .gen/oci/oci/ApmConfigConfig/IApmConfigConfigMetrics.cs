@@ -7,7 +7,7 @@ namespace oci.ApmConfigConfig
     [JsiiInterface(nativeType: typeof(IApmConfigConfigMetrics), fullyQualifiedName: "oci.apmConfigConfig.ApmConfigConfigMetrics")]
     public interface IApmConfigConfigMetrics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#description ApmConfigConfig#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#description ApmConfigConfig#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -18,7 +18,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#name ApmConfigConfig#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#name ApmConfigConfig#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -29,7 +29,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#unit ApmConfigConfig#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#unit ApmConfigConfig#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Unit
@@ -40,7 +40,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}.</summary>
         [JsiiProperty(name: "valueSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ValueSource
@@ -58,7 +58,7 @@ namespace oci.ApmConfigConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#description ApmConfigConfig#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#description ApmConfigConfig#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -66,7 +66,7 @@ namespace oci.ApmConfigConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#name ApmConfigConfig#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#name ApmConfigConfig#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -74,7 +74,7 @@ namespace oci.ApmConfigConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#unit ApmConfigConfig#unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#unit ApmConfigConfig#unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Unit
@@ -82,7 +82,7 @@ namespace oci.ApmConfigConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_config_config#value_source ApmConfigConfig#value_source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "valueSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ValueSource

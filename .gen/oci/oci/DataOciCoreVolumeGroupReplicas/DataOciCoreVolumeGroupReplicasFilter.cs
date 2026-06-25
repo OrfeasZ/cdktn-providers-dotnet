@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVolumeGroupReplicas
     [JsiiByValue(fqn: "oci.dataOciCoreVolumeGroupReplicas.DataOciCoreVolumeGroupReplicasFilter")]
     public class DataOciCoreVolumeGroupReplicasFilter : oci.DataOciCoreVolumeGroupReplicas.IDataOciCoreVolumeGroupReplicasFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_volume_group_replicas#name DataOciCoreVolumeGroupReplicas#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_volume_group_replicas#name DataOciCoreVolumeGroupReplicas#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreVolumeGroupReplicas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_volume_group_replicas#values DataOciCoreVolumeGroupReplicas#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_volume_group_replicas#values DataOciCoreVolumeGroupReplicas#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreVolumeGroupReplicas
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_volume_group_replicas#regex DataOciCoreVolumeGroupReplicas#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_volume_group_replicas#regex DataOciCoreVolumeGroupReplicas#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

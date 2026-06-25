@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValue")]
     public class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValue : oci.DatabaseManagementCloudDbSystemDiscovery.IDatabaseManagementCloudDbSystemDiscoveryPatchOperationsValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         /// <summary>connector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_cloud_db_system_discovery#connector DatabaseManagementCloudDbSystemDiscovery#connector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_cloud_db_system_discovery#connector DatabaseManagementCloudDbSystemDiscovery#connector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connector", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnector\"}", isOptional: true)]
@@ -28,7 +28,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         private object? _isSelectedForMonitoring;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_cloud_db_system_discovery#is_selected_for_monitoring DatabaseManagementCloudDbSystemDiscovery#is_selected_for_monitoring}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_cloud_db_system_discovery#is_selected_for_monitoring DatabaseManagementCloudDbSystemDiscovery#is_selected_for_monitoring}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsRepositories
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositories.DataOciDevopsRepositoriesConfig")]
     public class DataOciDevopsRepositoriesConfig : oci.DataOciDevopsRepositories.IDataOciDevopsRepositoriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#compartment_id DataOciDevopsRepositories#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#compartment_id DataOciDevopsRepositories#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -20,7 +20,7 @@ namespace oci.DataOciDevopsRepositories
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#filter DataOciDevopsRepositories#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#filter DataOciDevopsRepositories#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDevopsRepositories.IDataOciDevopsRepositoriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciDevopsRepositories
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#id DataOciDevopsRepositories#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#id DataOciDevopsRepositories#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciDevopsRepositories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#name DataOciDevopsRepositories#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#name DataOciDevopsRepositories#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -73,7 +73,7 @@ namespace oci.DataOciDevopsRepositories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#project_id DataOciDevopsRepositories#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#project_id DataOciDevopsRepositories#project_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProjectId
@@ -82,7 +82,7 @@ namespace oci.DataOciDevopsRepositories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#repository_id DataOciDevopsRepositories#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#repository_id DataOciDevopsRepositories#repository_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepositoryId
@@ -91,7 +91,7 @@ namespace oci.DataOciDevopsRepositories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_repositories#state DataOciDevopsRepositories#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repositories#state DataOciDevopsRepositories#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

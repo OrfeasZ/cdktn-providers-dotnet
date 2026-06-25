@@ -7,21 +7,21 @@ namespace oci.DataOciManagementAgentManagementAgentImages
     [JsiiInterface(nativeType: typeof(IDataOciManagementAgentManagementAgentImagesFilter), fullyQualifiedName: "oci.dataOciManagementAgentManagementAgentImages.DataOciManagementAgentManagementAgentImagesFilter")]
     public interface IDataOciManagementAgentManagementAgentImagesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_images#name DataOciManagementAgentManagementAgentImages#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_management_agent_images#name DataOciManagementAgentManagementAgentImages#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_images#values DataOciManagementAgentManagementAgentImages#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_management_agent_images#values DataOciManagementAgentManagementAgentImages#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_images#regex DataOciManagementAgentManagementAgentImages#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_management_agent_images#regex DataOciManagementAgentManagementAgentImages#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciManagementAgentManagementAgentImages
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_images#name DataOciManagementAgentManagementAgentImages#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_management_agent_images#name DataOciManagementAgentManagementAgentImages#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_images#values DataOciManagementAgentManagementAgentImages#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_management_agent_images#values DataOciManagementAgentManagementAgentImages#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_images#regex DataOciManagementAgentManagementAgentImages#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_management_agent_images#regex DataOciManagementAgentManagementAgentImages#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

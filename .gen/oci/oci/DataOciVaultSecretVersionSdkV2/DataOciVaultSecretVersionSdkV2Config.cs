@@ -9,7 +9,7 @@ namespace oci.DataOciVaultSecretVersionSdkV2
     [JsiiByValue(fqn: "oci.dataOciVaultSecretVersionSdkV2.DataOciVaultSecretVersionSdkV2Config")]
     public class DataOciVaultSecretVersionSdkV2Config : oci.DataOciVaultSecretVersionSdkV2.IDataOciVaultSecretVersionSdkV2Config
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/vault_secret_version_sdk_v2#secret_id DataOciVaultSecretVersionSdkV2#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/vault_secret_version_sdk_v2#secret_id DataOciVaultSecretVersionSdkV2#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciVaultSecretVersionSdkV2
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/vault_secret_version_sdk_v2#secret_version_number DataOciVaultSecretVersionSdkV2#secret_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/vault_secret_version_sdk_v2#secret_version_number DataOciVaultSecretVersionSdkV2#secret_version_number}.</summary>
         [JsiiProperty(name: "secretVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretVersionNumber
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciVaultSecretVersionSdkV2
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/vault_secret_version_sdk_v2#id DataOciVaultSecretVersionSdkV2#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/vault_secret_version_sdk_v2#id DataOciVaultSecretVersionSdkV2#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

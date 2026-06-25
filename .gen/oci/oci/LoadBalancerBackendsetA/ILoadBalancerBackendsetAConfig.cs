@@ -9,7 +9,7 @@ namespace oci.LoadBalancerBackendsetA
     {
         /// <summary>health_checker block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#health_checker LoadBalancerBackendsetA#health_checker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#health_checker LoadBalancerBackendsetA#health_checker}
         /// </remarks>
         [JsiiProperty(name: "healthChecker", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetAHealthChecker\"}")]
         oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetAHealthChecker HealthChecker
@@ -17,28 +17,28 @@ namespace oci.LoadBalancerBackendsetA
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#load_balancer_id LoadBalancerBackendsetA#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#load_balancer_id LoadBalancerBackendsetA#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#name LoadBalancerBackendsetA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#name LoadBalancerBackendsetA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#policy LoadBalancerBackendsetA#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#policy LoadBalancerBackendsetA#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         string Policy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#backend_max_connections LoadBalancerBackendsetA#backend_max_connections}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#backend_max_connections LoadBalancerBackendsetA#backend_max_connections}.</summary>
         [JsiiProperty(name: "backendMaxConnections", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackendMaxConnections
@@ -49,7 +49,7 @@ namespace oci.LoadBalancerBackendsetA
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#id LoadBalancerBackendsetA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#id LoadBalancerBackendsetA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.LoadBalancerBackendsetA
 
         /// <summary>lb_cookie_session_persistence_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#lb_cookie_session_persistence_configuration LoadBalancerBackendsetA#lb_cookie_session_persistence_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#lb_cookie_session_persistence_configuration LoadBalancerBackendsetA#lb_cookie_session_persistence_configuration}
         /// </remarks>
         [JsiiProperty(name: "lbCookieSessionPersistenceConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetALbCookieSessionPersistenceConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace oci.LoadBalancerBackendsetA
 
         /// <summary>session_persistence_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#session_persistence_configuration LoadBalancerBackendsetA#session_persistence_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#session_persistence_configuration LoadBalancerBackendsetA#session_persistence_configuration}
         /// </remarks>
         [JsiiProperty(name: "sessionPersistenceConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetASessionPersistenceConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace oci.LoadBalancerBackendsetA
 
         /// <summary>ssl_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#ssl_configuration LoadBalancerBackendsetA#ssl_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#ssl_configuration LoadBalancerBackendsetA#ssl_configuration}
         /// </remarks>
         [JsiiProperty(name: "sslConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetASslConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace oci.LoadBalancerBackendsetA
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#timeouts LoadBalancerBackendsetA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#timeouts LoadBalancerBackendsetA#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetATimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace oci.LoadBalancerBackendsetA
 
             /// <summary>health_checker block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#health_checker LoadBalancerBackendsetA#health_checker}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#health_checker LoadBalancerBackendsetA#health_checker}
             /// </remarks>
             [JsiiProperty(name: "healthChecker", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetAHealthChecker\"}")]
             public oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetAHealthChecker HealthChecker
@@ -137,28 +137,28 @@ namespace oci.LoadBalancerBackendsetA
                 get => GetInstanceProperty<oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetAHealthChecker>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#load_balancer_id LoadBalancerBackendsetA#load_balancer_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#load_balancer_id LoadBalancerBackendsetA#load_balancer_id}.</summary>
             [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#name LoadBalancerBackendsetA#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#name LoadBalancerBackendsetA#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#policy LoadBalancerBackendsetA#policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#policy LoadBalancerBackendsetA#policy}.</summary>
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
             public string Policy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#backend_max_connections LoadBalancerBackendsetA#backend_max_connections}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#backend_max_connections LoadBalancerBackendsetA#backend_max_connections}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backendMaxConnections", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackendMaxConnections
@@ -166,7 +166,7 @@ namespace oci.LoadBalancerBackendsetA
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#id LoadBalancerBackendsetA#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#id LoadBalancerBackendsetA#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +180,7 @@ namespace oci.LoadBalancerBackendsetA
 
             /// <summary>lb_cookie_session_persistence_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#lb_cookie_session_persistence_configuration LoadBalancerBackendsetA#lb_cookie_session_persistence_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#lb_cookie_session_persistence_configuration LoadBalancerBackendsetA#lb_cookie_session_persistence_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lbCookieSessionPersistenceConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetALbCookieSessionPersistenceConfiguration\"}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace oci.LoadBalancerBackendsetA
 
             /// <summary>session_persistence_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#session_persistence_configuration LoadBalancerBackendsetA#session_persistence_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#session_persistence_configuration LoadBalancerBackendsetA#session_persistence_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sessionPersistenceConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetASessionPersistenceConfiguration\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace oci.LoadBalancerBackendsetA
 
             /// <summary>ssl_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#ssl_configuration LoadBalancerBackendsetA#ssl_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#ssl_configuration LoadBalancerBackendsetA#ssl_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sslConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetASslConfiguration\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace oci.LoadBalancerBackendsetA
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#timeouts LoadBalancerBackendsetA#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer_backendset#timeouts LoadBalancerBackendsetA#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancerBackendsetA.LoadBalancerBackendsetATimeouts\"}", isOptional: true)]

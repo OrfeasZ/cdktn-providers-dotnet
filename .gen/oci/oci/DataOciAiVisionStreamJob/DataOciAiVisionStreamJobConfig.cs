@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionStreamJob
     [JsiiByValue(fqn: "oci.dataOciAiVisionStreamJob.DataOciAiVisionStreamJobConfig")]
     public class DataOciAiVisionStreamJobConfig : oci.DataOciAiVisionStreamJob.IDataOciAiVisionStreamJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_vision_stream_job#stream_job_id DataOciAiVisionStreamJob#stream_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_stream_job#stream_job_id DataOciAiVisionStreamJob#stream_job_id}.</summary>
         [JsiiProperty(name: "streamJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamJobId
         {

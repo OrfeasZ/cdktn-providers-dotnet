@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsGroup
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsGroup.DataOciIdentityDomainsGroupConfig")]
     public class DataOciIdentityDomainsGroupConfig : oci.DataOciIdentityDomainsGroup.IDataOciIdentityDomainsGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_group#group_id DataOciIdentityDomainsGroup#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_group#group_id DataOciIdentityDomainsGroup#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_group#idcs_endpoint DataOciIdentityDomainsGroup#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_group#idcs_endpoint DataOciIdentityDomainsGroup#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_group#attributes DataOciIdentityDomainsGroup#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_group#attributes DataOciIdentityDomainsGroup#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_group#attribute_sets DataOciIdentityDomainsGroup#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_group#attribute_sets DataOciIdentityDomainsGroup#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_group#authorization DataOciIdentityDomainsGroup#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_group#authorization DataOciIdentityDomainsGroup#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_group#resource_type_schema_version DataOciIdentityDomainsGroup#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_group#resource_type_schema_version DataOciIdentityDomainsGroup#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

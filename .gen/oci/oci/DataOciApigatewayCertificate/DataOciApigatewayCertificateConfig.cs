@@ -9,7 +9,7 @@ namespace oci.DataOciApigatewayCertificate
     [JsiiByValue(fqn: "oci.dataOciApigatewayCertificate.DataOciApigatewayCertificateConfig")]
     public class DataOciApigatewayCertificateConfig : oci.DataOciApigatewayCertificate.IDataOciApigatewayCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apigateway_certificate#certificate_id DataOciApigatewayCertificate#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apigateway_certificate#certificate_id DataOciApigatewayCertificate#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateId
         {

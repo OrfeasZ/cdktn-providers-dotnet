@@ -7,7 +7,7 @@ namespace oci.DataOciArtifactsRepository
     [JsiiInterface(nativeType: typeof(IDataOciArtifactsRepositoryConfig), fullyQualifiedName: "oci.dataOciArtifactsRepository.DataOciArtifactsRepositoryConfig")]
     public interface IDataOciArtifactsRepositoryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/artifacts_repository#repository_id DataOciArtifactsRepository#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/artifacts_repository#repository_id DataOciArtifactsRepository#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciArtifactsRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/artifacts_repository#repository_id DataOciArtifactsRepository#repository_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/artifacts_repository#repository_id DataOciArtifactsRepository#repository_id}.</summary>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOper
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus.DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatusConfig")]
     public class DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatusConfig : oci.DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus.IDataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#backend_name DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#backend_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#backend_name DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#backend_name}.</summary>
         [JsiiProperty(name: "backendName", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOper
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#backend_set_name DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#backend_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#backend_set_name DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#backend_set_name}.</summary>
         [JsiiProperty(name: "backendSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendSetName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOper
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#network_load_balancer_id DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#network_load_balancer_id DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOper
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#id DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_network_load_balancer_backend_set_backend_operational_status#id DataOciNetworkLoadBalancerNetworkLoadBalancerBackendSetBackendOperationalStatus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

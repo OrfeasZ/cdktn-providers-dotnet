@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDatabaseConfig), fullyQualifiedName: "oci.dataOciDatabaseDatabase.DataOciDatabaseDatabaseConfig")]
     public interface IDataOciDatabaseDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}.</summary>
             [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseId
             {

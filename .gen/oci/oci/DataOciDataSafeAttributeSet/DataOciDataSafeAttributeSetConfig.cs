@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAttributeSet
     [JsiiByValue(fqn: "oci.dataOciDataSafeAttributeSet.DataOciDataSafeAttributeSetConfig")]
     public class DataOciDataSafeAttributeSetConfig : oci.DataOciDataSafeAttributeSet.IDataOciDataSafeAttributeSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_set#attribute_set_id DataOciDataSafeAttributeSet#attribute_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_attribute_set#attribute_set_id DataOciDataSafeAttributeSet#attribute_set_id}.</summary>
         [JsiiProperty(name: "attributeSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeSetId
         {

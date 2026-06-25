@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembe
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers.DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembersConfig")]
     public class DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembersConfig : oci.DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers.IDataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_high_availability_members#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers#managed_my_sql_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_high_availability_members#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers#managed_my_sql_database_id}.</summary>
         [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedMySqlDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembe
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_high_availability_members#filter DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_high_availability_members#filter DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers.IDataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_my_sql_database_high_availability_members#id DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_my_sql_database_high_availability_members#id DataOciDatabaseManagementManagedMySqlDatabaseHighAvailabilityMembers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

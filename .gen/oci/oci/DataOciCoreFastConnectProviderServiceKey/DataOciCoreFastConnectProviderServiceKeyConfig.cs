@@ -9,7 +9,7 @@ namespace oci.DataOciCoreFastConnectProviderServiceKey
     [JsiiByValue(fqn: "oci.dataOciCoreFastConnectProviderServiceKey.DataOciCoreFastConnectProviderServiceKeyConfig")]
     public class DataOciCoreFastConnectProviderServiceKeyConfig : oci.DataOciCoreFastConnectProviderServiceKey.IDataOciCoreFastConnectProviderServiceKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_fast_connect_provider_service_key#provider_service_id DataOciCoreFastConnectProviderServiceKey#provider_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_fast_connect_provider_service_key#provider_service_id DataOciCoreFastConnectProviderServiceKey#provider_service_id}.</summary>
         [JsiiProperty(name: "providerServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderServiceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreFastConnectProviderServiceKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_fast_connect_provider_service_key#provider_service_key_name DataOciCoreFastConnectProviderServiceKey#provider_service_key_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_fast_connect_provider_service_key#provider_service_key_name DataOciCoreFastConnectProviderServiceKey#provider_service_key_name}.</summary>
         [JsiiProperty(name: "providerServiceKeyName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderServiceKeyName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciCoreFastConnectProviderServiceKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_fast_connect_provider_service_key#id DataOciCoreFastConnectProviderServiceKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_fast_connect_provider_service_key#id DataOciCoreFastConnectProviderServiceKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

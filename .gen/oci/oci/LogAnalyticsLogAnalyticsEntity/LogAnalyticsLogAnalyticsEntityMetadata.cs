@@ -11,7 +11,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntity
 
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_log_analytics_entity#items LogAnalyticsLogAnalyticsEntity#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/log_analytics_log_analytics_entity#items LogAnalyticsLogAnalyticsEntity#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsLogAnalyticsEntity.ILogAnalyticsLogAnalyticsEntityMetadataItems" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace oci.SelfSubscription
     [JsiiByValue(fqn: "oci.selfSubscription.SelfSubscriptionConfig")]
     public class SelfSubscriptionConfig : oci.SelfSubscription.ISelfSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#compartment_id SelfSubscription#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#compartment_id SelfSubscription#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#product_id SelfSubscription#product_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#product_id SelfSubscription#product_id}.</summary>
         [JsiiProperty(name: "productId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProductId
         {
@@ -25,7 +25,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#seller_id SelfSubscription#seller_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#seller_id SelfSubscription#seller_id}.</summary>
         [JsiiProperty(name: "sellerId", typeJson: "{\"primitive\":\"string\"}")]
         public string SellerId
         {
@@ -35,7 +35,7 @@ namespace oci.SelfSubscription
 
         /// <summary>subscription_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#subscription_details SelfSubscription#subscription_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#subscription_details SelfSubscription#subscription_details}
         /// </remarks>
         [JsiiProperty(name: "subscriptionDetails", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetails\"}")]
         public oci.SelfSubscription.ISelfSubscriptionSubscriptionDetails SubscriptionDetails
@@ -44,7 +44,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#tenant_id SelfSubscription#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#tenant_id SelfSubscription#tenant_id}.</summary>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenantId
         {
@@ -56,7 +56,7 @@ namespace oci.SelfSubscription
 
         /// <summary>additional_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#additional_details SelfSubscription#additional_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#additional_details SelfSubscription#additional_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionAdditionalDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace oci.SelfSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#defined_tags SelfSubscription#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#defined_tags SelfSubscription#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -96,7 +96,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#display_name SelfSubscription#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#display_name SelfSubscription#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -105,7 +105,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#freeform_tags SelfSubscription#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#freeform_tags SelfSubscription#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -114,7 +114,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#id SelfSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#id SelfSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#realm SelfSubscription#realm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#realm SelfSubscription#realm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "realm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Realm
@@ -136,7 +136,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#region SelfSubscription#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#region SelfSubscription#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region
@@ -145,7 +145,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#source_type SelfSubscription#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#source_type SelfSubscription#source_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceType
@@ -156,7 +156,7 @@ namespace oci.SelfSubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/self_subscription#timeouts SelfSubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/self_subscription#timeouts SelfSubscription#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionTimeouts\"}", isOptional: true)]

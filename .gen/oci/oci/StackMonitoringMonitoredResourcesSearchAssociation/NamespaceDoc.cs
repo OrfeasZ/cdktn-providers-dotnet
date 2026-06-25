@@ -5,7 +5,7 @@ namespace oci.StackMonitoringMonitoredResourcesSearchAssociation
     /// <remarks>
     /// <h1><c>oci_stack_monitoring_monitored_resources_search_association</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_monitored_resources_search_association"><c>oci_stack_monitoring_monitored_resources_search_association</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resources_search_association"><c>oci_stack_monitoring_monitored_resources_search_association</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

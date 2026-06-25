@@ -9,7 +9,7 @@ namespace oci.DataintegrationWorkspaceTask
     {
         /// <summary>length block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataintegration_workspace_task#length DataintegrationWorkspaceTask#length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataintegration_workspace_task#length DataintegrationWorkspaceTask#length}
         /// </remarks>
         [JsiiProperty(name: "length", typeJson: "{\"fqn\":\"oci.dataintegrationWorkspaceTask.DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesLength\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.DataintegrationWorkspaceTask
 
         /// <summary>scale block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataintegration_workspace_task#scale DataintegrationWorkspaceTask#scale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataintegration_workspace_task#scale DataintegrationWorkspaceTask#scale}
         /// </remarks>
         [JsiiProperty(name: "scale", typeJson: "{\"fqn\":\"oci.dataintegrationWorkspaceTask.DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesScale\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace oci.DataintegrationWorkspaceTask
 
             /// <summary>length block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataintegration_workspace_task#length DataintegrationWorkspaceTask#length}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataintegration_workspace_task#length DataintegrationWorkspaceTask#length}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "length", typeJson: "{\"fqn\":\"oci.dataintegrationWorkspaceTask.DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesLength\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataintegrationWorkspaceTask
 
             /// <summary>scale block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataintegration_workspace_task#scale DataintegrationWorkspaceTask#scale}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataintegration_workspace_task#scale DataintegrationWorkspaceTask#scale}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scale", typeJson: "{\"fqn\":\"oci.dataintegrationWorkspaceTask.DataintegrationWorkspaceTaskTypedExpressionsConfigValuesConfigParamValuesScale\"}", isOptional: true)]

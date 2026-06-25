@@ -9,7 +9,7 @@ namespace oci.DataSafeReportDefinition
     [JsiiByValue(fqn: "oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnSortings")]
     public class DataSafeReportDefinitionColumnSortings : oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnSortings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}.</summary>
         [JsiiProperty(name: "fieldName", typeJson: "{\"primitive\":\"string\"}")]
         public string FieldName
         {
@@ -19,7 +19,7 @@ namespace oci.DataSafeReportDefinition
 
         private object _isAscending;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#is_ascending DataSafeReportDefinition#is_ascending}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#is_ascending DataSafeReportDefinition#is_ascending}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.DataSafeReportDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#sorting_order DataSafeReportDefinition#sorting_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#sorting_order DataSafeReportDefinition#sorting_order}.</summary>
         [JsiiProperty(name: "sortingOrder", typeJson: "{\"primitive\":\"number\"}")]
         public double SortingOrder
         {

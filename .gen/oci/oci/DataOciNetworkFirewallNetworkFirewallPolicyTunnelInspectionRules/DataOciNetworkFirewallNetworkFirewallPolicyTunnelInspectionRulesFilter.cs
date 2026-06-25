@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFilter")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFilter : oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules.IDataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#values DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#values DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#regex DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#regex DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

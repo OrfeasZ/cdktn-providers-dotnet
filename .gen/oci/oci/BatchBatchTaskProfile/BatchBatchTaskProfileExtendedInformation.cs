@@ -9,7 +9,7 @@ namespace oci.BatchBatchTaskProfile
     [JsiiByValue(fqn: "oci.batchBatchTaskProfile.BatchBatchTaskProfileExtendedInformation")]
     public class BatchBatchTaskProfileExtendedInformation : oci.BatchBatchTaskProfile.IBatchBatchTaskProfileExtendedInformation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/batch_batch_task_profile#type BatchBatchTaskProfile#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/batch_batch_task_profile#type BatchBatchTaskProfile#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.BatchBatchTaskProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/batch_batch_task_profile#architecture BatchBatchTaskProfile#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/batch_batch_task_profile#architecture BatchBatchTaskProfile#architecture}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Architecture
@@ -26,7 +26,7 @@ namespace oci.BatchBatchTaskProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/batch_batch_task_profile#shape_name BatchBatchTaskProfile#shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/batch_batch_task_profile#shape_name BatchBatchTaskProfile#shape_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShapeName

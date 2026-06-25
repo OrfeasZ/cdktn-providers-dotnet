@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
     [JsiiByValue(fqn: "oci.databaseToolsDatabaseToolsPrivateEndpoint.DatabaseToolsDatabaseToolsPrivateEndpointConfig")]
     public class DatabaseToolsDatabaseToolsPrivateEndpointConfig : oci.DatabaseToolsDatabaseToolsPrivateEndpoint.IDatabaseToolsDatabaseToolsPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#compartment_id DatabaseToolsDatabaseToolsPrivateEndpoint#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#compartment_id DatabaseToolsDatabaseToolsPrivateEndpoint#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#display_name DatabaseToolsDatabaseToolsPrivateEndpoint#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#display_name DatabaseToolsDatabaseToolsPrivateEndpoint#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#endpoint_service_id DatabaseToolsDatabaseToolsPrivateEndpoint#endpoint_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#endpoint_service_id DatabaseToolsDatabaseToolsPrivateEndpoint#endpoint_service_id}.</summary>
         [JsiiProperty(name: "endpointServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointServiceId
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#subnet_id DatabaseToolsDatabaseToolsPrivateEndpoint#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#subnet_id DatabaseToolsDatabaseToolsPrivateEndpoint#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#defined_tags DatabaseToolsDatabaseToolsPrivateEndpoint#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#defined_tags DatabaseToolsDatabaseToolsPrivateEndpoint#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#description DatabaseToolsDatabaseToolsPrivateEndpoint#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#description DatabaseToolsDatabaseToolsPrivateEndpoint#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -59,7 +59,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#freeform_tags DatabaseToolsDatabaseToolsPrivateEndpoint#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#freeform_tags DatabaseToolsDatabaseToolsPrivateEndpoint#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#id DatabaseToolsDatabaseToolsPrivateEndpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#id DatabaseToolsDatabaseToolsPrivateEndpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#locks DatabaseToolsDatabaseToolsPrivateEndpoint#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#locks DatabaseToolsDatabaseToolsPrivateEndpoint#locks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsPrivateEndpoint.IDatabaseToolsDatabaseToolsPrivateEndpointLocks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#nsg_ids DatabaseToolsDatabaseToolsPrivateEndpoint#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#nsg_ids DatabaseToolsDatabaseToolsPrivateEndpoint#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds
@@ -125,7 +125,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#private_endpoint_ip DatabaseToolsDatabaseToolsPrivateEndpoint#private_endpoint_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#private_endpoint_ip DatabaseToolsDatabaseToolsPrivateEndpoint#private_endpoint_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateEndpointIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateEndpointIp
@@ -134,7 +134,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#security_attributes DatabaseToolsDatabaseToolsPrivateEndpoint#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#security_attributes DatabaseToolsDatabaseToolsPrivateEndpoint#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -145,7 +145,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_private_endpoint#timeouts DatabaseToolsDatabaseToolsPrivateEndpoint#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_private_endpoint#timeouts DatabaseToolsDatabaseToolsPrivateEndpoint#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsDatabaseToolsPrivateEndpoint.DatabaseToolsDatabaseToolsPrivateEndpointTimeouts\"}", isOptional: true)]

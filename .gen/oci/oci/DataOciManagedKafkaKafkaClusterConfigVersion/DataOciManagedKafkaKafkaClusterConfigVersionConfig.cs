@@ -9,7 +9,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigVersion
     [JsiiByValue(fqn: "oci.dataOciManagedKafkaKafkaClusterConfigVersion.DataOciManagedKafkaKafkaClusterConfigVersionConfig")]
     public class DataOciManagedKafkaKafkaClusterConfigVersionConfig : oci.DataOciManagedKafkaKafkaClusterConfigVersion.IDataOciManagedKafkaKafkaClusterConfigVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config_version#kafka_cluster_config_id DataOciManagedKafkaKafkaClusterConfigVersion#kafka_cluster_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config_version#kafka_cluster_config_id DataOciManagedKafkaKafkaClusterConfigVersion#kafka_cluster_config_id}.</summary>
         [JsiiProperty(name: "kafkaClusterConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string KafkaClusterConfigId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config_version#version_number DataOciManagedKafkaKafkaClusterConfigVersion#version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config_version#version_number DataOciManagedKafkaKafkaClusterConfigVersion#version_number}.</summary>
         [JsiiProperty(name: "versionNumber", typeJson: "{\"primitive\":\"number\"}")]
         public double VersionNumber
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config_version#id DataOciManagedKafkaKafkaClusterConfigVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config_version#id DataOciManagedKafkaKafkaClusterConfigVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

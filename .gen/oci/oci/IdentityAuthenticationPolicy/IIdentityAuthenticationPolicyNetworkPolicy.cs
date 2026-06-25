@@ -7,7 +7,7 @@ namespace oci.IdentityAuthenticationPolicy
     [JsiiInterface(nativeType: typeof(IIdentityAuthenticationPolicyNetworkPolicy), fullyQualifiedName: "oci.identityAuthenticationPolicy.IdentityAuthenticationPolicyNetworkPolicy")]
     public interface IIdentityAuthenticationPolicyNetworkPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_authentication_policy#network_source_ids IdentityAuthenticationPolicy#network_source_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_authentication_policy#network_source_ids IdentityAuthenticationPolicy#network_source_ids}.</summary>
         [JsiiProperty(name: "networkSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NetworkSourceIds
@@ -25,7 +25,7 @@ namespace oci.IdentityAuthenticationPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_authentication_policy#network_source_ids IdentityAuthenticationPolicy#network_source_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_authentication_policy#network_source_ids IdentityAuthenticationPolicy#network_source_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "networkSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NetworkSourceIds

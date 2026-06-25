@@ -7,49 +7,49 @@ namespace oci.IdentityDomainsCondition
     [JsiiInterface(nativeType: typeof(IIdentityDomainsConditionConfig), fullyQualifiedName: "oci.identityDomainsCondition.IdentityDomainsConditionConfig")]
     public interface IIdentityDomainsConditionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attribute_name IdentityDomainsCondition#attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attribute_name IdentityDomainsCondition#attribute_name}.</summary>
         [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}")]
         string AttributeName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attribute_value IdentityDomainsCondition#attribute_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attribute_value IdentityDomainsCondition#attribute_value}.</summary>
         [JsiiProperty(name: "attributeValue", typeJson: "{\"primitive\":\"string\"}")]
         string AttributeValue
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#idcs_endpoint IdentityDomainsCondition#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#idcs_endpoint IdentityDomainsCondition#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#name IdentityDomainsCondition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#name IdentityDomainsCondition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#operator IdentityDomainsCondition#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#operator IdentityDomainsCondition#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         string Operator
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#schemas IdentityDomainsCondition#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#schemas IdentityDomainsCondition#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Schemas
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attributes IdentityDomainsCondition#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attributes IdentityDomainsCondition#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -60,7 +60,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attribute_sets IdentityDomainsCondition#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attribute_sets IdentityDomainsCondition#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -71,7 +71,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#authorization IdentityDomainsCondition#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#authorization IdentityDomainsCondition#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -82,7 +82,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#description IdentityDomainsCondition#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#description IdentityDomainsCondition#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -93,7 +93,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#evaluate_condition_if IdentityDomainsCondition#evaluate_condition_if}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#evaluate_condition_if IdentityDomainsCondition#evaluate_condition_if}.</summary>
         [JsiiProperty(name: "evaluateConditionIf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EvaluateConditionIf
@@ -104,7 +104,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#external_id IdentityDomainsCondition#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#external_id IdentityDomainsCondition#external_id}.</summary>
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExternalId
@@ -115,7 +115,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#ocid IdentityDomainsCondition#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#ocid IdentityDomainsCondition#ocid}.</summary>
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ocid
@@ -126,7 +126,7 @@ namespace oci.IdentityDomainsCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#resource_type_schema_version IdentityDomainsCondition#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#resource_type_schema_version IdentityDomainsCondition#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -139,7 +139,7 @@ namespace oci.IdentityDomainsCondition
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#tags IdentityDomainsCondition#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#tags IdentityDomainsCondition#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsCondition.IIdentityDomainsConditionTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsCondition.IdentityDomainsConditionTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace oci.IdentityDomainsCondition
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#timeouts IdentityDomainsCondition#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#timeouts IdentityDomainsCondition#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsCondition.IdentityDomainsConditionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -173,49 +173,49 @@ namespace oci.IdentityDomainsCondition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attribute_name IdentityDomainsCondition#attribute_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attribute_name IdentityDomainsCondition#attribute_name}.</summary>
             [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributeName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attribute_value IdentityDomainsCondition#attribute_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attribute_value IdentityDomainsCondition#attribute_value}.</summary>
             [JsiiProperty(name: "attributeValue", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributeValue
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#idcs_endpoint IdentityDomainsCondition#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#idcs_endpoint IdentityDomainsCondition#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#name IdentityDomainsCondition#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#name IdentityDomainsCondition#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#operator IdentityDomainsCondition#operator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#operator IdentityDomainsCondition#operator}.</summary>
             [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
             public string Operator
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#schemas IdentityDomainsCondition#schemas}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#schemas IdentityDomainsCondition#schemas}.</summary>
             [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Schemas
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attributes IdentityDomainsCondition#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attributes IdentityDomainsCondition#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -223,7 +223,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#attribute_sets IdentityDomainsCondition#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#attribute_sets IdentityDomainsCondition#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -231,7 +231,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#authorization IdentityDomainsCondition#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#authorization IdentityDomainsCondition#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -239,7 +239,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#description IdentityDomainsCondition#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#description IdentityDomainsCondition#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -247,7 +247,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#evaluate_condition_if IdentityDomainsCondition#evaluate_condition_if}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#evaluate_condition_if IdentityDomainsCondition#evaluate_condition_if}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "evaluateConditionIf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EvaluateConditionIf
@@ -255,7 +255,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#external_id IdentityDomainsCondition#external_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#external_id IdentityDomainsCondition#external_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExternalId
@@ -263,7 +263,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#ocid IdentityDomainsCondition#ocid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#ocid IdentityDomainsCondition#ocid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ocid
@@ -271,7 +271,7 @@ namespace oci.IdentityDomainsCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#resource_type_schema_version IdentityDomainsCondition#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#resource_type_schema_version IdentityDomainsCondition#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion
@@ -281,7 +281,7 @@ namespace oci.IdentityDomainsCondition
 
             /// <summary>tags block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#tags IdentityDomainsCondition#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#tags IdentityDomainsCondition#tags}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsCondition.IIdentityDomainsConditionTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -293,7 +293,7 @@ namespace oci.IdentityDomainsCondition
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_condition#timeouts IdentityDomainsCondition#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_condition#timeouts IdentityDomainsCondition#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsCondition.IdentityDomainsConditionTimeouts\"}", isOptional: true)]

@@ -7,21 +7,21 @@ namespace oci.DataOciFleetAppsManagementRunbookImportStatuses
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementRunbookImportStatusesFilter), fullyQualifiedName: "oci.dataOciFleetAppsManagementRunbookImportStatuses.DataOciFleetAppsManagementRunbookImportStatusesFilter")]
     public interface IDataOciFleetAppsManagementRunbookImportStatusesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#name DataOciFleetAppsManagementRunbookImportStatuses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#name DataOciFleetAppsManagementRunbookImportStatuses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#values DataOciFleetAppsManagementRunbookImportStatuses#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#values DataOciFleetAppsManagementRunbookImportStatuses#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#regex DataOciFleetAppsManagementRunbookImportStatuses#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#regex DataOciFleetAppsManagementRunbookImportStatuses#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFleetAppsManagementRunbookImportStatuses
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#name DataOciFleetAppsManagementRunbookImportStatuses#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#name DataOciFleetAppsManagementRunbookImportStatuses#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#values DataOciFleetAppsManagementRunbookImportStatuses#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#values DataOciFleetAppsManagementRunbookImportStatuses#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#regex DataOciFleetAppsManagementRunbookImportStatuses#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_import_statuses#regex DataOciFleetAppsManagementRunbookImportStatuses#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,14 +7,14 @@ namespace oci.DifStack
     [JsiiInterface(nativeType: typeof(IDifStackGenaiEndpoints), fullyQualifiedName: "oci.difStack.DifStackGenaiEndpoints")]
     public interface IDifStackGenaiEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#endpoint_name DifStack#endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#endpoint_name DifStack#endpoint_name}.</summary>
         [JsiiProperty(name: "endpointName", typeJson: "{\"primitive\":\"string\"}")]
         string EndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#is_content_moderation_enabled DifStack#is_content_moderation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#is_content_moderation_enabled DifStack#is_content_moderation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -31,14 +31,14 @@ namespace oci.DifStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#endpoint_name DifStack#endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#endpoint_name DifStack#endpoint_name}.</summary>
             [JsiiProperty(name: "endpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string EndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#is_content_moderation_enabled DifStack#is_content_moderation_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#is_content_moderation_enabled DifStack#is_content_moderation_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlMysqlConfiguration
     [JsiiByValue(fqn: "oci.dataOciMysqlMysqlConfiguration.DataOciMysqlMysqlConfigurationConfig")]
     public class DataOciMysqlMysqlConfigurationConfig : oci.DataOciMysqlMysqlConfiguration.IDataOciMysqlMysqlConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}.</summary>
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigurationId
         {

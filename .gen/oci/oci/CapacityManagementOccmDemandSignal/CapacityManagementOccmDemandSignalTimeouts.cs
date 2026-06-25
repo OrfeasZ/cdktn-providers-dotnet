@@ -7,7 +7,7 @@ namespace oci.CapacityManagementOccmDemandSignal
     [JsiiByValue(fqn: "oci.capacityManagementOccmDemandSignal.CapacityManagementOccmDemandSignalTimeouts")]
     public class CapacityManagementOccmDemandSignalTimeouts : oci.CapacityManagementOccmDemandSignal.ICapacityManagementOccmDemandSignalTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occm_demand_signal#create CapacityManagementOccmDemandSignal#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occm_demand_signal#create CapacityManagementOccmDemandSignal#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CapacityManagementOccmDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occm_demand_signal#delete CapacityManagementOccmDemandSignal#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occm_demand_signal#delete CapacityManagementOccmDemandSignal#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CapacityManagementOccmDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occm_demand_signal#update CapacityManagementOccmDemandSignal#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occm_demand_signal#update CapacityManagementOccmDemandSignal#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

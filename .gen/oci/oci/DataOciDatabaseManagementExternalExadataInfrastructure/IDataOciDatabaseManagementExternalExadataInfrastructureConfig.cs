@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataInfrastructure
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalExadataInfrastructureConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalExadataInfrastructure.DataOciDatabaseManagementExternalExadataInfrastructureConfig")]
     public interface IDataOciDatabaseManagementExternalExadataInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_exadata_infrastructure#external_exadata_infrastructure_id DataOciDatabaseManagementExternalExadataInfrastructure#external_exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_exadata_infrastructure#external_exadata_infrastructure_id DataOciDatabaseManagementExternalExadataInfrastructure#external_exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "externalExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalExadataInfrastructureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_exadata_infrastructure#external_exadata_infrastructure_id DataOciDatabaseManagementExternalExadataInfrastructure#external_exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_exadata_infrastructure#external_exadata_infrastructure_id DataOciDatabaseManagementExternalExadataInfrastructure#external_exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "externalExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalExadataInfrastructureId
             {

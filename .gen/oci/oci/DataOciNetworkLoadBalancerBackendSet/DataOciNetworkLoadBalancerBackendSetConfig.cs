@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerBackendSet
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerBackendSet.DataOciNetworkLoadBalancerBackendSetConfig")]
     public class DataOciNetworkLoadBalancerBackendSetConfig : oci.DataOciNetworkLoadBalancerBackendSet.IDataOciNetworkLoadBalancerBackendSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_load_balancer_backend_set#backend_set_name DataOciNetworkLoadBalancerBackendSet#backend_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_backend_set#backend_set_name DataOciNetworkLoadBalancerBackendSet#backend_set_name}.</summary>
         [JsiiProperty(name: "backendSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendSetName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkLoadBalancerBackendSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_load_balancer_backend_set#network_load_balancer_id DataOciNetworkLoadBalancerBackendSet#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_backend_set#network_load_balancer_id DataOciNetworkLoadBalancerBackendSet#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {

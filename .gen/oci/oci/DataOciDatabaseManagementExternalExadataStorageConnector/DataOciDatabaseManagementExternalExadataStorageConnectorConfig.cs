@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageConnector
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalExadataStorageConnector.DataOciDatabaseManagementExternalExadataStorageConnectorConfig")]
     public class DataOciDatabaseManagementExternalExadataStorageConnectorConfig : oci.DataOciDatabaseManagementExternalExadataStorageConnector.IDataOciDatabaseManagementExternalExadataStorageConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_exadata_storage_connector#external_exadata_storage_connector_id DataOciDatabaseManagementExternalExadataStorageConnector#external_exadata_storage_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_exadata_storage_connector#external_exadata_storage_connector_id DataOciDatabaseManagementExternalExadataStorageConnector#external_exadata_storage_connector_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalExadataStorageConnectorId
         {

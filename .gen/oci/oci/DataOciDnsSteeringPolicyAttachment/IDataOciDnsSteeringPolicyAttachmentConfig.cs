@@ -7,7 +7,7 @@ namespace oci.DataOciDnsSteeringPolicyAttachment
     [JsiiInterface(nativeType: typeof(IDataOciDnsSteeringPolicyAttachmentConfig), fullyQualifiedName: "oci.dataOciDnsSteeringPolicyAttachment.DataOciDnsSteeringPolicyAttachmentConfig")]
     public interface IDataOciDnsSteeringPolicyAttachmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dns_steering_policy_attachment#steering_policy_attachment_id DataOciDnsSteeringPolicyAttachment#steering_policy_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_steering_policy_attachment#steering_policy_attachment_id DataOciDnsSteeringPolicyAttachment#steering_policy_attachment_id}.</summary>
         [JsiiProperty(name: "steeringPolicyAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
         string SteeringPolicyAttachmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDnsSteeringPolicyAttachment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dns_steering_policy_attachment#steering_policy_attachment_id DataOciDnsSteeringPolicyAttachment#steering_policy_attachment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_steering_policy_attachment#steering_policy_attachment_id DataOciDnsSteeringPolicyAttachment#steering_policy_attachment_id}.</summary>
             [JsiiProperty(name: "steeringPolicyAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string SteeringPolicyAttachmentId
             {

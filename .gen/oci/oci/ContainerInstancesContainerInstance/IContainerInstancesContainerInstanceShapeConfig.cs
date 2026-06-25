@@ -7,14 +7,14 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiInterface(nativeType: typeof(IContainerInstancesContainerInstanceShapeConfig), fullyQualifiedName: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceShapeConfig")]
     public interface IContainerInstancesContainerInstanceShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#ocpus ContainerInstancesContainerInstance#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#ocpus ContainerInstancesContainerInstance#ocpus}.</summary>
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
         double Ocpus
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#memory_in_gbs ContainerInstancesContainerInstance#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#memory_in_gbs ContainerInstancesContainerInstance#memory_in_gbs}.</summary>
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MemoryInGbs
@@ -32,14 +32,14 @@ namespace oci.ContainerInstancesContainerInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#ocpus ContainerInstancesContainerInstance#ocpus}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#ocpus ContainerInstancesContainerInstance#ocpus}.</summary>
             [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
             public double Ocpus
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#memory_in_gbs ContainerInstancesContainerInstance#memory_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#memory_in_gbs ContainerInstancesContainerInstance#memory_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MemoryInGbs

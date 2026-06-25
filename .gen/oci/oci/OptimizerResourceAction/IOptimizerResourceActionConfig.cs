@@ -7,21 +7,21 @@ namespace oci.OptimizerResourceAction
     [JsiiInterface(nativeType: typeof(IOptimizerResourceActionConfig), fullyQualifiedName: "oci.optimizerResourceAction.OptimizerResourceActionConfig")]
     public interface IOptimizerResourceActionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#resource_action_id OptimizerResourceAction#resource_action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#resource_action_id OptimizerResourceAction#resource_action_id}.</summary>
         [JsiiProperty(name: "resourceActionId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceActionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#status OptimizerResourceAction#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#status OptimizerResourceAction#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         string Status
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#id OptimizerResourceAction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#id OptimizerResourceAction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.OptimizerResourceAction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#timeouts OptimizerResourceAction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#timeouts OptimizerResourceAction#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.optimizerResourceAction.OptimizerResourceActionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace oci.OptimizerResourceAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#time_status_end OptimizerResourceAction#time_status_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#time_status_end OptimizerResourceAction#time_status_end}.</summary>
         [JsiiProperty(name: "timeStatusEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStatusEnd
@@ -68,21 +68,21 @@ namespace oci.OptimizerResourceAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#resource_action_id OptimizerResourceAction#resource_action_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#resource_action_id OptimizerResourceAction#resource_action_id}.</summary>
             [JsiiProperty(name: "resourceActionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceActionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#status OptimizerResourceAction#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#status OptimizerResourceAction#status}.</summary>
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
             public string Status
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#id OptimizerResourceAction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#id OptimizerResourceAction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace oci.OptimizerResourceAction
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#timeouts OptimizerResourceAction#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#timeouts OptimizerResourceAction#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.optimizerResourceAction.OptimizerResourceActionTimeouts\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace oci.OptimizerResourceAction
                 get => GetInstanceProperty<oci.OptimizerResourceAction.IOptimizerResourceActionTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_resource_action#time_status_end OptimizerResourceAction#time_status_end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_resource_action#time_status_end OptimizerResourceAction#time_status_end}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStatusEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStatusEnd

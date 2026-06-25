@@ -7,7 +7,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalDelivery
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementInternalOccmDemandSignalDeliveryConfig), fullyQualifiedName: "oci.dataOciCapacityManagementInternalOccmDemandSignalDelivery.DataOciCapacityManagementInternalOccmDemandSignalDeliveryConfig")]
     public interface IDataOciCapacityManagementInternalOccmDemandSignalDeliveryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occm_demand_signal_delivery#occm_demand_signal_delivery_id DataOciCapacityManagementInternalOccmDemandSignalDelivery#occm_demand_signal_delivery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occm_demand_signal_delivery#occm_demand_signal_delivery_id DataOciCapacityManagementInternalOccmDemandSignalDelivery#occm_demand_signal_delivery_id}.</summary>
         [JsiiProperty(name: "occmDemandSignalDeliveryId", typeJson: "{\"primitive\":\"string\"}")]
         string OccmDemandSignalDeliveryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalDelivery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occm_demand_signal_delivery#occm_demand_signal_delivery_id DataOciCapacityManagementInternalOccmDemandSignalDelivery#occm_demand_signal_delivery_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occm_demand_signal_delivery#occm_demand_signal_delivery_id DataOciCapacityManagementInternalOccmDemandSignalDelivery#occm_demand_signal_delivery_id}.</summary>
             [JsiiProperty(name: "occmDemandSignalDeliveryId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccmDemandSignalDeliveryId
             {

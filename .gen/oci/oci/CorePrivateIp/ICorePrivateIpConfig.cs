@@ -7,7 +7,7 @@ namespace oci.CorePrivateIp
     [JsiiInterface(nativeType: typeof(ICorePrivateIpConfig), fullyQualifiedName: "oci.corePrivateIp.CorePrivateIpConfig")]
     public interface ICorePrivateIpConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#cidr_prefix_length CorePrivateIp#cidr_prefix_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#cidr_prefix_length CorePrivateIp#cidr_prefix_length}.</summary>
         [JsiiProperty(name: "cidrPrefixLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CidrPrefixLength
@@ -18,7 +18,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#defined_tags CorePrivateIp#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#defined_tags CorePrivateIp#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -29,7 +29,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#display_name CorePrivateIp#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#display_name CorePrivateIp#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -40,7 +40,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#freeform_tags CorePrivateIp#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#freeform_tags CorePrivateIp#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -51,7 +51,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#hostname_label CorePrivateIp#hostname_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#hostname_label CorePrivateIp#hostname_label}.</summary>
         [JsiiProperty(name: "hostnameLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostnameLabel
@@ -62,7 +62,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#id CorePrivateIp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#id CorePrivateIp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#ip_address CorePrivateIp#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#ip_address CorePrivateIp#ip_address}.</summary>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IpAddress
@@ -88,7 +88,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#ipv4subnet_cidr_at_creation CorePrivateIp#ipv4subnet_cidr_at_creation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#ipv4subnet_cidr_at_creation CorePrivateIp#ipv4subnet_cidr_at_creation}.</summary>
         [JsiiProperty(name: "ipv4SubnetCidrAtCreation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv4SubnetCidrAtCreation
@@ -99,7 +99,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#lifetime CorePrivateIp#lifetime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#lifetime CorePrivateIp#lifetime}.</summary>
         [JsiiProperty(name: "lifetime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Lifetime
@@ -110,7 +110,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#route_table_id CorePrivateIp#route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#route_table_id CorePrivateIp#route_table_id}.</summary>
         [JsiiProperty(name: "routeTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RouteTableId
@@ -121,7 +121,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#subnet_id CorePrivateIp#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#subnet_id CorePrivateIp#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -134,7 +134,7 @@ namespace oci.CorePrivateIp
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#timeouts CorePrivateIp#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#timeouts CorePrivateIp#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.corePrivateIp.CorePrivateIpTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -146,7 +146,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#vlan_id CorePrivateIp#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#vlan_id CorePrivateIp#vlan_id}.</summary>
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VlanId
@@ -157,7 +157,7 @@ namespace oci.CorePrivateIp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#vnic_id CorePrivateIp#vnic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#vnic_id CorePrivateIp#vnic_id}.</summary>
         [JsiiProperty(name: "vnicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VnicId
@@ -175,7 +175,7 @@ namespace oci.CorePrivateIp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#cidr_prefix_length CorePrivateIp#cidr_prefix_length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#cidr_prefix_length CorePrivateIp#cidr_prefix_length}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cidrPrefixLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CidrPrefixLength
@@ -183,7 +183,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#defined_tags CorePrivateIp#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#defined_tags CorePrivateIp#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -191,7 +191,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#display_name CorePrivateIp#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#display_name CorePrivateIp#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -199,7 +199,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#freeform_tags CorePrivateIp#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#freeform_tags CorePrivateIp#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -207,7 +207,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#hostname_label CorePrivateIp#hostname_label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#hostname_label CorePrivateIp#hostname_label}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostnameLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostnameLabel
@@ -215,7 +215,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#id CorePrivateIp#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#id CorePrivateIp#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -227,7 +227,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#ip_address CorePrivateIp#ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#ip_address CorePrivateIp#ip_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IpAddress
@@ -235,7 +235,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#ipv4subnet_cidr_at_creation CorePrivateIp#ipv4subnet_cidr_at_creation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#ipv4subnet_cidr_at_creation CorePrivateIp#ipv4subnet_cidr_at_creation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv4SubnetCidrAtCreation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv4SubnetCidrAtCreation
@@ -243,7 +243,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#lifetime CorePrivateIp#lifetime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#lifetime CorePrivateIp#lifetime}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lifetime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Lifetime
@@ -251,7 +251,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#route_table_id CorePrivateIp#route_table_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#route_table_id CorePrivateIp#route_table_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "routeTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RouteTableId
@@ -259,7 +259,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#subnet_id CorePrivateIp#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#subnet_id CorePrivateIp#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId
@@ -269,7 +269,7 @@ namespace oci.CorePrivateIp
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#timeouts CorePrivateIp#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#timeouts CorePrivateIp#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.corePrivateIp.CorePrivateIpTimeouts\"}", isOptional: true)]
@@ -278,7 +278,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<oci.CorePrivateIp.ICorePrivateIpTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#vlan_id CorePrivateIp#vlan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#vlan_id CorePrivateIp#vlan_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VlanId
@@ -286,7 +286,7 @@ namespace oci.CorePrivateIp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_private_ip#vnic_id CorePrivateIp#vnic_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_private_ip#vnic_id CorePrivateIp#vnic_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vnicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VnicId

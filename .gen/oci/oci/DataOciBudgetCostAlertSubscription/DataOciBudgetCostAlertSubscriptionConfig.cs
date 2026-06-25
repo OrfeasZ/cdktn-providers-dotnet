@@ -9,7 +9,7 @@ namespace oci.DataOciBudgetCostAlertSubscription
     [JsiiByValue(fqn: "oci.dataOciBudgetCostAlertSubscription.DataOciBudgetCostAlertSubscriptionConfig")]
     public class DataOciBudgetCostAlertSubscriptionConfig : oci.DataOciBudgetCostAlertSubscription.IDataOciBudgetCostAlertSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/budget_cost_alert_subscription#cost_alert_subscription_id DataOciBudgetCostAlertSubscription#cost_alert_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/budget_cost_alert_subscription#cost_alert_subscription_id DataOciBudgetCostAlertSubscription#cost_alert_subscription_id}.</summary>
         [JsiiProperty(name: "costAlertSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string CostAlertSubscriptionId
         {

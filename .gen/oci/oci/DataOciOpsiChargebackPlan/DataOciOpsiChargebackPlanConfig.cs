@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiChargebackPlan
     [JsiiByValue(fqn: "oci.dataOciOpsiChargebackPlan.DataOciOpsiChargebackPlanConfig")]
     public class DataOciOpsiChargebackPlanConfig : oci.DataOciOpsiChargebackPlan.IDataOciOpsiChargebackPlanConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/opsi_chargeback_plan#chargebackplan_id DataOciOpsiChargebackPlan#chargebackplan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/opsi_chargeback_plan#chargebackplan_id DataOciOpsiChargebackPlan#chargebackplan_id}.</summary>
         [JsiiProperty(name: "chargebackplanId", typeJson: "{\"primitive\":\"string\"}")]
         public string ChargebackplanId
         {

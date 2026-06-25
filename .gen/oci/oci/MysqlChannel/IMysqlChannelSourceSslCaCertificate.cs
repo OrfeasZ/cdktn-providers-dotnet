@@ -7,14 +7,14 @@ namespace oci.MysqlChannel
     [JsiiInterface(nativeType: typeof(IMysqlChannelSourceSslCaCertificate), fullyQualifiedName: "oci.mysqlChannel.MysqlChannelSourceSslCaCertificate")]
     public interface IMysqlChannelSourceSslCaCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_channel#contents MysqlChannel#contents}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_channel#contents MysqlChannel#contents}.</summary>
         [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
         string Contents
         {
@@ -28,14 +28,14 @@ namespace oci.MysqlChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}.</summary>
             [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_channel#contents MysqlChannel#contents}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_channel#contents MysqlChannel#contents}.</summary>
             [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
             public string Contents
             {

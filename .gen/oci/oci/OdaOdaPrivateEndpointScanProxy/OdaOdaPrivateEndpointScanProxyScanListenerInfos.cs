@@ -7,7 +7,7 @@ namespace oci.OdaOdaPrivateEndpointScanProxy
     [JsiiByValue(fqn: "oci.odaOdaPrivateEndpointScanProxy.OdaOdaPrivateEndpointScanProxyScanListenerInfos")]
     public class OdaOdaPrivateEndpointScanProxyScanListenerInfos : oci.OdaOdaPrivateEndpointScanProxy.IOdaOdaPrivateEndpointScanProxyScanListenerInfos
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint_scan_proxy#scan_listener_fqdn OdaOdaPrivateEndpointScanProxy#scan_listener_fqdn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint_scan_proxy#scan_listener_fqdn OdaOdaPrivateEndpointScanProxy#scan_listener_fqdn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scanListenerFqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScanListenerFqdn
@@ -16,7 +16,7 @@ namespace oci.OdaOdaPrivateEndpointScanProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint_scan_proxy#scan_listener_ip OdaOdaPrivateEndpointScanProxy#scan_listener_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint_scan_proxy#scan_listener_ip OdaOdaPrivateEndpointScanProxy#scan_listener_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scanListenerIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScanListenerIp
@@ -25,7 +25,7 @@ namespace oci.OdaOdaPrivateEndpointScanProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint_scan_proxy#scan_listener_port OdaOdaPrivateEndpointScanProxy#scan_listener_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint_scan_proxy#scan_listener_port OdaOdaPrivateEndpointScanProxy#scan_listener_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scanListenerPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ScanListenerPort

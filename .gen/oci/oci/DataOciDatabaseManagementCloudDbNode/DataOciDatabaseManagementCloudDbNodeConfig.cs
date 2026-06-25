@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbNode
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbNode.DataOciDatabaseManagementCloudDbNodeConfig")]
     public class DataOciDatabaseManagementCloudDbNodeConfig : oci.DataOciDatabaseManagementCloudDbNode.IDataOciDatabaseManagementCloudDbNodeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_node#cloud_db_node_id DataOciDatabaseManagementCloudDbNode#cloud_db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_db_node#cloud_db_node_id DataOciDatabaseManagementCloudDbNode#cloud_db_node_id}.</summary>
         [JsiiProperty(name: "cloudDbNodeId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudDbNodeId
         {

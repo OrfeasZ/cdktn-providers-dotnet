@@ -9,7 +9,7 @@ namespace oci.DataOciComputeinstanceagentInstanceAgentPlugin
     [JsiiByValue(fqn: "oci.dataOciComputeinstanceagentInstanceAgentPlugin.DataOciComputeinstanceagentInstanceAgentPluginConfig")]
     public class DataOciComputeinstanceagentInstanceAgentPluginConfig : oci.DataOciComputeinstanceagentInstanceAgentPlugin.IDataOciComputeinstanceagentInstanceAgentPluginConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#compartment_id DataOciComputeinstanceagentInstanceAgentPlugin#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#compartment_id DataOciComputeinstanceagentInstanceAgentPlugin#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciComputeinstanceagentInstanceAgentPlugin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#instanceagent_id DataOciComputeinstanceagentInstanceAgentPlugin#instanceagent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#instanceagent_id DataOciComputeinstanceagentInstanceAgentPlugin#instanceagent_id}.</summary>
         [JsiiProperty(name: "instanceagentId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceagentId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciComputeinstanceagentInstanceAgentPlugin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#plugin_name DataOciComputeinstanceagentInstanceAgentPlugin#plugin_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#plugin_name DataOciComputeinstanceagentInstanceAgentPlugin#plugin_name}.</summary>
         [JsiiProperty(name: "pluginName", typeJson: "{\"primitive\":\"string\"}")]
         public string PluginName
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciComputeinstanceagentInstanceAgentPlugin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#id DataOciComputeinstanceagentInstanceAgentPlugin#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/computeinstanceagent_instance_agent_plugin#id DataOciComputeinstanceagentInstanceAgentPlugin#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

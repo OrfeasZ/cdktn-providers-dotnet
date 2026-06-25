@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsSecurityQuestion
     [JsiiByValue(fqn: "oci.identityDomainsSecurityQuestion.IdentityDomainsSecurityQuestionQuestionText")]
     public class IdentityDomainsSecurityQuestionQuestionText : oci.IdentityDomainsSecurityQuestion.IIdentityDomainsSecurityQuestionQuestionText
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_security_question#locale IdentityDomainsSecurityQuestion#locale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_security_question#locale IdentityDomainsSecurityQuestion#locale}.</summary>
         [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}")]
         public string Locale
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsSecurityQuestion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_security_question#value IdentityDomainsSecurityQuestion#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_security_question#value IdentityDomainsSecurityQuestion#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -27,7 +27,7 @@ namespace oci.IdentityDomainsSecurityQuestion
 
         private object? _default;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_security_question#default IdentityDomainsSecurityQuestion#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_security_question#default IdentityDomainsSecurityQuestion#default}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

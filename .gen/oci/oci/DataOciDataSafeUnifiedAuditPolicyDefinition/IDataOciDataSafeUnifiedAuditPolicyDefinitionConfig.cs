@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinition
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeUnifiedAuditPolicyDefinitionConfig), fullyQualifiedName: "oci.dataOciDataSafeUnifiedAuditPolicyDefinition.DataOciDataSafeUnifiedAuditPolicyDefinitionConfig")]
     public interface IDataOciDataSafeUnifiedAuditPolicyDefinitionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definition#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicyDefinition#unified_audit_policy_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_unified_audit_policy_definition#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicyDefinition#unified_audit_policy_definition_id}.</summary>
         [JsiiProperty(name: "unifiedAuditPolicyDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         string UnifiedAuditPolicyDefinitionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definition#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicyDefinition#unified_audit_policy_definition_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_unified_audit_policy_definition#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicyDefinition#unified_audit_policy_definition_id}.</summary>
             [JsiiProperty(name: "unifiedAuditPolicyDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
             public string UnifiedAuditPolicyDefinitionId
             {

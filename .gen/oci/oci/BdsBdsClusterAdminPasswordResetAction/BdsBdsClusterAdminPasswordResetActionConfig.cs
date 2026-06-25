@@ -9,7 +9,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
     [JsiiByValue(fqn: "oci.bdsBdsClusterAdminPasswordResetAction.BdsBdsClusterAdminPasswordResetActionConfig")]
     public class BdsBdsClusterAdminPasswordResetActionConfig : oci.BdsBdsClusterAdminPasswordResetAction.IBdsBdsClusterAdminPasswordResetActionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#bds_instance_id BdsBdsClusterAdminPasswordResetAction#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#bds_instance_id BdsBdsClusterAdminPasswordResetAction#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#service BdsBdsClusterAdminPasswordResetAction#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#service BdsBdsClusterAdminPasswordResetAction#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
         public string Service
         {
@@ -25,7 +25,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#current_cluster_admin_password BdsBdsClusterAdminPasswordResetAction#current_cluster_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#current_cluster_admin_password BdsBdsClusterAdminPasswordResetAction#current_cluster_admin_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "currentClusterAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CurrentClusterAdminPassword
@@ -34,7 +34,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#id BdsBdsClusterAdminPasswordResetAction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#id BdsBdsClusterAdminPasswordResetAction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#reset_trigger BdsBdsClusterAdminPasswordResetAction#reset_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#reset_trigger BdsBdsClusterAdminPasswordResetAction#reset_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resetTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResetTrigger
@@ -56,7 +56,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#secret_id BdsBdsClusterAdminPasswordResetAction#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#secret_id BdsBdsClusterAdminPasswordResetAction#secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretId
@@ -67,7 +67,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_cluster_admin_password_reset_action#timeouts BdsBdsClusterAdminPasswordResetAction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_cluster_admin_password_reset_action#timeouts BdsBdsClusterAdminPasswordResetAction#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsClusterAdminPasswordResetAction.BdsBdsClusterAdminPasswordResetActionTimeouts\"}", isOptional: true)]

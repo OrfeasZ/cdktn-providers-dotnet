@@ -7,21 +7,21 @@ namespace oci.DataOciManagementDashboardManagementSavedSearches
     [JsiiInterface(nativeType: typeof(IDataOciManagementDashboardManagementSavedSearchesFilter), fullyQualifiedName: "oci.dataOciManagementDashboardManagementSavedSearches.DataOciManagementDashboardManagementSavedSearchesFilter")]
     public interface IDataOciManagementDashboardManagementSavedSearchesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_dashboard_management_saved_searches#name DataOciManagementDashboardManagementSavedSearches#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_dashboard_management_saved_searches#name DataOciManagementDashboardManagementSavedSearches#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_dashboard_management_saved_searches#values DataOciManagementDashboardManagementSavedSearches#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_dashboard_management_saved_searches#values DataOciManagementDashboardManagementSavedSearches#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_dashboard_management_saved_searches#regex DataOciManagementDashboardManagementSavedSearches#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_dashboard_management_saved_searches#regex DataOciManagementDashboardManagementSavedSearches#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciManagementDashboardManagementSavedSearches
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_dashboard_management_saved_searches#name DataOciManagementDashboardManagementSavedSearches#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_dashboard_management_saved_searches#name DataOciManagementDashboardManagementSavedSearches#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_dashboard_management_saved_searches#values DataOciManagementDashboardManagementSavedSearches#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_dashboard_management_saved_searches#values DataOciManagementDashboardManagementSavedSearches#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_dashboard_management_saved_searches#regex DataOciManagementDashboardManagementSavedSearches#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_dashboard_management_saved_searches#regex DataOciManagementDashboardManagementSavedSearches#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,21 +7,21 @@ namespace oci.OdaOdaPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IOdaOdaPrivateEndpointConfig), fullyQualifiedName: "oci.odaOdaPrivateEndpoint.OdaOdaPrivateEndpointConfig")]
     public interface IOdaOdaPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#compartment_id OdaOdaPrivateEndpoint#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#compartment_id OdaOdaPrivateEndpoint#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#subnet_id OdaOdaPrivateEndpoint#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#subnet_id OdaOdaPrivateEndpoint#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#defined_tags OdaOdaPrivateEndpoint#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#defined_tags OdaOdaPrivateEndpoint#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -32,7 +32,7 @@ namespace oci.OdaOdaPrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#description OdaOdaPrivateEndpoint#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#description OdaOdaPrivateEndpoint#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -43,7 +43,7 @@ namespace oci.OdaOdaPrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#display_name OdaOdaPrivateEndpoint#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#display_name OdaOdaPrivateEndpoint#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -54,7 +54,7 @@ namespace oci.OdaOdaPrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#freeform_tags OdaOdaPrivateEndpoint#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#freeform_tags OdaOdaPrivateEndpoint#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -65,7 +65,7 @@ namespace oci.OdaOdaPrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#id OdaOdaPrivateEndpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#id OdaOdaPrivateEndpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace oci.OdaOdaPrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#nsg_ids OdaOdaPrivateEndpoint#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#nsg_ids OdaOdaPrivateEndpoint#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -93,7 +93,7 @@ namespace oci.OdaOdaPrivateEndpoint
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#timeouts OdaOdaPrivateEndpoint#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#timeouts OdaOdaPrivateEndpoint#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.odaOdaPrivateEndpoint.OdaOdaPrivateEndpointTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,21 +112,21 @@ namespace oci.OdaOdaPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#compartment_id OdaOdaPrivateEndpoint#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#compartment_id OdaOdaPrivateEndpoint#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#subnet_id OdaOdaPrivateEndpoint#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#subnet_id OdaOdaPrivateEndpoint#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#defined_tags OdaOdaPrivateEndpoint#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#defined_tags OdaOdaPrivateEndpoint#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -134,7 +134,7 @@ namespace oci.OdaOdaPrivateEndpoint
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#description OdaOdaPrivateEndpoint#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#description OdaOdaPrivateEndpoint#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -142,7 +142,7 @@ namespace oci.OdaOdaPrivateEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#display_name OdaOdaPrivateEndpoint#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#display_name OdaOdaPrivateEndpoint#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -150,7 +150,7 @@ namespace oci.OdaOdaPrivateEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#freeform_tags OdaOdaPrivateEndpoint#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#freeform_tags OdaOdaPrivateEndpoint#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -158,7 +158,7 @@ namespace oci.OdaOdaPrivateEndpoint
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#id OdaOdaPrivateEndpoint#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#id OdaOdaPrivateEndpoint#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace oci.OdaOdaPrivateEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#nsg_ids OdaOdaPrivateEndpoint#nsg_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#nsg_ids OdaOdaPrivateEndpoint#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -180,7 +180,7 @@ namespace oci.OdaOdaPrivateEndpoint
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/oda_oda_private_endpoint#timeouts OdaOdaPrivateEndpoint#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_private_endpoint#timeouts OdaOdaPrivateEndpoint#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.odaOdaPrivateEndpoint.OdaOdaPrivateEndpointTimeouts\"}", isOptional: true)]

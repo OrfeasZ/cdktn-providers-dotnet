@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccAvailabilityCatalogs.DataOciCapacityManagementInternalOccAvailabilityCatalogsConfig")]
     public class DataOciCapacityManagementInternalOccAvailabilityCatalogsConfig : oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs.IDataOciCapacityManagementInternalOccAvailabilityCatalogsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#compartment_id DataOciCapacityManagementInternalOccAvailabilityCatalogs#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#compartment_id DataOciCapacityManagementInternalOccAvailabilityCatalogs#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#occ_customer_group_id DataOciCapacityManagementInternalOccAvailabilityCatalogs#occ_customer_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#occ_customer_group_id DataOciCapacityManagementInternalOccAvailabilityCatalogs#occ_customer_group_id}.</summary>
         [JsiiProperty(name: "occCustomerGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccCustomerGroupId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#catalog_state DataOciCapacityManagementInternalOccAvailabilityCatalogs#catalog_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#catalog_state DataOciCapacityManagementInternalOccAvailabilityCatalogs#catalog_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogState
@@ -34,7 +34,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#display_name DataOciCapacityManagementInternalOccAvailabilityCatalogs#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#display_name DataOciCapacityManagementInternalOccAvailabilityCatalogs#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -47,7 +47,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#filter DataOciCapacityManagementInternalOccAvailabilityCatalogs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#filter DataOciCapacityManagementInternalOccAvailabilityCatalogs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs.IDataOciCapacityManagementInternalOccAvailabilityCatalogsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -78,7 +78,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#id DataOciCapacityManagementInternalOccAvailabilityCatalogs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#id DataOciCapacityManagementInternalOccAvailabilityCatalogs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#namespace DataOciCapacityManagementInternalOccAvailabilityCatalogs#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs#namespace DataOciCapacityManagementInternalOccAvailabilityCatalogs#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace

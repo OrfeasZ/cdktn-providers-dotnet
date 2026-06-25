@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciDatacatalogCatalogPrivateEndpoints.DataOciDatacatalogCatalogPrivateEndpointsConfig")]
     public class DataOciDatacatalogCatalogPrivateEndpointsConfig : oci.DataOciDatacatalogCatalogPrivateEndpoints.IDataOciDatacatalogCatalogPrivateEndpointsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#compartment_id DataOciDatacatalogCatalogPrivateEndpoints#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#compartment_id DataOciDatacatalogCatalogPrivateEndpoints#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#display_name DataOciDatacatalogCatalogPrivateEndpoints#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#display_name DataOciDatacatalogCatalogPrivateEndpoints#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#filter DataOciDatacatalogCatalogPrivateEndpoints#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#filter DataOciDatacatalogCatalogPrivateEndpoints#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatacatalogCatalogPrivateEndpoints.IDataOciDatacatalogCatalogPrivateEndpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#id DataOciDatacatalogCatalogPrivateEndpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#id DataOciDatacatalogCatalogPrivateEndpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#state DataOciDatacatalogCatalogPrivateEndpoints#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#state DataOciDatacatalogCatalogPrivateEndpoints#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

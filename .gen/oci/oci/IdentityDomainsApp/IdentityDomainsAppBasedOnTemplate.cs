@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppBasedOnTemplate")]
     public class IdentityDomainsAppBasedOnTemplate : oci.IdentityDomainsApp.IIdentityDomainsAppBasedOnTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app#well_known_id IdentityDomainsApp#well_known_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_app#well_known_id IdentityDomainsApp#well_known_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "wellKnownId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WellKnownId

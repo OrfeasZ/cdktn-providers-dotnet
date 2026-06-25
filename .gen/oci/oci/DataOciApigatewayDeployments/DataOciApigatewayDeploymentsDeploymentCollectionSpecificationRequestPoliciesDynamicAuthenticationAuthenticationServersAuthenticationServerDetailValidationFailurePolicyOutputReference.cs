@@ -47,6 +47,12 @@ namespace oci.DataOciApigatewayDeployments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "loginPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LoginPath
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "logoutPath", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LogoutPath
         {

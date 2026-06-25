@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
     [JsiiInterface(nativeType: typeof(IDataOciIdentityAllowedDomainLicenseTypesConfig), fullyQualifiedName: "oci.dataOciIdentityAllowedDomainLicenseTypes.DataOciIdentityAllowedDomainLicenseTypesConfig")]
     public interface IDataOciIdentityAllowedDomainLicenseTypesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_allowed_domain_license_types#current_license_type_name DataOciIdentityAllowedDomainLicenseTypes#current_license_type_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#current_license_type_name DataOciIdentityAllowedDomainLicenseTypes#current_license_type_name}.</summary>
         [JsiiProperty(name: "currentLicenseTypeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CurrentLicenseTypeName
@@ -20,7 +20,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_allowed_domain_license_types#filter DataOciIdentityAllowedDomainLicenseTypes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#filter DataOciIdentityAllowedDomainLicenseTypes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityAllowedDomainLicenseTypes.IDataOciIdentityAllowedDomainLicenseTypesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIdentityAllowedDomainLicenseTypes.DataOciIdentityAllowedDomainLicenseTypesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_allowed_domain_license_types#id DataOciIdentityAllowedDomainLicenseTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#id DataOciIdentityAllowedDomainLicenseTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_allowed_domain_license_types#current_license_type_name DataOciIdentityAllowedDomainLicenseTypes#current_license_type_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#current_license_type_name DataOciIdentityAllowedDomainLicenseTypes#current_license_type_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "currentLicenseTypeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CurrentLicenseTypeName
@@ -65,7 +65,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_allowed_domain_license_types#filter DataOciIdentityAllowedDomainLicenseTypes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#filter DataOciIdentityAllowedDomainLicenseTypes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityAllowedDomainLicenseTypes.IDataOciIdentityAllowedDomainLicenseTypesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_allowed_domain_license_types#id DataOciIdentityAllowedDomainLicenseTypes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#id DataOciIdentityAllowedDomainLicenseTypes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceJob
     [JsiiByValue(fqn: "oci.dataOciDatascienceJob.DataOciDatascienceJobConfig")]
     public class DataOciDatascienceJobConfig : oci.DataOciDatascienceJob.IDataOciDatascienceJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}.</summary>
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
         public string JobId
         {

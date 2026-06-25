@@ -7,7 +7,7 @@ namespace oci.DataSafeSecurityPolicyConfig
     [JsiiByValue(fqn: "oci.dataSafeSecurityPolicyConfig.DataSafeSecurityPolicyConfigTimeouts")]
     public class DataSafeSecurityPolicyConfigTimeouts : oci.DataSafeSecurityPolicyConfig.IDataSafeSecurityPolicyConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_config#create DataSafeSecurityPolicyConfigA#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_config#create DataSafeSecurityPolicyConfigA#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeSecurityPolicyConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_config#delete DataSafeSecurityPolicyConfigA#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_config#delete DataSafeSecurityPolicyConfigA#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeSecurityPolicyConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_security_policy_config#update DataSafeSecurityPolicyConfigA#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_security_policy_config#update DataSafeSecurityPolicyConfigA#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

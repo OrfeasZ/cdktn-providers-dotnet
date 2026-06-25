@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackAdb")]
     public class DifStackAdb : oci.DifStack.IDifStackAdb
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#admin_password_id DifStack#admin_password_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#admin_password_id DifStack#admin_password_id}.</summary>
         [JsiiProperty(name: "adminPasswordId", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminPasswordId
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#data_storage_size_in_tbs DifStack#data_storage_size_in_tbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#data_storage_size_in_tbs DifStack#data_storage_size_in_tbs}.</summary>
         [JsiiProperty(name: "dataStorageSizeInTbs", typeJson: "{\"primitive\":\"number\"}")]
         public double DataStorageSizeInTbs
         {
@@ -25,7 +25,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#db_version DifStack#db_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#db_version DifStack#db_version}.</summary>
         [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string DbVersion
         {
@@ -33,7 +33,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#db_workload DifStack#db_workload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#db_workload DifStack#db_workload}.</summary>
         [JsiiProperty(name: "dbWorkload", typeJson: "{\"primitive\":\"string\"}")]
         public string DbWorkload
         {
@@ -41,7 +41,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#ecpu DifStack#ecpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#ecpu DifStack#ecpu}.</summary>
         [JsiiProperty(name: "ecpu", typeJson: "{\"primitive\":\"number\"}")]
         public double Ecpu
         {
@@ -49,7 +49,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#instance_id DifStack#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#instance_id DifStack#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -57,7 +57,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#artifact_object_storage_path DifStack#artifact_object_storage_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#artifact_object_storage_path DifStack#artifact_object_storage_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "artifactObjectStoragePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArtifactObjectStoragePath
@@ -70,7 +70,7 @@ namespace oci.DifStack
 
         /// <summary>db_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#db_credentials DifStack#db_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#db_credentials DifStack#db_credentials}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DifStack.IDifStackAdbDbCredentials" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -103,7 +103,7 @@ namespace oci.DifStack
 
         private object? _isMtlsConnectionRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#is_mtls_connection_required DifStack#is_mtls_connection_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#is_mtls_connection_required DifStack#is_mtls_connection_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -137,7 +137,7 @@ namespace oci.DifStack
 
         private object? _isPublic;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#is_public DifStack#is_public}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#is_public DifStack#is_public}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -169,7 +169,7 @@ namespace oci.DifStack
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -178,7 +178,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#tools_public_access DifStack#tools_public_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#tools_public_access DifStack#tools_public_access}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toolsPublicAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ToolsPublicAccess

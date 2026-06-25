@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceIdentityConfigurations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceIdentityConfigurations.DataOciBdsBdsInstanceIdentityConfigurationsFilter")]
     public class DataOciBdsBdsInstanceIdentityConfigurationsFilter : oci.DataOciBdsBdsInstanceIdentityConfigurations.IDataOciBdsBdsInstanceIdentityConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_bds_instance_identity_configurations#name DataOciBdsBdsInstanceIdentityConfigurations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_identity_configurations#name DataOciBdsBdsInstanceIdentityConfigurations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceIdentityConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_bds_instance_identity_configurations#values DataOciBdsBdsInstanceIdentityConfigurations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_identity_configurations#values DataOciBdsBdsInstanceIdentityConfigurations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBdsBdsInstanceIdentityConfigurations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_bds_instance_identity_configurations#regex DataOciBdsBdsInstanceIdentityConfigurations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_identity_configurations#regex DataOciBdsBdsInstanceIdentityConfigurations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

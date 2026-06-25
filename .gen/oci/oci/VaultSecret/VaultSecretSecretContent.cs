@@ -9,7 +9,7 @@ namespace oci.VaultSecret
     [JsiiByValue(fqn: "oci.vaultSecret.VaultSecretSecretContent")]
     public class VaultSecretSecretContent : oci.VaultSecret.IVaultSecretSecretContent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#content_type VaultSecret#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vault_secret#content_type VaultSecret#content_type}.</summary>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentType
         {
@@ -17,7 +17,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#content VaultSecret#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vault_secret#content VaultSecret#content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Content
@@ -26,7 +26,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#name VaultSecret#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vault_secret#name VaultSecret#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -35,7 +35,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#stage VaultSecret#stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vault_secret#stage VaultSecret#stage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Stage

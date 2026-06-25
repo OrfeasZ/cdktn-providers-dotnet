@@ -9,7 +9,7 @@ namespace oci.DevopsRepository
     [JsiiByValue(fqn: "oci.devopsRepository.DevopsRepositoryMirrorRepositoryConfigTriggerSchedule")]
     public class DevopsRepositoryMirrorRepositoryConfigTriggerSchedule : oci.DevopsRepository.IDevopsRepositoryMirrorRepositoryConfigTriggerSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}.</summary>
         [JsiiProperty(name: "scheduleType", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomSchedule

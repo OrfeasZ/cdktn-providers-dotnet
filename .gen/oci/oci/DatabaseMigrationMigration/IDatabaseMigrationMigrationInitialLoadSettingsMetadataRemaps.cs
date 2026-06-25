@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps), fullyQualifiedName: "oci.databaseMigrationMigration.DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps")]
     public interface IDatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}.</summary>
         [JsiiProperty(name: "newValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NewValue
@@ -18,7 +18,7 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}.</summary>
         [JsiiProperty(name: "oldValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OldValue
@@ -29,7 +29,7 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -47,7 +47,7 @@ namespace oci.DatabaseMigrationMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "newValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NewValue
@@ -55,7 +55,7 @@ namespace oci.DatabaseMigrationMigration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oldValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OldValue
@@ -63,7 +63,7 @@ namespace oci.DatabaseMigrationMigration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

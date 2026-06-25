@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciDatacatalogCatalogPrivateEndpoints.DataOciDatacatalogCatalogPrivateEndpointsFilter")]
     public class DataOciDatacatalogCatalogPrivateEndpointsFilter : oci.DataOciDatacatalogCatalogPrivateEndpoints.IDataOciDatacatalogCatalogPrivateEndpointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#name DataOciDatacatalogCatalogPrivateEndpoints#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#name DataOciDatacatalogCatalogPrivateEndpoints#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#values DataOciDatacatalogCatalogPrivateEndpoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#values DataOciDatacatalogCatalogPrivateEndpoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoints
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoints#regex DataOciDatacatalogCatalogPrivateEndpoints#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoints#regex DataOciDatacatalogCatalogPrivateEndpoints#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

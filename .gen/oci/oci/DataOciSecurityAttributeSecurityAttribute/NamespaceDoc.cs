@@ -5,7 +5,7 @@ namespace oci.DataOciSecurityAttributeSecurityAttribute
     /// <remarks>
     /// <h1><c>data_oci_security_attribute_security_attribute</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/security_attribute_security_attribute"><c>data_oci_security_attribute_security_attribute</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/security_attribute_security_attribute"><c>data_oci_security_attribute_security_attribute</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

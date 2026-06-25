@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiByValue(fqn: "oci.cloudBridgeAsset.CloudBridgeAssetAwsEbsTags")]
     public class CloudBridgeAssetAwsEbsTags : oci.CloudBridgeAsset.ICloudBridgeAssetAwsEbsTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#key CloudBridgeAsset#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#key CloudBridgeAsset#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#value CloudBridgeAsset#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#value CloudBridgeAsset#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

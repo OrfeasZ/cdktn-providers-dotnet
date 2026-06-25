@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiImportedModels
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiImportedModels.DataOciGenerativeAiImportedModelsFilter")]
     public class DataOciGenerativeAiImportedModelsFilter : oci.DataOciGenerativeAiImportedModels.IDataOciGenerativeAiImportedModelsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_imported_models#name DataOciGenerativeAiImportedModels#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_imported_models#name DataOciGenerativeAiImportedModels#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiImportedModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_imported_models#values DataOciGenerativeAiImportedModels#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_imported_models#values DataOciGenerativeAiImportedModels#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiImportedModels
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_imported_models#regex DataOciGenerativeAiImportedModels#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_imported_models#regex DataOciGenerativeAiImportedModels#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExternalDatabaseConnector
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExternalDatabaseConnectorConfig), fullyQualifiedName: "oci.dataOciDatabaseExternalDatabaseConnector.DataOciDatabaseExternalDatabaseConnectorConfig")]
     public interface IDataOciDatabaseExternalDatabaseConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_external_database_connector#external_database_connector_id DataOciDatabaseExternalDatabaseConnector#external_database_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_external_database_connector#external_database_connector_id DataOciDatabaseExternalDatabaseConnector#external_database_connector_id}.</summary>
         [JsiiProperty(name: "externalDatabaseConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalDatabaseConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExternalDatabaseConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_external_database_connector#external_database_connector_id DataOciDatabaseExternalDatabaseConnector#external_database_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_external_database_connector#external_database_connector_id DataOciDatabaseExternalDatabaseConnector#external_database_connector_id}.</summary>
             [JsiiProperty(name: "externalDatabaseConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalDatabaseConnectorId
             {

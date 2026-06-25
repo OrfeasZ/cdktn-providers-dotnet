@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeTargetAlertPolicyAssociation
     [JsiiByValue(fqn: "oci.dataOciDataSafeTargetAlertPolicyAssociation.DataOciDataSafeTargetAlertPolicyAssociationConfig")]
     public class DataOciDataSafeTargetAlertPolicyAssociationConfig : oci.DataOciDataSafeTargetAlertPolicyAssociation.IDataOciDataSafeTargetAlertPolicyAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_target_alert_policy_association#target_alert_policy_association_id DataOciDataSafeTargetAlertPolicyAssociation#target_alert_policy_association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_target_alert_policy_association#target_alert_policy_association_id DataOciDataSafeTargetAlertPolicyAssociation#target_alert_policy_association_id}.</summary>
         [JsiiProperty(name: "targetAlertPolicyAssociationId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetAlertPolicyAssociationId
         {

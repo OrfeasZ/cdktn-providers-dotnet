@@ -9,7 +9,7 @@ namespace oci.MediaServicesMediaAsset
     [JsiiByValue(fqn: "oci.mediaServicesMediaAsset.MediaServicesMediaAssetMediaAssetTags")]
     public class MediaServicesMediaAssetMediaAssetTags : oci.MediaServicesMediaAsset.IMediaServicesMediaAssetMediaAssetTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/media_services_media_asset#value MediaServicesMediaAsset#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/media_services_media_asset#value MediaServicesMediaAsset#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -17,7 +17,7 @@ namespace oci.MediaServicesMediaAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/media_services_media_asset#type MediaServicesMediaAsset#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/media_services_media_asset#type MediaServicesMediaAsset#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

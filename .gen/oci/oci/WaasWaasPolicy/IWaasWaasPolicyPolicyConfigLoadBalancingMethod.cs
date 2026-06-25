@@ -7,14 +7,14 @@ namespace oci.WaasWaasPolicy
     [JsiiInterface(nativeType: typeof(IWaasWaasPolicyPolicyConfigLoadBalancingMethod), fullyQualifiedName: "oci.waasWaasPolicy.WaasWaasPolicyPolicyConfigLoadBalancingMethod")]
     public interface IWaasWaasPolicyPolicyConfigLoadBalancingMethod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}.</summary>
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
         string Method
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Domain
@@ -25,7 +25,7 @@ namespace oci.WaasWaasPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#expiration_time_in_seconds WaasWaasPolicy#expiration_time_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#expiration_time_in_seconds WaasWaasPolicy#expiration_time_in_seconds}.</summary>
         [JsiiProperty(name: "expirationTimeInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ExpirationTimeInSeconds
@@ -36,7 +36,7 @@ namespace oci.WaasWaasPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -54,14 +54,14 @@ namespace oci.WaasWaasPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#method WaasWaasPolicy#method}.</summary>
             [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
             public string Method
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Domain
@@ -69,7 +69,7 @@ namespace oci.WaasWaasPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#expiration_time_in_seconds WaasWaasPolicy#expiration_time_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#expiration_time_in_seconds WaasWaasPolicy#expiration_time_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expirationTimeInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ExpirationTimeInSeconds
@@ -77,7 +77,7 @@ namespace oci.WaasWaasPolicy
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

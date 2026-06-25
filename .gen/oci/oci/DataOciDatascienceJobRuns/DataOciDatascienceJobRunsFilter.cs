@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceJobRuns
     [JsiiByValue(fqn: "oci.dataOciDatascienceJobRuns.DataOciDatascienceJobRunsFilter")]
     public class DataOciDatascienceJobRunsFilter : oci.DataOciDatascienceJobRuns.IDataOciDatascienceJobRunsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_job_runs#name DataOciDatascienceJobRuns#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_job_runs#name DataOciDatascienceJobRuns#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceJobRuns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_job_runs#values DataOciDatascienceJobRuns#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_job_runs#values DataOciDatascienceJobRuns#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceJobRuns
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_job_runs#regex DataOciDatascienceJobRuns#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_job_runs#regex DataOciDatascienceJobRuns#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

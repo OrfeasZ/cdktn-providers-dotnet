@@ -9,7 +9,7 @@ namespace oci.DataOciEmailEmailIpPools
     [JsiiByValue(fqn: "oci.dataOciEmailEmailIpPools.DataOciEmailEmailIpPoolsFilter")]
     public class DataOciEmailEmailIpPoolsFilter : oci.DataOciEmailEmailIpPools.IDataOciEmailEmailIpPoolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_email_ip_pools#name DataOciEmailEmailIpPools#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_email_ip_pools#name DataOciEmailEmailIpPools#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciEmailEmailIpPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_email_ip_pools#values DataOciEmailEmailIpPools#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_email_ip_pools#values DataOciEmailEmailIpPools#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciEmailEmailIpPools
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_email_ip_pools#regex DataOciEmailEmailIpPools#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_email_ip_pools#regex DataOciEmailEmailIpPools#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

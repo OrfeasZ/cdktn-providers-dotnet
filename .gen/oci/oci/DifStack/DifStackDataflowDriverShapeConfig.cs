@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackDataflowDriverShapeConfig")]
     public class DifStackDataflowDriverShapeConfig : oci.DifStack.IDifStackDataflowDriverShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}.</summary>
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public double MemoryInGbs
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#ocpus DifStack#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#ocpus DifStack#ocpus}.</summary>
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
         public double Ocpus
         {

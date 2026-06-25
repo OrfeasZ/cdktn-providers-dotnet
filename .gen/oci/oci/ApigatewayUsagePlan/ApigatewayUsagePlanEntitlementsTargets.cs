@@ -9,7 +9,7 @@ namespace oci.ApigatewayUsagePlan
     [JsiiByValue(fqn: "oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsTargets")]
     public class ApigatewayUsagePlanEntitlementsTargets : oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsTargets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_usage_plan#deployment_id ApigatewayUsagePlan#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#deployment_id ApigatewayUsagePlan#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {

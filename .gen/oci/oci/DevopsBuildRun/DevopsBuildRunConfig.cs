@@ -9,7 +9,7 @@ namespace oci.DevopsBuildRun
     [JsiiByValue(fqn: "oci.devopsBuildRun.DevopsBuildRunConfig")]
     public class DevopsBuildRunConfig : oci.DevopsBuildRun.IDevopsBuildRunConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#build_pipeline_id DevopsBuildRun#build_pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#build_pipeline_id DevopsBuildRun#build_pipeline_id}.</summary>
         [JsiiProperty(name: "buildPipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string BuildPipelineId
         {
@@ -19,7 +19,7 @@ namespace oci.DevopsBuildRun
 
         /// <summary>build_run_arguments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#build_run_arguments DevopsBuildRun#build_run_arguments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#build_run_arguments DevopsBuildRun#build_run_arguments}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "buildRunArguments", typeJson: "{\"fqn\":\"oci.devopsBuildRun.DevopsBuildRunBuildRunArguments\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.DevopsBuildRun
 
         /// <summary>commit_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#commit_info DevopsBuildRun#commit_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#commit_info DevopsBuildRun#commit_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commitInfo", typeJson: "{\"fqn\":\"oci.devopsBuildRun.DevopsBuildRunCommitInfo\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace oci.DevopsBuildRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#defined_tags DevopsBuildRun#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#defined_tags DevopsBuildRun#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.DevopsBuildRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#display_name DevopsBuildRun#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#display_name DevopsBuildRun#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -59,7 +59,7 @@ namespace oci.DevopsBuildRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#freeform_tags DevopsBuildRun#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#freeform_tags DevopsBuildRun#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.DevopsBuildRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#id DevopsBuildRun#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#id DevopsBuildRun#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DevopsBuildRun
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_run#timeouts DevopsBuildRun#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#timeouts DevopsBuildRun#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.devopsBuildRun.DevopsBuildRunTimeouts\"}", isOptional: true)]

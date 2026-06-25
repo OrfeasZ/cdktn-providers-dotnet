@@ -9,7 +9,7 @@ namespace oci.DataOciManagementAgentNamedCredential
     [JsiiByValue(fqn: "oci.dataOciManagementAgentNamedCredential.DataOciManagementAgentNamedCredentialConfig")]
     public class DataOciManagementAgentNamedCredentialConfig : oci.DataOciManagementAgentNamedCredential.IDataOciManagementAgentNamedCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_named_credential#named_credential_id DataOciManagementAgentNamedCredential#named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/management_agent_named_credential#named_credential_id DataOciManagementAgentNamedCredential#named_credential_id}.</summary>
         [JsiiProperty(name: "namedCredentialId", typeJson: "{\"primitive\":\"string\"}")]
         public string NamedCredentialId
         {

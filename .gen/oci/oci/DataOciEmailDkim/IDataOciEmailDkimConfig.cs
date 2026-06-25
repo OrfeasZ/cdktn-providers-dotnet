@@ -7,7 +7,7 @@ namespace oci.DataOciEmailDkim
     [JsiiInterface(nativeType: typeof(IDataOciEmailDkimConfig), fullyQualifiedName: "oci.dataOciEmailDkim.DataOciEmailDkimConfig")]
     public interface IDataOciEmailDkimConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkim#dkim_id DataOciEmailDkim#dkim_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkim#dkim_id DataOciEmailDkim#dkim_id}.</summary>
         [JsiiProperty(name: "dkimId", typeJson: "{\"primitive\":\"string\"}")]
         string DkimId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEmailDkim
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkim#dkim_id DataOciEmailDkim#dkim_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkim#dkim_id DataOciEmailDkim#dkim_id}.</summary>
             [JsiiProperty(name: "dkimId", typeJson: "{\"primitive\":\"string\"}")]
             public string DkimId
             {

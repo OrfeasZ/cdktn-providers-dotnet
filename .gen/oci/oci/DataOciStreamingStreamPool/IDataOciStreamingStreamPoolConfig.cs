@@ -7,7 +7,7 @@ namespace oci.DataOciStreamingStreamPool
     [JsiiInterface(nativeType: typeof(IDataOciStreamingStreamPoolConfig), fullyQualifiedName: "oci.dataOciStreamingStreamPool.DataOciStreamingStreamPoolConfig")]
     public interface IDataOciStreamingStreamPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/streaming_stream_pool#stream_pool_id DataOciStreamingStreamPool#stream_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/streaming_stream_pool#stream_pool_id DataOciStreamingStreamPool#stream_pool_id}.</summary>
         [JsiiProperty(name: "streamPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string StreamPoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStreamingStreamPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/streaming_stream_pool#stream_pool_id DataOciStreamingStreamPool#stream_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/streaming_stream_pool#stream_pool_id DataOciStreamingStreamPool#stream_pool_id}.</summary>
             [JsiiProperty(name: "streamPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamPoolId
             {

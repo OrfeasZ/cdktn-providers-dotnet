@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementCatalogItems
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementCatalogItems.DataOciFleetAppsManagementCatalogItemsFilter")]
     public class DataOciFleetAppsManagementCatalogItemsFilter : oci.DataOciFleetAppsManagementCatalogItems.IDataOciFleetAppsManagementCatalogItemsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_catalog_items#name DataOciFleetAppsManagementCatalogItems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_catalog_items#name DataOciFleetAppsManagementCatalogItems#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementCatalogItems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_catalog_items#values DataOciFleetAppsManagementCatalogItems#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_catalog_items#values DataOciFleetAppsManagementCatalogItems#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementCatalogItems
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_catalog_items#regex DataOciFleetAppsManagementCatalogItems#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_catalog_items#regex DataOciFleetAppsManagementCatalogItems#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

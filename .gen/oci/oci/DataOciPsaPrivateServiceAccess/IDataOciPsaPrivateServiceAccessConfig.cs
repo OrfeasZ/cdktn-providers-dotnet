@@ -7,7 +7,7 @@ namespace oci.DataOciPsaPrivateServiceAccess
     [JsiiInterface(nativeType: typeof(IDataOciPsaPrivateServiceAccessConfig), fullyQualifiedName: "oci.dataOciPsaPrivateServiceAccess.DataOciPsaPrivateServiceAccessConfig")]
     public interface IDataOciPsaPrivateServiceAccessConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/psa_private_service_access#private_service_access_id DataOciPsaPrivateServiceAccess#private_service_access_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psa_private_service_access#private_service_access_id DataOciPsaPrivateServiceAccess#private_service_access_id}.</summary>
         [JsiiProperty(name: "privateServiceAccessId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateServiceAccessId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciPsaPrivateServiceAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/psa_private_service_access#private_service_access_id DataOciPsaPrivateServiceAccess#private_service_access_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psa_private_service_access#private_service_access_id DataOciPsaPrivateServiceAccess#private_service_access_id}.</summary>
             [JsiiProperty(name: "privateServiceAccessId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateServiceAccessId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsBuildRun
     [JsiiByValue(fqn: "oci.dataOciDevopsBuildRun.DataOciDevopsBuildRunConfig")]
     public class DataOciDevopsBuildRunConfig : oci.DataOciDevopsBuildRun.IDataOciDevopsBuildRunConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_build_run#build_run_id DataOciDevopsBuildRun#build_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_build_run#build_run_id DataOciDevopsBuildRun#build_run_id}.</summary>
         [JsiiProperty(name: "buildRunId", typeJson: "{\"primitive\":\"string\"}")]
         public string BuildRunId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeUserAssessment
     [JsiiByValue(fqn: "oci.dataOciDataSafeUserAssessment.DataOciDataSafeUserAssessmentConfig")]
     public class DataOciDataSafeUserAssessmentConfig : oci.DataOciDataSafeUserAssessment.IDataOciDataSafeUserAssessmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment#user_assessment_id DataOciDataSafeUserAssessment#user_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_user_assessment#user_assessment_id DataOciDataSafeUserAssessment#user_assessment_id}.</summary>
         [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserAssessmentId
         {

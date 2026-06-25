@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsSqlReport
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsDatabaseToolsSqlReportConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsDatabaseToolsSqlReport.DataOciDatabaseToolsDatabaseToolsSqlReportConfig")]
     public interface IDataOciDatabaseToolsDatabaseToolsSqlReportConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_tools_database_tools_sql_report#database_tools_sql_report_id DataOciDatabaseToolsDatabaseToolsSqlReport#database_tools_sql_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_sql_report#database_tools_sql_report_id DataOciDatabaseToolsDatabaseToolsSqlReport#database_tools_sql_report_id}.</summary>
         [JsiiProperty(name: "databaseToolsSqlReportId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsSqlReportId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsSqlReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_tools_database_tools_sql_report#database_tools_sql_report_id DataOciDatabaseToolsDatabaseToolsSqlReport#database_tools_sql_report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_sql_report#database_tools_sql_report_id DataOciDatabaseToolsDatabaseToolsSqlReport#database_tools_sql_report_id}.</summary>
             [JsiiProperty(name: "databaseToolsSqlReportId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsSqlReportId
             {

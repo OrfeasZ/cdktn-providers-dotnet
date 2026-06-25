@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsDeployArtifact
     [JsiiInterface(nativeType: typeof(IDataOciDevopsDeployArtifactConfig), fullyQualifiedName: "oci.dataOciDevopsDeployArtifact.DataOciDevopsDeployArtifactConfig")]
     public interface IDataOciDevopsDeployArtifactConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_deploy_artifact#deploy_artifact_id DataOciDevopsDeployArtifact#deploy_artifact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_deploy_artifact#deploy_artifact_id DataOciDevopsDeployArtifact#deploy_artifact_id}.</summary>
         [JsiiProperty(name: "deployArtifactId", typeJson: "{\"primitive\":\"string\"}")]
         string DeployArtifactId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsDeployArtifact
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/devops_deploy_artifact#deploy_artifact_id DataOciDevopsDeployArtifact#deploy_artifact_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_deploy_artifact#deploy_artifact_id DataOciDevopsDeployArtifact#deploy_artifact_id}.</summary>
             [JsiiProperty(name: "deployArtifactId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeployArtifactId
             {

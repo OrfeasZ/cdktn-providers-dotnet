@@ -9,7 +9,7 @@ namespace oci.DataOciKmsVault
     [JsiiByValue(fqn: "oci.dataOciKmsVault.DataOciKmsVaultConfig")]
     public class DataOciKmsVaultConfig : oci.DataOciKmsVault.IDataOciKmsVaultConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_vault#vault_id DataOciKmsVault#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/kms_vault#vault_id DataOciKmsVault#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string VaultId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciObjectstoragePreauthrequest
     [JsiiByValue(fqn: "oci.dataOciObjectstoragePreauthrequest.DataOciObjectstoragePreauthrequestConfig")]
     public class DataOciObjectstoragePreauthrequestConfig : oci.DataOciObjectstoragePreauthrequest.IDataOciObjectstoragePreauthrequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_preauthrequest#bucket DataOciObjectstoragePreauthrequest#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_preauthrequest#bucket DataOciObjectstoragePreauthrequest#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciObjectstoragePreauthrequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_preauthrequest#namespace DataOciObjectstoragePreauthrequest#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_preauthrequest#namespace DataOciObjectstoragePreauthrequest#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciObjectstoragePreauthrequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/objectstorage_preauthrequest#par_id DataOciObjectstoragePreauthrequest#par_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/objectstorage_preauthrequest#par_id DataOciObjectstoragePreauthrequest#par_id}.</summary>
         [JsiiProperty(name: "parId", typeJson: "{\"primitive\":\"string\"}")]
         public string ParId
         {

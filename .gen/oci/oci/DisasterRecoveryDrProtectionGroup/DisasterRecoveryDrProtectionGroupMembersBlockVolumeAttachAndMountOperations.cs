@@ -11,7 +11,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
 
         /// <summary>attachments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/disaster_recovery_dr_protection_group#attachments DisasterRecoveryDrProtectionGroup#attachments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#attachments DisasterRecoveryDrProtectionGroup#attachments}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperationsAttachments" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
 
         /// <summary>mounts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/disaster_recovery_dr_protection_group#mounts DisasterRecoveryDrProtectionGroup#mounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#mounts DisasterRecoveryDrProtectionGroup#mounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperationsMounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]

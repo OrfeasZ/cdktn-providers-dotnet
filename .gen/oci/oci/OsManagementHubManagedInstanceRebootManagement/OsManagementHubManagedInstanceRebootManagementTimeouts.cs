@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceRebootManagement.OsManagementHubManagedInstanceRebootManagementTimeouts")]
     public class OsManagementHubManagedInstanceRebootManagementTimeouts : oci.OsManagementHubManagedInstanceRebootManagement.IOsManagementHubManagedInstanceRebootManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_managed_instance_reboot_management#create OsManagementHubManagedInstanceRebootManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#create OsManagementHubManagedInstanceRebootManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_managed_instance_reboot_management#delete OsManagementHubManagedInstanceRebootManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#delete OsManagementHubManagedInstanceRebootManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_managed_instance_reboot_management#update OsManagementHubManagedInstanceRebootManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#update OsManagementHubManagedInstanceRebootManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

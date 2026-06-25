@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardManagedLists
     [JsiiByValue(fqn: "oci.dataOciCloudGuardManagedLists.DataOciCloudGuardManagedListsFilter")]
     public class DataOciCloudGuardManagedListsFilter : oci.DataOciCloudGuardManagedLists.IDataOciCloudGuardManagedListsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_managed_lists#name DataOciCloudGuardManagedLists#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_managed_lists#name DataOciCloudGuardManagedLists#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudGuardManagedLists
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_managed_lists#values DataOciCloudGuardManagedLists#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_managed_lists#values DataOciCloudGuardManagedLists#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCloudGuardManagedLists
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_managed_lists#regex DataOciCloudGuardManagedLists#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_managed_lists#regex DataOciCloudGuardManagedLists#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

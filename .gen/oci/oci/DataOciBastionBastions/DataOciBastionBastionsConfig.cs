@@ -9,7 +9,7 @@ namespace oci.DataOciBastionBastions
     [JsiiByValue(fqn: "oci.dataOciBastionBastions.DataOciBastionBastionsConfig")]
     public class DataOciBastionBastionsConfig : oci.DataOciBastionBastions.IDataOciBastionBastionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bastion_bastions#compartment_id DataOciBastionBastions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastions#compartment_id DataOciBastionBastions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBastionBastions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bastion_bastions#bastion_id DataOciBastionBastions#bastion_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastions#bastion_id DataOciBastionBastions#bastion_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bastionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BastionId
@@ -26,7 +26,7 @@ namespace oci.DataOciBastionBastions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bastion_bastions#bastion_lifecycle_state DataOciBastionBastions#bastion_lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastions#bastion_lifecycle_state DataOciBastionBastions#bastion_lifecycle_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bastionLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BastionLifecycleState
@@ -39,7 +39,7 @@ namespace oci.DataOciBastionBastions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bastion_bastions#filter DataOciBastionBastions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastions#filter DataOciBastionBastions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBastionBastions.IDataOciBastionBastionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciBastionBastions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bastion_bastions#id DataOciBastionBastions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastions#id DataOciBastionBastions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciBastionBastions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bastion_bastions#name DataOciBastionBastions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastions#name DataOciBastionBastions#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

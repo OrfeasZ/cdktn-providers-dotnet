@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardDetectorRecipe
     [JsiiByValue(fqn: "oci.dataOciCloudGuardDetectorRecipe.DataOciCloudGuardDetectorRecipeConfig")]
     public class DataOciCloudGuardDetectorRecipeConfig : oci.DataOciCloudGuardDetectorRecipe.IDataOciCloudGuardDetectorRecipeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_detector_recipe#detector_recipe_id DataOciCloudGuardDetectorRecipe#detector_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_detector_recipe#detector_recipe_id DataOciCloudGuardDetectorRecipe#detector_recipe_id}.</summary>
         [JsiiProperty(name: "detectorRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         public string DetectorRecipeId
         {

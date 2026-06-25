@@ -7,7 +7,7 @@ namespace oci.DataOciEmailDkims
     [JsiiInterface(nativeType: typeof(IDataOciEmailDkimsConfig), fullyQualifiedName: "oci.dataOciEmailDkims.DataOciEmailDkimsConfig")]
     public interface IDataOciEmailDkimsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#email_domain_id DataOciEmailDkims#email_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#email_domain_id DataOciEmailDkims#email_domain_id}.</summary>
         [JsiiProperty(name: "emailDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string EmailDomainId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciEmailDkims
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#filter DataOciEmailDkims#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#filter DataOciEmailDkims#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciEmailDkims.IDataOciEmailDkimsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciEmailDkims.DataOciEmailDkimsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciEmailDkims
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#id DataOciEmailDkims#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#id DataOciEmailDkims#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciEmailDkims
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#name DataOciEmailDkims#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#name DataOciEmailDkims#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -55,7 +55,7 @@ namespace oci.DataOciEmailDkims
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#state DataOciEmailDkims#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#state DataOciEmailDkims#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,7 +73,7 @@ namespace oci.DataOciEmailDkims
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#email_domain_id DataOciEmailDkims#email_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#email_domain_id DataOciEmailDkims#email_domain_id}.</summary>
             [JsiiProperty(name: "emailDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string EmailDomainId
             {
@@ -82,7 +82,7 @@ namespace oci.DataOciEmailDkims
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#filter DataOciEmailDkims#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#filter DataOciEmailDkims#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciEmailDkims.IDataOciEmailDkimsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -92,7 +92,7 @@ namespace oci.DataOciEmailDkims
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#id DataOciEmailDkims#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#id DataOciEmailDkims#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ namespace oci.DataOciEmailDkims
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#name DataOciEmailDkims#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#name DataOciEmailDkims#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -112,7 +112,7 @@ namespace oci.DataOciEmailDkims
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/email_dkims#state DataOciEmailDkims#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_dkims#state DataOciEmailDkims#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscoveries
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbSystemDiscoveries.DataOciDatabaseManagementExternalDbSystemDiscoveriesFilter")]
     public class DataOciDatabaseManagementExternalDbSystemDiscoveriesFilter : oci.DataOciDatabaseManagementExternalDbSystemDiscoveries.IDataOciDatabaseManagementExternalDbSystemDiscoveriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_db_system_discoveries#name DataOciDatabaseManagementExternalDbSystemDiscoveries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_db_system_discoveries#name DataOciDatabaseManagementExternalDbSystemDiscoveries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_db_system_discoveries#values DataOciDatabaseManagementExternalDbSystemDiscoveries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_db_system_discoveries#values DataOciDatabaseManagementExternalDbSystemDiscoveries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscoveries
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_db_system_discoveries#regex DataOciDatabaseManagementExternalDbSystemDiscoveries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_db_system_discoveries#regex DataOciDatabaseManagementExternalDbSystemDiscoveries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

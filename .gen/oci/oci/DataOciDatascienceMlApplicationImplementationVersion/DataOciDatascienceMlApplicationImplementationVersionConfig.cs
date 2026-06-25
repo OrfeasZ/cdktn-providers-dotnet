@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersion
     [JsiiByValue(fqn: "oci.dataOciDatascienceMlApplicationImplementationVersion.DataOciDatascienceMlApplicationImplementationVersionConfig")]
     public class DataOciDatascienceMlApplicationImplementationVersionConfig : oci.DataOciDatascienceMlApplicationImplementationVersion.IDataOciDatascienceMlApplicationImplementationVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_ml_application_implementation_version#ml_application_implementation_version_id DataOciDatascienceMlApplicationImplementationVersion#ml_application_implementation_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_ml_application_implementation_version#ml_application_implementation_version_id DataOciDatascienceMlApplicationImplementationVersion#ml_application_implementation_version_id}.</summary>
         [JsiiProperty(name: "mlApplicationImplementationVersionId", typeJson: "{\"primitive\":\"string\"}")]
         public string MlApplicationImplementationVersionId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_ml_application_implementation_version#id DataOciDatascienceMlApplicationImplementationVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_ml_application_implementation_version#id DataOciDatascienceMlApplicationImplementationVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

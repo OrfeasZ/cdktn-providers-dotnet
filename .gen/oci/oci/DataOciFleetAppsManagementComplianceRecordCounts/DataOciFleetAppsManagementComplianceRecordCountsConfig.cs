@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecordCounts
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementComplianceRecordCounts.DataOciFleetAppsManagementComplianceRecordCountsConfig")]
     public class DataOciFleetAppsManagementComplianceRecordCountsConfig : oci.DataOciFleetAppsManagementComplianceRecordCounts.IDataOciFleetAppsManagementComplianceRecordCountsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_record_counts#compartment_id DataOciFleetAppsManagementComplianceRecordCounts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_record_counts#compartment_id DataOciFleetAppsManagementComplianceRecordCounts#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecordCounts
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_record_counts#compartment_id_in_subtree DataOciFleetAppsManagementComplianceRecordCounts#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_record_counts#compartment_id_in_subtree DataOciFleetAppsManagementComplianceRecordCounts#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecordCounts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_record_counts#filter DataOciFleetAppsManagementComplianceRecordCounts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_record_counts#filter DataOciFleetAppsManagementComplianceRecordCounts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementComplianceRecordCounts.IDataOciFleetAppsManagementComplianceRecordCountsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -85,7 +85,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecordCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_record_counts#id DataOciFleetAppsManagementComplianceRecordCounts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_record_counts#id DataOciFleetAppsManagementComplianceRecordCounts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceComputeTarget
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceComputeTargetConfig), fullyQualifiedName: "oci.dataOciDatascienceComputeTarget.DataOciDatascienceComputeTargetConfig")]
     public interface IDataOciDatascienceComputeTargetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_compute_target#compute_target_id DataOciDatascienceComputeTarget#compute_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_compute_target#compute_target_id DataOciDatascienceComputeTarget#compute_target_id}.</summary>
         [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeTargetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceComputeTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_compute_target#compute_target_id DataOciDatascienceComputeTarget#compute_target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_compute_target#compute_target_id DataOciDatascienceComputeTarget#compute_target_id}.</summary>
             [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeTargetId
             {

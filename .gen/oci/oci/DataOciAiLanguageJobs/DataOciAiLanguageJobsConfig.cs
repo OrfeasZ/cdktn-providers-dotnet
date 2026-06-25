@@ -9,7 +9,7 @@ namespace oci.DataOciAiLanguageJobs
     [JsiiByValue(fqn: "oci.dataOciAiLanguageJobs.DataOciAiLanguageJobsConfig")]
     public class DataOciAiLanguageJobsConfig : oci.DataOciAiLanguageJobs.IDataOciAiLanguageJobsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_language_jobs#compartment_id DataOciAiLanguageJobs#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_language_jobs#compartment_id DataOciAiLanguageJobs#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAiLanguageJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_language_jobs#display_name DataOciAiLanguageJobs#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_language_jobs#display_name DataOciAiLanguageJobs#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciAiLanguageJobs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_language_jobs#filter DataOciAiLanguageJobs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_language_jobs#filter DataOciAiLanguageJobs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiLanguageJobs.IDataOciAiLanguageJobsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciAiLanguageJobs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_language_jobs#id DataOciAiLanguageJobs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_language_jobs#id DataOciAiLanguageJobs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciAiLanguageJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_language_jobs#state DataOciAiLanguageJobs#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_language_jobs#state DataOciAiLanguageJobs#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

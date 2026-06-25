@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceModelDeployment
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelDeploymentConfig), fullyQualifiedName: "oci.dataOciDatascienceModelDeployment.DataOciDatascienceModelDeploymentConfig")]
     public interface IDataOciDatascienceModelDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_model_deployment#model_deployment_id DataOciDatascienceModelDeployment#model_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_model_deployment#model_deployment_id DataOciDatascienceModelDeployment#model_deployment_id}.</summary>
         [JsiiProperty(name: "modelDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelDeploymentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceModelDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datascience_model_deployment#model_deployment_id DataOciDatascienceModelDeployment#model_deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_model_deployment#model_deployment_id DataOciDatascienceModelDeployment#model_deployment_id}.</summary>
             [JsiiProperty(name: "modelDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelDeploymentId
             {

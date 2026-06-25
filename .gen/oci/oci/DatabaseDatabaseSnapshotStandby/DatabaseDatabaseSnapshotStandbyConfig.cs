@@ -9,7 +9,7 @@ namespace oci.DatabaseDatabaseSnapshotStandby
     [JsiiByValue(fqn: "oci.databaseDatabaseSnapshotStandby.DatabaseDatabaseSnapshotStandbyConfig")]
     public class DatabaseDatabaseSnapshotStandbyConfig : oci.DatabaseDatabaseSnapshotStandby.IDatabaseDatabaseSnapshotStandbyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_snapshot_standby#database_admin_password DatabaseDatabaseSnapshotStandby#database_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_snapshot_standby#database_admin_password DatabaseDatabaseSnapshotStandby#database_admin_password}.</summary>
         [JsiiProperty(name: "databaseAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseAdminPassword
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_snapshot_standby#database_id DatabaseDatabaseSnapshotStandby#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_snapshot_standby#database_id DatabaseDatabaseSnapshotStandby#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_snapshot_standby#standby_conversion_type DatabaseDatabaseSnapshotStandby#standby_conversion_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_snapshot_standby#standby_conversion_type DatabaseDatabaseSnapshotStandby#standby_conversion_type}.</summary>
         [JsiiProperty(name: "standbyConversionType", typeJson: "{\"primitive\":\"string\"}")]
         public string StandbyConversionType
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_snapshot_standby#id DatabaseDatabaseSnapshotStandby#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_snapshot_standby#id DatabaseDatabaseSnapshotStandby#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace oci.DatabaseDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_snapshot_standby#snapshot_duration_in_days DatabaseDatabaseSnapshotStandby#snapshot_duration_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_snapshot_standby#snapshot_duration_in_days DatabaseDatabaseSnapshotStandby#snapshot_duration_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotDurationInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SnapshotDurationInDays
@@ -57,7 +57,7 @@ namespace oci.DatabaseDatabaseSnapshotStandby
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_snapshot_standby#timeouts DatabaseDatabaseSnapshotStandby#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_snapshot_standby#timeouts DatabaseDatabaseSnapshotStandby#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDatabaseSnapshotStandby.DatabaseDatabaseSnapshotStandbyTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciSecretsSecretbundle
     [JsiiByValue(fqn: "oci.dataOciSecretsSecretbundle.DataOciSecretsSecretbundleConfig")]
     public class DataOciSecretsSecretbundleConfig : oci.DataOciSecretsSecretbundle.IDataOciSecretsSecretbundleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/secrets_secretbundle#secret_id DataOciSecretsSecretbundle#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/secrets_secretbundle#secret_id DataOciSecretsSecretbundle#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciSecretsSecretbundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/secrets_secretbundle#id DataOciSecretsSecretbundle#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/secrets_secretbundle#id DataOciSecretsSecretbundle#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.DataOciSecretsSecretbundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/secrets_secretbundle#secret_version_name DataOciSecretsSecretbundle#secret_version_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/secrets_secretbundle#secret_version_name DataOciSecretsSecretbundle#secret_version_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretVersionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretVersionName
@@ -39,7 +39,7 @@ namespace oci.DataOciSecretsSecretbundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/secrets_secretbundle#stage DataOciSecretsSecretbundle#stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/secrets_secretbundle#stage DataOciSecretsSecretbundle#stage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Stage
@@ -48,7 +48,7 @@ namespace oci.DataOciSecretsSecretbundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/secrets_secretbundle#version_number DataOciSecretsSecretbundle#version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/secrets_secretbundle#version_number DataOciSecretsSecretbundle#version_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionNumber

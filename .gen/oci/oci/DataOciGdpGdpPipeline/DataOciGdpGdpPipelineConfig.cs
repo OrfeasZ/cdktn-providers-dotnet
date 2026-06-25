@@ -9,7 +9,7 @@ namespace oci.DataOciGdpGdpPipeline
     [JsiiByValue(fqn: "oci.dataOciGdpGdpPipeline.DataOciGdpGdpPipelineConfig")]
     public class DataOciGdpGdpPipelineConfig : oci.DataOciGdpGdpPipeline.IDataOciGdpGdpPipelineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/gdp_gdp_pipeline#gdp_pipeline_id DataOciGdpGdpPipeline#gdp_pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/gdp_gdp_pipeline#gdp_pipeline_id DataOciGdpGdpPipeline#gdp_pipeline_id}.</summary>
         [JsiiProperty(name: "gdpPipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string GdpPipelineId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/gdp_gdp_pipeline#env DataOciGdpGdpPipeline#env}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/gdp_gdp_pipeline#env DataOciGdpGdpPipeline#env}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "env", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Env

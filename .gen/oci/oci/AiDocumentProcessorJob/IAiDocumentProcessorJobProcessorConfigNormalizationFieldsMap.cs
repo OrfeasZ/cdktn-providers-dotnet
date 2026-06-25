@@ -7,7 +7,7 @@ namespace oci.AiDocumentProcessorJob
     [JsiiInterface(nativeType: typeof(IAiDocumentProcessorJobProcessorConfigNormalizationFieldsMap), fullyQualifiedName: "oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFieldsMap")]
     public interface IAiDocumentProcessorJobProcessorConfigNormalizationFieldsMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_processor_job#normalization_type AiDocumentProcessorJob#normalization_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_processor_job#normalization_type AiDocumentProcessorJob#normalization_type}.</summary>
         [JsiiProperty(name: "normalizationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NormalizationType
@@ -25,7 +25,7 @@ namespace oci.AiDocumentProcessorJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_processor_job#normalization_type AiDocumentProcessorJob#normalization_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_processor_job#normalization_type AiDocumentProcessorJob#normalization_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "normalizationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NormalizationType

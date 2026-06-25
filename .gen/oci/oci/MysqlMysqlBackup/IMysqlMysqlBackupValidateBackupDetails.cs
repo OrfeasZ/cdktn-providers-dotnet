@@ -7,7 +7,7 @@ namespace oci.MysqlMysqlBackup
     [JsiiInterface(nativeType: typeof(IMysqlMysqlBackupValidateBackupDetails), fullyQualifiedName: "oci.mysqlMysqlBackup.MysqlMysqlBackupValidateBackupDetails")]
     public interface IMysqlMysqlBackupValidateBackupDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_backup#is_prepared_backup_required MysqlMysqlBackup#is_prepared_backup_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_backup#is_prepared_backup_required MysqlMysqlBackup#is_prepared_backup_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.MysqlMysqlBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_backup#is_prepared_backup_required MysqlMysqlBackup#is_prepared_backup_required}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_backup#is_prepared_backup_required MysqlMysqlBackup#is_prepared_backup_required}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

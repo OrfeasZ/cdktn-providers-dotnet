@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsApprovalWorkflowStepConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsApprovalWorkflowStep.DataOciIdentityDomainsApprovalWorkflowStepConfig")]
     public interface IDataOciIdentityDomainsApprovalWorkflowStepConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#approval_workflow_step_id DataOciIdentityDomainsApprovalWorkflowStep#approval_workflow_step_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#approval_workflow_step_id DataOciIdentityDomainsApprovalWorkflowStep#approval_workflow_step_id}.</summary>
         [JsiiProperty(name: "approvalWorkflowStepId", typeJson: "{\"primitive\":\"string\"}")]
         string ApprovalWorkflowStepId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowStep#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowStep#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#attributes DataOciIdentityDomainsApprovalWorkflowStep#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#attributes DataOciIdentityDomainsApprovalWorkflowStep#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#attribute_sets DataOciIdentityDomainsApprovalWorkflowStep#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#attribute_sets DataOciIdentityDomainsApprovalWorkflowStep#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#authorization DataOciIdentityDomainsApprovalWorkflowStep#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#authorization DataOciIdentityDomainsApprovalWorkflowStep#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -54,7 +54,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowStep#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowStep#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -72,21 +72,21 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#approval_workflow_step_id DataOciIdentityDomainsApprovalWorkflowStep#approval_workflow_step_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#approval_workflow_step_id DataOciIdentityDomainsApprovalWorkflowStep#approval_workflow_step_id}.</summary>
             [JsiiProperty(name: "approvalWorkflowStepId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApprovalWorkflowStepId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowStep#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowStep#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#attributes DataOciIdentityDomainsApprovalWorkflowStep#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#attributes DataOciIdentityDomainsApprovalWorkflowStep#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -94,7 +94,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#attribute_sets DataOciIdentityDomainsApprovalWorkflowStep#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#attribute_sets DataOciIdentityDomainsApprovalWorkflowStep#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -102,7 +102,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#authorization DataOciIdentityDomainsApprovalWorkflowStep#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#authorization DataOciIdentityDomainsApprovalWorkflowStep#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -110,7 +110,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowStep
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_approval_workflow_step#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowStep#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_approval_workflow_step#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowStep#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

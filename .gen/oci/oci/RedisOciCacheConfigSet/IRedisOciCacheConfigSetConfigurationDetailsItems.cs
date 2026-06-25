@@ -7,14 +7,14 @@ namespace oci.RedisOciCacheConfigSet
     [JsiiInterface(nativeType: typeof(IRedisOciCacheConfigSetConfigurationDetailsItems), fullyQualifiedName: "oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItems")]
     public interface IRedisOciCacheConfigSetConfigurationDetailsItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}.</summary>
         [JsiiProperty(name: "configKey", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}.</summary>
         [JsiiProperty(name: "configValue", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigValue
         {
@@ -28,14 +28,14 @@ namespace oci.RedisOciCacheConfigSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}.</summary>
             [JsiiProperty(name: "configKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}.</summary>
             [JsiiProperty(name: "configValue", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigValue
             {

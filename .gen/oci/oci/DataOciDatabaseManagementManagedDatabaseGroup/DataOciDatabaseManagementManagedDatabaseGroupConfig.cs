@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseGroup
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabaseGroup.DataOciDatabaseManagementManagedDatabaseGroupConfig")]
     public class DataOciDatabaseManagementManagedDatabaseGroupConfig : oci.DataOciDatabaseManagementManagedDatabaseGroup.IDataOciDatabaseManagementManagedDatabaseGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_group#managed_database_group_id DataOciDatabaseManagementManagedDatabaseGroup#managed_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_database_group#managed_database_group_id DataOciDatabaseManagementManagedDatabaseGroup#managed_database_group_id}.</summary>
         [JsiiProperty(name: "managedDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedDatabaseGroupId
         {

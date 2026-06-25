@@ -9,7 +9,7 @@ namespace oci.GoldenGateDeployment
     [JsiiByValue(fqn: "oci.goldenGateDeployment.GoldenGateDeploymentOggDataGroupToRolesMapping")]
     public class GoldenGateDeploymentOggDataGroupToRolesMapping : oci.GoldenGateDeployment.IGoldenGateDeploymentOggDataGroupToRolesMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment#security_group_id GoldenGateDeployment#security_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment#security_group_id GoldenGateDeployment#security_group_id}.</summary>
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment#administrator_group_id GoldenGateDeployment#administrator_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment#administrator_group_id GoldenGateDeployment#administrator_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "administratorGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AdministratorGroupId
@@ -26,7 +26,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment#operator_group_id GoldenGateDeployment#operator_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment#operator_group_id GoldenGateDeployment#operator_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operatorGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OperatorGroupId
@@ -35,7 +35,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment#user_group_id GoldenGateDeployment#user_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_deployment#user_group_id GoldenGateDeployment#user_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserGroupId

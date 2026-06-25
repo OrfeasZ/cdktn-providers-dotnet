@@ -7,7 +7,7 @@ namespace oci.DataOciMeteringComputationSchedule
     [JsiiInterface(nativeType: typeof(IDataOciMeteringComputationScheduleConfig), fullyQualifiedName: "oci.dataOciMeteringComputationSchedule.DataOciMeteringComputationScheduleConfig")]
     public interface IDataOciMeteringComputationScheduleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/metering_computation_schedule#schedule_id DataOciMeteringComputationSchedule#schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/metering_computation_schedule#schedule_id DataOciMeteringComputationSchedule#schedule_id}.</summary>
         [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
         string ScheduleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMeteringComputationSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/metering_computation_schedule#schedule_id DataOciMeteringComputationSchedule#schedule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/metering_computation_schedule#schedule_id DataOciMeteringComputationSchedule#schedule_id}.</summary>
             [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
             public string ScheduleId
             {

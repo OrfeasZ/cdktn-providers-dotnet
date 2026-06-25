@@ -5,7 +5,7 @@ namespace oci.AiDocumentModel
     /// <remarks>
     /// <h1><c>oci_ai_document_model</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model"><c>oci_ai_document_model</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_model"><c>oci_ai_document_model</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

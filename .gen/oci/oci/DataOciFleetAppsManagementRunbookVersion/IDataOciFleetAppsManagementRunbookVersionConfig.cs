@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementRunbookVersion
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementRunbookVersionConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementRunbookVersion.DataOciFleetAppsManagementRunbookVersionConfig")]
     public interface IDataOciFleetAppsManagementRunbookVersionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_version#runbook_version_id DataOciFleetAppsManagementRunbookVersion#runbook_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_version#runbook_version_id DataOciFleetAppsManagementRunbookVersion#runbook_version_id}.</summary>
         [JsiiProperty(name: "runbookVersionId", typeJson: "{\"primitive\":\"string\"}")]
         string RunbookVersionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementRunbookVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_runbook_version#runbook_version_id DataOciFleetAppsManagementRunbookVersion#runbook_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_runbook_version#runbook_version_id DataOciFleetAppsManagementRunbookVersion#runbook_version_id}.</summary>
             [JsiiProperty(name: "runbookVersionId", typeJson: "{\"primitive\":\"string\"}")]
             public string RunbookVersionId
             {

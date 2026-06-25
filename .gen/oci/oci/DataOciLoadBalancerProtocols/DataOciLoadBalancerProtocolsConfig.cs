@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerProtocols
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerProtocols.DataOciLoadBalancerProtocolsConfig")]
     public class DataOciLoadBalancerProtocolsConfig : oci.DataOciLoadBalancerProtocols.IDataOciLoadBalancerProtocolsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_protocols#compartment_id DataOciLoadBalancerProtocols#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_protocols#compartment_id DataOciLoadBalancerProtocols#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLoadBalancerProtocols
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_protocols#filter DataOciLoadBalancerProtocols#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_protocols#filter DataOciLoadBalancerProtocols#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLoadBalancerProtocols.IDataOciLoadBalancerProtocolsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciLoadBalancerProtocols
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_protocols#id DataOciLoadBalancerProtocols#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_protocols#id DataOciLoadBalancerProtocols#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

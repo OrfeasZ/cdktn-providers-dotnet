@@ -7,7 +7,7 @@ namespace oci.KmsVault
     [JsiiInterface(nativeType: typeof(IKmsVaultExternalKeyManagerMetadata), fullyQualifiedName: "oci.kmsVault.KmsVaultExternalKeyManagerMetadata")]
     public interface IKmsVaultExternalKeyManagerMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}.</summary>
         [JsiiProperty(name: "externalVaultEndpointUrl", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalVaultEndpointUrl
         {
@@ -16,7 +16,7 @@ namespace oci.KmsVault
 
         /// <summary>oauth_metadata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
         /// </remarks>
         [JsiiProperty(name: "oauthMetadata", typeJson: "{\"fqn\":\"oci.kmsVault.KmsVaultExternalKeyManagerMetadataOauthMetadata\"}")]
         oci.KmsVault.IKmsVaultExternalKeyManagerMetadataOauthMetadata OauthMetadata
@@ -24,7 +24,7 @@ namespace oci.KmsVault
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateEndpointId
         {
@@ -38,7 +38,7 @@ namespace oci.KmsVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}.</summary>
             [JsiiProperty(name: "externalVaultEndpointUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalVaultEndpointUrl
             {
@@ -47,7 +47,7 @@ namespace oci.KmsVault
 
             /// <summary>oauth_metadata block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
             /// </remarks>
             [JsiiProperty(name: "oauthMetadata", typeJson: "{\"fqn\":\"oci.kmsVault.KmsVaultExternalKeyManagerMetadataOauthMetadata\"}")]
             public oci.KmsVault.IKmsVaultExternalKeyManagerMetadataOauthMetadata OauthMetadata
@@ -55,7 +55,7 @@ namespace oci.KmsVault
                 get => GetInstanceProperty<oci.KmsVault.IKmsVaultExternalKeyManagerMetadataOauthMetadata>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}.</summary>
             [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateEndpointId
             {

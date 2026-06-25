@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeadersItems")]
     public class ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeadersItems : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeadersItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}.</summary>
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}")]
         public string From
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}.</summary>
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}")]
         public string To
         {

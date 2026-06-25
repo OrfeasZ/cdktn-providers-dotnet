@@ -7,7 +7,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
     [JsiiInterface(nativeType: typeof(IDatabaseSchedulingPolicySchedulingWindowConfig), fullyQualifiedName: "oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowConfig")]
     public interface IDatabaseSchedulingPolicySchedulingWindowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#scheduling_policy_id DatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#scheduling_policy_id DatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SchedulingPolicyId
         {
@@ -16,7 +16,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
         /// <summary>window_preference block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#window_preference DatabaseSchedulingPolicySchedulingWindow#window_preference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#window_preference DatabaseSchedulingPolicySchedulingWindow#window_preference}
         /// </remarks>
         [JsiiProperty(name: "windowPreference", typeJson: "{\"fqn\":\"oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreference\"}")]
         oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreference WindowPreference
@@ -24,7 +24,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#compartment_id DatabaseSchedulingPolicySchedulingWindow#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#compartment_id DatabaseSchedulingPolicySchedulingWindow#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -35,7 +35,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#defined_tags DatabaseSchedulingPolicySchedulingWindow#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#defined_tags DatabaseSchedulingPolicySchedulingWindow#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#freeform_tags DatabaseSchedulingPolicySchedulingWindow#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#freeform_tags DatabaseSchedulingPolicySchedulingWindow#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -57,7 +57,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#id DatabaseSchedulingPolicySchedulingWindow#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#id DatabaseSchedulingPolicySchedulingWindow#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#timeouts DatabaseSchedulingPolicySchedulingWindow#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#timeouts DatabaseSchedulingPolicySchedulingWindow#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#scheduling_policy_id DatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#scheduling_policy_id DatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
             [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SchedulingPolicyId
             {
@@ -102,7 +102,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
             /// <summary>window_preference block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#window_preference DatabaseSchedulingPolicySchedulingWindow#window_preference}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#window_preference DatabaseSchedulingPolicySchedulingWindow#window_preference}
             /// </remarks>
             [JsiiProperty(name: "windowPreference", typeJson: "{\"fqn\":\"oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreference\"}")]
             public oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreference WindowPreference
@@ -110,7 +110,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
                 get => GetInstanceProperty<oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreference>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#compartment_id DatabaseSchedulingPolicySchedulingWindow#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#compartment_id DatabaseSchedulingPolicySchedulingWindow#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -118,7 +118,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#defined_tags DatabaseSchedulingPolicySchedulingWindow#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#defined_tags DatabaseSchedulingPolicySchedulingWindow#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -126,7 +126,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#freeform_tags DatabaseSchedulingPolicySchedulingWindow#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#freeform_tags DatabaseSchedulingPolicySchedulingWindow#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -134,7 +134,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#id DatabaseSchedulingPolicySchedulingWindow#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#id DatabaseSchedulingPolicySchedulingWindow#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_scheduling_policy_scheduling_window#timeouts DatabaseSchedulingPolicySchedulingWindow#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy_scheduling_window#timeouts DatabaseSchedulingPolicySchedulingWindow#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowTimeouts\"}", isOptional: true)]

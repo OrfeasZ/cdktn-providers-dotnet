@@ -47,6 +47,12 @@ namespace oci.DataOciIntegrationIntegrationInstances
             get => GetInstanceProperty<oci.DataOciIntegrationIntegrationInstances.DataOciIntegrationIntegrationInstancesIntegrationInstancesAttachmentsList>()!;
         }
 
+        [JsiiProperty(name: "attachmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AttachmentType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -219,6 +225,12 @@ namespace oci.DataOciIntegrationIntegrationInstances
         public virtual oci.DataOciIntegrationIntegrationInstances.DataOciIntegrationIntegrationInstancesIntegrationInstancesPrivateEndpointOutboundConnectionList PrivateEndpointOutboundConnection
         {
             get => GetInstanceProperty<oci.DataOciIntegrationIntegrationInstances.DataOciIntegrationIntegrationInstancesIntegrationInstancesPrivateEndpointOutboundConnectionList>()!;
+        }
+
+        [JsiiProperty(name: "processAutomationLogGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProcessAutomationLogGroupId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublic
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonymConfig")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonymConfig : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonymConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonym#credential_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym#credential_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonym#credential_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym#credential_key}.</summary>
         [JsiiProperty(name: "credentialKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonym#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonym#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonym#public_synonym_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym#public_synonym_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonym#public_synonym_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonym#public_synonym_key}.</summary>
         [JsiiProperty(name: "publicSynonymKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicSynonymKey
         {

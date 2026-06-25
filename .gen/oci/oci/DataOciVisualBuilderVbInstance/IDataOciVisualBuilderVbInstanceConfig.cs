@@ -7,7 +7,7 @@ namespace oci.DataOciVisualBuilderVbInstance
     [JsiiInterface(nativeType: typeof(IDataOciVisualBuilderVbInstanceConfig), fullyQualifiedName: "oci.dataOciVisualBuilderVbInstance.DataOciVisualBuilderVbInstanceConfig")]
     public interface IDataOciVisualBuilderVbInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/visual_builder_vb_instance#vb_instance_id DataOciVisualBuilderVbInstance#vb_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/visual_builder_vb_instance#vb_instance_id DataOciVisualBuilderVbInstance#vb_instance_id}.</summary>
         [JsiiProperty(name: "vbInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string VbInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciVisualBuilderVbInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/visual_builder_vb_instance#vb_instance_id DataOciVisualBuilderVbInstance#vb_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/visual_builder_vb_instance#vb_instance_id DataOciVisualBuilderVbInstance#vb_instance_id}.</summary>
             [JsiiProperty(name: "vbInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string VbInstanceId
             {

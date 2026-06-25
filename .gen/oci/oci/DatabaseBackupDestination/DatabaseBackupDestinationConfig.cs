@@ -9,7 +9,7 @@ namespace oci.DatabaseBackupDestination
     [JsiiByValue(fqn: "oci.databaseBackupDestination.DatabaseBackupDestinationConfig")]
     public class DatabaseBackupDestinationConfig : oci.DatabaseBackupDestination.IDatabaseBackupDestinationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#compartment_id DatabaseBackupDestination#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#compartment_id DatabaseBackupDestination#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#display_name DatabaseBackupDestination#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#display_name DatabaseBackupDestination#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#type DatabaseBackupDestination#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#type DatabaseBackupDestination#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#connection_string DatabaseBackupDestination#connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#connection_string DatabaseBackupDestination#connection_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionString
@@ -42,7 +42,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#defined_tags DatabaseBackupDestination#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#defined_tags DatabaseBackupDestination#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -51,7 +51,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#freeform_tags DatabaseBackupDestination#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#freeform_tags DatabaseBackupDestination#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -60,7 +60,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#id DatabaseBackupDestination#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#id DatabaseBackupDestination#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#local_mount_point_path DatabaseBackupDestination#local_mount_point_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#local_mount_point_path DatabaseBackupDestination#local_mount_point_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localMountPointPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LocalMountPointPath
@@ -84,7 +84,7 @@ namespace oci.DatabaseBackupDestination
 
         /// <summary>mount_type_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#mount_type_details DatabaseBackupDestination#mount_type_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#mount_type_details DatabaseBackupDestination#mount_type_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mountTypeDetails", typeJson: "{\"fqn\":\"oci.databaseBackupDestination.DatabaseBackupDestinationMountTypeDetails\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace oci.DatabaseBackupDestination
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#timeouts DatabaseBackupDestination#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#timeouts DatabaseBackupDestination#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseBackupDestination.DatabaseBackupDestinationTimeouts\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_backup_destination#vpc_users DatabaseBackupDestination#vpc_users}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup_destination#vpc_users DatabaseBackupDestination#vpc_users}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcUsers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VpcUsers

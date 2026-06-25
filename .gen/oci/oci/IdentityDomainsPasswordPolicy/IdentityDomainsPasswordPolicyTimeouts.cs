@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsPasswordPolicy
     [JsiiByValue(fqn: "oci.identityDomainsPasswordPolicy.IdentityDomainsPasswordPolicyTimeouts")]
     public class IdentityDomainsPasswordPolicyTimeouts : oci.IdentityDomainsPasswordPolicy.IIdentityDomainsPasswordPolicyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_password_policy#create IdentityDomainsPasswordPolicy#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_password_policy#create IdentityDomainsPasswordPolicy#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsPasswordPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_password_policy#delete IdentityDomainsPasswordPolicy#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_password_policy#delete IdentityDomainsPasswordPolicy#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsPasswordPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_password_policy#update IdentityDomainsPasswordPolicy#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_password_policy#update IdentityDomainsPasswordPolicy#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

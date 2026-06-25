@@ -5,7 +5,7 @@ namespace oci.DataOciDataintegrationWorkspaceProjects
     /// <remarks>
     /// <h1><c>data_oci_dataintegration_workspace_projects</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataintegration_workspace_projects"><c>data_oci_dataintegration_workspace_projects</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataintegration_workspace_projects"><c>data_oci_dataintegration_workspace_projects</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

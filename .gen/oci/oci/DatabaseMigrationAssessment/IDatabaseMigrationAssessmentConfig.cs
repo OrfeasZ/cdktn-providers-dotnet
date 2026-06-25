@@ -7,42 +7,42 @@ namespace oci.DatabaseMigrationAssessment
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationAssessmentConfig), fullyQualifiedName: "oci.databaseMigrationAssessment.DatabaseMigrationAssessmentConfig")]
     public interface IDatabaseMigrationAssessmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#acceptable_downtime DatabaseMigrationAssessment#acceptable_downtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#acceptable_downtime DatabaseMigrationAssessment#acceptable_downtime}.</summary>
         [JsiiProperty(name: "acceptableDowntime", typeJson: "{\"primitive\":\"string\"}")]
         string AcceptableDowntime
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#compartment_id DatabaseMigrationAssessment#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#compartment_id DatabaseMigrationAssessment#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#database_combination DatabaseMigrationAssessment#database_combination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#database_combination DatabaseMigrationAssessment#database_combination}.</summary>
         [JsiiProperty(name: "databaseCombination", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseCombination
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#database_data_size DatabaseMigrationAssessment#database_data_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#database_data_size DatabaseMigrationAssessment#database_data_size}.</summary>
         [JsiiProperty(name: "databaseDataSize", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseDataSize
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#ddl_expectation DatabaseMigrationAssessment#ddl_expectation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#ddl_expectation DatabaseMigrationAssessment#ddl_expectation}.</summary>
         [JsiiProperty(name: "ddlExpectation", typeJson: "{\"primitive\":\"string\"}")]
         string DdlExpectation
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#network_speed_megabit_per_second DatabaseMigrationAssessment#network_speed_megabit_per_second}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#network_speed_megabit_per_second DatabaseMigrationAssessment#network_speed_megabit_per_second}.</summary>
         [JsiiProperty(name: "networkSpeedMegabitPerSecond", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkSpeedMegabitPerSecond
         {
@@ -51,7 +51,7 @@ namespace oci.DatabaseMigrationAssessment
 
         /// <summary>source_database_connection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#source_database_connection DatabaseMigrationAssessment#source_database_connection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#source_database_connection DatabaseMigrationAssessment#source_database_connection}
         /// </remarks>
         [JsiiProperty(name: "sourceDatabaseConnection", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentSourceDatabaseConnection\"}")]
         oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentSourceDatabaseConnection SourceDatabaseConnection
@@ -61,7 +61,7 @@ namespace oci.DatabaseMigrationAssessment
 
         /// <summary>target_database_connection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#target_database_connection DatabaseMigrationAssessment#target_database_connection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#target_database_connection DatabaseMigrationAssessment#target_database_connection}
         /// </remarks>
         [JsiiProperty(name: "targetDatabaseConnection", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentTargetDatabaseConnection\"}")]
         oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentTargetDatabaseConnection TargetDatabaseConnection
@@ -69,7 +69,7 @@ namespace oci.DatabaseMigrationAssessment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#bulk_include_exclude_data DatabaseMigrationAssessment#bulk_include_exclude_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#bulk_include_exclude_data DatabaseMigrationAssessment#bulk_include_exclude_data}.</summary>
         [JsiiProperty(name: "bulkIncludeExcludeData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BulkIncludeExcludeData
@@ -80,7 +80,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#creation_type DatabaseMigrationAssessment#creation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#creation_type DatabaseMigrationAssessment#creation_type}.</summary>
         [JsiiProperty(name: "creationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CreationType
@@ -91,7 +91,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#defined_tags DatabaseMigrationAssessment#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#defined_tags DatabaseMigrationAssessment#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -102,7 +102,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#description DatabaseMigrationAssessment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#description DatabaseMigrationAssessment#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -113,7 +113,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#display_name DatabaseMigrationAssessment#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#display_name DatabaseMigrationAssessment#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -126,7 +126,7 @@ namespace oci.DatabaseMigrationAssessment
 
         /// <summary>exclude_objects block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#exclude_objects DatabaseMigrationAssessment#exclude_objects}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#exclude_objects DatabaseMigrationAssessment#exclude_objects}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentExcludeObjects" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "excludeObjects", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentExcludeObjects\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#freeform_tags DatabaseMigrationAssessment#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#freeform_tags DatabaseMigrationAssessment#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -150,7 +150,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#id DatabaseMigrationAssessment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#id DatabaseMigrationAssessment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -167,7 +167,7 @@ namespace oci.DatabaseMigrationAssessment
 
         /// <summary>include_objects block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#include_objects DatabaseMigrationAssessment#include_objects}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#include_objects DatabaseMigrationAssessment#include_objects}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentIncludeObjects" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "includeObjects", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentIncludeObjects\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace oci.DatabaseMigrationAssessment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#timeouts DatabaseMigrationAssessment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#timeouts DatabaseMigrationAssessment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -201,42 +201,42 @@ namespace oci.DatabaseMigrationAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#acceptable_downtime DatabaseMigrationAssessment#acceptable_downtime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#acceptable_downtime DatabaseMigrationAssessment#acceptable_downtime}.</summary>
             [JsiiProperty(name: "acceptableDowntime", typeJson: "{\"primitive\":\"string\"}")]
             public string AcceptableDowntime
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#compartment_id DatabaseMigrationAssessment#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#compartment_id DatabaseMigrationAssessment#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#database_combination DatabaseMigrationAssessment#database_combination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#database_combination DatabaseMigrationAssessment#database_combination}.</summary>
             [JsiiProperty(name: "databaseCombination", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseCombination
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#database_data_size DatabaseMigrationAssessment#database_data_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#database_data_size DatabaseMigrationAssessment#database_data_size}.</summary>
             [JsiiProperty(name: "databaseDataSize", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseDataSize
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#ddl_expectation DatabaseMigrationAssessment#ddl_expectation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#ddl_expectation DatabaseMigrationAssessment#ddl_expectation}.</summary>
             [JsiiProperty(name: "ddlExpectation", typeJson: "{\"primitive\":\"string\"}")]
             public string DdlExpectation
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#network_speed_megabit_per_second DatabaseMigrationAssessment#network_speed_megabit_per_second}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#network_speed_megabit_per_second DatabaseMigrationAssessment#network_speed_megabit_per_second}.</summary>
             [JsiiProperty(name: "networkSpeedMegabitPerSecond", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkSpeedMegabitPerSecond
             {
@@ -245,7 +245,7 @@ namespace oci.DatabaseMigrationAssessment
 
             /// <summary>source_database_connection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#source_database_connection DatabaseMigrationAssessment#source_database_connection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#source_database_connection DatabaseMigrationAssessment#source_database_connection}
             /// </remarks>
             [JsiiProperty(name: "sourceDatabaseConnection", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentSourceDatabaseConnection\"}")]
             public oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentSourceDatabaseConnection SourceDatabaseConnection
@@ -255,7 +255,7 @@ namespace oci.DatabaseMigrationAssessment
 
             /// <summary>target_database_connection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#target_database_connection DatabaseMigrationAssessment#target_database_connection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#target_database_connection DatabaseMigrationAssessment#target_database_connection}
             /// </remarks>
             [JsiiProperty(name: "targetDatabaseConnection", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentTargetDatabaseConnection\"}")]
             public oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentTargetDatabaseConnection TargetDatabaseConnection
@@ -263,7 +263,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentTargetDatabaseConnection>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#bulk_include_exclude_data DatabaseMigrationAssessment#bulk_include_exclude_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#bulk_include_exclude_data DatabaseMigrationAssessment#bulk_include_exclude_data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bulkIncludeExcludeData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BulkIncludeExcludeData
@@ -271,7 +271,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#creation_type DatabaseMigrationAssessment#creation_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#creation_type DatabaseMigrationAssessment#creation_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "creationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CreationType
@@ -279,7 +279,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#defined_tags DatabaseMigrationAssessment#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#defined_tags DatabaseMigrationAssessment#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -287,7 +287,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#description DatabaseMigrationAssessment#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#description DatabaseMigrationAssessment#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -295,7 +295,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#display_name DatabaseMigrationAssessment#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#display_name DatabaseMigrationAssessment#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -305,7 +305,7 @@ namespace oci.DatabaseMigrationAssessment
 
             /// <summary>exclude_objects block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#exclude_objects DatabaseMigrationAssessment#exclude_objects}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#exclude_objects DatabaseMigrationAssessment#exclude_objects}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentExcludeObjects" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -315,7 +315,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#freeform_tags DatabaseMigrationAssessment#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#freeform_tags DatabaseMigrationAssessment#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -323,7 +323,7 @@ namespace oci.DatabaseMigrationAssessment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#id DatabaseMigrationAssessment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#id DatabaseMigrationAssessment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -337,7 +337,7 @@ namespace oci.DatabaseMigrationAssessment
 
             /// <summary>include_objects block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#include_objects DatabaseMigrationAssessment#include_objects}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#include_objects DatabaseMigrationAssessment#include_objects}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentIncludeObjects" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -349,7 +349,7 @@ namespace oci.DatabaseMigrationAssessment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#timeouts DatabaseMigrationAssessment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_assessment#timeouts DatabaseMigrationAssessment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessment.DatabaseMigrationAssessmentTimeouts\"}", isOptional: true)]

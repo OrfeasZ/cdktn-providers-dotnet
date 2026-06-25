@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     {
         /// <summary>terms_of_use_consents block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#terms_of_use_consents IdentityDomainsUser#terms_of_use_consents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#terms_of_use_consents IdentityDomainsUser#terms_of_use_consents}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensiontermsOfUseUserTermsOfUseConsents" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "termsOfUseConsents", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensiontermsOfUseUserTermsOfUseConsents\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.IdentityDomainsUser
 
             /// <summary>terms_of_use_consents block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#terms_of_use_consents IdentityDomainsUser#terms_of_use_consents}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#terms_of_use_consents IdentityDomainsUser#terms_of_use_consents}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensiontermsOfUseUserTermsOfUseConsents" />)[]</para>
             /// </remarks>
             [JsiiOptional]

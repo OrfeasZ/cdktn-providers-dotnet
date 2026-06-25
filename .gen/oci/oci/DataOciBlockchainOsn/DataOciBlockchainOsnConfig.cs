@@ -9,7 +9,7 @@ namespace oci.DataOciBlockchainOsn
     [JsiiByValue(fqn: "oci.dataOciBlockchainOsn.DataOciBlockchainOsnConfig")]
     public class DataOciBlockchainOsnConfig : oci.DataOciBlockchainOsn.IDataOciBlockchainOsnConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/blockchain_osn#blockchain_platform_id DataOciBlockchainOsn#blockchain_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/blockchain_osn#blockchain_platform_id DataOciBlockchainOsn#blockchain_platform_id}.</summary>
         [JsiiProperty(name: "blockchainPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         public string BlockchainPlatformId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBlockchainOsn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/blockchain_osn#osn_id DataOciBlockchainOsn#osn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/blockchain_osn#osn_id DataOciBlockchainOsn#osn_id}.</summary>
         [JsiiProperty(name: "osnId", typeJson: "{\"primitive\":\"string\"}")]
         public string OsnId
         {

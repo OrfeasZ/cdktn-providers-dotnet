@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
     [JsiiByValue(fqn: "oci.databaseManagementExternalExadataStorageGrid.DatabaseManagementExternalExadataStorageGridTimeouts")]
     public class DatabaseManagementExternalExadataStorageGridTimeouts : oci.DatabaseManagementExternalExadataStorageGrid.IDatabaseManagementExternalExadataStorageGridTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_exadata_storage_grid#create DatabaseManagementExternalExadataStorageGrid#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_exadata_storage_grid#create DatabaseManagementExternalExadataStorageGrid#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_exadata_storage_grid#delete DatabaseManagementExternalExadataStorageGrid#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_exadata_storage_grid#delete DatabaseManagementExternalExadataStorageGrid#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_external_exadata_storage_grid#update DatabaseManagementExternalExadataStorageGrid#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_exadata_storage_grid#update DatabaseManagementExternalExadataStorageGrid#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

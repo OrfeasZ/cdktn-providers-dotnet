@@ -9,7 +9,7 @@ namespace oci.OsManagementHubDynamicSet
     [JsiiByValue(fqn: "oci.osManagementHubDynamicSet.OsManagementHubDynamicSetTargetCompartments")]
     public class OsManagementHubDynamicSetTargetCompartments : oci.OsManagementHubDynamicSet.IOsManagementHubDynamicSetTargetCompartments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_dynamic_set#compartment_id OsManagementHubDynamicSet#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set#compartment_id OsManagementHubDynamicSet#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.OsManagementHubDynamicSet
 
         private object _doesIncludeChildren;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_dynamic_set#does_include_children OsManagementHubDynamicSet#does_include_children}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set#does_include_children OsManagementHubDynamicSet#does_include_children}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

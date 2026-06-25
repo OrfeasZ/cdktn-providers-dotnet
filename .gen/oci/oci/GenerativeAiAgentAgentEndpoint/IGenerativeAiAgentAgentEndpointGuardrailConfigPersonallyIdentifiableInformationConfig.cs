@@ -7,7 +7,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     [JsiiInterface(nativeType: typeof(IGenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig), fullyQualifiedName: "oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig")]
     public interface IGenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}.</summary>
         [JsiiProperty(name: "inputGuardrailMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InputGuardrailMode
@@ -18,7 +18,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}.</summary>
         [JsiiProperty(name: "outputGuardrailMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutputGuardrailMode
@@ -36,7 +36,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inputGuardrailMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InputGuardrailMode
@@ -44,7 +44,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outputGuardrailMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutputGuardrailMode

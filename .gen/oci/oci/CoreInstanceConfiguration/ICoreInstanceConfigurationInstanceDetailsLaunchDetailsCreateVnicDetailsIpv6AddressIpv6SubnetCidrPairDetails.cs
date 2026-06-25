@@ -7,7 +7,7 @@ namespace oci.CoreInstanceConfiguration
     [JsiiInterface(nativeType: typeof(ICoreInstanceConfigurationInstanceDetailsLaunchDetailsCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails), fullyQualifiedName: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsLaunchDetailsCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails")]
     public interface ICoreInstanceConfigurationInstanceDetailsLaunchDetailsCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#ipv6address CoreInstanceConfiguration#ipv6address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#ipv6address CoreInstanceConfiguration#ipv6address}.</summary>
         [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6Address
@@ -18,7 +18,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#ipv6id CoreInstanceConfiguration#ipv6id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#ipv6id CoreInstanceConfiguration#ipv6id}.</summary>
         [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6Id
@@ -29,7 +29,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#ipv6subnet_cidr CoreInstanceConfiguration#ipv6subnet_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#ipv6subnet_cidr CoreInstanceConfiguration#ipv6subnet_cidr}.</summary>
         [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6SubnetCidr
@@ -47,7 +47,7 @@ namespace oci.CoreInstanceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#ipv6address CoreInstanceConfiguration#ipv6address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#ipv6address CoreInstanceConfiguration#ipv6address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6Address
@@ -55,7 +55,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#ipv6id CoreInstanceConfiguration#ipv6id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#ipv6id CoreInstanceConfiguration#ipv6id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6Id
@@ -63,7 +63,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_configuration#ipv6subnet_cidr CoreInstanceConfiguration#ipv6subnet_cidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#ipv6subnet_cidr CoreInstanceConfiguration#ipv6subnet_cidr}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6SubnetCidr

@@ -7,7 +7,7 @@ namespace oci.DataOciLimitsQuota
     [JsiiInterface(nativeType: typeof(IDataOciLimitsQuotaConfig), fullyQualifiedName: "oci.dataOciLimitsQuota.DataOciLimitsQuotaConfig")]
     public interface IDataOciLimitsQuotaConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/limits_quota#quota_id DataOciLimitsQuota#quota_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/limits_quota#quota_id DataOciLimitsQuota#quota_id}.</summary>
         [JsiiProperty(name: "quotaId", typeJson: "{\"primitive\":\"string\"}")]
         string QuotaId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLimitsQuota
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/limits_quota#quota_id DataOciLimitsQuota#quota_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/limits_quota#quota_id DataOciLimitsQuota#quota_id}.</summary>
             [JsiiProperty(name: "quotaId", typeJson: "{\"primitive\":\"string\"}")]
             public string QuotaId
             {

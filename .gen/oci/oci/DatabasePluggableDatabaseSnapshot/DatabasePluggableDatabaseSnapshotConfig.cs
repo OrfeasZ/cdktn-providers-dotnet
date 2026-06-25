@@ -9,7 +9,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
     [JsiiByValue(fqn: "oci.databasePluggableDatabaseSnapshot.DatabasePluggableDatabaseSnapshotConfig")]
     public class DatabasePluggableDatabaseSnapshotConfig : oci.DatabasePluggableDatabaseSnapshot.IDatabasePluggableDatabaseSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_pluggable_database_snapshot#name DatabasePluggableDatabaseSnapshot#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_pluggable_database_snapshot#name DatabasePluggableDatabaseSnapshot#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_pluggable_database_snapshot#pluggable_database_id DatabasePluggableDatabaseSnapshot#pluggable_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_pluggable_database_snapshot#pluggable_database_id DatabasePluggableDatabaseSnapshot#pluggable_database_id}.</summary>
         [JsiiProperty(name: "pluggableDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string PluggableDatabaseId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_pluggable_database_snapshot#defined_tags DatabasePluggableDatabaseSnapshot#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_pluggable_database_snapshot#defined_tags DatabasePluggableDatabaseSnapshot#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_pluggable_database_snapshot#freeform_tags DatabasePluggableDatabaseSnapshot#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_pluggable_database_snapshot#freeform_tags DatabasePluggableDatabaseSnapshot#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -43,7 +43,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_pluggable_database_snapshot#id DatabasePluggableDatabaseSnapshot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_pluggable_database_snapshot#id DatabasePluggableDatabaseSnapshot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_pluggable_database_snapshot#timeouts DatabasePluggableDatabaseSnapshot#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_pluggable_database_snapshot#timeouts DatabasePluggableDatabaseSnapshot#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databasePluggableDatabaseSnapshot.DatabasePluggableDatabaseSnapshotTimeouts\"}", isOptional: true)]

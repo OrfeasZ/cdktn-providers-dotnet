@@ -9,7 +9,7 @@ namespace oci.DatabaseExadataIormConfig
     [JsiiByValue(fqn: "oci.databaseExadataIormConfig.DatabaseExadataIormConfigDbPlans")]
     public class DatabaseExadataIormConfigDbPlans : oci.DatabaseExadataIormConfig.IDatabaseExadataIormConfigDbPlans
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_exadata_iorm_config#db_name DatabaseExadataIormConfig#db_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_exadata_iorm_config#db_name DatabaseExadataIormConfig#db_name}.</summary>
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}")]
         public string DbName
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseExadataIormConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_exadata_iorm_config#share DatabaseExadataIormConfig#share}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_exadata_iorm_config#share DatabaseExadataIormConfig#share}.</summary>
         [JsiiProperty(name: "share", typeJson: "{\"primitive\":\"number\"}")]
         public double Share
         {

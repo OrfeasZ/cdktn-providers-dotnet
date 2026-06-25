@@ -11,7 +11,7 @@ namespace oci.ApigatewayDeployment
     {
         /// <summary>backend block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#backend ApigatewayDeployment#backend}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#backend ApigatewayDeployment#backend}
         /// </remarks>
         [JsiiProperty(name: "backend", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesBackend\"}")]
         public oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRoutesBackend Backend
@@ -20,7 +20,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#path ApigatewayDeployment#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#path ApigatewayDeployment#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {
@@ -30,7 +30,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>logging_policies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loggingPolicies", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesLoggingPolicies\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#methods ApigatewayDeployment#methods}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#methods ApigatewayDeployment#methods}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "methods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Methods
@@ -51,7 +51,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>request_policies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestPolicies", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPolicies\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>response_policies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#response_policies ApigatewayDeployment#response_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#response_policies ApigatewayDeployment#response_policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responsePolicies", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesResponsePolicies\"}", isOptional: true)]

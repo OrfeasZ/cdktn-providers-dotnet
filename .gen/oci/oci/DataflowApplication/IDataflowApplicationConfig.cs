@@ -7,49 +7,49 @@ namespace oci.DataflowApplication
     [JsiiInterface(nativeType: typeof(IDataflowApplicationConfig), fullyQualifiedName: "oci.dataflowApplication.DataflowApplicationConfig")]
     public interface IDataflowApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#compartment_id DataflowApplication#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#compartment_id DataflowApplication#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#display_name DataflowApplication#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#display_name DataflowApplication#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#driver_shape DataflowApplication#driver_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#driver_shape DataflowApplication#driver_shape}.</summary>
         [JsiiProperty(name: "driverShape", typeJson: "{\"primitive\":\"string\"}")]
         string DriverShape
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#executor_shape DataflowApplication#executor_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#executor_shape DataflowApplication#executor_shape}.</summary>
         [JsiiProperty(name: "executorShape", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutorShape
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#language DataflowApplication#language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#language DataflowApplication#language}.</summary>
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}")]
         string Language
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#num_executors DataflowApplication#num_executors}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#num_executors DataflowApplication#num_executors}.</summary>
         [JsiiProperty(name: "numExecutors", typeJson: "{\"primitive\":\"number\"}")]
         double NumExecutors
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#spark_version DataflowApplication#spark_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#spark_version DataflowApplication#spark_version}.</summary>
         [JsiiProperty(name: "sparkVersion", typeJson: "{\"primitive\":\"string\"}")]
         string SparkVersion
         {
@@ -58,7 +58,7 @@ namespace oci.DataflowApplication
 
         /// <summary>application_log_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#application_log_config DataflowApplication#application_log_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#application_log_config DataflowApplication#application_log_config}
         /// </remarks>
         [JsiiProperty(name: "applicationLogConfig", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationApplicationLogConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#archive_uri DataflowApplication#archive_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#archive_uri DataflowApplication#archive_uri}.</summary>
         [JsiiProperty(name: "archiveUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ArchiveUri
@@ -81,7 +81,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#arguments DataflowApplication#arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#arguments DataflowApplication#arguments}.</summary>
         [JsiiProperty(name: "arguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Arguments
@@ -92,7 +92,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#class_name DataflowApplication#class_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#class_name DataflowApplication#class_name}.</summary>
         [JsiiProperty(name: "className", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClassName
@@ -103,7 +103,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#configuration DataflowApplication#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#configuration DataflowApplication#configuration}.</summary>
         [JsiiProperty(name: "configuration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Configuration
@@ -114,7 +114,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#defined_tags DataflowApplication#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#defined_tags DataflowApplication#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -125,7 +125,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#description DataflowApplication#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#description DataflowApplication#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -138,7 +138,7 @@ namespace oci.DataflowApplication
 
         /// <summary>driver_shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#driver_shape_config DataflowApplication#driver_shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#driver_shape_config DataflowApplication#driver_shape_config}
         /// </remarks>
         [JsiiProperty(name: "driverShapeConfig", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationDriverShapeConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,7 +150,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#execute DataflowApplication#execute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#execute DataflowApplication#execute}.</summary>
         [JsiiProperty(name: "execute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Execute
@@ -163,7 +163,7 @@ namespace oci.DataflowApplication
 
         /// <summary>executor_shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#executor_shape_config DataflowApplication#executor_shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#executor_shape_config DataflowApplication#executor_shape_config}
         /// </remarks>
         [JsiiProperty(name: "executorShapeConfig", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationExecutorShapeConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -175,7 +175,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#file_uri DataflowApplication#file_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#file_uri DataflowApplication#file_uri}.</summary>
         [JsiiProperty(name: "fileUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FileUri
@@ -186,7 +186,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#freeform_tags DataflowApplication#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#freeform_tags DataflowApplication#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -197,7 +197,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#id DataflowApplication#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#id DataflowApplication#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -212,7 +212,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#idle_timeout_in_minutes DataflowApplication#idle_timeout_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#idle_timeout_in_minutes DataflowApplication#idle_timeout_in_minutes}.</summary>
         [JsiiProperty(name: "idleTimeoutInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdleTimeoutInMinutes
@@ -223,7 +223,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#logs_bucket_uri DataflowApplication#logs_bucket_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#logs_bucket_uri DataflowApplication#logs_bucket_uri}.</summary>
         [JsiiProperty(name: "logsBucketUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogsBucketUri
@@ -234,7 +234,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#max_duration_in_minutes DataflowApplication#max_duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#max_duration_in_minutes DataflowApplication#max_duration_in_minutes}.</summary>
         [JsiiProperty(name: "maxDurationInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaxDurationInMinutes
@@ -245,7 +245,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#metastore_id DataflowApplication#metastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#metastore_id DataflowApplication#metastore_id}.</summary>
         [JsiiProperty(name: "metastoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MetastoreId
@@ -258,7 +258,7 @@ namespace oci.DataflowApplication
 
         /// <summary>parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#parameters DataflowApplication#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#parameters DataflowApplication#parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataflowApplication.IDataflowApplicationParameters" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "parameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataflowApplication.DataflowApplicationParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -271,7 +271,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#pool_id DataflowApplication#pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#pool_id DataflowApplication#pool_id}.</summary>
         [JsiiProperty(name: "poolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PoolId
@@ -282,7 +282,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#private_endpoint_id DataflowApplication#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#private_endpoint_id DataflowApplication#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrivateEndpointId
@@ -293,7 +293,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#terminate_runs_on_deletion DataflowApplication#terminate_runs_on_deletion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#terminate_runs_on_deletion DataflowApplication#terminate_runs_on_deletion}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -309,7 +309,7 @@ namespace oci.DataflowApplication
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#timeouts DataflowApplication#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#timeouts DataflowApplication#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -321,7 +321,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#type DataflowApplication#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#type DataflowApplication#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -332,7 +332,7 @@ namespace oci.DataflowApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#warehouse_bucket_uri DataflowApplication#warehouse_bucket_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#warehouse_bucket_uri DataflowApplication#warehouse_bucket_uri}.</summary>
         [JsiiProperty(name: "warehouseBucketUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WarehouseBucketUri
@@ -350,49 +350,49 @@ namespace oci.DataflowApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#compartment_id DataflowApplication#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#compartment_id DataflowApplication#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#display_name DataflowApplication#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#display_name DataflowApplication#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#driver_shape DataflowApplication#driver_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#driver_shape DataflowApplication#driver_shape}.</summary>
             [JsiiProperty(name: "driverShape", typeJson: "{\"primitive\":\"string\"}")]
             public string DriverShape
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#executor_shape DataflowApplication#executor_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#executor_shape DataflowApplication#executor_shape}.</summary>
             [JsiiProperty(name: "executorShape", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutorShape
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#language DataflowApplication#language}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#language DataflowApplication#language}.</summary>
             [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}")]
             public string Language
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#num_executors DataflowApplication#num_executors}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#num_executors DataflowApplication#num_executors}.</summary>
             [JsiiProperty(name: "numExecutors", typeJson: "{\"primitive\":\"number\"}")]
             public double NumExecutors
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#spark_version DataflowApplication#spark_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#spark_version DataflowApplication#spark_version}.</summary>
             [JsiiProperty(name: "sparkVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string SparkVersion
             {
@@ -401,7 +401,7 @@ namespace oci.DataflowApplication
 
             /// <summary>application_log_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#application_log_config DataflowApplication#application_log_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#application_log_config DataflowApplication#application_log_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationLogConfig", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationApplicationLogConfig\"}", isOptional: true)]
@@ -410,7 +410,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<oci.DataflowApplication.IDataflowApplicationApplicationLogConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#archive_uri DataflowApplication#archive_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#archive_uri DataflowApplication#archive_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "archiveUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ArchiveUri
@@ -418,7 +418,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#arguments DataflowApplication#arguments}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#arguments DataflowApplication#arguments}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "arguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Arguments
@@ -426,7 +426,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#class_name DataflowApplication#class_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#class_name DataflowApplication#class_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "className", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClassName
@@ -434,7 +434,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#configuration DataflowApplication#configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#configuration DataflowApplication#configuration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configuration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Configuration
@@ -442,7 +442,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#defined_tags DataflowApplication#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#defined_tags DataflowApplication#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -450,7 +450,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#description DataflowApplication#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#description DataflowApplication#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -460,7 +460,7 @@ namespace oci.DataflowApplication
 
             /// <summary>driver_shape_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#driver_shape_config DataflowApplication#driver_shape_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#driver_shape_config DataflowApplication#driver_shape_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "driverShapeConfig", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationDriverShapeConfig\"}", isOptional: true)]
@@ -469,7 +469,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<oci.DataflowApplication.IDataflowApplicationDriverShapeConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#execute DataflowApplication#execute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#execute DataflowApplication#execute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "execute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Execute
@@ -479,7 +479,7 @@ namespace oci.DataflowApplication
 
             /// <summary>executor_shape_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#executor_shape_config DataflowApplication#executor_shape_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#executor_shape_config DataflowApplication#executor_shape_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "executorShapeConfig", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationExecutorShapeConfig\"}", isOptional: true)]
@@ -488,7 +488,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<oci.DataflowApplication.IDataflowApplicationExecutorShapeConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#file_uri DataflowApplication#file_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#file_uri DataflowApplication#file_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fileUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FileUri
@@ -496,7 +496,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#freeform_tags DataflowApplication#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#freeform_tags DataflowApplication#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -504,7 +504,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#id DataflowApplication#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#id DataflowApplication#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -516,7 +516,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#idle_timeout_in_minutes DataflowApplication#idle_timeout_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#idle_timeout_in_minutes DataflowApplication#idle_timeout_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "idleTimeoutInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdleTimeoutInMinutes
@@ -524,7 +524,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#logs_bucket_uri DataflowApplication#logs_bucket_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#logs_bucket_uri DataflowApplication#logs_bucket_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logsBucketUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogsBucketUri
@@ -532,7 +532,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#max_duration_in_minutes DataflowApplication#max_duration_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#max_duration_in_minutes DataflowApplication#max_duration_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxDurationInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaxDurationInMinutes
@@ -540,7 +540,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#metastore_id DataflowApplication#metastore_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#metastore_id DataflowApplication#metastore_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metastoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MetastoreId
@@ -550,7 +550,7 @@ namespace oci.DataflowApplication
 
             /// <summary>parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#parameters DataflowApplication#parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#parameters DataflowApplication#parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataflowApplication.IDataflowApplicationParameters" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -560,7 +560,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#pool_id DataflowApplication#pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#pool_id DataflowApplication#pool_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "poolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PoolId
@@ -568,7 +568,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#private_endpoint_id DataflowApplication#private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#private_endpoint_id DataflowApplication#private_endpoint_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrivateEndpointId
@@ -576,7 +576,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#terminate_runs_on_deletion DataflowApplication#terminate_runs_on_deletion}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#terminate_runs_on_deletion DataflowApplication#terminate_runs_on_deletion}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -589,7 +589,7 @@ namespace oci.DataflowApplication
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#timeouts DataflowApplication#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#timeouts DataflowApplication#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataflowApplication.DataflowApplicationTimeouts\"}", isOptional: true)]
@@ -598,7 +598,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<oci.DataflowApplication.IDataflowApplicationTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#type DataflowApplication#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#type DataflowApplication#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -606,7 +606,7 @@ namespace oci.DataflowApplication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dataflow_application#warehouse_bucket_uri DataflowApplication#warehouse_bucket_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_application#warehouse_bucket_uri DataflowApplication#warehouse_bucket_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "warehouseBucketUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WarehouseBucketUri

@@ -9,7 +9,7 @@ namespace oci.DataOciCoreIpsecConnectionTunnelError
     [JsiiByValue(fqn: "oci.dataOciCoreIpsecConnectionTunnelError.DataOciCoreIpsecConnectionTunnelErrorConfig")]
     public class DataOciCoreIpsecConnectionTunnelErrorConfig : oci.DataOciCoreIpsecConnectionTunnelError.IDataOciCoreIpsecConnectionTunnelErrorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_ipsec_connection_tunnel_error#ipsec_id DataOciCoreIpsecConnectionTunnelError#ipsec_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_connection_tunnel_error#ipsec_id DataOciCoreIpsecConnectionTunnelError#ipsec_id}.</summary>
         [JsiiProperty(name: "ipsecId", typeJson: "{\"primitive\":\"string\"}")]
         public string IpsecId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreIpsecConnectionTunnelError
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_ipsec_connection_tunnel_error#tunnel_id DataOciCoreIpsecConnectionTunnelError#tunnel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_connection_tunnel_error#tunnel_id DataOciCoreIpsecConnectionTunnelError#tunnel_id}.</summary>
         [JsiiProperty(name: "tunnelId", typeJson: "{\"primitive\":\"string\"}")]
         public string TunnelId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciCoreIpsecConnectionTunnelError
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_ipsec_connection_tunnel_error#id DataOciCoreIpsecConnectionTunnelError#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_connection_tunnel_error#id DataOciCoreIpsecConnectionTunnelError#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

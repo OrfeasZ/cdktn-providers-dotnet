@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsIdentityProofingProviderTemplate
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsIdentityProofingProviderTemplate.DataOciIdentityDomainsIdentityProofingProviderTemplateConfig")]
     public class DataOciIdentityDomainsIdentityProofingProviderTemplateConfig : oci.DataOciIdentityDomainsIdentityProofingProviderTemplate.IDataOciIdentityDomainsIdentityProofingProviderTemplateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_identity_proofing_provider_template#idcs_endpoint DataOciIdentityDomainsIdentityProofingProviderTemplate#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_identity_proofing_provider_template#idcs_endpoint DataOciIdentityDomainsIdentityProofingProviderTemplate#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsIdentityProofingProviderTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_identity_proofing_provider_template#identity_proofing_provider_template_id DataOciIdentityDomainsIdentityProofingProviderTemplate#identity_proofing_provider_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_identity_proofing_provider_template#identity_proofing_provider_template_id DataOciIdentityDomainsIdentityProofingProviderTemplate#identity_proofing_provider_template_id}.</summary>
         [JsiiProperty(name: "identityProofingProviderTemplateId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityProofingProviderTemplateId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsIdentityProofingProviderTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_identity_proofing_provider_template#attributes DataOciIdentityDomainsIdentityProofingProviderTemplate#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_identity_proofing_provider_template#attributes DataOciIdentityDomainsIdentityProofingProviderTemplate#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsIdentityProofingProviderTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_identity_proofing_provider_template#attribute_sets DataOciIdentityDomainsIdentityProofingProviderTemplate#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_identity_proofing_provider_template#attribute_sets DataOciIdentityDomainsIdentityProofingProviderTemplate#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsIdentityProofingProviderTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_identity_proofing_provider_template#authorization DataOciIdentityDomainsIdentityProofingProviderTemplate#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_identity_proofing_provider_template#authorization DataOciIdentityDomainsIdentityProofingProviderTemplate#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsIdentityProofingProviderTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_identity_proofing_provider_template#resource_type_schema_version DataOciIdentityDomainsIdentityProofingProviderTemplate#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_identity_proofing_provider_template#resource_type_schema_version DataOciIdentityDomainsIdentityProofingProviderTemplate#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

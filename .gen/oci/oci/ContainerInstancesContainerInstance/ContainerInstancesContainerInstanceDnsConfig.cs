@@ -7,7 +7,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiByValue(fqn: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceDnsConfig")]
     public class ContainerInstancesContainerInstanceDnsConfig : oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceDnsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#nameservers ContainerInstancesContainerInstance#nameservers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#nameservers ContainerInstancesContainerInstance#nameservers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameservers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Nameservers
@@ -16,7 +16,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#options ContainerInstancesContainerInstance#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#options ContainerInstancesContainerInstance#options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Options
@@ -25,7 +25,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/container_instances_container_instance#searches ContainerInstancesContainerInstance#searches}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#searches ContainerInstancesContainerInstance#searches}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Searches

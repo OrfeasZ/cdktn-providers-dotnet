@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDatacatalogCatalogPrivateEndpoint.DataOciDatacatalogCatalogPrivateEndpointConfig")]
     public class DataOciDatacatalogCatalogPrivateEndpointConfig : oci.DataOciDatacatalogCatalogPrivateEndpoint.IDataOciDatacatalogCatalogPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/datacatalog_catalog_private_endpoint#catalog_private_endpoint_id DataOciDatacatalogCatalogPrivateEndpoint#catalog_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_catalog_private_endpoint#catalog_private_endpoint_id DataOciDatacatalogCatalogPrivateEndpoint#catalog_private_endpoint_id}.</summary>
         [JsiiProperty(name: "catalogPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogPrivateEndpointId
         {

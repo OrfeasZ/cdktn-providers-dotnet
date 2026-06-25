@@ -7,7 +7,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
     [JsiiByValue(fqn: "oci.databaseDbNodeSnapshotManagement.DatabaseDbNodeSnapshotManagementTimeouts")]
     public class DatabaseDbNodeSnapshotManagementTimeouts : oci.DatabaseDbNodeSnapshotManagement.IDatabaseDbNodeSnapshotManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_node_snapshot_management#create DatabaseDbNodeSnapshotManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_db_node_snapshot_management#create DatabaseDbNodeSnapshotManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_node_snapshot_management#delete DatabaseDbNodeSnapshotManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_db_node_snapshot_management#delete DatabaseDbNodeSnapshotManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_node_snapshot_management#update DatabaseDbNodeSnapshotManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_db_node_snapshot_management#update DatabaseDbNodeSnapshotManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

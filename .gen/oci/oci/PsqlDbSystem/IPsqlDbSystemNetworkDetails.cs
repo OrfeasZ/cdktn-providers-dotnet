@@ -7,14 +7,14 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemNetworkDetails), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemNetworkDetails")]
     public interface IPsqlDbSystemNetworkDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#subnet_id PsqlDbSystem#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#subnet_id PsqlDbSystem#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#is_reader_endpoint_enabled PsqlDbSystem#is_reader_endpoint_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#is_reader_endpoint_enabled PsqlDbSystem#is_reader_endpoint_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#nsg_ids PsqlDbSystem#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#nsg_ids PsqlDbSystem#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -39,7 +39,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#primary_db_endpoint_private_ip PsqlDbSystem#primary_db_endpoint_private_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#primary_db_endpoint_private_ip PsqlDbSystem#primary_db_endpoint_private_ip}.</summary>
         [JsiiProperty(name: "primaryDbEndpointPrivateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrimaryDbEndpointPrivateIp
@@ -57,14 +57,14 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#subnet_id PsqlDbSystem#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#subnet_id PsqlDbSystem#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#is_reader_endpoint_enabled PsqlDbSystem#is_reader_endpoint_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#is_reader_endpoint_enabled PsqlDbSystem#is_reader_endpoint_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -75,7 +75,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#nsg_ids PsqlDbSystem#nsg_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#nsg_ids PsqlDbSystem#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -83,7 +83,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#primary_db_endpoint_private_ip PsqlDbSystem#primary_db_endpoint_private_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#primary_db_endpoint_private_ip PsqlDbSystem#primary_db_endpoint_private_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "primaryDbEndpointPrivateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrimaryDbEndpointPrivateIp

@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsIdentityProofingProviderTemplate
     [JsiiInterface(nativeType: typeof(IIdentityDomainsIdentityProofingProviderTemplateConfiguration), fullyQualifiedName: "oci.identityDomainsIdentityProofingProviderTemplate.IdentityDomainsIdentityProofingProviderTemplateConfiguration")]
     public interface IIdentityDomainsIdentityProofingProviderTemplateConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider_template#name IdentityDomainsIdentityProofingProviderTemplate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_proofing_provider_template#name IdentityDomainsIdentityProofingProviderTemplate#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider_template#sensitivity IdentityDomainsIdentityProofingProviderTemplate#sensitivity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_proofing_provider_template#sensitivity IdentityDomainsIdentityProofingProviderTemplate#sensitivity}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.IdentityDomainsIdentityProofingProviderTemplate
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider_template#type IdentityDomainsIdentityProofingProviderTemplate#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_proofing_provider_template#type IdentityDomainsIdentityProofingProviderTemplate#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -38,14 +38,14 @@ namespace oci.IdentityDomainsIdentityProofingProviderTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider_template#name IdentityDomainsIdentityProofingProviderTemplate#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_proofing_provider_template#name IdentityDomainsIdentityProofingProviderTemplate#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider_template#sensitivity IdentityDomainsIdentityProofingProviderTemplate#sensitivity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_proofing_provider_template#sensitivity IdentityDomainsIdentityProofingProviderTemplate#sensitivity}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -55,7 +55,7 @@ namespace oci.IdentityDomainsIdentityProofingProviderTemplate
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider_template#type IdentityDomainsIdentityProofingProviderTemplate#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_proofing_provider_template#type IdentityDomainsIdentityProofingProviderTemplate#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

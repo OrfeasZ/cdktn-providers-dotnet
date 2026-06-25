@@ -7,7 +7,7 @@ namespace oci.OspGatewaySubscription
     [JsiiInterface(nativeType: typeof(IOspGatewaySubscriptionSubscriptionPaymentGatewayMerchantDefinedData), fullyQualifiedName: "oci.ospGatewaySubscription.OspGatewaySubscriptionSubscriptionPaymentGatewayMerchantDefinedData")]
     public interface IOspGatewaySubscriptionSubscriptionPaymentGatewayMerchantDefinedData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/osp_gateway_subscription#cloud_account_name OspGatewaySubscription#cloud_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/osp_gateway_subscription#cloud_account_name OspGatewaySubscription#cloud_account_name}.</summary>
         [JsiiProperty(name: "cloudAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CloudAccountName
@@ -18,7 +18,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/osp_gateway_subscription#promo_type OspGatewaySubscription#promo_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/osp_gateway_subscription#promo_type OspGatewaySubscription#promo_type}.</summary>
         [JsiiProperty(name: "promoType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PromoType
@@ -36,7 +36,7 @@ namespace oci.OspGatewaySubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/osp_gateway_subscription#cloud_account_name OspGatewaySubscription#cloud_account_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/osp_gateway_subscription#cloud_account_name OspGatewaySubscription#cloud_account_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cloudAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CloudAccountName
@@ -44,7 +44,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/osp_gateway_subscription#promo_type OspGatewaySubscription#promo_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/osp_gateway_subscription#promo_type OspGatewaySubscription#promo_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "promoType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PromoType

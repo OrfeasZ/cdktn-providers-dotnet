@@ -7,7 +7,7 @@ namespace oci.DatascienceComputeTarget
     [JsiiByValue(fqn: "oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetails")]
     public class DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetails : oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_compute_target#memory_in_gbs DatascienceComputeTarget#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_compute_target#memory_in_gbs DatascienceComputeTarget#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -16,7 +16,7 @@ namespace oci.DatascienceComputeTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_compute_target#ocpus DatascienceComputeTarget#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_compute_target#ocpus DatascienceComputeTarget#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus

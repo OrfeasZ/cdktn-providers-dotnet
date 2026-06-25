@@ -7,14 +7,14 @@ namespace oci.CoreVolume
     [JsiiInterface(nativeType: typeof(ICoreVolumeBlockVolumeReplicas), fullyQualifiedName: "oci.coreVolume.CoreVolumeBlockVolumeReplicas")]
     public interface ICoreVolumeBlockVolumeReplicas
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#availability_domain CoreVolume#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#availability_domain CoreVolume#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityDomain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#display_name CoreVolume#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#display_name CoreVolume#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -25,7 +25,7 @@ namespace oci.CoreVolume
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#xrr_kms_key_id CoreVolume#xrr_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#xrr_kms_key_id CoreVolume#xrr_kms_key_id}.</summary>
         [JsiiProperty(name: "xrrKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? XrrKmsKeyId
@@ -43,14 +43,14 @@ namespace oci.CoreVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#availability_domain CoreVolume#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#availability_domain CoreVolume#availability_domain}.</summary>
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityDomain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#display_name CoreVolume#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#display_name CoreVolume#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -58,7 +58,7 @@ namespace oci.CoreVolume
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_volume#xrr_kms_key_id CoreVolume#xrr_kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_volume#xrr_kms_key_id CoreVolume#xrr_kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "xrrKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? XrrKmsKeyId

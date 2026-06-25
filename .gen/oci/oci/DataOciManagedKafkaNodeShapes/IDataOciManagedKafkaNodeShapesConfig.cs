@@ -7,7 +7,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
     [JsiiInterface(nativeType: typeof(IDataOciManagedKafkaNodeShapesConfig), fullyQualifiedName: "oci.dataOciManagedKafkaNodeShapes.DataOciManagedKafkaNodeShapesConfig")]
     public interface IDataOciManagedKafkaNodeShapesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#compartment_id DataOciManagedKafkaNodeShapes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#compartment_id DataOciManagedKafkaNodeShapes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -20,7 +20,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#filter DataOciManagedKafkaNodeShapes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#filter DataOciManagedKafkaNodeShapes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciManagedKafkaNodeShapes.IDataOciManagedKafkaNodeShapesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciManagedKafkaNodeShapes.DataOciManagedKafkaNodeShapesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#id DataOciManagedKafkaNodeShapes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#id DataOciManagedKafkaNodeShapes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#name DataOciManagedKafkaNodeShapes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#name DataOciManagedKafkaNodeShapes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -66,7 +66,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#compartment_id DataOciManagedKafkaNodeShapes#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#compartment_id DataOciManagedKafkaNodeShapes#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -76,7 +76,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#filter DataOciManagedKafkaNodeShapes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#filter DataOciManagedKafkaNodeShapes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciManagedKafkaNodeShapes.IDataOciManagedKafkaNodeShapesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -86,7 +86,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#id DataOciManagedKafkaNodeShapes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#id DataOciManagedKafkaNodeShapes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_node_shapes#name DataOciManagedKafkaNodeShapes#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_node_shapes#name DataOciManagedKafkaNodeShapes#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

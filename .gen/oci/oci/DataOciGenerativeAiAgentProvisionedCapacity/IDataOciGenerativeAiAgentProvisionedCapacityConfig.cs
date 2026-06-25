@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiAgentProvisionedCapacity
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiAgentProvisionedCapacityConfig), fullyQualifiedName: "oci.dataOciGenerativeAiAgentProvisionedCapacity.DataOciGenerativeAiAgentProvisionedCapacityConfig")]
     public interface IDataOciGenerativeAiAgentProvisionedCapacityConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_agent_provisioned_capacity#provisioned_capacity_id DataOciGenerativeAiAgentProvisionedCapacity#provisioned_capacity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_agent_provisioned_capacity#provisioned_capacity_id DataOciGenerativeAiAgentProvisionedCapacity#provisioned_capacity_id}.</summary>
         [JsiiProperty(name: "provisionedCapacityId", typeJson: "{\"primitive\":\"string\"}")]
         string ProvisionedCapacityId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiAgentProvisionedCapacity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_agent_provisioned_capacity#provisioned_capacity_id DataOciGenerativeAiAgentProvisionedCapacity#provisioned_capacity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_agent_provisioned_capacity#provisioned_capacity_id DataOciGenerativeAiAgentProvisionedCapacity#provisioned_capacity_id}.</summary>
             [JsiiProperty(name: "provisionedCapacityId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProvisionedCapacityId
             {

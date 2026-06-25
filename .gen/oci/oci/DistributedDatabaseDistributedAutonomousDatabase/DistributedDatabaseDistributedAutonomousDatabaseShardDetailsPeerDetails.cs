@@ -9,7 +9,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
     [JsiiByValue(fqn: "oci.distributedDatabaseDistributedAutonomousDatabase.DistributedDatabaseDistributedAutonomousDatabaseShardDetailsPeerDetails")]
     public class DistributedDatabaseDistributedAutonomousDatabaseShardDetailsPeerDetails : oci.DistributedDatabaseDistributedAutonomousDatabase.IDistributedDatabaseDistributedAutonomousDatabaseShardDetailsPeerDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_autonomous_database#cloud_autonomous_vm_cluster_id DistributedDatabaseDistributedAutonomousDatabase#cloud_autonomous_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_autonomous_database#cloud_autonomous_vm_cluster_id DistributedDatabaseDistributedAutonomousDatabase#cloud_autonomous_vm_cluster_id}.</summary>
         [JsiiProperty(name: "cloudAutonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudAutonomousVmClusterId
         {
@@ -17,7 +17,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_autonomous_database#fast_start_fail_over_lag_limit_in_seconds DistributedDatabaseDistributedAutonomousDatabase#fast_start_fail_over_lag_limit_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_autonomous_database#fast_start_fail_over_lag_limit_in_seconds DistributedDatabaseDistributedAutonomousDatabase#fast_start_fail_over_lag_limit_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fastStartFailOverLagLimitInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FastStartFailOverLagLimitInSeconds
@@ -28,7 +28,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
 
         private object? _isAutomaticFailoverEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_autonomous_database#is_automatic_failover_enabled DistributedDatabaseDistributedAutonomousDatabase#is_automatic_failover_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_autonomous_database#is_automatic_failover_enabled DistributedDatabaseDistributedAutonomousDatabase#is_automatic_failover_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_autonomous_database#protection_mode DistributedDatabaseDistributedAutonomousDatabase#protection_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_autonomous_database#protection_mode DistributedDatabaseDistributedAutonomousDatabase#protection_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProtectionMode
@@ -69,7 +69,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_autonomous_database#standby_maintenance_buffer_in_days DistributedDatabaseDistributedAutonomousDatabase#standby_maintenance_buffer_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_autonomous_database#standby_maintenance_buffer_in_days DistributedDatabaseDistributedAutonomousDatabase#standby_maintenance_buffer_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "standbyMaintenanceBufferInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StandbyMaintenanceBufferInDays

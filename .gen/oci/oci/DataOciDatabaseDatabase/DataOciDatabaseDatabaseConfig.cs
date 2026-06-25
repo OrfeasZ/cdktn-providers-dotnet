@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDatabase
     [JsiiByValue(fqn: "oci.dataOciDatabaseDatabase.DataOciDatabaseDatabaseConfig")]
     public class DataOciDatabaseDatabaseConfig : oci.DataOciDatabaseDatabase.IDataOciDatabaseDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_database#database_id DataOciDatabaseDatabase#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccmDemandSignals.DataOciCapacityManagementOccmDemandSignalsConfig")]
     public class DataOciCapacityManagementOccmDemandSignalsConfig : oci.DataOciCapacityManagementOccmDemandSignals.IDataOciCapacityManagementOccmDemandSignalsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occm_demand_signals#compartment_id DataOciCapacityManagementOccmDemandSignals#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occm_demand_signals#compartment_id DataOciCapacityManagementOccmDemandSignals#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occm_demand_signals#display_name DataOciCapacityManagementOccmDemandSignals#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occm_demand_signals#display_name DataOciCapacityManagementOccmDemandSignals#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occm_demand_signals#filter DataOciCapacityManagementOccmDemandSignals#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occm_demand_signals#filter DataOciCapacityManagementOccmDemandSignals#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementOccmDemandSignals.IDataOciCapacityManagementOccmDemandSignalsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occm_demand_signals#id DataOciCapacityManagementOccmDemandSignals#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occm_demand_signals#id DataOciCapacityManagementOccmDemandSignals#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occm_demand_signals#lifecycle_details DataOciCapacityManagementOccmDemandSignals#lifecycle_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occm_demand_signals#lifecycle_details DataOciCapacityManagementOccmDemandSignals#lifecycle_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleDetails

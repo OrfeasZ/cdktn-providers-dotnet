@@ -9,7 +9,7 @@ namespace oci.DataOciCoreCaptureFilter
     [JsiiByValue(fqn: "oci.dataOciCoreCaptureFilter.DataOciCoreCaptureFilterConfig")]
     public class DataOciCoreCaptureFilterConfig : oci.DataOciCoreCaptureFilter.IDataOciCoreCaptureFilterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_capture_filter#capture_filter_id DataOciCoreCaptureFilter#capture_filter_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_capture_filter#capture_filter_id DataOciCoreCaptureFilter#capture_filter_id}.</summary>
         [JsiiProperty(name: "captureFilterId", typeJson: "{\"primitive\":\"string\"}")]
         public string CaptureFilterId
         {

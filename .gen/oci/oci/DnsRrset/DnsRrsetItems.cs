@@ -9,7 +9,7 @@ namespace oci.DnsRrset
     [JsiiByValue(fqn: "oci.dnsRrset.DnsRrsetItems")]
     public class DnsRrsetItems : oci.DnsRrset.IDnsRrsetItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_rrset#domain DnsRrset#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_rrset#domain DnsRrset#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {
@@ -17,7 +17,7 @@ namespace oci.DnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_rrset#rdata DnsRrset#rdata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_rrset#rdata DnsRrset#rdata}.</summary>
         [JsiiProperty(name: "rdata", typeJson: "{\"primitive\":\"string\"}")]
         public string Rdata
         {
@@ -25,7 +25,7 @@ namespace oci.DnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_rrset#rtype DnsRrset#rtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_rrset#rtype DnsRrset#rtype}.</summary>
         [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}")]
         public string Rtype
         {
@@ -33,7 +33,7 @@ namespace oci.DnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dns_rrset#ttl DnsRrset#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dns_rrset#ttl DnsRrset#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
         public double Ttl
         {

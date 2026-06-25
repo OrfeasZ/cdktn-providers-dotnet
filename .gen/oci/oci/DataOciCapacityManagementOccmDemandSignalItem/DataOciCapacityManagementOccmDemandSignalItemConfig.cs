@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignalItem
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccmDemandSignalItem.DataOciCapacityManagementOccmDemandSignalItemConfig")]
     public class DataOciCapacityManagementOccmDemandSignalItemConfig : oci.DataOciCapacityManagementOccmDemandSignalItem.IDataOciCapacityManagementOccmDemandSignalItemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occm_demand_signal_item#occm_demand_signal_item_id DataOciCapacityManagementOccmDemandSignalItem#occm_demand_signal_item_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occm_demand_signal_item#occm_demand_signal_item_id DataOciCapacityManagementOccmDemandSignalItem#occm_demand_signal_item_id}.</summary>
         [JsiiProperty(name: "occmDemandSignalItemId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccmDemandSignalItemId
         {

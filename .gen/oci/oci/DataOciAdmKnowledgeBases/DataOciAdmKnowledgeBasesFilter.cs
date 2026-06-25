@@ -9,7 +9,7 @@ namespace oci.DataOciAdmKnowledgeBases
     [JsiiByValue(fqn: "oci.dataOciAdmKnowledgeBases.DataOciAdmKnowledgeBasesFilter")]
     public class DataOciAdmKnowledgeBasesFilter : oci.DataOciAdmKnowledgeBases.IDataOciAdmKnowledgeBasesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/adm_knowledge_bases#name DataOciAdmKnowledgeBases#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/adm_knowledge_bases#name DataOciAdmKnowledgeBases#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAdmKnowledgeBases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/adm_knowledge_bases#values DataOciAdmKnowledgeBases#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/adm_knowledge_bases#values DataOciAdmKnowledgeBases#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciAdmKnowledgeBases
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/adm_knowledge_bases#regex DataOciAdmKnowledgeBases#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/adm_knowledge_bases#regex DataOciAdmKnowledgeBases#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

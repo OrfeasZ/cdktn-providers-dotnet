@@ -7,7 +7,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfig
     [JsiiInterface(nativeType: typeof(IDataOciManagedKafkaKafkaClusterConfigAConfig), fullyQualifiedName: "oci.dataOciManagedKafkaKafkaClusterConfig.DataOciManagedKafkaKafkaClusterConfigAConfig")]
     public interface IDataOciManagedKafkaKafkaClusterConfigAConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config#kafka_cluster_config_id DataOciManagedKafkaKafkaClusterConfigA#kafka_cluster_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config#kafka_cluster_config_id DataOciManagedKafkaKafkaClusterConfigA#kafka_cluster_config_id}.</summary>
         [JsiiProperty(name: "kafkaClusterConfigId", typeJson: "{\"primitive\":\"string\"}")]
         string KafkaClusterConfigId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/managed_kafka_kafka_cluster_config#kafka_cluster_config_id DataOciManagedKafkaKafkaClusterConfigA#kafka_cluster_config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_kafka_cluster_config#kafka_cluster_config_id DataOciManagedKafkaKafkaClusterConfigA#kafka_cluster_config_id}.</summary>
             [JsiiProperty(name: "kafkaClusterConfigId", typeJson: "{\"primitive\":\"string\"}")]
             public string KafkaClusterConfigId
             {

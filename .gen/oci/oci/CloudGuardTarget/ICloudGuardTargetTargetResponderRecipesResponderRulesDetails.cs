@@ -7,7 +7,7 @@ namespace oci.CloudGuardTarget
     [JsiiInterface(nativeType: typeof(ICloudGuardTargetTargetResponderRecipesResponderRulesDetails), fullyQualifiedName: "oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipesResponderRulesDetails")]
     public interface ICloudGuardTargetTargetResponderRecipesResponderRulesDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_guard_target#condition CloudGuardTarget#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_target#condition CloudGuardTarget#condition}.</summary>
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Condition
@@ -20,7 +20,7 @@ namespace oci.CloudGuardTarget
 
         /// <summary>configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_guard_target#configurations CloudGuardTarget#configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_target#configurations CloudGuardTarget#configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRulesDetailsConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "configurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipesResponderRulesDetailsConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.CloudGuardTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_guard_target#mode CloudGuardTarget#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_target#mode CloudGuardTarget#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Mode
@@ -51,7 +51,7 @@ namespace oci.CloudGuardTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_guard_target#condition CloudGuardTarget#condition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_target#condition CloudGuardTarget#condition}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Condition
@@ -61,7 +61,7 @@ namespace oci.CloudGuardTarget
 
             /// <summary>configurations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_guard_target#configurations CloudGuardTarget#configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_target#configurations CloudGuardTarget#configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRulesDetailsConfigurations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -71,7 +71,7 @@ namespace oci.CloudGuardTarget
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_guard_target#mode CloudGuardTarget#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_target#mode CloudGuardTarget#mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Mode

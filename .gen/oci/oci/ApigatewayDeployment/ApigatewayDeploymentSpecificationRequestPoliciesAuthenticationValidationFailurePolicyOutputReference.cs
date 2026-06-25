@@ -63,6 +63,12 @@ namespace oci.ApigatewayDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLoginPath")]
+        public virtual void ResetLoginPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLogoutPath")]
         public virtual void ResetLogoutPath()
         {
@@ -162,6 +168,13 @@ namespace oci.ApigatewayDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "loginPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LoginPathInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "logoutPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LogoutPathInput
         {
@@ -256,6 +269,13 @@ namespace oci.ApigatewayDeployment
 
         [JsiiProperty(name: "fallbackRedirectPath", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string FallbackRedirectPath
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "loginPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LoginPath
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -7,7 +7,7 @@ namespace oci.BastionSession
     [JsiiInterface(nativeType: typeof(IBastionSessionKeyDetails), fullyQualifiedName: "oci.bastionSession.BastionSessionKeyDetails")]
     public interface IBastionSessionKeyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}.</summary>
         [JsiiProperty(name: "publicKeyContent", typeJson: "{\"primitive\":\"string\"}")]
         string PublicKeyContent
         {
@@ -21,7 +21,7 @@ namespace oci.BastionSession
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}.</summary>
             [JsiiProperty(name: "publicKeyContent", typeJson: "{\"primitive\":\"string\"}")]
             public string PublicKeyContent
             {

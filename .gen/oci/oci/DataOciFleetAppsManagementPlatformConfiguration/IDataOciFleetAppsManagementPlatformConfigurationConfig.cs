@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementPlatformConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementPlatformConfigurationConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementPlatformConfiguration.DataOciFleetAppsManagementPlatformConfigurationConfig")]
     public interface IDataOciFleetAppsManagementPlatformConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_platform_configuration#platform_configuration_id DataOciFleetAppsManagementPlatformConfiguration#platform_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_platform_configuration#platform_configuration_id DataOciFleetAppsManagementPlatformConfiguration#platform_configuration_id}.</summary>
         [JsiiProperty(name: "platformConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string PlatformConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementPlatformConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_platform_configuration#platform_configuration_id DataOciFleetAppsManagementPlatformConfiguration#platform_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_platform_configuration#platform_configuration_id DataOciFleetAppsManagementPlatformConfiguration#platform_configuration_id}.</summary>
             [JsiiProperty(name: "platformConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string PlatformConfigurationId
             {

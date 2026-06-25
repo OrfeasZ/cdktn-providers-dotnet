@@ -9,7 +9,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
     [JsiiByValue(fqn: "oci.databaseDatabaseSoftwareImage.DatabaseDatabaseSoftwareImageConfig")]
     public class DatabaseDatabaseSoftwareImageConfig : oci.DatabaseDatabaseSoftwareImage.IDatabaseDatabaseSoftwareImageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#compartment_id DatabaseDatabaseSoftwareImage#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#compartment_id DatabaseDatabaseSoftwareImage#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#display_name DatabaseDatabaseSoftwareImage#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#display_name DatabaseDatabaseSoftwareImage#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#database_software_image_one_off_patches DatabaseDatabaseSoftwareImage#database_software_image_one_off_patches}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#database_software_image_one_off_patches DatabaseDatabaseSoftwareImage#database_software_image_one_off_patches}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseSoftwareImageOneOffPatches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DatabaseSoftwareImageOneOffPatches
@@ -34,7 +34,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#database_version DatabaseDatabaseSoftwareImage#database_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#database_version DatabaseDatabaseSoftwareImage#database_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseVersion
@@ -43,7 +43,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#defined_tags DatabaseDatabaseSoftwareImage#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#defined_tags DatabaseDatabaseSoftwareImage#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -52,7 +52,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#freeform_tags DatabaseDatabaseSoftwareImage#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#freeform_tags DatabaseDatabaseSoftwareImage#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -61,7 +61,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#id DatabaseDatabaseSoftwareImage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#id DatabaseDatabaseSoftwareImage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#image_shape_family DatabaseDatabaseSoftwareImage#image_shape_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#image_shape_family DatabaseDatabaseSoftwareImage#image_shape_family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageShapeFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageShapeFamily
@@ -83,7 +83,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#image_type DatabaseDatabaseSoftwareImage#image_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#image_type DatabaseDatabaseSoftwareImage#image_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageType
@@ -92,7 +92,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#ls_inventory DatabaseDatabaseSoftwareImage#ls_inventory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#ls_inventory DatabaseDatabaseSoftwareImage#ls_inventory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lsInventory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LsInventory
@@ -101,7 +101,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#patch_set DatabaseDatabaseSoftwareImage#patch_set}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#patch_set DatabaseDatabaseSoftwareImage#patch_set}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchSet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchSet
@@ -110,7 +110,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#source_db_home_id DatabaseDatabaseSoftwareImage#source_db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#source_db_home_id DatabaseDatabaseSoftwareImage#source_db_home_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDbHomeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceDbHomeId
@@ -121,7 +121,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database_software_image#timeouts DatabaseDatabaseSoftwareImage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_software_image#timeouts DatabaseDatabaseSoftwareImage#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDatabaseSoftwareImage.DatabaseDatabaseSoftwareImageTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciLustreFileStorageLustreFileSystem
     [JsiiByValue(fqn: "oci.dataOciLustreFileStorageLustreFileSystem.DataOciLustreFileStorageLustreFileSystemConfig")]
     public class DataOciLustreFileStorageLustreFileSystemConfig : oci.DataOciLustreFileStorageLustreFileSystem.IDataOciLustreFileStorageLustreFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/lustre_file_storage_lustre_file_system#lustre_file_system_id DataOciLustreFileStorageLustreFileSystem#lustre_file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_lustre_file_system#lustre_file_system_id DataOciLustreFileStorageLustreFileSystem#lustre_file_system_id}.</summary>
         [JsiiProperty(name: "lustreFileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string LustreFileSystemId
         {

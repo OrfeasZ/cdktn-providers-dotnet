@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory.DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistoryConfig")]
     public class DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistoryConfig : oci.DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory.IDataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_storage_server_open_alert_history#cloud_exadata_storage_server_id DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory#cloud_exadata_storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_storage_server_open_alert_history#cloud_exadata_storage_server_id DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory#cloud_exadata_storage_server_id}.</summary>
         [JsiiProperty(name: "cloudExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudExadataStorageServerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_storage_server_open_alert_history#id DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_storage_server_open_alert_history#id DataOciDatabaseManagementCloudExadataStorageServerOpenAlertHistory#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

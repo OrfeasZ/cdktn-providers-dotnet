@@ -9,7 +9,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
     [JsiiByValue(fqn: "oci.resourceAnalyticsResourceAnalyticsInstance.ResourceAnalyticsResourceAnalyticsInstanceAdwAdminPassword")]
     public class ResourceAnalyticsResourceAnalyticsInstanceAdwAdminPassword : oci.ResourceAnalyticsResourceAnalyticsInstance.IResourceAnalyticsResourceAnalyticsInstanceAdwAdminPassword
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance#password_type ResourceAnalyticsResourceAnalyticsInstance#password_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_resource_analytics_instance#password_type ResourceAnalyticsResourceAnalyticsInstance#password_type}.</summary>
         [JsiiProperty(name: "passwordType", typeJson: "{\"primitive\":\"string\"}")]
         public string PasswordType
         {
@@ -17,7 +17,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance#password ResourceAnalyticsResourceAnalyticsInstance#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_resource_analytics_instance#password ResourceAnalyticsResourceAnalyticsInstance#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -26,7 +26,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance#secret_id ResourceAnalyticsResourceAnalyticsInstance#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_resource_analytics_instance#secret_id ResourceAnalyticsResourceAnalyticsInstance#secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretId

@@ -9,7 +9,7 @@ namespace oci.DataSafeTargetDatabase
     [JsiiByValue(fqn: "oci.dataSafeTargetDatabase.DataSafeTargetDatabaseConnectionOption")]
     public class DataSafeTargetDatabaseConnectionOption : oci.DataSafeTargetDatabase.IDataSafeTargetDatabaseConnectionOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_target_database#connection_type DataSafeTargetDatabase#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_target_database#connection_type DataSafeTargetDatabase#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionType
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_target_database#datasafe_private_endpoint_id DataSafeTargetDatabase#datasafe_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_target_database#datasafe_private_endpoint_id DataSafeTargetDatabase#datasafe_private_endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datasafePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatasafePrivateEndpointId
@@ -26,7 +26,7 @@ namespace oci.DataSafeTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_target_database#on_prem_connector_id DataSafeTargetDatabase#on_prem_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_target_database#on_prem_connector_id DataSafeTargetDatabase#on_prem_connector_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "onPremConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OnPremConnectorId

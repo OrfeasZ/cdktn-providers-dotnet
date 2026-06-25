@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeUserAssessmentUserAccessAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeUserAssessmentUserAccessAnalytics.DataOciDataSafeUserAssessmentUserAccessAnalyticsFilter")]
     public class DataOciDataSafeUserAssessmentUserAccessAnalyticsFilter : oci.DataOciDataSafeUserAssessmentUserAccessAnalytics.IDataOciDataSafeUserAssessmentUserAccessAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_user_access_analytics#name DataOciDataSafeUserAssessmentUserAccessAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_user_assessment_user_access_analytics#name DataOciDataSafeUserAssessmentUserAccessAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeUserAssessmentUserAccessAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_user_access_analytics#values DataOciDataSafeUserAssessmentUserAccessAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_user_assessment_user_access_analytics#values DataOciDataSafeUserAssessmentUserAccessAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeUserAssessmentUserAccessAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_user_access_analytics#regex DataOciDataSafeUserAssessmentUserAccessAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_user_assessment_user_access_analytics#regex DataOciDataSafeUserAssessmentUserAccessAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

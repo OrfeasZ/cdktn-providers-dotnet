@@ -7,7 +7,7 @@ namespace oci.DataOciMediaServicesSystemMediaWorkflow
     [JsiiInterface(nativeType: typeof(IDataOciMediaServicesSystemMediaWorkflowConfig), fullyQualifiedName: "oci.dataOciMediaServicesSystemMediaWorkflow.DataOciMediaServicesSystemMediaWorkflowConfig")]
     public interface IDataOciMediaServicesSystemMediaWorkflowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/media_services_system_media_workflow#compartment_id DataOciMediaServicesSystemMediaWorkflow#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_system_media_workflow#compartment_id DataOciMediaServicesSystemMediaWorkflow#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciMediaServicesSystemMediaWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/media_services_system_media_workflow#id DataOciMediaServicesSystemMediaWorkflow#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_system_media_workflow#id DataOciMediaServicesSystemMediaWorkflow#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ namespace oci.DataOciMediaServicesSystemMediaWorkflow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/media_services_system_media_workflow#name DataOciMediaServicesSystemMediaWorkflow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_system_media_workflow#name DataOciMediaServicesSystemMediaWorkflow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -51,7 +51,7 @@ namespace oci.DataOciMediaServicesSystemMediaWorkflow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/media_services_system_media_workflow#compartment_id DataOciMediaServicesSystemMediaWorkflow#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_system_media_workflow#compartment_id DataOciMediaServicesSystemMediaWorkflow#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -59,7 +59,7 @@ namespace oci.DataOciMediaServicesSystemMediaWorkflow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/media_services_system_media_workflow#id DataOciMediaServicesSystemMediaWorkflow#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_system_media_workflow#id DataOciMediaServicesSystemMediaWorkflow#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.DataOciMediaServicesSystemMediaWorkflow
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/media_services_system_media_workflow#name DataOciMediaServicesSystemMediaWorkflow#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_system_media_workflow#name DataOciMediaServicesSystemMediaWorkflow#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

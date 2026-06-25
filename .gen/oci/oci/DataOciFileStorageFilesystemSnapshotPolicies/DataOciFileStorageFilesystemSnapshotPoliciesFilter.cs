@@ -9,7 +9,7 @@ namespace oci.DataOciFileStorageFilesystemSnapshotPolicies
     [JsiiByValue(fqn: "oci.dataOciFileStorageFilesystemSnapshotPolicies.DataOciFileStorageFilesystemSnapshotPoliciesFilter")]
     public class DataOciFileStorageFilesystemSnapshotPoliciesFilter : oci.DataOciFileStorageFilesystemSnapshotPolicies.IDataOciFileStorageFilesystemSnapshotPoliciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/file_storage_filesystem_snapshot_policies#name DataOciFileStorageFilesystemSnapshotPolicies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/file_storage_filesystem_snapshot_policies#name DataOciFileStorageFilesystemSnapshotPolicies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFileStorageFilesystemSnapshotPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/file_storage_filesystem_snapshot_policies#values DataOciFileStorageFilesystemSnapshotPolicies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/file_storage_filesystem_snapshot_policies#values DataOciFileStorageFilesystemSnapshotPolicies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFileStorageFilesystemSnapshotPolicies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/file_storage_filesystem_snapshot_policies#regex DataOciFileStorageFilesystemSnapshotPolicies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/file_storage_filesystem_snapshot_policies#regex DataOciFileStorageFilesystemSnapshotPolicies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

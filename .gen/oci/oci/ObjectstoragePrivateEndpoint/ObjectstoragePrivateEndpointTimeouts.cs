@@ -7,7 +7,7 @@ namespace oci.ObjectstoragePrivateEndpoint
     [JsiiByValue(fqn: "oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointTimeouts")]
     public class ObjectstoragePrivateEndpointTimeouts : oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_private_endpoint#create ObjectstoragePrivateEndpoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_private_endpoint#create ObjectstoragePrivateEndpoint#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ObjectstoragePrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_private_endpoint#delete ObjectstoragePrivateEndpoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_private_endpoint#delete ObjectstoragePrivateEndpoint#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ObjectstoragePrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_private_endpoint#update ObjectstoragePrivateEndpoint#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_private_endpoint#update ObjectstoragePrivateEndpoint#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseMigrationMigration
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationMigrationConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationMigration.DataOciDatabaseMigrationMigrationConfig")]
     public interface IDataOciDatabaseMigrationMigrationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_migration_migration#migration_id DataOciDatabaseMigrationMigration#migration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_migration_migration#migration_id DataOciDatabaseMigrationMigration#migration_id}.</summary>
         [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
         string MigrationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseMigrationMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_migration_migration#migration_id DataOciDatabaseMigrationMigration#migration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_migration_migration#migration_id DataOciDatabaseMigrationMigration#migration_id}.</summary>
             [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MigrationId
             {

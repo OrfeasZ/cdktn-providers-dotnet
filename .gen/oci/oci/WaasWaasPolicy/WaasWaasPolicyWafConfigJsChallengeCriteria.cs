@@ -9,7 +9,7 @@ namespace oci.WaasWaasPolicy
     [JsiiByValue(fqn: "oci.waasWaasPolicy.WaasWaasPolicyWafConfigJsChallengeCriteria")]
     public class WaasWaasPolicyWafConfigJsChallengeCriteria : oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigJsChallengeCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#condition WaasWaasPolicy#condition}.</summary>
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}")]
         public string Condition
         {
@@ -17,7 +17,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -27,7 +27,7 @@ namespace oci.WaasWaasPolicy
 
         private object? _isCaseSensitive;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#is_case_sensitive WaasWaasPolicy#is_case_sensitive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#is_case_sensitive WaasWaasPolicy#is_case_sensitive}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

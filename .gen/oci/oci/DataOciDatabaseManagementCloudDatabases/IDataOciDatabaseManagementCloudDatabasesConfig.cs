@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudDatabasesConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudDatabases.DataOciDatabaseManagementCloudDatabasesConfig")]
     public interface IDataOciDatabaseManagementCloudDatabasesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#cloud_db_system_id DataOciDatabaseManagementCloudDatabases#cloud_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#cloud_db_system_id DataOciDatabaseManagementCloudDatabases#cloud_db_system_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudDbSystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#compartment_id DataOciDatabaseManagementCloudDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#compartment_id DataOciDatabaseManagementCloudDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#display_name DataOciDatabaseManagementCloudDatabases#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#display_name DataOciDatabaseManagementCloudDatabases#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#filter DataOciDatabaseManagementCloudDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#filter DataOciDatabaseManagementCloudDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudDatabases.IDataOciDatabaseManagementCloudDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementCloudDatabases.DataOciDatabaseManagementCloudDatabasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#id DataOciDatabaseManagementCloudDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#id DataOciDatabaseManagementCloudDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,14 +73,14 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#cloud_db_system_id DataOciDatabaseManagementCloudDatabases#cloud_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#cloud_db_system_id DataOciDatabaseManagementCloudDatabases#cloud_db_system_id}.</summary>
             [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudDbSystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#compartment_id DataOciDatabaseManagementCloudDatabases#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#compartment_id DataOciDatabaseManagementCloudDatabases#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -88,7 +88,7 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#display_name DataOciDatabaseManagementCloudDatabases#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#display_name DataOciDatabaseManagementCloudDatabases#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -98,7 +98,7 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#filter DataOciDatabaseManagementCloudDatabases#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#filter DataOciDatabaseManagementCloudDatabases#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudDatabases.IDataOciDatabaseManagementCloudDatabasesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -108,7 +108,7 @@ namespace oci.DataOciDatabaseManagementCloudDatabases
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_databases#id DataOciDatabaseManagementCloudDatabases#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_databases#id DataOciDatabaseManagementCloudDatabases#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

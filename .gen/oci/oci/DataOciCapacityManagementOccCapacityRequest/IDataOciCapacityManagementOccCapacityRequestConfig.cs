@@ -7,7 +7,7 @@ namespace oci.DataOciCapacityManagementOccCapacityRequest
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementOccCapacityRequestConfig), fullyQualifiedName: "oci.dataOciCapacityManagementOccCapacityRequest.DataOciCapacityManagementOccCapacityRequestConfig")]
     public interface IDataOciCapacityManagementOccCapacityRequestConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occ_capacity_request#occ_capacity_request_id DataOciCapacityManagementOccCapacityRequest#occ_capacity_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_capacity_request#occ_capacity_request_id DataOciCapacityManagementOccCapacityRequest#occ_capacity_request_id}.</summary>
         [JsiiProperty(name: "occCapacityRequestId", typeJson: "{\"primitive\":\"string\"}")]
         string OccCapacityRequestId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCapacityManagementOccCapacityRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_occ_capacity_request#occ_capacity_request_id DataOciCapacityManagementOccCapacityRequest#occ_capacity_request_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_capacity_request#occ_capacity_request_id DataOciCapacityManagementOccCapacityRequest#occ_capacity_request_id}.</summary>
             [JsiiProperty(name: "occCapacityRequestId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccCapacityRequestId
             {

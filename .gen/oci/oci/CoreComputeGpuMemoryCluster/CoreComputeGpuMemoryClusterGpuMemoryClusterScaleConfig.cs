@@ -11,7 +11,7 @@ namespace oci.CoreComputeGpuMemoryCluster
     {
         private object _isUpsizeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_gpu_memory_cluster#is_upsize_enabled CoreComputeGpuMemoryCluster#is_upsize_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_gpu_memory_cluster#is_upsize_enabled CoreComputeGpuMemoryCluster#is_upsize_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace oci.CoreComputeGpuMemoryCluster
 
         private object? _isDownsizeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_gpu_memory_cluster#is_downsize_enabled CoreComputeGpuMemoryCluster#is_downsize_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_gpu_memory_cluster#is_downsize_enabled CoreComputeGpuMemoryCluster#is_downsize_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -76,7 +76,7 @@ namespace oci.CoreComputeGpuMemoryCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_gpu_memory_cluster#target_size CoreComputeGpuMemoryCluster#target_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_gpu_memory_cluster#target_size CoreComputeGpuMemoryCluster#target_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetSize", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetSize

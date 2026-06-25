@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementComplianceRecords.DataOciFleetAppsManagementComplianceRecordsConfig")]
     public class DataOciFleetAppsManagementComplianceRecordsConfig : oci.DataOciFleetAppsManagementComplianceRecords.IDataOciFleetAppsManagementComplianceRecordsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#compartment_id DataOciFleetAppsManagementComplianceRecords#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#compartment_id DataOciFleetAppsManagementComplianceRecords#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#compartment_id_in_subtree DataOciFleetAppsManagementComplianceRecords#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#compartment_id_in_subtree DataOciFleetAppsManagementComplianceRecords#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#compliance_state DataOciFleetAppsManagementComplianceRecords#compliance_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#compliance_state DataOciFleetAppsManagementComplianceRecords#compliance_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "complianceState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ComplianceState
@@ -60,7 +60,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#entity_id DataOciFleetAppsManagementComplianceRecords#entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#entity_id DataOciFleetAppsManagementComplianceRecords#entity_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EntityId
@@ -73,7 +73,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#filter DataOciFleetAppsManagementComplianceRecords#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#filter DataOciFleetAppsManagementComplianceRecords#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementComplianceRecords.IDataOciFleetAppsManagementComplianceRecordsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +104,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#id DataOciFleetAppsManagementComplianceRecords#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#id DataOciFleetAppsManagementComplianceRecords#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,7 +117,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#product_name DataOciFleetAppsManagementComplianceRecords#product_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#product_name DataOciFleetAppsManagementComplianceRecords#product_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "productName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProductName
@@ -126,7 +126,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#product_stack DataOciFleetAppsManagementComplianceRecords#product_stack}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#product_stack DataOciFleetAppsManagementComplianceRecords#product_stack}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "productStack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProductStack
@@ -135,7 +135,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#resource_id DataOciFleetAppsManagementComplianceRecords#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#resource_id DataOciFleetAppsManagementComplianceRecords#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -144,7 +144,7 @@ namespace oci.DataOciFleetAppsManagementComplianceRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_records#target_name DataOciFleetAppsManagementComplianceRecords#target_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_compliance_records#target_name DataOciFleetAppsManagementComplianceRecords#target_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetName

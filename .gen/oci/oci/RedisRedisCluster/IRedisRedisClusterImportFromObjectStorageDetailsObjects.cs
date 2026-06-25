@@ -7,7 +7,7 @@ namespace oci.RedisRedisCluster
     [JsiiInterface(nativeType: typeof(IRedisRedisClusterImportFromObjectStorageDetailsObjects), fullyQualifiedName: "oci.redisRedisCluster.RedisRedisClusterImportFromObjectStorageDetailsObjects")]
     public interface IRedisRedisClusterImportFromObjectStorageDetailsObjects
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_redis_cluster#object RedisRedisCluster#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_redis_cluster#object RedisRedisCluster#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         string Object
         {
@@ -21,7 +21,7 @@ namespace oci.RedisRedisCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_redis_cluster#object RedisRedisCluster#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_redis_cluster#object RedisRedisCluster#object}.</summary>
             [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
             public string Object
             {

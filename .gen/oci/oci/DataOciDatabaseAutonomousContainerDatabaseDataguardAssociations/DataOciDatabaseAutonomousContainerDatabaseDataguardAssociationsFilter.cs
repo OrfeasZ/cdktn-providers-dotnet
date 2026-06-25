@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousContainerDatabaseDataguardAssociations.DataOciDatabaseAutonomousContainerDatabaseDataguardAssociationsFilter")]
     public class DataOciDatabaseAutonomousContainerDatabaseDataguardAssociationsFilter : oci.DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations.IDataOciDatabaseAutonomousContainerDatabaseDataguardAssociationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_autonomous_container_database_dataguard_associations#name DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_container_database_dataguard_associations#name DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_autonomous_container_database_dataguard_associations#values DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_container_database_dataguard_associations#values DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_autonomous_container_database_dataguard_associations#regex DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_container_database_dataguard_associations#regex DataOciDatabaseAutonomousContainerDatabaseDataguardAssociations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

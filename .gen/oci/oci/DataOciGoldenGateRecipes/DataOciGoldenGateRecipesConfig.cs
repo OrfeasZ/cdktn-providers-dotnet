@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateRecipes
     [JsiiByValue(fqn: "oci.dataOciGoldenGateRecipes.DataOciGoldenGateRecipesConfig")]
     public class DataOciGoldenGateRecipesConfig : oci.DataOciGoldenGateRecipes.IDataOciGoldenGateRecipesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_recipes#compartment_id DataOciGoldenGateRecipes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_recipes#compartment_id DataOciGoldenGateRecipes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateRecipes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_recipes#display_name DataOciGoldenGateRecipes#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_recipes#display_name DataOciGoldenGateRecipes#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciGoldenGateRecipes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_recipes#filter DataOciGoldenGateRecipes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_recipes#filter DataOciGoldenGateRecipes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateRecipes.IDataOciGoldenGateRecipesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciGoldenGateRecipes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_recipes#id DataOciGoldenGateRecipes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_recipes#id DataOciGoldenGateRecipes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciGoldenGateRecipes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/golden_gate_recipes#recipe_type DataOciGoldenGateRecipes#recipe_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_recipes#recipe_type DataOciGoldenGateRecipes#recipe_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recipeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecipeType

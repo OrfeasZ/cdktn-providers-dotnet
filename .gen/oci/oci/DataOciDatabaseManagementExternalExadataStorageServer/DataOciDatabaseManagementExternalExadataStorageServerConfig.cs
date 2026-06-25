@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageServer
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalExadataStorageServer.DataOciDatabaseManagementExternalExadataStorageServerConfig")]
     public class DataOciDatabaseManagementExternalExadataStorageServerConfig : oci.DataOciDatabaseManagementExternalExadataStorageServer.IDataOciDatabaseManagementExternalExadataStorageServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_exadata_storage_server#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServer#external_exadata_storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_exadata_storage_server#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServer#external_exadata_storage_server_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalExadataStorageServerId
         {

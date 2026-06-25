@@ -9,7 +9,7 @@ namespace oci.DataOciApmConfigDataFile
     [JsiiByValue(fqn: "oci.dataOciApmConfigDataFile.DataOciApmConfigDataFileConfig")]
     public class DataOciApmConfigDataFileConfig : oci.DataOciApmConfigDataFile.IDataOciApmConfigDataFileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_file#apm_domain_id DataOciApmConfigDataFile#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_file#apm_domain_id DataOciApmConfigDataFile#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmConfigDataFile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_file#apm_type DataOciApmConfigDataFile#apm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_file#apm_type DataOciApmConfigDataFile#apm_type}.</summary>
         [JsiiProperty(name: "apmType", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmType
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciApmConfigDataFile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_file#data_file_name DataOciApmConfigDataFile#data_file_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_file#data_file_name DataOciApmConfigDataFile#data_file_name}.</summary>
         [JsiiProperty(name: "dataFileName", typeJson: "{\"primitive\":\"string\"}")]
         public string DataFileName
         {
@@ -35,7 +35,7 @@ namespace oci.DataOciApmConfigDataFile
 
         private object? _base64EncodeContent;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_file#base64_encode_content DataOciApmConfigDataFile#base64_encode_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_file#base64_encode_content DataOciApmConfigDataFile#base64_encode_content}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

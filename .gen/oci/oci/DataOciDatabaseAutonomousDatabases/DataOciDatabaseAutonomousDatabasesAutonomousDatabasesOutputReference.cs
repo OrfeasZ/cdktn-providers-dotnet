@@ -317,6 +317,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesEncryptionKeyLocationDetailsList>()!;
         }
 
+        [JsiiProperty(name: "externalLocationZone", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExternalLocationZone
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "failedDataRecoveryInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double FailedDataRecoveryInSeconds
         {

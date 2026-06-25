@@ -41,6 +41,12 @@ namespace oci.DataOciDnsResolverEndpoints
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap DefinedTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "endpointType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string EndpointType
         {
@@ -49,6 +55,18 @@ namespace oci.DataOciDnsResolverEndpoints
 
         [JsiiProperty(name: "forwardingAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ForwardingAddress
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap FreeformTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -83,6 +101,12 @@ namespace oci.DataOciDnsResolverEndpoints
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "peId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PeId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "resolverId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ResolverId
         {
@@ -93,6 +117,12 @@ namespace oci.DataOciDnsResolverEndpoints
         public virtual string Scope
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SecurityAttributes
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "selfAttribute", typeJson: "{\"primitive\":\"string\"}")]
@@ -121,6 +151,12 @@ namespace oci.DataOciDnsResolverEndpoints
 
         [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeUpdated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vnicId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VnicId
         {
             get => GetInstanceProperty<string>()!;
         }

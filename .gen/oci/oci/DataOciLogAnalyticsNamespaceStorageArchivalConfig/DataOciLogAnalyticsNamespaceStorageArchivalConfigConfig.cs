@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageArchivalConfig
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsNamespaceStorageArchivalConfig.DataOciLogAnalyticsNamespaceStorageArchivalConfigConfig")]
     public class DataOciLogAnalyticsNamespaceStorageArchivalConfigConfig : oci.DataOciLogAnalyticsNamespaceStorageArchivalConfig.IDataOciLogAnalyticsNamespaceStorageArchivalConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_namespace_storage_archival_config#namespace DataOciLogAnalyticsNamespaceStorageArchivalConfig#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_namespace_storage_archival_config#namespace DataOciLogAnalyticsNamespaceStorageArchivalConfig#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {

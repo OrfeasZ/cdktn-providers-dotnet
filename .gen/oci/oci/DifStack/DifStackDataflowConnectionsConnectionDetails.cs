@@ -11,7 +11,7 @@ namespace oci.DifStack
 
         /// <summary>dif_dependencies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DifStack.IDifStackDataflowConnectionsConnectionDetailsDifDependencies" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace oci.DifStack
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dif_stack#domain_names DifStack#domain_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#domain_names DifStack#domain_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DomainNames

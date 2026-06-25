@@ -9,7 +9,7 @@ namespace oci.FileStorageExportSet
     [JsiiByValue(fqn: "oci.fileStorageExportSet.FileStorageExportSetConfig")]
     public class FileStorageExportSetConfig : oci.FileStorageExportSet.IFileStorageExportSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_export_set#mount_target_id FileStorageExportSet#mount_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_export_set#mount_target_id FileStorageExportSet#mount_target_id}.</summary>
         [JsiiProperty(name: "mountTargetId", typeJson: "{\"primitive\":\"string\"}")]
         public string MountTargetId
         {
@@ -17,7 +17,7 @@ namespace oci.FileStorageExportSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_export_set#display_name FileStorageExportSet#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_export_set#display_name FileStorageExportSet#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -26,7 +26,7 @@ namespace oci.FileStorageExportSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_export_set#id FileStorageExportSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_export_set#id FileStorageExportSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.FileStorageExportSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_export_set#max_fs_stat_bytes FileStorageExportSet#max_fs_stat_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_export_set#max_fs_stat_bytes FileStorageExportSet#max_fs_stat_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxFsStatBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxFsStatBytes
@@ -48,7 +48,7 @@ namespace oci.FileStorageExportSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_export_set#max_fs_stat_files FileStorageExportSet#max_fs_stat_files}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_export_set#max_fs_stat_files FileStorageExportSet#max_fs_stat_files}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxFsStatFiles", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxFsStatFiles
@@ -59,7 +59,7 @@ namespace oci.FileStorageExportSet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_export_set#timeouts FileStorageExportSet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_export_set#timeouts FileStorageExportSet#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fileStorageExportSet.FileStorageExportSetTimeouts\"}", isOptional: true)]

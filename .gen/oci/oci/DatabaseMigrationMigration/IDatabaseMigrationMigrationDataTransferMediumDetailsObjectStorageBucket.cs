@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationMigrationDataTransferMediumDetailsObjectStorageBucket), fullyQualifiedName: "oci.databaseMigrationMigration.DatabaseMigrationMigrationDataTransferMediumDetailsObjectStorageBucket")]
     public interface IDatabaseMigrationMigrationDataTransferMediumDetailsObjectStorageBucket
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#bucket DatabaseMigrationMigration#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#bucket DatabaseMigrationMigration#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -18,7 +18,7 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#namespace DatabaseMigrationMigration#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#namespace DatabaseMigrationMigration#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -36,7 +36,7 @@ namespace oci.DatabaseMigrationMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#bucket DatabaseMigrationMigration#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#bucket DatabaseMigrationMigration#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -44,7 +44,7 @@ namespace oci.DatabaseMigrationMigration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#namespace DatabaseMigrationMigration#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_migration_migration#namespace DatabaseMigrationMigration#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace

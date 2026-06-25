@@ -9,7 +9,7 @@ namespace oci.DatascienceJobRun
     [JsiiByValue(fqn: "oci.datascienceJobRun.DatascienceJobRunJobNodeConfigurationOverrideDetails")]
     public class DatascienceJobRunJobNodeConfigurationOverrideDetails : oci.DatascienceJobRun.IDatascienceJobRunJobNodeConfigurationOverrideDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_job_run#job_node_type DatascienceJobRun#job_node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job_run#job_node_type DatascienceJobRun#job_node_type}.</summary>
         [JsiiProperty(name: "jobNodeType", typeJson: "{\"primitive\":\"string\"}")]
         public string JobNodeType
         {
@@ -19,7 +19,7 @@ namespace oci.DatascienceJobRun
 
         /// <summary>job_network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_job_run#job_network_configuration DatascienceJobRun#job_network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job_run#job_network_configuration DatascienceJobRun#job_network_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobNetworkConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobNodeConfigurationOverrideDetailsJobNetworkConfiguration\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.DatascienceJobRun
 
         /// <summary>job_node_group_configuration_details_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_job_run#job_node_group_configuration_details_list DatascienceJobRun#job_node_group_configuration_details_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job_run#job_node_group_configuration_details_list DatascienceJobRun#job_node_group_configuration_details_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceJobRun.IDatascienceJobRunJobNodeConfigurationOverrideDetailsJobNodeGroupConfigurationDetailsListStruct" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -64,7 +64,7 @@ namespace oci.DatascienceJobRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_job_run#maximum_runtime_in_minutes DatascienceJobRun#maximum_runtime_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job_run#maximum_runtime_in_minutes DatascienceJobRun#maximum_runtime_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumRuntimeInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaximumRuntimeInMinutes
@@ -73,7 +73,7 @@ namespace oci.DatascienceJobRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_job_run#startup_order DatascienceJobRun#startup_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job_run#startup_order DatascienceJobRun#startup_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startupOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartupOrder

@@ -7,14 +7,14 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
     [JsiiInterface(nativeType: typeof(IDatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagementFeatureDetails), fullyQualifiedName: "oci.databaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagementFeatureDetails")]
     public interface IDatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagementFeatureDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#feature DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#feature DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#feature}.</summary>
         [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}")]
         string Feature
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#can_enable_all_current_pdbs DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#can_enable_all_current_pdbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#can_enable_all_current_pdbs DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#can_enable_all_current_pdbs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -30,7 +30,7 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
 
         /// <summary>connector_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#connector_details DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#connector_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#connector_details DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#connector_details}
         /// </remarks>
         [JsiiProperty(name: "connectorDetails", typeJson: "{\"fqn\":\"oci.databaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagementFeatureDetailsConnectorDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#is_auto_enable_pluggable_database DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#is_auto_enable_pluggable_database}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#is_auto_enable_pluggable_database DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#is_auto_enable_pluggable_database}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -56,7 +56,7 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#license_model DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#license_model DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#license_model}.</summary>
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseModel
@@ -74,14 +74,14 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#feature DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#feature}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#feature DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#feature}.</summary>
             [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}")]
             public string Feature
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#can_enable_all_current_pdbs DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#can_enable_all_current_pdbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#can_enable_all_current_pdbs DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#can_enable_all_current_pdbs}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -94,7 +94,7 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
 
             /// <summary>connector_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#connector_details DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#connector_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#connector_details DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#connector_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectorDetails", typeJson: "{\"fqn\":\"oci.databaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagementFeatureDetailsConnectorDetails\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
                 get => GetInstanceProperty<oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement.IDatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagementFeatureDetailsConnectorDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#is_auto_enable_pluggable_database DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#is_auto_enable_pluggable_database}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#is_auto_enable_pluggable_database DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#is_auto_enable_pluggable_database}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -114,7 +114,7 @@ namespace oci.DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFea
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#license_model DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#license_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalcontainerdatabase_external_container_dbm_features_management#license_model DatabaseManagementExternalcontainerdatabaseExternalContainerDbmFeaturesManagement#license_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseModel

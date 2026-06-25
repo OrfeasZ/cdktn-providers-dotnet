@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataInfrastructure
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudExadataInfrastructureConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudExadataInfrastructure.DataOciDatabaseManagementCloudExadataInfrastructureConfig")]
     public interface IDataOciDatabaseManagementCloudExadataInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_infrastructure#cloud_exadata_infrastructure_id DataOciDatabaseManagementCloudExadataInfrastructure#cloud_exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_infrastructure#cloud_exadata_infrastructure_id DataOciDatabaseManagementCloudExadataInfrastructure#cloud_exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "cloudExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudExadataInfrastructureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_exadata_infrastructure#cloud_exadata_infrastructure_id DataOciDatabaseManagementCloudExadataInfrastructure#cloud_exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_infrastructure#cloud_exadata_infrastructure_id DataOciDatabaseManagementCloudExadataInfrastructure#cloud_exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "cloudExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudExadataInfrastructureId
             {

@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "externalLocationZone", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExternalLocationZone
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lagTimeInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double LagTimeInSeconds
         {

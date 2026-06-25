@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageConnector
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalExadataStorageConnectorConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalExadataStorageConnector.DataOciDatabaseManagementExternalExadataStorageConnectorConfig")]
     public interface IDataOciDatabaseManagementExternalExadataStorageConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_exadata_storage_connector#external_exadata_storage_connector_id DataOciDatabaseManagementExternalExadataStorageConnector#external_exadata_storage_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_exadata_storage_connector#external_exadata_storage_connector_id DataOciDatabaseManagementExternalExadataStorageConnector#external_exadata_storage_connector_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalExadataStorageConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_exadata_storage_connector#external_exadata_storage_connector_id DataOciDatabaseManagementExternalExadataStorageConnector#external_exadata_storage_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_exadata_storage_connector#external_exadata_storage_connector_id DataOciDatabaseManagementExternalExadataStorageConnector#external_exadata_storage_connector_id}.</summary>
             [JsiiProperty(name: "externalExadataStorageConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalExadataStorageConnectorId
             {

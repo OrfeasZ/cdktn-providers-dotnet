@@ -7,7 +7,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
     [JsiiByValue(fqn: "oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseDbBackupConfig")]
     public class DistributedDatabaseDistributedDatabaseDbBackupConfig : oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseDbBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#auto_backup_window DistributedDatabaseDistributedDatabase#auto_backup_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#auto_backup_window DistributedDatabaseDistributedDatabase#auto_backup_window}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoBackupWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutoBackupWindow
@@ -16,7 +16,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#auto_full_backup_day DistributedDatabaseDistributedDatabase#auto_full_backup_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#auto_full_backup_day DistributedDatabaseDistributedDatabase#auto_full_backup_day}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoFullBackupDay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutoFullBackupDay
@@ -25,7 +25,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#auto_full_backup_window DistributedDatabaseDistributedDatabase#auto_full_backup_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#auto_full_backup_window DistributedDatabaseDistributedDatabase#auto_full_backup_window}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoFullBackupWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutoFullBackupWindow
@@ -34,7 +34,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#backup_deletion_policy DistributedDatabaseDistributedDatabase#backup_deletion_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#backup_deletion_policy DistributedDatabaseDistributedDatabase#backup_deletion_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupDeletionPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupDeletionPolicy
@@ -47,7 +47,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>backup_destination_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#backup_destination_details DistributedDatabaseDistributedDatabase#backup_destination_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#backup_destination_details DistributedDatabaseDistributedDatabase#backup_destination_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseDbBackupConfigBackupDestinationDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         private object? _canRunImmediateFullBackup;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#can_run_immediate_full_backup DistributedDatabaseDistributedDatabase#can_run_immediate_full_backup}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#can_run_immediate_full_backup DistributedDatabaseDistributedDatabase#can_run_immediate_full_backup}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -114,7 +114,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         private object? _isAutoBackupEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#is_auto_backup_enabled DistributedDatabaseDistributedDatabase#is_auto_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#is_auto_backup_enabled DistributedDatabaseDistributedDatabase#is_auto_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -148,7 +148,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         private object? _isRemoteBackupEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#is_remote_backup_enabled DistributedDatabaseDistributedDatabase#is_remote_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#is_remote_backup_enabled DistributedDatabaseDistributedDatabase#is_remote_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -180,7 +180,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#recovery_window_in_days DistributedDatabaseDistributedDatabase#recovery_window_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#recovery_window_in_days DistributedDatabaseDistributedDatabase#recovery_window_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryWindowInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RecoveryWindowInDays
@@ -189,7 +189,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/distributed_database_distributed_database#remote_region DistributedDatabaseDistributedDatabase#remote_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#remote_region DistributedDatabaseDistributedDatabase#remote_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "remoteRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RemoteRegion

@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiInterface(nativeType: typeof(ICloudBridgeAssetAwsEc2NetworkInterfacesPrivateIpAddressesAssociation), fullyQualifiedName: "oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2NetworkInterfacesPrivateIpAddressesAssociation")]
     public interface ICloudBridgeAssetAwsEc2NetworkInterfacesPrivateIpAddressesAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#carrier_ip CloudBridgeAsset#carrier_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#carrier_ip CloudBridgeAsset#carrier_ip}.</summary>
         [JsiiProperty(name: "carrierIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CarrierIp
@@ -18,7 +18,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#customer_owned_ip CloudBridgeAsset#customer_owned_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#customer_owned_ip CloudBridgeAsset#customer_owned_ip}.</summary>
         [JsiiProperty(name: "customerOwnedIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomerOwnedIp
@@ -29,7 +29,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#ip_owner_key CloudBridgeAsset#ip_owner_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#ip_owner_key CloudBridgeAsset#ip_owner_key}.</summary>
         [JsiiProperty(name: "ipOwnerKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IpOwnerKey
@@ -40,7 +40,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#public_dns_name CloudBridgeAsset#public_dns_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#public_dns_name CloudBridgeAsset#public_dns_name}.</summary>
         [JsiiProperty(name: "publicDnsName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublicDnsName
@@ -51,7 +51,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#public_ip CloudBridgeAsset#public_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#public_ip CloudBridgeAsset#public_ip}.</summary>
         [JsiiProperty(name: "publicIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublicIp
@@ -69,7 +69,7 @@ namespace oci.CloudBridgeAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#carrier_ip CloudBridgeAsset#carrier_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#carrier_ip CloudBridgeAsset#carrier_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "carrierIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CarrierIp
@@ -77,7 +77,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#customer_owned_ip CloudBridgeAsset#customer_owned_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#customer_owned_ip CloudBridgeAsset#customer_owned_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customerOwnedIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomerOwnedIp
@@ -85,7 +85,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#ip_owner_key CloudBridgeAsset#ip_owner_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#ip_owner_key CloudBridgeAsset#ip_owner_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipOwnerKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IpOwnerKey
@@ -93,7 +93,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#public_dns_name CloudBridgeAsset#public_dns_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#public_dns_name CloudBridgeAsset#public_dns_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicDnsName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublicDnsName
@@ -101,7 +101,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#public_ip CloudBridgeAsset#public_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#public_ip CloudBridgeAsset#public_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublicIp

@@ -7,7 +7,7 @@ namespace oci.CertificatesManagementCertificateAuthority
     [JsiiInterface(nativeType: typeof(ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintExcludedSubtree), fullyQualifiedName: "oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintExcludedSubtree")]
     public interface ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintExcludedSubtree
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate_authority#type CertificatesManagementCertificateAuthority#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/certificates_management_certificate_authority#type CertificatesManagementCertificateAuthority#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -18,7 +18,7 @@ namespace oci.CertificatesManagementCertificateAuthority
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate_authority#value CertificatesManagementCertificateAuthority#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/certificates_management_certificate_authority#value CertificatesManagementCertificateAuthority#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -36,7 +36,7 @@ namespace oci.CertificatesManagementCertificateAuthority
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate_authority#type CertificatesManagementCertificateAuthority#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/certificates_management_certificate_authority#type CertificatesManagementCertificateAuthority#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -44,7 +44,7 @@ namespace oci.CertificatesManagementCertificateAuthority
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate_authority#value CertificatesManagementCertificateAuthority#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/certificates_management_certificate_authority#value CertificatesManagementCertificateAuthority#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

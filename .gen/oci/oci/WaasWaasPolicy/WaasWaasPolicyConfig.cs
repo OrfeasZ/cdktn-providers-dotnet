@@ -9,7 +9,7 @@ namespace oci.WaasWaasPolicy
     [JsiiByValue(fqn: "oci.waasWaasPolicy.WaasWaasPolicyConfig")]
     public class WaasWaasPolicyConfig : oci.WaasWaasPolicy.IWaasWaasPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#compartment_id WaasWaasPolicy#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#compartment_id WaasWaasPolicy#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#domain WaasWaasPolicy#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {
@@ -25,7 +25,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#additional_domains WaasWaasPolicy#additional_domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#additional_domains WaasWaasPolicy#additional_domains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "additionalDomains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AdditionalDomains
@@ -34,7 +34,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#defined_tags WaasWaasPolicy#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#defined_tags WaasWaasPolicy#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -43,7 +43,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#display_name WaasWaasPolicy#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#display_name WaasWaasPolicy#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -52,7 +52,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#freeform_tags WaasWaasPolicy#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#freeform_tags WaasWaasPolicy#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -61,7 +61,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#id WaasWaasPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#id WaasWaasPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>origin_groups block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#origin_groups WaasWaasPolicy#origin_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#origin_groups WaasWaasPolicy#origin_groups}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOriginGroups" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -113,7 +113,7 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>origins block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#origins WaasWaasPolicy#origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#origins WaasWaasPolicy#origins}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOrigins" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -146,7 +146,7 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>policy_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#policy_config WaasWaasPolicy#policy_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#policy_config WaasWaasPolicy#policy_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policyConfig", typeJson: "{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyPolicyConfig\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#timeouts WaasWaasPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#timeouts WaasWaasPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyTimeouts\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>waf_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#waf_config WaasWaasPolicy#waf_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waas_waas_policy#waf_config WaasWaasPolicy#waf_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wafConfig", typeJson: "{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfig\"}", isOptional: true)]

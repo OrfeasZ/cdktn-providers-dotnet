@@ -7,7 +7,7 @@ namespace oci.DataOciWaasCertificate
     [JsiiInterface(nativeType: typeof(IDataOciWaasCertificateConfig), fullyQualifiedName: "oci.dataOciWaasCertificate.DataOciWaasCertificateConfig")]
     public interface IDataOciWaasCertificateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/waas_certificate#certificate_id DataOciWaasCertificate#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waas_certificate#certificate_id DataOciWaasCertificate#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWaasCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/waas_certificate#certificate_id DataOciWaasCertificate#certificate_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waas_certificate#certificate_id DataOciWaasCertificate#certificate_id}.</summary>
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateId
             {

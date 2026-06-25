@@ -7,7 +7,7 @@ namespace oci.CoreComputeImageCapabilitySchema
     [JsiiByValue(fqn: "oci.coreComputeImageCapabilitySchema.CoreComputeImageCapabilitySchemaTimeouts")]
     public class CoreComputeImageCapabilitySchemaTimeouts : oci.CoreComputeImageCapabilitySchema.ICoreComputeImageCapabilitySchemaTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_image_capability_schema#create CoreComputeImageCapabilitySchema#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_image_capability_schema#create CoreComputeImageCapabilitySchema#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_image_capability_schema#delete CoreComputeImageCapabilitySchema#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_image_capability_schema#delete CoreComputeImageCapabilitySchema#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_image_capability_schema#update CoreComputeImageCapabilitySchema#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_compute_image_capability_schema#update CoreComputeImageCapabilitySchema#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

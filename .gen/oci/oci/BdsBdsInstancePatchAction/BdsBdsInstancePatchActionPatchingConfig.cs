@@ -9,7 +9,7 @@ namespace oci.BdsBdsInstancePatchAction
     [JsiiByValue(fqn: "oci.bdsBdsInstancePatchAction.BdsBdsInstancePatchActionPatchingConfig")]
     public class BdsBdsInstancePatchActionPatchingConfig : oci.BdsBdsInstancePatchAction.IBdsBdsInstancePatchActionPatchingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_patch_action#patching_config_strategy BdsBdsInstancePatchAction#patching_config_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_patch_action#patching_config_strategy BdsBdsInstancePatchAction#patching_config_strategy}.</summary>
         [JsiiProperty(name: "patchingConfigStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string PatchingConfigStrategy
         {
@@ -17,7 +17,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_patch_action#batch_size BdsBdsInstancePatchAction#batch_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_patch_action#batch_size BdsBdsInstancePatchAction#batch_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BatchSize
@@ -26,7 +26,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_patch_action#tolerance_threshold_per_batch BdsBdsInstancePatchAction#tolerance_threshold_per_batch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_patch_action#tolerance_threshold_per_batch BdsBdsInstancePatchAction#tolerance_threshold_per_batch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toleranceThresholdPerBatch", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ToleranceThresholdPerBatch
@@ -35,7 +35,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_patch_action#tolerance_threshold_per_domain BdsBdsInstancePatchAction#tolerance_threshold_per_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_patch_action#tolerance_threshold_per_domain BdsBdsInstancePatchAction#tolerance_threshold_per_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toleranceThresholdPerDomain", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ToleranceThresholdPerDomain
@@ -44,7 +44,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_patch_action#wait_time_between_batch_in_seconds BdsBdsInstancePatchAction#wait_time_between_batch_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_patch_action#wait_time_between_batch_in_seconds BdsBdsInstancePatchAction#wait_time_between_batch_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "waitTimeBetweenBatchInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? WaitTimeBetweenBatchInSeconds
@@ -53,7 +53,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_patch_action#wait_time_between_domain_in_seconds BdsBdsInstancePatchAction#wait_time_between_domain_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_bds_instance_patch_action#wait_time_between_domain_in_seconds BdsBdsInstancePatchAction#wait_time_between_domain_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "waitTimeBetweenDomainInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? WaitTimeBetweenDomainInSeconds

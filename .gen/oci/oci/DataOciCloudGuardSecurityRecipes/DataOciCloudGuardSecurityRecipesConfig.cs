@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardSecurityRecipes
     [JsiiByValue(fqn: "oci.dataOciCloudGuardSecurityRecipes.DataOciCloudGuardSecurityRecipesConfig")]
     public class DataOciCloudGuardSecurityRecipesConfig : oci.DataOciCloudGuardSecurityRecipes.IDataOciCloudGuardSecurityRecipesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_security_recipes#compartment_id DataOciCloudGuardSecurityRecipes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_security_recipes#compartment_id DataOciCloudGuardSecurityRecipes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudGuardSecurityRecipes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_security_recipes#display_name DataOciCloudGuardSecurityRecipes#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_security_recipes#display_name DataOciCloudGuardSecurityRecipes#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciCloudGuardSecurityRecipes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_security_recipes#filter DataOciCloudGuardSecurityRecipes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_security_recipes#filter DataOciCloudGuardSecurityRecipes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardSecurityRecipes.IDataOciCloudGuardSecurityRecipesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciCloudGuardSecurityRecipes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_security_recipes#id DataOciCloudGuardSecurityRecipes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_security_recipes#id DataOciCloudGuardSecurityRecipes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciCloudGuardSecurityRecipes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_guard_security_recipes#state DataOciCloudGuardSecurityRecipes#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_security_recipes#state DataOciCloudGuardSecurityRecipes#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

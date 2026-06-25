@@ -9,7 +9,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstance
     [JsiiByValue(fqn: "oci.dataOciAnalyticsAnalyticsInstance.DataOciAnalyticsAnalyticsInstanceConfig")]
     public class DataOciAnalyticsAnalyticsInstanceConfig : oci.DataOciAnalyticsAnalyticsInstance.IDataOciAnalyticsAnalyticsInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/analytics_analytics_instance#analytics_instance_id DataOciAnalyticsAnalyticsInstance#analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/analytics_analytics_instance#analytics_instance_id DataOciAnalyticsAnalyticsInstance#analytics_instance_id}.</summary>
         [JsiiProperty(name: "analyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string AnalyticsInstanceId
         {

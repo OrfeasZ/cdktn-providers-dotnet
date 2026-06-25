@@ -7,7 +7,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshot
     [JsiiInterface(nativeType: typeof(IDataOciDatabasePluggableDatabaseSnapshotConfig), fullyQualifiedName: "oci.dataOciDatabasePluggableDatabaseSnapshot.DataOciDatabasePluggableDatabaseSnapshotConfig")]
     public interface IDataOciDatabasePluggableDatabaseSnapshotConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_pluggable_database_snapshot#pluggable_database_snapshot_id DataOciDatabasePluggableDatabaseSnapshot#pluggable_database_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_pluggable_database_snapshot#pluggable_database_snapshot_id DataOciDatabasePluggableDatabaseSnapshot#pluggable_database_snapshot_id}.</summary>
         [JsiiProperty(name: "pluggableDatabaseSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
         string PluggableDatabaseSnapshotId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_pluggable_database_snapshot#pluggable_database_snapshot_id DataOciDatabasePluggableDatabaseSnapshot#pluggable_database_snapshot_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_pluggable_database_snapshot#pluggable_database_snapshot_id DataOciDatabasePluggableDatabaseSnapshot#pluggable_database_snapshot_id}.</summary>
             [JsiiProperty(name: "pluggableDatabaseSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
             public string PluggableDatabaseSnapshotId
             {

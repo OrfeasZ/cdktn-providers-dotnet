@@ -7,21 +7,21 @@ namespace oci.DataOciLoadBalancerBackendSetHealth
     [JsiiInterface(nativeType: typeof(IDataOciLoadBalancerBackendSetHealthConfig), fullyQualifiedName: "oci.dataOciLoadBalancerBackendSetHealth.DataOciLoadBalancerBackendSetHealthConfig")]
     public interface IDataOciLoadBalancerBackendSetHealthConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_backend_set_health#backend_set_name DataOciLoadBalancerBackendSetHealth#backend_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backend_set_health#backend_set_name DataOciLoadBalancerBackendSetHealth#backend_set_name}.</summary>
         [JsiiProperty(name: "backendSetName", typeJson: "{\"primitive\":\"string\"}")]
         string BackendSetName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_backend_set_health#load_balancer_id DataOciLoadBalancerBackendSetHealth#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backend_set_health#load_balancer_id DataOciLoadBalancerBackendSetHealth#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_backend_set_health#id DataOciLoadBalancerBackendSetHealth#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backend_set_health#id DataOciLoadBalancerBackendSetHealth#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciLoadBalancerBackendSetHealth
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_backend_set_health#backend_set_name DataOciLoadBalancerBackendSetHealth#backend_set_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backend_set_health#backend_set_name DataOciLoadBalancerBackendSetHealth#backend_set_name}.</summary>
             [JsiiProperty(name: "backendSetName", typeJson: "{\"primitive\":\"string\"}")]
             public string BackendSetName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_backend_set_health#load_balancer_id DataOciLoadBalancerBackendSetHealth#load_balancer_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backend_set_health#load_balancer_id DataOciLoadBalancerBackendSetHealth#load_balancer_id}.</summary>
             [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_backend_set_health#id DataOciLoadBalancerBackendSetHealth#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backend_set_health#id DataOciLoadBalancerBackendSetHealth#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

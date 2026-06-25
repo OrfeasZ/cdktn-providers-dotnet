@@ -5,7 +5,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
     /// <remarks>
     /// <h1><c>data_oci_core_virtual_circuit_bandwidth_shapes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes"><c>data_oci_core_virtual_circuit_bandwidth_shapes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes"><c>data_oci_core_virtual_circuit_bandwidth_shapes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     {
         /// <summary>factor_identifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#factor_identifier IdentityDomainsUser#factor_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_identifier IdentityDomainsUser#factor_identifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "factorIdentifier", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionpasswordlessUserFactorIdentifier\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#factor_method IdentityDomainsUser#factor_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_method IdentityDomainsUser#factor_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "factorMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FactorMethod
@@ -28,7 +28,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "factorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FactorType

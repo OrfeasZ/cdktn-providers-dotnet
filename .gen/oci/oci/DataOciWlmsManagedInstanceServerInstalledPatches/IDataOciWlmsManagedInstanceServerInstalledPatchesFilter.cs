@@ -7,21 +7,21 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
     [JsiiInterface(nativeType: typeof(IDataOciWlmsManagedInstanceServerInstalledPatchesFilter), fullyQualifiedName: "oci.dataOciWlmsManagedInstanceServerInstalledPatches.DataOciWlmsManagedInstanceServerInstalledPatchesFilter")]
     public interface IDataOciWlmsManagedInstanceServerInstalledPatchesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_managed_instance_server_installed_patches#name DataOciWlmsManagedInstanceServerInstalledPatches#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_managed_instance_server_installed_patches#name DataOciWlmsManagedInstanceServerInstalledPatches#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_managed_instance_server_installed_patches#values DataOciWlmsManagedInstanceServerInstalledPatches#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_managed_instance_server_installed_patches#values DataOciWlmsManagedInstanceServerInstalledPatches#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_managed_instance_server_installed_patches#regex DataOciWlmsManagedInstanceServerInstalledPatches#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_managed_instance_server_installed_patches#regex DataOciWlmsManagedInstanceServerInstalledPatches#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_managed_instance_server_installed_patches#name DataOciWlmsManagedInstanceServerInstalledPatches#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_managed_instance_server_installed_patches#name DataOciWlmsManagedInstanceServerInstalledPatches#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_managed_instance_server_installed_patches#values DataOciWlmsManagedInstanceServerInstalledPatches#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_managed_instance_server_installed_patches#values DataOciWlmsManagedInstanceServerInstalledPatches#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_managed_instance_server_installed_patches#regex DataOciWlmsManagedInstanceServerInstalledPatches#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/wlms_managed_instance_server_installed_patches#regex DataOciWlmsManagedInstanceServerInstalledPatches#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

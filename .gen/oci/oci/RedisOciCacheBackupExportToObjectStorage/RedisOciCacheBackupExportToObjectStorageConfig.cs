@@ -9,7 +9,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
     [JsiiByValue(fqn: "oci.redisOciCacheBackupExportToObjectStorage.RedisOciCacheBackupExportToObjectStorageConfig")]
     public class RedisOciCacheBackupExportToObjectStorageConfig : oci.RedisOciCacheBackupExportToObjectStorage.IRedisOciCacheBackupExportToObjectStorageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#bucket RedisOciCacheBackupExportToObjectStorage#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#bucket RedisOciCacheBackupExportToObjectStorage#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#namespace RedisOciCacheBackupExportToObjectStorage#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#namespace RedisOciCacheBackupExportToObjectStorage#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#oci_cache_backup_id RedisOciCacheBackupExportToObjectStorage#oci_cache_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#oci_cache_backup_id RedisOciCacheBackupExportToObjectStorage#oci_cache_backup_id}.</summary>
         [JsiiProperty(name: "ociCacheBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string OciCacheBackupId
         {
@@ -33,7 +33,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#id RedisOciCacheBackupExportToObjectStorage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#id RedisOciCacheBackupExportToObjectStorage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#prefix RedisOciCacheBackupExportToObjectStorage#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#prefix RedisOciCacheBackupExportToObjectStorage#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix
@@ -57,7 +57,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#timeouts RedisOciCacheBackupExportToObjectStorage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#timeouts RedisOciCacheBackupExportToObjectStorage#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisOciCacheBackupExportToObjectStorage.RedisOciCacheBackupExportToObjectStorageTimeouts\"}", isOptional: true)]

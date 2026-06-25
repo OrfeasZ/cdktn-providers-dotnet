@@ -9,7 +9,7 @@ namespace oci.DataOciApmConfigDataFiles
     [JsiiByValue(fqn: "oci.dataOciApmConfigDataFiles.DataOciApmConfigDataFilesConfig")]
     public class DataOciApmConfigDataFilesConfig : oci.DataOciApmConfigDataFiles.IDataOciApmConfigDataFilesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#apm_domain_id DataOciApmConfigDataFiles#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#apm_domain_id DataOciApmConfigDataFiles#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmConfigDataFiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#apm_type DataOciApmConfigDataFiles#apm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#apm_type DataOciApmConfigDataFiles#apm_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "apmType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApmType
@@ -30,7 +30,7 @@ namespace oci.DataOciApmConfigDataFiles
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#filter DataOciApmConfigDataFiles#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#filter DataOciApmConfigDataFiles#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApmConfigDataFiles.IDataOciApmConfigDataFilesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciApmConfigDataFiles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#id DataOciApmConfigDataFiles#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#id DataOciApmConfigDataFiles#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciApmConfigDataFiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#metadata DataOciApmConfigDataFiles#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#metadata DataOciApmConfigDataFiles#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -83,7 +83,7 @@ namespace oci.DataOciApmConfigDataFiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#name DataOciApmConfigDataFiles#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#name DataOciApmConfigDataFiles#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -92,7 +92,7 @@ namespace oci.DataOciApmConfigDataFiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#time_last_modified_after DataOciApmConfigDataFiles#time_last_modified_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#time_last_modified_after DataOciApmConfigDataFiles#time_last_modified_after}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeLastModifiedAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeLastModifiedAfter
@@ -101,7 +101,7 @@ namespace oci.DataOciApmConfigDataFiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_config_data_files#time_last_modified_before DataOciApmConfigDataFiles#time_last_modified_before}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_config_data_files#time_last_modified_before DataOciApmConfigDataFiles#time_last_modified_before}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeLastModifiedBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeLastModifiedBefore

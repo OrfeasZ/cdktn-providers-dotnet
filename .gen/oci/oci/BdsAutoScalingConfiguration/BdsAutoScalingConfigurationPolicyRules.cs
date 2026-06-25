@@ -9,7 +9,7 @@ namespace oci.BdsAutoScalingConfiguration
     [JsiiByValue(fqn: "oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRules")]
     public class BdsAutoScalingConfigurationPolicyRules : oci.BdsAutoScalingConfiguration.IBdsAutoScalingConfigurationPolicyRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_auto_scaling_configuration#action BdsAutoScalingConfiguration#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_auto_scaling_configuration#action BdsAutoScalingConfiguration#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -19,7 +19,7 @@ namespace oci.BdsAutoScalingConfiguration
 
         /// <summary>metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_auto_scaling_configuration#metric BdsAutoScalingConfiguration#metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/bds_auto_scaling_configuration#metric BdsAutoScalingConfiguration#metric}
         /// </remarks>
         [JsiiProperty(name: "metric", typeJson: "{\"fqn\":\"oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRulesMetric\"}")]
         public oci.BdsAutoScalingConfiguration.IBdsAutoScalingConfigurationPolicyRulesMetric Metric

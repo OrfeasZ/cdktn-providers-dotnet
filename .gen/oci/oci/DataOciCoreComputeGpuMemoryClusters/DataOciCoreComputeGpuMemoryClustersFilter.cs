@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGpuMemoryClusters
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGpuMemoryClusters.DataOciCoreComputeGpuMemoryClustersFilter")]
     public class DataOciCoreComputeGpuMemoryClustersFilter : oci.DataOciCoreComputeGpuMemoryClusters.IDataOciCoreComputeGpuMemoryClustersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_gpu_memory_clusters#name DataOciCoreComputeGpuMemoryClusters#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_gpu_memory_clusters#name DataOciCoreComputeGpuMemoryClusters#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeGpuMemoryClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_gpu_memory_clusters#values DataOciCoreComputeGpuMemoryClusters#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_gpu_memory_clusters#values DataOciCoreComputeGpuMemoryClusters#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreComputeGpuMemoryClusters
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_gpu_memory_clusters#regex DataOciCoreComputeGpuMemoryClusters#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_gpu_memory_clusters#regex DataOciCoreComputeGpuMemoryClusters#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

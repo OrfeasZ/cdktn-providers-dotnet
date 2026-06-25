@@ -7,14 +7,14 @@ namespace oci.DatascienceModelGroup
     [JsiiInterface(nativeType: typeof(IDatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItemsValues), fullyQualifiedName: "oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItemsValues")]
     public interface IDatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItemsValues
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}.</summary>
         [JsiiProperty(name: "inferenceKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InferenceKey
@@ -32,14 +32,14 @@ namespace oci.DatascienceModelGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}.</summary>
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inferenceKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InferenceKey

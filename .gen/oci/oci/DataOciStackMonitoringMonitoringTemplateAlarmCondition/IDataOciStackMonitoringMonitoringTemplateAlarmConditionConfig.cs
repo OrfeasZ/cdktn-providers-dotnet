@@ -7,14 +7,14 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmCondition
     [JsiiInterface(nativeType: typeof(IDataOciStackMonitoringMonitoringTemplateAlarmConditionConfig), fullyQualifiedName: "oci.dataOciStackMonitoringMonitoringTemplateAlarmCondition.DataOciStackMonitoringMonitoringTemplateAlarmConditionConfig")]
     public interface IDataOciStackMonitoringMonitoringTemplateAlarmConditionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#alarm_condition_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#alarm_condition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#alarm_condition_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#alarm_condition_id}.</summary>
         [JsiiProperty(name: "alarmConditionId", typeJson: "{\"primitive\":\"string\"}")]
         string AlarmConditionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#monitoring_template_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#monitoring_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#monitoring_template_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#monitoring_template_id}.</summary>
         [JsiiProperty(name: "monitoringTemplateId", typeJson: "{\"primitive\":\"string\"}")]
         string MonitoringTemplateId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmCondition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#alarm_condition_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#alarm_condition_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#alarm_condition_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#alarm_condition_id}.</summary>
             [JsiiProperty(name: "alarmConditionId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlarmConditionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#monitoring_template_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#monitoring_template_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_condition#monitoring_template_id DataOciStackMonitoringMonitoringTemplateAlarmCondition#monitoring_template_id}.</summary>
             [JsiiProperty(name: "monitoringTemplateId", typeJson: "{\"primitive\":\"string\"}")]
             public string MonitoringTemplateId
             {

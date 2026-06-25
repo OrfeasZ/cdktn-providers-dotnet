@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentDataIngestionJobs.DataOciGenerativeAiAgentDataIngestionJobsFilter")]
     public class DataOciGenerativeAiAgentDataIngestionJobsFilter : oci.DataOciGenerativeAiAgentDataIngestionJobs.IDataOciGenerativeAiAgentDataIngestionJobsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#name DataOciGenerativeAiAgentDataIngestionJobs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#name DataOciGenerativeAiAgentDataIngestionJobs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#values DataOciGenerativeAiAgentDataIngestionJobs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#values DataOciGenerativeAiAgentDataIngestionJobs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#regex DataOciGenerativeAiAgentDataIngestionJobs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#regex DataOciGenerativeAiAgentDataIngestionJobs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

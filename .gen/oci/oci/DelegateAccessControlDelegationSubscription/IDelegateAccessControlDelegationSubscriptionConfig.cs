@@ -7,28 +7,28 @@ namespace oci.DelegateAccessControlDelegationSubscription
     [JsiiInterface(nativeType: typeof(IDelegateAccessControlDelegationSubscriptionConfig), fullyQualifiedName: "oci.delegateAccessControlDelegationSubscription.DelegateAccessControlDelegationSubscriptionConfig")]
     public interface IDelegateAccessControlDelegationSubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#compartment_id DelegateAccessControlDelegationSubscription#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#compartment_id DelegateAccessControlDelegationSubscription#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#service_provider_id DelegateAccessControlDelegationSubscription#service_provider_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#service_provider_id DelegateAccessControlDelegationSubscription#service_provider_id}.</summary>
         [JsiiProperty(name: "serviceProviderId", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceProviderId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#subscribed_service_type DelegateAccessControlDelegationSubscription#subscribed_service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#subscribed_service_type DelegateAccessControlDelegationSubscription#subscribed_service_type}.</summary>
         [JsiiProperty(name: "subscribedServiceType", typeJson: "{\"primitive\":\"string\"}")]
         string SubscribedServiceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#defined_tags DelegateAccessControlDelegationSubscription#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#defined_tags DelegateAccessControlDelegationSubscription#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -39,7 +39,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#description DelegateAccessControlDelegationSubscription#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#description DelegateAccessControlDelegationSubscription#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -50,7 +50,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#freeform_tags DelegateAccessControlDelegationSubscription#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#freeform_tags DelegateAccessControlDelegationSubscription#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -61,7 +61,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#id DelegateAccessControlDelegationSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#id DelegateAccessControlDelegationSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#timeouts DelegateAccessControlDelegationSubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#timeouts DelegateAccessControlDelegationSubscription#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.delegateAccessControlDelegationSubscription.DelegateAccessControlDelegationSubscriptionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,28 +97,28 @@ namespace oci.DelegateAccessControlDelegationSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#compartment_id DelegateAccessControlDelegationSubscription#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#compartment_id DelegateAccessControlDelegationSubscription#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#service_provider_id DelegateAccessControlDelegationSubscription#service_provider_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#service_provider_id DelegateAccessControlDelegationSubscription#service_provider_id}.</summary>
             [JsiiProperty(name: "serviceProviderId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceProviderId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#subscribed_service_type DelegateAccessControlDelegationSubscription#subscribed_service_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#subscribed_service_type DelegateAccessControlDelegationSubscription#subscribed_service_type}.</summary>
             [JsiiProperty(name: "subscribedServiceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscribedServiceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#defined_tags DelegateAccessControlDelegationSubscription#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#defined_tags DelegateAccessControlDelegationSubscription#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -126,7 +126,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#description DelegateAccessControlDelegationSubscription#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#description DelegateAccessControlDelegationSubscription#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -134,7 +134,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#freeform_tags DelegateAccessControlDelegationSubscription#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#freeform_tags DelegateAccessControlDelegationSubscription#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -142,7 +142,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#id DelegateAccessControlDelegationSubscription#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#id DelegateAccessControlDelegationSubscription#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -156,7 +156,7 @@ namespace oci.DelegateAccessControlDelegationSubscription
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/delegate_access_control_delegation_subscription#timeouts DelegateAccessControlDelegationSubscription#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/delegate_access_control_delegation_subscription#timeouts DelegateAccessControlDelegationSubscription#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.delegateAccessControlDelegationSubscription.DelegateAccessControlDelegationSubscriptionTimeouts\"}", isOptional: true)]

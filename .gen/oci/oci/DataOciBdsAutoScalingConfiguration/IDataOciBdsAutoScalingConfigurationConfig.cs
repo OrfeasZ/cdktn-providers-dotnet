@@ -7,14 +7,14 @@ namespace oci.DataOciBdsAutoScalingConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciBdsAutoScalingConfigurationConfig), fullyQualifiedName: "oci.dataOciBdsAutoScalingConfiguration.DataOciBdsAutoScalingConfigurationConfig")]
     public interface IDataOciBdsAutoScalingConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_auto_scaling_configuration#auto_scaling_configuration_id DataOciBdsAutoScalingConfiguration#auto_scaling_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_auto_scaling_configuration#auto_scaling_configuration_id DataOciBdsAutoScalingConfiguration#auto_scaling_configuration_id}.</summary>
         [JsiiProperty(name: "autoScalingConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string AutoScalingConfigurationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_auto_scaling_configuration#bds_instance_id DataOciBdsAutoScalingConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_auto_scaling_configuration#bds_instance_id DataOciBdsAutoScalingConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciBdsAutoScalingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_auto_scaling_configuration#auto_scaling_configuration_id DataOciBdsAutoScalingConfiguration#auto_scaling_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_auto_scaling_configuration#auto_scaling_configuration_id DataOciBdsAutoScalingConfiguration#auto_scaling_configuration_id}.</summary>
             [JsiiProperty(name: "autoScalingConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutoScalingConfigurationId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/bds_auto_scaling_configuration#bds_instance_id DataOciBdsAutoScalingConfiguration#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_auto_scaling_configuration#bds_instance_id DataOciBdsAutoScalingConfiguration#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {

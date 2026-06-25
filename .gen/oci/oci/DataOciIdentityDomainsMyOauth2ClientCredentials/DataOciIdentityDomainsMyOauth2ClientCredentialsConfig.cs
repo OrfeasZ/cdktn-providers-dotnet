@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMyOauth2ClientCredentials.DataOciIdentityDomainsMyOauth2ClientCredentialsConfig")]
     public class DataOciIdentityDomainsMyOauth2ClientCredentialsConfig : oci.DataOciIdentityDomainsMyOauth2ClientCredentials.IDataOciIdentityDomainsMyOauth2ClientCredentialsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#idcs_endpoint DataOciIdentityDomainsMyOauth2ClientCredentials#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#idcs_endpoint DataOciIdentityDomainsMyOauth2ClientCredentials#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#authorization DataOciIdentityDomainsMyOauth2ClientCredentials#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#authorization DataOciIdentityDomainsMyOauth2ClientCredentials#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#compartment_id DataOciIdentityDomainsMyOauth2ClientCredentials#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#compartment_id DataOciIdentityDomainsMyOauth2ClientCredentials#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -35,7 +35,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#id DataOciIdentityDomainsMyOauth2ClientCredentials#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#id DataOciIdentityDomainsMyOauth2ClientCredentials#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#my_oauth2client_credential_count DataOciIdentityDomainsMyOauth2ClientCredentials#my_oauth2client_credential_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#my_oauth2client_credential_count DataOciIdentityDomainsMyOauth2ClientCredentials#my_oauth2client_credential_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myOauth2ClientCredentialCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MyOauth2ClientCredentialCount
@@ -57,7 +57,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#my_oauth2client_credential_filter DataOciIdentityDomainsMyOauth2ClientCredentials#my_oauth2client_credential_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#my_oauth2client_credential_filter DataOciIdentityDomainsMyOauth2ClientCredentials#my_oauth2client_credential_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myOauth2ClientCredentialFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MyOauth2ClientCredentialFilter
@@ -66,7 +66,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#resource_type_schema_version DataOciIdentityDomainsMyOauth2ClientCredentials#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#resource_type_schema_version DataOciIdentityDomainsMyOauth2ClientCredentials#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#sort_by DataOciIdentityDomainsMyOauth2ClientCredentials#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#sort_by DataOciIdentityDomainsMyOauth2ClientCredentials#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#sort_order DataOciIdentityDomainsMyOauth2ClientCredentials#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#sort_order DataOciIdentityDomainsMyOauth2ClientCredentials#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -93,7 +93,7 @@ namespace oci.DataOciIdentityDomainsMyOauth2ClientCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_oauth2client_credentials#start_index DataOciIdentityDomainsMyOauth2ClientCredentials#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_my_oauth2client_credentials#start_index DataOciIdentityDomainsMyOauth2ClientCredentials#start_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartIndex

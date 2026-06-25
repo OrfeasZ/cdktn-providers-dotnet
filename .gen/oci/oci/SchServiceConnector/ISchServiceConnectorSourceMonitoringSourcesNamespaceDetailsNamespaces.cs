@@ -9,7 +9,7 @@ namespace oci.SchServiceConnector
     {
         /// <summary>metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/sch_service_connector#metrics SchServiceConnector#metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/sch_service_connector#metrics SchServiceConnector#metrics}
         /// </remarks>
         [JsiiProperty(name: "metrics", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics\"}")]
         oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics Metrics
@@ -17,7 +17,7 @@ namespace oci.SchServiceConnector
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -33,7 +33,7 @@ namespace oci.SchServiceConnector
 
             /// <summary>metrics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/sch_service_connector#metrics SchServiceConnector#metrics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/sch_service_connector#metrics SchServiceConnector#metrics}
             /// </remarks>
             [JsiiProperty(name: "metrics", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics\"}")]
             public oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics Metrics
@@ -41,7 +41,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

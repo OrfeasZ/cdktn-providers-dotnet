@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentDataMaskingActivities.DataOciFusionAppsFusionEnvironmentDataMaskingActivitiesConfig")]
     public class DataOciFusionAppsFusionEnvironmentDataMaskingActivitiesConfig : oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities.IDataOciFusionAppsFusionEnvironmentDataMaskingActivitiesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentDataMaskingActivities#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentDataMaskingActivities#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#filter DataOciFusionAppsFusionEnvironmentDataMaskingActivities#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#filter DataOciFusionAppsFusionEnvironmentDataMaskingActivities#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities.IDataOciFusionAppsFusionEnvironmentDataMaskingActivitiesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#id DataOciFusionAppsFusionEnvironmentDataMaskingActivities#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#id DataOciFusionAppsFusionEnvironmentDataMaskingActivities#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#state DataOciFusionAppsFusionEnvironmentDataMaskingActivities#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#state DataOciFusionAppsFusionEnvironmentDataMaskingActivities#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystem
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbSystem.DataOciDatabaseManagementExternalDbSystemConfig")]
     public class DataOciDatabaseManagementExternalDbSystemConfig : oci.DataOciDatabaseManagementExternalDbSystem.IDataOciDatabaseManagementExternalDbSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}.</summary>
         [JsiiProperty(name: "externalDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDbSystemId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDesktopsDesktops
     [JsiiByValue(fqn: "oci.dataOciDesktopsDesktops.DataOciDesktopsDesktopsConfig")]
     public class DataOciDesktopsDesktopsConfig : oci.DataOciDesktopsDesktops.IDataOciDesktopsDesktopsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#compartment_id DataOciDesktopsDesktops#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#compartment_id DataOciDesktopsDesktops#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDesktopsDesktops
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#availability_domain DataOciDesktopsDesktops#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#availability_domain DataOciDesktopsDesktops#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -26,7 +26,7 @@ namespace oci.DataOciDesktopsDesktops
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#desktop_pool_id DataOciDesktopsDesktops#desktop_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#desktop_pool_id DataOciDesktopsDesktops#desktop_pool_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "desktopPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DesktopPoolId
@@ -35,7 +35,7 @@ namespace oci.DataOciDesktopsDesktops
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#display_name DataOciDesktopsDesktops#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#display_name DataOciDesktopsDesktops#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -48,7 +48,7 @@ namespace oci.DataOciDesktopsDesktops
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#filter DataOciDesktopsDesktops#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#filter DataOciDesktopsDesktops#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDesktopsDesktops.IDataOciDesktopsDesktopsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciDesktopsDesktops
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#id DataOciDesktopsDesktops#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#id DataOciDesktopsDesktops#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciDesktopsDesktops
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/desktops_desktops#state DataOciDesktopsDesktops#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/desktops_desktops#state DataOciDesktopsDesktops#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

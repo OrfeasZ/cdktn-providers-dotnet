@@ -7,7 +7,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccUpgradeSchedule
     [JsiiInterface(nativeType: typeof(IDataOciComputeCloudAtCustomerCccUpgradeScheduleConfig), fullyQualifiedName: "oci.dataOciComputeCloudAtCustomerCccUpgradeSchedule.DataOciComputeCloudAtCustomerCccUpgradeScheduleConfig")]
     public interface IDataOciComputeCloudAtCustomerCccUpgradeScheduleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedule#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedule#ccc_upgrade_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedule#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedule#ccc_upgrade_schedule_id}.</summary>
         [JsiiProperty(name: "cccUpgradeScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         string CccUpgradeScheduleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccUpgradeSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedule#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedule#ccc_upgrade_schedule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedule#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedule#ccc_upgrade_schedule_id}.</summary>
             [JsiiProperty(name: "cccUpgradeScheduleId", typeJson: "{\"primitive\":\"string\"}")]
             public string CccUpgradeScheduleId
             {

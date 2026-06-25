@@ -7,7 +7,7 @@ namespace oci.DataOciAiDocumentProject
     [JsiiInterface(nativeType: typeof(IDataOciAiDocumentProjectConfig), fullyQualifiedName: "oci.dataOciAiDocumentProject.DataOciAiDocumentProjectConfig")]
     public interface IDataOciAiDocumentProjectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_document_project#project_id DataOciAiDocumentProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_document_project#project_id DataOciAiDocumentProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiDocumentProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_document_project#project_id DataOciAiDocumentProject#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_document_project#project_id DataOciAiDocumentProject#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {

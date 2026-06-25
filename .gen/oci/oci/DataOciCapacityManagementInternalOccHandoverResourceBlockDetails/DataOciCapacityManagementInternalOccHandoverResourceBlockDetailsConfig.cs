@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccHandoverResourceBlockDetails.DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsConfig")]
     public class DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsConfig : oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails.IDataOciCapacityManagementInternalOccHandoverResourceBlockDetailsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#occ_handover_resource_block_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#occ_handover_resource_block_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#occ_handover_resource_block_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#occ_handover_resource_block_id}.</summary>
         [JsiiProperty(name: "occHandoverResourceBlockId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccHandoverResourceBlockId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#filter DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#filter DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails.IDataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#host_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#host_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#host_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostId
@@ -61,7 +61,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

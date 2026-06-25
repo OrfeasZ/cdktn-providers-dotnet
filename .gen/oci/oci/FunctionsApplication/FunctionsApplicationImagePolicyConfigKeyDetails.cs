@@ -9,7 +9,7 @@ namespace oci.FunctionsApplication
     [JsiiByValue(fqn: "oci.functionsApplication.FunctionsApplicationImagePolicyConfigKeyDetails")]
     public class FunctionsApplicationImagePolicyConfigKeyDetails : oci.FunctionsApplication.IFunctionsApplicationImagePolicyConfigKeyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KmsKeyId
         {

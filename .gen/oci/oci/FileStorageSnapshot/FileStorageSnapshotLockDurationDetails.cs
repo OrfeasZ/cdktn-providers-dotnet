@@ -9,7 +9,7 @@ namespace oci.FileStorageSnapshot
     [JsiiByValue(fqn: "oci.fileStorageSnapshot.FileStorageSnapshotLockDurationDetails")]
     public class FileStorageSnapshotLockDurationDetails : oci.FileStorageSnapshot.IFileStorageSnapshotLockDurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_snapshot#lock_duration FileStorageSnapshot#lock_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_snapshot#lock_duration FileStorageSnapshot#lock_duration}.</summary>
         [JsiiProperty(name: "lockDuration", typeJson: "{\"primitive\":\"number\"}")]
         public double LockDuration
         {
@@ -17,7 +17,7 @@ namespace oci.FileStorageSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_snapshot#lock_mode FileStorageSnapshot#lock_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_snapshot#lock_mode FileStorageSnapshot#lock_mode}.</summary>
         [JsiiProperty(name: "lockMode", typeJson: "{\"primitive\":\"string\"}")]
         public string LockMode
         {
@@ -25,7 +25,7 @@ namespace oci.FileStorageSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_snapshot#cool_off_duration FileStorageSnapshot#cool_off_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_snapshot#cool_off_duration FileStorageSnapshot#cool_off_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "coolOffDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CoolOffDuration

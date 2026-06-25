@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoredResource
     [JsiiInterface(nativeType: typeof(IStackMonitoringMonitoredResourceCredentialsProperties), fullyQualifiedName: "oci.stackMonitoringMonitoredResource.StackMonitoringMonitoredResourceCredentialsProperties")]
     public interface IStackMonitoringMonitoredResourceCredentialsProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_monitored_resource#name StackMonitoringMonitoredResource#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource#name StackMonitoringMonitoredResource#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringMonitoredResource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_monitored_resource#value StackMonitoringMonitoredResource#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource#value StackMonitoringMonitoredResource#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -36,7 +36,7 @@ namespace oci.StackMonitoringMonitoredResource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_monitored_resource#name StackMonitoringMonitoredResource#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource#name StackMonitoringMonitoredResource#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -44,7 +44,7 @@ namespace oci.StackMonitoringMonitoredResource
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_monitored_resource#value StackMonitoringMonitoredResource#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource#value StackMonitoringMonitoredResource#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value
