@@ -22,8 +22,9 @@ Typical usage:
     # Dry-ish run: do everything except git push
     python sync-providers.py --no-push
 
-Requirements: gh (authenticated), cdktn CLI, node, terraform, dotnet -- only the
-pieces a given run actually exercises.
+Requirements: gh (authenticated), node/npx, terraform, dotnet -- only the pieces a
+given run actually exercises. The cdktn CLI is fetched on demand via npx (pinned
+below), so it does not need to be installed globally.
 """
 
 from __future__ import annotations
@@ -37,6 +38,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent
 GEN_DIR = REPO_ROOT / ".gen"
 DEFAULT_RELEASE_TAG = "provider-binaries"
+# cdktn CLI is run via npx, so it need not be installed globally. Bump here.
+CDKTN_CLI_PACKAGE = "cdktn-cli@0.23.3"
 
 
 def run(cmd: list[str]) -> None:
@@ -142,6 +145,12 @@ def parse_args() -> argparse.Namespace:
         help="Generate even when --update-constraints found no constraint changes.",
     )
     parser.add_argument("--skip-generate", action="store_true", help="Do not run cdktn get.")
+    parser.add_argument(
+        "--parallelism",
+        type=int,
+        default=1,
+        help="Parallelism passed to cdktn get (default: 1).",
+    )
     parser.add_argument("--skip-upload", action="store_true", help="Do not upload tarballs.")
     parser.add_argument("--skip-commit", action="store_true", help="Do not commit or push.")
     parser.add_argument("--no-push", action="store_true", help="Commit but do not push.")
@@ -174,7 +183,10 @@ def main() -> int:
             return 0
 
     if not args.skip_generate:
-        run(["cdktn", "get", "--parallelism", "1"])
+        run([
+            "npx", "--yes", "-p", CDKTN_CLI_PACKAGE,
+            "cdktn", "get", "--parallelism", str(args.parallelism),
+        ])
 
     if args.verify:
         verify(git_changed_providers())
