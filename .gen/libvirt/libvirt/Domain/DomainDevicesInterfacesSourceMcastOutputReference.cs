@@ -70,6 +70,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesInterfacesSourceMcastLocal" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "localInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceMcastLocal\"}]}}", isOptional: true)]
         public virtual object? LocalInput
@@ -98,6 +101,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesInterfacesSourceMcast" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceMcast\"}]}}", isOptional: true)]
         public virtual object? InternalValue

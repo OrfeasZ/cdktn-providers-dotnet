@@ -46,6 +46,7 @@ namespace aws.CloudtrailEventDataStore
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudtrailEventDataStore.CloudtrailEventDataStore), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreAdvancedEventSelector" />)[]</param>
         [JsiiMethod(name: "putAdvancedEventSelector", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelector\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdvancedEventSelector(object @value)
         {
@@ -190,6 +191,9 @@ namespace aws.CloudtrailEventDataStore
             get => GetInstanceProperty<aws.CloudtrailEventDataStore.CloudtrailEventDataStoreTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreAdvancedEventSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "advancedEventSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdvancedEventSelectorInput
@@ -218,6 +222,9 @@ namespace aws.CloudtrailEventDataStore
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiRegionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MultiRegionEnabledInput
@@ -232,6 +239,9 @@ namespace aws.CloudtrailEventDataStore
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? OrganizationEnabledInput
@@ -274,6 +284,9 @@ namespace aws.CloudtrailEventDataStore
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "terminationProtectionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TerminationProtectionEnabledInput
@@ -281,6 +294,9 @@ namespace aws.CloudtrailEventDataStore
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -309,6 +325,9 @@ namespace aws.CloudtrailEventDataStore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "multiRegionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object MultiRegionEnabled
         {
@@ -343,6 +362,9 @@ namespace aws.CloudtrailEventDataStore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "organizationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object OrganizationEnabled
         {
@@ -405,6 +427,9 @@ namespace aws.CloudtrailEventDataStore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "terminationProtectionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TerminationProtectionEnabled
         {

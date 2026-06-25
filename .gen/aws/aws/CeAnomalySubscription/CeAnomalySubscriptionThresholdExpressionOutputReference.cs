@@ -33,6 +33,7 @@ namespace aws.CeAnomalySubscription
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionAnd" />)[]</param>
         [JsiiMethod(name: "putAnd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionAnd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnd(object @value)
         {
@@ -74,6 +75,7 @@ namespace aws.CeAnomalySubscription
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionNot)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionOr" />)[]</param>
         [JsiiMethod(name: "putOr", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOr\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOr(object @value)
         {
@@ -175,6 +177,9 @@ namespace aws.CeAnomalySubscription
             get => GetInstanceProperty<aws.CeAnomalySubscription.CeAnomalySubscriptionThresholdExpressionTagsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionAnd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "andInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AndInput
@@ -203,6 +208,9 @@ namespace aws.CeAnomalySubscription
             get => GetInstanceProperty<aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionNot?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionOr" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OrInput

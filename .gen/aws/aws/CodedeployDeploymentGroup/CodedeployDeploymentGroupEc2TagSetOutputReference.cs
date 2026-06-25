@@ -35,6 +35,7 @@ namespace aws.CodedeployDeploymentGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodedeployDeploymentGroup.ICodedeployDeploymentGroupEc2TagSetEc2TagFilter" />)[]</param>
         [JsiiMethod(name: "putEc2TagFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEc2TagFilter(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CodedeployDeploymentGroup
             get => GetInstanceProperty<aws.CodedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodedeployDeploymentGroup.ICodedeployDeploymentGroupEc2TagSetEc2TagFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2TagFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ec2TagFilterInput
@@ -77,6 +81,9 @@ namespace aws.CodedeployDeploymentGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodedeployDeploymentGroup.ICodedeployDeploymentGroupEc2TagSet" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSet\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace scaleway.InstanceServer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.InstanceServer.InstanceServer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerFilesystems" />)[]</param>
         [JsiiMethod(name: "putFilesystems", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerFilesystems\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilesystems(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.InstanceServer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPrivateIps" />)[]</param>
         [JsiiMethod(name: "putPrivateIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerPrivateIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIps(object @value)
         {
@@ -92,6 +94,7 @@ namespace scaleway.InstanceServer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPrivateNetwork" />)[]</param>
         [JsiiMethod(name: "putPrivateNetwork", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerPrivateNetwork\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateNetwork(object @value)
         {
@@ -115,6 +118,7 @@ namespace scaleway.InstanceServer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPublicIps" />)[]</param>
         [JsiiMethod(name: "putPublicIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerPublicIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPublicIps(object @value)
         {
@@ -408,6 +412,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDynamicIpInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableDynamicIpInput
@@ -415,6 +422,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerFilesystems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filesystemsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerFilesystems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilesystemsInput
@@ -464,6 +474,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpsInput
@@ -471,6 +484,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPrivateNetwork" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetworkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerPrivateNetwork\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateNetworkInput
@@ -485,6 +501,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protectedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ProtectedInput
@@ -492,6 +511,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPublicIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceServer.InstanceServerPublicIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PublicIpsInput
@@ -499,6 +521,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replaceOnTypeChangeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ReplaceOnTypeChangeInput
@@ -534,6 +559,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceServer.IInstanceServerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceServer.InstanceServerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -597,6 +625,9 @@ namespace scaleway.InstanceServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableDynamicIp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableDynamicIp
         {
@@ -673,6 +704,9 @@ namespace scaleway.InstanceServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "protected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Protected
         {
@@ -700,6 +734,9 @@ namespace scaleway.InstanceServer
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "replaceOnTypeChange", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ReplaceOnTypeChange
         {

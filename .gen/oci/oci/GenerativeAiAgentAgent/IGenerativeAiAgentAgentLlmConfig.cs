@@ -9,11 +9,22 @@ namespace oci.GenerativeAiAgentAgent
     {
         /// <summary>routing_llm_customization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/generative_ai_agent_agent#routing_llm_customization GenerativeAiAgentAgent#routing_llm_customization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#routing_llm_customization GenerativeAiAgentAgent#routing_llm_customization}
         /// </remarks>
         [JsiiProperty(name: "routingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgent.GenerativeAiAgentAgentLlmConfigRoutingLlmCustomization\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentLlmConfigRoutingLlmCustomization? RoutingLlmCustomization
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#runtime_version GenerativeAiAgentAgent#runtime_version}.</summary>
+        [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? RuntimeVersion
         {
             get
             {
@@ -30,13 +41,21 @@ namespace oci.GenerativeAiAgentAgent
 
             /// <summary>routing_llm_customization block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/generative_ai_agent_agent#routing_llm_customization GenerativeAiAgentAgent#routing_llm_customization}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#routing_llm_customization GenerativeAiAgentAgent#routing_llm_customization}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgent.GenerativeAiAgentAgentLlmConfigRoutingLlmCustomization\"}", isOptional: true)]
             public oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentLlmConfigRoutingLlmCustomization? RoutingLlmCustomization
             {
                 get => GetInstanceProperty<oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentLlmConfigRoutingLlmCustomization?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/generative_ai_agent_agent#runtime_version GenerativeAiAgentAgent#runtime_version}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? RuntimeVersion
+            {
+                get => GetInstanceProperty<string?>();
             }
         }
     }

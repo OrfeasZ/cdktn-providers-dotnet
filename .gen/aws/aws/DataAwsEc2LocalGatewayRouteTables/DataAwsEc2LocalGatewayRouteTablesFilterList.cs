@@ -41,6 +41,9 @@ namespace aws.DataAwsEc2LocalGatewayRouteTables
             return InvokeInstanceMethod<aws.DataAwsEc2LocalGatewayRouteTables.DataAwsEc2LocalGatewayRouteTablesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2LocalGatewayRouteTables.IDataAwsEc2LocalGatewayRouteTablesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2LocalGatewayRouteTables.DataAwsEc2LocalGatewayRouteTablesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

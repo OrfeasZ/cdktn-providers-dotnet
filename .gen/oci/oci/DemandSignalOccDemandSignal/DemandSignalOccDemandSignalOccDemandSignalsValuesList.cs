@@ -41,6 +41,9 @@ namespace oci.DemandSignalOccDemandSignal
             return InvokeInstanceMethod<oci.DemandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignalsValuesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignalsValues" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignalsValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

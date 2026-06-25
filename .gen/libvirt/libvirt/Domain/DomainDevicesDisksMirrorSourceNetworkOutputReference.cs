@@ -45,6 +45,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkHosts" />)[]</param>
         [JsiiMethod(name: "putHosts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkHosts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHosts(object @value)
         {
@@ -224,6 +225,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesDisksMirrorSourceNetworkSnapshotOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkAuth" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkAuth\"}]}}", isOptional: true)]
         public virtual object? AuthInput
@@ -231,6 +235,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkConfig\"}]}}", isOptional: true)]
         public virtual object? ConfigInput
@@ -238,6 +245,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkHosts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkHosts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HostsInput
@@ -245,6 +255,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkIdentity" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkIdentity\"}]}}", isOptional: true)]
         public virtual object? IdentityInput
@@ -252,6 +265,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkInitiator" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initiatorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkInitiator\"}]}}", isOptional: true)]
         public virtual object? InitiatorInput
@@ -259,6 +275,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkKnownHosts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "knownHostsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkKnownHosts\"}]}}", isOptional: true)]
         public virtual object? KnownHostsInput
@@ -287,6 +306,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkReconnect" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reconnectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkReconnect\"}]}}", isOptional: true)]
         public virtual object? ReconnectInput
@@ -294,6 +316,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetworkSnapshot" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetworkSnapshot\"}]}}", isOptional: true)]
         public virtual object? SnapshotInput
@@ -350,6 +375,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceNetwork" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceNetwork\"}]}}", isOptional: true)]
         public virtual object? InternalValue

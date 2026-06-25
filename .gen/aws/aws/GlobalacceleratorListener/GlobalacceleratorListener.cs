@@ -46,6 +46,7 @@ namespace aws.GlobalacceleratorListener
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlobalacceleratorListener.GlobalacceleratorListener), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorListener.IGlobalacceleratorListenerPortRange" />)[]</param>
         [JsiiMethod(name: "putPortRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorListener.GlobalacceleratorListenerPortRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortRange(object @value)
         {
@@ -151,6 +152,9 @@ namespace aws.GlobalacceleratorListener
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorListener.IGlobalacceleratorListenerPortRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorListener.GlobalacceleratorListenerPortRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortRangeInput
@@ -165,6 +169,9 @@ namespace aws.GlobalacceleratorListener
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlobalacceleratorListener.IGlobalacceleratorListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.globalacceleratorListener.GlobalacceleratorListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

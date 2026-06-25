@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceChannel" />)[]</param>
         [JsiiMethod(name: "putChannel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceChannel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutChannel(object @value)
         {
@@ -86,6 +87,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesGraphicsSpiceJpeg)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceListeners" />)[]</param>
         [JsiiMethod(name: "putListeners", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceListeners\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutListeners(object @value)
         {
@@ -319,6 +321,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesGraphicsSpiceZlibOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoPortInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoPortInput
@@ -326,6 +331,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceChannel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "channelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceChannel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ChannelInput
@@ -333,6 +341,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceClipBoard" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clipBoardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceClipBoard\"}]}}", isOptional: true)]
         public virtual object? ClipBoardInput
@@ -354,6 +365,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceFileTransfer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileTransferInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceFileTransfer\"}]}}", isOptional: true)]
         public virtual object? FileTransferInput
@@ -361,6 +375,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceGl" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "glInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceGl\"}]}}", isOptional: true)]
         public virtual object? GlInput
@@ -368,6 +385,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceImage" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceImage\"}]}}", isOptional: true)]
         public virtual object? ImageInput
@@ -375,6 +395,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceJpeg" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jpegInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceJpeg\"}]}}", isOptional: true)]
         public virtual object? JpegInput
@@ -389,6 +412,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceListeners" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listenersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceListeners\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ListenersInput
@@ -403,6 +429,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceMouse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mouseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceMouse\"}]}}", isOptional: true)]
         public virtual object? MouseInput
@@ -424,6 +453,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpicePlayback" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "playbackInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpicePlayback\"}]}}", isOptional: true)]
         public virtual object? PlaybackInput
@@ -438,6 +470,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceStreaming" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "streamingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceStreaming\"}]}}", isOptional: true)]
         public virtual object? StreamingInput
@@ -452,6 +487,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpiceZlib" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zlibInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpiceZlib\"}]}}", isOptional: true)]
         public virtual object? ZlibInput
@@ -459,6 +497,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoPort", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoPort
         {
@@ -542,6 +583,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesGraphicsSpice" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpice\"}]}}", isOptional: true)]
         public virtual object? InternalValue

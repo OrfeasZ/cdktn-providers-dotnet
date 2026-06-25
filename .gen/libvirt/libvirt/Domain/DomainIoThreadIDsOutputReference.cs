@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIoThreadIDsIoThreads" />)[]</param>
         [JsiiMethod(name: "putIoThreads", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIoThreadIDsIoThreads\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIoThreads(object @value)
         {
@@ -68,6 +69,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainIoThreadIDsIoThreadsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIoThreadIDsIoThreads" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreadsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIoThreadIDsIoThreads\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IoThreadsInput
@@ -75,6 +79,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainIoThreadIDs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainIoThreadIDs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

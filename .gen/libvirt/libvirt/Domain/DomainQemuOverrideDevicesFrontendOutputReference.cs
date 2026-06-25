@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuOverrideDevicesFrontendProperties" />)[]</param>
         [JsiiMethod(name: "putProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevicesFrontendProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProperties(object @value)
         {
@@ -68,6 +69,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainQemuOverrideDevicesFrontendPropertiesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuOverrideDevicesFrontendProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "propertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevicesFrontendProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PropertiesInput
@@ -75,6 +79,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainQemuOverrideDevicesFrontend" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevicesFrontend\"}]}}", isOptional: true)]
         public virtual object? InternalValue

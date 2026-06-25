@@ -160,6 +160,9 @@ namespace aws.Ec2TransitGatewayConnect
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2TransitGatewayConnect.IEc2TransitGatewayConnectTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2TransitGatewayConnect.Ec2TransitGatewayConnectTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -167,6 +170,9 @@ namespace aws.Ec2TransitGatewayConnect
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transitGatewayDefaultRouteTableAssociationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TransitGatewayDefaultRouteTableAssociationInput
@@ -174,6 +180,9 @@ namespace aws.Ec2TransitGatewayConnect
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transitGatewayDefaultRouteTablePropagationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TransitGatewayDefaultRouteTablePropagationInput
@@ -230,6 +239,9 @@ namespace aws.Ec2TransitGatewayConnect
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "transitGatewayDefaultRouteTableAssociation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TransitGatewayDefaultRouteTableAssociation
         {
@@ -257,6 +269,9 @@ namespace aws.Ec2TransitGatewayConnect
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "transitGatewayDefaultRouteTablePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TransitGatewayDefaultRouteTablePropagation
         {

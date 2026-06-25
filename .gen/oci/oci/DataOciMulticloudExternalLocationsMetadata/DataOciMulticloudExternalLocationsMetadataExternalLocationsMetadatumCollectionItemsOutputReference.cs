@@ -35,6 +35,12 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
         {
         }
 
+        [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClusterPlacementGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "cpgId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CpgId
         {
@@ -73,6 +79,24 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
 
         [JsiiProperty(name: "ociRegion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OciRegion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "partnerCloudAccountName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PartnerCloudAccountName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "partnerCloudAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PartnerCloudAccountUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "partnerCloudName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PartnerCloudName
         {
             get => GetInstanceProperty<string>()!;
         }

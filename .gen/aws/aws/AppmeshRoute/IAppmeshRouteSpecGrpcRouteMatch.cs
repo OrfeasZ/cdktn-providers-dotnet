@@ -10,6 +10,7 @@ namespace aws.AppmeshRoute
         /// <summary>metadata block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appmesh_route#metadata AppmeshRoute#metadata}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadata" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,6 +76,7 @@ namespace aws.AppmeshRoute
             /// <summary>metadata block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appmesh_route#metadata AppmeshRoute#metadata}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadata" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]

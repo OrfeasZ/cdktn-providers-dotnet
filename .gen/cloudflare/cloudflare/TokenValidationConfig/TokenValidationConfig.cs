@@ -95,6 +95,9 @@ namespace cloudflare.TokenValidationConfig
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentials" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "credentialsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentials\"}]}}", isOptional: true)]
         public virtual object? CredentialsInput

@@ -46,6 +46,7 @@ namespace aws.DataAwsFsxOntapStorageVirtualMachine
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsFsxOntapStorageVirtualMachine.DataAwsFsxOntapStorageVirtualMachine), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsFsxOntapStorageVirtualMachine.IDataAwsFsxOntapStorageVirtualMachineFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsFsxOntapStorageVirtualMachine.DataAwsFsxOntapStorageVirtualMachineFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -178,6 +179,9 @@ namespace aws.DataAwsFsxOntapStorageVirtualMachine
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsFsxOntapStorageVirtualMachine.IDataAwsFsxOntapStorageVirtualMachineFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsFsxOntapStorageVirtualMachine.DataAwsFsxOntapStorageVirtualMachineFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

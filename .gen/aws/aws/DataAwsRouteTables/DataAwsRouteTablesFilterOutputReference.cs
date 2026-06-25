@@ -63,6 +63,9 @@ namespace aws.DataAwsRouteTables
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsRouteTables.IDataAwsRouteTablesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsRouteTables.DataAwsRouteTablesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

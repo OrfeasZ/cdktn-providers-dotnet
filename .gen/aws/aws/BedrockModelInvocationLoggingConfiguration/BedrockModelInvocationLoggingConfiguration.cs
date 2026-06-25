@@ -46,6 +46,7 @@ namespace aws.BedrockModelInvocationLoggingConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockModelInvocationLoggingConfiguration.IBedrockModelInvocationLoggingConfigurationLoggingConfig" />)[]</param>
         [JsiiMethod(name: "putLoggingConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLoggingConfig(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.BedrockModelInvocationLoggingConfiguration
             get => GetInstanceProperty<aws.BedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockModelInvocationLoggingConfiguration.IBedrockModelInvocationLoggingConfigurationLoggingConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loggingConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LoggingConfigInput

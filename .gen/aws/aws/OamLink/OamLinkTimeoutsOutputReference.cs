@@ -93,6 +93,9 @@ namespace aws.OamLink
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OamLink.IOamLinkTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.oamLink.OamLinkTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

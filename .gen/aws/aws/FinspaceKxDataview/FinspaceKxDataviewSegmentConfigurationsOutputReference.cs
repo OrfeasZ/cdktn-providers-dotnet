@@ -48,6 +48,9 @@ namespace aws.FinspaceKxDataview
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onDemandInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? OnDemandInput
@@ -69,6 +72,9 @@ namespace aws.FinspaceKxDataview
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "onDemand", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object OnDemand
         {
@@ -103,6 +109,9 @@ namespace aws.FinspaceKxDataview
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxDataview.IFinspaceKxDataviewSegmentConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

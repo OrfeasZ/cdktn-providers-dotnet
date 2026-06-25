@@ -69,6 +69,9 @@ namespace aws.FinspaceKxCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabaseCacheConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

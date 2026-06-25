@@ -41,6 +41,9 @@ namespace aws.TimestreamqueryScheduledQuery
             return InvokeInstanceMethod<aws.TimestreamqueryScheduledQuery.TimestreamqueryScheduledQueryScheduleConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreamqueryScheduledQuery.ITimestreamqueryScheduledQueryScheduleConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryScheduleConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

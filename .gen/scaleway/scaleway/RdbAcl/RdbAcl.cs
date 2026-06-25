@@ -46,6 +46,7 @@ namespace scaleway.RdbAcl
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.RdbAcl.RdbAcl), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RdbAcl.IRdbAclAclRules" />)[]</param>
         [JsiiMethod(name: "putAclRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.rdbAcl.RdbAclAclRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAclRules(object @value)
         {
@@ -124,6 +125,9 @@ namespace scaleway.RdbAcl
             get => GetInstanceProperty<scaleway.RdbAcl.RdbAclTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RdbAcl.IRdbAclAclRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aclRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.rdbAcl.RdbAclAclRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AclRulesInput
@@ -152,6 +156,9 @@ namespace scaleway.RdbAcl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RdbAcl.IRdbAclTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.rdbAcl.RdbAclTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

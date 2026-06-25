@@ -63,6 +63,9 @@ namespace aws.DataAwsVpcPeeringConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsVpcPeeringConnection.IDataAwsVpcPeeringConnectionFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsVpcPeeringConnection.DataAwsVpcPeeringConnectionFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

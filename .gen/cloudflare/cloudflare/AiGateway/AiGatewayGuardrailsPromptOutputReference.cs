@@ -313,6 +313,9 @@ namespace cloudflare.AiGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewayGuardrailsPrompt" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrailsPrompt\"}]}}", isOptional: true)]
         public virtual object? InternalValue

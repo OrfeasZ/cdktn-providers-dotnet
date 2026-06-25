@@ -58,6 +58,7 @@ namespace aws.QuicksightDataSource
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.QuicksightDataSource.IQuicksightDataSourceParameters)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSource.IQuicksightDataSourcePermission" />)[]</param>
         [JsiiMethod(name: "putPermission", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourcePermission\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermission(object @value)
         {
@@ -244,6 +245,9 @@ namespace aws.QuicksightDataSource
             get => GetInstanceProperty<aws.QuicksightDataSource.IQuicksightDataSourceParameters?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSource.IQuicksightDataSourcePermission" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSource.QuicksightDataSourcePermission\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionInput

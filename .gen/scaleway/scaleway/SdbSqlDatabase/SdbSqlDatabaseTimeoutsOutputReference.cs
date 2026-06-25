@@ -133,6 +133,9 @@ namespace scaleway.SdbSqlDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.SdbSqlDatabase.ISdbSqlDatabaseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.sdbSqlDatabase.SdbSqlDatabaseTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.QueueQueue
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue oci_queue_queue}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue oci_queue_queue}.</summary>
     [JsiiClass(nativeType: typeof(oci.QueueQueue.QueueQueue), fullyQualifiedName: "oci.queueQueue.QueueQueue", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.queueQueue.QueueQueueConfig\"}}]")]
     public class QueueQueue : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue oci_queue_queue} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue oci_queue_queue} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public QueueQueue(Constructs.Construct scope, string id, oci.QueueQueue.IQueueQueueConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,16 +40,46 @@ namespace oci.QueueQueue
         /// <param name="importToId">The construct id used in the generated config for the QueueQueue to import.</param>
         /// <param name="importFromId">The id of the existing QueueQueue that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the QueueQueue to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the QueueQueue to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing QueueQueue that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the QueueQueue to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the QueueQueue to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing QueueQueue that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the QueueQueue to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.QueueQueue.QueueQueue), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.QueueQueue.IQueueQueueCapabilities" />)[]</param>
+        [JsiiMethod(name: "putCapabilities", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.queueQueue.QueueQueueCapabilities\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCapabilities(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.QueueQueue.IQueueQueueCapabilities[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.QueueQueue.IQueueQueueCapabilities).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.QueueQueue.IQueueQueueCapabilities).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.queueQueue.QueueQueueTimeouts\"}}]")]
         public virtual void PutTimeouts(oci.QueueQueue.IQueueQueueTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.QueueQueue.IQueueQueueTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetCapabilities")]
+        public virtual void ResetCapabilities()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetChannelConsumptionLimit")]
@@ -143,6 +173,12 @@ namespace oci.QueueQueue
         }
         = GetStaticProperty<string>(typeof(oci.QueueQueue.QueueQueue))!;
 
+        [JsiiProperty(name: "capabilities", typeJson: "{\"fqn\":\"oci.queueQueue.QueueQueueCapabilitiesList\"}")]
+        public virtual oci.QueueQueue.QueueQueueCapabilitiesList Capabilities
+        {
+            get => GetInstanceProperty<oci.QueueQueue.QueueQueueCapabilitiesList>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -183,6 +219,16 @@ namespace oci.QueueQueue
         public virtual string TimeUpdated
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.QueueQueue.IQueueQueueCapabilities" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "capabilitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.queueQueue.QueueQueueCapabilities\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CapabilitiesInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -269,6 +315,9 @@ namespace oci.QueueQueue
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.QueueQueue.IQueueQueueTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.queueQueue.QueueQueueTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

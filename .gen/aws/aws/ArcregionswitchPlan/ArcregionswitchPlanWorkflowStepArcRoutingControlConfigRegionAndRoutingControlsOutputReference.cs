@@ -35,6 +35,7 @@ namespace aws.ArcregionswitchPlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControl" />)[]</param>
         [JsiiMethod(name: "putRoutingControl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutingControl(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routingControlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutingControlInput
@@ -91,6 +95,9 @@ namespace aws.ArcregionswitchPlan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControls" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRoutingControls\"}]}}", isOptional: true)]
         public virtual object? InternalValue

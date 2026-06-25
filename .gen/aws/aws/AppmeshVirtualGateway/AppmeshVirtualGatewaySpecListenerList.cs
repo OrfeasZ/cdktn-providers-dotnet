@@ -41,6 +41,9 @@ namespace aws.AppmeshVirtualGateway
             return InvokeInstanceMethod<aws.AppmeshVirtualGateway.AppmeshVirtualGatewaySpecListenerOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecListener" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListener\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

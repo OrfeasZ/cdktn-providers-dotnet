@@ -72,6 +72,7 @@ namespace libvirt.Volume
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#features Volume#features}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Volume.IVolumeTargetFeatures" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "features", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.volume.VolumeTargetFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]

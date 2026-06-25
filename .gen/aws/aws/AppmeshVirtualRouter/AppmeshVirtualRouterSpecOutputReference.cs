@@ -33,6 +33,7 @@ namespace aws.AppmeshVirtualRouter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListener" />)[]</param>
         [JsiiMethod(name: "putListener", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListener\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutListener(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.AppmeshVirtualRouter
             get => GetInstanceProperty<aws.AppmeshVirtualRouter.AppmeshVirtualRouterSpecListenerList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListener" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listenerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListener\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ListenerInput

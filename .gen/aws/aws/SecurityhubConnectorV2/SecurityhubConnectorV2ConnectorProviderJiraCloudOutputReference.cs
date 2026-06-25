@@ -73,6 +73,9 @@ namespace aws.SecurityhubConnectorV2
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderJiraCloud" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderJiraCloud\"}]}}", isOptional: true)]
         public virtual object? InternalValue

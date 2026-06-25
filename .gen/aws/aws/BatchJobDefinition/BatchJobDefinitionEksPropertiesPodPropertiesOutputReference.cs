@@ -33,6 +33,7 @@ namespace aws.BatchJobDefinition
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesContainers" />)[]</param>
         [JsiiMethod(name: "putContainers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContainers(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.BatchJobDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret" />)[]</param>
         [JsiiMethod(name: "putImagePullSecret", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImagePullSecret(object @value)
         {
@@ -79,6 +81,7 @@ namespace aws.BatchJobDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesInitContainers" />)[]</param>
         [JsiiMethod(name: "putInitContainers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesInitContainers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInitContainers(object @value)
         {
@@ -108,6 +111,7 @@ namespace aws.BatchJobDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesMetadata)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesVolumes" />)[]</param>
         [JsiiMethod(name: "putVolumes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVolumes(object @value)
         {
@@ -209,6 +213,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<aws.BatchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesContainers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContainersInput
@@ -223,6 +230,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostNetworkInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? HostNetworkInput
@@ -230,6 +240,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imagePullSecretInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImagePullSecretInput
@@ -237,6 +250,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesInitContainers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initContainersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesInitContainers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InitContainersInput
@@ -258,6 +274,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareProcessNamespaceInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShareProcessNamespaceInput
@@ -265,6 +284,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesVolumes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VolumesInput
@@ -279,6 +301,9 @@ namespace aws.BatchJobDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "hostNetwork", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object HostNetwork
         {
@@ -313,6 +338,9 @@ namespace aws.BatchJobDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "shareProcessNamespace", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ShareProcessNamespace
         {

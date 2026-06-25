@@ -41,6 +41,9 @@ namespace oci.DataOciPsqlBackups
             return InvokeInstanceMethod<oci.DataOciPsqlBackups.DataOciPsqlBackupsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciPsqlBackups.IDataOciPsqlBackupsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciPsqlBackups.DataOciPsqlBackupsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

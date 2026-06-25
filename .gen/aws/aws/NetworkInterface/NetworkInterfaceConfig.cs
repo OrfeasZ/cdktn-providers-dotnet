@@ -22,6 +22,7 @@ namespace aws.NetworkInterface
         /// <summary>attachment block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/network_interface#attachment NetworkInterface#attachment}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkInterface.INetworkInterfaceAttachment" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attachment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkInterface.NetworkInterfaceAttachment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -63,6 +64,9 @@ namespace aws.NetworkInterface
         private object? _enablePrimaryIpv6;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/network_interface#enable_primary_ipv6 NetworkInterface#enable_primary_ipv6}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enablePrimaryIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnablePrimaryIpv6
@@ -173,6 +177,9 @@ namespace aws.NetworkInterface
         private object? _ipv6AddressListEnabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/network_interface#ipv6_address_list_enabled NetworkInterface#ipv6_address_list_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6AddressListEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Ipv6AddressListEnabled
@@ -240,6 +247,9 @@ namespace aws.NetworkInterface
         private object? _privateIpListEnabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/network_interface#private_ip_list_enabled NetworkInterface#private_ip_list_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpListEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? PrivateIpListEnabled
@@ -310,6 +320,9 @@ namespace aws.NetworkInterface
         private object? _sourceDestCheck;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/network_interface#source_dest_check NetworkInterface#source_dest_check}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDestCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? SourceDestCheck
@@ -360,6 +373,7 @@ namespace aws.NetworkInterface
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -393,6 +407,7 @@ namespace aws.NetworkInterface
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -487,6 +502,7 @@ namespace aws.NetworkInterface
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

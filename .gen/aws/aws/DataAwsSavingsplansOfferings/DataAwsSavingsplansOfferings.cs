@@ -46,6 +46,7 @@ namespace aws.DataAwsSavingsplansOfferings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsSavingsplansOfferings.DataAwsSavingsplansOfferings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsSavingsplansOfferings.IDataAwsSavingsplansOfferingsFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsSavingsplansOfferings.DataAwsSavingsplansOfferingsFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -187,6 +188,9 @@ namespace aws.DataAwsSavingsplansOfferings
             get => GetInstanceProperty<double[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsSavingsplansOfferings.IDataAwsSavingsplansOfferingsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsSavingsplansOfferings.DataAwsSavingsplansOfferingsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

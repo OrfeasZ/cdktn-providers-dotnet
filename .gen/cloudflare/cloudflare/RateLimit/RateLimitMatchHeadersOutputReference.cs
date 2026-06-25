@@ -95,6 +95,9 @@ namespace cloudflare.RateLimit
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.RateLimit.IRateLimitMatchHeaders" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchHeaders\"}]}}", isOptional: true)]
         public virtual object? InternalValue

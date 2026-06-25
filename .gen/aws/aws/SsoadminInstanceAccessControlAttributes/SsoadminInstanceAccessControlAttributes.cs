@@ -46,6 +46,7 @@ namespace aws.SsoadminInstanceAccessControlAttributes
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributes), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminInstanceAccessControlAttributes.ISsoadminInstanceAccessControlAttributesAttribute" />)[]</param>
         [JsiiMethod(name: "putAttribute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttribute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAttribute(object @value)
         {
@@ -118,6 +119,9 @@ namespace aws.SsoadminInstanceAccessControlAttributes
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminInstanceAccessControlAttributes.ISsoadminInstanceAccessControlAttributesAttribute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttribute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AttributeInput

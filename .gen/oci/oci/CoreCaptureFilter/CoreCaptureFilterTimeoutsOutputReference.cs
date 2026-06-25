@@ -93,6 +93,9 @@ namespace oci.CoreCaptureFilter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreCaptureFilter.ICoreCaptureFilterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreCaptureFilter.CoreCaptureFilterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

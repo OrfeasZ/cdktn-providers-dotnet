@@ -17,6 +17,7 @@ namespace aws.EksCapability
         /// <summary>identity block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#identity EksCapability#identity}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMappingIdentity" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,6 +46,7 @@ namespace aws.EksCapability
             /// <summary>identity block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#identity EksCapability#identity}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMappingIdentity" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "identity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]

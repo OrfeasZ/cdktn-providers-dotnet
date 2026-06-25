@@ -41,6 +41,9 @@ namespace oci.DataOciStackMonitoringProcessSets
             return InvokeInstanceMethod<oci.DataOciStackMonitoringProcessSets.DataOciStackMonitoringProcessSetsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringProcessSets.IDataOciStackMonitoringProcessSetsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciStackMonitoringProcessSets.DataOciStackMonitoringProcessSetsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

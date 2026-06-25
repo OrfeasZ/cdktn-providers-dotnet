@@ -35,6 +35,7 @@ namespace aws.BedrockagentFlow
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration" />)[]</param>
         [JsiiMethod(name: "putServiceConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutServiceConfiguration(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockagentFlow
             get => GetInstanceProperty<aws.BedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ServiceConfigurationInput
@@ -77,6 +81,9 @@ namespace aws.BedrockagentFlow
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationRetrieval" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrieval\"}]}}", isOptional: true)]
         public virtual object? InternalValue

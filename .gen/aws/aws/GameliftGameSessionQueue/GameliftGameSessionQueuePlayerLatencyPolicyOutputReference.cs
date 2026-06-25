@@ -69,6 +69,9 @@ namespace aws.GameliftGameSessionQueue
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GameliftGameSessionQueue.IGameliftGameSessionQueuePlayerLatencyPolicy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.gameliftGameSessionQueue.GameliftGameSessionQueuePlayerLatencyPolicy\"}]}}", isOptional: true)]
         public virtual object? InternalValue

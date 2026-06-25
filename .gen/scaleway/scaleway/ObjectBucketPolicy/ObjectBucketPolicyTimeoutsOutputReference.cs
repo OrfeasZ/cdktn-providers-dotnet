@@ -53,6 +53,9 @@ namespace scaleway.ObjectBucketPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ObjectBucketPolicy.IObjectBucketPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.objectBucketPolicy.ObjectBucketPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

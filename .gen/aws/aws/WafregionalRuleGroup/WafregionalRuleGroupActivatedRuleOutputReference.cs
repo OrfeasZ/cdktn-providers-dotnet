@@ -102,6 +102,9 @@ namespace aws.WafregionalRuleGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafregionalRuleGroup.IWafregionalRuleGroupActivatedRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

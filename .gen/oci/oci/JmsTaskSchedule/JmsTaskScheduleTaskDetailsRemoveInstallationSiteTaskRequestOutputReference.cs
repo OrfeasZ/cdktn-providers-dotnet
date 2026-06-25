@@ -33,6 +33,7 @@ namespace oci.JmsTaskSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites" />)[]</param>
         [JsiiMethod(name: "putInstallationSites", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstallationSites(object @value)
         {
@@ -68,6 +69,9 @@ namespace oci.JmsTaskSchedule
             get => GetInstanceProperty<oci.JmsTaskSchedule.JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSitesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "installationSitesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstallationSitesInput

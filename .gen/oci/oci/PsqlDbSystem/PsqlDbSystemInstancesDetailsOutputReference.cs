@@ -95,6 +95,9 @@ namespace oci.PsqlDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.PsqlDbSystem.IPsqlDbSystemInstancesDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemInstancesDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

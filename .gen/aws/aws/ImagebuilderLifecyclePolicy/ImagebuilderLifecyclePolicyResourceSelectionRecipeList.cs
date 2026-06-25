@@ -41,6 +41,9 @@ namespace aws.ImagebuilderLifecyclePolicy
             return InvokeInstanceMethod<aws.ImagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelectionRecipeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderLifecyclePolicy.IImagebuilderLifecyclePolicyResourceSelectionRecipe" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelectionRecipe\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

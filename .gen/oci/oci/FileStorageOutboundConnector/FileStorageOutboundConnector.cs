@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.FileStorageOutboundConnector
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/file_storage_outbound_connector oci_file_storage_outbound_connector}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_outbound_connector oci_file_storage_outbound_connector}.</summary>
     [JsiiClass(nativeType: typeof(oci.FileStorageOutboundConnector.FileStorageOutboundConnector), fullyQualifiedName: "oci.fileStorageOutboundConnector.FileStorageOutboundConnector", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorConfig\"}}]")]
     public class FileStorageOutboundConnector : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/file_storage_outbound_connector oci_file_storage_outbound_connector} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_outbound_connector oci_file_storage_outbound_connector} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public FileStorageOutboundConnector(Constructs.Construct scope, string id, oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.FileStorageOutboundConnector
         /// <param name="importToId">The construct id used in the generated config for the FileStorageOutboundConnector to import.</param>
         /// <param name="importFromId">The id of the existing FileStorageOutboundConnector that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the FileStorageOutboundConnector to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FileStorageOutboundConnector to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/file_storage_outbound_connector#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FileStorageOutboundConnector that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FileStorageOutboundConnector to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FileStorageOutboundConnector to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/file_storage_outbound_connector#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FileStorageOutboundConnector that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FileStorageOutboundConnector to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.FileStorageOutboundConnector.FileStorageOutboundConnector), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorEndpoints" />)[]</param>
         [JsiiMethod(name: "putEndpoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorEndpoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEndpoints(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.FileStorageOutboundConnector
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorLocks" />)[]</param>
         [JsiiMethod(name: "putLocks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorLocks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocks(object @value)
         {
@@ -148,6 +150,18 @@ namespace oci.FileStorageOutboundConnector
 
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTrustedCertificateSecretId")]
+        public virtual void ResetTrustedCertificateSecretId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTrustedCertificateSecretVersion")]
+        public virtual void ResetTrustedCertificateSecretVersion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -249,6 +263,9 @@ namespace oci.FileStorageOutboundConnector
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorEndpoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EndpointsInput
@@ -270,6 +287,9 @@ namespace oci.FileStorageOutboundConnector
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLockOverrideInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLockOverrideInput
@@ -277,6 +297,9 @@ namespace oci.FileStorageOutboundConnector
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocksInput
@@ -298,11 +321,28 @@ namespace oci.FileStorageOutboundConnector
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "trustedCertificateSecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TrustedCertificateSecretIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "trustedCertificateSecretVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? TrustedCertificateSecretVersionInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
@@ -361,6 +401,9 @@ namespace oci.FileStorageOutboundConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLockOverride", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLockOverride
         {
@@ -397,6 +440,20 @@ namespace oci.FileStorageOutboundConnector
 
         [JsiiProperty(name: "passwordSecretVersion", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double PasswordSecretVersion
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "trustedCertificateSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustedCertificateSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "trustedCertificateSecretVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TrustedCertificateSecretVersion
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

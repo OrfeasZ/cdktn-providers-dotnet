@@ -35,6 +35,7 @@ namespace aws.Wafv2WebAclRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysAsn" />)[]</param>
         [JsiiMethod(name: "putAsn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysAsn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAsn(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysCookie" />)[]</param>
         [JsiiMethod(name: "putCookie", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysCookie\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCookie(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysForwardedIp" />)[]</param>
         [JsiiMethod(name: "putForwardedIp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysForwardedIp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutForwardedIp(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysHeader" />)[]</param>
         [JsiiMethod(name: "putHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysHeader\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHeader(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysHttpMethod" />)[]</param>
         [JsiiMethod(name: "putHttpMethod", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysHttpMethod\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHttpMethod(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysIp" />)[]</param>
         [JsiiMethod(name: "putIp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysIp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIp(object @value)
         {
@@ -173,6 +179,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysJa3Fingerprint" />)[]</param>
         [JsiiMethod(name: "putJa3Fingerprint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysJa3Fingerprint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJa3Fingerprint(object @value)
         {
@@ -196,6 +203,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysJa4Fingerprint" />)[]</param>
         [JsiiMethod(name: "putJa4Fingerprint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysJa4Fingerprint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJa4Fingerprint(object @value)
         {
@@ -219,6 +227,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysLabelNamespace" />)[]</param>
         [JsiiMethod(name: "putLabelNamespace", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysLabelNamespace\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLabelNamespace(object @value)
         {
@@ -242,6 +251,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryArgument" />)[]</param>
         [JsiiMethod(name: "putQueryArgument", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryArgument\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutQueryArgument(object @value)
         {
@@ -265,6 +275,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryString" />)[]</param>
         [JsiiMethod(name: "putQueryString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryString\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutQueryString(object @value)
         {
@@ -288,6 +299,7 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPath" />)[]</param>
         [JsiiMethod(name: "putUriPath", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPath\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUriPath(object @value)
         {
@@ -455,6 +467,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPathList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysAsn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "asnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysAsn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AsnInput
@@ -462,6 +477,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysCookie" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookieInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysCookie\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CookieInput
@@ -469,6 +487,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysForwardedIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardedIpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysForwardedIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ForwardedIpInput
@@ -476,6 +497,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysHeader" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HeaderInput
@@ -483,6 +507,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysHttpMethod" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysHttpMethod\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HttpMethodInput
@@ -490,6 +517,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpInput
@@ -497,6 +527,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysJa3Fingerprint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ja3FingerprintInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysJa3Fingerprint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ja3FingerprintInput
@@ -504,6 +537,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysJa4Fingerprint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ja4FingerprintInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysJa4Fingerprint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ja4FingerprintInput
@@ -511,6 +547,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysLabelNamespace" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "labelNamespaceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysLabelNamespace\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LabelNamespaceInput
@@ -518,6 +557,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryArgument" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryArgumentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryArgument\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? QueryArgumentInput
@@ -525,6 +567,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryString" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? QueryStringInput
@@ -532,6 +577,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPath" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uriPathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UriPathInput
@@ -539,6 +587,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeys" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeys\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -116,6 +116,9 @@ namespace aws.Ec2ImageBlockPublicAccess
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2ImageBlockPublicAccess.IEc2ImageBlockPublicAccessTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

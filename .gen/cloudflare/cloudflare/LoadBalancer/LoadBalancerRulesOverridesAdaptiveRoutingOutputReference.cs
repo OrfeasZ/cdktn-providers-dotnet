@@ -39,6 +39,9 @@ namespace cloudflare.LoadBalancer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failoverAcrossPoolsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FailoverAcrossPoolsInput
@@ -46,6 +49,9 @@ namespace cloudflare.LoadBalancer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "failoverAcrossPools", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FailoverAcrossPools
         {
@@ -73,6 +79,9 @@ namespace cloudflare.LoadBalancer
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancer.ILoadBalancerRulesOverridesAdaptiveRouting" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesOverridesAdaptiveRouting\"}]}}", isOptional: true)]
         public virtual object? InternalValue

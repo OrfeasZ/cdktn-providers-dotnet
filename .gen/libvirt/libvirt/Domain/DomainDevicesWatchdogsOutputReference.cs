@@ -95,6 +95,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesWatchdogsAliasOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesWatchdogsAcpi" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acpiInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesWatchdogsAcpi\"}]}}", isOptional: true)]
         public virtual object? AcpiInput
@@ -109,6 +112,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesWatchdogsAddress" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesWatchdogsAddress\"}]}}", isOptional: true)]
         public virtual object? AddressInput
@@ -116,6 +122,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesWatchdogsAlias" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aliasInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesWatchdogsAlias\"}]}}", isOptional: true)]
         public virtual object? AliasInput
@@ -144,6 +153,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesWatchdogs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesWatchdogs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

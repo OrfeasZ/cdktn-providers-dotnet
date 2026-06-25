@@ -69,6 +69,9 @@ namespace cloudflare.EmailRoutingCatchAll
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.EmailRoutingCatchAll.IEmailRoutingCatchAllActions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.emailRoutingCatchAll.EmailRoutingCatchAllActions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

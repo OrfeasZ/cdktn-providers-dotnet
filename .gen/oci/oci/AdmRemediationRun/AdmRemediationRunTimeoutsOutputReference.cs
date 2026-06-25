@@ -93,6 +93,9 @@ namespace oci.AdmRemediationRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AdmRemediationRun.IAdmRemediationRunTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.admRemediationRun.AdmRemediationRunTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace digitalocean.Firewall
             return InvokeInstanceMethod<digitalocean.Firewall.FirewallOutboundRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Firewall.IFirewallOutboundRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.firewall.FirewallOutboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

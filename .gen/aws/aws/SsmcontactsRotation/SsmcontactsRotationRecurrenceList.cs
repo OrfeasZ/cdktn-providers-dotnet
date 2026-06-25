@@ -41,6 +41,9 @@ namespace aws.SsmcontactsRotation
             return InvokeInstanceMethod<aws.SsmcontactsRotation.SsmcontactsRotationRecurrenceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrence" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrence\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,9 @@ namespace oci.BdsBdsInstanceReplaceNodeAction
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BdsBdsInstanceReplaceNodeAction.IBdsBdsInstanceReplaceNodeActionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.bdsBdsInstanceReplaceNodeAction.BdsBdsInstanceReplaceNodeActionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ObjectstoragePrivateEndpoint
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/objectstorage_private_endpoint oci_objectstorage_private_endpoint}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_private_endpoint oci_objectstorage_private_endpoint}.</summary>
     [JsiiClass(nativeType: typeof(oci.ObjectstoragePrivateEndpoint.ObjectstoragePrivateEndpoint), fullyQualifiedName: "oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpoint", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointConfig\"}}]")]
     public class ObjectstoragePrivateEndpoint : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/objectstorage_private_endpoint oci_objectstorage_private_endpoint} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_private_endpoint oci_objectstorage_private_endpoint} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ObjectstoragePrivateEndpoint(Constructs.Construct scope, string id, oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.ObjectstoragePrivateEndpoint
         /// <param name="importToId">The construct id used in the generated config for the ObjectstoragePrivateEndpoint to import.</param>
         /// <param name="importFromId">The id of the existing ObjectstoragePrivateEndpoint that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ObjectstoragePrivateEndpoint to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ObjectstoragePrivateEndpoint to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/objectstorage_private_endpoint#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ObjectstoragePrivateEndpoint that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ObjectstoragePrivateEndpoint to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ObjectstoragePrivateEndpoint to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_private_endpoint#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ObjectstoragePrivateEndpoint that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ObjectstoragePrivateEndpoint to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ObjectstoragePrivateEndpoint.ObjectstoragePrivateEndpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointAccessTargets" />)[]</param>
         [JsiiMethod(name: "putAccessTargets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointAccessTargets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccessTargets(object @value)
         {
@@ -107,6 +108,12 @@ namespace oci.ObjectstoragePrivateEndpoint
 
         [JsiiMethod(name: "resetPrivateEndpointIp")]
         public virtual void ResetPrivateEndpointIp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSecurityAttributes")]
+        public virtual void ResetSecurityAttributes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -184,6 +191,9 @@ namespace oci.ObjectstoragePrivateEndpoint
             get => GetInstanceProperty<oci.ObjectstoragePrivateEndpoint.ObjectstoragePrivateEndpointTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointAccessTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessTargetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointAccessTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccessTargetsInput
@@ -212,6 +222,9 @@ namespace oci.ObjectstoragePrivateEndpoint
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fqdnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}},\"kind\":\"map\"}}]}},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? FqdnsInput
@@ -262,6 +275,13 @@ namespace oci.ObjectstoragePrivateEndpoint
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "securityAttributesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SecurityAttributesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "stateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? StateInput
         {
@@ -275,6 +295,9 @@ namespace oci.ObjectstoragePrivateEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -303,6 +326,9 @@ namespace oci.ObjectstoragePrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;&gt;</para>
+        /// </remarks>
         [JsiiProperty(name: "fqdns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}},\"kind\":\"map\"}}]}},\"kind\":\"map\"}}]}}")]
         public virtual object Fqdns
         {
@@ -386,6 +412,13 @@ namespace oci.ObjectstoragePrivateEndpoint
         public virtual string PrivateEndpointIp
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SecurityAttributes
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 

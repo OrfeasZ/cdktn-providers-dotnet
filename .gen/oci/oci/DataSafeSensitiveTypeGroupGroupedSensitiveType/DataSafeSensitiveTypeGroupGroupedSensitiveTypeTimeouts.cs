@@ -7,7 +7,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
     [JsiiByValue(fqn: "oci.dataSafeSensitiveTypeGroupGroupedSensitiveType.DataSafeSensitiveTypeGroupGroupedSensitiveTypeTimeouts")]
     public class DataSafeSensitiveTypeGroupGroupedSensitiveTypeTimeouts : oci.DataSafeSensitiveTypeGroupGroupedSensitiveType.IDataSafeSensitiveTypeGroupGroupedSensitiveTypeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#create DataSafeSensitiveTypeGroupGroupedSensitiveType#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#create DataSafeSensitiveTypeGroupGroupedSensitiveType#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#delete DataSafeSensitiveTypeGroupGroupedSensitiveType#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#delete DataSafeSensitiveTypeGroupGroupedSensitiveType#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#update DataSafeSensitiveTypeGroupGroupedSensitiveType#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#update DataSafeSensitiveTypeGroupGroupedSensitiveType#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

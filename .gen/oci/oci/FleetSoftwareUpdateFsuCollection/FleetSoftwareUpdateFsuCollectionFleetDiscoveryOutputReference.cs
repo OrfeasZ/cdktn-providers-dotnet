@@ -33,6 +33,7 @@ namespace oci.FleetSoftwareUpdateFsuCollection
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetSoftwareUpdateFsuCollection.IFleetSoftwareUpdateFsuCollectionFleetDiscoveryFilters" />)[]</param>
         [JsiiMethod(name: "putFilters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetSoftwareUpdateFsuCollection.FleetSoftwareUpdateFsuCollectionFleetDiscoveryFilters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilters(object @value)
         {
@@ -86,6 +87,9 @@ namespace oci.FleetSoftwareUpdateFsuCollection
             get => GetInstanceProperty<oci.FleetSoftwareUpdateFsuCollection.FleetSoftwareUpdateFsuCollectionFleetDiscoveryFiltersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetSoftwareUpdateFsuCollection.IFleetSoftwareUpdateFsuCollectionFleetDiscoveryFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filtersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetSoftwareUpdateFsuCollection.FleetSoftwareUpdateFsuCollectionFleetDiscoveryFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FiltersInput

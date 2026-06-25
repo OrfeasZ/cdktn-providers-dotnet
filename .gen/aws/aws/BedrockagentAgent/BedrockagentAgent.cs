@@ -46,6 +46,7 @@ namespace aws.BedrockagentAgent
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentAgent.BedrockagentAgent), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentGuardrailConfiguration" />)[]</param>
         [JsiiMethod(name: "putGuardrailConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentGuardrailConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGuardrailConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.BedrockagentAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentMemoryConfiguration" />)[]</param>
         [JsiiMethod(name: "putMemoryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentMemoryConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemoryConfiguration(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.BedrockagentAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfiguration" />)[]</param>
         [JsiiMethod(name: "putPromptOverrideConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPromptOverrideConfiguration(object @value)
         {
@@ -320,6 +323,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentGuardrailConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "guardrailConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentGuardrailConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GuardrailConfigurationInput
@@ -341,6 +347,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentMemoryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentMemoryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemoryConfigurationInput
@@ -348,6 +357,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prepareAgentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PrepareAgentInput
@@ -355,6 +367,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "promptOverrideConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PromptOverrideConfigurationInput
@@ -369,6 +384,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "skipResourceInUseCheckInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SkipResourceInUseCheckInput
@@ -383,6 +401,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgent.IBedrockagentAgentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -446,6 +467,9 @@ namespace aws.BedrockagentAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "prepareAgent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PrepareAgent
         {
@@ -480,6 +504,9 @@ namespace aws.BedrockagentAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "skipResourceInUseCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SkipResourceInUseCheck
         {

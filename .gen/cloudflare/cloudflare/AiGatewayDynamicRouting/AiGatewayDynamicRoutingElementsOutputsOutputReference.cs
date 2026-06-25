@@ -136,6 +136,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElementsOutputsFallback" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fallbackInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputsFallback\"}]}}", isOptional: true)]
         public virtual object? FallbackInput
@@ -143,6 +146,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElementsOutputsFalse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "falseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputsFalse\"}]}}", isOptional: true)]
         public virtual object? FalseInput
@@ -150,6 +156,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElementsOutputsNext" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputsNext\"}]}}", isOptional: true)]
         public virtual object? NextInput
@@ -157,6 +166,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElementsOutputsSuccess" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "successInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputsSuccess\"}]}}", isOptional: true)]
         public virtual object? SuccessInput
@@ -164,6 +176,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElementsOutputsTrue" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputsTrue\"}]}}", isOptional: true)]
         public virtual object? TrueInput
@@ -178,6 +193,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElementsOutputs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -58,6 +58,7 @@ namespace aws.KinesisAnalyticsApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputs)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationOutputs" />)[]</param>
         [JsiiMethod(name: "putOutputs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationOutputs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutputs(object @value)
         {
@@ -268,6 +269,9 @@ namespace aws.KinesisAnalyticsApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationOutputs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationOutputs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutputsInput
@@ -289,6 +293,9 @@ namespace aws.KinesisAnalyticsApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startApplicationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? StartApplicationInput
@@ -345,6 +352,9 @@ namespace aws.KinesisAnalyticsApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "startApplication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object StartApplication
         {

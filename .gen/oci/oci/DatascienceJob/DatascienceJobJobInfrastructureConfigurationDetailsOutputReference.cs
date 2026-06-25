@@ -39,14 +39,32 @@ namespace oci.DatascienceJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putResourceConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration\"}}]")]
+        public virtual void PutResourceConfiguration(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBlockStorageSizeInGbs")]
         public virtual void ResetBlockStorageSizeInGbs()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetComputeTargetId")]
+        public virtual void ResetComputeTargetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetJobShapeConfigDetails")]
         public virtual void ResetJobShapeConfigDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetResourceConfiguration")]
+        public virtual void ResetResourceConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -69,11 +87,24 @@ namespace oci.DatascienceJob
             get => GetInstanceProperty<oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference\"}")]
+        public virtual oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference ResourceConfiguration
+        {
+            get => GetInstanceProperty<oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "blockStorageSizeInGbsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? BlockStorageSizeInGbsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "computeTargetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ComputeTargetIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -88,6 +119,13 @@ namespace oci.DatascienceJob
         public virtual oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails? JobShapeConfigDetailsInput
         {
             get => GetInstanceProperty<oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "resourceConfigurationInput", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration\"}", isOptional: true)]
+        public virtual oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration? ResourceConfigurationInput
+        {
+            get => GetInstanceProperty<oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration?>();
         }
 
         [JsiiOptional]
@@ -108,6 +146,13 @@ namespace oci.DatascienceJob
         public virtual double BlockStorageSizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeTargetId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

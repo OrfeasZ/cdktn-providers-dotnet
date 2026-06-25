@@ -41,6 +41,9 @@ namespace aws.S3VectorsIndex
             return InvokeInstanceMethod<aws.S3VectorsIndex.S3VectorsIndexEncryptionConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3VectorsIndex.IS3VectorsIndexEncryptionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3VectorsIndex.S3VectorsIndexEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

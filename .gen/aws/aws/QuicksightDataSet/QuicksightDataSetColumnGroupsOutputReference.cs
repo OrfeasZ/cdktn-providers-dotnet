@@ -60,6 +60,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<aws.QuicksightDataSet.IQuicksightDataSetColumnGroupsGeoSpatialColumnGroup?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightDataSet.IQuicksightDataSetColumnGroups" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetColumnGroups\"}]}}", isOptional: true)]
         public virtual object? InternalValue

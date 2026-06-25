@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseCloudAutonomousVmCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmCluster), fullyQualifiedName: "oci.databaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmClusterConfig\"}}]")]
     public class DatabaseCloudAutonomousVmCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseCloudAutonomousVmCluster(Constructs.Construct scope, string id, oci.DatabaseCloudAutonomousVmCluster.IDatabaseCloudAutonomousVmClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseCloudAutonomousVmCluster
         /// <param name="importToId">The construct id used in the generated config for the DatabaseCloudAutonomousVmCluster to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseCloudAutonomousVmCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseCloudAutonomousVmCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCloudAutonomousVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_autonomous_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCloudAutonomousVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCloudAutonomousVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCloudAutonomousVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_autonomous_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCloudAutonomousVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCloudAutonomousVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -100,6 +100,12 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDistributionAlgorithm")]
+        public virtual void ResetDistributionAlgorithm()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetFreeformTags")]
         public virtual void ResetFreeformTags()
         {
@@ -148,6 +154,12 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRegisterPkcsTrigger")]
+        public virtual void ResetRegisterPkcsTrigger()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetScanListenerPortNonTls")]
         public virtual void ResetScanListenerPortNonTls()
         {
@@ -166,8 +178,20 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSgaPercentage")]
+        public virtual void ResetSgaPercentage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSubscriptionId")]
         public virtual void ResetSubscriptionId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTdeKeyStoreType")]
+        public virtual void ResetTdeKeyStoreType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -186,6 +210,12 @@ namespace oci.DatabaseCloudAutonomousVmCluster
 
         [JsiiMethod(name: "resetTotalContainerDatabases")]
         public virtual void ResetTotalContainerDatabases()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUnregisterPkcsTrigger")]
+        public virtual void ResetUnregisterPkcsTrigger()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -333,6 +363,12 @@ namespace oci.DatabaseCloudAutonomousVmCluster
         public virtual double MemorySizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "multiCloudIdentityConnectorConfigs", typeJson: "{\"fqn\":\"oci.databaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmClusterMultiCloudIdentityConnectorConfigsList\"}")]
+        public virtual oci.DatabaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmClusterMultiCloudIdentityConnectorConfigsList MultiCloudIdentityConnectorConfigs
+        {
+            get => GetInstanceProperty<oci.DatabaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmClusterMultiCloudIdentityConnectorConfigsList>()!;
         }
 
         [JsiiProperty(name: "nextMaintenanceRunId", typeJson: "{\"primitive\":\"string\"}")]
@@ -520,6 +556,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "distributionAlgorithmInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DistributionAlgorithmInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "freeformTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? FreeformTagsInput
         {
@@ -533,6 +576,9 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isMtlsEnabledVmClusterInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsMtlsEnabledVmClusterInput
@@ -568,11 +614,21 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "opcDryRunInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? OpcDryRunInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "registerPkcsTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? RegisterPkcsTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -597,6 +653,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "sgaPercentageInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? SgaPercentageInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "subnetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SubnetIdInput
         {
@@ -610,6 +673,16 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "tdeKeyStoreTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TdeKeyStoreTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseCloudAutonomousVmCluster.IDatabaseCloudAutonomousVmClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseCloudAutonomousVmCluster.DatabaseCloudAutonomousVmClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -627,6 +700,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
         [JsiiOptional]
         [JsiiProperty(name: "totalContainerDatabasesInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? TotalContainerDatabasesInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "unregisterPkcsTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? UnregisterPkcsTriggerInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -701,6 +781,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "distributionAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DistributionAlgorithm
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> FreeformTags
         {
@@ -715,6 +802,9 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isMtlsEnabledVmCluster", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsMtlsEnabledVmCluster
         {
@@ -763,6 +853,9 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "opcDryRun", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object OpcDryRun
         {
@@ -790,6 +883,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             }
         }
 
+        [JsiiProperty(name: "registerPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RegisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "scanListenerPortNonTls", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ScanListenerPortNonTls
         {
@@ -811,6 +911,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "sgaPercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SgaPercentage
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SubnetId
         {
@@ -825,6 +932,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "tdeKeyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TdeKeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeUpdated
         {
@@ -834,6 +948,13 @@ namespace oci.DatabaseCloudAutonomousVmCluster
 
         [JsiiProperty(name: "totalContainerDatabases", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalContainerDatabases
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "unregisterPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double UnregisterPkcsTrigger
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

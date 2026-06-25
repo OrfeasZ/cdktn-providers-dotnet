@@ -36,6 +36,7 @@ namespace scaleway.EdgeServicesBackendStage
         /// <summary>Defines whether to forward websocket requests to the load balancer.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/edge_services_backend_stage#has_websocket EdgeServicesBackendStage#has_websocket}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hasWebsocket", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -85,6 +86,7 @@ namespace scaleway.EdgeServicesBackendStage
         /// <summary>Defines whether the Load Balancer's frontend handles SSL connections.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/edge_services_backend_stage#is_ssl EdgeServicesBackendStage#is_ssl}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSsl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

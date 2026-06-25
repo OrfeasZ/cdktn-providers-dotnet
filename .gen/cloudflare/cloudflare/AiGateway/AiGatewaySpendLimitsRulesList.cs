@@ -41,6 +41,9 @@ namespace cloudflare.AiGateway
             return InvokeInstanceMethod<cloudflare.AiGateway.AiGatewaySpendLimitsRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewaySpendLimitsRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

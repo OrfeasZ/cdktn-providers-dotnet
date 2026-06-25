@@ -58,6 +58,7 @@ namespace cloudflare.LoadBalancerPool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.LoadBalancerPool.ILoadBalancerPoolNotificationFilter)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolOrigins" />)[]</param>
         [JsiiMethod(name: "putOrigins", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOrigins\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOrigins(object @value)
         {
@@ -253,6 +254,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -267,6 +271,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolLoadShedding" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loadSheddingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolLoadShedding\"}]}}", isOptional: true)]
         public virtual object? LoadSheddingInput
@@ -316,6 +323,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolNotificationFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolNotificationFilter\"}]}}", isOptional: true)]
         public virtual object? NotificationFilterInput
@@ -323,6 +333,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolOrigins" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOrigins\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OriginsInput
@@ -330,6 +343,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolOriginSteering" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originSteeringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOriginSteering\"}]}}", isOptional: true)]
         public virtual object? OriginSteeringInput
@@ -358,6 +374,9 @@ namespace cloudflare.LoadBalancerPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

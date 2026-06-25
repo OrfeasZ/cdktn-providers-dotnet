@@ -93,6 +93,9 @@ namespace aws.ConfigOrganizationCustomPolicyRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ConfigOrganizationCustomPolicyRule.IConfigOrganizationCustomPolicyRuleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRuleTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

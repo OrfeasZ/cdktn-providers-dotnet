@@ -46,6 +46,7 @@ namespace tailscale.DnsConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(tailscale.DnsConfiguration.DnsConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationNameservers" />)[]</param>
         [JsiiMethod(name: "putNameservers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationNameservers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNameservers(object @value)
         {
@@ -69,6 +70,7 @@ namespace tailscale.DnsConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDns" />)[]</param>
         [JsiiMethod(name: "putSplitDns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationSplitDns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSplitDns(object @value)
         {
@@ -159,6 +161,9 @@ namespace tailscale.DnsConfiguration
             get => GetInstanceProperty<tailscale.DnsConfiguration.DnsConfigurationSplitDnsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "magicDnsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MagicDnsInput
@@ -166,6 +171,9 @@ namespace tailscale.DnsConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationNameservers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameserversInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationNameservers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NameserversInput
@@ -173,6 +181,9 @@ namespace tailscale.DnsConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideLocalDnsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? OverrideLocalDnsInput
@@ -187,6 +198,9 @@ namespace tailscale.DnsConfiguration
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "splitDnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationSplitDns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SplitDnsInput
@@ -194,6 +208,9 @@ namespace tailscale.DnsConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "magicDns", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object MagicDns
         {
@@ -221,6 +238,9 @@ namespace tailscale.DnsConfiguration
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "overrideLocalDns", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object OverrideLocalDns
         {

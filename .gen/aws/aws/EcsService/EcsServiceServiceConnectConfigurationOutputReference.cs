@@ -45,6 +45,7 @@ namespace aws.EcsService
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsService.IEcsServiceServiceConnectConfigurationLogConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationService" />)[]</param>
         [JsiiMethod(name: "putService", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationService\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutService(object @value)
         {
@@ -117,6 +118,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<aws.EcsService.IEcsServiceServiceConnectConfigurationAccessLogConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -138,6 +142,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationService" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationService\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ServiceInput
@@ -145,6 +152,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

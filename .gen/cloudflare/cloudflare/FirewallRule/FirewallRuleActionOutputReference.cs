@@ -70,6 +70,9 @@ namespace cloudflare.FirewallRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.FirewallRule.IFirewallRuleActionResponse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.firewallRule.FirewallRuleActionResponse\"}]}}", isOptional: true)]
         public virtual object? ResponseInput
@@ -98,6 +101,9 @@ namespace cloudflare.FirewallRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.FirewallRule.IFirewallRuleAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.firewallRule.FirewallRuleAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

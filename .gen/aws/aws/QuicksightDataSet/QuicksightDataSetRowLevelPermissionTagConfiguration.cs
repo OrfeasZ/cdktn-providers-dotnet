@@ -14,6 +14,7 @@ namespace aws.QuicksightDataSet
         /// <summary>tag_rules block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetRowLevelPermissionTagConfigurationTagRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tagRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules\"},\"kind\":\"array\"}}]}}")]
         public object TagRules

@@ -35,6 +35,7 @@ namespace aws.SecuritylakeSubscriberNotification
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfigurationHttpsNotificationConfiguration" />)[]</param>
         [JsiiMethod(name: "putHttpsNotificationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationHttpsNotificationConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHttpsNotificationConfiguration(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SecuritylakeSubscriberNotification
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfigurationSqsNotificationConfiguration" />)[]</param>
         [JsiiMethod(name: "putSqsNotificationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSqsNotificationConfiguration(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.SecuritylakeSubscriberNotification
             get => GetInstanceProperty<aws.SecuritylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfigurationHttpsNotificationConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpsNotificationConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationHttpsNotificationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HttpsNotificationConfigurationInput
@@ -112,6 +117,9 @@ namespace aws.SecuritylakeSubscriberNotification
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfigurationSqsNotificationConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqsNotificationConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SqsNotificationConfigurationInput
@@ -119,6 +127,9 @@ namespace aws.SecuritylakeSubscriberNotification
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.SecuritylakeAwsLogSource
             return InvokeInstanceMethod<aws.SecuritylakeAwsLogSource.SecuritylakeAwsLogSourceSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeAwsLogSource.ISecuritylakeAwsLogSourceSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

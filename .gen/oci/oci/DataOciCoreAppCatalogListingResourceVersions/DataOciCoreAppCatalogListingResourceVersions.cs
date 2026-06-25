@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciCoreAppCatalogListingResourceVersions
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_app_catalog_listing_resource_versions oci_core_app_catalog_listing_resource_versions}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_app_catalog_listing_resource_versions oci_core_app_catalog_listing_resource_versions}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersions), fullyQualifiedName: "oci.dataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersions", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersionsConfig\"}}]")]
     public class DataOciCoreAppCatalogListingResourceVersions : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_app_catalog_listing_resource_versions oci_core_app_catalog_listing_resource_versions} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_app_catalog_listing_resource_versions oci_core_app_catalog_listing_resource_versions} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciCoreAppCatalogListingResourceVersions(Constructs.Construct scope, string id, oci.DataOciCoreAppCatalogListingResourceVersions.IDataOciCoreAppCatalogListingResourceVersionsConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.DataOciCoreAppCatalogListingResourceVersions
         /// <param name="importToId">The construct id used in the generated config for the DataOciCoreAppCatalogListingResourceVersions to import.</param>
         /// <param name="importFromId">The id of the existing DataOciCoreAppCatalogListingResourceVersions that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciCoreAppCatalogListingResourceVersions to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciCoreAppCatalogListingResourceVersions to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_app_catalog_listing_resource_versions#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciCoreAppCatalogListingResourceVersions that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciCoreAppCatalogListingResourceVersions to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciCoreAppCatalogListingResourceVersions to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_app_catalog_listing_resource_versions#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciCoreAppCatalogListingResourceVersions that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciCoreAppCatalogListingResourceVersions to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersions), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreAppCatalogListingResourceVersions.IDataOciCoreAppCatalogListingResourceVersionsFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersionsFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -112,6 +113,9 @@ namespace oci.DataOciCoreAppCatalogListingResourceVersions
             get => GetInstanceProperty<oci.DataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersionsFilterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreAppCatalogListingResourceVersions.IDataOciCoreAppCatalogListingResourceVersionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreAppCatalogListingResourceVersions.DataOciCoreAppCatalogListingResourceVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

@@ -41,6 +41,9 @@ namespace scaleway.Secret
             return InvokeInstanceMethod<scaleway.Secret.SecretEphemeralPolicyOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.Secret.ISecretEphemeralPolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.secret.SecretEphemeralPolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

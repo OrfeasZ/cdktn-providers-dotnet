@@ -35,6 +35,9 @@ namespace aws.BedrockagentFlow
         {
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationCollector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollector\"}]}}", isOptional: true)]
         public virtual object? InternalValue

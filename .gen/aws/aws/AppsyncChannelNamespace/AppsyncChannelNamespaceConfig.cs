@@ -39,6 +39,7 @@ namespace aws.AppsyncChannelNamespace
         /// <summary>handler_configs block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_channel_namespace#handler_configs AppsyncChannelNamespace#handler_configs}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "handlerConfigs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -73,6 +74,7 @@ namespace aws.AppsyncChannelNamespace
         /// <summary>publish_auth_mode block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_channel_namespace#publish_auth_mode AppsyncChannelNamespace#publish_auth_mode}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespacePublishAuthMode" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publishAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespacePublishAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -119,6 +121,7 @@ namespace aws.AppsyncChannelNamespace
         /// <summary>subscribe_auth_mode block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_channel_namespace#subscribe_auth_mode AppsyncChannelNamespace#subscribe_auth_mode}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceSubscribeAuthMode" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscribeAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceSubscribeAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -161,6 +164,7 @@ namespace aws.AppsyncChannelNamespace
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -194,6 +198,7 @@ namespace aws.AppsyncChannelNamespace
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -288,6 +293,7 @@ namespace aws.AppsyncChannelNamespace
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -33,6 +33,7 @@ namespace aws.QuicksightDataSet
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetRowLevelPermissionTagConfigurationTagRules" />)[]</param>
         [JsiiMethod(name: "putTagRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTagRules(object @value)
         {
@@ -75,6 +76,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetRowLevelPermissionTagConfigurationTagRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagRulesInput

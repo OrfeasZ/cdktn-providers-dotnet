@@ -35,6 +35,7 @@ namespace oci.FleetAppsManagementRunbookVersion
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSteps" />)[]</param>
         [JsiiMethod(name: "putSteps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSteps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSteps(object @value)
         {
@@ -71,6 +72,9 @@ namespace oci.FleetAppsManagementRunbookVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflowSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepsInput
@@ -99,6 +103,9 @@ namespace oci.FleetAppsManagementRunbookVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflow" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionRollbackWorkflowDetailsWorkflow\"}]}}", isOptional: true)]
         public virtual object? InternalValue

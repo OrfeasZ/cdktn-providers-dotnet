@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2ServiceLinkVirtualInterfaces
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2ServiceLinkVirtualInterfaces.IDataAwsEc2ServiceLinkVirtualInterfacesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2ServiceLinkVirtualInterfaces.DataAwsEc2ServiceLinkVirtualInterfacesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

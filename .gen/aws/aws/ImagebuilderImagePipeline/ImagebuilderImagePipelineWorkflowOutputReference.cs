@@ -35,6 +35,7 @@ namespace aws.ImagebuilderImagePipeline
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflowParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -96,6 +97,9 @@ namespace aws.ImagebuilderImagePipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflowParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput
@@ -131,6 +135,9 @@ namespace aws.ImagebuilderImagePipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflow" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.SagemakerAlgorithm
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource" />)[]</param>
         [JsiiMethod(name: "putS3DataSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3DataSource(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.SagemakerAlgorithm
             get => GetInstanceProperty<aws.SagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSourceList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3DataSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3DataSourceInput
@@ -77,6 +81,9 @@ namespace aws.SagemakerAlgorithm
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmInferenceSpecificationContainersModelDataSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmInferenceSpecificationContainersModelDataSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

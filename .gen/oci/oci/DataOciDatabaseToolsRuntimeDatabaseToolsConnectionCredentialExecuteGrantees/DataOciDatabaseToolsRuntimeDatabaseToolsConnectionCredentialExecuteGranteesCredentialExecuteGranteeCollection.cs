@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees
+{
+    [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteesCredentialExecuteGranteeCollection")]
+    public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteesCredentialExecuteGranteeCollection : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteesCredentialExecuteGranteeCollection
+    {
+    }
+}

@@ -47,6 +47,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "primaryDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryDbSystemId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SourceType
         {

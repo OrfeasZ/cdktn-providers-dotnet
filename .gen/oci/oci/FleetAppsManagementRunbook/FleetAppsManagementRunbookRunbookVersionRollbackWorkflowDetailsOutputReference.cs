@@ -33,6 +33,7 @@ namespace oci.FleetAppsManagementRunbook
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetailsWorkflow" />)[]</param>
         [JsiiMethod(name: "putWorkflow", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetailsWorkflow\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWorkflow(object @value)
         {
@@ -69,6 +70,9 @@ namespace oci.FleetAppsManagementRunbook
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetailsWorkflow" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workflowInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionRollbackWorkflowDetailsWorkflow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WorkflowInput

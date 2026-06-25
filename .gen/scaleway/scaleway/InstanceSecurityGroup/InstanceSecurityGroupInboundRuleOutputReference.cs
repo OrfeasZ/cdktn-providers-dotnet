@@ -149,6 +149,9 @@ namespace scaleway.InstanceSecurityGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceSecurityGroup.IInstanceSecurityGroupInboundRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupInboundRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

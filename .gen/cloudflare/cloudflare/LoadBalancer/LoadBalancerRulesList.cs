@@ -41,6 +41,9 @@ namespace cloudflare.LoadBalancer
             return InvokeInstanceMethod<cloudflare.LoadBalancer.LoadBalancerRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancer.ILoadBalancerRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

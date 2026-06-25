@@ -41,6 +41,9 @@ namespace oci.CoreServiceGateway
             return InvokeInstanceMethod<oci.CoreServiceGateway.CoreServiceGatewayServicesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreServiceGateway.ICoreServiceGatewayServices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreServiceGateway.CoreServiceGatewayServices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

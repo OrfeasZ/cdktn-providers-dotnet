@@ -35,6 +35,7 @@ namespace aws.Cloudtrail
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Cloudtrail.ICloudtrailAdvancedEventSelectorFieldSelector" />)[]</param>
         [JsiiMethod(name: "putFieldSelector", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelector\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFieldSelector(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Cloudtrail
             get => GetInstanceProperty<aws.Cloudtrail.CloudtrailAdvancedEventSelectorFieldSelectorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Cloudtrail.ICloudtrailAdvancedEventSelectorFieldSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldSelectorInput
@@ -91,6 +95,9 @@ namespace aws.Cloudtrail
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Cloudtrail.ICloudtrailAdvancedEventSelector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudtrail.CloudtrailAdvancedEventSelector\"}]}}", isOptional: true)]
         public virtual object? InternalValue

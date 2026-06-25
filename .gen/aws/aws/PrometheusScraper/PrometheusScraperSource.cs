@@ -12,6 +12,7 @@ namespace aws.PrometheusScraper
         /// <summary>eks block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/prometheus_scraper#eks PrometheusScraper#eks}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperSourceEks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperSourceEks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace aws.PrometheusScraper
         /// <summary>vpc block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/prometheus_scraper#vpc PrometheusScraper#vpc}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperSourceVpc" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperSourceVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]

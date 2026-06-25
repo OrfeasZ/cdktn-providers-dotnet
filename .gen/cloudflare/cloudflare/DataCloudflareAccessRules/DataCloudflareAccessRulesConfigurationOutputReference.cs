@@ -73,6 +73,9 @@ namespace cloudflare.DataCloudflareAccessRules
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAccessRules.IDataCloudflareAccessRulesConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAccessRules.DataCloudflareAccessRulesConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

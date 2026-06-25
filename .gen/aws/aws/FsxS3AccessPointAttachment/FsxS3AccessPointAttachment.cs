@@ -46,6 +46,7 @@ namespace aws.FsxS3AccessPointAttachment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfiguration" />)[]</param>
         [JsiiMethod(name: "putOpenzfsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOpenzfsConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.FsxS3AccessPointAttachment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentS3AccessPoint" />)[]</param>
         [JsiiMethod(name: "putS3AccessPoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPoint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3AccessPoint(object @value)
         {
@@ -178,6 +180,9 @@ namespace aws.FsxS3AccessPointAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openzfsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OpenzfsConfigurationInput
@@ -192,6 +197,9 @@ namespace aws.FsxS3AccessPointAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentS3AccessPoint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3AccessPointInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3AccessPointInput
@@ -199,6 +207,9 @@ namespace aws.FsxS3AccessPointAttachment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -69,6 +69,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersUriQueryOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersUriPath" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUriPath\"}]}}", isOptional: true)]
         public virtual object? PathInput
@@ -76,6 +79,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersUriQuery" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUriQuery\"}]}}", isOptional: true)]
         public virtual object? QueryInput
@@ -83,6 +89,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersUri" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUri\"}]}}", isOptional: true)]
         public virtual object? InternalValue

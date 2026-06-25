@@ -35,6 +35,7 @@ namespace aws.Ec2NetworkInsightsAccessScope
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatement" />)[]</param>
         [JsiiMethod(name: "putResourceStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceStatement(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<aws.Ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatementList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceStatementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceStatementInput
@@ -77,6 +81,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeExcludePathsThroughResources" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeExcludePathsThroughResources\"}]}}", isOptional: true)]
         public virtual object? InternalValue

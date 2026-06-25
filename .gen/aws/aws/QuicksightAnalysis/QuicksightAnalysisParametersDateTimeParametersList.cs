@@ -41,6 +41,9 @@ namespace aws.QuicksightAnalysis
             return InvokeInstanceMethod<aws.QuicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightAnalysis.IQuicksightAnalysisParametersDateTimeParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

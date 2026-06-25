@@ -35,6 +35,7 @@ namespace aws.EcsDaemon
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemon.IEcsDaemonDeploymentConfigurationAlarms" />)[]</param>
         [JsiiMethod(name: "putAlarms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemon.EcsDaemonDeploymentConfigurationAlarms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAlarms(object @value)
         {
@@ -82,6 +83,9 @@ namespace aws.EcsDaemon
             get => GetInstanceProperty<aws.EcsDaemon.EcsDaemonDeploymentConfigurationAlarmsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemon.IEcsDaemonDeploymentConfigurationAlarms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alarmsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemon.EcsDaemonDeploymentConfigurationAlarms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AlarmsInput
@@ -117,6 +121,9 @@ namespace aws.EcsDaemon
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsDaemon.IEcsDaemonDeploymentConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsDaemon.EcsDaemonDeploymentConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

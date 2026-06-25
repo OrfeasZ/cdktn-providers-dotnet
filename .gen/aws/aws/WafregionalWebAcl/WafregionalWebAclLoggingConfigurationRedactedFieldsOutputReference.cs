@@ -33,6 +33,7 @@ namespace aws.WafregionalWebAcl
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalWebAcl.IWafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatch" />)[]</param>
         [JsiiMethod(name: "putFieldToMatch", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatch\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFieldToMatch(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.WafregionalWebAcl
             get => GetInstanceProperty<aws.WafregionalWebAcl.WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatchList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalWebAcl.IWafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatch" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldToMatchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalWebAcl.WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldToMatchInput

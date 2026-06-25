@@ -46,6 +46,7 @@ namespace aws.DataAwsEcrpublicImages
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsEcrpublicImages.DataAwsEcrpublicImages), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcrpublicImages.IDataAwsEcrpublicImagesImageIds" />)[]</param>
         [JsiiMethod(name: "putImageIds", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIds\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImageIds(object @value)
         {
@@ -118,6 +119,9 @@ namespace aws.DataAwsEcrpublicImages
             get => GetInstanceProperty<aws.DataAwsEcrpublicImages.DataAwsEcrpublicImagesImagesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcrpublicImages.IDataAwsEcrpublicImagesImageIds" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageIdsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIds\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImageIdsInput

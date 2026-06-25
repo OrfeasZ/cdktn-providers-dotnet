@@ -9,7 +9,7 @@ namespace oci.QueueQueue
     [JsiiByValue(fqn: "oci.queueQueue.QueueQueueConfig")]
     public class QueueQueueConfig : oci.QueueQueue.IQueueQueueConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#compartment_id QueueQueue#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#compartment_id QueueQueue#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#display_name QueueQueue#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#display_name QueueQueue#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,42 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#channel_consumption_limit QueueQueue#channel_consumption_limit}.</summary>
+        private object? _capabilities;
+
+        /// <summary>capabilities block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#capabilities QueueQueue#capabilities}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.QueueQueue.IQueueQueueCapabilities" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "capabilities", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.queueQueue.QueueQueueCapabilities\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Capabilities
+        {
+            get => _capabilities;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case oci.QueueQueue.IQueueQueueCapabilities[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.QueueQueue.IQueueQueueCapabilities).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _capabilities = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#channel_consumption_limit QueueQueue#channel_consumption_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channelConsumptionLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ChannelConsumptionLimit
@@ -34,7 +69,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#custom_encryption_key_id QueueQueue#custom_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#custom_encryption_key_id QueueQueue#custom_encryption_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomEncryptionKeyId
@@ -43,7 +78,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#dead_letter_queue_delivery_count QueueQueue#dead_letter_queue_delivery_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#dead_letter_queue_delivery_count QueueQueue#dead_letter_queue_delivery_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deadLetterQueueDeliveryCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DeadLetterQueueDeliveryCount
@@ -52,7 +87,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#defined_tags QueueQueue#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#defined_tags QueueQueue#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -61,7 +96,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#freeform_tags QueueQueue#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#freeform_tags QueueQueue#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -70,7 +105,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#id QueueQueue#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#id QueueQueue#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +118,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#purge_trigger QueueQueue#purge_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#purge_trigger QueueQueue#purge_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "purgeTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PurgeTrigger
@@ -92,7 +127,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#purge_type QueueQueue#purge_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#purge_type QueueQueue#purge_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "purgeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PurgeType
@@ -101,7 +136,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#retention_in_seconds QueueQueue#retention_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#retention_in_seconds QueueQueue#retention_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionInSeconds
@@ -110,7 +145,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#timeout_in_seconds QueueQueue#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#timeout_in_seconds QueueQueue#timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInSeconds
@@ -121,7 +156,7 @@ namespace oci.QueueQueue
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#timeouts QueueQueue#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#timeouts QueueQueue#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.queueQueue.QueueQueueTimeouts\"}", isOptional: true)]
@@ -131,7 +166,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/queue_queue#visibility_in_seconds QueueQueue#visibility_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/queue_queue#visibility_in_seconds QueueQueue#visibility_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "visibilityInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VisibilityInSeconds
@@ -144,6 +179,7 @@ namespace oci.QueueQueue
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -177,6 +213,7 @@ namespace oci.QueueQueue
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -271,6 +308,7 @@ namespace oci.QueueQueue
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

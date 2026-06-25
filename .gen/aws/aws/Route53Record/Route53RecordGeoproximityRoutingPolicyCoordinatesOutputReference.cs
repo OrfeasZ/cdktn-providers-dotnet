@@ -63,6 +63,9 @@ namespace aws.Route53Record
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicyCoordinates" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates\"}]}}", isOptional: true)]
         public virtual object? InternalValue

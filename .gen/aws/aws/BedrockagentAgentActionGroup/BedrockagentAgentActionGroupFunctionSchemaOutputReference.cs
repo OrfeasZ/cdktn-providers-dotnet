@@ -35,6 +35,7 @@ namespace aws.BedrockagentAgentActionGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupFunctionSchemaMemberFunctions" />)[]</param>
         [JsiiMethod(name: "putMemberFunctions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupFunctionSchemaMemberFunctions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemberFunctions(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockagentAgentActionGroup
             get => GetInstanceProperty<aws.BedrockagentAgentActionGroup.BedrockagentAgentActionGroupFunctionSchemaMemberFunctionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupFunctionSchemaMemberFunctions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberFunctionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupFunctionSchemaMemberFunctions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemberFunctionsInput
@@ -77,6 +81,9 @@ namespace aws.BedrockagentAgentActionGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupFunctionSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupFunctionSchema\"}]}}", isOptional: true)]
         public virtual object? InternalValue

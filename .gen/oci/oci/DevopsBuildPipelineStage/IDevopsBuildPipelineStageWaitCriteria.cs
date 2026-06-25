@@ -7,14 +7,14 @@ namespace oci.DevopsBuildPipelineStage
     [JsiiInterface(nativeType: typeof(IDevopsBuildPipelineStageWaitCriteria), fullyQualifiedName: "oci.devopsBuildPipelineStage.DevopsBuildPipelineStageWaitCriteria")]
     public interface IDevopsBuildPipelineStageWaitCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/devops_build_pipeline_stage#wait_duration DevopsBuildPipelineStage#wait_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#wait_duration DevopsBuildPipelineStage#wait_duration}.</summary>
         [JsiiProperty(name: "waitDuration", typeJson: "{\"primitive\":\"string\"}")]
         string WaitDuration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/devops_build_pipeline_stage#wait_type DevopsBuildPipelineStage#wait_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#wait_type DevopsBuildPipelineStage#wait_type}.</summary>
         [JsiiProperty(name: "waitType", typeJson: "{\"primitive\":\"string\"}")]
         string WaitType
         {
@@ -28,14 +28,14 @@ namespace oci.DevopsBuildPipelineStage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/devops_build_pipeline_stage#wait_duration DevopsBuildPipelineStage#wait_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#wait_duration DevopsBuildPipelineStage#wait_duration}.</summary>
             [JsiiProperty(name: "waitDuration", typeJson: "{\"primitive\":\"string\"}")]
             public string WaitDuration
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/devops_build_pipeline_stage#wait_type DevopsBuildPipelineStage#wait_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_build_pipeline_stage#wait_type DevopsBuildPipelineStage#wait_type}.</summary>
             [JsiiProperty(name: "waitType", typeJson: "{\"primitive\":\"string\"}")]
             public string WaitType
             {

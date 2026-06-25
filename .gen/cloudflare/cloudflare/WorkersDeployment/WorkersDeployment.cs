@@ -52,6 +52,7 @@ namespace cloudflare.WorkersDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersDeployment.IWorkersDeploymentAnnotations)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersDeployment.IWorkersDeploymentVersions" />)[]</param>
         [JsiiMethod(name: "putVersions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentVersions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVersions(object @value)
         {
@@ -143,6 +144,9 @@ namespace cloudflare.WorkersDeployment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersDeployment.IWorkersDeploymentAnnotations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "annotationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentAnnotations\"}]}}", isOptional: true)]
         public virtual object? AnnotationsInput
@@ -164,6 +168,9 @@ namespace cloudflare.WorkersDeployment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersDeployment.IWorkersDeploymentVersions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "versionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VersionsInput

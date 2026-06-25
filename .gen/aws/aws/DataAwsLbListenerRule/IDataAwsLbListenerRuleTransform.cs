@@ -10,6 +10,7 @@ namespace aws.DataAwsLbListenerRule
         /// <summary>host_header_rewrite_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/lb_listener_rule#host_header_rewrite_config DataAwsLbListenerRule#host_header_rewrite_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformHostHeaderRewriteConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "hostHeaderRewriteConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformHostHeaderRewriteConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,6 +25,7 @@ namespace aws.DataAwsLbListenerRule
         /// <summary>url_rewrite_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/lb_listener_rule#url_rewrite_config DataAwsLbListenerRule#url_rewrite_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformUrlRewriteConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "urlRewriteConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,6 +47,7 @@ namespace aws.DataAwsLbListenerRule
             /// <summary>host_header_rewrite_config block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/lb_listener_rule#host_header_rewrite_config DataAwsLbListenerRule#host_header_rewrite_config}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformHostHeaderRewriteConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostHeaderRewriteConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformHostHeaderRewriteConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -56,6 +59,7 @@ namespace aws.DataAwsLbListenerRule
             /// <summary>url_rewrite_config block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/lb_listener_rule#url_rewrite_config DataAwsLbListenerRule#url_rewrite_config}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformUrlRewriteConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "urlRewriteConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]

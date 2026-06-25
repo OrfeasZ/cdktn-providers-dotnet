@@ -46,6 +46,7 @@ namespace aws.CloudfrontContinuousDeploymentPolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontContinuousDeploymentPolicy.ICloudfrontContinuousDeploymentPolicyStagingDistributionDnsNames" />)[]</param>
         [JsiiMethod(name: "putStagingDistributionDnsNames", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNames\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStagingDistributionDnsNames(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.CloudfrontContinuousDeploymentPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontContinuousDeploymentPolicy.ICloudfrontContinuousDeploymentPolicyTrafficConfig" />)[]</param>
         [JsiiMethod(name: "putTrafficConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicyTrafficConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrafficConfig(object @value)
         {
@@ -159,6 +161,9 @@ namespace aws.CloudfrontContinuousDeploymentPolicy
             get => GetInstanceProperty<aws.CloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicyTrafficConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -166,6 +171,9 @@ namespace aws.CloudfrontContinuousDeploymentPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontContinuousDeploymentPolicy.ICloudfrontContinuousDeploymentPolicyStagingDistributionDnsNames" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stagingDistributionDnsNamesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNames\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StagingDistributionDnsNamesInput
@@ -173,6 +181,9 @@ namespace aws.CloudfrontContinuousDeploymentPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontContinuousDeploymentPolicy.ICloudfrontContinuousDeploymentPolicyTrafficConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trafficConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicyTrafficConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TrafficConfigInput
@@ -180,6 +191,9 @@ namespace aws.CloudfrontContinuousDeploymentPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

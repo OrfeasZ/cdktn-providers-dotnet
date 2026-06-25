@@ -33,6 +33,7 @@ namespace oci.AiDocumentProcessorJob
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigFeatures" />)[]</param>
         [JsiiMethod(name: "putFeatures", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigFeatures\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFeatures(object @value)
         {
@@ -56,6 +57,7 @@ namespace oci.AiDocumentProcessorJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFields" />)[]</param>
         [JsiiMethod(name: "putNormalizationFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFields\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNormalizationFields(object @value)
         {
@@ -128,6 +130,9 @@ namespace oci.AiDocumentProcessorJob
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigFeatures" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featuresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FeaturesInput
@@ -135,6 +140,9 @@ namespace oci.AiDocumentProcessorJob
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isZipOutputEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsZipOutputEnabledInput
@@ -156,6 +164,9 @@ namespace oci.AiDocumentProcessorJob
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFields" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "normalizationFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NormalizationFieldsInput
@@ -177,6 +188,9 @@ namespace oci.AiDocumentProcessorJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isZipOutputEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsZipOutputEnabled
         {

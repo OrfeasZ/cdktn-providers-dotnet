@@ -88,6 +88,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpRelay" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dhcpRelayInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpRelay\"}]}}", isOptional: true)]
         public virtual object? DhcpRelayInput
@@ -95,6 +98,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dhcpServerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServer\"}]}}", isOptional: true)]
         public virtual object? DhcpServerInput
@@ -137,6 +143,9 @@ namespace cloudflare.MagicTransitSiteLan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressing" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressing\"}]}}", isOptional: true)]
         public virtual object? InternalValue

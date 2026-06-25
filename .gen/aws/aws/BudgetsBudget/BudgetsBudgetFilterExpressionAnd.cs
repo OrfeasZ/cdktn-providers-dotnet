@@ -12,6 +12,7 @@ namespace aws.BudgetsBudget
         /// <summary>and block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/budgets_budget#and BudgetsBudget#and}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionAndAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "and", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionAndAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -82,6 +83,7 @@ namespace aws.BudgetsBudget
         /// <summary>or block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/budgets_budget#or BudgetsBudget#or}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionAndOr" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "or", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionAndOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]

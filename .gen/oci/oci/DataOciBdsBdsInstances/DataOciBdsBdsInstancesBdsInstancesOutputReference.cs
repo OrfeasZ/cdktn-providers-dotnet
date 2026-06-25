@@ -167,6 +167,12 @@ namespace oci.DataOciBdsBdsInstances
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isSecretReused", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsSecretReused
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isSecure", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsSecure
         {
@@ -233,6 +239,18 @@ namespace oci.DataOciBdsBdsInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "removeNodes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] RemoveNodes
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "startClusterShapeConfigs", typeJson: "{\"fqn\":\"oci.dataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesStartClusterShapeConfigsList\"}")]
         public virtual oci.DataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesStartClusterShapeConfigsList StartClusterShapeConfigs
         {
@@ -247,6 +265,12 @@ namespace oci.DataOciBdsBdsInstances
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeEarliestCertificateExpiration", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeEarliestCertificateExpiration
         {
             get => GetInstanceProperty<string>()!;
         }

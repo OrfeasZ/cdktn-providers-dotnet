@@ -35,6 +35,7 @@ namespace oci.CapacityManagementOccCapacityRequest
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetailsAssociatedOccHandoverResourceBlockListStruct" />)[]</param>
         [JsiiMethod(name: "putAssociatedOccHandoverResourceBlockList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestDetailsAssociatedOccHandoverResourceBlockListStruct\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAssociatedOccHandoverResourceBlockList(object @value)
         {
@@ -113,6 +114,9 @@ namespace oci.CapacityManagementOccCapacityRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetailsAssociatedOccHandoverResourceBlockListStruct" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "associatedOccHandoverResourceBlockListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestDetailsAssociatedOccHandoverResourceBlockListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AssociatedOccHandoverResourceBlockListInput
@@ -253,6 +257,9 @@ namespace oci.CapacityManagementOccCapacityRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace oci.CloudGuardTarget
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipesDetectorRulesDetailsConditionGroups" />)[]</param>
         [JsiiMethod(name: "putConditionGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetDetectorRecipesDetectorRulesDetailsConditionGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConditionGroups(object @value)
         {
@@ -98,6 +99,9 @@ namespace oci.CloudGuardTarget
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipesDetectorRulesDetailsConditionGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetDetectorRecipesDetectorRulesDetailsConditionGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionGroupsInput

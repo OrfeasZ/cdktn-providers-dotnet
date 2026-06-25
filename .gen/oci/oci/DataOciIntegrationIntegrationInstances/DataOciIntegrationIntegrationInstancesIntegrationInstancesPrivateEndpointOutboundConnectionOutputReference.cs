@@ -35,6 +35,12 @@ namespace oci.DataOciIntegrationIntegrationInstances
         {
         }
 
+        [JsiiProperty(name: "isAllOutboundTrafficPrivate", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsAllOutboundTrafficPrivate
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] NsgIds
         {

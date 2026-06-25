@@ -93,6 +93,9 @@ namespace aws.VpcRouteServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcRouteServer.IVpcRouteServerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcRouteServer.VpcRouteServerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

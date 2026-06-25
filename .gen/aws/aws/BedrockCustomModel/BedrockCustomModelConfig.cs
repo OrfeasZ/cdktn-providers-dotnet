@@ -72,6 +72,7 @@ namespace aws.BedrockCustomModel
         /// <summary>output_data_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_custom_model#output_data_config BedrockCustomModel#output_data_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelOutputDataConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputDataConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelOutputDataConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -139,6 +140,7 @@ namespace aws.BedrockCustomModel
         /// <summary>training_data_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_custom_model#training_data_config BedrockCustomModel#training_data_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelTrainingDataConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingDataConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -173,6 +175,7 @@ namespace aws.BedrockCustomModel
         /// <summary>validation_data_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_custom_model#validation_data_config BedrockCustomModel#validation_data_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationDataConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelValidationDataConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -207,6 +210,7 @@ namespace aws.BedrockCustomModel
         /// <summary>vpc_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_custom_model#vpc_config BedrockCustomModel#vpc_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelVpcConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelVpcConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -240,6 +244,7 @@ namespace aws.BedrockCustomModel
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -273,6 +278,7 @@ namespace aws.BedrockCustomModel
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -367,6 +373,7 @@ namespace aws.BedrockCustomModel
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

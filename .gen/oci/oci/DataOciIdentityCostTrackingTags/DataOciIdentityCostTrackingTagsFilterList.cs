@@ -41,6 +41,9 @@ namespace oci.DataOciIdentityCostTrackingTags
             return InvokeInstanceMethod<oci.DataOciIdentityCostTrackingTags.DataOciIdentityCostTrackingTagsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityCostTrackingTags.IDataOciIdentityCostTrackingTagsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIdentityCostTrackingTags.DataOciIdentityCostTrackingTagsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,12 +33,6 @@ namespace oci.ServiceCatalogPrivateApplication
         {
         }
 
-        [JsiiMethod(name: "resetZipFileBase64Encoded")]
-        public virtual void ResetZipFileBase64Encoded()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "packageTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PackageTypeInput

@@ -41,6 +41,9 @@ namespace oci.GoldenGateConnection
             return InvokeInstanceMethod<oci.GoldenGateConnection.GoldenGateConnectionLocksOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateConnection.IGoldenGateConnectionLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

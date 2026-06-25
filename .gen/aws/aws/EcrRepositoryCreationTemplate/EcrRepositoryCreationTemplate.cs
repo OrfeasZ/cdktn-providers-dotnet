@@ -46,6 +46,7 @@ namespace aws.EcrRepositoryCreationTemplate
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EcrRepositoryCreationTemplate.EcrRepositoryCreationTemplate), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepositoryCreationTemplate.IEcrRepositoryCreationTemplateEncryptionConfiguration" />)[]</param>
         [JsiiMethod(name: "putEncryptionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplateEncryptionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryptionConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.EcrRepositoryCreationTemplate
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepositoryCreationTemplate.IEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilter" />)[]</param>
         [JsiiMethod(name: "putImageTagMutabilityExclusionFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplateImageTagMutabilityExclusionFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImageTagMutabilityExclusionFilter(object @value)
         {
@@ -210,6 +212,9 @@ namespace aws.EcrRepositoryCreationTemplate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepositoryCreationTemplate.IEcrRepositoryCreationTemplateEncryptionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplateEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionConfigurationInput
@@ -224,6 +229,9 @@ namespace aws.EcrRepositoryCreationTemplate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepositoryCreationTemplate.IEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageTagMutabilityExclusionFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplateImageTagMutabilityExclusionFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImageTagMutabilityExclusionFilterInput

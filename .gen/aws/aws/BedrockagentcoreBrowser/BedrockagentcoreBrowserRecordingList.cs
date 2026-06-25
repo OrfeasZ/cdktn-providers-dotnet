@@ -41,6 +41,9 @@ namespace aws.BedrockagentcoreBrowser
             return InvokeInstanceMethod<aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserRecordingOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserRecording" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecording\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

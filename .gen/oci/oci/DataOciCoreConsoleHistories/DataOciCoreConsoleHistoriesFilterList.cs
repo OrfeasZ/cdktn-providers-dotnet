@@ -41,6 +41,9 @@ namespace oci.DataOciCoreConsoleHistories
             return InvokeInstanceMethod<oci.DataOciCoreConsoleHistories.DataOciCoreConsoleHistoriesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreConsoleHistories.IDataOciCoreConsoleHistoriesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreConsoleHistories.DataOciCoreConsoleHistoriesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceVhostUserPtySecLabel" />)[]</param>
         [JsiiMethod(name: "putSecLabel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceVhostUserPtySecLabel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecLabel(object @value)
         {
@@ -75,6 +76,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceVhostUserPtySecLabel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secLabelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceVhostUserPtySecLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecLabelInput
@@ -89,6 +93,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceVhostUserPty" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceVhostUserPty\"}]}}", isOptional: true)]
         public virtual object? InternalValue

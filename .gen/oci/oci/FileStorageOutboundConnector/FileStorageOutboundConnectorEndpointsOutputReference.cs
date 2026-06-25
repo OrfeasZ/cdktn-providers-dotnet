@@ -63,6 +63,9 @@ namespace oci.FileStorageOutboundConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorEndpoints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorEndpoints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

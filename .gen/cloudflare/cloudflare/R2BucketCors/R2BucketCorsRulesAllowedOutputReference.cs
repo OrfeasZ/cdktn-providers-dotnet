@@ -81,6 +81,9 @@ namespace cloudflare.R2BucketCors
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketCors.IR2BucketCorsRulesAllowed" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRulesAllowed\"}]}}", isOptional: true)]
         public virtual object? InternalValue

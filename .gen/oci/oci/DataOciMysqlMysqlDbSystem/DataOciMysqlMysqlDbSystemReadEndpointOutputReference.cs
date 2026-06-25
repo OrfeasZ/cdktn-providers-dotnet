@@ -59,6 +59,12 @@ namespace oci.DataOciMysqlMysqlDbSystem
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "readEndpointIpv6AddressIpv6SubnetCidrPairDetails", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsList ReadEndpointIpv6AddressIpv6SubnetCidrPairDetails
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemReadEndpoint\"}", isOptional: true)]
         public virtual oci.DataOciMysqlMysqlDbSystem.IDataOciMysqlMysqlDbSystemReadEndpoint? InternalValue

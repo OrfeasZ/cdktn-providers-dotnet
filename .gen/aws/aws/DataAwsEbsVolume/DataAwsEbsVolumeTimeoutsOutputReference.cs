@@ -53,6 +53,9 @@ namespace aws.DataAwsEbsVolume
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEbsVolume.IDataAwsEbsVolumeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEbsVolume.DataAwsEbsVolumeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

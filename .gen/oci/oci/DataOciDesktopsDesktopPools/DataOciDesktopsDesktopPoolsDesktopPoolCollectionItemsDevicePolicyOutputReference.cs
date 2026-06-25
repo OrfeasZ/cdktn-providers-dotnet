@@ -77,6 +77,12 @@ namespace oci.DataOciDesktopsDesktopPools
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isVideoInputEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsVideoInputEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciDesktopsDesktopPools.DataOciDesktopsDesktopPoolsDesktopPoolCollectionItemsDevicePolicy\"}", isOptional: true)]
         public virtual oci.DataOciDesktopsDesktopPools.IDataOciDesktopsDesktopPoolsDesktopPoolCollectionItemsDevicePolicy? InternalValue

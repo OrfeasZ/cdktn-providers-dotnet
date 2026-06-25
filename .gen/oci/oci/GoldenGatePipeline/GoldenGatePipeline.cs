@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.GoldenGatePipeline
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline}.</summary>
     [JsiiClass(nativeType: typeof(oci.GoldenGatePipeline.GoldenGatePipeline), fullyQualifiedName: "oci.goldenGatePipeline.GoldenGatePipeline", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineConfig\"}}]")]
     public class GoldenGatePipeline : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public GoldenGatePipeline(Constructs.Construct scope, string id, oci.GoldenGatePipeline.IGoldenGatePipelineConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.GoldenGatePipeline
         /// <param name="importToId">The construct id used in the generated config for the GoldenGatePipeline to import.</param>
         /// <param name="importFromId">The id of the existing GoldenGatePipeline that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the GoldenGatePipeline to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGatePipeline to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGatePipeline that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGatePipeline to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGatePipeline to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGatePipeline that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGatePipeline to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.GoldenGatePipeline.GoldenGatePipeline), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGatePipeline.IGoldenGatePipelineLocks" />)[]</param>
         [JsiiMethod(name: "putLocks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineLocks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocks(object @value)
         {
@@ -93,6 +94,12 @@ namespace oci.GoldenGatePipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GoldenGatePipeline.IGoldenGatePipelineTimeouts)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCpuCoreCount")]
+        public virtual void ResetCpuCoreCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDefinedTags")]
         public virtual void ResetDefinedTags()
         {
@@ -117,6 +124,12 @@ namespace oci.GoldenGatePipeline
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIsAutoScalingEnabled")]
+        public virtual void ResetIsAutoScalingEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLocks")]
         public virtual void ResetLocks()
         {
@@ -125,6 +138,12 @@ namespace oci.GoldenGatePipeline
 
         [JsiiMethod(name: "resetProcessOptions")]
         public virtual void ResetProcessOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubnetId")]
+        public virtual void ResetSubnetId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -154,16 +173,10 @@ namespace oci.GoldenGatePipeline
         }
         = GetStaticProperty<string>(typeof(oci.GoldenGatePipeline.GoldenGatePipeline))!;
 
-        [JsiiProperty(name: "cpuCoreCount", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double CpuCoreCount
+        [JsiiProperty(name: "ingressIps", typeJson: "{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineIngressIpsList\"}")]
+        public virtual oci.GoldenGatePipeline.GoldenGatePipelineIngressIpsList IngressIps
         {
-            get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "isAutoScalingEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsAutoScalingEnabled
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+            get => GetInstanceProperty<oci.GoldenGatePipeline.GoldenGatePipelineIngressIpsList>()!;
         }
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
@@ -258,6 +271,13 @@ namespace oci.GoldenGatePipeline
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "cpuCoreCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CpuCoreCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "definedTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? DefinedTagsInput
         {
@@ -292,6 +312,16 @@ namespace oci.GoldenGatePipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isAutoScalingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsAutoScalingEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "licenseModelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LicenseModelInput
@@ -299,6 +329,9 @@ namespace oci.GoldenGatePipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGatePipeline.IGoldenGatePipelineLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocksInput
@@ -328,12 +361,22 @@ namespace oci.GoldenGatePipeline
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "subnetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SubnetIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "targetConnectionDetailsInput", typeJson: "{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineTargetConnectionDetails\"}", isOptional: true)]
         public virtual oci.GoldenGatePipeline.IGoldenGatePipelineTargetConnectionDetails? TargetConnectionDetailsInput
         {
             get => GetInstanceProperty<oci.GoldenGatePipeline.IGoldenGatePipelineTargetConnectionDetails?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGatePipeline.IGoldenGatePipelineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -345,6 +388,13 @@ namespace oci.GoldenGatePipeline
         public virtual string CompartmentId
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "cpuCoreCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CpuCoreCount
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -383,6 +433,36 @@ namespace oci.GoldenGatePipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isAutoScalingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsAutoScalingEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LicenseModel
         {
@@ -392,6 +472,13 @@ namespace oci.GoldenGatePipeline
 
         [JsiiProperty(name: "recipeType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecipeType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

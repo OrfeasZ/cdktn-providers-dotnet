@@ -93,6 +93,9 @@ namespace oci.RedisRedisClusterDetachOciCacheUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.RedisRedisClusterDetachOciCacheUser.IRedisRedisClusterDetachOciCacheUserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.redisRedisClusterDetachOciCacheUser.RedisRedisClusterDetachOciCacheUserTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

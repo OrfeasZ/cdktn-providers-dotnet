@@ -35,6 +35,7 @@ namespace aws.Wafv2WebAclRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</param>
         [JsiiMethod(name: "putStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStatement(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StatementInput
@@ -77,6 +81,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementOrStatement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementOrStatement\"}]}}", isOptional: true)]
         public virtual object? InternalValue

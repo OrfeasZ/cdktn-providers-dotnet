@@ -52,6 +52,7 @@ namespace cloudflare.Workflow
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Workflow.IWorkflowLimits)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Workflow.IWorkflowSchedules" />)[]</param>
         [JsiiMethod(name: "putSchedules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workflow.WorkflowSchedules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSchedules(object @value)
         {
@@ -186,6 +187,9 @@ namespace cloudflare.Workflow
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Workflow.IWorkflowLimits" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workflow.WorkflowLimits\"}]}}", isOptional: true)]
         public virtual object? LimitsInput
@@ -193,6 +197,9 @@ namespace cloudflare.Workflow
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Workflow.IWorkflowSchedules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schedulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workflow.WorkflowSchedules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SchedulesInput

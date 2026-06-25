@@ -88,6 +88,7 @@ namespace aws.ElasticsearchDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ElasticsearchDomain.IElasticsearchDomainEncryptAtRest)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticsearchDomain.IElasticsearchDomainLogPublishingOptions" />)[]</param>
         [JsiiMethod(name: "putLogPublishingOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainLogPublishingOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogPublishingOptions(object @value)
         {
@@ -448,6 +449,9 @@ namespace aws.ElasticsearchDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticsearchDomain.IElasticsearchDomainLogPublishingOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logPublishingOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainLogPublishingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogPublishingOptionsInput
@@ -490,6 +494,9 @@ namespace aws.ElasticsearchDomain
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticsearchDomain.IElasticsearchDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

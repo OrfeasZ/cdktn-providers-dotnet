@@ -75,6 +75,9 @@ namespace aws.M2Application
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.M2Application.IM2ApplicationDefinition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.m2Application.M2ApplicationDefinition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

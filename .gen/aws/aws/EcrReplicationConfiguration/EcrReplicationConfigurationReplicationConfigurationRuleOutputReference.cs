@@ -35,6 +35,7 @@ namespace aws.EcrReplicationConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleDestination" />)[]</param>
         [JsiiMethod(name: "putDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDestination(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.EcrReplicationConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter" />)[]</param>
         [JsiiMethod(name: "putRepositoryFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRepositoryFilter(object @value)
         {
@@ -99,6 +101,9 @@ namespace aws.EcrReplicationConfiguration
             get => GetInstanceProperty<aws.EcrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DestinationInput
@@ -106,6 +111,9 @@ namespace aws.EcrReplicationConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RepositoryFilterInput
@@ -113,6 +121,9 @@ namespace aws.EcrReplicationConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

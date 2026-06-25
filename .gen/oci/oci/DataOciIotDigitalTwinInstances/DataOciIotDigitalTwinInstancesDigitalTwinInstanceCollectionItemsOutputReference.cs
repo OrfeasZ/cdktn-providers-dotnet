@@ -41,6 +41,12 @@ namespace oci.DataOciIotDigitalTwinInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "connectivityType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConnectivityType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {
@@ -87,6 +93,12 @@ namespace oci.DataOciIotDigitalTwinInstances
         public virtual Io.Cdktn.StringMap FreeformTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "gateways", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Gateways
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]

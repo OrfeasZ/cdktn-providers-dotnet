@@ -69,6 +69,9 @@ namespace aws.EcsTaskDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsTaskDefinition.IEcsTaskDefinitionPlacementConstraints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

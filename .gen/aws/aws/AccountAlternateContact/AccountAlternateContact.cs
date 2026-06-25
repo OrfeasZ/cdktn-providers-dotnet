@@ -137,6 +137,9 @@ namespace aws.AccountAlternateContact
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AccountAlternateContact.IAccountAlternateContactTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.accountAlternateContact.AccountAlternateContactTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

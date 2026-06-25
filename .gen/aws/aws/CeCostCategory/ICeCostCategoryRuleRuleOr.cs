@@ -10,6 +10,7 @@ namespace aws.CeCostCategory
         /// <summary>and block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_category#and CeCostCategory#and}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleOrAnd" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "and", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,6 +67,7 @@ namespace aws.CeCostCategory
         /// <summary>or block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_category#or CeCostCategory#or}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleOrOr" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "or", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,6 +103,7 @@ namespace aws.CeCostCategory
             /// <summary>and block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_category#and CeCostCategory#and}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleOrAnd" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "and", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -145,6 +148,7 @@ namespace aws.CeCostCategory
             /// <summary>or block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_category#or CeCostCategory#or}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleOrOr" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "or", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleOrOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]

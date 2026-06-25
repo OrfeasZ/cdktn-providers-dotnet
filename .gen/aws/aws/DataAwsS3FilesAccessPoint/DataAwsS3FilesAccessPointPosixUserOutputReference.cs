@@ -53,6 +53,9 @@ namespace aws.DataAwsS3FilesAccessPoint
             get => GetInstanceProperty<double>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsS3FilesAccessPoint.IDataAwsS3FilesAccessPointPosixUser" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsS3FilesAccessPoint.DataAwsS3FilesAccessPointPosixUser\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -14,6 +14,7 @@ namespace aws.ServiceDiscoveryService
         /// <summary>dns_records block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/service_discovery_service#dns_records ServiceDiscoveryService#dns_records}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServiceDiscoveryService.IServiceDiscoveryServiceDnsConfigDnsRecords" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dnsRecords", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"},\"kind\":\"array\"}}]}}")]
         public object DnsRecords

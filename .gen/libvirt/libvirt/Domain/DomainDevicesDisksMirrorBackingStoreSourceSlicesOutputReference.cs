@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksMirrorBackingStoreSourceSlicesSlices" />)[]</param>
         [JsiiMethod(name: "putSlices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorBackingStoreSourceSlicesSlices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSlices(object @value)
         {
@@ -68,6 +69,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesDisksMirrorBackingStoreSourceSlicesSlicesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksMirrorBackingStoreSourceSlicesSlices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorBackingStoreSourceSlicesSlices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SlicesInput
@@ -75,6 +79,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorBackingStoreSourceSlices" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorBackingStoreSourceSlices\"}]}}", isOptional: true)]
         public virtual object? InternalValue

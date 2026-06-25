@@ -63,6 +63,9 @@ namespace oci.PsqlConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.PsqlConfiguration.IPsqlConfigurationDbConfigurationOverridesItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.psqlConfiguration.PsqlConfigurationDbConfigurationOverridesItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

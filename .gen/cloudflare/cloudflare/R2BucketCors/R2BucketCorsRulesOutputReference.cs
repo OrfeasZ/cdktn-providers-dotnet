@@ -65,6 +65,9 @@ namespace cloudflare.R2BucketCors
             get => GetInstanceProperty<cloudflare.R2BucketCors.R2BucketCorsRulesAllowedOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketCors.IR2BucketCorsRulesAllowed" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRulesAllowed\"}]}}", isOptional: true)]
         public virtual object? AllowedInput
@@ -114,6 +117,9 @@ namespace cloudflare.R2BucketCors
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketCors.IR2BucketCorsRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -108,6 +108,9 @@ namespace aws.AppflowFlow
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppflowFlow.IAppflowFlowDestinationFlowConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

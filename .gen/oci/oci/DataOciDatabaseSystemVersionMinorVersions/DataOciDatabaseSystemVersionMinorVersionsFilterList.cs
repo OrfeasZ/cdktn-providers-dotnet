@@ -41,6 +41,9 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
             return InvokeInstanceMethod<oci.DataOciDatabaseSystemVersionMinorVersions.DataOciDatabaseSystemVersionMinorVersionsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseSystemVersionMinorVersions.IDataOciDatabaseSystemVersionMinorVersionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseSystemVersionMinorVersions.DataOciDatabaseSystemVersionMinorVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

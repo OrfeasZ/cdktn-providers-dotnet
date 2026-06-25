@@ -93,6 +93,9 @@ namespace oci.DataflowInvokeRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataflowInvokeRun.IDataflowInvokeRunTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataflowInvokeRun.DataflowInvokeRunTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

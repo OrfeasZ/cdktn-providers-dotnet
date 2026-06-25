@@ -93,6 +93,9 @@ namespace aws.FsxFileCache
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxFileCache.IFsxFileCacheTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxFileCache.FsxFileCacheTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

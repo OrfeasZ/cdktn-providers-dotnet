@@ -46,6 +46,7 @@ namespace aws.Codepipeline
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Codepipeline.Codepipeline), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineArtifactStore" />)[]</param>
         [JsiiMethod(name: "putArtifactStore", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineArtifactStore\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutArtifactStore(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Codepipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStage" />)[]</param>
         [JsiiMethod(name: "putStage", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStage\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStage(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.Codepipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTrigger" />)[]</param>
         [JsiiMethod(name: "putTrigger", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTrigger\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrigger(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.Codepipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineVariable" />)[]</param>
         [JsiiMethod(name: "putVariable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineVariable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVariable(object @value)
         {
@@ -241,6 +245,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<aws.Codepipeline.CodepipelineVariableList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineArtifactStore" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "artifactStoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineArtifactStore\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArtifactStoreInput
@@ -290,6 +297,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StageInput
@@ -311,6 +321,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTrigger" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "triggerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTrigger\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TriggerInput
@@ -318,6 +331,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineVariable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "variableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineVariable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VariableInput

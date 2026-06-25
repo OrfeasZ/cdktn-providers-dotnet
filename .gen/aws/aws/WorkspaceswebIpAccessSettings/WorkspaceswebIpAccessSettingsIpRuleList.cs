@@ -41,6 +41,9 @@ namespace aws.WorkspaceswebIpAccessSettings
             return InvokeInstanceMethod<aws.WorkspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebIpAccessSettings.IWorkspaceswebIpAccessSettingsIpRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

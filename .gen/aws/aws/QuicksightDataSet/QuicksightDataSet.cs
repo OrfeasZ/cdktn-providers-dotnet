@@ -46,6 +46,7 @@ namespace aws.QuicksightDataSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.QuicksightDataSet.QuicksightDataSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetColumnGroups" />)[]</param>
         [JsiiMethod(name: "putColumnGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetColumnGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnGroups(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.QuicksightDataSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetColumnLevelPermissionRules" />)[]</param>
         [JsiiMethod(name: "putColumnLevelPermissionRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnLevelPermissionRules(object @value)
         {
@@ -98,6 +100,7 @@ namespace aws.QuicksightDataSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.QuicksightDataSet.IQuicksightDataSetDataSetUsageConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetFieldFolders" />)[]</param>
         [JsiiMethod(name: "putFieldFolders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetFieldFolders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFieldFolders(object @value)
         {
@@ -121,6 +124,7 @@ namespace aws.QuicksightDataSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMap" />)[]</param>
         [JsiiMethod(name: "putLogicalTableMap", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMap\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogicalTableMap(object @value)
         {
@@ -144,6 +148,7 @@ namespace aws.QuicksightDataSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPermissions" />)[]</param>
         [JsiiMethod(name: "putPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissions(object @value)
         {
@@ -167,6 +172,7 @@ namespace aws.QuicksightDataSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMap" />)[]</param>
         [JsiiMethod(name: "putPhysicalTableMap", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMap\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPhysicalTableMap(object @value)
         {
@@ -402,6 +408,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetColumnGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetColumnGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnGroupsInput
@@ -409,6 +418,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetColumnLevelPermissionRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnLevelPermissionRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnLevelPermissionRulesInput
@@ -430,6 +442,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<aws.QuicksightDataSet.IQuicksightDataSetDataSetUsageConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetFieldFolders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldFoldersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetFieldFolders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldFoldersInput
@@ -451,6 +466,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMap" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logicalTableMapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogicalTableMapInput
@@ -465,6 +483,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionsInput
@@ -472,6 +493,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMap" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "physicalTableMapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PhysicalTableMapInput

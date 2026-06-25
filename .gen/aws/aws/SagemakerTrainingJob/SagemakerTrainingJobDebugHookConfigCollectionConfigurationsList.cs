@@ -41,6 +41,9 @@ namespace aws.SagemakerTrainingJob
             return InvokeInstanceMethod<aws.SagemakerTrainingJob.SagemakerTrainingJobDebugHookConfigCollectionConfigurationsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugHookConfigCollectionConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobDebugHookConfigCollectionConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

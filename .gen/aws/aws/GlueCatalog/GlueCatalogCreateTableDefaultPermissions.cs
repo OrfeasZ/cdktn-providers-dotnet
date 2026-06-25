@@ -21,6 +21,7 @@ namespace aws.GlueCatalog
         /// <summary>principal block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateTableDefaultPermissionsPrincipal" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "principal", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateTableDefaultPermissionsPrincipal\"},\"kind\":\"array\"}}]}}", isOptional: true)]

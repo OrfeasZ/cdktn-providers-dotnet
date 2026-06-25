@@ -41,6 +41,9 @@ namespace aws.GuarddutyMemberDetectorFeature
             return InvokeInstanceMethod<aws.GuarddutyMemberDetectorFeature.GuarddutyMemberDetectorFeatureAdditionalConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyMemberDetectorFeature.IGuarddutyMemberDetectorFeatureAdditionalConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyMemberDetectorFeature.GuarddutyMemberDetectorFeatureAdditionalConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

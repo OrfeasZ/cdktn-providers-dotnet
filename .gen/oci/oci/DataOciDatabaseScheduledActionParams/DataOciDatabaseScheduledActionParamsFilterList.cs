@@ -41,6 +41,9 @@ namespace oci.DataOciDatabaseScheduledActionParams
             return InvokeInstanceMethod<oci.DataOciDatabaseScheduledActionParams.DataOciDatabaseScheduledActionParamsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseScheduledActionParams.IDataOciDatabaseScheduledActionParamsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseScheduledActionParams.DataOciDatabaseScheduledActionParamsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

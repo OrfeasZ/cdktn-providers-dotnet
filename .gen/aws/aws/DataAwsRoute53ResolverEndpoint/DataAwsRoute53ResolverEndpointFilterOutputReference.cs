@@ -63,6 +63,9 @@ namespace aws.DataAwsRoute53ResolverEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsRoute53ResolverEndpoint.IDataAwsRoute53ResolverEndpointFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsRoute53ResolverEndpoint.DataAwsRoute53ResolverEndpointFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.Inspector2Filter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesArchitecture" />)[]</param>
         [JsiiMethod(name: "putArchitecture", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutArchitecture(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesEpoch" />)[]</param>
         [JsiiMethod(name: "putEpoch", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpoch\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEpoch(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesFilePath" />)[]</param>
         [JsiiMethod(name: "putFilePath", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePath\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilePath(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesName" />)[]</param>
         [JsiiMethod(name: "putName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutName(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesRelease" />)[]</param>
         [JsiiMethod(name: "putRelease", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesRelease\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRelease(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn" />)[]</param>
         [JsiiMethod(name: "putSourceLambdaLayerArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceLambdaLayerArn(object @value)
         {
@@ -173,6 +179,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash" />)[]</param>
         [JsiiMethod(name: "putSourceLayerHash", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceLayerHash(object @value)
         {
@@ -196,6 +203,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesVersion" />)[]</param>
         [JsiiMethod(name: "putVersion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVersion(object @value)
         {
@@ -315,6 +323,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<aws.Inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesArchitecture" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "architectureInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArchitectureInput
@@ -322,6 +333,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesEpoch" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "epochInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpoch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EpochInput
@@ -329,6 +343,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesFilePath" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filePathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilePathInput
@@ -336,6 +353,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NameInput
@@ -343,6 +363,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesRelease" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "releaseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesRelease\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReleaseInput
@@ -350,6 +373,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceLambdaLayerArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceLambdaLayerArnInput
@@ -357,6 +383,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceLayerHashInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceLayerHashInput
@@ -364,6 +393,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesVersion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "versionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VersionInput
@@ -371,6 +403,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackages" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackages\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.BedrockagentAgent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfigurationPromptConfigurations" />)[]</param>
         [JsiiMethod(name: "putPromptConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPromptConfigurations(object @value)
         {
@@ -83,6 +84,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfigurationPromptConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "promptConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PromptConfigurationsInput
@@ -97,6 +101,9 @@ namespace aws.BedrockagentAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -73,6 +73,9 @@ namespace aws.KinesisAccountSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.KinesisAccountSettings.IKinesisAccountSettingsMinimumThroughputBillingCommitment" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.kinesisAccountSettings.KinesisAccountSettingsMinimumThroughputBillingCommitment\"}]}}", isOptional: true)]
         public virtual object? InternalValue

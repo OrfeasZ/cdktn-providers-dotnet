@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IdentityDomainsUser
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user oci_identity_domains_user}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user oci_identity_domains_user}.</summary>
     [JsiiClass(nativeType: typeof(oci.IdentityDomainsUser.IdentityDomainsUser), fullyQualifiedName: "oci.identityDomainsUser.IdentityDomainsUser", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserConfig\"}}]")]
     public class IdentityDomainsUser : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user oci_identity_domains_user} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user oci_identity_domains_user} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IdentityDomainsUser(Constructs.Construct scope, string id, oci.IdentityDomainsUser.IIdentityDomainsUserConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.IdentityDomainsUser
         /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsUser to import.</param>
         /// <param name="importFromId">The id of the existing IdentityDomainsUser that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IdentityDomainsUser to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsUser to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsUser that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsUser to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsUser to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsUser that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsUser to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsUser.IdentityDomainsUser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserAddresses" />)[]</param>
         [JsiiMethod(name: "putAddresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserAddresses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAddresses(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserEmails" />)[]</param>
         [JsiiMethod(name: "putEmails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserEmails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEmails(object @value)
         {
@@ -92,6 +94,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserEntitlements" />)[]</param>
         [JsiiMethod(name: "putEntitlements", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserEntitlements\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEntitlements(object @value)
         {
@@ -115,6 +118,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserIms" />)[]</param>
         [JsiiMethod(name: "putIms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserIms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIms(object @value)
         {
@@ -144,6 +148,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsUser.IIdentityDomainsUserName)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserPhoneNumbers" />)[]</param>
         [JsiiMethod(name: "putPhoneNumbers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserPhoneNumbers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPhoneNumbers(object @value)
         {
@@ -167,6 +172,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserPhotos" />)[]</param>
         [JsiiMethod(name: "putPhotos", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserPhotos\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPhotos(object @value)
         {
@@ -190,6 +196,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserRoles" />)[]</param>
         [JsiiMethod(name: "putRoles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserRoles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoles(object @value)
         {
@@ -213,6 +220,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -344,6 +352,7 @@ namespace oci.IdentityDomainsUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserUser)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserX509Certificates" />)[]</param>
         [JsiiMethod(name: "putX509Certificates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserX509Certificates\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutX509Certificates(object @value)
         {
@@ -914,6 +923,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<oci.IdentityDomainsUser.IdentityDomainsUserX509CertificatesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ActiveInput
@@ -921,6 +933,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserAddresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addressesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserAddresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AddressesInput
@@ -963,6 +978,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserEmails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserEmails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EmailsInput
@@ -970,6 +988,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserEntitlements" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entitlementsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserEntitlements\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EntitlementsInput
@@ -984,6 +1005,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDeleteInput
@@ -998,6 +1022,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserIms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserIms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImsInput
@@ -1040,6 +1067,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserPhoneNumbers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "phoneNumbersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserPhoneNumbers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PhoneNumbersInput
@@ -1047,6 +1077,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserPhotos" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "photosInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserPhotos\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PhotosInput
@@ -1075,6 +1108,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserRoles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rolesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RolesInput
@@ -1089,6 +1125,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput
@@ -1096,6 +1135,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsUser.IIdentityDomainsUserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -1250,6 +1292,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserX509Certificates" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "x509CertificatesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserX509Certificates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? X509CertificatesInput
@@ -1257,6 +1302,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Active
         {
@@ -1326,6 +1374,9 @@ namespace oci.IdentityDomainsUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDelete
         {

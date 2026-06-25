@@ -46,6 +46,7 @@ namespace aws.DataAwsPollyVoices
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsPollyVoices.DataAwsPollyVoices), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsPollyVoices.IDataAwsPollyVoicesVoices" />)[]</param>
         [JsiiMethod(name: "putVoices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsPollyVoices.DataAwsPollyVoicesVoices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVoices(object @value)
         {
@@ -137,6 +138,9 @@ namespace aws.DataAwsPollyVoices
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeAdditionalLanguageCodesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IncludeAdditionalLanguageCodesInput
@@ -158,6 +162,9 @@ namespace aws.DataAwsPollyVoices
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsPollyVoices.IDataAwsPollyVoicesVoices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "voicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsPollyVoices.DataAwsPollyVoicesVoices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VoicesInput
@@ -172,6 +179,9 @@ namespace aws.DataAwsPollyVoices
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "includeAdditionalLanguageCodes", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IncludeAdditionalLanguageCodes
         {

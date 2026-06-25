@@ -35,6 +35,7 @@ namespace aws.BedrockagentcoreGatewayTarget
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGatewayTarget.IBedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaInlinePayload" />)[]</param>
         [JsiiMethod(name: "putInlinePayload", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaInlinePayload\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInlinePayload(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BedrockagentcoreGatewayTarget
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGatewayTarget.IBedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaS3" />)[]</param>
         [JsiiMethod(name: "putS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.BedrockagentcoreGatewayTarget
             get => GetInstanceProperty<aws.BedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaS3List>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGatewayTarget.IBedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaInlinePayload" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inlinePayloadInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaInlinePayload\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InlinePayloadInput
@@ -112,6 +117,9 @@ namespace aws.BedrockagentcoreGatewayTarget
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGatewayTarget.IBedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchemaS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3Input
@@ -119,6 +127,9 @@ namespace aws.BedrockagentcoreGatewayTarget
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreGatewayTarget.IBedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationMcpOpenApiSchema\"}]}}", isOptional: true)]
         public virtual object? InternalValue

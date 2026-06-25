@@ -46,6 +46,7 @@ namespace aws.ConfigOrganizationConformancePack
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ConfigOrganizationConformancePack.ConfigOrganizationConformancePack), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigOrganizationConformancePack.IConfigOrganizationConformancePackInputParameter" />)[]</param>
         [JsiiMethod(name: "putInputParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInputParameter(object @value)
         {
@@ -194,6 +195,9 @@ namespace aws.ConfigOrganizationConformancePack
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigOrganizationConformancePack.IConfigOrganizationConformancePackInputParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InputParameterInput
@@ -229,6 +233,9 @@ namespace aws.ConfigOrganizationConformancePack
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ConfigOrganizationConformancePack.IConfigOrganizationConformancePackTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

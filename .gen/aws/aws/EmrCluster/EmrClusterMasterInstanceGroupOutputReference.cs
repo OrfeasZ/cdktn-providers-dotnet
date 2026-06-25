@@ -33,6 +33,7 @@ namespace aws.EmrCluster
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterMasterInstanceGroupEbsConfig" />)[]</param>
         [JsiiMethod(name: "putEbsConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEbsConfig(object @value)
         {
@@ -99,6 +100,9 @@ namespace aws.EmrCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterMasterInstanceGroupEbsConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EbsConfigInput

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreDefaultSecurityList
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list oci_core_default_security_list}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list oci_core_default_security_list}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreDefaultSecurityList.CoreDefaultSecurityList), fullyQualifiedName: "oci.coreDefaultSecurityList.CoreDefaultSecurityList", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListConfig\"}}]")]
     public class CoreDefaultSecurityList : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list oci_core_default_security_list} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list oci_core_default_security_list} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreDefaultSecurityList(Constructs.Construct scope, string id, oci.CoreDefaultSecurityList.ICoreDefaultSecurityListConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.CoreDefaultSecurityList
         /// <param name="importToId">The construct id used in the generated config for the CoreDefaultSecurityList to import.</param>
         /// <param name="importFromId">The id of the existing CoreDefaultSecurityList that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreDefaultSecurityList to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreDefaultSecurityList to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreDefaultSecurityList that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreDefaultSecurityList to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreDefaultSecurityList to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreDefaultSecurityList that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreDefaultSecurityList to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreDefaultSecurityList.CoreDefaultSecurityList), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListEgressSecurityRules" />)[]</param>
         [JsiiMethod(name: "putEgressSecurityRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEgressSecurityRules(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.CoreDefaultSecurityList
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListIngressSecurityRules" />)[]</param>
         [JsiiMethod(name: "putIngressSecurityRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIngressSecurityRules(object @value)
         {
@@ -216,6 +218,9 @@ namespace oci.CoreDefaultSecurityList
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListEgressSecurityRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egressSecurityRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EgressSecurityRulesInput
@@ -237,6 +242,9 @@ namespace oci.CoreDefaultSecurityList
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListIngressSecurityRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ingressSecurityRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IngressSecurityRulesInput
@@ -251,6 +259,9 @@ namespace oci.CoreDefaultSecurityList
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

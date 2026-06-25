@@ -49,6 +49,9 @@ namespace aws.DevopsguruNotificationChannel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DevopsguruNotificationChannel.IDevopsguruNotificationChannelSns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

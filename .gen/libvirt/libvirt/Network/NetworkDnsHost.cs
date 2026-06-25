@@ -33,6 +33,7 @@ namespace libvirt.Network
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#hostnames Network#hostnames}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsHostHostnames" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostnames", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsHostHostnames\"},\"kind\":\"array\"}}]}}", isOptional: true)]

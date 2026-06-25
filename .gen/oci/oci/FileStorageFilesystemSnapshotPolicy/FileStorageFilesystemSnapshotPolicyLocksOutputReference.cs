@@ -109,6 +109,9 @@ namespace oci.FileStorageFilesystemSnapshotPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FileStorageFilesystemSnapshotPolicy.IFileStorageFilesystemSnapshotPolicyLocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicyLocks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

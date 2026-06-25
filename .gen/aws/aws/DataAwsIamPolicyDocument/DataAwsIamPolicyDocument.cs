@@ -46,6 +46,7 @@ namespace aws.DataAwsIamPolicyDocument
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsIamPolicyDocument.DataAwsIamPolicyDocument), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatement" />)[]</param>
         [JsiiMethod(name: "putStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStatement(object @value)
         {
@@ -196,6 +197,9 @@ namespace aws.DataAwsIamPolicyDocument
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StatementInput

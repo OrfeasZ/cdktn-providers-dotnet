@@ -35,6 +35,7 @@ namespace aws.AppfabricIngestionDestination
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricIngestionDestination.IAppfabricIngestionDestinationDestinationConfigurationAuditLog" />)[]</param>
         [JsiiMethod(name: "putAuditLog", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuditLog(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.AppfabricIngestionDestination
             get => GetInstanceProperty<aws.AppfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricIngestionDestination.IAppfabricIngestionDestinationDestinationConfigurationAuditLog" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "auditLogInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuditLogInput
@@ -77,6 +81,9 @@ namespace aws.AppfabricIngestionDestination
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppfabricIngestionDestination.IAppfabricIngestionDestinationDestinationConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

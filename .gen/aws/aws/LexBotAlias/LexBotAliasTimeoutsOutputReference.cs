@@ -93,6 +93,9 @@ namespace aws.LexBotAlias
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LexBotAlias.ILexBotAliasTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexBotAlias.LexBotAliasTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

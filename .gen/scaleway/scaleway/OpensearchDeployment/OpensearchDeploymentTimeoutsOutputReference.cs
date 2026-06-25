@@ -113,6 +113,9 @@ namespace scaleway.OpensearchDeployment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.OpensearchDeployment.IOpensearchDeploymentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.opensearchDeployment.OpensearchDeploymentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

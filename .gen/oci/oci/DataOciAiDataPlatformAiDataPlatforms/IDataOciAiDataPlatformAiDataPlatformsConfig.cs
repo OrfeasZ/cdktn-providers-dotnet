@@ -7,7 +7,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
     [JsiiInterface(nativeType: typeof(IDataOciAiDataPlatformAiDataPlatformsConfig), fullyQualifiedName: "oci.dataOciAiDataPlatformAiDataPlatforms.DataOciAiDataPlatformAiDataPlatformsConfig")]
     public interface IDataOciAiDataPlatformAiDataPlatformsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#compartment_id DataOciAiDataPlatformAiDataPlatforms#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#compartment_id DataOciAiDataPlatformAiDataPlatforms#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#display_name DataOciAiDataPlatformAiDataPlatforms#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#display_name DataOciAiDataPlatformAiDataPlatforms#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#exclude_lifecycle_state DataOciAiDataPlatformAiDataPlatforms#exclude_lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#exclude_lifecycle_state DataOciAiDataPlatformAiDataPlatforms#exclude_lifecycle_state}.</summary>
         [JsiiProperty(name: "excludeLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExcludeLifecycleState
@@ -42,7 +42,8 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#filter DataOciAiDataPlatformAiDataPlatforms#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#filter DataOciAiDataPlatformAiDataPlatforms#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiDataPlatformAiDataPlatforms.IDataOciAiDataPlatformAiDataPlatformsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciAiDataPlatformAiDataPlatforms.DataOciAiDataPlatformAiDataPlatformsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +55,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#id DataOciAiDataPlatformAiDataPlatforms#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#id DataOciAiDataPlatformAiDataPlatforms#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +70,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#include_legacy DataOciAiDataPlatformAiDataPlatforms#include_legacy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#include_legacy DataOciAiDataPlatformAiDataPlatforms#include_legacy}.</summary>
         [JsiiProperty(name: "includeLegacy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IncludeLegacy
@@ -80,7 +81,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#state DataOciAiDataPlatformAiDataPlatforms#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#state DataOciAiDataPlatformAiDataPlatforms#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -98,7 +99,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#compartment_id DataOciAiDataPlatformAiDataPlatforms#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#compartment_id DataOciAiDataPlatformAiDataPlatforms#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -106,7 +107,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#display_name DataOciAiDataPlatformAiDataPlatforms#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#display_name DataOciAiDataPlatformAiDataPlatforms#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -114,7 +115,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#exclude_lifecycle_state DataOciAiDataPlatformAiDataPlatforms#exclude_lifecycle_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#exclude_lifecycle_state DataOciAiDataPlatformAiDataPlatforms#exclude_lifecycle_state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "excludeLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExcludeLifecycleState
@@ -124,7 +125,8 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#filter DataOciAiDataPlatformAiDataPlatforms#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#filter DataOciAiDataPlatformAiDataPlatforms#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiDataPlatformAiDataPlatforms.IDataOciAiDataPlatformAiDataPlatformsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciAiDataPlatformAiDataPlatforms.DataOciAiDataPlatformAiDataPlatformsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -133,7 +135,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#id DataOciAiDataPlatformAiDataPlatforms#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#id DataOciAiDataPlatformAiDataPlatforms#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +147,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#include_legacy DataOciAiDataPlatformAiDataPlatforms#include_legacy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#include_legacy DataOciAiDataPlatformAiDataPlatforms#include_legacy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "includeLegacy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IncludeLegacy
@@ -153,7 +155,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ai_data_platform_ai_data_platforms#state DataOciAiDataPlatformAiDataPlatforms#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ai_data_platform_ai_data_platforms#state DataOciAiDataPlatformAiDataPlatforms#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -163,6 +165,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -173,6 +176,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -223,6 +227,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

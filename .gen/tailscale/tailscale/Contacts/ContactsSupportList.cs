@@ -41,6 +41,9 @@ namespace tailscale.Contacts
             return InvokeInstanceMethod<tailscale.Contacts.ContactsSupportOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSupport" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSupport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

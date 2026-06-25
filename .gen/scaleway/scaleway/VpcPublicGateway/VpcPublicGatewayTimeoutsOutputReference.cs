@@ -133,6 +133,9 @@ namespace scaleway.VpcPublicGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.VpcPublicGateway.IVpcPublicGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.vpcPublicGateway.VpcPublicGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

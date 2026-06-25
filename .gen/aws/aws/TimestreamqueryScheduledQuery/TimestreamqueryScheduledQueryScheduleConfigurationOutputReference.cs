@@ -49,6 +49,9 @@ namespace aws.TimestreamqueryScheduledQuery
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TimestreamqueryScheduledQuery.ITimestreamqueryScheduledQueryScheduleConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryScheduleConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

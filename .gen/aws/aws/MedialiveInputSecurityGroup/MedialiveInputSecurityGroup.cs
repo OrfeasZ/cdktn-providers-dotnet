@@ -52,6 +52,7 @@ namespace aws.MedialiveInputSecurityGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MedialiveInputSecurityGroup.IMedialiveInputSecurityGroupTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInputSecurityGroup.IMedialiveInputSecurityGroupWhitelistRules" />)[]</param>
         [JsiiMethod(name: "putWhitelistRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWhitelistRules(object @value)
         {
@@ -176,6 +177,9 @@ namespace aws.MedialiveInputSecurityGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MedialiveInputSecurityGroup.IMedialiveInputSecurityGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -183,6 +187,9 @@ namespace aws.MedialiveInputSecurityGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInputSecurityGroup.IMedialiveInputSecurityGroupWhitelistRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "whitelistRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WhitelistRulesInput

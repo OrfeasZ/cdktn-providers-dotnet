@@ -35,6 +35,7 @@ namespace aws.Lexv2ModelsIntent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchCondition" />)[]</param>
         [JsiiMethod(name: "putCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchCondition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCondition(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Lexv2ModelsIntent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchNextStep" />)[]</param>
         [JsiiMethod(name: "putNextStep", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchNextStep\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNextStep(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.Lexv2ModelsIntent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchResponse" />)[]</param>
         [JsiiMethod(name: "putResponse", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchResponse\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResponse(object @value)
         {
@@ -140,6 +143,9 @@ namespace aws.Lexv2ModelsIntent
             get => GetInstanceProperty<aws.Lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchResponseList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchCondition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -154,6 +160,9 @@ namespace aws.Lexv2ModelsIntent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchNextStep" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nextStepInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchNextStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NextStepInput
@@ -161,6 +170,9 @@ namespace aws.Lexv2ModelsIntent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchResponse" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranchResponse\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResponseInput
@@ -175,6 +187,9 @@ namespace aws.Lexv2ModelsIntent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranch" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentConfirmationSettingDeclinationConditionalConditionalBranch\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DataOciDatabasePluggableDatabases
             return InvokeInstanceMethod<oci.DataOciDatabasePluggableDatabases.DataOciDatabasePluggableDatabasesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabasePluggableDatabases.IDataOciDatabasePluggableDatabasesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabasePluggableDatabases.DataOciDatabasePluggableDatabasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

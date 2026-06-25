@@ -47,6 +47,12 @@ namespace oci.DataOciCoreDedicatedVmHostInstanceShapes
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "supportedCapabilities", typeJson: "{\"fqn\":\"oci.dataOciCoreDedicatedVmHostInstanceShapes.DataOciCoreDedicatedVmHostInstanceShapesDedicatedVmHostInstanceShapesSupportedCapabilitiesList\"}")]
+        public virtual oci.DataOciCoreDedicatedVmHostInstanceShapes.DataOciCoreDedicatedVmHostInstanceShapesDedicatedVmHostInstanceShapesSupportedCapabilitiesList SupportedCapabilities
+        {
+            get => GetInstanceProperty<oci.DataOciCoreDedicatedVmHostInstanceShapes.DataOciCoreDedicatedVmHostInstanceShapesDedicatedVmHostInstanceShapesSupportedCapabilitiesList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciCoreDedicatedVmHostInstanceShapes.DataOciCoreDedicatedVmHostInstanceShapesDedicatedVmHostInstanceShapes\"}", isOptional: true)]
         public virtual oci.DataOciCoreDedicatedVmHostInstanceShapes.IDataOciCoreDedicatedVmHostInstanceShapesDedicatedVmHostInstanceShapes? InternalValue

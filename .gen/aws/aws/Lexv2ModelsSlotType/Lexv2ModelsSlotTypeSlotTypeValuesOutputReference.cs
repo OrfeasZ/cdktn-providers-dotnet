@@ -35,6 +35,7 @@ namespace aws.Lexv2ModelsSlotType
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValuesSampleValue" />)[]</param>
         [JsiiMethod(name: "putSampleValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSampleValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSampleValue(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Lexv2ModelsSlotType
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValuesSynonyms" />)[]</param>
         [JsiiMethod(name: "putSynonyms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSynonyms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSynonyms(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<aws.Lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSynonymsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValuesSampleValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sampleValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSampleValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SampleValueInput
@@ -112,6 +117,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValuesSynonyms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "synonymsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesSynonyms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SynonymsInput
@@ -119,6 +127,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValues" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValues\"}]}}", isOptional: true)]
         public virtual object? InternalValue

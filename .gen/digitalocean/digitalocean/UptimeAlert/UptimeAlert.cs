@@ -46,6 +46,7 @@ namespace digitalocean.UptimeAlert
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.UptimeAlert.UptimeAlert), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotifications" />)[]</param>
         [JsiiMethod(name: "putNotifications", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotifications\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNotifications(object @value)
         {
@@ -139,6 +140,9 @@ namespace digitalocean.UptimeAlert
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotifications" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotifications\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NotificationsInput

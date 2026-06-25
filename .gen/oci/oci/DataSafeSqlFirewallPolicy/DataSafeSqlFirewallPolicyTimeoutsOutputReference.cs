@@ -93,6 +93,9 @@ namespace oci.DataSafeSqlFirewallPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeSqlFirewallPolicy.IDataSafeSqlFirewallPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeSqlFirewallPolicy.DataSafeSqlFirewallPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

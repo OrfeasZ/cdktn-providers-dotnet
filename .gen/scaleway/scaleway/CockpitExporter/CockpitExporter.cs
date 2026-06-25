@@ -230,6 +230,9 @@ namespace scaleway.CockpitExporter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.CockpitExporter.ICockpitExporterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.cockpitExporter.CockpitExporterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

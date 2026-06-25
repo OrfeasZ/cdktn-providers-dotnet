@@ -14,6 +14,7 @@ namespace aws.SsmPatchBaseline
         /// <summary>patch_filter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssm_patch_baseline#patch_filter SsmPatchBaseline#patch_filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRulePatchFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "patchFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter\"},\"kind\":\"array\"}}]}}")]
         public object PatchFilter
@@ -72,6 +73,9 @@ namespace aws.SsmPatchBaseline
         private object? _enableNonSecurity;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssm_patch_baseline#enable_non_security SsmPatchBaseline#enable_non_security}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableNonSecurity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableNonSecurity

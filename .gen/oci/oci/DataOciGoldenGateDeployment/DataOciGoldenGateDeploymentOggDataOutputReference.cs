@@ -83,6 +83,12 @@ namespace oci.DataOciGoldenGateDeployment
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "keySecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeySecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "oggVersion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OggVersion
         {

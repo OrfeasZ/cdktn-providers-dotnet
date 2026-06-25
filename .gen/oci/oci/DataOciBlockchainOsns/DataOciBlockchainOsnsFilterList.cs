@@ -41,6 +41,9 @@ namespace oci.DataOciBlockchainOsns
             return InvokeInstanceMethod<oci.DataOciBlockchainOsns.DataOciBlockchainOsnsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBlockchainOsns.IDataOciBlockchainOsnsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciBlockchainOsns.DataOciBlockchainOsnsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

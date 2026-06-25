@@ -46,6 +46,7 @@ namespace aws.SecurityhubAutomationRuleV2
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecurityhubAutomationRuleV2.SecurityhubAutomationRuleV2), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2Action" />)[]</param>
         [JsiiMethod(name: "putAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Action\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAction(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.SecurityhubAutomationRuleV2
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2Criteria" />)[]</param>
         [JsiiMethod(name: "putCriteria", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Criteria\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCriteria(object @value)
         {
@@ -171,6 +173,9 @@ namespace aws.SecurityhubAutomationRuleV2
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2Action" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Action\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActionInput
@@ -178,6 +183,9 @@ namespace aws.SecurityhubAutomationRuleV2
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2Criteria" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "criteriaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Criteria\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CriteriaInput

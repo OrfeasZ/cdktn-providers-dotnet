@@ -63,6 +63,7 @@ namespace scaleway.EdgeServicesTlsStage
         /// <summary>Set to true when Scaleway generates and manages a Let's Encrypt certificate for the TLS stage/custom endpoint.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/edge_services_tls_stage#managed_certificate EdgeServicesTlsStage#managed_certificate}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "managedCertificate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,6 +106,7 @@ namespace scaleway.EdgeServicesTlsStage
         /// <summary>secrets block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/edge_services_tls_stage#secrets EdgeServicesTlsStage#secrets}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "secrets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,6 +186,7 @@ namespace scaleway.EdgeServicesTlsStage
             /// <summary>Set to true when Scaleway generates and manages a Let's Encrypt certificate for the TLS stage/custom endpoint.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/edge_services_tls_stage#managed_certificate EdgeServicesTlsStage#managed_certificate}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "managedCertificate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -217,6 +220,7 @@ namespace scaleway.EdgeServicesTlsStage
             /// <summary>secrets block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/edge_services_tls_stage#secrets EdgeServicesTlsStage#secrets}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secrets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -238,6 +242,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -248,6 +253,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -298,6 +304,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

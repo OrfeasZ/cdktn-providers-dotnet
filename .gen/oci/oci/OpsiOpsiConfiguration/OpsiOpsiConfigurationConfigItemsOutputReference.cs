@@ -107,6 +107,9 @@ namespace oci.OpsiOpsiConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpsiOpsiConfiguration.IOpsiOpsiConfigurationConfigItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opsiOpsiConfiguration.OpsiOpsiConfigurationConfigItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

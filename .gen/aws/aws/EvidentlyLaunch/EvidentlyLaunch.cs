@@ -46,6 +46,7 @@ namespace aws.EvidentlyLaunch
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EvidentlyLaunch.EvidentlyLaunch), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchGroups" />)[]</param>
         [JsiiMethod(name: "putGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGroups(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.EvidentlyLaunch
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchMetricMonitors" />)[]</param>
         [JsiiMethod(name: "putMetricMonitors", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchMetricMonitors\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetricMonitors(object @value)
         {
@@ -250,6 +252,9 @@ namespace aws.EvidentlyLaunch
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GroupsInput
@@ -264,6 +269,9 @@ namespace aws.EvidentlyLaunch
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchMetricMonitors" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricMonitorsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchMetricMonitors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetricMonitorsInput
@@ -320,6 +328,9 @@ namespace aws.EvidentlyLaunch
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EvidentlyLaunch.IEvidentlyLaunchTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

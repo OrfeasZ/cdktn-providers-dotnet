@@ -35,6 +35,7 @@ namespace digitalocean.DedicatedInference
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeploymentsAccelerators" />)[]</param>
         [JsiiMethod(name: "putAccelerators", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeploymentsAccelerators\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccelerators(object @value)
         {
@@ -76,6 +77,9 @@ namespace digitalocean.DedicatedInference
             get => GetInstanceProperty<digitalocean.DedicatedInference.DedicatedInferenceModelDeploymentsAcceleratorsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeploymentsAccelerators" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acceleratorsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeploymentsAccelerators\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AcceleratorsInput
@@ -139,6 +143,9 @@ namespace digitalocean.DedicatedInference
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeployments" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeployments\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.DataSafeSqlCollection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeSqlCollection.IDataSafeSqlCollectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeSqlCollection.DataSafeSqlCollectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.CoreClusterNetwork
             return InvokeInstanceMethod<oci.CoreClusterNetwork.CoreClusterNetworkInstancePoolsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreClusterNetwork.ICoreClusterNetworkInstancePools" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkInstancePools\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

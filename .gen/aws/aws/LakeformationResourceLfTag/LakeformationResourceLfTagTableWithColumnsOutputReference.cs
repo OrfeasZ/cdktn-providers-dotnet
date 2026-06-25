@@ -35,6 +35,7 @@ namespace aws.LakeformationResourceLfTag
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTableWithColumnsColumnWildcard" />)[]</param>
         [JsiiMethod(name: "putColumnWildcard", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumnsColumnWildcard\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnWildcard(object @value)
         {
@@ -96,6 +97,9 @@ namespace aws.LakeformationResourceLfTag
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTableWithColumnsColumnWildcard" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnWildcardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumnsColumnWildcard\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnWildcardInput
@@ -145,6 +149,9 @@ namespace aws.LakeformationResourceLfTag
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTableWithColumns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

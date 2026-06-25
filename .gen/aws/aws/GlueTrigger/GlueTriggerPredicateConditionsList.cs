@@ -41,6 +41,9 @@ namespace aws.GlueTrigger
             return InvokeInstanceMethod<aws.GlueTrigger.GlueTriggerPredicateConditionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueTrigger.IGlueTriggerPredicateConditions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueTrigger.GlueTriggerPredicateConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -47,6 +47,9 @@ namespace cloudflare.R2BucketLifecycle
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesConditions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesConditions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

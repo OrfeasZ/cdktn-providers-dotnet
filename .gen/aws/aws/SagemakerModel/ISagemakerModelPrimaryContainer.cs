@@ -10,6 +10,7 @@ namespace aws.SagemakerModel
         /// <summary>additional_model_data_source block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_model#additional_model_data_source SagemakerModel#additional_model_data_source}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelPrimaryContainerAdditionalModelDataSource" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "additionalModelDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,6 +151,7 @@ namespace aws.SagemakerModel
             /// <summary>additional_model_data_source block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_model#additional_model_data_source SagemakerModel#additional_model_data_source}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelPrimaryContainerAdditionalModelDataSource" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "additionalModelDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]

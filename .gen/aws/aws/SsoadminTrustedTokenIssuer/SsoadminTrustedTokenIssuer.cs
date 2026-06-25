@@ -46,6 +46,7 @@ namespace aws.SsoadminTrustedTokenIssuer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsoadminTrustedTokenIssuer.SsoadminTrustedTokenIssuer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminTrustedTokenIssuer.ISsoadminTrustedTokenIssuerTrustedTokenIssuerConfiguration" />)[]</param>
         [JsiiMethod(name: "putTrustedTokenIssuerConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminTrustedTokenIssuer.SsoadminTrustedTokenIssuerTrustedTokenIssuerConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrustedTokenIssuerConfiguration(object @value)
         {
@@ -171,6 +172,9 @@ namespace aws.SsoadminTrustedTokenIssuer
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminTrustedTokenIssuer.ISsoadminTrustedTokenIssuerTrustedTokenIssuerConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trustedTokenIssuerConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminTrustedTokenIssuer.SsoadminTrustedTokenIssuerTrustedTokenIssuerConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TrustedTokenIssuerConfigurationInput

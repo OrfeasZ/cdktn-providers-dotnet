@@ -155,6 +155,9 @@ namespace aws.FsxDataRepositoryAssociation
             get => GetInstanceProperty<aws.FsxDataRepositoryAssociation.FsxDataRepositoryAssociationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "batchImportMetaDataOnCreateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? BatchImportMetaDataOnCreateInput
@@ -169,6 +172,9 @@ namespace aws.FsxDataRepositoryAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteDataInFilesystemInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeleteDataInFilesystemInput
@@ -232,6 +238,9 @@ namespace aws.FsxDataRepositoryAssociation
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxDataRepositoryAssociation.IFsxDataRepositoryAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -239,6 +248,9 @@ namespace aws.FsxDataRepositoryAssociation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "batchImportMetaDataOnCreate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object BatchImportMetaDataOnCreate
         {
@@ -273,6 +285,9 @@ namespace aws.FsxDataRepositoryAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deleteDataInFilesystem", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeleteDataInFilesystem
         {

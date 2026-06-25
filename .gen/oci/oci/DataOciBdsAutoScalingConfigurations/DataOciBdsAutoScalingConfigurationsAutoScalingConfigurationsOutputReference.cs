@@ -83,6 +83,12 @@ namespace oci.DataOciBdsAutoScalingConfigurations
             get => GetInstanceProperty<oci.DataOciBdsAutoScalingConfigurations.DataOciBdsAutoScalingConfigurationsAutoScalingConfigurationsPolicyDetailsList>()!;
         }
 
+        [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

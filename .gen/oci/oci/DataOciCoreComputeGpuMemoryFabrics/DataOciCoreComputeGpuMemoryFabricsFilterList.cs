@@ -41,6 +41,9 @@ namespace oci.DataOciCoreComputeGpuMemoryFabrics
             return InvokeInstanceMethod<oci.DataOciCoreComputeGpuMemoryFabrics.DataOciCoreComputeGpuMemoryFabricsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeGpuMemoryFabrics.IDataOciCoreComputeGpuMemoryFabricsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreComputeGpuMemoryFabrics.DataOciCoreComputeGpuMemoryFabricsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

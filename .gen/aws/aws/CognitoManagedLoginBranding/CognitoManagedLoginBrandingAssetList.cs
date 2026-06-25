@@ -41,6 +41,9 @@ namespace aws.CognitoManagedLoginBranding
             return InvokeInstanceMethod<aws.CognitoManagedLoginBranding.CognitoManagedLoginBrandingAssetOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedLoginBranding.ICognitoManagedLoginBrandingAsset" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAsset\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

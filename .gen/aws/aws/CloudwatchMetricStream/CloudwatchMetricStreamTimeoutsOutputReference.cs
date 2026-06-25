@@ -93,6 +93,9 @@ namespace aws.CloudwatchMetricStream
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

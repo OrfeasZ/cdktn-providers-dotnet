@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ResourceSchedulerSchedule
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule}.</summary>
     [JsiiClass(nativeType: typeof(oci.ResourceSchedulerSchedule.ResourceSchedulerSchedule), fullyQualifiedName: "oci.resourceSchedulerSchedule.ResourceSchedulerSchedule", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleConfig\"}}]")]
     public class ResourceSchedulerSchedule : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_scheduler_schedule oci_resource_scheduler_schedule} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ResourceSchedulerSchedule(Constructs.Construct scope, string id, oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.ResourceSchedulerSchedule
         /// <param name="importToId">The construct id used in the generated config for the ResourceSchedulerSchedule to import.</param>
         /// <param name="importFromId">The id of the existing ResourceSchedulerSchedule that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ResourceSchedulerSchedule to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ResourceSchedulerSchedule to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_scheduler_schedule#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ResourceSchedulerSchedule that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ResourceSchedulerSchedule to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ResourceSchedulerSchedule to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_scheduler_schedule#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ResourceSchedulerSchedule that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ResourceSchedulerSchedule to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ResourceSchedulerSchedule.ResourceSchedulerSchedule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFilters" />)[]</param>
         [JsiiMethod(name: "putResourceFilters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFilters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceFilters(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.ResourceSchedulerSchedule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResources" />)[]</param>
         [JsiiMethod(name: "putResources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResources(object @value)
         {
@@ -300,6 +302,9 @@ namespace oci.ResourceSchedulerSchedule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceFiltersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceFiltersInput
@@ -307,6 +312,9 @@ namespace oci.ResourceSchedulerSchedule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourcesInput
@@ -328,6 +336,9 @@ namespace oci.ResourceSchedulerSchedule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

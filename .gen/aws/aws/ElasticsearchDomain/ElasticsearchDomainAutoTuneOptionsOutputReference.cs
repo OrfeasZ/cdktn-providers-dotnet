@@ -33,6 +33,7 @@ namespace aws.ElasticsearchDomain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticsearchDomain.IElasticsearchDomainAutoTuneOptionsMaintenanceSchedule" />)[]</param>
         [JsiiMethod(name: "putMaintenanceSchedule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainAutoTuneOptionsMaintenanceSchedule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMaintenanceSchedule(object @value)
         {
@@ -81,6 +82,9 @@ namespace aws.ElasticsearchDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticsearchDomain.IElasticsearchDomainAutoTuneOptionsMaintenanceSchedule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceScheduleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticsearchDomain.ElasticsearchDomainAutoTuneOptionsMaintenanceSchedule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MaintenanceScheduleInput

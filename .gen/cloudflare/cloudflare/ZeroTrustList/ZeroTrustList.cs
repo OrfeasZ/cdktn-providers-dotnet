@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustList
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustList.ZeroTrustList), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustList.IZeroTrustListItems" />)[]</param>
         [JsiiMethod(name: "putItems", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustList.ZeroTrustListItems\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutItems(object @value)
         {
@@ -144,6 +145,9 @@ namespace cloudflare.ZeroTrustList
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustList.IZeroTrustListItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "itemsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustList.ZeroTrustListItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ItemsInput

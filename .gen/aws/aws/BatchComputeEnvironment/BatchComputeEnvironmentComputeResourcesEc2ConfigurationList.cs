@@ -41,6 +41,9 @@ namespace aws.BatchComputeEnvironment
             return InvokeInstanceMethod<aws.BatchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchComputeEnvironment.IBatchComputeEnvironmentComputeResourcesEc2Configuration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

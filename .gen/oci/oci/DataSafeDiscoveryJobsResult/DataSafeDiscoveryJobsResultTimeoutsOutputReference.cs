@@ -93,6 +93,9 @@ namespace oci.DataSafeDiscoveryJobsResult
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeDiscoveryJobsResult.IDataSafeDiscoveryJobsResultTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeDiscoveryJobsResult.DataSafeDiscoveryJobsResultTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

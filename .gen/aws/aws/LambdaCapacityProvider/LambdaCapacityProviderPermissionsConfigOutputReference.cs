@@ -49,6 +49,9 @@ namespace aws.LambdaCapacityProvider
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LambdaCapacityProvider.ILambdaCapacityProviderPermissionsConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

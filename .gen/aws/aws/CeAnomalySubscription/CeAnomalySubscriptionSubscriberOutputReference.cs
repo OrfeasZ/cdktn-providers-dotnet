@@ -63,6 +63,9 @@ namespace aws.CeAnomalySubscription
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionSubscriber" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionSubscriber\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace oci.DnsSteeringPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesCasesAnswerData" />)[]</param>
         [JsiiMethod(name: "putAnswerData", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dnsSteeringPolicy.DnsSteeringPolicyRulesCasesAnswerData\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnswerData(object @value)
         {
@@ -82,6 +83,9 @@ namespace oci.DnsSteeringPolicy
             get => GetInstanceProperty<oci.DnsSteeringPolicy.DnsSteeringPolicyRulesCasesAnswerDataList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesCasesAnswerData" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "answerDataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dnsSteeringPolicy.DnsSteeringPolicyRulesCasesAnswerData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AnswerDataInput
@@ -117,6 +121,9 @@ namespace oci.DnsSteeringPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesCases" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dnsSteeringPolicy.DnsSteeringPolicyRulesCases\"}]}}", isOptional: true)]
         public virtual object? InternalValue

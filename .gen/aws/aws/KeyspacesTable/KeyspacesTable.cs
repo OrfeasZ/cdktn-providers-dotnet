@@ -330,6 +330,9 @@ namespace aws.KeyspacesTable
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.KeyspacesTable.IKeyspacesTableTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.keyspacesTable.KeyspacesTableTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

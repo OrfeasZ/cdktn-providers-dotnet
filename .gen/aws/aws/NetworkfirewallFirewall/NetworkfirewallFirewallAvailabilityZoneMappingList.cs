@@ -41,6 +41,9 @@ namespace aws.NetworkfirewallFirewall
             return InvokeInstanceMethod<aws.NetworkfirewallFirewall.NetworkfirewallFirewallAvailabilityZoneMappingOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkfirewallFirewall.INetworkfirewallFirewallAvailabilityZoneMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkfirewallFirewall.NetworkfirewallFirewallAvailabilityZoneMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

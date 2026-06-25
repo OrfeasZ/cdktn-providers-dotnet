@@ -180,6 +180,9 @@ namespace aws.LambdaAlias
             get => GetInstanceProperty<aws.LambdaAlias.ILambdaAliasRoutingConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LambdaAlias.ILambdaAliasTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lambdaAlias.LambdaAliasTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

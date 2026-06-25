@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DesktopsDesktopPool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool}.</summary>
     [JsiiClass(nativeType: typeof(oci.DesktopsDesktopPool.DesktopsDesktopPool), fullyQualifiedName: "oci.desktopsDesktopPool.DesktopsDesktopPool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolConfig\"}}]")]
     public class DesktopsDesktopPool : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DesktopsDesktopPool(Constructs.Construct scope, string id, oci.DesktopsDesktopPool.IDesktopsDesktopPoolConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DesktopsDesktopPool
         /// <param name="importToId">The construct id used in the generated config for the DesktopsDesktopPool to import.</param>
         /// <param name="importFromId">The id of the existing DesktopsDesktopPool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DesktopsDesktopPool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DesktopsDesktopPool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/desktops_desktop_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DesktopsDesktopPool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DesktopsDesktopPool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DesktopsDesktopPool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/desktops_desktop_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DesktopsDesktopPool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DesktopsDesktopPool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DesktopsDesktopPool.DesktopsDesktopPool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -100,6 +100,12 @@ namespace oci.DesktopsDesktopPool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetBootVolumeSizeInGbs")]
+        public virtual void ResetBootVolumeSizeInGbs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDefinedTags")]
         public virtual void ResetDefinedTags()
         {
@@ -132,6 +138,12 @@ namespace oci.DesktopsDesktopPool
 
         [JsiiMethod(name: "resetPrivateAccessDetails")]
         public virtual void ResetPrivateAccessDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSecurityAttributes")]
+        public virtual void ResetSecurityAttributes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -257,6 +269,9 @@ namespace oci.DesktopsDesktopPool
             get => GetInstanceProperty<oci.DesktopsDesktopPool.DesktopsDesktopPoolTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "arePrivilegedUsersInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ArePrivilegedUsersInput
@@ -264,6 +279,9 @@ namespace oci.DesktopsDesktopPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "areVolumesPreservedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AreVolumesPreservedInput
@@ -283,6 +301,13 @@ namespace oci.DesktopsDesktopPool
         public virtual oci.DesktopsDesktopPool.IDesktopsDesktopPoolAvailabilityPolicy? AvailabilityPolicyInput
         {
             get => GetInstanceProperty<oci.DesktopsDesktopPool.IDesktopsDesktopPoolAvailabilityPolicy?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "bootVolumeSizeInGbsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? BootVolumeSizeInGbsInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -348,6 +373,9 @@ namespace oci.DesktopsDesktopPool
             get => GetInstanceProperty<oci.DesktopsDesktopPool.IDesktopsDesktopPoolImage?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isStorageEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsStorageEnabledInput
@@ -381,6 +409,13 @@ namespace oci.DesktopsDesktopPool
         public virtual oci.DesktopsDesktopPool.IDesktopsDesktopPoolPrivateAccessDetails? PrivateAccessDetailsInput
         {
             get => GetInstanceProperty<oci.DesktopsDesktopPool.IDesktopsDesktopPoolPrivateAccessDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "securityAttributesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SecurityAttributesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
         [JsiiOptional]
@@ -425,6 +460,9 @@ namespace oci.DesktopsDesktopPool
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DesktopsDesktopPool.IDesktopsDesktopPoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -453,6 +491,9 @@ namespace oci.DesktopsDesktopPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "arePrivilegedUsers", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ArePrivilegedUsers
         {
@@ -480,6 +521,9 @@ namespace oci.DesktopsDesktopPool
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "areVolumesPreserved", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AreVolumesPreserved
         {
@@ -511,6 +555,13 @@ namespace oci.DesktopsDesktopPool
         public virtual string AvailabilityDomain
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "bootVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double BootVolumeSizeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -563,6 +614,9 @@ namespace oci.DesktopsDesktopPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isStorageEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsStorageEnabled
         {
@@ -601,6 +655,13 @@ namespace oci.DesktopsDesktopPool
         public virtual string[] NsgIds
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SecurityAttributes
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 

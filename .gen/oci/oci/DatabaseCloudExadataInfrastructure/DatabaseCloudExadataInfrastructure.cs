@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseCloudExadataInfrastructure
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_exadata_infrastructure oci_database_cloud_exadata_infrastructure}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_exadata_infrastructure oci_database_cloud_exadata_infrastructure}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructure), fullyQualifiedName: "oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructure", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureConfig\"}}]")]
     public class DatabaseCloudExadataInfrastructure : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_exadata_infrastructure oci_database_cloud_exadata_infrastructure} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_exadata_infrastructure oci_database_cloud_exadata_infrastructure} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseCloudExadataInfrastructure(Constructs.Construct scope, string id, oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.DatabaseCloudExadataInfrastructure
         /// <param name="importToId">The construct id used in the generated config for the DatabaseCloudExadataInfrastructure to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseCloudExadataInfrastructure that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseCloudExadataInfrastructure to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCloudExadataInfrastructure to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCloudExadataInfrastructure that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCloudExadataInfrastructure to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCloudExadataInfrastructure to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_exadata_infrastructure#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCloudExadataInfrastructure that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCloudExadataInfrastructure to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructure), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureCustomerContacts" />)[]</param>
         [JsiiMethod(name: "putCustomerContacts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureCustomerContacts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomerContacts(object @value)
         {
@@ -67,6 +68,12 @@ namespace oci.DatabaseCloudExadataInfrastructure
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMaintenanceVersionPreferences", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceVersionPreferences\"}}]")]
+        public virtual void PutMaintenanceVersionPreferences(oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureMaintenanceVersionPreferences @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureMaintenanceVersionPreferences)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceWindow\"}}]")]
@@ -119,6 +126,12 @@ namespace oci.DatabaseCloudExadataInfrastructure
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaintenanceVersionPreferences")]
+        public virtual void ResetMaintenanceVersionPreferences()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -256,6 +269,12 @@ namespace oci.DatabaseCloudExadataInfrastructure
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "maintenanceVersionPreferences", typeJson: "{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceVersionPreferencesOutputReference\"}")]
+        public virtual oci.DatabaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceVersionPreferencesOutputReference MaintenanceVersionPreferences
+        {
+            get => GetInstanceProperty<oci.DatabaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceVersionPreferencesOutputReference>()!;
+        }
+
         [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceWindowOutputReference\"}")]
         public virtual oci.DatabaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceWindowOutputReference MaintenanceWindow
         {
@@ -374,6 +393,9 @@ namespace oci.DatabaseCloudExadataInfrastructure
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureCustomerContacts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerContactsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureCustomerContacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomerContactsInput
@@ -417,6 +439,13 @@ namespace oci.DatabaseCloudExadataInfrastructure
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "maintenanceVersionPreferencesInput", typeJson: "{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceVersionPreferences\"}", isOptional: true)]
+        public virtual oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureMaintenanceVersionPreferences? MaintenanceVersionPreferencesInput
+        {
+            get => GetInstanceProperty<oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureMaintenanceVersionPreferences?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowInput", typeJson: "{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureMaintenanceWindow\"}", isOptional: true)]
         public virtual oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureMaintenanceWindow? MaintenanceWindowInput
         {
@@ -451,6 +480,9 @@ namespace oci.DatabaseCloudExadataInfrastructure
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

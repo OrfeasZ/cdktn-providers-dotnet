@@ -41,6 +41,9 @@ namespace stripe.Product
             return InvokeInstanceMethod<stripe.Product.ProductDefaultPriceDataCurrencyOptionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductDefaultPriceDataCurrencyOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductDefaultPriceDataCurrencyOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

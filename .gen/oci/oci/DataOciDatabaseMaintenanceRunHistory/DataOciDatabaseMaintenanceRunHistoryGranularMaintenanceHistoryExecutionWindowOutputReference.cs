@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseMaintenanceRunHistory
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "deferredExecutionWindowId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DeferredExecutionWindowId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {
@@ -141,6 +147,12 @@ namespace oci.DataOciDatabaseMaintenanceRunHistory
         public virtual double TotalTimeTakenInMins
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "windowDetails", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WindowDetails
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "windowDurationInMins", typeJson: "{\"primitive\":\"number\"}")]

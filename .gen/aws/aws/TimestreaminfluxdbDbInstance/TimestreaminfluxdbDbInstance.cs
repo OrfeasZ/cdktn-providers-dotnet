@@ -46,6 +46,7 @@ namespace aws.TimestreaminfluxdbDbInstance
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TimestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstance), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreaminfluxdbDbInstance.ITimestreaminfluxdbDbInstanceLogDeliveryConfiguration" />)[]</param>
         [JsiiMethod(name: "putLogDeliveryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstanceLogDeliveryConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogDeliveryConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.TimestreaminfluxdbDbInstance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreaminfluxdbDbInstance.ITimestreaminfluxdbDbInstanceMaintenanceSchedule" />)[]</param>
         [JsiiMethod(name: "putMaintenanceSchedule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstanceMaintenanceSchedule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMaintenanceSchedule(object @value)
         {
@@ -285,6 +287,9 @@ namespace aws.TimestreaminfluxdbDbInstance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreaminfluxdbDbInstance.ITimestreaminfluxdbDbInstanceLogDeliveryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logDeliveryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstanceLogDeliveryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogDeliveryConfigurationInput
@@ -292,6 +297,9 @@ namespace aws.TimestreaminfluxdbDbInstance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreaminfluxdbDbInstance.ITimestreaminfluxdbDbInstanceMaintenanceSchedule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceScheduleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.timestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstanceMaintenanceSchedule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MaintenanceScheduleInput
@@ -334,6 +342,9 @@ namespace aws.TimestreaminfluxdbDbInstance
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publiclyAccessibleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PubliclyAccessibleInput
@@ -355,6 +366,9 @@ namespace aws.TimestreaminfluxdbDbInstance
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TimestreaminfluxdbDbInstance.ITimestreaminfluxdbDbInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.timestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -460,6 +474,9 @@ namespace aws.TimestreaminfluxdbDbInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publiclyAccessible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PubliclyAccessible
         {

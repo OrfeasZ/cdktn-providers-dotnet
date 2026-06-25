@@ -41,6 +41,9 @@ namespace aws.SsmMaintenanceWindowTarget
             return InvokeInstanceMethod<aws.SsmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmMaintenanceWindowTarget.ISsmMaintenanceWindowTargetTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

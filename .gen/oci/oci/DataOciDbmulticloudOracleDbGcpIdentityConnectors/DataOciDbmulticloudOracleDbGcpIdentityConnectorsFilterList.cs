@@ -41,6 +41,9 @@ namespace oci.DataOciDbmulticloudOracleDbGcpIdentityConnectors
             return InvokeInstanceMethod<oci.DataOciDbmulticloudOracleDbGcpIdentityConnectors.DataOciDbmulticloudOracleDbGcpIdentityConnectorsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbGcpIdentityConnectors.IDataOciDbmulticloudOracleDbGcpIdentityConnectorsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbGcpIdentityConnectors.DataOciDbmulticloudOracleDbGcpIdentityConnectorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

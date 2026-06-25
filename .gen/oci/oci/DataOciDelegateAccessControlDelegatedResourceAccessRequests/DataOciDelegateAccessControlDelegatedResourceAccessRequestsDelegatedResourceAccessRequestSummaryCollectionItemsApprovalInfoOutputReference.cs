@@ -71,6 +71,12 @@ namespace oci.DataOciDelegateAccessControlDelegatedResourceAccessRequests
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeOfAction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeOfAction
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciDelegateAccessControlDelegatedResourceAccessRequests.DataOciDelegateAccessControlDelegatedResourceAccessRequestsDelegatedResourceAccessRequestSummaryCollectionItemsApprovalInfo\"}", isOptional: true)]
         public virtual oci.DataOciDelegateAccessControlDelegatedResourceAccessRequests.IDataOciDelegateAccessControlDelegatedResourceAccessRequestsDelegatedResourceAccessRequestSummaryCollectionItemsApprovalInfo? InternalValue

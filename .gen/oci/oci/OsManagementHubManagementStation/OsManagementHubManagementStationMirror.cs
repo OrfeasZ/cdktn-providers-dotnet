@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagementStation
     [JsiiByValue(fqn: "oci.osManagementHubManagementStation.OsManagementHubManagementStationMirror")]
     public class OsManagementHubManagementStationMirror : oci.OsManagementHubManagementStation.IOsManagementHubManagementStationMirror
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station#directory OsManagementHubManagementStation#directory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station#directory OsManagementHubManagementStation#directory}.</summary>
         [JsiiProperty(name: "directory", typeJson: "{\"primitive\":\"string\"}")]
         public string Directory
         {
@@ -17,15 +17,7 @@ namespace oci.OsManagementHubManagementStation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station#port OsManagementHubManagementStation#port}.</summary>
-        [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}")]
-        public string Port
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station#sslport OsManagementHubManagementStation#sslport}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station#sslport OsManagementHubManagementStation#sslport}.</summary>
         [JsiiProperty(name: "sslport", typeJson: "{\"primitive\":\"string\"}")]
         public string Sslport
         {
@@ -35,7 +27,10 @@ namespace oci.OsManagementHubManagementStation
 
         private object? _isSslverifyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station#is_sslverify_enabled OsManagementHubManagementStation#is_sslverify_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station#is_sslverify_enabled OsManagementHubManagementStation#is_sslverify_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSslverifyEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsSslverifyEnabled
@@ -64,7 +59,16 @@ namespace oci.OsManagementHubManagementStation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station#sslcert OsManagementHubManagementStation#sslcert}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station#port OsManagementHubManagementStation#port}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Port
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station#sslcert OsManagementHubManagementStation#sslcert}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslcert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Sslcert

@@ -33,6 +33,7 @@ namespace scaleway.LbFrontend
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbFrontend.ILbFrontendAclActionRedirect" />)[]</param>
         [JsiiMethod(name: "putRedirect", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclActionRedirect\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRedirect(object @value)
         {
@@ -68,6 +69,9 @@ namespace scaleway.LbFrontend
             get => GetInstanceProperty<scaleway.LbFrontend.LbFrontendAclActionRedirectList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbFrontend.ILbFrontendAclActionRedirect" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclActionRedirect\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RedirectInput

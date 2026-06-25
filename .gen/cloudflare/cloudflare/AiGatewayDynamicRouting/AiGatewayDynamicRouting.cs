@@ -46,6 +46,7 @@ namespace cloudflare.AiGatewayDynamicRouting
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.AiGatewayDynamicRouting.AiGatewayDynamicRouting), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElements" />)[]</param>
         [JsiiMethod(name: "putElements", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElements\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutElements(object @value)
         {
@@ -143,6 +144,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElements" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "elementsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElements\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ElementsInput

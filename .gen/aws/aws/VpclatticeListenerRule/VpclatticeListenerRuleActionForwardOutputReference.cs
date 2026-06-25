@@ -33,6 +33,7 @@ namespace aws.VpclatticeListenerRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListenerRule.IVpclatticeListenerRuleActionForwardTargetGroups" />)[]</param>
         [JsiiMethod(name: "putTargetGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetGroups(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.VpclatticeListenerRule
             get => GetInstanceProperty<aws.VpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroupsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListenerRule.IVpclatticeListenerRuleActionForwardTargetGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetGroupsInput

@@ -41,6 +41,9 @@ namespace aws.S3BucketCorsConfiguration
             return InvokeInstanceMethod<aws.S3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketCorsConfiguration.IS3BucketCorsConfigurationCorsRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

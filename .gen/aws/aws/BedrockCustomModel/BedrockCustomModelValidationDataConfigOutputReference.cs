@@ -35,6 +35,7 @@ namespace aws.BedrockCustomModel
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfigValidator" />)[]</param>
         [JsiiMethod(name: "putValidator", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidator\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValidator(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockCustomModel
             get => GetInstanceProperty<aws.BedrockCustomModel.BedrockCustomModelValidationDataConfigValidatorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfigValidator" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validatorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidator\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValidatorInput
@@ -77,6 +81,9 @@ namespace aws.BedrockCustomModel
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelValidationDataConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

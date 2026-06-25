@@ -46,6 +46,7 @@ namespace aws.RekognitionStreamProcessor
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RekognitionStreamProcessor.RekognitionStreamProcessor), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorDataSharingPreference" />)[]</param>
         [JsiiMethod(name: "putDataSharingPreference", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreference\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataSharingPreference(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorInput" />)[]</param>
         [JsiiMethod(name: "putInput", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorInput\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInput(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorNotificationChannel" />)[]</param>
         [JsiiMethod(name: "putNotificationChannel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNotificationChannel(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutput" />)[]</param>
         [JsiiMethod(name: "putOutput", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutput\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutput(object @value)
         {
@@ -138,6 +142,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterest" />)[]</param>
         [JsiiMethod(name: "putRegionsOfInterest", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterest\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegionsOfInterest(object @value)
         {
@@ -161,6 +166,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettings" />)[]</param>
         [JsiiMethod(name: "putSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSettings(object @value)
         {
@@ -329,6 +335,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<aws.RekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorDataSharingPreference" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSharingPreferenceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreference\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataSharingPreferenceInput
@@ -336,6 +345,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorInput" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorInput\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InputInput
@@ -357,6 +369,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorNotificationChannel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationChannelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NotificationChannelInput
@@ -364,6 +379,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutput" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutput\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutputInput
@@ -378,6 +396,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterest" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionsOfInterestInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterest\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegionsOfInterestInput
@@ -392,6 +413,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SettingsInput
@@ -406,6 +430,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

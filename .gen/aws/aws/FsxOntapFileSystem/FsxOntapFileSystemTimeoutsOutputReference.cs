@@ -93,6 +93,9 @@ namespace aws.FsxOntapFileSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxOntapFileSystem.IFsxOntapFileSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxOntapFileSystem.FsxOntapFileSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

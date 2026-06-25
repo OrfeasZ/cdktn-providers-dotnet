@@ -33,6 +33,7 @@ namespace libvirt.Network
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardNatAddresses" />)[]</param>
         [JsiiMethod(name: "putAddresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardNatAddresses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAddresses(object @value)
         {
@@ -56,6 +57,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardNatPorts" />)[]</param>
         [JsiiMethod(name: "putPorts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardNatPorts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPorts(object @value)
         {
@@ -109,6 +111,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkForwardNatPortsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardNatAddresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addressesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardNatAddresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AddressesInput
@@ -123,6 +128,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardNatPorts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardNatPorts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortsInput
@@ -137,6 +145,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForwardNat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForwardNat\"}]}}", isOptional: true)]
         public virtual object? InternalValue

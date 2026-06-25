@@ -41,6 +41,9 @@ namespace aws.CloudwatchEventEndpoint
             return InvokeInstanceMethod<aws.CloudwatchEventEndpoint.CloudwatchEventEndpointEventBusOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointEventBus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventEndpoint.CloudwatchEventEndpointEventBus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.CognitoIdentityPool
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CognitoIdentityPool.CognitoIdentityPool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoIdentityPool.ICognitoIdentityPoolCognitoIdentityProviders" />)[]</param>
         [JsiiMethod(name: "putCognitoIdentityProviders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProviders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCognitoIdentityProviders(object @value)
         {
@@ -166,6 +167,9 @@ namespace aws.CognitoIdentityPool
             get => GetInstanceProperty<aws.CognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProvidersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowClassicFlowInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowClassicFlowInput
@@ -173,6 +177,9 @@ namespace aws.CognitoIdentityPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowUnauthenticatedIdentitiesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowUnauthenticatedIdentitiesInput
@@ -180,6 +187,9 @@ namespace aws.CognitoIdentityPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoIdentityPool.ICognitoIdentityPoolCognitoIdentityProviders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cognitoIdentityProvidersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProviders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CognitoIdentityProvidersInput
@@ -250,6 +260,9 @@ namespace aws.CognitoIdentityPool
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allowClassicFlow", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllowClassicFlow
         {
@@ -277,6 +290,9 @@ namespace aws.CognitoIdentityPool
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allowUnauthenticatedIdentities", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllowUnauthenticatedIdentities
         {

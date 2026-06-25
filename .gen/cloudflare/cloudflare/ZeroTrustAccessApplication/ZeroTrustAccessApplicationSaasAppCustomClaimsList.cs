@@ -41,6 +41,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             return InvokeInstanceMethod<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppCustomClaimsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationSaasAppCustomClaims" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppCustomClaims\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

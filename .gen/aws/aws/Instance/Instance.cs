@@ -64,6 +64,7 @@ namespace aws.Instance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Instance.IInstanceCreditSpecification)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceEbsBlockDevice" />)[]</param>
         [JsiiMethod(name: "putEbsBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceEbsBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEbsBlockDevice(object @value)
         {
@@ -93,6 +94,7 @@ namespace aws.Instance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Instance.IInstanceEnclaveOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceEphemeralBlockDevice" />)[]</param>
         [JsiiMethod(name: "putEphemeralBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEphemeralBlockDevice(object @value)
         {
@@ -140,6 +142,7 @@ namespace aws.Instance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Instance.IInstanceMetadataOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceNetworkInterface" />)[]</param>
         [JsiiMethod(name: "putNetworkInterface", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceNetworkInterface\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkInterface(object @value)
         {
@@ -181,6 +184,7 @@ namespace aws.Instance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Instance.IInstanceRootBlockDevice)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceSecondaryNetworkInterface" />)[]</param>
         [JsiiMethod(name: "putSecondaryNetworkInterface", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceSecondaryNetworkInterface\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecondaryNetworkInterface(object @value)
         {
@@ -710,6 +714,9 @@ namespace aws.Instance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "associatePublicIpAddressInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AssociatePublicIpAddressInput
@@ -745,6 +752,9 @@ namespace aws.Instance
             get => GetInstanceProperty<aws.Instance.IInstanceCreditSpecification?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disableApiStopInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisableApiStopInput
@@ -752,6 +762,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disableApiTerminationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisableApiTerminationInput
@@ -759,6 +772,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceEbsBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EbsBlockDeviceInput
@@ -766,6 +782,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsOptimizedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EbsOptimizedInput
@@ -773,6 +792,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enablePrimaryIpv6Input", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnablePrimaryIpv6Input
@@ -787,6 +809,9 @@ namespace aws.Instance
             get => GetInstanceProperty<aws.Instance.IInstanceEnclaveOptions?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceEphemeralBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EphemeralBlockDeviceInput
@@ -794,6 +819,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fetchPasswordDataInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FetchPasswordDataInput
@@ -801,6 +829,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDestroyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDestroyInput
@@ -808,6 +839,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hibernationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? HibernationInput
@@ -906,6 +940,9 @@ namespace aws.Instance
             get => GetInstanceProperty<aws.Instance.IInstanceMetadataOptions?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monitoringInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MonitoringInput
@@ -913,6 +950,9 @@ namespace aws.Instance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceNetworkInterface" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkInterfaceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkInterfaceInput
@@ -976,6 +1016,9 @@ namespace aws.Instance
             get => GetInstanceProperty<aws.Instance.IInstanceRootBlockDevice?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceSecondaryNetworkInterface" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryNetworkInterfaceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceSecondaryNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecondaryNetworkInterfaceInput
@@ -997,6 +1040,9 @@ namespace aws.Instance
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDestCheckInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SourceDestCheckInput
@@ -1032,6 +1078,9 @@ namespace aws.Instance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Instance.IInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.instance.InstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -1053,6 +1102,9 @@ namespace aws.Instance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userDataReplaceOnChangeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? UserDataReplaceOnChangeInput
@@ -1081,6 +1133,9 @@ namespace aws.Instance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "associatePublicIpAddress", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AssociatePublicIpAddress
         {
@@ -1115,6 +1170,9 @@ namespace aws.Instance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "disableApiStop", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DisableApiStop
         {
@@ -1142,6 +1200,9 @@ namespace aws.Instance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "disableApiTermination", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DisableApiTermination
         {
@@ -1169,6 +1230,9 @@ namespace aws.Instance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EbsOptimized
         {
@@ -1196,6 +1260,9 @@ namespace aws.Instance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enablePrimaryIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnablePrimaryIpv6
         {
@@ -1223,6 +1290,9 @@ namespace aws.Instance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "fetchPasswordData", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FetchPasswordData
         {
@@ -1250,6 +1320,9 @@ namespace aws.Instance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDestroy
         {
@@ -1277,6 +1350,9 @@ namespace aws.Instance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "hibernation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Hibernation
         {
@@ -1367,6 +1443,9 @@ namespace aws.Instance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "monitoring", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Monitoring
         {
@@ -1443,6 +1522,9 @@ namespace aws.Instance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "sourceDestCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SourceDestCheck
         {
@@ -1512,6 +1594,9 @@ namespace aws.Instance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "userDataReplaceOnChange", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object UserDataReplaceOnChange
         {

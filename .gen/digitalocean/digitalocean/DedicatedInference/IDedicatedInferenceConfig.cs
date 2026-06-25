@@ -10,6 +10,7 @@ namespace digitalocean.DedicatedInference
         /// <summary>model_deployments block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/dedicated_inference#model_deployments DedicatedInference#model_deployments}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeployments" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "modelDeployments", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeployments\"},\"kind\":\"array\"}}]}}")]
         object ModelDeployments
@@ -40,6 +41,7 @@ namespace digitalocean.DedicatedInference
         /// <summary>Whether to enable a public HTTPS endpoint for the dedicated inference endpoint. This field is immutable after creation.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/dedicated_inference#enable_public_endpoint DedicatedInference#enable_public_endpoint}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enablePublicEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -118,6 +120,7 @@ namespace digitalocean.DedicatedInference
             /// <summary>model_deployments block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/dedicated_inference#model_deployments DedicatedInference#model_deployments}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeployments" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "modelDeployments", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeployments\"},\"kind\":\"array\"}}]}}")]
             public object ModelDeployments
@@ -148,6 +151,7 @@ namespace digitalocean.DedicatedInference
             /// <summary>Whether to enable a public HTTPS endpoint for the dedicated inference endpoint. This field is immutable after creation.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/dedicated_inference#enable_public_endpoint DedicatedInference#enable_public_endpoint}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enablePublicEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -203,6 +207,7 @@ namespace digitalocean.DedicatedInference
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -213,6 +218,7 @@ namespace digitalocean.DedicatedInference
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -263,6 +269,7 @@ namespace digitalocean.DedicatedInference
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

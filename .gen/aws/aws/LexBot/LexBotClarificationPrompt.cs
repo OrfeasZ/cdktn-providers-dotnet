@@ -22,6 +22,7 @@ namespace aws.LexBot
         /// <summary>message block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_bot#message LexBot#message}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexBot.ILexBotClarificationPromptMessage" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBot.LexBotClarificationPromptMessage\"},\"kind\":\"array\"}}]}}")]
         public object Message

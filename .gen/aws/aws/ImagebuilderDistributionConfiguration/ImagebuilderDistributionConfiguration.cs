@@ -46,6 +46,7 @@ namespace aws.ImagebuilderDistributionConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ImagebuilderDistributionConfiguration.ImagebuilderDistributionConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistribution" />)[]</param>
         [JsiiMethod(name: "putDistribution", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistribution\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDistribution(object @value)
         {
@@ -149,6 +150,9 @@ namespace aws.ImagebuilderDistributionConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistribution" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "distributionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistribution\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DistributionInput

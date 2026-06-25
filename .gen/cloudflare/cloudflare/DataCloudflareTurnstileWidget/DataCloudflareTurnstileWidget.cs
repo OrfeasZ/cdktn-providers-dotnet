@@ -174,6 +174,9 @@ namespace cloudflare.DataCloudflareTurnstileWidget
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareTurnstileWidget.IDataCloudflareTurnstileWidgetFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareTurnstileWidget.DataCloudflareTurnstileWidgetFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

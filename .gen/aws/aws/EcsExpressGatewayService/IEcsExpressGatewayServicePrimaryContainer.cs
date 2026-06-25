@@ -15,6 +15,9 @@ namespace aws.EcsExpressGatewayService
         }
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#aws_logs_configuration EcsExpressGatewayService#aws_logs_configuration}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiProperty(name: "awsLogsConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? AwsLogsConfiguration
@@ -50,6 +53,7 @@ namespace aws.EcsExpressGatewayService
         /// <summary>environment block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#environment EcsExpressGatewayService#environment}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerEnvironment" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "environment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerEnvironment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,6 +68,7 @@ namespace aws.EcsExpressGatewayService
         /// <summary>repository_credentials block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#repository_credentials EcsExpressGatewayService#repository_credentials}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerRepositoryCredentials" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "repositoryCredentials", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerRepositoryCredentials\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,6 +83,7 @@ namespace aws.EcsExpressGatewayService
         /// <summary>secret block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#secret EcsExpressGatewayService#secret}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerSecret" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "secret", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,6 +110,9 @@ namespace aws.EcsExpressGatewayService
             }
 
             /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#aws_logs_configuration EcsExpressGatewayService#aws_logs_configuration}.</summary>
+            /// <remarks>
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration" />)[]</para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "awsLogsConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? AwsLogsConfiguration
@@ -130,6 +139,7 @@ namespace aws.EcsExpressGatewayService
             /// <summary>environment block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#environment EcsExpressGatewayService#environment}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerEnvironment" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerEnvironment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -141,6 +151,7 @@ namespace aws.EcsExpressGatewayService
             /// <summary>repository_credentials block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#repository_credentials EcsExpressGatewayService#repository_credentials}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerRepositoryCredentials" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryCredentials", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerRepositoryCredentials\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -152,6 +163,7 @@ namespace aws.EcsExpressGatewayService
             /// <summary>secret block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_express_gateway_service#secret EcsExpressGatewayService#secret}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerSecret" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secret", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]

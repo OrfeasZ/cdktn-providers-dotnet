@@ -33,6 +33,7 @@ namespace aws.SagemakerProject
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerProject.ISagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter" />)[]</param>
         [JsiiMethod(name: "putProvisioningParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProvisioningParameter(object @value)
         {
@@ -101,6 +102,9 @@ namespace aws.SagemakerProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerProject.ISagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioningParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProvisioningParameterInput

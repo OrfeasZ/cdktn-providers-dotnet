@@ -20,6 +20,7 @@ namespace tailscale.DnsConfiguration
         /// <summary>This nameserver will continue to be used when an exit node is selected (requires Tailscale v1.88.1 or later). Defaults to false.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#use_with_exit_node DnsConfiguration#use_with_exit_node}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useWithExitNode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,6 +52,7 @@ namespace tailscale.DnsConfiguration
             /// <summary>This nameserver will continue to be used when an exit node is selected (requires Tailscale v1.88.1 or later). Defaults to false.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#use_with_exit_node DnsConfiguration#use_with_exit_node}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "useWithExitNode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

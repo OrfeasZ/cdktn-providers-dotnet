@@ -46,6 +46,7 @@ namespace aws.Apigatewayv2RoutingRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Apigatewayv2RoutingRule.Apigatewayv2RoutingRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleAction" />)[]</param>
         [JsiiMethod(name: "putAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAction(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Apigatewayv2RoutingRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleCondition" />)[]</param>
         [JsiiMethod(name: "putCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleCondition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCondition(object @value)
         {
@@ -153,6 +155,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActionInput
@@ -160,6 +165,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleCondition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionInput

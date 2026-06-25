@@ -41,6 +41,9 @@ namespace cloudflare.WorkersScript
             return InvokeInstanceMethod<cloudflare.WorkersScript.WorkersScriptMigrationsRenamedClassesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptMigrationsRenamedClasses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrationsRenamedClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

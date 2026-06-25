@@ -35,6 +35,7 @@ namespace aws.Ec2NetworkInsightsAccessScope
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatement" />)[]</param>
         [JsiiMethod(name: "putPacketHeaderStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPacketHeaderStatement(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Ec2NetworkInsightsAccessScope
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPathsSourceResourceStatement" />)[]</param>
         [JsiiMethod(name: "putResourceStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceStatement(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<aws.Ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatementList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "packetHeaderStatementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PacketHeaderStatementInput
@@ -112,6 +117,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPathsSourceResourceStatement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceStatementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceStatementInput
@@ -119,6 +127,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPathsSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPathsSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

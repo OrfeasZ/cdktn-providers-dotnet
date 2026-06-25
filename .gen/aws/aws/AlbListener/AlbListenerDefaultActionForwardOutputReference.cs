@@ -39,6 +39,7 @@ namespace aws.AlbListener
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AlbListener.IAlbListenerDefaultActionForwardStickiness)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListener.IAlbListenerDefaultActionForwardTargetGroup" />)[]</param>
         [JsiiMethod(name: "putTargetGroup", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultActionForwardTargetGroup\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetGroup(object @value)
         {
@@ -87,6 +88,9 @@ namespace aws.AlbListener
             get => GetInstanceProperty<aws.AlbListener.IAlbListenerDefaultActionForwardStickiness?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListener.IAlbListenerDefaultActionForwardTargetGroup" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroupInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultActionForwardTargetGroup\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetGroupInput

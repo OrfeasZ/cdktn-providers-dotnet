@@ -41,6 +41,9 @@ namespace aws.FsxOpenzfsVolume
             return InvokeInstanceMethod<aws.FsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxOpenzfsVolume.IFsxOpenzfsVolumeUserAndGroupQuotas" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotas\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

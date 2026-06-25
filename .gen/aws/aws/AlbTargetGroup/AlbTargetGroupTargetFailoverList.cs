@@ -41,6 +41,9 @@ namespace aws.AlbTargetGroup
             return InvokeInstanceMethod<aws.AlbTargetGroup.AlbTargetGroupTargetFailoverOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbTargetGroup.IAlbTargetGroupTargetFailover" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albTargetGroup.AlbTargetGroupTargetFailover\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

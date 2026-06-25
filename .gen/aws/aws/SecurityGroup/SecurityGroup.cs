@@ -46,6 +46,7 @@ namespace aws.SecurityGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecurityGroup.SecurityGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityGroup.ISecurityGroupEgress" />)[]</param>
         [JsiiMethod(name: "putEgress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityGroup.SecurityGroupEgress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEgress(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.SecurityGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityGroup.ISecurityGroupIngress" />)[]</param>
         [JsiiMethod(name: "putIngress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityGroup.SecurityGroupIngress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIngress(object @value)
         {
@@ -226,6 +228,9 @@ namespace aws.SecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityGroup.ISecurityGroupEgress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityGroup.SecurityGroupEgress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EgressInput
@@ -240,6 +245,9 @@ namespace aws.SecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityGroup.ISecurityGroupIngress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ingressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityGroup.SecurityGroupIngress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IngressInput
@@ -268,6 +276,9 @@ namespace aws.SecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revokeRulesOnDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RevokeRulesOnDeleteInput
@@ -289,6 +300,9 @@ namespace aws.SecurityGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityGroup.ISecurityGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityGroup.SecurityGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -338,6 +352,9 @@ namespace aws.SecurityGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "revokeRulesOnDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RevokeRulesOnDelete
         {

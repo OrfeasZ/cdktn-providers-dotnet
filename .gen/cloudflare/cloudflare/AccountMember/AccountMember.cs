@@ -46,6 +46,7 @@ namespace cloudflare.AccountMember
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.AccountMember.AccountMember), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPolicies" />)[]</param>
         [JsiiMethod(name: "putPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPolicies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolicies(object @value)
         {
@@ -138,6 +139,9 @@ namespace cloudflare.AccountMember
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPolicies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PoliciesInput

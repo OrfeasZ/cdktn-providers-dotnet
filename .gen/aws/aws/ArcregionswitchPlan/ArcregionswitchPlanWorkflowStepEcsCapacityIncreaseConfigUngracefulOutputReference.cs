@@ -49,6 +49,9 @@ namespace aws.ArcregionswitchPlan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngraceful" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngraceful\"}]}}", isOptional: true)]
         public virtual object? InternalValue

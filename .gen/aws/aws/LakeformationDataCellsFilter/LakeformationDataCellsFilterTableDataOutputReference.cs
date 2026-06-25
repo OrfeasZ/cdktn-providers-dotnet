@@ -35,6 +35,7 @@ namespace aws.LakeformationDataCellsFilter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataColumnWildcard" />)[]</param>
         [JsiiMethod(name: "putColumnWildcard", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataColumnWildcard\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnWildcard(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.LakeformationDataCellsFilter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataRowFilter" />)[]</param>
         [JsiiMethod(name: "putRowFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataRowFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRowFilter(object @value)
         {
@@ -124,6 +126,9 @@ namespace aws.LakeformationDataCellsFilter
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataColumnWildcard" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnWildcardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataColumnWildcard\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnWildcardInput
@@ -145,6 +150,9 @@ namespace aws.LakeformationDataCellsFilter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataRowFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rowFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataRowFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RowFilterInput
@@ -215,6 +223,9 @@ namespace aws.LakeformationDataCellsFilter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableData" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableData\"}]}}", isOptional: true)]
         public virtual object? InternalValue

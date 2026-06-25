@@ -10,6 +10,7 @@ namespace digitalocean.GradientaiAgent
         /// <summary>agreement block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#agreement GradientaiAgent#agreement}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelAgreement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "agreement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelAgreement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,6 +53,7 @@ namespace digitalocean.GradientaiAgent
         /// <summary>Indicates if the Model Base is foundational.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#is_foundational GradientaiAgent#is_foundational}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isFoundational", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,6 +110,7 @@ namespace digitalocean.GradientaiAgent
         /// <summary>Indicates if the Model upload is complete.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#upload_complete GradientaiAgent#upload_complete}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "uploadComplete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,6 +153,7 @@ namespace digitalocean.GradientaiAgent
         /// <summary>versions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#versions GradientaiAgent#versions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelVersions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -171,6 +175,7 @@ namespace digitalocean.GradientaiAgent
             /// <summary>agreement block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#agreement GradientaiAgent#agreement}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelAgreement" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "agreement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelAgreement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -204,6 +209,7 @@ namespace digitalocean.GradientaiAgent
             /// <summary>Indicates if the Model Base is foundational.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#is_foundational GradientaiAgent#is_foundational}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isFoundational", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -248,6 +254,7 @@ namespace digitalocean.GradientaiAgent
             /// <summary>Indicates if the Model upload is complete.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#upload_complete GradientaiAgent#upload_complete}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "uploadComplete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -281,6 +288,7 @@ namespace digitalocean.GradientaiAgent
             /// <summary>versions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_agent#versions GradientaiAgent#versions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelVersions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

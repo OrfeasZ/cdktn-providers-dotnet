@@ -25,6 +25,7 @@ namespace aws.SpotFleetRequest
         /// <summary>overrides block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/spot_fleet_request#overrides SpotFleetRequest#overrides}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigOverrides" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrides", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -46,6 +46,7 @@ namespace aws.S3ControlAccessGrant
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3ControlAccessGrant.S3ControlAccessGrant), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlAccessGrant.IS3ControlAccessGrantAccessGrantsLocationConfiguration" />)[]</param>
         [JsiiMethod(name: "putAccessGrantsLocationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccessGrantsLocationConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.S3ControlAccessGrant
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlAccessGrant.IS3ControlAccessGrantGrantee" />)[]</param>
         [JsiiMethod(name: "putGrantee", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlAccessGrant.S3ControlAccessGrantGrantee\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGrantee(object @value)
         {
@@ -189,6 +191,9 @@ namespace aws.S3ControlAccessGrant
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlAccessGrant.IS3ControlAccessGrantAccessGrantsLocationConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessGrantsLocationConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccessGrantsLocationConfigurationInput
@@ -210,6 +215,9 @@ namespace aws.S3ControlAccessGrant
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlAccessGrant.IS3ControlAccessGrantGrantee" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "granteeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlAccessGrant.S3ControlAccessGrantGrantee\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GranteeInput

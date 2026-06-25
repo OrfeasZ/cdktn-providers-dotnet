@@ -93,6 +93,9 @@ namespace oci.DevopsTrigger
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsTrigger.IDevopsTriggerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsTrigger.DevopsTriggerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

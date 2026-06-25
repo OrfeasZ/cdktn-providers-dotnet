@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseResourcePoolMembers.DataOciDatabaseAutonomousDatabaseResourcePoolMembersFilter")]
     public class DataOciDatabaseAutonomousDatabaseResourcePoolMembersFilter : oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers.IDataOciDatabaseAutonomousDatabaseResourcePoolMembersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_autonomous_database_resource_pool_members#name DataOciDatabaseAutonomousDatabaseResourcePoolMembers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_autonomous_database_resource_pool_members#name DataOciDatabaseAutonomousDatabaseResourcePoolMembers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_autonomous_database_resource_pool_members#values DataOciDatabaseAutonomousDatabaseResourcePoolMembers#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_autonomous_database_resource_pool_members#values DataOciDatabaseAutonomousDatabaseResourcePoolMembers#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_autonomous_database_resource_pool_members#regex DataOciDatabaseAutonomousDatabaseResourcePoolMembers#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_autonomous_database_resource_pool_members#regex DataOciDatabaseAutonomousDatabaseResourcePoolMembers#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

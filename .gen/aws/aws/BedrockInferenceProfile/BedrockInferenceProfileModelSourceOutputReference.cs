@@ -49,6 +49,9 @@ namespace aws.BedrockInferenceProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockInferenceProfile.IBedrockInferenceProfileModelSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

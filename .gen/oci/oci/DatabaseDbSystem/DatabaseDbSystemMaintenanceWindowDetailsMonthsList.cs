@@ -41,6 +41,9 @@ namespace oci.DatabaseDbSystem
             return InvokeInstanceMethod<oci.DatabaseDbSystem.DatabaseDbSystemMaintenanceWindowDetailsMonthsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDbSystem.IDatabaseDbSystemMaintenanceWindowDetailsMonths" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDbSystem.DatabaseDbSystemMaintenanceWindowDetailsMonths\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -113,6 +113,9 @@ namespace scaleway.Webhosting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.Webhosting.IWebhostingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.webhosting.WebhostingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

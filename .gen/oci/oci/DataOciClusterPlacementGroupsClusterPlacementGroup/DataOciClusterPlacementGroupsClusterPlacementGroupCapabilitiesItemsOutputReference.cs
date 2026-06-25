@@ -35,6 +35,12 @@ namespace oci.DataOciClusterPlacementGroupsClusterPlacementGroup
         {
         }
 
+        [JsiiProperty(name: "additionalDetails", typeJson: "{\"fqn\":\"oci.dataOciClusterPlacementGroupsClusterPlacementGroup.DataOciClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetailsList\"}")]
+        public virtual oci.DataOciClusterPlacementGroupsClusterPlacementGroup.DataOciClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetailsList AdditionalDetails
+        {
+            get => GetInstanceProperty<oci.DataOciClusterPlacementGroupsClusterPlacementGroup.DataOciClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetailsList>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

@@ -41,6 +41,9 @@ namespace aws.ArcregionswitchPlan
             return InvokeInstanceMethod<aws.ArcregionswitchPlan.ArcregionswitchPlanReportConfigurationReportOutputS3ConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfigurationReportOutputS3Configuration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfigurationReportOutputS3Configuration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

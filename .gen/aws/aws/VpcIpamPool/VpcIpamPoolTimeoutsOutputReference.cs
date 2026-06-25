@@ -93,6 +93,9 @@ namespace aws.VpcIpamPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpamPool.IVpcIpamPoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpamPool.VpcIpamPoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

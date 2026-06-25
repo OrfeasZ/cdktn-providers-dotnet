@@ -35,6 +35,7 @@ namespace aws.ArcregionswitchPlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTriggersConditions" />)[]</param>
         [JsiiMethod(name: "putConditions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTriggersConditions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConditions(object @value)
         {
@@ -83,6 +84,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTriggersConditions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTriggersConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionsInput
@@ -139,6 +143,9 @@ namespace aws.ArcregionswitchPlan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTriggers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTriggers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

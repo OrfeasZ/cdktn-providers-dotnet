@@ -115,6 +115,9 @@ namespace aws.Ec2Fleet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2Fleet.IEc2FleetFleetInstanceSet" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2Fleet.Ec2FleetFleetInstanceSet\"}]}}", isOptional: true)]
         public virtual object? InternalValue

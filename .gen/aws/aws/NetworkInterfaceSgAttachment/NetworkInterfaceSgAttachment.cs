@@ -123,6 +123,9 @@ namespace aws.NetworkInterfaceSgAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkInterfaceSgAttachment.INetworkInterfaceSgAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

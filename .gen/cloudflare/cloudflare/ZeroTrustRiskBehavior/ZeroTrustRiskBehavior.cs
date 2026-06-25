@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustRiskBehavior
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustRiskBehavior.ZeroTrustRiskBehavior), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.ZeroTrustRiskBehavior.IZeroTrustRiskBehaviorBehaviors" />&gt;</param>
         [JsiiMethod(name: "putBehaviors", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustRiskBehavior.ZeroTrustRiskBehaviorBehaviors\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutBehaviors(object @value)
         {
@@ -101,6 +102,9 @@ namespace cloudflare.ZeroTrustRiskBehavior
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.ZeroTrustRiskBehavior.IZeroTrustRiskBehaviorBehaviors" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "behaviorsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustRiskBehavior.ZeroTrustRiskBehaviorBehaviors\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? BehaviorsInput

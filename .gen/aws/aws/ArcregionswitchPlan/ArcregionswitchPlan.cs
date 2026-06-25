@@ -46,6 +46,7 @@ namespace aws.ArcregionswitchPlan
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ArcregionswitchPlan.ArcregionswitchPlan), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanAssociatedAlarms" />)[]</param>
         [JsiiMethod(name: "putAssociatedAlarms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanAssociatedAlarms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAssociatedAlarms(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfiguration" />)[]</param>
         [JsiiMethod(name: "putReportConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReportConfiguration(object @value)
         {
@@ -98,6 +100,7 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTriggers" />)[]</param>
         [JsiiMethod(name: "putTriggers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTriggers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTriggers(object @value)
         {
@@ -121,6 +124,7 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflow" />)[]</param>
         [JsiiMethod(name: "putWorkflow", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflow\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWorkflow(object @value)
         {
@@ -265,6 +269,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanAssociatedAlarms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "associatedAlarmsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanAssociatedAlarms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AssociatedAlarmsInput
@@ -328,6 +335,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reportConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanReportConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReportConfigurationInput
@@ -342,6 +352,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -349,6 +362,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTriggers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "triggersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTriggers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TriggersInput
@@ -356,6 +372,9 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflow" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workflowInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WorkflowInput

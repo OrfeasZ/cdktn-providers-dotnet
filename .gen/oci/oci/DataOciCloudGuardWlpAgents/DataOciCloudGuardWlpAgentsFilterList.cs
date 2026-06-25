@@ -41,6 +41,9 @@ namespace oci.DataOciCloudGuardWlpAgents
             return InvokeInstanceMethod<oci.DataOciCloudGuardWlpAgents.DataOciCloudGuardWlpAgentsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardWlpAgents.IDataOciCloudGuardWlpAgentsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudGuardWlpAgents.DataOciCloudGuardWlpAgentsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

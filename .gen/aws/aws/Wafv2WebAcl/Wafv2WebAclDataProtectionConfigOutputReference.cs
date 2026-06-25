@@ -33,6 +33,7 @@ namespace aws.Wafv2WebAcl
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclDataProtectionConfigDataProtection" />)[]</param>
         [JsiiMethod(name: "putDataProtection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtection\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataProtection(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.Wafv2WebAcl
             get => GetInstanceProperty<aws.Wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclDataProtectionConfigDataProtection" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataProtectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataProtectionInput

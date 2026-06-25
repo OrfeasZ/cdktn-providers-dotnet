@@ -58,6 +58,7 @@ namespace aws.S3TablesTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3TablesTable.IS3TablesTableMaintenanceConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadata" />)[]</param>
         [JsiiMethod(name: "putMetadata", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadata\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetadata(object @value)
         {
@@ -214,6 +215,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableEncryptionConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableEncryptionConfiguration\"}]}}", isOptional: true)]
         public virtual object? EncryptionConfigurationInput
@@ -228,6 +232,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMaintenanceConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfiguration\"}]}}", isOptional: true)]
         public virtual object? MaintenanceConfigurationInput
@@ -235,6 +242,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadata" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetadataInput

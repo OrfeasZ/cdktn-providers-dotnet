@@ -41,6 +41,9 @@ namespace oci.DataOciDataflowInvokeRuns
             return InvokeInstanceMethod<oci.DataOciDataflowInvokeRuns.DataOciDataflowInvokeRunsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataflowInvokeRuns.IDataOciDataflowInvokeRunsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataflowInvokeRuns.DataOciDataflowInvokeRunsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

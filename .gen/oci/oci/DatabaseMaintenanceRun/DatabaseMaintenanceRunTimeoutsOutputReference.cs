@@ -93,6 +93,9 @@ namespace oci.DatabaseMaintenanceRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseMaintenanceRun.IDatabaseMaintenanceRunTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseMaintenanceRun.DatabaseMaintenanceRunTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.FunctionsApplication
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/functions_application oci_functions_application}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_application oci_functions_application}.</summary>
     [JsiiClass(nativeType: typeof(oci.FunctionsApplication.FunctionsApplication), fullyQualifiedName: "oci.functionsApplication.FunctionsApplication", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.functionsApplication.FunctionsApplicationConfig\"}}]")]
     public class FunctionsApplication : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/functions_application oci_functions_application} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_application oci_functions_application} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public FunctionsApplication(Constructs.Construct scope, string id, oci.FunctionsApplication.IFunctionsApplicationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.FunctionsApplication
         /// <param name="importToId">The construct id used in the generated config for the FunctionsApplication to import.</param>
         /// <param name="importFromId">The id of the existing FunctionsApplication that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the FunctionsApplication to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FunctionsApplication to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/functions_application#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FunctionsApplication that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FunctionsApplication to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FunctionsApplication to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/functions_application#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FunctionsApplication that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FunctionsApplication to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.FunctionsApplication.FunctionsApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace oci.FunctionsApplication
         public virtual void PutImagePolicyConfig(oci.FunctionsApplication.IFunctionsApplicationImagePolicyConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.FunctionsApplication.IFunctionsApplicationImagePolicyConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putLogging", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.functionsApplication.FunctionsApplicationLogging\"}}]")]
+        public virtual void PutLogging(oci.FunctionsApplication.IFunctionsApplicationLogging @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.FunctionsApplication.IFunctionsApplicationLogging)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.functionsApplication.FunctionsApplicationTimeouts\"}}]")]
@@ -90,6 +96,12 @@ namespace oci.FunctionsApplication
 
         [JsiiMethod(name: "resetImagePolicyConfig")]
         public virtual void ResetImagePolicyConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLogging")]
+        public virtual void ResetLogging()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -153,6 +165,12 @@ namespace oci.FunctionsApplication
         public virtual oci.FunctionsApplication.FunctionsApplicationImagePolicyConfigOutputReference ImagePolicyConfig
         {
             get => GetInstanceProperty<oci.FunctionsApplication.FunctionsApplicationImagePolicyConfigOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"oci.functionsApplication.FunctionsApplicationLoggingOutputReference\"}")]
+        public virtual oci.FunctionsApplication.FunctionsApplicationLoggingOutputReference Logging
+        {
+            get => GetInstanceProperty<oci.FunctionsApplication.FunctionsApplicationLoggingOutputReference>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -235,6 +253,13 @@ namespace oci.FunctionsApplication
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "loggingInput", typeJson: "{\"fqn\":\"oci.functionsApplication.FunctionsApplicationLogging\"}", isOptional: true)]
+        public virtual oci.FunctionsApplication.IFunctionsApplicationLogging? LoggingInput
+        {
+            get => GetInstanceProperty<oci.FunctionsApplication.IFunctionsApplicationLogging?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "networkSecurityGroupIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? NetworkSecurityGroupIdsInput
         {
@@ -269,6 +294,9 @@ namespace oci.FunctionsApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FunctionsApplication.IFunctionsApplicationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.functionsApplication.FunctionsApplicationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

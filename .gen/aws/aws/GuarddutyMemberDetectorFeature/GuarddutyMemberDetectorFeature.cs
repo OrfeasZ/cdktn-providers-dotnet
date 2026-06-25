@@ -46,6 +46,7 @@ namespace aws.GuarddutyMemberDetectorFeature
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GuarddutyMemberDetectorFeature.GuarddutyMemberDetectorFeature), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyMemberDetectorFeature.IGuarddutyMemberDetectorFeatureAdditionalConfiguration" />)[]</param>
         [JsiiMethod(name: "putAdditionalConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyMemberDetectorFeature.GuarddutyMemberDetectorFeatureAdditionalConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdditionalConfiguration(object @value)
         {
@@ -113,6 +114,9 @@ namespace aws.GuarddutyMemberDetectorFeature
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyMemberDetectorFeature.IGuarddutyMemberDetectorFeatureAdditionalConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyMemberDetectorFeature.GuarddutyMemberDetectorFeatureAdditionalConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdditionalConfigurationInput

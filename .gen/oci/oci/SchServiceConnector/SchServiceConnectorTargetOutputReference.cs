@@ -33,6 +33,7 @@ namespace oci.SchServiceConnector
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorTargetDimensions" />)[]</param>
         [JsiiMethod(name: "putDimensions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTargetDimensions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDimensions(object @value)
         {
@@ -225,6 +226,9 @@ namespace oci.SchServiceConnector
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorTargetDimensions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dimensionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTargetDimensions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DimensionsInput
@@ -232,6 +236,9 @@ namespace oci.SchServiceConnector
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableFormattedMessagingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableFormattedMessagingInput
@@ -358,6 +365,9 @@ namespace oci.SchServiceConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableFormattedMessaging", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableFormattedMessaging
         {

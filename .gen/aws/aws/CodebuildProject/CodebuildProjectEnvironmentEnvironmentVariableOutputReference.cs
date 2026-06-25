@@ -83,6 +83,9 @@ namespace aws.CodebuildProject
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodebuildProject.ICodebuildProjectEnvironmentEnvironmentVariable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentEnvironmentVariable\"}]}}", isOptional: true)]
         public virtual object? InternalValue

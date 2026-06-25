@@ -95,6 +95,9 @@ namespace scaleway.LbFrontend
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.LbFrontend.ILbFrontendAclActionRedirect" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclActionRedirect\"}]}}", isOptional: true)]
         public virtual object? InternalValue

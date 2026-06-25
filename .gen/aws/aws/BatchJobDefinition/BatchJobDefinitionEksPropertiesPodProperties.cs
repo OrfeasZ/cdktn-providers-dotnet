@@ -14,6 +14,7 @@ namespace aws.BatchJobDefinition
         /// <summary>containers block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#containers BatchJobDefinition#containers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesContainers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "containers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainers\"},\"kind\":\"array\"}}]}}")]
         public object Containers
@@ -54,6 +55,9 @@ namespace aws.BatchJobDefinition
         private object? _hostNetwork;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#host_network BatchJobDefinition#host_network}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostNetwork", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? HostNetwork
@@ -87,6 +91,7 @@ namespace aws.BatchJobDefinition
         /// <summary>image_pull_secret block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#image_pull_secret BatchJobDefinition#image_pull_secret}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imagePullSecret", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -121,6 +126,7 @@ namespace aws.BatchJobDefinition
         /// <summary>init_containers block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#init_containers BatchJobDefinition#init_containers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesInitContainers" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initContainers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesInitContainers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -174,6 +180,9 @@ namespace aws.BatchJobDefinition
         private object? _shareProcessNamespace;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#share_process_namespace BatchJobDefinition#share_process_namespace}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareProcessNamespace", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ShareProcessNamespace
@@ -207,6 +216,7 @@ namespace aws.BatchJobDefinition
         /// <summary>volumes block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#volumes BatchJobDefinition#volumes}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesVolumes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]

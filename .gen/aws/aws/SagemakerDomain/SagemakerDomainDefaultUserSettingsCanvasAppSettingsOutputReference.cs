@@ -51,6 +51,7 @@ namespace aws.SagemakerDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsCanvasAppSettingsGenerativeAiSettings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettings" />)[]</param>
         [JsiiMethod(name: "putIdentityProviderOauthSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIdentityProviderOauthSettings(object @value)
         {
@@ -215,6 +216,9 @@ namespace aws.SagemakerDomain
             get => GetInstanceProperty<aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsCanvasAppSettingsGenerativeAiSettings?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityProviderOauthSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCanvasAppSettingsIdentityProviderOauthSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IdentityProviderOauthSettingsInput

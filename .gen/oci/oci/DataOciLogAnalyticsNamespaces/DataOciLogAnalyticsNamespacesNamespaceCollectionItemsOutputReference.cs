@@ -71,6 +71,12 @@ namespace oci.DataOciLogAnalyticsNamespaces
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciLogAnalyticsNamespaces.DataOciLogAnalyticsNamespacesNamespaceCollectionItems\"}", isOptional: true)]
         public virtual oci.DataOciLogAnalyticsNamespaces.IDataOciLogAnalyticsNamespacesNamespaceCollectionItems? InternalValue

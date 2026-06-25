@@ -47,6 +47,12 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetQueryOffsetSecs")]
+        public virtual void ResetQueryOffsetSecs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRecurringInterval")]
         public virtual void ResetRecurringInterval()
         {
@@ -55,6 +61,12 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
 
         [JsiiMethod(name: "resetRepeatCount")]
         public virtual void ResetRepeatCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeEnd")]
+        public virtual void ResetTimeEnd()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -80,6 +92,13 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "queryOffsetSecsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? QueryOffsetSecsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "recurringIntervalInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RecurringIntervalInput
         {
@@ -91,6 +110,13 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
         public virtual double? RepeatCountInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "timeEndInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeEndInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -121,6 +147,13 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "queryOffsetSecs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double QueryOffsetSecs
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "recurringInterval", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecurringInterval
         {
@@ -132,6 +165,13 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
         public virtual double RepeatCount
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeEnd
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -149,6 +189,9 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LogAnalyticsNamespaceScheduledTask.ILogAnalyticsNamespaceScheduledTaskSchedulesSchedule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskSchedulesSchedule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

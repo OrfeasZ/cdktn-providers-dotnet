@@ -82,6 +82,7 @@ namespace aws.MqBroker
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MqBroker.IMqBrokerTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MqBroker.IMqBrokerUser" />)[]</param>
         [JsiiMethod(name: "putUser", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mqBroker.MqBrokerUser\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUser(object @value)
         {
@@ -310,6 +311,9 @@ namespace aws.MqBroker
             get => GetInstanceProperty<aws.MqBroker.MqBrokerUserList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyImmediatelyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApplyImmediatelyInput
@@ -324,6 +328,9 @@ namespace aws.MqBroker
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoMinorVersionUpgradeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoMinorVersionUpgradeInput
@@ -422,6 +429,9 @@ namespace aws.MqBroker
             get => GetInstanceProperty<aws.MqBroker.IMqBrokerMaintenanceWindowStartTime?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publiclyAccessibleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PubliclyAccessibleInput
@@ -471,6 +481,9 @@ namespace aws.MqBroker
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MqBroker.IMqBrokerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.mqBroker.MqBrokerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -478,6 +491,9 @@ namespace aws.MqBroker
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MqBroker.IMqBrokerUser" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mqBroker.MqBrokerUser\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserInput
@@ -485,6 +501,9 @@ namespace aws.MqBroker
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "applyImmediately", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApplyImmediately
         {
@@ -519,6 +538,9 @@ namespace aws.MqBroker
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoMinorVersionUpgrade", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoMinorVersionUpgrade
         {
@@ -602,6 +624,9 @@ namespace aws.MqBroker
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publiclyAccessible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PubliclyAccessible
         {

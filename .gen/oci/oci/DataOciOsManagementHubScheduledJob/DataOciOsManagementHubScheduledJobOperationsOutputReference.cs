@@ -35,6 +35,12 @@ namespace oci.DataOciOsManagementHubScheduledJob
         {
         }
 
+        [JsiiProperty(name: "installSnapDetails", typeJson: "{\"fqn\":\"oci.dataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsInstallSnapDetailsList\"}")]
+        public virtual oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsInstallSnapDetailsList InstallSnapDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsInstallSnapDetailsList>()!;
+        }
+
         [JsiiProperty(name: "manageModuleStreamsDetails", typeJson: "{\"fqn\":\"oci.dataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsList\"}")]
         public virtual oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsList ManageModuleStreamsDetails
         {
@@ -59,6 +65,12 @@ namespace oci.DataOciOsManagementHubScheduledJob
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "removeSnapDetails", typeJson: "{\"fqn\":\"oci.dataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsRemoveSnapDetailsList\"}")]
+        public virtual oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsRemoveSnapDetailsList RemoveSnapDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsRemoveSnapDetailsList>()!;
+        }
+
         [JsiiProperty(name: "softwareSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] SoftwareSourceIds
         {
@@ -69,6 +81,12 @@ namespace oci.DataOciOsManagementHubScheduledJob
         public virtual oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsSwitchModuleStreamsDetailsList SwitchModuleStreamsDetails
         {
             get => GetInstanceProperty<oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsSwitchModuleStreamsDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "switchSnapChannelDetails", typeJson: "{\"fqn\":\"oci.dataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsSwitchSnapChannelDetailsList\"}")]
+        public virtual oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsSwitchSnapChannelDetailsList SwitchSnapChannelDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobOperationsSwitchSnapChannelDetailsList>()!;
         }
 
         [JsiiProperty(name: "windowsUpdateNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

@@ -35,6 +35,7 @@ namespace aws.Apigatewayv2RoutingRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleActionInvokeApi" />)[]</param>
         [JsiiMethod(name: "putInvokeApi", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleActionInvokeApi\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInvokeApi(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<aws.Apigatewayv2RoutingRule.Apigatewayv2RoutingRuleActionInvokeApiList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleActionInvokeApi" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "invokeApiInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleActionInvokeApi\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InvokeApiInput
@@ -77,6 +81,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -49,6 +49,9 @@ namespace aws.InvoicingInvoiceUnit
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.InvoicingInvoiceUnit.IInvoicingInvoiceUnitRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

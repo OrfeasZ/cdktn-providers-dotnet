@@ -41,6 +41,9 @@ namespace oci.ApmConfigConfig
             return InvokeInstanceMethod<oci.ApmConfigConfig.ApmConfigConfigRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

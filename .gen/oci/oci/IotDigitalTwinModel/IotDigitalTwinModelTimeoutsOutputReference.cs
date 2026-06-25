@@ -93,6 +93,9 @@ namespace oci.IotDigitalTwinModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IotDigitalTwinModel.IIotDigitalTwinModelTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.iotDigitalTwinModel.IotDigitalTwinModelTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -52,6 +52,7 @@ namespace aws.ConfigRemediationConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ConfigRemediationConfiguration.IConfigRemediationConfigurationExecutionControls)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigRemediationConfiguration.IConfigRemediationConfigurationParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configRemediationConfiguration.ConfigRemediationConfigurationParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -166,6 +167,9 @@ namespace aws.ConfigRemediationConfiguration
             get => GetInstanceProperty<aws.ConfigRemediationConfiguration.ConfigRemediationConfigurationParameterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutomaticInput
@@ -201,6 +205,9 @@ namespace aws.ConfigRemediationConfiguration
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigRemediationConfiguration.IConfigRemediationConfigurationParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configRemediationConfiguration.ConfigRemediationConfigurationParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput
@@ -250,6 +257,9 @@ namespace aws.ConfigRemediationConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "automatic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Automatic
         {

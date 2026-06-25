@@ -113,6 +113,9 @@ namespace cloudflare.RateLimit
             get => GetInstanceProperty<cloudflare.RateLimit.RateLimitMatchOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.RateLimit.IRateLimitAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.rateLimit.RateLimitAction\"}]}}", isOptional: true)]
         public virtual object? ActionInput
@@ -120,6 +123,9 @@ namespace cloudflare.RateLimit
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.RateLimit.IRateLimitMatch" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.rateLimit.RateLimitMatch\"}]}}", isOptional: true)]
         public virtual object? MatchInput

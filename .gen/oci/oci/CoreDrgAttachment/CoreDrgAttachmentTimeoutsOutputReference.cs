@@ -93,6 +93,9 @@ namespace oci.CoreDrgAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreDrgAttachment.ICoreDrgAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreDrgAttachment.CoreDrgAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

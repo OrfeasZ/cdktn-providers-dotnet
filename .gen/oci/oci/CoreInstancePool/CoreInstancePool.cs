@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreInstancePool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_instance_pool oci_core_instance_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_pool oci_core_instance_pool}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreInstancePool.CoreInstancePool), fullyQualifiedName: "oci.coreInstancePool.CoreInstancePool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolConfig\"}}]")]
     public class CoreInstancePool : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_instance_pool oci_core_instance_pool} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_pool oci_core_instance_pool} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreInstancePool(Constructs.Construct scope, string id, oci.CoreInstancePool.ICoreInstancePoolConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,19 @@ namespace oci.CoreInstancePool
         /// <param name="importToId">The construct id used in the generated config for the CoreInstancePool to import.</param>
         /// <param name="importFromId">The id of the existing CoreInstancePool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreInstancePool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreInstancePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_instance_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreInstancePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreInstancePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreInstancePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreInstancePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreInstancePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreInstancePool.CoreInstancePool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        [JsiiMethod(name: "putLifecycleManagement", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLifecycleManagement\"}}]")]
+        public virtual void PutLifecycleManagement(oci.CoreInstancePool.ICoreInstancePoolLifecycleManagement @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreInstancePool.ICoreInstancePoolLifecycleManagement)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolLoadBalancers" />)[]</param>
         [JsiiMethod(name: "putLoadBalancers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLoadBalancers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLoadBalancers(object @value)
         {
@@ -69,6 +76,7 @@ namespace oci.CoreInstancePool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurations" />)[]</param>
         [JsiiMethod(name: "putPlacementConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolPlacementConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementConfigurations(object @value)
         {
@@ -134,6 +142,12 @@ namespace oci.CoreInstancePool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLifecycleManagement")]
+        public virtual void ResetLifecycleManagement()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLoadBalancers")]
         public virtual void ResetLoadBalancers()
         {
@@ -175,6 +189,18 @@ namespace oci.CoreInstancePool
         public virtual double ActualSize
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "currentSize", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CurrentSize
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "lifecycleManagement", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLifecycleManagementOutputReference\"}")]
+        public virtual oci.CoreInstancePool.CoreInstancePoolLifecycleManagementOutputReference LifecycleManagement
+        {
+            get => GetInstanceProperty<oci.CoreInstancePool.CoreInstancePoolLifecycleManagementOutputReference>()!;
         }
 
         [JsiiProperty(name: "loadBalancers", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLoadBalancersList\"}")]
@@ -258,12 +284,25 @@ namespace oci.CoreInstancePool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "lifecycleManagementInput", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLifecycleManagement\"}", isOptional: true)]
+        public virtual oci.CoreInstancePool.ICoreInstancePoolLifecycleManagement? LifecycleManagementInput
+        {
+            get => GetInstanceProperty<oci.CoreInstancePool.ICoreInstancePoolLifecycleManagement?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolLoadBalancers" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "loadBalancersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLoadBalancers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LoadBalancersInput
         {
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolPlacementConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementConfigurationsInput
@@ -285,6 +324,9 @@ namespace oci.CoreInstancePool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreInstancePool.ICoreInstancePoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

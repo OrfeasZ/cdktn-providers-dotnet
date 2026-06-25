@@ -77,6 +77,9 @@ namespace aws.S3ControlMultiRegionAccessPointRoutes
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3ControlMultiRegionAccessPointRoutes.IS3ControlMultiRegionAccessPointRoutesRoute" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3ControlMultiRegionAccessPointRoutes.S3ControlMultiRegionAccessPointRoutesRoute\"}]}}", isOptional: true)]
         public virtual object? InternalValue

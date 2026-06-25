@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IdentityDomainsSmtpCredential
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_smtp_credential oci_identity_domains_smtp_credential}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_smtp_credential oci_identity_domains_smtp_credential}.</summary>
     [JsiiClass(nativeType: typeof(oci.IdentityDomainsSmtpCredential.IdentityDomainsSmtpCredential), fullyQualifiedName: "oci.identityDomainsSmtpCredential.IdentityDomainsSmtpCredential", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsSmtpCredential.IdentityDomainsSmtpCredentialConfig\"}}]")]
     public class IdentityDomainsSmtpCredential : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_smtp_credential oci_identity_domains_smtp_credential} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_smtp_credential oci_identity_domains_smtp_credential} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IdentityDomainsSmtpCredential(Constructs.Construct scope, string id, oci.IdentityDomainsSmtpCredential.IIdentityDomainsSmtpCredentialConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.IdentityDomainsSmtpCredential
         /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsSmtpCredential to import.</param>
         /// <param name="importFromId">The id of the existing IdentityDomainsSmtpCredential that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IdentityDomainsSmtpCredential to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsSmtpCredential to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_smtp_credential#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsSmtpCredential that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsSmtpCredential to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsSmtpCredential to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_smtp_credential#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsSmtpCredential that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsSmtpCredential to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsSmtpCredential.IdentityDomainsSmtpCredential), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSmtpCredential.IIdentityDomainsSmtpCredentialTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSmtpCredential.IdentityDomainsSmtpCredentialTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -344,6 +345,9 @@ namespace oci.IdentityDomainsSmtpCredential
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSmtpCredential.IIdentityDomainsSmtpCredentialTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSmtpCredential.IdentityDomainsSmtpCredentialTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput
@@ -351,6 +355,9 @@ namespace oci.IdentityDomainsSmtpCredential
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsSmtpCredential.IIdentityDomainsSmtpCredentialTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsSmtpCredential.IdentityDomainsSmtpCredentialTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

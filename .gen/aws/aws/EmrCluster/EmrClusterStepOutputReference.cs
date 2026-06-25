@@ -35,6 +35,7 @@ namespace aws.EmrCluster
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterStepHadoopJarStep" />)[]</param>
         [JsiiMethod(name: "putHadoopJarStep", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterStepHadoopJarStep\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHadoopJarStep(object @value)
         {
@@ -89,6 +90,9 @@ namespace aws.EmrCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterStepHadoopJarStep" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hadoopJarStepInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterStepHadoopJarStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HadoopJarStepInput
@@ -117,6 +121,9 @@ namespace aws.EmrCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrCluster.IEmrClusterStep" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrCluster.EmrClusterStep\"}]}}", isOptional: true)]
         public virtual object? InternalValue

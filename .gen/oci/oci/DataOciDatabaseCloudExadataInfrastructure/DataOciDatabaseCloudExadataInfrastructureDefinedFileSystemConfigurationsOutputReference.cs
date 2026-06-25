@@ -47,6 +47,12 @@ namespace oci.DataOciDatabaseCloudExadataInfrastructure
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "maxSizeGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxSizeGb
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "minSizeGb", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MinSizeGb
         {

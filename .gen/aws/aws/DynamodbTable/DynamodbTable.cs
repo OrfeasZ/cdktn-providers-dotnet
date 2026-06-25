@@ -46,6 +46,7 @@ namespace aws.DynamodbTable
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DynamodbTable.DynamodbTable), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableAttribute" />)[]</param>
         [JsiiMethod(name: "putAttribute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableAttribute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAttribute(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DynamodbTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableGlobalSecondaryIndex" />)[]</param>
         [JsiiMethod(name: "putGlobalSecondaryIndex", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableGlobalSecondaryIndex\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGlobalSecondaryIndex(object @value)
         {
@@ -104,6 +106,7 @@ namespace aws.DynamodbTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DynamodbTable.IDynamodbTableImportTable)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableLocalSecondaryIndex" />)[]</param>
         [JsiiMethod(name: "putLocalSecondaryIndex", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableLocalSecondaryIndex\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocalSecondaryIndex(object @value)
         {
@@ -139,6 +142,7 @@ namespace aws.DynamodbTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DynamodbTable.IDynamodbTablePointInTimeRecovery)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableReplica" />)[]</param>
         [JsiiMethod(name: "putReplica", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableReplica\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReplica(object @value)
         {
@@ -475,6 +479,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<aws.DynamodbTable.DynamodbTableWarmThroughputOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableAttribute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableAttribute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AttributeInput
@@ -489,6 +496,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deletionProtectionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeletionProtectionEnabledInput
@@ -496,6 +506,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableGlobalSecondaryIndex" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "globalSecondaryIndexInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableGlobalSecondaryIndex\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GlobalSecondaryIndexInput
@@ -531,6 +544,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<aws.DynamodbTable.IDynamodbTableImportTable?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableLocalSecondaryIndex" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "localSecondaryIndexInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableLocalSecondaryIndex\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocalSecondaryIndexInput
@@ -580,6 +596,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbTable.IDynamodbTableReplica" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replicaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbTable.DynamodbTableReplica\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReplicaInput
@@ -615,6 +634,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "restoreToLatestTimeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RestoreToLatestTimeInput
@@ -629,6 +651,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<aws.DynamodbTable.IDynamodbTableServerSideEncryption?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "streamEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? StreamEnabledInput
@@ -664,6 +689,9 @@ namespace aws.DynamodbTable
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DynamodbTable.IDynamodbTableTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dynamodbTable.DynamodbTableTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -699,6 +727,9 @@ namespace aws.DynamodbTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deletionProtectionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeletionProtectionEnabled
         {
@@ -796,6 +827,9 @@ namespace aws.DynamodbTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "restoreToLatestTime", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RestoreToLatestTime
         {
@@ -823,6 +857,9 @@ namespace aws.DynamodbTable
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "streamEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object StreamEnabled
         {

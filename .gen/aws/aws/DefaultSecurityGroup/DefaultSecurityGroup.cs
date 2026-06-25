@@ -46,6 +46,7 @@ namespace aws.DefaultSecurityGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DefaultSecurityGroup.DefaultSecurityGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DefaultSecurityGroup.IDefaultSecurityGroupEgress" />)[]</param>
         [JsiiMethod(name: "putEgress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.defaultSecurityGroup.DefaultSecurityGroupEgress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEgress(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DefaultSecurityGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DefaultSecurityGroup.IDefaultSecurityGroupIngress" />)[]</param>
         [JsiiMethod(name: "putIngress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.defaultSecurityGroup.DefaultSecurityGroupIngress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIngress(object @value)
         {
@@ -201,6 +203,9 @@ namespace aws.DefaultSecurityGroup
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DefaultSecurityGroup.IDefaultSecurityGroupEgress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.defaultSecurityGroup.DefaultSecurityGroupEgress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EgressInput
@@ -215,6 +220,9 @@ namespace aws.DefaultSecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DefaultSecurityGroup.IDefaultSecurityGroupIngress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ingressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.defaultSecurityGroup.DefaultSecurityGroupIngress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IngressInput
@@ -229,6 +237,9 @@ namespace aws.DefaultSecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revokeRulesOnDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RevokeRulesOnDeleteInput
@@ -271,6 +282,9 @@ namespace aws.DefaultSecurityGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "revokeRulesOnDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RevokeRulesOnDelete
         {

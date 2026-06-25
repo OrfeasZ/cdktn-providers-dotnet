@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseToolsDatabaseToolsConnection
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_tools_database_tools_connection oci_database_tools_database_tools_connection}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_connection oci_database_tools_database_tools_connection}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnection), fullyQualifiedName: "oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnection", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionConfig\"}}]")]
     public class DatabaseToolsDatabaseToolsConnection : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_tools_database_tools_connection oci_database_tools_database_tools_connection} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_connection oci_database_tools_database_tools_connection} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseToolsDatabaseToolsConnection(Constructs.Construct scope, string id, oci.DatabaseToolsDatabaseToolsConnection.IDatabaseToolsDatabaseToolsConnectionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
         /// <param name="importToId">The construct id used in the generated config for the DatabaseToolsDatabaseToolsConnection to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseToolsDatabaseToolsConnection that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseToolsDatabaseToolsConnection to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseToolsDatabaseToolsConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_tools_database_tools_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseToolsDatabaseToolsConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseToolsDatabaseToolsConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseToolsDatabaseToolsConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_tools_database_tools_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseToolsDatabaseToolsConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseToolsDatabaseToolsConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsConnection.IDatabaseToolsDatabaseToolsConnectionKeyStores" />)[]</param>
         [JsiiMethod(name: "putKeyStores", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionKeyStores\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKeyStores(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsConnection.IDatabaseToolsDatabaseToolsConnectionLocks" />)[]</param>
         [JsiiMethod(name: "putLocks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionLocks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocks(object @value)
         {
@@ -118,6 +120,12 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
 
         [JsiiMethod(name: "resetAdvancedProperties")]
         public virtual void ResetAdvancedProperties()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAuthenticationType")]
+        public virtual void ResetAuthenticationType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -176,6 +184,12 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRuntimeIdentity")]
+        public virtual void ResetRuntimeIdentity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRuntimeSupport")]
         public virtual void ResetRuntimeSupport()
         {
@@ -190,6 +204,18 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
 
         [JsiiMethod(name: "resetUrl")]
         public virtual void ResetUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUserName")]
+        public virtual void ResetUserName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUserPassword")]
+        public virtual void ResetUserPassword()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -243,6 +269,12 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
             get => GetInstanceProperty<oci.DatabaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionRelatedResourceOutputReference>()!;
         }
 
+        [JsiiProperty(name: "runtimeEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -287,6 +319,13 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "authenticationTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AuthenticationTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "compartmentIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CompartmentIdInput
         {
@@ -328,6 +367,9 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsConnection.IDatabaseToolsDatabaseToolsConnectionKeyStores" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyStoresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionKeyStores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KeyStoresInput
@@ -335,6 +377,9 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsConnection.IDatabaseToolsDatabaseToolsConnectionLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocksInput
@@ -364,12 +409,22 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "runtimeIdentityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RuntimeIdentityInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "runtimeSupportInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RuntimeSupportInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseToolsDatabaseToolsConnection.IDatabaseToolsDatabaseToolsConnectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseToolsDatabaseToolsConnection.DatabaseToolsDatabaseToolsConnectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -409,6 +464,13 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
         public virtual System.Collections.Generic.IDictionary<string, string> AdvancedProperties
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthenticationType
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -456,6 +518,13 @@ namespace oci.DatabaseToolsDatabaseToolsConnection
 
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrivateEndpointId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "runtimeIdentity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeIdentity
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

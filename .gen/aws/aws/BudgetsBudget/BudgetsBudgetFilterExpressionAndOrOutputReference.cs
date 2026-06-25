@@ -110,6 +110,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<aws.BudgetsBudget.IBudgetsBudgetFilterExpressionAndOrTags?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionAndOr" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionAndOr\"}]}}", isOptional: true)]
         public virtual object? InternalValue

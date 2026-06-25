@@ -46,6 +46,7 @@ namespace aws.CeAnomalySubscription
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CeAnomalySubscription.CeAnomalySubscription), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionSubscriber" />)[]</param>
         [JsiiMethod(name: "putSubscriber", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionSubscriber\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubscriber(object @value)
         {
@@ -177,6 +178,9 @@ namespace aws.CeAnomalySubscription
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionSubscriber" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscriberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionSubscriber\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubscriberInput

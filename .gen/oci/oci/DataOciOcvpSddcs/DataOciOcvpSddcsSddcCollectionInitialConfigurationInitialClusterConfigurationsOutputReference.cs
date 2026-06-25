@@ -47,6 +47,12 @@ namespace oci.DataOciOcvpSddcs
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "clusterByolAllocationDetails", typeJson: "{\"fqn\":\"oci.dataOciOcvpSddcs.DataOciOcvpSddcsSddcCollectionInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetailsList\"}")]
+        public virtual oci.DataOciOcvpSddcs.DataOciOcvpSddcsSddcCollectionInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetailsList ClusterByolAllocationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOcvpSddcs.DataOciOcvpSddcsSddcCollectionInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "computeAvailabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeAvailabilityDomain
         {
@@ -91,6 +97,12 @@ namespace oci.DataOciOcvpSddcs
 
         [JsiiProperty(name: "initialHostShapeName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InitialHostShapeName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "initialVcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialVcfByolAllocationId
         {
             get => GetInstanceProperty<string>()!;
         }

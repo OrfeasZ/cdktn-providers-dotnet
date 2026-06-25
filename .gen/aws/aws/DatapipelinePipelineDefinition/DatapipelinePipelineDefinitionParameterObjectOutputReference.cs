@@ -35,6 +35,7 @@ namespace aws.DatapipelinePipelineDefinition
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterObjectAttribute" />)[]</param>
         [JsiiMethod(name: "putAttribute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttribute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAttribute(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DatapipelinePipelineDefinition
             get => GetInstanceProperty<aws.DatapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttributeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterObjectAttribute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttribute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AttributeInput
@@ -91,6 +95,9 @@ namespace aws.DatapipelinePipelineDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterObject" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObject\"}]}}", isOptional: true)]
         public virtual object? InternalValue

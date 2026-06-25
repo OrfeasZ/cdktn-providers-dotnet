@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CapacityManagementOccCapacityRequest
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/capacity_management_occ_capacity_request oci_capacity_management_occ_capacity_request}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request oci_capacity_management_occ_capacity_request}.</summary>
     [JsiiClass(nativeType: typeof(oci.CapacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequest), fullyQualifiedName: "oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequest", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestConfig\"}}]")]
     public class CapacityManagementOccCapacityRequest : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/capacity_management_occ_capacity_request oci_capacity_management_occ_capacity_request} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request oci_capacity_management_occ_capacity_request} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CapacityManagementOccCapacityRequest(Constructs.Construct scope, string id, oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.CapacityManagementOccCapacityRequest
         /// <param name="importToId">The construct id used in the generated config for the CapacityManagementOccCapacityRequest to import.</param>
         /// <param name="importFromId">The id of the existing CapacityManagementOccCapacityRequest that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CapacityManagementOccCapacityRequest to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CapacityManagementOccCapacityRequest to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/capacity_management_occ_capacity_request#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CapacityManagementOccCapacityRequest that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CapacityManagementOccCapacityRequest to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CapacityManagementOccCapacityRequest to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/capacity_management_occ_capacity_request#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CapacityManagementOccCapacityRequest that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CapacityManagementOccCapacityRequest to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CapacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequest), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetails" />)[]</param>
         [JsiiMethod(name: "putDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDetails(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.CapacityManagementOccCapacityRequest
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestPatchOperations" />)[]</param>
         [JsiiMethod(name: "putPatchOperations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestPatchOperations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPatchOperations(object @value)
         {
@@ -260,6 +262,9 @@ namespace oci.CapacityManagementOccCapacityRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "detailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DetailsInput
@@ -309,6 +314,9 @@ namespace oci.CapacityManagementOccCapacityRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestPatchOperations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "patchOperationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestPatchOperations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PatchOperationsInput
@@ -337,6 +345,9 @@ namespace oci.CapacityManagementOccCapacityRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CapacityManagementOccCapacityRequest.ICapacityManagementOccCapacityRequestTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.capacityManagementOccCapacityRequest.CapacityManagementOccCapacityRequestTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

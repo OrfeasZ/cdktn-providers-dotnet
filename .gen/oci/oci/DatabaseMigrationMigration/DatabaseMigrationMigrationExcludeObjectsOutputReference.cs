@@ -59,6 +59,9 @@ namespace oci.DatabaseMigrationMigration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isOmitExcludedTableFromReplicationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsOmitExcludedTableFromReplicationInput
@@ -94,6 +97,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isOmitExcludedTableFromReplication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsOmitExcludedTableFromReplication
         {
@@ -149,6 +155,9 @@ namespace oci.DatabaseMigrationMigration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationExcludeObjects" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationExcludeObjects\"}]}}", isOptional: true)]
         public virtual object? InternalValue

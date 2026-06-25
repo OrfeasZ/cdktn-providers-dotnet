@@ -41,6 +41,9 @@ namespace aws.WafregionalGeoMatchSet
             return InvokeInstanceMethod<aws.WafregionalGeoMatchSet.WafregionalGeoMatchSetGeoMatchConstraintOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalGeoMatchSet.IWafregionalGeoMatchSetGeoMatchConstraint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalGeoMatchSet.WafregionalGeoMatchSetGeoMatchConstraint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

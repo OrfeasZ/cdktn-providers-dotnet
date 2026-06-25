@@ -35,6 +35,7 @@ namespace aws.BedrockagentcoreGateway
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayProtocolConfigurationMcp" />)[]</param>
         [JsiiMethod(name: "putMcp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayProtocolConfigurationMcp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMcp(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockagentcoreGateway
             get => GetInstanceProperty<aws.BedrockagentcoreGateway.BedrockagentcoreGatewayProtocolConfigurationMcpList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayProtocolConfigurationMcp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mcpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayProtocolConfigurationMcp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? McpInput
@@ -77,6 +81,9 @@ namespace aws.BedrockagentcoreGateway
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayProtocolConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayProtocolConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

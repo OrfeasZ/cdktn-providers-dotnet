@@ -41,6 +41,9 @@ namespace oci.DataOciGoldenGateTrailSequences
             return InvokeInstanceMethod<oci.DataOciGoldenGateTrailSequences.DataOciGoldenGateTrailSequencesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateTrailSequences.IDataOciGoldenGateTrailSequencesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGoldenGateTrailSequences.DataOciGoldenGateTrailSequencesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

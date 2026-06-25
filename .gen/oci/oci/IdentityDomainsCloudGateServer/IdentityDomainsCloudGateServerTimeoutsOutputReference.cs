@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsCloudGateServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsCloudGateServer.IIdentityDomainsCloudGateServerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsCloudGateServer.IdentityDomainsCloudGateServerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

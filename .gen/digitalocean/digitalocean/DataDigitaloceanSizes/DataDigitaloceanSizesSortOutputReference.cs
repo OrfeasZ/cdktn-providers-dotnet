@@ -69,6 +69,9 @@ namespace digitalocean.DataDigitaloceanSizes
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DataDigitaloceanSizes.IDataDigitaloceanSizesSort" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.dataDigitaloceanSizes.DataDigitaloceanSizesSort\"}]}}", isOptional: true)]
         public virtual object? InternalValue

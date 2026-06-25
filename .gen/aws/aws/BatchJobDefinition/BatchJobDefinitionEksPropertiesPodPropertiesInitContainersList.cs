@@ -41,6 +41,9 @@ namespace aws.BatchJobDefinition
             return InvokeInstanceMethod<aws.BatchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesInitContainers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesInitContainers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

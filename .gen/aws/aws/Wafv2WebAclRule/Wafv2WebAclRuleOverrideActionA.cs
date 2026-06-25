@@ -12,6 +12,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>count block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#count Wafv2WebAclRuleA#count}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleOverrideActionCountA" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleOverrideActionCountA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>none block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#none Wafv2WebAclRuleA#none}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleOverrideActionNoneA" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "none", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleOverrideActionNoneA\"},\"kind\":\"array\"}}]}}", isOptional: true)]

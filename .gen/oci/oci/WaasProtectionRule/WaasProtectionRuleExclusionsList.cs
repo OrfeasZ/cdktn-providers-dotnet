@@ -41,6 +41,9 @@ namespace oci.WaasProtectionRule
             return InvokeInstanceMethod<oci.WaasProtectionRule.WaasProtectionRuleExclusionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasProtectionRule.IWaasProtectionRuleExclusions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasProtectionRule.WaasProtectionRuleExclusions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

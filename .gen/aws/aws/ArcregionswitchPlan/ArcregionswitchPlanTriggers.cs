@@ -38,6 +38,7 @@ namespace aws.ArcregionswitchPlan
         /// <summary>conditions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/arcregionswitch_plan#conditions ArcregionswitchPlan#conditions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanTriggersConditions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanTriggersConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

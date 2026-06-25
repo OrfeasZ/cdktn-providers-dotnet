@@ -133,6 +133,9 @@ namespace scaleway.RdbPrivilege
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RdbPrivilege.IRdbPrivilegeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.rdbPrivilege.RdbPrivilegeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

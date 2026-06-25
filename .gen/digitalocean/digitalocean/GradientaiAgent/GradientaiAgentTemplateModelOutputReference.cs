@@ -35,6 +35,7 @@ namespace digitalocean.GradientaiAgent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelAgreement" />)[]</param>
         [JsiiMethod(name: "putAgreement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelAgreement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAgreement(object @value)
         {
@@ -58,6 +59,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelVersions" />)[]</param>
         [JsiiMethod(name: "putVersions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelVersions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVersions(object @value)
         {
@@ -171,6 +173,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<digitalocean.GradientaiAgent.GradientaiAgentTemplateModelVersionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelAgreement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agreementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelAgreement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AgreementInput
@@ -192,6 +197,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isFoundationalInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsFoundationalInput
@@ -220,6 +228,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uploadCompleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? UploadCompleteInput
@@ -241,6 +252,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModelVersions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "versionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModelVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VersionsInput
@@ -262,6 +276,9 @@ namespace digitalocean.GradientaiAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isFoundational", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsFoundational
         {
@@ -310,6 +327,9 @@ namespace digitalocean.GradientaiAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "uploadComplete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object UploadComplete
         {
@@ -351,6 +371,9 @@ namespace digitalocean.GradientaiAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModel" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModel\"}]}}", isOptional: true)]
         public virtual object? InternalValue

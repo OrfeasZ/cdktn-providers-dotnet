@@ -115,6 +115,9 @@ namespace scaleway.DataScalewayAvailabilityZones
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.DataScalewayAvailabilityZones.IDataScalewayAvailabilityZonesTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.dataScalewayAvailabilityZones.DataScalewayAvailabilityZonesTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

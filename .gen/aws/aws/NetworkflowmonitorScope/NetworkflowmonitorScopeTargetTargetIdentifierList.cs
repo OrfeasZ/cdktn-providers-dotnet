@@ -41,6 +41,9 @@ namespace aws.NetworkflowmonitorScope
             return InvokeInstanceMethod<aws.NetworkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifier" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifier\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

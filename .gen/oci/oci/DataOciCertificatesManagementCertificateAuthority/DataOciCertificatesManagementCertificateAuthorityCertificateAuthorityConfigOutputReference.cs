@@ -35,6 +35,18 @@ namespace oci.DataOciCertificatesManagementCertificateAuthority
         {
         }
 
+        [JsiiProperty(name: "actionDetails", typeJson: "{\"fqn\":\"oci.dataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetailsList\"}")]
+        public virtual oci.DataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetailsList ActionDetails
+        {
+            get => GetInstanceProperty<oci.DataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificatePem
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "configType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ConfigType
         {

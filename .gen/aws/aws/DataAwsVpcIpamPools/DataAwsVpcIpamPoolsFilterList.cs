@@ -41,6 +41,9 @@ namespace aws.DataAwsVpcIpamPools
             return InvokeInstanceMethod<aws.DataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsVpcIpamPools.IDataAwsVpcIpamPoolsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

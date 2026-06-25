@@ -33,6 +33,7 @@ namespace oci.OpsiDatabaseInsight
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpsiDatabaseInsight.IOpsiDatabaseInsightConnectionDetailsHosts" />)[]</param>
         [JsiiMethod(name: "putHosts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.opsiDatabaseInsight.OpsiDatabaseInsightConnectionDetailsHosts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHosts(object @value)
         {
@@ -99,6 +100,9 @@ namespace oci.OpsiDatabaseInsight
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpsiDatabaseInsight.IOpsiDatabaseInsightConnectionDetailsHosts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.opsiDatabaseInsight.OpsiDatabaseInsightConnectionDetailsHosts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HostsInput

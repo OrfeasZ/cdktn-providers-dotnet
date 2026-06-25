@@ -257,6 +257,24 @@ namespace oci.DataOciDatabaseDbSystems
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "osPatchAction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OsPatchAction
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "osPatchDbNodeId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OsPatchDbNodeId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "osPatchTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double OsPatchTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "osVersion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OsVersion
         {
@@ -265,6 +283,12 @@ namespace oci.DataOciDatabaseDbSystems
 
         [JsiiProperty(name: "pointInTimeDataDiskCloneTimestamp", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PointInTimeDataDiskCloneTimestamp
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "primaryDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryDbSystemId
         {
             get => GetInstanceProperty<string>()!;
         }

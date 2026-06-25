@@ -63,6 +63,9 @@ namespace aws.DataAwsIamPolicyDocument
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementNotPrincipals" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementNotPrincipals\"}]}}", isOptional: true)]
         public virtual object? InternalValue

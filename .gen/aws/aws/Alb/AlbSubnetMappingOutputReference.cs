@@ -115,6 +115,9 @@ namespace aws.Alb
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Alb.IAlbSubnetMapping" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.alb.AlbSubnetMapping\"}]}}", isOptional: true)]
         public virtual object? InternalValue

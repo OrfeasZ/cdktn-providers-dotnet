@@ -65,6 +65,12 @@ namespace oci.DataOciCoreShape
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isCnic", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsCnic
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isFlexible", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsFlexible
         {
@@ -171,6 +177,12 @@ namespace oci.DataOciCoreShape
         public virtual oci.DataOciCoreShape.DataOciCoreShapeShapesPlatformConfigOptionsList PlatformConfigOptions
         {
             get => GetInstanceProperty<oci.DataOciCoreShape.DataOciCoreShapeShapesPlatformConfigOptionsList>()!;
+        }
+
+        [JsiiProperty(name: "platformNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] PlatformNames
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "processorDescription", typeJson: "{\"primitive\":\"string\"}")]

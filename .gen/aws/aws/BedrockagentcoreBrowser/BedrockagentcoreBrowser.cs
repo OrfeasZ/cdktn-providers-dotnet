@@ -46,6 +46,7 @@ namespace aws.BedrockagentcoreBrowser
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreBrowser.BedrockagentcoreBrowser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserNetworkConfiguration" />)[]</param>
         [JsiiMethod(name: "putNetworkConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserNetworkConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.BedrockagentcoreBrowser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserRecording" />)[]</param>
         [JsiiMethod(name: "putRecording", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecording\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecording(object @value)
         {
@@ -216,6 +218,9 @@ namespace aws.BedrockagentcoreBrowser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserNetworkConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserNetworkConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkConfigurationInput
@@ -223,6 +228,9 @@ namespace aws.BedrockagentcoreBrowser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserRecording" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recordingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecording\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecordingInput
@@ -244,6 +252,9 @@ namespace aws.BedrockagentcoreBrowser
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

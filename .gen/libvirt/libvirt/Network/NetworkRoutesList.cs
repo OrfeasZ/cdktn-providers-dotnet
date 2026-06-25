@@ -41,6 +41,9 @@ namespace libvirt.Network
             return InvokeInstanceMethod<libvirt.Network.NetworkRoutesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkRoutes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

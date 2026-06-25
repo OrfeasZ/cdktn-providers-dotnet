@@ -113,6 +113,9 @@ namespace libvirt.Volume
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeBackingStorePermissions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeBackingStorePermissions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -73,6 +73,9 @@ namespace aws.OpensearchDomainSamlOptions
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchDomainSamlOptions.IOpensearchDomainSamlOptionsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

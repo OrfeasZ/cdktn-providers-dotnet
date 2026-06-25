@@ -41,6 +41,9 @@ namespace stripe.V2BillingRateCardRate
             return InvokeInstanceMethod<stripe.V2BillingRateCardRate.V2BillingRateCardRateTiersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingRateCardRate.IV2BillingRateCardRateTiers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingRateCardRate.V2BillingRateCardRateTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

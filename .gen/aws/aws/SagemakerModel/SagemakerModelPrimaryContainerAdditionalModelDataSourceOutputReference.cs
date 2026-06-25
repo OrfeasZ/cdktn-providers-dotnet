@@ -35,6 +35,7 @@ namespace aws.SagemakerModel
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource" />)[]</param>
         [JsiiMethod(name: "putS3DataSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3DataSource(object @value)
         {
@@ -71,6 +72,9 @@ namespace aws.SagemakerModel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3DataSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3DataSourceInput
@@ -85,6 +89,9 @@ namespace aws.SagemakerModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerModel.ISagemakerModelPrimaryContainerAdditionalModelDataSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

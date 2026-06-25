@@ -41,6 +41,9 @@ namespace aws.WafregionalXssMatchSet
             return InvokeInstanceMethod<aws.WafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalXssMatchSet.IWafregionalXssMatchSetXssMatchTuple" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTuple\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -108,6 +108,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkIpsDhcp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dhcpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkIpsDhcp\"}]}}", isOptional: true)]
         public virtual object? DhcpInput
@@ -143,6 +146,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkIpsTftp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tftpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkIpsTftp\"}]}}", isOptional: true)]
         public virtual object? TftpInput
@@ -185,6 +191,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

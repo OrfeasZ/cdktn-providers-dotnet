@@ -143,6 +143,9 @@ namespace aws.S3BucketCorsConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketCorsConfiguration.IS3BucketCorsConfigurationCorsRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

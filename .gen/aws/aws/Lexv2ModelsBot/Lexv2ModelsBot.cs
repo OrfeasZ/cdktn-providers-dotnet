@@ -46,6 +46,7 @@ namespace aws.Lexv2ModelsBot
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Lexv2ModelsBot.Lexv2ModelsBot), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBot.ILexv2ModelsBotDataPrivacy" />)[]</param>
         [JsiiMethod(name: "putDataPrivacy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataPrivacy(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Lexv2ModelsBot
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBot.ILexv2ModelsBotMembers" />)[]</param>
         [JsiiMethod(name: "putMembers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBot.Lexv2ModelsBotMembers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMembers(object @value)
         {
@@ -201,6 +203,9 @@ namespace aws.Lexv2ModelsBot
             get => GetInstanceProperty<aws.Lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBot.ILexv2ModelsBotDataPrivacy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataPrivacyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataPrivacyInput
@@ -222,6 +227,9 @@ namespace aws.Lexv2ModelsBot
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBot.ILexv2ModelsBotMembers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "membersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBot.Lexv2ModelsBotMembers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MembersInput
@@ -264,6 +272,9 @@ namespace aws.Lexv2ModelsBot
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsBot.ILexv2ModelsBotTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsBot.Lexv2ModelsBotTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

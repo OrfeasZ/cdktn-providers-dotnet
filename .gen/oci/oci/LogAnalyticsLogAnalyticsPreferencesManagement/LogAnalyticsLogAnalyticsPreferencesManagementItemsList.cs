@@ -41,6 +41,9 @@ namespace oci.LogAnalyticsLogAnalyticsPreferencesManagement
             return InvokeInstanceMethod<oci.LogAnalyticsLogAnalyticsPreferencesManagement.LogAnalyticsLogAnalyticsPreferencesManagementItemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsLogAnalyticsPreferencesManagement.ILogAnalyticsLogAnalyticsPreferencesManagementItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsLogAnalyticsPreferencesManagement.LogAnalyticsLogAnalyticsPreferencesManagementItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

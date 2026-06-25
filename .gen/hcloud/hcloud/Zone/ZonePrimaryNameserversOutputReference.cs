@@ -109,6 +109,9 @@ namespace hcloud.Zone
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.Zone.IZonePrimaryNameservers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.zone.ZonePrimaryNameservers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

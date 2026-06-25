@@ -93,6 +93,9 @@ namespace oci.DatacatalogDataAsset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatacatalogDataAsset.IDatacatalogDataAssetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datacatalogDataAsset.DatacatalogDataAssetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

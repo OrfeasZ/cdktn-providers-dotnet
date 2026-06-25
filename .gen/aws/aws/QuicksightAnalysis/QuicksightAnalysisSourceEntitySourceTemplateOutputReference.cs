@@ -33,6 +33,7 @@ namespace aws.QuicksightAnalysis
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightAnalysis.IQuicksightAnalysisSourceEntitySourceTemplateDataSetReferences" />)[]</param>
         [JsiiMethod(name: "putDataSetReferences", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplateDataSetReferences\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataSetReferences(object @value)
         {
@@ -69,6 +70,9 @@ namespace aws.QuicksightAnalysis
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightAnalysis.IQuicksightAnalysisSourceEntitySourceTemplateDataSetReferences" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSetReferencesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightAnalysis.QuicksightAnalysisSourceEntitySourceTemplateDataSetReferences\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataSetReferencesInput

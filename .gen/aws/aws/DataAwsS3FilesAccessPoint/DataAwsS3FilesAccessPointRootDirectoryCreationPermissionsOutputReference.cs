@@ -53,6 +53,9 @@ namespace aws.DataAwsS3FilesAccessPoint
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsS3FilesAccessPoint.IDataAwsS3FilesAccessPointRootDirectoryCreationPermissions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsS3FilesAccessPoint.DataAwsS3FilesAccessPointRootDirectoryCreationPermissions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

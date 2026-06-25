@@ -53,6 +53,12 @@ namespace oci.DataOciTenantmanagercontrolplaneSenderInvitations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Features
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {
@@ -63,6 +69,12 @@ namespace oci.DataOciTenantmanagercontrolplaneSenderInvitations
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "invitationFeatures", typeJson: "{\"fqn\":\"oci.dataOciTenantmanagercontrolplaneSenderInvitations.DataOciTenantmanagercontrolplaneSenderInvitationsSenderInvitationCollectionItemsInvitationFeaturesList\"}")]
+        public virtual oci.DataOciTenantmanagercontrolplaneSenderInvitations.DataOciTenantmanagercontrolplaneSenderInvitationsSenderInvitationCollectionItemsInvitationFeaturesList InvitationFeatures
+        {
+            get => GetInstanceProperty<oci.DataOciTenantmanagercontrolplaneSenderInvitations.DataOciTenantmanagercontrolplaneSenderInvitationsSenderInvitationCollectionItemsInvitationFeaturesList>()!;
         }
 
         [JsiiProperty(name: "recipientEmailAddress", typeJson: "{\"primitive\":\"string\"}")]

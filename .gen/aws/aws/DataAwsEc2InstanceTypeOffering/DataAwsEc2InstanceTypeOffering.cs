@@ -46,6 +46,7 @@ namespace aws.DataAwsEc2InstanceTypeOffering
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsEc2InstanceTypeOffering.DataAwsEc2InstanceTypeOffering), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2InstanceTypeOffering.IDataAwsEc2InstanceTypeOfferingFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2InstanceTypeOffering.DataAwsEc2InstanceTypeOfferingFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.DataAwsEc2InstanceTypeOffering
             get => GetInstanceProperty<aws.DataAwsEc2InstanceTypeOffering.DataAwsEc2InstanceTypeOfferingTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2InstanceTypeOffering.IDataAwsEc2InstanceTypeOfferingFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2InstanceTypeOffering.DataAwsEc2InstanceTypeOfferingFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -189,6 +193,9 @@ namespace aws.DataAwsEc2InstanceTypeOffering
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2InstanceTypeOffering.IDataAwsEc2InstanceTypeOfferingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2InstanceTypeOffering.DataAwsEc2InstanceTypeOfferingTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

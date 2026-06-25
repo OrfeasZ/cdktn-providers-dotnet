@@ -9,7 +9,7 @@ namespace oci.DatascienceModelDeployment
     [JsiiByValue(fqn: "oci.datascienceModelDeployment.DatascienceModelDeploymentCategoryLogDetailsPredict")]
     public class DatascienceModelDeploymentCategoryLogDetailsPredict : oci.DatascienceModelDeployment.IDatascienceModelDeploymentCategoryLogDetailsPredict
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_model_deployment#log_group_id DatascienceModelDeployment#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_deployment#log_group_id DatascienceModelDeployment#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_model_deployment#log_id DatascienceModelDeployment#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_deployment#log_id DatascienceModelDeployment#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogId
         {

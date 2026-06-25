@@ -46,6 +46,7 @@ namespace aws.WafRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafRule.WafRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafRule.IWafRulePredicates" />)[]</param>
         [JsiiMethod(name: "putPredicates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafRule.WafRulePredicates\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPredicates(object @value)
         {
@@ -145,6 +146,9 @@ namespace aws.WafRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafRule.IWafRulePredicates" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "predicatesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafRule.WafRulePredicates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PredicatesInput

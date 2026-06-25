@@ -77,6 +77,9 @@ namespace scaleway.K8SPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.K8SPool.IK8SPoolStartupTaints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

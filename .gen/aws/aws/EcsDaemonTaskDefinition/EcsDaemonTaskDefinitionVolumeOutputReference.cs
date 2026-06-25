@@ -35,6 +35,7 @@ namespace aws.EcsDaemonTaskDefinition
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionVolumeHost" />)[]</param>
         [JsiiMethod(name: "putHost", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolumeHost\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHost(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.EcsDaemonTaskDefinition
             get => GetInstanceProperty<aws.EcsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolumeHostList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionVolumeHost" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolumeHost\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HostInput
@@ -91,6 +95,9 @@ namespace aws.EcsDaemonTaskDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionVolume" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolume\"}]}}", isOptional: true)]
         public virtual object? InternalValue

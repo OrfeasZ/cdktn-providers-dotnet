@@ -49,6 +49,9 @@ namespace oci.DatabaseAutonomousExadataInfrastructure
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousExadataInfrastructure.IDatabaseAutonomousExadataInfrastructureMaintenanceWindowDetailsDaysOfWeek" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousExadataInfrastructure.DatabaseAutonomousExadataInfrastructureMaintenanceWindowDetailsDaysOfWeek\"}]}}", isOptional: true)]
         public virtual object? InternalValue

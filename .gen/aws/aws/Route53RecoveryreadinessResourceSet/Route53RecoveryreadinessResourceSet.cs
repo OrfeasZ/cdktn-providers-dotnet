@@ -46,6 +46,7 @@ namespace aws.Route53RecoveryreadinessResourceSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Route53RecoveryreadinessResourceSet.Route53RecoveryreadinessResourceSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecoveryreadinessResourceSet.IRoute53RecoveryreadinessResourceSetResources" />)[]</param>
         [JsiiMethod(name: "putResources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecoveryreadinessResourceSet.Route53RecoveryreadinessResourceSetResources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResources(object @value)
         {
@@ -157,6 +158,9 @@ namespace aws.Route53RecoveryreadinessResourceSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecoveryreadinessResourceSet.IRoute53RecoveryreadinessResourceSetResources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecoveryreadinessResourceSet.Route53RecoveryreadinessResourceSetResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourcesInput
@@ -178,6 +182,9 @@ namespace aws.Route53RecoveryreadinessResourceSet
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53RecoveryreadinessResourceSet.IRoute53RecoveryreadinessResourceSetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53RecoveryreadinessResourceSet.Route53RecoveryreadinessResourceSetTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

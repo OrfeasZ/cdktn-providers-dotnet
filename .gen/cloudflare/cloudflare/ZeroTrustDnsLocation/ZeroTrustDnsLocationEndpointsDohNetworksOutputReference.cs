@@ -49,6 +49,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsDohNetworks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDohNetworks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

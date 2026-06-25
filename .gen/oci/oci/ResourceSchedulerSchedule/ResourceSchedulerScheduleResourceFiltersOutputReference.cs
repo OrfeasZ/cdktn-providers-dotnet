@@ -35,6 +35,7 @@ namespace oci.ResourceSchedulerSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFiltersValue" />)[]</param>
         [JsiiMethod(name: "putValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFiltersValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValue(object @value)
         {
@@ -96,6 +97,9 @@ namespace oci.ResourceSchedulerSchedule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shouldIncludeChildCompartmentsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShouldIncludeChildCompartmentsInput
@@ -103,6 +107,9 @@ namespace oci.ResourceSchedulerSchedule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFiltersValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFiltersValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValueInput
@@ -124,6 +131,9 @@ namespace oci.ResourceSchedulerSchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "shouldIncludeChildCompartments", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ShouldIncludeChildCompartments
         {
@@ -151,6 +161,9 @@ namespace oci.ResourceSchedulerSchedule
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFilters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFilters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

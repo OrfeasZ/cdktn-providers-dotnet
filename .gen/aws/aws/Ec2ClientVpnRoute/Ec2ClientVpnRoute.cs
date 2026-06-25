@@ -155,6 +155,9 @@ namespace aws.Ec2ClientVpnRoute
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2ClientVpnRoute.IEc2ClientVpnRouteTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2ClientVpnRoute.Ec2ClientVpnRouteTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

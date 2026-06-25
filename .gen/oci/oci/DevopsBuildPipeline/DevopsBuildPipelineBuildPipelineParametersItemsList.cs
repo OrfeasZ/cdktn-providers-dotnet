@@ -41,6 +41,9 @@ namespace oci.DevopsBuildPipeline
             return InvokeInstanceMethod<oci.DevopsBuildPipeline.DevopsBuildPipelineBuildPipelineParametersItemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsBuildPipeline.IDevopsBuildPipelineBuildPipelineParametersItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsBuildPipeline.DevopsBuildPipelineBuildPipelineParametersItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.FisExperimentTemplate
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateActionParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateActionParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -121,6 +122,9 @@ namespace aws.FisExperimentTemplate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateActionParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateActionParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput
@@ -170,6 +174,9 @@ namespace aws.FisExperimentTemplate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FisExperimentTemplate.IFisExperimentTemplateAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

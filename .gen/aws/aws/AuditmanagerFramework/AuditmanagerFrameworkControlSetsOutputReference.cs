@@ -35,6 +35,7 @@ namespace aws.AuditmanagerFramework
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerFramework.IAuditmanagerFrameworkControlSetsControls" />)[]</param>
         [JsiiMethod(name: "putControls", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControls\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutControls(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.AuditmanagerFramework
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerFramework.IAuditmanagerFrameworkControlSetsControls" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "controlsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControls\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ControlsInput
@@ -97,6 +101,9 @@ namespace aws.AuditmanagerFramework
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AuditmanagerFramework.IAuditmanagerFrameworkControlSets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.auditmanagerFramework.AuditmanagerFrameworkControlSets\"}]}}", isOptional: true)]
         public virtual object? InternalValue

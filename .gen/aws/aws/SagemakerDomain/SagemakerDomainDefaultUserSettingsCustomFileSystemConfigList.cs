@@ -41,6 +41,9 @@ namespace aws.SagemakerDomain
             return InvokeInstanceMethod<aws.SagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsCustomFileSystemConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

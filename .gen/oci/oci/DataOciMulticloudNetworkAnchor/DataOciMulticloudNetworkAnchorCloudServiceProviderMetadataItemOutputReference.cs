@@ -41,6 +41,12 @@ namespace oci.DataOciMulticloudNetworkAnchor
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "cspAdditionalProperties", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap CspAdditionalProperties
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "dnsForwardingConfig", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] DnsForwardingConfig
         {

@@ -109,6 +109,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontDistribution.ICloudfrontDistributionCustomErrorResponse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponse\"}]}}", isOptional: true)]
         public virtual object? InternalValue

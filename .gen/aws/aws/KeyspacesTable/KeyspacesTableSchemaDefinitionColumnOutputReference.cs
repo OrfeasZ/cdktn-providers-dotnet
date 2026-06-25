@@ -63,6 +63,9 @@ namespace aws.KeyspacesTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionColumn" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumn\"}]}}", isOptional: true)]
         public virtual object? InternalValue

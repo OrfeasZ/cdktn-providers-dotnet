@@ -41,6 +41,9 @@ namespace aws.BedrockagentAgent
             return InvokeInstanceMethod<aws.BedrockagentAgent.BedrockagentAgentGuardrailConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentGuardrailConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentGuardrailConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

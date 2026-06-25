@@ -69,6 +69,9 @@ namespace aws.CodecatalystDevEnvironment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentRepositories" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -144,6 +144,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkConfigA" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigA\"}]}}", isOptional: true)]
         public virtual object? ConfigInput
@@ -151,6 +154,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkFormat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "formatInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkFormat\"}]}}", isOptional: true)]
         public virtual object? FormatInput
@@ -165,6 +171,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schemaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchema\"}]}}", isOptional: true)]
         public virtual object? SchemaInput

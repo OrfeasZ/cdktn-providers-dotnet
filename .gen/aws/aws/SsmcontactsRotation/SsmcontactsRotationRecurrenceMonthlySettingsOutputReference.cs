@@ -35,6 +35,7 @@ namespace aws.SsmcontactsRotation
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceMonthlySettingsHandOffTime" />)[]</param>
         [JsiiMethod(name: "putHandOffTime", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettingsHandOffTime\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHandOffTime(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceMonthlySettingsHandOffTime" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "handOffTimeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettingsHandOffTime\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HandOffTimeInput
@@ -91,6 +95,9 @@ namespace aws.SsmcontactsRotation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceMonthlySettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettings\"}]}}", isOptional: true)]
         public virtual object? InternalValue

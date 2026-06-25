@@ -63,6 +63,9 @@ namespace aws.SecurityhubAutomationRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaComplianceStatus" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatus\"}]}}", isOptional: true)]
         public virtual object? InternalValue

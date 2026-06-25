@@ -109,6 +109,9 @@ namespace aws.FmsAdminAccount
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FmsAdminAccount.IFmsAdminAccountTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fmsAdminAccount.FmsAdminAccountTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -21,6 +21,7 @@ namespace aws.TransferWebApp
         /// <summary>endpoint_details block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "endpointDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,6 +36,7 @@ namespace aws.TransferWebApp
         /// <summary>identity_provider_details block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#identity_provider_details TransferWebApp#identity_provider_details}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "identityProviderDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,6 +85,9 @@ namespace aws.TransferWebApp
         }
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppWebAppUnits" />)[]</para>
+        /// </remarks>
         [JsiiProperty(name: "webAppUnits", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppWebAppUnits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? WebAppUnits
@@ -111,6 +116,7 @@ namespace aws.TransferWebApp
             /// <summary>endpoint_details block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpointDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -122,6 +128,7 @@ namespace aws.TransferWebApp
             /// <summary>identity_provider_details block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#identity_provider_details TransferWebApp#identity_provider_details}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "identityProviderDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -158,6 +165,9 @@ namespace aws.TransferWebApp
             }
 
             /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}.</summary>
+            /// <remarks>
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppWebAppUnits" />)[]</para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "webAppUnits", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppWebAppUnits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? WebAppUnits
@@ -167,6 +177,7 @@ namespace aws.TransferWebApp
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -177,6 +188,7 @@ namespace aws.TransferWebApp
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -227,6 +239,7 @@ namespace aws.TransferWebApp
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

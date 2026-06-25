@@ -35,6 +35,12 @@ namespace oci.DatabaseVmClusterNetwork
         {
         }
 
+        [JsiiMethod(name: "resetScanListenerPortTcpSsl")]
+        public virtual void ResetScanListenerPortTcpSsl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "hostnameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? HostnameInput
@@ -52,6 +58,13 @@ namespace oci.DatabaseVmClusterNetwork
         [JsiiOptional]
         [JsiiProperty(name: "scanListenerPortTcpInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ScanListenerPortTcpInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "scanListenerPortTcpSslInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? ScanListenerPortTcpSslInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -77,6 +90,16 @@ namespace oci.DatabaseVmClusterNetwork
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "scanListenerPortTcpSsl", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ScanListenerPortTcpSsl
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkDrScans" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkDrScans\"}]}}", isOptional: true)]
         public virtual object? InternalValue

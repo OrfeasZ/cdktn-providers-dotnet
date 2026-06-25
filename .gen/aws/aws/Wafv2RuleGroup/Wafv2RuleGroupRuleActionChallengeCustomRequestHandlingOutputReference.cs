@@ -33,6 +33,7 @@ namespace aws.Wafv2RuleGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader" />)[]</param>
         [JsiiMethod(name: "putInsertHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInsertHeader(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.Wafv2RuleGroup
             get => GetInstanceProperty<aws.Wafv2RuleGroup.Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeaderList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "insertHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionChallengeCustomRequestHandlingInsertHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InsertHeaderInput

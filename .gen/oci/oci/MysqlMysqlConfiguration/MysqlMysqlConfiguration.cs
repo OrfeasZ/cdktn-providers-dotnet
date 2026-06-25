@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.MysqlMysqlConfiguration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_mysql_configuration oci_mysql_mysql_configuration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_configuration oci_mysql_mysql_configuration}.</summary>
     [JsiiClass(nativeType: typeof(oci.MysqlMysqlConfiguration.MysqlMysqlConfiguration), fullyQualifiedName: "oci.mysqlMysqlConfiguration.MysqlMysqlConfiguration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationConfig\"}}]")]
     public class MysqlMysqlConfiguration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_mysql_configuration oci_mysql_mysql_configuration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_configuration oci_mysql_mysql_configuration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public MysqlMysqlConfiguration(Constructs.Construct scope, string id, oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.MysqlMysqlConfiguration
         /// <param name="importToId">The construct id used in the generated config for the MysqlMysqlConfiguration to import.</param>
         /// <param name="importFromId">The id of the existing MysqlMysqlConfiguration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the MysqlMysqlConfiguration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MysqlMysqlConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_mysql_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MysqlMysqlConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MysqlMysqlConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MysqlMysqlConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MysqlMysqlConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MysqlMysqlConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.MysqlMysqlConfiguration.MysqlMysqlConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,30 @@ namespace oci.MysqlMysqlConfiguration
         public virtual void PutInitVariables(oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationInitVariables @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationInitVariables)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationOptions" />)[]</param>
+        [JsiiMethod(name: "putOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationOptions\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutOptions(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationOptions[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationOptions).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationOptions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationTimeouts\"}}]")]
@@ -100,6 +124,12 @@ namespace oci.MysqlMysqlConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOptions")]
+        public virtual void ResetOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetParentConfigurationId")]
         public virtual void ResetParentConfigurationId()
         {
@@ -141,6 +171,12 @@ namespace oci.MysqlMysqlConfiguration
         public virtual oci.MysqlMysqlConfiguration.MysqlMysqlConfigurationInitVariablesOutputReference InitVariables
         {
             get => GetInstanceProperty<oci.MysqlMysqlConfiguration.MysqlMysqlConfigurationInitVariablesOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "options", typeJson: "{\"fqn\":\"oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationOptionsList\"}")]
+        public virtual oci.MysqlMysqlConfiguration.MysqlMysqlConfigurationOptionsList Options
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlConfiguration.MysqlMysqlConfigurationOptionsList>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -234,6 +270,16 @@ namespace oci.MysqlMysqlConfiguration
             get => GetInstanceProperty<oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationInitVariables?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationOptions" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "optionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? OptionsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "parentConfigurationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ParentConfigurationIdInput
@@ -248,6 +294,9 @@ namespace oci.MysqlMysqlConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

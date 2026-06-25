@@ -41,6 +41,9 @@ namespace oci.ObjectstorageBucket
             return InvokeInstanceMethod<oci.ObjectstorageBucket.ObjectstorageBucketRetentionRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstorageBucket.IObjectstorageBucketRetentionRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketRetentionRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

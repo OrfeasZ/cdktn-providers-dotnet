@@ -113,6 +113,9 @@ namespace scaleway.MnqSqsQueue
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.MnqSqsQueue.IMnqSqsQueueTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.mnqSqsQueue.MnqSqsQueueTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

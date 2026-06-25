@@ -41,6 +41,9 @@ namespace oci.DataOciMarketplaceMarketplaceMetadataPublicKeys
             return InvokeInstanceMethod<oci.DataOciMarketplaceMarketplaceMetadataPublicKeys.DataOciMarketplaceMarketplaceMetadataPublicKeysFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMarketplaceMarketplaceMetadataPublicKeys.IDataOciMarketplaceMarketplaceMetadataPublicKeysFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMarketplaceMarketplaceMetadataPublicKeys.DataOciMarketplaceMarketplaceMetadataPublicKeysFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

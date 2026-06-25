@@ -116,6 +116,9 @@ namespace aws.NatGatewayEipAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NatGatewayEipAssociation.INatGatewayEipAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.natGatewayEipAssociation.NatGatewayEipAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

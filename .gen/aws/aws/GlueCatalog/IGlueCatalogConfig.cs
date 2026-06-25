@@ -28,6 +28,7 @@ namespace aws.GlueCatalog
         /// <summary>catalog_properties block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogProperties" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "catalogProperties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,6 +43,7 @@ namespace aws.GlueCatalog
         /// <summary>create_database_default_permissions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "createDatabaseDefaultPermissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,6 +58,7 @@ namespace aws.GlueCatalog
         /// <summary>create_table_default_permissions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateTableDefaultPermissions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "createTableDefaultPermissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateTableDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,6 +84,7 @@ namespace aws.GlueCatalog
         /// <summary>federated_catalog block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogFederatedCatalog" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "federatedCatalog", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogFederatedCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,6 +146,7 @@ namespace aws.GlueCatalog
         /// <summary>target_redshift_catalog block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogTargetRedshiftCatalog" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "targetRedshiftCatalog", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogTargetRedshiftCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -192,6 +197,7 @@ namespace aws.GlueCatalog
             /// <summary>catalog_properties block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogProperties" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "catalogProperties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -203,6 +209,7 @@ namespace aws.GlueCatalog
             /// <summary>create_database_default_permissions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "createDatabaseDefaultPermissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -214,6 +221,7 @@ namespace aws.GlueCatalog
             /// <summary>create_table_default_permissions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateTableDefaultPermissions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "createTableDefaultPermissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateTableDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -233,6 +241,7 @@ namespace aws.GlueCatalog
             /// <summary>federated_catalog block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogFederatedCatalog" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "federatedCatalog", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogFederatedCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -279,6 +288,7 @@ namespace aws.GlueCatalog
             /// <summary>target_redshift_catalog block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogTargetRedshiftCatalog" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "targetRedshiftCatalog", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogTargetRedshiftCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -300,6 +310,7 @@ namespace aws.GlueCatalog
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -310,6 +321,7 @@ namespace aws.GlueCatalog
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -360,6 +372,7 @@ namespace aws.GlueCatalog
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

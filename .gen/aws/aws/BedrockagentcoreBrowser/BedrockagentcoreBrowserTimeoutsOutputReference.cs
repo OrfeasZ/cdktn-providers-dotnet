@@ -73,6 +73,9 @@ namespace aws.BedrockagentcoreBrowser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

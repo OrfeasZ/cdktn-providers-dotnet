@@ -33,6 +33,7 @@ namespace aws.MedialiveChannel
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptions" />)[]</param>
         [JsiiMethod(name: "putAudioDescriptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAudioDescriptions(object @value)
         {
@@ -62,6 +63,7 @@ namespace aws.MedialiveChannel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAvailBlanking)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptions" />)[]</param>
         [JsiiMethod(name: "putCaptionDescriptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCaptionDescriptions(object @value)
         {
@@ -103,6 +105,7 @@ namespace aws.MedialiveChannel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MedialiveChannel.IMedialiveChannelEncoderSettingsNielsenConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroups" />)[]</param>
         [JsiiMethod(name: "putOutputGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutputGroups(object @value)
         {
@@ -132,6 +135,7 @@ namespace aws.MedialiveChannel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MedialiveChannel.IMedialiveChannelEncoderSettingsTimecodeConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptions" />)[]</param>
         [JsiiMethod(name: "putVideoDescriptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVideoDescriptions(object @value)
         {
@@ -251,6 +255,9 @@ namespace aws.MedialiveChannel
             get => GetInstanceProperty<aws.MedialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "audioDescriptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AudioDescriptionsInput
@@ -265,6 +272,9 @@ namespace aws.MedialiveChannel
             get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAvailBlanking?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "captionDescriptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CaptionDescriptionsInput
@@ -293,6 +303,9 @@ namespace aws.MedialiveChannel
             get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsNielsenConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutputGroupsInput
@@ -307,6 +320,9 @@ namespace aws.MedialiveChannel
             get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsTimecodeConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "videoDescriptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VideoDescriptionsInput

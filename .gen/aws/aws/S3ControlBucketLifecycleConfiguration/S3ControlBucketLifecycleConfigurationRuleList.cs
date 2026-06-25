@@ -41,6 +41,9 @@ namespace aws.S3ControlBucketLifecycleConfiguration
             return InvokeInstanceMethod<aws.S3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfigurationRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlBucketLifecycleConfiguration.IS3ControlBucketLifecycleConfigurationRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfigurationRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

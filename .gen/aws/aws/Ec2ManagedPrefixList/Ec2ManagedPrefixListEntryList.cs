@@ -41,6 +41,9 @@ namespace aws.Ec2ManagedPrefixList
             return InvokeInstanceMethod<aws.Ec2ManagedPrefixList.Ec2ManagedPrefixListEntryOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2ManagedPrefixList.IEc2ManagedPrefixListEntry" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -10,6 +10,7 @@ namespace aws.SsoadminApplication
         /// <summary>sign_in_options block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssoadmin_application#sign_in_options SsoadminApplication#sign_in_options}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptionsSignInOptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "signInOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,6 +43,7 @@ namespace aws.SsoadminApplication
             /// <summary>sign_in_options block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssoadmin_application#sign_in_options SsoadminApplication#sign_in_options}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptionsSignInOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "signInOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

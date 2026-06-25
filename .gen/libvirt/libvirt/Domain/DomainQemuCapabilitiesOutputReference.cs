@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCapabilitiesAdd" />)[]</param>
         [JsiiMethod(name: "putAdd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCapabilitiesAdd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdd(object @value)
         {
@@ -56,6 +57,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCapabilitiesDel" />)[]</param>
         [JsiiMethod(name: "putDel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCapabilitiesDel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDel(object @value)
         {
@@ -103,6 +105,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainQemuCapabilitiesDelList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCapabilitiesAdd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCapabilitiesAdd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AddInput
@@ -110,6 +115,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCapabilitiesDel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "delInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCapabilitiesDel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DelInput
@@ -117,6 +125,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainQemuCapabilities" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainQemuCapabilities\"}]}}", isOptional: true)]
         public virtual object? InternalValue

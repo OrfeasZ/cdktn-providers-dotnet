@@ -33,6 +33,7 @@ namespace oci.IdentityDomainsGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsGroup.IIdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroupOwners" />)[]</param>
         [JsiiMethod(name: "putOwners", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsGroup.IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroupOwners\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOwners(object @value)
         {
@@ -118,6 +119,9 @@ namespace oci.IdentityDomainsGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsGroup.IIdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroupOwners" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ownersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsGroup.IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroupOwners\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OwnersInput

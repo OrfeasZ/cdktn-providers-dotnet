@@ -135,6 +135,9 @@ namespace oci.JmsTaskSchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsCryptoTaskRequestTargets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsCryptoTaskRequestTargets\"}]}}", isOptional: true)]
         public virtual object? InternalValue

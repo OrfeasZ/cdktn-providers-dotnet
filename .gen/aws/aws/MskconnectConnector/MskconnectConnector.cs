@@ -76,6 +76,7 @@ namespace aws.MskconnectConnector
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskconnectConnector.IMskconnectConnectorLogDelivery)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskconnectConnector.IMskconnectConnectorPlugin" />)[]</param>
         [JsiiMethod(name: "putPlugin", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorPlugin\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlugin(object @value)
         {
@@ -308,6 +309,9 @@ namespace aws.MskconnectConnector
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskconnectConnector.IMskconnectConnectorPlugin" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pluginInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorPlugin\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PluginInput
@@ -343,6 +347,9 @@ namespace aws.MskconnectConnector
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MskconnectConnector.IMskconnectConnectorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

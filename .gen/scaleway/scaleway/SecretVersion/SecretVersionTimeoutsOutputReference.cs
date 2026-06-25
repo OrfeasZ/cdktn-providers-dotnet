@@ -53,6 +53,9 @@ namespace scaleway.SecretVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.SecretVersion.ISecretVersionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.secretVersion.SecretVersionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.Ami
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Ami.Ami), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ami.IAmiEbsBlockDevice" />)[]</param>
         [JsiiMethod(name: "putEbsBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEbsBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEbsBlockDevice(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Ami
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ami.IAmiEphemeralBlockDevice" />)[]</param>
         [JsiiMethod(name: "putEphemeralBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEphemeralBlockDevice(object @value)
         {
@@ -361,6 +363,9 @@ namespace aws.Ami
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ami.IAmiEbsBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EbsBlockDeviceInput
@@ -368,6 +373,9 @@ namespace aws.Ami
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enaSupportInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnaSupportInput
@@ -375,6 +383,9 @@ namespace aws.Ami
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ami.IAmiEphemeralBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EphemeralBlockDeviceInput
@@ -459,6 +470,9 @@ namespace aws.Ami
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ami.IAmiTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ami.AmiTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -515,6 +529,9 @@ namespace aws.Ami
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enaSupport", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnaSupport
         {

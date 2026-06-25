@@ -60,6 +60,9 @@ namespace aws.SagemakerDomain
             get => GetInstanceProperty<aws.SagemakerDomain.ISagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerDomain.ISagemakerDomainDefaultSpaceSettingsCustomFileSystemConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

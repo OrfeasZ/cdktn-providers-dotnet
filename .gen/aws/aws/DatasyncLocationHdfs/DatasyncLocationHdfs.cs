@@ -46,6 +46,7 @@ namespace aws.DatasyncLocationHdfs
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatasyncLocationHdfs.DatasyncLocationHdfs), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatasyncLocationHdfs.IDatasyncLocationHdfsNameNode" />)[]</param>
         [JsiiMethod(name: "putNameNode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNameNode(object @value)
         {
@@ -284,6 +285,9 @@ namespace aws.DatasyncLocationHdfs
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatasyncLocationHdfs.IDatasyncLocationHdfsNameNode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameNodeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NameNodeInput

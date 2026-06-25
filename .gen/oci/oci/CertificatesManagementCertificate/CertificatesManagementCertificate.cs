@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CertificatesManagementCertificate
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate oci_certificates_management_certificate}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate oci_certificates_management_certificate}.</summary>
     [JsiiClass(nativeType: typeof(oci.CertificatesManagementCertificate.CertificatesManagementCertificate), fullyQualifiedName: "oci.certificatesManagementCertificate.CertificatesManagementCertificate", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateConfig\"}}]")]
     public class CertificatesManagementCertificate : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate oci_certificates_management_certificate} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate oci_certificates_management_certificate} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CertificatesManagementCertificate(Constructs.Construct scope, string id, oci.CertificatesManagementCertificate.ICertificatesManagementCertificateConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.CertificatesManagementCertificate
         /// <param name="importToId">The construct id used in the generated config for the CertificatesManagementCertificate to import.</param>
         /// <param name="importFromId">The id of the existing CertificatesManagementCertificate that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CertificatesManagementCertificate to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CertificatesManagementCertificate to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CertificatesManagementCertificate that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CertificatesManagementCertificate to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CertificatesManagementCertificate to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CertificatesManagementCertificate that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CertificatesManagementCertificate to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CertificatesManagementCertificate.CertificatesManagementCertificate), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,6 +52,7 @@ namespace oci.CertificatesManagementCertificate
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateRules" />)[]</param>
         [JsiiMethod(name: "putCertificateRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCertificateRules(object @value)
         {
@@ -83,6 +84,12 @@ namespace oci.CertificatesManagementCertificate
 
         [JsiiMethod(name: "resetCertificateRules")]
         public virtual void ResetCertificateRules()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCurrentVersionNumber")]
+        public virtual void ResetCurrentVersionNumber()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -233,6 +240,9 @@ namespace oci.CertificatesManagementCertificate
             get => GetInstanceProperty<oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CertificateRulesInput
@@ -243,6 +253,13 @@ namespace oci.CertificatesManagementCertificate
         [JsiiOptional]
         [JsiiProperty(name: "compartmentIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CompartmentIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "currentVersionNumberInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CurrentVersionNumberInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -282,6 +299,9 @@ namespace oci.CertificatesManagementCertificate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -291,6 +311,13 @@ namespace oci.CertificatesManagementCertificate
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "currentVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CurrentVersionNumber
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -35,6 +35,7 @@ namespace aws.BedrockagentFlow
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionConnectionConfiguration" />)[]</param>
         [JsiiMethod(name: "putConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfiguration(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockagentFlow
             get => GetInstanceProperty<aws.BedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionConnectionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationInput
@@ -133,6 +137,9 @@ namespace aws.BedrockagentFlow
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionConnection" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentFlow.BedrockagentFlowDefinitionConnection\"}]}}", isOptional: true)]
         public virtual object? InternalValue

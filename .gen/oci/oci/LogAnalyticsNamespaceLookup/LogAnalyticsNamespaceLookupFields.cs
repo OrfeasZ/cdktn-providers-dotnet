@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceLookup
     [JsiiByValue(fqn: "oci.logAnalyticsNamespaceLookup.LogAnalyticsNamespaceLookupFields")]
     public class LogAnalyticsNamespaceLookupFields : oci.LogAnalyticsNamespaceLookup.ILogAnalyticsNamespaceLookupFields
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#common_field_name LogAnalyticsNamespaceLookup#common_field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#common_field_name LogAnalyticsNamespaceLookup#common_field_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commonFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommonFieldName
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultMatchValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultMatchValue
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#display_name LogAnalyticsNamespaceLookup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#display_name LogAnalyticsNamespaceLookup#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -36,7 +36,10 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         private object? _isCommonField;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#is_common_field LogAnalyticsNamespaceLookup#is_common_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#is_common_field LogAnalyticsNamespaceLookup#is_common_field}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isCommonField", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsCommonField
@@ -65,7 +68,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#match_operator LogAnalyticsNamespaceLookup#match_operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#match_operator LogAnalyticsNamespaceLookup#match_operator}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchOperator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchOperator
@@ -74,7 +77,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#name LogAnalyticsNamespaceLookup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#name LogAnalyticsNamespaceLookup#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -83,7 +86,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#position LogAnalyticsNamespaceLookup#position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#position LogAnalyticsNamespaceLookup#position}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "position", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Position

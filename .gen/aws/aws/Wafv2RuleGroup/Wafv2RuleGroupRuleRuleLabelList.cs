@@ -41,6 +41,9 @@ namespace aws.Wafv2RuleGroup
             return InvokeInstanceMethod<aws.Wafv2RuleGroup.Wafv2RuleGroupRuleRuleLabelOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleRuleLabel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleRuleLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

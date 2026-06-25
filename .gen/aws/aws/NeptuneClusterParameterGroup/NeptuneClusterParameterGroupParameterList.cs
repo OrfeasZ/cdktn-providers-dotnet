@@ -41,6 +41,9 @@ namespace aws.NeptuneClusterParameterGroup
             return InvokeInstanceMethod<aws.NeptuneClusterParameterGroup.NeptuneClusterParameterGroupParameterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NeptuneClusterParameterGroup.INeptuneClusterParameterGroupParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.neptuneClusterParameterGroup.NeptuneClusterParameterGroupParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -51,6 +51,12 @@ namespace oci.GenerativeAiAgentTool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigDatabaseSchema)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putEmbeddingLlmCustomization", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigEmbeddingLlmCustomization\"}}]")]
+        public virtual void PutEmbeddingLlmCustomization(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigEmbeddingLlmCustomization @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigEmbeddingLlmCustomization)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putFunction", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigFunction\"}}]")]
         public virtual void PutFunction(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigFunction @value)
         {
@@ -75,6 +81,7 @@ namespace oci.GenerativeAiAgentTool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigIclExamples)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigKnowledgeBaseConfigs" />)[]</param>
         [JsiiMethod(name: "putKnowledgeBaseConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigKnowledgeBaseConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKnowledgeBaseConfigs(object @value)
         {
@@ -96,6 +103,18 @@ namespace oci.GenerativeAiAgentTool
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putReasoningLlmCustomization", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigReasoningLlmCustomization\"}}]")]
+        public virtual void PutReasoningLlmCustomization(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigReasoningLlmCustomization @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigReasoningLlmCustomization)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putRerankingLlmCustomization", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigRerankingLlmCustomization\"}}]")]
+        public virtual void PutRerankingLlmCustomization(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigRerankingLlmCustomization @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigRerankingLlmCustomization)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTableAndColumnDescription", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigTableAndColumnDescription\"}}]")]
@@ -134,6 +153,12 @@ namespace oci.GenerativeAiAgentTool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetEmbeddingLlmCustomization")]
+        public virtual void ResetEmbeddingLlmCustomization()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetFunction")]
         public virtual void ResetFunction()
         {
@@ -166,6 +191,24 @@ namespace oci.GenerativeAiAgentTool
 
         [JsiiMethod(name: "resetModelSize")]
         public virtual void ResetModelSize()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetReasoningLlmCustomization")]
+        public virtual void ResetReasoningLlmCustomization()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRerankingLlmCustomization")]
+        public virtual void ResetRerankingLlmCustomization()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRuntimeVersion")]
+        public virtual void ResetRuntimeVersion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -212,6 +255,12 @@ namespace oci.GenerativeAiAgentTool
             get => GetInstanceProperty<oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigDatabaseSchemaOutputReference>()!;
         }
 
+        [JsiiProperty(name: "embeddingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigEmbeddingLlmCustomizationOutputReference\"}")]
+        public virtual oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigEmbeddingLlmCustomizationOutputReference EmbeddingLlmCustomization
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigEmbeddingLlmCustomizationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "function", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigFunctionOutputReference\"}")]
         public virtual oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigFunctionOutputReference Function
         {
@@ -240,6 +289,18 @@ namespace oci.GenerativeAiAgentTool
         public virtual oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigKnowledgeBaseConfigsList KnowledgeBaseConfigs
         {
             get => GetInstanceProperty<oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigKnowledgeBaseConfigsList>()!;
+        }
+
+        [JsiiProperty(name: "reasoningLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigReasoningLlmCustomizationOutputReference\"}")]
+        public virtual oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigReasoningLlmCustomizationOutputReference ReasoningLlmCustomization
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigReasoningLlmCustomizationOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "rerankingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigRerankingLlmCustomizationOutputReference\"}")]
+        public virtual oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigRerankingLlmCustomizationOutputReference RerankingLlmCustomization
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigRerankingLlmCustomizationOutputReference>()!;
         }
 
         [JsiiProperty(name: "tableAndColumnDescription", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigTableAndColumnDescriptionOutputReference\"}")]
@@ -284,6 +345,13 @@ namespace oci.GenerativeAiAgentTool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "embeddingLlmCustomizationInput", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigEmbeddingLlmCustomization\"}", isOptional: true)]
+        public virtual oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigEmbeddingLlmCustomization? EmbeddingLlmCustomizationInput
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigEmbeddingLlmCustomization?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "functionInput", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigFunction\"}", isOptional: true)]
         public virtual oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigFunction? FunctionInput
         {
@@ -311,6 +379,9 @@ namespace oci.GenerativeAiAgentTool
             get => GetInstanceProperty<oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigIclExamples?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigKnowledgeBaseConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "knowledgeBaseConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigKnowledgeBaseConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KnowledgeBaseConfigsInput
@@ -326,12 +397,39 @@ namespace oci.GenerativeAiAgentTool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "reasoningLlmCustomizationInput", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigReasoningLlmCustomization\"}", isOptional: true)]
+        public virtual oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigReasoningLlmCustomization? ReasoningLlmCustomizationInput
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigReasoningLlmCustomization?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "rerankingLlmCustomizationInput", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigRerankingLlmCustomization\"}", isOptional: true)]
+        public virtual oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigRerankingLlmCustomization? RerankingLlmCustomizationInput
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigRerankingLlmCustomization?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "runtimeVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RuntimeVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "shouldEnableSelfCorrectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShouldEnableSelfCorrectionInput
         {
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shouldEnableSqlExecutionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShouldEnableSqlExecutionInput
@@ -381,6 +479,16 @@ namespace oci.GenerativeAiAgentTool
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "shouldEnableSelfCorrection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ShouldEnableSelfCorrection
         {
@@ -408,6 +516,9 @@ namespace oci.GenerativeAiAgentTool
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "shouldEnableSqlExecution", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ShouldEnableSqlExecution
         {

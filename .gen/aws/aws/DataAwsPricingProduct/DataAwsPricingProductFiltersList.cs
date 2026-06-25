@@ -41,6 +41,9 @@ namespace aws.DataAwsPricingProduct
             return InvokeInstanceMethod<aws.DataAwsPricingProduct.DataAwsPricingProductFiltersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsPricingProduct.IDataAwsPricingProductFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsPricingProduct.DataAwsPricingProductFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

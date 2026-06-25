@@ -93,6 +93,9 @@ namespace aws.WorkspacesWorkspace
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspacesWorkspace.IWorkspacesWorkspaceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspacesWorkspace.WorkspacesWorkspaceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

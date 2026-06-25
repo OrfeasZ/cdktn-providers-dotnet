@@ -46,6 +46,7 @@ namespace aws.FmsResourceSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FmsResourceSet.FmsResourceSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FmsResourceSet.IFmsResourceSetResourceSet" />)[]</param>
         [JsiiMethod(name: "putResourceSet", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fmsResourceSet.FmsResourceSetResourceSet\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceSet(object @value)
         {
@@ -155,6 +156,9 @@ namespace aws.FmsResourceSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FmsResourceSet.IFmsResourceSetResourceSet" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceSetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fmsResourceSet.FmsResourceSetResourceSet\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceSetInput
@@ -169,6 +173,9 @@ namespace aws.FmsResourceSet
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FmsResourceSet.IFmsResourceSetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fmsResourceSet.FmsResourceSetTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

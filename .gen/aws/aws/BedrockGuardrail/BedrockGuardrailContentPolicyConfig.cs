@@ -12,6 +12,7 @@ namespace aws.BedrockGuardrail
         /// <summary>filters_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_guardrail#filters_config BedrockGuardrail#filters_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigFiltersConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filtersConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,6 +45,9 @@ namespace aws.BedrockGuardrail
         private object? _tierConfig;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_guardrail#tier_config BedrockGuardrail#tier_config}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigTierConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tierConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? TierConfig

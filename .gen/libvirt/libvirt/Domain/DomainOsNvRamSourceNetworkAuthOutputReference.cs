@@ -57,6 +57,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainOsNvRamSourceNetworkAuthSecretOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsNvRamSourceNetworkAuthSecret" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceNetworkAuthSecret\"}]}}", isOptional: true)]
         public virtual object? SecretInput
@@ -78,6 +81,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsNvRamSourceNetworkAuth" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceNetworkAuth\"}]}}", isOptional: true)]
         public virtual object? InternalValue

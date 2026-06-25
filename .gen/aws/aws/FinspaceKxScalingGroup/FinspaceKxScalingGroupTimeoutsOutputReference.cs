@@ -93,6 +93,9 @@ namespace aws.FinspaceKxScalingGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxScalingGroup.IFinspaceKxScalingGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxScalingGroup.FinspaceKxScalingGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

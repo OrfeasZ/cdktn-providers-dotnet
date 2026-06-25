@@ -39,6 +39,7 @@ namespace libvirt.Volume
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Volume.IVolumeTargetEncryption)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Volume.IVolumeTargetFeatures" />)[]</param>
         [JsiiMethod(name: "putFeatures", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.volume.VolumeTargetFeatures\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFeatures(object @value)
         {
@@ -185,6 +186,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetEncryption" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetEncryption\"}]}}", isOptional: true)]
         public virtual object? EncryptionInput
@@ -192,6 +196,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Volume.IVolumeTargetFeatures" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featuresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.volume.VolumeTargetFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FeaturesInput
@@ -199,6 +206,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetFormat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "formatInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetFormat\"}]}}", isOptional: true)]
         public virtual object? FormatInput
@@ -206,6 +216,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetPermissions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetPermissions\"}]}}", isOptional: true)]
         public virtual object? PermissionsInput
@@ -213,6 +226,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetTimestamps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timestampsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetTimestamps\"}]}}", isOptional: true)]
         public virtual object? TimestampsInput
@@ -241,6 +257,9 @@ namespace libvirt.Volume
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTarget" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTarget\"}]}}", isOptional: true)]
         public virtual object? InternalValue

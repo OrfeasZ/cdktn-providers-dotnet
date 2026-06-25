@@ -46,6 +46,7 @@ namespace aws.LexSlotType
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LexSlotType.LexSlotType), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexSlotType.ILexSlotTypeEnumerationValue" />)[]</param>
         [JsiiMethod(name: "putEnumerationValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexSlotType.LexSlotTypeEnumerationValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnumerationValue(object @value)
         {
@@ -166,6 +167,9 @@ namespace aws.LexSlotType
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createVersionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CreateVersionInput
@@ -180,6 +184,9 @@ namespace aws.LexSlotType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexSlotType.ILexSlotTypeEnumerationValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enumerationValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexSlotType.LexSlotTypeEnumerationValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnumerationValueInput
@@ -208,6 +215,9 @@ namespace aws.LexSlotType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LexSlotType.ILexSlotTypeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexSlotType.LexSlotTypeTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -222,6 +232,9 @@ namespace aws.LexSlotType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "createVersion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object CreateVersion
         {

@@ -93,6 +93,9 @@ namespace oci.FusionAppsFusionEnvironmentFamily
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FusionAppsFusionEnvironmentFamily.IFusionAppsFusionEnvironmentFamilyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fusionAppsFusionEnvironmentFamily.FusionAppsFusionEnvironmentFamilyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

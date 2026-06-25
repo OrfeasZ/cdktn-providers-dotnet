@@ -227,6 +227,9 @@ namespace aws.Ec2TransitGatewayMeteringPolicyEntry
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2TransitGatewayMeteringPolicyEntry.IEc2TransitGatewayMeteringPolicyEntryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2TransitGatewayMeteringPolicyEntry.Ec2TransitGatewayMeteringPolicyEntryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

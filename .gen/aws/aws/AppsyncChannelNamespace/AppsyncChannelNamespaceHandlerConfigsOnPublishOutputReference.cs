@@ -35,6 +35,7 @@ namespace aws.AppsyncChannelNamespace
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublishIntegration" />)[]</param>
         [JsiiMethod(name: "putIntegration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublishIntegration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIntegration(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublishIntegration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "integrationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublishIntegration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IntegrationInput
@@ -91,6 +95,9 @@ namespace aws.AppsyncChannelNamespace
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublish" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublish\"}]}}", isOptional: true)]
         public virtual object? InternalValue

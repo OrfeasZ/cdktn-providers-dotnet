@@ -46,6 +46,7 @@ namespace aws.SfnAlias
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SfnAlias.SfnAlias), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SfnAlias.ISfnAliasRoutingConfiguration" />)[]</param>
         [JsiiMethod(name: "putRoutingConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sfnAlias.SfnAliasRoutingConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutingConfiguration(object @value)
         {
@@ -170,6 +171,9 @@ namespace aws.SfnAlias
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SfnAlias.ISfnAliasRoutingConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routingConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sfnAlias.SfnAliasRoutingConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutingConfigurationInput
@@ -177,6 +181,9 @@ namespace aws.SfnAlias
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SfnAlias.ISfnAliasTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sfnAlias.SfnAliasTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

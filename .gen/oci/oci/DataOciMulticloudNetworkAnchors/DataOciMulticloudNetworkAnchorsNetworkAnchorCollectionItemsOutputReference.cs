@@ -35,6 +35,12 @@ namespace oci.DataOciMulticloudNetworkAnchors
         {
         }
 
+        [JsiiProperty(name: "cidrBlocks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] CidrBlocks
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClusterPlacementGroupId
         {
@@ -43,6 +49,18 @@ namespace oci.DataOciMulticloudNetworkAnchors
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cspAdditionalProperties", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap CspAdditionalProperties
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "cspNetworkAnchorId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CspNetworkAnchorId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -77,14 +95,32 @@ namespace oci.DataOciMulticloudNetworkAnchors
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "networkAnchorConnectionStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkAnchorConnectionStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "networkAnchorLifecycleState", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NetworkAnchorLifecycleState
         {
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "networkAnchorUri", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkAnchorUri
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "resourceAnchorId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ResourceAnchorId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "subscriptionType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubscriptionType
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -109,6 +145,12 @@ namespace oci.DataOciMulticloudNetworkAnchors
 
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VcnId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vcnName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VcnName
         {
             get => GetInstanceProperty<string>()!;
         }

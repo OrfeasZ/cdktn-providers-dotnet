@@ -116,6 +116,9 @@ namespace aws.Ec2TransitGatewayMulticastDomainAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2TransitGatewayMulticastDomainAssociation.IEc2TransitGatewayMulticastDomainAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2TransitGatewayMulticastDomainAssociation.Ec2TransitGatewayMulticastDomainAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

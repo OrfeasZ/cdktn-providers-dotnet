@@ -143,6 +143,9 @@ namespace hcloud.StorageBox
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.StorageBox.IStorageBoxAccessSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.storageBox.StorageBoxAccessSettings\"}]}}", isOptional: true)]
         public virtual object? AccessSettingsInput
@@ -150,6 +153,9 @@ namespace hcloud.StorageBox
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeleteProtectionInput
@@ -185,6 +191,9 @@ namespace hcloud.StorageBox
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.StorageBox.IStorageBoxSnapshotPlan" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotPlanInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.storageBox.StorageBoxSnapshotPlan\"}]}}", isOptional: true)]
         public virtual object? SnapshotPlanInput
@@ -206,6 +215,9 @@ namespace hcloud.StorageBox
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeleteProtection
         {

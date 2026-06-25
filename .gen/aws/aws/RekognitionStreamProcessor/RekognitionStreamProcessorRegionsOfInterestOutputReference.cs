@@ -35,6 +35,7 @@ namespace aws.RekognitionStreamProcessor
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterestBoundingBox" />)[]</param>
         [JsiiMethod(name: "putBoundingBox", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBox\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBoundingBox(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterestPolygon" />)[]</param>
         [JsiiMethod(name: "putPolygon", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygon\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolygon(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<aws.RekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygonList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterestBoundingBox" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "boundingBoxInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBox\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BoundingBoxInput
@@ -112,6 +117,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterestPolygon" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "polygonInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygon\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PolygonInput
@@ -119,6 +127,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterest" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterest\"}]}}", isOptional: true)]
         public virtual object? InternalValue

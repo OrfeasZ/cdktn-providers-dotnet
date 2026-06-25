@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsCondition
             return InvokeInstanceMethod<oci.IdentityDomainsCondition.IdentityDomainsConditionTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsCondition.IIdentityDomainsConditionTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsCondition.IdentityDomainsConditionTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

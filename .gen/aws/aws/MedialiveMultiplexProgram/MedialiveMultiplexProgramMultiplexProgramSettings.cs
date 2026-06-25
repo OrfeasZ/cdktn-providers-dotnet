@@ -30,6 +30,7 @@ namespace aws.MedialiveMultiplexProgram
         /// <summary>service_descriptor block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_multiplex_program#service_descriptor MedialiveMultiplexProgram#service_descriptor}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptor" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceDescriptor", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,6 +65,7 @@ namespace aws.MedialiveMultiplexProgram
         /// <summary>video_settings block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_multiplex_program#video_settings MedialiveMultiplexProgram#video_settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettingsVideoSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "videoSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]

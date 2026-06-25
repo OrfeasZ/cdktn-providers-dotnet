@@ -32,6 +32,7 @@ namespace aws.SecurityhubAutomationRule
         /// <summary>note block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#note SecurityhubAutomationRule#note}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateNote" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "note", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNote\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,6 +47,7 @@ namespace aws.SecurityhubAutomationRule
         /// <summary>related_findings block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#related_findings SecurityhubAutomationRule#related_findings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "relatedFindings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,6 +62,7 @@ namespace aws.SecurityhubAutomationRule
         /// <summary>severity block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#severity SecurityhubAutomationRule#severity}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "severity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,6 +110,7 @@ namespace aws.SecurityhubAutomationRule
         /// <summary>workflow block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#workflow SecurityhubAutomationRule#workflow}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "workflow", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,6 +148,7 @@ namespace aws.SecurityhubAutomationRule
             /// <summary>note block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#note SecurityhubAutomationRule#note}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateNote" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "note", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNote\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -155,6 +160,7 @@ namespace aws.SecurityhubAutomationRule
             /// <summary>related_findings block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#related_findings SecurityhubAutomationRule#related_findings}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "relatedFindings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -166,6 +172,7 @@ namespace aws.SecurityhubAutomationRule
             /// <summary>severity block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#severity SecurityhubAutomationRule#severity}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "severity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -201,6 +208,7 @@ namespace aws.SecurityhubAutomationRule
             /// <summary>workflow block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#workflow SecurityhubAutomationRule#workflow}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workflow", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow\"},\"kind\":\"array\"}}]}}", isOptional: true)]

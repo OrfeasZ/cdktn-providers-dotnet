@@ -35,6 +35,7 @@ namespace aws.ImagebuilderImageRecipe
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponentParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponentParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.ImagebuilderImageRecipe
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponentParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponentParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput
@@ -91,6 +95,9 @@ namespace aws.ImagebuilderImageRecipe
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponent\"}]}}", isOptional: true)]
         public virtual object? InternalValue

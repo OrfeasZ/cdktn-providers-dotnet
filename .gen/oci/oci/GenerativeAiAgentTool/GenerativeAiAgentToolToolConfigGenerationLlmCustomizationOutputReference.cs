@@ -33,10 +33,34 @@ namespace oci.GenerativeAiAgentTool
         {
         }
 
+        [JsiiMethod(name: "putLlmSelection", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelection\"}}]")]
+        public virtual void PutLlmSelection(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelection @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelection)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetInstruction")]
         public virtual void ResetInstruction()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLlmHyperParameters")]
+        public virtual void ResetLlmHyperParameters()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLlmSelection")]
+        public virtual void ResetLlmSelection()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "llmSelection", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelectionOutputReference\"}")]
+        public virtual oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelectionOutputReference LlmSelection
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.GenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelectionOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -46,10 +70,31 @@ namespace oci.GenerativeAiAgentTool
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "llmHyperParametersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? LlmHyperParametersInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "llmSelectionInput", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelection\"}", isOptional: true)]
+        public virtual oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelection? LlmSelectionInput
+        {
+            get => GetInstanceProperty<oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelection?>();
+        }
+
         [JsiiProperty(name: "instruction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Instruction
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "llmHyperParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> LlmHyperParameters
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 

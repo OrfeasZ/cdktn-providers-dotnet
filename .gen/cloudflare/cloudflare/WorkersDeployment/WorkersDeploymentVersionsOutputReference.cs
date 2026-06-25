@@ -63,6 +63,9 @@ namespace cloudflare.WorkersDeployment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersDeployment.IWorkersDeploymentVersions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentVersions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

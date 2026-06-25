@@ -35,6 +35,7 @@ namespace oci.DataOciStackMonitoringBaselineableMetricsEvaluate
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringBaselineableMetricsEvaluate.IDataOciStackMonitoringBaselineableMetricsEvaluateItemsEvaluationDataPoints" />)[]</param>
         [JsiiMethod(name: "putEvaluationDataPoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciStackMonitoringBaselineableMetricsEvaluate.DataOciStackMonitoringBaselineableMetricsEvaluateItemsEvaluationDataPoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEvaluationDataPoints(object @value)
         {
@@ -58,6 +59,7 @@ namespace oci.DataOciStackMonitoringBaselineableMetricsEvaluate
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringBaselineableMetricsEvaluate.IDataOciStackMonitoringBaselineableMetricsEvaluateItemsTrainingDataPoints" />)[]</param>
         [JsiiMethod(name: "putTrainingDataPoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciStackMonitoringBaselineableMetricsEvaluate.DataOciStackMonitoringBaselineableMetricsEvaluateItemsTrainingDataPoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrainingDataPoints(object @value)
         {
@@ -112,6 +114,9 @@ namespace oci.DataOciStackMonitoringBaselineableMetricsEvaluate
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringBaselineableMetricsEvaluate.IDataOciStackMonitoringBaselineableMetricsEvaluateItemsEvaluationDataPoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "evaluationDataPointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciStackMonitoringBaselineableMetricsEvaluate.DataOciStackMonitoringBaselineableMetricsEvaluateItemsEvaluationDataPoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EvaluationDataPointsInput
@@ -119,6 +124,9 @@ namespace oci.DataOciStackMonitoringBaselineableMetricsEvaluate
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringBaselineableMetricsEvaluate.IDataOciStackMonitoringBaselineableMetricsEvaluateItemsTrainingDataPoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingDataPointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciStackMonitoringBaselineableMetricsEvaluate.DataOciStackMonitoringBaselineableMetricsEvaluateItemsTrainingDataPoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TrainingDataPointsInput
@@ -133,6 +141,9 @@ namespace oci.DataOciStackMonitoringBaselineableMetricsEvaluate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataOciStackMonitoringBaselineableMetricsEvaluate.IDataOciStackMonitoringBaselineableMetricsEvaluateItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataOciStackMonitoringBaselineableMetricsEvaluate.DataOciStackMonitoringBaselineableMetricsEvaluateItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

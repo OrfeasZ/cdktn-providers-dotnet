@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatasciencePipelineRun
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatasciencePipelineRun.DatasciencePipelineRun), fullyQualifiedName: "oci.datasciencePipelineRun.DatasciencePipelineRun", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunConfig\"}}]")]
     public class DatasciencePipelineRun : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatasciencePipelineRun(Constructs.Construct scope, string id, oci.DatasciencePipelineRun.IDatasciencePipelineRunConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatasciencePipelineRun
         /// <param name="importToId">The construct id used in the generated config for the DatasciencePipelineRun to import.</param>
         /// <param name="importFromId">The id of the existing DatasciencePipelineRun that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatasciencePipelineRun to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatasciencePipelineRun to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatasciencePipelineRun that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatasciencePipelineRun to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatasciencePipelineRun to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatasciencePipelineRun that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatasciencePipelineRun to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatasciencePipelineRun.DatasciencePipelineRun), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -64,6 +64,7 @@ namespace oci.DatasciencePipelineRun
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatasciencePipelineRun.IDatasciencePipelineRunLogConfigurationOverrideDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetails" />)[]</param>
         [JsiiMethod(name: "putStepOverrideDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStepOverrideDetails(object @value)
         {
@@ -87,6 +88,7 @@ namespace oci.DatasciencePipelineRun
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStorageMountConfigurationOverrideDetailsListStruct" />)[]</param>
         [JsiiMethod(name: "putStorageMountConfigurationOverrideDetailsList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStorageMountConfigurationOverrideDetailsListStruct\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStorageMountConfigurationOverrideDetailsList(object @value)
         {
@@ -336,6 +338,9 @@ namespace oci.DatasciencePipelineRun
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteRelatedJobRunsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeleteRelatedJobRunsInput
@@ -406,6 +411,9 @@ namespace oci.DatasciencePipelineRun
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepOverrideDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepOverrideDetailsInput
@@ -413,6 +421,9 @@ namespace oci.DatasciencePipelineRun
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStorageMountConfigurationOverrideDetailsListStruct" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageMountConfigurationOverrideDetailsListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStorageMountConfigurationOverrideDetailsListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StorageMountConfigurationOverrideDetailsListInput
@@ -427,6 +438,9 @@ namespace oci.DatasciencePipelineRun
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -448,6 +462,9 @@ namespace oci.DatasciencePipelineRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deleteRelatedJobRuns", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeleteRelatedJobRuns
         {

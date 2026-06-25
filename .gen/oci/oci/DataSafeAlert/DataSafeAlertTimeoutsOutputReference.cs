@@ -93,6 +93,9 @@ namespace oci.DataSafeAlert
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeAlert.IDataSafeAlertTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeAlert.DataSafeAlertTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

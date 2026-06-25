@@ -64,6 +64,9 @@ namespace aws.Route53DomainsDomain
         private object? _extraParam;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainBillingContactExtraParam" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extraParam", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContactExtraParam\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? ExtraParam

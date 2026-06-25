@@ -35,6 +35,7 @@ namespace aws.BedrockagentcoreEvaluator
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreEvaluator.IBedrockagentcoreEvaluatorEvaluatorConfigCodeBased" />)[]</param>
         [JsiiMethod(name: "putCodeBased", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfigCodeBased\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeBased(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BedrockagentcoreEvaluator
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreEvaluator.IBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge" />)[]</param>
         [JsiiMethod(name: "putLlmAsAJudge", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLlmAsAJudge(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.BedrockagentcoreEvaluator
             get => GetInstanceProperty<aws.BedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreEvaluator.IBedrockagentcoreEvaluatorEvaluatorConfigCodeBased" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeBasedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfigCodeBased\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeBasedInput
@@ -112,6 +117,9 @@ namespace aws.BedrockagentcoreEvaluator
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreEvaluator.IBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "llmAsAJudgeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LlmAsAJudgeInput
@@ -119,6 +127,9 @@ namespace aws.BedrockagentcoreEvaluator
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreEvaluator.IBedrockagentcoreEvaluatorEvaluatorConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

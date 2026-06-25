@@ -96,6 +96,9 @@ namespace aws.NetworkfirewallFirewallTransitGatewayAttachmentAccepter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkfirewallFirewallTransitGatewayAttachmentAccepter.INetworkfirewallFirewallTransitGatewayAttachmentAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

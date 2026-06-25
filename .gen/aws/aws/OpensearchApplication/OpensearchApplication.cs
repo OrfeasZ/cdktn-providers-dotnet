@@ -46,6 +46,7 @@ namespace aws.OpensearchApplication
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.OpensearchApplication.OpensearchApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationAppConfig" />)[]</param>
         [JsiiMethod(name: "putAppConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationAppConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAppConfig(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.OpensearchApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationDataSource" />)[]</param>
         [JsiiMethod(name: "putDataSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationDataSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataSource(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.OpensearchApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationIamIdentityCenterOptions" />)[]</param>
         [JsiiMethod(name: "putIamIdentityCenterOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationIamIdentityCenterOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIamIdentityCenterOptions(object @value)
         {
@@ -230,6 +233,9 @@ namespace aws.OpensearchApplication
             get => GetInstanceProperty<aws.OpensearchApplication.OpensearchApplicationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationAppConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationAppConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AppConfigInput
@@ -237,6 +243,9 @@ namespace aws.OpensearchApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataSourceInput
@@ -244,6 +253,9 @@ namespace aws.OpensearchApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationIamIdentityCenterOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iamIdentityCenterOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationIamIdentityCenterOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IamIdentityCenterOptionsInput
@@ -279,6 +291,9 @@ namespace aws.OpensearchApplication
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchApplication.IOpensearchApplicationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

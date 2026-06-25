@@ -45,6 +45,7 @@ namespace aws.PipesPipe
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverrides)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersDependsOn" />)[]</param>
         [JsiiMethod(name: "putDependsOn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDependsOn(object @value)
         {
@@ -142,6 +143,9 @@ namespace aws.PipesPipe
             get => GetInstanceProperty<aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverrides?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersDependsOn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dependsOnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DependsOnInput

@@ -83,6 +83,12 @@ namespace oci.DataOciApmApmDomains
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LogGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

@@ -75,6 +75,9 @@ namespace aws.BedrockagentAgentAlias
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgentAlias.IBedrockagentAgentAliasRoutingConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.OdbCloudVmCluster
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.OdbCloudVmCluster.OdbCloudVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OdbCloudVmCluster.IOdbCloudVmClusterDataCollectionOptions" />)[]</param>
         [JsiiMethod(name: "putDataCollectionOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataCollectionOptions(object @value)
         {
@@ -386,6 +387,9 @@ namespace aws.OdbCloudVmCluster
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OdbCloudVmCluster.IOdbCloudVmClusterDataCollectionOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataCollectionOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataCollectionOptionsInput
@@ -435,6 +439,9 @@ namespace aws.OdbCloudVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLocalBackupEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLocalBackupEnabledInput
@@ -442,6 +449,9 @@ namespace aws.OdbCloudVmCluster
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSparseDiskgroupEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsSparseDiskgroupEnabledInput
@@ -505,6 +515,9 @@ namespace aws.OdbCloudVmCluster
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OdbCloudVmCluster.IOdbCloudVmClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.odbCloudVmCluster.OdbCloudVmClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -589,6 +602,9 @@ namespace aws.OdbCloudVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLocalBackupEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLocalBackupEnabled
         {
@@ -616,6 +632,9 @@ namespace aws.OdbCloudVmCluster
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isSparseDiskgroupEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsSparseDiskgroupEnabled
         {

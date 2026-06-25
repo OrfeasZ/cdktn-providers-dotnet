@@ -65,6 +65,12 @@ namespace oci.DataOciVnMonitoringPathAnalyzerTests
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "psaId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PsaId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

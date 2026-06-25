@@ -46,6 +46,7 @@ namespace aws.SagemakerWorkteam
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SagemakerWorkteam.SagemakerWorkteam), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerWorkteam.ISagemakerWorkteamMemberDefinition" />)[]</param>
         [JsiiMethod(name: "putMemberDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerWorkteam.SagemakerWorkteamMemberDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemberDefinition(object @value)
         {
@@ -186,6 +187,9 @@ namespace aws.SagemakerWorkteam
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerWorkteam.ISagemakerWorkteamMemberDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberDefinitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerWorkteam.SagemakerWorkteamMemberDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemberDefinitionInput

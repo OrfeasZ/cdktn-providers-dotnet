@@ -41,6 +41,9 @@ namespace aws.VpcIpamResourceDiscovery
             return InvokeInstanceMethod<aws.VpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOperatingRegions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

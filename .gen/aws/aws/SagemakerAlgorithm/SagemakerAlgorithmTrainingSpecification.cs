@@ -30,6 +30,7 @@ namespace aws.SagemakerAlgorithm
         /// <summary>additional_s3_data_source block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#additional_s3_data_source SagemakerAlgorithm#additional_s3_data_source}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmTrainingSpecificationAdditionalS3DataSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalS3DataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationAdditionalS3DataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,6 +65,7 @@ namespace aws.SagemakerAlgorithm
         /// <summary>metric_definitions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#metric_definitions SagemakerAlgorithm#metric_definitions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmTrainingSpecificationMetricDefinitions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricDefinitions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationMetricDefinitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -98,6 +100,7 @@ namespace aws.SagemakerAlgorithm
         /// <summary>supported_hyper_parameters block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#supported_hyper_parameters SagemakerAlgorithm#supported_hyper_parameters}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmTrainingSpecificationSupportedHyperParameters" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "supportedHyperParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationSupportedHyperParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -132,6 +135,7 @@ namespace aws.SagemakerAlgorithm
         /// <summary>supported_tuning_job_objective_metrics block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#supported_tuning_job_objective_metrics SagemakerAlgorithm#supported_tuning_job_objective_metrics}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmTrainingSpecificationSupportedTuningJobObjectiveMetrics" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "supportedTuningJobObjectiveMetrics", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationSupportedTuningJobObjectiveMetrics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -164,6 +168,9 @@ namespace aws.SagemakerAlgorithm
         private object? _supportsDistributedTraining;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#supports_distributed_training SagemakerAlgorithm#supports_distributed_training}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "supportsDistributedTraining", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? SupportsDistributedTraining
@@ -197,6 +204,7 @@ namespace aws.SagemakerAlgorithm
         /// <summary>training_channels block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#training_channels SagemakerAlgorithm#training_channels}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmTrainingSpecificationTrainingChannels" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingChannels", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmTrainingSpecificationTrainingChannels\"},\"kind\":\"array\"}}]}}", isOptional: true)]

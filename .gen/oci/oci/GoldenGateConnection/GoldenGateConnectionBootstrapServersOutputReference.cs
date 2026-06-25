@@ -47,10 +47,10 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetPrivateIp")]
-        public virtual void ResetPrivateIp()
+        [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateIp
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]
@@ -67,13 +67,6 @@ namespace oci.GoldenGateConnection
             get => GetInstanceProperty<double?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "privateIpInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? PrivateIpInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Host
         {
@@ -88,13 +81,9 @@ namespace oci.GoldenGateConnection
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PrivateIp
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGateConnection.IGoldenGateConnectionBootstrapServers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionBootstrapServers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

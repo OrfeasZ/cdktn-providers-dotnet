@@ -12,6 +12,7 @@ namespace aws.VpclatticeListenerRule
         /// <summary>header_matches block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/vpclattice_listener_rule#header_matches VpclatticeListenerRule#header_matches}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListenerRule.IVpclatticeListenerRuleMatchHttpMatchHeaderMatches" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerMatches", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatches\"},\"kind\":\"array\"}}]}}", isOptional: true)]

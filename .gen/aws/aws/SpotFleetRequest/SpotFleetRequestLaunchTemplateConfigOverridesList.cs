@@ -41,6 +41,9 @@ namespace aws.SpotFleetRequest
             return InvokeInstanceMethod<aws.SpotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverridesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigOverrides" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

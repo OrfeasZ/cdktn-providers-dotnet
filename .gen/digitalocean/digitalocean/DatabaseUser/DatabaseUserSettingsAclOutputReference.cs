@@ -69,6 +69,9 @@ namespace digitalocean.DatabaseUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsAcl" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsAcl\"}]}}", isOptional: true)]
         public virtual object? InternalValue

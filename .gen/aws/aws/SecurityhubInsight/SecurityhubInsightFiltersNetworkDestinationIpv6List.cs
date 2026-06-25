@@ -41,6 +41,9 @@ namespace aws.SecurityhubInsight
             return InvokeInstanceMethod<aws.SecurityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6OutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationIpv6" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

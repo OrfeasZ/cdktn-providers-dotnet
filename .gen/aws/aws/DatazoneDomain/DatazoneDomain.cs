@@ -46,6 +46,7 @@ namespace aws.DatazoneDomain
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatazoneDomain.DatazoneDomain), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneDomain.IDatazoneDomainSingleSignOn" />)[]</param>
         [JsiiMethod(name: "putSingleSignOn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneDomain.DatazoneDomainSingleSignOn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSingleSignOn(object @value)
         {
@@ -239,6 +240,9 @@ namespace aws.DatazoneDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneDomain.IDatazoneDomainSingleSignOn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "singleSignOnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneDomain.DatazoneDomainSingleSignOn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SingleSignOnInput
@@ -246,6 +250,9 @@ namespace aws.DatazoneDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "skipDeletionCheckInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SkipDeletionCheckInput
@@ -260,6 +267,9 @@ namespace aws.DatazoneDomain
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatazoneDomain.IDatazoneDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneDomain.DatazoneDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -316,6 +326,9 @@ namespace aws.DatazoneDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "skipDeletionCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SkipDeletionCheck
         {

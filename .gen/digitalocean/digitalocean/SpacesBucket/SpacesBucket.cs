@@ -46,6 +46,7 @@ namespace digitalocean.SpacesBucket
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.SpacesBucket.SpacesBucket), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucket.ISpacesBucketCorsRule" />)[]</param>
         [JsiiMethod(name: "putCorsRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketCorsRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCorsRule(object @value)
         {
@@ -69,6 +70,7 @@ namespace digitalocean.SpacesBucket
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucket.ISpacesBucketLifecycleRule" />)[]</param>
         [JsiiMethod(name: "putLifecycleRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketLifecycleRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLifecycleRule(object @value)
         {
@@ -202,6 +204,9 @@ namespace digitalocean.SpacesBucket
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucket.ISpacesBucketCorsRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "corsRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CorsRuleInput
@@ -209,6 +214,9 @@ namespace digitalocean.SpacesBucket
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDestroyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDestroyInput
@@ -223,6 +231,9 @@ namespace digitalocean.SpacesBucket
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucket.ISpacesBucketLifecycleRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketLifecycleRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LifecycleRuleInput
@@ -258,6 +269,9 @@ namespace digitalocean.SpacesBucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDestroy
         {

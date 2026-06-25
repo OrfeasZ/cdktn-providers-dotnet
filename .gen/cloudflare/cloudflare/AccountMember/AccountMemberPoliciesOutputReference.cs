@@ -35,6 +35,7 @@ namespace cloudflare.AccountMember
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPoliciesPermissionGroups" />)[]</param>
         [JsiiMethod(name: "putPermissionGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissionGroups(object @value)
         {
@@ -58,6 +59,7 @@ namespace cloudflare.AccountMember
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPoliciesResourceGroups" />)[]</param>
         [JsiiMethod(name: "putResourceGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceGroups(object @value)
         {
@@ -100,6 +102,9 @@ namespace cloudflare.AccountMember
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPoliciesPermissionGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionGroupsInput
@@ -107,6 +112,9 @@ namespace cloudflare.AccountMember
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPoliciesResourceGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceGroupsInput
@@ -121,6 +129,9 @@ namespace cloudflare.AccountMember
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AccountMember.IAccountMemberPolicies" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.accountMember.AccountMemberPolicies\"}]}}", isOptional: true)]
         public virtual object? InternalValue

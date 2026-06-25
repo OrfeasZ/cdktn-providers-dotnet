@@ -35,6 +35,7 @@ namespace oci.StackMonitoringMonitoredResource
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResource.IStackMonitoringMonitoredResourceAdditionalCredentialsProperties" />)[]</param>
         [JsiiMethod(name: "putProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMonitoredResource.StackMonitoringMonitoredResourceAdditionalCredentialsProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProperties(object @value)
         {
@@ -134,6 +135,9 @@ namespace oci.StackMonitoringMonitoredResource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResource.IStackMonitoringMonitoredResourceAdditionalCredentialsProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "propertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMonitoredResource.StackMonitoringMonitoredResourceAdditionalCredentialsProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PropertiesInput
@@ -197,6 +201,9 @@ namespace oci.StackMonitoringMonitoredResource
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.StackMonitoringMonitoredResource.IStackMonitoringMonitoredResourceAdditionalCredentials" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.stackMonitoringMonitoredResource.StackMonitoringMonitoredResourceAdditionalCredentials\"}]}}", isOptional: true)]
         public virtual object? InternalValue

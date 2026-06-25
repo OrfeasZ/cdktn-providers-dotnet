@@ -46,6 +46,7 @@ namespace aws.SsoadminApplication
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsoadminApplication.SsoadminApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptions" />)[]</param>
         [JsiiMethod(name: "putPortalOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortalOptions(object @value)
         {
@@ -195,6 +196,9 @@ namespace aws.SsoadminApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portalOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortalOptionsInput

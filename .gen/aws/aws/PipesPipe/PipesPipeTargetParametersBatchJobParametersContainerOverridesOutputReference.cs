@@ -33,6 +33,7 @@ namespace aws.PipesPipe
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment" />)[]</param>
         [JsiiMethod(name: "putEnvironment", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnvironment(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.PipesPipe
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement" />)[]</param>
         [JsiiMethod(name: "putResourceRequirement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceRequirement(object @value)
         {
@@ -122,6 +124,9 @@ namespace aws.PipesPipe
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environmentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvironmentInput
@@ -136,6 +141,9 @@ namespace aws.PipesPipe
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceRequirementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceRequirementInput

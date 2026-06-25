@@ -46,6 +46,7 @@ namespace aws.DataAwsEc2LocalGateway
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsEc2LocalGateway.DataAwsEc2LocalGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2LocalGateway.IDataAwsEc2LocalGatewayFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGatewayFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.DataAwsEc2LocalGateway
             get => GetInstanceProperty<aws.DataAwsEc2LocalGateway.DataAwsEc2LocalGatewayTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2LocalGateway.IDataAwsEc2LocalGatewayFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGatewayFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -189,6 +193,9 @@ namespace aws.DataAwsEc2LocalGateway
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2LocalGateway.IDataAwsEc2LocalGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -39,6 +39,12 @@ namespace oci.CoreInstanceConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLocalVolumeSizeInGbs")]
+        public virtual void ResetLocalVolumeSizeInGbs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMemoryInGbs")]
         public virtual void ResetMemoryInGbs()
         {
@@ -74,6 +80,13 @@ namespace oci.CoreInstanceConfiguration
         public virtual string? BaselineOcpuUtilizationInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "localVolumeSizeInGbsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? LocalVolumeSizeInGbsInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -115,6 +128,13 @@ namespace oci.CoreInstanceConfiguration
         public virtual string BaselineOcpuUtilization
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "localVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LocalVolumeSizeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

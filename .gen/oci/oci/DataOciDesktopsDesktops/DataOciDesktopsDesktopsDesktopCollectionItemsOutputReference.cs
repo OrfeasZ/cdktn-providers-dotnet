@@ -41,6 +41,12 @@ namespace oci.DataOciDesktopsDesktops
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "desktopConnection", typeJson: "{\"fqn\":\"oci.dataOciDesktopsDesktops.DataOciDesktopsDesktopsDesktopCollectionItemsDesktopConnectionList\"}")]
+        public virtual oci.DataOciDesktopsDesktops.DataOciDesktopsDesktopsDesktopCollectionItemsDesktopConnectionList DesktopConnection
+        {
+            get => GetInstanceProperty<oci.DataOciDesktopsDesktops.DataOciDesktopsDesktopsDesktopCollectionItemsDesktopConnectionList>()!;
+        }
+
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciDesktopsDesktops
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "image", typeJson: "{\"fqn\":\"oci.dataOciDesktopsDesktops.DataOciDesktopsDesktopsDesktopCollectionItemsImageList\"}")]
+        public virtual oci.DataOciDesktopsDesktops.DataOciDesktopsDesktopsDesktopCollectionItemsImageList Image
+        {
+            get => GetInstanceProperty<oci.DataOciDesktopsDesktops.DataOciDesktopsDesktopsDesktopCollectionItemsImageList>()!;
         }
 
         [JsiiProperty(name: "poolId", typeJson: "{\"primitive\":\"string\"}")]

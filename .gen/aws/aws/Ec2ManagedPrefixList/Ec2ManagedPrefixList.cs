@@ -46,6 +46,7 @@ namespace aws.Ec2ManagedPrefixList
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Ec2ManagedPrefixList.Ec2ManagedPrefixList), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2ManagedPrefixList.IEc2ManagedPrefixListEntry" />)[]</param>
         [JsiiMethod(name: "putEntry", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntry\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEntry(object @value)
         {
@@ -149,6 +150,9 @@ namespace aws.Ec2ManagedPrefixList
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2ManagedPrefixList.IEc2ManagedPrefixListEntry" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EntryInput

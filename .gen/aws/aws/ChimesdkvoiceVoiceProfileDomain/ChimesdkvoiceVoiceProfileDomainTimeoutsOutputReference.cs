@@ -93,6 +93,9 @@ namespace aws.ChimesdkvoiceVoiceProfileDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ChimesdkvoiceVoiceProfileDomain.IChimesdkvoiceVoiceProfileDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.chimesdkvoiceVoiceProfileDomain.ChimesdkvoiceVoiceProfileDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace cloudflare.ApiToken
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiToken.IApiTokenPoliciesPermissionGroups" />)[]</param>
         [JsiiMethod(name: "putPermissionGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissionGroups(object @value)
         {
@@ -71,6 +72,9 @@ namespace cloudflare.ApiToken
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiToken.IApiTokenPoliciesPermissionGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionGroupsInput
@@ -99,6 +103,9 @@ namespace cloudflare.ApiToken
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ApiToken.IApiTokenPolicies" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.apiToken.ApiTokenPolicies\"}]}}", isOptional: true)]
         public virtual object? InternalValue

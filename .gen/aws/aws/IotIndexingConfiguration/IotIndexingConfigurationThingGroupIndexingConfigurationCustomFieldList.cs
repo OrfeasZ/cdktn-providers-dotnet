@@ -41,6 +41,9 @@ namespace aws.IotIndexingConfiguration
             return InvokeInstanceMethod<aws.IotIndexingConfiguration.IotIndexingConfigurationThingGroupIndexingConfigurationCustomFieldOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingGroupIndexingConfigurationCustomField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingGroupIndexingConfigurationCustomField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

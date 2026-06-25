@@ -31,6 +31,7 @@ namespace aws.MedialiveChannel
         /// <summary>failover_condition block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#failover_condition MedialiveChannel#failover_condition}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverCondition" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failoverCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailoverCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]

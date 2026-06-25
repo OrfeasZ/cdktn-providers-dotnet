@@ -46,6 +46,7 @@ namespace aws.SsmquicksetupConfigurationManager
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmquicksetupConfigurationManager.SsmquicksetupConfigurationManager), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmquicksetupConfigurationManager.ISsmquicksetupConfigurationManagerConfigurationDefinition" />)[]</param>
         [JsiiMethod(name: "putConfigurationDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerConfigurationDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfigurationDefinition(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.SsmquicksetupConfigurationManager
             get => GetInstanceProperty<aws.SsmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmquicksetupConfigurationManager.ISsmquicksetupConfigurationManagerConfigurationDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationDefinitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerConfigurationDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationDefinitionInput
@@ -189,6 +193,9 @@ namespace aws.SsmquicksetupConfigurationManager
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmquicksetupConfigurationManager.ISsmquicksetupConfigurationManagerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

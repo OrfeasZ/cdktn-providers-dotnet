@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ApigatewayGateway
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apigateway_gateway oci_apigateway_gateway}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_gateway oci_apigateway_gateway}.</summary>
     [JsiiClass(nativeType: typeof(oci.ApigatewayGateway.ApigatewayGateway), fullyQualifiedName: "oci.apigatewayGateway.ApigatewayGateway", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayConfig\"}}]")]
     public class ApigatewayGateway : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apigateway_gateway oci_apigateway_gateway} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_gateway oci_apigateway_gateway} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ApigatewayGateway(Constructs.Construct scope, string id, oci.ApigatewayGateway.IApigatewayGatewayConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.ApigatewayGateway
         /// <param name="importToId">The construct id used in the generated config for the ApigatewayGateway to import.</param>
         /// <param name="importFromId">The id of the existing ApigatewayGateway that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ApigatewayGateway to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApigatewayGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apigateway_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApigatewayGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApigatewayGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApigatewayGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApigatewayGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApigatewayGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ApigatewayGateway.ApigatewayGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayCaBundles" />)[]</param>
         [JsiiMethod(name: "putCaBundles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayCaBundles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCaBundles(object @value)
         {
@@ -69,6 +70,19 @@ namespace oci.ApigatewayGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putIpv4AddressConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv4AddressConfiguration\"}}]")]
+        public virtual void PutIpv4AddressConfiguration(oci.ApigatewayGateway.IApigatewayGatewayIpv4AddressConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ApigatewayGateway.IApigatewayGatewayIpv4AddressConfiguration)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putIpv6AddressConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv6AddressConfiguration\"}}]")]
+        public virtual void PutIpv6AddressConfiguration(oci.ApigatewayGateway.IApigatewayGatewayIpv6AddressConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ApigatewayGateway.IApigatewayGatewayIpv6AddressConfiguration)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayLocks" />)[]</param>
         [JsiiMethod(name: "putLocks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayLocks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocks(object @value)
         {
@@ -140,6 +154,24 @@ namespace oci.ApigatewayGateway
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIpMode")]
+        public virtual void ResetIpMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIpv4AddressConfiguration")]
+        public virtual void ResetIpv4AddressConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIpv6AddressConfiguration")]
+        public virtual void ResetIpv6AddressConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsLockOverride")]
         public virtual void ResetIsLockOverride()
         {
@@ -207,6 +239,18 @@ namespace oci.ApigatewayGateway
             get => GetInstanceProperty<oci.ApigatewayGateway.ApigatewayGatewayIpAddressesList>()!;
         }
 
+        [JsiiProperty(name: "ipv4AddressConfiguration", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv4AddressConfigurationOutputReference\"}")]
+        public virtual oci.ApigatewayGateway.ApigatewayGatewayIpv4AddressConfigurationOutputReference Ipv4AddressConfiguration
+        {
+            get => GetInstanceProperty<oci.ApigatewayGateway.ApigatewayGatewayIpv4AddressConfigurationOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "ipv6AddressConfiguration", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv6AddressConfigurationOutputReference\"}")]
+        public virtual oci.ApigatewayGateway.ApigatewayGatewayIpv6AddressConfigurationOutputReference Ipv6AddressConfiguration
+        {
+            get => GetInstanceProperty<oci.ApigatewayGateway.ApigatewayGatewayIpv6AddressConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -255,6 +299,9 @@ namespace oci.ApigatewayGateway
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayCaBundles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "caBundlesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayCaBundles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CaBundlesInput
@@ -312,12 +359,39 @@ namespace oci.ApigatewayGateway
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "ipModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IpModeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ipv4AddressConfigurationInput", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv4AddressConfiguration\"}", isOptional: true)]
+        public virtual oci.ApigatewayGateway.IApigatewayGatewayIpv4AddressConfiguration? Ipv4AddressConfigurationInput
+        {
+            get => GetInstanceProperty<oci.ApigatewayGateway.IApigatewayGatewayIpv4AddressConfiguration?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ipv6AddressConfigurationInput", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv6AddressConfiguration\"}", isOptional: true)]
+        public virtual oci.ApigatewayGateway.IApigatewayGatewayIpv6AddressConfiguration? Ipv6AddressConfigurationInput
+        {
+            get => GetInstanceProperty<oci.ApigatewayGateway.IApigatewayGatewayIpv6AddressConfiguration?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "isLockOverrideInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLockOverrideInput
         {
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocksInput
@@ -346,6 +420,9 @@ namespace oci.ApigatewayGateway
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApigatewayGateway.IApigatewayGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -402,6 +479,16 @@ namespace oci.ApigatewayGateway
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "ipMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLockOverride", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLockOverride
         {

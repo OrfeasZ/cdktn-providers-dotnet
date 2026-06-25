@@ -41,6 +41,9 @@ namespace oci.ApmSyntheticsMonitor
             return InvokeInstanceMethod<oci.ApmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationRequestQueryParamsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmSyntheticsMonitor.IApmSyntheticsMonitorConfigurationRequestQueryParams" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationRequestQueryParams\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

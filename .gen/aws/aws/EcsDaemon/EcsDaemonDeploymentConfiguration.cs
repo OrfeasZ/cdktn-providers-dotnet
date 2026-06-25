@@ -12,6 +12,7 @@ namespace aws.EcsDaemon
         /// <summary>alarms block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemon.IEcsDaemonDeploymentConfigurationAlarms" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alarms", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemon.EcsDaemonDeploymentConfigurationAlarms\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -35,6 +35,7 @@ namespace aws.BedrockagentcoreHarness
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessTruncationConfig" />)[]</param>
         [JsiiMethod(name: "putConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessTruncationConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfig(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.BedrockagentcoreHarness
             get => GetInstanceProperty<aws.BedrockagentcoreHarness.BedrockagentcoreHarnessTruncationConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessTruncationConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessTruncationConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigInput
@@ -97,6 +101,9 @@ namespace aws.BedrockagentcoreHarness
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessTruncation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessTruncation\"}]}}", isOptional: true)]
         public virtual object? InternalValue

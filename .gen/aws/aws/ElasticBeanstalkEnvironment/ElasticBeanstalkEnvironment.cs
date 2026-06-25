@@ -46,6 +46,7 @@ namespace aws.ElasticBeanstalkEnvironment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ElasticBeanstalkEnvironment.ElasticBeanstalkEnvironment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticBeanstalkEnvironment.IElasticBeanstalkEnvironmentSetting" />)[]</param>
         [JsiiMethod(name: "putSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSetting(object @value)
         {
@@ -294,6 +295,9 @@ namespace aws.ElasticBeanstalkEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticBeanstalkEnvironment.IElasticBeanstalkEnvironmentSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SettingInput

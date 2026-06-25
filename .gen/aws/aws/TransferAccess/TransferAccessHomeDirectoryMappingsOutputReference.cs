@@ -63,6 +63,9 @@ namespace aws.TransferAccess
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TransferAccess.ITransferAccessHomeDirectoryMappings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.transferAccess.TransferAccessHomeDirectoryMappings\"}]}}", isOptional: true)]
         public virtual object? InternalValue

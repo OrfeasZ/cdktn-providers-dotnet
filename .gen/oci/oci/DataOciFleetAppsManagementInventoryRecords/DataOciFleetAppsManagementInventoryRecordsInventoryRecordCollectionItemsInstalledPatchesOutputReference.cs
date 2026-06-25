@@ -47,6 +47,12 @@ namespace oci.DataOciFleetAppsManagementInventoryRecords
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "patchLevel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PatchLevel
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "patchName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PatchName
         {
@@ -61,6 +67,12 @@ namespace oci.DataOciFleetAppsManagementInventoryRecords
 
         [JsiiProperty(name: "timeApplied", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeApplied
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeReleased", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeReleased
         {
             get => GetInstanceProperty<string>()!;
         }

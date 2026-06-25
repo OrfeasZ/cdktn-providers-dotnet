@@ -47,6 +47,12 @@ namespace oci.CoreComputeHostGroup
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetState")]
+        public virtual void ResetState()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTarget")]
         public virtual void ResetTarget()
         {
@@ -63,6 +69,13 @@ namespace oci.CoreComputeHostGroup
         [JsiiOptional]
         [JsiiProperty(name: "recycleLevelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RecycleLevelInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "stateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StateInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -88,6 +101,13 @@ namespace oci.CoreComputeHostGroup
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Target
         {
@@ -95,6 +115,9 @@ namespace oci.CoreComputeHostGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeHostGroup.ICoreComputeHostGroupConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeHostGroup.CoreComputeHostGroupConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

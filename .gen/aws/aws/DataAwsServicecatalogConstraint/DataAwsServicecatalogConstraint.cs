@@ -165,6 +165,9 @@ namespace aws.DataAwsServicecatalogConstraint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsServicecatalogConstraint.IDataAwsServicecatalogConstraintTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraintTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -41,6 +41,9 @@ namespace tailscale.DnsConfiguration
             return InvokeInstanceMethod<tailscale.DnsConfiguration.DnsConfigurationNameserversOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationNameservers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationNameservers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

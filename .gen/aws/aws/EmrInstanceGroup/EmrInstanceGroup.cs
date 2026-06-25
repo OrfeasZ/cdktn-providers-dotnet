@@ -46,6 +46,7 @@ namespace aws.EmrInstanceGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EmrInstanceGroup.EmrInstanceGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrInstanceGroup.IEmrInstanceGroupEbsConfig" />)[]</param>
         [JsiiMethod(name: "putEbsConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrInstanceGroup.EmrInstanceGroupEbsConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEbsConfig(object @value)
         {
@@ -188,6 +189,9 @@ namespace aws.EmrInstanceGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrInstanceGroup.IEmrInstanceGroupEbsConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrInstanceGroup.EmrInstanceGroupEbsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EbsConfigInput
@@ -195,6 +199,9 @@ namespace aws.EmrInstanceGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsOptimizedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EbsOptimizedInput
@@ -265,6 +272,9 @@ namespace aws.EmrInstanceGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EbsOptimized
         {

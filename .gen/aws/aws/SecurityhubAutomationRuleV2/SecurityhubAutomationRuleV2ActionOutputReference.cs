@@ -35,6 +35,7 @@ namespace aws.SecurityhubAutomationRuleV2
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2ActionExternalIntegrationConfiguration" />)[]</param>
         [JsiiMethod(name: "putExternalIntegrationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionExternalIntegrationConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExternalIntegrationConfiguration(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SecurityhubAutomationRuleV2
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2ActionFindingFieldsUpdate" />)[]</param>
         [JsiiMethod(name: "putFindingFieldsUpdate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionFindingFieldsUpdate\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingFieldsUpdate(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.SecurityhubAutomationRuleV2
             get => GetInstanceProperty<aws.SecurityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionFindingFieldsUpdateList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2ActionExternalIntegrationConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalIntegrationConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionExternalIntegrationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExternalIntegrationConfigurationInput
@@ -112,6 +117,9 @@ namespace aws.SecurityhubAutomationRuleV2
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2ActionFindingFieldsUpdate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingFieldsUpdateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionFindingFieldsUpdate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingFieldsUpdateInput
@@ -133,6 +141,9 @@ namespace aws.SecurityhubAutomationRuleV2
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2Action" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Action\"}]}}", isOptional: true)]
         public virtual object? InternalValue

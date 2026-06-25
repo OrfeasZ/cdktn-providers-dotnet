@@ -159,6 +159,9 @@ namespace cloudflare.D1Database
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.D1Database.ID1DatabaseReadReplication" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "readReplicationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.d1Database.D1DatabaseReadReplication\"}]}}", isOptional: true)]
         public virtual object? ReadReplicationInput

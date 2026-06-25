@@ -20,6 +20,7 @@ namespace aws.MedialiveChannel
         /// <summary>outputs block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#outputs MedialiveChannel#outputs}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "outputs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputs\"},\"kind\":\"array\"}}]}}")]
         object Outputs
@@ -58,6 +59,7 @@ namespace aws.MedialiveChannel
             /// <summary>outputs block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#outputs MedialiveChannel#outputs}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputs" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "outputs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsOutputs\"},\"kind\":\"array\"}}]}}")]
             public object Outputs

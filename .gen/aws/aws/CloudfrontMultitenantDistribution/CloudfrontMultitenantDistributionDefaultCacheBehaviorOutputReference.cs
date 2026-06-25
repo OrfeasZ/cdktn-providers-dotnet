@@ -35,6 +35,7 @@ namespace aws.CloudfrontMultitenantDistribution
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethods" />)[]</param>
         [JsiiMethod(name: "putAllowedMethods", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethods\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAllowedMethods(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.CloudfrontMultitenantDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorFunctionAssociation" />)[]</param>
         [JsiiMethod(name: "putFunctionAssociation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorFunctionAssociation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFunctionAssociation(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.CloudfrontMultitenantDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorLambdaFunctionAssociation" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionAssociation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorLambdaFunctionAssociation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionAssociation(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.CloudfrontMultitenantDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups" />)[]</param>
         [JsiiMethod(name: "putTrustedKeyGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrustedKeyGroups(object @value)
         {
@@ -211,6 +215,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<aws.CloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroupsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethods" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedMethodsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorAllowedMethods\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AllowedMethodsInput
@@ -225,6 +232,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compressInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CompressInput
@@ -239,6 +249,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorFunctionAssociation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "functionAssociationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorFunctionAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FunctionAssociationInput
@@ -246,6 +259,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorLambdaFunctionAssociation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionAssociationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorLambdaFunctionAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionAssociationInput
@@ -281,6 +297,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trustedKeyGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorTrustedKeyGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TrustedKeyGroupsInput
@@ -302,6 +321,9 @@ namespace aws.CloudfrontMultitenantDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "compress", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Compress
         {
@@ -371,6 +393,9 @@ namespace aws.CloudfrontMultitenantDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehavior" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehavior\"}]}}", isOptional: true)]
         public virtual object? InternalValue

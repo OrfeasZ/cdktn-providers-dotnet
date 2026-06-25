@@ -75,6 +75,9 @@ namespace oci.WaasWaasPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCustomProtectionRulesExclusions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCustomProtectionRulesExclusions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

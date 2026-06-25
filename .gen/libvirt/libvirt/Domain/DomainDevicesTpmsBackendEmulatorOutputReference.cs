@@ -123,6 +123,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesTpmsBackendEmulatorSourceOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesTpmsBackendEmulatorActivePcrBanks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activePcrBanksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendEmulatorActivePcrBanks\"}]}}", isOptional: true)]
         public virtual object? ActivePcrBanksInput
@@ -137,6 +140,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesTpmsBackendEmulatorEncryption" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendEmulatorEncryption\"}]}}", isOptional: true)]
         public virtual object? EncryptionInput
@@ -151,6 +157,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesTpmsBackendEmulatorProfile" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "profileInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendEmulatorProfile\"}]}}", isOptional: true)]
         public virtual object? ProfileInput
@@ -158,6 +167,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesTpmsBackendEmulatorSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendEmulatorSource\"}]}}", isOptional: true)]
         public virtual object? SourceInput
@@ -193,6 +205,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesTpmsBackendEmulator" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendEmulator\"}]}}", isOptional: true)]
         public virtual object? InternalValue

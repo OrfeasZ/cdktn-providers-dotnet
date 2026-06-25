@@ -224,6 +224,9 @@ namespace aws.FsxOntapStorageVirtualMachine
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxOntapStorageVirtualMachine.IFsxOntapStorageVirtualMachineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxOntapStorageVirtualMachine.FsxOntapStorageVirtualMachineTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

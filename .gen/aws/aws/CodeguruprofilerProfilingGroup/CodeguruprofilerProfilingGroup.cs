@@ -46,6 +46,7 @@ namespace aws.CodeguruprofilerProfilingGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CodeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodeguruprofilerProfilingGroup.ICodeguruprofilerProfilingGroupAgentOrchestrationConfig" />)[]</param>
         [JsiiMethod(name: "putAgentOrchestrationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAgentOrchestrationConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAgentOrchestrationConfig(object @value)
         {
@@ -136,6 +137,9 @@ namespace aws.CodeguruprofilerProfilingGroup
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodeguruprofilerProfilingGroup.ICodeguruprofilerProfilingGroupAgentOrchestrationConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agentOrchestrationConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAgentOrchestrationConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AgentOrchestrationConfigInput

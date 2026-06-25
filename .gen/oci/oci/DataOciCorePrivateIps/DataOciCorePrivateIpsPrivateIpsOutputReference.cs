@@ -41,6 +41,12 @@ namespace oci.DataOciCorePrivateIps
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "cidrPrefixLength", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CidrPrefixLength
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -85,6 +91,12 @@ namespace oci.DataOciCorePrivateIps
 
         [JsiiProperty(name: "ipState", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IpState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ipv4SubnetCidrAtCreation", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ipv4SubnetCidrAtCreation
         {
             get => GetInstanceProperty<string>()!;
         }

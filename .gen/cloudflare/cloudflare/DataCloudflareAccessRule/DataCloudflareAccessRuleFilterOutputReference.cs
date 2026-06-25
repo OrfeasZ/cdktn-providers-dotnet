@@ -81,6 +81,9 @@ namespace cloudflare.DataCloudflareAccessRule
             get => GetInstanceProperty<cloudflare.DataCloudflareAccessRule.DataCloudflareAccessRuleFilterConfigurationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAccessRule.IDataCloudflareAccessRuleFilterConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAccessRule.DataCloudflareAccessRuleFilterConfiguration\"}]}}", isOptional: true)]
         public virtual object? ConfigurationInput
@@ -158,6 +161,9 @@ namespace cloudflare.DataCloudflareAccessRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAccessRule.IDataCloudflareAccessRuleFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAccessRule.DataCloudflareAccessRuleFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

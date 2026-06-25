@@ -73,6 +73,9 @@ namespace aws.KendraFaq
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.KendraFaq.IKendraFaqTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.kendraFaq.KendraFaqTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

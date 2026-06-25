@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsApprovalWorkflow
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

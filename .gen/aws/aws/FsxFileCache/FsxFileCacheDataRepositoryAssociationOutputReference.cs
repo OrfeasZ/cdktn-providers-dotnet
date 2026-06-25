@@ -35,6 +35,7 @@ namespace aws.FsxFileCache
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociationNfs" />)[]</param>
         [JsiiMethod(name: "putNfs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNfs(object @value)
         {
@@ -139,6 +140,9 @@ namespace aws.FsxFileCache
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociationNfs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nfsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NfsInput
@@ -181,6 +185,9 @@ namespace aws.FsxFileCache
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxFileCache.FsxFileCacheDataRepositoryAssociation\"}]}}", isOptional: true)]
         public virtual object? InternalValue

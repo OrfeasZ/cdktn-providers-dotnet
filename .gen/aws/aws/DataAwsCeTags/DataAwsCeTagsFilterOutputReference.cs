@@ -33,6 +33,7 @@ namespace aws.DataAwsCeTags
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterAnd" />)[]</param>
         [JsiiMethod(name: "putAnd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterAnd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnd(object @value)
         {
@@ -74,6 +75,7 @@ namespace aws.DataAwsCeTags
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DataAwsCeTags.IDataAwsCeTagsFilterNot)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterOr" />)[]</param>
         [JsiiMethod(name: "putOr", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterOr\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOr(object @value)
         {
@@ -175,6 +177,9 @@ namespace aws.DataAwsCeTags
             get => GetInstanceProperty<aws.DataAwsCeTags.DataAwsCeTagsFilterTagsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterAnd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "andInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AndInput
@@ -203,6 +208,9 @@ namespace aws.DataAwsCeTags
             get => GetInstanceProperty<aws.DataAwsCeTags.IDataAwsCeTagsFilterNot?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterOr" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OrInput

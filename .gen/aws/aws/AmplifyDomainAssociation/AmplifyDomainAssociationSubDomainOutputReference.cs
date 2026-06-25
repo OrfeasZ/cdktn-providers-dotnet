@@ -75,6 +75,9 @@ namespace aws.AmplifyDomainAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AmplifyDomainAssociation.IAmplifyDomainAssociationSubDomain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain\"}]}}", isOptional: true)]
         public virtual object? InternalValue

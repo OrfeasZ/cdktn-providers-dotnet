@@ -87,6 +87,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolTargetEncryptionSecretOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetEncryptionCipher" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cipherInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetEncryptionCipher\"}]}}", isOptional: true)]
         public virtual object? CipherInput
@@ -101,6 +104,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetEncryptionIvgen" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ivgenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetEncryptionIvgen\"}]}}", isOptional: true)]
         public virtual object? IvgenInput
@@ -108,6 +114,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetEncryptionSecret" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetEncryptionSecret\"}]}}", isOptional: true)]
         public virtual object? SecretInput
@@ -122,6 +131,9 @@ namespace libvirt.Pool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetEncryption" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetEncryption\"}]}}", isOptional: true)]
         public virtual object? InternalValue

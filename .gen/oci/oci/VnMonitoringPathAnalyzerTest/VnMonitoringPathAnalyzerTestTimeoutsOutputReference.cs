@@ -93,6 +93,9 @@ namespace oci.VnMonitoringPathAnalyzerTest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.VnMonitoringPathAnalyzerTest.IVnMonitoringPathAnalyzerTestTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.vnMonitoringPathAnalyzerTest.VnMonitoringPathAnalyzerTestTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

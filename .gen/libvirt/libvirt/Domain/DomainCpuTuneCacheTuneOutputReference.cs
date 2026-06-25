@@ -35,6 +35,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneCacheTuneCache" />)[]</param>
         [JsiiMethod(name: "putCache", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTuneCache\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCache(object @value)
         {
@@ -58,6 +59,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneCacheTuneMonitor" />)[]</param>
         [JsiiMethod(name: "putMonitor", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTuneMonitor\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMonitor(object @value)
         {
@@ -117,6 +119,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainCpuTuneCacheTuneMonitorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneCacheTuneCache" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTuneCache\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CacheInput
@@ -131,6 +136,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneCacheTuneMonitor" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monitorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTuneMonitor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MonitorInput
@@ -159,6 +167,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuTuneCacheTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTune\"}]}}", isOptional: true)]
         public virtual object? InternalValue

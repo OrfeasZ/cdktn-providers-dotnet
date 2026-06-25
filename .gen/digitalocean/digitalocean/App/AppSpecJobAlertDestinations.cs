@@ -21,6 +21,7 @@ namespace digitalocean.App
         /// <summary>slack_webhooks block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/app#slack_webhooks App#slack_webhooks}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobAlertDestinationsSlackWebhooks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slackWebhooks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobAlertDestinationsSlackWebhooks\"},\"kind\":\"array\"}}]}}", isOptional: true)]

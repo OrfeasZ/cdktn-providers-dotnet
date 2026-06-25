@@ -9,7 +9,7 @@ namespace oci.DataSafeReportDefinition
     [JsiiByValue(fqn: "oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnInfo")]
     public class DataSafeReportDefinitionColumnInfo : oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#display_name DataSafeReportDefinition#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#display_name DataSafeReportDefinition#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}.</summary>
         [JsiiProperty(name: "displayOrder", typeJson: "{\"primitive\":\"number\"}")]
         public double DisplayOrder
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#field_name DataSafeReportDefinition#field_name}.</summary>
         [JsiiProperty(name: "fieldName", typeJson: "{\"primitive\":\"string\"}")]
         public string FieldName
         {
@@ -35,7 +35,10 @@ namespace oci.DataSafeReportDefinition
 
         private object _isHidden;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isHidden", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object IsHidden
         {
@@ -63,7 +66,7 @@ namespace oci.DataSafeReportDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#applicable_operators DataSafeReportDefinition#applicable_operators}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#applicable_operators DataSafeReportDefinition#applicable_operators}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicableOperators", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ApplicableOperators
@@ -72,7 +75,7 @@ namespace oci.DataSafeReportDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#data_type DataSafeReportDefinition#data_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#data_type DataSafeReportDefinition#data_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataType
@@ -83,7 +86,10 @@ namespace oci.DataSafeReportDefinition
 
         private object? _isVirtual;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#is_virtual DataSafeReportDefinition#is_virtual}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#is_virtual DataSafeReportDefinition#is_virtual}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isVirtual", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsVirtual

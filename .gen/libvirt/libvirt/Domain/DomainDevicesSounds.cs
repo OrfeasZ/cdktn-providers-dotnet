@@ -79,6 +79,7 @@ namespace libvirt.Domain
         /// contents and allowed values depend on the selected model and hypervisor support.
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#codec Domain#codec}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesSoundsCodec" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codec", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesSoundsCodec\"},\"kind\":\"array\"}}]}}", isOptional: true)]

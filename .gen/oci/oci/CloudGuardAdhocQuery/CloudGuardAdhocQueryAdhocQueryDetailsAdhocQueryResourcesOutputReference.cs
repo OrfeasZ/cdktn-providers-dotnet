@@ -95,6 +95,9 @@ namespace oci.CloudGuardAdhocQuery
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudGuardAdhocQuery.ICloudGuardAdhocQueryAdhocQueryDetailsAdhocQueryResources" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudGuardAdhocQuery.CloudGuardAdhocQueryAdhocQueryDetailsAdhocQueryResources\"}]}}", isOptional: true)]
         public virtual object? InternalValue

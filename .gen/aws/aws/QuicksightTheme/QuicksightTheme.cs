@@ -52,6 +52,7 @@ namespace aws.QuicksightTheme
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.QuicksightTheme.IQuicksightThemeConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemePermissions" />)[]</param>
         [JsiiMethod(name: "putPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemePermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissions(object @value)
         {
@@ -237,6 +238,9 @@ namespace aws.QuicksightTheme
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemePermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemePermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionsInput
@@ -272,6 +276,9 @@ namespace aws.QuicksightTheme
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightTheme.IQuicksightThemeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightTheme.QuicksightThemeTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

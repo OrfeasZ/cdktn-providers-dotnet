@@ -33,6 +33,7 @@ namespace oci.SchServiceConnector
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces" />)[]</param>
         [JsiiMethod(name: "putNamespaces", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNamespaces(object @value)
         {
@@ -69,6 +70,9 @@ namespace oci.SchServiceConnector
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namespacesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NamespacesInput

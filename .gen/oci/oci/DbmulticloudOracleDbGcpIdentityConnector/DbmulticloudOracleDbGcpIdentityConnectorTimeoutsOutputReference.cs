@@ -93,6 +93,9 @@ namespace oci.DbmulticloudOracleDbGcpIdentityConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DbmulticloudOracleDbGcpIdentityConnector.IDbmulticloudOracleDbGcpIdentityConnectorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dbmulticloudOracleDbGcpIdentityConnector.DbmulticloudOracleDbGcpIdentityConnectorTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

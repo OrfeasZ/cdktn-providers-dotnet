@@ -89,6 +89,9 @@ namespace aws.AmiCopy
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AmiCopy.IAmiCopyEbsBlockDevice" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.amiCopy.AmiCopyEbsBlockDevice\"}]}}", isOptional: true)]
         public virtual object? InternalValue

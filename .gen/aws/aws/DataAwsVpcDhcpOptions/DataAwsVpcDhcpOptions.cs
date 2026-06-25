@@ -46,6 +46,7 @@ namespace aws.DataAwsVpcDhcpOptions
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsVpcDhcpOptions.DataAwsVpcDhcpOptions), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsVpcDhcpOptions.IDataAwsVpcDhcpOptionsFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -197,6 +198,9 @@ namespace aws.DataAwsVpcDhcpOptions
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsVpcDhcpOptions.IDataAwsVpcDhcpOptionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -225,6 +229,9 @@ namespace aws.DataAwsVpcDhcpOptions
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsVpcDhcpOptions.IDataAwsVpcDhcpOptionsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

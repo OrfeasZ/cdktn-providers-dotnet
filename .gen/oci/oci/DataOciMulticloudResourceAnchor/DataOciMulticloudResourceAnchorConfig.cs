@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudResourceAnchor
     [JsiiByValue(fqn: "oci.dataOciMulticloudResourceAnchor.DataOciMulticloudResourceAnchorConfig")]
     public class DataOciMulticloudResourceAnchorConfig : oci.DataOciMulticloudResourceAnchor.IDataOciMulticloudResourceAnchorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_resource_anchor#resource_anchor_id DataOciMulticloudResourceAnchor#resource_anchor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_resource_anchor#resource_anchor_id DataOciMulticloudResourceAnchor#resource_anchor_id}.</summary>
         [JsiiProperty(name: "resourceAnchorId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceAnchorId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudResourceAnchor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_resource_anchor#subscription_id DataOciMulticloudResourceAnchor#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_resource_anchor#subscription_id DataOciMulticloudResourceAnchor#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciMulticloudResourceAnchor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_resource_anchor#subscription_service_name DataOciMulticloudResourceAnchor#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_resource_anchor#subscription_service_name DataOciMulticloudResourceAnchor#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionServiceName
         {
@@ -33,10 +33,45 @@ namespace oci.DataOciMulticloudResourceAnchor
             set;
         }
 
+        private object? _shouldFetchCompartmentName;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_resource_anchor#should_fetch_compartment_name DataOciMulticloudResourceAnchor#should_fetch_compartment_name}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "shouldFetchCompartmentName", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? ShouldFetchCompartmentName
+        {
+            get => _shouldFetchCompartmentName;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _shouldFetchCompartmentName = value;
+            }
+        }
+
         private object? _connection;
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -70,6 +105,7 @@ namespace oci.DataOciMulticloudResourceAnchor
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -164,6 +200,7 @@ namespace oci.DataOciMulticloudResourceAnchor
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

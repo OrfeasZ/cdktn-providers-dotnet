@@ -126,6 +126,9 @@ namespace cloudflare.Organization
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Organization.IOrganizationParent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.organization.OrganizationParent\"}]}}", isOptional: true)]
         public virtual object? ParentInput
@@ -133,6 +136,9 @@ namespace cloudflare.Organization
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Organization.IOrganizationProfile" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "profileInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.organization.OrganizationProfile\"}]}}", isOptional: true)]
         public virtual object? ProfileInput

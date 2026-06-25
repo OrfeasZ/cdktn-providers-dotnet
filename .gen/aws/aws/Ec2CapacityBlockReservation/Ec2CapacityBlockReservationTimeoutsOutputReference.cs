@@ -53,6 +53,9 @@ namespace aws.Ec2CapacityBlockReservation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2CapacityBlockReservation.IEc2CapacityBlockReservationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

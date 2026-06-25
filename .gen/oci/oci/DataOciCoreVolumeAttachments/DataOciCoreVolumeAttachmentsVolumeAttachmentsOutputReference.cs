@@ -101,6 +101,12 @@ namespace oci.DataOciCoreVolumeAttachments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ipv6
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "iqn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Iqn
         {

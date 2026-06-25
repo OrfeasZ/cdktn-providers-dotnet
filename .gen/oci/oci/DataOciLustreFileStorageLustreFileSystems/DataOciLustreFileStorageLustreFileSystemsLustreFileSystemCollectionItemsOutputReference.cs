@@ -59,6 +59,12 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dateTimeDetails", typeJson: "{\"fqn\":\"oci.dataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsDateTimeDetailsList\"}")]
+        public virtual oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsDateTimeDetailsList DateTimeDetails
+        {
+            get => GetInstanceProperty<oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsDateTimeDetailsList>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {
@@ -119,6 +125,12 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
             get => GetInstanceProperty<oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsMaintenanceWindowList>()!;
         }
 
+        [JsiiProperty(name: "maintenanceWindowMetadata", typeJson: "{\"fqn\":\"oci.dataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsMaintenanceWindowMetadataList\"}")]
+        public virtual oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsMaintenanceWindowMetadataList MaintenanceWindowMetadata
+        {
+            get => GetInstanceProperty<oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsMaintenanceWindowMetadataList>()!;
+        }
+
         [JsiiProperty(name: "majorVersion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MajorVersion
         {
@@ -135,6 +147,12 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
         public virtual string[] NsgIds
         {
             get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "overrideMaintenanceTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double OverrideMaintenanceTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "performanceTier", typeJson: "{\"primitive\":\"string\"}")]

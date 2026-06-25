@@ -24,6 +24,7 @@ namespace aws.ApiGatewayUsagePlan
         /// <summary>throttle block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/api_gateway_usage_plan#throttle ApiGatewayUsagePlan#throttle}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStagesThrottle" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "throttle", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,6 +60,7 @@ namespace aws.ApiGatewayUsagePlan
             /// <summary>throttle block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/api_gateway_usage_plan#throttle ApiGatewayUsagePlan#throttle}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStagesThrottle" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "throttle", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -53,6 +53,9 @@ namespace digitalocean.CustomImage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.CustomImage.ICustomImageTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.customImage.CustomImageTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

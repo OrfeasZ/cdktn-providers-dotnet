@@ -41,6 +41,9 @@ namespace aws.DataAwsKmsSecret
             return InvokeInstanceMethod<aws.DataAwsKmsSecret.DataAwsKmsSecretSecretOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsKmsSecret.IDataAwsKmsSecretSecret" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsKmsSecret.DataAwsKmsSecretSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

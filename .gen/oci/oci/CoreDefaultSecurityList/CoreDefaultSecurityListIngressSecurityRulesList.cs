@@ -41,6 +41,9 @@ namespace oci.CoreDefaultSecurityList
             return InvokeInstanceMethod<oci.CoreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListIngressSecurityRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

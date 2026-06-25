@@ -46,6 +46,7 @@ namespace aws.S3VectorsIndex
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3VectorsIndex.S3VectorsIndex), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3VectorsIndex.IS3VectorsIndexEncryptionConfiguration" />)[]</param>
         [JsiiMethod(name: "putEncryptionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3VectorsIndex.S3VectorsIndexEncryptionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryptionConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.S3VectorsIndex
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3VectorsIndex.IS3VectorsIndexMetadataConfiguration" />)[]</param>
         [JsiiMethod(name: "putMetadataConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3VectorsIndex.S3VectorsIndexMetadataConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetadataConfiguration(object @value)
         {
@@ -186,6 +188,9 @@ namespace aws.S3VectorsIndex
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3VectorsIndex.IS3VectorsIndexEncryptionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3VectorsIndex.S3VectorsIndexEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionConfigurationInput
@@ -200,6 +205,9 @@ namespace aws.S3VectorsIndex
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3VectorsIndex.IS3VectorsIndexMetadataConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3VectorsIndex.S3VectorsIndexMetadataConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetadataConfigurationInput

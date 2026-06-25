@@ -35,6 +35,7 @@ namespace aws.BudgetsBudget
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrAnd" />)[]</param>
         [JsiiMethod(name: "putAnd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrAnd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnd(object @value)
         {
@@ -76,6 +77,7 @@ namespace aws.BudgetsBudget
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrNot)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrOr" />)[]</param>
         [JsiiMethod(name: "putOr", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrOr\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOr(object @value)
         {
@@ -177,6 +179,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<aws.BudgetsBudget.BudgetsBudgetFilterExpressionOrTagsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrAnd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "andInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AndInput
@@ -205,6 +210,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrNot?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrOr" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OrInput
@@ -219,6 +227,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrTags?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOr" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOr\"}]}}", isOptional: true)]
         public virtual object? InternalValue

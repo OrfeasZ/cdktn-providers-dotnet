@@ -73,6 +73,9 @@ namespace aws.VpclatticeTargetGroupAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpclatticeTargetGroupAttachment.IVpclatticeTargetGroupAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

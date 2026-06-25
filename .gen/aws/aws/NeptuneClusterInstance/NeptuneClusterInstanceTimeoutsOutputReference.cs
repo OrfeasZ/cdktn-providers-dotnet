@@ -93,6 +93,9 @@ namespace aws.NeptuneClusterInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NeptuneClusterInstance.INeptuneClusterInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.neptuneClusterInstance.NeptuneClusterInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

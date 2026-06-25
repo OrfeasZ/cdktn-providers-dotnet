@@ -44,6 +44,7 @@ namespace cloudflare.LoadBalancer
         /// The supported values are: - <c>"true"</c>: Load balancing requests must contain <em>all</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created. - <c>"false"</c>: Load balancing requests must contain <em>at least one</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/load_balancer#require_all_headers LoadBalancer#require_all_headers}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "requireAllHeaders", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,6 +145,7 @@ namespace cloudflare.LoadBalancer
             /// The supported values are: - <c>"true"</c>: Load balancing requests must contain <em>all</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created. - <c>"false"</c>: Load balancing requests must contain <em>at least one</em> of the HTTP headers specified by the <c>headers</c> session affinity attribute, otherwise sessions aren't created.
             ///
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/load_balancer#require_all_headers LoadBalancer#require_all_headers}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requireAllHeaders", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

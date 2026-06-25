@@ -14,6 +14,7 @@ namespace libvirt.Domain
         /// See: <a href="https://libvirt.org/formatdomain.html#numa-node-tuning">https://libvirt.org/formatdomain.html#numa-node-tuning</a>
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mem_nodes Domain#mem_nodes}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainNumaTuneMemNodes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memNodes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainNumaTuneMemNodes\"},\"kind\":\"array\"}}]}}", isOptional: true)]

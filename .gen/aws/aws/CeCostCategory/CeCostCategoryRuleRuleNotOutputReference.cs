@@ -33,6 +33,7 @@ namespace aws.CeCostCategory
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleNotAnd" />)[]</param>
         [JsiiMethod(name: "putAnd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleNotAnd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnd(object @value)
         {
@@ -74,6 +75,7 @@ namespace aws.CeCostCategory
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CeCostCategory.ICeCostCategoryRuleRuleNotNot)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleNotOr" />)[]</param>
         [JsiiMethod(name: "putOr", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleNotOr\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOr(object @value)
         {
@@ -175,6 +177,9 @@ namespace aws.CeCostCategory
             get => GetInstanceProperty<aws.CeCostCategory.CeCostCategoryRuleRuleNotTagsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleNotAnd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "andInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleNotAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AndInput
@@ -203,6 +208,9 @@ namespace aws.CeCostCategory
             get => GetInstanceProperty<aws.CeCostCategory.ICeCostCategoryRuleRuleNotNot?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleNotOr" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleNotOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OrInput

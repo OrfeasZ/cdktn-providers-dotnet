@@ -12,6 +12,7 @@ namespace aws.AppmeshRoute
         /// <summary>header block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appmesh_route#header AppmeshRoute#header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecHttp2RouteMatchHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "header", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteMatchHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -85,6 +86,7 @@ namespace aws.AppmeshRoute
         /// <summary>query_parameter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appmesh_route#query_parameter AppmeshRoute#query_parameter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecHttp2RouteMatchQueryParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryParameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteMatchQueryParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

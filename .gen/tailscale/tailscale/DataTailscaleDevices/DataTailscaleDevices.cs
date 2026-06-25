@@ -46,6 +46,7 @@ namespace tailscale.DataTailscaleDevices
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(tailscale.DataTailscaleDevices.DataTailscaleDevices), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesDevices" />)[]</param>
         [JsiiMethod(name: "putDevices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleDevices.DataTailscaleDevicesDevices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDevices(object @value)
         {
@@ -69,6 +70,7 @@ namespace tailscale.DataTailscaleDevices
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleDevices.DataTailscaleDevicesFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -147,6 +149,9 @@ namespace tailscale.DataTailscaleDevices
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesDevices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "devicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleDevices.DataTailscaleDevicesDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DevicesInput
@@ -154,6 +159,9 @@ namespace tailscale.DataTailscaleDevices
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleDevices.DataTailscaleDevicesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

@@ -53,6 +53,12 @@ namespace oci.DataOciTenantmanagercontrolplaneRecipientInvitations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Features
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {

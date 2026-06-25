@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneCacheTune" />)[]</param>
         [JsiiMethod(name: "putCacheTune", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTune\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCacheTune(object @value)
         {
@@ -68,6 +69,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainCpuTuneEmulatorSched)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneIoThreadPin" />)[]</param>
         [JsiiMethod(name: "putIoThreadPin", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneIoThreadPin\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIoThreadPin(object @value)
         {
@@ -91,6 +93,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneIoThreadSched" />)[]</param>
         [JsiiMethod(name: "putIoThreadSched", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneIoThreadSched\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIoThreadSched(object @value)
         {
@@ -114,6 +117,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneMemoryTune" />)[]</param>
         [JsiiMethod(name: "putMemoryTune", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneMemoryTune\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemoryTune(object @value)
         {
@@ -137,6 +141,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneVcpuPin" />)[]</param>
         [JsiiMethod(name: "putVcpuPin", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneVcpuPin\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVcpuPin(object @value)
         {
@@ -160,6 +165,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneVcpuSched" />)[]</param>
         [JsiiMethod(name: "putVcpuSched", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneVcpuSched\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVcpuSched(object @value)
         {
@@ -333,6 +339,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainCpuTuneVcpuSchedList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneCacheTune" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneCacheTune\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CacheTuneInput
@@ -347,6 +356,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuTuneEmulatorPin" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emulatorPinInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuTuneEmulatorPin\"}]}}", isOptional: true)]
         public virtual object? EmulatorPinInput
@@ -361,6 +373,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuTuneEmulatorSched" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emulatorSchedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuTuneEmulatorSched\"}]}}", isOptional: true)]
         public virtual object? EmulatorSchedInput
@@ -389,6 +404,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneIoThreadPin" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreadPinInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneIoThreadPin\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IoThreadPinInput
@@ -403,6 +421,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneIoThreadSched" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreadSchedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneIoThreadSched\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IoThreadSchedInput
@@ -410,6 +431,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneMemoryTune" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneMemoryTune\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemoryTuneInput
@@ -438,6 +462,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneVcpuPin" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vcpuPinInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneVcpuPin\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VcpuPinInput
@@ -445,6 +472,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneVcpuSched" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vcpuSchedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneVcpuSched\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VcpuSchedInput
@@ -515,6 +545,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuTune\"}]}}", isOptional: true)]
         public virtual object? InternalValue

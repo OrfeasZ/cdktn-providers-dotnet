@@ -85,6 +85,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuNumaCellCachesLine" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lineInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCachesLine\"}]}}", isOptional: true)]
         public virtual object? LineInput
@@ -99,6 +102,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuNumaCellCachesSize" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sizeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCachesSize\"}]}}", isOptional: true)]
         public virtual object? SizeInput
@@ -127,6 +133,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuNumaCellCaches" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCaches\"}]}}", isOptional: true)]
         public virtual object? InternalValue

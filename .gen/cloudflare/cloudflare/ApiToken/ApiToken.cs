@@ -52,6 +52,7 @@ namespace cloudflare.ApiToken
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ApiToken.IApiTokenCondition)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiToken.IApiTokenPolicies" />)[]</param>
         [JsiiMethod(name: "putPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPolicies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolicies(object @value)
         {
@@ -160,6 +161,9 @@ namespace cloudflare.ApiToken
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ApiToken.IApiTokenCondition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.apiToken.ApiTokenCondition\"}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -188,6 +192,9 @@ namespace cloudflare.ApiToken
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiToken.IApiTokenPolicies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PoliciesInput

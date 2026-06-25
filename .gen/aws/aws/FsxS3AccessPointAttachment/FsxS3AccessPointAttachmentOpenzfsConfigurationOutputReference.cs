@@ -35,6 +35,7 @@ namespace aws.FsxS3AccessPointAttachment
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity" />)[]</param>
         [JsiiMethod(name: "putFileSystemIdentity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFileSystemIdentity(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.FsxS3AccessPointAttachment
             get => GetInstanceProperty<aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystemIdentityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FileSystemIdentityInput
@@ -91,6 +95,9 @@ namespace aws.FsxS3AccessPointAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

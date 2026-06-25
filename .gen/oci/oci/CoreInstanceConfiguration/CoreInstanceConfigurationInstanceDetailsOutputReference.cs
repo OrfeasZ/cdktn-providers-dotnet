@@ -33,6 +33,7 @@ namespace oci.CoreInstanceConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsBlockVolumes" />)[]</param>
         [JsiiMethod(name: "putBlockVolumes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsBlockVolumes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBlockVolumes(object @value)
         {
@@ -62,6 +63,7 @@ namespace oci.CoreInstanceConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsLaunchDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsOptions" />)[]</param>
         [JsiiMethod(name: "putOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOptions(object @value)
         {
@@ -85,6 +87,7 @@ namespace oci.CoreInstanceConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsSecondaryVnics" />)[]</param>
         [JsiiMethod(name: "putSecondaryVnics", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsSecondaryVnics\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecondaryVnics(object @value)
         {
@@ -156,6 +159,9 @@ namespace oci.CoreInstanceConfiguration
             get => GetInstanceProperty<oci.CoreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsSecondaryVnicsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsBlockVolumes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockVolumesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsBlockVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BlockVolumesInput
@@ -177,6 +183,9 @@ namespace oci.CoreInstanceConfiguration
             get => GetInstanceProperty<oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsLaunchDetails?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "optionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OptionsInput
@@ -184,6 +193,9 @@ namespace oci.CoreInstanceConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsSecondaryVnics" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryVnicsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsSecondaryVnics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecondaryVnicsInput

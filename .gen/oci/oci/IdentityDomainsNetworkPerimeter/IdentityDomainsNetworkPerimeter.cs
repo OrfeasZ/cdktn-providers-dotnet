@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IdentityDomainsNetworkPerimeter
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_network_perimeter oci_identity_domains_network_perimeter}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_network_perimeter oci_identity_domains_network_perimeter}.</summary>
     [JsiiClass(nativeType: typeof(oci.IdentityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeter), fullyQualifiedName: "oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeter", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterConfig\"}}]")]
     public class IdentityDomainsNetworkPerimeter : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_network_perimeter oci_identity_domains_network_perimeter} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_network_perimeter oci_identity_domains_network_perimeter} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IdentityDomainsNetworkPerimeter(Constructs.Construct scope, string id, oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.IdentityDomainsNetworkPerimeter
         /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsNetworkPerimeter to import.</param>
         /// <param name="importFromId">The id of the existing IdentityDomainsNetworkPerimeter that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IdentityDomainsNetworkPerimeter to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsNetworkPerimeter to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_network_perimeter#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsNetworkPerimeter that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsNetworkPerimeter to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsNetworkPerimeter to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_network_perimeter#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsNetworkPerimeter that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsNetworkPerimeter to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeter), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterIpAddresses" />)[]</param>
         [JsiiMethod(name: "putIpAddresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterIpAddresses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpAddresses(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.IdentityDomainsNetworkPerimeter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -291,6 +293,9 @@ namespace oci.IdentityDomainsNetworkPerimeter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterIpAddresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddressesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterIpAddresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpAddressesInput
@@ -326,6 +331,9 @@ namespace oci.IdentityDomainsNetworkPerimeter
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput
@@ -333,6 +341,9 @@ namespace oci.IdentityDomainsNetworkPerimeter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

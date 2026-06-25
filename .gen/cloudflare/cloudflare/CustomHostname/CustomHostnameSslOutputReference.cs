@@ -33,6 +33,7 @@ namespace cloudflare.CustomHostname
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CustomHostname.ICustomHostnameSslCustomCertBundle" />)[]</param>
         [JsiiMethod(name: "putCustomCertBundle", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.customHostname.CustomHostnameSslCustomCertBundle\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomCertBundle(object @value)
         {
@@ -154,6 +155,9 @@ namespace cloudflare.CustomHostname
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudflareBrandingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CloudflareBrandingInput
@@ -161,6 +165,9 @@ namespace cloudflare.CustomHostname
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CustomHostname.ICustomHostnameSslCustomCertBundle" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customCertBundleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.customHostname.CustomHostnameSslCustomCertBundle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomCertBundleInput
@@ -196,6 +203,9 @@ namespace cloudflare.CustomHostname
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.CustomHostname.ICustomHostnameSslSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.customHostname.CustomHostnameSslSettings\"}]}}", isOptional: true)]
         public virtual object? SettingsInput
@@ -210,6 +220,9 @@ namespace cloudflare.CustomHostname
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wildcardInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? WildcardInput
@@ -231,6 +244,9 @@ namespace cloudflare.CustomHostname
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "cloudflareBranding", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object CloudflareBranding
         {
@@ -293,6 +309,9 @@ namespace cloudflare.CustomHostname
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "wildcard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Wildcard
         {
@@ -320,6 +339,9 @@ namespace cloudflare.CustomHostname
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.CustomHostname.ICustomHostnameSsl" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.customHostname.CustomHostnameSsl\"}]}}", isOptional: true)]
         public virtual object? InternalValue

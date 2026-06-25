@@ -253,6 +253,9 @@ namespace cloudflare.ZoneCacheVariants
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneCacheVariants.IZoneCacheVariantsValue" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneCacheVariants.ZoneCacheVariantsValue\"}]}}", isOptional: true)]
         public virtual object? InternalValue

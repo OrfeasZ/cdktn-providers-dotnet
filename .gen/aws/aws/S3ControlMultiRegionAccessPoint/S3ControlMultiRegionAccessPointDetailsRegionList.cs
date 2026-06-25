@@ -41,6 +41,9 @@ namespace aws.S3ControlMultiRegionAccessPoint
             return InvokeInstanceMethod<aws.S3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsRegionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointDetailsRegion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsRegion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

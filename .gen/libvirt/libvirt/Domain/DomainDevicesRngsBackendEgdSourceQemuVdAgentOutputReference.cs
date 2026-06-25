@@ -69,6 +69,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesRngsBackendEgdSourceQemuVdAgentMouseOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesRngsBackendEgdSourceQemuVdAgentClipBoard" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clipBoardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesRngsBackendEgdSourceQemuVdAgentClipBoard\"}]}}", isOptional: true)]
         public virtual object? ClipBoardInput
@@ -76,6 +79,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesRngsBackendEgdSourceQemuVdAgentMouse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mouseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesRngsBackendEgdSourceQemuVdAgentMouse\"}]}}", isOptional: true)]
         public virtual object? MouseInput
@@ -83,6 +89,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesRngsBackendEgdSourceQemuVdAgent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesRngsBackendEgdSourceQemuVdAgent\"}]}}", isOptional: true)]
         public virtual object? InternalValue

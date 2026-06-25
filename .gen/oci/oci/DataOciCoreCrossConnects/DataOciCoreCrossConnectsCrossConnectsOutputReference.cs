@@ -83,6 +83,12 @@ namespace oci.DataOciCoreCrossConnects
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "interfaceName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InterfaceName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isActive", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsActive
         {

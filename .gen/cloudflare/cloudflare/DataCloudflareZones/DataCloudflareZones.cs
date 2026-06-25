@@ -131,6 +131,9 @@ namespace cloudflare.DataCloudflareZones
             get => GetInstanceProperty<cloudflare.DataCloudflareZones.DataCloudflareZonesResultList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZones.IDataCloudflareZonesAccount" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZones.DataCloudflareZonesAccount\"}]}}", isOptional: true)]
         public virtual object? AccountInput

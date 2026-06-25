@@ -41,6 +41,9 @@ namespace cloudflare.TokenValidationRules
             return InvokeInstanceMethod<cloudflare.TokenValidationRules.TokenValidationRulesSelectorIncludeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorInclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorInclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.SsoadminApplication
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptionsSignInOptions" />)[]</param>
         [JsiiMethod(name: "putSignInOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSignInOptions(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.SsoadminApplication
             get => GetInstanceProperty<aws.SsoadminApplication.SsoadminApplicationPortalOptionsSignInOptionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptionsSignInOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "signInOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SignInOptionsInput
@@ -97,6 +101,9 @@ namespace aws.SsoadminApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssoadminApplication.SsoadminApplicationPortalOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.AppflowFlow
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowTaskConnectorOperator" />)[]</param>
         [JsiiMethod(name: "putConnectorOperator", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowTaskConnectorOperator\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnectorOperator(object @value)
         {
@@ -88,6 +89,9 @@ namespace aws.AppflowFlow
             get => GetInstanceProperty<aws.AppflowFlow.AppflowFlowTaskConnectorOperatorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowTaskConnectorOperator" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectorOperatorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowTaskConnectorOperator\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectorOperatorInput
@@ -151,6 +155,9 @@ namespace aws.AppflowFlow
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppflowFlow.IAppflowFlowTask" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appflowFlow.AppflowFlowTask\"}]}}", isOptional: true)]
         public virtual object? InternalValue

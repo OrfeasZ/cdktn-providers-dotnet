@@ -46,6 +46,7 @@ namespace aws.VpcIpamResourceDiscovery
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.VpcIpamResourceDiscovery.VpcIpamResourceDiscovery), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOperatingRegions" />)[]</param>
         [JsiiMethod(name: "putOperatingRegions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOperatingRegions(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.VpcIpamResourceDiscovery
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOrganizationalUnitExclusion" />)[]</param>
         [JsiiMethod(name: "putOrganizationalUnitExclusion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOrganizationalUnitExclusion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOrganizationalUnitExclusion(object @value)
         {
@@ -215,6 +217,9 @@ namespace aws.VpcIpamResourceDiscovery
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOperatingRegions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "operatingRegionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OperatingRegionsInput
@@ -222,6 +227,9 @@ namespace aws.VpcIpamResourceDiscovery
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOrganizationalUnitExclusion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationalUnitExclusionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOrganizationalUnitExclusion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OrganizationalUnitExclusionInput
@@ -250,6 +258,9 @@ namespace aws.VpcIpamResourceDiscovery
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

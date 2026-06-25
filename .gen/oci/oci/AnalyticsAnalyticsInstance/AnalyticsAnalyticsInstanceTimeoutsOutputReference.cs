@@ -93,6 +93,9 @@ namespace oci.AnalyticsAnalyticsInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AnalyticsAnalyticsInstance.IAnalyticsAnalyticsInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.analyticsAnalyticsInstance.AnalyticsAnalyticsInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

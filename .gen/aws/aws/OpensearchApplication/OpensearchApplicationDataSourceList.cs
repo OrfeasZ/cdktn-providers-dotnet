@@ -41,6 +41,9 @@ namespace aws.OpensearchApplication
             return InvokeInstanceMethod<aws.OpensearchApplication.OpensearchApplicationDataSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchApplication.IOpensearchApplicationDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace aws.OpensearchDomain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchDomain.IOpensearchDomainAutoTuneOptionsMaintenanceSchedule" />)[]</param>
         [JsiiMethod(name: "putMaintenanceSchedule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAutoTuneOptionsMaintenanceSchedule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMaintenanceSchedule(object @value)
         {
@@ -87,6 +88,9 @@ namespace aws.OpensearchDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchDomain.IOpensearchDomainAutoTuneOptionsMaintenanceSchedule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceScheduleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchDomain.OpensearchDomainAutoTuneOptionsMaintenanceSchedule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MaintenanceScheduleInput
@@ -101,6 +105,9 @@ namespace aws.OpensearchDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "useOffPeakWindowInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? UseOffPeakWindowInput
@@ -122,6 +129,9 @@ namespace aws.OpensearchDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "useOffPeakWindow", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object UseOffPeakWindow
         {

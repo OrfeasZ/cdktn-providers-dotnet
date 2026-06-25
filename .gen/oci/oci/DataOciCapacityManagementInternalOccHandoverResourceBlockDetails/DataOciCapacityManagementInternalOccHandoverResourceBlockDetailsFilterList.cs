@@ -41,6 +41,9 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails
             return InvokeInstanceMethod<oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails.DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementInternalOccHandoverResourceBlockDetails.IDataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCapacityManagementInternalOccHandoverResourceBlockDetails.DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

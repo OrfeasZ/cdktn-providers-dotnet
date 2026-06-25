@@ -10,6 +10,7 @@ namespace aws.FisExperimentTemplate
         /// <summary>action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fis_experiment_template#action FisExperimentTemplate#action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateAction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateAction\"},\"kind\":\"array\"}}]}}")]
         object Action
@@ -34,6 +35,7 @@ namespace aws.FisExperimentTemplate
         /// <summary>stop_condition block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fis_experiment_template#stop_condition FisExperimentTemplate#stop_condition}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateStopCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stopCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateStopCondition\"},\"kind\":\"array\"}}]}}")]
         object StopCondition
@@ -137,6 +139,7 @@ namespace aws.FisExperimentTemplate
         /// <summary>target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateTarget" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -172,6 +175,7 @@ namespace aws.FisExperimentTemplate
             /// <summary>action block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fis_experiment_template#action FisExperimentTemplate#action}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateAction" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateAction\"},\"kind\":\"array\"}}]}}")]
             public object Action
@@ -196,6 +200,7 @@ namespace aws.FisExperimentTemplate
             /// <summary>stop_condition block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fis_experiment_template#stop_condition FisExperimentTemplate#stop_condition}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateStopCondition" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "stopCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateStopCondition\"},\"kind\":\"array\"}}]}}")]
             public object StopCondition
@@ -278,6 +283,7 @@ namespace aws.FisExperimentTemplate
             /// <summary>target block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateTarget" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -299,6 +305,7 @@ namespace aws.FisExperimentTemplate
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -309,6 +316,7 @@ namespace aws.FisExperimentTemplate
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -359,6 +367,7 @@ namespace aws.FisExperimentTemplate
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

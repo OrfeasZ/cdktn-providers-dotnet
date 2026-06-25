@@ -93,6 +93,9 @@ namespace oci.OsManagementHubManagedInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubManagedInstance.IOsManagementHubManagedInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubManagedInstance.OsManagementHubManagedInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

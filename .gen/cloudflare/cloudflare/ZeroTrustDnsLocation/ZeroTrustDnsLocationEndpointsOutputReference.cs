@@ -81,6 +81,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             get => GetInstanceProperty<cloudflare.ZeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsIpv6OutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsDoh" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dohInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDoh\"}]}}", isOptional: true)]
         public virtual object? DohInput
@@ -88,6 +91,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsDot" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dotInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsDot\"}]}}", isOptional: true)]
         public virtual object? DotInput
@@ -95,6 +101,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsIpv4" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv4Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsIpv4\"}]}}", isOptional: true)]
         public virtual object? Ipv4Input
@@ -102,6 +111,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpointsIpv6" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpointsIpv6\"}]}}", isOptional: true)]
         public virtual object? Ipv6Input
@@ -109,6 +121,9 @@ namespace cloudflare.ZeroTrustDnsLocation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDnsLocation.IZeroTrustDnsLocationEndpoints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDnsLocation.ZeroTrustDnsLocationEndpoints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

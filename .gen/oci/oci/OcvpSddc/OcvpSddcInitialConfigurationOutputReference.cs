@@ -35,6 +35,7 @@ namespace oci.OcvpSddc
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurations" />)[]</param>
         [JsiiMethod(name: "putInitialClusterConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInitialClusterConfigurations(object @value)
         {
@@ -64,6 +65,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<oci.OcvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialClusterConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InitialClusterConfigurationsInput
@@ -71,6 +75,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpSddc.IOcvpSddcInitialConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

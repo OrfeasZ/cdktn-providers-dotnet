@@ -35,6 +35,7 @@ namespace aws.BedrockGuardrail
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigFiltersConfig" />)[]</param>
         [JsiiMethod(name: "putFiltersConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFiltersConfig(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigTierConfig" />)[]</param>
         [JsiiMethod(name: "putTierConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTierConfig(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<aws.BedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigFiltersConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filtersConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FiltersConfigInput
@@ -112,6 +117,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigTierConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tierConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TierConfigInput
@@ -119,6 +127,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

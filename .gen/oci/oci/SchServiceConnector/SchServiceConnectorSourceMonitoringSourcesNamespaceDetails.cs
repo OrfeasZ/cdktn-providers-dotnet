@@ -9,7 +9,7 @@ namespace oci.SchServiceConnector
     [JsiiByValue(fqn: "oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetails")]
     public class SchServiceConnectorSourceMonitoringSourcesNamespaceDetails : oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -21,7 +21,8 @@ namespace oci.SchServiceConnector
 
         /// <summary>namespaces block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/sch_service_connector#namespaces SchServiceConnector#namespaces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/sch_service_connector#namespaces SchServiceConnector#namespaces}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "namespaces", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces\"},\"kind\":\"array\"}}]}}")]
         public object Namespaces

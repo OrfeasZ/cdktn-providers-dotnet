@@ -12,6 +12,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>asn block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#asn Wafv2WebAclRuleA#asn}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysAsn" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "asn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysAsn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>cookie block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#cookie Wafv2WebAclRuleA#cookie}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysCookie" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookie", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysCookie\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -80,6 +82,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>forwarded_ip block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#forwarded_ip Wafv2WebAclRuleA#forwarded_ip}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysForwardedIp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardedIp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysForwardedIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -114,6 +117,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>header block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#header Wafv2WebAclRuleA#header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "header", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -148,6 +152,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>http_method block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#http_method Wafv2WebAclRuleA#http_method}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysHttpMethod" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpMethod", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysHttpMethod\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -182,6 +187,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>ip block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#ip Wafv2WebAclRuleA#ip}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysIp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ip", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -216,6 +222,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>ja3_fingerprint block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#ja3_fingerprint Wafv2WebAclRuleA#ja3_fingerprint}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysJa3Fingerprint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ja3Fingerprint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysJa3Fingerprint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -250,6 +257,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>ja4_fingerprint block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#ja4_fingerprint Wafv2WebAclRuleA#ja4_fingerprint}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysJa4Fingerprint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ja4Fingerprint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysJa4Fingerprint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -284,6 +292,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>label_namespace block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#label_namespace Wafv2WebAclRuleA#label_namespace}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysLabelNamespace" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "labelNamespace", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysLabelNamespace\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -318,6 +327,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>query_argument block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#query_argument Wafv2WebAclRuleA#query_argument}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryArgument" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryArgument", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryArgument\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -352,6 +362,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>query_string block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#query_string Wafv2WebAclRuleA#query_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -386,6 +397,7 @@ namespace aws.Wafv2WebAclRule
         /// <summary>uri_path block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/wafv2_web_acl_rule#uri_path Wafv2WebAclRuleA#uri_path}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPath" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uriPath", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeysUriPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]

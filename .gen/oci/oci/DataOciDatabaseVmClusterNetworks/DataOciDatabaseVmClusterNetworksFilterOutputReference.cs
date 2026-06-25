@@ -48,6 +48,9 @@ namespace oci.DataOciDatabaseVmClusterNetworks
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regexInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RegexInput
@@ -69,6 +72,9 @@ namespace oci.DataOciDatabaseVmClusterNetworks
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Regex
         {
@@ -103,6 +109,9 @@ namespace oci.DataOciDatabaseVmClusterNetworks
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataOciDatabaseVmClusterNetworks.IDataOciDatabaseVmClusterNetworksFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataOciDatabaseVmClusterNetworks.DataOciDatabaseVmClusterNetworksFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

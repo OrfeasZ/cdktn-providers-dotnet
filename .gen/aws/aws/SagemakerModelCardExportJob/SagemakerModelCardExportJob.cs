@@ -46,6 +46,7 @@ namespace aws.SagemakerModelCardExportJob
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SagemakerModelCardExportJob.SagemakerModelCardExportJob), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModelCardExportJob.ISagemakerModelCardExportJobOutputConfig" />)[]</param>
         [JsiiMethod(name: "putOutputConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModelCardExportJob.SagemakerModelCardExportJobOutputConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutputConfig(object @value)
         {
@@ -163,6 +164,9 @@ namespace aws.SagemakerModelCardExportJob
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModelCardExportJob.ISagemakerModelCardExportJobOutputConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModelCardExportJob.SagemakerModelCardExportJobOutputConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutputConfigInput
@@ -177,6 +181,9 @@ namespace aws.SagemakerModelCardExportJob
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerModelCardExportJob.ISagemakerModelCardExportJobTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerModelCardExportJob.SagemakerModelCardExportJobTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

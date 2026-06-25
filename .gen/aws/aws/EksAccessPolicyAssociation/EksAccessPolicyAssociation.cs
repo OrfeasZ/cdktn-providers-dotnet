@@ -161,6 +161,9 @@ namespace aws.EksAccessPolicyAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksAccessPolicyAssociation.IEksAccessPolicyAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -73,6 +73,9 @@ namespace aws.NetworkfirewallVpcEndpointAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkfirewallVpcEndpointAssociation.INetworkfirewallVpcEndpointAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkfirewallVpcEndpointAssociation.NetworkfirewallVpcEndpointAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

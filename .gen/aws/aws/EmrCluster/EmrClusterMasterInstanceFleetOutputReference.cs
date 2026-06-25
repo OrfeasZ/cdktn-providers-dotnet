@@ -33,6 +33,7 @@ namespace aws.EmrCluster
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterMasterInstanceFleetInstanceTypeConfigs" />)[]</param>
         [JsiiMethod(name: "putInstanceTypeConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstanceTypeConfigs(object @value)
         {
@@ -122,6 +123,9 @@ namespace aws.EmrCluster
             get => GetInstanceProperty<double>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterMasterInstanceFleetInstanceTypeConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceTypeConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstanceTypeConfigsInput

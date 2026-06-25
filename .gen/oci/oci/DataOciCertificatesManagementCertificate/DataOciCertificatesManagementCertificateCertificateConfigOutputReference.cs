@@ -35,6 +35,18 @@ namespace oci.DataOciCertificatesManagementCertificate
         {
         }
 
+        [JsiiProperty(name: "certChainPem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertChainPem
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificatePem
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "certificateProfileType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CertificateProfileType
         {
@@ -65,8 +77,26 @@ namespace oci.DataOciCertificatesManagementCertificate
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "privateKeyPem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateKeyPem
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "privateKeyPemPassphrase", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateKeyPemPassphrase
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "signatureAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SignatureAlgorithm
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Stage
         {
             get => GetInstanceProperty<string>()!;
         }

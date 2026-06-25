@@ -46,6 +46,7 @@ namespace aws.Ec2ClientVpnEndpoint
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2ClientVpnEndpoint.IEc2ClientVpnEndpointAuthenticationOptions" />)[]</param>
         [JsiiMethod(name: "putAuthenticationOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpointAuthenticationOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthenticationOptions(object @value)
         {
@@ -298,6 +299,9 @@ namespace aws.Ec2ClientVpnEndpoint
             get => GetInstanceProperty<aws.Ec2ClientVpnEndpoint.Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2ClientVpnEndpoint.IEc2ClientVpnEndpointAuthenticationOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpointAuthenticationOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthenticationOptionsInput
@@ -347,6 +351,9 @@ namespace aws.Ec2ClientVpnEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disconnectOnSessionTimeoutInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisconnectOnSessionTimeoutInput
@@ -410,6 +417,9 @@ namespace aws.Ec2ClientVpnEndpoint
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "splitTunnelInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SplitTunnelInput
@@ -480,6 +490,9 @@ namespace aws.Ec2ClientVpnEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "disconnectOnSessionTimeout", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DisconnectOnSessionTimeout
         {
@@ -563,6 +576,9 @@ namespace aws.Ec2ClientVpnEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "splitTunnel", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SplitTunnel
         {

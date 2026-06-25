@@ -41,6 +41,9 @@ namespace aws.S3TablesTableBucketReplication
             return InvokeInstanceMethod<aws.S3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

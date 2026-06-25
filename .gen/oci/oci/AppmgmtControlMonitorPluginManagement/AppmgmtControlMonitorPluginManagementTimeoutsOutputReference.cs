@@ -93,6 +93,9 @@ namespace oci.AppmgmtControlMonitorPluginManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AppmgmtControlMonitorPluginManagement.IAppmgmtControlMonitorPluginManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.appmgmtControlMonitorPluginManagement.AppmgmtControlMonitorPluginManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

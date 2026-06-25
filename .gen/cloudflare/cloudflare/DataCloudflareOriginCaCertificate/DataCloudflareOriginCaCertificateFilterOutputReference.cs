@@ -87,6 +87,9 @@ namespace cloudflare.DataCloudflareOriginCaCertificate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareOriginCaCertificate.IDataCloudflareOriginCaCertificateFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareOriginCaCertificate.DataCloudflareOriginCaCertificateFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

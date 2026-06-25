@@ -41,6 +41,9 @@ namespace tailscale.DataTailscaleDevices
             return InvokeInstanceMethod<tailscale.DataTailscaleDevices.DataTailscaleDevicesDevicesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesDevices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleDevices.DataTailscaleDevicesDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

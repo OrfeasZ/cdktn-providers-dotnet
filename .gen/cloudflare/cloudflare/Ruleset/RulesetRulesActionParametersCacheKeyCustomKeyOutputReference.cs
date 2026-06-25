@@ -123,6 +123,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersCacheKeyCustomKeyUserOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyCookie" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookieInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyCookie\"}]}}", isOptional: true)]
         public virtual object? CookieInput
@@ -130,6 +133,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyHeader" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHeader\"}]}}", isOptional: true)]
         public virtual object? HeaderInput
@@ -137,6 +143,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyHost" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyHost\"}]}}", isOptional: true)]
         public virtual object? HostInput
@@ -144,6 +153,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyQueryString" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyQueryString\"}]}}", isOptional: true)]
         public virtual object? QueryStringInput
@@ -151,6 +163,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKeyUser" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKeyUser\"}]}}", isOptional: true)]
         public virtual object? UserInput
@@ -158,6 +173,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCacheKeyCustomKey" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKeyCustomKey\"}]}}", isOptional: true)]
         public virtual object? InternalValue

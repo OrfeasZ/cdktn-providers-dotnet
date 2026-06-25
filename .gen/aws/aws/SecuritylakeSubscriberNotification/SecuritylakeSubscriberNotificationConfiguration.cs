@@ -12,6 +12,7 @@ namespace aws.SecuritylakeSubscriberNotification
         /// <summary>https_notification_configuration block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securitylake_subscriber_notification#https_notification_configuration SecuritylakeSubscriberNotification#https_notification_configuration}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfigurationHttpsNotificationConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpsNotificationConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationHttpsNotificationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace aws.SecuritylakeSubscriberNotification
         /// <summary>sqs_notification_configuration block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securitylake_subscriber_notification#sqs_notification_configuration SecuritylakeSubscriberNotification#sqs_notification_configuration}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriberNotification.ISecuritylakeSubscriberNotificationConfigurationSqsNotificationConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqsNotificationConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]

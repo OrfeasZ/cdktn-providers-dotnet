@@ -55,6 +55,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDevicePostureRule.IZeroTrustDevicePostureRuleMatch" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatch\"}]}}", isOptional: true)]
         public virtual object? InternalValue

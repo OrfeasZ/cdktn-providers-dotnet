@@ -46,6 +46,7 @@ namespace aws.EcsClusterCapacityProviders
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EcsClusterCapacityProviders.EcsClusterCapacityProviders), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsClusterCapacityProviders.IEcsClusterCapacityProvidersDefaultCapacityProviderStrategy" />)[]</param>
         [JsiiMethod(name: "putDefaultCapacityProviderStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefaultCapacityProviderStrategy(object @value)
         {
@@ -132,6 +133,9 @@ namespace aws.EcsClusterCapacityProviders
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsClusterCapacityProviders.IEcsClusterCapacityProvidersDefaultCapacityProviderStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultCapacityProviderStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefaultCapacityProviderStrategyInput

@@ -7,14 +7,14 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule
     [JsiiInterface(nativeType: typeof(IDataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRuleConfig), fullyQualifiedName: "oci.dataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRuleConfig")]
     public interface IDataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#tunnel_inspection_rule_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#tunnel_inspection_rule_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#tunnel_inspection_rule_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#tunnel_inspection_rule_name}.</summary>
         [JsiiProperty(name: "tunnelInspectionRuleName", typeJson: "{\"primitive\":\"string\"}")]
         string TunnelInspectionRuleName
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#network_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#network_firewall_policy_id}.</summary>
             [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#tunnel_inspection_rule_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#tunnel_inspection_rule_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rule#tunnel_inspection_rule_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule#tunnel_inspection_rule_name}.</summary>
             [JsiiProperty(name: "tunnelInspectionRuleName", typeJson: "{\"primitive\":\"string\"}")]
             public string TunnelInspectionRuleName
             {
@@ -44,6 +44,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -54,6 +55,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -104,6 +106,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRule
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -161,6 +161,9 @@ namespace tailscale.DataTailscaleDevices
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesDevices" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"tailscale.dataTailscaleDevices.DataTailscaleDevicesDevices\"}]}}", isOptional: true)]
         public virtual object? InternalValue

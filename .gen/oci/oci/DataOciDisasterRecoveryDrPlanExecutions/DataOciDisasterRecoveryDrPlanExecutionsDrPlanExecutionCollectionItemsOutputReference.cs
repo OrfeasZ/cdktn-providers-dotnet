@@ -35,6 +35,12 @@ namespace oci.DataOciDisasterRecoveryDrPlanExecutions
         {
         }
 
+        [JsiiProperty(name: "automaticExecutionDetails", typeJson: "{\"fqn\":\"oci.dataOciDisasterRecoveryDrPlanExecutions.DataOciDisasterRecoveryDrPlanExecutionsDrPlanExecutionCollectionItemsAutomaticExecutionDetailsList\"}")]
+        public virtual oci.DataOciDisasterRecoveryDrPlanExecutions.DataOciDisasterRecoveryDrPlanExecutionsDrPlanExecutionCollectionItemsAutomaticExecutionDetailsList AutomaticExecutionDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDisasterRecoveryDrPlanExecutions.DataOciDisasterRecoveryDrPlanExecutionsDrPlanExecutionCollectionItemsAutomaticExecutionDetailsList>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -89,6 +95,12 @@ namespace oci.DataOciDisasterRecoveryDrPlanExecutions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isAutomatic", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsAutomatic
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "lifeCycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifeCycleDetails
         {
@@ -129,6 +141,12 @@ namespace oci.DataOciDisasterRecoveryDrPlanExecutions
         public virtual string State
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "stepStatusCounts", typeJson: "{\"fqn\":\"oci.dataOciDisasterRecoveryDrPlanExecutions.DataOciDisasterRecoveryDrPlanExecutionsDrPlanExecutionCollectionItemsStepStatusCountsList\"}")]
+        public virtual oci.DataOciDisasterRecoveryDrPlanExecutions.DataOciDisasterRecoveryDrPlanExecutionsDrPlanExecutionCollectionItemsStepStatusCountsList StepStatusCounts
+        {
+            get => GetInstanceProperty<oci.DataOciDisasterRecoveryDrPlanExecutions.DataOciDisasterRecoveryDrPlanExecutionsDrPlanExecutionCollectionItemsStepStatusCountsList>()!;
         }
 
         [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]

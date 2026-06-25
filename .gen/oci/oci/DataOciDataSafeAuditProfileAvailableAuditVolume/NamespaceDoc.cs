@@ -5,7 +5,7 @@ namespace oci.DataOciDataSafeAuditProfileAvailableAuditVolume
     /// <remarks>
     /// <h1><c>data_oci_data_safe_audit_profile_available_audit_volume</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_audit_profile_available_audit_volume"><c>data_oci_data_safe_audit_profile_available_audit_volume</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_audit_profile_available_audit_volume"><c>data_oci_data_safe_audit_profile_available_audit_volume</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

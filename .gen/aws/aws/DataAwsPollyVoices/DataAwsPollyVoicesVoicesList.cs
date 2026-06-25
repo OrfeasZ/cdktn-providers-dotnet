@@ -41,6 +41,9 @@ namespace aws.DataAwsPollyVoices
             return InvokeInstanceMethod<aws.DataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsPollyVoices.IDataAwsPollyVoicesVoices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsPollyVoices.DataAwsPollyVoicesVoices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

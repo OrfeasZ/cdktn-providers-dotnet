@@ -58,6 +58,7 @@ namespace aws.LbTargetGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LbTargetGroup.ILbTargetGroupStickiness)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbTargetGroup.ILbTargetGroupTargetFailover" />)[]</param>
         [JsiiMethod(name: "putTargetFailover", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetFailover\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetFailover(object @value)
         {
@@ -87,6 +88,7 @@ namespace aws.LbTargetGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LbTargetGroup.ILbTargetGroupTargetGroupHealth)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbTargetGroup.ILbTargetGroupTargetHealthState" />)[]</param>
         [JsiiMethod(name: "putTargetHealthState", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetHealthState\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetHealthState(object @value)
         {
@@ -339,6 +341,9 @@ namespace aws.LbTargetGroup
             get => GetInstanceProperty<aws.LbTargetGroup.LbTargetGroupTargetHealthStateList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionTerminationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ConnectionTerminationInput
@@ -374,6 +379,9 @@ namespace aws.LbTargetGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaMultiValueHeadersEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? LambdaMultiValueHeadersEnabledInput
@@ -444,6 +452,9 @@ namespace aws.LbTargetGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "proxyProtocolV2Input", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ProxyProtocolV2Input
@@ -493,6 +504,9 @@ namespace aws.LbTargetGroup
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbTargetGroup.ILbTargetGroupTargetFailover" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetFailoverInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetFailover\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetFailoverInput
@@ -507,6 +521,9 @@ namespace aws.LbTargetGroup
             get => GetInstanceProperty<aws.LbTargetGroup.ILbTargetGroupTargetGroupHealth?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbTargetGroup.ILbTargetGroupTargetHealthState" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetHealthStateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetHealthState\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetHealthStateInput
@@ -528,6 +545,9 @@ namespace aws.LbTargetGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "connectionTermination", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ConnectionTermination
         {
@@ -576,6 +596,9 @@ namespace aws.LbTargetGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "lambdaMultiValueHeadersEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object LambdaMultiValueHeadersEnabled
         {
@@ -666,6 +689,9 @@ namespace aws.LbTargetGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "proxyProtocolV2", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ProxyProtocolV2
         {

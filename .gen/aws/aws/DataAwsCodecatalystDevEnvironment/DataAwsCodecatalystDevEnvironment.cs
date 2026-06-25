@@ -46,6 +46,7 @@ namespace aws.DataAwsCodecatalystDevEnvironment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCodecatalystDevEnvironment.IDataAwsCodecatalystDevEnvironmentRepositories" />)[]</param>
         [JsiiMethod(name: "putRepositories", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironmentRepositories\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRepositories(object @value)
         {
@@ -214,6 +215,9 @@ namespace aws.DataAwsCodecatalystDevEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCodecatalystDevEnvironment.IDataAwsCodecatalystDevEnvironmentRepositories" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repositoriesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironmentRepositories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RepositoriesInput

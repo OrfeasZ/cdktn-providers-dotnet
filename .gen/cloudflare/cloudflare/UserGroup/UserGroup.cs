@@ -46,6 +46,7 @@ namespace cloudflare.UserGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.UserGroup.UserGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroup.IUserGroupPolicies" />)[]</param>
         [JsiiMethod(name: "putPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPolicies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolicies(object @value)
         {
@@ -132,6 +133,9 @@ namespace cloudflare.UserGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroup.IUserGroupPolicies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PoliciesInput

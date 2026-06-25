@@ -73,6 +73,9 @@ namespace aws.VpnGatewayRoutePropagation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpnGatewayRoutePropagation.IVpnGatewayRoutePropagationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

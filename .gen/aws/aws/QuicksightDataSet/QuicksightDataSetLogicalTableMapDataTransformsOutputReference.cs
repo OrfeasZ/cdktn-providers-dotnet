@@ -210,6 +210,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransforms" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms\"}]}}", isOptional: true)]
         public virtual object? InternalValue

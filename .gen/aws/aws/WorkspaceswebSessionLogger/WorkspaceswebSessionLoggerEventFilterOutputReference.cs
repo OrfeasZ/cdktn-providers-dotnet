@@ -35,6 +35,7 @@ namespace aws.WorkspaceswebSessionLogger
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerEventFilterAll" />)[]</param>
         [JsiiMethod(name: "putAll", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilterAll\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAll(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.WorkspaceswebSessionLogger
             get => GetInstanceProperty<aws.WorkspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilterAllList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerEventFilterAll" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilterAll\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AllInput
@@ -97,6 +101,9 @@ namespace aws.WorkspaceswebSessionLogger
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerEventFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

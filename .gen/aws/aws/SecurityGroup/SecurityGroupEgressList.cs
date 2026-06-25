@@ -41,6 +41,9 @@ namespace aws.SecurityGroup
             return InvokeInstanceMethod<aws.SecurityGroup.SecurityGroupEgressOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityGroup.ISecurityGroupEgress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityGroup.SecurityGroupEgress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.WaasWaasPolicy
             return InvokeInstanceMethod<oci.WaasWaasPolicy.WaasWaasPolicyOriginGroupsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOriginGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyOriginGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

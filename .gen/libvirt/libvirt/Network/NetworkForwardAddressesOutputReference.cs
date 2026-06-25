@@ -53,6 +53,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkForwardAddressesPciOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForwardAddressesPci" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pciInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForwardAddressesPci\"}]}}", isOptional: true)]
         public virtual object? PciInput
@@ -60,6 +63,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForwardAddresses" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForwardAddresses\"}]}}", isOptional: true)]
         public virtual object? InternalValue

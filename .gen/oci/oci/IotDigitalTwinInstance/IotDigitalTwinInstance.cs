@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IotDigitalTwinInstance
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_instance oci_iot_digital_twin_instance}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_instance oci_iot_digital_twin_instance}.</summary>
     [JsiiClass(nativeType: typeof(oci.IotDigitalTwinInstance.IotDigitalTwinInstance), fullyQualifiedName: "oci.iotDigitalTwinInstance.IotDigitalTwinInstance", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.iotDigitalTwinInstance.IotDigitalTwinInstanceConfig\"}}]")]
     public class IotDigitalTwinInstance : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_instance oci_iot_digital_twin_instance} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_instance oci_iot_digital_twin_instance} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IotDigitalTwinInstance(Constructs.Construct scope, string id, oci.IotDigitalTwinInstance.IIotDigitalTwinInstanceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.IotDigitalTwinInstance
         /// <param name="importToId">The construct id used in the generated config for the IotDigitalTwinInstance to import.</param>
         /// <param name="importFromId">The id of the existing IotDigitalTwinInstance that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IotDigitalTwinInstance to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IotDigitalTwinInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IotDigitalTwinInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IotDigitalTwinInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IotDigitalTwinInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IotDigitalTwinInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IotDigitalTwinInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IotDigitalTwinInstance.IotDigitalTwinInstance), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -54,6 +54,12 @@ namespace oci.IotDigitalTwinInstance
 
         [JsiiMethod(name: "resetAuthId")]
         public virtual void ResetAuthId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetConnectivityType")]
+        public virtual void ResetConnectivityType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -102,6 +108,12 @@ namespace oci.IotDigitalTwinInstance
 
         [JsiiMethod(name: "resetFreeformTags")]
         public virtual void ResetFreeformTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetGateways")]
+        public virtual void ResetGateways()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -175,6 +187,13 @@ namespace oci.IotDigitalTwinInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "connectivityTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ConnectivityTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "definedTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? DefinedTagsInput
         {
@@ -231,6 +250,13 @@ namespace oci.IotDigitalTwinInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "gatewaysInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? GatewaysInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IdInput
         {
@@ -244,6 +270,9 @@ namespace oci.IotDigitalTwinInstance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IotDigitalTwinInstance.IIotDigitalTwinInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.iotDigitalTwinInstance.IotDigitalTwinInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -253,6 +282,13 @@ namespace oci.IotDigitalTwinInstance
 
         [JsiiProperty(name: "authId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuthId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "connectivityType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConnectivityType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -311,6 +347,13 @@ namespace oci.IotDigitalTwinInstance
         public virtual System.Collections.Generic.IDictionary<string, string> FreeformTags
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "gateways", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Gateways
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

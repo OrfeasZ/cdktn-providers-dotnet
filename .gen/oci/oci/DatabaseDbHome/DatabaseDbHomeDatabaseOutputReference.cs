@@ -177,6 +177,12 @@ namespace oci.DatabaseDbHome
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVmClusterId")]
+        public virtual void ResetVmClusterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "connectionStrings", typeJson: "{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeDatabaseConnectionStringsList\"}")]
         public virtual oci.DatabaseDbHome.DatabaseDbHomeDatabaseConnectionStringsList ConnectionStrings
         {
@@ -397,6 +403,13 @@ namespace oci.DatabaseDbHome
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "vmClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VmClusterIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AdminPassword
         {
@@ -525,6 +538,13 @@ namespace oci.DatabaseDbHome
 
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VaultId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmClusterId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

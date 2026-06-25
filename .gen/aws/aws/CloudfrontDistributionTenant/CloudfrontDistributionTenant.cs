@@ -46,6 +46,7 @@ namespace aws.CloudfrontDistributionTenant
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudfrontDistributionTenant.CloudfrontDistributionTenant), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantCustomizations" />)[]</param>
         [JsiiMethod(name: "putCustomizations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomizations(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.CloudfrontDistributionTenant
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantDomain" />)[]</param>
         [JsiiMethod(name: "putDomain", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomain\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDomain(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.CloudfrontDistributionTenant
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantManagedCertificateRequest" />)[]</param>
         [JsiiMethod(name: "putManagedCertificateRequest", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantManagedCertificateRequest\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutManagedCertificateRequest(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.CloudfrontDistributionTenant
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -284,6 +288,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantCustomizations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customizationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomizationsInput
@@ -298,6 +305,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantDomain" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomain\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DomainInput
@@ -305,6 +315,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -312,6 +325,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantManagedCertificateRequest" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedCertificateRequestInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantManagedCertificateRequest\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ManagedCertificateRequestInput
@@ -326,6 +342,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput
@@ -340,6 +359,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontDistributionTenant.ICloudfrontDistributionTenantTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontDistributionTenant.CloudfrontDistributionTenantTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -347,6 +369,9 @@ namespace aws.CloudfrontDistributionTenant
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "waitForDeploymentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? WaitForDeploymentInput
@@ -368,6 +393,9 @@ namespace aws.CloudfrontDistributionTenant
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -409,6 +437,9 @@ namespace aws.CloudfrontDistributionTenant
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "waitForDeployment", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object WaitForDeployment
         {

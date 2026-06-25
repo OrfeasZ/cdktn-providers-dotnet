@@ -52,6 +52,7 @@ namespace aws.AcmCertificate
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AcmCertificate.IAcmCertificateOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AcmCertificate.IAcmCertificateValidationOption" />)[]</param>
         [JsiiMethod(name: "putValidationOption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.acmCertificate.AcmCertificateValidationOption\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValidationOption(object @value)
         {
@@ -380,6 +381,9 @@ namespace aws.AcmCertificate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AcmCertificate.IAcmCertificateValidationOption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationOptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.acmCertificate.AcmCertificateValidationOption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValidationOptionInput

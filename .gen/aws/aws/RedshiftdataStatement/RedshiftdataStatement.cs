@@ -46,6 +46,7 @@ namespace aws.RedshiftdataStatement
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RedshiftdataStatement.RedshiftdataStatement), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftdataStatement.IRedshiftdataStatementParameters" />)[]</param>
         [JsiiMethod(name: "putParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftdataStatement.RedshiftdataStatementParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameters(object @value)
         {
@@ -194,6 +195,9 @@ namespace aws.RedshiftdataStatement
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftdataStatement.IRedshiftdataStatementParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftdataStatement.RedshiftdataStatementParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParametersInput
@@ -229,6 +233,9 @@ namespace aws.RedshiftdataStatement
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftdataStatement.IRedshiftdataStatementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftdataStatement.RedshiftdataStatementTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -236,6 +243,9 @@ namespace aws.RedshiftdataStatement
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withEventInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? WithEventInput
@@ -306,6 +316,9 @@ namespace aws.RedshiftdataStatement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "withEvent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object WithEvent
         {

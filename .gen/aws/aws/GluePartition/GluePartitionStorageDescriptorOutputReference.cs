@@ -33,6 +33,7 @@ namespace aws.GluePartition
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorColumns" />)[]</param>
         [JsiiMethod(name: "putColumns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorColumns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumns(object @value)
         {
@@ -68,6 +69,7 @@ namespace aws.GluePartition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GluePartition.IGluePartitionStorageDescriptorSkewedInfo)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorSortColumns" />)[]</param>
         [JsiiMethod(name: "putSortColumns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSortColumns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSortColumns(object @value)
         {
@@ -207,6 +209,9 @@ namespace aws.GluePartition
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorColumns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnsInput
@@ -214,6 +219,9 @@ namespace aws.GluePartition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compressedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CompressedInput
@@ -270,6 +278,9 @@ namespace aws.GluePartition
             get => GetInstanceProperty<aws.GluePartition.IGluePartitionStorageDescriptorSkewedInfo?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorSortColumns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sortColumnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSortColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SortColumnsInput
@@ -277,6 +288,9 @@ namespace aws.GluePartition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storedAsSubDirectoriesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? StoredAsSubDirectoriesInput
@@ -298,6 +312,9 @@ namespace aws.GluePartition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "compressed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Compressed
         {
@@ -360,6 +377,9 @@ namespace aws.GluePartition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "storedAsSubDirectories", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object StoredAsSubDirectories
         {

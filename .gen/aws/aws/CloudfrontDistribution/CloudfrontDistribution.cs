@@ -58,6 +58,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontDistribution.ICloudfrontDistributionConnectionFunctionAssociation)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionCustomErrorResponse" />)[]</param>
         [JsiiMethod(name: "putCustomErrorResponse", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponse\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomErrorResponse(object @value)
         {
@@ -93,6 +94,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontDistribution.ICloudfrontDistributionLoggingConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehavior" />)[]</param>
         [JsiiMethod(name: "putOrderedCacheBehavior", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehavior\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOrderedCacheBehavior(object @value)
         {
@@ -116,6 +118,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrigin" />)[]</param>
         [JsiiMethod(name: "putOrigin", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrigin\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOrigin(object @value)
         {
@@ -139,6 +142,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroup" />)[]</param>
         [JsiiMethod(name: "putOriginGroup", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroup\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOriginGroup(object @value)
         {
@@ -505,6 +509,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionCustomErrorResponse" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customErrorResponseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponse\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomErrorResponseInput
@@ -526,6 +533,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -547,6 +557,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6EnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIpv6EnabledInput
@@ -561,6 +574,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionLoggingConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehavior" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orderedCacheBehaviorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehavior\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OrderedCacheBehaviorInput
@@ -568,6 +584,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroup" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originGroupInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroup\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OriginGroupInput
@@ -575,6 +594,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrigin" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrigin\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OriginInput
@@ -596,6 +618,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionRestrictions?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retainOnDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RetainOnDeleteInput
@@ -603,6 +628,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stagingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? StagingInput
@@ -638,6 +666,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionViewerMtlsConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "waitForDeploymentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? WaitForDeploymentInput
@@ -687,6 +718,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -728,6 +762,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIpv6Enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIpv6Enabled
         {
@@ -762,6 +799,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "retainOnDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RetainOnDelete
         {
@@ -789,6 +829,9 @@ namespace aws.CloudfrontDistribution
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "staging", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Staging
         {
@@ -830,6 +873,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "waitForDeployment", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object WaitForDeployment
         {

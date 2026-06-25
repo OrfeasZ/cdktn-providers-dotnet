@@ -46,6 +46,7 @@ namespace cloudflare.AuthenticatedOriginPulls
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.AuthenticatedOriginPulls.AuthenticatedOriginPulls), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AuthenticatedOriginPulls.IAuthenticatedOriginPullsConfigA" />)[]</param>
         [JsiiMethod(name: "putConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfigA\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfig(object @value)
         {
@@ -190,6 +191,9 @@ namespace cloudflare.AuthenticatedOriginPulls
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AuthenticatedOriginPulls.IAuthenticatedOriginPullsConfigA" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.authenticatedOriginPulls.AuthenticatedOriginPullsConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigInput

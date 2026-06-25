@@ -33,6 +33,7 @@ namespace oci.DevopsBuildPipeline
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsBuildPipeline.IDevopsBuildPipelineBuildPipelineParametersItems" />)[]</param>
         [JsiiMethod(name: "putItems", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsBuildPipeline.DevopsBuildPipelineBuildPipelineParametersItems\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutItems(object @value)
         {
@@ -62,6 +63,9 @@ namespace oci.DevopsBuildPipeline
             get => GetInstanceProperty<oci.DevopsBuildPipeline.DevopsBuildPipelineBuildPipelineParametersItemsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsBuildPipeline.IDevopsBuildPipelineBuildPipelineParametersItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "itemsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsBuildPipeline.DevopsBuildPipelineBuildPipelineParametersItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ItemsInput

@@ -30,6 +30,7 @@ namespace aws.SesReceiptRule
         /// <summary>add_header_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#add_header_action SesReceiptRule#add_header_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleAddHeaderAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleAddHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -73,6 +74,7 @@ namespace aws.SesReceiptRule
         /// <summary>bounce_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#bounce_action SesReceiptRule#bounce_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleBounceAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bounceAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleBounceAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -105,6 +107,9 @@ namespace aws.SesReceiptRule
         private object? _enabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#enabled SesReceiptRule#enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Enabled
@@ -151,6 +156,7 @@ namespace aws.SesReceiptRule
         /// <summary>lambda_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#lambda_action SesReceiptRule#lambda_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleLambdaAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleLambdaAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -206,6 +212,7 @@ namespace aws.SesReceiptRule
         /// <summary>s3_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#s3_action SesReceiptRule#s3_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleS3Action" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleS3Action\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -238,6 +245,9 @@ namespace aws.SesReceiptRule
         private object? _scanEnabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#scan_enabled SesReceiptRule#scan_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scanEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ScanEnabled
@@ -271,6 +281,7 @@ namespace aws.SesReceiptRule
         /// <summary>sns_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#sns_action SesReceiptRule#sns_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleSnsAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snsAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleSnsAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -305,6 +316,7 @@ namespace aws.SesReceiptRule
         /// <summary>stop_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#stop_action SesReceiptRule#stop_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleStopAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stopAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleStopAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -348,6 +360,7 @@ namespace aws.SesReceiptRule
         /// <summary>workmail_action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ses_receipt_rule#workmail_action SesReceiptRule#workmail_action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleWorkmailAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workmailAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleWorkmailAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -381,6 +394,7 @@ namespace aws.SesReceiptRule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -414,6 +428,7 @@ namespace aws.SesReceiptRule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -508,6 +523,7 @@ namespace aws.SesReceiptRule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

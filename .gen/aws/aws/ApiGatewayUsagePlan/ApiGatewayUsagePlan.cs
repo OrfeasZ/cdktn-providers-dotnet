@@ -46,6 +46,7 @@ namespace aws.ApiGatewayUsagePlan
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ApiGatewayUsagePlan.ApiGatewayUsagePlan), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStages" />)[]</param>
         [JsiiMethod(name: "putApiStages", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStages\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApiStages(object @value)
         {
@@ -178,6 +179,9 @@ namespace aws.ApiGatewayUsagePlan
             get => GetInstanceProperty<aws.ApiGatewayUsagePlan.ApiGatewayUsagePlanThrottleSettingsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStages" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiStagesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStages\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApiStagesInput

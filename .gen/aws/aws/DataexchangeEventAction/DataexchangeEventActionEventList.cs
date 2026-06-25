@@ -41,6 +41,9 @@ namespace aws.DataexchangeEventAction
             return InvokeInstanceMethod<aws.DataexchangeEventAction.DataexchangeEventActionEventOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionEvent" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEvent\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

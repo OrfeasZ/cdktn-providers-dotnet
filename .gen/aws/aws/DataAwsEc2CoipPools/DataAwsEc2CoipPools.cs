@@ -46,6 +46,7 @@ namespace aws.DataAwsEc2CoipPools
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsEc2CoipPools.DataAwsEc2CoipPools), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2CoipPools.IDataAwsEc2CoipPoolsFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2CoipPools.DataAwsEc2CoipPoolsFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -142,6 +143,9 @@ namespace aws.DataAwsEc2CoipPools
             get => GetInstanceProperty<aws.DataAwsEc2CoipPools.DataAwsEc2CoipPoolsTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2CoipPools.IDataAwsEc2CoipPoolsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2CoipPools.DataAwsEc2CoipPoolsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -170,6 +174,9 @@ namespace aws.DataAwsEc2CoipPools
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2CoipPools.IDataAwsEc2CoipPoolsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2CoipPools.DataAwsEc2CoipPoolsTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

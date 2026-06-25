@@ -93,6 +93,9 @@ namespace oci.CoreComputeImageCapabilitySchema
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeImageCapabilitySchema.ICoreComputeImageCapabilitySchemaTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeImageCapabilitySchema.CoreComputeImageCapabilitySchemaTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

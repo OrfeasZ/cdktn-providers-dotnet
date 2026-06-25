@@ -35,8 +35,20 @@ namespace oci.DataOciDatabaseDatabases
         {
         }
 
+        [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsEncryptionKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AzureEncryptionKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GoogleCloudProviderEncryptionKeyId
         {
             get => GetInstanceProperty<string>()!;
         }

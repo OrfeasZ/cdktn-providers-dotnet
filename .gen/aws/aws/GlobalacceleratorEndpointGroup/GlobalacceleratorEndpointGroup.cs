@@ -46,6 +46,7 @@ namespace aws.GlobalacceleratorEndpointGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlobalacceleratorEndpointGroup.GlobalacceleratorEndpointGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupEndpointConfiguration" />)[]</param>
         [JsiiMethod(name: "putEndpointConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupEndpointConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEndpointConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.GlobalacceleratorEndpointGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupPortOverride" />)[]</param>
         [JsiiMethod(name: "putPortOverride", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupPortOverride\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortOverride(object @value)
         {
@@ -207,6 +209,9 @@ namespace aws.GlobalacceleratorEndpointGroup
             get => GetInstanceProperty<aws.GlobalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupEndpointConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpointConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupEndpointConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EndpointConfigurationInput
@@ -263,6 +268,9 @@ namespace aws.GlobalacceleratorEndpointGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupPortOverride" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portOverrideInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupPortOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortOverrideInput
@@ -277,6 +285,9 @@ namespace aws.GlobalacceleratorEndpointGroup
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

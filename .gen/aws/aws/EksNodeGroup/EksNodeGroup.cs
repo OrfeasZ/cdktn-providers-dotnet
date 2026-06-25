@@ -70,6 +70,7 @@ namespace aws.EksNodeGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksNodeGroup.IEksNodeGroupScalingConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksNodeGroup.IEksNodeGroupTaint" />)[]</param>
         [JsiiMethod(name: "putTaint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupTaint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTaint(object @value)
         {
@@ -332,6 +333,9 @@ namespace aws.EksNodeGroup
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceUpdateVersionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceUpdateVersionInput
@@ -444,6 +448,9 @@ namespace aws.EksNodeGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksNodeGroup.IEksNodeGroupTaint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taintInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupTaint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TaintInput
@@ -451,6 +458,9 @@ namespace aws.EksNodeGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksNodeGroup.IEksNodeGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -500,6 +510,9 @@ namespace aws.EksNodeGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceUpdateVersion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceUpdateVersion
         {

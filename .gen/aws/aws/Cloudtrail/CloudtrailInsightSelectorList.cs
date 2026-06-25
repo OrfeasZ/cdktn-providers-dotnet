@@ -41,6 +41,9 @@ namespace aws.Cloudtrail
             return InvokeInstanceMethod<aws.Cloudtrail.CloudtrailInsightSelectorOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Cloudtrail.ICloudtrailInsightSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrail.CloudtrailInsightSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

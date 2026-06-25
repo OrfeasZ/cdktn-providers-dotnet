@@ -46,6 +46,7 @@ namespace aws.Route53DomainsDomain
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Route53DomainsDomain.Route53DomainsDomain), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainAdminContact" />)[]</param>
         [JsiiMethod(name: "putAdminContact", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainAdminContact\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdminContact(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Route53DomainsDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainBillingContact" />)[]</param>
         [JsiiMethod(name: "putBillingContact", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContact\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBillingContact(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.Route53DomainsDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainNameServer" />)[]</param>
         [JsiiMethod(name: "putNameServer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainNameServer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNameServer(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.Route53DomainsDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainRegistrantContact" />)[]</param>
         [JsiiMethod(name: "putRegistrantContact", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainRegistrantContact\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegistrantContact(object @value)
         {
@@ -138,6 +142,7 @@ namespace aws.Route53DomainsDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainTechContact" />)[]</param>
         [JsiiMethod(name: "putTechContact", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTechContact\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTechContact(object @value)
         {
@@ -372,6 +377,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainAdminContact" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "adminContactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainAdminContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdminContactInput
@@ -379,6 +387,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "adminPrivacyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AdminPrivacyInput
@@ -386,6 +397,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoRenewInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoRenewInput
@@ -393,6 +407,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainBillingContact" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingContactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BillingContactInput
@@ -400,6 +417,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingPrivacyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? BillingPrivacyInput
@@ -421,6 +441,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainNameServer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameServerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainNameServer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NameServerInput
@@ -428,6 +451,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainRegistrantContact" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registrantContactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainRegistrantContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegistrantContactInput
@@ -435,6 +461,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registrantPrivacyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RegistrantPrivacyInput
@@ -449,6 +478,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainTechContact" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "techContactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTechContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TechContactInput
@@ -456,6 +488,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "techPrivacyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TechPrivacyInput
@@ -463,6 +498,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -470,6 +508,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferLockInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TransferLockInput
@@ -477,6 +518,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "adminPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AdminPrivacy
         {
@@ -504,6 +548,9 @@ namespace aws.Route53DomainsDomain
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoRenew", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoRenew
         {
@@ -531,6 +578,9 @@ namespace aws.Route53DomainsDomain
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "billingPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object BillingPrivacy
         {
@@ -572,6 +622,9 @@ namespace aws.Route53DomainsDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "registrantPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RegistrantPrivacy
         {
@@ -606,6 +659,9 @@ namespace aws.Route53DomainsDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "techPrivacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TechPrivacy
         {
@@ -633,6 +689,9 @@ namespace aws.Route53DomainsDomain
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "transferLock", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TransferLock
         {

@@ -189,6 +189,9 @@ namespace aws.Macie2FindingsFilter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterFindingCriteriaCriterion" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion\"}]}}", isOptional: true)]
         public virtual object? InternalValue

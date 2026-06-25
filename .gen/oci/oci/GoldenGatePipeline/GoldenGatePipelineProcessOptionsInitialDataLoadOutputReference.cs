@@ -39,9 +39,66 @@ namespace oci.GoldenGatePipeline
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAdbWalletPath")]
+        public virtual void ResetAdbWalletPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBucket")]
+        public virtual void ResetBucket()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInitialLoadType")]
+        public virtual void ResetInitialLoadType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNamespace")]
+        public virtual void ResetNamespace()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSourceWalletPath")]
+        public virtual void ResetSourceWalletPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTargetWalletPath")]
+        public virtual void ResetTargetWalletPath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "actionOnExistingTableInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ActionOnExistingTableInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "adbWalletPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AdbWalletPathInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "bucketInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BucketInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "initialLoadTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InitialLoadTypeInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -53,6 +110,27 @@ namespace oci.GoldenGatePipeline
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "namespaceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NamespaceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sourceWalletPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SourceWalletPathInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "targetWalletPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TargetWalletPathInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "actionOnExistingTable", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ActionOnExistingTable
         {
@@ -60,8 +138,50 @@ namespace oci.GoldenGatePipeline
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "adbWalletPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AdbWalletPath
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Bucket
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "initialLoadType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialLoadType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "isInitialLoad", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IsInitialLoad
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Namespace
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sourceWalletPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceWalletPath
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "targetWalletPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetWalletPath
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

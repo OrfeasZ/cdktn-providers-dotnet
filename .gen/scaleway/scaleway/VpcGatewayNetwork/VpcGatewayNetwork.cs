@@ -46,6 +46,7 @@ namespace scaleway.VpcGatewayNetwork
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.VpcGatewayNetwork.VpcGatewayNetwork), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcGatewayNetwork.IVpcGatewayNetworkIpamConfig" />)[]</param>
         [JsiiMethod(name: "putIpamConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcGatewayNetwork.VpcGatewayNetworkIpamConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpamConfig(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.VpcGatewayNetwork
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcGatewayNetwork.IVpcGatewayNetworkPrivateIp" />)[]</param>
         [JsiiMethod(name: "putPrivateIp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcGatewayNetwork.VpcGatewayNetworkPrivateIp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIp(object @value)
         {
@@ -219,6 +221,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cleanupDhcpInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CleanupDhcpInput
@@ -233,6 +238,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDhcpInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableDhcpInput
@@ -240,6 +248,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableMasqueradeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableMasqueradeInput
@@ -261,6 +272,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcGatewayNetwork.IVpcGatewayNetworkIpamConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipamConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcGatewayNetwork.VpcGatewayNetworkIpamConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpamConfigInput
@@ -268,6 +282,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcGatewayNetwork.IVpcGatewayNetworkPrivateIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcGatewayNetwork.VpcGatewayNetworkPrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpInput
@@ -289,6 +306,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.VpcGatewayNetwork.IVpcGatewayNetworkTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.vpcGatewayNetwork.VpcGatewayNetworkTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -303,6 +323,9 @@ namespace scaleway.VpcGatewayNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "cleanupDhcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object CleanupDhcp
         {
@@ -337,6 +360,9 @@ namespace scaleway.VpcGatewayNetwork
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableDhcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableDhcp
         {
@@ -364,6 +390,9 @@ namespace scaleway.VpcGatewayNetwork
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableMasquerade", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableMasquerade
         {

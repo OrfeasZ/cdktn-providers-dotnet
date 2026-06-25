@@ -46,6 +46,7 @@ namespace aws.DataAwsIamPrincipalPolicySimulation
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPrincipalPolicySimulation.IDataAwsIamPrincipalPolicySimulationContext" />)[]</param>
         [JsiiMethod(name: "putContext", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationContext\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContext(object @value)
         {
@@ -181,6 +182,9 @@ namespace aws.DataAwsIamPrincipalPolicySimulation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPrincipalPolicySimulation.IDataAwsIamPrincipalPolicySimulationContext" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationContext\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContextInput

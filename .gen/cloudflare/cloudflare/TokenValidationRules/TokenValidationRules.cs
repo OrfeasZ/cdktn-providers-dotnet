@@ -127,6 +127,9 @@ namespace cloudflare.TokenValidationRules
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -141,6 +144,9 @@ namespace cloudflare.TokenValidationRules
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.TokenValidationRules.ITokenValidationRulesPosition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "positionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesPosition\"}]}}", isOptional: true)]
         public virtual object? PositionInput
@@ -148,6 +154,9 @@ namespace cloudflare.TokenValidationRules
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "selectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelector\"}]}}", isOptional: true)]
         public virtual object? SelectorInput
@@ -183,6 +192,9 @@ namespace cloudflare.TokenValidationRules
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

@@ -39,6 +39,7 @@ namespace aws.Macie2ClassificationJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketCriteria)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketDefinitions" />)[]</param>
         [JsiiMethod(name: "putBucketDefinitions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketDefinitions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBucketDefinitions(object @value)
         {
@@ -111,6 +112,9 @@ namespace aws.Macie2ClassificationJob
             get => GetInstanceProperty<aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketCriteria?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketDefinitions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bucketDefinitionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketDefinitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BucketDefinitionsInput

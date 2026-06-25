@@ -69,6 +69,9 @@ namespace aws.AppmeshVirtualNode
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp\"}]}}", isOptional: true)]
         public virtual object? InternalValue

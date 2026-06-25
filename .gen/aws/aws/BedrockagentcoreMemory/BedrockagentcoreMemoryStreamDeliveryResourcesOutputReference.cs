@@ -35,6 +35,7 @@ namespace aws.BedrockagentcoreMemory
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResourcesResource" />)[]</param>
         [JsiiMethod(name: "putResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResource(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockagentcoreMemory
             get => GetInstanceProperty<aws.BedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesResourceList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResourcesResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceInput
@@ -77,6 +81,9 @@ namespace aws.BedrockagentcoreMemory
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResources" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResources\"}]}}", isOptional: true)]
         public virtual object? InternalValue

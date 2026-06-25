@@ -52,6 +52,7 @@ namespace aws.Lexv2ModelsBotLocale
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Lexv2ModelsBotLocale.ILexv2ModelsBotLocaleTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBotLocale.ILexv2ModelsBotLocaleVoiceSettings" />)[]</param>
         [JsiiMethod(name: "putVoiceSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVoiceSettings(object @value)
         {
@@ -191,6 +192,9 @@ namespace aws.Lexv2ModelsBotLocale
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsBotLocale.ILexv2ModelsBotLocaleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -198,6 +202,9 @@ namespace aws.Lexv2ModelsBotLocale
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBotLocale.ILexv2ModelsBotLocaleVoiceSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "voiceSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VoiceSettingsInput

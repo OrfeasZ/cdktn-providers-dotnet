@@ -95,6 +95,9 @@ namespace aws.BatchComputeEnvironment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BatchComputeEnvironment.IBatchComputeEnvironmentComputeResourcesEc2Configuration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -99,6 +99,9 @@ namespace aws.AlbListenerRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AlbListenerRule.IAlbListenerRuleTransform" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.albListenerRule.AlbListenerRuleTransform\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -7,7 +7,7 @@ namespace oci.CoreVnicAttachment
     [JsiiInterface(nativeType: typeof(ICoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails), fullyQualifiedName: "oci.coreVnicAttachment.CoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails")]
     public interface ICoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_vnic_attachment#ipv6_address CoreVnicAttachment#ipv6_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_vnic_attachment#ipv6address CoreVnicAttachment#ipv6address}.</summary>
         [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6Address
@@ -18,7 +18,18 @@ namespace oci.CoreVnicAttachment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_vnic_attachment#ipv6_subnet_cidr CoreVnicAttachment#ipv6_subnet_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_vnic_attachment#ipv6id CoreVnicAttachment#ipv6id}.</summary>
+        [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Ipv6Id
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_vnic_attachment#ipv6subnet_cidr CoreVnicAttachment#ipv6subnet_cidr}.</summary>
         [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ipv6SubnetCidr
@@ -36,7 +47,7 @@ namespace oci.CoreVnicAttachment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_vnic_attachment#ipv6_address CoreVnicAttachment#ipv6_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_vnic_attachment#ipv6address CoreVnicAttachment#ipv6address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6Address
@@ -44,7 +55,15 @@ namespace oci.CoreVnicAttachment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_vnic_attachment#ipv6_subnet_cidr CoreVnicAttachment#ipv6_subnet_cidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_vnic_attachment#ipv6id CoreVnicAttachment#ipv6id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Ipv6Id
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_vnic_attachment#ipv6subnet_cidr CoreVnicAttachment#ipv6subnet_cidr}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ipv6SubnetCidr

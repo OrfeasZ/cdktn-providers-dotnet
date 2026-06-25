@@ -127,6 +127,9 @@ namespace digitalocean.GradientaiAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.GradientaiAgent.IGradientaiAgentChildAgentsApiKeyInfos" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentChildAgentsApiKeyInfos\"}]}}", isOptional: true)]
         public virtual object? InternalValue

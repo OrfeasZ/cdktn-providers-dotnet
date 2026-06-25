@@ -41,6 +41,9 @@ namespace cloudflare.LoadBalancerMonitorGroup
             return InvokeInstanceMethod<cloudflare.LoadBalancerMonitorGroup.LoadBalancerMonitorGroupMembersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerMonitorGroup.ILoadBalancerMonitorGroupMembers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerMonitorGroup.LoadBalancerMonitorGroupMembers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

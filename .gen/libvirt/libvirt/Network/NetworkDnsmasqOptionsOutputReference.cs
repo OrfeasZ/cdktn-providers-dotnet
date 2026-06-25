@@ -33,6 +33,7 @@ namespace libvirt.Network
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsmasqOptionsOption" />)[]</param>
         [JsiiMethod(name: "putOption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsmasqOptionsOption\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOption(object @value)
         {
@@ -68,6 +69,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkDnsmasqOptionsOptionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsmasqOptionsOption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "optionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsmasqOptionsOption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OptionInput
@@ -75,6 +79,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkDnsmasqOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkDnsmasqOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

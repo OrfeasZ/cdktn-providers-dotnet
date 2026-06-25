@@ -41,6 +41,9 @@ namespace aws.Instance
             return InvokeInstanceMethod<aws.Instance.InstanceNetworkInterfaceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Instance.IInstanceNetworkInterface" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.instance.InstanceNetworkInterface\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

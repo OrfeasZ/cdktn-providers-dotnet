@@ -9,7 +9,8 @@ namespace oci.RedisOciCacheConfigSet
     {
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/redis_oci_cache_config_set#items RedisOciCacheConfigSet#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_config_set#items RedisOciCacheConfigSet#items}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetailsItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItems\"},\"kind\":\"array\"}}]}}")]
         object Items
@@ -26,7 +27,8 @@ namespace oci.RedisOciCacheConfigSet
 
             /// <summary>items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/redis_oci_cache_config_set#items RedisOciCacheConfigSet#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_config_set#items RedisOciCacheConfigSet#items}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetailsItems" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItems\"},\"kind\":\"array\"}}]}}")]
             public object Items

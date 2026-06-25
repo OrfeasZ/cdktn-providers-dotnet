@@ -93,6 +93,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolTargetTimestampsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetEncryption" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetEncryption\"}]}}", isOptional: true)]
         public virtual object? EncryptionInput
@@ -107,6 +110,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetPermissions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetPermissions\"}]}}", isOptional: true)]
         public virtual object? PermissionsInput
@@ -114,6 +120,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTargetTimestamps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timestampsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTargetTimestamps\"}]}}", isOptional: true)]
         public virtual object? TimestampsInput
@@ -128,6 +137,9 @@ namespace libvirt.Pool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolTarget" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolTarget\"}]}}", isOptional: true)]
         public virtual object? InternalValue

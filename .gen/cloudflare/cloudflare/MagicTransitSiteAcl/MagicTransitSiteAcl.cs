@@ -133,6 +133,9 @@ namespace cloudflare.MagicTransitSiteAcl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardLocallyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForwardLocallyInput
@@ -140,6 +143,9 @@ namespace cloudflare.MagicTransitSiteAcl
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan1" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lan1Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan1\"}]}}", isOptional: true)]
         public virtual object? Lan1Input
@@ -147,6 +153,9 @@ namespace cloudflare.MagicTransitSiteAcl
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan2" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lan2Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan2\"}]}}", isOptional: true)]
         public virtual object? Lan2Input
@@ -175,6 +184,9 @@ namespace cloudflare.MagicTransitSiteAcl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unidirectionalInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? UnidirectionalInput
@@ -196,6 +208,9 @@ namespace cloudflare.MagicTransitSiteAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forwardLocally", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForwardLocally
         {
@@ -244,6 +259,9 @@ namespace cloudflare.MagicTransitSiteAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "unidirectional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Unidirectional
         {

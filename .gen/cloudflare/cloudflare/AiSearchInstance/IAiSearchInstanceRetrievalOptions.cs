@@ -12,6 +12,7 @@ namespace cloudflare.AiSearchInstance
         /// Each entry specifies a metadata field and an optional direction. Direction defaults to 'asc' for numeric/datetime fields and 'exists' for text/boolean fields. Fields must match 'timestamp' or a defined custom_metadata field.
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_search_instance#boost_by AiSearchInstance#boost_by}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "boostBy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,6 +53,7 @@ namespace cloudflare.AiSearchInstance
             /// Each entry specifies a metadata field and an optional direction. Direction defaults to 'asc' for numeric/datetime fields and 'exists' for text/boolean fields. Fields must match 'timestamp' or a defined custom_metadata field.
             ///
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ai_search_instance#boost_by AiSearchInstance#boost_by}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "boostBy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]

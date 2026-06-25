@@ -41,6 +41,9 @@ namespace cloudflare.PipelineSink
             return InvokeInstanceMethod<cloudflare.PipelineSink.PipelineSinkSchemaFieldsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFields" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchemaFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

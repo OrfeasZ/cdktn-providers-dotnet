@@ -35,6 +35,31 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
         {
         }
 
+        [JsiiMethod(name: "putAdditionalDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.clusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails\"}}]")]
+        public virtual void PutAdditionalDetails(oci.ClusterPlacementGroupsClusterPlacementGroup.IClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ClusterPlacementGroupsClusterPlacementGroup.IClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAdditionalDetails")]
+        public virtual void ResetAdditionalDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "additionalDetails", typeJson: "{\"fqn\":\"oci.clusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetailsOutputReference\"}")]
+        public virtual oci.ClusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetailsOutputReference AdditionalDetails
+        {
+            get => GetInstanceProperty<oci.ClusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetailsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "additionalDetailsInput", typeJson: "{\"fqn\":\"oci.clusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails\"}", isOptional: true)]
+        public virtual oci.ClusterPlacementGroupsClusterPlacementGroup.IClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails? AdditionalDetailsInput
+        {
+            get => GetInstanceProperty<oci.ClusterPlacementGroupsClusterPlacementGroup.IClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NameInput
@@ -63,6 +88,9 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ClusterPlacementGroupsClusterPlacementGroup.IClusterPlacementGroupsClusterPlacementGroupCapabilitiesItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.clusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -36,6 +36,7 @@ namespace digitalocean.App
         /// <summary>deploy_on_push block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/app#deploy_on_push App#deploy_on_push}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerImageDeployOnPush" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deployOnPush", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerImageDeployOnPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]

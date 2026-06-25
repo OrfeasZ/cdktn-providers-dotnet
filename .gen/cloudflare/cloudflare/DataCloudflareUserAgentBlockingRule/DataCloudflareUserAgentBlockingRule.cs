@@ -125,6 +125,9 @@ namespace cloudflare.DataCloudflareUserAgentBlockingRule
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareUserAgentBlockingRule.IDataCloudflareUserAgentBlockingRuleFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareUserAgentBlockingRule.DataCloudflareUserAgentBlockingRuleFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

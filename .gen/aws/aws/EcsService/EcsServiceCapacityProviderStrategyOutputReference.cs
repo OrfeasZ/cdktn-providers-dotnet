@@ -89,6 +89,9 @@ namespace aws.EcsService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsService.IEcsServiceCapacityProviderStrategy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsService.EcsServiceCapacityProviderStrategy\"}]}}", isOptional: true)]
         public virtual object? InternalValue

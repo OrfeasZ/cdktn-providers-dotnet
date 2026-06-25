@@ -93,6 +93,9 @@ namespace oci.AiVisionStreamJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiVisionStreamJob.IAiVisionStreamJobTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

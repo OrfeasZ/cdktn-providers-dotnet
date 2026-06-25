@@ -46,6 +46,7 @@ namespace aws.SsmincidentsResponsePlan
         /// <summary>parameter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmincidents_response_plan#parameter SsmincidentsResponsePlan#parameter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanActionSsmAutomationParameter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,6 +109,7 @@ namespace aws.SsmincidentsResponsePlan
             /// <summary>parameter block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmincidents_response_plan#parameter SsmincidentsResponsePlan#parameter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanActionSsmAutomationParameter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

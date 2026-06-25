@@ -41,6 +41,9 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
             return InvokeInstanceMethod<oci.DataOciJmsFleetUncorrelatedPackageManagedInstances.DataOciJmsFleetUncorrelatedPackageManagedInstancesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsFleetUncorrelatedPackageManagedInstances.IDataOciJmsFleetUncorrelatedPackageManagedInstancesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsFleetUncorrelatedPackageManagedInstances.DataOciJmsFleetUncorrelatedPackageManagedInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

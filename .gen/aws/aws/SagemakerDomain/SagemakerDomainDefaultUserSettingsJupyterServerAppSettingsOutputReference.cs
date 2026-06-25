@@ -33,6 +33,7 @@ namespace aws.SagemakerDomain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsJupyterServerAppSettingsCodeRepository" />)[]</param>
         [JsiiMethod(name: "putCodeRepository", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsCodeRepository\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeRepository(object @value)
         {
@@ -92,6 +93,9 @@ namespace aws.SagemakerDomain
             get => GetInstanceProperty<aws.SagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsJupyterServerAppSettingsCodeRepository" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeRepositoryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsCodeRepository\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeRepositoryInput

@@ -47,6 +47,9 @@ namespace scaleway.AppleSiliconServer
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerPrivateIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

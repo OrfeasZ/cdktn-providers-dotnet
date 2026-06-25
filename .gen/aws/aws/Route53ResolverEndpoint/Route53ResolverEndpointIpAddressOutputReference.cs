@@ -95,6 +95,9 @@ namespace aws.Route53ResolverEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ResolverEndpoint.IRoute53ResolverEndpointIpAddress" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddress\"}]}}", isOptional: true)]
         public virtual object? InternalValue

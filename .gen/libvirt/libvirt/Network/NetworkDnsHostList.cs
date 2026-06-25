@@ -41,6 +41,9 @@ namespace libvirt.Network
             return InvokeInstanceMethod<libvirt.Network.NetworkDnsHostOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsHost" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsHost\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

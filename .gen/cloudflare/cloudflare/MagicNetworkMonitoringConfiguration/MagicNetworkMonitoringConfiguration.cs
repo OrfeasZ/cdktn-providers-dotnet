@@ -46,6 +46,7 @@ namespace cloudflare.MagicNetworkMonitoringConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.MagicNetworkMonitoringConfiguration.MagicNetworkMonitoringConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicNetworkMonitoringConfiguration.IMagicNetworkMonitoringConfigurationWarpDevices" />)[]</param>
         [JsiiMethod(name: "putWarpDevices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicNetworkMonitoringConfiguration.MagicNetworkMonitoringConfigurationWarpDevices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWarpDevices(object @value)
         {
@@ -140,6 +141,9 @@ namespace cloudflare.MagicNetworkMonitoringConfiguration
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicNetworkMonitoringConfiguration.IMagicNetworkMonitoringConfigurationWarpDevices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "warpDevicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicNetworkMonitoringConfiguration.MagicNetworkMonitoringConfigurationWarpDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WarpDevicesInput

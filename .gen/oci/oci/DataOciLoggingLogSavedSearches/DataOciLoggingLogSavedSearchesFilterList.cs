@@ -41,6 +41,9 @@ namespace oci.DataOciLoggingLogSavedSearches
             return InvokeInstanceMethod<oci.DataOciLoggingLogSavedSearches.DataOciLoggingLogSavedSearchesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLoggingLogSavedSearches.IDataOciLoggingLogSavedSearchesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciLoggingLogSavedSearches.DataOciLoggingLogSavedSearchesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

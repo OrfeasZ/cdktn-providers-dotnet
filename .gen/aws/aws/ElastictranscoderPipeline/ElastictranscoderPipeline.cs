@@ -52,6 +52,7 @@ namespace aws.ElastictranscoderPipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ElastictranscoderPipeline.IElastictranscoderPipelineContentConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElastictranscoderPipeline.IElastictranscoderPipelineContentConfigPermissions" />)[]</param>
         [JsiiMethod(name: "putContentConfigPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPipeline.ElastictranscoderPipelineContentConfigPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContentConfigPermissions(object @value)
         {
@@ -87,6 +88,7 @@ namespace aws.ElastictranscoderPipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ElastictranscoderPipeline.IElastictranscoderPipelineThumbnailConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElastictranscoderPipeline.IElastictranscoderPipelineThumbnailConfigPermissions" />)[]</param>
         [JsiiMethod(name: "putThumbnailConfigPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPipeline.ElastictranscoderPipelineThumbnailConfigPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThumbnailConfigPermissions(object @value)
         {
@@ -239,6 +241,9 @@ namespace aws.ElastictranscoderPipeline
             get => GetInstanceProperty<aws.ElastictranscoderPipeline.IElastictranscoderPipelineContentConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElastictranscoderPipeline.IElastictranscoderPipelineContentConfigPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentConfigPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPipeline.ElastictranscoderPipelineContentConfigPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContentConfigPermissionsInput
@@ -302,6 +307,9 @@ namespace aws.ElastictranscoderPipeline
             get => GetInstanceProperty<aws.ElastictranscoderPipeline.IElastictranscoderPipelineThumbnailConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElastictranscoderPipeline.IElastictranscoderPipelineThumbnailConfigPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "thumbnailConfigPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPipeline.ElastictranscoderPipelineThumbnailConfigPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThumbnailConfigPermissionsInput

@@ -46,6 +46,7 @@ namespace aws.EcrRegistryScanningConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EcrRegistryScanningConfiguration.EcrRegistryScanningConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRegistryScanningConfiguration.IEcrRegistryScanningConfigurationRule" />)[]</param>
         [JsiiMethod(name: "putRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRule(object @value)
         {
@@ -132,6 +133,9 @@ namespace aws.EcrRegistryScanningConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRegistryScanningConfiguration.IEcrRegistryScanningConfigurationRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuleInput

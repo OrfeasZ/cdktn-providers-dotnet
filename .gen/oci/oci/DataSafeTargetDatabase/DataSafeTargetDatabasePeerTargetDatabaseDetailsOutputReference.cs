@@ -139,6 +139,9 @@ namespace oci.DataSafeTargetDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeTargetDatabase.IDataSafeTargetDatabasePeerTargetDatabaseDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeTargetDatabase.DataSafeTargetDatabasePeerTargetDatabaseDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.WafWebAppFirewallPolicy
             return InvokeInstanceMethod<oci.WafWebAppFirewallPolicy.WafWebAppFirewallPolicyActionsHeadersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyActionsHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyActionsHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

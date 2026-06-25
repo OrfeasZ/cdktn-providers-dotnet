@@ -93,6 +93,9 @@ namespace oci.LicenseManagerLicenseRecord
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LicenseManagerLicenseRecord.ILicenseManagerLicenseRecordTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.licenseManagerLicenseRecord.LicenseManagerLicenseRecordTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

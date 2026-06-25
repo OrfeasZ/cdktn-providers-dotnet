@@ -35,6 +35,7 @@ namespace oci.DemandSignalOccDemandSignal
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignalsValues" />)[]</param>
         [JsiiMethod(name: "putValues", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignalsValues\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValues(object @value)
         {
@@ -78,6 +79,9 @@ namespace oci.DemandSignalOccDemandSignal
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignalsValues" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valuesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignalsValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValuesInput
@@ -99,6 +103,9 @@ namespace oci.DemandSignalOccDemandSignal
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignals" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignals\"}]}}", isOptional: true)]
         public virtual object? InternalValue

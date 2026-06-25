@@ -142,6 +142,9 @@ namespace aws.RedshiftClusterIamRoles
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftClusterIamRoles.IRedshiftClusterIamRolesTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

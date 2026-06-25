@@ -7,7 +7,7 @@ namespace oci.AiDocumentModel
     [JsiiByValue(fqn: "oci.aiDocumentModel.AiDocumentModelComponentModels")]
     public class AiDocumentModelComponentModels : oci.AiDocumentModel.IAiDocumentModelComponentModels
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId

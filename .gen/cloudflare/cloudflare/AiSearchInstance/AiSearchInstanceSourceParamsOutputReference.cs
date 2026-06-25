@@ -103,6 +103,9 @@ namespace cloudflare.AiSearchInstance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawler" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webCrawlerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawler\"}]}}", isOptional: true)]
         public virtual object? WebCrawlerInput
@@ -138,6 +141,9 @@ namespace cloudflare.AiSearchInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiSearchInstance.IAiSearchInstanceSourceParams" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParams\"}]}}", isOptional: true)]
         public virtual object? InternalValue

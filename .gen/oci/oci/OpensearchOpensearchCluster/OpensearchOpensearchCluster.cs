@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.OpensearchOpensearchCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.OpensearchOpensearchCluster.OpensearchOpensearchCluster), fullyQualifiedName: "oci.opensearchOpensearchCluster.OpensearchOpensearchCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterConfig\"}}]")]
     public class OpensearchOpensearchCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public OpensearchOpensearchCluster(Constructs.Construct scope, string id, oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.OpensearchOpensearchCluster
         /// <param name="importToId">The construct id used in the generated config for the OpensearchOpensearchCluster to import.</param>
         /// <param name="importFromId">The id of the existing OpensearchOpensearchCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the OpensearchOpensearchCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OpensearchOpensearchCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OpensearchOpensearchCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OpensearchOpensearchCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OpensearchOpensearchCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OpensearchOpensearchCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OpensearchOpensearchCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.OpensearchOpensearchCluster.OpensearchOpensearchCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace oci.OpensearchOpensearchCluster
         public virtual void PutCertificateConfig(oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterCertificateConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterCertificateConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putLoadBalancerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfig\"}}]")]
+        public virtual void PutLoadBalancerConfig(oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterLoadBalancerConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterLoadBalancerConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMaintenanceDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetails\"}}]")]
@@ -84,6 +90,36 @@ namespace oci.OpensearchOpensearchCluster
 
         [JsiiMethod(name: "resetConfigureOutboundClusterTrigger")]
         public virtual void ResetConfigureOutboundClusterTrigger()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCoordinatorNodeCount")]
+        public virtual void ResetCoordinatorNodeCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCoordinatorNodeHostMemoryGb")]
+        public virtual void ResetCoordinatorNodeHostMemoryGb()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCoordinatorNodeHostOcpuCount")]
+        public virtual void ResetCoordinatorNodeHostOcpuCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCoordinatorNodeHostShape")]
+        public virtual void ResetCoordinatorNodeHostShape()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCoordinatorNodeHostType")]
+        public virtual void ResetCoordinatorNodeHostType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -124,6 +160,12 @@ namespace oci.OpensearchOpensearchCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLoadBalancerConfig")]
+        public virtual void ResetLoadBalancerConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMaintenanceDetails")]
         public virtual void ResetMaintenanceDetails()
         {
@@ -138,6 +180,42 @@ namespace oci.OpensearchOpensearchCluster
 
         [JsiiMethod(name: "resetMasterNodeHostShape")]
         public virtual void ResetMasterNodeHostShape()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMlNodeCount")]
+        public virtual void ResetMlNodeCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMlNodeHostMemoryGb")]
+        public virtual void ResetMlNodeHostMemoryGb()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMlNodeHostOcpuCount")]
+        public virtual void ResetMlNodeHostOcpuCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMlNodeHostShape")]
+        public virtual void ResetMlNodeHostShape()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMlNodeHostType")]
+        public virtual void ResetMlNodeHostType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMlNodeStorageGb")]
+        public virtual void ResetMlNodeStorageGb()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -293,6 +371,12 @@ namespace oci.OpensearchOpensearchCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "loadBalancerConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfigOutputReference\"}")]
+        public virtual oci.OpensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfigOutputReference LoadBalancerConfig
+        {
+            get => GetInstanceProperty<oci.OpensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "maintenanceDetails", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetailsOutputReference\"}")]
         public virtual oci.OpensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetailsOutputReference MaintenanceDetails
         {
@@ -399,6 +483,41 @@ namespace oci.OpensearchOpensearchCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "coordinatorNodeCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CoordinatorNodeCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "coordinatorNodeHostMemoryGbInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CoordinatorNodeHostMemoryGbInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "coordinatorNodeHostOcpuCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CoordinatorNodeHostOcpuCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "coordinatorNodeHostShapeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CoordinatorNodeHostShapeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "coordinatorNodeHostTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CoordinatorNodeHostTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "dataNodeCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? DataNodeCountInput
         {
@@ -483,6 +602,13 @@ namespace oci.OpensearchOpensearchCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "loadBalancerConfigInput", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfig\"}", isOptional: true)]
+        public virtual oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterLoadBalancerConfig? LoadBalancerConfigInput
+        {
+            get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterLoadBalancerConfig?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "maintenanceDetailsInput", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetails\"}", isOptional: true)]
         public virtual oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterMaintenanceDetails? MaintenanceDetailsInput
         {
@@ -529,6 +655,48 @@ namespace oci.OpensearchOpensearchCluster
         public virtual string? MasterNodeHostTypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mlNodeCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MlNodeCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mlNodeHostMemoryGbInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MlNodeHostMemoryGbInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mlNodeHostOcpuCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MlNodeHostOcpuCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mlNodeHostShapeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MlNodeHostShapeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mlNodeHostTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MlNodeHostTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "mlNodeStorageGbInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MlNodeStorageGbInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -685,6 +853,9 @@ namespace oci.OpensearchOpensearchCluster
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -724,6 +895,41 @@ namespace oci.OpensearchOpensearchCluster
         public virtual double ConfigureOutboundClusterTrigger
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "coordinatorNodeCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CoordinatorNodeCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CoordinatorNodeHostMemoryGb
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CoordinatorNodeHostOcpuCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostShape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CoordinatorNodeHostShape
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CoordinatorNodeHostType
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -850,6 +1056,48 @@ namespace oci.OpensearchOpensearchCluster
         public virtual string MasterNodeHostType
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mlNodeCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mlNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeHostMemoryGb
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mlNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeHostOcpuCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mlNodeHostShape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MlNodeHostShape
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mlNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MlNodeHostType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "mlNodeStorageGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeStorageGb
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

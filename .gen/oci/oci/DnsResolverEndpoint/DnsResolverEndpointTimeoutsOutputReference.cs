@@ -93,6 +93,9 @@ namespace oci.DnsResolverEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DnsResolverEndpoint.IDnsResolverEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dnsResolverEndpoint.DnsResolverEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

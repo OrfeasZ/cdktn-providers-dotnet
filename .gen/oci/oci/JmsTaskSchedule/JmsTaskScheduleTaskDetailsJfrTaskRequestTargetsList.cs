@@ -41,6 +41,9 @@ namespace oci.JmsTaskSchedule
             return InvokeInstanceMethod<oci.JmsTaskSchedule.JmsTaskScheduleTaskDetailsJfrTaskRequestTargetsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsJfrTaskRequestTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsJfrTaskRequestTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

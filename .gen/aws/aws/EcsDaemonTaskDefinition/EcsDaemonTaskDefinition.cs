@@ -46,6 +46,7 @@ namespace aws.EcsDaemonTaskDefinition
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EcsDaemonTaskDefinition.EcsDaemonTaskDefinition), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionContainerDefinition" />)[]</param>
         [JsiiMethod(name: "putContainerDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionContainerDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContainerDefinition(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.EcsDaemonTaskDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionVolume" />)[]</param>
         [JsiiMethod(name: "putVolume", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolume\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVolume(object @value)
         {
@@ -195,6 +197,9 @@ namespace aws.EcsDaemonTaskDefinition
             get => GetInstanceProperty<aws.EcsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolumeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionContainerDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerDefinitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionContainerDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContainerDefinitionInput
@@ -251,6 +256,9 @@ namespace aws.EcsDaemonTaskDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemonTaskDefinition.IEcsDaemonTaskDefinitionVolume" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolume\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VolumeInput

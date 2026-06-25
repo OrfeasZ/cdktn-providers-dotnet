@@ -33,6 +33,7 @@ namespace oci.BdsAutoScalingConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsAutoScalingConfiguration.IBdsAutoScalingConfigurationPolicyRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -69,6 +70,9 @@ namespace oci.BdsAutoScalingConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsAutoScalingConfiguration.IBdsAutoScalingConfigurationPolicyRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput

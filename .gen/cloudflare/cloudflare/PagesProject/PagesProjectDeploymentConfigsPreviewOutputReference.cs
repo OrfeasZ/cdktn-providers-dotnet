@@ -33,6 +33,7 @@ namespace cloudflare.PagesProject
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewAiBindings" />&gt;</param>
         [JsiiMethod(name: "putAiBindings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewAiBindings\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutAiBindings(object @value)
         {
@@ -56,6 +57,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets" />&gt;</param>
         [JsiiMethod(name: "putAnalyticsEngineDatasets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutAnalyticsEngineDatasets(object @value)
         {
@@ -79,6 +81,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewBrowsers" />&gt;</param>
         [JsiiMethod(name: "putBrowsers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewBrowsers\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutBrowsers(object @value)
         {
@@ -102,6 +105,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewD1Databases" />&gt;</param>
         [JsiiMethod(name: "putD1Databases", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewD1Databases\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutD1Databases(object @value)
         {
@@ -125,6 +129,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewDurableObjectNamespaces" />&gt;</param>
         [JsiiMethod(name: "putDurableObjectNamespaces", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewDurableObjectNamespaces\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutDurableObjectNamespaces(object @value)
         {
@@ -148,6 +153,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewEnvVars" />&gt;</param>
         [JsiiMethod(name: "putEnvVars", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewEnvVars\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutEnvVars(object @value)
         {
@@ -171,6 +177,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewHyperdriveBindings" />&gt;</param>
         [JsiiMethod(name: "putHyperdriveBindings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewHyperdriveBindings\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutHyperdriveBindings(object @value)
         {
@@ -194,6 +201,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewKvNamespaces" />&gt;</param>
         [JsiiMethod(name: "putKvNamespaces", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewKvNamespaces\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutKvNamespaces(object @value)
         {
@@ -223,6 +231,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewLimits)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewMtlsCertificates" />&gt;</param>
         [JsiiMethod(name: "putMtlsCertificates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificates\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutMtlsCertificates(object @value)
         {
@@ -252,6 +261,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewPlacement)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewQueueProducers" />&gt;</param>
         [JsiiMethod(name: "putQueueProducers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewQueueProducers\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutQueueProducers(object @value)
         {
@@ -275,6 +285,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewR2Buckets" />&gt;</param>
         [JsiiMethod(name: "putR2Buckets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewR2Buckets\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutR2Buckets(object @value)
         {
@@ -298,6 +309,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewServices" />&gt;</param>
         [JsiiMethod(name: "putServices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewServices\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutServices(object @value)
         {
@@ -321,6 +333,7 @@ namespace cloudflare.PagesProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewVectorizeBindings" />&gt;</param>
         [JsiiMethod(name: "putVectorizeBindings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewVectorizeBindings\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutVectorizeBindings(object @value)
         {
@@ -566,6 +579,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<cloudflare.PagesProject.PagesProjectDeploymentConfigsPreviewVectorizeBindingsMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewAiBindings" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aiBindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewAiBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? AiBindingsInput
@@ -573,6 +589,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alwaysUseLatestCompatibilityDateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AlwaysUseLatestCompatibilityDateInput
@@ -580,6 +599,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "analyticsEngineDatasetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewAnalyticsEngineDatasets\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? AnalyticsEngineDatasetsInput
@@ -587,6 +609,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewBrowsers" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "browsersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewBrowsers\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? BrowsersInput
@@ -615,6 +640,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewD1Databases" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "d1DatabasesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewD1Databases\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? D1DatabasesInput
@@ -622,6 +650,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewDurableObjectNamespaces" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "durableObjectNamespacesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewDurableObjectNamespaces\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? DurableObjectNamespacesInput
@@ -629,6 +660,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewEnvVars" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "envVarsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewEnvVars\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? EnvVarsInput
@@ -636,6 +670,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failOpenInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FailOpenInput
@@ -643,6 +680,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewHyperdriveBindings" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hyperdriveBindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewHyperdriveBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? HyperdriveBindingsInput
@@ -650,6 +690,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewKvNamespaces" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kvNamespacesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewKvNamespaces\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? KvNamespacesInput
@@ -657,6 +700,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewLimits" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewLimits\"}]}}", isOptional: true)]
         public virtual object? LimitsInput
@@ -664,6 +710,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewMtlsCertificates" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mtlsCertificatesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewMtlsCertificates\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? MtlsCertificatesInput
@@ -671,6 +720,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewPlacement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewPlacement\"}]}}", isOptional: true)]
         public virtual object? PlacementInput
@@ -678,6 +730,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewQueueProducers" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queueProducersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewQueueProducers\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? QueueProducersInput
@@ -685,6 +740,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewR2Buckets" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "r2BucketsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewR2Buckets\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? R2BucketsInput
@@ -692,6 +750,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewServices" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "servicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewServices\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? ServicesInput
@@ -706,6 +767,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreviewVectorizeBindings" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vectorizeBindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreviewVectorizeBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? VectorizeBindingsInput
@@ -720,6 +784,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "alwaysUseLatestCompatibilityDate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AlwaysUseLatestCompatibilityDate
         {
@@ -768,6 +835,9 @@ namespace cloudflare.PagesProject
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "failOpen", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FailOpen
         {
@@ -809,6 +879,9 @@ namespace cloudflare.PagesProject
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsPreview" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsPreview\"}]}}", isOptional: true)]
         public virtual object? InternalValue

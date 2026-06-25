@@ -35,6 +35,7 @@ namespace aws.BedrockagentPrompt
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationChat" />)[]</param>
         [JsiiMethod(name: "putChat", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationChat\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutChat(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BedrockagentPrompt
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationText" />)[]</param>
         [JsiiMethod(name: "putText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutText(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.BedrockagentPrompt
             get => GetInstanceProperty<aws.BedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationTextList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationChat" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "chatInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationChat\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ChatInput
@@ -112,6 +117,9 @@ namespace aws.BedrockagentPrompt
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "textInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TextInput
@@ -119,6 +127,9 @@ namespace aws.BedrockagentPrompt
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

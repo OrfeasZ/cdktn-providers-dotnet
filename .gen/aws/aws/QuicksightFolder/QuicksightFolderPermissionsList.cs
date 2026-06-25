@@ -41,6 +41,9 @@ namespace aws.QuicksightFolder
             return InvokeInstanceMethod<aws.QuicksightFolder.QuicksightFolderPermissionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightFolder.IQuicksightFolderPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightFolder.QuicksightFolderPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

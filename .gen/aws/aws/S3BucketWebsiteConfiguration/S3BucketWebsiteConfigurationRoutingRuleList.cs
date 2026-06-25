@@ -41,6 +41,9 @@ namespace aws.S3BucketWebsiteConfiguration
             return InvokeInstanceMethod<aws.S3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketWebsiteConfiguration.IS3BucketWebsiteConfigurationRoutingRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

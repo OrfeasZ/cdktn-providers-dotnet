@@ -41,6 +41,9 @@ namespace aws.CloudwatchEventTarget
             return InvokeInstanceMethod<aws.CloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventTarget.ICloudwatchEventTargetEcsTargetOrderedPlacementStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -239,6 +239,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesAudiosSpiceOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosAlsa" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alsaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosAlsa\"}]}}", isOptional: true)]
         public virtual object? AlsaInput
@@ -246,6 +249,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosCoreAudio" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "coreAudioInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosCoreAudio\"}]}}", isOptional: true)]
         public virtual object? CoreAudioInput
@@ -253,6 +259,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosDbus" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dbusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosDbus\"}]}}", isOptional: true)]
         public virtual object? DbusInput
@@ -260,6 +269,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosFile" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosFile\"}]}}", isOptional: true)]
         public virtual object? FileInput
@@ -274,6 +286,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosJack" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jackInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosJack\"}]}}", isOptional: true)]
         public virtual object? JackInput
@@ -281,6 +296,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosNone" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosNone\"}]}}", isOptional: true)]
         public virtual object? NoneInput
@@ -288,6 +306,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosOss" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ossInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosOss\"}]}}", isOptional: true)]
         public virtual object? OssInput
@@ -295,6 +316,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosPipeWire" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipeWireInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosPipeWire\"}]}}", isOptional: true)]
         public virtual object? PipeWireInput
@@ -302,6 +326,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosPulseAudio" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pulseAudioInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosPulseAudio\"}]}}", isOptional: true)]
         public virtual object? PulseAudioInput
@@ -309,6 +336,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosSdl" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sdlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosSdl\"}]}}", isOptional: true)]
         public virtual object? SdlInput
@@ -316,6 +346,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudiosSpice" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spiceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudiosSpice\"}]}}", isOptional: true)]
         public virtual object? SpiceInput
@@ -344,6 +377,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesAudios" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesAudios\"}]}}", isOptional: true)]
         public virtual object? InternalValue

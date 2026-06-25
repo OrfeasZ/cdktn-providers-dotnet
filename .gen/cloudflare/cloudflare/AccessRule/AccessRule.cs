@@ -132,8 +132,11 @@ namespace cloudflare.AccessRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AccessRule.IAccessRuleConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cloudflare.accessRule.AccessRuleConfiguration\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.accessRule.AccessRuleConfiguration\"}]}}", isOptional: true)]
         public virtual object? ConfigurationInput
         {
             get => GetInstanceProperty<object?>();

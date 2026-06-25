@@ -52,6 +52,7 @@ namespace aws.GameliftGameServerGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GameliftGameServerGroup.IGameliftGameServerGroupAutoScalingPolicy)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftGameServerGroup.IGameliftGameServerGroupInstanceDefinition" />)[]</param>
         [JsiiMethod(name: "putInstanceDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstanceDefinition(object @value)
         {
@@ -231,6 +232,9 @@ namespace aws.GameliftGameServerGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftGameServerGroup.IGameliftGameServerGroupInstanceDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceDefinitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstanceDefinitionInput
@@ -287,6 +291,9 @@ namespace aws.GameliftGameServerGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GameliftGameServerGroup.IGameliftGameServerGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.gameliftGameServerGroup.GameliftGameServerGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

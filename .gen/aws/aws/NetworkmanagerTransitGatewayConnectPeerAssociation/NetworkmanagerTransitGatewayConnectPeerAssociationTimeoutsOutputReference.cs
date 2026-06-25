@@ -73,6 +73,9 @@ namespace aws.NetworkmanagerTransitGatewayConnectPeerAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerTransitGatewayConnectPeerAssociation.INetworkmanagerTransitGatewayConnectPeerAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerTransitGatewayConnectPeerAssociation.NetworkmanagerTransitGatewayConnectPeerAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

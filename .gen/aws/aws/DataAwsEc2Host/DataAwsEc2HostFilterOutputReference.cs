@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2Host
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2Host.IDataAwsEc2HostFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2Host.DataAwsEc2HostFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

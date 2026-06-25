@@ -41,6 +41,9 @@ namespace aws.DataAwsEc2TransitGatewayConnect
             return InvokeInstanceMethod<aws.DataAwsEc2TransitGatewayConnect.DataAwsEc2TransitGatewayConnectFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2TransitGatewayConnect.IDataAwsEc2TransitGatewayConnectFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2TransitGatewayConnect.DataAwsEc2TransitGatewayConnectFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

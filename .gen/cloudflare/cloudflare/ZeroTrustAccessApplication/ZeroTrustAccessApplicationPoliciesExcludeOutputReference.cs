@@ -467,6 +467,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeServiceTokenOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeAnyValidServiceToken" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "anyValidServiceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeAnyValidServiceToken\"}]}}", isOptional: true)]
         public virtual object? AnyValidServiceTokenInput
@@ -474,6 +477,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeAuthContext" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authContextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeAuthContext\"}]}}", isOptional: true)]
         public virtual object? AuthContextInput
@@ -481,6 +487,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeAuthMethod" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeAuthMethod\"}]}}", isOptional: true)]
         public virtual object? AuthMethodInput
@@ -488,6 +497,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeAzureAd" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureAdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeAzureAd\"}]}}", isOptional: true)]
         public virtual object? AzureAdInput
@@ -495,6 +507,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeCertificate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeCertificate\"}]}}", isOptional: true)]
         public virtual object? CertificateInput
@@ -502,6 +517,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeCommonName" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commonNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeCommonName\"}]}}", isOptional: true)]
         public virtual object? CommonNameInput
@@ -509,6 +527,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeDevicePosture" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "devicePostureInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeDevicePosture\"}]}}", isOptional: true)]
         public virtual object? DevicePostureInput
@@ -516,6 +537,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeEmailDomain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailDomainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeEmailDomain\"}]}}", isOptional: true)]
         public virtual object? EmailDomainInput
@@ -523,6 +547,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeEmail" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeEmail\"}]}}", isOptional: true)]
         public virtual object? EmailInput
@@ -530,6 +557,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeEmailListStruct" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeEmailListStruct\"}]}}", isOptional: true)]
         public virtual object? EmailListInput
@@ -537,6 +567,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeEveryone" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "everyoneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeEveryone\"}]}}", isOptional: true)]
         public virtual object? EveryoneInput
@@ -544,6 +577,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeExternalEvaluation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalEvaluationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeExternalEvaluation\"}]}}", isOptional: true)]
         public virtual object? ExternalEvaluationInput
@@ -551,6 +587,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeGeo" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeGeo\"}]}}", isOptional: true)]
         public virtual object? GeoInput
@@ -558,6 +597,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeGithubOrganization" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "githubOrganizationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeGithubOrganization\"}]}}", isOptional: true)]
         public virtual object? GithubOrganizationInput
@@ -565,6 +607,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeGroup" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeGroup\"}]}}", isOptional: true)]
         public virtual object? GroupInput
@@ -572,6 +617,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeGsuite" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gsuiteInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeGsuite\"}]}}", isOptional: true)]
         public virtual object? GsuiteInput
@@ -579,6 +627,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeIp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeIp\"}]}}", isOptional: true)]
         public virtual object? IpInput
@@ -586,6 +637,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeIpListStruct" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeIpListStruct\"}]}}", isOptional: true)]
         public virtual object? IpListInput
@@ -593,6 +647,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeLinkedAppToken" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "linkedAppTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeLinkedAppToken\"}]}}", isOptional: true)]
         public virtual object? LinkedAppTokenInput
@@ -600,6 +657,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeLoginMethod" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loginMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeLoginMethod\"}]}}", isOptional: true)]
         public virtual object? LoginMethodInput
@@ -607,6 +667,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeOidc" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeOidc\"}]}}", isOptional: true)]
         public virtual object? OidcInput
@@ -614,6 +677,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeOkta" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oktaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeOkta\"}]}}", isOptional: true)]
         public virtual object? OktaInput
@@ -621,6 +687,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeSaml" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "samlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeSaml\"}]}}", isOptional: true)]
         public virtual object? SamlInput
@@ -628,6 +697,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExcludeServiceToken" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExcludeServiceToken\"}]}}", isOptional: true)]
         public virtual object? ServiceTokenInput
@@ -635,6 +707,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationPoliciesExclude" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationPoliciesExclude\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DevopsDeployStage
             return InvokeInstanceMethod<oci.DevopsDeployStage.DevopsDeployStageSetStringItemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsDeployStage.IDevopsDeployStageSetStringItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsDeployStage.DevopsDeployStageSetStringItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

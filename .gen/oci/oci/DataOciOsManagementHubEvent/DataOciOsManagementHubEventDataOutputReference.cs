@@ -65,6 +65,12 @@ namespace oci.DataOciOsManagementHubEvent
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "errorSummary", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ErrorSummary
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "eventCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double EventCount
         {

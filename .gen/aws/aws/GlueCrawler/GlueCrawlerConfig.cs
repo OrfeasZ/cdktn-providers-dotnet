@@ -38,6 +38,7 @@ namespace aws.GlueCrawler
         /// <summary>catalog_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#catalog_target GlueCrawler#catalog_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerCatalogTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catalogTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerCatalogTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -90,6 +91,7 @@ namespace aws.GlueCrawler
         /// <summary>delta_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#delta_target GlueCrawler#delta_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDeltaTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deltaTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDeltaTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -133,6 +135,7 @@ namespace aws.GlueCrawler
         /// <summary>dynamodb_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#dynamodb_target GlueCrawler#dynamodb_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDynamodbTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDynamodbTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -167,6 +170,7 @@ namespace aws.GlueCrawler
         /// <summary>hudi_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#hudi_target GlueCrawler#hudi_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerHudiTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hudiTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerHudiTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -201,6 +205,7 @@ namespace aws.GlueCrawler
         /// <summary>iceberg_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#iceberg_target GlueCrawler#iceberg_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerIcebergTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerIcebergTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -248,6 +253,7 @@ namespace aws.GlueCrawler
         /// <summary>jdbc_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#jdbc_target GlueCrawler#jdbc_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerJdbcTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jdbcTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerJdbcTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -306,6 +312,7 @@ namespace aws.GlueCrawler
         /// <summary>mongodb_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#mongodb_target GlueCrawler#mongodb_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerMongodbTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mongodbTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerMongodbTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -364,6 +371,7 @@ namespace aws.GlueCrawler
         /// <summary>s3_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_crawler#s3_target GlueCrawler#s3_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerS3Target" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerS3Target\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -454,6 +462,7 @@ namespace aws.GlueCrawler
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -487,6 +496,7 @@ namespace aws.GlueCrawler
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -581,6 +591,7 @@ namespace aws.GlueCrawler
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

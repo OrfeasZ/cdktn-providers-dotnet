@@ -46,6 +46,7 @@ namespace aws.DataAwsLbListenerRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsLbListenerRule.DataAwsLbListenerRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleAction" />)[]</param>
         [JsiiMethod(name: "putAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAction(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleCondition" />)[]</param>
         [JsiiMethod(name: "putCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleCondition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCondition(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransform" />)[]</param>
         [JsiiMethod(name: "putTransform", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransform\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransform(object @value)
         {
@@ -200,6 +203,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<aws.DataAwsLbListenerRule.DataAwsLbListenerRuleTransformList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActionInput
@@ -214,6 +220,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleCondition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -242,6 +251,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransform" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transformInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransform\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransformInput

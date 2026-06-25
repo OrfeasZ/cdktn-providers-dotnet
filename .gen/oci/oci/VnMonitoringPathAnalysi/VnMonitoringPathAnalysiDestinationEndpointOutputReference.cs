@@ -63,6 +63,12 @@ namespace oci.VnMonitoringPathAnalysi
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPsaId")]
+        public virtual void ResetPsaId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSubnetId")]
         public virtual void ResetSubnetId()
         {
@@ -118,6 +124,13 @@ namespace oci.VnMonitoringPathAnalysi
         [JsiiOptional]
         [JsiiProperty(name: "networkLoadBalancerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NetworkLoadBalancerIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "psaIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PsaIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -180,6 +193,13 @@ namespace oci.VnMonitoringPathAnalysi
 
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NetworkLoadBalancerId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "psaId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PsaId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

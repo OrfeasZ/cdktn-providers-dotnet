@@ -41,6 +41,7 @@ namespace aws.Ec2Fleet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Ec2Fleet.IEc2FleetLaunchTemplateConfigLaunchTemplateSpecification)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2Fleet.IEc2FleetLaunchTemplateConfigOverride" />)[]</param>
         [JsiiMethod(name: "putOverride", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverride\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOverride(object @value)
         {
@@ -95,6 +96,9 @@ namespace aws.Ec2Fleet
             get => GetInstanceProperty<aws.Ec2Fleet.IEc2FleetLaunchTemplateConfigLaunchTemplateSpecification?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2Fleet.IEc2FleetLaunchTemplateConfigOverride" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OverrideInput
@@ -102,6 +106,9 @@ namespace aws.Ec2Fleet
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2Fleet.IEc2FleetLaunchTemplateConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2Fleet.Ec2FleetLaunchTemplateConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

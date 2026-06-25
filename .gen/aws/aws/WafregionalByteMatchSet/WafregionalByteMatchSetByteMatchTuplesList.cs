@@ -41,6 +41,9 @@ namespace aws.WafregionalByteMatchSet
             return InvokeInstanceMethod<aws.WafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalByteMatchSet.IWafregionalByteMatchSetByteMatchTuples" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuples\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

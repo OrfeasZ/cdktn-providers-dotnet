@@ -35,6 +35,7 @@ namespace libvirt.Pool
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceDeviceFreeExtents" />)[]</param>
         [JsiiMethod(name: "putFreeExtents", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.pool.PoolSourceDeviceFreeExtents\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFreeExtents(object @value)
         {
@@ -76,6 +77,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolSourceDeviceFreeExtentsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceDeviceFreeExtents" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "freeExtentsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.pool.PoolSourceDeviceFreeExtents\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FreeExtentsInput
@@ -111,6 +115,9 @@ namespace libvirt.Pool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolSourceDevice" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolSourceDevice\"}]}}", isOptional: true)]
         public virtual object? InternalValue

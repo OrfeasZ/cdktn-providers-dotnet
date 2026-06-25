@@ -41,6 +41,9 @@ namespace aws.DataAwsS3FilesFileSystems
             return InvokeInstanceMethod<aws.DataAwsS3FilesFileSystems.DataAwsS3FilesFileSystemsFileSystemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsS3FilesFileSystems.IDataAwsS3FilesFileSystemsFileSystems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsS3FilesFileSystems.DataAwsS3FilesFileSystemsFileSystems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

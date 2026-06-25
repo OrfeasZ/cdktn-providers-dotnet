@@ -73,6 +73,9 @@ namespace aws.BedrockagentcoreMemory
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

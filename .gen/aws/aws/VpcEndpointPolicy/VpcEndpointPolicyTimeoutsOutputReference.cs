@@ -73,6 +73,9 @@ namespace aws.VpcEndpointPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcEndpointPolicy.IVpcEndpointPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcEndpointPolicy.VpcEndpointPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

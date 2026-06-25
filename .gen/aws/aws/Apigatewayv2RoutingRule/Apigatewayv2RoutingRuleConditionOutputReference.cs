@@ -35,6 +35,7 @@ namespace aws.Apigatewayv2RoutingRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleConditionMatchBasePaths" />)[]</param>
         [JsiiMethod(name: "putMatchBasePaths", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleConditionMatchBasePaths\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatchBasePaths(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Apigatewayv2RoutingRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleConditionMatchHeaders" />)[]</param>
         [JsiiMethod(name: "putMatchHeaders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleConditionMatchHeaders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatchHeaders(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<aws.Apigatewayv2RoutingRule.Apigatewayv2RoutingRuleConditionMatchHeadersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleConditionMatchBasePaths" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchBasePathsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleConditionMatchBasePaths\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchBasePathsInput
@@ -112,6 +117,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleConditionMatchHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchHeadersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleConditionMatchHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchHeadersInput
@@ -119,6 +127,9 @@ namespace aws.Apigatewayv2RoutingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleCondition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleCondition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

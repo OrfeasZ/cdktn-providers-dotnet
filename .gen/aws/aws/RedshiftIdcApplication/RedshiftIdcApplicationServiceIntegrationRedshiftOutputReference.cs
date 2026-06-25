@@ -35,6 +35,7 @@ namespace aws.RedshiftIdcApplication
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationRedshiftConnect" />)[]</param>
         [JsiiMethod(name: "putConnect", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshiftConnect\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnect(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<aws.RedshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshiftConnectList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationRedshiftConnect" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshiftConnect\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectInput
@@ -77,6 +81,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationRedshift" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshift\"}]}}", isOptional: true)]
         public virtual object? InternalValue

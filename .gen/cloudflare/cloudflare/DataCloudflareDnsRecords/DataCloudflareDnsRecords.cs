@@ -197,6 +197,9 @@ namespace cloudflare.DataCloudflareDnsRecords
             get => GetInstanceProperty<cloudflare.DataCloudflareDnsRecords.DataCloudflareDnsRecordsTagOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecords.IDataCloudflareDnsRecordsComment" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecords.DataCloudflareDnsRecordsComment\"}]}}", isOptional: true)]
         public virtual object? CommentInput
@@ -204,6 +207,9 @@ namespace cloudflare.DataCloudflareDnsRecords
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecords.IDataCloudflareDnsRecordsContent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecords.DataCloudflareDnsRecordsContent\"}]}}", isOptional: true)]
         public virtual object? ContentInput
@@ -232,6 +238,9 @@ namespace cloudflare.DataCloudflareDnsRecords
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecords.IDataCloudflareDnsRecordsName" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecords.DataCloudflareDnsRecordsName\"}]}}", isOptional: true)]
         public virtual object? NameInput
@@ -246,6 +255,9 @@ namespace cloudflare.DataCloudflareDnsRecords
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "proxiedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ProxiedInput
@@ -260,6 +272,9 @@ namespace cloudflare.DataCloudflareDnsRecords
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecords.IDataCloudflareDnsRecordsTag" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecords.DataCloudflareDnsRecordsTag\"}]}}", isOptional: true)]
         public virtual object? TagInput
@@ -316,6 +331,9 @@ namespace cloudflare.DataCloudflareDnsRecords
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "proxied", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Proxied
         {

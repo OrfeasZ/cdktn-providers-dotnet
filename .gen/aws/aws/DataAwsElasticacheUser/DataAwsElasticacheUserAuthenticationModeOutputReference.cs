@@ -75,6 +75,9 @@ namespace aws.DataAwsElasticacheUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsElasticacheUser.IDataAwsElasticacheUserAuthenticationMode" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode\"}]}}", isOptional: true)]
         public virtual object? InternalValue

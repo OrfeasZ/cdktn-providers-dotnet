@@ -137,6 +137,9 @@ namespace cloudflare.DataCloudflareZoneLockdown
             get => GetInstanceProperty<string[]>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZoneLockdown.IDataCloudflareZoneLockdownFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZoneLockdown.DataCloudflareZoneLockdownFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

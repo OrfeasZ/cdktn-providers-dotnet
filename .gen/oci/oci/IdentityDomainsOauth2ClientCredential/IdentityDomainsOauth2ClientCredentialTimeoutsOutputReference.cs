@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsOauth2ClientCredential
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsOauth2ClientCredential.IIdentityDomainsOauth2ClientCredentialTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsOauth2ClientCredential.IdentityDomainsOauth2ClientCredentialTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

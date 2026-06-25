@@ -46,6 +46,7 @@ namespace aws.DatazoneGlossaryTerm
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatazoneGlossaryTerm.DatazoneGlossaryTerm), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneGlossaryTerm.IDatazoneGlossaryTermTermRelations" />)[]</param>
         [JsiiMethod(name: "putTermRelations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTermRelations(object @value)
         {
@@ -215,6 +216,9 @@ namespace aws.DatazoneGlossaryTerm
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneGlossaryTerm.IDatazoneGlossaryTermTermRelations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "termRelationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TermRelationsInput
@@ -222,6 +226,9 @@ namespace aws.DatazoneGlossaryTerm
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatazoneGlossaryTerm.IDatazoneGlossaryTermTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -73,6 +73,9 @@ namespace aws.ElasticacheUserGroupAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheUserGroupAssociation.IElasticacheUserGroupAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

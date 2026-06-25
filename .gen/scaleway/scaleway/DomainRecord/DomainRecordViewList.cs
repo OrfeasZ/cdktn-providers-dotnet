@@ -41,6 +41,9 @@ namespace scaleway.DomainRecord
             return InvokeInstanceMethod<scaleway.DomainRecord.DomainRecordViewOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordView" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordView\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

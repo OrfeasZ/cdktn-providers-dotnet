@@ -41,6 +41,9 @@ namespace oci.DataOciMeteringComputationUsageCarbonEmissionsQueries
             return InvokeInstanceMethod<oci.DataOciMeteringComputationUsageCarbonEmissionsQueries.DataOciMeteringComputationUsageCarbonEmissionsQueriesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMeteringComputationUsageCarbonEmissionsQueries.IDataOciMeteringComputationUsageCarbonEmissionsQueriesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMeteringComputationUsageCarbonEmissionsQueries.DataOciMeteringComputationUsageCarbonEmissionsQueriesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

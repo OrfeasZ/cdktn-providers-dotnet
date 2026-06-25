@@ -35,6 +35,7 @@ namespace aws.SsmcontactsPlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStageTarget" />)[]</param>
         [JsiiMethod(name: "putTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStageTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTarget(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.SsmcontactsPlan
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStageTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStageTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetInput
@@ -91,6 +95,9 @@ namespace aws.SsmcontactsPlan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStage" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStage\"}]}}", isOptional: true)]
         public virtual object? InternalValue

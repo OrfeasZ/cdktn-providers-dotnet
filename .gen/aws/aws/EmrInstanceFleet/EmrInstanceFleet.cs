@@ -46,6 +46,7 @@ namespace aws.EmrInstanceFleet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EmrInstanceFleet.EmrInstanceFleet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrInstanceFleet.IEmrInstanceFleetInstanceTypeConfigs" />)[]</param>
         [JsiiMethod(name: "putInstanceTypeConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrInstanceFleet.EmrInstanceFleetInstanceTypeConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstanceTypeConfigs(object @value)
         {
@@ -174,6 +175,9 @@ namespace aws.EmrInstanceFleet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrInstanceFleet.IEmrInstanceFleetInstanceTypeConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceTypeConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrInstanceFleet.EmrInstanceFleetInstanceTypeConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstanceTypeConfigsInput

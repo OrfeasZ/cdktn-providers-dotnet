@@ -73,6 +73,9 @@ namespace aws.EksAccessPolicyAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksAccessPolicyAssociation.IEksAccessPolicyAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

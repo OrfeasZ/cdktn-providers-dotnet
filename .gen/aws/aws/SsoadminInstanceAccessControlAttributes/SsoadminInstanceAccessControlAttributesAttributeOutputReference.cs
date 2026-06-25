@@ -35,6 +35,7 @@ namespace aws.SsoadminInstanceAccessControlAttributes
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminInstanceAccessControlAttributes.ISsoadminInstanceAccessControlAttributesAttributeValue" />)[]</param>
         [JsiiMethod(name: "putValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValue(object @value)
         {
@@ -71,6 +72,9 @@ namespace aws.SsoadminInstanceAccessControlAttributes
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminInstanceAccessControlAttributes.ISsoadminInstanceAccessControlAttributesAttributeValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValueInput
@@ -85,6 +89,9 @@ namespace aws.SsoadminInstanceAccessControlAttributes
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsoadminInstanceAccessControlAttributes.ISsoadminInstanceAccessControlAttributesAttribute" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttribute\"}]}}", isOptional: true)]
         public virtual object? InternalValue

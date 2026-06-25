@@ -35,6 +35,12 @@ namespace oci.DataOciDelegateAccessControlServiceProviderActions
         {
         }
 
+        [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "component", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Component
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciDelegateAccessControlServiceProviderActions
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "isSshAccessAllowed", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsSshAccessAllowed
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

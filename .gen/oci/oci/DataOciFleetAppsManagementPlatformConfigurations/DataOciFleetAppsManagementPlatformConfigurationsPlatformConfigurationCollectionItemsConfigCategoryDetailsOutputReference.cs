@@ -71,6 +71,24 @@ namespace oci.DataOciFleetAppsManagementPlatformConfigurations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isCompliancePolicyRequiredForSoftlink", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsCompliancePolicyRequiredForSoftlink
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isSoftlink", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsSoftlink
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "linkProductId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LinkProductId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "patchTypes", typeJson: "{\"fqn\":\"oci.dataOciFleetAppsManagementPlatformConfigurations.DataOciFleetAppsManagementPlatformConfigurationsPlatformConfigurationCollectionItemsConfigCategoryDetailsPatchTypesList\"}")]
         public virtual oci.DataOciFleetAppsManagementPlatformConfigurations.DataOciFleetAppsManagementPlatformConfigurationsPlatformConfigurationCollectionItemsConfigCategoryDetailsPatchTypesList PatchTypes
         {

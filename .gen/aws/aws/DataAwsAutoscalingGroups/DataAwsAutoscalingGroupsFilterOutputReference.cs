@@ -63,6 +63,9 @@ namespace aws.DataAwsAutoscalingGroups
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsAutoscalingGroups.IDataAwsAutoscalingGroupsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

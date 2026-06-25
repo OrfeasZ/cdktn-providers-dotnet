@@ -7,14 +7,14 @@ namespace oci.DataOciDblmPatchManagement
     [JsiiInterface(nativeType: typeof(IDataOciDblmPatchManagementConfig), fullyQualifiedName: "oci.dataOciDblmPatchManagement.DataOciDblmPatchManagementConfig")]
     public interface IDataOciDblmPatchManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#compartment_id DataOciDblmPatchManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#compartment_id DataOciDblmPatchManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#database_release DataOciDblmPatchManagement#database_release}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#database_release DataOciDblmPatchManagement#database_release}.</summary>
         [JsiiProperty(name: "databaseRelease", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseRelease
@@ -25,7 +25,7 @@ namespace oci.DataOciDblmPatchManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#id DataOciDblmPatchManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#id DataOciDblmPatchManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.DataOciDblmPatchManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#time_started_greater_than_or_equal_to DataOciDblmPatchManagement#time_started_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#time_started_greater_than_or_equal_to DataOciDblmPatchManagement#time_started_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeStartedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStartedGreaterThanOrEqualTo
@@ -51,7 +51,7 @@ namespace oci.DataOciDblmPatchManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#time_started_less_than DataOciDblmPatchManagement#time_started_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#time_started_less_than DataOciDblmPatchManagement#time_started_less_than}.</summary>
         [JsiiProperty(name: "timeStartedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStartedLessThan
@@ -69,14 +69,14 @@ namespace oci.DataOciDblmPatchManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#compartment_id DataOciDblmPatchManagement#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#compartment_id DataOciDblmPatchManagement#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#database_release DataOciDblmPatchManagement#database_release}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#database_release DataOciDblmPatchManagement#database_release}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseRelease", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseRelease
@@ -84,7 +84,7 @@ namespace oci.DataOciDblmPatchManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#id DataOciDblmPatchManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#id DataOciDblmPatchManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace oci.DataOciDblmPatchManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#time_started_greater_than_or_equal_to DataOciDblmPatchManagement#time_started_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#time_started_greater_than_or_equal_to DataOciDblmPatchManagement#time_started_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStartedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStartedGreaterThanOrEqualTo
@@ -104,7 +104,7 @@ namespace oci.DataOciDblmPatchManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dblm_patch_management#time_started_less_than DataOciDblmPatchManagement#time_started_less_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dblm_patch_management#time_started_less_than DataOciDblmPatchManagement#time_started_less_than}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStartedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStartedLessThan
@@ -114,6 +114,7 @@ namespace oci.DataOciDblmPatchManagement
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -124,6 +125,7 @@ namespace oci.DataOciDblmPatchManagement
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -174,6 +176,7 @@ namespace oci.DataOciDblmPatchManagement
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

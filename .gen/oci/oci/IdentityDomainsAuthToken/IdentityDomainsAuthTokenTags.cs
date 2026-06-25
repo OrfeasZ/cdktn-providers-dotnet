@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsAuthToken
     [JsiiByValue(fqn: "oci.identityDomainsAuthToken.IdentityDomainsAuthTokenTags")]
     public class IdentityDomainsAuthTokenTags : oci.IdentityDomainsAuthToken.IIdentityDomainsAuthTokenTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_auth_token#key IdentityDomainsAuthToken#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_auth_token#key IdentityDomainsAuthToken#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsAuthToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_auth_token#value IdentityDomainsAuthToken#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_auth_token#value IdentityDomainsAuthToken#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

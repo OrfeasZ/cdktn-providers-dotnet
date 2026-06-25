@@ -77,6 +77,9 @@ namespace aws.Wafv2RuleGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupCustomResponseBody" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupCustomResponseBody\"}]}}", isOptional: true)]
         public virtual object? InternalValue

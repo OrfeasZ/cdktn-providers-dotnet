@@ -48,6 +48,7 @@ namespace aws.AppautoscalingPolicy
         /// <summary>step_adjustment block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appautoscaling_policy#step_adjustment AppautoscalingPolicy#step_adjustment}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppautoscalingPolicy.IAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepAdjustment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appautoscalingPolicy.AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment\"},\"kind\":\"array\"}}]}}", isOptional: true)]

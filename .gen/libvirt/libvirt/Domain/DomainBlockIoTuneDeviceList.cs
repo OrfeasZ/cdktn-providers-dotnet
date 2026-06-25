@@ -41,6 +41,9 @@ namespace libvirt.Domain
             return InvokeInstanceMethod<libvirt.Domain.DomainBlockIoTuneDeviceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBlockIoTuneDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainBlockIoTuneDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

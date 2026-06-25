@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataSafeReportDefinition
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition oci_data_safe_report_definition}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition oci_data_safe_report_definition}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataSafeReportDefinition.DataSafeReportDefinition), fullyQualifiedName: "oci.dataSafeReportDefinition.DataSafeReportDefinition", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionConfig\"}}]")]
     public class DataSafeReportDefinition : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition oci_data_safe_report_definition} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition oci_data_safe_report_definition} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataSafeReportDefinition(Constructs.Construct scope, string id, oci.DataSafeReportDefinition.IDataSafeReportDefinitionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.DataSafeReportDefinition
         /// <param name="importToId">The construct id used in the generated config for the DataSafeReportDefinition to import.</param>
         /// <param name="importFromId">The id of the existing DataSafeReportDefinition that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataSafeReportDefinition to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataSafeReportDefinition to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/data_safe_report_definition#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataSafeReportDefinition that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataSafeReportDefinition to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataSafeReportDefinition to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/data_safe_report_definition#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataSafeReportDefinition that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataSafeReportDefinition to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataSafeReportDefinition.DataSafeReportDefinition), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnFilters" />)[]</param>
         [JsiiMethod(name: "putColumnFilters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnFilters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnFilters(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.DataSafeReportDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnInfo" />)[]</param>
         [JsiiMethod(name: "putColumnInfo", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnInfo\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnInfo(object @value)
         {
@@ -92,6 +94,7 @@ namespace oci.DataSafeReportDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnSortings" />)[]</param>
         [JsiiMethod(name: "putColumnSortings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnSortings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnSortings(object @value)
         {
@@ -115,6 +118,7 @@ namespace oci.DataSafeReportDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionSummary" />)[]</param>
         [JsiiMethod(name: "putSummary", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionSummary\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSummary(object @value)
         {
@@ -325,6 +329,9 @@ namespace oci.DataSafeReportDefinition
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnFiltersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnFiltersInput
@@ -332,6 +339,9 @@ namespace oci.DataSafeReportDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnInfo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnInfoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnInfo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnInfoInput
@@ -339,6 +349,9 @@ namespace oci.DataSafeReportDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionColumnSortings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnSortingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionColumnSortings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnSortingsInput
@@ -395,6 +408,9 @@ namespace oci.DataSafeReportDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionSummary" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "summaryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionSummary\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SummaryInput
@@ -402,6 +418,9 @@ namespace oci.DataSafeReportDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -41,6 +41,9 @@ namespace oci.DataOciCloudGuardAdhocQueries
             return InvokeInstanceMethod<oci.DataOciCloudGuardAdhocQueries.DataOciCloudGuardAdhocQueriesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardAdhocQueries.IDataOciCloudGuardAdhocQueriesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudGuardAdhocQueries.DataOciCloudGuardAdhocQueriesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

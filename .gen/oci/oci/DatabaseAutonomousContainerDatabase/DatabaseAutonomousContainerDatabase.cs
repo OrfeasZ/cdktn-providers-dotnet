@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseAutonomousContainerDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database oci_database_autonomous_container_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database oci_database_autonomous_container_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabase), fullyQualifiedName: "oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseConfig\"}}]")]
     public class DatabaseAutonomousContainerDatabase : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database oci_database_autonomous_container_database} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database oci_database_autonomous_container_database} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseAutonomousContainerDatabase(Constructs.Construct scope, string id, oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseAutonomousContainerDatabase
         /// <param name="importToId">The construct id used in the generated config for the DatabaseAutonomousContainerDatabase to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseAutonomousContainerDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseAutonomousContainerDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseAutonomousContainerDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseAutonomousContainerDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseAutonomousContainerDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseAutonomousContainerDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseAutonomousContainerDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseAutonomousContainerDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,6 +52,7 @@ namespace oci.DatabaseAutonomousContainerDatabase
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseBackupConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseCustomerContacts" />)[]</param>
         [JsiiMethod(name: "putCustomerContacts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseCustomerContacts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomerContacts(object @value)
         {
@@ -73,6 +74,12 @@ namespace oci.DatabaseAutonomousContainerDatabase
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putEncryptionKeyLocationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetails\"}}]")]
+        public virtual void PutEncryptionKeyLocationDetails(oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetails)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMaintenanceWindowDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseMaintenanceWindowDetails\"}}]")]
@@ -173,6 +180,12 @@ namespace oci.DatabaseAutonomousContainerDatabase
 
         [JsiiMethod(name: "resetDistributionAffinity")]
         public virtual void ResetDistributionAffinity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEncryptionKeyLocationDetails")]
+        public virtual void ResetEncryptionKeyLocationDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -436,6 +449,12 @@ namespace oci.DatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetailsOutputReference\"}")]
+        public virtual oci.DatabaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetailsOutputReference EncryptionKeyLocationDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "infrastructureType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InfrastructureType
         {
@@ -658,6 +677,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseCustomerContacts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerContactsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseCustomerContacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomerContactsInput
@@ -722,6 +744,13 @@ namespace oci.DatabaseAutonomousContainerDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "encryptionKeyLocationDetailsInput", typeJson: "{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetails\"}", isOptional: true)]
+        public virtual oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetails? EncryptionKeyLocationDetailsInput
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseEncryptionKeyLocationDetails?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "failoverTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? FailoverTriggerInput
         {
@@ -749,6 +778,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAutomaticFailoverEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsAutomaticFailoverEnabledInput
@@ -756,6 +788,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDstFileUpdateEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDstFileUpdateEnabledInput
@@ -875,6 +910,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rotateKeyTriggerInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RotateKeyTriggerInput
@@ -910,6 +948,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -1057,6 +1098,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isAutomaticFailoverEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsAutomaticFailoverEnabled
         {
@@ -1084,6 +1128,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDstFileUpdateEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDstFileUpdateEnabled
         {
@@ -1209,6 +1256,9 @@ namespace oci.DatabaseAutonomousContainerDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "rotateKeyTrigger", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RotateKeyTrigger
         {

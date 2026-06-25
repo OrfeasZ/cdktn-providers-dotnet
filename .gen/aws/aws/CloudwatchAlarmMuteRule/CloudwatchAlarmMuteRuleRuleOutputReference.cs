@@ -35,6 +35,7 @@ namespace aws.CloudwatchAlarmMuteRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchAlarmMuteRule.ICloudwatchAlarmMuteRuleRuleSchedule" />)[]</param>
         [JsiiMethod(name: "putSchedule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleSchedule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSchedule(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CloudwatchAlarmMuteRule
             get => GetInstanceProperty<aws.CloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleScheduleList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchAlarmMuteRule.ICloudwatchAlarmMuteRuleRuleSchedule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleSchedule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScheduleInput
@@ -77,6 +81,9 @@ namespace aws.CloudwatchAlarmMuteRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchAlarmMuteRule.ICloudwatchAlarmMuteRuleRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,9 @@ namespace scaleway.DomainZone
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.DomainZone.IDomainZoneTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.domainZone.DomainZoneTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

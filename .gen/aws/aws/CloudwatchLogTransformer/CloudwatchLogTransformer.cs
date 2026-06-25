@@ -46,6 +46,7 @@ namespace aws.CloudwatchLogTransformer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudwatchLogTransformer.CloudwatchLogTransformer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfig" />)[]</param>
         [JsiiMethod(name: "putTransformerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransformerConfig(object @value)
         {
@@ -120,6 +121,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transformerConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransformerConfigInput

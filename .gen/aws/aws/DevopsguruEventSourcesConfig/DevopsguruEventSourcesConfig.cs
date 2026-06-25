@@ -46,6 +46,7 @@ namespace aws.DevopsguruEventSourcesConfig
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DevopsguruEventSourcesConfig.DevopsguruEventSourcesConfig), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruEventSourcesConfig.IDevopsguruEventSourcesConfigEventSources" />)[]</param>
         [JsiiMethod(name: "putEventSources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEventSources(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.DevopsguruEventSourcesConfig
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruEventSourcesConfig.IDevopsguruEventSourcesConfigEventSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventSourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EventSourcesInput

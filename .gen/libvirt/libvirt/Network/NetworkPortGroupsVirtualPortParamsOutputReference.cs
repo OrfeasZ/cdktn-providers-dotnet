@@ -123,6 +123,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkPortGroupsVirtualPortParamsVnTag8011QbhOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParamsAny" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "anyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParamsAny\"}]}}", isOptional: true)]
         public virtual object? AnyInput
@@ -130,6 +133,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParamsMidoNet" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "midoNetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParamsMidoNet\"}]}}", isOptional: true)]
         public virtual object? MidoNetInput
@@ -137,6 +143,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParamsOpenVSwitch" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openVSwitchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParamsOpenVSwitch\"}]}}", isOptional: true)]
         public virtual object? OpenVSwitchInput
@@ -144,6 +153,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParamsVepa8021Qbg" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vepa8021QbgInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParamsVepa8021Qbg\"}]}}", isOptional: true)]
         public virtual object? Vepa8021QbgInput
@@ -151,6 +163,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParamsVnTag8011Qbh" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vnTag8011QbhInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParamsVnTag8011Qbh\"}]}}", isOptional: true)]
         public virtual object? VnTag8011QbhInput
@@ -158,6 +173,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParams" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParams\"}]}}", isOptional: true)]
         public virtual object? InternalValue

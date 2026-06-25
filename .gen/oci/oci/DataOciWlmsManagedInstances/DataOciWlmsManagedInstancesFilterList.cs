@@ -41,6 +41,9 @@ namespace oci.DataOciWlmsManagedInstances
             return InvokeInstanceMethod<oci.DataOciWlmsManagedInstances.DataOciWlmsManagedInstancesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsManagedInstances.IDataOciWlmsManagedInstancesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWlmsManagedInstances.DataOciWlmsManagedInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

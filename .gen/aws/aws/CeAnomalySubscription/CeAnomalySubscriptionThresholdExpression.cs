@@ -12,6 +12,7 @@ namespace aws.CeAnomalySubscription
         /// <summary>and block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_anomaly_subscription#and CeAnomalySubscription#and}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "and", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -82,6 +83,7 @@ namespace aws.CeAnomalySubscription
         /// <summary>or block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_anomaly_subscription#or CeAnomalySubscription#or}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionOr" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "or", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOr\"},\"kind\":\"array\"}}]}}", isOptional: true)]

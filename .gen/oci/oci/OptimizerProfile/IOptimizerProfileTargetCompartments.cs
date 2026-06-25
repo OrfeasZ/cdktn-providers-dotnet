@@ -7,7 +7,7 @@ namespace oci.OptimizerProfile
     [JsiiInterface(nativeType: typeof(IOptimizerProfileTargetCompartments), fullyQualifiedName: "oci.optimizerProfile.OptimizerProfileTargetCompartments")]
     public interface IOptimizerProfileTargetCompartments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/optimizer_profile#items OptimizerProfile#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_profile#items OptimizerProfile#items}.</summary>
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Items
         {
@@ -21,7 +21,7 @@ namespace oci.OptimizerProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/optimizer_profile#items OptimizerProfile#items}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/optimizer_profile#items OptimizerProfile#items}.</summary>
             [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Items
             {

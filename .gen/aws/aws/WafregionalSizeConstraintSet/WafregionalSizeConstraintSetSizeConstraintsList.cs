@@ -41,6 +41,9 @@ namespace aws.WafregionalSizeConstraintSet
             return InvokeInstanceMethod<aws.WafregionalSizeConstraintSet.WafregionalSizeConstraintSetSizeConstraintsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalSizeConstraintSet.IWafregionalSizeConstraintSetSizeConstraints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalSizeConstraintSet.WafregionalSizeConstraintSetSizeConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

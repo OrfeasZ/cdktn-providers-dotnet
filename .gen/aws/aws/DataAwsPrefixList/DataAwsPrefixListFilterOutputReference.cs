@@ -63,6 +63,9 @@ namespace aws.DataAwsPrefixList
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsPrefixList.IDataAwsPrefixListFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsPrefixList.DataAwsPrefixListFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

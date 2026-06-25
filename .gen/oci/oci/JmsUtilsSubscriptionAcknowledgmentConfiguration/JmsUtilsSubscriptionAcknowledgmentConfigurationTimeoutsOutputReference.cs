@@ -93,6 +93,9 @@ namespace oci.JmsUtilsSubscriptionAcknowledgmentConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.JmsUtilsSubscriptionAcknowledgmentConfiguration.IJmsUtilsSubscriptionAcknowledgmentConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.jmsUtilsSubscriptionAcknowledgmentConfiguration.JmsUtilsSubscriptionAcknowledgmentConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

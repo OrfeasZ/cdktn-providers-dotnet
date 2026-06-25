@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerHostnames
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerHostnames.DataOciLoadBalancerHostnamesFilter")]
     public class DataOciLoadBalancerHostnamesFilter : oci.DataOciLoadBalancerHostnames.IDataOciLoadBalancerHostnamesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/load_balancer_hostnames#name DataOciLoadBalancerHostnames#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_hostnames#name DataOciLoadBalancerHostnames#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoadBalancerHostnames
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/load_balancer_hostnames#values DataOciLoadBalancerHostnames#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_hostnames#values DataOciLoadBalancerHostnames#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciLoadBalancerHostnames
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/load_balancer_hostnames#regex DataOciLoadBalancerHostnames#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/load_balancer_hostnames#regex DataOciLoadBalancerHostnames#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

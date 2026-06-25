@@ -46,6 +46,7 @@ namespace scaleway.AppleSiliconServer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.AppleSiliconServer.AppleSiliconServer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateIps" />)[]</param>
         [JsiiMethod(name: "putPrivateIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerPrivateIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIps(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.AppleSiliconServer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateNetwork" />)[]</param>
         [JsiiMethod(name: "putPrivateNetwork", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerPrivateNetwork\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateNetwork(object @value)
         {
@@ -274,6 +276,9 @@ namespace scaleway.AppleSiliconServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableVpcInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableVpcInput
@@ -302,6 +307,9 @@ namespace scaleway.AppleSiliconServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpsInput
@@ -309,6 +317,9 @@ namespace scaleway.AppleSiliconServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateNetwork" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetworkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerPrivateNetwork\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateNetworkInput
@@ -337,6 +348,9 @@ namespace scaleway.AppleSiliconServer
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.AppleSiliconServer.IAppleSiliconServerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -365,6 +379,9 @@ namespace scaleway.AppleSiliconServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableVpc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableVpc
         {

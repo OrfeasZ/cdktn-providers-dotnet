@@ -68,6 +68,9 @@ namespace aws.WafregionalSqlInjectionMatchSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafregionalSqlInjectionMatchSet.IWafregionalSqlInjectionMatchSetSqlInjectionMatchTuple" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTuple\"}]}}", isOptional: true)]
         public virtual object? InternalValue

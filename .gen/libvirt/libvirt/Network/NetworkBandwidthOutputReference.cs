@@ -82,6 +82,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkBandwidthInbound" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inboundInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkBandwidthInbound\"}]}}", isOptional: true)]
         public virtual object? InboundInput
@@ -89,6 +92,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkBandwidthOutbound" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outboundInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkBandwidthOutbound\"}]}}", isOptional: true)]
         public virtual object? OutboundInput
@@ -103,6 +109,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkBandwidth" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkBandwidth\"}]}}", isOptional: true)]
         public virtual object? InternalValue

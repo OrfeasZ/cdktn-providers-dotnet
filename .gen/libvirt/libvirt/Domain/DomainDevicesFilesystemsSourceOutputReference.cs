@@ -159,6 +159,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesFilesystemsSourceVolumeOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceBind" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bindInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceBind\"}]}}", isOptional: true)]
         public virtual object? BindInput
@@ -166,6 +169,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceBlock" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceBlock\"}]}}", isOptional: true)]
         public virtual object? BlockInput
@@ -173,6 +179,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceFile" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceFile\"}]}}", isOptional: true)]
         public virtual object? FileInput
@@ -180,6 +189,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceMount" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceMount\"}]}}", isOptional: true)]
         public virtual object? MountInput
@@ -187,6 +199,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceRam" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ramInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceRam\"}]}}", isOptional: true)]
         public virtual object? RamInput
@@ -194,6 +209,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceTemplate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "templateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceTemplate\"}]}}", isOptional: true)]
         public virtual object? TemplateInput
@@ -201,6 +219,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSourceVolume" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSourceVolume\"}]}}", isOptional: true)]
         public virtual object? VolumeInput
@@ -208,6 +229,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

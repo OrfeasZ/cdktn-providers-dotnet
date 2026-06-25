@@ -46,6 +46,7 @@ namespace cloudflare.ApiShield
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ApiShield.ApiShield), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiShield.IApiShieldAuthIdCharacteristics" />)[]</param>
         [JsiiMethod(name: "putAuthIdCharacteristics", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiShield.ApiShieldAuthIdCharacteristics\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthIdCharacteristics(object @value)
         {
@@ -100,6 +101,9 @@ namespace cloudflare.ApiShield
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiShield.IApiShieldAuthIdCharacteristics" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authIdCharacteristicsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiShield.ApiShieldAuthIdCharacteristics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthIdCharacteristicsInput

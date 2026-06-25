@@ -35,6 +35,7 @@ namespace aws.NetworkflowmonitorScope
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifierTargetId" />)[]</param>
         [JsiiMethod(name: "putTargetId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetId(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.NetworkflowmonitorScope
             get => GetInstanceProperty<aws.NetworkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetIdList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifierTargetId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetIdInput
@@ -91,6 +95,9 @@ namespace aws.NetworkflowmonitorScope
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifier" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifier\"}]}}", isOptional: true)]
         public virtual object? InternalValue

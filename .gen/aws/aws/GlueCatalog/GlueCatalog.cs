@@ -46,6 +46,7 @@ namespace aws.GlueCatalog
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlueCatalog.GlueCatalog), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogProperties" />)[]</param>
         [JsiiMethod(name: "putCatalogProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCatalogProperties(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.GlueCatalog
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissions" />)[]</param>
         [JsiiMethod(name: "putCreateDatabaseDefaultPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreateDatabaseDefaultPermissions(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.GlueCatalog
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateTableDefaultPermissions" />)[]</param>
         [JsiiMethod(name: "putCreateTableDefaultPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateTableDefaultPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreateTableDefaultPermissions(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.GlueCatalog
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogFederatedCatalog" />)[]</param>
         [JsiiMethod(name: "putFederatedCatalog", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogFederatedCatalog\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFederatedCatalog(object @value)
         {
@@ -138,6 +142,7 @@ namespace aws.GlueCatalog
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogTargetRedshiftCatalog" />)[]</param>
         [JsiiMethod(name: "putTargetRedshiftCatalog", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogTargetRedshiftCatalog\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetRedshiftCatalog(object @value)
         {
@@ -331,6 +336,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catalogPropertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CatalogPropertiesInput
@@ -338,6 +346,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createDatabaseDefaultPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreateDatabaseDefaultPermissionsInput
@@ -345,6 +356,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateTableDefaultPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createTableDefaultPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateTableDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreateTableDefaultPermissionsInput
@@ -359,6 +373,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogFederatedCatalog" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "federatedCatalogInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogFederatedCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FederatedCatalogInput
@@ -401,6 +418,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogTargetRedshiftCatalog" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetRedshiftCatalogInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogTargetRedshiftCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetRedshiftCatalogInput
@@ -408,6 +428,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlueCatalog.IGlueCatalogTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.glueCatalog.GlueCatalogTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

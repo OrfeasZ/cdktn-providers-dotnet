@@ -9,7 +9,7 @@ namespace oci.MeteringComputationQuery
     {
         /// <summary>cost_analysis_ui block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#cost_analysis_ui MeteringComputationQuery#cost_analysis_ui}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#cost_analysis_ui MeteringComputationQuery#cost_analysis_ui}
         /// </remarks>
         [JsiiProperty(name: "costAnalysisUi", typeJson: "{\"fqn\":\"oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionCostAnalysisUi\"}")]
         oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionCostAnalysisUi CostAnalysisUi
@@ -17,7 +17,7 @@ namespace oci.MeteringComputationQuery
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#display_name MeteringComputationQuery#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#display_name MeteringComputationQuery#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -26,7 +26,7 @@ namespace oci.MeteringComputationQuery
 
         /// <summary>report_query block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#report_query MeteringComputationQuery#report_query}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#report_query MeteringComputationQuery#report_query}
         /// </remarks>
         [JsiiProperty(name: "reportQuery", typeJson: "{\"fqn\":\"oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQuery\"}")]
         oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQuery ReportQuery
@@ -34,7 +34,7 @@ namespace oci.MeteringComputationQuery
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#version MeteringComputationQuery#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#version MeteringComputationQuery#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
         double Version
         {
@@ -50,7 +50,7 @@ namespace oci.MeteringComputationQuery
 
             /// <summary>cost_analysis_ui block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#cost_analysis_ui MeteringComputationQuery#cost_analysis_ui}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#cost_analysis_ui MeteringComputationQuery#cost_analysis_ui}
             /// </remarks>
             [JsiiProperty(name: "costAnalysisUi", typeJson: "{\"fqn\":\"oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionCostAnalysisUi\"}")]
             public oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionCostAnalysisUi CostAnalysisUi
@@ -58,7 +58,7 @@ namespace oci.MeteringComputationQuery
                 get => GetInstanceProperty<oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionCostAnalysisUi>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#display_name MeteringComputationQuery#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#display_name MeteringComputationQuery#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -67,7 +67,7 @@ namespace oci.MeteringComputationQuery
 
             /// <summary>report_query block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#report_query MeteringComputationQuery#report_query}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#report_query MeteringComputationQuery#report_query}
             /// </remarks>
             [JsiiProperty(name: "reportQuery", typeJson: "{\"fqn\":\"oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQuery\"}")]
             public oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQuery ReportQuery
@@ -75,7 +75,7 @@ namespace oci.MeteringComputationQuery
                 get => GetInstanceProperty<oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQuery>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/metering_computation_query#version MeteringComputationQuery#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/metering_computation_query#version MeteringComputationQuery#version}.</summary>
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
             public double Version
             {

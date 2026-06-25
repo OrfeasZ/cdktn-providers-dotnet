@@ -46,6 +46,7 @@ namespace aws.LakeformationResourceLfTag
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LakeformationResourceLfTag.LakeformationResourceLfTag), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagDatabase" />)[]</param>
         [JsiiMethod(name: "putDatabase", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagDatabase\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDatabase(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.LakeformationResourceLfTag
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagLfTag" />)[]</param>
         [JsiiMethod(name: "putLfTag", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagLfTag\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLfTag(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.LakeformationResourceLfTag
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTable" />)[]</param>
         [JsiiMethod(name: "putTable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTable(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.LakeformationResourceLfTag
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTableWithColumns" />)[]</param>
         [JsiiMethod(name: "putTableWithColumns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTableWithColumns(object @value)
         {
@@ -248,6 +252,9 @@ namespace aws.LakeformationResourceLfTag
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagDatabase" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagDatabase\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DatabaseInput
@@ -255,6 +262,9 @@ namespace aws.LakeformationResourceLfTag
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagLfTag" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfTagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagLfTag\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LfTagInput
@@ -269,6 +279,9 @@ namespace aws.LakeformationResourceLfTag
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TableInput
@@ -276,6 +289,9 @@ namespace aws.LakeformationResourceLfTag
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTableWithColumns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tableWithColumnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TableWithColumnsInput
@@ -283,6 +299,9 @@ namespace aws.LakeformationResourceLfTag
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

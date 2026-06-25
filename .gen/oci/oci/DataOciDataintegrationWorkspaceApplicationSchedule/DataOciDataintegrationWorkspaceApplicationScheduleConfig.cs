@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceApplicationSchedule.DataOciDataintegrationWorkspaceApplicationScheduleConfig")]
     public class DataOciDataintegrationWorkspaceApplicationScheduleConfig : oci.DataOciDataintegrationWorkspaceApplicationSchedule.IDataOciDataintegrationWorkspaceApplicationScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dataintegration_workspace_application_schedule#application_key DataOciDataintegrationWorkspaceApplicationSchedule#application_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataintegration_workspace_application_schedule#application_key DataOciDataintegrationWorkspaceApplicationSchedule#application_key}.</summary>
         [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dataintegration_workspace_application_schedule#schedule_key DataOciDataintegrationWorkspaceApplicationSchedule#schedule_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataintegration_workspace_application_schedule#schedule_key DataOciDataintegrationWorkspaceApplicationSchedule#schedule_key}.</summary>
         [JsiiProperty(name: "scheduleKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dataintegration_workspace_application_schedule#workspace_id DataOciDataintegrationWorkspaceApplicationSchedule#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dataintegration_workspace_application_schedule#workspace_id DataOciDataintegrationWorkspaceApplicationSchedule#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {
@@ -37,6 +37,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -70,6 +71,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -164,6 +166,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

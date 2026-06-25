@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CloudBridgeAssetSource
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_bridge_asset_source oci_cloud_bridge_asset_source}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset_source oci_cloud_bridge_asset_source}.</summary>
     [JsiiClass(nativeType: typeof(oci.CloudBridgeAssetSource.CloudBridgeAssetSource), fullyQualifiedName: "oci.cloudBridgeAssetSource.CloudBridgeAssetSource", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.cloudBridgeAssetSource.CloudBridgeAssetSourceConfig\"}}]")]
     public class CloudBridgeAssetSource : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_bridge_asset_source oci_cloud_bridge_asset_source} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset_source oci_cloud_bridge_asset_source} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CloudBridgeAssetSource(Constructs.Construct scope, string id, oci.CloudBridgeAssetSource.ICloudBridgeAssetSourceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.CloudBridgeAssetSource
         /// <param name="importToId">The construct id used in the generated config for the CloudBridgeAssetSource to import.</param>
         /// <param name="importFromId">The id of the existing CloudBridgeAssetSource that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CloudBridgeAssetSource to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudBridgeAssetSource to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_bridge_asset_source#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudBridgeAssetSource that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudBridgeAssetSource to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudBridgeAssetSource to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset_source#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudBridgeAssetSource that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudBridgeAssetSource to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CloudBridgeAssetSource.CloudBridgeAssetSource), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -76,6 +76,18 @@ namespace oci.CloudBridgeAssetSource
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAwsAccountKey")]
+        public virtual void ResetAwsAccountKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAwsRegion")]
+        public virtual void ResetAwsRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDefinedTags")]
         public virtual void ResetDefinedTags()
         {
@@ -94,6 +106,12 @@ namespace oci.CloudBridgeAssetSource
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetEnvironmentType")]
+        public virtual void ResetEnvironmentType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetFreeformTags")]
         public virtual void ResetFreeformTags()
         {
@@ -102,6 +120,18 @@ namespace oci.CloudBridgeAssetSource
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsCostInformationCollected")]
+        public virtual void ResetIsCostInformationCollected()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOlvmEndpoint")]
+        public virtual void ResetOlvmEndpoint()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -120,6 +150,12 @@ namespace oci.CloudBridgeAssetSource
 
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVcenterEndpoint")]
+        public virtual void ResetVcenterEndpoint()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -185,6 +221,9 @@ namespace oci.CloudBridgeAssetSource
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "areHistoricalMetricsCollectedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AreHistoricalMetricsCollectedInput
@@ -192,6 +231,9 @@ namespace oci.CloudBridgeAssetSource
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "areRealtimeMetricsCollectedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AreRealtimeMetricsCollectedInput
@@ -202,6 +244,20 @@ namespace oci.CloudBridgeAssetSource
         [JsiiOptional]
         [JsiiProperty(name: "assetsCompartmentIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AssetsCompartmentIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "awsAccountKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AwsAccountKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "awsRegionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AwsRegionInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -249,6 +305,13 @@ namespace oci.CloudBridgeAssetSource
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "environmentTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EnvironmentTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "freeformTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? FreeformTagsInput
         {
@@ -269,6 +332,23 @@ namespace oci.CloudBridgeAssetSource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isCostInformationCollectedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsCostInformationCollectedInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "olvmEndpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OlvmEndpointInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "replicationCredentialsInput", typeJson: "{\"fqn\":\"oci.cloudBridgeAssetSource.CloudBridgeAssetSourceReplicationCredentials\"}", isOptional: true)]
         public virtual oci.CloudBridgeAssetSource.ICloudBridgeAssetSourceReplicationCredentials? ReplicationCredentialsInput
@@ -283,6 +363,9 @@ namespace oci.CloudBridgeAssetSource
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudBridgeAssetSource.ICloudBridgeAssetSourceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudBridgeAssetSource.CloudBridgeAssetSourceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -304,6 +387,9 @@ namespace oci.CloudBridgeAssetSource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "areHistoricalMetricsCollected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AreHistoricalMetricsCollected
         {
@@ -331,6 +417,9 @@ namespace oci.CloudBridgeAssetSource
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "areRealtimeMetricsCollected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AreRealtimeMetricsCollected
         {
@@ -360,6 +449,20 @@ namespace oci.CloudBridgeAssetSource
 
         [JsiiProperty(name: "assetsCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AssetsCompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "awsAccountKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsAccountKey
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsRegion
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -400,6 +503,13 @@ namespace oci.CloudBridgeAssetSource
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EnvironmentType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> FreeformTags
         {
@@ -416,6 +526,43 @@ namespace oci.CloudBridgeAssetSource
 
         [JsiiProperty(name: "inventoryId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InventoryId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isCostInformationCollected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsCostInformationCollected
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "olvmEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OlvmEndpoint
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

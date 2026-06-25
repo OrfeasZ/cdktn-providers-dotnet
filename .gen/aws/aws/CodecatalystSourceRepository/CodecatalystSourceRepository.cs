@@ -143,6 +143,9 @@ namespace aws.CodecatalystSourceRepository
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodecatalystSourceRepository.ICodecatalystSourceRepositoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

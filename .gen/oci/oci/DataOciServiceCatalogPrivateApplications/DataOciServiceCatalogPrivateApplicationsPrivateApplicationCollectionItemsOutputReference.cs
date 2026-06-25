@@ -107,6 +107,12 @@ namespace oci.DataOciServiceCatalogPrivateApplications
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {

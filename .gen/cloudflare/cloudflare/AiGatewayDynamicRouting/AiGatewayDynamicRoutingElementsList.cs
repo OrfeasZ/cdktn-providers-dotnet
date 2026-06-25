@@ -41,6 +41,9 @@ namespace cloudflare.AiGatewayDynamicRouting
             return InvokeInstanceMethod<cloudflare.AiGatewayDynamicRouting.AiGatewayDynamicRoutingElementsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGatewayDynamicRouting.IAiGatewayDynamicRoutingElements" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGatewayDynamicRouting.AiGatewayDynamicRoutingElements\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

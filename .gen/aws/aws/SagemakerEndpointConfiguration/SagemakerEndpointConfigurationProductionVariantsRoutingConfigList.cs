@@ -41,6 +41,9 @@ namespace aws.SagemakerEndpointConfiguration
             return InvokeInstanceMethod<aws.SagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsRoutingConfigOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsRoutingConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsRoutingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

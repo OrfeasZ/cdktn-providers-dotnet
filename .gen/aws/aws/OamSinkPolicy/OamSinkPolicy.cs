@@ -135,6 +135,9 @@ namespace aws.OamSinkPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OamSinkPolicy.IOamSinkPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.oamSinkPolicy.OamSinkPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

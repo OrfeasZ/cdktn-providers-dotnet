@@ -63,6 +63,9 @@ namespace aws.BedrockCustomModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockCustomModel.IBedrockCustomModelVpcConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelVpcConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

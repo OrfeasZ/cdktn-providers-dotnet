@@ -53,6 +53,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortGroupsVirtualPortParamsMidoNet" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParamsMidoNet\"}]}}", isOptional: true)]
         public virtual object? InternalValue

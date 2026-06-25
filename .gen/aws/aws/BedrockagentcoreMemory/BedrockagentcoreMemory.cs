@@ -46,6 +46,7 @@ namespace aws.BedrockagentcoreMemory
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreMemory.BedrockagentcoreMemory), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryIndexedKey" />)[]</param>
         [JsiiMethod(name: "putIndexedKey", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKey\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIndexedKey(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.BedrockagentcoreMemory
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResources" />)[]</param>
         [JsiiMethod(name: "putStreamDeliveryResources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStreamDeliveryResources(object @value)
         {
@@ -222,6 +224,9 @@ namespace aws.BedrockagentcoreMemory
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryIndexedKey" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "indexedKeyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IndexedKeyInput
@@ -250,6 +255,9 @@ namespace aws.BedrockagentcoreMemory
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "streamDeliveryResourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StreamDeliveryResourcesInput
@@ -264,6 +272,9 @@ namespace aws.BedrockagentcoreMemory
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

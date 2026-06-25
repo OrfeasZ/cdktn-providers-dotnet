@@ -47,6 +47,9 @@ namespace cloudflare.D1Database
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.D1Database.ID1DatabaseReadReplication" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.d1Database.D1DatabaseReadReplication\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.ResiliencehubResiliencyPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicyAz" />)[]</param>
         [JsiiMethod(name: "putAz", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyAz\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAz(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.ResiliencehubResiliencyPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicyHardware" />)[]</param>
         [JsiiMethod(name: "putHardware", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyHardware\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHardware(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.ResiliencehubResiliencyPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicyRegion" />)[]</param>
         [JsiiMethod(name: "putRegion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyRegion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegion(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.ResiliencehubResiliencyPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicySoftware" />)[]</param>
         [JsiiMethod(name: "putSoftwareAttribute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftware\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSoftwareAttribute(object @value)
         {
@@ -175,6 +179,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<aws.ResiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftwareList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicyAz" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyAz\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AzInput
@@ -182,6 +189,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicyHardware" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hardwareInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyHardware\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HardwareInput
@@ -189,6 +199,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicyRegion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyRegion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegionInput
@@ -196,6 +209,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicySoftware" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "softwareAttributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftware\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SoftwareAttributeInput
@@ -203,6 +219,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicy\"}]}}", isOptional: true)]
         public virtual object? InternalValue

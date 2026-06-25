@@ -35,6 +35,7 @@ namespace aws.SpotFleetRequest
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationEbsBlockDevice" />)[]</param>
         [JsiiMethod(name: "putEbsBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationEbsBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEbsBlockDevice(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SpotFleetRequest
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationEphemeralBlockDevice" />)[]</param>
         [JsiiMethod(name: "putEphemeralBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEphemeralBlockDevice(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.SpotFleetRequest
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationRootBlockDevice" />)[]</param>
         [JsiiMethod(name: "putRootBlockDevice", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationRootBlockDevice\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRootBlockDevice(object @value)
         {
@@ -237,6 +240,9 @@ namespace aws.SpotFleetRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "associatePublicIpAddressInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AssociatePublicIpAddressInput
@@ -251,6 +257,9 @@ namespace aws.SpotFleetRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationEbsBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EbsBlockDeviceInput
@@ -258,6 +267,9 @@ namespace aws.SpotFleetRequest
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ebsOptimizedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EbsOptimizedInput
@@ -265,6 +277,9 @@ namespace aws.SpotFleetRequest
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationEphemeralBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EphemeralBlockDeviceInput
@@ -300,6 +315,9 @@ namespace aws.SpotFleetRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monitoringInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MonitoringInput
@@ -321,6 +339,9 @@ namespace aws.SpotFleetRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationRootBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rootBlockDeviceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationRootBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RootBlockDeviceInput
@@ -377,6 +398,9 @@ namespace aws.SpotFleetRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "associatePublicIpAddress", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AssociatePublicIpAddress
         {
@@ -411,6 +435,9 @@ namespace aws.SpotFleetRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "ebsOptimized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EbsOptimized
         {
@@ -466,6 +493,9 @@ namespace aws.SpotFleetRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "monitoring", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Monitoring
         {
@@ -549,6 +579,9 @@ namespace aws.SpotFleetRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecification" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecification\"}]}}", isOptional: true)]
         public virtual object? InternalValue

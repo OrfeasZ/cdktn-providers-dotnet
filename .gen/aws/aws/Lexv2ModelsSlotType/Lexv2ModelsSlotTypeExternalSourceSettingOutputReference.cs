@@ -35,6 +35,7 @@ namespace aws.Lexv2ModelsSlotType
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSetting" />)[]</param>
         [JsiiMethod(name: "putGrammarSlotTypeSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGrammarSlotTypeSetting(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<aws.Lexv2ModelsSlotType.Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grammarSlotTypeSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GrammarSlotTypeSettingInput
@@ -77,6 +81,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeExternalSourceSetting" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeExternalSourceSetting\"}]}}", isOptional: true)]
         public virtual object? InternalValue

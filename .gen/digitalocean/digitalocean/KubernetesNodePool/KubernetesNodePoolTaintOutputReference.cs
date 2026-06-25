@@ -77,6 +77,9 @@ namespace digitalocean.KubernetesNodePool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.KubernetesNodePool.IKubernetesNodePoolTaint" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTaint\"}]}}", isOptional: true)]
         public virtual object? InternalValue

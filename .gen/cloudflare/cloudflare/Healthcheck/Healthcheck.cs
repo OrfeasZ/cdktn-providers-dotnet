@@ -220,6 +220,9 @@ namespace cloudflare.Healthcheck
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Healthcheck.IHealthcheckHttpConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.healthcheck.HealthcheckHttpConfig\"}]}}", isOptional: true)]
         public virtual object? HttpConfigInput
@@ -248,6 +251,9 @@ namespace cloudflare.Healthcheck
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "suspendedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SuspendedInput
@@ -255,6 +261,9 @@ namespace cloudflare.Healthcheck
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Healthcheck.IHealthcheckTcpConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcpConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.healthcheck.HealthcheckTcpConfig\"}]}}", isOptional: true)]
         public virtual object? TcpConfigInput
@@ -339,6 +348,9 @@ namespace cloudflare.Healthcheck
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "suspended", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Suspended
         {

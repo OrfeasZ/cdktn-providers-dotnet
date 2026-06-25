@@ -103,6 +103,9 @@ namespace aws.LexBotAlias
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LexBotAlias.ILexBotAliasConversationLogsLogSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexBotAlias.LexBotAliasConversationLogsLogSettings\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace digitalocean.Loadbalancer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.Loadbalancer.Loadbalancer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerDomains" />)[]</param>
         [JsiiMethod(name: "putDomains", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerDomains\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDomains(object @value)
         {
@@ -75,6 +76,7 @@ namespace digitalocean.Loadbalancer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.Loadbalancer.ILoadbalancerFirewall)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerForwardingRule" />)[]</param>
         [JsiiMethod(name: "putForwardingRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerForwardingRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutForwardingRule(object @value)
         {
@@ -352,6 +354,9 @@ namespace digitalocean.Loadbalancer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disableLetsEncryptDnsRecordsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisableLetsEncryptDnsRecordsInput
@@ -359,6 +364,9 @@ namespace digitalocean.Loadbalancer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerDomains" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerDomains\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DomainsInput
@@ -380,6 +388,9 @@ namespace digitalocean.Loadbalancer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableBackendKeepaliveInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableBackendKeepaliveInput
@@ -387,6 +398,9 @@ namespace digitalocean.Loadbalancer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableProxyProtocolInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableProxyProtocolInput
@@ -401,6 +415,9 @@ namespace digitalocean.Loadbalancer
             get => GetInstanceProperty<digitalocean.Loadbalancer.ILoadbalancerFirewall?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerForwardingRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardingRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerForwardingRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ForwardingRuleInput
@@ -464,6 +481,9 @@ namespace digitalocean.Loadbalancer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirectHttpToHttpsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RedirectHttpToHttpsInput
@@ -534,6 +554,9 @@ namespace digitalocean.Loadbalancer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "disableLetsEncryptDnsRecords", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DisableLetsEncryptDnsRecords
         {
@@ -575,6 +598,9 @@ namespace digitalocean.Loadbalancer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableBackendKeepalive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableBackendKeepalive
         {
@@ -602,6 +628,9 @@ namespace digitalocean.Loadbalancer
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableProxyProtocol", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableProxyProtocol
         {
@@ -671,6 +700,9 @@ namespace digitalocean.Loadbalancer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "redirectHttpToHttps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RedirectHttpToHttps
         {

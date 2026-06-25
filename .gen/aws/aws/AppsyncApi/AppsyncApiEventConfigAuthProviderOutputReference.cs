@@ -35,6 +35,7 @@ namespace aws.AppsyncApi
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderCognitoConfig" />)[]</param>
         [JsiiMethod(name: "putCognitoConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCognitoConfig(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.AppsyncApi
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig" />)[]</param>
         [JsiiMethod(name: "putLambdaAuthorizerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaAuthorizerConfig(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.AppsyncApi
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderOpenidConnectConfig" />)[]</param>
         [JsiiMethod(name: "putOpenidConnectConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOpenidConnectConfig(object @value)
         {
@@ -147,6 +150,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderCognitoConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cognitoConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CognitoConfigInput
@@ -154,6 +160,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaAuthorizerConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaAuthorizerConfigInput
@@ -161,6 +170,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderOpenidConnectConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openidConnectConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OpenidConnectConfigInput
@@ -175,6 +187,9 @@ namespace aws.AppsyncApi
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProvider\"}]}}", isOptional: true)]
         public virtual object? InternalValue

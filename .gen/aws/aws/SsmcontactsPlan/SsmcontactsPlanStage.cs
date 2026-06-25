@@ -22,6 +22,7 @@ namespace aws.SsmcontactsPlan
         /// <summary>target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmcontacts_plan#target SsmcontactsPlan#target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStageTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStageTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]

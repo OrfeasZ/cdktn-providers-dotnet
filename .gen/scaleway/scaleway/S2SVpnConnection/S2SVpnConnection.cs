@@ -46,6 +46,7 @@ namespace scaleway.S2SVpnConnection
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.S2SVpnConnection.S2SVpnConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv4" />)[]</param>
         [JsiiMethod(name: "putBgpConfigIpv4", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv4\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBgpConfigIpv4(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.S2SVpnConnection
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv6" />)[]</param>
         [JsiiMethod(name: "putBgpConfigIpv6", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv6\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBgpConfigIpv6(object @value)
         {
@@ -92,6 +94,7 @@ namespace scaleway.S2SVpnConnection
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionEspCiphers" />)[]</param>
         [JsiiMethod(name: "putEspCiphers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionEspCiphers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEspCiphers(object @value)
         {
@@ -115,6 +118,7 @@ namespace scaleway.S2SVpnConnection
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionIkev2Ciphers" />)[]</param>
         [JsiiMethod(name: "putIkev2Ciphers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionIkev2Ciphers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIkev2Ciphers(object @value)
         {
@@ -337,6 +341,9 @@ namespace scaleway.S2SVpnConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv4" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgpConfigIpv4Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv4\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BgpConfigIpv4Input
@@ -344,6 +351,9 @@ namespace scaleway.S2SVpnConnection
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv6" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgpConfigIpv6Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv6\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BgpConfigIpv6Input
@@ -358,6 +368,9 @@ namespace scaleway.S2SVpnConnection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableRoutePropagationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableRoutePropagationInput
@@ -365,6 +378,9 @@ namespace scaleway.S2SVpnConnection
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionEspCiphers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "espCiphersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionEspCiphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EspCiphersInput
@@ -379,6 +395,9 @@ namespace scaleway.S2SVpnConnection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionIkev2Ciphers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ikev2CiphersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionIkev2Ciphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ikev2CiphersInput
@@ -393,6 +412,9 @@ namespace scaleway.S2SVpnConnection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6Input", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIpv6Input
@@ -442,6 +464,9 @@ namespace scaleway.S2SVpnConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableRoutePropagation
         {
@@ -483,6 +508,9 @@ namespace scaleway.S2SVpnConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIpv6
         {

@@ -20,6 +20,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>agent_guardrail block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#agent_guardrail DataDigitaloceanGradientaiAgent#agent_guardrail}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentAgentGuardrail" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "agentGuardrail", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentAgentGuardrail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,6 +35,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>anthropic_api_key block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#anthropic_api_key DataDigitaloceanGradientaiAgent#anthropic_api_key}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentAnthropicApiKey" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "anthropicApiKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentAnthropicApiKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,6 +50,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>api_key_infos block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#api_key_infos DataDigitaloceanGradientaiAgent#api_key_infos}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentApiKeyInfos" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "apiKeyInfos", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentApiKeyInfos\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,6 +65,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>api_keys block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#api_keys DataDigitaloceanGradientaiAgent#api_keys}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentApiKeys" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "apiKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentApiKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,6 +80,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>chatbot block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#chatbot DataDigitaloceanGradientaiAgent#chatbot}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentChatbot" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "chatbot", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentChatbot\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,6 +95,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>chatbot_identifiers block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#chatbot_identifiers DataDigitaloceanGradientaiAgent#chatbot_identifiers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentChatbotIdentifiers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "chatbotIdentifiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentChatbotIdentifiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,6 +110,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>deployment block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#deployment DataDigitaloceanGradientaiAgent#deployment}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentDeployment" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "deployment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentDeployment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -132,6 +139,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>functions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#functions DataDigitaloceanGradientaiAgent#functions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentFunctions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "functions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentFunctions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -189,6 +197,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>knowledge_bases block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#knowledge_bases DataDigitaloceanGradientaiAgent#knowledge_bases}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentKnowledgeBases" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "knowledgeBases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentKnowledgeBases\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -217,6 +226,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>model block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#model DataDigitaloceanGradientaiAgent#model}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentModel" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "model", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -231,6 +241,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>open_ai_api_key block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#open_ai_api_key DataDigitaloceanGradientaiAgent#open_ai_api_key}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentOpenAiApiKey" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "openAiApiKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentOpenAiApiKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -329,6 +340,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>template block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#template DataDigitaloceanGradientaiAgent#template}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentTemplate" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "template", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentTemplate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -402,6 +414,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>agent_guardrail block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#agent_guardrail DataDigitaloceanGradientaiAgent#agent_guardrail}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentAgentGuardrail" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "agentGuardrail", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentAgentGuardrail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -413,6 +426,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>anthropic_api_key block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#anthropic_api_key DataDigitaloceanGradientaiAgent#anthropic_api_key}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentAnthropicApiKey" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "anthropicApiKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentAnthropicApiKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -424,6 +438,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>api_key_infos block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#api_key_infos DataDigitaloceanGradientaiAgent#api_key_infos}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentApiKeyInfos" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiKeyInfos", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentApiKeyInfos\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -435,6 +450,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>api_keys block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#api_keys DataDigitaloceanGradientaiAgent#api_keys}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentApiKeys" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentApiKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -446,6 +462,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>chatbot block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#chatbot DataDigitaloceanGradientaiAgent#chatbot}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentChatbot" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chatbot", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentChatbot\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -457,6 +474,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>chatbot_identifiers block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#chatbot_identifiers DataDigitaloceanGradientaiAgent#chatbot_identifiers}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentChatbotIdentifiers" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chatbotIdentifiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentChatbotIdentifiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -468,6 +486,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>deployment block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#deployment DataDigitaloceanGradientaiAgent#deployment}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentDeployment" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deployment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentDeployment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -490,6 +509,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>functions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#functions DataDigitaloceanGradientaiAgent#functions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentFunctions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "functions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentFunctions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -535,6 +555,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>knowledge_bases block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#knowledge_bases DataDigitaloceanGradientaiAgent#knowledge_bases}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentKnowledgeBases" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "knowledgeBases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentKnowledgeBases\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -557,6 +578,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>model block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#model DataDigitaloceanGradientaiAgent#model}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentModel" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "model", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -568,6 +590,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>open_ai_api_key block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#open_ai_api_key DataDigitaloceanGradientaiAgent#open_ai_api_key}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentOpenAiApiKey" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "openAiApiKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentOpenAiApiKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -645,6 +668,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
             /// <summary>template block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#template DataDigitaloceanGradientaiAgent#template}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentTemplate" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "template", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentTemplate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -688,6 +712,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -698,6 +723,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -748,6 +774,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

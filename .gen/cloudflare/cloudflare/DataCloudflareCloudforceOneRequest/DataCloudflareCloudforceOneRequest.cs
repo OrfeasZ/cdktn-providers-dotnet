@@ -180,6 +180,9 @@ namespace cloudflare.DataCloudflareCloudforceOneRequest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareCloudforceOneRequest.IDataCloudflareCloudforceOneRequestFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareCloudforceOneRequest.DataCloudflareCloudforceOneRequestFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

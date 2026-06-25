@@ -9,7 +9,7 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiByValue(fqn: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecuritySamlConfig")]
     public class OpensearchOpensearchClusterSecuritySamlConfig : oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterSecuritySamlConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#idp_entity_id OpensearchOpensearchCluster#idp_entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#idp_entity_id OpensearchOpensearchCluster#idp_entity_id}.</summary>
         [JsiiProperty(name: "idpEntityId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdpEntityId
         {
@@ -17,7 +17,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#idp_metadata_content OpensearchOpensearchCluster#idp_metadata_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#idp_metadata_content OpensearchOpensearchCluster#idp_metadata_content}.</summary>
         [JsiiProperty(name: "idpMetadataContent", typeJson: "{\"primitive\":\"string\"}")]
         public string IdpMetadataContent
         {
@@ -27,7 +27,10 @@ namespace oci.OpensearchOpensearchCluster
 
         private object _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object IsEnabled
         {
@@ -55,7 +58,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#admin_backend_role OpensearchOpensearchCluster#admin_backend_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#admin_backend_role OpensearchOpensearchCluster#admin_backend_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adminBackendRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AdminBackendRole
@@ -64,7 +67,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#opendashboard_url OpensearchOpensearchCluster#opendashboard_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#opendashboard_url OpensearchOpensearchCluster#opendashboard_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "opendashboardUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OpendashboardUrl
@@ -73,7 +76,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#roles_key OpensearchOpensearchCluster#roles_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#roles_key OpensearchOpensearchCluster#roles_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rolesKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RolesKey
@@ -82,7 +85,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opensearch_opensearch_cluster#subject_key OpensearchOpensearchCluster#subject_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opensearch_opensearch_cluster#subject_key OpensearchOpensearchCluster#subject_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subjectKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubjectKey

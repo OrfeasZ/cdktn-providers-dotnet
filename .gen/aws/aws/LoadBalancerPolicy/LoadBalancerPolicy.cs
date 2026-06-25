@@ -46,6 +46,7 @@ namespace aws.LoadBalancerPolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LoadBalancerPolicy.LoadBalancerPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LoadBalancerPolicy.ILoadBalancerPolicyPolicyAttribute" />)[]</param>
         [JsiiMethod(name: "putPolicyAttribute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttribute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolicyAttribute(object @value)
         {
@@ -126,6 +127,9 @@ namespace aws.LoadBalancerPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LoadBalancerPolicy.ILoadBalancerPolicyPolicyAttribute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policyAttributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttribute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PolicyAttributeInput

@@ -197,6 +197,9 @@ namespace digitalocean.CustomImage
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.CustomImage.ICustomImageTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.customImage.CustomImageTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

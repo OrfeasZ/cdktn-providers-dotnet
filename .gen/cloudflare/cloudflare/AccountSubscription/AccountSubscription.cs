@@ -139,6 +139,9 @@ namespace cloudflare.AccountSubscription
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AccountSubscription.IAccountSubscriptionRatePlan" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ratePlanInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.accountSubscription.AccountSubscriptionRatePlan\"}]}}", isOptional: true)]
         public virtual object? RatePlanInput

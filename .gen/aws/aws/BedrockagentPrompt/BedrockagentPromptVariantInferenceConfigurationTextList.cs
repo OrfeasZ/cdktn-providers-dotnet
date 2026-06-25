@@ -41,6 +41,9 @@ namespace aws.BedrockagentPrompt
             return InvokeInstanceMethod<aws.BedrockagentPrompt.BedrockagentPromptVariantInferenceConfigurationTextOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantInferenceConfigurationText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantInferenceConfigurationText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

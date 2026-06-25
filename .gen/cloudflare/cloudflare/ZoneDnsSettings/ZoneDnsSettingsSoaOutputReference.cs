@@ -173,6 +173,9 @@ namespace cloudflare.ZoneDnsSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneDnsSettings.IZoneDnsSettingsSoa" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsSoa\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -61,6 +61,9 @@ namespace cloudflare.ZeroTrustAccessGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeGsuite" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeGsuite\"}]}}", isOptional: true)]
         public virtual object? InternalValue

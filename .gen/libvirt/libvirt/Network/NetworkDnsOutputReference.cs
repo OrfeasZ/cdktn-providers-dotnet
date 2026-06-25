@@ -33,6 +33,7 @@ namespace libvirt.Network
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsForwarders" />)[]</param>
         [JsiiMethod(name: "putForwarders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsForwarders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutForwarders(object @value)
         {
@@ -56,6 +57,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsHost" />)[]</param>
         [JsiiMethod(name: "putHost", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsHost\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHost(object @value)
         {
@@ -79,6 +81,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsSrVs" />)[]</param>
         [JsiiMethod(name: "putSrVs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsSrVs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSrVs(object @value)
         {
@@ -102,6 +105,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsTxTs" />)[]</param>
         [JsiiMethod(name: "putTxTs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsTxTs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTxTs(object @value)
         {
@@ -192,6 +196,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsForwarders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsForwarders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ForwardersInput
@@ -206,6 +213,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsHost" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsHost\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HostInput
@@ -213,6 +223,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsSrVs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "srVsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsSrVs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SrVsInput
@@ -220,6 +233,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsTxTs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "txTsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsTxTs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TxTsInput
@@ -241,6 +257,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkDns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace oci.CoreVnicAttachment
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreVnicAttachment.ICoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails" />)[]</param>
         [JsiiMethod(name: "putIpv6AddressIpv6SubnetCidrPairDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreVnicAttachment.CoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpv6AddressIpv6SubnetCidrPairDetails(object @value)
         {
@@ -116,6 +117,12 @@ namespace oci.CoreVnicAttachment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPrivateIpId")]
+        public virtual void ResetPrivateIpId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRouteTableId")]
         public virtual void ResetRouteTableId()
         {
@@ -130,6 +137,12 @@ namespace oci.CoreVnicAttachment
 
         [JsiiMethod(name: "resetSkipSourceDestCheck")]
         public virtual void ResetSkipSourceDestCheck()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubnetCidr")]
+        public virtual void ResetSubnetCidr()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -152,6 +165,9 @@ namespace oci.CoreVnicAttachment
             get => GetInstanceProperty<oci.CoreVnicAttachment.CoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetailsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assignIpv6IpInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AssignIpv6IpInput
@@ -159,6 +175,9 @@ namespace oci.CoreVnicAttachment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assignPrivateDnsRecordInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AssignPrivateDnsRecordInput
@@ -201,6 +220,9 @@ namespace oci.CoreVnicAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreVnicAttachment.ICoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6AddressIpv6SubnetCidrPairDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreVnicAttachment.CoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ipv6AddressIpv6SubnetCidrPairDetailsInput
@@ -213,6 +235,13 @@ namespace oci.CoreVnicAttachment
         public virtual string[]? NsgIdsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "privateIpIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrivateIpIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -236,11 +265,21 @@ namespace oci.CoreVnicAttachment
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "skipSourceDestCheckInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SkipSourceDestCheckInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "subnetCidrInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SubnetCidrInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -257,6 +296,9 @@ namespace oci.CoreVnicAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "assignIpv6Ip", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AssignIpv6Ip
         {
@@ -284,6 +326,9 @@ namespace oci.CoreVnicAttachment
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "assignPrivateDnsRecord", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AssignPrivateDnsRecord
         {
@@ -360,6 +405,13 @@ namespace oci.CoreVnicAttachment
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateIpId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "routeTableId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RouteTableId
         {
@@ -374,6 +426,9 @@ namespace oci.CoreVnicAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "skipSourceDestCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SkipSourceDestCheck
         {
@@ -399,6 +454,13 @@ namespace oci.CoreVnicAttachment
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "subnetCidr", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetCidr
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]

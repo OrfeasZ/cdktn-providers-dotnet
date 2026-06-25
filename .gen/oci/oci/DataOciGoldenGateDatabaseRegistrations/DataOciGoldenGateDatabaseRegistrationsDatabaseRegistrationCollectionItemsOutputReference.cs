@@ -47,6 +47,12 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConnectionId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ConnectionString
         {

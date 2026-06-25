@@ -46,6 +46,7 @@ namespace aws.WorkspaceswebTrustStore
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WorkspaceswebTrustStore.WorkspaceswebTrustStore), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebTrustStore.IWorkspaceswebTrustStoreCertificate" />)[]</param>
         [JsiiMethod(name: "putCertificate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCertificate(object @value)
         {
@@ -130,6 +131,9 @@ namespace aws.WorkspaceswebTrustStore
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebTrustStore.IWorkspaceswebTrustStoreCertificate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CertificateInput

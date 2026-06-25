@@ -121,6 +121,9 @@ namespace aws.ApprunnerDeployment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ApprunnerDeployment.IApprunnerDeploymentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apprunnerDeployment.ApprunnerDeploymentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

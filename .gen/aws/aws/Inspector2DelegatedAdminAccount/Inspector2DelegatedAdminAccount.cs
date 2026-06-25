@@ -122,6 +122,9 @@ namespace aws.Inspector2DelegatedAdminAccount
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Inspector2DelegatedAdminAccount.IInspector2DelegatedAdminAccountTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.inspector2DelegatedAdminAccount.Inspector2DelegatedAdminAccountTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

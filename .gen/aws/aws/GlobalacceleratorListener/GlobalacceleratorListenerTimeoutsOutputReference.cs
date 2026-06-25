@@ -93,6 +93,9 @@ namespace aws.GlobalacceleratorListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlobalacceleratorListener.IGlobalacceleratorListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.globalacceleratorListener.GlobalacceleratorListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

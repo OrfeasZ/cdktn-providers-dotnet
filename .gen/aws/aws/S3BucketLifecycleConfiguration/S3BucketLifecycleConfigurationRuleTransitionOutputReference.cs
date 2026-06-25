@@ -89,6 +89,9 @@ namespace aws.S3BucketLifecycleConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleTransition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

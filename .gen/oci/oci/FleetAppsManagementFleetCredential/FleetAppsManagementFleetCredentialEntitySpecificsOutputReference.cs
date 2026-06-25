@@ -33,6 +33,7 @@ namespace oci.FleetAppsManagementFleetCredential
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialEntitySpecificsVariables" />)[]</param>
         [JsiiMethod(name: "putVariables", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialEntitySpecificsVariables\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVariables(object @value)
         {
@@ -101,6 +102,9 @@ namespace oci.FleetAppsManagementFleetCredential
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialEntitySpecificsVariables" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "variablesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialEntitySpecificsVariables\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VariablesInput

@@ -53,6 +53,9 @@ namespace cloudflare.DataCloudflareAccountToken
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAccountToken.IDataCloudflareAccountTokenFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAccountToken.DataCloudflareAccountTokenFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

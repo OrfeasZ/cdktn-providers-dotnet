@@ -46,6 +46,7 @@ namespace digitalocean.SpacesKey
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.SpacesKey.SpacesKey), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesKey.ISpacesKeyGrant" />)[]</param>
         [JsiiMethod(name: "putGrant", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesKey.SpacesKeyGrant\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGrant(object @value)
         {
@@ -124,6 +125,9 @@ namespace digitalocean.SpacesKey
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesKey.ISpacesKeyGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grantInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesKey.SpacesKeyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GrantInput

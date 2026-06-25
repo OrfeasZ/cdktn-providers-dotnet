@@ -33,6 +33,7 @@ namespace aws.Codepipeline
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTriggerGitConfigurationPullRequest" />)[]</param>
         [JsiiMethod(name: "putPullRequest", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequest\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPullRequest(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.Codepipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTriggerGitConfigurationPush" />)[]</param>
         [JsiiMethod(name: "putPush", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPush\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPush(object @value)
         {
@@ -103,6 +105,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<aws.Codepipeline.CodepipelineTriggerGitConfigurationPushList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTriggerGitConfigurationPullRequest" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pullRequestInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequest\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PullRequestInput
@@ -110,6 +115,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTriggerGitConfigurationPush" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pushInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PushInput

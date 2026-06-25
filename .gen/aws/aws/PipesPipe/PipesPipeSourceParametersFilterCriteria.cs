@@ -12,6 +12,7 @@ namespace aws.PipesPipe
         /// <summary>filter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#filter PipesPipe#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeSourceParametersFilterCriteriaFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

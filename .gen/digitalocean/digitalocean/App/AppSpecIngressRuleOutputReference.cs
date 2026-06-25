@@ -135,6 +135,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.IAppSpecIngressRuleRedirect?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.App.IAppSpecIngressRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.app.AppSpecIngressRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

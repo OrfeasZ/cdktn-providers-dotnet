@@ -41,6 +41,9 @@ namespace aws.AutoscalingGroup
             return InvokeInstanceMethod<aws.AutoscalingGroup.AutoscalingGroupTrafficSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AutoscalingGroup.IAutoscalingGroupTrafficSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupTrafficSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

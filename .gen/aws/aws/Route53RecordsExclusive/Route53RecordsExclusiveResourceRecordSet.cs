@@ -22,6 +22,7 @@ namespace aws.Route53RecordsExclusive
         /// <summary>alias_target block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_records_exclusive#alias_target Route53RecordsExclusive#alias_target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetAliasTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aliasTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetAliasTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -56,6 +57,7 @@ namespace aws.Route53RecordsExclusive
         /// <summary>cidr_routing_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_records_exclusive#cidr_routing_config Route53RecordsExclusive#cidr_routing_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cidrRoutingConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetCidrRoutingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -99,6 +101,7 @@ namespace aws.Route53RecordsExclusive
         /// <summary>geolocation block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_records_exclusive#geolocation Route53RecordsExclusive#geolocation}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeolocation" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geolocation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeolocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -133,6 +136,7 @@ namespace aws.Route53RecordsExclusive
         /// <summary>geoproximity_location block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_records_exclusive#geoproximity_location Route53RecordsExclusive#geoproximity_location}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocation" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geoproximityLocation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeoproximityLocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -174,6 +178,9 @@ namespace aws.Route53RecordsExclusive
         private object? _multiValueAnswer;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_records_exclusive#multi_value_answer Route53RecordsExclusive#multi_value_answer}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiValueAnswer", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? MultiValueAnswer
@@ -216,6 +223,7 @@ namespace aws.Route53RecordsExclusive
         /// <summary>resource_records block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_records_exclusive#resource_records Route53RecordsExclusive#resource_records}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetResourceRecords" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceRecords", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetResourceRecords\"},\"kind\":\"array\"}}]}}", isOptional: true)]

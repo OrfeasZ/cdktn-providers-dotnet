@@ -46,6 +46,7 @@ namespace aws.SecuritylakeSubscriber
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecuritylakeSubscriber.SecuritylakeSubscriber), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSource" />)[]</param>
         [JsiiMethod(name: "putSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSource(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.SecuritylakeSubscriber
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSubscriberIdentity" />)[]</param>
         [JsiiMethod(name: "putSubscriberIdentity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubscriberIdentity(object @value)
         {
@@ -251,6 +253,9 @@ namespace aws.SecuritylakeSubscriber
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceInput
@@ -265,6 +270,9 @@ namespace aws.SecuritylakeSubscriber
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSubscriberIdentity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscriberIdentityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubscriberIdentityInput
@@ -286,6 +294,9 @@ namespace aws.SecuritylakeSubscriber
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

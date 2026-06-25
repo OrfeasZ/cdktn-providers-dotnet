@@ -93,6 +93,9 @@ namespace oci.CapacityManagementOccCustomerGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CapacityManagementOccCustomerGroup.ICapacityManagementOccCustomerGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.capacityManagementOccCustomerGroup.CapacityManagementOccCustomerGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

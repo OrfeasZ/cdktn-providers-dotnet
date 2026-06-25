@@ -41,6 +41,9 @@ namespace oci.CloudBridgeAsset
             return InvokeInstanceMethod<oci.CloudBridgeAsset.CloudBridgeAssetComputeDisksOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudBridgeAsset.ICloudBridgeAssetComputeDisks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetComputeDisks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

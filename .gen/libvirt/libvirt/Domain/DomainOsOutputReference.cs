@@ -45,6 +45,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainOsBios)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainOsBootDevices" />)[]</param>
         [JsiiMethod(name: "putBootDevices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainOsBootDevices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBootDevices(object @value)
         {
@@ -80,6 +81,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainOsFirmwareInfo)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainOsInitEnv" />)[]</param>
         [JsiiMethod(name: "putInitEnv", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainOsInitEnv\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInitEnv(object @value)
         {
@@ -331,6 +333,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainOsSmBiosOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsAcpi" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acpiInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsAcpi\"}]}}", isOptional: true)]
         public virtual object? AcpiInput
@@ -338,6 +343,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsBios" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "biosInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsBios\"}]}}", isOptional: true)]
         public virtual object? BiosInput
@@ -345,6 +353,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainOsBootDevices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bootDevicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainOsBootDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BootDevicesInput
@@ -352,6 +363,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsBootMenu" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bootMenuInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsBootMenu\"}]}}", isOptional: true)]
         public virtual object? BootMenuInput
@@ -373,6 +387,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsFirmwareInfo" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firmwareInfoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsFirmwareInfo\"}]}}", isOptional: true)]
         public virtual object? FirmwareInfoInput
@@ -401,6 +418,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainOsInitEnv" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initEnvInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainOsInitEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InitEnvInput
@@ -485,6 +505,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsNvRam" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nvRamInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsNvRam\"}]}}", isOptional: true)]
         public virtual object? NvRamInput
@@ -499,6 +522,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsSmBios" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "smBiosInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsSmBios\"}]}}", isOptional: true)]
         public virtual object? SmBiosInput
@@ -667,6 +693,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

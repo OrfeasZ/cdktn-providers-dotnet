@@ -133,6 +133,9 @@ namespace scaleway.DomainRecord
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.DomainRecord.IDomainRecordTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.domainRecord.DomainRecordTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

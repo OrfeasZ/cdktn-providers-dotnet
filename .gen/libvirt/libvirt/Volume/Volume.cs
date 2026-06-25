@@ -186,6 +186,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeBackingStore" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backingStoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeBackingStore\"}]}}", isOptional: true)]
         public virtual object? BackingStoreInput
@@ -207,6 +210,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeCreate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeCreate\"}]}}", isOptional: true)]
         public virtual object? CreateInput
@@ -235,6 +241,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTarget" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTarget\"}]}}", isOptional: true)]
         public virtual object? TargetInput

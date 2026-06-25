@@ -33,6 +33,7 @@ namespace aws.SsmincidentsResponsePlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanActionSsmAutomation" />)[]</param>
         [JsiiMethod(name: "putSsmAutomation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSsmAutomation(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.SsmincidentsResponsePlan
             get => GetInstanceProperty<aws.SsmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanActionSsmAutomation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ssmAutomationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SsmAutomationInput

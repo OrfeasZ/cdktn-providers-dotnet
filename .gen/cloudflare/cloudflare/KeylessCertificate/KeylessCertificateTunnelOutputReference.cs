@@ -61,6 +61,9 @@ namespace cloudflare.KeylessCertificate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.KeylessCertificate.IKeylessCertificateTunnel" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.keylessCertificate.KeylessCertificateTunnel\"}]}}", isOptional: true)]
         public virtual object? InternalValue

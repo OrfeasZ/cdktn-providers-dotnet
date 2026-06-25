@@ -93,6 +93,9 @@ namespace oci.OsManagementHubManagedInstanceInstallWindowsUpdatesManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubManagedInstanceInstallWindowsUpdatesManagement.IOsManagementHubManagedInstanceInstallWindowsUpdatesManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubManagedInstanceInstallWindowsUpdatesManagement.OsManagementHubManagedInstanceInstallWindowsUpdatesManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

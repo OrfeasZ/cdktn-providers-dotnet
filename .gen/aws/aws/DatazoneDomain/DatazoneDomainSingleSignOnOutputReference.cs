@@ -75,6 +75,9 @@ namespace aws.DatazoneDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatazoneDomain.IDatazoneDomainSingleSignOn" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneDomain.DatazoneDomainSingleSignOn\"}]}}", isOptional: true)]
         public virtual object? InternalValue

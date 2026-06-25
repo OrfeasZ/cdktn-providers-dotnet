@@ -47,6 +47,9 @@ namespace scaleway.MongodbInstance
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.MongodbInstance.IMongodbInstancePrivateIp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePrivateIp\"}]}}", isOptional: true)]
         public virtual object? InternalValue

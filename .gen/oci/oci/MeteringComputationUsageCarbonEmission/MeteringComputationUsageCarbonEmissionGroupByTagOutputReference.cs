@@ -95,6 +95,9 @@ namespace oci.MeteringComputationUsageCarbonEmission
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MeteringComputationUsageCarbonEmission.IMeteringComputationUsageCarbonEmissionGroupByTag" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.meteringComputationUsageCarbonEmission.MeteringComputationUsageCarbonEmissionGroupByTag\"}]}}", isOptional: true)]
         public virtual object? InternalValue

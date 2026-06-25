@@ -53,6 +53,9 @@ namespace cloudflare.LoadBalancerPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolOriginSteering" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOriginSteering\"}]}}", isOptional: true)]
         public virtual object? InternalValue

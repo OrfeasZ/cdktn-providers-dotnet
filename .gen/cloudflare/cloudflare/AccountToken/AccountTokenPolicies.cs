@@ -25,6 +25,7 @@ namespace cloudflare.AccountToken
         /// <summary>A set of permission groups that are specified to the policy.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/account_token#permission_groups AccountToken#permission_groups}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountToken.IAccountTokenPoliciesPermissionGroups" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountToken.AccountTokenPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
         public object PermissionGroups

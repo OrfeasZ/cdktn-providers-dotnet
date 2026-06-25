@@ -41,6 +41,9 @@ namespace digitalocean.GradientaiKnowledgeBase
             return InvokeInstanceMethod<digitalocean.GradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesWebCrawlerDataSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesWebCrawlerDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesWebCrawlerDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

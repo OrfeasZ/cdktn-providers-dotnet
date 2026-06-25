@@ -35,6 +35,7 @@ namespace aws.DataAwsS3FilesAccessPoint
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsS3FilesAccessPoint.IDataAwsS3FilesAccessPointRootDirectoryCreationPermissions" />)[]</param>
         [JsiiMethod(name: "putCreationPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsS3FilesAccessPoint.DataAwsS3FilesAccessPointRootDirectoryCreationPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreationPermissions(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.DataAwsS3FilesAccessPoint
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsS3FilesAccessPoint.IDataAwsS3FilesAccessPointRootDirectoryCreationPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "creationPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsS3FilesAccessPoint.DataAwsS3FilesAccessPointRootDirectoryCreationPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreationPermissionsInput
@@ -83,6 +87,9 @@ namespace aws.DataAwsS3FilesAccessPoint
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsS3FilesAccessPoint.IDataAwsS3FilesAccessPointRootDirectory" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsS3FilesAccessPoint.DataAwsS3FilesAccessPointRootDirectory\"}]}}", isOptional: true)]
         public virtual object? InternalValue

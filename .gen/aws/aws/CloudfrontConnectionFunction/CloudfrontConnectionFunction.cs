@@ -46,6 +46,7 @@ namespace aws.CloudfrontConnectionFunction
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudfrontConnectionFunction.CloudfrontConnectionFunction), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConnectionFunctionConfig" />)[]</param>
         [JsiiMethod(name: "putConnectionFunctionConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnectionFunctionConfig(object @value)
         {
@@ -155,6 +156,9 @@ namespace aws.CloudfrontConnectionFunction
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConnectionFunctionConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionFunctionConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectionFunctionConfigInput
@@ -169,6 +173,9 @@ namespace aws.CloudfrontConnectionFunction
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publishInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PublishInput
@@ -197,6 +204,9 @@ namespace aws.CloudfrontConnectionFunction
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publish", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Publish
         {

@@ -55,6 +55,9 @@ namespace aws.LakeformationDataCellsFilter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataColumnWildcard" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataColumnWildcard\"}]}}", isOptional: true)]
         public virtual object? InternalValue

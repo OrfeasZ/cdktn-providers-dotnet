@@ -53,6 +53,9 @@ namespace aws.Apigatewayv2Authorizer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Apigatewayv2Authorizer.IApigatewayv2AuthorizerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

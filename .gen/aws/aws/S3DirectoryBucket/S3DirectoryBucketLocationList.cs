@@ -41,6 +41,9 @@ namespace aws.S3DirectoryBucket
             return InvokeInstanceMethod<aws.S3DirectoryBucket.S3DirectoryBucketLocationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3DirectoryBucket.IS3DirectoryBucketLocation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3DirectoryBucket.S3DirectoryBucketLocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

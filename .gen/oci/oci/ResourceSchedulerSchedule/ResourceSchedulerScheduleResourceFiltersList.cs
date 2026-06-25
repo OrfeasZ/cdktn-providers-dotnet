@@ -41,6 +41,9 @@ namespace oci.ResourceSchedulerSchedule
             return InvokeInstanceMethod<oci.ResourceSchedulerSchedule.ResourceSchedulerScheduleResourceFiltersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

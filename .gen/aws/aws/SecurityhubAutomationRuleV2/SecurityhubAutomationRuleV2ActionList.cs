@@ -41,6 +41,9 @@ namespace aws.SecurityhubAutomationRuleV2
             return InvokeInstanceMethod<aws.SecurityhubAutomationRuleV2.SecurityhubAutomationRuleV2ActionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRuleV2.ISecurityhubAutomationRuleV2Action" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2Action\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

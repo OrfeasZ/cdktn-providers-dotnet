@@ -46,6 +46,7 @@ namespace aws.DataAwsEcrLifecyclePolicyDocument
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocument), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcrLifecyclePolicyDocument.IDataAwsEcrLifecyclePolicyDocumentRule" />)[]</param>
         [JsiiMethod(name: "putRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRule(object @value)
         {
@@ -106,6 +107,9 @@ namespace aws.DataAwsEcrLifecyclePolicyDocument
             get => GetInstanceProperty<aws.DataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRuleList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcrLifecyclePolicyDocument.IDataAwsEcrLifecyclePolicyDocumentRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuleInput

@@ -63,6 +63,9 @@ namespace aws.DataAwsSubnet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSubnet.IDataAwsSubnetFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSubnet.DataAwsSubnetFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

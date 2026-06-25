@@ -35,6 +35,7 @@ namespace oci.DatabaseVmClusterNetwork
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworksNodes" />)[]</param>
         [JsiiMethod(name: "putNodes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworksNodes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNodes(object @value)
         {
@@ -116,6 +117,9 @@ namespace oci.DatabaseVmClusterNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworksNodes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworksNodes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NodesInput
@@ -165,6 +169,9 @@ namespace oci.DatabaseVmClusterNetwork
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -9,7 +9,7 @@ namespace oci.DatabaseDbHome
     [JsiiByValue(fqn: "oci.databaseDbHome.DatabaseDbHomeDatabaseEncryptionKeyLocationDetails")]
     public class DatabaseDbHomeDatabaseEncryptionKeyLocationDetails : oci.DatabaseDbHome.IDatabaseDbHomeDatabaseEncryptionKeyLocationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderType
         {
@@ -17,7 +17,16 @@ namespace oci.DatabaseDbHome
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_home#aws_encryption_key_id DatabaseDbHome#aws_encryption_key_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? AwsEncryptionKeyId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzureEncryptionKeyId
@@ -26,7 +35,16 @@ namespace oci.DatabaseDbHome
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_home#google_cloud_provider_encryption_key_id DatabaseDbHome#google_cloud_provider_encryption_key_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? GoogleCloudProviderEncryptionKeyId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hsmPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HsmPassword

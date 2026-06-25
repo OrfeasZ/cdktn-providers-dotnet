@@ -35,6 +35,7 @@ namespace oci.AiVisionStreamJob
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiVisionStreamJob.IAiVisionStreamJobFeaturesTrackingTypes" />)[]</param>
         [JsiiMethod(name: "putTrackingTypes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobFeaturesTrackingTypes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrackingTypes(object @value)
         {
@@ -96,6 +97,9 @@ namespace oci.AiVisionStreamJob
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shouldReturnLandmarksInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShouldReturnLandmarksInput
@@ -103,6 +107,9 @@ namespace oci.AiVisionStreamJob
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiVisionStreamJob.IAiVisionStreamJobFeaturesTrackingTypes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trackingTypesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobFeaturesTrackingTypes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TrackingTypesInput
@@ -124,6 +131,9 @@ namespace oci.AiVisionStreamJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "shouldReturnLandmarks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ShouldReturnLandmarks
         {
@@ -151,6 +161,9 @@ namespace oci.AiVisionStreamJob
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiVisionStreamJob.IAiVisionStreamJobFeatures" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobFeatures\"}]}}", isOptional: true)]
         public virtual object? InternalValue

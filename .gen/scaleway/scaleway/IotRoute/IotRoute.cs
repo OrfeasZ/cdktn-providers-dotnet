@@ -204,6 +204,9 @@ namespace scaleway.IotRoute
             get => GetInstanceProperty<scaleway.IotRoute.IIotRouteS3?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.IotRoute.IIotRouteTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.iotRoute.IotRouteTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

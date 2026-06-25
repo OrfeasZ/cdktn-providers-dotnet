@@ -41,6 +41,9 @@ namespace oci.FusionAppsFusionEnvironment
             return InvokeInstanceMethod<oci.FusionAppsFusionEnvironment.FusionAppsFusionEnvironmentRulesConditionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentRulesConditions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentRulesConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

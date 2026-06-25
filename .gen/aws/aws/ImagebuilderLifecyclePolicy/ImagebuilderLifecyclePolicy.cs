@@ -46,6 +46,7 @@ namespace aws.ImagebuilderLifecyclePolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ImagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderLifecyclePolicy.IImagebuilderLifecyclePolicyPolicyDetail" />)[]</param>
         [JsiiMethod(name: "putPolicyDetail", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetail\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolicyDetail(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.ImagebuilderLifecyclePolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderLifecyclePolicy.IImagebuilderLifecyclePolicyResourceSelection" />)[]</param>
         [JsiiMethod(name: "putResourceSelection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelection\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceSelection(object @value)
         {
@@ -198,6 +200,9 @@ namespace aws.ImagebuilderLifecyclePolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderLifecyclePolicy.IImagebuilderLifecyclePolicyPolicyDetail" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policyDetailInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PolicyDetailInput
@@ -212,6 +217,9 @@ namespace aws.ImagebuilderLifecyclePolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderLifecyclePolicy.IImagebuilderLifecyclePolicyResourceSelection" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceSelectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceSelectionInput

@@ -41,6 +41,9 @@ namespace aws.LakeformationLfTagExpression
             return InvokeInstanceMethod<aws.LakeformationLfTagExpression.LakeformationLfTagExpressionExpressionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationLfTagExpression.ILakeformationLfTagExpressionExpression" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,18 @@ namespace oci.DataOciDatascienceModelDeployments
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "customHttpEndpoints", typeJson: "{\"fqn\":\"oci.dataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpointsList\"}")]
+        public virtual oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpointsList CustomHttpEndpoints
+        {
+            get => GetInstanceProperty<oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpointsList>()!;
+        }
+
+        [JsiiProperty(name: "defaultEnvironmentVariables", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap DefaultEnvironmentVariables
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "entrypoint", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Entrypoint
         {
@@ -73,6 +85,18 @@ namespace oci.DataOciDatascienceModelDeployments
 
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ImageDigest
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImageSignatureId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "predictApiSpecification", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PredictApiSpecification
         {
             get => GetInstanceProperty<string>()!;
         }

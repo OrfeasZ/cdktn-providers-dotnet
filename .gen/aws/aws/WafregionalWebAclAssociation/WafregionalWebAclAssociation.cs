@@ -116,6 +116,9 @@ namespace aws.WafregionalWebAclAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafregionalWebAclAssociation.IWafregionalWebAclAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafregionalWebAclAssociation.WafregionalWebAclAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

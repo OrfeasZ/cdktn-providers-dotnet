@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfoSmbiosBaseBoard" />)[]</param>
         [JsiiMethod(name: "putBaseBoard", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosBaseBoard\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBaseBoard(object @value)
         {
@@ -68,6 +69,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainSysInfoSmbiosChassis)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfoSmbiosMemory" />)[]</param>
         [JsiiMethod(name: "putMemory", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosMemory\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemory(object @value)
         {
@@ -97,6 +99,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainSysInfoSmbiosOemStrings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfoSmbiosProcessor" />)[]</param>
         [JsiiMethod(name: "putProcessor", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosProcessor\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessor(object @value)
         {
@@ -210,6 +213,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainSysInfoSmbiosSystemOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfoSmbiosBaseBoard" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baseBoardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosBaseBoard\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BaseBoardInput
@@ -217,6 +223,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoSmbiosBios" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "biosInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosBios\"}]}}", isOptional: true)]
         public virtual object? BiosInput
@@ -224,6 +233,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoSmbiosChassis" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "chassisInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosChassis\"}]}}", isOptional: true)]
         public virtual object? ChassisInput
@@ -231,6 +243,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfoSmbiosMemory" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosMemory\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemoryInput
@@ -238,6 +253,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoSmbiosOemStrings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oemStringsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosOemStrings\"}]}}", isOptional: true)]
         public virtual object? OemStringsInput
@@ -245,6 +263,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfoSmbiosProcessor" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosProcessor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessorInput
@@ -252,6 +273,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoSmbiosSystem" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "systemAttributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoSmbiosSystem\"}]}}", isOptional: true)]
         public virtual object? SystemAttributeInput
@@ -259,6 +283,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoSmbios" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoSmbios\"}]}}", isOptional: true)]
         public virtual object? InternalValue

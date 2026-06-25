@@ -12,6 +12,7 @@ namespace cloudflare.Ruleset
         /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to Cache Reserve.
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#eligible Ruleset#eligible}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "eligible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         object Eligible
@@ -45,6 +46,7 @@ namespace cloudflare.Ruleset
             /// If this is true and a request meets eligibility criteria, Cloudflare will write the resource to Cache Reserve.
             ///
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#eligible Ruleset#eligible}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "eligible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
             public object Eligible

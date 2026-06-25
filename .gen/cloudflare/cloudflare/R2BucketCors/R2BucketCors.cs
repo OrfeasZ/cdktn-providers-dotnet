@@ -46,6 +46,7 @@ namespace cloudflare.R2BucketCors
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.R2BucketCors.R2BucketCors), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketCors.IR2BucketCorsRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -127,6 +128,9 @@ namespace cloudflare.R2BucketCors
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketCors.IR2BucketCorsRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput

@@ -46,6 +46,7 @@ namespace aws.CloudwatchLogDelivery
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudwatchLogDelivery.CloudwatchLogDelivery), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogDelivery.ICloudwatchLogDeliveryS3DeliveryConfiguration" />)[]</param>
         [JsiiMethod(name: "putS3DeliveryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogDelivery.CloudwatchLogDeliveryS3DeliveryConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3DeliveryConfiguration(object @value)
         {
@@ -177,6 +178,9 @@ namespace aws.CloudwatchLogDelivery
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogDelivery.ICloudwatchLogDeliveryS3DeliveryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3DeliveryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogDelivery.CloudwatchLogDeliveryS3DeliveryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3DeliveryConfigurationInput

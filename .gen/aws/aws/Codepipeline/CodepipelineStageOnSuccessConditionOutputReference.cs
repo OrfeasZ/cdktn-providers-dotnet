@@ -33,6 +33,7 @@ namespace aws.Codepipeline
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageOnSuccessConditionRule" />)[]</param>
         [JsiiMethod(name: "putRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccessConditionRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRule(object @value)
         {
@@ -75,6 +76,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageOnSuccessConditionRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccessConditionRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuleInput

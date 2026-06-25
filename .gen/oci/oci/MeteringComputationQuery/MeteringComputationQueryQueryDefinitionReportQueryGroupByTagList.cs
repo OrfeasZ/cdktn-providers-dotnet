@@ -41,6 +41,9 @@ namespace oci.MeteringComputationQuery
             return InvokeInstanceMethod<oci.MeteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQueryGroupByTagOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQueryGroupByTag" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQueryGroupByTag\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

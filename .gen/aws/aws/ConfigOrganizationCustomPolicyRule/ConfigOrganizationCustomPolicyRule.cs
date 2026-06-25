@@ -253,6 +253,9 @@ namespace aws.ConfigOrganizationCustomPolicyRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ConfigOrganizationCustomPolicyRule.IConfigOrganizationCustomPolicyRuleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRuleTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

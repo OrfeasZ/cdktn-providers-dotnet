@@ -63,6 +63,9 @@ namespace oci.OcvpSddc
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsDatastores" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsDatastores\"}]}}", isOptional: true)]
         public virtual object? InternalValue

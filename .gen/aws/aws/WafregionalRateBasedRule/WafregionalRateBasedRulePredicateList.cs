@@ -41,6 +41,9 @@ namespace aws.WafregionalRateBasedRule
             return InvokeInstanceMethod<aws.WafregionalRateBasedRule.WafregionalRateBasedRulePredicateOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalRateBasedRule.IWafregionalRateBasedRulePredicate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

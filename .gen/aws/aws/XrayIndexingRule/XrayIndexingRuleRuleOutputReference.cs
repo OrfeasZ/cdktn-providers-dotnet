@@ -35,6 +35,7 @@ namespace aws.XrayIndexingRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.XrayIndexingRule.IXrayIndexingRuleRuleProbabilistic" />)[]</param>
         [JsiiMethod(name: "putProbabilistic", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.xrayIndexingRule.XrayIndexingRuleRuleProbabilistic\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProbabilistic(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.XrayIndexingRule
             get => GetInstanceProperty<aws.XrayIndexingRule.XrayIndexingRuleRuleProbabilisticList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.XrayIndexingRule.IXrayIndexingRuleRuleProbabilistic" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "probabilisticInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.xrayIndexingRule.XrayIndexingRuleRuleProbabilistic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProbabilisticInput
@@ -77,6 +81,9 @@ namespace aws.XrayIndexingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.XrayIndexingRule.IXrayIndexingRuleRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.xrayIndexingRule.XrayIndexingRuleRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -77,6 +77,9 @@ namespace oci.CertificatesManagementCertificate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

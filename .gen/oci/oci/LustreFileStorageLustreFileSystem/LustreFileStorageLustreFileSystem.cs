@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.LustreFileStorageLustreFileSystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system}.</summary>
     [JsiiClass(nativeType: typeof(oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem), fullyQualifiedName: "oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemConfig\"}}]")]
     public class LustreFileStorageLustreFileSystem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public LustreFileStorageLustreFileSystem(Constructs.Construct scope, string id, oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,22 @@ namespace oci.LustreFileStorageLustreFileSystem
         /// <param name="importToId">The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import.</param>
         /// <param name="importFromId">The id of the existing LustreFileStorageLustreFileSystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LustreFileStorageLustreFileSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LustreFileStorageLustreFileSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putDateTimeDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetails\"}}]")]
+        public virtual void PutDateTimeDetails(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindow\"}}]")]
+        public virtual void PutMaintenanceWindow(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putRootSquashConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemRootSquashConfiguration\"}}]")]
@@ -60,6 +72,12 @@ namespace oci.LustreFileStorageLustreFileSystem
 
         [JsiiMethod(name: "resetClusterPlacementGroupId")]
         public virtual void ResetClusterPlacementGroupId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDateTimeDetails")]
+        public virtual void ResetDateTimeDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -100,8 +118,20 @@ namespace oci.LustreFileStorageLustreFileSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMaintenanceWindow")]
+        public virtual void ResetMaintenanceWindow()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNsgIds")]
         public virtual void ResetNsgIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOverrideMaintenanceTrigger")]
+        public virtual void ResetOverrideMaintenanceTrigger()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -137,6 +167,12 @@ namespace oci.LustreFileStorageLustreFileSystem
         }
         = GetStaticProperty<string>(typeof(oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem))!;
 
+        [JsiiProperty(name: "dateTimeDetails", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetailsOutputReference\"}")]
+        public virtual oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetailsOutputReference DateTimeDetails
+        {
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -149,10 +185,16 @@ namespace oci.LustreFileStorageLustreFileSystem
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowList\"}")]
-        public virtual oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowList MaintenanceWindow
+        [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowOutputReference\"}")]
+        public virtual oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowOutputReference MaintenanceWindow
         {
-            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowList>()!;
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "maintenanceWindowMetadata", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowMetadataList\"}")]
+        public virtual oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowMetadataList MaintenanceWindowMetadata
+        {
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindowMetadataList>()!;
         }
 
         [JsiiProperty(name: "majorVersion", typeJson: "{\"primitive\":\"string\"}")]
@@ -232,6 +274,13 @@ namespace oci.LustreFileStorageLustreFileSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "dateTimeDetailsInput", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetails\"}", isOptional: true)]
+        public virtual oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails? DateTimeDetailsInput
+        {
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "definedTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? DefinedTagsInput
         {
@@ -281,10 +330,24 @@ namespace oci.LustreFileStorageLustreFileSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "maintenanceWindowInput", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindow\"}", isOptional: true)]
+        public virtual oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow? MaintenanceWindowInput
+        {
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "nsgIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? NsgIdsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "overrideMaintenanceTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? OverrideMaintenanceTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -315,6 +378,9 @@ namespace oci.LustreFileStorageLustreFileSystem
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -403,6 +469,13 @@ namespace oci.LustreFileStorageLustreFileSystem
         public virtual string[] NsgIds
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "overrideMaintenanceTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double OverrideMaintenanceTrigger
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -33,6 +33,7 @@ namespace aws.LexBot
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexBot.ILexBotAbortStatementMessage" />)[]</param>
         [JsiiMethod(name: "putMessage", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBot.LexBotAbortStatementMessage\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMessage(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.LexBot
             get => GetInstanceProperty<aws.LexBot.LexBotAbortStatementMessageList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexBot.ILexBotAbortStatementMessage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "messageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBot.LexBotAbortStatementMessage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MessageInput

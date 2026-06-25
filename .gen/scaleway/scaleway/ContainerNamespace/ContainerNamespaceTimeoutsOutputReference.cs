@@ -133,6 +133,9 @@ namespace scaleway.ContainerNamespace
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ContainerNamespace.IContainerNamespaceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.containerNamespace.ContainerNamespaceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

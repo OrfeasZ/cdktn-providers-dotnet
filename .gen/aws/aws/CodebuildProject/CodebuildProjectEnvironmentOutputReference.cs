@@ -39,6 +39,7 @@ namespace aws.CodebuildProject
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CodebuildProject.ICodebuildProjectEnvironmentDockerServer)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildProject.ICodebuildProjectEnvironmentEnvironmentVariable" />)[]</param>
         [JsiiMethod(name: "putEnvironmentVariable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentEnvironmentVariable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnvironmentVariable(object @value)
         {
@@ -161,6 +162,9 @@ namespace aws.CodebuildProject
             get => GetInstanceProperty<aws.CodebuildProject.ICodebuildProjectEnvironmentDockerServer?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildProject.ICodebuildProjectEnvironmentEnvironmentVariable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environmentVariableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildProject.CodebuildProjectEnvironmentEnvironmentVariable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvironmentVariableInput
@@ -189,6 +193,9 @@ namespace aws.CodebuildProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privilegedModeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PrivilegedModeInput
@@ -238,6 +245,9 @@ namespace aws.CodebuildProject
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "privilegedMode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PrivilegedMode
         {

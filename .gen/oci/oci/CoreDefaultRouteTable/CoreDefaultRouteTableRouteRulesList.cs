@@ -41,6 +41,9 @@ namespace oci.CoreDefaultRouteTable
             return InvokeInstanceMethod<oci.CoreDefaultRouteTable.CoreDefaultRouteTableRouteRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDefaultRouteTable.ICoreDefaultRouteTableRouteRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDefaultRouteTable.CoreDefaultRouteTableRouteRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

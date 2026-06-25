@@ -41,6 +41,9 @@ namespace aws.Wafv2RegexPatternSet
             return InvokeInstanceMethod<aws.Wafv2RegexPatternSet.Wafv2RegexPatternSetRegularExpressionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RegexPatternSet.IWafv2RegexPatternSetRegularExpression" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RegexPatternSet.Wafv2RegexPatternSetRegularExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

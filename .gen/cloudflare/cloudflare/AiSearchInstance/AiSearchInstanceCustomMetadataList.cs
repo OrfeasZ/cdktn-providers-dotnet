@@ -41,6 +41,9 @@ namespace cloudflare.AiSearchInstance
             return InvokeInstanceMethod<cloudflare.AiSearchInstance.AiSearchInstanceCustomMetadataOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceCustomMetadata" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceCustomMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

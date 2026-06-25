@@ -208,6 +208,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainResource)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSecLabel" />)[]</param>
         [JsiiMethod(name: "putSecLabel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSecLabel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecLabel(object @value)
         {
@@ -231,6 +232,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfo" />)[]</param>
         [JsiiMethod(name: "putSysInfo", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfo\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSysInfo(object @value)
         {
@@ -855,6 +857,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainXenCommandlineOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autostartInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutostartInput
@@ -862,6 +867,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainBhyveCommandline" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bhyveCommandlineInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainBhyveCommandline\"}]}}", isOptional: true)]
         public virtual object? BhyveCommandlineInput
@@ -869,6 +877,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainBlockIoTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockIoTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainBlockIoTune\"}]}}", isOptional: true)]
         public virtual object? BlockIoTuneInput
@@ -890,6 +901,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainClock" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clockInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainClock\"}]}}", isOptional: true)]
         public virtual object? ClockInput
@@ -897,6 +911,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpu" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cpuInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpu\"}]}}", isOptional: true)]
         public virtual object? CpuInput
@@ -904,6 +921,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cpuTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuTune\"}]}}", isOptional: true)]
         public virtual object? CpuTuneInput
@@ -911,6 +931,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCreate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCreate\"}]}}", isOptional: true)]
         public virtual object? CreateInput
@@ -932,6 +955,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDefaultIoThread" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultIoThreadInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDefaultIoThread\"}]}}", isOptional: true)]
         public virtual object? DefaultIoThreadInput
@@ -946,6 +972,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDestroy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destroyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDestroy\"}]}}", isOptional: true)]
         public virtual object? DestroyInput
@@ -953,6 +982,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevices" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "devicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevices\"}]}}", isOptional: true)]
         public virtual object? DevicesInput
@@ -960,6 +992,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeatures" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featuresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeatures\"}]}}", isOptional: true)]
         public virtual object? FeaturesInput
@@ -981,6 +1016,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainIdMap" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "idMapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainIdMap\"}]}}", isOptional: true)]
         public virtual object? IdMapInput
@@ -988,6 +1026,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainIoThreadIDs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreadIDsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainIoThreadIDs\"}]}}", isOptional: true)]
         public virtual object? IoThreadIDsInput
@@ -1002,6 +1043,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainKeyWrap" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyWrapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainKeyWrap\"}]}}", isOptional: true)]
         public virtual object? KeyWrapInput
@@ -1009,6 +1053,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainLaunchSecurity" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "launchSecurityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainLaunchSecurity\"}]}}", isOptional: true)]
         public virtual object? LaunchSecurityInput
@@ -1016,6 +1063,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainLxcNamespace" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lxcNamespaceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainLxcNamespace\"}]}}", isOptional: true)]
         public virtual object? LxcNamespaceInput
@@ -1044,6 +1094,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainMemoryBacking" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryBackingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainMemoryBacking\"}]}}", isOptional: true)]
         public virtual object? MemoryBackingInput
@@ -1065,6 +1118,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainMemoryTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainMemoryTune\"}]}}", isOptional: true)]
         public virtual object? MemoryTuneInput
@@ -1079,6 +1135,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainMetadata" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainMetadata\"}]}}", isOptional: true)]
         public virtual object? MetadataInput
@@ -1093,6 +1152,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainNumaTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "numaTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainNumaTune\"}]}}", isOptional: true)]
         public virtual object? NumaTuneInput
@@ -1121,6 +1183,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOs\"}]}}", isOptional: true)]
         public virtual object? OsInput
@@ -1128,6 +1193,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainPerf" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "perfInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainPerf\"}]}}", isOptional: true)]
         public virtual object? PerfInput
@@ -1135,6 +1203,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainPm" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pmInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainPm\"}]}}", isOptional: true)]
         public virtual object? PmInput
@@ -1142,6 +1213,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainQemuCapabilities" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "qemuCapabilitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainQemuCapabilities\"}]}}", isOptional: true)]
         public virtual object? QemuCapabilitiesInput
@@ -1149,6 +1223,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainQemuCommandline" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "qemuCommandlineInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainQemuCommandline\"}]}}", isOptional: true)]
         public virtual object? QemuCommandlineInput
@@ -1156,6 +1233,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainQemuDeprecation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "qemuDeprecationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainQemuDeprecation\"}]}}", isOptional: true)]
         public virtual object? QemuDeprecationInput
@@ -1163,6 +1243,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainQemuOverride" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "qemuOverrideInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainQemuOverride\"}]}}", isOptional: true)]
         public virtual object? QemuOverrideInput
@@ -1170,6 +1253,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainResource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainResource\"}]}}", isOptional: true)]
         public virtual object? ResourceInput
@@ -1177,6 +1263,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runningInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RunningInput
@@ -1184,6 +1273,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSecLabel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secLabelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSecLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecLabelInput
@@ -1191,6 +1283,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sysInfoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SysInfoInput
@@ -1198,6 +1293,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainThrottleGroups" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "throttleGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainThrottleGroups\"}]}}", isOptional: true)]
         public virtual object? ThrottleGroupsInput
@@ -1219,6 +1317,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainUpdate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "updateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainUpdate\"}]}}", isOptional: true)]
         public virtual object? UpdateInput
@@ -1254,6 +1355,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainVcpus" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vcpusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainVcpus\"}]}}", isOptional: true)]
         public virtual object? VcpusInput
@@ -1268,6 +1372,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainXenCommandline" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xenCommandlineInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainXenCommandline\"}]}}", isOptional: true)]
         public virtual object? XenCommandlineInput
@@ -1275,6 +1382,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autostart", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Autostart
         {
@@ -1428,6 +1538,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "running", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Running
         {

@@ -207,6 +207,9 @@ namespace cloudflare.ZeroTrustAccessApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationScimConfigAuthentication" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationScimConfigAuthentication\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace cloudflare.Ruleset
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverridesCategories" />)[]</param>
         [JsiiMethod(name: "putCategories", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesCategories\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCategories(object @value)
         {
@@ -56,6 +57,7 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverridesRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -128,6 +130,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverridesCategories" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "categoriesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesCategories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CategoriesInput
@@ -135,6 +140,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -142,6 +150,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverridesRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput
@@ -163,6 +174,9 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -197,6 +211,9 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverrides" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverrides\"}]}}", isOptional: true)]
         public virtual object? InternalValue

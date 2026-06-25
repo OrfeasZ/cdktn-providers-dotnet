@@ -133,6 +133,9 @@ namespace scaleway.InstancePrivateNic
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstancePrivateNic.IInstancePrivateNicTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

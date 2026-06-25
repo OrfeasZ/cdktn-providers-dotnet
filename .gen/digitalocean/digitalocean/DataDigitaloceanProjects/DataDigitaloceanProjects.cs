@@ -46,6 +46,7 @@ namespace digitalocean.DataDigitaloceanProjects
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjects), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -69,6 +70,7 @@ namespace digitalocean.DataDigitaloceanProjects
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsSort" />)[]</param>
         [JsiiMethod(name: "putSort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsSort\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSort(object @value)
         {
@@ -147,6 +149,9 @@ namespace digitalocean.DataDigitaloceanProjects
             get => GetInstanceProperty<digitalocean.DataDigitaloceanProjects.DataDigitaloceanProjectsSortList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -161,6 +166,9 @@ namespace digitalocean.DataDigitaloceanProjects
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanProjects.IDataDigitaloceanProjectsSort" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanProjects.DataDigitaloceanProjectsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SortInput

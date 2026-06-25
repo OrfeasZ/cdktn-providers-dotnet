@@ -46,6 +46,7 @@ namespace aws.AlbListener
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AlbListener.AlbListener), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListener.IAlbListenerDefaultAction" />)[]</param>
         [JsiiMethod(name: "putDefaultAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefaultAction(object @value)
         {
@@ -324,6 +325,9 @@ namespace aws.AlbListener
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListener.IAlbListenerDefaultAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefaultActionInput
@@ -478,6 +482,9 @@ namespace aws.AlbListener
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routingHttpResponseServerEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RoutingHttpResponseServerEnabledInput
@@ -534,6 +541,9 @@ namespace aws.AlbListener
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AlbListener.IAlbListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.albListener.AlbListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -695,6 +705,9 @@ namespace aws.AlbListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "routingHttpResponseServerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RoutingHttpResponseServerEnabled
         {

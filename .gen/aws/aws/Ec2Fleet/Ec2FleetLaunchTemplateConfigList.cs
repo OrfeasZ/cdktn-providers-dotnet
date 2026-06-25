@@ -41,6 +41,9 @@ namespace aws.Ec2Fleet
             return InvokeInstanceMethod<aws.Ec2Fleet.Ec2FleetLaunchTemplateConfigOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2Fleet.IEc2FleetLaunchTemplateConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2Fleet.Ec2FleetLaunchTemplateConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

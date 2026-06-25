@@ -46,6 +46,7 @@ namespace scaleway.AutoscalingInstanceTemplate
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.AutoscalingInstanceTemplate.AutoscalingInstanceTemplate), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceTemplate.IAutoscalingInstanceTemplateVolumes" />)[]</param>
         [JsiiMethod(name: "putVolumes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceTemplate.AutoscalingInstanceTemplateVolumes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVolumes(object @value)
         {
@@ -274,6 +275,9 @@ namespace scaleway.AutoscalingInstanceTemplate
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceTemplate.IAutoscalingInstanceTemplateVolumes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceTemplate.AutoscalingInstanceTemplateVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VolumesInput

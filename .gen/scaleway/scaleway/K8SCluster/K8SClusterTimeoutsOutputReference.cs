@@ -133,6 +133,9 @@ namespace scaleway.K8SCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.K8SCluster.IK8SClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.k8SCluster.K8SClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

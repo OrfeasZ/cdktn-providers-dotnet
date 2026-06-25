@@ -73,6 +73,9 @@ namespace aws.DbInstanceRoleAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DbInstanceRoleAssociation.IDbInstanceRoleAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

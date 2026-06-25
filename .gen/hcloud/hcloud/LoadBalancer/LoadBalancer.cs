@@ -52,6 +52,7 @@ namespace hcloud.LoadBalancer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(hcloud.LoadBalancer.ILoadBalancerAlgorithm)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.LoadBalancer.ILoadBalancerTarget" />)[]</param>
         [JsiiMethod(name: "putTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.loadBalancer.LoadBalancerTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTarget(object @value)
         {
@@ -179,6 +180,9 @@ namespace hcloud.LoadBalancer
             get => GetInstanceProperty<hcloud.LoadBalancer.ILoadBalancerAlgorithm?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeleteProtectionInput
@@ -228,6 +232,9 @@ namespace hcloud.LoadBalancer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.LoadBalancer.ILoadBalancerTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.loadBalancer.LoadBalancerTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetInput
@@ -235,6 +242,9 @@ namespace hcloud.LoadBalancer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeleteProtection
         {

@@ -47,6 +47,12 @@ namespace oci.DataOciCoreDedicatedVmHosts
             get => GetInstanceProperty<oci.DataOciCoreDedicatedVmHosts.DataOciCoreDedicatedVmHostsDedicatedVmHostsCapacityBinsList>()!;
         }
 
+        [JsiiProperty(name: "capacityConfig", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityConfig
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -95,10 +101,22 @@ namespace oci.DataOciCoreDedicatedVmHosts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isMemoryEncryptionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsMemoryEncryptionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "placementConstraintDetails", typeJson: "{\"fqn\":\"oci.dataOciCoreDedicatedVmHosts.DataOciCoreDedicatedVmHostsDedicatedVmHostsPlacementConstraintDetailsList\"}")]
         public virtual oci.DataOciCoreDedicatedVmHosts.DataOciCoreDedicatedVmHostsDedicatedVmHostsPlacementConstraintDetailsList PlacementConstraintDetails
         {
             get => GetInstanceProperty<oci.DataOciCoreDedicatedVmHosts.DataOciCoreDedicatedVmHostsDedicatedVmHostsPlacementConstraintDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "remainingLocalVolumeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RemainingLocalVolumeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "remainingMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
@@ -123,6 +141,12 @@ namespace oci.DataOciCoreDedicatedVmHosts
         public virtual string TimeCreated
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "totalLocalVolumeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TotalLocalVolumeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "totalMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]

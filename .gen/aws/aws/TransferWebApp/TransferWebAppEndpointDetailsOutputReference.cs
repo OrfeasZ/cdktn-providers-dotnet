@@ -35,6 +35,7 @@ namespace aws.TransferWebApp
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetailsVpc" />)[]</param>
         [JsiiMethod(name: "putVpc", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetailsVpc\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVpc(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<aws.TransferWebApp.TransferWebAppEndpointDetailsVpcList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetailsVpc" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetailsVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VpcInput
@@ -77,6 +81,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TransferWebApp.ITransferWebAppEndpointDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

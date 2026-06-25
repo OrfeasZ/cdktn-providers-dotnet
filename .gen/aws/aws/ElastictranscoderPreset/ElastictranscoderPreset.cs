@@ -70,6 +70,7 @@ namespace aws.ElastictranscoderPreset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ElastictranscoderPreset.IElastictranscoderPresetVideo)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElastictranscoderPreset.IElastictranscoderPresetVideoWatermarks" />)[]</param>
         [JsiiMethod(name: "putVideoWatermarks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVideoWatermarks(object @value)
         {
@@ -291,6 +292,9 @@ namespace aws.ElastictranscoderPreset
             get => GetInstanceProperty<aws.ElastictranscoderPreset.IElastictranscoderPresetVideo?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElastictranscoderPreset.IElastictranscoderPresetVideoWatermarks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "videoWatermarksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VideoWatermarksInput

@@ -65,6 +65,12 @@ namespace oci.DataOciMysqlReplica
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.dataOciMysqlReplica.DataOciMysqlReplicaReplicaOverridesTelemetryConfigurationList\"}")]
+        public virtual oci.DataOciMysqlReplica.DataOciMysqlReplicaReplicaOverridesTelemetryConfigurationList TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlReplica.DataOciMysqlReplicaReplicaOverridesTelemetryConfigurationList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciMysqlReplica.DataOciMysqlReplicaReplicaOverrides\"}", isOptional: true)]
         public virtual oci.DataOciMysqlReplica.IDataOciMysqlReplicaReplicaOverrides? InternalValue

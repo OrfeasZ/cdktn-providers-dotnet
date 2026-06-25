@@ -63,6 +63,9 @@ namespace aws.LbTargetGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LbTargetGroup.ILbTargetGroupTargetFailover" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetFailover\"}]}}", isOptional: true)]
         public virtual object? InternalValue

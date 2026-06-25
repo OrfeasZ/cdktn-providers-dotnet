@@ -41,6 +41,9 @@ namespace aws.EcrRepositoryCreationTemplate
             return InvokeInstanceMethod<aws.EcrRepositoryCreationTemplate.EcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepositoryCreationTemplate.IEcrRepositoryCreationTemplateImageTagMutabilityExclusionFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplateImageTagMutabilityExclusionFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

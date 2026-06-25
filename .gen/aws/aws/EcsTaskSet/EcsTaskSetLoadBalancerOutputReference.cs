@@ -109,6 +109,9 @@ namespace aws.EcsTaskSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsTaskSet.IEcsTaskSetLoadBalancer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsTaskSet.EcsTaskSetLoadBalancer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

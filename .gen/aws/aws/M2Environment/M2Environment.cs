@@ -46,6 +46,7 @@ namespace aws.M2Environment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.M2Environment.M2Environment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentHighAvailabilityConfig" />)[]</param>
         [JsiiMethod(name: "putHighAvailabilityConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentHighAvailabilityConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHighAvailabilityConfig(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.M2Environment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfiguration" />)[]</param>
         [JsiiMethod(name: "putStorageConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStorageConfiguration(object @value)
         {
@@ -249,6 +251,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<aws.M2Environment.M2EnvironmentTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyChangesDuringMaintenanceWindowInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApplyChangesDuringMaintenanceWindowInput
@@ -277,6 +282,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceUpdateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceUpdateInput
@@ -284,6 +292,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentHighAvailabilityConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "highAvailabilityConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentHighAvailabilityConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HighAvailabilityConfigInput
@@ -319,6 +330,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publiclyAccessibleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PubliclyAccessibleInput
@@ -340,6 +354,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StorageConfigurationInput
@@ -361,6 +378,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.M2Environment.IM2EnvironmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.m2Environment.M2EnvironmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -368,6 +388,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "applyChangesDuringMaintenanceWindow", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApplyChangesDuringMaintenanceWindow
         {
@@ -416,6 +439,9 @@ namespace aws.M2Environment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceUpdate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceUpdate
         {
@@ -471,6 +497,9 @@ namespace aws.M2Environment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publiclyAccessible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PubliclyAccessible
         {

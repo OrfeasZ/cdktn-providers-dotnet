@@ -63,6 +63,9 @@ namespace stripe.V2BillingMeteredItem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.V2BillingMeteredItem.IV2BillingMeteredItemMeterSegmentConditions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.v2BillingMeteredItem.V2BillingMeteredItemMeterSegmentConditions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

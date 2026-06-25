@@ -41,6 +41,9 @@ namespace aws.OutpostsCapacityTask
             return InvokeInstanceMethod<aws.OutpostsCapacityTask.OutpostsCapacityTaskInstancePoolOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancePool" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskInstancePool\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -71,6 +71,24 @@ namespace oci.DataOciIdentityDomainsIdentityPropagationTrusts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "caCertChain", typeJson: "{\"fqn\":\"oci.dataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsCaCertChainList\"}")]
+        public virtual oci.DataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsCaCertChainList CaCertChain
+        {
+            get => GetInstanceProperty<oci.DataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsCaCertChainList>()!;
+        }
+
+        [JsiiProperty(name: "claimPropagations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ClaimPropagations
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "claimValidations", typeJson: "{\"fqn\":\"oci.dataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsClaimValidationsList\"}")]
+        public virtual oci.DataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsClaimValidationsList ClaimValidations
+        {
+            get => GetInstanceProperty<oci.DataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsClaimValidationsList>()!;
+        }
+
         [JsiiProperty(name: "clientClaimName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClientClaimName
         {
@@ -147,6 +165,12 @@ namespace oci.DataOciIdentityDomainsIdentityPropagationTrusts
         public virtual string[] IdcsPreventedOperations
         {
             get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "impersonatingResource", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImpersonatingResource
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "impersonationServiceUsers", typeJson: "{\"fqn\":\"oci.dataOciIdentityDomainsIdentityPropagationTrusts.DataOciIdentityDomainsIdentityPropagationTrustsIdentityPropagationTrustsImpersonationServiceUsersList\"}")]

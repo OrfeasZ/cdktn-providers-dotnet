@@ -41,6 +41,9 @@ namespace oci.FileStorageOutboundConnector
             return InvokeInstanceMethod<oci.FileStorageOutboundConnector.FileStorageOutboundConnectorLocksOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageOutboundConnector.FileStorageOutboundConnectorLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace digitalocean.KubernetesNodePool
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.KubernetesNodePool.KubernetesNodePool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.KubernetesNodePool.IKubernetesNodePoolTaint" />)[]</param>
         [JsiiMethod(name: "putTaint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTaint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTaint(object @value)
         {
@@ -172,6 +173,9 @@ namespace digitalocean.KubernetesNodePool
             get => GetInstanceProperty<digitalocean.KubernetesNodePool.KubernetesNodePoolTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoScaleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoScaleInput
@@ -242,6 +246,9 @@ namespace digitalocean.KubernetesNodePool
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.KubernetesNodePool.IKubernetesNodePoolTaint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taintInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTaint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TaintInput
@@ -249,6 +256,9 @@ namespace digitalocean.KubernetesNodePool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.KubernetesNodePool.IKubernetesNodePoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.kubernetesNodePool.KubernetesNodePoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -256,6 +266,9 @@ namespace digitalocean.KubernetesNodePool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoScale", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoScale
         {

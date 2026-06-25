@@ -10,6 +10,7 @@ namespace aws.PrometheusScraper
         /// <summary>amp block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/prometheus_scraper#amp PrometheusScraper#amp}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "amp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationAmp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,6 +32,7 @@ namespace aws.PrometheusScraper
             /// <summary>amp block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/prometheus_scraper#amp PrometheusScraper#amp}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationAmp\"},\"kind\":\"array\"}}]}}", isOptional: true)]

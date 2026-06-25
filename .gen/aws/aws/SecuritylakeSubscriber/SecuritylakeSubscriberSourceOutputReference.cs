@@ -35,6 +35,7 @@ namespace aws.SecuritylakeSubscriber
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSourceAwsLogSourceResource" />)[]</param>
         [JsiiMethod(name: "putAwsLogSourceResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsLogSourceResource(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SecuritylakeSubscriber
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSourceCustomLogSourceResource" />)[]</param>
         [JsiiMethod(name: "putCustomLogSourceResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomLogSourceResource(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.SecuritylakeSubscriber
             get => GetInstanceProperty<aws.SecuritylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSourceAwsLogSourceResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsLogSourceResourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsLogSourceResourceInput
@@ -112,6 +117,9 @@ namespace aws.SecuritylakeSubscriber
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSourceCustomLogSourceResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customLogSourceResourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomLogSourceResourceInput
@@ -119,6 +127,9 @@ namespace aws.SecuritylakeSubscriber
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

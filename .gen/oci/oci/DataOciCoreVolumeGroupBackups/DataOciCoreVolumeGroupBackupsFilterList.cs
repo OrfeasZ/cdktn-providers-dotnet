@@ -41,6 +41,9 @@ namespace oci.DataOciCoreVolumeGroupBackups
             return InvokeInstanceMethod<oci.DataOciCoreVolumeGroupBackups.DataOciCoreVolumeGroupBackupsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreVolumeGroupBackups.IDataOciCoreVolumeGroupBackupsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreVolumeGroupBackups.DataOciCoreVolumeGroupBackupsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

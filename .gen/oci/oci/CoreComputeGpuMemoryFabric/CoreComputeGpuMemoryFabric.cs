@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreComputeGpuMemoryFabric
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabric), fullyQualifiedName: "oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabric", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricConfig\"}}]")]
     public class CoreComputeGpuMemoryFabric : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreComputeGpuMemoryFabric(Constructs.Construct scope, string id, oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace oci.CoreComputeGpuMemoryFabric
         /// <param name="importToId">The construct id used in the generated config for the CoreComputeGpuMemoryFabric to import.</param>
         /// <param name="importFromId">The id of the existing CoreComputeGpuMemoryFabric that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreComputeGpuMemoryFabric to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreComputeGpuMemoryFabric to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_gpu_memory_fabric#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreComputeGpuMemoryFabric that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreComputeGpuMemoryFabric to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreComputeGpuMemoryFabric to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_gpu_memory_fabric#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreComputeGpuMemoryFabric that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreComputeGpuMemoryFabric to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabric), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putMemoryFabricPreferences", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricMemoryFabricPreferences\"}}]")]
+        public virtual void PutMemoryFabricPreferences(oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricMemoryFabricPreferences @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricMemoryFabricPreferences)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricTimeouts\"}}]")]
@@ -78,6 +84,12 @@ namespace oci.CoreComputeGpuMemoryFabric
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMemoryFabricPreferences")]
+        public virtual void ResetMemoryFabricPreferences()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,6 +131,12 @@ namespace oci.CoreComputeGpuMemoryFabric
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "computeGpuMemoryClusters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ComputeGpuMemoryClusters
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "computeHpcIslandId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeHpcIslandId
         {
@@ -137,8 +155,26 @@ namespace oci.CoreComputeGpuMemoryFabric
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "currentFirmwareBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CurrentFirmwareBundleId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "fabricHealth", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string FabricHealth
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "firmwareUpdateReason", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FirmwareUpdateReason
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "firmwareUpdateState", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FirmwareUpdateState
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -149,8 +185,26 @@ namespace oci.CoreComputeGpuMemoryFabric
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "hostPlatformName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostPlatformName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "memoryFabricPreferences", typeJson: "{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricMemoryFabricPreferencesOutputReference\"}")]
+        public virtual oci.CoreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricMemoryFabricPreferencesOutputReference MemoryFabricPreferences
+        {
+            get => GetInstanceProperty<oci.CoreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricMemoryFabricPreferencesOutputReference>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "switchPlatformName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SwitchPlatformName
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -159,6 +213,12 @@ namespace oci.CoreComputeGpuMemoryFabric
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "targetFirmwareBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetFirmwareBundleId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
@@ -221,6 +281,16 @@ namespace oci.CoreComputeGpuMemoryFabric
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "memoryFabricPreferencesInput", typeJson: "{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricMemoryFabricPreferences\"}", isOptional: true)]
+        public virtual oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricMemoryFabricPreferences? MemoryFabricPreferencesInput
+        {
+            get => GetInstanceProperty<oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricMemoryFabricPreferences?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

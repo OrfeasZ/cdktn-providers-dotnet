@@ -137,6 +137,9 @@ namespace cloudflare.Account
             get => GetInstanceProperty<cloudflare.Account.AccountUnitOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Account.IAccountManagedBy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedByInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.account.AccountManagedBy\"}]}}", isOptional: true)]
         public virtual object? ManagedByInput
@@ -151,6 +154,9 @@ namespace cloudflare.Account
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Account.IAccountSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.account.AccountSettings\"}]}}", isOptional: true)]
         public virtual object? SettingsInput
@@ -165,6 +171,9 @@ namespace cloudflare.Account
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Account.IAccountUnit" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.account.AccountUnit\"}]}}", isOptional: true)]
         public virtual object? UnitInput

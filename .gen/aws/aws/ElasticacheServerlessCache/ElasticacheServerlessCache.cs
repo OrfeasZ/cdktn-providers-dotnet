@@ -46,6 +46,7 @@ namespace aws.ElasticacheServerlessCache
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ElasticacheServerlessCache.ElasticacheServerlessCache), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimits" />)[]</param>
         [JsiiMethod(name: "putCacheUsageLimits", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCacheUsageLimits(object @value)
         {
@@ -238,6 +239,9 @@ namespace aws.ElasticacheServerlessCache
             get => GetInstanceProperty<aws.ElasticacheServerlessCache.ElasticacheServerlessCacheTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheUsageLimitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CacheUsageLimitsInput
@@ -336,6 +340,9 @@ namespace aws.ElasticacheServerlessCache
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

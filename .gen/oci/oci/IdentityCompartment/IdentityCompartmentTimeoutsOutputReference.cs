@@ -53,6 +53,9 @@ namespace oci.IdentityCompartment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityCompartment.IIdentityCompartmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityCompartment.IdentityCompartmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

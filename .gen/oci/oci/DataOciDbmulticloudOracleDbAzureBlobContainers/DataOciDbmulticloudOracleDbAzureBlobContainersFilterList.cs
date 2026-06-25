@@ -41,6 +41,9 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             return InvokeInstanceMethod<oci.DataOciDbmulticloudOracleDbAzureBlobContainers.DataOciDbmulticloudOracleDbAzureBlobContainersFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAzureBlobContainers.IDataOciDbmulticloudOracleDbAzureBlobContainersFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbAzureBlobContainers.DataOciDbmulticloudOracleDbAzureBlobContainersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsConnections
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthenticationType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -111,6 +117,18 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsConnections
         public virtual oci.DataOciDatabaseToolsDatabaseToolsConnections.DataOciDatabaseToolsDatabaseToolsConnectionsDatabaseToolsConnectionCollectionItemsRelatedResourceList RelatedResource
         {
             get => GetInstanceProperty<oci.DataOciDatabaseToolsDatabaseToolsConnections.DataOciDatabaseToolsDatabaseToolsConnectionsDatabaseToolsConnectionCollectionItemsRelatedResourceList>()!;
+        }
+
+        [JsiiProperty(name: "runtimeEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "runtimeIdentity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeIdentity
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "runtimeSupport", typeJson: "{\"primitive\":\"string\"}")]

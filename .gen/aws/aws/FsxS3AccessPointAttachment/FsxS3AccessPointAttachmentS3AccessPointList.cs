@@ -41,6 +41,9 @@ namespace aws.FsxS3AccessPointAttachment
             return InvokeInstanceMethod<aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentS3AccessPoint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -38,6 +38,7 @@ namespace aws.CeCostCategory
         /// <summary>parameter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategorySplitChargeRuleParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategorySplitChargeRuleParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

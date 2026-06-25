@@ -41,6 +41,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "accountKeySecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AccountKeySecretId
         {
@@ -89,8 +95,20 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "secretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretAccessKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "secretAccessKeySecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SecretAccessKeySecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "serviceAccountKeyFile", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceAccountKeyFile
         {
             get => GetInstanceProperty<string>()!;
         }

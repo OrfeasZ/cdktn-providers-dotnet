@@ -77,6 +77,9 @@ namespace aws.DataAwsIamPrincipalPolicySimulation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsIamPrincipalPolicySimulation.IDataAwsIamPrincipalPolicySimulationContext" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationContext\"}]}}", isOptional: true)]
         public virtual object? InternalValue

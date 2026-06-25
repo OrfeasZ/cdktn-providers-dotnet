@@ -41,6 +41,9 @@ namespace aws.QuicksightDataSet
             return InvokeInstanceMethod<aws.QuicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransforms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

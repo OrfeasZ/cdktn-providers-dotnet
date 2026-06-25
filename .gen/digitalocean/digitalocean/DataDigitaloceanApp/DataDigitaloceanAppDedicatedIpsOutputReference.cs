@@ -95,6 +95,9 @@ namespace digitalocean.DataDigitaloceanApp
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DataDigitaloceanApp.IDataDigitaloceanAppDedicatedIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppDedicatedIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

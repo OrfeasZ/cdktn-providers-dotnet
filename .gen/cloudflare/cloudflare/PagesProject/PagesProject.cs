@@ -192,6 +192,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PagesProject.IPagesProjectBuildConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "buildConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectBuildConfig\"}]}}", isOptional: true)]
         public virtual object? BuildConfigInput
@@ -199,6 +202,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigs\"}]}}", isOptional: true)]
         public virtual object? DeploymentConfigsInput
@@ -220,6 +226,9 @@ namespace cloudflare.PagesProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PagesProject.IPagesProjectSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pagesProject.PagesProjectSource\"}]}}", isOptional: true)]
         public virtual object? SourceInput

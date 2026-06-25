@@ -93,6 +93,9 @@ namespace oci.DataSafeSensitiveDataModelsSensitiveColumn
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeSensitiveDataModelsSensitiveColumn.IDataSafeSensitiveDataModelsSensitiveColumnTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeSensitiveDataModelsSensitiveColumn.DataSafeSensitiveDataModelsSensitiveColumnTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

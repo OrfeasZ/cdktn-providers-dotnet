@@ -35,6 +35,7 @@ namespace aws.PrometheusQueryLoggingConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestinationCloudwatchLogs" />)[]</param>
         [JsiiMethod(name: "putCloudwatchLogs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudwatchLogs(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.PrometheusQueryLoggingConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestinationFilters" />)[]</param>
         [JsiiMethod(name: "putFilters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationFilters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilters(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.PrometheusQueryLoggingConfiguration
             get => GetInstanceProperty<aws.PrometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationFiltersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestinationCloudwatchLogs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudwatchLogsInput
@@ -112,6 +117,9 @@ namespace aws.PrometheusQueryLoggingConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestinationFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filtersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FiltersInput
@@ -119,6 +127,9 @@ namespace aws.PrometheusQueryLoggingConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestination" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestination\"}]}}", isOptional: true)]
         public virtual object? InternalValue

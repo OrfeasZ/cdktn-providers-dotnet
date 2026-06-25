@@ -93,6 +93,9 @@ namespace oci.DevopsBuildRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsBuildRun.IDevopsBuildRunTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsBuildRun.DevopsBuildRunTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -63,6 +63,9 @@ namespace aws.TimestreaminfluxdbDbInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TimestreaminfluxdbDbInstance.ITimestreaminfluxdbDbInstanceMaintenanceSchedule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.timestreaminfluxdbDbInstance.TimestreaminfluxdbDbInstanceMaintenanceSchedule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

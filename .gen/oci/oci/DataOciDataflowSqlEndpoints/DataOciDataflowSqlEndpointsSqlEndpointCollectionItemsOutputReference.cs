@@ -107,6 +107,30 @@ namespace oci.DataOciDataflowSqlEndpoints
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "logCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LogCompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "logDisplayName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LogDisplayName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LogGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "logRetentionDuration", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LogRetentionDuration
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "maxExecutorCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxExecutorCount
         {

@@ -69,6 +69,9 @@ namespace aws.ObservabilityadminS3TableIntegration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ObservabilityadminS3TableIntegration.IObservabilityadminS3TableIntegrationEncryption" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryption\"}]}}", isOptional: true)]
         public virtual object? InternalValue

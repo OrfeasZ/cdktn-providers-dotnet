@@ -33,6 +33,7 @@ namespace aws.QuicksightDashboard
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersDateTimeParameters" />)[]</param>
         [JsiiMethod(name: "putDateTimeParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDateTimeParameters(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.QuicksightDashboard
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersDecimalParameters" />)[]</param>
         [JsiiMethod(name: "putDecimalParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersDecimalParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDecimalParameters(object @value)
         {
@@ -79,6 +81,7 @@ namespace aws.QuicksightDashboard
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersIntegerParameters" />)[]</param>
         [JsiiMethod(name: "putIntegerParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersIntegerParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIntegerParameters(object @value)
         {
@@ -102,6 +105,7 @@ namespace aws.QuicksightDashboard
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersStringParameters" />)[]</param>
         [JsiiMethod(name: "putStringParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersStringParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStringParameters(object @value)
         {
@@ -173,6 +177,9 @@ namespace aws.QuicksightDashboard
             get => GetInstanceProperty<aws.QuicksightDashboard.QuicksightDashboardParametersStringParametersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersDateTimeParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dateTimeParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DateTimeParametersInput
@@ -180,6 +187,9 @@ namespace aws.QuicksightDashboard
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersDecimalParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "decimalParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersDecimalParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DecimalParametersInput
@@ -187,6 +197,9 @@ namespace aws.QuicksightDashboard
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersIntegerParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "integerParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersIntegerParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IntegerParametersInput
@@ -194,6 +207,9 @@ namespace aws.QuicksightDashboard
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardParametersStringParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stringParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardParametersStringParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StringParametersInput

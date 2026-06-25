@@ -35,6 +35,7 @@ namespace aws.RekognitionStreamProcessor
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutputKinesisDataStream" />)[]</param>
         [JsiiMethod(name: "putKinesisDataStream", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStream\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKinesisDataStream(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutputS3Destination" />)[]</param>
         [JsiiMethod(name: "putS3Destination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3Destination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3Destination(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<aws.RekognitionStreamProcessor.RekognitionStreamProcessorOutputS3DestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutputKinesisDataStream" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesisDataStreamInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStream\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KinesisDataStreamInput
@@ -112,6 +117,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutputS3Destination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3DestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3Destination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3DestinationInput
@@ -119,6 +127,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorOutput" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutput\"}]}}", isOptional: true)]
         public virtual object? InternalValue

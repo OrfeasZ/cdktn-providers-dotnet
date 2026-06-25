@@ -12,6 +12,7 @@ namespace aws.EmrCluster
         /// <summary>instance_type_configs block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/emr_cluster#instance_type_configs EmrCluster#instance_type_configs}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterCoreInstanceFleetInstanceTypeConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceTypeConfigs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -41,6 +41,9 @@ namespace aws.MedialiveInputSecurityGroup
             return InvokeInstanceMethod<aws.MedialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInputSecurityGroup.IMedialiveInputSecurityGroupWhitelistRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

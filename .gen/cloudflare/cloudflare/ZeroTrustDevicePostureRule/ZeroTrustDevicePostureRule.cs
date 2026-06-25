@@ -52,6 +52,7 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDevicePostureRule.IZeroTrustDevicePostureRuleInput)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDevicePostureRule.IZeroTrustDevicePostureRuleMatch" />)[]</param>
         [JsiiMethod(name: "putMatch", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatch\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatch(object @value)
         {
@@ -169,6 +170,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDevicePostureRule.IZeroTrustDevicePostureRuleInput" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleInput\"}]}}", isOptional: true)]
         public virtual object? InputInput
@@ -176,6 +180,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDevicePostureRule.IZeroTrustDevicePostureRuleMatch" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchInput

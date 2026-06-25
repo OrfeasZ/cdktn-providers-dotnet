@@ -35,6 +35,7 @@ namespace aws.SecurityhubAutomationRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdate" />)[]</param>
         [JsiiMethod(name: "putFindingFieldsUpdate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdate\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingFieldsUpdate(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.SecurityhubAutomationRule
             get => GetInstanceProperty<aws.SecurityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActionsFindingFieldsUpdate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingFieldsUpdateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingFieldsUpdateInput
@@ -97,6 +101,9 @@ namespace aws.SecurityhubAutomationRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleActions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleActions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

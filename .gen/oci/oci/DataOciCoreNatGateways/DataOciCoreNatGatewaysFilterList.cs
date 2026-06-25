@@ -41,6 +41,9 @@ namespace oci.DataOciCoreNatGateways
             return InvokeInstanceMethod<oci.DataOciCoreNatGateways.DataOciCoreNatGatewaysFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreNatGateways.IDataOciCoreNatGatewaysFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreNatGateways.DataOciCoreNatGatewaysFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

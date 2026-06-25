@@ -32,6 +32,7 @@ namespace aws.Route53Record
         /// <summary>coordinates block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_record#coordinates Route53Record#coordinates}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicyCoordinates" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "coordinates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,6 +81,7 @@ namespace aws.Route53Record
             /// <summary>coordinates block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_record#coordinates Route53Record#coordinates}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicyCoordinates" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "coordinates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates\"},\"kind\":\"array\"}}]}}", isOptional: true)]

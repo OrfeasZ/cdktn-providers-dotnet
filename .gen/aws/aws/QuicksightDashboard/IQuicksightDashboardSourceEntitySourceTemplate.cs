@@ -17,6 +17,7 @@ namespace aws.QuicksightDashboard
         /// <summary>data_set_references block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardSourceEntitySourceTemplateDataSetReferences" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dataSetReferences", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences\"},\"kind\":\"array\"}}]}}")]
         object DataSetReferences
@@ -41,6 +42,7 @@ namespace aws.QuicksightDashboard
             /// <summary>data_set_references block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardSourceEntitySourceTemplateDataSetReferences" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "dataSetReferences", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences\"},\"kind\":\"array\"}}]}}")]
             public object DataSetReferences

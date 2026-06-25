@@ -35,6 +35,12 @@ namespace oci.DataOciResourceAnalyticsTenancyAttachments
         {
         }
 
+        [JsiiProperty(name: "dataPopulationStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DataPopulationStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciResourceAnalyticsTenancyAttachments
         public virtual string LifecycleDetails
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "monitoredRegions", typeJson: "{\"fqn\":\"oci.dataOciResourceAnalyticsTenancyAttachments.DataOciResourceAnalyticsTenancyAttachmentsTenancyAttachmentCollectionItemsMonitoredRegionsList\"}")]
+        public virtual oci.DataOciResourceAnalyticsTenancyAttachments.DataOciResourceAnalyticsTenancyAttachmentsTenancyAttachmentCollectionItemsMonitoredRegionsList MonitoredRegions
+        {
+            get => GetInstanceProperty<oci.DataOciResourceAnalyticsTenancyAttachments.DataOciResourceAnalyticsTenancyAttachmentsTenancyAttachmentCollectionItemsMonitoredRegionsList>()!;
         }
 
         [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
@@ -85,6 +97,18 @@ namespace oci.DataOciResourceAnalyticsTenancyAttachments
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeDataPopulationEnded", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeDataPopulationEnded
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeDataPopulationStarted", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeDataPopulationStarted
         {
             get => GetInstanceProperty<string>()!;
         }

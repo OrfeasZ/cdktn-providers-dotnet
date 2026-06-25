@@ -35,6 +35,7 @@ namespace aws.CloudfrontVpcOrigin
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols" />)[]</param>
         [JsiiMethod(name: "putOriginSslProtocols", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOriginSslProtocols(object @value)
         {
@@ -105,6 +106,9 @@ namespace aws.CloudfrontVpcOrigin
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originSslProtocolsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocols\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OriginSslProtocolsInput
@@ -147,6 +151,9 @@ namespace aws.CloudfrontVpcOrigin
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

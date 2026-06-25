@@ -41,6 +41,9 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
             return InvokeInstanceMethod<oci.DataOciWlmsManagedInstanceServerInstalledPatches.DataOciWlmsManagedInstanceServerInstalledPatchesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsManagedInstanceServerInstalledPatches.IDataOciWlmsManagedInstanceServerInstalledPatchesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWlmsManagedInstanceServerInstalledPatches.DataOciWlmsManagedInstanceServerInstalledPatchesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

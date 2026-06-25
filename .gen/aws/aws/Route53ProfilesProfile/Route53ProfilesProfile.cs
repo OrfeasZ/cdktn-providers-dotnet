@@ -158,6 +158,9 @@ namespace aws.Route53ProfilesProfile
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ProfilesProfile.IRoute53ProfilesProfileTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ProfilesProfile.Route53ProfilesProfileTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

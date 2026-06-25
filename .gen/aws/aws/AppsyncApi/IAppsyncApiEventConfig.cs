@@ -10,6 +10,7 @@ namespace aws.AppsyncApi
         /// <summary>auth_provider block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "authProvider", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProvider\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,6 +25,7 @@ namespace aws.AppsyncApi
         /// <summary>connection_auth_mode block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigConnectionAuthMode" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "connectionAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,6 +40,7 @@ namespace aws.AppsyncApi
         /// <summary>default_publish_auth_mode block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultPublishAuthMode" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "defaultPublishAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,6 +55,7 @@ namespace aws.AppsyncApi
         /// <summary>default_subscribe_auth_mode block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultSubscribeAuthMode" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "defaultSubscribeAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,6 +70,7 @@ namespace aws.AppsyncApi
         /// <summary>log_config block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigLogConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "logConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigLogConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,6 +92,7 @@ namespace aws.AppsyncApi
             /// <summary>auth_provider block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authProvider", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProvider\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -98,6 +104,7 @@ namespace aws.AppsyncApi
             /// <summary>connection_auth_mode block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigConnectionAuthMode" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectionAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -109,6 +116,7 @@ namespace aws.AppsyncApi
             /// <summary>default_publish_auth_mode block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultPublishAuthMode" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultPublishAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -120,6 +128,7 @@ namespace aws.AppsyncApi
             /// <summary>default_subscribe_auth_mode block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultSubscribeAuthMode" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultSubscribeAuthMode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -131,6 +140,7 @@ namespace aws.AppsyncApi
             /// <summary>log_config block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigLogConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigLogConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]

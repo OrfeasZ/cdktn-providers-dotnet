@@ -75,6 +75,9 @@ namespace cloudflare.ZoneLockdown
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneLockdown.IZoneLockdownConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneLockdown.ZoneLockdownConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

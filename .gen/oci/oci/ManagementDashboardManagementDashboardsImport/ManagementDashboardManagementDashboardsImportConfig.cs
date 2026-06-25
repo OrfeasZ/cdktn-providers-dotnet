@@ -7,7 +7,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
     [JsiiByValue(fqn: "oci.managementDashboardManagementDashboardsImport.ManagementDashboardManagementDashboardsImportConfig")]
     public class ManagementDashboardManagementDashboardsImportConfig : oci.ManagementDashboardManagementDashboardsImport.IManagementDashboardManagementDashboardsImportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#id ManagementDashboardManagementDashboardsImport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#id ManagementDashboardManagementDashboardsImport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#import_details ManagementDashboardManagementDashboardsImport#import_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#import_details ManagementDashboardManagementDashboardsImport#import_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "importDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImportDetails
@@ -29,7 +29,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#import_details_file ManagementDashboardManagementDashboardsImport#import_details_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#import_details_file ManagementDashboardManagementDashboardsImport#import_details_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "importDetailsFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImportDetailsFile
@@ -38,7 +38,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#override_dashboard_compartment_ocid ManagementDashboardManagementDashboardsImport#override_dashboard_compartment_ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#override_dashboard_compartment_ocid ManagementDashboardManagementDashboardsImport#override_dashboard_compartment_ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overrideDashboardCompartmentOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OverrideDashboardCompartmentOcid
@@ -47,7 +47,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#override_same_name ManagementDashboardManagementDashboardsImport#override_same_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#override_same_name ManagementDashboardManagementDashboardsImport#override_same_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overrideSameName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OverrideSameName
@@ -56,7 +56,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#override_saved_search_compartment_ocid ManagementDashboardManagementDashboardsImport#override_saved_search_compartment_ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#override_saved_search_compartment_ocid ManagementDashboardManagementDashboardsImport#override_saved_search_compartment_ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overrideSavedSearchCompartmentOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OverrideSavedSearchCompartmentOcid
@@ -67,7 +67,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_dashboard_management_dashboards_import#timeouts ManagementDashboardManagementDashboardsImport#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_dashboard_management_dashboards_import#timeouts ManagementDashboardManagementDashboardsImport#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.managementDashboardManagementDashboardsImport.ManagementDashboardManagementDashboardsImportTimeouts\"}", isOptional: true)]
@@ -81,6 +81,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -114,6 +115,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -208,6 +210,7 @@ namespace oci.ManagementDashboardManagementDashboardsImport
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -93,6 +93,9 @@ namespace oci.KmsGeneratedKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.KmsGeneratedKey.IKmsGeneratedKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.kmsGeneratedKey.KmsGeneratedKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

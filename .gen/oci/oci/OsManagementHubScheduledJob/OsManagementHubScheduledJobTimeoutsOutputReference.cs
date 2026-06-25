@@ -93,6 +93,9 @@ namespace oci.OsManagementHubScheduledJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

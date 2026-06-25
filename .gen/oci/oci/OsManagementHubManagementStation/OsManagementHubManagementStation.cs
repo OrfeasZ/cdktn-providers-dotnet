@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.OsManagementHubManagementStation
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station oci_os_management_hub_management_station}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station oci_os_management_hub_management_station}.</summary>
     [JsiiClass(nativeType: typeof(oci.OsManagementHubManagementStation.OsManagementHubManagementStation), fullyQualifiedName: "oci.osManagementHubManagementStation.OsManagementHubManagementStation", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.osManagementHubManagementStation.OsManagementHubManagementStationConfig\"}}]")]
     public class OsManagementHubManagementStation : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station oci_os_management_hub_management_station} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station oci_os_management_hub_management_station} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public OsManagementHubManagementStation(Constructs.Construct scope, string id, oci.OsManagementHubManagementStation.IOsManagementHubManagementStationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubManagementStation
         /// <param name="importToId">The construct id used in the generated config for the OsManagementHubManagementStation to import.</param>
         /// <param name="importFromId">The id of the existing OsManagementHubManagementStation that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the OsManagementHubManagementStation to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OsManagementHubManagementStation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OsManagementHubManagementStation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OsManagementHubManagementStation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OsManagementHubManagementStation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OsManagementHubManagementStation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OsManagementHubManagementStation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.OsManagementHubManagementStation.OsManagementHubManagementStation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -62,6 +62,12 @@ namespace oci.OsManagementHubManagementStation
         public virtual void PutTimeouts(oci.OsManagementHubManagementStation.IOsManagementHubManagementStationTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OsManagementHubManagementStation.IOsManagementHubManagementStationTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetArchType")]
+        public virtual void ResetArchType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDefinedTags")]
@@ -90,6 +96,12 @@ namespace oci.OsManagementHubManagementStation
 
         [JsiiMethod(name: "resetIsAutoConfigEnabled")]
         public virtual void ResetIsAutoConfigEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOsFamily")]
+        public virtual void ResetOsFamily()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -252,6 +264,13 @@ namespace oci.OsManagementHubManagementStation
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "archTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ArchTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "compartmentIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CompartmentIdInput
         {
@@ -300,6 +319,9 @@ namespace oci.OsManagementHubManagementStation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAutoConfigEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsAutoConfigEnabledInput
@@ -312,6 +334,13 @@ namespace oci.OsManagementHubManagementStation
         public virtual oci.OsManagementHubManagementStation.IOsManagementHubManagementStationMirror? MirrorInput
         {
             get => GetInstanceProperty<oci.OsManagementHubManagementStation.IOsManagementHubManagementStationMirror?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "osFamilyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OsFamilyInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -328,11 +357,21 @@ namespace oci.OsManagementHubManagementStation
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubManagementStation.IOsManagementHubManagementStationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubManagementStation.OsManagementHubManagementStationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "archType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ArchType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
@@ -384,6 +423,9 @@ namespace oci.OsManagementHubManagementStation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isAutoConfigEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsAutoConfigEnabled
         {
@@ -409,6 +451,13 @@ namespace oci.OsManagementHubManagementStation
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "osFamily", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OsFamily
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "refreshTrigger", typeJson: "{\"primitive\":\"number\"}")]

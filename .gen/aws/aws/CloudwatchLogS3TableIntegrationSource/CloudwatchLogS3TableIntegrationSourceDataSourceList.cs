@@ -41,6 +41,9 @@ namespace aws.CloudwatchLogS3TableIntegrationSource
             return InvokeInstanceMethod<aws.CloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceDataSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogS3TableIntegrationSource.ICloudwatchLogS3TableIntegrationSourceDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

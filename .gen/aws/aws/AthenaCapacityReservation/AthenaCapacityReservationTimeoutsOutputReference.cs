@@ -93,6 +93,9 @@ namespace aws.AthenaCapacityReservation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AthenaCapacityReservation.IAthenaCapacityReservationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.athenaCapacityReservation.AthenaCapacityReservationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

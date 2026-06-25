@@ -47,6 +47,7 @@ namespace aws.ImagebuilderDistributionConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionContainerDistributionConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration" />)[]</param>
         [JsiiMethod(name: "putFastLaunchConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFastLaunchConfiguration(object @value)
         {
@@ -70,6 +71,7 @@ namespace aws.ImagebuilderDistributionConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration" />)[]</param>
         [JsiiMethod(name: "putLaunchTemplateConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLaunchTemplateConfiguration(object @value)
         {
@@ -99,6 +101,7 @@ namespace aws.ImagebuilderDistributionConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionS3ExportConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration" />)[]</param>
         [JsiiMethod(name: "putSsmParameterConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSsmParameterConfiguration(object @value)
         {
@@ -214,6 +217,9 @@ namespace aws.ImagebuilderDistributionConfiguration
             get => GetInstanceProperty<aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionContainerDistributionConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fastLaunchConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionFastLaunchConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FastLaunchConfigurationInput
@@ -221,6 +227,9 @@ namespace aws.ImagebuilderDistributionConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "launchTemplateConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LaunchTemplateConfigurationInput
@@ -249,6 +258,9 @@ namespace aws.ImagebuilderDistributionConfiguration
             get => GetInstanceProperty<aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionS3ExportConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ssmParameterConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionSsmParameterConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SsmParameterConfigurationInput
@@ -270,6 +282,9 @@ namespace aws.ImagebuilderDistributionConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ImagebuilderDistributionConfiguration.IImagebuilderDistributionConfigurationDistribution" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistribution\"}]}}", isOptional: true)]
         public virtual object? InternalValue

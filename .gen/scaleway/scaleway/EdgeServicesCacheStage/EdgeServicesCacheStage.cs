@@ -46,6 +46,7 @@ namespace scaleway.EdgeServicesCacheStage
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.EdgeServicesCacheStage.EdgeServicesCacheStage), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesCacheStage.IEdgeServicesCacheStagePurgeRequests" />)[]</param>
         [JsiiMethod(name: "putPurgeRequests", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesCacheStage.EdgeServicesCacheStagePurgeRequests\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPurgeRequests(object @value)
         {
@@ -181,6 +182,9 @@ namespace scaleway.EdgeServicesCacheStage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeCookiesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IncludeCookiesInput
@@ -202,6 +206,9 @@ namespace scaleway.EdgeServicesCacheStage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesCacheStage.IEdgeServicesCacheStagePurgeRequests" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purgeRequestsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesCacheStage.EdgeServicesCacheStagePurgeRequests\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PurgeRequestsInput
@@ -251,6 +258,9 @@ namespace scaleway.EdgeServicesCacheStage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "includeCookies", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IncludeCookies
         {

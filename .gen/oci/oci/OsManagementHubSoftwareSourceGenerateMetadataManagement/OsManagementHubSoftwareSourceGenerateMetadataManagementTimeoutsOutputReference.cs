@@ -93,6 +93,9 @@ namespace oci.OsManagementHubSoftwareSourceGenerateMetadataManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubSoftwareSourceGenerateMetadataManagement.IOsManagementHubSoftwareSourceGenerateMetadataManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubSoftwareSourceGenerateMetadataManagement.OsManagementHubSoftwareSourceGenerateMetadataManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

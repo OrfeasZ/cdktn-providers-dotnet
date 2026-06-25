@@ -51,6 +51,9 @@ namespace aws.S3TablesTableBucket
             get => GetInstanceProperty<aws.S3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTableBucket.IS3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergUnreferencedFileRemovalInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval\"}]}}", isOptional: true)]
         public virtual object? IcebergUnreferencedFileRemovalInput
@@ -58,6 +61,9 @@ namespace aws.S3TablesTableBucket
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTableBucket.IS3TablesTableBucketMaintenanceConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

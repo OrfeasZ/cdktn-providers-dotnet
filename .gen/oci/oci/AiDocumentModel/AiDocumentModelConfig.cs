@@ -9,7 +9,7 @@ namespace oci.AiDocumentModel
     [JsiiByValue(fqn: "oci.aiDocumentModel.AiDocumentModelConfig")]
     public class AiDocumentModelConfig : oci.AiDocumentModel.IAiDocumentModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#compartment_id AiDocumentModel#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#compartment_id AiDocumentModel#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}.</summary>
         [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelType
         {
@@ -25,7 +25,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#project_id AiDocumentModel#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#project_id AiDocumentModel#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -37,7 +37,8 @@ namespace oci.AiDocumentModel
 
         /// <summary>component_models block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#component_models AiDocumentModel#component_models}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#component_models AiDocumentModel#component_models}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentModel.IAiDocumentModelComponentModels" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "componentModels", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelComponentModels\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -67,7 +68,7 @@ namespace oci.AiDocumentModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#defined_tags AiDocumentModel#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#defined_tags AiDocumentModel#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -76,7 +77,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#description AiDocumentModel#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#description AiDocumentModel#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -85,7 +86,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#display_name AiDocumentModel#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#display_name AiDocumentModel#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -94,7 +95,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#freeform_tags AiDocumentModel#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#freeform_tags AiDocumentModel#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -103,7 +104,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#id AiDocumentModel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#id AiDocumentModel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -116,7 +117,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#inference_units AiDocumentModel#inference_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#inference_units AiDocumentModel#inference_units}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? InferenceUnits
@@ -127,7 +128,10 @@ namespace oci.AiDocumentModel
 
         private object? _isQuickMode;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#is_quick_mode AiDocumentModel#is_quick_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#is_quick_mode AiDocumentModel#is_quick_mode}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isQuickMode", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsQuickMode
@@ -156,7 +160,7 @@ namespace oci.AiDocumentModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#language AiDocumentModel#language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#language AiDocumentModel#language}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Language
@@ -169,7 +173,8 @@ namespace oci.AiDocumentModel
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#locks AiDocumentModel#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#locks AiDocumentModel#locks}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentModel.IAiDocumentModelLocks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -199,7 +204,7 @@ namespace oci.AiDocumentModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#max_training_time_in_hours AiDocumentModel#max_training_time_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#max_training_time_in_hours AiDocumentModel#max_training_time_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxTrainingTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxTrainingTimeInHours
@@ -208,7 +213,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId
@@ -219,7 +224,7 @@ namespace oci.AiDocumentModel
 
         /// <summary>model_sub_type block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelSubType", typeJson: "{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelModelSubType\"}", isOptional: true)]
@@ -229,7 +234,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#model_version AiDocumentModel#model_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#model_version AiDocumentModel#model_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelVersion
@@ -240,7 +245,7 @@ namespace oci.AiDocumentModel
 
         /// <summary>testing_dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#testing_dataset AiDocumentModel#testing_dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#testing_dataset AiDocumentModel#testing_dataset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "testingDataset", typeJson: "{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelTestingDataset\"}", isOptional: true)]
@@ -252,7 +257,7 @@ namespace oci.AiDocumentModel
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#timeouts AiDocumentModel#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#timeouts AiDocumentModel#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelTimeouts\"}", isOptional: true)]
@@ -264,7 +269,7 @@ namespace oci.AiDocumentModel
 
         /// <summary>training_dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#training_dataset AiDocumentModel#training_dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#training_dataset AiDocumentModel#training_dataset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingDataset", typeJson: "{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelTrainingDataset\"}", isOptional: true)]
@@ -276,7 +281,7 @@ namespace oci.AiDocumentModel
 
         /// <summary>validation_dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_document_model#validation_dataset AiDocumentModel#validation_dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_document_model#validation_dataset AiDocumentModel#validation_dataset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationDataset", typeJson: "{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelValidationDataset\"}", isOptional: true)]
@@ -290,6 +295,7 @@ namespace oci.AiDocumentModel
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -323,6 +329,7 @@ namespace oci.AiDocumentModel
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -417,6 +424,7 @@ namespace oci.AiDocumentModel
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

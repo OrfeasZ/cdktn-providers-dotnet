@@ -46,6 +46,7 @@ namespace cloudflare.R2BucketEventNotification
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.R2BucketEventNotification.R2BucketEventNotification), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketEventNotification.IR2BucketEventNotificationRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -134,6 +135,9 @@ namespace cloudflare.R2BucketEventNotification
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketEventNotification.IR2BucketEventNotificationRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput

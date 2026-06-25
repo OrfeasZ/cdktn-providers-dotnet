@@ -41,6 +41,9 @@ namespace aws.S3FilesAccessPoint
             return InvokeInstanceMethod<aws.S3FilesAccessPoint.S3FilesAccessPointRootDirectoryOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectory" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointRootDirectory\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

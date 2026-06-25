@@ -33,6 +33,7 @@ namespace aws.MedialiveChannel
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsAudioSelector" />)[]</param>
         [JsiiMethod(name: "putAudioSelector", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelector\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAudioSelector(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.MedialiveChannel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsCaptionSelector" />)[]</param>
         [JsiiMethod(name: "putCaptionSelector", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelector\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCaptionSelector(object @value)
         {
@@ -181,6 +183,9 @@ namespace aws.MedialiveChannel
             get => GetInstanceProperty<aws.MedialiveChannel.MedialiveChannelInputAttachmentsInputSettingsVideoSelectorOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsAudioSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "audioSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsAudioSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AudioSelectorInput
@@ -188,6 +193,9 @@ namespace aws.MedialiveChannel
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsCaptionSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "captionSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CaptionSelectorInput

@@ -503,6 +503,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireUserRiskScoreOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireAnyValidServiceToken" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "anyValidServiceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireAnyValidServiceToken\"}]}}", isOptional: true)]
         public virtual object? AnyValidServiceTokenInput
@@ -510,6 +513,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireAuthContext" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authContextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireAuthContext\"}]}}", isOptional: true)]
         public virtual object? AuthContextInput
@@ -517,6 +523,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireAuthMethod" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireAuthMethod\"}]}}", isOptional: true)]
         public virtual object? AuthMethodInput
@@ -524,6 +533,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireAzureAd" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureAdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireAzureAd\"}]}}", isOptional: true)]
         public virtual object? AzureAdInput
@@ -531,6 +543,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireCertificate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireCertificate\"}]}}", isOptional: true)]
         public virtual object? CertificateInput
@@ -538,6 +553,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireCloudflareAccountMember" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudflareAccountMemberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireCloudflareAccountMember\"}]}}", isOptional: true)]
         public virtual object? CloudflareAccountMemberInput
@@ -545,6 +563,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireCommonName" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commonNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireCommonName\"}]}}", isOptional: true)]
         public virtual object? CommonNameInput
@@ -552,6 +573,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireDevicePosture" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "devicePostureInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireDevicePosture\"}]}}", isOptional: true)]
         public virtual object? DevicePostureInput
@@ -559,6 +583,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireEmailDomain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailDomainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireEmailDomain\"}]}}", isOptional: true)]
         public virtual object? EmailDomainInput
@@ -566,6 +593,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireEmail" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireEmail\"}]}}", isOptional: true)]
         public virtual object? EmailInput
@@ -573,6 +603,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireEmailListStruct" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireEmailListStruct\"}]}}", isOptional: true)]
         public virtual object? EmailListInput
@@ -580,6 +613,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireEveryone" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "everyoneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireEveryone\"}]}}", isOptional: true)]
         public virtual object? EveryoneInput
@@ -587,6 +623,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireExternalEvaluation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalEvaluationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireExternalEvaluation\"}]}}", isOptional: true)]
         public virtual object? ExternalEvaluationInput
@@ -594,6 +633,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireGeo" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireGeo\"}]}}", isOptional: true)]
         public virtual object? GeoInput
@@ -601,6 +643,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireGithubOrganization" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "githubOrganizationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireGithubOrganization\"}]}}", isOptional: true)]
         public virtual object? GithubOrganizationInput
@@ -608,6 +653,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireGroup" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireGroup\"}]}}", isOptional: true)]
         public virtual object? GroupInput
@@ -615,6 +663,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireGsuite" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gsuiteInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireGsuite\"}]}}", isOptional: true)]
         public virtual object? GsuiteInput
@@ -622,6 +673,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireIp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireIp\"}]}}", isOptional: true)]
         public virtual object? IpInput
@@ -629,6 +683,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireIpListStruct" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireIpListStruct\"}]}}", isOptional: true)]
         public virtual object? IpListInput
@@ -636,6 +693,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireLinkedAppToken" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "linkedAppTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireLinkedAppToken\"}]}}", isOptional: true)]
         public virtual object? LinkedAppTokenInput
@@ -643,6 +703,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireLoginMethod" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loginMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireLoginMethod\"}]}}", isOptional: true)]
         public virtual object? LoginMethodInput
@@ -650,6 +713,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireOidc" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireOidc\"}]}}", isOptional: true)]
         public virtual object? OidcInput
@@ -657,6 +723,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireOkta" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oktaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireOkta\"}]}}", isOptional: true)]
         public virtual object? OktaInput
@@ -664,6 +733,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireSaml" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "samlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireSaml\"}]}}", isOptional: true)]
         public virtual object? SamlInput
@@ -671,6 +743,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireServiceToken" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireServiceToken\"}]}}", isOptional: true)]
         public virtual object? ServiceTokenInput
@@ -678,6 +753,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequireUserRiskScore" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userRiskScoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequireUserRiskScore\"}]}}", isOptional: true)]
         public virtual object? UserRiskScoreInput
@@ -685,6 +763,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyRequire" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyRequire\"}]}}", isOptional: true)]
         public virtual object? InternalValue

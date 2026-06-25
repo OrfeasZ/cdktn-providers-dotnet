@@ -93,6 +93,9 @@ namespace oci.IdentityApiKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityApiKey.IIdentityApiKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityApiKey.IdentityApiKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

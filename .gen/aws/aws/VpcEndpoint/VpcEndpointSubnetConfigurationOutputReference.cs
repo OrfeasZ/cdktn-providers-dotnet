@@ -95,6 +95,9 @@ namespace aws.VpcEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcEndpoint.IVpcEndpointSubnetConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcEndpoint.VpcEndpointSubnetConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

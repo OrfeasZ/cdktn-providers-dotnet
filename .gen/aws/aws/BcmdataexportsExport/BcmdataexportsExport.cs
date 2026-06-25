@@ -46,6 +46,7 @@ namespace aws.BcmdataexportsExport
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BcmdataexportsExport.BcmdataexportsExport), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExport" />)[]</param>
         [JsiiMethod(name: "putExport", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExport\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExport(object @value)
         {
@@ -142,6 +143,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<aws.BcmdataexportsExport.BcmdataexportsExportTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExport" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exportInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExportInput
@@ -156,6 +160,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BcmdataexportsExport.IBcmdataexportsExportTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

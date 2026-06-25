@@ -93,6 +93,9 @@ namespace oci.DataintegrationWorkspaceFolder
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataintegrationWorkspaceFolder.IDataintegrationWorkspaceFolderTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataintegrationWorkspaceFolder.DataintegrationWorkspaceFolderTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

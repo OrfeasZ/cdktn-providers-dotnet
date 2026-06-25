@@ -41,6 +41,9 @@ namespace aws.AmplifyDomainAssociation
             return InvokeInstanceMethod<aws.AmplifyDomainAssociation.AmplifyDomainAssociationSubDomainOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AmplifyDomainAssociation.IAmplifyDomainAssociationSubDomain" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

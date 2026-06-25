@@ -47,6 +47,9 @@ namespace cloudflare.ConnectivityDirectoryService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostNetwork" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostNetwork\"}]}}", isOptional: true)]
         public virtual object? InternalValue

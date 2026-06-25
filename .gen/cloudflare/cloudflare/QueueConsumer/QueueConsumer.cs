@@ -141,6 +141,9 @@ namespace cloudflare.QueueConsumer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.QueueConsumer.IQueueConsumerSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettings\"}]}}", isOptional: true)]
         public virtual object? SettingsInput

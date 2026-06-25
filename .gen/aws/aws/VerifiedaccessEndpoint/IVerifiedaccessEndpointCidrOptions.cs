@@ -17,6 +17,7 @@ namespace aws.VerifiedaccessEndpoint
         /// <summary>port_range block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptionsPortRange" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "portRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange\"},\"kind\":\"array\"}}]}}")]
         object PortRange
@@ -63,6 +64,7 @@ namespace aws.VerifiedaccessEndpoint
             /// <summary>port_range block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptionsPortRange" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "portRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange\"},\"kind\":\"array\"}}]}}")]
             public object PortRange

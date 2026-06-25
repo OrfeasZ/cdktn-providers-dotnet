@@ -33,6 +33,7 @@ namespace oci.StackMonitoringMonitoredResource
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResource.IStackMonitoringMonitoredResourceCredentialsProperties" />)[]</param>
         [JsiiMethod(name: "putProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMonitoredResource.StackMonitoringMonitoredResourceCredentialsProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProperties(object @value)
         {
@@ -132,6 +133,9 @@ namespace oci.StackMonitoringMonitoredResource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResource.IStackMonitoringMonitoredResourceCredentialsProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "propertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMonitoredResource.StackMonitoringMonitoredResourceCredentialsProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PropertiesInput

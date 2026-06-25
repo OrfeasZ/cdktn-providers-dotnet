@@ -41,6 +41,9 @@ namespace aws.S3FilesSynchronizationConfiguration
             return InvokeInstanceMethod<aws.S3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationExpirationDataRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesSynchronizationConfiguration.IS3FilesSynchronizationConfigurationExpirationDataRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationExpirationDataRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

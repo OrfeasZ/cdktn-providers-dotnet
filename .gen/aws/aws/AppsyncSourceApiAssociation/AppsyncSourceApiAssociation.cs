@@ -46,6 +46,7 @@ namespace aws.AppsyncSourceApiAssociation
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppsyncSourceApiAssociation.AppsyncSourceApiAssociation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncSourceApiAssociation.IAppsyncSourceApiAssociationSourceApiAssociationConfig" />)[]</param>
         [JsiiMethod(name: "putSourceApiAssociationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceApiAssociationConfig(object @value)
         {
@@ -207,6 +208,9 @@ namespace aws.AppsyncSourceApiAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncSourceApiAssociation.IAppsyncSourceApiAssociationSourceApiAssociationConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceApiAssociationConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociationSourceApiAssociationConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceApiAssociationConfigInput
@@ -221,6 +225,9 @@ namespace aws.AppsyncSourceApiAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppsyncSourceApiAssociation.IAppsyncSourceApiAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

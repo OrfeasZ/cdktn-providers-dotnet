@@ -10,6 +10,7 @@ namespace aws.MedialiveChannel
         /// <summary>output_groups block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#output_groups MedialiveChannel#output_groups}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroups" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "outputGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroups\"},\"kind\":\"array\"}}]}}")]
         object OutputGroups
@@ -30,6 +31,7 @@ namespace aws.MedialiveChannel
         /// <summary>audio_descriptions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#audio_descriptions MedialiveChannel#audio_descriptions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "audioDescriptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,6 +60,7 @@ namespace aws.MedialiveChannel
         /// <summary>caption_descriptions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#caption_descriptions MedialiveChannel#caption_descriptions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "captionDescriptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,6 +117,7 @@ namespace aws.MedialiveChannel
         /// <summary>video_descriptions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#video_descriptions MedialiveChannel#video_descriptions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "videoDescriptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,6 +139,7 @@ namespace aws.MedialiveChannel
             /// <summary>output_groups block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#output_groups MedialiveChannel#output_groups}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroups" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "outputGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroups\"},\"kind\":\"array\"}}]}}")]
             public object OutputGroups
@@ -155,6 +160,7 @@ namespace aws.MedialiveChannel
             /// <summary>audio_descriptions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#audio_descriptions MedialiveChannel#audio_descriptions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioDescriptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -177,6 +183,7 @@ namespace aws.MedialiveChannel
             /// <summary>caption_descriptions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#caption_descriptions MedialiveChannel#caption_descriptions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "captionDescriptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsCaptionDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -221,6 +228,7 @@ namespace aws.MedialiveChannel
             /// <summary>video_descriptions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#video_descriptions MedialiveChannel#video_descriptions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "videoDescriptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsVideoDescriptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

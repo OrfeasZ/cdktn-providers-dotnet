@@ -47,6 +47,12 @@ namespace oci.DataOciCoreComputeHostGroups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Target
         {

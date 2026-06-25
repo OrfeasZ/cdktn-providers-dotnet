@@ -93,6 +93,9 @@ namespace aws.NetworkmanagerVpcAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerVpcAttachment.INetworkmanagerVpcAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

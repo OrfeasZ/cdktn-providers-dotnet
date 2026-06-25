@@ -35,6 +35,7 @@ namespace aws.CloudfrontMultitenantDistribution
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionRestrictionsGeoRestriction" />)[]</param>
         [JsiiMethod(name: "putGeoRestriction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionRestrictionsGeoRestriction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGeoRestriction(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<aws.CloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionRestrictionsGeoRestrictionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionRestrictionsGeoRestriction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geoRestrictionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionRestrictionsGeoRestriction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GeoRestrictionInput
@@ -77,6 +81,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionRestrictions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionRestrictions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

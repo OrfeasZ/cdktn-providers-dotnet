@@ -63,6 +63,9 @@ namespace aws.DataAwsVpcSecurityGroupRules
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsVpcSecurityGroupRules.IDataAwsVpcSecurityGroupRulesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsVpcSecurityGroupRules.DataAwsVpcSecurityGroupRulesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

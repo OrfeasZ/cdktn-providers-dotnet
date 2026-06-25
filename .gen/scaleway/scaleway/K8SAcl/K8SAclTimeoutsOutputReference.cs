@@ -133,6 +133,9 @@ namespace scaleway.K8SAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.K8SAcl.IK8SAclTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.k8SAcl.K8SAclTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

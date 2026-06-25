@@ -46,6 +46,7 @@ namespace aws.ResiliencehubResiliencyPolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ResiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicy" />)[]</param>
         [JsiiMethod(name: "putPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPolicy(object @value)
         {
@@ -181,6 +182,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "policyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PolicyInput
@@ -209,6 +213,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

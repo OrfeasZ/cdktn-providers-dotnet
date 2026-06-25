@@ -63,6 +63,9 @@ namespace aws.Cloudtrail
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Cloudtrail.ICloudtrailEventSelectorDataResource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudtrail.CloudtrailEventSelectorDataResource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

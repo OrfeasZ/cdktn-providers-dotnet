@@ -64,6 +64,7 @@ namespace aws.S3BucketWebsiteConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3BucketWebsiteConfiguration.IS3BucketWebsiteConfigurationRedirectAllRequestsTo)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketWebsiteConfiguration.IS3BucketWebsiteConfigurationRoutingRule" />)[]</param>
         [JsiiMethod(name: "putRoutingRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutingRule(object @value)
         {
@@ -239,6 +240,9 @@ namespace aws.S3BucketWebsiteConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketWebsiteConfiguration.IS3BucketWebsiteConfigurationRoutingRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routingRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutingRuleInput

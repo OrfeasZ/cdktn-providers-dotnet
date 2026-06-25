@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagementStationSynchronizeMirrorsManagement.OsManagementHubManagementStationSynchronizeMirrorsManagementConfig")]
     public class OsManagementHubManagementStationSynchronizeMirrorsManagementConfig : oci.OsManagementHubManagementStationSynchronizeMirrorsManagement.IOsManagementHubManagementStationSynchronizeMirrorsManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#management_station_id OsManagementHubManagementStationSynchronizeMirrorsManagement#management_station_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#management_station_id OsManagementHubManagementStationSynchronizeMirrorsManagement#management_station_id}.</summary>
         [JsiiProperty(name: "managementStationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementStationId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#software_source_list OsManagementHubManagementStationSynchronizeMirrorsManagement#software_source_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#software_source_list OsManagementHubManagementStationSynchronizeMirrorsManagement#software_source_list}.</summary>
         [JsiiProperty(name: "softwareSourceList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SoftwareSourceList
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#id OsManagementHubManagementStationSynchronizeMirrorsManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#id OsManagementHubManagementStationSynchronizeMirrorsManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#timeouts OsManagementHubManagementStationSynchronizeMirrorsManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#timeouts OsManagementHubManagementStationSynchronizeMirrorsManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagementStationSynchronizeMirrorsManagement.OsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts\"}", isOptional: true)]
@@ -54,6 +54,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -87,6 +88,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -181,6 +183,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

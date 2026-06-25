@@ -41,6 +41,9 @@ namespace oci.DataOciIdentityCustomerSecretKeys
             return InvokeInstanceMethod<oci.DataOciIdentityCustomerSecretKeys.DataOciIdentityCustomerSecretKeysFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityCustomerSecretKeys.IDataOciIdentityCustomerSecretKeysFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIdentityCustomerSecretKeys.DataOciIdentityCustomerSecretKeysFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

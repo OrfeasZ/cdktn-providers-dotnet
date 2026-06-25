@@ -35,6 +35,7 @@ namespace tailscale.DnsConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDnsNameservers" />)[]</param>
         [JsiiMethod(name: "putNameservers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationSplitDnsNameservers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNameservers(object @value)
         {
@@ -77,6 +78,9 @@ namespace tailscale.DnsConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDnsNameservers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameserversInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationSplitDnsNameservers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NameserversInput
@@ -91,6 +95,9 @@ namespace tailscale.DnsConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"tailscale.dnsConfiguration.DnsConfigurationSplitDns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

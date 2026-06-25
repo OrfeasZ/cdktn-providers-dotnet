@@ -33,6 +33,7 @@ namespace aws.PipesPipe
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter" />)[]</param>
         [JsiiMethod(name: "putPipelineParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPipelineParameter(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.PipesPipe
             get => GetInstanceProperty<aws.PipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PipelineParameterInput

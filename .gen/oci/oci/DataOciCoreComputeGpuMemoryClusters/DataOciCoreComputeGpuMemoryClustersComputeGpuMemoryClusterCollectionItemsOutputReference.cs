@@ -71,6 +71,12 @@ namespace oci.DataOciCoreComputeGpuMemoryClusters
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "gpuMemoryClusterScaleConfig", typeJson: "{\"fqn\":\"oci.dataOciCoreComputeGpuMemoryClusters.DataOciCoreComputeGpuMemoryClustersComputeGpuMemoryClusterCollectionItemsGpuMemoryClusterScaleConfigList\"}")]
+        public virtual oci.DataOciCoreComputeGpuMemoryClusters.DataOciCoreComputeGpuMemoryClustersComputeGpuMemoryClusterCollectionItemsGpuMemoryClusterScaleConfigList GpuMemoryClusterScaleConfig
+        {
+            get => GetInstanceProperty<oci.DataOciCoreComputeGpuMemoryClusters.DataOciCoreComputeGpuMemoryClustersComputeGpuMemoryClusterCollectionItemsGpuMemoryClusterScaleConfigList>()!;
+        }
+
         [JsiiProperty(name: "gpuMemoryFabricId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string GpuMemoryFabricId
         {
@@ -87,6 +93,12 @@ namespace oci.DataOciCoreComputeGpuMemoryClusters
         public virtual string InstanceConfigurationId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "privateIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] PrivateIpIds
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]

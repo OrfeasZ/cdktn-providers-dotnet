@@ -101,6 +101,12 @@ namespace oci.DataOciDnsZones
             get => GetInstanceProperty<oci.DataOciDnsZones.DataOciDnsZonesZonesNameserversList>()!;
         }
 
+        [JsiiProperty(name: "resolutionMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResolutionMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Scope
         {

@@ -93,6 +93,9 @@ namespace oci.StreamingStream
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.StreamingStream.IStreamingStreamTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.streamingStream.StreamingStreamTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

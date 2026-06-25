@@ -93,6 +93,9 @@ namespace aws.VpclatticeService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpclatticeService.IVpclatticeServiceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpclatticeService.VpclatticeServiceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

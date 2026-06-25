@@ -83,6 +83,9 @@ namespace aws.RdsClusterParameterGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsClusterParameterGroup.IRdsClusterParameterGroupParameter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

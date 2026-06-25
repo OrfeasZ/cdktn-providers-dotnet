@@ -161,6 +161,9 @@ namespace aws.S3FilesFileSystem
             get => GetInstanceProperty<aws.S3FilesFileSystem.S3FilesFileSystemTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acceptBucketWarningInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AcceptBucketWarningInput
@@ -210,6 +213,9 @@ namespace aws.S3FilesFileSystem
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3FilesFileSystem.IS3FilesFileSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3FilesFileSystem.S3FilesFileSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -217,6 +223,9 @@ namespace aws.S3FilesFileSystem
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "acceptBucketWarning", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AcceptBucketWarning
         {

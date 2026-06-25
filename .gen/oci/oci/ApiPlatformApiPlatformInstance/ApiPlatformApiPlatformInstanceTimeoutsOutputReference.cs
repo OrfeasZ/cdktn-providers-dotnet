@@ -73,6 +73,9 @@ namespace oci.ApiPlatformApiPlatformInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApiPlatformApiPlatformInstance.IApiPlatformApiPlatformInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apiPlatformApiPlatformInstance.ApiPlatformApiPlatformInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

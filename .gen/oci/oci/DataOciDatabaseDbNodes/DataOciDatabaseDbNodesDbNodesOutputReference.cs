@@ -149,6 +149,12 @@ namespace oci.DataOciDatabaseDbNodes
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isOsPatchRebootRequired", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsOsPatchRebootRequired
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {

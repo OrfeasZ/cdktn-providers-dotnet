@@ -35,6 +35,7 @@ namespace aws.SagemakerAlgorithm
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmValidationSpecificationValidationProfiles" />)[]</param>
         [JsiiMethod(name: "putValidationProfiles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmValidationSpecificationValidationProfiles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValidationProfiles(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.SagemakerAlgorithm
             get => GetInstanceProperty<aws.SagemakerAlgorithm.SagemakerAlgorithmValidationSpecificationValidationProfilesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmValidationSpecificationValidationProfiles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationProfilesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmValidationSpecificationValidationProfiles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValidationProfilesInput
@@ -91,6 +95,9 @@ namespace aws.SagemakerAlgorithm
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmValidationSpecification" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmValidationSpecification\"}]}}", isOptional: true)]
         public virtual object? InternalValue

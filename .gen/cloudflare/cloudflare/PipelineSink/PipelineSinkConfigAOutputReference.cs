@@ -149,6 +149,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkConfigCredentials" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "credentialsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigCredentials\"}]}}", isOptional: true)]
         public virtual object? CredentialsInput
@@ -156,6 +159,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkConfigFileNaming" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileNamingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigFileNaming\"}]}}", isOptional: true)]
         public virtual object? FileNamingInput
@@ -177,6 +183,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkConfigPartitioning" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "partitioningInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigPartitioning\"}]}}", isOptional: true)]
         public virtual object? PartitioningInput
@@ -191,6 +200,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkConfigRollingPolicy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rollingPolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigRollingPolicy\"}]}}", isOptional: true)]
         public virtual object? RollingPolicyInput
@@ -261,6 +273,9 @@ namespace cloudflare.PipelineSink
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkConfigA" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkConfigA\"}]}}", isOptional: true)]
         public virtual object? InternalValue

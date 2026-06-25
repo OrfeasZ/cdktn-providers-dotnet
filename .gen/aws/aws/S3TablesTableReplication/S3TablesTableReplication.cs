@@ -46,6 +46,7 @@ namespace aws.S3TablesTableReplication
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3TablesTableReplication.S3TablesTableReplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableReplication.IS3TablesTableReplicationRule" />)[]</param>
         [JsiiMethod(name: "putRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTableReplication.S3TablesTableReplicationRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRule(object @value)
         {
@@ -126,6 +127,9 @@ namespace aws.S3TablesTableReplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableReplication.IS3TablesTableReplicationRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTableReplication.S3TablesTableReplicationRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuleInput

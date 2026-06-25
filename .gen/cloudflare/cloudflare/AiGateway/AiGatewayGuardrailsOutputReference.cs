@@ -57,6 +57,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<cloudflare.AiGateway.AiGatewayGuardrailsResponseOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewayGuardrailsPrompt" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "promptInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrailsPrompt\"}]}}", isOptional: true)]
         public virtual object? PromptInput
@@ -64,6 +67,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewayGuardrailsResponse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrailsResponse\"}]}}", isOptional: true)]
         public virtual object? ResponseInput
@@ -71,6 +77,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewayGuardrails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

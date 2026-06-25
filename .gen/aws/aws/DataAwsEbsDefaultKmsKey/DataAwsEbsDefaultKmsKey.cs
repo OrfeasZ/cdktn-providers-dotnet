@@ -115,6 +115,9 @@ namespace aws.DataAwsEbsDefaultKmsKey
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEbsDefaultKmsKey.IDataAwsEbsDefaultKmsKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEbsDefaultKmsKey.DataAwsEbsDefaultKmsKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

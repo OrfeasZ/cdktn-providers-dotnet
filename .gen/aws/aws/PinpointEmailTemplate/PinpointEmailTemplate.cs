@@ -46,6 +46,7 @@ namespace aws.PinpointEmailTemplate
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.PinpointEmailTemplate.PinpointEmailTemplate), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplate" />)[]</param>
         [JsiiMethod(name: "putEmailTemplate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplate\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEmailTemplate(object @value)
         {
@@ -124,6 +125,9 @@ namespace aws.PinpointEmailTemplate
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailTemplateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EmailTemplateInput

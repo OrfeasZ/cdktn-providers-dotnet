@@ -252,6 +252,9 @@ namespace cloudflare.DataCloudflareAiGateway
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAiGateway.IDataCloudflareAiGatewayFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAiGateway.DataCloudflareAiGatewayFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

@@ -41,6 +41,9 @@ namespace scaleway.VpcPrivateNetwork
             return InvokeInstanceMethod<scaleway.VpcPrivateNetwork.VpcPrivateNetworkIpv6SubnetsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcPrivateNetwork.IVpcPrivateNetworkIpv6Subnets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcPrivateNetwork.VpcPrivateNetworkIpv6Subnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

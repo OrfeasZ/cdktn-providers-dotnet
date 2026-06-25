@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.OcvpEsxiHost
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host}.</summary>
     [JsiiClass(nativeType: typeof(oci.OcvpEsxiHost.OcvpEsxiHost), fullyQualifiedName: "oci.ocvpEsxiHost.OcvpEsxiHost", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"oci.ocvpEsxiHost.OcvpEsxiHostConfig\"}}]")]
     public class OcvpEsxiHost : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public OcvpEsxiHost(Constructs.Construct scope, string id, oci.OcvpEsxiHost.IOcvpEsxiHostConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.OcvpEsxiHost
         /// <param name="importToId">The construct id used in the generated config for the OcvpEsxiHost to import.</param>
         /// <param name="importFromId">The id of the existing OcvpEsxiHost that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the OcvpEsxiHost to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OcvpEsxiHost to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_esxi_host#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OcvpEsxiHost that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OcvpEsxiHost to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OcvpEsxiHost to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_esxi_host#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OcvpEsxiHost that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OcvpEsxiHost to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.OcvpEsxiHost.OcvpEsxiHost), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -78,6 +78,12 @@ namespace oci.OcvpEsxiHost
 
         [JsiiMethod(name: "resetComputeAvailabilityDomain")]
         public virtual void ResetComputeAvailabilityDomain()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCurrentCommitment")]
+        public virtual void ResetCurrentCommitment()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -142,6 +148,18 @@ namespace oci.OcvpEsxiHost
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIsVsanByolEnabled")]
+        public virtual void ResetIsVsanByolEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNextCommitment")]
+        public virtual void ResetNextCommitment()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNextSku")]
         public virtual void ResetNextSku()
         {
@@ -160,8 +178,20 @@ namespace oci.OcvpEsxiHost
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSystemTags")]
+        public virtual void ResetSystemTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVcfByolAllocationId")]
+        public virtual void ResetVcfByolAllocationId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -203,12 +233,6 @@ namespace oci.OcvpEsxiHost
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "currentCommitment", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CurrentCommitment
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "datastoreAttachments", typeJson: "{\"fqn\":\"oci.ocvpEsxiHost.OcvpEsxiHostDatastoreAttachmentsList\"}")]
         public virtual oci.OcvpEsxiHost.OcvpEsxiHostDatastoreAttachmentsList DatastoreAttachments
         {
@@ -239,8 +263,8 @@ namespace oci.OcvpEsxiHost
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "nextCommitment", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string NextCommitment
+        [JsiiProperty(name: "primaryVnicMacAddress", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryVnicMacAddress
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -329,6 +353,13 @@ namespace oci.OcvpEsxiHost
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "currentCommitmentInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CurrentCommitmentInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "currentSkuInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CurrentSkuInput
         {
@@ -398,6 +429,23 @@ namespace oci.OcvpEsxiHost
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isVsanByolEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsVsanByolEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nextCommitmentInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NextCommitmentInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "nextSkuInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NextSkuInput
@@ -420,10 +468,27 @@ namespace oci.OcvpEsxiHost
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "systemTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SystemTagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpEsxiHost.IOcvpEsxiHostTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpEsxiHost.OcvpEsxiHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "vcfByolAllocationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VcfByolAllocationIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "attachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
@@ -456,6 +521,13 @@ namespace oci.OcvpEsxiHost
 
         [JsiiProperty(name: "computeAvailabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeAvailabilityDomain
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "currentCommitment", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CurrentCommitment
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -531,6 +603,43 @@ namespace oci.OcvpEsxiHost
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isVsanByolEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsVsanByolEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "nextCommitment", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NextCommitment
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "nextSku", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NextSku
         {
@@ -547,6 +656,20 @@ namespace oci.OcvpEsxiHost
 
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SddcId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SystemTags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VcfByolAllocationId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

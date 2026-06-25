@@ -41,6 +41,9 @@ namespace oci.PsqlConfiguration
             return InvokeInstanceMethod<oci.PsqlConfiguration.PsqlConfigurationDbConfigurationOverridesItemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlConfiguration.IPsqlConfigurationDbConfigurationOverridesItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlConfiguration.PsqlConfigurationDbConfigurationOverridesItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,18 @@ namespace oci.DataOciGenerativeAiAgentTool
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "llmHyperParameters", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap LlmHyperParameters
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "llmSelection", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelectionList\"}")]
+        public virtual oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelectionList LlmSelection
+        {
+            get => GetInstanceProperty<oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigGenerationLlmCustomizationLlmSelectionList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigGenerationLlmCustomization\"}", isOptional: true)]
         public virtual oci.DataOciGenerativeAiAgentTool.IDataOciGenerativeAiAgentToolToolConfigGenerationLlmCustomization? InternalValue

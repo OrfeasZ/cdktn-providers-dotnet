@@ -25,6 +25,7 @@ namespace cloudflare.R2BucketLifecycle
         /// <summary>Whether or not this rule is in effect.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_bucket_lifecycle#enabled R2BucketLifecycle#enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
@@ -96,6 +97,7 @@ namespace cloudflare.R2BucketLifecycle
         /// <summary>Transitions to change the storage class of objects.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/r2_bucket_lifecycle#storage_class_transitions R2BucketLifecycle#storage_class_transitions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesStorageClassTransitions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageClassTransitions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

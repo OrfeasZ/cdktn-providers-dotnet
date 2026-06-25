@@ -46,6 +46,7 @@ namespace aws.WafregionalByteMatchSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafregionalByteMatchSet.WafregionalByteMatchSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalByteMatchSet.IWafregionalByteMatchSetByteMatchTuples" />)[]</param>
         [JsiiMethod(name: "putByteMatchTuples", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuples\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutByteMatchTuples(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.WafregionalByteMatchSet
             get => GetInstanceProperty<aws.WafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalByteMatchSet.IWafregionalByteMatchSetByteMatchTuples" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "byteMatchTuplesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuples\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ByteMatchTuplesInput

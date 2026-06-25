@@ -53,6 +53,7 @@ namespace cloudflare.R2BucketLifecycle
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesDeleteObjectsTransition)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesStorageClassTransitions" />)[]</param>
         [JsiiMethod(name: "putStorageClassTransitions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStorageClassTransitions(object @value)
         {
@@ -118,6 +119,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<cloudflare.R2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesAbortMultipartUploadsTransition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "abortMultipartUploadsTransitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesAbortMultipartUploadsTransition\"}]}}", isOptional: true)]
         public virtual object? AbortMultipartUploadsTransitionInput
@@ -125,6 +129,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesConditions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesConditions\"}]}}", isOptional: true)]
         public virtual object? ConditionsInput
@@ -132,6 +139,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesDeleteObjectsTransition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteObjectsTransitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesDeleteObjectsTransition\"}]}}", isOptional: true)]
         public virtual object? DeleteObjectsTransitionInput
@@ -139,6 +149,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -153,6 +166,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesStorageClassTransitions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageClassTransitionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StorageClassTransitionsInput
@@ -160,6 +176,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -194,6 +213,9 @@ namespace cloudflare.R2BucketLifecycle
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

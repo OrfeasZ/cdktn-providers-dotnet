@@ -39,6 +39,7 @@ namespace aws.SagemakerSpace
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCodeEditorAppSettings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystem" />)[]</param>
         [JsiiMethod(name: "putCustomFileSystem", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystem\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomFileSystem(object @value)
         {
@@ -178,6 +179,9 @@ namespace aws.SagemakerSpace
             get => GetInstanceProperty<aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCodeEditorAppSettings?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystem" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customFileSystemInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystem\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomFileSystemInput

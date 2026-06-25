@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database oci_database_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database oci_database_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseDatabase.DatabaseDatabase), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseConfig\"}}]")]
     public class DatabaseDatabase : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database oci_database_database} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database oci_database_database} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseDatabase(Constructs.Construct scope, string id, oci.DatabaseDatabase.IDatabaseDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseDatabase
         /// <param name="importToId">The construct id used in the generated config for the DatabaseDatabase to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseDatabase.DatabaseDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,30 @@ namespace oci.DatabaseDatabase
         public virtual void PutDatabase(oci.DatabaseDatabase.IDatabaseDatabaseDatabase @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabase)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</param>
+        [JsiiMethod(name: "putManagedSoftwareUpdateDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseManagedSoftwareUpdateDetails\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutManagedSoftwareUpdateDetails(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseTimeouts\"}}]")]
@@ -66,6 +90,12 @@ namespace oci.DatabaseDatabase
 
         [JsiiMethod(name: "resetDataGuardAction")]
         public virtual void ResetDataGuardAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDbHomeId")]
+        public virtual void ResetDbHomeId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -112,6 +142,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetManagedSoftwareUpdateDetails")]
+        public virtual void ResetManagedSoftwareUpdateDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -120,6 +156,12 @@ namespace oci.DatabaseDatabase
 
         [JsiiMethod(name: "resetVaultId")]
         public virtual void ResetVaultId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVmClusterId")]
+        public virtual void ResetVmClusterId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -263,8 +305,20 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "managedSoftwareUpdateDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseManagedSoftwareUpdateDetailsList\"}")]
+        public virtual oci.DatabaseDatabase.DatabaseDatabaseManagedSoftwareUpdateDetailsList ManagedSoftwareUpdateDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseManagedSoftwareUpdateDetailsList>()!;
+        }
+
         [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NcharacterSet
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "patchVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PatchVersion
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -315,12 +369,6 @@ namespace oci.DatabaseDatabase
         public virtual oci.DatabaseDatabase.DatabaseDatabaseTimeoutsOutputReference Timeouts
         {
             get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseTimeoutsOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string VmClusterId
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]
@@ -379,6 +427,9 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyMigrationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? KmsKeyMigrationInput
@@ -400,6 +451,16 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "managedSoftwareUpdateDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseManagedSoftwareUpdateDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ManagedSoftwareUpdateDetailsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SourceInput
@@ -407,6 +468,9 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseDatabase.IDatabaseDatabaseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -417,6 +481,13 @@ namespace oci.DatabaseDatabase
         [JsiiOptional]
         [JsiiProperty(name: "vaultIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? VaultIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "vmClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VmClusterIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -470,6 +541,9 @@ namespace oci.DatabaseDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "kmsKeyMigration", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object KmsKeyMigration
         {
@@ -520,6 +594,13 @@ namespace oci.DatabaseDatabase
 
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VaultId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmClusterId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

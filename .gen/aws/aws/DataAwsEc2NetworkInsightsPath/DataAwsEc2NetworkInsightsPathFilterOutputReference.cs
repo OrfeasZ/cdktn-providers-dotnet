@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2NetworkInsightsPath
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2NetworkInsightsPath.IDataAwsEc2NetworkInsightsPathFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPathFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

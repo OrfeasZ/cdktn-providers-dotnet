@@ -83,6 +83,9 @@ namespace aws.DataAwsGlueScript
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagEdge" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.SsmcontactsRotation
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmcontactsRotation.SsmcontactsRotation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrence" />)[]</param>
         [JsiiMethod(name: "putRecurrence", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrence\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecurrence(object @value)
         {
@@ -150,6 +151,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrence" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recurrenceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrence\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecurrenceInput

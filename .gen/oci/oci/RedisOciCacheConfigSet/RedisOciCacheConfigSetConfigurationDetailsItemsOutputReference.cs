@@ -63,6 +63,9 @@ namespace oci.RedisOciCacheConfigSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetailsItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

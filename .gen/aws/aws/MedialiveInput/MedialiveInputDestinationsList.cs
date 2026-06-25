@@ -41,6 +41,9 @@ namespace aws.MedialiveInput
             return InvokeInstanceMethod<aws.MedialiveInput.MedialiveInputDestinationsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputDestinations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputDestinations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

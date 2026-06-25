@@ -33,6 +33,7 @@ namespace aws.LexIntent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentSlotValueElicitationPromptMessage" />)[]</param>
         [JsiiMethod(name: "putMessage", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPromptMessage\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMessage(object @value)
         {
@@ -75,6 +76,9 @@ namespace aws.LexIntent
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentSlotValueElicitationPromptMessage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "messageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPromptMessage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MessageInput

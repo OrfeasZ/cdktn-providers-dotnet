@@ -164,6 +164,9 @@ namespace aws.NetworkmanagerAttachmentAccepter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerAttachmentAccepter.INetworkmanagerAttachmentAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

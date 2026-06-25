@@ -35,6 +35,7 @@ namespace aws.RekognitionStreamProcessor
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettingsConnectedHome" />)[]</param>
         [JsiiMethod(name: "putConnectedHome", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHome\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnectedHome(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.RekognitionStreamProcessor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettingsFaceSearch" />)[]</param>
         [JsiiMethod(name: "putFaceSearch", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearch\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFaceSearch(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<aws.RekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearchList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettingsConnectedHome" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectedHomeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHome\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectedHomeInput
@@ -112,6 +117,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettingsFaceSearch" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "faceSearchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FaceSearchInput
@@ -119,6 +127,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettings\"}]}}", isOptional: true)]
         public virtual object? InternalValue

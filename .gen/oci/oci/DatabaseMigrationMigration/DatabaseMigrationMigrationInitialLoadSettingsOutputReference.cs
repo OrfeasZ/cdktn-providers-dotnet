@@ -51,6 +51,7 @@ namespace oci.DatabaseMigrationMigration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsImportDirectoryObject)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps" />)[]</param>
         [JsiiMethod(name: "putMetadataRemaps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetadataRemaps(object @value)
         {
@@ -211,6 +212,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsImportDirectoryObject?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isConsistentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsConsistentInput
@@ -218,6 +222,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIgnoreExistingObjectsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIgnoreExistingObjectsInput
@@ -225,6 +232,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isTzUtcInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsTzUtcInput
@@ -239,6 +249,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataRemapsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetadataRemapsInput
@@ -274,6 +287,9 @@ namespace oci.DatabaseMigrationMigration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isConsistent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsConsistent
         {
@@ -301,6 +317,9 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIgnoreExistingObjects", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIgnoreExistingObjects
         {
@@ -328,6 +347,9 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isTzUtc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsTzUtc
         {

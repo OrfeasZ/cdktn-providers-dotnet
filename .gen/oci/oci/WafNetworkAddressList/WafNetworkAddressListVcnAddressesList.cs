@@ -41,6 +41,9 @@ namespace oci.WafNetworkAddressList
             return InvokeInstanceMethod<oci.WafNetworkAddressList.WafNetworkAddressListVcnAddressesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WafNetworkAddressList.IWafNetworkAddressListVcnAddresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.wafNetworkAddressList.WafNetworkAddressListVcnAddresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

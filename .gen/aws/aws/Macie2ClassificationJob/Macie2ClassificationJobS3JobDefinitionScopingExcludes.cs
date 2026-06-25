@@ -12,6 +12,7 @@ namespace aws.Macie2ClassificationJob
         /// <summary>and block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionScopingExcludesAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "and", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionScopingExcludesAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]

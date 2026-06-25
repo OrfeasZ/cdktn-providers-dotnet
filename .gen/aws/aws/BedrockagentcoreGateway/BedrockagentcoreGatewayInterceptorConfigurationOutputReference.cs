@@ -35,6 +35,7 @@ namespace aws.BedrockagentcoreGateway
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayInterceptorConfigurationInputConfiguration" />)[]</param>
         [JsiiMethod(name: "putInputConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInputConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInputConfiguration(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BedrockagentcoreGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayInterceptorConfigurationInterceptor" />)[]</param>
         [JsiiMethod(name: "putInterceptor", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInterceptor\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInterceptor(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.BedrockagentcoreGateway
             get => GetInstanceProperty<aws.BedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInterceptorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayInterceptorConfigurationInputConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInputConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InputConfigurationInput
@@ -119,6 +124,9 @@ namespace aws.BedrockagentcoreGateway
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayInterceptorConfigurationInterceptor" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interceptorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfigurationInterceptor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InterceptorInput
@@ -133,6 +141,9 @@ namespace aws.BedrockagentcoreGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayInterceptorConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreGateway.BedrockagentcoreGatewayInterceptorConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

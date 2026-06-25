@@ -52,6 +52,7 @@ namespace stripe.Product
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Product.IProductDefaultPriceData)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductMarketingFeatures" />)[]</param>
         [JsiiMethod(name: "putMarketingFeatures", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductMarketingFeatures\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMarketingFeatures(object @value)
         {
@@ -202,6 +203,9 @@ namespace stripe.Product
             get => GetInstanceProperty<stripe.Product.ProductPackageDimensionsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ActiveInput
@@ -230,6 +234,9 @@ namespace stripe.Product
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductMarketingFeatures" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "marketingFeaturesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductMarketingFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MarketingFeaturesInput
@@ -258,6 +265,9 @@ namespace stripe.Product
             get => GetInstanceProperty<stripe.Product.IProductPackageDimensions?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippableInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShippableInput
@@ -300,6 +310,9 @@ namespace stripe.Product
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Active
         {
@@ -355,6 +368,9 @@ namespace stripe.Product
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "shippable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Shippable
         {

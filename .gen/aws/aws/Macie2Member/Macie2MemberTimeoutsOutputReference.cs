@@ -73,6 +73,9 @@ namespace aws.Macie2Member
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Macie2Member.IMacie2MemberTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.macie2Member.Macie2MemberTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

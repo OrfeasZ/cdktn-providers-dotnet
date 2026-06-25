@@ -93,6 +93,9 @@ namespace oci.CoreComputeCapacityReport
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeCapacityReport.ICoreComputeCapacityReportTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeCapacityReport.CoreComputeCapacityReportTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

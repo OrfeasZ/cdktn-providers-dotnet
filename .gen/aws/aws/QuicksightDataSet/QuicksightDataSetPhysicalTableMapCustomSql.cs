@@ -38,6 +38,7 @@ namespace aws.QuicksightDataSet
         /// <summary>columns block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_set#columns QuicksightDataSet#columns}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMapCustomSqlColumns" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]

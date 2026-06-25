@@ -46,6 +46,7 @@ namespace tailscale.DataTailscaleUsers
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(tailscale.DataTailscaleUsers.DataTailscaleUsers), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleUsers.IDataTailscaleUsersUsers" />)[]</param>
         [JsiiMethod(name: "putUsers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleUsers.DataTailscaleUsersUsers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUsers(object @value)
         {
@@ -132,6 +133,9 @@ namespace tailscale.DataTailscaleUsers
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleUsers.IDataTailscaleUsersUsers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.dataTailscaleUsers.DataTailscaleUsersUsers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UsersInput

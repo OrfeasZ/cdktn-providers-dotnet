@@ -33,6 +33,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceScheduledTask.ILogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams" />)[]</param>
         [JsiiMethod(name: "putTemplateParams", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTemplateParams(object @value)
         {
@@ -81,6 +82,9 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceScheduledTask.ILogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "templateParamsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TemplateParamsInput

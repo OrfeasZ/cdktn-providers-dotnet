@@ -35,6 +35,7 @@ namespace aws.CleanroomsMembership
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3" />)[]</param>
         [JsiiMethod(name: "putS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<aws.CleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3List>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3Input
@@ -77,6 +81,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

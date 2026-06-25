@@ -46,6 +46,7 @@ namespace aws.MedialiveMultiplexProgram
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.MedialiveMultiplexProgram.MedialiveMultiplexProgram), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettings" />)[]</param>
         [JsiiMethod(name: "putMultiplexProgramSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMultiplexProgramSettings(object @value)
         {
@@ -137,6 +138,9 @@ namespace aws.MedialiveMultiplexProgram
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiplexProgramSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MultiplexProgramSettingsInput
@@ -158,6 +162,9 @@ namespace aws.MedialiveMultiplexProgram
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

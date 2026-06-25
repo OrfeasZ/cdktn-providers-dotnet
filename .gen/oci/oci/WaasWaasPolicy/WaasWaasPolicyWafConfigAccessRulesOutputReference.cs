@@ -35,6 +35,7 @@ namespace oci.WaasWaasPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRulesCriteria" />)[]</param>
         [JsiiMethod(name: "putCriteria", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRulesCriteria\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCriteria(object @value)
         {
@@ -58,6 +59,7 @@ namespace oci.WaasWaasPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation" />)[]</param>
         [JsiiMethod(name: "putResponseHeaderManipulation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResponseHeaderManipulation(object @value)
         {
@@ -248,6 +250,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRulesCriteria" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "criteriaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRulesCriteria\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CriteriaInput
@@ -276,6 +281,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseHeaderManipulationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResponseHeaderManipulationInput
@@ -381,6 +389,9 @@ namespace oci.WaasWaasPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

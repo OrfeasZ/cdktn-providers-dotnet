@@ -69,6 +69,9 @@ namespace aws.CloudwatchMetricStream
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamIncludeFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

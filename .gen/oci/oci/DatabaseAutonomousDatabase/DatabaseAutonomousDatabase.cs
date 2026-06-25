@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseAutonomousDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_database oci_database_autonomous_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_database oci_database_autonomous_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabase), fullyQualifiedName: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseConfig\"}}]")]
     public class DatabaseAutonomousDatabase : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_database oci_database_autonomous_database} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_database oci_database_autonomous_database} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseAutonomousDatabase(Constructs.Construct scope, string id, oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,19 @@ namespace oci.DatabaseAutonomousDatabase
         /// <param name="importToId">The construct id used in the generated config for the DatabaseAutonomousDatabase to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseAutonomousDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseAutonomousDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseAutonomousDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseAutonomousDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseAutonomousDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseAutonomousDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseAutonomousDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseAutonomousDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        [JsiiMethod(name: "putAutonomousDatabaseMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindow\"}}]")]
+        public virtual void PutAutonomousDatabaseMaintenanceWindow(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindow @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindow)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseCustomerContacts" />)[]</param>
         [JsiiMethod(name: "putCustomerContacts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseCustomerContacts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomerContacts(object @value)
         {
@@ -69,6 +76,7 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseDbToolsDetails" />)[]</param>
         [JsiiMethod(name: "putDbToolsDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseDbToolsDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDbToolsDetails(object @value)
         {
@@ -98,6 +106,7 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseEncryptionKey)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseLongTermBackupSchedule" />)[]</param>
         [JsiiMethod(name: "putLongTermBackupSchedule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseLongTermBackupSchedule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLongTermBackupSchedule(object @value)
         {
@@ -127,6 +136,7 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseResourcePoolSummary)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledOperations" />)[]</param>
         [JsiiMethod(name: "putScheduledOperations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledOperations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutScheduledOperations(object @value)
         {
@@ -156,6 +166,36 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTimeouts)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putTransportableTablespace", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespace\"}}]")]
+        public virtual void PutTransportableTablespace(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTransportableTablespace @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTransportableTablespace)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseVanityUrlDetails" />)[]</param>
+        [JsiiMethod(name: "putVanityUrlDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityUrlDetails\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutVanityUrlDetails(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseVanityUrlDetails[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseVanityUrlDetails).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseVanityUrlDetails).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAdminPassword")]
         public virtual void ResetAdminPassword()
         {
@@ -182,6 +222,12 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiMethod(name: "resetAutonomousDatabaseId")]
         public virtual void ResetAutonomousDatabaseId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAutonomousDatabaseMaintenanceWindow")]
+        public virtual void ResetAutonomousDatabaseMaintenanceWindow()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -480,6 +526,12 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLocalAdgResourcePoolLeaderId")]
+        public virtual void ResetLocalAdgResourcePoolLeaderId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLongTermBackupSchedule")]
         public virtual void ResetLongTermBackupSchedule()
         {
@@ -654,6 +706,12 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeMaintenancePauseUntil")]
+        public virtual void ResetTimeMaintenancePauseUntil()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeOfAutoRefreshStart")]
         public virtual void ResetTimeOfAutoRefreshStart()
         {
@@ -678,8 +736,20 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTransportableTablespace")]
+        public virtual void ResetTransportableTablespace()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUseLatestAvailableBackupTimeStamp")]
         public virtual void ResetUseLatestAvailableBackupTimeStamp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVanityUrlDetails")]
+        public virtual void ResetVanityUrlDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -737,6 +807,12 @@ namespace oci.DatabaseAutonomousDatabase
         public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseApexDetailsList ApexDetails
         {
             get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseApexDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "autonomousDatabaseMaintenanceWindow", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowOutputReference\"}")]
+        public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowOutputReference AutonomousDatabaseMaintenanceWindow
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowOutputReference>()!;
         }
 
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
@@ -809,6 +885,12 @@ namespace oci.DatabaseAutonomousDatabase
         public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseEncryptionKeyHistoryEntryList EncryptionKeyHistoryEntry
         {
             get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseEncryptionKeyHistoryEntryList>()!;
+        }
+
+        [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseEncryptionKeyLocationDetailsList\"}")]
+        public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseEncryptionKeyLocationDetailsList EncryptionKeyLocationDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseEncryptionKeyLocationDetailsList>()!;
         }
 
         [JsiiProperty(name: "failedDataRecoveryInSeconds", typeJson: "{\"primitive\":\"number\"}")]
@@ -1135,6 +1217,12 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "transportableTablespace", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespaceOutputReference\"}")]
+        public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespaceOutputReference TransportableTablespace
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespaceOutputReference>()!;
+        }
+
         [JsiiProperty(name: "usedDataStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double UsedDataStorageSizeInGbs
         {
@@ -1147,6 +1235,18 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "vanityConnectionUrls", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityConnectionUrlsList\"}")]
+        public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityConnectionUrlsList VanityConnectionUrls
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityConnectionUrlsList>()!;
+        }
+
+        [JsiiProperty(name: "vanityUrlDetails", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityUrlDetailsList\"}")]
+        public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityUrlDetailsList VanityUrlDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityUrlDetailsList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "adminPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AdminPasswordInput
@@ -1154,6 +1254,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "arePrimaryWhitelistedIpsUsedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ArePrimaryWhitelistedIpsUsedInput
@@ -1180,6 +1283,13 @@ namespace oci.DatabaseAutonomousDatabase
         public virtual string? AutonomousDatabaseIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autonomousDatabaseMaintenanceWindowInput", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindow\"}", isOptional: true)]
+        public virtual oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindow? AutonomousDatabaseMaintenanceWindowInput
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindow?>();
         }
 
         [JsiiOptional]
@@ -1266,6 +1376,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseCustomerContacts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerContactsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseCustomerContacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomerContactsInput
@@ -1315,6 +1428,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseDbToolsDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dbToolsDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseDbToolsDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DbToolsDetailsInput
@@ -1357,6 +1473,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDeleteScheduledOperationsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableDeleteScheduledOperationsInput
@@ -1392,6 +1511,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAccessControlEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsAccessControlEnabledInput
@@ -1399,6 +1521,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAutoScalingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsAutoScalingEnabledInput
@@ -1406,6 +1531,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAutoScalingForStorageEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsAutoScalingForStorageEnabledInput
@@ -1413,6 +1541,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isBackupRetentionLockedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsBackupRetentionLockedInput
@@ -1420,6 +1551,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDataGuardEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDataGuardEnabledInput
@@ -1427,6 +1561,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDedicatedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDedicatedInput
@@ -1434,6 +1571,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDevTierInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDevTierInput
@@ -1441,6 +1581,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDisableDbVersionUpgradeScheduleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDisableDbVersionUpgradeScheduleInput
@@ -1448,6 +1591,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDisconnectPeerInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDisconnectPeerInput
@@ -1455,6 +1601,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isFreeTierInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsFreeTierInput
@@ -1462,6 +1611,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLocalDataGuardEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLocalDataGuardEnabledInput
@@ -1469,6 +1621,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isMtlsConnectionRequiredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsMtlsConnectionRequiredInput
@@ -1476,6 +1631,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isPreviewVersionWithServiceTermsAcceptedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsPreviewVersionWithServiceTermsAcceptedInput
@@ -1483,6 +1641,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isRefreshableCloneInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsRefreshableCloneInput
@@ -1490,6 +1651,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isReplicateAutomaticBackupsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsReplicateAutomaticBackupsInput
@@ -1497,6 +1661,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isScheduleDbVersionUpgradeToEarliestInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsScheduleDbVersionUpgradeToEarliestInput
@@ -1504,6 +1671,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isShrinkOnlyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsShrinkOnlyInput
@@ -1539,6 +1709,16 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "localAdgResourcePoolLeaderIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LocalAdgResourcePoolLeaderIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseLongTermBackupSchedule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "longTermBackupScheduleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseLongTermBackupSchedule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LongTermBackupScheduleInput
@@ -1644,6 +1824,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseResourcePoolSummary?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rotateKeyTriggerInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RotateKeyTriggerInput
@@ -1651,6 +1834,9 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledOperations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduledOperationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledOperations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScheduledOperationsInput
@@ -1743,12 +1929,22 @@ namespace oci.DatabaseAutonomousDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "timeMaintenancePauseUntilInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeMaintenancePauseUntilInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "timeOfAutoRefreshStartInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TimeOfAutoRefreshStartInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -1771,8 +1967,28 @@ namespace oci.DatabaseAutonomousDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "transportableTablespaceInput", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespace\"}", isOptional: true)]
+        public virtual oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTransportableTablespace? TransportableTablespaceInput
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTransportableTablespace?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "useLatestAvailableBackupTimeStampInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? UseLatestAvailableBackupTimeStampInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseVanityUrlDetails" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "vanityUrlDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityUrlDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? VanityUrlDetailsInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -1798,6 +2014,9 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "arePrimaryWhitelistedIpsUsed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ArePrimaryWhitelistedIpsUsed
         {
@@ -2007,6 +2226,9 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableDeleteScheduledOperations", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableDeleteScheduledOperations
         {
@@ -2055,6 +2277,9 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isAccessControlEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsAccessControlEnabled
         {
@@ -2082,6 +2307,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isAutoScalingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsAutoScalingEnabled
         {
@@ -2109,6 +2337,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isAutoScalingForStorageEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsAutoScalingForStorageEnabled
         {
@@ -2136,6 +2367,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isBackupRetentionLocked", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsBackupRetentionLocked
         {
@@ -2163,6 +2397,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDataGuardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDataGuardEnabled
         {
@@ -2190,6 +2427,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDedicated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDedicated
         {
@@ -2217,6 +2457,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDevTier", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDevTier
         {
@@ -2244,6 +2487,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDisableDbVersionUpgradeSchedule", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDisableDbVersionUpgradeSchedule
         {
@@ -2271,6 +2517,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDisconnectPeer", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDisconnectPeer
         {
@@ -2298,6 +2547,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isFreeTier", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsFreeTier
         {
@@ -2325,6 +2577,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLocalDataGuardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLocalDataGuardEnabled
         {
@@ -2352,6 +2607,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isMtlsConnectionRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsMtlsConnectionRequired
         {
@@ -2379,6 +2637,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isPreviewVersionWithServiceTermsAccepted", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsPreviewVersionWithServiceTermsAccepted
         {
@@ -2406,6 +2667,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isRefreshableClone", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsRefreshableClone
         {
@@ -2433,6 +2697,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isReplicateAutomaticBackups", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsReplicateAutomaticBackups
         {
@@ -2460,6 +2727,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isScheduleDbVersionUpgradeToEarliest", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsScheduleDbVersionUpgradeToEarliest
         {
@@ -2487,6 +2757,9 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isShrinkOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsShrinkOnly
         {
@@ -2539,6 +2812,13 @@ namespace oci.DatabaseAutonomousDatabase
         public virtual double LocalAdgAutoFailoverMaxDataLossLimit
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "localAdgResourcePoolLeaderId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LocalAdgResourcePoolLeaderId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -2633,6 +2913,9 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "rotateKeyTrigger", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RotateKeyTrigger
         {
@@ -2744,6 +3027,13 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "timeMaintenancePauseUntil", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeMaintenancePauseUntil
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "timeOfAutoRefreshStart", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeOfAutoRefreshStart
         {
@@ -2765,6 +3055,9 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "useLatestAvailableBackupTimeStamp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object UseLatestAvailableBackupTimeStamp
         {

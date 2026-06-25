@@ -93,6 +93,9 @@ namespace oci.OpsiDatabaseInsight
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpsiDatabaseInsight.IOpsiDatabaseInsightTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opsiDatabaseInsight.OpsiDatabaseInsightTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

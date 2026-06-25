@@ -73,6 +73,9 @@ namespace aws.AccountRegion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AccountRegion.IAccountRegionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.accountRegion.AccountRegionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

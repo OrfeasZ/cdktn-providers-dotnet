@@ -41,6 +41,9 @@ namespace digitalocean.GradientaiAgent
             return InvokeInstanceMethod<digitalocean.GradientaiAgent.GradientaiAgentParentAgentsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgents" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgents\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

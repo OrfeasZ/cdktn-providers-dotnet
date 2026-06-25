@@ -46,6 +46,7 @@ namespace aws.DataAwsDatapipelinePipelineDefinition
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinition), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsDatapipelinePipelineDefinition.IDataAwsDatapipelinePipelineDefinitionParameterValue" />)[]</param>
         [JsiiMethod(name: "putParameterValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameterValue(object @value)
         {
@@ -131,6 +132,9 @@ namespace aws.DataAwsDatapipelinePipelineDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsDatapipelinePipelineDefinition.IDataAwsDatapipelinePipelineDefinitionParameterValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterValueInput

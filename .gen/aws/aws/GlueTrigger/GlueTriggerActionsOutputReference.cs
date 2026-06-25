@@ -160,6 +160,9 @@ namespace aws.GlueTrigger
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlueTrigger.IGlueTriggerActions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.glueTrigger.GlueTriggerActions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

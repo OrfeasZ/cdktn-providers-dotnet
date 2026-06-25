@@ -41,6 +41,9 @@ namespace aws.Ami
             return InvokeInstanceMethod<aws.Ami.AmiEphemeralBlockDeviceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ami.IAmiEphemeralBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ami.AmiEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

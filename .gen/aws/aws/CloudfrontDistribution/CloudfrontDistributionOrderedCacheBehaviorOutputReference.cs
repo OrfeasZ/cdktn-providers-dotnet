@@ -41,6 +41,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorForwardedValues)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorFunctionAssociation" />)[]</param>
         [JsiiMethod(name: "putFunctionAssociation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFunctionAssociation(object @value)
         {
@@ -70,6 +71,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorGrpcConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionAssociation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionAssociation(object @value)
         {
@@ -234,6 +236,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compressInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CompressInput
@@ -262,6 +267,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorForwardedValues?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorFunctionAssociation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "functionAssociationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FunctionAssociationInput
@@ -276,6 +284,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorGrpcConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionAssociationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionAssociationInput
@@ -325,6 +336,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "smoothStreamingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SmoothStreamingInput
@@ -381,6 +395,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "compress", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Compress
         {
@@ -464,6 +481,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "smoothStreaming", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SmoothStreaming
         {
@@ -519,6 +539,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOrderedCacheBehavior" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehavior\"}]}}", isOptional: true)]
         public virtual object? InternalValue

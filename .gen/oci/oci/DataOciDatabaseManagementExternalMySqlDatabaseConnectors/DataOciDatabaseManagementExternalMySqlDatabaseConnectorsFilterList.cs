@@ -41,6 +41,9 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
             return InvokeInstanceMethod<oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors.DataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors.IDataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementExternalMySqlDatabaseConnectors.DataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

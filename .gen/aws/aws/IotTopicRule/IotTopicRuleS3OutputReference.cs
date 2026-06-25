@@ -97,6 +97,9 @@ namespace aws.IotTopicRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.IotTopicRule.IIotTopicRuleS3" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.iotTopicRule.IotTopicRuleS3\"}]}}", isOptional: true)]
         public virtual object? InternalValue

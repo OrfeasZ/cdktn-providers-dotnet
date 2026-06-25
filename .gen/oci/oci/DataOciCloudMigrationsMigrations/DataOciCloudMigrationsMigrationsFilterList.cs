@@ -41,6 +41,9 @@ namespace oci.DataOciCloudMigrationsMigrations
             return InvokeInstanceMethod<oci.DataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudMigrationsMigrations.IDataOciCloudMigrationsMigrationsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,12 @@ namespace oci.DataOciContainerengineNodePools
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "hostGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "preemptibleNodeConfig", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigList\"}")]
         public virtual oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigList PreemptibleNodeConfig
         {

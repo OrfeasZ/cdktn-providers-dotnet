@@ -7,7 +7,7 @@ namespace oci.AiLanguageModel
     [JsiiInterface(nativeType: typeof(IAiLanguageModelTestStrategy), fullyQualifiedName: "oci.aiLanguageModel.AiLanguageModelTestStrategy")]
     public interface IAiLanguageModelTestStrategy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_language_model#strategy_type AiLanguageModel#strategy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_language_model#strategy_type AiLanguageModel#strategy_type}.</summary>
         [JsiiProperty(name: "strategyType", typeJson: "{\"primitive\":\"string\"}")]
         string StrategyType
         {
@@ -16,7 +16,7 @@ namespace oci.AiLanguageModel
 
         /// <summary>testing_dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_language_model#testing_dataset AiLanguageModel#testing_dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_language_model#testing_dataset AiLanguageModel#testing_dataset}
         /// </remarks>
         [JsiiProperty(name: "testingDataset", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTestStrategyTestingDataset\"}")]
         oci.AiLanguageModel.IAiLanguageModelTestStrategyTestingDataset TestingDataset
@@ -26,7 +26,7 @@ namespace oci.AiLanguageModel
 
         /// <summary>validation_dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_language_model#validation_dataset AiLanguageModel#validation_dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_language_model#validation_dataset AiLanguageModel#validation_dataset}
         /// </remarks>
         [JsiiProperty(name: "validationDataset", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTestStrategyValidationDataset\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace oci.AiLanguageModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_language_model#strategy_type AiLanguageModel#strategy_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_language_model#strategy_type AiLanguageModel#strategy_type}.</summary>
             [JsiiProperty(name: "strategyType", typeJson: "{\"primitive\":\"string\"}")]
             public string StrategyType
             {
@@ -54,7 +54,7 @@ namespace oci.AiLanguageModel
 
             /// <summary>testing_dataset block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_language_model#testing_dataset AiLanguageModel#testing_dataset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_language_model#testing_dataset AiLanguageModel#testing_dataset}
             /// </remarks>
             [JsiiProperty(name: "testingDataset", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTestStrategyTestingDataset\"}")]
             public oci.AiLanguageModel.IAiLanguageModelTestStrategyTestingDataset TestingDataset
@@ -64,7 +64,7 @@ namespace oci.AiLanguageModel
 
             /// <summary>validation_dataset block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_language_model#validation_dataset AiLanguageModel#validation_dataset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_language_model#validation_dataset AiLanguageModel#validation_dataset}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validationDataset", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTestStrategyValidationDataset\"}", isOptional: true)]

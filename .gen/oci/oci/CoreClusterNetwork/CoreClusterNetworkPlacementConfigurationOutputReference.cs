@@ -39,6 +39,7 @@ namespace oci.CoreClusterNetwork
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfigurationPrimaryVnicSubnets)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfigurationSecondaryVnicSubnets" />)[]</param>
         [JsiiMethod(name: "putSecondaryVnicSubnets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkPlacementConfigurationSecondaryVnicSubnets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecondaryVnicSubnets(object @value)
         {
@@ -126,6 +127,9 @@ namespace oci.CoreClusterNetwork
             get => GetInstanceProperty<oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfigurationPrimaryVnicSubnets?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfigurationSecondaryVnicSubnets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryVnicSubnetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkPlacementConfigurationSecondaryVnicSubnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecondaryVnicSubnetsInput

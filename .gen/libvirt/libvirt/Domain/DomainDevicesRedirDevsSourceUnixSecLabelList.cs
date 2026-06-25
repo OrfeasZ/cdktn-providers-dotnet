@@ -41,6 +41,9 @@ namespace libvirt.Domain
             return InvokeInstanceMethod<libvirt.Domain.DomainDevicesRedirDevsSourceUnixSecLabelOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesRedirDevsSourceUnixSecLabel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesRedirDevsSourceUnixSecLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace aws.EksNodeGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksNodeGroup.IEksNodeGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

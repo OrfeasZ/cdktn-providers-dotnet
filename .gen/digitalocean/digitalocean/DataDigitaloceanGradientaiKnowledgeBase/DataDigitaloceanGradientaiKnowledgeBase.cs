@@ -46,6 +46,7 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanGradientaiKnowledgeBase.DataDigitaloceanGradientaiKnowledgeBase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiKnowledgeBase.IDataDigitaloceanGradientaiKnowledgeBaseLastIndexingJob" />)[]</param>
         [JsiiMethod(name: "putLastIndexingJob", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiKnowledgeBase.DataDigitaloceanGradientaiKnowledgeBaseLastIndexingJob\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLastIndexingJob(object @value)
         {
@@ -206,6 +207,9 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isPublicInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsPublicInput
@@ -213,6 +217,9 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiKnowledgeBase.IDataDigitaloceanGradientaiKnowledgeBaseLastIndexingJob" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lastIndexingJobInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiKnowledgeBase.DataDigitaloceanGradientaiKnowledgeBaseLastIndexingJob\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LastIndexingJobInput
@@ -290,6 +297,9 @@ namespace digitalocean.DataDigitaloceanGradientaiKnowledgeBase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isPublic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsPublic
         {

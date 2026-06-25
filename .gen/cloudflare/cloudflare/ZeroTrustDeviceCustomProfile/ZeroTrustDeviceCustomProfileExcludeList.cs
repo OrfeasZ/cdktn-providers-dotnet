@@ -41,6 +41,9 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             return InvokeInstanceMethod<cloudflare.ZeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileExcludeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceCustomProfile.IZeroTrustDeviceCustomProfileExclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

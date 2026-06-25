@@ -41,6 +41,9 @@ namespace oci.VaultSecret
             return InvokeInstanceMethod<oci.VaultSecret.VaultSecretSecretRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VaultSecret.IVaultSecretSecretRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.vaultSecret.VaultSecretSecretRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

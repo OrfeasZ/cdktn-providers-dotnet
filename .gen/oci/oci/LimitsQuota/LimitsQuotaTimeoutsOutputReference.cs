@@ -93,6 +93,9 @@ namespace oci.LimitsQuota
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LimitsQuota.ILimitsQuotaTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.limitsQuota.LimitsQuotaTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

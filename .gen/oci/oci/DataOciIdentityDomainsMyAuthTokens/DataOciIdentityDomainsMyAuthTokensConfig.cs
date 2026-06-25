@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMyAuthTokens.DataOciIdentityDomainsMyAuthTokensConfig")]
     public class DataOciIdentityDomainsMyAuthTokensConfig : oci.DataOciIdentityDomainsMyAuthTokens.IDataOciIdentityDomainsMyAuthTokensConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#idcs_endpoint DataOciIdentityDomainsMyAuthTokens#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#idcs_endpoint DataOciIdentityDomainsMyAuthTokens#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#authorization DataOciIdentityDomainsMyAuthTokens#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#authorization DataOciIdentityDomainsMyAuthTokens#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#compartment_id DataOciIdentityDomainsMyAuthTokens#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#compartment_id DataOciIdentityDomainsMyAuthTokens#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -35,7 +35,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#id DataOciIdentityDomainsMyAuthTokens#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#id DataOciIdentityDomainsMyAuthTokens#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#my_auth_token_count DataOciIdentityDomainsMyAuthTokens#my_auth_token_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#my_auth_token_count DataOciIdentityDomainsMyAuthTokens#my_auth_token_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myAuthTokenCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MyAuthTokenCount
@@ -57,7 +57,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#my_auth_token_filter DataOciIdentityDomainsMyAuthTokens#my_auth_token_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#my_auth_token_filter DataOciIdentityDomainsMyAuthTokens#my_auth_token_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myAuthTokenFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MyAuthTokenFilter
@@ -66,7 +66,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#resource_type_schema_version DataOciIdentityDomainsMyAuthTokens#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#resource_type_schema_version DataOciIdentityDomainsMyAuthTokens#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#sort_by DataOciIdentityDomainsMyAuthTokens#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#sort_by DataOciIdentityDomainsMyAuthTokens#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#sort_order DataOciIdentityDomainsMyAuthTokens#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#sort_order DataOciIdentityDomainsMyAuthTokens#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -93,7 +93,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_my_auth_tokens#start_index DataOciIdentityDomainsMyAuthTokens#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_my_auth_tokens#start_index DataOciIdentityDomainsMyAuthTokens#start_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartIndex
@@ -106,6 +106,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -139,6 +140,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -233,6 +235,7 @@ namespace oci.DataOciIdentityDomainsMyAuthTokens
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

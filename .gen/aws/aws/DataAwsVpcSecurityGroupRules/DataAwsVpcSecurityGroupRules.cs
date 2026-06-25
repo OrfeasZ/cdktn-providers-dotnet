@@ -46,6 +46,7 @@ namespace aws.DataAwsVpcSecurityGroupRules
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsVpcSecurityGroupRules.DataAwsVpcSecurityGroupRules), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsVpcSecurityGroupRules.IDataAwsVpcSecurityGroupRulesFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsVpcSecurityGroupRules.DataAwsVpcSecurityGroupRulesFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -124,6 +125,9 @@ namespace aws.DataAwsVpcSecurityGroupRules
             get => GetInstanceProperty<string[]>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsVpcSecurityGroupRules.IDataAwsVpcSecurityGroupRulesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsVpcSecurityGroupRules.DataAwsVpcSecurityGroupRulesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

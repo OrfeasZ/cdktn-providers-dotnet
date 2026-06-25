@@ -123,6 +123,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<cloudflare.PageRule.PageRuleActionsCacheKeyFieldsUserOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsCookie" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookieInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsCookie\"}]}}", isOptional: true)]
         public virtual object? CookieInput
@@ -130,6 +133,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHeader" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHeader\"}]}}", isOptional: true)]
         public virtual object? HeaderInput
@@ -137,6 +143,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsHost" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsHost\"}]}}", isOptional: true)]
         public virtual object? HostInput
@@ -144,6 +153,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsQueryString" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsQueryString\"}]}}", isOptional: true)]
         public virtual object? QueryStringInput
@@ -151,6 +163,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActionsCacheKeyFieldsUser" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFieldsUser\"}]}}", isOptional: true)]
         public virtual object? UserInput
@@ -158,6 +173,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActionsCacheKeyFields" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFields\"}]}}", isOptional: true)]
         public virtual object? InternalValue

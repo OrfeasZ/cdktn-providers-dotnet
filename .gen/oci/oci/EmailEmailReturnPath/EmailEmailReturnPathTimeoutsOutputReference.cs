@@ -93,6 +93,9 @@ namespace oci.EmailEmailReturnPath
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.EmailEmailReturnPath.IEmailEmailReturnPathTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.emailEmailReturnPath.EmailEmailReturnPathTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

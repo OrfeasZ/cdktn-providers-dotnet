@@ -46,6 +46,7 @@ namespace aws.SagemakerModelCard
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SagemakerModelCard.SagemakerModelCard), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModelCard.ISagemakerModelCardSecurityConfig" />)[]</param>
         [JsiiMethod(name: "putSecurityConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModelCard.SagemakerModelCardSecurityConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecurityConfig(object @value)
         {
@@ -170,6 +171,9 @@ namespace aws.SagemakerModelCard
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModelCard.ISagemakerModelCardSecurityConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModelCard.SagemakerModelCardSecurityConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecurityConfigInput
@@ -184,6 +188,9 @@ namespace aws.SagemakerModelCard
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerModelCard.ISagemakerModelCardTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerModelCard.SagemakerModelCardTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

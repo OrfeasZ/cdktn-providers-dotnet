@@ -93,6 +93,9 @@ namespace aws.QuicksightAnalysis
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightAnalysis.IQuicksightAnalysisTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightAnalysis.QuicksightAnalysisTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

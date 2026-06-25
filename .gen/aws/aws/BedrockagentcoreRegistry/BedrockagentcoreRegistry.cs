@@ -46,6 +46,7 @@ namespace aws.BedrockagentcoreRegistry
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreRegistry.BedrockagentcoreRegistry), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreRegistry.IBedrockagentcoreRegistryApprovalConfiguration" />)[]</param>
         [JsiiMethod(name: "putApprovalConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreRegistry.BedrockagentcoreRegistryApprovalConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApprovalConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.BedrockagentcoreRegistry
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreRegistry.IBedrockagentcoreRegistryAuthorizerConfiguration" />)[]</param>
         [JsiiMethod(name: "putAuthorizerConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreRegistry.BedrockagentcoreRegistryAuthorizerConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthorizerConfiguration(object @value)
         {
@@ -183,6 +185,9 @@ namespace aws.BedrockagentcoreRegistry
             get => GetInstanceProperty<aws.BedrockagentcoreRegistry.BedrockagentcoreRegistryTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreRegistry.IBedrockagentcoreRegistryApprovalConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "approvalConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreRegistry.BedrockagentcoreRegistryApprovalConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApprovalConfigurationInput
@@ -190,6 +195,9 @@ namespace aws.BedrockagentcoreRegistry
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreRegistry.IBedrockagentcoreRegistryAuthorizerConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authorizerConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreRegistry.BedrockagentcoreRegistryAuthorizerConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthorizerConfigurationInput
@@ -225,6 +233,9 @@ namespace aws.BedrockagentcoreRegistry
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcoreRegistry.IBedrockagentcoreRegistryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcoreRegistry.BedrockagentcoreRegistryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

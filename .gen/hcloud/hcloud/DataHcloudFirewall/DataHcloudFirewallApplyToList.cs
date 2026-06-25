@@ -41,6 +41,9 @@ namespace hcloud.DataHcloudFirewall
             return InvokeInstanceMethod<hcloud.DataHcloudFirewall.DataHcloudFirewallApplyToOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

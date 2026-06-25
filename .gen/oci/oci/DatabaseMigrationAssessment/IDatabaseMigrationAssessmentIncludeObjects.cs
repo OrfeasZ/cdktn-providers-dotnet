@@ -1,0 +1,114 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DatabaseMigrationAssessment
+{
+    [JsiiInterface(nativeType: typeof(IDatabaseMigrationAssessmentIncludeObjects), fullyQualifiedName: "oci.databaseMigrationAssessment.DatabaseMigrationAssessmentIncludeObjects")]
+    public interface IDatabaseMigrationAssessmentIncludeObjects
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#object DatabaseMigrationAssessment#object}.</summary>
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        string Object
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#is_omit_excluded_table_from_replication DatabaseMigrationAssessment#is_omit_excluded_table_from_replication}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isOmitExcludedTableFromReplication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? IsOmitExcludedTableFromReplication
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#owner DatabaseMigrationAssessment#owner}.</summary>
+        [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Owner
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#schema DatabaseMigrationAssessment#schema}.</summary>
+        [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Schema
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#type DatabaseMigrationAssessment#type}.</summary>
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Type
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IDatabaseMigrationAssessmentIncludeObjects), fullyQualifiedName: "oci.databaseMigrationAssessment.DatabaseMigrationAssessmentIncludeObjects")]
+        internal sealed class _Proxy : DeputyBase, oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentIncludeObjects
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#object DatabaseMigrationAssessment#object}.</summary>
+            [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+            public string Object
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#is_omit_excluded_table_from_replication DatabaseMigrationAssessment#is_omit_excluded_table_from_replication}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "isOmitExcludedTableFromReplication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? IsOmitExcludedTableFromReplication
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#owner DatabaseMigrationAssessment#owner}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Owner
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#schema DatabaseMigrationAssessment#schema}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Schema
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_assessment#type DatabaseMigrationAssessment#type}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Type
+            {
+                get => GetInstanceProperty<string?>();
+            }
+        }
+    }
+}

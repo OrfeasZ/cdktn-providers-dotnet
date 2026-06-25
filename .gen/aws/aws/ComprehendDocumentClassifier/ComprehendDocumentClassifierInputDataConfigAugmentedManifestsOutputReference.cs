@@ -143,6 +143,9 @@ namespace aws.ComprehendDocumentClassifier
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ComprehendDocumentClassifier.IComprehendDocumentClassifierInputDataConfigAugmentedManifests" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierInputDataConfigAugmentedManifests\"}]}}", isOptional: true)]
         public virtual object? InternalValue

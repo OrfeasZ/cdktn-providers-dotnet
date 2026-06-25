@@ -153,6 +153,9 @@ namespace scaleway.EdgeServicesPipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.EdgeServicesPipeline.IEdgeServicesPipelineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.edgeServicesPipeline.EdgeServicesPipelineTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

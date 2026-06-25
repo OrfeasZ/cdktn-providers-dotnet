@@ -58,6 +58,7 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDevicePlugin)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration" />)[]</param>
         [JsiiMethod(name: "putClusterAutoscalerConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutClusterAutoscalerConfiguration(object @value)
         {
@@ -372,6 +373,9 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDevicePlugin?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clusterAutoscalerConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ClusterAutoscalerConfigurationInput

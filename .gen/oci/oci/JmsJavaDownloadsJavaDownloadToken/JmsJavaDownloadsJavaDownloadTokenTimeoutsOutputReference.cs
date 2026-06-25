@@ -93,6 +93,9 @@ namespace oci.JmsJavaDownloadsJavaDownloadToken
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.JmsJavaDownloadsJavaDownloadToken.IJmsJavaDownloadsJavaDownloadTokenTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.jmsJavaDownloadsJavaDownloadToken.JmsJavaDownloadsJavaDownloadTokenTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

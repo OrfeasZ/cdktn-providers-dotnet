@@ -46,6 +46,7 @@ namespace aws.CloudfrontTrustStore
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudfrontTrustStore.CloudfrontTrustStore), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreCaCertificatesBundleSource" />)[]</param>
         [JsiiMethod(name: "putCaCertificatesBundleSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCaCertificatesBundleSource(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.CloudfrontTrustStore
             get => GetInstanceProperty<aws.CloudfrontTrustStore.CloudfrontTrustStoreTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreCaCertificatesBundleSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "caCertificatesBundleSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CaCertificatesBundleSourceInput
@@ -175,6 +179,9 @@ namespace aws.CloudfrontTrustStore
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

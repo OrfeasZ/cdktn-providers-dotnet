@@ -37,6 +37,7 @@ namespace cloudflare.Ruleset
         /// <summary>A list of TTLs to apply to specific status codes or status code ranges.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#status_code_ttl Ruleset#status_code_ttl}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersEdgeTtlStatusCodeTtl" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusCodeTtl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtlStatusCodeTtl\"},\"kind\":\"array\"}}]}}", isOptional: true)]

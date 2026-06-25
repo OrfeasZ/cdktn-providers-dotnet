@@ -46,6 +46,7 @@ namespace aws.BedrockagentcorePolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcorePolicy.BedrockagentcorePolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinition" />)[]</param>
         [JsiiMethod(name: "putDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefinition(object @value)
         {
@@ -148,6 +149,9 @@ namespace aws.BedrockagentcorePolicy
             get => GetInstanceProperty<aws.BedrockagentcorePolicy.BedrockagentcorePolicyTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "definitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefinitionInput
@@ -183,6 +187,9 @@ namespace aws.BedrockagentcorePolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

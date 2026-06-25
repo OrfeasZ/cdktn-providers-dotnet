@@ -9,7 +9,8 @@ namespace oci.DatascienceModelGroup
     {
         /// <summary>member_model_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_model_group#member_model_details DatascienceModelGroup#member_model_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_group#member_model_details DatascienceModelGroup#member_model_details}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelGroup.IDatascienceModelGroupMemberModelEntriesMemberModelDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "memberModelDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupMemberModelEntriesMemberModelDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +31,8 @@ namespace oci.DatascienceModelGroup
 
             /// <summary>member_model_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_model_group#member_model_details DatascienceModelGroup#member_model_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_model_group#member_model_details DatascienceModelGroup#member_model_details}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelGroup.IDatascienceModelGroupMemberModelEntriesMemberModelDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memberModelDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupMemberModelEntriesMemberModelDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]

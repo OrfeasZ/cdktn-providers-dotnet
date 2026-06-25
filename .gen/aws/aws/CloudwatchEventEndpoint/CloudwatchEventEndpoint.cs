@@ -46,6 +46,7 @@ namespace aws.CloudwatchEventEndpoint
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudwatchEventEndpoint.CloudwatchEventEndpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointEventBus" />)[]</param>
         [JsiiMethod(name: "putEventBus", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventEndpoint.CloudwatchEventEndpointEventBus\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEventBus(object @value)
         {
@@ -167,6 +168,9 @@ namespace aws.CloudwatchEventEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointEventBus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventBusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventEndpoint.CloudwatchEventEndpointEventBus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EventBusInput

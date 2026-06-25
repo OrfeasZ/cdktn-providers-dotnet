@@ -113,6 +113,9 @@ namespace aws.ElasticacheUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheUser.IElasticacheUserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheUser.ElasticacheUserTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

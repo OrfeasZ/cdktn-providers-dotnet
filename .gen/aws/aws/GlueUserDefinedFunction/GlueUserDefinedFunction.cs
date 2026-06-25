@@ -46,6 +46,7 @@ namespace aws.GlueUserDefinedFunction
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlueUserDefinedFunction.GlueUserDefinedFunction), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueUserDefinedFunction.IGlueUserDefinedFunctionResourceUris" />)[]</param>
         [JsiiMethod(name: "putResourceUris", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceUris(object @value)
         {
@@ -186,6 +187,9 @@ namespace aws.GlueUserDefinedFunction
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueUserDefinedFunction.IGlueUserDefinedFunctionResourceUris" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceUrisInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceUrisInput

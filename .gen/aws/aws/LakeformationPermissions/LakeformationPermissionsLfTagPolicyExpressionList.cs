@@ -41,6 +41,9 @@ namespace aws.LakeformationPermissions
             return InvokeInstanceMethod<aws.LakeformationPermissions.LakeformationPermissionsLfTagPolicyExpressionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationPermissions.ILakeformationPermissionsLfTagPolicyExpression" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicyExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

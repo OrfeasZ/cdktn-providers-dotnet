@@ -75,6 +75,9 @@ namespace scaleway.EdgeServicesTlsStage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"}]}}", isOptional: true)]
         public virtual object? InternalValue

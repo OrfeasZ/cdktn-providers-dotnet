@@ -49,6 +49,9 @@ namespace aws.EmrCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrCluster.IEmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification\"}]}}", isOptional: true)]
         public virtual object? InternalValue

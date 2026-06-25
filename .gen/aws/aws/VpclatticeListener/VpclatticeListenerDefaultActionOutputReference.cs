@@ -39,6 +39,7 @@ namespace aws.VpclatticeListener
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.VpclatticeListener.IVpclatticeListenerDefaultActionFixedResponse)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListener.IVpclatticeListenerDefaultActionForward" />)[]</param>
         [JsiiMethod(name: "putForward", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListener.VpclatticeListenerDefaultActionForward\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutForward(object @value)
         {
@@ -93,6 +94,9 @@ namespace aws.VpclatticeListener
             get => GetInstanceProperty<aws.VpclatticeListener.IVpclatticeListenerDefaultActionFixedResponse?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListener.IVpclatticeListenerDefaultActionForward" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListener.VpclatticeListenerDefaultActionForward\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ForwardInput

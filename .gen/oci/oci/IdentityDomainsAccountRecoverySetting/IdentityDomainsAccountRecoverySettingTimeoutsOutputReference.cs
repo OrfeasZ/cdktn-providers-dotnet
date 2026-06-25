@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsAccountRecoverySetting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsAccountRecoverySetting.IIdentityDomainsAccountRecoverySettingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsAccountRecoverySetting.IdentityDomainsAccountRecoverySettingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

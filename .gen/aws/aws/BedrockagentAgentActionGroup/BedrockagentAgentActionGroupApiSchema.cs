@@ -21,6 +21,7 @@ namespace aws.BedrockagentAgentActionGroup
         /// <summary>s3 block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagent_agent_action_group#s3 BedrockagentAgentActionGroup#s3}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupApiSchemaS3" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupApiSchemaS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]

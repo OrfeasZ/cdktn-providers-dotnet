@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIdMapGiDs" />)[]</param>
         [JsiiMethod(name: "putGiDs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIdMapGiDs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGiDs(object @value)
         {
@@ -56,6 +57,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIdMapUiDs" />)[]</param>
         [JsiiMethod(name: "putUiDs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIdMapUiDs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUiDs(object @value)
         {
@@ -103,6 +105,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainIdMapUiDsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIdMapGiDs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "giDsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIdMapGiDs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GiDsInput
@@ -110,6 +115,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIdMapUiDs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uiDsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIdMapUiDs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UiDsInput
@@ -117,6 +125,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainIdMap" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainIdMap\"}]}}", isOptional: true)]
         public virtual object? InternalValue

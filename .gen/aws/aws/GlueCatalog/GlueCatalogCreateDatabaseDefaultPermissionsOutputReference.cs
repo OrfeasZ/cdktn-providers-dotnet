@@ -35,6 +35,7 @@ namespace aws.GlueCatalog
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissionsPrincipal" />)[]</param>
         [JsiiMethod(name: "putPrincipal", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipal\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrincipal(object @value)
         {
@@ -83,6 +84,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissionsPrincipal" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "principalInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissionsPrincipal\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrincipalInput
@@ -97,6 +101,9 @@ namespace aws.GlueCatalog
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlueCatalog.IGlueCatalogCreateDatabaseDefaultPermissions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.glueCatalog.GlueCatalogCreateDatabaseDefaultPermissions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

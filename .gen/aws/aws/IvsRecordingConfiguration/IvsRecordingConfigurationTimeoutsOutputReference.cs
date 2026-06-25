@@ -73,6 +73,9 @@ namespace aws.IvsRecordingConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.IvsRecordingConfiguration.IIvsRecordingConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ivsRecordingConfiguration.IvsRecordingConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -49,8 +49,11 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainBhyveCommandlineArgs" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"libvirt.domain.DomainBhyveCommandlineArgs\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainBhyveCommandlineArgs\"}]}}", isOptional: true)]
         public virtual object? InternalValue
         {
             get => GetInstanceProperty<object?>();
@@ -60,9 +63,9 @@ namespace libvirt.Domain
                 {
                     switch (value)
                     {
-                        case libvirt.Domain.IDomainBhyveCommandlineArgs cast_cd4240:
-                            break;
                         case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case libvirt.Domain.IDomainBhyveCommandlineArgs cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -70,7 +73,7 @@ namespace libvirt.Domain
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(libvirt.Domain.IDomainBhyveCommandlineArgs).FullName}, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(libvirt.Domain.IDomainBhyveCommandlineArgs).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 SetInstanceProperty(value);

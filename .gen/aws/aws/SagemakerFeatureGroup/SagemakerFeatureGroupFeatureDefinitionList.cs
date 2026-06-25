@@ -41,6 +41,9 @@ namespace aws.SagemakerFeatureGroup
             return InvokeInstanceMethod<aws.SagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinitionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerFeatureGroup.ISagemakerFeatureGroupFeatureDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

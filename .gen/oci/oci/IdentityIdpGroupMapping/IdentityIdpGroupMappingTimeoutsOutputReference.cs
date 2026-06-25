@@ -93,6 +93,9 @@ namespace oci.IdentityIdpGroupMapping
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityIdpGroupMapping.IIdentityIdpGroupMappingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityIdpGroupMapping.IdentityIdpGroupMappingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

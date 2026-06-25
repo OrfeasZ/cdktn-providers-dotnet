@@ -77,6 +77,12 @@ namespace oci.DataOciCoreComputeHosts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "firmwareBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FirmwareBundleId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {
@@ -97,6 +103,12 @@ namespace oci.DataOciCoreComputeHosts
 
         [JsiiProperty(name: "health", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Health
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "hostCorrelationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostCorrelationId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -127,6 +139,12 @@ namespace oci.DataOciCoreComputeHosts
 
         [JsiiProperty(name: "networkBlockId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NetworkBlockId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "platform", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Platform
         {
             get => GetInstanceProperty<string>()!;
         }

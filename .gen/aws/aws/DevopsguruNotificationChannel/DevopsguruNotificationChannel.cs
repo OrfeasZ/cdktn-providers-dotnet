@@ -46,6 +46,7 @@ namespace aws.DevopsguruNotificationChannel
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DevopsguruNotificationChannel.DevopsguruNotificationChannel), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruNotificationChannel.IDevopsguruNotificationChannelFilters" />)[]</param>
         [JsiiMethod(name: "putFilters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFilters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilters(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DevopsguruNotificationChannel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruNotificationChannel.IDevopsguruNotificationChannelSns" />)[]</param>
         [JsiiMethod(name: "putSns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSns(object @value)
         {
@@ -147,6 +149,9 @@ namespace aws.DevopsguruNotificationChannel
             get => GetInstanceProperty<aws.DevopsguruNotificationChannel.DevopsguruNotificationChannelSnsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruNotificationChannel.IDevopsguruNotificationChannelFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filtersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FiltersInput
@@ -161,6 +166,9 @@ namespace aws.DevopsguruNotificationChannel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruNotificationChannel.IDevopsguruNotificationChannelSns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SnsInput

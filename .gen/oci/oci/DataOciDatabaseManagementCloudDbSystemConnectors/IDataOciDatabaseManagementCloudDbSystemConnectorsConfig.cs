@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudDbSystemConnectorsConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudDbSystemConnectors.DataOciDatabaseManagementCloudDbSystemConnectorsConfig")]
     public interface IDataOciDatabaseManagementCloudDbSystemConnectorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#cloud_db_system_id DataOciDatabaseManagementCloudDbSystemConnectors#cloud_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#cloud_db_system_id DataOciDatabaseManagementCloudDbSystemConnectors#cloud_db_system_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CloudDbSystemId
@@ -18,7 +18,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#compartment_id DataOciDatabaseManagementCloudDbSystemConnectors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#compartment_id DataOciDatabaseManagementCloudDbSystemConnectors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#display_name DataOciDatabaseManagementCloudDbSystemConnectors#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#display_name DataOciDatabaseManagementCloudDbSystemConnectors#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -42,7 +42,8 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#filter DataOciDatabaseManagementCloudDbSystemConnectors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#filter DataOciDatabaseManagementCloudDbSystemConnectors#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudDbSystemConnectors.IDataOciDatabaseManagementCloudDbSystemConnectorsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementCloudDbSystemConnectors.DataOciDatabaseManagementCloudDbSystemConnectorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +55,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#id DataOciDatabaseManagementCloudDbSystemConnectors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#id DataOciDatabaseManagementCloudDbSystemConnectors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +77,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#cloud_db_system_id DataOciDatabaseManagementCloudDbSystemConnectors#cloud_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#cloud_db_system_id DataOciDatabaseManagementCloudDbSystemConnectors#cloud_db_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CloudDbSystemId
@@ -84,7 +85,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#compartment_id DataOciDatabaseManagementCloudDbSystemConnectors#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#compartment_id DataOciDatabaseManagementCloudDbSystemConnectors#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -92,7 +93,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#display_name DataOciDatabaseManagementCloudDbSystemConnectors#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#display_name DataOciDatabaseManagementCloudDbSystemConnectors#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -102,7 +103,8 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#filter DataOciDatabaseManagementCloudDbSystemConnectors#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#filter DataOciDatabaseManagementCloudDbSystemConnectors#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudDbSystemConnectors.IDataOciDatabaseManagementCloudDbSystemConnectorsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementCloudDbSystemConnectors.DataOciDatabaseManagementCloudDbSystemConnectorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -111,7 +113,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_cloud_db_system_connectors#id DataOciDatabaseManagementCloudDbSystemConnectors#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_cloud_db_system_connectors#id DataOciDatabaseManagementCloudDbSystemConnectors#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,6 +127,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -135,6 +138,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -185,6 +189,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

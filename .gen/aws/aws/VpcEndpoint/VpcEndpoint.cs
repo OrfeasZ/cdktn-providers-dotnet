@@ -52,6 +52,7 @@ namespace aws.VpcEndpoint
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.VpcEndpoint.IVpcEndpointDnsOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcEndpoint.IVpcEndpointSubnetConfiguration" />)[]</param>
         [JsiiMethod(name: "putSubnetConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcEndpoint.VpcEndpointSubnetConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubnetConfiguration(object @value)
         {
@@ -280,6 +281,9 @@ namespace aws.VpcEndpoint
             get => GetInstanceProperty<aws.VpcEndpoint.VpcEndpointTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoAcceptInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoAcceptInput
@@ -315,6 +319,9 @@ namespace aws.VpcEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateDnsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PrivateDnsEnabledInput
@@ -371,6 +378,9 @@ namespace aws.VpcEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcEndpoint.IVpcEndpointSubnetConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subnetConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcEndpoint.VpcEndpointSubnetConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubnetConfigurationInput
@@ -399,6 +409,9 @@ namespace aws.VpcEndpoint
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcEndpoint.IVpcEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcEndpoint.VpcEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -420,6 +433,9 @@ namespace aws.VpcEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoAccept", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoAccept
         {
@@ -468,6 +484,9 @@ namespace aws.VpcEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "privateDnsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PrivateDnsEnabled
         {

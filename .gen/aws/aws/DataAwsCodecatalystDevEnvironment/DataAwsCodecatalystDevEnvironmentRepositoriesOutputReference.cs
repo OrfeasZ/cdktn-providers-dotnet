@@ -47,6 +47,9 @@ namespace aws.DataAwsCodecatalystDevEnvironment
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsCodecatalystDevEnvironment.IDataAwsCodecatalystDevEnvironmentRepositories" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironmentRepositories\"}]}}", isOptional: true)]
         public virtual object? InternalValue

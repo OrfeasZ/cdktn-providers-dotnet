@@ -149,6 +149,9 @@ namespace aws.GlueCrawler
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlueCrawler.IGlueCrawlerS3Target" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.glueCrawler.GlueCrawlerS3Target\"}]}}", isOptional: true)]
         public virtual object? InternalValue

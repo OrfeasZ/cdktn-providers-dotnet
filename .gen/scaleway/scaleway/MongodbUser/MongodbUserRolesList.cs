@@ -41,6 +41,9 @@ namespace scaleway.MongodbUser
             return InvokeInstanceMethod<scaleway.MongodbUser.MongodbUserRolesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.MongodbUser.IMongodbUserRoles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.mongodbUser.MongodbUserRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

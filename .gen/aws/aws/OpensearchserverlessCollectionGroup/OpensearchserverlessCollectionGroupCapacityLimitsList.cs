@@ -41,6 +41,9 @@ namespace aws.OpensearchserverlessCollectionGroup
             return InvokeInstanceMethod<aws.OpensearchserverlessCollectionGroup.OpensearchserverlessCollectionGroupCapacityLimitsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollectionGroup.IOpensearchserverlessCollectionGroupCapacityLimits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollectionGroup.OpensearchserverlessCollectionGroupCapacityLimits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

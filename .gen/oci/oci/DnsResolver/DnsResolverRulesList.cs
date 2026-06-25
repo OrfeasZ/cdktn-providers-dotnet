@@ -41,6 +41,9 @@ namespace oci.DnsResolver
             return InvokeInstanceMethod<oci.DnsResolver.DnsResolverRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsResolver.IDnsResolverRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dnsResolver.DnsResolverRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -129,6 +129,9 @@ namespace aws.AccessanalyzerArchiveRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AccessanalyzerArchiveRule.IAccessanalyzerArchiveRuleFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

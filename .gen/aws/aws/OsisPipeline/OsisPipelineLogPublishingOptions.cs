@@ -12,6 +12,7 @@ namespace aws.OsisPipeline
         /// <summary>cloudwatch_log_destination block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OsisPipeline.IOsisPipelineLogPublishingOptionsCloudwatchLogDestination" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogDestination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,6 +45,9 @@ namespace aws.OsisPipeline
         private object? _isLoggingEnabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLoggingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsLoggingEnabled

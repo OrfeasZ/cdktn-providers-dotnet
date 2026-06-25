@@ -123,6 +123,9 @@ namespace aws.LightsailContainerServiceDeploymentVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LightsailContainerServiceDeploymentVersion.ILightsailContainerServiceDeploymentVersionContainer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionContainer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

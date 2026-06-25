@@ -73,6 +73,9 @@ namespace aws.GrafanaRoleAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GrafanaRoleAssociation.IGrafanaRoleAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

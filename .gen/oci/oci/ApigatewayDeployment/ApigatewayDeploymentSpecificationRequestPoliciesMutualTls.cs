@@ -7,7 +7,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPoliciesMutualTls")]
     public class ApigatewayDeploymentSpecificationRequestPoliciesMutualTls : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRequestPoliciesMutualTls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apigateway_deployment#allowed_sans ApigatewayDeployment#allowed_sans}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#allowed_sans ApigatewayDeployment#allowed_sans}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedSans", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AllowedSans
@@ -18,7 +18,10 @@ namespace oci.ApigatewayDeployment
 
         private object? _isVerifiedCertificateRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apigateway_deployment#is_verified_certificate_required ApigatewayDeployment#is_verified_certificate_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment#is_verified_certificate_required ApigatewayDeployment#is_verified_certificate_required}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isVerifiedCertificateRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsVerifiedCertificateRequired

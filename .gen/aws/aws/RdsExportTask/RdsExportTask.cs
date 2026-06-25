@@ -211,6 +211,9 @@ namespace aws.RdsExportTask
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsExportTask.IRdsExportTaskTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsExportTask.RdsExportTaskTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -5,7 +5,7 @@ namespace oci.ApigatewayDeployment
     /// <remarks>
     /// <h1><c>oci_apigateway_deployment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apigateway_deployment"><c>oci_apigateway_deployment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apigateway_deployment"><c>oci_apigateway_deployment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -41,6 +41,9 @@ namespace aws.SagemakerProject
             return InvokeInstanceMethod<aws.SagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerProject.ISagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

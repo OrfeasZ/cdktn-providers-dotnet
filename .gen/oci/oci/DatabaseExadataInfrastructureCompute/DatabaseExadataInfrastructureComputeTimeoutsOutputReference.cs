@@ -93,6 +93,9 @@ namespace oci.DatabaseExadataInfrastructureCompute
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseExadataInfrastructureCompute.IDatabaseExadataInfrastructureComputeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseExadataInfrastructureCompute.DatabaseExadataInfrastructureComputeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

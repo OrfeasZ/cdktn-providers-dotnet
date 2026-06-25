@@ -41,6 +41,9 @@ namespace aws.Route53DomainsRegisteredDomain
             return InvokeInstanceMethod<aws.Route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsRegisteredDomain.IRoute53DomainsRegisteredDomainNameServer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

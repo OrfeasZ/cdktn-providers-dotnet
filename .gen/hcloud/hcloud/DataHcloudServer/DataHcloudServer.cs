@@ -46,6 +46,7 @@ namespace hcloud.DataHcloudServer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(hcloud.DataHcloudServer.DataHcloudServer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudServer.IDataHcloudServerNetwork" />)[]</param>
         [JsiiMethod(name: "putNetwork", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudServer.DataHcloudServerNetwork\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetwork(object @value)
         {
@@ -252,6 +253,9 @@ namespace hcloud.DataHcloudServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudServer.IDataHcloudServerNetwork" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudServer.DataHcloudServerNetwork\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkInput

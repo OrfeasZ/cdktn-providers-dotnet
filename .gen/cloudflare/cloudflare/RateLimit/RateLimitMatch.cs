@@ -10,6 +10,9 @@ namespace cloudflare.RateLimit
         private object? _headers;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.RateLimit.IRateLimitMatchHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Headers

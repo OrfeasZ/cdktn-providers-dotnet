@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "availableStorageCapacityInTbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AvailableStorageCapacityInTbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "isDisabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsDisabled
         {
@@ -49,6 +55,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
 
         [JsiiProperty(name: "poolSize", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double PoolSize
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "poolStorageSizeInTbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PoolStorageSizeInTbs
         {
             get => GetInstanceProperty<double>()!;
         }

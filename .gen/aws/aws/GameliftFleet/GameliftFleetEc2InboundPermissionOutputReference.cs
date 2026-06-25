@@ -91,6 +91,9 @@ namespace aws.GameliftFleet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GameliftFleet.IGameliftFleetEc2InboundPermission" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.gameliftFleet.GameliftFleetEc2InboundPermission\"}]}}", isOptional: true)]
         public virtual object? InternalValue

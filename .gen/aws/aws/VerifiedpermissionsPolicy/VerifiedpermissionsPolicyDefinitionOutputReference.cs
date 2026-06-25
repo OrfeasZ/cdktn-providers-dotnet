@@ -35,6 +35,7 @@ namespace aws.VerifiedpermissionsPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsPolicy.IVerifiedpermissionsPolicyDefinitionStatic" />)[]</param>
         [JsiiMethod(name: "putStatic", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionStatic\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStatic(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.VerifiedpermissionsPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsPolicy.IVerifiedpermissionsPolicyDefinitionTemplateLinked" />)[]</param>
         [JsiiMethod(name: "putTemplateLinked", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinked\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTemplateLinked(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.VerifiedpermissionsPolicy
             get => GetInstanceProperty<aws.VerifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinkedList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsPolicy.IVerifiedpermissionsPolicyDefinitionStatic" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "staticInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionStatic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StaticInput
@@ -112,6 +117,9 @@ namespace aws.VerifiedpermissionsPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsPolicy.IVerifiedpermissionsPolicyDefinitionTemplateLinked" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "templateLinkedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinked\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TemplateLinkedInput
@@ -119,6 +127,9 @@ namespace aws.VerifiedpermissionsPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VerifiedpermissionsPolicy.IVerifiedpermissionsPolicyDefinition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

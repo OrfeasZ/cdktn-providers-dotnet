@@ -123,6 +123,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainFeaturesKvmPvipiOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesKvmDirtyRing" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dirtyRingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesKvmDirtyRing\"}]}}", isOptional: true)]
         public virtual object? DirtyRingInput
@@ -130,6 +133,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesKvmHidden" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hiddenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesKvmHidden\"}]}}", isOptional: true)]
         public virtual object? HiddenInput
@@ -137,6 +143,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesKvmHintDedicated" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hintDedicatedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesKvmHintDedicated\"}]}}", isOptional: true)]
         public virtual object? HintDedicatedInput
@@ -144,6 +153,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesKvmPollControl" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pollControlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesKvmPollControl\"}]}}", isOptional: true)]
         public virtual object? PollControlInput
@@ -151,6 +163,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesKvmPvipi" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pvipiInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesKvmPvipi\"}]}}", isOptional: true)]
         public virtual object? PvipiInput
@@ -158,6 +173,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesKvm" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesKvm\"}]}}", isOptional: true)]
         public virtual object? InternalValue

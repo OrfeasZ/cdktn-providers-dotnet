@@ -35,6 +35,12 @@ namespace oci.DataOciRedisRedisClusters
         {
         }
 
+        [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BackupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "clusterMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClusterMode
         {
@@ -81,6 +87,12 @@ namespace oci.DataOciRedisRedisClusters
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "importFromObjectStorageDetails", typeJson: "{\"fqn\":\"oci.dataOciRedisRedisClusters.DataOciRedisRedisClustersRedisClusterCollectionItemsImportFromObjectStorageDetailsList\"}")]
+        public virtual oci.DataOciRedisRedisClusters.DataOciRedisRedisClustersRedisClusterCollectionItemsImportFromObjectStorageDetailsList ImportFromObjectStorageDetails
+        {
+            get => GetInstanceProperty<oci.DataOciRedisRedisClusters.DataOciRedisRedisClustersRedisClusterCollectionItemsImportFromObjectStorageDetailsList>()!;
         }
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]

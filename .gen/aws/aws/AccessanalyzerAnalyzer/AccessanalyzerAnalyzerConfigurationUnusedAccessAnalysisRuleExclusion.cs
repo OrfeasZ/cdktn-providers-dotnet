@@ -19,6 +19,9 @@ namespace aws.AccessanalyzerAnalyzer
         private object? _resourceTags;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/accessanalyzer_analyzer#resource_tags AccessanalyzerAnalyzer#resource_tags}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (Dictionary&lt;string, string&gt;)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? ResourceTags

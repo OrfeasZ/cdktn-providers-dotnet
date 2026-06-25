@@ -117,6 +117,9 @@ namespace aws.NetworkmanagerLinkAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerLinkAssociation.INetworkmanagerLinkAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -17,6 +17,7 @@ namespace aws.QuicksightDataSet
         /// <summary>input_columns block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_set#input_columns QuicksightDataSet#input_columns}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMapS3SourceInputColumns" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "inputColumns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumns\"},\"kind\":\"array\"}}]}}")]
         object InputColumns
@@ -51,6 +52,7 @@ namespace aws.QuicksightDataSet
             /// <summary>input_columns block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_set#input_columns QuicksightDataSet#input_columns}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMapS3SourceInputColumns" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "inputColumns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumns\"},\"kind\":\"array\"}}]}}")]
             public object InputColumns

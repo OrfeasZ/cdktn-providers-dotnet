@@ -41,6 +41,9 @@ namespace oci.DataOciJmsFleetDiagnoses
             return InvokeInstanceMethod<oci.DataOciJmsFleetDiagnoses.DataOciJmsFleetDiagnosesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsFleetDiagnoses.IDataOciJmsFleetDiagnosesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsFleetDiagnoses.DataOciJmsFleetDiagnosesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -75,6 +75,9 @@ namespace oci.WafNetworkAddressList
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WafNetworkAddressList.IWafNetworkAddressListVcnAddresses" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.wafNetworkAddressList.WafNetworkAddressListVcnAddresses\"}]}}", isOptional: true)]
         public virtual object? InternalValue

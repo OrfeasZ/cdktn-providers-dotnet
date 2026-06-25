@@ -69,6 +69,9 @@ namespace aws.WorkspacesIpGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspacesIpGroup.IWorkspacesIpGroupRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspacesIpGroup.WorkspacesIpGroupRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DataOciGoldenGateDeploymentPeers
             return InvokeInstanceMethod<oci.DataOciGoldenGateDeploymentPeers.DataOciGoldenGateDeploymentPeersFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateDeploymentPeers.IDataOciGoldenGateDeploymentPeersFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGoldenGateDeploymentPeers.DataOciGoldenGateDeploymentPeersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

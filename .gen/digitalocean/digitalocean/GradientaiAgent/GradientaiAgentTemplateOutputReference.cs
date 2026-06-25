@@ -35,6 +35,7 @@ namespace digitalocean.GradientaiAgent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateKnowledgeBases" />)[]</param>
         [JsiiMethod(name: "putKnowledgeBases", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateKnowledgeBases\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKnowledgeBases(object @value)
         {
@@ -58,6 +59,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModel" />)[]</param>
         [JsiiMethod(name: "putModel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutModel(object @value)
         {
@@ -186,6 +188,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateKnowledgeBases" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "knowledgeBasesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateKnowledgeBases\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KnowledgeBasesInput
@@ -200,6 +205,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplateModel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplateModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ModelInput
@@ -291,6 +299,9 @@ namespace digitalocean.GradientaiAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.GradientaiAgent.IGradientaiAgentTemplate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentTemplate\"}]}}", isOptional: true)]
         public virtual object? InternalValue

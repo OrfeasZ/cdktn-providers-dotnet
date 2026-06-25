@@ -93,6 +93,9 @@ namespace oci.GenerativeAiGenerativeAiPrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GenerativeAiGenerativeAiPrivateEndpoint.IGenerativeAiGenerativeAiPrivateEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.generativeAiGenerativeAiPrivateEndpoint.GenerativeAiGenerativeAiPrivateEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.DesktopsDesktopPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DesktopsDesktopPool.IDesktopsDesktopPoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

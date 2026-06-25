@@ -41,6 +41,9 @@ namespace aws.SsmPatchBaseline
             return InvokeInstanceMethod<aws.SsmPatchBaseline.SsmPatchBaselineSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

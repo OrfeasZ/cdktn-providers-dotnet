@@ -9,7 +9,8 @@ namespace oci.VaultSecret
     {
         /// <summary>replication_targets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#replication_targets VaultSecret#replication_targets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#replication_targets VaultSecret#replication_targets}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VaultSecret.IVaultSecretReplicationConfigReplicationTargets" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "replicationTargets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.vaultSecret.VaultSecretReplicationConfigReplicationTargets\"},\"kind\":\"array\"}}]}}")]
         object ReplicationTargets
@@ -17,7 +18,10 @@ namespace oci.VaultSecret
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#is_write_forward_enabled VaultSecret#is_write_forward_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#is_write_forward_enabled VaultSecret#is_write_forward_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isWriteForwardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? IsWriteForwardEnabled
@@ -37,7 +41,8 @@ namespace oci.VaultSecret
 
             /// <summary>replication_targets block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#replication_targets VaultSecret#replication_targets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#replication_targets VaultSecret#replication_targets}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VaultSecret.IVaultSecretReplicationConfigReplicationTargets" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "replicationTargets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.vaultSecret.VaultSecretReplicationConfigReplicationTargets\"},\"kind\":\"array\"}}]}}")]
             public object ReplicationTargets
@@ -45,7 +50,10 @@ namespace oci.VaultSecret
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#is_write_forward_enabled VaultSecret#is_write_forward_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#is_write_forward_enabled VaultSecret#is_write_forward_enabled}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isWriteForwardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? IsWriteForwardEnabled

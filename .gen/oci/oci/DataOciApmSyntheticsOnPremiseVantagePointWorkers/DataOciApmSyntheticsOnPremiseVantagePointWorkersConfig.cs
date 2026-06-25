@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsOnPremiseVantagePointWorkers.DataOciApmSyntheticsOnPremiseVantagePointWorkersConfig")]
     public class DataOciApmSyntheticsOnPremiseVantagePointWorkersConfig : oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers.IDataOciApmSyntheticsOnPremiseVantagePointWorkersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#on_premise_vantage_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#on_premise_vantage_point_id}.</summary>
         [JsiiProperty(name: "onPremiseVantagePointId", typeJson: "{\"primitive\":\"string\"}")]
         public string OnPremiseVantagePointId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#capability DataOciApmSyntheticsOnPremiseVantagePointWorkers#capability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#capability DataOciApmSyntheticsOnPremiseVantagePointWorkers#capability}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capability", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Capability
@@ -34,7 +34,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#display_name DataOciApmSyntheticsOnPremiseVantagePointWorkers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#display_name DataOciApmSyntheticsOnPremiseVantagePointWorkers#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -47,7 +47,8 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#filter DataOciApmSyntheticsOnPremiseVantagePointWorkers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#filter DataOciApmSyntheticsOnPremiseVantagePointWorkers#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers.IDataOciApmSyntheticsOnPremiseVantagePointWorkersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciApmSyntheticsOnPremiseVantagePointWorkers.DataOciApmSyntheticsOnPremiseVantagePointWorkersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -77,7 +78,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#id DataOciApmSyntheticsOnPremiseVantagePointWorkers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#id DataOciApmSyntheticsOnPremiseVantagePointWorkers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +91,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -99,7 +100,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#status DataOciApmSyntheticsOnPremiseVantagePointWorkers#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#status DataOciApmSyntheticsOnPremiseVantagePointWorkers#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -112,6 +113,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -145,6 +147,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -239,6 +242,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorkers
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

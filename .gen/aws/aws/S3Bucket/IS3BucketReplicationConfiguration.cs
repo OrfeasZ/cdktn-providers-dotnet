@@ -17,6 +17,7 @@ namespace aws.S3Bucket
         /// <summary>rules block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketReplicationConfigurationRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketReplicationConfigurationRules\"},\"kind\":\"array\"}}]}}")]
         object Rules
@@ -41,6 +42,7 @@ namespace aws.S3Bucket
             /// <summary>rules block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketReplicationConfigurationRules" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketReplicationConfigurationRules\"},\"kind\":\"array\"}}]}}")]
             public object Rules

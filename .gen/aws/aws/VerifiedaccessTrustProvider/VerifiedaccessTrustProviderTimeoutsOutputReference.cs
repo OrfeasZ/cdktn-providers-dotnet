@@ -93,6 +93,9 @@ namespace aws.VerifiedaccessTrustProvider
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VerifiedaccessTrustProvider.IVerifiedaccessTrustProviderTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.verifiedaccessTrustProvider.VerifiedaccessTrustProviderTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace aws.VpclatticeListenerRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListenerRule.IVpclatticeListenerRuleMatchHttpMatchHeaderMatches" />)[]</param>
         [JsiiMethod(name: "putHeaderMatches", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatches\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHeaderMatches(object @value)
         {
@@ -92,6 +93,9 @@ namespace aws.VpclatticeListenerRule
             get => GetInstanceProperty<aws.VpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListenerRule.IVpclatticeListenerRuleMatchHttpMatchHeaderMatches" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerMatchesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatches\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HeaderMatchesInput

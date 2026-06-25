@@ -33,6 +33,7 @@ namespace aws.EcsService
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules" />)[]</param>
         [JsiiMethod(name: "putTestTrafficRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTestTrafficRules(object @value)
         {
@@ -88,6 +89,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "testTrafficRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TestTrafficRulesInput

@@ -46,6 +46,7 @@ namespace aws.AppconfigExtension
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppconfigExtension.AppconfigExtension), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigExtension.IAppconfigExtensionActionPoint" />)[]</param>
         [JsiiMethod(name: "putActionPoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionActionPoint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutActionPoint(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.AppconfigExtension
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigExtension.IAppconfigExtensionParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -171,6 +173,9 @@ namespace aws.AppconfigExtension
             get => GetInstanceProperty<double>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigExtension.IAppconfigExtensionActionPoint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionPointInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionActionPoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActionPointInput
@@ -199,6 +204,9 @@ namespace aws.AppconfigExtension
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigExtension.IAppconfigExtensionParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput

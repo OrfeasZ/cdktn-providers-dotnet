@@ -49,6 +49,9 @@ namespace aws.ObservabilityadminTelemetryPipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ObservabilityadminTelemetryPipeline.IObservabilityadminTelemetryPipelineConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.observabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipelineConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

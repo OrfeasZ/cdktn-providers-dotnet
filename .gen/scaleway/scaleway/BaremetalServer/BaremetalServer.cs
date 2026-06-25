@@ -46,6 +46,7 @@ namespace scaleway.BaremetalServer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.BaremetalServer.BaremetalServer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BaremetalServer.IBaremetalServerOptions" />)[]</param>
         [JsiiMethod(name: "putOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.baremetalServer.BaremetalServerOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOptions(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.BaremetalServer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BaremetalServer.IBaremetalServerPrivateIps" />)[]</param>
         [JsiiMethod(name: "putPrivateIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.baremetalServer.BaremetalServerPrivateIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIps(object @value)
         {
@@ -92,6 +94,7 @@ namespace scaleway.BaremetalServer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BaremetalServer.IBaremetalServerPrivateNetwork" />)[]</param>
         [JsiiMethod(name: "putPrivateNetwork", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.baremetalServer.BaremetalServerPrivateNetwork\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateNetwork(object @value)
         {
@@ -396,6 +399,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "installConfigAfterwardInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? InstallConfigAfterwardInput
@@ -417,6 +423,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BaremetalServer.IBaremetalServerOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "optionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.baremetalServer.BaremetalServerOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OptionsInput
@@ -459,6 +468,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BaremetalServer.IBaremetalServerPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.baremetalServer.BaremetalServerPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpsInput
@@ -466,6 +478,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BaremetalServer.IBaremetalServerPrivateNetwork" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetworkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.baremetalServer.BaremetalServerPrivateNetwork\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateNetworkInput
@@ -480,6 +495,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protectedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ProtectedInput
@@ -487,6 +505,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reinstallOnConfigChangesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ReinstallOnConfigChangesInput
@@ -536,6 +557,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.BaremetalServer.IBaremetalServerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.baremetalServer.BaremetalServerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -585,6 +609,9 @@ namespace scaleway.BaremetalServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "installConfigAfterward", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object InstallConfigAfterward
         {
@@ -668,6 +695,9 @@ namespace scaleway.BaremetalServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "protected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Protected
         {
@@ -695,6 +725,9 @@ namespace scaleway.BaremetalServer
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "reinstallOnConfigChanges", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ReinstallOnConfigChanges
         {

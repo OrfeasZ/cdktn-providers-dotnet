@@ -41,6 +41,9 @@ namespace aws.AuditmanagerControl
             return InvokeInstanceMethod<aws.AuditmanagerControl.AuditmanagerControlControlMappingSourcesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

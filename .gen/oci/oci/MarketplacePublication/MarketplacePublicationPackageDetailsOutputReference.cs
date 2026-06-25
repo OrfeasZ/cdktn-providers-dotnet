@@ -33,6 +33,7 @@ namespace oci.MarketplacePublication
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MarketplacePublication.IMarketplacePublicationPackageDetailsEula" />)[]</param>
         [JsiiMethod(name: "putEula", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationPackageDetailsEula\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEula(object @value)
         {
@@ -80,6 +81,9 @@ namespace oci.MarketplacePublication
             get => GetInstanceProperty<oci.MarketplacePublication.MarketplacePublicationPackageDetailsOperatingSystemOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MarketplacePublication.IMarketplacePublicationPackageDetailsEula" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eulaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationPackageDetailsEula\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EulaInput

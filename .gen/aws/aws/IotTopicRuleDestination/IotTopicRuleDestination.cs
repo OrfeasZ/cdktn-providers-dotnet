@@ -119,6 +119,9 @@ namespace aws.IotTopicRuleDestination
             get => GetInstanceProperty<aws.IotTopicRuleDestination.IotTopicRuleDestinationVpcConfigurationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -140,6 +143,9 @@ namespace aws.IotTopicRuleDestination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.IotTopicRuleDestination.IIotTopicRuleDestinationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.iotTopicRuleDestination.IotTopicRuleDestinationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -154,6 +160,9 @@ namespace aws.IotTopicRuleDestination
             get => GetInstanceProperty<aws.IotTopicRuleDestination.IIotTopicRuleDestinationVpcConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

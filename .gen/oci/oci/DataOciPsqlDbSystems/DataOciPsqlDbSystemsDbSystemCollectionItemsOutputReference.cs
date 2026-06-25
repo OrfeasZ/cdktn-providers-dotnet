@@ -41,6 +41,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "applyChangeModeToStandAlone", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ApplyChangeModeToStandAlone
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "applyConfig", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ApplyConfig
         {
@@ -131,6 +137,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsInstancesDetailsList>()!;
         }
 
+        [JsiiProperty(name: "kerberosAuthDetails", typeJson: "{\"fqn\":\"oci.dataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsKerberosAuthDetailsList\"}")]
+        public virtual oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsKerberosAuthDetailsList KerberosAuthDetails
+        {
+            get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsKerberosAuthDetailsList>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -149,10 +161,22 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsNetworkDetailsList>()!;
         }
 
+        [JsiiProperty(name: "odspInsightDetails", typeJson: "{\"fqn\":\"oci.dataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsOdspInsightDetailsList\"}")]
+        public virtual oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsOdspInsightDetailsList OdspInsightDetails
+        {
+            get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsOdspInsightDetailsList>()!;
+        }
+
         [JsiiProperty(name: "patchOperations", typeJson: "{\"fqn\":\"oci.dataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsPatchOperationsList\"}")]
         public virtual oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsPatchOperationsList PatchOperations
         {
             get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsPatchOperationsList>()!;
+        }
+
+        [JsiiProperty(name: "replicationConfig", typeJson: "{\"fqn\":\"oci.dataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsReplicationConfigList\"}")]
+        public virtual oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsReplicationConfigList ReplicationConfig
+        {
+            get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsReplicationConfigList>()!;
         }
 
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
@@ -177,6 +201,12 @@ namespace oci.DataOciPsqlDbSystems
         public virtual oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsStorageDetailsList StorageDetails
         {
             get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsStorageDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "systemRole", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SystemRole
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]

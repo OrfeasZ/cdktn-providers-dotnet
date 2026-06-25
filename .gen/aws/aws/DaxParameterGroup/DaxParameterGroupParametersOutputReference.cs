@@ -63,6 +63,9 @@ namespace aws.DaxParameterGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DaxParameterGroup.IDaxParameterGroupParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.daxParameterGroup.DaxParameterGroupParameters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

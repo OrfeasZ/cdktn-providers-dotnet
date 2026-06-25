@@ -93,6 +93,9 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BdsBdsInstanceIdentityConfiguration.IBdsBdsInstanceIdentityConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

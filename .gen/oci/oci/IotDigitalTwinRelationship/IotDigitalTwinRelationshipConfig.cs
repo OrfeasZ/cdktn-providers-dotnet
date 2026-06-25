@@ -9,7 +9,7 @@ namespace oci.IotDigitalTwinRelationship
     [JsiiByValue(fqn: "oci.iotDigitalTwinRelationship.IotDigitalTwinRelationshipConfig")]
     public class IotDigitalTwinRelationshipConfig : oci.IotDigitalTwinRelationship.IIotDigitalTwinRelationshipConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#content_path IotDigitalTwinRelationship#content_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#content_path IotDigitalTwinRelationship#content_path}.</summary>
         [JsiiProperty(name: "contentPath", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentPath
         {
@@ -17,7 +17,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#iot_domain_id IotDigitalTwinRelationship#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#iot_domain_id IotDigitalTwinRelationship#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotDomainId
         {
@@ -25,7 +25,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#source_digital_twin_instance_id IotDigitalTwinRelationship#source_digital_twin_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#source_digital_twin_instance_id IotDigitalTwinRelationship#source_digital_twin_instance_id}.</summary>
         [JsiiProperty(name: "sourceDigitalTwinInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceDigitalTwinInstanceId
         {
@@ -33,7 +33,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#target_digital_twin_instance_id IotDigitalTwinRelationship#target_digital_twin_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#target_digital_twin_instance_id IotDigitalTwinRelationship#target_digital_twin_instance_id}.</summary>
         [JsiiProperty(name: "targetDigitalTwinInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetDigitalTwinInstanceId
         {
@@ -41,7 +41,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#content IotDigitalTwinRelationship#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#content IotDigitalTwinRelationship#content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Content
@@ -50,7 +50,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#defined_tags IotDigitalTwinRelationship#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#defined_tags IotDigitalTwinRelationship#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -59,7 +59,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#description IotDigitalTwinRelationship#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#description IotDigitalTwinRelationship#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -68,7 +68,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#display_name IotDigitalTwinRelationship#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#display_name IotDigitalTwinRelationship#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -77,7 +77,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#freeform_tags IotDigitalTwinRelationship#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#freeform_tags IotDigitalTwinRelationship#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -86,7 +86,7 @@ namespace oci.IotDigitalTwinRelationship
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#id IotDigitalTwinRelationship#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#id IotDigitalTwinRelationship#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace oci.IotDigitalTwinRelationship
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/iot_digital_twin_relationship#timeouts IotDigitalTwinRelationship#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/iot_digital_twin_relationship#timeouts IotDigitalTwinRelationship#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotDigitalTwinRelationship.IotDigitalTwinRelationshipTimeouts\"}", isOptional: true)]
@@ -115,6 +115,7 @@ namespace oci.IotDigitalTwinRelationship
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -148,6 +149,7 @@ namespace oci.IotDigitalTwinRelationship
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -242,6 +244,7 @@ namespace oci.IotDigitalTwinRelationship
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

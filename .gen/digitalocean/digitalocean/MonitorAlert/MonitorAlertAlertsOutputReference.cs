@@ -33,6 +33,7 @@ namespace digitalocean.MonitorAlert
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.MonitorAlert.IMonitorAlertAlertsSlack" />)[]</param>
         [JsiiMethod(name: "putSlack", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.monitorAlert.MonitorAlertAlertsSlack\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSlack(object @value)
         {
@@ -81,6 +82,9 @@ namespace digitalocean.MonitorAlert
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.MonitorAlert.IMonitorAlertAlertsSlack" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slackInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.monitorAlert.MonitorAlertAlertsSlack\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SlackInput

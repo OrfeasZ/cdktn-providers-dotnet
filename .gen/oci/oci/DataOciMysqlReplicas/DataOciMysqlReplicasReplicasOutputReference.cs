@@ -107,6 +107,12 @@ namespace oci.DataOciMysqlReplicas
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ipv6Address
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isDeleteProtected", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsDeleteProtected
         {
@@ -171,6 +177,12 @@ namespace oci.DataOciMysqlReplicas
         public virtual string State
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.dataOciMysqlReplicas.DataOciMysqlReplicasReplicasTelemetryConfigurationList\"}")]
+        public virtual oci.DataOciMysqlReplicas.DataOciMysqlReplicasReplicasTelemetryConfigurationList TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlReplicas.DataOciMysqlReplicasReplicasTelemetryConfigurationList>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

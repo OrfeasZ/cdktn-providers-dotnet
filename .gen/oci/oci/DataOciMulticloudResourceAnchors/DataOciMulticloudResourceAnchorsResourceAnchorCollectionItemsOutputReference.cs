@@ -41,6 +41,30 @@ namespace oci.DataOciMulticloudResourceAnchors
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "compartmentName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CompartmentName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cspAdditionalProperties", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap CspAdditionalProperties
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "cspResourceAnchorId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CspResourceAnchorId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cspResourceAnchorName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CspResourceAnchorName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {
@@ -73,6 +97,30 @@ namespace oci.DataOciMulticloudResourceAnchors
 
         [JsiiProperty(name: "lifecycleState", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "linkedCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LinkedCompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "linkedCompartmentName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LinkedCompartmentName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "partnerCloudAccountIdentifier", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PartnerCloudAccountIdentifier
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "resourceAnchorUri", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResourceAnchorUri
         {
             get => GetInstanceProperty<string>()!;
         }

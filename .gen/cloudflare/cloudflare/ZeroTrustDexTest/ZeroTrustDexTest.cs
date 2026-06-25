@@ -52,6 +52,7 @@ namespace cloudflare.ZeroTrustDexTest
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDexTest.IZeroTrustDexTestData)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDexTest.IZeroTrustDexTestTargetPolicies" />)[]</param>
         [JsiiMethod(name: "putTargetPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDexTest.ZeroTrustDexTestTargetPolicies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetPolicies(object @value)
         {
@@ -143,6 +144,9 @@ namespace cloudflare.ZeroTrustDexTest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDexTest.IZeroTrustDexTestData" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDexTest.ZeroTrustDexTestData\"}]}}", isOptional: true)]
         public virtual object? DataInput
@@ -157,6 +161,9 @@ namespace cloudflare.ZeroTrustDexTest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -178,6 +185,9 @@ namespace cloudflare.ZeroTrustDexTest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDexTest.IZeroTrustDexTestTargetPolicies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetPoliciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDexTest.ZeroTrustDexTestTargetPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetPoliciesInput
@@ -199,6 +209,9 @@ namespace cloudflare.ZeroTrustDexTest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

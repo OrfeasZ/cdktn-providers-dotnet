@@ -93,6 +93,9 @@ namespace oci.LoadBalancerListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LoadBalancerListener.ILoadBalancerListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.loadBalancerListener.LoadBalancerListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

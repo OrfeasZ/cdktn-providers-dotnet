@@ -89,6 +89,9 @@ namespace aws.OsisPipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OsisPipeline.IOsisPipelineVpcOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.osisPipeline.OsisPipelineVpcOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

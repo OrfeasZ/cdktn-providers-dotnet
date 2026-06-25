@@ -10,6 +10,7 @@ namespace digitalocean.GradientaiKnowledgeBase
         /// <summary>file_upload_data_source block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#file_upload_data_source GradientaiKnowledgeBase#file_upload_data_source}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesFileUploadDataSource" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "fileUploadDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesFileUploadDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,6 +25,7 @@ namespace digitalocean.GradientaiKnowledgeBase
         /// <summary>last_indexing_job block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#last_indexing_job GradientaiKnowledgeBase#last_indexing_job}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesLastIndexingJob" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "lastIndexingJob", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesLastIndexingJob\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,6 +40,7 @@ namespace digitalocean.GradientaiKnowledgeBase
         /// <summary>spaces_data_source block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#spaces_data_source GradientaiKnowledgeBase#spaces_data_source}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesSpacesDataSource" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "spacesDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesSpacesDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,6 +69,7 @@ namespace digitalocean.GradientaiKnowledgeBase
         /// <summary>web_crawler_data_source block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#web_crawler_data_source GradientaiKnowledgeBase#web_crawler_data_source}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesWebCrawlerDataSource" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "webCrawlerDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesWebCrawlerDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,6 +91,7 @@ namespace digitalocean.GradientaiKnowledgeBase
             /// <summary>file_upload_data_source block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#file_upload_data_source GradientaiKnowledgeBase#file_upload_data_source}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesFileUploadDataSource" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileUploadDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesFileUploadDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -98,6 +103,7 @@ namespace digitalocean.GradientaiKnowledgeBase
             /// <summary>last_indexing_job block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#last_indexing_job GradientaiKnowledgeBase#last_indexing_job}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesLastIndexingJob" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lastIndexingJob", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesLastIndexingJob\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -109,6 +115,7 @@ namespace digitalocean.GradientaiKnowledgeBase
             /// <summary>spaces_data_source block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#spaces_data_source GradientaiKnowledgeBase#spaces_data_source}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesSpacesDataSource" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "spacesDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesSpacesDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -131,6 +138,7 @@ namespace digitalocean.GradientaiKnowledgeBase
             /// <summary>web_crawler_data_source block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_knowledge_base#web_crawler_data_source GradientaiKnowledgeBase#web_crawler_data_source}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseDatasourcesWebCrawlerDataSource" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "webCrawlerDataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseDatasourcesWebCrawlerDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]

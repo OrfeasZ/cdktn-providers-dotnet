@@ -14,6 +14,7 @@ namespace aws.MskReplicator
         /// <summary>consumer_group_replication block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/msk_replicator#consumer_group_replication MskReplicator#consumer_group_replication}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListConsumerGroupReplication" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "consumerGroupReplication", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplication\"},\"kind\":\"array\"}}]}}")]
         public object ConsumerGroupReplication
@@ -71,6 +72,7 @@ namespace aws.MskReplicator
         /// <summary>topic_replication block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/msk_replicator#topic_replication MskReplicator#topic_replication}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListTopicReplication" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "topicReplication", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplication\"},\"kind\":\"array\"}}]}}")]
         public object TopicReplication

@@ -41,6 +41,9 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
             return InvokeInstanceMethod<oci.DataOciTenantmanagercontrolplaneOrganizationTenancies.DataOciTenantmanagercontrolplaneOrganizationTenanciesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneOrganizationTenancies.IDataOciTenantmanagercontrolplaneOrganizationTenanciesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciTenantmanagercontrolplaneOrganizationTenancies.DataOciTenantmanagercontrolplaneOrganizationTenanciesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

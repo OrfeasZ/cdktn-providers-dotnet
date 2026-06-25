@@ -59,6 +59,7 @@ namespace oci.DatasciencePipelineRun
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigurationDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct" />)[]</param>
         [JsiiMethod(name: "putStepStorageMountConfigurationDetailsList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStepStorageMountConfigurationDetailsList(object @value)
         {
@@ -171,6 +172,9 @@ namespace oci.DatasciencePipelineRun
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepStorageMountConfigurationDetailsListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepStorageMountConfigurationDetailsListInput
@@ -185,6 +189,9 @@ namespace oci.DatasciencePipelineRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

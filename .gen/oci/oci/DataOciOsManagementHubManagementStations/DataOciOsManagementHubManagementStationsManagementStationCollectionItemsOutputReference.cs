@@ -35,6 +35,12 @@ namespace oci.DataOciOsManagementHubManagementStations
         {
         }
 
+        [JsiiProperty(name: "archType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ArchType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -99,6 +105,12 @@ namespace oci.DataOciOsManagementHubManagementStations
         public virtual double MirrorCapacity
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "osFamily", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OsFamily
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "overallPercentage", typeJson: "{\"primitive\":\"number\"}")]

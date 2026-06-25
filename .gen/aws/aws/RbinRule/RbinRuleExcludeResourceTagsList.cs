@@ -41,6 +41,9 @@ namespace aws.RbinRule
             return InvokeInstanceMethod<aws.RbinRule.RbinRuleExcludeResourceTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RbinRule.IRbinRuleExcludeResourceTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rbinRule.RbinRuleExcludeResourceTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

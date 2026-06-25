@@ -46,6 +46,7 @@ namespace aws.SagemakerModel
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SagemakerModel.SagemakerModel), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainer" />)[]</param>
         [JsiiMethod(name: "putContainer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContainer(object @value)
         {
@@ -196,6 +197,9 @@ namespace aws.SagemakerModel
             get => GetInstanceProperty<aws.SagemakerModel.SagemakerModelVpcConfigOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContainerInput
@@ -203,6 +207,9 @@ namespace aws.SagemakerModel
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableNetworkIsolationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableNetworkIsolationInput
@@ -273,6 +280,9 @@ namespace aws.SagemakerModel
             get => GetInstanceProperty<aws.SagemakerModel.ISagemakerModelVpcConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableNetworkIsolation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableNetworkIsolation
         {

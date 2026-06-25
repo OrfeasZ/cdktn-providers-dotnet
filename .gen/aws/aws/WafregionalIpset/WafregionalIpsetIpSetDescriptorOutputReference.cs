@@ -63,6 +63,9 @@ namespace aws.WafregionalIpset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafregionalIpset.IWafregionalIpsetIpSetDescriptor" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafregionalIpset.WafregionalIpsetIpSetDescriptor\"}]}}", isOptional: true)]
         public virtual object? InternalValue

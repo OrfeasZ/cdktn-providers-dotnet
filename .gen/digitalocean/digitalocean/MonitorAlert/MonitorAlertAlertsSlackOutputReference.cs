@@ -63,6 +63,9 @@ namespace digitalocean.MonitorAlert
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.MonitorAlert.IMonitorAlertAlertsSlack" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.monitorAlert.MonitorAlertAlertsSlack\"}]}}", isOptional: true)]
         public virtual object? InternalValue

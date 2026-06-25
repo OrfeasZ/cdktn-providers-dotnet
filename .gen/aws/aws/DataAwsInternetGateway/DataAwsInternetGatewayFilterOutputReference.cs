@@ -63,6 +63,9 @@ namespace aws.DataAwsInternetGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsInternetGateway.IDataAwsInternetGatewayFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsInternetGateway.DataAwsInternetGatewayFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

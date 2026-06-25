@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsFilter")]
     public class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsFilter : oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations.IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#values DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#values DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#regex DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#regex DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

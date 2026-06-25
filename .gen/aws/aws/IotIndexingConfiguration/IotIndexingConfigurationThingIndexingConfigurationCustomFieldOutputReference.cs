@@ -75,6 +75,9 @@ namespace aws.IotIndexingConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationCustomField" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationCustomField\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace cloudflare.Share
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.Share.Share), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Share.IShareRecipients" />)[]</param>
         [JsiiMethod(name: "putRecipients", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.share.ShareRecipients\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecipients(object @value)
         {
@@ -69,6 +70,7 @@ namespace cloudflare.Share
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Share.IShareResources" />)[]</param>
         [JsiiMethod(name: "putResources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.share.ShareResources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResources(object @value)
         {
@@ -209,6 +211,9 @@ namespace cloudflare.Share
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Share.IShareRecipients" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recipientsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.share.ShareRecipients\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecipientsInput
@@ -216,6 +221,9 @@ namespace cloudflare.Share
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Share.IShareResources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.share.ShareResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourcesInput

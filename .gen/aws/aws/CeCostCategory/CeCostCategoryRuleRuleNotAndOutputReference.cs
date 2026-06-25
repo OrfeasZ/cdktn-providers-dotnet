@@ -110,6 +110,9 @@ namespace aws.CeCostCategory
             get => GetInstanceProperty<aws.CeCostCategory.ICeCostCategoryRuleRuleNotAndTags?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CeCostCategory.ICeCostCategoryRuleRuleNotAnd" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ceCostCategory.CeCostCategoryRuleRuleNotAnd\"}]}}", isOptional: true)]
         public virtual object? InternalValue

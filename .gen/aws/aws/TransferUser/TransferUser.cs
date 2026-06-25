@@ -46,6 +46,7 @@ namespace aws.TransferUser
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TransferUser.TransferUser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferUser.ITransferUserHomeDirectoryMappings" />)[]</param>
         [JsiiMethod(name: "putHomeDirectoryMappings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferUser.TransferUserHomeDirectoryMappings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHomeDirectoryMappings(object @value)
         {
@@ -191,6 +192,9 @@ namespace aws.TransferUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferUser.ITransferUserHomeDirectoryMappings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "homeDirectoryMappingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferUser.TransferUserHomeDirectoryMappings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HomeDirectoryMappingsInput
@@ -261,6 +265,9 @@ namespace aws.TransferUser
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TransferUser.ITransferUserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.transferUser.TransferUserTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

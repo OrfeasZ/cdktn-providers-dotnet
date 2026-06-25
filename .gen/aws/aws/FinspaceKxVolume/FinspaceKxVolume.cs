@@ -46,6 +46,7 @@ namespace aws.FinspaceKxVolume
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FinspaceKxVolume.FinspaceKxVolume), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxVolume.IFinspaceKxVolumeNas1Configuration" />)[]</param>
         [JsiiMethod(name: "putNas1Configuration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNas1Configuration(object @value)
         {
@@ -226,6 +227,9 @@ namespace aws.FinspaceKxVolume
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxVolume.IFinspaceKxVolumeNas1Configuration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nas1ConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Nas1ConfigurationInput
@@ -254,6 +258,9 @@ namespace aws.FinspaceKxVolume
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxVolume.IFinspaceKxVolumeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxVolume.FinspaceKxVolumeTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

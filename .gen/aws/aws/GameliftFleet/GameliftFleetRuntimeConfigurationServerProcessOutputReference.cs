@@ -83,6 +83,9 @@ namespace aws.GameliftFleet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GameliftFleet.IGameliftFleetRuntimeConfigurationServerProcess" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcess\"}]}}", isOptional: true)]
         public virtual object? InternalValue

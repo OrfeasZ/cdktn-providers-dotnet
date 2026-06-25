@@ -93,6 +93,9 @@ namespace oci.DataSafeOnPremConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeOnPremConnector.IDataSafeOnPremConnectorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeOnPremConnector.DataSafeOnPremConnectorTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

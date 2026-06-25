@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2TransitGatewayDxGatewayAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2TransitGatewayDxGatewayAttachment.IDataAwsEc2TransitGatewayDxGatewayAttachmentFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2TransitGatewayDxGatewayAttachment.DataAwsEc2TransitGatewayDxGatewayAttachmentFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

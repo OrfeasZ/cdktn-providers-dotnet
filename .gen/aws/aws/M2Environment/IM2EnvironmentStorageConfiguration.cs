@@ -10,6 +10,7 @@ namespace aws.M2Environment
         /// <summary>efs block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/m2_environment#efs M2Environment#efs}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationEfs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "efs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationEfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,6 +25,7 @@ namespace aws.M2Environment
         /// <summary>fsx block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/m2_environment#fsx M2Environment#fsx}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationFsx" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "fsx", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationFsx\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,6 +47,7 @@ namespace aws.M2Environment
             /// <summary>efs block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/m2_environment#efs M2Environment#efs}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationEfs" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "efs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationEfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -56,6 +59,7 @@ namespace aws.M2Environment
             /// <summary>fsx block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/m2_environment#fsx M2Environment#fsx}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationFsx" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fsx", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationFsx\"},\"kind\":\"array\"}}]}}", isOptional: true)]

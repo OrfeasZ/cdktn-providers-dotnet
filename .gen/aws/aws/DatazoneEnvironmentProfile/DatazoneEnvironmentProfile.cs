@@ -46,6 +46,7 @@ namespace aws.DatazoneEnvironmentProfile
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatazoneEnvironmentProfile.DatazoneEnvironmentProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneEnvironmentProfile.IDatazoneEnvironmentProfileUserParameters" />)[]</param>
         [JsiiMethod(name: "putUserParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUserParameters(object @value)
         {
@@ -198,6 +199,9 @@ namespace aws.DatazoneEnvironmentProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneEnvironmentProfile.IDatazoneEnvironmentProfileUserParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserParametersInput

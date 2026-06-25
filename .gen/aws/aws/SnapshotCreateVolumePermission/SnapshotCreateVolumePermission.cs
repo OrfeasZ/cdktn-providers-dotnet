@@ -123,6 +123,9 @@ namespace aws.SnapshotCreateVolumePermission
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SnapshotCreateVolumePermission.ISnapshotCreateVolumePermissionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

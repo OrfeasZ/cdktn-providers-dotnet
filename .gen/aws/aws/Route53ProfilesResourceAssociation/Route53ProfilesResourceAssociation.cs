@@ -160,6 +160,9 @@ namespace aws.Route53ProfilesResourceAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ProfilesResourceAssociation.IRoute53ProfilesResourceAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ProfilesResourceAssociation.Route53ProfilesResourceAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

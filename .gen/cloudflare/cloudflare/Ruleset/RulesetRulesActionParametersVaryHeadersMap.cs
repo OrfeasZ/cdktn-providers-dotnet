@@ -40,6 +40,9 @@ namespace cloudflare.Ruleset
             return InvokeInstanceMethod<cloudflare.Ruleset.RulesetRulesActionParametersVaryHeadersOutputReference>(new System.Type[]{typeof(string)}, new object[]{key})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersVaryHeaders" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVaryHeaders\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

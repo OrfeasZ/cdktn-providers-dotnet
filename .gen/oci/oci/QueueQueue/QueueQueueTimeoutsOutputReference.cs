@@ -93,6 +93,9 @@ namespace oci.QueueQueue
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.QueueQueue.IQueueQueueTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.queueQueue.QueueQueueTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

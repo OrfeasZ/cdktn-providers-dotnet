@@ -144,6 +144,9 @@ namespace cloudflare.HyperdriveConfig
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.HyperdriveConfig.IHyperdriveConfigCaching" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cachingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigCaching\"}]}}", isOptional: true)]
         public virtual object? CachingInput
@@ -151,6 +154,9 @@ namespace cloudflare.HyperdriveConfig
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.HyperdriveConfig.IHyperdriveConfigMtls" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mtlsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigMtls\"}]}}", isOptional: true)]
         public virtual object? MtlsInput
@@ -172,6 +178,9 @@ namespace cloudflare.HyperdriveConfig
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.HyperdriveConfig.IHyperdriveConfigOrigin" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigOrigin\"}]}}", isOptional: true)]
         public virtual object? OriginInput

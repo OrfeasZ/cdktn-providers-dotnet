@@ -41,6 +41,9 @@ namespace cloudflare.R2BucketLock
             return InvokeInstanceMethod<cloudflare.R2BucketLock.R2BucketLockRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketLock.IR2BucketLockRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLock.R2BucketLockRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

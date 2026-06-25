@@ -41,6 +41,9 @@ namespace hcloud.LoadBalancer
             return InvokeInstanceMethod<hcloud.LoadBalancer.LoadBalancerTargetOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.LoadBalancer.ILoadBalancerTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.loadBalancer.LoadBalancerTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

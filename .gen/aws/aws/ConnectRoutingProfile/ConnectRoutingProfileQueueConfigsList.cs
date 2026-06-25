@@ -41,6 +41,9 @@ namespace aws.ConnectRoutingProfile
             return InvokeInstanceMethod<aws.ConnectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectRoutingProfile.IConnectRoutingProfileQueueConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

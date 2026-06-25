@@ -93,6 +93,9 @@ namespace oci.ObjectstorageNamespaceMetadata
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ObjectstorageNamespaceMetadata.IObjectstorageNamespaceMetadataTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.objectstorageNamespaceMetadata.ObjectstorageNamespaceMetadataTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

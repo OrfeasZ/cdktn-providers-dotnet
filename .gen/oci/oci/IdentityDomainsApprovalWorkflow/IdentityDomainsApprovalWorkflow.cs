@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IdentityDomainsApprovalWorkflow
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_approval_workflow oci_identity_domains_approval_workflow}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_approval_workflow oci_identity_domains_approval_workflow}.</summary>
     [JsiiClass(nativeType: typeof(oci.IdentityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflow), fullyQualifiedName: "oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflow", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowConfig\"}}]")]
     public class IdentityDomainsApprovalWorkflow : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_approval_workflow oci_identity_domains_approval_workflow} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_approval_workflow oci_identity_domains_approval_workflow} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IdentityDomainsApprovalWorkflow(Constructs.Construct scope, string id, oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.IdentityDomainsApprovalWorkflow
         /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsApprovalWorkflow to import.</param>
         /// <param name="importFromId">The id of the existing IdentityDomainsApprovalWorkflow that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IdentityDomainsApprovalWorkflow to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsApprovalWorkflow to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_approval_workflow#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsApprovalWorkflow that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsApprovalWorkflow to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsApprovalWorkflow to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_approval_workflow#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsApprovalWorkflow that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsApprovalWorkflow to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflow), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowApprovalWorkflowSteps" />)[]</param>
         [JsiiMethod(name: "putApprovalWorkflowSteps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowApprovalWorkflowSteps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApprovalWorkflowSteps(object @value)
         {
@@ -75,6 +76,7 @@ namespace oci.IdentityDomainsApprovalWorkflow
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowMaxDuration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -261,6 +263,9 @@ namespace oci.IdentityDomainsApprovalWorkflow
             get => GetInstanceProperty<oci.IdentityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowApprovalWorkflowSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "approvalWorkflowStepsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowApprovalWorkflowSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApprovalWorkflowStepsInput
@@ -338,6 +343,9 @@ namespace oci.IdentityDomainsApprovalWorkflow
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput
@@ -345,6 +353,9 @@ namespace oci.IdentityDomainsApprovalWorkflow
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

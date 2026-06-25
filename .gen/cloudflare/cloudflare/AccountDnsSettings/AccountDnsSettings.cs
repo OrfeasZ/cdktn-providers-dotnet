@@ -96,6 +96,9 @@ namespace cloudflare.AccountDnsSettings
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enforceDnsOnlyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnforceDnsOnlyInput
@@ -103,6 +106,9 @@ namespace cloudflare.AccountDnsSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AccountDnsSettings.IAccountDnsSettingsZoneDefaults" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneDefaultsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.accountDnsSettings.AccountDnsSettingsZoneDefaults\"}]}}", isOptional: true)]
         public virtual object? ZoneDefaultsInput
@@ -117,6 +123,9 @@ namespace cloudflare.AccountDnsSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enforceDnsOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnforceDnsOnly
         {

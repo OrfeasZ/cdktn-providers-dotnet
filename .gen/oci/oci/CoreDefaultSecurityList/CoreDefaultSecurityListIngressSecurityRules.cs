@@ -9,7 +9,7 @@ namespace oci.CoreDefaultSecurityList
     [JsiiByValue(fqn: "oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRules")]
     public class CoreDefaultSecurityListIngressSecurityRules : oci.CoreDefaultSecurityList.ICoreDefaultSecurityListIngressSecurityRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#protocol CoreDefaultSecurityList#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#protocol CoreDefaultSecurityList#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -17,7 +17,7 @@ namespace oci.CoreDefaultSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#source CoreDefaultSecurityList#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#source CoreDefaultSecurityList#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {
@@ -25,7 +25,7 @@ namespace oci.CoreDefaultSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#description CoreDefaultSecurityList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#description CoreDefaultSecurityList#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -36,7 +36,7 @@ namespace oci.CoreDefaultSecurityList
 
         /// <summary>icmp_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#icmp_options CoreDefaultSecurityList#icmp_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#icmp_options CoreDefaultSecurityList#icmp_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icmpOptions", typeJson: "{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRulesIcmpOptions\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace oci.CoreDefaultSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#source_type CoreDefaultSecurityList#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#source_type CoreDefaultSecurityList#source_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceType
@@ -57,7 +57,10 @@ namespace oci.CoreDefaultSecurityList
 
         private object? _stateless;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#stateless CoreDefaultSecurityList#stateless}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#stateless CoreDefaultSecurityList#stateless}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stateless", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Stateless
@@ -88,7 +91,7 @@ namespace oci.CoreDefaultSecurityList
 
         /// <summary>tcp_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#tcp_options CoreDefaultSecurityList#tcp_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#tcp_options CoreDefaultSecurityList#tcp_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcpOptions", typeJson: "{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRulesTcpOptions\"}", isOptional: true)]
@@ -100,7 +103,7 @@ namespace oci.CoreDefaultSecurityList
 
         /// <summary>udp_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_default_security_list#udp_options CoreDefaultSecurityList#udp_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_default_security_list#udp_options CoreDefaultSecurityList#udp_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "udpOptions", typeJson: "{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRulesUdpOptions\"}", isOptional: true)]

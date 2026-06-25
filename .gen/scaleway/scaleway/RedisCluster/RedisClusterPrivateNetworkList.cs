@@ -41,6 +41,9 @@ namespace scaleway.RedisCluster
             return InvokeInstanceMethod<scaleway.RedisCluster.RedisClusterPrivateNetworkOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateNetwork" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterPrivateNetwork\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

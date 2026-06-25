@@ -22,6 +22,7 @@ namespace aws.FsxFileCache
         /// <summary>metadata_configuration block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/fsx_file_cache#metadata_configuration FsxFileCache#metadata_configuration}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheLustreConfigurationMetadataConfiguration" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "metadataConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfiguration\"},\"kind\":\"array\"}}]}}")]
         public object MetadataConfiguration

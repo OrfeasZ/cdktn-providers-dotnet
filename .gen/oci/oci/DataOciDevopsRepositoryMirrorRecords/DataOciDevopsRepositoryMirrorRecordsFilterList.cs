@@ -41,6 +41,9 @@ namespace oci.DataOciDevopsRepositoryMirrorRecords
             return InvokeInstanceMethod<oci.DataOciDevopsRepositoryMirrorRecords.DataOciDevopsRepositoryMirrorRecordsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDevopsRepositoryMirrorRecords.IDataOciDevopsRepositoryMirrorRecordsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDevopsRepositoryMirrorRecords.DataOciDevopsRepositoryMirrorRecordsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -69,6 +69,9 @@ namespace acme.Certificate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="acme.Certificate.ICertificateDnsChallenge" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"acme.certificate.CertificateDnsChallenge\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.OsisPipeline
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OsisPipeline.IOsisPipelineLogPublishingOptionsCloudwatchLogDestination" />)[]</param>
         [JsiiMethod(name: "putCloudwatchLogDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudwatchLogDestination(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.OsisPipeline
             get => GetInstanceProperty<aws.OsisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OsisPipeline.IOsisPipelineLogPublishingOptionsCloudwatchLogDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudwatchLogDestinationInput
@@ -83,6 +87,9 @@ namespace aws.OsisPipeline
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLoggingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLoggingEnabledInput
@@ -90,6 +97,9 @@ namespace aws.OsisPipeline
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLoggingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLoggingEnabled
         {
@@ -117,6 +127,9 @@ namespace aws.OsisPipeline
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OsisPipeline.IOsisPipelineLogPublishingOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.osisPipeline.OsisPipelineLogPublishingOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

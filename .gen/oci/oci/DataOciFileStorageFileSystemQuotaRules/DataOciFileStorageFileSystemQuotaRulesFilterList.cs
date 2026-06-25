@@ -41,6 +41,9 @@ namespace oci.DataOciFileStorageFileSystemQuotaRules
             return InvokeInstanceMethod<oci.DataOciFileStorageFileSystemQuotaRules.DataOciFileStorageFileSystemQuotaRulesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFileStorageFileSystemQuotaRules.IDataOciFileStorageFileSystemQuotaRulesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFileStorageFileSystemQuotaRules.DataOciFileStorageFileSystemQuotaRulesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

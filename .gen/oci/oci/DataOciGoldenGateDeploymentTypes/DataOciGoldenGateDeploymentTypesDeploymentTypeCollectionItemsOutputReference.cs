@@ -83,6 +83,12 @@ namespace oci.DataOciGoldenGateDeploymentTypes
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "supportedLicenseTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] SupportedLicenseTypes
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "supportedTechnologiesUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SupportedTechnologiesUrl
         {

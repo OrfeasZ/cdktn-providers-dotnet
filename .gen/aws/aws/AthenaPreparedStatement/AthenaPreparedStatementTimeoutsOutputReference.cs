@@ -93,6 +93,9 @@ namespace aws.AthenaPreparedStatement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AthenaPreparedStatement.IAthenaPreparedStatementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.athenaPreparedStatement.AthenaPreparedStatementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -89,6 +89,9 @@ namespace aws.AmiFromInstance
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AmiFromInstance.IAmiFromInstanceEbsBlockDevice" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.amiFromInstance.AmiFromInstanceEbsBlockDevice\"}]}}", isOptional: true)]
         public virtual object? InternalValue

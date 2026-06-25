@@ -33,6 +33,7 @@ namespace oci.DatascienceNotebookSession
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceNotebookSession.IDatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection" />)[]</param>
         [JsiiMethod(name: "putNotebookSessionGitRepoConfigCollection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceNotebookSession.DatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNotebookSessionGitRepoConfigCollection(object @value)
         {
@@ -68,6 +69,9 @@ namespace oci.DatascienceNotebookSession
             get => GetInstanceProperty<oci.DatascienceNotebookSession.DatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollectionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceNotebookSession.IDatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notebookSessionGitRepoConfigCollectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceNotebookSession.DatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NotebookSessionGitRepoConfigCollectionInput

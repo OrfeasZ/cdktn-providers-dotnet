@@ -33,6 +33,7 @@ namespace libvirt.Pool
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolRbdCommandlineOptions" />)[]</param>
         [JsiiMethod(name: "putOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.pool.PoolRbdCommandlineOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOptions(object @value)
         {
@@ -68,6 +69,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolRbdCommandlineOptionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolRbdCommandlineOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "optionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.pool.PoolRbdCommandlineOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OptionsInput
@@ -75,6 +79,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolRbdCommandline" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolRbdCommandline\"}]}}", isOptional: true)]
         public virtual object? InternalValue

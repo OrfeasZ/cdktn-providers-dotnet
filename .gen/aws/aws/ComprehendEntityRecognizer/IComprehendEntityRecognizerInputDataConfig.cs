@@ -10,6 +10,7 @@ namespace aws.ComprehendEntityRecognizer
         /// <summary>entity_types block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/comprehend_entity_recognizer#entity_types ComprehendEntityRecognizer#entity_types}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityTypes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "entityTypes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityTypes\"},\"kind\":\"array\"}}]}}")]
         object EntityTypes
@@ -34,6 +35,7 @@ namespace aws.ComprehendEntityRecognizer
         /// <summary>augmented_manifests block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/comprehend_entity_recognizer#augmented_manifests ComprehendEntityRecognizer#augmented_manifests}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAugmentedManifests" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "augmentedManifests", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigAugmentedManifests\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,6 +96,7 @@ namespace aws.ComprehendEntityRecognizer
             /// <summary>entity_types block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/comprehend_entity_recognizer#entity_types ComprehendEntityRecognizer#entity_types}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityTypes" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "entityTypes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityTypes\"},\"kind\":\"array\"}}]}}")]
             public object EntityTypes
@@ -115,6 +118,7 @@ namespace aws.ComprehendEntityRecognizer
             /// <summary>augmented_manifests block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/comprehend_entity_recognizer#augmented_manifests ComprehendEntityRecognizer#augmented_manifests}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAugmentedManifests" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "augmentedManifests", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigAugmentedManifests\"},\"kind\":\"array\"}}]}}", isOptional: true)]

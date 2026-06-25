@@ -89,6 +89,9 @@ namespace oci.DataSafeAlertPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeAlertPolicy.IDataSafeAlertPolicyAlertPolicyRuleDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeAlertPolicy.DataSafeAlertPolicyAlertPolicyRuleDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

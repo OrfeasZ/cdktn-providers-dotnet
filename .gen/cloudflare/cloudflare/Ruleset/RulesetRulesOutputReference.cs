@@ -138,6 +138,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParameters\"}]}}", isOptional: true)]
         public virtual object? ActionParametersInput
@@ -152,6 +155,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -159,6 +165,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesExposedCredentialCheck" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exposedCredentialCheckInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesExposedCredentialCheck\"}]}}", isOptional: true)]
         public virtual object? ExposedCredentialCheckInput
@@ -173,6 +182,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesLogging" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loggingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesLogging\"}]}}", isOptional: true)]
         public virtual object? LoggingInput
@@ -180,6 +192,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesRatelimit" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ratelimitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesRatelimit\"}]}}", isOptional: true)]
         public virtual object? RatelimitInput
@@ -208,6 +223,9 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -249,6 +267,9 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

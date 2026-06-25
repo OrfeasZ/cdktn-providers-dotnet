@@ -22,6 +22,7 @@ namespace aws.ArcregionswitchPlan
         /// <summary>step block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStep" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "step", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStep\"},\"kind\":\"array\"}}]}}", isOptional: true)]

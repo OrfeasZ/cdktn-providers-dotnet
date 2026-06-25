@@ -93,6 +93,9 @@ namespace oci.DatascienceModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatascienceModel.IDatascienceModelTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datascienceModel.DatascienceModelTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

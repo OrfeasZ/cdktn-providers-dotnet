@@ -173,6 +173,9 @@ namespace aws.VpcIpamPoolCidr
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpamPoolCidr.IVpcIpamPoolCidrTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpamPoolCidr.VpcIpamPoolCidrTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

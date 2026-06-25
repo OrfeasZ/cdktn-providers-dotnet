@@ -7,7 +7,7 @@ namespace oci.DataOciMarketplaceListings
     [JsiiByValue(fqn: "oci.dataOciMarketplaceListings.DataOciMarketplaceListingsConfig")]
     public class DataOciMarketplaceListingsConfig : oci.DataOciMarketplaceListings.IDataOciMarketplaceListingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#category DataOciMarketplaceListings#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#category DataOciMarketplaceListings#category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Category
@@ -16,7 +16,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#compartment_id DataOciMarketplaceListings#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#compartment_id DataOciMarketplaceListings#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -29,7 +29,8 @@ namespace oci.DataOciMarketplaceListings
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#filter DataOciMarketplaceListings#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#filter DataOciMarketplaceListings#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMarketplaceListings.IDataOciMarketplaceListingsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMarketplaceListings.DataOciMarketplaceListingsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -59,7 +60,7 @@ namespace oci.DataOciMarketplaceListings
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#id DataOciMarketplaceListings#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#id DataOciMarketplaceListings#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +73,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#image_id DataOciMarketplaceListings#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#image_id DataOciMarketplaceListings#image_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageId
@@ -83,7 +84,10 @@ namespace oci.DataOciMarketplaceListings
 
         private object? _isFeatured;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#is_featured DataOciMarketplaceListings#is_featured}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#is_featured DataOciMarketplaceListings#is_featured}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isFeatured", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsFeatured
@@ -112,7 +116,7 @@ namespace oci.DataOciMarketplaceListings
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#listing_id DataOciMarketplaceListings#listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#listing_id DataOciMarketplaceListings#listing_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "listingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ListingId
@@ -121,7 +125,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#listing_types DataOciMarketplaceListings#listing_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#listing_types DataOciMarketplaceListings#listing_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "listingTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ListingTypes
@@ -130,7 +134,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#name DataOciMarketplaceListings#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#name DataOciMarketplaceListings#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Name
@@ -139,7 +143,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#operating_systems DataOciMarketplaceListings#operating_systems}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#operating_systems DataOciMarketplaceListings#operating_systems}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operatingSystems", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? OperatingSystems
@@ -148,7 +152,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#package_type DataOciMarketplaceListings#package_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#package_type DataOciMarketplaceListings#package_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PackageType
@@ -157,7 +161,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#pricing DataOciMarketplaceListings#pricing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#pricing DataOciMarketplaceListings#pricing}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pricing", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Pricing
@@ -166,7 +170,7 @@ namespace oci.DataOciMarketplaceListings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/marketplace_listings#publisher_id DataOciMarketplaceListings#publisher_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/marketplace_listings#publisher_id DataOciMarketplaceListings#publisher_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publisherId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublisherId
@@ -179,6 +183,7 @@ namespace oci.DataOciMarketplaceListings
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -212,6 +217,7 @@ namespace oci.DataOciMarketplaceListings
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -306,6 +312,7 @@ namespace oci.DataOciMarketplaceListings
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

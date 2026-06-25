@@ -41,6 +41,9 @@ namespace cloudflare.MagicNetworkMonitoringConfiguration
             return InvokeInstanceMethod<cloudflare.MagicNetworkMonitoringConfiguration.MagicNetworkMonitoringConfigurationWarpDevicesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicNetworkMonitoringConfiguration.IMagicNetworkMonitoringConfigurationWarpDevices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicNetworkMonitoringConfiguration.MagicNetworkMonitoringConfigurationWarpDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

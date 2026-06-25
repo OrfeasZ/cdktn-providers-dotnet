@@ -49,6 +49,9 @@ namespace oci.MysqlMysqlDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemCustomerContacts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemCustomerContacts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

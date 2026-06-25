@@ -46,6 +46,7 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfig), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigSamlOptions" />)[]</param>
         [JsiiMethod(name: "putSamlOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigSamlOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSamlOptions(object @value)
         {
@@ -150,6 +151,9 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigSamlOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "samlOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigSamlOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SamlOptionsInput

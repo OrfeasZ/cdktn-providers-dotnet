@@ -46,6 +46,7 @@ namespace hcloud.ZoneRrset
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(hcloud.ZoneRrset.ZoneRrset), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.ZoneRrset.IZoneRrsetRecords" />)[]</param>
         [JsiiMethod(name: "putRecords", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.zoneRrset.ZoneRrsetRecords\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecords(object @value)
         {
@@ -118,6 +119,9 @@ namespace hcloud.ZoneRrset
             get => GetInstanceProperty<hcloud.ZoneRrset.ZoneRrsetRecordsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "changeProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ChangeProtectionInput
@@ -139,6 +143,9 @@ namespace hcloud.ZoneRrset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.ZoneRrset.IZoneRrsetRecords" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recordsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.zoneRrset.ZoneRrsetRecords\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecordsInput
@@ -167,6 +174,9 @@ namespace hcloud.ZoneRrset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "changeProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ChangeProtection
         {

@@ -46,6 +46,7 @@ namespace aws.CleanroomsMembership
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CleanroomsMembership.CleanroomsMembership), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfiguration" />)[]</param>
         [JsiiMethod(name: "putDefaultResultConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefaultResultConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.CleanroomsMembership
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfiguration" />)[]</param>
         [JsiiMethod(name: "putPaymentConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPaymentConfiguration(object @value)
         {
@@ -220,6 +222,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultResultConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefaultResultConfigurationInput
@@ -227,6 +232,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PaymentConfigurationInput

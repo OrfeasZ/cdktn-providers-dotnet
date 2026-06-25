@@ -35,6 +35,7 @@ namespace aws.DatapipelinePipelineDefinition
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObjectField" />)[]</param>
         [JsiiMethod(name: "putField", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectField\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutField(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DatapipelinePipelineDefinition
             get => GetInstanceProperty<aws.DatapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectFieldList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObjectField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldInput
@@ -105,6 +109,9 @@ namespace aws.DatapipelinePipelineDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObject" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObject\"}]}}", isOptional: true)]
         public virtual object? InternalValue

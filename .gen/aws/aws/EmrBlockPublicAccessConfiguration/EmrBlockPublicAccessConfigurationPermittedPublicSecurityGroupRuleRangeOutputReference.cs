@@ -63,6 +63,9 @@ namespace aws.EmrBlockPublicAccessConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrBlockPublicAccessConfiguration.IEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRange" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRange\"}]}}", isOptional: true)]
         public virtual object? InternalValue

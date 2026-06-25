@@ -169,6 +169,9 @@ namespace digitalocean.DataDigitaloceanFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DataDigitaloceanFirewall.IDataDigitaloceanFirewallInboundRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.dataDigitaloceanFirewall.DataDigitaloceanFirewallInboundRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

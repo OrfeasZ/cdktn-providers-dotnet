@@ -52,6 +52,7 @@ namespace aws.BudgetsBudget
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BudgetsBudget.IBudgetsBudgetAutoAdjustData)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetCostFilter" />)[]</param>
         [JsiiMethod(name: "putCostFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetCostFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCostFilter(object @value)
         {
@@ -87,6 +88,7 @@ namespace aws.BudgetsBudget
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BudgetsBudget.IBudgetsBudgetFilterExpression)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetNotification" />)[]</param>
         [JsiiMethod(name: "putNotification", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetNotification\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNotification(object @value)
         {
@@ -110,6 +112,7 @@ namespace aws.BudgetsBudget
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetPlannedLimit" />)[]</param>
         [JsiiMethod(name: "putPlannedLimit", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetPlannedLimit\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlannedLimit(object @value)
         {
@@ -330,6 +333,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetCostFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "costFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetCostFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CostFilterInput
@@ -393,6 +399,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetNotification" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetNotification\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NotificationInput
@@ -400,6 +409,9 @@ namespace aws.BudgetsBudget
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetPlannedLimit" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "plannedLimitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetPlannedLimit\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlannedLimitInput

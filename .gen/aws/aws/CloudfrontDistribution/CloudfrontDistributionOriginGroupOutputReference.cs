@@ -41,6 +41,7 @@ namespace aws.CloudfrontDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupFailoverCriteria)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupMember" />)[]</param>
         [JsiiMethod(name: "putMember", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMember(object @value)
         {
@@ -83,6 +84,9 @@ namespace aws.CloudfrontDistribution
             get => GetInstanceProperty<aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupFailoverCriteria?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupMember" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemberInput
@@ -104,6 +108,9 @@ namespace aws.CloudfrontDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroup" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroup\"}]}}", isOptional: true)]
         public virtual object? InternalValue

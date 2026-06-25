@@ -46,6 +46,7 @@ namespace aws.ObservabilityadminTelemetryPipeline
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ObservabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipeline), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ObservabilityadminTelemetryPipeline.IObservabilityadminTelemetryPipelineConfiguration" />)[]</param>
         [JsiiMethod(name: "putConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.observabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipelineConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfiguration(object @value)
         {
@@ -142,6 +143,9 @@ namespace aws.ObservabilityadminTelemetryPipeline
             get => GetInstanceProperty<aws.ObservabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipelineTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ObservabilityadminTelemetryPipeline.IObservabilityadminTelemetryPipelineConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.observabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipelineConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationInput
@@ -170,6 +174,9 @@ namespace aws.ObservabilityadminTelemetryPipeline
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ObservabilityadminTelemetryPipeline.IObservabilityadminTelemetryPipelineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.observabilityadminTelemetryPipeline.ObservabilityadminTelemetryPipelineTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

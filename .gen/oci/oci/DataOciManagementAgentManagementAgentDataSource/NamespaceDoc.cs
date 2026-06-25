@@ -5,7 +5,7 @@ namespace oci.DataOciManagementAgentManagementAgentDataSource
     /// <remarks>
     /// <h1><c>data_oci_management_agent_management_agent_data_source</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/management_agent_management_agent_data_source"><c>data_oci_management_agent_management_agent_data_source</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/management_agent_management_agent_data_source"><c>data_oci_management_agent_management_agent_data_source</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

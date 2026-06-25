@@ -46,6 +46,7 @@ namespace scaleway.K8SAcl
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.K8SAcl.K8SAcl), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SAcl.IK8SAclAclRules" />)[]</param>
         [JsiiMethod(name: "putAclRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SAcl.K8SAclAclRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAclRules(object @value)
         {
@@ -136,6 +137,9 @@ namespace scaleway.K8SAcl
             get => GetInstanceProperty<scaleway.K8SAcl.K8SAclTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SAcl.IK8SAclAclRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aclRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SAcl.K8SAclAclRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AclRulesInput
@@ -157,6 +161,9 @@ namespace scaleway.K8SAcl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noIpAllowedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? NoIpAllowedInput
@@ -171,6 +178,9 @@ namespace scaleway.K8SAcl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.K8SAcl.IK8SAclTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.k8SAcl.K8SAclTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -192,6 +202,9 @@ namespace scaleway.K8SAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "noIpAllowed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object NoIpAllowed
         {

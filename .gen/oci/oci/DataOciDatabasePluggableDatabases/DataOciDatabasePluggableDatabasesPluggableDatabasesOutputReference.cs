@@ -107,6 +107,12 @@ namespace oci.DataOciDatabasePluggableDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "patchVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PatchVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "pdbAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PdbAdminPassword
         {

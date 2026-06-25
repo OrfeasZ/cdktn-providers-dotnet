@@ -41,6 +41,9 @@ namespace aws.MedialiveChannel
             return InvokeInstanceMethod<aws.MedialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelectorOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsCaptionSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsCaptionSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

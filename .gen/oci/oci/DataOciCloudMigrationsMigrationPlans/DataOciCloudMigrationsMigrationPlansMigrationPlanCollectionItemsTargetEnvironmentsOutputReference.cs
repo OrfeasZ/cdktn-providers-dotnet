@@ -41,6 +41,12 @@ namespace oci.DataOciCloudMigrationsMigrationPlans
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "clusterAssetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClusterAssetId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "dedicatedVmHost", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DedicatedVmHost
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciCloudMigrationsMigrationPlans
         public virtual string MsLicense
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "olvmTemplates", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap OlvmTemplates
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "preferredShapeType", typeJson: "{\"primitive\":\"string\"}")]
@@ -85,6 +97,12 @@ namespace oci.DataOciCloudMigrationsMigrationPlans
 
         [JsiiProperty(name: "vcn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Vcn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vnicProfileAssetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VnicProfileAssetId
         {
             get => GetInstanceProperty<string>()!;
         }

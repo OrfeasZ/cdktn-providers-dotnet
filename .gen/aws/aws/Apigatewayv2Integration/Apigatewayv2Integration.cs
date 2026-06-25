@@ -46,6 +46,7 @@ namespace aws.Apigatewayv2Integration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Apigatewayv2Integration.Apigatewayv2Integration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Integration.IApigatewayv2IntegrationResponseParameters" />)[]</param>
         [JsiiMethod(name: "putResponseParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResponseParameters(object @value)
         {
@@ -332,6 +333,9 @@ namespace aws.Apigatewayv2Integration
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Integration.IApigatewayv2IntegrationResponseParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResponseParametersInput

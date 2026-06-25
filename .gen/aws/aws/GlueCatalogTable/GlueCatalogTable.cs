@@ -52,6 +52,7 @@ namespace aws.GlueCatalogTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GlueCatalogTable.IGlueCatalogTableOpenTableFormatInput)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTablePartitionIndex" />)[]</param>
         [JsiiMethod(name: "putPartitionIndex", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTablePartitionIndex\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPartitionIndex(object @value)
         {
@@ -75,6 +76,7 @@ namespace aws.GlueCatalogTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTablePartitionKeys" />)[]</param>
         [JsiiMethod(name: "putPartitionKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTablePartitionKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPartitionKeys(object @value)
         {
@@ -329,6 +331,9 @@ namespace aws.GlueCatalogTable
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTablePartitionIndex" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "partitionIndexInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTablePartitionIndex\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PartitionIndexInput
@@ -336,6 +341,9 @@ namespace aws.GlueCatalogTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTablePartitionKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "partitionKeysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTablePartitionKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PartitionKeysInput

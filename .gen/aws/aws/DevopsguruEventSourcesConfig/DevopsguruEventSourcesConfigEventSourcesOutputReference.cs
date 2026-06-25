@@ -35,6 +35,7 @@ namespace aws.DevopsguruEventSourcesConfig
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruEventSourcesConfig.IDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler" />)[]</param>
         [JsiiMethod(name: "putAmazonCodeGuruProfiler", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAmazonCodeGuruProfiler(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DevopsguruEventSourcesConfig
             get => GetInstanceProperty<aws.DevopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruEventSourcesConfig.IDevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amazonCodeGuruProfilerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AmazonCodeGuruProfilerInput
@@ -77,6 +81,9 @@ namespace aws.DevopsguruEventSourcesConfig
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DevopsguruEventSourcesConfig.IDevopsguruEventSourcesConfigEventSources" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSources\"}]}}", isOptional: true)]
         public virtual object? InternalValue

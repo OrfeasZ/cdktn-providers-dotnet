@@ -41,6 +41,9 @@ namespace oci.AiDocumentModel
             return InvokeInstanceMethod<oci.AiDocumentModel.AiDocumentModelComponentModelsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentModel.IAiDocumentModelComponentModels" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelComponentModels\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

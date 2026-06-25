@@ -35,6 +35,7 @@ namespace oci.DevopsProjectRepositorySetting
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsProjectRepositorySetting.IDevopsProjectRepositorySettingApprovalRulesItemsReviewers" />)[]</param>
         [JsiiMethod(name: "putReviewers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsProjectRepositorySetting.DevopsProjectRepositorySettingApprovalRulesItemsReviewers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReviewers(object @value)
         {
@@ -97,6 +98,9 @@ namespace oci.DevopsProjectRepositorySetting
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsProjectRepositorySetting.IDevopsProjectRepositorySettingApprovalRulesItemsReviewers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reviewersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsProjectRepositorySetting.DevopsProjectRepositorySettingApprovalRulesItemsReviewers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReviewersInput
@@ -125,6 +129,9 @@ namespace oci.DevopsProjectRepositorySetting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsProjectRepositorySetting.IDevopsProjectRepositorySettingApprovalRulesItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsProjectRepositorySetting.DevopsProjectRepositorySettingApprovalRulesItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

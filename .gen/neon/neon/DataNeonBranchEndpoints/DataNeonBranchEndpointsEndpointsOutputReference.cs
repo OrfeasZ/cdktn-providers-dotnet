@@ -65,6 +65,9 @@ namespace neon.DataNeonBranchEndpoints
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="neon.DataNeonBranchEndpoints.IDataNeonBranchEndpointsEndpoints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"neon.dataNeonBranchEndpoints.DataNeonBranchEndpointsEndpoints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

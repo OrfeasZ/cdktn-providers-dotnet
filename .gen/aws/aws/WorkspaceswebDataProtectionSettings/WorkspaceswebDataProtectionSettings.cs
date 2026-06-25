@@ -46,6 +46,7 @@ namespace aws.WorkspaceswebDataProtectionSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WorkspaceswebDataProtectionSettings.WorkspaceswebDataProtectionSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebDataProtectionSettings.IWorkspaceswebDataProtectionSettingsInlineRedactionConfiguration" />)[]</param>
         [JsiiMethod(name: "putInlineRedactionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebDataProtectionSettings.WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInlineRedactionConfiguration(object @value)
         {
@@ -176,6 +177,9 @@ namespace aws.WorkspaceswebDataProtectionSettings
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebDataProtectionSettings.IWorkspaceswebDataProtectionSettingsInlineRedactionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inlineRedactionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebDataProtectionSettings.WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InlineRedactionConfigurationInput

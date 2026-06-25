@@ -63,6 +63,9 @@ namespace aws.ResiliencehubResiliencyPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ResiliencehubResiliencyPolicy.IResiliencehubResiliencyPolicyPolicySoftware" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftware\"}]}}", isOptional: true)]
         public virtual object? InternalValue

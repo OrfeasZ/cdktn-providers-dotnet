@@ -46,6 +46,7 @@ namespace scaleway.MongodbUser
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.MongodbUser.MongodbUser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.MongodbUser.IMongodbUserRoles" />)[]</param>
         [JsiiMethod(name: "putRoles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.mongodbUser.MongodbUserRoles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoles(object @value)
         {
@@ -197,6 +198,9 @@ namespace scaleway.MongodbUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.MongodbUser.IMongodbUserRoles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rolesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.mongodbUser.MongodbUserRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RolesInput
@@ -204,6 +208,9 @@ namespace scaleway.MongodbUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.MongodbUser.IMongodbUserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.mongodbUser.MongodbUserTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

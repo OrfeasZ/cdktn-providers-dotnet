@@ -12,6 +12,7 @@ namespace libvirt.Domain
         /// <summary>Lists QEMU capabilities to add explicitly for this domain.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#add Domain#add}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCapabilitiesAdd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "add", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCapabilitiesAdd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace libvirt.Domain
         /// <summary>Lists QEMU capabilities to remove explicitly for this domain.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#del Domain#del}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCapabilitiesDel" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "del", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCapabilitiesDel\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -69,6 +69,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<cloudflare.LoadBalancerPool.LoadBalancerPoolNotificationFilterPoolOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolNotificationFilterOrigin" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolNotificationFilterOrigin\"}]}}", isOptional: true)]
         public virtual object? OriginInput
@@ -76,6 +79,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolNotificationFilterPool" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "poolInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolNotificationFilterPool\"}]}}", isOptional: true)]
         public virtual object? PoolInput
@@ -83,6 +89,9 @@ namespace cloudflare.LoadBalancerPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolNotificationFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolNotificationFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

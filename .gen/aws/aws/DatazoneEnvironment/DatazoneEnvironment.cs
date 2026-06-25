@@ -52,6 +52,7 @@ namespace aws.DatazoneEnvironment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DatazoneEnvironment.IDatazoneEnvironmentTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneEnvironment.IDatazoneEnvironmentUserParameters" />)[]</param>
         [JsiiMethod(name: "putUserParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentUserParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUserParameters(object @value)
         {
@@ -260,6 +261,9 @@ namespace aws.DatazoneEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatazoneEnvironment.IDatazoneEnvironmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -267,6 +271,9 @@ namespace aws.DatazoneEnvironment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneEnvironment.IDatazoneEnvironmentUserParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneEnvironment.DatazoneEnvironmentUserParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserParametersInput

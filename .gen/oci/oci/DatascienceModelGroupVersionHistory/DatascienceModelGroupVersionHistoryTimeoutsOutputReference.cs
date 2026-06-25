@@ -93,6 +93,9 @@ namespace oci.DatascienceModelGroupVersionHistory
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatascienceModelGroupVersionHistory.IDatascienceModelGroupVersionHistoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datascienceModelGroupVersionHistory.DatascienceModelGroupVersionHistoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

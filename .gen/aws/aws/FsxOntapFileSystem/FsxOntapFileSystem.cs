@@ -373,6 +373,9 @@ namespace aws.FsxOntapFileSystem
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxOntapFileSystem.IFsxOntapFileSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxOntapFileSystem.FsxOntapFileSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

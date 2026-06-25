@@ -199,6 +199,9 @@ namespace aws.FinspaceKxScalingGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxScalingGroup.IFinspaceKxScalingGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxScalingGroup.FinspaceKxScalingGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

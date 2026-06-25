@@ -35,6 +35,18 @@ namespace oci.DataOciCloudMigrationsMigrationPlan
         {
         }
 
+        [JsiiProperty(name: "costToMigrate", typeJson: "{\"fqn\":\"oci.dataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanMigrationPlanStatsCostToMigrateList\"}")]
+        public virtual oci.DataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanMigrationPlanStatsCostToMigrateList CostToMigrate
+        {
+            get => GetInstanceProperty<oci.DataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanMigrationPlanStatsCostToMigrateList>()!;
+        }
+
+        [JsiiProperty(name: "currentMonthlyCost", typeJson: "{\"fqn\":\"oci.dataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanMigrationPlanStatsCurrentMonthlyCostList\"}")]
+        public virtual oci.DataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanMigrationPlanStatsCurrentMonthlyCostList CurrentMonthlyCost
+        {
+            get => GetInstanceProperty<oci.DataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanMigrationPlanStatsCurrentMonthlyCostList>()!;
+        }
+
         [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeUpdated
         {

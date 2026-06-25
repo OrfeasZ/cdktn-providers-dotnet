@@ -7,21 +7,21 @@ namespace oci.DataOciKmsKeyVersion
     [JsiiInterface(nativeType: typeof(IDataOciKmsKeyVersionConfig), fullyQualifiedName: "oci.dataOciKmsKeyVersion.DataOciKmsKeyVersionConfig")]
     public interface IDataOciKmsKeyVersionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/kms_key_version#key_id DataOciKmsKeyVersion#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_key_version#key_id DataOciKmsKeyVersion#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/kms_key_version#key_version_id DataOciKmsKeyVersion#key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_key_version#key_version_id DataOciKmsKeyVersion#key_version_id}.</summary>
         [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyVersionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/kms_key_version#management_endpoint DataOciKmsKeyVersion#management_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_key_version#management_endpoint DataOciKmsKeyVersion#management_endpoint}.</summary>
         [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementEndpoint
         {
@@ -35,21 +35,21 @@ namespace oci.DataOciKmsKeyVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/kms_key_version#key_id DataOciKmsKeyVersion#key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_key_version#key_id DataOciKmsKeyVersion#key_id}.</summary>
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/kms_key_version#key_version_id DataOciKmsKeyVersion#key_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_key_version#key_version_id DataOciKmsKeyVersion#key_version_id}.</summary>
             [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyVersionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/kms_key_version#management_endpoint DataOciKmsKeyVersion#management_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/kms_key_version#management_endpoint DataOciKmsKeyVersion#management_endpoint}.</summary>
             [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementEndpoint
             {
@@ -58,6 +58,7 @@ namespace oci.DataOciKmsKeyVersion
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -68,6 +69,7 @@ namespace oci.DataOciKmsKeyVersion
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -118,6 +120,7 @@ namespace oci.DataOciKmsKeyVersion
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

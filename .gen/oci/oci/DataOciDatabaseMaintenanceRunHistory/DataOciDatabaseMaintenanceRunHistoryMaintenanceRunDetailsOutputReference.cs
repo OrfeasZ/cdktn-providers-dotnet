@@ -179,6 +179,12 @@ namespace oci.DataOciDatabaseMaintenanceRunHistory
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "referenceResourceIdForImageUpdates", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ReferenceResourceIdForImageUpdates
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -237,6 +243,12 @@ namespace oci.DataOciDatabaseMaintenanceRunHistory
         public virtual double TotalTimeTakenInMins
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "windowTypeDescriptions", typeJson: "{\"fqn\":\"oci.dataOciDatabaseMaintenanceRunHistory.DataOciDatabaseMaintenanceRunHistoryMaintenanceRunDetailsWindowTypeDescriptionsList\"}")]
+        public virtual oci.DataOciDatabaseMaintenanceRunHistory.DataOciDatabaseMaintenanceRunHistoryMaintenanceRunDetailsWindowTypeDescriptionsList WindowTypeDescriptions
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseMaintenanceRunHistory.DataOciDatabaseMaintenanceRunHistoryMaintenanceRunDetailsWindowTypeDescriptionsList>()!;
         }
 
         [JsiiOptional]

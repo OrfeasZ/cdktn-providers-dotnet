@@ -46,6 +46,7 @@ namespace aws.GameliftGameSessionQueue
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GameliftGameSessionQueue.GameliftGameSessionQueue), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftGameSessionQueue.IGameliftGameSessionQueuePlayerLatencyPolicy" />)[]</param>
         [JsiiMethod(name: "putPlayerLatencyPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftGameSessionQueue.GameliftGameSessionQueuePlayerLatencyPolicy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlayerLatencyPolicy(object @value)
         {
@@ -189,6 +190,9 @@ namespace aws.GameliftGameSessionQueue
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftGameSessionQueue.IGameliftGameSessionQueuePlayerLatencyPolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "playerLatencyPolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftGameSessionQueue.GameliftGameSessionQueuePlayerLatencyPolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlayerLatencyPolicyInput

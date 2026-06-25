@@ -174,6 +174,9 @@ namespace cloudflare.PipelineStream
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineStream.IPipelineStreamFormat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "formatInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamFormat\"}]}}", isOptional: true)]
         public virtual object? FormatInput
@@ -181,6 +184,9 @@ namespace cloudflare.PipelineStream
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineStream.IPipelineStreamHttp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamHttp\"}]}}", isOptional: true)]
         public virtual object? HttpInput
@@ -195,6 +201,9 @@ namespace cloudflare.PipelineStream
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineStream.IPipelineStreamSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schemaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchema\"}]}}", isOptional: true)]
         public virtual object? SchemaInput
@@ -202,6 +211,9 @@ namespace cloudflare.PipelineStream
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineStream.IPipelineStreamWorkerBinding" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workerBindingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamWorkerBinding\"}]}}", isOptional: true)]
         public virtual object? WorkerBindingInput

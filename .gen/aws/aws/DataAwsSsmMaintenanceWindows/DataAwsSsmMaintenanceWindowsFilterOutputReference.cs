@@ -63,6 +63,9 @@ namespace aws.DataAwsSsmMaintenanceWindows
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSsmMaintenanceWindows.IDataAwsSsmMaintenanceWindowsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSsmMaintenanceWindows.DataAwsSsmMaintenanceWindowsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

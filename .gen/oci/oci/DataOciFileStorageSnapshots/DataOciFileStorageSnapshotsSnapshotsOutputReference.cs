@@ -89,6 +89,12 @@ namespace oci.DataOciFileStorageSnapshots
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "lockDurationDetails", typeJson: "{\"fqn\":\"oci.dataOciFileStorageSnapshots.DataOciFileStorageSnapshotsSnapshotsLockDurationDetailsList\"}")]
+        public virtual oci.DataOciFileStorageSnapshots.DataOciFileStorageSnapshotsSnapshotsLockDurationDetailsList LockDurationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciFileStorageSnapshots.DataOciFileStorageSnapshotsSnapshotsLockDurationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "locks", typeJson: "{\"fqn\":\"oci.dataOciFileStorageSnapshots.DataOciFileStorageSnapshotsSnapshotsLocksList\"}")]
         public virtual oci.DataOciFileStorageSnapshots.DataOciFileStorageSnapshotsSnapshotsLocksList Locks
         {
@@ -133,6 +139,12 @@ namespace oci.DataOciFileStorageSnapshots
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeLocked", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeLocked
         {
             get => GetInstanceProperty<string>()!;
         }

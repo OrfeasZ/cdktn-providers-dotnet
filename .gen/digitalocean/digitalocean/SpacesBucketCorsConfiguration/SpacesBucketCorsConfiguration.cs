@@ -46,6 +46,7 @@ namespace digitalocean.SpacesBucketCorsConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.SpacesBucketCorsConfiguration.SpacesBucketCorsConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucketCorsConfiguration.ISpacesBucketCorsConfigurationCorsRule" />)[]</param>
         [JsiiMethod(name: "putCorsRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucketCorsConfiguration.SpacesBucketCorsConfigurationCorsRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCorsRule(object @value)
         {
@@ -107,6 +108,9 @@ namespace digitalocean.SpacesBucketCorsConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucketCorsConfiguration.ISpacesBucketCorsConfigurationCorsRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "corsRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucketCorsConfiguration.SpacesBucketCorsConfigurationCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CorsRuleInput

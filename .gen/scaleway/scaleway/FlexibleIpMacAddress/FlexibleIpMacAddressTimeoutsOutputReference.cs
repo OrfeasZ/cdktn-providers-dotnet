@@ -133,6 +133,9 @@ namespace scaleway.FlexibleIpMacAddress
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.FlexibleIpMacAddress.IFlexibleIpMacAddressTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.flexibleIpMacAddress.FlexibleIpMacAddressTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

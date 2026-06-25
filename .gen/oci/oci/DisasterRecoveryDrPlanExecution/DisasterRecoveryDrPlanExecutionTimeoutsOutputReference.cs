@@ -93,6 +93,9 @@ namespace oci.DisasterRecoveryDrPlanExecution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DisasterRecoveryDrPlanExecution.IDisasterRecoveryDrPlanExecutionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.disasterRecoveryDrPlanExecution.DisasterRecoveryDrPlanExecutionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

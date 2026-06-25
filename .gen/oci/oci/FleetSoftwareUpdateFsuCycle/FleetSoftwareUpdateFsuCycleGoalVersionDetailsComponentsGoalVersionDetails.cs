@@ -9,7 +9,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
     [JsiiByValue(fqn: "oci.fleetSoftwareUpdateFsuCycle.FleetSoftwareUpdateFsuCycleGoalVersionDetailsComponentsGoalVersionDetails")]
     public class FleetSoftwareUpdateFsuCycleGoalVersionDetailsComponentsGoalVersionDetails : oci.FleetSoftwareUpdateFsuCycle.IFleetSoftwareUpdateFsuCycleGoalVersionDetailsComponentsGoalVersionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/fleet_software_update_fsu_cycle#goal_software_image_id FleetSoftwareUpdateFsuCycle#goal_software_image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_software_update_fsu_cycle#goal_software_image_id FleetSoftwareUpdateFsuCycle#goal_software_image_id}.</summary>
         [JsiiProperty(name: "goalSoftwareImageId", typeJson: "{\"primitive\":\"string\"}")]
         public string GoalSoftwareImageId
         {
@@ -17,7 +17,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/fleet_software_update_fsu_cycle#goal_type FleetSoftwareUpdateFsuCycle#goal_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_software_update_fsu_cycle#goal_type FleetSoftwareUpdateFsuCycle#goal_type}.</summary>
         [JsiiProperty(name: "goalType", typeJson: "{\"primitive\":\"string\"}")]
         public string GoalType
         {
@@ -25,7 +25,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/fleet_software_update_fsu_cycle#goal_version FleetSoftwareUpdateFsuCycle#goal_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fleet_software_update_fsu_cycle#goal_version FleetSoftwareUpdateFsuCycle#goal_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "goalVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GoalVersion

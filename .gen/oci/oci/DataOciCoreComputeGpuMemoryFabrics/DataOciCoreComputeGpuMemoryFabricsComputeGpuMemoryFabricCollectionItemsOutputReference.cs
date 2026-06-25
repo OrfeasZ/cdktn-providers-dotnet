@@ -53,6 +53,12 @@ namespace oci.DataOciCoreComputeGpuMemoryFabrics
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "computeGpuMemoryClusters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ComputeGpuMemoryClusters
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "computeGpuMemoryFabricId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeGpuMemoryFabricId
         {
@@ -77,6 +83,12 @@ namespace oci.DataOciCoreComputeGpuMemoryFabrics
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "currentFirmwareBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CurrentFirmwareBundleId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {
@@ -95,6 +107,18 @@ namespace oci.DataOciCoreComputeGpuMemoryFabrics
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "firmwareUpdateReason", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FirmwareUpdateReason
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "firmwareUpdateState", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FirmwareUpdateState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {
@@ -107,10 +131,22 @@ namespace oci.DataOciCoreComputeGpuMemoryFabrics
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "hostPlatformName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostPlatformName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "memoryFabricPreferences", typeJson: "{\"fqn\":\"oci.dataOciCoreComputeGpuMemoryFabrics.DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesList\"}")]
+        public virtual oci.DataOciCoreComputeGpuMemoryFabrics.DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesList MemoryFabricPreferences
+        {
+            get => GetInstanceProperty<oci.DataOciCoreComputeGpuMemoryFabrics.DataOciCoreComputeGpuMemoryFabricsComputeGpuMemoryFabricCollectionItemsMemoryFabricPreferencesList>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -119,10 +155,22 @@ namespace oci.DataOciCoreComputeGpuMemoryFabrics
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "switchPlatformName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SwitchPlatformName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "targetFirmwareBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetFirmwareBundleId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

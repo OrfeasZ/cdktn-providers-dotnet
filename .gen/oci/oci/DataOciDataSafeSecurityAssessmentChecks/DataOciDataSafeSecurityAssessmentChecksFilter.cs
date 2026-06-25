@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentChecks
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityAssessmentChecks.DataOciDataSafeSecurityAssessmentChecksFilter")]
     public class DataOciDataSafeSecurityAssessmentChecksFilter : oci.DataOciDataSafeSecurityAssessmentChecks.IDataOciDataSafeSecurityAssessmentChecksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_security_assessment_checks#name DataOciDataSafeSecurityAssessmentChecksA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_security_assessment_checks#name DataOciDataSafeSecurityAssessmentChecksA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentChecks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_security_assessment_checks#values DataOciDataSafeSecurityAssessmentChecksA#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_security_assessment_checks#values DataOciDataSafeSecurityAssessmentChecksA#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciDataSafeSecurityAssessmentChecks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_security_assessment_checks#regex DataOciDataSafeSecurityAssessmentChecksA#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_security_assessment_checks#regex DataOciDataSafeSecurityAssessmentChecksA#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

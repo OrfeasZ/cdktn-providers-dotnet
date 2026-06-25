@@ -45,6 +45,7 @@ namespace oci.CloudGuardDataSource
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudGuardDataSource.ICloudGuardDataSourceDataSourceDetailsQueryStartTime)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardDataSource.ICloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetails" />)[]</param>
         [JsiiMethod(name: "putScheduledQueryScopeDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardDataSource.CloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutScheduledQueryScopeDetails(object @value)
         {
@@ -235,6 +236,9 @@ namespace oci.CloudGuardDataSource
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardDataSource.ICloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduledQueryScopeDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardDataSource.CloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScheduledQueryScopeDetailsInput

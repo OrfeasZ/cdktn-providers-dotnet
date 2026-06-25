@@ -39,6 +39,7 @@ namespace aws.AppmeshVirtualGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecBackendDefaults)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecListener" />)[]</param>
         [JsiiMethod(name: "putListener", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListener\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutListener(object @value)
         {
@@ -105,6 +106,9 @@ namespace aws.AppmeshVirtualGateway
             get => GetInstanceProperty<aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecBackendDefaults?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecListener" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listenerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListener\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ListenerInput

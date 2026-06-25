@@ -93,6 +93,9 @@ namespace cloudflare.SpectrumApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.SpectrumApplication.ISpectrumApplicationOriginDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationOriginDns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

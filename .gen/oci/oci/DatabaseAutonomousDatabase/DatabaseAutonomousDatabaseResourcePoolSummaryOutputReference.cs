@@ -33,6 +33,12 @@ namespace oci.DatabaseAutonomousDatabase
         {
         }
 
+        [JsiiMethod(name: "resetAvailableStorageCapacityInTbs")]
+        public virtual void ResetAvailableStorageCapacityInTbs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsDisabled")]
         public virtual void ResetIsDisabled()
         {
@@ -41,6 +47,12 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiMethod(name: "resetPoolSize")]
         public virtual void ResetPoolSize()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPoolStorageSizeInTbs")]
+        public virtual void ResetPoolStorageSizeInTbs()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -58,6 +70,16 @@ namespace oci.DatabaseAutonomousDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "availableStorageCapacityInTbsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? AvailableStorageCapacityInTbsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "isDisabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDisabledInput
         {
@@ -71,6 +93,23 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "poolStorageSizeInTbsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PoolStorageSizeInTbsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "availableStorageCapacityInTbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AvailableStorageCapacityInTbs
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDisabled
         {
@@ -100,6 +139,13 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiProperty(name: "poolSize", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double PoolSize
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "poolStorageSizeInTbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PoolStorageSizeInTbs
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

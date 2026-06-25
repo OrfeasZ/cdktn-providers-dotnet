@@ -41,6 +41,12 @@ namespace oci.DataOciCoreInstanceConfiguration
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "localVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LocalVolumeSizeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MemoryInGbs
         {

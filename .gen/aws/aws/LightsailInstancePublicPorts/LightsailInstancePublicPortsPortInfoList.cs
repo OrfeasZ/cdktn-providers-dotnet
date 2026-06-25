@@ -41,6 +41,9 @@ namespace aws.LightsailInstancePublicPorts
             return InvokeInstanceMethod<aws.LightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailInstancePublicPorts.ILightsailInstancePublicPortsPortInfo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -9,7 +9,7 @@ namespace oci.BastionSession
     [JsiiByValue(fqn: "oci.bastionSession.BastionSessionConfig")]
     public class BastionSessionConfig : oci.BastionSession.IBastionSessionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#bastion_id BastionSession#bastion_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#bastion_id BastionSession#bastion_id}.</summary>
         [JsiiProperty(name: "bastionId", typeJson: "{\"primitive\":\"string\"}")]
         public string BastionId
         {
@@ -19,7 +19,7 @@ namespace oci.BastionSession
 
         /// <summary>key_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#key_details BastionSession#key_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#key_details BastionSession#key_details}
         /// </remarks>
         [JsiiProperty(name: "keyDetails", typeJson: "{\"fqn\":\"oci.bastionSession.BastionSessionKeyDetails\"}")]
         public oci.BastionSession.IBastionSessionKeyDetails KeyDetails
@@ -30,7 +30,7 @@ namespace oci.BastionSession
 
         /// <summary>target_resource_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#target_resource_details BastionSession#target_resource_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#target_resource_details BastionSession#target_resource_details}
         /// </remarks>
         [JsiiProperty(name: "targetResourceDetails", typeJson: "{\"fqn\":\"oci.bastionSession.BastionSessionTargetResourceDetails\"}")]
         public oci.BastionSession.IBastionSessionTargetResourceDetails TargetResourceDetails
@@ -39,7 +39,7 @@ namespace oci.BastionSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#display_name BastionSession#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#display_name BastionSession#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -48,7 +48,7 @@ namespace oci.BastionSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#id BastionSession#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#id BastionSession#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace oci.BastionSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#key_type BastionSession#key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#key_type BastionSession#key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyType
@@ -70,7 +70,7 @@ namespace oci.BastionSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#session_ttl_in_seconds BastionSession#session_ttl_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#session_ttl_in_seconds BastionSession#session_ttl_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sessionTtlInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SessionTtlInSeconds
@@ -81,7 +81,7 @@ namespace oci.BastionSession
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bastion_session#timeouts BastionSession#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bastion_session#timeouts BastionSession#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bastionSession.BastionSessionTimeouts\"}", isOptional: true)]
@@ -95,6 +95,7 @@ namespace oci.BastionSession
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -128,6 +129,7 @@ namespace oci.BastionSession
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -222,6 +224,7 @@ namespace oci.BastionSession
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -77,6 +77,9 @@ namespace scaleway.InstanceServer
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceServer.IInstanceServerPublicIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceServer.InstanceServerPublicIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

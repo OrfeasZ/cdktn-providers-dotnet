@@ -33,6 +33,7 @@ namespace aws.BatchJobDefinition
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionRetryStrategyEvaluateOnExit" />)[]</param>
         [JsiiMethod(name: "putEvaluateOnExit", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionRetryStrategyEvaluateOnExit\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEvaluateOnExit(object @value)
         {
@@ -81,6 +82,9 @@ namespace aws.BatchJobDefinition
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionRetryStrategyEvaluateOnExit" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "evaluateOnExitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionRetryStrategyEvaluateOnExit\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EvaluateOnExitInput

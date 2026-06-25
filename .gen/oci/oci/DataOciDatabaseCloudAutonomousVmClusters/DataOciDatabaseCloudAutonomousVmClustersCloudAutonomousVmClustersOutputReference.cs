@@ -155,6 +155,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "distributionAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DistributionAlgorithm
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Domain
         {
@@ -251,6 +257,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmClusters
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "multiCloudIdentityConnectorConfigs", typeJson: "{\"fqn\":\"oci.dataOciDatabaseCloudAutonomousVmClusters.DataOciDatabaseCloudAutonomousVmClustersCloudAutonomousVmClustersMultiCloudIdentityConnectorConfigsList\"}")]
+        public virtual oci.DataOciDatabaseCloudAutonomousVmClusters.DataOciDatabaseCloudAutonomousVmClustersCloudAutonomousVmClustersMultiCloudIdentityConnectorConfigsList MultiCloudIdentityConnectorConfigs
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseCloudAutonomousVmClusters.DataOciDatabaseCloudAutonomousVmClustersCloudAutonomousVmClustersMultiCloudIdentityConnectorConfigsList>()!;
+        }
+
         [JsiiProperty(name: "nextMaintenanceRunId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NextMaintenanceRunId
         {
@@ -317,6 +329,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmClusters
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "registerPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RegisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "reservedCpus", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ReservedCpus
         {
@@ -339,6 +357,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmClusters
         public virtual Io.Cdktn.StringMap SecurityAttributes
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "sgaPercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SgaPercentage
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
@@ -369,6 +393,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmClusters
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "tdeKeyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TdeKeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
@@ -409,6 +439,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmClusters
 
         [JsiiProperty(name: "totalCpus", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalCpus
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "unregisterPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double UnregisterPkcsTrigger
         {
             get => GetInstanceProperty<double>()!;
         }

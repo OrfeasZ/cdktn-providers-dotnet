@@ -35,6 +35,7 @@ namespace aws.SecurityhubAutomationRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaLastObservedAtDateRange" />)[]</param>
         [JsiiMethod(name: "putDateRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDateRange(object @value)
         {
@@ -82,6 +83,9 @@ namespace aws.SecurityhubAutomationRule
             get => GetInstanceProperty<aws.SecurityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaLastObservedAtDateRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dateRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DateRangeInput
@@ -117,6 +121,9 @@ namespace aws.SecurityhubAutomationRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaLastObservedAt" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAt\"}]}}", isOptional: true)]
         public virtual object? InternalValue

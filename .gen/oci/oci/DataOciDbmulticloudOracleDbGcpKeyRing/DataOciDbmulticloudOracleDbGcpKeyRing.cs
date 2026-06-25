@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciDbmulticloudOracleDbGcpKeyRing
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_ring oci_dbmulticloud_oracle_db_gcp_key_ring}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_ring oci_dbmulticloud_oracle_db_gcp_key_ring}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRing), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRing", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRingConfig\"}}]")]
     public class DataOciDbmulticloudOracleDbGcpKeyRing : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_ring oci_dbmulticloud_oracle_db_gcp_key_ring} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_ring oci_dbmulticloud_oracle_db_gcp_key_ring} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciDbmulticloudOracleDbGcpKeyRing(Constructs.Construct scope, string id, oci.DataOciDbmulticloudOracleDbGcpKeyRing.IDataOciDbmulticloudOracleDbGcpKeyRingConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRing
         /// <param name="importToId">The construct id used in the generated config for the DataOciDbmulticloudOracleDbGcpKeyRing to import.</param>
         /// <param name="importFromId">The id of the existing DataOciDbmulticloudOracleDbGcpKeyRing that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciDbmulticloudOracleDbGcpKeyRing to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDbmulticloudOracleDbGcpKeyRing to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_ring#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDbmulticloudOracleDbGcpKeyRing that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDbmulticloudOracleDbGcpKeyRing to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDbmulticloudOracleDbGcpKeyRing to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_ring#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDbmulticloudOracleDbGcpKeyRing that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDbmulticloudOracleDbGcpKeyRing to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRing), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -64,6 +64,12 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRing
             get;
         }
         = GetStaticProperty<string>(typeof(oci.DataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRing))!;
+
+        [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Action
+        {
+            get => GetInstanceProperty<string>()!;
+        }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
@@ -125,6 +131,12 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRing
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "replicationMetadata", typeJson: "{\"fqn\":\"oci.dataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRingReplicationMetadataList\"}")]
+        public virtual oci.DataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRingReplicationMetadataList ReplicationMetadata
+        {
+            get => GetInstanceProperty<oci.DataOciDbmulticloudOracleDbGcpKeyRing.DataOciDbmulticloudOracleDbGcpKeyRingReplicationMetadataList>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -135,6 +147,12 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRing
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetRegion
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

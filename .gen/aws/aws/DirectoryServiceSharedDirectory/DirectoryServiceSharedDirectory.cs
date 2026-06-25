@@ -167,6 +167,9 @@ namespace aws.DirectoryServiceSharedDirectory
             get => GetInstanceProperty<aws.DirectoryServiceSharedDirectory.IDirectoryServiceSharedDirectoryTarget?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DirectoryServiceSharedDirectory.IDirectoryServiceSharedDirectoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -9,7 +9,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
     [JsiiByValue(fqn: "oci.bdsBdsInstanceNodeBackupConfiguration.BdsBdsInstanceNodeBackupConfigurationConfig")]
     public class BdsBdsInstanceNodeBackupConfigurationConfig : oci.BdsBdsInstanceNodeBackupConfiguration.IBdsBdsInstanceNodeBackupConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#bds_instance_id BdsBdsInstanceNodeBackupConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#bds_instance_id BdsBdsInstanceNodeBackupConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -19,7 +19,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
 
         /// <summary>level_type_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#level_type_details BdsBdsInstanceNodeBackupConfiguration#level_type_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#level_type_details BdsBdsInstanceNodeBackupConfiguration#level_type_details}
         /// </remarks>
         [JsiiProperty(name: "levelTypeDetails", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceNodeBackupConfiguration.BdsBdsInstanceNodeBackupConfigurationLevelTypeDetails\"}")]
         public oci.BdsBdsInstanceNodeBackupConfiguration.IBdsBdsInstanceNodeBackupConfigurationLevelTypeDetails LevelTypeDetails
@@ -28,7 +28,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#schedule BdsBdsInstanceNodeBackupConfiguration#schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#schedule BdsBdsInstanceNodeBackupConfiguration#schedule}.</summary>
         [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}")]
         public string Schedule
         {
@@ -36,7 +36,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#backup_type BdsBdsInstanceNodeBackupConfiguration#backup_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#backup_type BdsBdsInstanceNodeBackupConfiguration#backup_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupType
@@ -45,7 +45,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#display_name BdsBdsInstanceNodeBackupConfiguration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#display_name BdsBdsInstanceNodeBackupConfiguration#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -54,7 +54,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#id BdsBdsInstanceNodeBackupConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#id BdsBdsInstanceNodeBackupConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#number_of_backups_to_retain BdsBdsInstanceNodeBackupConfiguration#number_of_backups_to_retain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#number_of_backups_to_retain BdsBdsInstanceNodeBackupConfiguration#number_of_backups_to_retain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfBackupsToRetain", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfBackupsToRetain
@@ -78,7 +78,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#timeouts BdsBdsInstanceNodeBackupConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#timeouts BdsBdsInstanceNodeBackupConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceNodeBackupConfiguration.BdsBdsInstanceNodeBackupConfigurationTimeouts\"}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_node_backup_configuration#timezone BdsBdsInstanceNodeBackupConfiguration#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_node_backup_configuration#timezone BdsBdsInstanceNodeBackupConfiguration#timezone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Timezone
@@ -101,6 +101,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -134,6 +135,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -228,6 +230,7 @@ namespace oci.BdsBdsInstanceNodeBackupConfiguration
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

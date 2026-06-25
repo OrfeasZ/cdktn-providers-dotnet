@@ -41,6 +41,9 @@ namespace aws.ServiceDiscoveryService
             return InvokeInstanceMethod<aws.ServiceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServiceDiscoveryService.IServiceDiscoveryServiceDnsConfigDnsRecords" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

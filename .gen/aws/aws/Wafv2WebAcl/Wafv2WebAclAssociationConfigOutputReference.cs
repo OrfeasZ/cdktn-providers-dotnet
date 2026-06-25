@@ -33,6 +33,7 @@ namespace aws.Wafv2WebAcl
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclAssociationConfigRequestBody" />)[]</param>
         [JsiiMethod(name: "putRequestBody", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBody\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRequestBody(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.Wafv2WebAcl
             get => GetInstanceProperty<aws.Wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBodyList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclAssociationConfigRequestBody" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestBodyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RequestBodyInput

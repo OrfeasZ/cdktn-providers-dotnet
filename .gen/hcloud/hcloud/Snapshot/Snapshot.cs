@@ -129,6 +129,9 @@ namespace hcloud.Snapshot
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.Snapshot.ISnapshotTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.snapshot.SnapshotTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -41,6 +41,9 @@ namespace oci.DataOciMediaServicesMediaWorkflows
             return InvokeInstanceMethod<oci.DataOciMediaServicesMediaWorkflows.DataOciMediaServicesMediaWorkflowsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMediaServicesMediaWorkflows.IDataOciMediaServicesMediaWorkflowsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMediaServicesMediaWorkflows.DataOciMediaServicesMediaWorkflowsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

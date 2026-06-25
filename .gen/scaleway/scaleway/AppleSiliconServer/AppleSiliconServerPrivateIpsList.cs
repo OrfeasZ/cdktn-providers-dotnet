@@ -41,6 +41,9 @@ namespace scaleway.AppleSiliconServer
             return InvokeInstanceMethod<scaleway.AppleSiliconServer.AppleSiliconServerPrivateIpsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

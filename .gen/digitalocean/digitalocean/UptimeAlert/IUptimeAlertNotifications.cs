@@ -24,6 +24,7 @@ namespace digitalocean.UptimeAlert
         /// <summary>slack block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/uptime_alert#slack UptimeAlert#slack}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotificationsSlack" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "slack", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotificationsSlack\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,6 +57,7 @@ namespace digitalocean.UptimeAlert
             /// <summary>slack block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/uptime_alert#slack UptimeAlert#slack}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotificationsSlack" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "slack", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotificationsSlack\"},\"kind\":\"array\"}}]}}", isOptional: true)]

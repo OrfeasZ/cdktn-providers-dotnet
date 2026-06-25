@@ -41,6 +41,9 @@ namespace oci.DataOciFileStorageFileSystems
             return InvokeInstanceMethod<oci.DataOciFileStorageFileSystems.DataOciFileStorageFileSystemsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFileStorageFileSystems.IDataOciFileStorageFileSystemsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFileStorageFileSystems.DataOciFileStorageFileSystemsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

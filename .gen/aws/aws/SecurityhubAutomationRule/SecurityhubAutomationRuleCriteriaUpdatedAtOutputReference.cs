@@ -35,6 +35,7 @@ namespace aws.SecurityhubAutomationRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaUpdatedAtDateRange" />)[]</param>
         [JsiiMethod(name: "putDateRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDateRange(object @value)
         {
@@ -82,6 +83,9 @@ namespace aws.SecurityhubAutomationRule
             get => GetInstanceProperty<aws.SecurityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaUpdatedAtDateRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dateRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DateRangeInput
@@ -117,6 +121,9 @@ namespace aws.SecurityhubAutomationRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaUpdatedAt" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAt\"}]}}", isOptional: true)]
         public virtual object? InternalValue

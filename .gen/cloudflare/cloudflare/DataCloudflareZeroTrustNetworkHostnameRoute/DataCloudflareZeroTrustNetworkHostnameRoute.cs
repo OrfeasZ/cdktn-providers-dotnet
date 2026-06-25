@@ -150,6 +150,9 @@ namespace cloudflare.DataCloudflareZeroTrustNetworkHostnameRoute
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZeroTrustNetworkHostnameRoute.IDataCloudflareZeroTrustNetworkHostnameRouteFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZeroTrustNetworkHostnameRoute.DataCloudflareZeroTrustNetworkHostnameRouteFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

@@ -35,6 +35,7 @@ namespace aws.CloudfrontMultitenantDistribution
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginCustomHeader" />)[]</param>
         [JsiiMethod(name: "putCustomHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginCustomHeader\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomHeader(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.CloudfrontMultitenantDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginCustomOriginConfig" />)[]</param>
         [JsiiMethod(name: "putCustomOriginConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginCustomOriginConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomOriginConfig(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.CloudfrontMultitenantDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginOriginShield" />)[]</param>
         [JsiiMethod(name: "putOriginShield", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginOriginShield\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOriginShield(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.CloudfrontMultitenantDistribution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginVpcOriginConfig" />)[]</param>
         [JsiiMethod(name: "putVpcOriginConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginVpcOriginConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVpcOriginConfig(object @value)
         {
@@ -219,6 +223,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginCustomHeader" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginCustomHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomHeaderInput
@@ -226,6 +233,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginCustomOriginConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customOriginConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginCustomOriginConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomOriginConfigInput
@@ -261,6 +271,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginOriginShield" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originShieldInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginOriginShield\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OriginShieldInput
@@ -275,6 +288,9 @@ namespace aws.CloudfrontMultitenantDistribution
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginVpcOriginConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcOriginConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginVpcOriginConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VpcOriginConfigInput
@@ -331,6 +347,9 @@ namespace aws.CloudfrontMultitenantDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOrigin" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOrigin\"}]}}", isOptional: true)]
         public virtual object? InternalValue

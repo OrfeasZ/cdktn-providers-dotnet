@@ -69,6 +69,9 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DataDigitaloceanDedicatedInferences.IDataDigitaloceanDedicatedInferencesSort" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.dataDigitaloceanDedicatedInferences.DataDigitaloceanDedicatedInferencesSort\"}]}}", isOptional: true)]
         public virtual object? InternalValue

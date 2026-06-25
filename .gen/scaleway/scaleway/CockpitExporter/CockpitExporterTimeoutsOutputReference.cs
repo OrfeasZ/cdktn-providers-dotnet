@@ -133,6 +133,9 @@ namespace scaleway.CockpitExporter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.CockpitExporter.ICockpitExporterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.cockpitExporter.CockpitExporterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

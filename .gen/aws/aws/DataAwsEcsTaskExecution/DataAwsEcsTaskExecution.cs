@@ -46,6 +46,7 @@ namespace aws.DataAwsEcsTaskExecution
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsEcsTaskExecution.DataAwsEcsTaskExecution), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionCapacityProviderStrategy" />)[]</param>
         [JsiiMethod(name: "putCapacityProviderStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCapacityProviderStrategy(object @value)
         {
@@ -81,6 +82,7 @@ namespace aws.DataAwsEcsTaskExecution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionOverrides)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionPlacementConstraints" />)[]</param>
         [JsiiMethod(name: "putPlacementConstraints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionPlacementConstraints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementConstraints(object @value)
         {
@@ -104,6 +106,7 @@ namespace aws.DataAwsEcsTaskExecution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionPlacementStrategy" />)[]</param>
         [JsiiMethod(name: "putPlacementStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionPlacementStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementStrategy(object @value)
         {
@@ -290,6 +293,9 @@ namespace aws.DataAwsEcsTaskExecution
             get => GetInstanceProperty<string[]>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionCapacityProviderStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityProviderStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CapacityProviderStrategyInput
@@ -318,6 +324,9 @@ namespace aws.DataAwsEcsTaskExecution
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableEcsManagedTagsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableEcsManagedTagsInput
@@ -325,6 +334,9 @@ namespace aws.DataAwsEcsTaskExecution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableExecuteCommandInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableExecuteCommandInput
@@ -367,6 +379,9 @@ namespace aws.DataAwsEcsTaskExecution
             get => GetInstanceProperty<aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionOverrides?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionPlacementConstraints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionPlacementConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementConstraintsInput
@@ -374,6 +389,9 @@ namespace aws.DataAwsEcsTaskExecution
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionPlacementStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionPlacementStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementStrategyInput
@@ -451,6 +469,9 @@ namespace aws.DataAwsEcsTaskExecution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableEcsManagedTags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableEcsManagedTags
         {
@@ -478,6 +499,9 @@ namespace aws.DataAwsEcsTaskExecution
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableExecuteCommand", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableExecuteCommand
         {

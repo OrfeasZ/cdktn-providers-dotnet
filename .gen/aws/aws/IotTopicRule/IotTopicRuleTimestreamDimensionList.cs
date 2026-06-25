@@ -41,6 +41,9 @@ namespace aws.IotTopicRule
             return InvokeInstanceMethod<aws.IotTopicRule.IotTopicRuleTimestreamDimensionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleTimestreamDimension" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestreamDimension\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

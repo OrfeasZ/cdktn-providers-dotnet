@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeMaskingPolicyHealthReport
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeMaskingPolicyHealthReportConfig), fullyQualifiedName: "oci.dataOciDataSafeMaskingPolicyHealthReport.DataOciDataSafeMaskingPolicyHealthReportConfig")]
     public interface IDataOciDataSafeMaskingPolicyHealthReportConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_masking_policy_health_report#masking_policy_health_report_id DataOciDataSafeMaskingPolicyHealthReport#masking_policy_health_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_health_report#masking_policy_health_report_id DataOciDataSafeMaskingPolicyHealthReport#masking_policy_health_report_id}.</summary>
         [JsiiProperty(name: "maskingPolicyHealthReportId", typeJson: "{\"primitive\":\"string\"}")]
         string MaskingPolicyHealthReportId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_masking_policy_health_report#id DataOciDataSafeMaskingPolicyHealthReport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_health_report#id DataOciDataSafeMaskingPolicyHealthReport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDataSafeMaskingPolicyHealthReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_masking_policy_health_report#masking_policy_health_report_id DataOciDataSafeMaskingPolicyHealthReport#masking_policy_health_report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_health_report#masking_policy_health_report_id DataOciDataSafeMaskingPolicyHealthReport#masking_policy_health_report_id}.</summary>
             [JsiiProperty(name: "maskingPolicyHealthReportId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaskingPolicyHealthReportId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_masking_policy_health_report#id DataOciDataSafeMaskingPolicyHealthReport#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_masking_policy_health_report#id DataOciDataSafeMaskingPolicyHealthReport#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,6 +57,7 @@ namespace oci.DataOciDataSafeMaskingPolicyHealthReport
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -67,6 +68,7 @@ namespace oci.DataOciDataSafeMaskingPolicyHealthReport
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -117,6 +119,7 @@ namespace oci.DataOciDataSafeMaskingPolicyHealthReport
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

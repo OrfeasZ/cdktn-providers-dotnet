@@ -41,6 +41,9 @@ namespace aws.EvidentlyLaunch
             return InvokeInstanceMethod<aws.EvidentlyLaunch.EvidentlyLaunchMetricMonitorsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchMetricMonitors" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchMetricMonitors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

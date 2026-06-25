@@ -52,6 +52,7 @@ namespace aws.GameliftFleet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GameliftFleet.IGameliftFleetCertificateConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftFleet.IGameliftFleetEc2InboundPermission" />)[]</param>
         [JsiiMethod(name: "putEc2InboundPermission", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftFleet.GameliftFleetEc2InboundPermission\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEc2InboundPermission(object @value)
         {
@@ -289,6 +290,9 @@ namespace aws.GameliftFleet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftFleet.IGameliftFleetEc2InboundPermission" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2InboundPermissionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftFleet.GameliftFleetEc2InboundPermission\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ec2InboundPermissionInput
@@ -387,6 +391,9 @@ namespace aws.GameliftFleet
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GameliftFleet.IGameliftFleetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.gameliftFleet.GameliftFleetTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

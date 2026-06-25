@@ -41,6 +41,9 @@ namespace cloudflare.R2BucketLifecycle
             return InvokeInstanceMethod<cloudflare.R2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesStorageClassTransitions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

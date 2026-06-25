@@ -103,6 +103,9 @@ namespace aws.NetworkmanagerTransitGatewayRegistration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerTransitGatewayRegistration.INetworkmanagerTransitGatewayRegistrationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerTransitGatewayRegistration.NetworkmanagerTransitGatewayRegistrationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

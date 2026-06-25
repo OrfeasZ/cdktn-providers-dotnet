@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsMyRequest
     [JsiiInterface(nativeType: typeof(IIdentityDomainsMyRequestRequestor), fullyQualifiedName: "oci.identityDomainsMyRequest.IdentityDomainsMyRequestRequestor")]
     public interface IIdentityDomainsMyRequestRequestor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -21,7 +21,7 @@ namespace oci.IdentityDomainsMyRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

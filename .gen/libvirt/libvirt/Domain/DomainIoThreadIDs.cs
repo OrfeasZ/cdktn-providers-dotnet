@@ -14,6 +14,7 @@ namespace libvirt.Domain
         /// See: <a href="https://libvirt.org/formatdomain.html#iothreads-allocation">https://libvirt.org/formatdomain.html#iothreads-allocation</a>
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#io_threads Domain#io_threads}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainIoThreadIDsIoThreads" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioThreads", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainIoThreadIDsIoThreads\"},\"kind\":\"array\"}}]}}", isOptional: true)]

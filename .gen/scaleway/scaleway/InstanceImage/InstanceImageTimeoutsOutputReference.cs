@@ -133,6 +133,9 @@ namespace scaleway.InstanceImage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceImage.IInstanceImageTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceImage.InstanceImageTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

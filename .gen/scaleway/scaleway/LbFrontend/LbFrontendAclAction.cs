@@ -25,6 +25,7 @@ namespace scaleway.LbFrontend
         /// <summary>redirect block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#redirect LbFrontend#redirect}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbFrontend.ILbFrontendAclActionRedirect" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirect", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbFrontend.LbFrontendAclActionRedirect\"},\"kind\":\"array\"}}]}}", isOptional: true)]

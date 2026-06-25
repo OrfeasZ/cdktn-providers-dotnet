@@ -45,6 +45,12 @@ namespace oci.DesktopsDesktopPool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSecurityAttributes")]
+        public virtual void ResetSecurityAttributes()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "endpointFqdn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string EndpointFqdn
         {
@@ -72,6 +78,13 @@ namespace oci.DesktopsDesktopPool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "securityAttributesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SecurityAttributesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "subnetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SubnetIdInput
         {
@@ -89,6 +102,13 @@ namespace oci.DesktopsDesktopPool
         public virtual string PrivateIp
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SecurityAttributes
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 

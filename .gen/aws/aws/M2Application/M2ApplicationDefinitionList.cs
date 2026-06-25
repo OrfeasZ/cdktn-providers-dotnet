@@ -41,6 +41,9 @@ namespace aws.M2Application
             return InvokeInstanceMethod<aws.M2Application.M2ApplicationDefinitionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Application.IM2ApplicationDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Application.M2ApplicationDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

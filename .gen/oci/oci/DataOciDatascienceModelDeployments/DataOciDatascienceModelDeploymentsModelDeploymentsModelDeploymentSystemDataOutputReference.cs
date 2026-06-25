@@ -41,6 +41,12 @@ namespace oci.DataOciDatascienceModelDeployments
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModelType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "systemInfraType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SystemInfraType
         {

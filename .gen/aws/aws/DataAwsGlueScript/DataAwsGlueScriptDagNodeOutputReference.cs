@@ -35,6 +35,7 @@ namespace aws.DataAwsGlueScript
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs" />)[]</param>
         [JsiiMethod(name: "putArgs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutArgs(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DataAwsGlueScript
             get => GetInstanceProperty<aws.DataAwsGlueScript.DataAwsGlueScriptDagNodeArgsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "argsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArgsInput
@@ -119,6 +123,9 @@ namespace aws.DataAwsGlueScript
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNode" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNode\"}]}}", isOptional: true)]
         public virtual object? InternalValue

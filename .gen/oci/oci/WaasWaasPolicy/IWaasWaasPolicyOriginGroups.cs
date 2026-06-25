@@ -7,7 +7,7 @@ namespace oci.WaasWaasPolicy
     [JsiiInterface(nativeType: typeof(IWaasWaasPolicyOriginGroups), fullyQualifiedName: "oci.waasWaasPolicy.WaasWaasPolicyOriginGroups")]
     public interface IWaasWaasPolicyOriginGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         string Label
         {
@@ -16,7 +16,8 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>origin_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/waas_waas_policy#origin_group WaasWaasPolicy#origin_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#origin_group WaasWaasPolicy#origin_group}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOriginGroupsOriginGroup" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "originGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyOriginGroupsOriginGroup\"},\"kind\":\"array\"}}]}}")]
         object OriginGroup
@@ -31,7 +32,7 @@ namespace oci.WaasWaasPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#label WaasWaasPolicy#label}.</summary>
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
             public string Label
             {
@@ -40,7 +41,8 @@ namespace oci.WaasWaasPolicy
 
             /// <summary>origin_group block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/waas_waas_policy#origin_group WaasWaasPolicy#origin_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/waas_waas_policy#origin_group WaasWaasPolicy#origin_group}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOriginGroupsOriginGroup" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "originGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyOriginGroupsOriginGroup\"},\"kind\":\"array\"}}]}}")]
             public object OriginGroup

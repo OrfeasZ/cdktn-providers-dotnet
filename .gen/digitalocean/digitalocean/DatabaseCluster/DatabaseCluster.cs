@@ -52,6 +52,7 @@ namespace digitalocean.DatabaseCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DatabaseCluster.IDatabaseClusterBackupRestore)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseCluster.IDatabaseClusterMaintenanceWindow" />)[]</param>
         [JsiiMethod(name: "putMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterMaintenanceWindow\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMaintenanceWindow(object @value)
         {
@@ -326,6 +327,9 @@ namespace digitalocean.DatabaseCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseCluster.IDatabaseClusterMaintenanceWindow" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterMaintenanceWindow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MaintenanceWindowInput
@@ -403,6 +407,9 @@ namespace digitalocean.DatabaseCluster
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DatabaseCluster.IDatabaseClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.databaseCluster.DatabaseClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

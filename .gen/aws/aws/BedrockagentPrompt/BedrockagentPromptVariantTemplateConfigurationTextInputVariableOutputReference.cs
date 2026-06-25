@@ -49,6 +49,9 @@ namespace aws.BedrockagentPrompt
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationTextInputVariable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationTextInputVariable\"}]}}", isOptional: true)]
         public virtual object? InternalValue

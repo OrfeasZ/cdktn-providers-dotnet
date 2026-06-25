@@ -41,6 +41,9 @@ namespace aws.SpotFleetRequest
             return InvokeInstanceMethod<aws.SpotFleetRequest.SpotFleetRequestLaunchSpecificationEphemeralBlockDeviceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchSpecificationEphemeralBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationEphemeralBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

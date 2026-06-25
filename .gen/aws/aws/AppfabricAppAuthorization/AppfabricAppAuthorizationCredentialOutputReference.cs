@@ -35,6 +35,7 @@ namespace aws.AppfabricAppAuthorization
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialApiKeyCredential" />)[]</param>
         [JsiiMethod(name: "putApiKeyCredential", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredential\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApiKeyCredential(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.AppfabricAppAuthorization
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialOauth2Credential" />)[]</param>
         [JsiiMethod(name: "putOauth2Credential", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2Credential\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOauth2Credential(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.AppfabricAppAuthorization
             get => GetInstanceProperty<aws.AppfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2CredentialList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialApiKeyCredential" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiKeyCredentialInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredential\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApiKeyCredentialInput
@@ -112,6 +117,9 @@ namespace aws.AppfabricAppAuthorization
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialOauth2Credential" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oauth2CredentialInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2Credential\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Oauth2CredentialInput
@@ -119,6 +127,9 @@ namespace aws.AppfabricAppAuthorization
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredential" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredential\"}]}}", isOptional: true)]
         public virtual object? InternalValue

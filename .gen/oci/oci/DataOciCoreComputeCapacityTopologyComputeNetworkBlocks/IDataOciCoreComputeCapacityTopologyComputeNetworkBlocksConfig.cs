@@ -7,14 +7,14 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeCapacityTopologyComputeNetworkBlocksConfig), fullyQualifiedName: "oci.dataOciCoreComputeCapacityTopologyComputeNetworkBlocks.DataOciCoreComputeCapacityTopologyComputeNetworkBlocksConfig")]
     public interface IDataOciCoreComputeCapacityTopologyComputeNetworkBlocksConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_capacity_topology_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_capacity_topology_id}.</summary>
         [JsiiProperty(name: "computeCapacityTopologyId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeCapacityTopologyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#availability_domain DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#availability_domain DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityDomain
@@ -25,7 +25,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compartment_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compartment_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -36,7 +36,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_hpc_island_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_hpc_island_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_hpc_island_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_hpc_island_id}.</summary>
         [JsiiProperty(name: "computeHpcIslandId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeHpcIslandId
@@ -49,7 +49,8 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#filter DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#filter DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks.IDataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreComputeCapacityTopologyComputeNetworkBlocks.DataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +62,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,14 +84,14 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_capacity_topology_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_capacity_topology_id}.</summary>
             [JsiiProperty(name: "computeCapacityTopologyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeCapacityTopologyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#availability_domain DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#availability_domain DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityDomain
@@ -98,7 +99,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compartment_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compartment_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -106,7 +107,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_hpc_island_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_hpc_island_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_hpc_island_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_hpc_island_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeHpcIslandId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeHpcIslandId
@@ -116,7 +117,8 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#filter DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#filter DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks.IDataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreComputeCapacityTopologyComputeNetworkBlocks.DataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -125,7 +127,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,6 +141,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -149,6 +152,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -199,6 +203,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -22,6 +22,7 @@ namespace aws.SagemakerModel
         /// <summary>s3_data_source block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSource" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "s3DataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}")]
         public object S3DataSource

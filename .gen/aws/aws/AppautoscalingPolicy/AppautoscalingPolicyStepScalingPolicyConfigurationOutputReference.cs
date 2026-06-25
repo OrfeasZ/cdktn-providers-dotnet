@@ -33,6 +33,7 @@ namespace aws.AppautoscalingPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppautoscalingPolicy.IAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment" />)[]</param>
         [JsiiMethod(name: "putStepAdjustment", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appautoscalingPolicy.AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStepAdjustment(object @value)
         {
@@ -120,6 +121,9 @@ namespace aws.AppautoscalingPolicy
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppautoscalingPolicy.IAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepAdjustmentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appautoscalingPolicy.AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepAdjustmentInput

@@ -75,6 +75,9 @@ namespace aws.DatazoneGlossaryTerm
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatazoneGlossaryTerm.IDatazoneGlossaryTermTermRelations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

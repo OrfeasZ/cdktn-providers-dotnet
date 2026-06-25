@@ -46,6 +46,7 @@ namespace aws.M2Application
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.M2Application.M2Application), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Application.IM2ApplicationDefinition" />)[]</param>
         [JsiiMethod(name: "putDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Application.M2ApplicationDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefinition(object @value)
         {
@@ -178,6 +179,9 @@ namespace aws.M2Application
             get => GetInstanceProperty<aws.M2Application.M2ApplicationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Application.IM2ApplicationDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "definitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Application.M2ApplicationDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefinitionInput
@@ -234,6 +238,9 @@ namespace aws.M2Application
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.M2Application.IM2ApplicationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.m2Application.M2ApplicationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

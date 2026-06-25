@@ -53,6 +53,9 @@ namespace digitalocean.Vpc
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.Vpc.IVpcTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.vpc.VpcTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.VerifiedpermissionsIdentitySource
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.VerifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsIdentitySource.IVerifiedpermissionsIdentitySourceConfiguration" />)[]</param>
         [JsiiMethod(name: "putConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySourceConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfiguration(object @value)
         {
@@ -118,6 +119,9 @@ namespace aws.VerifiedpermissionsIdentitySource
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsIdentitySource.IVerifiedpermissionsIdentitySourceConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySourceConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationInput

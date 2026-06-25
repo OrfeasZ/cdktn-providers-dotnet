@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreDedicatedVmHost
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreDedicatedVmHost.CoreDedicatedVmHost), fullyQualifiedName: "oci.coreDedicatedVmHost.CoreDedicatedVmHost", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreDedicatedVmHost.CoreDedicatedVmHostConfig\"}}]")]
     public class CoreDedicatedVmHost : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreDedicatedVmHost(Constructs.Construct scope, string id, oci.CoreDedicatedVmHost.ICoreDedicatedVmHostConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.CoreDedicatedVmHost
         /// <param name="importToId">The construct id used in the generated config for the CoreDedicatedVmHost to import.</param>
         /// <param name="importFromId">The id of the existing CoreDedicatedVmHost that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreDedicatedVmHost to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreDedicatedVmHost to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_dedicated_vm_host#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreDedicatedVmHost that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreDedicatedVmHost to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreDedicatedVmHost to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_dedicated_vm_host#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreDedicatedVmHost that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreDedicatedVmHost to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreDedicatedVmHost.CoreDedicatedVmHost), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -56,6 +56,12 @@ namespace oci.CoreDedicatedVmHost
         public virtual void PutTimeouts(oci.CoreDedicatedVmHost.ICoreDedicatedVmHostTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreDedicatedVmHost.ICoreDedicatedVmHostTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetCapacityConfig")]
+        public virtual void ResetCapacityConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDefinedTags")]
@@ -84,6 +90,12 @@ namespace oci.CoreDedicatedVmHost
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsMemoryEncryptionEnabled")]
+        public virtual void ResetIsMemoryEncryptionEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -137,6 +149,12 @@ namespace oci.CoreDedicatedVmHost
             get => GetInstanceProperty<oci.CoreDedicatedVmHost.CoreDedicatedVmHostPlacementConstraintDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "remainingLocalVolumeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RemainingLocalVolumeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "remainingMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RemainingMemoryInGbs
         {
@@ -167,6 +185,12 @@ namespace oci.CoreDedicatedVmHost
             get => GetInstanceProperty<oci.CoreDedicatedVmHost.CoreDedicatedVmHostTimeoutsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "totalLocalVolumeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TotalLocalVolumeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "totalMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalMemoryInGbs
         {
@@ -182,6 +206,13 @@ namespace oci.CoreDedicatedVmHost
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomainInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AvailabilityDomainInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityConfigInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CapacityConfigInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -235,6 +266,16 @@ namespace oci.CoreDedicatedVmHost
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isMemoryEncryptionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsMemoryEncryptionEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraintDetailsInput", typeJson: "{\"fqn\":\"oci.coreDedicatedVmHost.CoreDedicatedVmHostPlacementConstraintDetails\"}", isOptional: true)]
         public virtual oci.CoreDedicatedVmHost.ICoreDedicatedVmHostPlacementConstraintDetails? PlacementConstraintDetailsInput
@@ -242,6 +283,9 @@ namespace oci.CoreDedicatedVmHost
             get => GetInstanceProperty<oci.CoreDedicatedVmHost.ICoreDedicatedVmHostPlacementConstraintDetails?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreDedicatedVmHost.ICoreDedicatedVmHostTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreDedicatedVmHost.CoreDedicatedVmHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -251,6 +295,13 @@ namespace oci.CoreDedicatedVmHost
 
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AvailabilityDomain
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityConfig", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityConfig
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -303,6 +354,36 @@ namespace oci.CoreDedicatedVmHost
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isMemoryEncryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsMemoryEncryptionEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

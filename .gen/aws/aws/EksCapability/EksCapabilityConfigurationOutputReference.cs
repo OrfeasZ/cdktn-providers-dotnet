@@ -35,6 +35,7 @@ namespace aws.EksCapability
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCd" />)[]</param>
         [JsiiMethod(name: "putArgoCd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutArgoCd(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<aws.EksCapability.EksCapabilityConfigurationArgoCdList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "argoCdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArgoCdInput
@@ -77,6 +81,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksCapability.IEksCapabilityConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksCapability.EksCapabilityConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

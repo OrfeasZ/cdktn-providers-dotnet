@@ -70,6 +70,9 @@ namespace cloudflare.RateLimit
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.RateLimit.IRateLimitActionResponse" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.rateLimit.RateLimitActionResponse\"}]}}", isOptional: true)]
         public virtual object? ResponseInput
@@ -98,6 +101,9 @@ namespace cloudflare.RateLimit
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.RateLimit.IRateLimitAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.rateLimit.RateLimitAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

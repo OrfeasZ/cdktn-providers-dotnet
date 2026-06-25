@@ -151,6 +151,9 @@ namespace cloudflare.DataCloudflareWorkersCustomDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareWorkersCustomDomain.IDataCloudflareWorkersCustomDomainFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareWorkersCustomDomain.DataCloudflareWorkersCustomDomainFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

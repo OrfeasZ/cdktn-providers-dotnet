@@ -87,6 +87,9 @@ namespace cloudflare.DataCloudflareZone
             get => GetInstanceProperty<cloudflare.DataCloudflareZone.DataCloudflareZoneFilterAccountOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZone.IDataCloudflareZoneFilterAccount" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZone.DataCloudflareZoneFilterAccount\"}]}}", isOptional: true)]
         public virtual object? AccountInput
@@ -178,6 +181,9 @@ namespace cloudflare.DataCloudflareZone
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZone.IDataCloudflareZoneFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZone.DataCloudflareZoneFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

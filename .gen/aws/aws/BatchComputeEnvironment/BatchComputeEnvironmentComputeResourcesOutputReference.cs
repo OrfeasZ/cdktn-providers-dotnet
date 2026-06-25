@@ -33,6 +33,7 @@ namespace aws.BatchComputeEnvironment
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchComputeEnvironment.IBatchComputeEnvironmentComputeResourcesEc2Configuration" />)[]</param>
         [JsiiMethod(name: "putEc2Configuration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEc2Configuration(object @value)
         {
@@ -179,6 +180,9 @@ namespace aws.BatchComputeEnvironment
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchComputeEnvironment.IBatchComputeEnvironmentComputeResourcesEc2Configuration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2ConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ec2ConfigurationInput

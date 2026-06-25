@@ -35,6 +35,7 @@ namespace aws.ApiGatewayUsagePlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStagesThrottle" />)[]</param>
         [JsiiMethod(name: "putThrottle", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThrottle(object @value)
         {
@@ -84,6 +85,9 @@ namespace aws.ApiGatewayUsagePlan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStagesThrottle" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "throttleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThrottleInput
@@ -105,6 +109,9 @@ namespace aws.ApiGatewayUsagePlan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStages" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStages\"}]}}", isOptional: true)]
         public virtual object? InternalValue

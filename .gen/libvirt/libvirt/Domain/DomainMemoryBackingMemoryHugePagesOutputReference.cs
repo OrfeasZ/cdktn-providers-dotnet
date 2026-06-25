@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainMemoryBackingMemoryHugePagesHugepages" />)[]</param>
         [JsiiMethod(name: "putHugepages", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryHugePagesHugepages\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHugepages(object @value)
         {
@@ -68,6 +69,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainMemoryBackingMemoryHugePagesHugepagesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainMemoryBackingMemoryHugePagesHugepages" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hugepagesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryHugePagesHugepages\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HugepagesInput
@@ -75,6 +79,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainMemoryBackingMemoryHugePages" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryHugePages\"}]}}", isOptional: true)]
         public virtual object? InternalValue

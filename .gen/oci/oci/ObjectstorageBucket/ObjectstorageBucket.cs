@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ObjectstorageBucket
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/objectstorage_bucket oci_objectstorage_bucket}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket oci_objectstorage_bucket}.</summary>
     [JsiiClass(nativeType: typeof(oci.ObjectstorageBucket.ObjectstorageBucket), fullyQualifiedName: "oci.objectstorageBucket.ObjectstorageBucket", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketConfig\"}}]")]
     public class ObjectstorageBucket : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/objectstorage_bucket oci_objectstorage_bucket} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket oci_objectstorage_bucket} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ObjectstorageBucket(Constructs.Construct scope, string id, oci.ObjectstorageBucket.IObjectstorageBucketConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.ObjectstorageBucket
         /// <param name="importToId">The construct id used in the generated config for the ObjectstorageBucket to import.</param>
         /// <param name="importFromId">The id of the existing ObjectstorageBucket that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ObjectstorageBucket to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ObjectstorageBucket to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/objectstorage_bucket#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ObjectstorageBucket that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ObjectstorageBucket to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ObjectstorageBucket to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/objectstorage_bucket#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ObjectstorageBucket that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ObjectstorageBucket to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ObjectstorageBucket.ObjectstorageBucket), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstorageBucket.IObjectstorageBucketRetentionRules" />)[]</param>
         [JsiiMethod(name: "putRetentionRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketRetentionRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRetentionRules(object @value)
         {
@@ -83,6 +84,12 @@ namespace oci.ObjectstorageBucket
 
         [JsiiMethod(name: "resetAutoTiering")]
         public virtual void ResetAutoTiering()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBucketScope")]
+        public virtual void ResetBucketScope()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -247,6 +254,13 @@ namespace oci.ObjectstorageBucket
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "bucketScopeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BucketScopeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "compartmentIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CompartmentIdInput
         {
@@ -302,6 +316,9 @@ namespace oci.ObjectstorageBucket
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "objectEventsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ObjectEventsEnabledInput
@@ -309,6 +326,9 @@ namespace oci.ObjectstorageBucket
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstorageBucket.IObjectstorageBucketRetentionRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retentionRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketRetentionRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RetentionRulesInput
@@ -323,6 +343,9 @@ namespace oci.ObjectstorageBucket
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ObjectstorageBucket.IObjectstorageBucketTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -346,6 +369,13 @@ namespace oci.ObjectstorageBucket
 
         [JsiiProperty(name: "autoTiering", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AutoTiering
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "bucketScope", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BucketScope
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -407,6 +437,9 @@ namespace oci.ObjectstorageBucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "objectEventsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ObjectEventsEnabled
         {

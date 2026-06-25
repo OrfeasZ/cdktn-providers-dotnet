@@ -41,6 +41,9 @@ namespace cloudflare.Workflow
             return InvokeInstanceMethod<cloudflare.Workflow.WorkflowSchedulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Workflow.IWorkflowSchedules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workflow.WorkflowSchedules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

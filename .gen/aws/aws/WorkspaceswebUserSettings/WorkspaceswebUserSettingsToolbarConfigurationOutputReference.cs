@@ -115,6 +115,9 @@ namespace aws.WorkspaceswebUserSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspaceswebUserSettings.IWorkspaceswebUserSettingsToolbarConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

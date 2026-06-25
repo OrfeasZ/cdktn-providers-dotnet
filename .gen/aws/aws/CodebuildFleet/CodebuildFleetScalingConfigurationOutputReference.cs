@@ -33,6 +33,7 @@ namespace aws.CodebuildFleet
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs" />)[]</param>
         [JsiiMethod(name: "putTargetTrackingScalingConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetTrackingScalingConfigs(object @value)
         {
@@ -100,6 +101,9 @@ namespace aws.CodebuildFleet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetTrackingScalingConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetTrackingScalingConfigsInput

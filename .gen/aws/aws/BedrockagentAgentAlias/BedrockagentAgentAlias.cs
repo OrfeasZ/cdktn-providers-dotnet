@@ -46,6 +46,7 @@ namespace aws.BedrockagentAgentAlias
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentAgentAlias.BedrockagentAgentAlias), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentAlias.IBedrockagentAgentAliasRoutingConfiguration" />)[]</param>
         [JsiiMethod(name: "putRoutingConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutingConfiguration(object @value)
         {
@@ -188,6 +189,9 @@ namespace aws.BedrockagentAgentAlias
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentAlias.IBedrockagentAgentAliasRoutingConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routingConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutingConfigurationInput
@@ -202,6 +206,9 @@ namespace aws.BedrockagentAgentAlias
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgentAlias.IBedrockagentAgentAliasTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgentAlias.BedrockagentAgentAliasTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

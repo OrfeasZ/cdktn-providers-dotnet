@@ -33,6 +33,7 @@ namespace aws.VerifiedaccessEndpoint
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptionsPortRange" />)[]</param>
         [JsiiMethod(name: "putPortRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortRange(object @value)
         {
@@ -81,6 +82,9 @@ namespace aws.VerifiedaccessEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptionsPortRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortRangeInput

@@ -46,6 +46,7 @@ namespace aws.Lexv2ModelsSlot
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Lexv2ModelsSlot.Lexv2ModelsSlot), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotMultipleValuesSetting" />)[]</param>
         [JsiiMethod(name: "putMultipleValuesSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotMultipleValuesSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMultipleValuesSetting(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Lexv2ModelsSlot
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotObfuscationSetting" />)[]</param>
         [JsiiMethod(name: "putObfuscationSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotObfuscationSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutObfuscationSetting(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.Lexv2ModelsSlot
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotSubSlotSetting" />)[]</param>
         [JsiiMethod(name: "putSubSlotSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotSubSlotSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubSlotSetting(object @value)
         {
@@ -121,6 +124,7 @@ namespace aws.Lexv2ModelsSlot
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Lexv2ModelsSlot.ILexv2ModelsSlotTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotValueElicitationSetting" />)[]</param>
         [JsiiMethod(name: "putValueElicitationSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotValueElicitationSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValueElicitationSetting(object @value)
         {
@@ -288,6 +292,9 @@ namespace aws.Lexv2ModelsSlot
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotMultipleValuesSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multipleValuesSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotMultipleValuesSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MultipleValuesSettingInput
@@ -302,6 +309,9 @@ namespace aws.Lexv2ModelsSlot
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotObfuscationSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "obfuscationSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotObfuscationSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ObfuscationSettingInput
@@ -323,6 +333,9 @@ namespace aws.Lexv2ModelsSlot
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotSubSlotSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subSlotSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotSubSlotSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubSlotSettingInput
@@ -330,6 +343,9 @@ namespace aws.Lexv2ModelsSlot
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -337,6 +353,9 @@ namespace aws.Lexv2ModelsSlot
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotValueElicitationSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueElicitationSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlot.Lexv2ModelsSlotValueElicitationSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValueElicitationSettingInput

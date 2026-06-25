@@ -150,6 +150,9 @@ namespace cloudflare.DataCloudflareAiSearchToken
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAiSearchToken.IDataCloudflareAiSearchTokenFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAiSearchToken.DataCloudflareAiSearchTokenFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

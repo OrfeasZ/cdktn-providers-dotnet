@@ -143,6 +143,12 @@ namespace oci.DataOciDatabaseAutonomousVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "distributionAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DistributionAlgorithm
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExadataInfrastructureId
         {
@@ -295,6 +301,12 @@ namespace oci.DataOciDatabaseAutonomousVmClusters
 
         [JsiiProperty(name: "scanListenerPortTls", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ScanListenerPortTls
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "sgaPercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SgaPercentage
         {
             get => GetInstanceProperty<double>()!;
         }

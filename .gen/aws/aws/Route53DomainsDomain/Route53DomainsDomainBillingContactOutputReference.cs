@@ -35,6 +35,7 @@ namespace aws.Route53DomainsDomain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainBillingContactExtraParam" />)[]</param>
         [JsiiMethod(name: "putExtraParam", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContactExtraParam\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExtraParam(object @value)
         {
@@ -190,6 +191,9 @@ namespace aws.Route53DomainsDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainBillingContactExtraParam" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extraParamInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContactExtraParam\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExtraParamInput
@@ -337,6 +341,9 @@ namespace aws.Route53DomainsDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainBillingContact" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainBillingContact\"}]}}", isOptional: true)]
         public virtual object? InternalValue

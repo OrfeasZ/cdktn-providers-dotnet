@@ -41,6 +41,9 @@ namespace cloudflare.AddressMap
             return InvokeInstanceMethod<cloudflare.AddressMap.AddressMapMembershipsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AddressMap.IAddressMapMemberships" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.addressMap.AddressMapMemberships\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

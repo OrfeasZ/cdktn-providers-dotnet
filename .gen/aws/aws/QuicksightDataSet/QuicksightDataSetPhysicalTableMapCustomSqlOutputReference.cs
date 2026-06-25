@@ -33,6 +33,7 @@ namespace aws.QuicksightDataSet
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMapCustomSqlColumns" />)[]</param>
         [JsiiMethod(name: "putColumns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumns(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<aws.QuicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumnsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetPhysicalTableMapCustomSqlColumns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnsInput

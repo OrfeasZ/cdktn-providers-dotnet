@@ -41,8 +41,44 @@ namespace oci.DataOciGoldenGatePipeline
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "adbWalletPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AdbWalletPath
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Bucket
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "initialLoadType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialLoadType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isInitialLoad", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IsInitialLoad
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Namespace
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceWalletPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceWalletPath
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "targetWalletPath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetWalletPath
         {
             get => GetInstanceProperty<string>()!;
         }

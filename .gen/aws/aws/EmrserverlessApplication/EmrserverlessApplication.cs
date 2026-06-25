@@ -64,6 +64,7 @@ namespace aws.EmrserverlessApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EmrserverlessApplication.IEmrserverlessApplicationImageConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrserverlessApplication.IEmrserverlessApplicationInitialCapacity" />)[]</param>
         [JsiiMethod(name: "putInitialCapacity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInitialCapacity(object @value)
         {
@@ -117,6 +118,7 @@ namespace aws.EmrserverlessApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EmrserverlessApplication.IEmrserverlessApplicationNetworkConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrserverlessApplication.IEmrserverlessApplicationRuntimeConfiguration" />)[]</param>
         [JsiiMethod(name: "putRuntimeConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationRuntimeConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRuntimeConfiguration(object @value)
         {
@@ -368,6 +370,9 @@ namespace aws.EmrserverlessApplication
             get => GetInstanceProperty<aws.EmrserverlessApplication.IEmrserverlessApplicationImageConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrserverlessApplication.IEmrserverlessApplicationInitialCapacity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialCapacityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationInitialCapacity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InitialCapacityInput
@@ -431,6 +436,9 @@ namespace aws.EmrserverlessApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrserverlessApplication.IEmrserverlessApplicationRuntimeConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationRuntimeConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuntimeConfigurationInput

@@ -83,6 +83,9 @@ namespace aws.CleanroomsCollaboration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CleanroomsCollaboration.ICleanroomsCollaborationMember" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cleanroomsCollaboration.CleanroomsCollaborationMember\"}]}}", isOptional: true)]
         public virtual object? InternalValue

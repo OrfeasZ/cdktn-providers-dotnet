@@ -24,6 +24,7 @@ namespace cloudflare.ZeroTrustAccessApplication
         /// <summary>A mapping from IdP ID to attribute name.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_access_application#name_by_idp ZeroTrustAccessApplication#name_by_idp}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationSaasAppCustomAttributesSourceNameByIdp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameByIdp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationSaasAppCustomAttributesSourceNameByIdp\"},\"kind\":\"array\"}}]}}", isOptional: true)]

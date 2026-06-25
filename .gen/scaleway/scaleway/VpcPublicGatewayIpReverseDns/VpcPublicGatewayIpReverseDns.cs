@@ -116,6 +116,9 @@ namespace scaleway.VpcPublicGatewayIpReverseDns
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.VpcPublicGatewayIpReverseDns.IVpcPublicGatewayIpReverseDnsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.vpcPublicGatewayIpReverseDns.VpcPublicGatewayIpReverseDnsTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

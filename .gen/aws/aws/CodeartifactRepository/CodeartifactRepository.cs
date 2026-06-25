@@ -52,6 +52,7 @@ namespace aws.CodeartifactRepository
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CodeartifactRepository.ICodeartifactRepositoryExternalConnections)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodeartifactRepository.ICodeartifactRepositoryUpstream" />)[]</param>
         [JsiiMethod(name: "putUpstream", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeartifactRepository.CodeartifactRepositoryUpstream\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUpstream(object @value)
         {
@@ -229,6 +230,9 @@ namespace aws.CodeartifactRepository
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodeartifactRepository.ICodeartifactRepositoryUpstream" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upstreamInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeartifactRepository.CodeartifactRepositoryUpstream\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UpstreamInput

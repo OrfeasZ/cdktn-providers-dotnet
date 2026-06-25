@@ -47,6 +47,12 @@ namespace oci.DataOciLimitsLimitDefinitions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "externalLocationSupportedSubscriptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ExternalLocationSupportedSubscriptions
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "isDeprecated", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsDeprecated
         {

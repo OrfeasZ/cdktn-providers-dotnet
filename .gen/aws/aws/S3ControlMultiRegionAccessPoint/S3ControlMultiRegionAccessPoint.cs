@@ -171,6 +171,9 @@ namespace aws.S3ControlMultiRegionAccessPoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

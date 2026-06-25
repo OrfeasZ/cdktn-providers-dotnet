@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.GoldenGateDatabaseRegistration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_database_registration oci_golden_gate_database_registration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_database_registration oci_golden_gate_database_registration}.</summary>
     [JsiiClass(nativeType: typeof(oci.GoldenGateDatabaseRegistration.GoldenGateDatabaseRegistration), fullyQualifiedName: "oci.goldenGateDatabaseRegistration.GoldenGateDatabaseRegistration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.goldenGateDatabaseRegistration.GoldenGateDatabaseRegistrationConfig\"}}]")]
     public class GoldenGateDatabaseRegistration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_database_registration oci_golden_gate_database_registration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_database_registration oci_golden_gate_database_registration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public GoldenGateDatabaseRegistration(Constructs.Construct scope, string id, oci.GoldenGateDatabaseRegistration.IGoldenGateDatabaseRegistrationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.GoldenGateDatabaseRegistration
         /// <param name="importToId">The construct id used in the generated config for the GoldenGateDatabaseRegistration to import.</param>
         /// <param name="importFromId">The id of the existing GoldenGateDatabaseRegistration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the GoldenGateDatabaseRegistration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGateDatabaseRegistration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_database_registration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGateDatabaseRegistration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGateDatabaseRegistration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGateDatabaseRegistration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_database_registration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGateDatabaseRegistration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGateDatabaseRegistration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.GoldenGateDatabaseRegistration.GoldenGateDatabaseRegistration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -154,6 +154,12 @@ namespace oci.GoldenGateDatabaseRegistration
             get;
         }
         = GetStaticProperty<string>(typeof(oci.GoldenGateDatabaseRegistration.GoldenGateDatabaseRegistration))!;
+
+        [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConnectionId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
@@ -315,6 +321,9 @@ namespace oci.GoldenGateDatabaseRegistration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGateDatabaseRegistration.IGoldenGateDatabaseRegistrationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGateDatabaseRegistration.GoldenGateDatabaseRegistrationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

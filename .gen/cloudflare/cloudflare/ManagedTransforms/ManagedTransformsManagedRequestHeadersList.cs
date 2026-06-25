@@ -41,6 +41,9 @@ namespace cloudflare.ManagedTransforms
             return InvokeInstanceMethod<cloudflare.ManagedTransforms.ManagedTransformsManagedRequestHeadersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

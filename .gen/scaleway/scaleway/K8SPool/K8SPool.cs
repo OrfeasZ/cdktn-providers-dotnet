@@ -46,6 +46,7 @@ namespace scaleway.K8SPool
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.K8SPool.K8SPool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SPool.IK8SPoolStartupTaints" />)[]</param>
         [JsiiMethod(name: "putStartupTaints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStartupTaints(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.K8SPool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SPool.IK8SPoolTaints" />)[]</param>
         [JsiiMethod(name: "putTaints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolTaints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTaints(object @value)
         {
@@ -309,6 +311,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<scaleway.K8SPool.K8SPoolUpgradePolicyOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autohealingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutohealingInput
@@ -316,6 +321,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoscalingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoscalingInput
@@ -393,6 +401,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpDisabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PublicIpDisabledInput
@@ -435,6 +446,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SPool.IK8SPoolStartupTaints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startupTaintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StartupTaintsInput
@@ -449,6 +463,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SPool.IK8SPoolTaints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolTaints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TaintsInput
@@ -456,6 +473,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.K8SPool.IK8SPoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.k8SPool.K8SPoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -477,6 +497,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "waitForPoolReadyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? WaitForPoolReadyInput
@@ -491,6 +514,9 @@ namespace scaleway.K8SPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autohealing", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Autohealing
         {
@@ -518,6 +544,9 @@ namespace scaleway.K8SPool
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoscaling", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Autoscaling
         {
@@ -615,6 +644,9 @@ namespace scaleway.K8SPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publicIpDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PublicIpDisabled
         {
@@ -691,6 +723,9 @@ namespace scaleway.K8SPool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "waitForPoolReady", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object WaitForPoolReady
         {

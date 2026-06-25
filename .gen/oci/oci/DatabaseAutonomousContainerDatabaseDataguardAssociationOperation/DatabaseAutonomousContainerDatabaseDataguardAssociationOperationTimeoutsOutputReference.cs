@@ -73,6 +73,9 @@ namespace oci.DatabaseAutonomousContainerDatabaseDataguardAssociationOperation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousContainerDatabaseDataguardAssociationOperation.IDatabaseAutonomousContainerDatabaseDataguardAssociationOperationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousContainerDatabaseDataguardAssociationOperation.DatabaseAutonomousContainerDatabaseDataguardAssociationOperationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

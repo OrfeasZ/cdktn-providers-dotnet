@@ -69,6 +69,9 @@ namespace digitalocean.DataDigitaloceanGradientaiModels
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DataDigitaloceanGradientaiModels.IDataDigitaloceanGradientaiModelsSort" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiModels.DataDigitaloceanGradientaiModelsSort\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace aws.ServerlessapplicationrepositoryCloudformationStack
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ServerlessapplicationrepositoryCloudformationStack.IServerlessapplicationrepositoryCloudformationStackTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStackTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

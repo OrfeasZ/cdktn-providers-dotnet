@@ -73,6 +73,9 @@ namespace aws.WorkmailOrganization
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkmailOrganization.IWorkmailOrganizationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workmailOrganization.WorkmailOrganizationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

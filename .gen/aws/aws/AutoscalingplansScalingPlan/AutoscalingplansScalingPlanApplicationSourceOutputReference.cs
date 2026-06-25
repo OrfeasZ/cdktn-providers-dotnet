@@ -33,6 +33,7 @@ namespace aws.AutoscalingplansScalingPlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AutoscalingplansScalingPlan.IAutoscalingplansScalingPlanApplicationSourceTagFilter" />)[]</param>
         [JsiiMethod(name: "putTagFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanApplicationSourceTagFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTagFilter(object @value)
         {
@@ -81,6 +82,9 @@ namespace aws.AutoscalingplansScalingPlan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AutoscalingplansScalingPlan.IAutoscalingplansScalingPlanApplicationSourceTagFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanApplicationSourceTagFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagFilterInput

@@ -46,6 +46,7 @@ namespace aws.OdbCloudExadataInfrastructure
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.OdbCloudExadataInfrastructure.OdbCloudExadataInfrastructure), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OdbCloudExadataInfrastructure.IOdbCloudExadataInfrastructureCustomerContactsToSendToOci" />)[]</param>
         [JsiiMethod(name: "putCustomerContactsToSendToOci", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureCustomerContactsToSendToOci\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomerContactsToSendToOci(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.OdbCloudExadataInfrastructure
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OdbCloudExadataInfrastructure.IOdbCloudExadataInfrastructureMaintenanceWindow" />)[]</param>
         [JsiiMethod(name: "putMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureMaintenanceWindow\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMaintenanceWindow(object @value)
         {
@@ -390,6 +392,9 @@ namespace aws.OdbCloudExadataInfrastructure
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OdbCloudExadataInfrastructure.IOdbCloudExadataInfrastructureCustomerContactsToSendToOci" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerContactsToSendToOciInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureCustomerContactsToSendToOci\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomerContactsToSendToOciInput
@@ -411,6 +416,9 @@ namespace aws.OdbCloudExadataInfrastructure
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OdbCloudExadataInfrastructure.IOdbCloudExadataInfrastructureMaintenanceWindow" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureMaintenanceWindow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MaintenanceWindowInput
@@ -453,6 +461,9 @@ namespace aws.OdbCloudExadataInfrastructure
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OdbCloudExadataInfrastructure.IOdbCloudExadataInfrastructureTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

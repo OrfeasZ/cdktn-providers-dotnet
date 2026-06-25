@@ -33,6 +33,12 @@ namespace oci.DatabaseDatabase
         {
         }
 
+        [JsiiMethod(name: "resetHsmPassword")]
+        public virtual void ResetHsmPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "hsmPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? HsmPasswordInput

@@ -21,6 +21,7 @@ namespace aws.Macie2ClassificationJob
         /// <summary>tag_values block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagValues", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -46,6 +46,7 @@ namespace scaleway.IpamIp
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.IpamIp.IpamIp), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.IpamIp.IIpamIpCustomResource" />)[]</param>
         [JsiiMethod(name: "putCustomResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.ipamIp.IpamIpCustomResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomResource(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.IpamIp
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.IpamIp.IIpamIpSource" />)[]</param>
         [JsiiMethod(name: "putSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.ipamIp.IpamIpSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSource(object @value)
         {
@@ -208,6 +210,9 @@ namespace scaleway.IpamIp
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.IpamIp.IIpamIpCustomResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customResourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.ipamIp.IpamIpCustomResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomResourceInput
@@ -222,6 +227,9 @@ namespace scaleway.IpamIp
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6Input", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIpv6Input
@@ -243,6 +251,9 @@ namespace scaleway.IpamIp
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.IpamIp.IIpamIpSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.ipamIp.IpamIpSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceInput
@@ -271,6 +282,9 @@ namespace scaleway.IpamIp
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIpv6
         {

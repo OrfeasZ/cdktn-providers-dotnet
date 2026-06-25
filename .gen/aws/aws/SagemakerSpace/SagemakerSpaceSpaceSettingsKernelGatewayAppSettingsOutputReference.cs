@@ -33,6 +33,7 @@ namespace aws.SagemakerSpace
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImage" />)[]</param>
         [JsiiMethod(name: "putCustomImage", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImage\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomImage(object @value)
         {
@@ -86,6 +87,9 @@ namespace aws.SagemakerSpace
             get => GetInstanceProperty<aws.SagemakerSpace.SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customImageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsKernelGatewayAppSettingsCustomImage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomImageInput

@@ -33,51 +33,11 @@ namespace oci.DatascienceMlApplicationInstance
         {
         }
 
-        [JsiiMethod(name: "resetApplicationName")]
-        public virtual void ResetApplicationName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetDomainId")]
-        public virtual void ResetDomainId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "applicationNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ApplicationNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "domainIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? DomainIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "applicationName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ApplicationName
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DomainId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]

@@ -7,14 +7,36 @@ namespace oci.CertificatesManagementCertificate
     [JsiiInterface(nativeType: typeof(ICertificatesManagementCertificateCertificateConfig), fullyQualifiedName: "oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfig")]
     public interface ICertificatesManagementCertificateCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#config_type CertificatesManagementCertificate#config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#config_type CertificatesManagementCertificate#config_type}.</summary>
         [JsiiProperty(name: "configType", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#certificate_profile_type CertificatesManagementCertificate#certificate_profile_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#cert_chain_pem CertificatesManagementCertificate#cert_chain_pem}.</summary>
+        [JsiiProperty(name: "certChainPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CertChainPem
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#certificate_pem CertificatesManagementCertificate#certificate_pem}.</summary>
+        [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CertificatePem
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#certificate_profile_type CertificatesManagementCertificate#certificate_profile_type}.</summary>
         [JsiiProperty(name: "certificateProfileType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificateProfileType
@@ -25,7 +47,7 @@ namespace oci.CertificatesManagementCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#csr_pem CertificatesManagementCertificate#csr_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#csr_pem CertificatesManagementCertificate#csr_pem}.</summary>
         [JsiiProperty(name: "csrPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CsrPem
@@ -36,7 +58,7 @@ namespace oci.CertificatesManagementCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#issuer_certificate_authority_id CertificatesManagementCertificate#issuer_certificate_authority_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#issuer_certificate_authority_id CertificatesManagementCertificate#issuer_certificate_authority_id}.</summary>
         [JsiiProperty(name: "issuerCertificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IssuerCertificateAuthorityId
@@ -47,7 +69,7 @@ namespace oci.CertificatesManagementCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#key_algorithm CertificatesManagementCertificate#key_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#key_algorithm CertificatesManagementCertificate#key_algorithm}.</summary>
         [JsiiProperty(name: "keyAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeyAlgorithm
@@ -58,7 +80,29 @@ namespace oci.CertificatesManagementCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#signature_algorithm CertificatesManagementCertificate#signature_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#private_key_pem CertificatesManagementCertificate#private_key_pem}.</summary>
+        [JsiiProperty(name: "privateKeyPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? PrivateKeyPem
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#private_key_pem_passphrase CertificatesManagementCertificate#private_key_pem_passphrase}.</summary>
+        [JsiiProperty(name: "privateKeyPemPassphrase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? PrivateKeyPemPassphrase
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#signature_algorithm CertificatesManagementCertificate#signature_algorithm}.</summary>
         [JsiiProperty(name: "signatureAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SignatureAlgorithm
@@ -69,9 +113,20 @@ namespace oci.CertificatesManagementCertificate
             }
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#stage CertificatesManagementCertificate#stage}.</summary>
+        [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Stage
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>subject block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#subject CertificatesManagementCertificate#subject}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#subject CertificatesManagementCertificate#subject}
         /// </remarks>
         [JsiiProperty(name: "subject", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigSubject\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +140,8 @@ namespace oci.CertificatesManagementCertificate
 
         /// <summary>subject_alternative_names block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#subject_alternative_names CertificatesManagementCertificate#subject_alternative_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#subject_alternative_names CertificatesManagementCertificate#subject_alternative_names}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigSubjectAlternativeNames" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "subjectAlternativeNames", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigSubjectAlternativeNames\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +155,7 @@ namespace oci.CertificatesManagementCertificate
 
         /// <summary>validity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#validity CertificatesManagementCertificate#validity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#validity CertificatesManagementCertificate#validity}
         /// </remarks>
         [JsiiProperty(name: "validity", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigValidity\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +167,7 @@ namespace oci.CertificatesManagementCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#version_name CertificatesManagementCertificate#version_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#version_name CertificatesManagementCertificate#version_name}.</summary>
         [JsiiProperty(name: "versionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VersionName
@@ -129,14 +185,30 @@ namespace oci.CertificatesManagementCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#config_type CertificatesManagementCertificate#config_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#config_type CertificatesManagementCertificate#config_type}.</summary>
             [JsiiProperty(name: "configType", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#certificate_profile_type CertificatesManagementCertificate#certificate_profile_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#cert_chain_pem CertificatesManagementCertificate#cert_chain_pem}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "certChainPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CertChainPem
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#certificate_pem CertificatesManagementCertificate#certificate_pem}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CertificatePem
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#certificate_profile_type CertificatesManagementCertificate#certificate_profile_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateProfileType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificateProfileType
@@ -144,7 +216,7 @@ namespace oci.CertificatesManagementCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#csr_pem CertificatesManagementCertificate#csr_pem}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#csr_pem CertificatesManagementCertificate#csr_pem}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "csrPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CsrPem
@@ -152,7 +224,7 @@ namespace oci.CertificatesManagementCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#issuer_certificate_authority_id CertificatesManagementCertificate#issuer_certificate_authority_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#issuer_certificate_authority_id CertificatesManagementCertificate#issuer_certificate_authority_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "issuerCertificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IssuerCertificateAuthorityId
@@ -160,7 +232,7 @@ namespace oci.CertificatesManagementCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#key_algorithm CertificatesManagementCertificate#key_algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#key_algorithm CertificatesManagementCertificate#key_algorithm}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keyAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeyAlgorithm
@@ -168,7 +240,23 @@ namespace oci.CertificatesManagementCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#signature_algorithm CertificatesManagementCertificate#signature_algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#private_key_pem CertificatesManagementCertificate#private_key_pem}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "privateKeyPem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? PrivateKeyPem
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#private_key_pem_passphrase CertificatesManagementCertificate#private_key_pem_passphrase}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "privateKeyPemPassphrase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? PrivateKeyPemPassphrase
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#signature_algorithm CertificatesManagementCertificate#signature_algorithm}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "signatureAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SignatureAlgorithm
@@ -176,9 +264,17 @@ namespace oci.CertificatesManagementCertificate
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#stage CertificatesManagementCertificate#stage}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Stage
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>subject block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#subject CertificatesManagementCertificate#subject}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#subject CertificatesManagementCertificate#subject}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subject", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigSubject\"}", isOptional: true)]
@@ -189,7 +285,8 @@ namespace oci.CertificatesManagementCertificate
 
             /// <summary>subject_alternative_names block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#subject_alternative_names CertificatesManagementCertificate#subject_alternative_names}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#subject_alternative_names CertificatesManagementCertificate#subject_alternative_names}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigSubjectAlternativeNames" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subjectAlternativeNames", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigSubjectAlternativeNames\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -200,7 +297,7 @@ namespace oci.CertificatesManagementCertificate
 
             /// <summary>validity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#validity CertificatesManagementCertificate#validity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#validity CertificatesManagementCertificate#validity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validity", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigValidity\"}", isOptional: true)]
@@ -209,7 +306,7 @@ namespace oci.CertificatesManagementCertificate
                 get => GetInstanceProperty<oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigValidity?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/certificates_management_certificate#version_name CertificatesManagementCertificate#version_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/certificates_management_certificate#version_name CertificatesManagementCertificate#version_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "versionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VersionName

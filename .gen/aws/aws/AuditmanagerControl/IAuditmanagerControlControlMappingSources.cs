@@ -51,6 +51,9 @@ namespace aws.AuditmanagerControl
         }
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/auditmanager_control#source_keyword AuditmanagerControl#source_keyword}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword" />)[]</para>
+        /// </remarks>
         [JsiiProperty(name: "sourceKeyword", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? SourceKeyword
@@ -117,6 +120,9 @@ namespace aws.AuditmanagerControl
             }
 
             /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/auditmanager_control#source_keyword AuditmanagerControl#source_keyword}.</summary>
+            /// <remarks>
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword" />)[]</para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceKeyword", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? SourceKeyword

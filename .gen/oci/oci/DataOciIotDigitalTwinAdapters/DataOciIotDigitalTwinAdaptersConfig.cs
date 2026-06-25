@@ -9,7 +9,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
     [JsiiByValue(fqn: "oci.dataOciIotDigitalTwinAdapters.DataOciIotDigitalTwinAdaptersConfig")]
     public class DataOciIotDigitalTwinAdaptersConfig : oci.DataOciIotDigitalTwinAdapters.IDataOciIotDigitalTwinAdaptersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#iot_domain_id DataOciIotDigitalTwinAdapters#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#iot_domain_id DataOciIotDigitalTwinAdapters#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#digital_twin_model_id DataOciIotDigitalTwinAdapters#digital_twin_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#digital_twin_model_id DataOciIotDigitalTwinAdapters#digital_twin_model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "digitalTwinModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DigitalTwinModelId
@@ -26,7 +26,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#digital_twin_model_spec_uri DataOciIotDigitalTwinAdapters#digital_twin_model_spec_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#digital_twin_model_spec_uri DataOciIotDigitalTwinAdapters#digital_twin_model_spec_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "digitalTwinModelSpecUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DigitalTwinModelSpecUri
@@ -35,7 +35,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#display_name DataOciIotDigitalTwinAdapters#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#display_name DataOciIotDigitalTwinAdapters#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -48,7 +48,8 @@ namespace oci.DataOciIotDigitalTwinAdapters
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#filter DataOciIotDigitalTwinAdapters#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#filter DataOciIotDigitalTwinAdapters#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIotDigitalTwinAdapters.IDataOciIotDigitalTwinAdaptersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIotDigitalTwinAdapters.DataOciIotDigitalTwinAdaptersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -78,7 +79,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#id DataOciIotDigitalTwinAdapters#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#id DataOciIotDigitalTwinAdapters#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +92,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_adapters#state DataOciIotDigitalTwinAdapters#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_adapters#state DataOciIotDigitalTwinAdapters#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -104,6 +105,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -137,6 +139,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -231,6 +234,7 @@ namespace oci.DataOciIotDigitalTwinAdapters
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

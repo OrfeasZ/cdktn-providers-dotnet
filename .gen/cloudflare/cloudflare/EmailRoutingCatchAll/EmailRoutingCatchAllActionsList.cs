@@ -41,6 +41,9 @@ namespace cloudflare.EmailRoutingCatchAll
             return InvokeInstanceMethod<cloudflare.EmailRoutingCatchAll.EmailRoutingCatchAllActionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingCatchAll.IEmailRoutingCatchAllActions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingCatchAll.EmailRoutingCatchAllActions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

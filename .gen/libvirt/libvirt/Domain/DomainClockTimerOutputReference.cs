@@ -83,6 +83,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainClockTimerCatchUpOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainClockTimerCatchUp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catchUpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainClockTimerCatchUp\"}]}}", isOptional: true)]
         public virtual object? CatchUpInput
@@ -174,6 +177,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainClockTimer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainClockTimer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

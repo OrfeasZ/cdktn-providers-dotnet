@@ -48,6 +48,9 @@ namespace aws.Lexv2ModelsBotVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsBotVersion.ILexv2ModelsBotVersionLocaleSpecification" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecification\"}]}}", isOptional: true)]
         public virtual object? InternalValue

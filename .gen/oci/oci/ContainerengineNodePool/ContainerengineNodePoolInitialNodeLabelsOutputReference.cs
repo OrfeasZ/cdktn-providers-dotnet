@@ -75,6 +75,9 @@ namespace oci.ContainerengineNodePool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ContainerengineNodePool.IContainerengineNodePoolInitialNodeLabels" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolInitialNodeLabels\"}]}}", isOptional: true)]
         public virtual object? InternalValue

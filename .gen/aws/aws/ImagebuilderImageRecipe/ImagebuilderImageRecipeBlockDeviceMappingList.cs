@@ -41,6 +41,9 @@ namespace aws.ImagebuilderImageRecipe
             return InvokeInstanceMethod<aws.ImagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeBlockDeviceMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

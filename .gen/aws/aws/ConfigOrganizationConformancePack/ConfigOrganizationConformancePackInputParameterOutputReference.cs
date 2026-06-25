@@ -63,6 +63,9 @@ namespace aws.ConfigOrganizationConformancePack
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ConfigOrganizationConformancePack.IConfigOrganizationConformancePackInputParameter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

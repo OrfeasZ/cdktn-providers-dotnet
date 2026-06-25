@@ -65,6 +65,9 @@ namespace scaleway.Datalab
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.Datalab.IDatalabMain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.datalab.DatalabMain\"}]}}", isOptional: true)]
         public virtual object? InternalValue

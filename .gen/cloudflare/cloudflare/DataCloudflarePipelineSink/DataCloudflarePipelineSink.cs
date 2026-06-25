@@ -150,6 +150,9 @@ namespace cloudflare.DataCloudflarePipelineSink
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflarePipelineSink.IDataCloudflarePipelineSinkFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflarePipelineSink.DataCloudflarePipelineSinkFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

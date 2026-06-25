@@ -35,6 +35,7 @@ namespace aws.Wafv2WebAclRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderA" />)[]</param>
         [JsiiMethod(name: "putInsertHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderA\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInsertHeader(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<aws.Wafv2WebAclRule.Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderAList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderA" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "insertHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InsertHeaderInput
@@ -77,6 +81,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleActionCaptchaCustomRequestHandlingA" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleActionCaptchaCustomRequestHandlingA\"}]}}", isOptional: true)]
         public virtual object? InternalValue

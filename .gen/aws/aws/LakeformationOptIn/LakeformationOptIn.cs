@@ -46,6 +46,7 @@ namespace aws.LakeformationOptIn
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LakeformationOptIn.LakeformationOptIn), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInCondition" />)[]</param>
         [JsiiMethod(name: "putCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInCondition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCondition(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInPrincipal" />)[]</param>
         [JsiiMethod(name: "putPrincipal", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInPrincipal\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrincipal(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceData" />)[]</param>
         [JsiiMethod(name: "putResourceData", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceData\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceData(object @value)
         {
@@ -188,6 +191,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<aws.LakeformationOptIn.LakeformationOptInResourceDataList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInCondition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -195,6 +201,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInPrincipal" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "principalInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInPrincipal\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrincipalInput
@@ -209,6 +218,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceData" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceDataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceDataInput

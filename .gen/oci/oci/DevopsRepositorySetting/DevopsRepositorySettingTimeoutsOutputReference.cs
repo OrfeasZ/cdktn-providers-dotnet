@@ -93,6 +93,9 @@ namespace oci.DevopsRepositorySetting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -63,6 +63,9 @@ namespace aws.ElasticacheParameterGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheParameterGroup.IElasticacheParameterGroupParameter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheParameterGroup.ElasticacheParameterGroupParameter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

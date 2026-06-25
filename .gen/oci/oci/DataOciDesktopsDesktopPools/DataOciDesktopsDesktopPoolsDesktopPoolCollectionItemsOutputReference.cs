@@ -65,6 +65,12 @@ namespace oci.DataOciDesktopsDesktopPools
             get => GetInstanceProperty<oci.DataOciDesktopsDesktopPools.DataOciDesktopsDesktopPoolsDesktopPoolCollectionItemsAvailabilityPolicyList>()!;
         }
 
+        [JsiiProperty(name: "bootVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double BootVolumeSizeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -147,6 +153,12 @@ namespace oci.DataOciDesktopsDesktopPools
         public virtual oci.DataOciDesktopsDesktopPools.DataOciDesktopsDesktopPoolsDesktopPoolCollectionItemsPrivateAccessDetailsList PrivateAccessDetails
         {
             get => GetInstanceProperty<oci.DataOciDesktopsDesktopPools.DataOciDesktopsDesktopPoolsDesktopPoolCollectionItemsPrivateAccessDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SecurityAttributes
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "sessionLifecycleActions", typeJson: "{\"fqn\":\"oci.dataOciDesktopsDesktopPools.DataOciDesktopsDesktopPoolsDesktopPoolCollectionItemsSessionLifecycleActionsList\"}")]

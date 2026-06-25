@@ -35,6 +35,7 @@ namespace aws.S3TablesTableBucketReplication
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRuleDestination" />)[]</param>
         [JsiiMethod(name: "putDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDestination(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.S3TablesTableBucketReplication
             get => GetInstanceProperty<aws.S3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleDestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRuleDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DestinationInput
@@ -77,6 +81,9 @@ namespace aws.S3TablesTableBucketReplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -63,6 +63,9 @@ namespace cloudflare.ZeroTrustDeviceDeploymentGroups
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDeviceDeploymentGroups.IZeroTrustDeviceDeploymentGroupsVersionConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsVersionConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

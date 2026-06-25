@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciCloudBridgeAsset
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/cloud_bridge_asset oci_cloud_bridge_asset}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_bridge_asset oci_cloud_bridge_asset}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAsset), fullyQualifiedName: "oci.dataOciCloudBridgeAsset.DataOciCloudBridgeAsset", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciCloudBridgeAsset.DataOciCloudBridgeAssetConfig\"}}]")]
     public class DataOciCloudBridgeAsset : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/cloud_bridge_asset oci_cloud_bridge_asset} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_bridge_asset oci_cloud_bridge_asset} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciCloudBridgeAsset(Constructs.Construct scope, string id, oci.DataOciCloudBridgeAsset.IDataOciCloudBridgeAssetConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciCloudBridgeAsset
         /// <param name="importToId">The construct id used in the generated config for the DataOciCloudBridgeAsset to import.</param>
         /// <param name="importFromId">The id of the existing DataOciCloudBridgeAsset that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciCloudBridgeAsset to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciCloudBridgeAsset to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/cloud_bridge_asset#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciCloudBridgeAsset that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciCloudBridgeAsset to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciCloudBridgeAsset to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/cloud_bridge_asset#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciCloudBridgeAsset that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciCloudBridgeAsset to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAsset), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -65,6 +65,24 @@ namespace oci.DataOciCloudBridgeAsset
         }
         = GetStaticProperty<string>(typeof(oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAsset))!;
 
+        [JsiiProperty(name: "assetClassName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetClassName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "assetClassVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetClassVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "assetDetails", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetDetails
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "assetSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AssetSourceIds
         {
@@ -75,6 +93,30 @@ namespace oci.DataOciCloudBridgeAsset
         public virtual string AssetType
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "attachedEbsVolumesCost", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAsset.DataOciCloudBridgeAssetAttachedEbsVolumesCostList\"}")]
+        public virtual oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAttachedEbsVolumesCostList AttachedEbsVolumesCost
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAttachedEbsVolumesCostList>()!;
+        }
+
+        [JsiiProperty(name: "awsEbs", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEbsList\"}")]
+        public virtual oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEbsList AwsEbs
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEbsList>()!;
+        }
+
+        [JsiiProperty(name: "awsEc2", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEc2List\"}")]
+        public virtual oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEc2List AwsEc2
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEc2List>()!;
+        }
+
+        [JsiiProperty(name: "awsEc2Cost", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEc2CostList\"}")]
+        public virtual oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEc2CostList AwsEc2Cost
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAsset.DataOciCloudBridgeAssetAwsEc2CostList>()!;
         }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
@@ -97,6 +139,12 @@ namespace oci.DataOciCloudBridgeAsset
 
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EnvironmentType
         {
             get => GetInstanceProperty<string>()!;
         }

@@ -59,6 +59,12 @@ namespace oci.DataOciEmailSenders
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "emailIpPoolId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EmailIpPoolId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {

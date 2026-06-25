@@ -9,7 +9,7 @@ namespace oci.RedisOciCacheUser
     [JsiiByValue(fqn: "oci.redisOciCacheUser.RedisOciCacheUserAuthenticationMode")]
     public class RedisOciCacheUserAuthenticationMode : oci.RedisOciCacheUser.IRedisOciCacheUserAuthenticationMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/redis_oci_cache_user#authentication_type RedisOciCacheUser#authentication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_user#authentication_type RedisOciCacheUser#authentication_type}.</summary>
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthenticationType
         {
@@ -17,7 +17,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/redis_oci_cache_user#hashed_passwords RedisOciCacheUser#hashed_passwords}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/redis_oci_cache_user#hashed_passwords RedisOciCacheUser#hashed_passwords}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hashedPasswords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? HashedPasswords

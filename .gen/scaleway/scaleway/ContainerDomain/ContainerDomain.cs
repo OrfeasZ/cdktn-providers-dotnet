@@ -129,6 +129,9 @@ namespace scaleway.ContainerDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ContainerDomain.IContainerDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.containerDomain.ContainerDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

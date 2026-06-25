@@ -95,6 +95,9 @@ namespace aws.CloudwatchLogMetricFilter
             get => GetInstanceProperty<aws.CloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyOnTransformedLogsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApplyOnTransformedLogsInput
@@ -144,6 +147,9 @@ namespace aws.CloudwatchLogMetricFilter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "applyOnTransformedLogs", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApplyOnTransformedLogs
         {

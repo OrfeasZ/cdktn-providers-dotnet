@@ -46,6 +46,7 @@ namespace aws.WafSizeConstraintSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafSizeConstraintSet.WafSizeConstraintSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafSizeConstraintSet.IWafSizeConstraintSetSizeConstraints" />)[]</param>
         [JsiiMethod(name: "putSizeConstraints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSizeConstraints(object @value)
         {
@@ -126,6 +127,9 @@ namespace aws.WafSizeConstraintSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafSizeConstraintSet.IWafSizeConstraintSetSizeConstraints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sizeConstraintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SizeConstraintsInput

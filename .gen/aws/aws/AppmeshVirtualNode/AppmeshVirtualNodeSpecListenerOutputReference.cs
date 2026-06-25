@@ -179,6 +179,9 @@ namespace aws.AppmeshVirtualNode
             get => GetInstanceProperty<aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerTls?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListener" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListener\"}]}}", isOptional: true)]
         public virtual object? InternalValue

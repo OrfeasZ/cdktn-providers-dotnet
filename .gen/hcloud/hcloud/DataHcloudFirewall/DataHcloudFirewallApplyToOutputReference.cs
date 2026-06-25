@@ -75,6 +75,9 @@ namespace hcloud.DataHcloudFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo\"}]}}", isOptional: true)]
         public virtual object? InternalValue

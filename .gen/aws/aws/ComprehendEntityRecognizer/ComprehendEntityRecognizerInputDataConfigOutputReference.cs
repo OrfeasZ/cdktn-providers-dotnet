@@ -39,6 +39,7 @@ namespace aws.ComprehendEntityRecognizer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAnnotations)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAugmentedManifests" />)[]</param>
         [JsiiMethod(name: "putAugmentedManifests", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigAugmentedManifests\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAugmentedManifests(object @value)
         {
@@ -74,6 +75,7 @@ namespace aws.ComprehendEntityRecognizer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityListStruct)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityTypes" />)[]</param>
         [JsiiMethod(name: "putEntityTypes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityTypes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEntityTypes(object @value)
         {
@@ -164,6 +166,9 @@ namespace aws.ComprehendEntityRecognizer
             get => GetInstanceProperty<aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAnnotations?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAugmentedManifests" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "augmentedManifestsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigAugmentedManifests\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AugmentedManifestsInput
@@ -192,6 +197,9 @@ namespace aws.ComprehendEntityRecognizer
             get => GetInstanceProperty<aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityListStruct?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityTypes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entityTypesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityTypes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EntityTypesInput

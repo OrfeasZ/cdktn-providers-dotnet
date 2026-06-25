@@ -33,6 +33,7 @@ namespace cloudflare.TokenValidationRules
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorExclude" />)[]</param>
         [JsiiMethod(name: "putExclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorExclude\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExclude(object @value)
         {
@@ -56,6 +57,7 @@ namespace cloudflare.TokenValidationRules
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorInclude" />)[]</param>
         [JsiiMethod(name: "putInclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorInclude\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInclude(object @value)
         {
@@ -103,6 +105,9 @@ namespace cloudflare.TokenValidationRules
             get => GetInstanceProperty<cloudflare.TokenValidationRules.TokenValidationRulesSelectorIncludeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorExclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExcludeInput
@@ -110,6 +115,9 @@ namespace cloudflare.TokenValidationRules
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorInclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelectorInclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IncludeInput
@@ -117,6 +125,9 @@ namespace cloudflare.TokenValidationRules
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.tokenValidationRules.TokenValidationRulesSelector\"}]}}", isOptional: true)]
         public virtual object? InternalValue

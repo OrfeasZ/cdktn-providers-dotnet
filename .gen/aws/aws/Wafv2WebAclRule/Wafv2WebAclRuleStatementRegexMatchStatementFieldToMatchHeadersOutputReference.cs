@@ -35,6 +35,7 @@ namespace aws.Wafv2WebAclRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeadersMatchPattern" />)[]</param>
         [JsiiMethod(name: "putMatchPattern", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeadersMatchPattern\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatchPattern(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Wafv2WebAclRule
             get => GetInstanceProperty<aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeadersMatchPatternList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeadersMatchPattern" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchPatternInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeadersMatchPattern\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchPatternInput
@@ -105,6 +109,9 @@ namespace aws.Wafv2WebAclRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeaders" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRegexMatchStatementFieldToMatchHeaders\"}]}}", isOptional: true)]
         public virtual object? InternalValue

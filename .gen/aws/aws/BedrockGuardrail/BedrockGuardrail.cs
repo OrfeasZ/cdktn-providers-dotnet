@@ -46,6 +46,7 @@ namespace aws.BedrockGuardrail
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockGuardrail.BedrockGuardrail), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfig" />)[]</param>
         [JsiiMethod(name: "putContentPolicyConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContentPolicyConfig(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContextualGroundingPolicyConfig" />)[]</param>
         [JsiiMethod(name: "putContextualGroundingPolicyConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContextualGroundingPolicyConfig(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailCrossRegionConfig" />)[]</param>
         [JsiiMethod(name: "putCrossRegionConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCrossRegionConfig(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailSensitiveInformationPolicyConfig" />)[]</param>
         [JsiiMethod(name: "putSensitiveInformationPolicyConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSensitiveInformationPolicyConfig(object @value)
         {
@@ -144,6 +148,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BedrockGuardrail.IBedrockGuardrailTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailTopicPolicyConfig" />)[]</param>
         [JsiiMethod(name: "putTopicPolicyConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTopicPolicyConfig(object @value)
         {
@@ -167,6 +172,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfig" />)[]</param>
         [JsiiMethod(name: "putWordPolicyConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWordPolicyConfig(object @value)
         {
@@ -367,6 +373,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentPolicyConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContentPolicyConfigInput
@@ -374,6 +383,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContextualGroundingPolicyConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contextualGroundingPolicyConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContextualGroundingPolicyConfigInput
@@ -381,6 +393,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailCrossRegionConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crossRegionConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CrossRegionConfigInput
@@ -416,6 +431,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailSensitiveInformationPolicyConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveInformationPolicyConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SensitiveInformationPolicyConfigInput
@@ -430,6 +448,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockGuardrail.IBedrockGuardrailTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -437,6 +458,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailTopicPolicyConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topicPolicyConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TopicPolicyConfigInput
@@ -444,6 +468,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wordPolicyConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WordPolicyConfigInput

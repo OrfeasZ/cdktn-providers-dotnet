@@ -41,6 +41,9 @@ namespace oci.FleetAppsManagementFleet
             return InvokeInstanceMethod<oci.FleetAppsManagementFleet.FleetAppsManagementFleetResourcesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementFleet.IFleetAppsManagementFleetResources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

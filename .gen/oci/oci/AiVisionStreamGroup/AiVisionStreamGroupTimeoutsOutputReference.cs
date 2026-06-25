@@ -93,6 +93,9 @@ namespace oci.AiVisionStreamGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiVisionStreamGroup.IAiVisionStreamGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiVisionStreamGroup.AiVisionStreamGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

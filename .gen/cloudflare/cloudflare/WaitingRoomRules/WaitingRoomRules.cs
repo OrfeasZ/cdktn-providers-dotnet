@@ -46,6 +46,7 @@ namespace cloudflare.WaitingRoomRules
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WaitingRoomRules.WaitingRoomRules), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WaitingRoomRules.IWaitingRoomRulesRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.waitingRoomRules.WaitingRoomRulesRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -100,6 +101,9 @@ namespace cloudflare.WaitingRoomRules
             get => GetInstanceProperty<cloudflare.WaitingRoomRules.WaitingRoomRulesRulesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WaitingRoomRules.IWaitingRoomRulesRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.waitingRoomRules.WaitingRoomRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput

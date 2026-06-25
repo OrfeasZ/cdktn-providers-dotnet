@@ -93,6 +93,9 @@ namespace oci.IdentityTagDefault
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityTagDefault.IIdentityTagDefaultTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityTagDefault.IdentityTagDefaultTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

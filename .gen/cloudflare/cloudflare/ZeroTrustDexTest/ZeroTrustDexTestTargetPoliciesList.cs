@@ -41,6 +41,9 @@ namespace cloudflare.ZeroTrustDexTest
             return InvokeInstanceMethod<cloudflare.ZeroTrustDexTest.ZeroTrustDexTestTargetPoliciesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDexTest.IZeroTrustDexTestTargetPolicies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDexTest.ZeroTrustDexTestTargetPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

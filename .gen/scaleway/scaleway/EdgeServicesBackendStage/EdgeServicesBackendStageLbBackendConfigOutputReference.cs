@@ -60,6 +60,9 @@ namespace scaleway.EdgeServicesBackendStage
             get => GetInstanceProperty<scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageLbBackendConfigLbConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageLbBackendConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace digitalocean.App
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerAlertDestinationsSlackWebhooks" />)[]</param>
         [JsiiMethod(name: "putSlackWebhooks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerAlertDestinationsSlackWebhooks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSlackWebhooks(object @value)
         {
@@ -81,6 +82,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerAlertDestinationsSlackWebhooks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slackWebhooksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerAlertDestinationsSlackWebhooks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SlackWebhooksInput

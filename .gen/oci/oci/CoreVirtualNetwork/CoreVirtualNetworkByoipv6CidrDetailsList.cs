@@ -41,6 +41,9 @@ namespace oci.CoreVirtualNetwork
             return InvokeInstanceMethod<oci.CoreVirtualNetwork.CoreVirtualNetworkByoipv6CidrDetailsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreVirtualNetwork.ICoreVirtualNetworkByoipv6CidrDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreVirtualNetwork.CoreVirtualNetworkByoipv6CidrDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

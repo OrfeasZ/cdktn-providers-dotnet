@@ -46,6 +46,7 @@ namespace aws.SecurityhubConnectorV2
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecurityhubConnectorV2.SecurityhubConnectorV2), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProvider" />)[]</param>
         [JsiiMethod(name: "putConnectorProvider", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProvider\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnectorProvider(object @value)
         {
@@ -148,6 +149,9 @@ namespace aws.SecurityhubConnectorV2
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProvider" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectorProviderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProvider\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectorProviderInput

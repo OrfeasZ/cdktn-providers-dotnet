@@ -41,6 +41,9 @@ namespace aws.MedialiveMultiplexProgram
             return InvokeInstanceMethod<aws.MedialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettingsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveMultiplexProgram.IMedialiveMultiplexProgramMultiplexProgramSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveMultiplexProgram.MedialiveMultiplexProgramMultiplexProgramSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

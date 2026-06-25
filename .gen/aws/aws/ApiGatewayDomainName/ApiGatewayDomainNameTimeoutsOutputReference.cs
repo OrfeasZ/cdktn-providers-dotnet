@@ -73,6 +73,9 @@ namespace aws.ApiGatewayDomainName
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ApiGatewayDomainName.IApiGatewayDomainNameTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apiGatewayDomainName.ApiGatewayDomainNameTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

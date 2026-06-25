@@ -33,6 +33,7 @@ namespace oci.WaasWaasPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRules" />)[]</param>
         [JsiiMethod(name: "putAccessRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccessRules(object @value)
         {
@@ -62,6 +63,7 @@ namespace oci.WaasWaasPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAddressRateLimiting)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCachingRules" />)[]</param>
         [JsiiMethod(name: "putCachingRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCachingRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCachingRules(object @value)
         {
@@ -85,6 +87,7 @@ namespace oci.WaasWaasPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCaptchas" />)[]</param>
         [JsiiMethod(name: "putCaptchas", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCaptchas\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCaptchas(object @value)
         {
@@ -108,6 +111,7 @@ namespace oci.WaasWaasPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCustomProtectionRules" />)[]</param>
         [JsiiMethod(name: "putCustomProtectionRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCustomProtectionRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomProtectionRules(object @value)
         {
@@ -155,6 +159,7 @@ namespace oci.WaasWaasPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigProtectionSettings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigWhitelists" />)[]</param>
         [JsiiMethod(name: "putWhitelists", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigWhitelists\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWhitelists(object @value)
         {
@@ -310,6 +315,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<oci.WaasWaasPolicy.WaasWaasPolicyWafConfigWhitelistsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAccessRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccessRulesInput
@@ -324,6 +332,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigAddressRateLimiting?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCachingRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cachingRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCachingRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CachingRulesInput
@@ -331,6 +342,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCaptchas" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "captchasInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCaptchas\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CaptchasInput
@@ -338,6 +352,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCustomProtectionRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customProtectionRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCustomProtectionRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomProtectionRulesInput
@@ -387,6 +404,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigProtectionSettings?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigWhitelists" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "whitelistsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigWhitelists\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WhitelistsInput

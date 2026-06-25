@@ -10,6 +10,7 @@ namespace aws.TransferWebApp
         /// <summary>vpc block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetailsVpc" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "vpc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetailsVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,6 +32,7 @@ namespace aws.TransferWebApp
             /// <summary>vpc block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetailsVpc" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetailsVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]

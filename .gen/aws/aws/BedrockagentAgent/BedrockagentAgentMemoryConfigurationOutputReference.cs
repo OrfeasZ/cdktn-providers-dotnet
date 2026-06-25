@@ -35,6 +35,7 @@ namespace aws.BedrockagentAgent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentMemoryConfigurationSessionSummaryConfiguration" />)[]</param>
         [JsiiMethod(name: "putSessionSummaryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSessionSummaryConfiguration(object @value)
         {
@@ -89,6 +90,9 @@ namespace aws.BedrockagentAgent
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentMemoryConfigurationSessionSummaryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionSummaryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SessionSummaryConfigurationInput
@@ -117,6 +121,9 @@ namespace aws.BedrockagentAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgent.IBedrockagentAgentMemoryConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentMemoryConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

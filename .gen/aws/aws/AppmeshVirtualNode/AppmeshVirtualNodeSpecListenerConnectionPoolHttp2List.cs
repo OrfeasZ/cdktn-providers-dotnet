@@ -41,6 +41,9 @@ namespace aws.AppmeshVirtualNode
             return InvokeInstanceMethod<aws.AppmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp2OutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp2" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp2\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

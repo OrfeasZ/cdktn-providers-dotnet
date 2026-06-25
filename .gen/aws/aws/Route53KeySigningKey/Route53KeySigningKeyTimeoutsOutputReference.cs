@@ -93,6 +93,9 @@ namespace aws.Route53KeySigningKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53KeySigningKey.IRoute53KeySigningKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53KeySigningKey.Route53KeySigningKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

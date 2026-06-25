@@ -93,6 +93,9 @@ namespace oci.LoadBalancerHostname
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LoadBalancerHostname.ILoadBalancerHostnameTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.loadBalancerHostname.LoadBalancerHostnameTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

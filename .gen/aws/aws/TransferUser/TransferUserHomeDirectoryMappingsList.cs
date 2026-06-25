@@ -41,6 +41,9 @@ namespace aws.TransferUser
             return InvokeInstanceMethod<aws.TransferUser.TransferUserHomeDirectoryMappingsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferUser.ITransferUserHomeDirectoryMappings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferUser.TransferUserHomeDirectoryMappings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

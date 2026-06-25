@@ -41,6 +41,12 @@ namespace oci.DataOciCoreInstanceConfigurations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ipv6Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Ipv6SubnetCidr
         {

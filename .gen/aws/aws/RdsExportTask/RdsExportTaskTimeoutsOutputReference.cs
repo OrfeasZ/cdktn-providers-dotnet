@@ -73,6 +73,9 @@ namespace aws.RdsExportTask
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsExportTask.IRdsExportTaskTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsExportTask.RdsExportTaskTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

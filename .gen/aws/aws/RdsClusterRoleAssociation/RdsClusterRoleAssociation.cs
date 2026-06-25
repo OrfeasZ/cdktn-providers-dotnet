@@ -136,6 +136,9 @@ namespace aws.RdsClusterRoleAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsClusterRoleAssociation.IRdsClusterRoleAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

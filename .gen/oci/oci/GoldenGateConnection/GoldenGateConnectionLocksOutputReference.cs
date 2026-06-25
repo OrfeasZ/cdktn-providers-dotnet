@@ -81,6 +81,9 @@ namespace oci.GoldenGateConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGateConnection.IGoldenGateConnectionLocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionLocks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

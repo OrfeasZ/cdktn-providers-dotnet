@@ -41,6 +41,9 @@ namespace aws.GlobalacceleratorEndpointGroup
             return InvokeInstanceMethod<aws.GlobalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupPortOverrideOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorEndpointGroup.IGlobalacceleratorEndpointGroupPortOverride" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorEndpointGroup.GlobalacceleratorEndpointGroupPortOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -22,6 +22,7 @@ namespace aws.SchedulerSchedule
         /// <summary>capacity_provider_strategy block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersCapacityProviderStrategy" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityProviderStrategy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,6 +55,9 @@ namespace aws.SchedulerSchedule
         private object? _enableEcsManagedTags;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableEcsManagedTags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableEcsManagedTags
@@ -85,6 +89,9 @@ namespace aws.SchedulerSchedule
         private object? _enableExecuteCommand;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableExecuteCommand", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? EnableExecuteCommand
@@ -148,6 +155,7 @@ namespace aws.SchedulerSchedule
         /// <summary>placement_constraints block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementConstraints" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraints", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -182,6 +190,7 @@ namespace aws.SchedulerSchedule
         /// <summary>placement_strategy block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementStrategy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -53,6 +53,12 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "computeCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ComputeCount
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

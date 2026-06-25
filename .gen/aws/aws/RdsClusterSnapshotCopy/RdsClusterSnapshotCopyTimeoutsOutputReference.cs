@@ -53,6 +53,9 @@ namespace aws.RdsClusterSnapshotCopy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsClusterSnapshotCopy.IRdsClusterSnapshotCopyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

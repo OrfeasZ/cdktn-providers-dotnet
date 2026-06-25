@@ -41,6 +41,9 @@ namespace aws.InvoicingInvoiceUnit
             return InvokeInstanceMethod<aws.InvoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.InvoicingInvoiceUnit.IInvoicingInvoiceUnitRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

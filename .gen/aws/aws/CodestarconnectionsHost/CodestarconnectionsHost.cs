@@ -160,6 +160,9 @@ namespace aws.CodestarconnectionsHost
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodestarconnectionsHost.ICodestarconnectionsHostTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codestarconnectionsHost.CodestarconnectionsHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

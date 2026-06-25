@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsDynamicResourceGroup
             return InvokeInstanceMethod<oci.IdentityDomainsDynamicResourceGroup.IdentityDomainsDynamicResourceGroupTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsDynamicResourceGroup.IIdentityDomainsDynamicResourceGroupTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsDynamicResourceGroup.IdentityDomainsDynamicResourceGroupTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

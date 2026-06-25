@@ -63,6 +63,9 @@ namespace aws.DataAwsVpnConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsVpnConnection.IDataAwsVpnConnectionFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsVpnConnection.DataAwsVpnConnectionFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

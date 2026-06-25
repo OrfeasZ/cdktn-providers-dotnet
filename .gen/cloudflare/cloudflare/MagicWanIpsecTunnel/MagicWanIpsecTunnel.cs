@@ -198,6 +198,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticReturnRoutingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutomaticReturnRoutingInput
@@ -205,6 +208,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelBgp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelBgp\"}]}}", isOptional: true)]
         public virtual object? BgpInput
@@ -226,6 +232,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelCustomRemoteIdentities" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customRemoteIdentitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelCustomRemoteIdentities\"}]}}", isOptional: true)]
         public virtual object? CustomRemoteIdentitiesInput
@@ -240,6 +249,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicWanIpsecTunnel.IMagicWanIpsecTunnelHealthCheck" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheckInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanIpsecTunnel.MagicWanIpsecTunnelHealthCheck\"}]}}", isOptional: true)]
         public virtual object? HealthCheckInput
@@ -275,6 +287,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replayProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ReplayProtectionInput
@@ -289,6 +304,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "automaticReturnRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutomaticReturnRouting
         {
@@ -365,6 +383,9 @@ namespace cloudflare.MagicWanIpsecTunnel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "replayProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ReplayProtection
         {

@@ -33,6 +33,7 @@ namespace aws.DlmLifecyclePolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DlmLifecyclePolicy.IDlmLifecyclePolicyPolicyDetailsActionCrossRegionCopy" />)[]</param>
         [JsiiMethod(name: "putCrossRegionCopy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dlmLifecyclePolicy.DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCrossRegionCopy(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.DlmLifecyclePolicy
             get => GetInstanceProperty<aws.DlmLifecyclePolicy.DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DlmLifecyclePolicy.IDlmLifecyclePolicyPolicyDetailsActionCrossRegionCopy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crossRegionCopyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dlmLifecyclePolicy.DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CrossRegionCopyInput

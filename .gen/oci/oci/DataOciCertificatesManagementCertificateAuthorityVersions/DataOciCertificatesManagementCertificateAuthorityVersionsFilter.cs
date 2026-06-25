@@ -9,7 +9,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
     [JsiiByValue(fqn: "oci.dataOciCertificatesManagementCertificateAuthorityVersions.DataOciCertificatesManagementCertificateAuthorityVersionsFilter")]
     public class DataOciCertificatesManagementCertificateAuthorityVersionsFilter : oci.DataOciCertificatesManagementCertificateAuthorityVersions.IDataOciCertificatesManagementCertificateAuthorityVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/certificates_management_certificate_authority_versions#name DataOciCertificatesManagementCertificateAuthorityVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificate_authority_versions#name DataOciCertificatesManagementCertificateAuthorityVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/certificates_management_certificate_authority_versions#values DataOciCertificatesManagementCertificateAuthorityVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificate_authority_versions#values DataOciCertificatesManagementCertificateAuthorityVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/certificates_management_certificate_authority_versions#regex DataOciCertificatesManagementCertificateAuthorityVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/certificates_management_certificate_authority_versions#regex DataOciCertificatesManagementCertificateAuthorityVersions#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

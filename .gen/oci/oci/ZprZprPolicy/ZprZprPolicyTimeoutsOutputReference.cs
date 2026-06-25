@@ -93,6 +93,9 @@ namespace oci.ZprZprPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ZprZprPolicy.IZprZprPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.zprZprPolicy.ZprZprPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

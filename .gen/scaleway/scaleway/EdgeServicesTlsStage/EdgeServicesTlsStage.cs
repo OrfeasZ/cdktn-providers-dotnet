@@ -46,6 +46,7 @@ namespace scaleway.EdgeServicesTlsStage
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.EdgeServicesTlsStage.EdgeServicesTlsStage), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</param>
         [JsiiMethod(name: "putSecrets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecrets(object @value)
         {
@@ -181,6 +182,9 @@ namespace scaleway.EdgeServicesTlsStage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedCertificateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ManagedCertificateInput
@@ -209,6 +213,9 @@ namespace scaleway.EdgeServicesTlsStage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecretsInput
@@ -244,6 +251,9 @@ namespace scaleway.EdgeServicesTlsStage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "managedCertificate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ManagedCertificate
         {

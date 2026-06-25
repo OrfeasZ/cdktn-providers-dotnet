@@ -10,6 +10,7 @@ namespace hcloud.DataHcloudFirewall
         /// <summary>apply_to block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/firewall#apply_to DataHcloudFirewall#apply_to}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "applyTo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,6 +49,9 @@ namespace hcloud.DataHcloudFirewall
         }
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/firewall#most_recent DataHcloudFirewall#most_recent}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? MostRecent
@@ -72,6 +76,7 @@ namespace hcloud.DataHcloudFirewall
         /// <summary>rule block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/firewall#rule DataHcloudFirewall#rule}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,6 +109,7 @@ namespace hcloud.DataHcloudFirewall
             /// <summary>apply_to block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/firewall#apply_to DataHcloudFirewall#apply_to}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applyTo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -133,6 +139,9 @@ namespace hcloud.DataHcloudFirewall
             }
 
             /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/firewall#most_recent DataHcloudFirewall#most_recent}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? MostRecent
@@ -151,6 +160,7 @@ namespace hcloud.DataHcloudFirewall
             /// <summary>rule block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/data-sources/firewall#rule DataHcloudFirewall#rule}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -169,6 +179,7 @@ namespace hcloud.DataHcloudFirewall
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -179,6 +190,7 @@ namespace hcloud.DataHcloudFirewall
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -229,6 +241,7 @@ namespace hcloud.DataHcloudFirewall
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

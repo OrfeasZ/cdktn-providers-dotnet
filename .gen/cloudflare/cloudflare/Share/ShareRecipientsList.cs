@@ -41,6 +41,9 @@ namespace cloudflare.Share
             return InvokeInstanceMethod<cloudflare.Share.ShareRecipientsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Share.IShareRecipients" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.share.ShareRecipients\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

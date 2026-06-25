@@ -55,6 +55,9 @@ namespace cloudflare.NotificationPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsEmail" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsEmail\"}]}}", isOptional: true)]
         public virtual object? InternalValue

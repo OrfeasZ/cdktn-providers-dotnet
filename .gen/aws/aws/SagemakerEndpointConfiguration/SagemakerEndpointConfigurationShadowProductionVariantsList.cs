@@ -41,6 +41,9 @@ namespace aws.SagemakerEndpointConfiguration
             return InvokeInstanceMethod<aws.SagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariantsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationShadowProductionVariants" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariants\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

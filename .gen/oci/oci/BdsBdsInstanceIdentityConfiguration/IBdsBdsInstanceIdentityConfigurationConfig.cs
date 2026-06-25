@@ -7,42 +7,42 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceIdentityConfigurationConfig), fullyQualifiedName: "oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationConfig")]
     public interface IBdsBdsInstanceIdentityConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#bds_instance_id BdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#bds_instance_id BdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#cluster_admin_password BdsBdsInstanceIdentityConfiguration#cluster_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#cluster_admin_password BdsBdsInstanceIdentityConfiguration#cluster_admin_password}.</summary>
         [JsiiProperty(name: "clusterAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterAdminPassword
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#confidential_application_id BdsBdsInstanceIdentityConfiguration#confidential_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#confidential_application_id BdsBdsInstanceIdentityConfiguration#confidential_application_id}.</summary>
         [JsiiProperty(name: "confidentialApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ConfidentialApplicationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#display_name BdsBdsInstanceIdentityConfiguration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#display_name BdsBdsInstanceIdentityConfiguration#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#identity_domain_id BdsBdsInstanceIdentityConfiguration#identity_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#identity_domain_id BdsBdsInstanceIdentityConfiguration#identity_domain_id}.</summary>
         [JsiiProperty(name: "identityDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string IdentityDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#activate_iam_user_sync_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_iam_user_sync_configuration_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#activate_iam_user_sync_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_iam_user_sync_configuration_trigger}.</summary>
         [JsiiProperty(name: "activateIamUserSyncConfigurationTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ActivateIamUserSyncConfigurationTrigger
@@ -53,7 +53,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#activate_upst_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_upst_configuration_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#activate_upst_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_upst_configuration_trigger}.</summary>
         [JsiiProperty(name: "activateUpstConfigurationTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ActivateUpstConfigurationTrigger
@@ -66,7 +66,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
         /// <summary>iam_user_sync_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#iam_user_sync_configuration_details BdsBdsInstanceIdentityConfiguration#iam_user_sync_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#iam_user_sync_configuration_details BdsBdsInstanceIdentityConfiguration#iam_user_sync_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "iamUserSyncConfigurationDetails", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#id BdsBdsInstanceIdentityConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#id BdsBdsInstanceIdentityConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#refresh_confidential_application_trigger BdsBdsInstanceIdentityConfiguration#refresh_confidential_application_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#refresh_confidential_application_trigger BdsBdsInstanceIdentityConfiguration#refresh_confidential_application_trigger}.</summary>
         [JsiiProperty(name: "refreshConfidentialApplicationTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefreshConfidentialApplicationTrigger
@@ -104,7 +104,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#refresh_upst_token_exchange_keytab_trigger BdsBdsInstanceIdentityConfiguration#refresh_upst_token_exchange_keytab_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#refresh_upst_token_exchange_keytab_trigger BdsBdsInstanceIdentityConfiguration#refresh_upst_token_exchange_keytab_trigger}.</summary>
         [JsiiProperty(name: "refreshUpstTokenExchangeKeytabTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefreshUpstTokenExchangeKeytabTrigger
@@ -117,7 +117,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#timeouts BdsBdsInstanceIdentityConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#timeouts BdsBdsInstanceIdentityConfiguration#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +131,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
         /// <summary>upst_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#upst_configuration_details BdsBdsInstanceIdentityConfiguration#upst_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#upst_configuration_details BdsBdsInstanceIdentityConfiguration#upst_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "upstConfigurationDetails", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationUpstConfigurationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,42 +150,42 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#bds_instance_id BdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#bds_instance_id BdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#cluster_admin_password BdsBdsInstanceIdentityConfiguration#cluster_admin_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#cluster_admin_password BdsBdsInstanceIdentityConfiguration#cluster_admin_password}.</summary>
             [JsiiProperty(name: "clusterAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterAdminPassword
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#confidential_application_id BdsBdsInstanceIdentityConfiguration#confidential_application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#confidential_application_id BdsBdsInstanceIdentityConfiguration#confidential_application_id}.</summary>
             [JsiiProperty(name: "confidentialApplicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfidentialApplicationId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#display_name BdsBdsInstanceIdentityConfiguration#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#display_name BdsBdsInstanceIdentityConfiguration#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#identity_domain_id BdsBdsInstanceIdentityConfiguration#identity_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#identity_domain_id BdsBdsInstanceIdentityConfiguration#identity_domain_id}.</summary>
             [JsiiProperty(name: "identityDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string IdentityDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#activate_iam_user_sync_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_iam_user_sync_configuration_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#activate_iam_user_sync_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_iam_user_sync_configuration_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "activateIamUserSyncConfigurationTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ActivateIamUserSyncConfigurationTrigger
@@ -193,7 +193,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#activate_upst_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_upst_configuration_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#activate_upst_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_upst_configuration_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "activateUpstConfigurationTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ActivateUpstConfigurationTrigger
@@ -203,7 +203,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
             /// <summary>iam_user_sync_configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#iam_user_sync_configuration_details BdsBdsInstanceIdentityConfiguration#iam_user_sync_configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#iam_user_sync_configuration_details BdsBdsInstanceIdentityConfiguration#iam_user_sync_configuration_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "iamUserSyncConfigurationDetails", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
                 get => GetInstanceProperty<oci.BdsBdsInstanceIdentityConfiguration.IBdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#id BdsBdsInstanceIdentityConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#id BdsBdsInstanceIdentityConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -224,7 +224,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#refresh_confidential_application_trigger BdsBdsInstanceIdentityConfiguration#refresh_confidential_application_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#refresh_confidential_application_trigger BdsBdsInstanceIdentityConfiguration#refresh_confidential_application_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refreshConfidentialApplicationTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefreshConfidentialApplicationTrigger
@@ -232,7 +232,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#refresh_upst_token_exchange_keytab_trigger BdsBdsInstanceIdentityConfiguration#refresh_upst_token_exchange_keytab_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#refresh_upst_token_exchange_keytab_trigger BdsBdsInstanceIdentityConfiguration#refresh_upst_token_exchange_keytab_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refreshUpstTokenExchangeKeytabTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefreshUpstTokenExchangeKeytabTrigger
@@ -242,7 +242,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#timeouts BdsBdsInstanceIdentityConfiguration#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#timeouts BdsBdsInstanceIdentityConfiguration#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationTimeouts\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
             /// <summary>upst_configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/bds_bds_instance_identity_configuration#upst_configuration_details BdsBdsInstanceIdentityConfiguration#upst_configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/bds_bds_instance_identity_configuration#upst_configuration_details BdsBdsInstanceIdentityConfiguration#upst_configuration_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "upstConfigurationDetails", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationUpstConfigurationDetails\"}", isOptional: true)]
@@ -264,6 +264,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -274,6 +275,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -324,6 +326,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -73,6 +73,9 @@ namespace aws.ElasticsearchDomainPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticsearchDomainPolicy.IElasticsearchDomainPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

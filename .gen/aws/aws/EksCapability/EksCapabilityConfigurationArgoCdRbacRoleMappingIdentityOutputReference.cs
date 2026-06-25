@@ -63,6 +63,9 @@ namespace aws.EksCapability
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMappingIdentity" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity\"}]}}", isOptional: true)]
         public virtual object? InternalValue

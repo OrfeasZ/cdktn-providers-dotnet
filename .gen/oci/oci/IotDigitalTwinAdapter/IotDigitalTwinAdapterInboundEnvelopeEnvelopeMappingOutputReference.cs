@@ -33,6 +33,18 @@ namespace oci.IotDigitalTwinAdapter
         {
         }
 
+        [JsiiMethod(name: "resetContentRoot")]
+        public virtual void ResetContentRoot()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTarget")]
+        public virtual void ResetTarget()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeObserved")]
         public virtual void ResetTimeObserved()
         {
@@ -40,10 +52,38 @@ namespace oci.IotDigitalTwinAdapter
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "contentRootInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ContentRootInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "targetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TargetInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "timeObservedInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TimeObservedInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "contentRoot", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ContentRoot
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Target
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "timeObserved", typeJson: "{\"primitive\":\"string\"}")]

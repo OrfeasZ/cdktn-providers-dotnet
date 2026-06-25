@@ -41,6 +41,9 @@ namespace aws.GuarddutyFilter
             return InvokeInstanceMethod<aws.GuarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyFilter.IGuarddutyFilterFindingCriteriaCriterion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

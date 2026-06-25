@@ -95,6 +95,9 @@ namespace oci.ApmConfigConfig
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApmConfigConfig.IApmConfigConfigConfigConfigMap" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigConfigConfigMap\"}]}}", isOptional: true)]
         public virtual object? InternalValue

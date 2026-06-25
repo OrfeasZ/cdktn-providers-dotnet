@@ -35,6 +35,7 @@ namespace aws.NetworkflowmonitorScope
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifier" />)[]</param>
         [JsiiMethod(name: "putTargetIdentifier", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifier\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetIdentifier(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.NetworkflowmonitorScope
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifier" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetIdentifierInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifier\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetIdentifierInput
@@ -91,6 +95,9 @@ namespace aws.NetworkflowmonitorScope
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTarget" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTarget\"}]}}", isOptional: true)]
         public virtual object? InternalValue

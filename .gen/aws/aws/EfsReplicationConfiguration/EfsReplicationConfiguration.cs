@@ -159,6 +159,9 @@ namespace aws.EfsReplicationConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EfsReplicationConfiguration.IEfsReplicationConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.efsReplicationConfiguration.EfsReplicationConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

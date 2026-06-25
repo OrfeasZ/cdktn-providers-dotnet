@@ -93,6 +93,9 @@ namespace aws.DxTransitVirtualInterface
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DxTransitVirtualInterface.IDxTransitVirtualInterfaceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dxTransitVirtualInterface.DxTransitVirtualInterfaceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

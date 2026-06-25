@@ -75,8 +75,11 @@ namespace hcloud.Firewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.Firewall.IFirewallApplyTo" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"hcloud.firewall.FirewallApplyTo\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.firewall.FirewallApplyTo\"}]}}", isOptional: true)]
         public virtual object? InternalValue
         {
             get => GetInstanceProperty<object?>();
@@ -86,9 +89,9 @@ namespace hcloud.Firewall
                 {
                     switch (value)
                     {
-                        case hcloud.Firewall.IFirewallApplyTo cast_cd4240:
-                            break;
                         case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case hcloud.Firewall.IFirewallApplyTo cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -96,7 +99,7 @@ namespace hcloud.Firewall
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(hcloud.Firewall.IFirewallApplyTo).FullName}, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(hcloud.Firewall.IFirewallApplyTo).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 SetInstanceProperty(value);

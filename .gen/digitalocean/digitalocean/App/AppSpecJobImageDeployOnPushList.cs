@@ -41,6 +41,9 @@ namespace digitalocean.App
             return InvokeInstanceMethod<digitalocean.App.AppSpecJobImageDeployOnPushOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobImageDeployOnPush" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobImageDeployOnPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

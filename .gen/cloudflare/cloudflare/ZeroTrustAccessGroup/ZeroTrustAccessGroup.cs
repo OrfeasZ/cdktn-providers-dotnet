@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExclude" />)[]</param>
         [JsiiMethod(name: "putExclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExclude\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExclude(object @value)
         {
@@ -69,6 +70,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupInclude" />)[]</param>
         [JsiiMethod(name: "putInclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupInclude\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInclude(object @value)
         {
@@ -92,6 +94,7 @@ namespace cloudflare.ZeroTrustAccessGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupRequire" />)[]</param>
         [JsiiMethod(name: "putRequire", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequire\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRequire(object @value)
         {
@@ -195,6 +198,9 @@ namespace cloudflare.ZeroTrustAccessGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExcludeInput
@@ -202,6 +208,9 @@ namespace cloudflare.ZeroTrustAccessGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupInclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupInclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IncludeInput
@@ -209,6 +218,9 @@ namespace cloudflare.ZeroTrustAccessGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDefaultInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDefaultInput
@@ -223,6 +235,9 @@ namespace cloudflare.ZeroTrustAccessGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupRequire" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requireInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequire\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RequireInput
@@ -244,6 +259,9 @@ namespace cloudflare.ZeroTrustAccessGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDefault
         {

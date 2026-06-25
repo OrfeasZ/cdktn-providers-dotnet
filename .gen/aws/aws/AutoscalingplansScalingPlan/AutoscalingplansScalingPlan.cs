@@ -52,6 +52,7 @@ namespace aws.AutoscalingplansScalingPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AutoscalingplansScalingPlan.IAutoscalingplansScalingPlanApplicationSource)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AutoscalingplansScalingPlan.IAutoscalingplansScalingPlanScalingInstruction" />)[]</param>
         [JsiiMethod(name: "putScalingInstruction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanScalingInstruction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutScalingInstruction(object @value)
         {
@@ -152,6 +153,9 @@ namespace aws.AutoscalingplansScalingPlan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AutoscalingplansScalingPlan.IAutoscalingplansScalingPlanScalingInstruction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scalingInstructionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanScalingInstruction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScalingInstructionInput

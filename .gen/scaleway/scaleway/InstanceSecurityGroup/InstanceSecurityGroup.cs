@@ -46,6 +46,7 @@ namespace scaleway.InstanceSecurityGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.InstanceSecurityGroup.InstanceSecurityGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroup.IInstanceSecurityGroupInboundRule" />)[]</param>
         [JsiiMethod(name: "putInboundRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupInboundRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInboundRule(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.InstanceSecurityGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroup.IInstanceSecurityGroupOutboundRule" />)[]</param>
         [JsiiMethod(name: "putOutboundRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupOutboundRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutboundRule(object @value)
         {
@@ -232,6 +234,9 @@ namespace scaleway.InstanceSecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDefaultSecurityInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableDefaultSecurityInput
@@ -239,6 +244,9 @@ namespace scaleway.InstanceSecurityGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalRulesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ExternalRulesInput
@@ -260,6 +268,9 @@ namespace scaleway.InstanceSecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroup.IInstanceSecurityGroupInboundRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inboundRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupInboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InboundRuleInput
@@ -281,6 +292,9 @@ namespace scaleway.InstanceSecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroup.IInstanceSecurityGroupOutboundRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outboundRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupOutboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutboundRuleInput
@@ -295,6 +309,9 @@ namespace scaleway.InstanceSecurityGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statefulInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? StatefulInput
@@ -309,6 +326,9 @@ namespace scaleway.InstanceSecurityGroup
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceSecurityGroup.IInstanceSecurityGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceSecurityGroup.InstanceSecurityGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -330,6 +350,9 @@ namespace scaleway.InstanceSecurityGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableDefaultSecurity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableDefaultSecurity
         {
@@ -357,6 +380,9 @@ namespace scaleway.InstanceSecurityGroup
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "externalRules", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ExternalRules
         {
@@ -419,6 +445,9 @@ namespace scaleway.InstanceSecurityGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "stateful", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Stateful
         {

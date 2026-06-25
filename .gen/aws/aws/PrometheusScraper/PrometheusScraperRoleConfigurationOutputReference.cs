@@ -75,6 +75,9 @@ namespace aws.PrometheusScraper
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusScraper.IPrometheusScraperRoleConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusScraper.PrometheusScraperRoleConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

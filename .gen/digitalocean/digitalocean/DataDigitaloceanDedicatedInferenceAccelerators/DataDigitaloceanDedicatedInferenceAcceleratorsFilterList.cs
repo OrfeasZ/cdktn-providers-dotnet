@@ -41,6 +41,9 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
             return InvokeInstanceMethod<digitalocean.DataDigitaloceanDedicatedInferenceAccelerators.DataDigitaloceanDedicatedInferenceAcceleratorsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceAccelerators.IDataDigitaloceanDedicatedInferenceAcceleratorsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanDedicatedInferenceAccelerators.DataDigitaloceanDedicatedInferenceAcceleratorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.ShieldProactiveEngagement
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ShieldProactiveEngagement.ShieldProactiveEngagement), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ShieldProactiveEngagement.IShieldProactiveEngagementEmergencyContact" />)[]</param>
         [JsiiMethod(name: "putEmergencyContact", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEmergencyContact(object @value)
         {
@@ -106,6 +107,9 @@ namespace aws.ShieldProactiveEngagement
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ShieldProactiveEngagement.IShieldProactiveEngagementEmergencyContact" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emergencyContactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EmergencyContactInput
@@ -113,6 +117,9 @@ namespace aws.ShieldProactiveEngagement
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -120,6 +127,9 @@ namespace aws.ShieldProactiveEngagement
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

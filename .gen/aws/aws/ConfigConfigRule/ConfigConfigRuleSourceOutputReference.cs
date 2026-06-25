@@ -39,6 +39,7 @@ namespace aws.ConfigConfigRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ConfigConfigRule.IConfigConfigRuleSourceCustomPolicyDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleSourceSourceDetail" />)[]</param>
         [JsiiMethod(name: "putSourceDetail", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleSourceSourceDetail\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceDetail(object @value)
         {
@@ -106,6 +107,9 @@ namespace aws.ConfigConfigRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleSourceSourceDetail" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDetailInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleSourceSourceDetail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceDetailInput

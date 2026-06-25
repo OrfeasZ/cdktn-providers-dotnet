@@ -41,6 +41,9 @@ namespace libvirt.Network
             return InvokeInstanceMethod<libvirt.Network.NetworkVlanTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkVlanTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkVlanTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

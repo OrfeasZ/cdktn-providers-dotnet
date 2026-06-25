@@ -35,6 +35,12 @@ namespace oci.DataOciContainerengineNodePools
         {
         }
 
+        [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeClusterId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

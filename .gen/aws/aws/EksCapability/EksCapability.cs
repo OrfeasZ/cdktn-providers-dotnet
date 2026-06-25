@@ -46,6 +46,7 @@ namespace aws.EksCapability
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EksCapability.EksCapability), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfiguration" />)[]</param>
         [JsiiMethod(name: "putConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfiguration(object @value)
         {
@@ -162,6 +163,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationInput
@@ -197,6 +201,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksCapability.IEksCapabilityTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksCapability.EksCapabilityTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

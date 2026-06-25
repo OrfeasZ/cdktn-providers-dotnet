@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IdentityDomainsIdentityPropagationTrust
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_identity_propagation_trust oci_identity_domains_identity_propagation_trust}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_propagation_trust oci_identity_domains_identity_propagation_trust}.</summary>
     [JsiiClass(nativeType: typeof(oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrust), fullyQualifiedName: "oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrust", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustConfig\"}}]")]
     public class IdentityDomainsIdentityPropagationTrust : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_identity_propagation_trust oci_identity_domains_identity_propagation_trust} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_propagation_trust oci_identity_domains_identity_propagation_trust} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IdentityDomainsIdentityPropagationTrust(Constructs.Construct scope, string id, oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,43 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
         /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsIdentityPropagationTrust to import.</param>
         /// <param name="importFromId">The id of the existing IdentityDomainsIdentityPropagationTrust that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IdentityDomainsIdentityPropagationTrust to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsIdentityPropagationTrust to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_identity_propagation_trust#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsIdentityPropagationTrust that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsIdentityPropagationTrust to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsIdentityPropagationTrust to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_propagation_trust#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsIdentityPropagationTrust that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsIdentityPropagationTrust to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrust), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        [JsiiMethod(name: "putCaCertChain", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustCaCertChain\"}}]")]
+        public virtual void PutCaCertChain(oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustCaCertChain @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustCaCertChain)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustClaimValidations" />)[]</param>
+        [JsiiMethod(name: "putClaimValidations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustClaimValidations\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutClaimValidations(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustClaimValidations[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustClaimValidations).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustClaimValidations).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustImpersonationServiceUsers" />)[]</param>
         [JsiiMethod(name: "putImpersonationServiceUsers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustImpersonationServiceUsers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImpersonationServiceUsers(object @value)
         {
@@ -75,6 +106,7 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustKeytab)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -140,6 +172,24 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCaCertChain")]
+        public virtual void ResetCaCertChain()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetClaimPropagations")]
+        public virtual void ResetClaimPropagations()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetClaimValidations")]
+        public virtual void ResetClaimValidations()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetClientClaimName")]
         public virtual void ResetClientClaimName()
         {
@@ -160,6 +210,12 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
 
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetImpersonatingResource")]
+        public virtual void ResetImpersonatingResource()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -255,6 +311,18 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
         }
         = GetStaticProperty<string>(typeof(oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrust))!;
 
+        [JsiiProperty(name: "caCertChain", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustCaCertChainOutputReference\"}")]
+        public virtual oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustCaCertChainOutputReference CaCertChain
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustCaCertChainOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "claimValidations", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustClaimValidationsList\"}")]
+        public virtual oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustClaimValidationsList ClaimValidations
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustClaimValidationsList>()!;
+        }
+
         [JsiiProperty(name: "compartmentOcid", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentOcid
         {
@@ -346,6 +414,9 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ActiveInput
@@ -353,6 +424,9 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowImpersonationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowImpersonationInput
@@ -379,6 +453,30 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
         public virtual string? AuthorizationInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "caCertChainInput", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustCaCertChain\"}", isOptional: true)]
+        public virtual oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustCaCertChain? CaCertChainInput
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustCaCertChain?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "claimPropagationsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ClaimPropagationsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustClaimValidations" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "claimValidationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustClaimValidations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ClaimValidationsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -416,6 +514,16 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "impersonatingResourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ImpersonatingResourceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustImpersonationServiceUsers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "impersonationServiceUsersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustImpersonationServiceUsers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImpersonationServiceUsersInput
@@ -507,6 +615,9 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput
@@ -514,6 +625,9 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -535,6 +649,9 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Active
         {
@@ -562,6 +679,9 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allowImpersonation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllowImpersonation
         {
@@ -610,6 +730,13 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "claimPropagations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ClaimPropagations
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "clientClaimName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClientClaimName
         {
@@ -640,6 +767,13 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
 
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IdcsEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "impersonatingResource", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImpersonatingResource
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

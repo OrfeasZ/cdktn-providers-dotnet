@@ -7,21 +7,24 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
     [JsiiInterface(nativeType: typeof(IDataOciJmsFleetUncorrelatedPackageManagedInstancesFilter), fullyQualifiedName: "oci.dataOciJmsFleetUncorrelatedPackageManagedInstances.DataOciJmsFleetUncorrelatedPackageManagedInstancesFilter")]
     public interface IDataOciJmsFleetUncorrelatedPackageManagedInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? Regex
@@ -39,21 +42,24 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? Regex

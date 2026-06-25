@@ -70,6 +70,7 @@ namespace aws.ImagebuilderImagePipeline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineSchedule)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflow" />)[]</param>
         [JsiiMethod(name: "putWorkflow", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWorkflow(object @value)
         {
@@ -295,6 +296,9 @@ namespace aws.ImagebuilderImagePipeline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enhancedImageMetadataEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnhancedImageMetadataEnabledInput
@@ -393,6 +397,9 @@ namespace aws.ImagebuilderImagePipeline
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflow" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workflowInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WorkflowInput
@@ -421,6 +428,9 @@ namespace aws.ImagebuilderImagePipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enhancedImageMetadataEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnhancedImageMetadataEnabled
         {

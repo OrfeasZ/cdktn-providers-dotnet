@@ -39,6 +39,12 @@ namespace oci.CloudMigrationsTargetAsset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionAction)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetPreemptionAction")]
+        public virtual void ResetPreemptionAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionActionOutputReference\"}")]
         public virtual oci.CloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionActionOutputReference PreemptionAction
         {

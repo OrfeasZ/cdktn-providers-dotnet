@@ -46,6 +46,7 @@ namespace aws.PrometheusWorkspaceConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.PrometheusWorkspaceConfiguration.PrometheusWorkspaceConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusWorkspaceConfiguration.IPrometheusWorkspaceConfigurationLimitsPerLabelSet" />)[]</param>
         [JsiiMethod(name: "putLimitsPerLabelSet", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSet\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLimitsPerLabelSet(object @value)
         {
@@ -130,6 +131,9 @@ namespace aws.PrometheusWorkspaceConfiguration
             get => GetInstanceProperty<aws.PrometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusWorkspaceConfiguration.IPrometheusWorkspaceConfigurationLimitsPerLabelSet" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limitsPerLabelSetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSet\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LimitsPerLabelSetInput
@@ -151,6 +155,9 @@ namespace aws.PrometheusWorkspaceConfiguration
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusWorkspaceConfiguration.IPrometheusWorkspaceConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

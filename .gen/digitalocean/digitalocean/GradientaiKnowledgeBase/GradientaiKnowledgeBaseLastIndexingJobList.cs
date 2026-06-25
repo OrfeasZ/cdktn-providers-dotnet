@@ -41,6 +41,9 @@ namespace digitalocean.GradientaiKnowledgeBase
             return InvokeInstanceMethod<digitalocean.GradientaiKnowledgeBase.GradientaiKnowledgeBaseLastIndexingJobOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiKnowledgeBase.IGradientaiKnowledgeBaseLastIndexingJob" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiKnowledgeBase.GradientaiKnowledgeBaseLastIndexingJob\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

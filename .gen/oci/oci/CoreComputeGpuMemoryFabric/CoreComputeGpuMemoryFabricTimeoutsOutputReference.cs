@@ -93,6 +93,9 @@ namespace oci.CoreComputeGpuMemoryFabric
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

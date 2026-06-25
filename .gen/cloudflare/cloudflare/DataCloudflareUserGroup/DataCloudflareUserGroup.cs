@@ -126,6 +126,9 @@ namespace cloudflare.DataCloudflareUserGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareUserGroup.IDataCloudflareUserGroupFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareUserGroup.DataCloudflareUserGroupFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

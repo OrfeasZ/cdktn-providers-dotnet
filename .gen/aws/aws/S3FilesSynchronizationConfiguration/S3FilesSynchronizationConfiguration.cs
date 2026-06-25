@@ -46,6 +46,7 @@ namespace aws.S3FilesSynchronizationConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3FilesSynchronizationConfiguration.S3FilesSynchronizationConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesSynchronizationConfiguration.IS3FilesSynchronizationConfigurationExpirationDataRule" />)[]</param>
         [JsiiMethod(name: "putExpirationDataRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationExpirationDataRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExpirationDataRule(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.S3FilesSynchronizationConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesSynchronizationConfiguration.IS3FilesSynchronizationConfigurationImportDataRule" />)[]</param>
         [JsiiMethod(name: "putImportDataRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationImportDataRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImportDataRule(object @value)
         {
@@ -147,6 +149,9 @@ namespace aws.S3FilesSynchronizationConfiguration
             get => GetInstanceProperty<aws.S3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationImportDataRuleList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesSynchronizationConfiguration.IS3FilesSynchronizationConfigurationExpirationDataRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expirationDataRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationExpirationDataRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExpirationDataRuleInput
@@ -161,6 +166,9 @@ namespace aws.S3FilesSynchronizationConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesSynchronizationConfiguration.IS3FilesSynchronizationConfigurationImportDataRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "importDataRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesSynchronizationConfiguration.S3FilesSynchronizationConfigurationImportDataRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImportDataRuleInput

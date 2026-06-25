@@ -35,6 +35,7 @@ namespace aws.EcrRegistryScanningConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRegistryScanningConfiguration.IEcrRegistryScanningConfigurationRuleRepositoryFilter" />)[]</param>
         [JsiiMethod(name: "putRepositoryFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRepositoryFilter(object @value)
         {
@@ -64,6 +65,9 @@ namespace aws.EcrRegistryScanningConfiguration
             get => GetInstanceProperty<aws.EcrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRegistryScanningConfiguration.IEcrRegistryScanningConfigurationRuleRepositoryFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RepositoryFilterInput
@@ -85,6 +89,9 @@ namespace aws.EcrRegistryScanningConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcrRegistryScanningConfiguration.IEcrRegistryScanningConfigurationRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

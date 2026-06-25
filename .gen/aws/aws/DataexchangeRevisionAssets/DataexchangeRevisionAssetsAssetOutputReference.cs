@@ -35,6 +35,7 @@ namespace aws.DataexchangeRevisionAssets
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3Bucket" />)[]</param>
         [JsiiMethod(name: "putCreateS3DataAccessFromS3Bucket", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3Bucket\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreateS3DataAccessFromS3Bucket(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.DataexchangeRevisionAssets
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetImportAssetsFromS3" />)[]</param>
         [JsiiMethod(name: "putImportAssetsFromS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetImportAssetsFromS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImportAssetsFromS3(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.DataexchangeRevisionAssets
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl" />)[]</param>
         [JsiiMethod(name: "putImportAssetsFromSignedUrl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImportAssetsFromSignedUrl(object @value)
         {
@@ -170,6 +173,9 @@ namespace aws.DataexchangeRevisionAssets
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3Bucket" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createS3DataAccessFromS3BucketInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3Bucket\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreateS3DataAccessFromS3BucketInput
@@ -177,6 +183,9 @@ namespace aws.DataexchangeRevisionAssets
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetImportAssetsFromS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "importAssetsFromS3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetImportAssetsFromS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImportAssetsFromS3Input
@@ -184,6 +193,9 @@ namespace aws.DataexchangeRevisionAssets
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "importAssetsFromSignedUrlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImportAssetsFromSignedUrlInput
@@ -191,6 +203,9 @@ namespace aws.DataexchangeRevisionAssets
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAsset" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsAsset\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -10,6 +10,7 @@ namespace aws.MedialiveChannel
         /// <summary>input_channel_levels block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#input_channel_levels MedialiveChannel#input_channel_levels}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappingsInputChannelLevels" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "inputChannelLevels", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappingsInputChannelLevels\"},\"kind\":\"array\"}}]}}")]
         object InputChannelLevels
@@ -34,6 +35,7 @@ namespace aws.MedialiveChannel
             /// <summary>input_channel_levels block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#input_channel_levels MedialiveChannel#input_channel_levels}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappingsInputChannelLevels" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "inputChannelLevels", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappingsInputChannelLevels\"},\"kind\":\"array\"}}]}}")]
             public object InputChannelLevels

@@ -46,6 +46,7 @@ namespace aws.WafregionalXssMatchSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafregionalXssMatchSet.WafregionalXssMatchSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalXssMatchSet.IWafregionalXssMatchSetXssMatchTuple" />)[]</param>
         [JsiiMethod(name: "putXssMatchTuple", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTuple\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutXssMatchTuple(object @value)
         {
@@ -133,6 +134,9 @@ namespace aws.WafregionalXssMatchSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalXssMatchSet.IWafregionalXssMatchSetXssMatchTuple" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xssMatchTupleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTuple\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? XssMatchTupleInput

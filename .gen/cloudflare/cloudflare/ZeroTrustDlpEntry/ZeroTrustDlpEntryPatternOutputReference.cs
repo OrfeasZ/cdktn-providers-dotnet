@@ -67,6 +67,9 @@ namespace cloudflare.ZeroTrustDlpEntry
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDlpEntry.IZeroTrustDlpEntryPattern" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDlpEntry.ZeroTrustDlpEntryPattern\"}]}}", isOptional: true)]
         public virtual object? InternalValue

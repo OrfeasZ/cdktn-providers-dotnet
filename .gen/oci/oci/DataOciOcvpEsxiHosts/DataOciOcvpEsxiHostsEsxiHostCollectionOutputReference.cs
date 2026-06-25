@@ -179,6 +179,12 @@ namespace oci.DataOciOcvpEsxiHosts
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isVsanByolEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsVsanByolEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "nextCommitment", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NextCommitment
         {
@@ -193,6 +199,12 @@ namespace oci.DataOciOcvpEsxiHosts
 
         [JsiiProperty(name: "nonUpgradedEsxiHostId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NonUpgradedEsxiHostId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "primaryVnicMacAddress", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryVnicMacAddress
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -221,6 +233,12 @@ namespace oci.DataOciOcvpEsxiHosts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {
@@ -235,6 +253,12 @@ namespace oci.DataOciOcvpEsxiHosts
 
         [JsiiProperty(name: "upgradedReplacementEsxiHostId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UpgradedReplacementEsxiHostId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VcfByolAllocationId
         {
             get => GetInstanceProperty<string>()!;
         }

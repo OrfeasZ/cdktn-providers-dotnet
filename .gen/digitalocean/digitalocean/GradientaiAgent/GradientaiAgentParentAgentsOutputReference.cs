@@ -35,6 +35,7 @@ namespace digitalocean.GradientaiAgent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsAnthropicApiKey" />)[]</param>
         [JsiiMethod(name: "putAnthropicApiKey", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsAnthropicApiKey\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnthropicApiKey(object @value)
         {
@@ -58,6 +59,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsApiKeyInfos" />)[]</param>
         [JsiiMethod(name: "putApiKeyInfos", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsApiKeyInfos\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApiKeyInfos(object @value)
         {
@@ -81,6 +83,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsApiKeys" />)[]</param>
         [JsiiMethod(name: "putApiKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsApiKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApiKeys(object @value)
         {
@@ -104,6 +107,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsChatbot" />)[]</param>
         [JsiiMethod(name: "putChatbot", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsChatbot\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutChatbot(object @value)
         {
@@ -127,6 +131,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsChatbotIdentifiers" />)[]</param>
         [JsiiMethod(name: "putChatbotIdentifiers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsChatbotIdentifiers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutChatbotIdentifiers(object @value)
         {
@@ -150,6 +155,7 @@ namespace digitalocean.GradientaiAgent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsDeployment" />)[]</param>
         [JsiiMethod(name: "putDeployment", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsDeployment\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDeployment(object @value)
         {
@@ -257,6 +263,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<digitalocean.GradientaiAgent.GradientaiAgentParentAgentsDeploymentList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsAnthropicApiKey" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "anthropicApiKeyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsAnthropicApiKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AnthropicApiKeyInput
@@ -264,6 +273,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsApiKeyInfos" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiKeyInfosInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsApiKeyInfos\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApiKeyInfosInput
@@ -271,6 +283,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsApiKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiKeysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsApiKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApiKeysInput
@@ -278,6 +293,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsChatbotIdentifiers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "chatbotIdentifiersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsChatbotIdentifiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ChatbotIdentifiersInput
@@ -285,6 +303,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsChatbot" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "chatbotInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsChatbot\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ChatbotInput
@@ -292,6 +313,9 @@ namespace digitalocean.GradientaiAgent
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgentsDeployment" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgentsDeployment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DeploymentInput
@@ -383,6 +407,9 @@ namespace digitalocean.GradientaiAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.GradientaiAgent.IGradientaiAgentParentAgents" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.gradientaiAgent.GradientaiAgentParentAgents\"}]}}", isOptional: true)]
         public virtual object? InternalValue

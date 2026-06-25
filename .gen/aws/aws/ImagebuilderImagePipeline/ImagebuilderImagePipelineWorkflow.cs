@@ -40,6 +40,7 @@ namespace aws.ImagebuilderImagePipeline
         /// <summary>parameter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_pipeline#parameter ImagebuilderImagePipeline#parameter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflowParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]

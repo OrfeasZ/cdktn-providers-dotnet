@@ -95,6 +95,9 @@ namespace oci.DevopsDeployment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsDeployment.IDevopsDeploymentDeployStageOverrideArgumentsItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsDeployment.DevopsDeploymentDeployStageOverrideArgumentsItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuNumaInterconnectsBandwidths" />)[]</param>
         [JsiiMethod(name: "putBandwidths", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuNumaInterconnectsBandwidths\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBandwidths(object @value)
         {
@@ -56,6 +57,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuNumaInterconnectsLatencies" />)[]</param>
         [JsiiMethod(name: "putLatencies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuNumaInterconnectsLatencies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLatencies(object @value)
         {
@@ -103,6 +105,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainCpuNumaInterconnectsLatenciesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuNumaInterconnectsBandwidths" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bandwidthsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuNumaInterconnectsBandwidths\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BandwidthsInput
@@ -110,6 +115,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuNumaInterconnectsLatencies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "latenciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuNumaInterconnectsLatencies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LatenciesInput
@@ -117,6 +125,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainCpuNumaInterconnects" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuNumaInterconnects\"}]}}", isOptional: true)]
         public virtual object? InternalValue

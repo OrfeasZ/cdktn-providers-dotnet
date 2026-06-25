@@ -41,6 +41,9 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
             return InvokeInstanceMethod<digitalocean.DataDigitaloceanGradientaiCustomModels.DataDigitaloceanGradientaiCustomModelsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiCustomModels.IDataDigitaloceanGradientaiCustomModelsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiCustomModels.DataDigitaloceanGradientaiCustomModelsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

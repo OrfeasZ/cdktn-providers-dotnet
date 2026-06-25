@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAttributeSets
     [JsiiByValue(fqn: "oci.dataOciDataSafeAttributeSets.DataOciDataSafeAttributeSetsConfig")]
     public class DataOciDataSafeAttributeSetsConfig : oci.DataOciDataSafeAttributeSets.IDataOciDataSafeAttributeSetsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#compartment_id DataOciDataSafeAttributeSets#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#compartment_id DataOciDataSafeAttributeSets#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeAttributeSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#access_level DataOciDataSafeAttributeSets#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#access_level DataOciDataSafeAttributeSets#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -26,7 +26,7 @@ namespace oci.DataOciDataSafeAttributeSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#attribute_set_id DataOciDataSafeAttributeSets#attribute_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#attribute_set_id DataOciDataSafeAttributeSets#attribute_set_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttributeSetId
@@ -35,7 +35,7 @@ namespace oci.DataOciDataSafeAttributeSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#attribute_set_type DataOciDataSafeAttributeSets#attribute_set_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#attribute_set_type DataOciDataSafeAttributeSets#attribute_set_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttributeSetType
@@ -46,7 +46,10 @@ namespace oci.DataOciDataSafeAttributeSets
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#compartment_id_in_subtree DataOciDataSafeAttributeSets#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#compartment_id_in_subtree DataOciDataSafeAttributeSets#compartment_id_in_subtree}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentIdInSubtree", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CompartmentIdInSubtree
@@ -75,7 +78,7 @@ namespace oci.DataOciDataSafeAttributeSets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#display_name DataOciDataSafeAttributeSets#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#display_name DataOciDataSafeAttributeSets#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -88,7 +91,8 @@ namespace oci.DataOciDataSafeAttributeSets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#filter DataOciDataSafeAttributeSets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#filter DataOciDataSafeAttributeSets#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeAttributeSets.IDataOciDataSafeAttributeSetsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeAttributeSets.DataOciDataSafeAttributeSetsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -118,7 +122,7 @@ namespace oci.DataOciDataSafeAttributeSets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#id DataOciDataSafeAttributeSets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#id DataOciDataSafeAttributeSets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,7 +135,7 @@ namespace oci.DataOciDataSafeAttributeSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#in_use DataOciDataSafeAttributeSets#in_use}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#in_use DataOciDataSafeAttributeSets#in_use}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inUse", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InUse
@@ -142,7 +146,10 @@ namespace oci.DataOciDataSafeAttributeSets
 
         private object? _isUserDefined;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#is_user_defined DataOciDataSafeAttributeSets#is_user_defined}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#is_user_defined DataOciDataSafeAttributeSets#is_user_defined}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isUserDefined", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsUserDefined
@@ -171,7 +178,7 @@ namespace oci.DataOciDataSafeAttributeSets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_attribute_sets#state DataOciDataSafeAttributeSets#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_attribute_sets#state DataOciDataSafeAttributeSets#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -184,6 +191,7 @@ namespace oci.DataOciDataSafeAttributeSets
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -217,6 +225,7 @@ namespace oci.DataOciDataSafeAttributeSets
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -311,6 +320,7 @@ namespace oci.DataOciDataSafeAttributeSets
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

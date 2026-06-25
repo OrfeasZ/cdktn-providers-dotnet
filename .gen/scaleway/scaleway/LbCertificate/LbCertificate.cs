@@ -202,6 +202,9 @@ namespace scaleway.LbCertificate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.LbCertificate.ILbCertificateTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.lbCertificate.LbCertificateTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

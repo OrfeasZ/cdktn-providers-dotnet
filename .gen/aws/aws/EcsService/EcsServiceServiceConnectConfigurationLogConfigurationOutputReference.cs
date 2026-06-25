@@ -33,6 +33,7 @@ namespace aws.EcsService
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationLogConfigurationSecretOption" />)[]</param>
         [JsiiMethod(name: "putSecretOption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOption\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecretOption(object @value)
         {
@@ -88,6 +89,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationLogConfigurationSecretOption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretOptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecretOptionInput

@@ -41,6 +41,9 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
             return InvokeInstanceMethod<aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigSamlOptionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigSamlOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigSamlOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

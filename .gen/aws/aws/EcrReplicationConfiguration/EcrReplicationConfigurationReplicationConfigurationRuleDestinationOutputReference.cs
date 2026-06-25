@@ -63,6 +63,9 @@ namespace aws.EcrReplicationConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleDestination" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination\"}]}}", isOptional: true)]
         public virtual object? InternalValue

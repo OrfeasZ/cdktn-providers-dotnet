@@ -40,6 +40,7 @@ namespace scaleway.ObjectBucket
         /// If set to <c>true</c>, the delete marker will be expired; if set to <c>false</c> the policy takes no action
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#expired_object_delete_marker ObjectBucket#expired_object_delete_marker}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiredObjectDeleteMarker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

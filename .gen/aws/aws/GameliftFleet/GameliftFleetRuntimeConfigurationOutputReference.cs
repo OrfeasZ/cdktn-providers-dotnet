@@ -33,6 +33,7 @@ namespace aws.GameliftFleet
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftFleet.IGameliftFleetRuntimeConfigurationServerProcess" />)[]</param>
         [JsiiMethod(name: "putServerProcess", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcess\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutServerProcess(object @value)
         {
@@ -94,6 +95,9 @@ namespace aws.GameliftFleet
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftFleet.IGameliftFleetRuntimeConfigurationServerProcess" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serverProcessInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ServerProcessInput

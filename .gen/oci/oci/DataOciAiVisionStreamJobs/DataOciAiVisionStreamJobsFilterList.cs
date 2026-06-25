@@ -41,6 +41,9 @@ namespace oci.DataOciAiVisionStreamJobs
             return InvokeInstanceMethod<oci.DataOciAiVisionStreamJobs.DataOciAiVisionStreamJobsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiVisionStreamJobs.IDataOciAiVisionStreamJobsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciAiVisionStreamJobs.DataOciAiVisionStreamJobsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

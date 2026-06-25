@@ -41,6 +41,9 @@ namespace aws.Inspector2Filter
             return InvokeInstanceMethod<aws.Inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageIdOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceImageId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

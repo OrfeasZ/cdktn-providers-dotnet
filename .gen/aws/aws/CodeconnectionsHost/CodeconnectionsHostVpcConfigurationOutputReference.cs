@@ -97,6 +97,9 @@ namespace aws.CodeconnectionsHost
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodeconnectionsHost.ICodeconnectionsHostVpcConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -116,6 +116,9 @@ namespace aws.PrometheusResourcePolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusResourcePolicy.IPrometheusResourcePolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -75,6 +75,9 @@ namespace aws.S3VectorsIndex
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3VectorsIndex.IS3VectorsIndexEncryptionConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3VectorsIndex.S3VectorsIndexEncryptionConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -45,6 +45,18 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPrimaryDbSystemId")]
+        public virtual void ResetPrimaryDbSystemId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSourceType")]
+        public virtual void ResetSourceType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "backupIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BackupIdInput
@@ -52,11 +64,21 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isHavingRestoreConfigOverridesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsHavingRestoreConfigOverridesInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "primaryDbSystemIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrimaryDbSystemIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -73,6 +95,9 @@ namespace oci.PsqlDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isHavingRestoreConfigOverrides", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsHavingRestoreConfigOverrides
         {
@@ -98,6 +123,13 @@ namespace oci.PsqlDbSystem
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "primaryDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryDbSystemId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]

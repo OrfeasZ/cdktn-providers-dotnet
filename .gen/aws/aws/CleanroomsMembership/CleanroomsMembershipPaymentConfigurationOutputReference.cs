@@ -35,6 +35,7 @@ namespace aws.CleanroomsMembership
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfigurationQueryCompute" />)[]</param>
         [JsiiMethod(name: "putQueryCompute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutQueryCompute(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<aws.CleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryComputeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfigurationQueryCompute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queryComputeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? QueryComputeInput
@@ -77,6 +81,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -52,6 +52,7 @@ namespace aws.KendraIndex
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.KendraIndex.IKendraIndexCapacityUnits)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KendraIndex.IKendraIndexDocumentMetadataConfigurationUpdates" />)[]</param>
         [JsiiMethod(name: "putDocumentMetadataConfigurationUpdates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdates\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDocumentMetadataConfigurationUpdates(object @value)
         {
@@ -282,6 +283,9 @@ namespace aws.KendraIndex
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KendraIndex.IKendraIndexDocumentMetadataConfigurationUpdates" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "documentMetadataConfigurationUpdatesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DocumentMetadataConfigurationUpdatesInput
@@ -345,6 +349,9 @@ namespace aws.KendraIndex
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.KendraIndex.IKendraIndexTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.kendraIndex.KendraIndexTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

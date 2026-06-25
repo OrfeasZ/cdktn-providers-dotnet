@@ -41,6 +41,9 @@ namespace oci.CoreDhcpOptions
             return InvokeInstanceMethod<oci.CoreDhcpOptions.CoreDhcpOptionsOptionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreDhcpOptions.ICoreDhcpOptionsOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreDhcpOptions.CoreDhcpOptionsOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

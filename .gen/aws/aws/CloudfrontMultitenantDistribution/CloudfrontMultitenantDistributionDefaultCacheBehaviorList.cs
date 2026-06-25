@@ -41,6 +41,9 @@ namespace aws.CloudfrontMultitenantDistribution
             return InvokeInstanceMethod<aws.CloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehaviorOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehavior" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionDefaultCacheBehavior\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

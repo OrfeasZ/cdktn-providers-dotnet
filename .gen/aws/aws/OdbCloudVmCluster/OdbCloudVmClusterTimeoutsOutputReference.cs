@@ -93,6 +93,9 @@ namespace aws.OdbCloudVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OdbCloudVmCluster.IOdbCloudVmClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.odbCloudVmCluster.OdbCloudVmClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

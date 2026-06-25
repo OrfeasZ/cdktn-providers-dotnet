@@ -95,6 +95,24 @@ namespace oci.DataOciApigatewayGateways
             get => GetInstanceProperty<oci.DataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpAddressesList>()!;
         }
 
+        [JsiiProperty(name: "ipMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ipv4AddressConfiguration", typeJson: "{\"fqn\":\"oci.dataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpv4AddressConfigurationList\"}")]
+        public virtual oci.DataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpv4AddressConfigurationList Ipv4AddressConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpv4AddressConfigurationList>()!;
+        }
+
+        [JsiiProperty(name: "ipv6AddressConfiguration", typeJson: "{\"fqn\":\"oci.dataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpv6AddressConfigurationList\"}")]
+        public virtual oci.DataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpv6AddressConfigurationList Ipv6AddressConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciApigatewayGateways.DataOciApigatewayGatewaysGatewayCollectionIpv6AddressConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "isLockOverride", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsLockOverride
         {

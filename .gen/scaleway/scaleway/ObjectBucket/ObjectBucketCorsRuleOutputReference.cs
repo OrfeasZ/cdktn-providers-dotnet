@@ -123,6 +123,9 @@ namespace scaleway.ObjectBucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ObjectBucket.IObjectBucketCorsRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.objectBucket.ObjectBucketCorsRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

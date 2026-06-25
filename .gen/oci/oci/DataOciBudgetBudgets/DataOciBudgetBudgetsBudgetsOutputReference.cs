@@ -131,6 +131,12 @@ namespace oci.DataOciBudgetBudgets
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TargetCompartmentId
         {

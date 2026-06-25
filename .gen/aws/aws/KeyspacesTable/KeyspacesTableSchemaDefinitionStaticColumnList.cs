@@ -41,6 +41,9 @@ namespace aws.KeyspacesTable
             return InvokeInstanceMethod<aws.KeyspacesTable.KeyspacesTableSchemaDefinitionStaticColumnOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionStaticColumn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionStaticColumn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

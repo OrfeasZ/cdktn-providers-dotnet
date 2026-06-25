@@ -35,6 +35,7 @@ namespace aws.QuicksightRefreshSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleScheduleScheduleFrequency" />)[]</param>
         [JsiiMethod(name: "putScheduleFrequency", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutScheduleFrequency(object @value)
         {
@@ -83,6 +84,9 @@ namespace aws.QuicksightRefreshSchedule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleScheduleScheduleFrequency" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleFrequencyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScheduleFrequencyInput
@@ -111,6 +115,9 @@ namespace aws.QuicksightRefreshSchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleSchedule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

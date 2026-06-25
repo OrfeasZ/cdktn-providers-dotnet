@@ -103,6 +103,9 @@ namespace cloudflare.List
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.List.IListItemsHostname" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostnameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.list.ListItemsHostname\"}]}}", isOptional: true)]
         public virtual object? HostnameInput
@@ -117,6 +120,9 @@ namespace cloudflare.List
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.List.IListItemsRedirect" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.list.ListItemsRedirect\"}]}}", isOptional: true)]
         public virtual object? RedirectInput
@@ -145,6 +151,9 @@ namespace cloudflare.List
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.List.IListItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.list.ListItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

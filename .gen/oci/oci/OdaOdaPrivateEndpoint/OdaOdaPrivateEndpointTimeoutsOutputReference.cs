@@ -93,6 +93,9 @@ namespace oci.OdaOdaPrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OdaOdaPrivateEndpoint.IOdaOdaPrivateEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.odaOdaPrivateEndpoint.OdaOdaPrivateEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

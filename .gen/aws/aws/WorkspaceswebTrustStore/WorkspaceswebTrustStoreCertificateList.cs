@@ -41,6 +41,9 @@ namespace aws.WorkspaceswebTrustStore
             return InvokeInstanceMethod<aws.WorkspaceswebTrustStore.WorkspaceswebTrustStoreCertificateOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebTrustStore.IWorkspaceswebTrustStoreCertificate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -155,6 +155,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<cloudflare.ZoneDnsSettings.ZoneDnsSettingsSoaOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flattenAllCnamesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FlattenAllCnamesInput
@@ -162,6 +165,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "foundationDnsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FoundationDnsInput
@@ -169,6 +175,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneDnsSettings.IZoneDnsSettingsInternalDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalDnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsInternalDns\"}]}}", isOptional: true)]
         public virtual object? InternalDnsInput
@@ -176,6 +185,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiProviderInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MultiProviderInput
@@ -183,6 +195,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneDnsSettings.IZoneDnsSettingsNameservers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameserversInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsNameservers\"}]}}", isOptional: true)]
         public virtual object? NameserversInput
@@ -197,6 +212,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryOverridesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SecondaryOverridesInput
@@ -204,6 +222,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneDnsSettings.IZoneDnsSettingsSoa" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "soaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsSoa\"}]}}", isOptional: true)]
         public virtual object? SoaInput
@@ -225,6 +246,9 @@ namespace cloudflare.ZoneDnsSettings
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "flattenAllCnames", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FlattenAllCnames
         {
@@ -252,6 +276,9 @@ namespace cloudflare.ZoneDnsSettings
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "foundationDns", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FoundationDns
         {
@@ -279,6 +306,9 @@ namespace cloudflare.ZoneDnsSettings
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "multiProvider", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object MultiProvider
         {
@@ -313,6 +343,9 @@ namespace cloudflare.ZoneDnsSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "secondaryOverrides", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SecondaryOverrides
         {

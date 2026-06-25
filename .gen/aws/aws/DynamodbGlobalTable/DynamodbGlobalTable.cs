@@ -46,6 +46,7 @@ namespace aws.DynamodbGlobalTable
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DynamodbGlobalTable.DynamodbGlobalTable), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalTable.IDynamodbGlobalTableReplica" />)[]</param>
         [JsiiMethod(name: "putReplica", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalTable.DynamodbGlobalTableReplica\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReplica(object @value)
         {
@@ -151,6 +152,9 @@ namespace aws.DynamodbGlobalTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalTable.IDynamodbGlobalTableReplica" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replicaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalTable.DynamodbGlobalTableReplica\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReplicaInput
@@ -158,6 +162,9 @@ namespace aws.DynamodbGlobalTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DynamodbGlobalTable.IDynamodbGlobalTableTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dynamodbGlobalTable.DynamodbGlobalTableTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

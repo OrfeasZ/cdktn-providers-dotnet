@@ -9,7 +9,7 @@ namespace oci.Provider
     {
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#alias OciProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#alias OciProvider#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +25,7 @@ namespace oci.Provider
         /// <remarks>
         /// Options are 'ApiKey', 'SecurityToken', 'InstancePrincipal', 'ResourcePrincipal' and 'OKEWorkloadIdentity'. By default, 'ApiKey' will be used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#auth OciProvider#auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#auth OciProvider#auth}
         /// </remarks>
         [JsiiProperty(name: "auth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace oci.Provider
 
         /// <summary>(Optional) The profile name to be used from config file, if not set it will be DEFAULT.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#config_file_profile OciProvider#config_file_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#config_file_profile OciProvider#config_file_profile}
         /// </remarks>
         [JsiiProperty(name: "configFileProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,8 @@ namespace oci.Provider
         /// <remarks>
         /// Automatic retries were introduced to solve some eventual consistency problems but it also introduced performance issues on destroy operations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#disable_auto_retries OciProvider#disable_auto_retries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#disable_auto_retries OciProvider#disable_auto_retries}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableAutoRetries", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,11 +68,26 @@ namespace oci.Provider
             }
         }
 
+        /// <summary>(Optional) flags to enable Dual Stack endpoint.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#dual_stack_endpoint_enabled OciProvider#dual_stack_endpoint_enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "dualStackEndpointEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? DualStackEndpointEnabled
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>(Optional) The fingerprint for the user's RSA key.</summary>
         /// <remarks>
         /// This can be found in user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#fingerprint OciProvider#fingerprint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#fingerprint OciProvider#fingerprint}
         /// </remarks>
         [JsiiProperty(name: "fingerprint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +101,7 @@ namespace oci.Provider
 
         /// <summary>(Optional) List of defined tags keys that Terraform should ignore when planning creates and updates to the associated remote object.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#ignore_defined_tags OciProvider#ignore_defined_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#ignore_defined_tags OciProvider#ignore_defined_tags}
         /// </remarks>
         [JsiiProperty(name: "ignoreDefinedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +117,7 @@ namespace oci.Provider
         /// <remarks>
         /// A private_key or a private_key_path must be provided if auth is set to 'ApiKey', ignored otherwise.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#private_key OciProvider#private_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#private_key OciProvider#private_key}
         /// </remarks>
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +131,7 @@ namespace oci.Provider
 
         /// <summary>(Optional) The password used to secure the private key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#private_key_password OciProvider#private_key_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#private_key_password OciProvider#private_key_password}
         /// </remarks>
         [JsiiProperty(name: "privateKeyPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +147,7 @@ namespace oci.Provider
         /// <remarks>
         /// A private_key or a private_key_path must be provided if auth is set to 'ApiKey', ignored otherwise.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#private_key_path OciProvider#private_key_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#private_key_path OciProvider#private_key_path}
         /// </remarks>
         [JsiiProperty(name: "privateKeyPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -145,7 +161,8 @@ namespace oci.Provider
 
         /// <summary>(Optional) flags to enable realm specific service endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#realm_specific_service_endpoint_template_enabled OciProvider#realm_specific_service_endpoint_template_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#realm_specific_service_endpoint_template_enabled OciProvider#realm_specific_service_endpoint_template_enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "realmSpecificServiceEndpointTemplateEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +176,7 @@ namespace oci.Provider
 
         /// <summary>(Required) The region for API connections (e.g. us-ashburn-1).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#region OciProvider#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#region OciProvider#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -171,11 +188,25 @@ namespace oci.Provider
             }
         }
 
+        /// <summary>(Optional) Config file which has the configuration for 4xx and 5xx retries in JSON format.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#retries_config_file OciProvider#retries_config_file}
+        /// </remarks>
+        [JsiiProperty(name: "retriesConfigFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? RetriesConfigFile
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>(Optional) The minimum duration (in seconds) to retry a resource operation in response to an error.</summary>
         /// <remarks>
         /// The actual retry duration may be longer due to jittering of retry operations. This value is ignored if the <c>disable_auto_retries</c> field is set to true.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#retry_duration_seconds OciProvider#retry_duration_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#retry_duration_seconds OciProvider#retry_duration_seconds}
         /// </remarks>
         [JsiiProperty(name: "retryDurationSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -191,7 +222,7 @@ namespace oci.Provider
         /// <remarks>
         /// The tenancy OCID can be found at the bottom of user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#tenancy_ocid OciProvider#tenancy_ocid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#tenancy_ocid OciProvider#tenancy_ocid}
         /// </remarks>
         [JsiiProperty(name: "tenancyOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -203,7 +234,7 @@ namespace oci.Provider
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#test_time_maintenance_reboot_due OciProvider#test_time_maintenance_reboot_due}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#test_time_maintenance_reboot_due OciProvider#test_time_maintenance_reboot_due}.</summary>
         [JsiiProperty(name: "testTimeMaintenanceRebootDue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TestTimeMaintenanceRebootDue
@@ -218,7 +249,7 @@ namespace oci.Provider
         /// <remarks>
         /// This can be found in user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#user_ocid OciProvider#user_ocid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#user_ocid OciProvider#user_ocid}
         /// </remarks>
         [JsiiProperty(name: "userOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -239,7 +270,7 @@ namespace oci.Provider
 
             /// <summary>Alias name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#alias OciProvider#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#alias OciProvider#alias}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -252,7 +283,7 @@ namespace oci.Provider
             /// <remarks>
             /// Options are 'ApiKey', 'SecurityToken', 'InstancePrincipal', 'ResourcePrincipal' and 'OKEWorkloadIdentity'. By default, 'ApiKey' will be used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#auth OciProvider#auth}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#auth OciProvider#auth}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "auth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -263,7 +294,7 @@ namespace oci.Provider
 
             /// <summary>(Optional) The profile name to be used from config file, if not set it will be DEFAULT.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#config_file_profile OciProvider#config_file_profile}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#config_file_profile OciProvider#config_file_profile}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "configFileProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -276,7 +307,8 @@ namespace oci.Provider
             /// <remarks>
             /// Automatic retries were introduced to solve some eventual consistency problems but it also introduced performance issues on destroy operations.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#disable_auto_retries OciProvider#disable_auto_retries}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#disable_auto_retries OciProvider#disable_auto_retries}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disableAutoRetries", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -285,11 +317,23 @@ namespace oci.Provider
                 get => GetInstanceProperty<object?>();
             }
 
+            /// <summary>(Optional) flags to enable Dual Stack endpoint.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#dual_stack_endpoint_enabled OciProvider#dual_stack_endpoint_enabled}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "dualStackEndpointEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? DualStackEndpointEnabled
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
             /// <summary>(Optional) The fingerprint for the user's RSA key.</summary>
             /// <remarks>
             /// This can be found in user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#fingerprint OciProvider#fingerprint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#fingerprint OciProvider#fingerprint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fingerprint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -300,7 +344,7 @@ namespace oci.Provider
 
             /// <summary>(Optional) List of defined tags keys that Terraform should ignore when planning creates and updates to the associated remote object.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#ignore_defined_tags OciProvider#ignore_defined_tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#ignore_defined_tags OciProvider#ignore_defined_tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreDefinedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -313,7 +357,7 @@ namespace oci.Provider
             /// <remarks>
             /// A private_key or a private_key_path must be provided if auth is set to 'ApiKey', ignored otherwise.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#private_key OciProvider#private_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#private_key OciProvider#private_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -324,7 +368,7 @@ namespace oci.Provider
 
             /// <summary>(Optional) The password used to secure the private key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#private_key_password OciProvider#private_key_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#private_key_password OciProvider#private_key_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateKeyPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -337,7 +381,7 @@ namespace oci.Provider
             /// <remarks>
             /// A private_key or a private_key_path must be provided if auth is set to 'ApiKey', ignored otherwise.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#private_key_path OciProvider#private_key_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#private_key_path OciProvider#private_key_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateKeyPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -348,7 +392,8 @@ namespace oci.Provider
 
             /// <summary>(Optional) flags to enable realm specific service endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#realm_specific_service_endpoint_template_enabled OciProvider#realm_specific_service_endpoint_template_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#realm_specific_service_endpoint_template_enabled OciProvider#realm_specific_service_endpoint_template_enabled}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "realmSpecificServiceEndpointTemplateEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -359,7 +404,7 @@ namespace oci.Provider
 
             /// <summary>(Required) The region for API connections (e.g. us-ashburn-1).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#region OciProvider#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#region OciProvider#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -368,11 +413,22 @@ namespace oci.Provider
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>(Optional) Config file which has the configuration for 4xx and 5xx retries in JSON format.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#retries_config_file OciProvider#retries_config_file}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "retriesConfigFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? RetriesConfigFile
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>(Optional) The minimum duration (in seconds) to retry a resource operation in response to an error.</summary>
             /// <remarks>
             /// The actual retry duration may be longer due to jittering of retry operations. This value is ignored if the <c>disable_auto_retries</c> field is set to true.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#retry_duration_seconds OciProvider#retry_duration_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#retry_duration_seconds OciProvider#retry_duration_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retryDurationSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -385,7 +441,7 @@ namespace oci.Provider
             /// <remarks>
             /// The tenancy OCID can be found at the bottom of user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#tenancy_ocid OciProvider#tenancy_ocid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#tenancy_ocid OciProvider#tenancy_ocid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tenancyOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -394,7 +450,7 @@ namespace oci.Provider
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#test_time_maintenance_reboot_due OciProvider#test_time_maintenance_reboot_due}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#test_time_maintenance_reboot_due OciProvider#test_time_maintenance_reboot_due}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "testTimeMaintenanceRebootDue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TestTimeMaintenanceRebootDue
@@ -406,7 +462,7 @@ namespace oci.Provider
             /// <remarks>
             /// This can be found in user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs#user_ocid OciProvider#user_ocid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs#user_ocid OciProvider#user_ocid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

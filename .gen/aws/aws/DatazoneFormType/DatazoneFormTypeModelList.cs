@@ -41,6 +41,9 @@ namespace aws.DatazoneFormType
             return InvokeInstanceMethod<aws.DatazoneFormType.DatazoneFormTypeModelOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneFormType.IDatazoneFormTypeModel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneFormType.DatazoneFormTypeModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

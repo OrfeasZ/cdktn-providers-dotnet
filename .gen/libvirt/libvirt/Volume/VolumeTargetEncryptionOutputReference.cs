@@ -87,6 +87,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<libvirt.Volume.VolumeTargetEncryptionSecretOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetEncryptionCipher" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cipherInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetEncryptionCipher\"}]}}", isOptional: true)]
         public virtual object? CipherInput
@@ -101,6 +104,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetEncryptionIvgen" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ivgenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetEncryptionIvgen\"}]}}", isOptional: true)]
         public virtual object? IvgenInput
@@ -108,6 +114,9 @@ namespace libvirt.Volume
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetEncryptionSecret" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetEncryptionSecret\"}]}}", isOptional: true)]
         public virtual object? SecretInput
@@ -122,6 +131,9 @@ namespace libvirt.Volume
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Volume.IVolumeTargetEncryption" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.volume.VolumeTargetEncryption\"}]}}", isOptional: true)]
         public virtual object? InternalValue

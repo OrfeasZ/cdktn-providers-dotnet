@@ -63,6 +63,9 @@ namespace oci.ApigatewaySubscriber
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApigatewaySubscriber.IApigatewaySubscriberClients" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apigatewaySubscriber.ApigatewaySubscriberClients\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -49,6 +49,9 @@ namespace aws.CustomerprofilesDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingMatchingRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

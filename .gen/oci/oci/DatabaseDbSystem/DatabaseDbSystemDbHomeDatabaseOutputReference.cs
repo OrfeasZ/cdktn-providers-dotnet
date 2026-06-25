@@ -57,6 +57,18 @@ namespace oci.DatabaseDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDatabaseDefinedTags")]
+        public virtual void ResetDatabaseDefinedTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDatabaseFreeformTags")]
+        public virtual void ResetDatabaseFreeformTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDatabaseId")]
         public virtual void ResetDatabaseId()
         {
@@ -111,6 +123,18 @@ namespace oci.DatabaseDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIsActiveDataGuardEnabled")]
+        public virtual void ResetIsActiveDataGuardEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKeyStoreId")]
+        public virtual void ResetKeyStoreId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKmsKeyId")]
         public virtual void ResetKmsKeyId()
         {
@@ -141,6 +165,18 @@ namespace oci.DatabaseDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetProtectionMode")]
+        public virtual void ResetProtectionMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSidPrefix")]
+        public virtual void ResetSidPrefix()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTdeWalletPassword")]
         public virtual void ResetTdeWalletPassword()
         {
@@ -149,6 +185,12 @@ namespace oci.DatabaseDbSystem
 
         [JsiiMethod(name: "resetTimeStampForPointInTimeRecovery")]
         public virtual void ResetTimeStampForPointInTimeRecovery()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTransportType")]
+        public virtual void ResetTransportType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -224,6 +266,20 @@ namespace oci.DatabaseDbSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "databaseDefinedTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? DatabaseDefinedTagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "databaseFreeformTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? DatabaseFreeformTagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "databaseIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DatabaseIdInput
         {
@@ -286,6 +342,23 @@ namespace oci.DatabaseDbSystem
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isActiveDataGuardEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsActiveDataGuardEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "keyStoreIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KeyStoreIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? KmsKeyIdInput
@@ -322,6 +395,20 @@ namespace oci.DatabaseDbSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "protectionModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ProtectionModeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sidPrefixInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SidPrefixInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "tdeWalletPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TdeWalletPasswordInput
         {
@@ -331,6 +418,13 @@ namespace oci.DatabaseDbSystem
         [JsiiOptional]
         [JsiiProperty(name: "timeStampForPointInTimeRecoveryInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TimeStampForPointInTimeRecoveryInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "transportTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TransportTypeInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -367,6 +461,20 @@ namespace oci.DatabaseDbSystem
         public virtual string CharacterSet
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "databaseDefinedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> DatabaseDefinedTags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "databaseFreeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> DatabaseFreeformTags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -426,6 +534,43 @@ namespace oci.DatabaseDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isActiveDataGuardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsActiveDataGuardEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyStoreId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {
@@ -461,6 +606,20 @@ namespace oci.DatabaseDbSystem
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProtectionMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sidPrefix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SidPrefix
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "tdeWalletPassword", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TdeWalletPassword
         {
@@ -470,6 +629,13 @@ namespace oci.DatabaseDbSystem
 
         [JsiiProperty(name: "timeStampForPointInTimeRecovery", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeStampForPointInTimeRecovery
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "transportType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TransportType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

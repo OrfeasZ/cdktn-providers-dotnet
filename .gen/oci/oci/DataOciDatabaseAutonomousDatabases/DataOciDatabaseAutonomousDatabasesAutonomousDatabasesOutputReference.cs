@@ -89,6 +89,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "autonomousDatabaseMaintenanceWindow", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesAutonomousDatabaseMaintenanceWindowList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesAutonomousDatabaseMaintenanceWindowList AutonomousDatabaseMaintenanceWindow
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesAutonomousDatabaseMaintenanceWindowList>()!;
+        }
+
         [JsiiProperty(name: "autonomousMaintenanceScheduleType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AutonomousMaintenanceScheduleType
         {
@@ -305,6 +311,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesEncryptionKeyHistoryEntryList>()!;
         }
 
+        [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesEncryptionKeyLocationDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesEncryptionKeyLocationDetailsList EncryptionKeyLocationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesEncryptionKeyLocationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "failedDataRecoveryInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double FailedDataRecoveryInSeconds
         {
@@ -519,6 +531,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
         public virtual double LocalAdgAutoFailoverMaxDataLossLimit
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "localAdgResourcePoolLeaderId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LocalAdgResourcePoolLeaderId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "localDisasterRecoveryType", typeJson: "{\"primitive\":\"string\"}")]
@@ -863,6 +881,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeMaintenancePauseUntil", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeMaintenancePauseUntil
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeOfAutoRefreshStart", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeOfAutoRefreshStart
         {
@@ -941,6 +965,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "transportableTablespace", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesTransportableTablespaceList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesTransportableTablespaceList TransportableTablespace
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesTransportableTablespaceList>()!;
+        }
+
         [JsiiProperty(name: "usedDataStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double UsedDataStorageSizeInGbs
         {
@@ -957,6 +987,18 @@ namespace oci.DataOciDatabaseAutonomousDatabases
         public virtual Io.Cdktn.IResolvable UseLatestAvailableBackupTimeStamp
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "vanityConnectionUrls", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesVanityConnectionUrlsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesVanityConnectionUrlsList VanityConnectionUrls
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesVanityConnectionUrlsList>()!;
+        }
+
+        [JsiiProperty(name: "vanityUrlDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesVanityUrlDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesVanityUrlDetailsList VanityUrlDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesVanityUrlDetailsList>()!;
         }
 
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]

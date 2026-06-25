@@ -33,6 +33,7 @@ namespace cloudflare.AiGateway
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewayStripeUsageEvents" />)[]</param>
         [JsiiMethod(name: "putUsageEvents", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewayStripeUsageEvents\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUsageEvents(object @value)
         {
@@ -69,6 +70,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewayStripeUsageEvents" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usageEventsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewayStripeUsageEvents\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UsageEventsInput
@@ -83,6 +87,9 @@ namespace cloudflare.AiGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewayStripe" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewayStripe\"}]}}", isOptional: true)]
         public virtual object? InternalValue

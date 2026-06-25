@@ -41,6 +41,9 @@ namespace aws.Lexv2ModelsBot
             return InvokeInstanceMethod<aws.Lexv2ModelsBot.Lexv2ModelsBotMembersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsBot.ILexv2ModelsBotMembers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBot.Lexv2ModelsBotMembers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

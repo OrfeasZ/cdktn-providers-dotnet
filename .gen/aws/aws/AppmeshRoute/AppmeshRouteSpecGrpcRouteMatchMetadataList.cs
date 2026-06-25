@@ -41,6 +41,9 @@ namespace aws.AppmeshRoute
             return InvokeInstanceMethod<aws.AppmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadataOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadata" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

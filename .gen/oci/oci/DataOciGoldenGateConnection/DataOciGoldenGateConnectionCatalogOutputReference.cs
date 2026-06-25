@@ -53,6 +53,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientSecret
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "clientSecretSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClientSecretSecretId
         {
@@ -73,6 +79,12 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "principalRole", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrincipalRole
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "properties", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Properties
         {
             get => GetInstanceProperty<string>()!;
         }

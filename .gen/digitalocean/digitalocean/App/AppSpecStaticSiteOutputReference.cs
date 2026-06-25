@@ -47,6 +47,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecStaticSiteCors)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecStaticSiteEnv" />)[]</param>
         [JsiiMethod(name: "putEnv", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecStaticSiteEnv\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnv(object @value)
         {
@@ -88,6 +89,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecStaticSiteGitlab)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecStaticSiteRoutes" />)[]</param>
         [JsiiMethod(name: "putRoutes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecStaticSiteRoutes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutes(object @value)
         {
@@ -278,6 +280,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecStaticSiteEnv" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "envInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecStaticSiteEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvInput
@@ -341,6 +346,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecStaticSiteRoutes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecStaticSiteRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutesInput
@@ -418,6 +426,9 @@ namespace digitalocean.App
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.App.IAppSpecStaticSite" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.app.AppSpecStaticSite\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -39,6 +39,7 @@ namespace oci.ContainerengineNodePool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ContainerengineNodePool.IContainerengineNodePoolNodeConfigDetailsNodePoolPodNetworkOptionDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerengineNodePool.IContainerengineNodePoolNodeConfigDetailsPlacementConfigs" />)[]</param>
         [JsiiMethod(name: "putPlacementConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolNodeConfigDetailsPlacementConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementConfigs(object @value)
         {
@@ -60,6 +61,12 @@ namespace oci.ContainerengineNodePool
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetComputeClusterId")]
+        public virtual void ResetComputeClusterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDefinedTags")]
@@ -111,6 +118,13 @@ namespace oci.ContainerengineNodePool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "computeClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ComputeClusterIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "definedTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? DefinedTagsInput
         {
@@ -124,6 +138,9 @@ namespace oci.ContainerengineNodePool
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isPvEncryptionInTransitEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsPvEncryptionInTransitEnabledInput
@@ -152,6 +169,9 @@ namespace oci.ContainerengineNodePool
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerengineNodePool.IContainerengineNodePoolNodeConfigDetailsPlacementConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolNodeConfigDetailsPlacementConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementConfigsInput
@@ -164,6 +184,13 @@ namespace oci.ContainerengineNodePool
         public virtual double? SizeInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeClusterId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
@@ -180,6 +207,9 @@ namespace oci.ContainerengineNodePool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isPvEncryptionInTransitEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsPvEncryptionInTransitEnabled
         {

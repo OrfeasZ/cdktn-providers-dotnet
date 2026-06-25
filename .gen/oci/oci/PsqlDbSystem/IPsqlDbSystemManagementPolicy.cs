@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     {
         /// <summary>backup_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
         /// </remarks>
         [JsiiProperty(name: "backupPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}.</summary>
         [JsiiProperty(name: "maintenanceWindowStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaintenanceWindowStart
@@ -41,7 +41,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>backup_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backupPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicy\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyBackupPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceWindowStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaintenanceWindowStart

@@ -25,6 +25,7 @@ namespace cloudflare.AccountMember
         /// <summary>A set of permission groups that are specified to the policy.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/account_member#permission_groups AccountMember#permission_groups}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPoliciesPermissionGroups" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "permissionGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}")]
         public object PermissionGroups
@@ -58,6 +59,7 @@ namespace cloudflare.AccountMember
         /// <summary>A list of resource groups that the policy applies to.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/account_member#resource_groups AccountMember#resource_groups}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AccountMember.IAccountMemberPoliciesResourceGroups" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "resourceGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.accountMember.AccountMemberPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}")]
         public object ResourceGroups

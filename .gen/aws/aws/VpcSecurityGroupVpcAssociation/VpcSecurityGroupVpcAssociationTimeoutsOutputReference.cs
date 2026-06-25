@@ -73,6 +73,9 @@ namespace aws.VpcSecurityGroupVpcAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcSecurityGroupVpcAssociation.IVpcSecurityGroupVpcAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcSecurityGroupVpcAssociation.VpcSecurityGroupVpcAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

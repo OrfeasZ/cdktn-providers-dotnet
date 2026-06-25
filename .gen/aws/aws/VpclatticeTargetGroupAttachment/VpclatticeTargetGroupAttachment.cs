@@ -135,6 +135,9 @@ namespace aws.VpclatticeTargetGroupAttachment
             get => GetInstanceProperty<aws.VpclatticeTargetGroupAttachment.IVpclatticeTargetGroupAttachmentTarget?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpclatticeTargetGroupAttachment.IVpclatticeTargetGroupAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

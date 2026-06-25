@@ -41,6 +41,9 @@ namespace aws.VpcRouteServerPeer
             return InvokeInstanceMethod<aws.VpcRouteServerPeer.VpcRouteServerPeerBgpOptionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcRouteServerPeer.IVpcRouteServerPeerBgpOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

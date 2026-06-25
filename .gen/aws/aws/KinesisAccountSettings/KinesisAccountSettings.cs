@@ -46,6 +46,7 @@ namespace aws.KinesisAccountSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.KinesisAccountSettings.KinesisAccountSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAccountSettings.IKinesisAccountSettingsMinimumThroughputBillingCommitment" />)[]</param>
         [JsiiMethod(name: "putMinimumThroughputBillingCommitment", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAccountSettings.KinesisAccountSettingsMinimumThroughputBillingCommitment\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMinimumThroughputBillingCommitment(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.KinesisAccountSettings
             get => GetInstanceProperty<aws.KinesisAccountSettings.KinesisAccountSettingsMinimumThroughputBillingCommitmentList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAccountSettings.IKinesisAccountSettingsMinimumThroughputBillingCommitment" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimumThroughputBillingCommitmentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAccountSettings.KinesisAccountSettingsMinimumThroughputBillingCommitment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MinimumThroughputBillingCommitmentInput

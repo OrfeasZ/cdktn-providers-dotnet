@@ -93,6 +93,9 @@ namespace oci.DatasciencePipelineRun
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

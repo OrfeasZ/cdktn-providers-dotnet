@@ -46,6 +46,7 @@ namespace cloudflare.AddressMap
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.AddressMap.AddressMap), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AddressMap.IAddressMapMemberships" />)[]</param>
         [JsiiMethod(name: "putMemberships", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.addressMap.AddressMapMemberships\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemberships(object @value)
         {
@@ -175,6 +176,9 @@ namespace cloudflare.AddressMap
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -189,6 +193,9 @@ namespace cloudflare.AddressMap
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AddressMap.IAddressMapMemberships" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "membershipsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.addressMap.AddressMapMemberships\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MembershipsInput
@@ -217,6 +224,9 @@ namespace cloudflare.AddressMap
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

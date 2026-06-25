@@ -41,6 +41,9 @@ namespace scaleway.CockpitAlertManager
             return InvokeInstanceMethod<scaleway.CockpitAlertManager.CockpitAlertManagerContactPointsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.CockpitAlertManager.ICockpitAlertManagerContactPoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.cockpitAlertManager.CockpitAlertManagerContactPoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

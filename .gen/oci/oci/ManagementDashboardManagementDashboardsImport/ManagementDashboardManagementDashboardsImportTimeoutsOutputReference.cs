@@ -93,6 +93,9 @@ namespace oci.ManagementDashboardManagementDashboardsImport
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ManagementDashboardManagementDashboardsImport.IManagementDashboardManagementDashboardsImportTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.managementDashboardManagementDashboardsImport.ManagementDashboardManagementDashboardsImportTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace aws.SsmincidentsResponsePlan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanIntegrationPagerduty" />)[]</param>
         [JsiiMethod(name: "putPagerduty", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerduty\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPagerduty(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.SsmincidentsResponsePlan
             get => GetInstanceProperty<aws.SsmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsResponsePlan.ISsmincidentsResponsePlanIntegrationPagerduty" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pagerdutyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerduty\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PagerdutyInput

@@ -9,7 +9,10 @@ namespace oci.IdentityDomainsApp
     {
         private object? _resourceRef;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_app#resource_ref IdentityDomainsApp#resource_ref}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app#resource_ref IdentityDomainsApp#resource_ref}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceRef", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? ResourceRef
@@ -38,7 +41,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_app#web_tier_policy_az_control IdentityDomainsApp#web_tier_policy_az_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app#web_tier_policy_az_control IdentityDomainsApp#web_tier_policy_az_control}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webTierPolicyAzControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebTierPolicyAzControl
@@ -47,7 +50,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_app#web_tier_policy_json IdentityDomainsApp#web_tier_policy_json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_app#web_tier_policy_json IdentityDomainsApp#web_tier_policy_json}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webTierPolicyJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebTierPolicyJson

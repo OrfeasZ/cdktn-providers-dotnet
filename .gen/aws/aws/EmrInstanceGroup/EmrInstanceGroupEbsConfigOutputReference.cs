@@ -103,6 +103,9 @@ namespace aws.EmrInstanceGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrInstanceGroup.IEmrInstanceGroupEbsConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrInstanceGroup.EmrInstanceGroupEbsConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

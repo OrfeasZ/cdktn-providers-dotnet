@@ -53,6 +53,18 @@ namespace oci.DataOciCloudBridgeAssetSources
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "awsAccountKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsAccountKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsRegion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -89,6 +101,12 @@ namespace oci.DataOciCloudBridgeAssetSources
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EnvironmentType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {
@@ -107,8 +125,20 @@ namespace oci.DataOciCloudBridgeAssetSources
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isCostInformationCollected", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsCostInformationCollected
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "olvmEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OlvmEndpoint
         {
             get => GetInstanceProperty<string>()!;
         }

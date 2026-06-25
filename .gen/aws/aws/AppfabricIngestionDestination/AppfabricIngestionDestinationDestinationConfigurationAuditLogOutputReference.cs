@@ -35,6 +35,7 @@ namespace aws.AppfabricIngestionDestination
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricIngestionDestination.IAppfabricIngestionDestinationDestinationConfigurationAuditLogDestination" />)[]</param>
         [JsiiMethod(name: "putDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDestination(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.AppfabricIngestionDestination
             get => GetInstanceProperty<aws.AppfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricIngestionDestination.IAppfabricIngestionDestinationDestinationConfigurationAuditLogDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DestinationInput
@@ -77,6 +81,9 @@ namespace aws.AppfabricIngestionDestination
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppfabricIngestionDestination.IAppfabricIngestionDestinationDestinationConfigurationAuditLog" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog\"}]}}", isOptional: true)]
         public virtual object? InternalValue

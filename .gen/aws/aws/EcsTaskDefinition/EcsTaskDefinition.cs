@@ -52,6 +52,7 @@ namespace aws.EcsTaskDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsTaskDefinition.IEcsTaskDefinitionEphemeralStorage)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskDefinition.IEcsTaskDefinitionPlacementConstraints" />)[]</param>
         [JsiiMethod(name: "putPlacementConstraints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementConstraints(object @value)
         {
@@ -87,6 +88,7 @@ namespace aws.EcsTaskDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsTaskDefinition.IEcsTaskDefinitionRuntimePlatform)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskDefinition.IEcsTaskDefinitionVolume" />)[]</param>
         [JsiiMethod(name: "putVolume", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolume\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVolume(object @value)
         {
@@ -311,6 +313,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableFaultInjectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableFaultInjectionInput
@@ -374,6 +379,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskDefinition.IEcsTaskDefinitionPlacementConstraints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementConstraintsInput
@@ -409,6 +417,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<aws.EcsTaskDefinition.IEcsTaskDefinitionRuntimePlatform?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "skipDestroyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SkipDestroyInput
@@ -437,6 +448,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trackLatestInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TrackLatestInput
@@ -444,6 +458,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskDefinition.IEcsTaskDefinitionVolume" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolume\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VolumeInput
@@ -465,6 +482,9 @@ namespace aws.EcsTaskDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableFaultInjection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableFaultInjection
         {
@@ -555,6 +575,9 @@ namespace aws.EcsTaskDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "skipDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SkipDestroy
         {
@@ -603,6 +626,9 @@ namespace aws.EcsTaskDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "trackLatest", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TrackLatest
         {

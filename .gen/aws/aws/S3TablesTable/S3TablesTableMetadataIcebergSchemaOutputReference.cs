@@ -35,6 +35,7 @@ namespace aws.S3TablesTable
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIcebergSchemaField" />)[]</param>
         [JsiiMethod(name: "putField", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaField\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutField(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<aws.S3TablesTable.S3TablesTableMetadataIcebergSchemaFieldList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIcebergSchemaField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldInput
@@ -77,6 +81,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMetadataIcebergSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIcebergSchema\"}]}}", isOptional: true)]
         public virtual object? InternalValue

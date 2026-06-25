@@ -46,6 +46,7 @@ namespace aws.Ec2NetworkInsightsAccessScope
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScope), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeExcludePaths" />)[]</param>
         [JsiiMethod(name: "putExcludePaths", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeExcludePaths\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExcludePaths(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Ec2NetworkInsightsAccessScope
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPaths" />)[]</param>
         [JsiiMethod(name: "putMatchPaths", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPaths\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatchPaths(object @value)
         {
@@ -165,6 +167,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeExcludePaths" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludePathsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeExcludePaths\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExcludePathsInput
@@ -172,6 +177,9 @@ namespace aws.Ec2NetworkInsightsAccessScope
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2NetworkInsightsAccessScope.IEc2NetworkInsightsAccessScopeMatchPaths" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchPathsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2NetworkInsightsAccessScope.Ec2NetworkInsightsAccessScopeMatchPaths\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchPathsInput

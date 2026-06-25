@@ -41,6 +41,9 @@ namespace aws.AppfabricAppAuthorization
             return InvokeInstanceMethod<aws.AppfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredentialApiKeyCredential" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredential\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

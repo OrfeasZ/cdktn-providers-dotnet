@@ -115,6 +115,9 @@ namespace stripe.V2BillingRateCardRate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.V2BillingRateCardRate.IV2BillingRateCardRateTiers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.v2BillingRateCardRate.V2BillingRateCardRateTiers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

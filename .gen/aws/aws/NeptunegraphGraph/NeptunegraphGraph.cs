@@ -52,6 +52,7 @@ namespace aws.NeptunegraphGraph
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.NeptunegraphGraph.INeptunegraphGraphTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NeptunegraphGraph.INeptunegraphGraphVectorSearchConfiguration" />)[]</param>
         [JsiiMethod(name: "putVectorSearchConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVectorSearchConfiguration(object @value)
         {
@@ -190,6 +191,9 @@ namespace aws.NeptunegraphGraph
             get => GetInstanceProperty<aws.NeptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deletionProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeletionProtectionInput
@@ -225,6 +229,9 @@ namespace aws.NeptunegraphGraph
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicConnectivityInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PublicConnectivityInput
@@ -253,6 +260,9 @@ namespace aws.NeptunegraphGraph
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NeptunegraphGraph.INeptunegraphGraphTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.neptunegraphGraph.NeptunegraphGraphTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -260,6 +270,9 @@ namespace aws.NeptunegraphGraph
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NeptunegraphGraph.INeptunegraphGraphVectorSearchConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vectorSearchConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VectorSearchConfigurationInput
@@ -267,6 +280,9 @@ namespace aws.NeptunegraphGraph
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deletionProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeletionProtection
         {
@@ -322,6 +338,9 @@ namespace aws.NeptunegraphGraph
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publicConnectivity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PublicConnectivity
         {

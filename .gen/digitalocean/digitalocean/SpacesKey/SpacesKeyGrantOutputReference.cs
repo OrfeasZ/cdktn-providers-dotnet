@@ -63,6 +63,9 @@ namespace digitalocean.SpacesKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.SpacesKey.ISpacesKeyGrant" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.spacesKey.SpacesKeyGrant\"}]}}", isOptional: true)]
         public virtual object? InternalValue

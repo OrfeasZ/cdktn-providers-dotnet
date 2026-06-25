@@ -46,6 +46,7 @@ namespace aws.ElasticacheReplicationGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ElasticacheReplicationGroup.ElasticacheReplicationGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupLogDeliveryConfiguration" />)[]</param>
         [JsiiMethod(name: "putLogDeliveryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupLogDeliveryConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogDeliveryConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.ElasticacheReplicationGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupNodeGroupConfiguration" />)[]</param>
         [JsiiMethod(name: "putNodeGroupConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupNodeGroupConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNodeGroupConfiguration(object @value)
         {
@@ -435,6 +437,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<aws.ElasticacheReplicationGroup.ElasticacheReplicationGroupTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyImmediatelyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApplyImmediatelyInput
@@ -463,6 +468,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticFailoverEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutomaticFailoverEnabledInput
@@ -484,6 +492,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataTieringEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DataTieringEnabledInput
@@ -554,6 +565,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupLogDeliveryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logDeliveryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupLogDeliveryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogDeliveryConfigurationInput
@@ -568,6 +582,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiAzEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MultiAzEnabledInput
@@ -582,6 +599,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupNodeGroupConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeGroupConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupNodeGroupConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NodeGroupConfigurationInput
@@ -722,6 +742,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -729,6 +752,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transitEncryptionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TransitEncryptionEnabledInput
@@ -750,6 +776,9 @@ namespace aws.ElasticacheReplicationGroup
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "applyImmediately", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApplyImmediately
         {
@@ -798,6 +827,9 @@ namespace aws.ElasticacheReplicationGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "automaticFailoverEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutomaticFailoverEnabled
         {
@@ -839,6 +871,9 @@ namespace aws.ElasticacheReplicationGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "dataTieringEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DataTieringEnabled
         {
@@ -936,6 +971,9 @@ namespace aws.ElasticacheReplicationGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "multiAzEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object MultiAzEnabled
         {
@@ -1103,6 +1141,9 @@ namespace aws.ElasticacheReplicationGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "transitEncryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TransitEncryptionEnabled
         {

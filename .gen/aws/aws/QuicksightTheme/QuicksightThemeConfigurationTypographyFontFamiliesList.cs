@@ -41,6 +41,9 @@ namespace aws.QuicksightTheme
             return InvokeInstanceMethod<aws.QuicksightTheme.QuicksightThemeConfigurationTypographyFontFamiliesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemeConfigurationTypographyFontFamilies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbNodeConsoleHistory.DataOciDatabaseDbNodeConsoleHistoryConfig")]
     public class DataOciDatabaseDbNodeConsoleHistoryConfig : oci.DataOciDatabaseDbNodeConsoleHistory.IDataOciDatabaseDbNodeConsoleHistoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_db_node_console_history#console_history_id DataOciDatabaseDbNodeConsoleHistory#console_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_db_node_console_history#console_history_id DataOciDatabaseDbNodeConsoleHistory#console_history_id}.</summary>
         [JsiiProperty(name: "consoleHistoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsoleHistoryId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_db_node_console_history#db_node_id DataOciDatabaseDbNodeConsoleHistory#db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_db_node_console_history#db_node_id DataOciDatabaseDbNodeConsoleHistory#db_node_id}.</summary>
         [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbNodeId
         {
@@ -29,6 +29,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -62,6 +63,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -156,6 +158,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

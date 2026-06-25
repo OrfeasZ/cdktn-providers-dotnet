@@ -33,6 +33,7 @@ namespace aws.DataAwsLakeformationPermissions
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLakeformationPermissions.IDataAwsLakeformationPermissionsLfTagPolicyExpression" />)[]</param>
         [JsiiMethod(name: "putExpression", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsLfTagPolicyExpression\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExpression(object @value)
         {
@@ -75,6 +76,9 @@ namespace aws.DataAwsLakeformationPermissions
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLakeformationPermissions.IDataAwsLakeformationPermissionsLfTagPolicyExpression" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expressionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsLfTagPolicyExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExpressionInput

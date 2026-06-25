@@ -57,6 +57,9 @@ namespace oci.VaultSecret
             get => GetInstanceProperty<oci.VaultSecret.VaultSecretRotationConfigTargetSystemDetailsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isScheduledRotationEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsScheduledRotationEnabledInput
@@ -78,6 +81,9 @@ namespace oci.VaultSecret
             get => GetInstanceProperty<oci.VaultSecret.IVaultSecretRotationConfigTargetSystemDetails?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isScheduledRotationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsScheduledRotationEnabled
         {

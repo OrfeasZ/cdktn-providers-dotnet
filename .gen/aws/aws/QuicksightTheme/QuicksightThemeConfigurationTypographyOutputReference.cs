@@ -33,6 +33,7 @@ namespace aws.QuicksightTheme
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemeConfigurationTypographyFontFamilies" />)[]</param>
         [JsiiMethod(name: "putFontFamilies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFontFamilies(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.QuicksightTheme
             get => GetInstanceProperty<aws.QuicksightTheme.QuicksightThemeConfigurationTypographyFontFamiliesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemeConfigurationTypographyFontFamilies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fontFamiliesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FontFamiliesInput

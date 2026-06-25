@@ -53,6 +53,9 @@ namespace aws.CloudformationStackSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudformationStackSet.ICloudformationStackSetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudformationStackSet.CloudformationStackSetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

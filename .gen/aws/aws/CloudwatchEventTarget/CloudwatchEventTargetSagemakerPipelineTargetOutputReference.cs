@@ -33,6 +33,7 @@ namespace aws.CloudwatchEventTarget
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventTarget.ICloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct" />)[]</param>
         [JsiiMethod(name: "putPipelineParameterList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPipelineParameterList(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.CloudwatchEventTarget
             get => GetInstanceProperty<aws.CloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventTarget.ICloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineParameterListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PipelineParameterListInput

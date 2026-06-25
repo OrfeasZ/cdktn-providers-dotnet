@@ -35,6 +35,7 @@ namespace aws.WorkspaceswebSessionLogger
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfigurationS3" />)[]</param>
         [JsiiMethod(name: "putS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.WorkspaceswebSessionLogger
             get => GetInstanceProperty<aws.WorkspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3List>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfigurationS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3Input
@@ -77,6 +81,9 @@ namespace aws.WorkspaceswebSessionLogger
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

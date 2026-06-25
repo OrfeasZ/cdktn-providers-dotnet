@@ -10,6 +10,7 @@ namespace aws.AppautoscalingPolicy
         /// <summary>metric_specification block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appautoscaling_policy#metric_specification AppautoscalingPolicy#metric_specification}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppautoscalingPolicy.IAppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecification" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "metricSpecification", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appautoscalingPolicy.AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecification\"},\"kind\":\"array\"}}]}}")]
         object MetricSpecification
@@ -71,6 +72,7 @@ namespace aws.AppautoscalingPolicy
             /// <summary>metric_specification block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appautoscaling_policy#metric_specification AppautoscalingPolicy#metric_specification}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppautoscalingPolicy.IAppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecification" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "metricSpecification", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appautoscalingPolicy.AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecification\"},\"kind\":\"array\"}}]}}")]
             public object MetricSpecification

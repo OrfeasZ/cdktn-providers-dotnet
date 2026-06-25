@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseCloudVmCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_vm_cluster oci_database_cloud_vm_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_vm_cluster oci_database_cloud_vm_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseCloudVmCluster.DatabaseCloudVmCluster), fullyQualifiedName: "oci.databaseCloudVmCluster.DatabaseCloudVmCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseCloudVmCluster.DatabaseCloudVmClusterConfig\"}}]")]
     public class DatabaseCloudVmCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_vm_cluster oci_database_cloud_vm_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_vm_cluster oci_database_cloud_vm_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseCloudVmCluster(Constructs.Construct scope, string id, oci.DatabaseCloudVmCluster.IDatabaseCloudVmClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseCloudVmCluster
         /// <param name="importToId">The construct id used in the generated config for the DatabaseCloudVmCluster to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseCloudVmCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseCloudVmCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCloudVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCloudVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCloudVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseCloudVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseCloudVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseCloudVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseCloudVmCluster.DatabaseCloudVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -58,6 +58,7 @@ namespace oci.DatabaseCloudVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseCloudVmCluster.IDatabaseCloudVmClusterDataCollectionOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseCloudVmCluster.IDatabaseCloudVmClusterFileSystemConfigurationDetails" />)[]</param>
         [JsiiMethod(name: "putFileSystemConfigurationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseCloudVmCluster.DatabaseCloudVmClusterFileSystemConfigurationDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFileSystemConfigurationDetails(object @value)
         {
@@ -219,6 +220,12 @@ namespace oci.DatabaseCloudVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRecoStoragePercentage")]
+        public virtual void ResetRecoStoragePercentage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetScanListenerPortTcp")]
         public virtual void ResetScanListenerPortTcp()
         {
@@ -233,6 +240,12 @@ namespace oci.DatabaseCloudVmCluster
 
         [JsiiMethod(name: "resetSecurityAttributes")]
         public virtual void ResetSecurityAttributes()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSparseStoragePercentage")]
+        public virtual void ResetSparseStoragePercentage()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -267,8 +280,20 @@ namespace oci.DatabaseCloudVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVmBackupStorageType")]
+        public virtual void ResetVmBackupStorageType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetVmClusterType")]
         public virtual void ResetVmClusterType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVmFileSystemStorageType")]
+        public virtual void ResetVmFileSystemStorageType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -497,6 +522,9 @@ namespace oci.DatabaseCloudVmCluster
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createAsyncInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CreateAsyncInput
@@ -567,6 +595,9 @@ namespace oci.DatabaseCloudVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseCloudVmCluster.IDatabaseCloudVmClusterFileSystemConfigurationDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystemConfigurationDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseCloudVmCluster.DatabaseCloudVmClusterFileSystemConfigurationDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FileSystemConfigurationDetailsInput
@@ -602,6 +633,9 @@ namespace oci.DatabaseCloudVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLocalBackupEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLocalBackupEnabledInput
@@ -609,6 +643,9 @@ namespace oci.DatabaseCloudVmCluster
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSparseDiskgroupEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsSparseDiskgroupEnabledInput
@@ -652,6 +689,13 @@ namespace oci.DatabaseCloudVmCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "recoStoragePercentageInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? RecoStoragePercentageInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "scanListenerPortTcpInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ScanListenerPortTcpInput
         {
@@ -670,6 +714,13 @@ namespace oci.DatabaseCloudVmCluster
         public virtual System.Collections.Generic.IDictionary<string, string>? SecurityAttributesInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sparseStoragePercentageInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? SparseStoragePercentageInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -707,6 +758,9 @@ namespace oci.DatabaseCloudVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseCloudVmCluster.IDatabaseCloudVmClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseCloudVmCluster.DatabaseCloudVmClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -722,8 +776,22 @@ namespace oci.DatabaseCloudVmCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "vmBackupStorageTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VmBackupStorageTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "vmClusterTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? VmClusterTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "vmFileSystemStorageTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VmFileSystemStorageTypeInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -770,6 +838,9 @@ namespace oci.DatabaseCloudVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "createAsync", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object CreateAsync
         {
@@ -881,6 +952,9 @@ namespace oci.DatabaseCloudVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLocalBackupEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLocalBackupEnabled
         {
@@ -908,6 +982,9 @@ namespace oci.DatabaseCloudVmCluster
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isSparseDiskgroupEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsSparseDiskgroupEnabled
         {
@@ -970,6 +1047,13 @@ namespace oci.DatabaseCloudVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "recoStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RecoStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "scanListenerPortTcp", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ScanListenerPortTcp
         {
@@ -988,6 +1072,13 @@ namespace oci.DatabaseCloudVmCluster
         public virtual System.Collections.Generic.IDictionary<string, string> SecurityAttributes
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sparseStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SparseStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -1033,8 +1124,22 @@ namespace oci.DatabaseCloudVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "vmBackupStorageType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmBackupStorageType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "vmClusterType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VmClusterType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vmFileSystemStorageType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmFileSystemStorageType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

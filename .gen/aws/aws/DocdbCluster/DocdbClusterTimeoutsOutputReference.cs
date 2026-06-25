@@ -93,6 +93,9 @@ namespace aws.DocdbCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DocdbCluster.IDocdbClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.docdbCluster.DocdbClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

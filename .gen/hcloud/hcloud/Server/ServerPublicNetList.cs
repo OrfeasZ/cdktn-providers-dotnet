@@ -41,6 +41,9 @@ namespace hcloud.Server
             return InvokeInstanceMethod<hcloud.Server.ServerPublicNetOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.Server.IServerPublicNet" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.server.ServerPublicNet\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

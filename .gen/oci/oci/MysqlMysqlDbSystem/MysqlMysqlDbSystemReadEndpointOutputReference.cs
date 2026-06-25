@@ -33,6 +33,12 @@ namespace oci.MysqlMysqlDbSystem
         {
         }
 
+        [JsiiMethod(name: "putReadEndpointIpv6AddressIpv6SubnetCidrPairDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetails\"}}]")]
+        public virtual void PutReadEndpointIpv6AddressIpv6SubnetCidrPairDetails(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetExcludeIps")]
         public virtual void ResetExcludeIps()
         {
@@ -57,6 +63,18 @@ namespace oci.MysqlMysqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetReadEndpointIpv6AddressIpv6SubnetCidrPairDetails")]
+        public virtual void ResetReadEndpointIpv6AddressIpv6SubnetCidrPairDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "readEndpointIpv6AddressIpv6SubnetCidrPairDetails", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsOutputReference\"}")]
+        public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsOutputReference ReadEndpointIpv6AddressIpv6SubnetCidrPairDetails
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "excludeIpsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? ExcludeIpsInput
@@ -64,6 +82,9 @@ namespace oci.MysqlMysqlDbSystem
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsEnabledInput
@@ -85,6 +106,13 @@ namespace oci.MysqlMysqlDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "readEndpointIpv6AddressIpv6SubnetCidrPairDetailsInput", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetails\"}", isOptional: true)]
+        public virtual oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetails? ReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsInput
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetails?>();
+        }
+
         [JsiiProperty(name: "excludeIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] ExcludeIps
         {
@@ -92,6 +120,9 @@ namespace oci.MysqlMysqlDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsEnabled
         {

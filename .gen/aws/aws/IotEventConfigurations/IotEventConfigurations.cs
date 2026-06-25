@@ -77,6 +77,9 @@ namespace aws.IotEventConfigurations
         }
         = GetStaticProperty<string>(typeof(aws.IotEventConfigurations.IotEventConfigurations))!;
 
+        /// <remarks>
+        /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventConfigurationsInput", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, object>? EventConfigurationsInput
@@ -98,6 +101,9 @@ namespace aws.IotEventConfigurations
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
+        /// </remarks>
         [JsiiProperty(name: "eventConfigurations", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, object> EventConfigurations
         {

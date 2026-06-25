@@ -46,6 +46,7 @@ namespace aws.EmrManagedScalingPolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EmrManagedScalingPolicy.EmrManagedScalingPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrManagedScalingPolicy.IEmrManagedScalingPolicyComputeLimits" />)[]</param>
         [JsiiMethod(name: "putComputeLimits", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimits\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComputeLimits(object @value)
         {
@@ -125,6 +126,9 @@ namespace aws.EmrManagedScalingPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrManagedScalingPolicy.IEmrManagedScalingPolicyComputeLimits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "computeLimitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComputeLimitsInput

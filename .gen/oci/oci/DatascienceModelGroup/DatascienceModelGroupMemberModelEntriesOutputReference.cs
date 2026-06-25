@@ -33,6 +33,7 @@ namespace oci.DatascienceModelGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelGroup.IDatascienceModelGroupMemberModelEntriesMemberModelDetails" />)[]</param>
         [JsiiMethod(name: "putMemberModelDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupMemberModelEntriesMemberModelDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemberModelDetails(object @value)
         {
@@ -68,6 +69,9 @@ namespace oci.DatascienceModelGroup
             get => GetInstanceProperty<oci.DatascienceModelGroup.DatascienceModelGroupMemberModelEntriesMemberModelDetailsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelGroup.IDatascienceModelGroupMemberModelEntriesMemberModelDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberModelDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupMemberModelEntriesMemberModelDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemberModelDetailsInput

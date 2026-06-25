@@ -35,6 +35,7 @@ namespace aws.DataexchangeEventAction
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3Encryption" />)[]</param>
         [JsiiMethod(name: "putEncryption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryption(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.DataexchangeEventAction
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3RevisionDestination" />)[]</param>
         [JsiiMethod(name: "putRevisionDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRevisionDestination(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<aws.DataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3Encryption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionInput
@@ -112,6 +117,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3RevisionDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revisionDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RevisionDestinationInput
@@ -119,6 +127,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3\"}]}}", isOptional: true)]
         public virtual object? InternalValue

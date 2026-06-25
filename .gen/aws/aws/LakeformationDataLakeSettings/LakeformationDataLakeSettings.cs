@@ -46,6 +46,7 @@ namespace aws.LakeformationDataLakeSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LakeformationDataLakeSettings.LakeformationDataLakeSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataLakeSettings.ILakeformationDataLakeSettingsCreateDatabaseDefaultPermissions" />)[]</param>
         [JsiiMethod(name: "putCreateDatabaseDefaultPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateDatabaseDefaultPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreateDatabaseDefaultPermissions(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.LakeformationDataLakeSettings
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataLakeSettings.ILakeformationDataLakeSettingsCreateTableDefaultPermissions" />)[]</param>
         [JsiiMethod(name: "putCreateTableDefaultPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreateTableDefaultPermissions(object @value)
         {
@@ -208,6 +210,9 @@ namespace aws.LakeformationDataLakeSettings
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowExternalDataFilteringInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowExternalDataFilteringInput
@@ -215,6 +220,9 @@ namespace aws.LakeformationDataLakeSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowFullTableExternalDataAccessInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowFullTableExternalDataAccessInput
@@ -236,6 +244,9 @@ namespace aws.LakeformationDataLakeSettings
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataLakeSettings.ILakeformationDataLakeSettingsCreateDatabaseDefaultPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createDatabaseDefaultPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateDatabaseDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreateDatabaseDefaultPermissionsInput
@@ -243,6 +254,9 @@ namespace aws.LakeformationDataLakeSettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataLakeSettings.ILakeformationDataLakeSettingsCreateTableDefaultPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createTableDefaultPermissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreateTableDefaultPermissionsInput
@@ -299,6 +313,9 @@ namespace aws.LakeformationDataLakeSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allowExternalDataFiltering", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllowExternalDataFiltering
         {
@@ -326,6 +343,9 @@ namespace aws.LakeformationDataLakeSettings
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allowFullTableExternalDataAccess", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllowFullTableExternalDataAccess
         {

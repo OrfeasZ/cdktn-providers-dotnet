@@ -63,6 +63,9 @@ namespace aws.DataAwsEbsVolumes
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEbsVolumes.IDataAwsEbsVolumesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

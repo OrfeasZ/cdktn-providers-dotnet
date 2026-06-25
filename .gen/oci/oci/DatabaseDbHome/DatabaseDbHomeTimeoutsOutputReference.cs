@@ -93,6 +93,9 @@ namespace oci.DatabaseDbHome
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseDbHome.IDatabaseDbHomeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

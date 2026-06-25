@@ -197,6 +197,9 @@ namespace aws.Ec2SecondarySubnet
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2SecondarySubnet.IEc2SecondarySubnetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2SecondarySubnet.Ec2SecondarySubnetTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

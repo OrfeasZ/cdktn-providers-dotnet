@@ -46,6 +46,7 @@ namespace aws.ConfigConfigRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ConfigConfigRule.ConfigConfigRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleEvaluationMode" />)[]</param>
         [JsiiMethod(name: "putEvaluationMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleEvaluationMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEvaluationMode(object @value)
         {
@@ -191,6 +192,9 @@ namespace aws.ConfigConfigRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleEvaluationMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "evaluationModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleEvaluationMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EvaluationModeInput

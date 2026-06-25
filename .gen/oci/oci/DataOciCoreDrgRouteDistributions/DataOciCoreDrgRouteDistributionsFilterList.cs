@@ -41,6 +41,9 @@ namespace oci.DataOciCoreDrgRouteDistributions
             return InvokeInstanceMethod<oci.DataOciCoreDrgRouteDistributions.DataOciCoreDrgRouteDistributionsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreDrgRouteDistributions.IDataOciCoreDrgRouteDistributionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreDrgRouteDistributions.DataOciCoreDrgRouteDistributionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

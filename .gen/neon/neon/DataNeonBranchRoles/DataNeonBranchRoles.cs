@@ -46,6 +46,7 @@ namespace neon.DataNeonBranchRoles
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(neon.DataNeonBranchRoles.DataNeonBranchRoles), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" />)[]</param>
         [JsiiMethod(name: "putRoles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchRoles.DataNeonBranchRolesRoles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoles(object @value)
         {
@@ -127,6 +128,9 @@ namespace neon.DataNeonBranchRoles
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rolesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchRoles.DataNeonBranchRolesRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RolesInput

@@ -73,6 +73,9 @@ namespace aws.EksAccessEntry
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksAccessEntry.IEksAccessEntryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksAccessEntry.EksAccessEntryTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

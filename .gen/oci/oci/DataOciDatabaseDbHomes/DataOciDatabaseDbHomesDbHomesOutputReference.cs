@@ -101,6 +101,12 @@ namespace oci.DataOciDatabaseDbHomes
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "homeType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HomeType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

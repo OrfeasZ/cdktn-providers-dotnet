@@ -93,6 +93,9 @@ namespace aws.DirectoryServiceRegion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DirectoryServiceRegion.IDirectoryServiceRegionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.directoryServiceRegion.DirectoryServiceRegionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

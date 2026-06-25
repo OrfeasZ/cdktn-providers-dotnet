@@ -41,6 +41,9 @@ namespace oci.FleetAppsManagementRunbookVersion
             return InvokeInstanceMethod<oci.FleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

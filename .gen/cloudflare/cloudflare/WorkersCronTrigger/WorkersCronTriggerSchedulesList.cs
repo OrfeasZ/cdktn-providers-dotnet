@@ -41,6 +41,9 @@ namespace cloudflare.WorkersCronTrigger
             return InvokeInstanceMethod<cloudflare.WorkersCronTrigger.WorkersCronTriggerSchedulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersCronTrigger.IWorkersCronTriggerSchedules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersCronTrigger.WorkersCronTriggerSchedules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

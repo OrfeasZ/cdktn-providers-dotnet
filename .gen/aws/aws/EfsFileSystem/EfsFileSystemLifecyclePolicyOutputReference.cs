@@ -95,6 +95,9 @@ namespace aws.EfsFileSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EfsFileSystem.IEfsFileSystemLifecyclePolicy" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.efsFileSystem.EfsFileSystemLifecyclePolicy\"}]}}", isOptional: true)]
         public virtual object? InternalValue

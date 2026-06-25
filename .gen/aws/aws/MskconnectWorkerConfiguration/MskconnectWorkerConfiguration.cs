@@ -174,6 +174,9 @@ namespace aws.MskconnectWorkerConfiguration
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MskconnectWorkerConfiguration.IMskconnectWorkerConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -46,6 +46,7 @@ namespace aws.S3BucketLogging
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3BucketLogging.S3BucketLoggingA), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLogging.IS3BucketLoggingTargetGrant" />)[]</param>
         [JsiiMethod(name: "putTargetGrant", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLogging.S3BucketLoggingTargetGrant\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetGrant(object @value)
         {
@@ -171,6 +172,9 @@ namespace aws.S3BucketLogging
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLogging.IS3BucketLoggingTargetGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetGrantInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLogging.S3BucketLoggingTargetGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetGrantInput

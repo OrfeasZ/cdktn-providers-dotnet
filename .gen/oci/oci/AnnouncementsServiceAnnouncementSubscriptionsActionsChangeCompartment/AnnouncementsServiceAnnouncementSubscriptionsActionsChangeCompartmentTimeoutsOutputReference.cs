@@ -93,6 +93,9 @@ namespace oci.AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartm
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment.IAnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.announcementsServiceAnnouncementSubscriptionsActionsChangeCompartment.AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

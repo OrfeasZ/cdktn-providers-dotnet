@@ -12,6 +12,7 @@ namespace aws.S3TablesTableBucketReplication
         /// <summary>destination block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/s3tables_table_bucket_replication#destination S3TablesTableBucketReplication#destination}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRuleDestination" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]

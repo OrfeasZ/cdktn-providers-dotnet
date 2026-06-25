@@ -93,6 +93,9 @@ namespace aws.Pinpointsmsvoicev2PhoneNumber
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Pinpointsmsvoicev2PhoneNumber.IPinpointsmsvoicev2PhoneNumberTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.pinpointsmsvoicev2PhoneNumber.Pinpointsmsvoicev2PhoneNumberTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -77,6 +77,9 @@ namespace oci.IdentityDomainsMyRequest
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsMyRequest.IIdentityDomainsMyRequestApprovalDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsMyRequest.IdentityDomainsMyRequestApprovalDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

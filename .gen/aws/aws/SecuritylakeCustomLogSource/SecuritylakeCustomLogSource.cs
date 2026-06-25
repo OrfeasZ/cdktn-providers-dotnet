@@ -46,6 +46,7 @@ namespace aws.SecuritylakeCustomLogSource
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecuritylakeCustomLogSource.SecuritylakeCustomLogSource), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfiguration" />)[]</param>
         [JsiiMethod(name: "putConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfiguration(object @value)
         {
@@ -136,6 +137,9 @@ namespace aws.SecuritylakeCustomLogSource
             get => GetInstanceProperty<aws.SecuritylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetailsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationInput

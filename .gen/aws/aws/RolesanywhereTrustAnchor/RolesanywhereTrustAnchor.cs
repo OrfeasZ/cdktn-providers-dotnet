@@ -46,6 +46,7 @@ namespace aws.RolesanywhereTrustAnchor
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RolesanywhereTrustAnchor.RolesanywhereTrustAnchor), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorNotificationSettings" />)[]</param>
         [JsiiMethod(name: "putNotificationSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNotificationSettings(object @value)
         {
@@ -142,6 +143,9 @@ namespace aws.RolesanywhereTrustAnchor
             get => GetInstanceProperty<aws.RolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -163,6 +167,9 @@ namespace aws.RolesanywhereTrustAnchor
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorNotificationSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NotificationSettingsInput
@@ -191,6 +198,9 @@ namespace aws.RolesanywhereTrustAnchor
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

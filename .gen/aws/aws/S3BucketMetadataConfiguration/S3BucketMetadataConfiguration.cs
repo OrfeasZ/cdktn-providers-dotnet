@@ -46,6 +46,7 @@ namespace aws.S3BucketMetadataConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3BucketMetadataConfiguration.S3BucketMetadataConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketMetadataConfiguration.IS3BucketMetadataConfigurationMetadataConfiguration" />)[]</param>
         [JsiiMethod(name: "putMetadataConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketMetadataConfiguration.S3BucketMetadataConfigurationMetadataConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetadataConfiguration(object @value)
         {
@@ -144,6 +145,9 @@ namespace aws.S3BucketMetadataConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketMetadataConfiguration.IS3BucketMetadataConfigurationMetadataConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketMetadataConfiguration.S3BucketMetadataConfigurationMetadataConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetadataConfigurationInput
@@ -158,6 +162,9 @@ namespace aws.S3BucketMetadataConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketMetadataConfiguration.IS3BucketMetadataConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketMetadataConfiguration.S3BucketMetadataConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

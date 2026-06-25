@@ -93,6 +93,9 @@ namespace aws.ComprehendEntityRecognizer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

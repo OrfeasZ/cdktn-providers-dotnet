@@ -162,6 +162,9 @@ namespace cloudflare.DataCloudflarePipelineStream
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflarePipelineStream.IDataCloudflarePipelineStreamFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflarePipelineStream.DataCloudflarePipelineStreamFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

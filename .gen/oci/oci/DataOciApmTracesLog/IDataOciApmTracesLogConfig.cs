@@ -7,35 +7,35 @@ namespace oci.DataOciApmTracesLog
     [JsiiInterface(nativeType: typeof(IDataOciApmTracesLogConfig), fullyQualifiedName: "oci.dataOciApmTracesLog.DataOciApmTracesLogConfig")]
     public interface IDataOciApmTracesLogConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#apm_domain_id DataOciApmTracesLog#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#apm_domain_id DataOciApmTracesLog#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string ApmDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#log_key DataOciApmTracesLog#log_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#log_key DataOciApmTracesLog#log_key}.</summary>
         [JsiiProperty(name: "logKey", typeJson: "{\"primitive\":\"string\"}")]
         string LogKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#time_log_ended_less_than DataOciApmTracesLog#time_log_ended_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#time_log_ended_less_than DataOciApmTracesLog#time_log_ended_less_than}.</summary>
         [JsiiProperty(name: "timeLogEndedLessThan", typeJson: "{\"primitive\":\"string\"}")]
         string TimeLogEndedLessThan
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#time_log_started_greater_than_or_equal_to DataOciApmTracesLog#time_log_started_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#time_log_started_greater_than_or_equal_to DataOciApmTracesLog#time_log_started_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeLogStartedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}")]
         string TimeLogStartedGreaterThanOrEqualTo
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#id DataOciApmTracesLog#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#id DataOciApmTracesLog#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,35 +57,35 @@ namespace oci.DataOciApmTracesLog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#apm_domain_id DataOciApmTracesLog#apm_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#apm_domain_id DataOciApmTracesLog#apm_domain_id}.</summary>
             [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApmDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#log_key DataOciApmTracesLog#log_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#log_key DataOciApmTracesLog#log_key}.</summary>
             [JsiiProperty(name: "logKey", typeJson: "{\"primitive\":\"string\"}")]
             public string LogKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#time_log_ended_less_than DataOciApmTracesLog#time_log_ended_less_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#time_log_ended_less_than DataOciApmTracesLog#time_log_ended_less_than}.</summary>
             [JsiiProperty(name: "timeLogEndedLessThan", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeLogEndedLessThan
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#time_log_started_greater_than_or_equal_to DataOciApmTracesLog#time_log_started_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#time_log_started_greater_than_or_equal_to DataOciApmTracesLog#time_log_started_greater_than_or_equal_to}.</summary>
             [JsiiProperty(name: "timeLogStartedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeLogStartedGreaterThanOrEqualTo
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_traces_log#id DataOciApmTracesLog#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_traces_log#id DataOciApmTracesLog#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,6 +99,7 @@ namespace oci.DataOciApmTracesLog
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -109,6 +110,7 @@ namespace oci.DataOciApmTracesLog
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -159,6 +161,7 @@ namespace oci.DataOciApmTracesLog
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

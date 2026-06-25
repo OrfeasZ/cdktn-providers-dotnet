@@ -46,6 +46,7 @@ namespace aws.AppconfigEnvironment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppconfigEnvironment.AppconfigEnvironment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigEnvironment.IAppconfigEnvironmentMonitor" />)[]</param>
         [JsiiMethod(name: "putMonitor", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigEnvironment.AppconfigEnvironmentMonitor\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMonitor(object @value)
         {
@@ -162,6 +163,9 @@ namespace aws.AppconfigEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigEnvironment.IAppconfigEnvironmentMonitor" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monitorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigEnvironment.AppconfigEnvironmentMonitor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MonitorInput

@@ -52,6 +52,7 @@ namespace cloudflare.MagicTransitSiteLan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanNat)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanRoutedSubnets" />)[]</param>
         [JsiiMethod(name: "putRoutedSubnets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanRoutedSubnets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutedSubnets(object @value)
         {
@@ -198,6 +199,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "haLinkInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? HaLinkInput
@@ -205,6 +209,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isBreakoutInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsBreakoutInput
@@ -212,6 +219,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isPrioritizedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsPrioritizedInput
@@ -226,6 +236,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanNat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "natInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanNat\"}]}}", isOptional: true)]
         public virtual object? NatInput
@@ -240,6 +253,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanRoutedSubnets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routedSubnetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanRoutedSubnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutedSubnetsInput
@@ -254,6 +270,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressing" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "staticAddressingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressing\"}]}}", isOptional: true)]
         public virtual object? StaticAddressingInput
@@ -282,6 +301,9 @@ namespace cloudflare.MagicTransitSiteLan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "haLink", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object HaLink
         {
@@ -309,6 +331,9 @@ namespace cloudflare.MagicTransitSiteLan
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isBreakout", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsBreakout
         {
@@ -336,6 +361,9 @@ namespace cloudflare.MagicTransitSiteLan
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isPrioritized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsPrioritized
         {

@@ -7,28 +7,39 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
     [JsiiInterface(nativeType: typeof(IDbmulticloudOracleDbGcpKeyRingConfig), fullyQualifiedName: "oci.dbmulticloudOracleDbGcpKeyRing.DbmulticloudOracleDbGcpKeyRingConfig")]
     public interface IDbmulticloudOracleDbGcpKeyRingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#compartment_id DbmulticloudOracleDbGcpKeyRing#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#compartment_id DbmulticloudOracleDbGcpKeyRing#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#display_name DbmulticloudOracleDbGcpKeyRing#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#display_name DbmulticloudOracleDbGcpKeyRing#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#oracle_db_connector_id DbmulticloudOracleDbGcpKeyRing#oracle_db_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#oracle_db_connector_id DbmulticloudOracleDbGcpKeyRing#oracle_db_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbConnectorId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#defined_tags DbmulticloudOracleDbGcpKeyRing#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#action DbmulticloudOracleDbGcpKeyRing#action}.</summary>
+        [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Action
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#defined_tags DbmulticloudOracleDbGcpKeyRing#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -39,7 +50,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#freeform_tags DbmulticloudOracleDbGcpKeyRing#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#freeform_tags DbmulticloudOracleDbGcpKeyRing#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -50,7 +61,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#gcp_key_ring_id DbmulticloudOracleDbGcpKeyRing#gcp_key_ring_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#gcp_key_ring_id DbmulticloudOracleDbGcpKeyRing#gcp_key_ring_id}.</summary>
         [JsiiProperty(name: "gcpKeyRingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GcpKeyRingId
@@ -61,7 +72,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#id DbmulticloudOracleDbGcpKeyRing#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#id DbmulticloudOracleDbGcpKeyRing#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +87,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#location DbmulticloudOracleDbGcpKeyRing#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#location DbmulticloudOracleDbGcpKeyRing#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Location
@@ -87,7 +98,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#properties DbmulticloudOracleDbGcpKeyRing#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#properties DbmulticloudOracleDbGcpKeyRing#properties}.</summary>
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Properties
@@ -98,9 +109,20 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#target_region DbmulticloudOracleDbGcpKeyRing#target_region}.</summary>
+        [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? TargetRegion
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#timeouts DbmulticloudOracleDbGcpKeyRing#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#timeouts DbmulticloudOracleDbGcpKeyRing#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbGcpKeyRing.DbmulticloudOracleDbGcpKeyRingTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +134,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#type DbmulticloudOracleDbGcpKeyRing#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#type DbmulticloudOracleDbGcpKeyRing#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -130,28 +152,36 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#compartment_id DbmulticloudOracleDbGcpKeyRing#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#compartment_id DbmulticloudOracleDbGcpKeyRing#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#display_name DbmulticloudOracleDbGcpKeyRing#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#display_name DbmulticloudOracleDbGcpKeyRing#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#oracle_db_connector_id DbmulticloudOracleDbGcpKeyRing#oracle_db_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#oracle_db_connector_id DbmulticloudOracleDbGcpKeyRing#oracle_db_connector_id}.</summary>
             [JsiiProperty(name: "oracleDbConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbConnectorId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#defined_tags DbmulticloudOracleDbGcpKeyRing#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#action DbmulticloudOracleDbGcpKeyRing#action}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Action
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#defined_tags DbmulticloudOracleDbGcpKeyRing#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -159,7 +189,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#freeform_tags DbmulticloudOracleDbGcpKeyRing#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#freeform_tags DbmulticloudOracleDbGcpKeyRing#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -167,7 +197,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#gcp_key_ring_id DbmulticloudOracleDbGcpKeyRing#gcp_key_ring_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#gcp_key_ring_id DbmulticloudOracleDbGcpKeyRing#gcp_key_ring_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gcpKeyRingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GcpKeyRingId
@@ -175,7 +205,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#id DbmulticloudOracleDbGcpKeyRing#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#id DbmulticloudOracleDbGcpKeyRing#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -187,7 +217,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#location DbmulticloudOracleDbGcpKeyRing#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#location DbmulticloudOracleDbGcpKeyRing#location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Location
@@ -195,7 +225,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#properties DbmulticloudOracleDbGcpKeyRing#properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#properties DbmulticloudOracleDbGcpKeyRing#properties}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Properties
@@ -203,9 +233,17 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#target_region DbmulticloudOracleDbGcpKeyRing#target_region}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? TargetRegion
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#timeouts DbmulticloudOracleDbGcpKeyRing#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#timeouts DbmulticloudOracleDbGcpKeyRing#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbGcpKeyRing.DbmulticloudOracleDbGcpKeyRingTimeouts\"}", isOptional: true)]
@@ -214,7 +252,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<oci.DbmulticloudOracleDbGcpKeyRing.IDbmulticloudOracleDbGcpKeyRingTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#type DbmulticloudOracleDbGcpKeyRing#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#type DbmulticloudOracleDbGcpKeyRing#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -224,6 +262,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -234,6 +273,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -284,6 +324,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

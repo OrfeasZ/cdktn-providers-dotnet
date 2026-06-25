@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2InstanceTypeOffering
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2InstanceTypeOffering.IDataAwsEc2InstanceTypeOfferingFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2InstanceTypeOffering.DataAwsEc2InstanceTypeOfferingFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

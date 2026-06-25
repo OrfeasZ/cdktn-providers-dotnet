@@ -46,6 +46,7 @@ namespace aws.DevopsguruResourceCollection
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DevopsguruResourceCollection.DevopsguruResourceCollection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionCloudformation" />)[]</param>
         [JsiiMethod(name: "putCloudformation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudformation(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DevopsguruResourceCollection
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruResourceCollection.DevopsguruResourceCollectionTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -147,6 +149,9 @@ namespace aws.DevopsguruResourceCollection
             get => GetInstanceProperty<aws.DevopsguruResourceCollection.DevopsguruResourceCollectionTagsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionCloudformation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudformationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudformationInput
@@ -161,6 +166,9 @@ namespace aws.DevopsguruResourceCollection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruResourceCollection.DevopsguruResourceCollectionTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput

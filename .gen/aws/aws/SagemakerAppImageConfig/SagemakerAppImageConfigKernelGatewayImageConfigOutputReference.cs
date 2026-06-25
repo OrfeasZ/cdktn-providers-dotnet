@@ -39,6 +39,7 @@ namespace aws.SagemakerAppImageConfig
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerAppImageConfig.ISagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAppImageConfig.ISagemakerAppImageConfigKernelGatewayImageConfigKernelSpec" />)[]</param>
         [JsiiMethod(name: "putKernelSpec", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAppImageConfig.SagemakerAppImageConfigKernelGatewayImageConfigKernelSpec\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKernelSpec(object @value)
         {
@@ -87,6 +88,9 @@ namespace aws.SagemakerAppImageConfig
             get => GetInstanceProperty<aws.SagemakerAppImageConfig.ISagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAppImageConfig.ISagemakerAppImageConfigKernelGatewayImageConfigKernelSpec" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kernelSpecInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAppImageConfig.SagemakerAppImageConfigKernelGatewayImageConfigKernelSpec\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KernelSpecInput

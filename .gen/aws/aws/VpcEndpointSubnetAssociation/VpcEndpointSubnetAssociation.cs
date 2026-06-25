@@ -116,6 +116,9 @@ namespace aws.VpcEndpointSubnetAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcEndpointSubnetAssociation.IVpcEndpointSubnetAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

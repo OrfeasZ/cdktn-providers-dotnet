@@ -46,6 +46,7 @@ namespace aws.QuicksightIamPolicyAssignment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.QuicksightIamPolicyAssignment.QuicksightIamPolicyAssignment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightIamPolicyAssignment.IQuicksightIamPolicyAssignmentIdentities" />)[]</param>
         [JsiiMethod(name: "putIdentities", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentities\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIdentities(object @value)
         {
@@ -157,6 +158,9 @@ namespace aws.QuicksightIamPolicyAssignment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightIamPolicyAssignment.IQuicksightIamPolicyAssignmentIdentities" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentities\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IdentitiesInput

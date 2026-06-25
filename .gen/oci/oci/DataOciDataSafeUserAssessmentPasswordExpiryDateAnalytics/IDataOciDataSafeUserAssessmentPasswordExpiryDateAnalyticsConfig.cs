@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsConfig), fullyQualifiedName: "oci.dataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsConfig")]
     public interface IDataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_assessment_id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_assessment_id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_assessment_id}.</summary>
         [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string UserAssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#access_level DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#access_level DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,10 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#compartment_id_in_subtree DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#compartment_id_in_subtree DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#compartment_id_in_subtree}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "compartmentIdInSubtree", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? CompartmentIdInSubtree
@@ -38,7 +41,8 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#filter DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#filter DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics.IDataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +54,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +69,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#time_password_expiry_less_than DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#time_password_expiry_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#time_password_expiry_less_than DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#time_password_expiry_less_than}.</summary>
         [JsiiProperty(name: "timePasswordExpiryLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimePasswordExpiryLessThan
@@ -76,7 +80,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_category DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_category DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_category}.</summary>
         [JsiiProperty(name: "userCategory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserCategory
@@ -94,14 +98,14 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_assessment_id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_assessment_id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_assessment_id}.</summary>
             [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserAssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#access_level DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#access_level DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -109,7 +113,10 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#compartment_id_in_subtree DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#compartment_id_in_subtree DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#compartment_id_in_subtree}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentIdInSubtree", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? CompartmentIdInSubtree
@@ -119,7 +126,8 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#filter DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#filter DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics.IDataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -128,7 +136,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#id DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +148,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#time_password_expiry_less_than DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#time_password_expiry_less_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#time_password_expiry_less_than DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#time_password_expiry_less_than}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timePasswordExpiryLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimePasswordExpiryLessThan
@@ -148,7 +156,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_category DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_category}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_user_assessment_password_expiry_date_analytics#user_category DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics#user_category}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userCategory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserCategory
@@ -158,6 +166,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -168,6 +177,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -218,6 +228,7 @@ namespace oci.DataOciDataSafeUserAssessmentPasswordExpiryDateAnalytics
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -93,6 +93,9 @@ namespace oci.CoreVnicAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreVnicAttachment.ICoreVnicAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreVnicAttachment.CoreVnicAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

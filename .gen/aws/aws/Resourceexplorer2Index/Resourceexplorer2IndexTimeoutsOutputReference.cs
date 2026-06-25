@@ -93,6 +93,9 @@ namespace aws.Resourceexplorer2Index
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Resourceexplorer2Index.IResourceexplorer2IndexTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resourceexplorer2Index.Resourceexplorer2IndexTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

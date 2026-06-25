@@ -65,6 +65,12 @@ namespace oci.DataOciDatabaseDatabases
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isZeroDataLossEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsZeroDataLossEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "remoteRegion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RemoteRegion
         {

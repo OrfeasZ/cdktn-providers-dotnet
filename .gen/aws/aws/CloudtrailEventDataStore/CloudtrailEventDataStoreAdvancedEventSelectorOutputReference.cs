@@ -35,6 +35,7 @@ namespace aws.CloudtrailEventDataStore
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreAdvancedEventSelectorFieldSelector" />)[]</param>
         [JsiiMethod(name: "putFieldSelector", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelector\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFieldSelector(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.CloudtrailEventDataStore
             get => GetInstanceProperty<aws.CloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreAdvancedEventSelectorFieldSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldSelectorInput
@@ -97,6 +101,9 @@ namespace aws.CloudtrailEventDataStore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreAdvancedEventSelector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelector\"}]}}", isOptional: true)]
         public virtual object? InternalValue

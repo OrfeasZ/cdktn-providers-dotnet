@@ -41,6 +41,9 @@ namespace oci.DataOciOnesubscriptionRatecards
             return InvokeInstanceMethod<oci.DataOciOnesubscriptionRatecards.DataOciOnesubscriptionRatecardsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOnesubscriptionRatecards.IDataOciOnesubscriptionRatecardsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOnesubscriptionRatecards.DataOciOnesubscriptionRatecardsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,12 +33,6 @@ namespace oci.FusionAppsFusionEnvironment
         {
         }
 
-        [JsiiMethod(name: "resetPassword")]
-        public virtual void ResetPassword()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "emailAddressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EmailAddressInput
@@ -56,13 +50,6 @@ namespace oci.FusionAppsFusionEnvironment
         [JsiiOptional]
         [JsiiProperty(name: "lastNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LastNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "passwordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? PasswordInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -90,13 +77,6 @@ namespace oci.FusionAppsFusionEnvironment
 
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastName
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Password
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

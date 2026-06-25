@@ -41,6 +41,9 @@ namespace oci.DataOciNetworkLoadBalancerBackends
             return InvokeInstanceMethod<oci.DataOciNetworkLoadBalancerBackends.DataOciNetworkLoadBalancerBackendsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkLoadBalancerBackends.IDataOciNetworkLoadBalancerBackendsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciNetworkLoadBalancerBackends.DataOciNetworkLoadBalancerBackendsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

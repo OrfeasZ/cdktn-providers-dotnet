@@ -68,6 +68,9 @@ namespace aws.EvidentlyFeature
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EvidentlyFeature.IEvidentlyFeatureVariations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.evidentlyFeature.EvidentlyFeatureVariations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

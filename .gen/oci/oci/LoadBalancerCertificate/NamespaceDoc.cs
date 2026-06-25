@@ -5,7 +5,7 @@ namespace oci.LoadBalancerCertificate
     /// <remarks>
     /// <h1><c>oci_load_balancer_certificate</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/load_balancer_certificate"><c>oci_load_balancer_certificate</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_certificate"><c>oci_load_balancer_certificate</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

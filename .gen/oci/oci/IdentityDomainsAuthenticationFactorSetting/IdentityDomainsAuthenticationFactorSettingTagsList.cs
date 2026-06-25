@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             return InvokeInstanceMethod<oci.IdentityDomainsAuthenticationFactorSetting.IdentityDomainsAuthenticationFactorSettingTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsAuthenticationFactorSetting.IIdentityDomainsAuthenticationFactorSettingTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsAuthenticationFactorSetting.IdentityDomainsAuthenticationFactorSettingTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

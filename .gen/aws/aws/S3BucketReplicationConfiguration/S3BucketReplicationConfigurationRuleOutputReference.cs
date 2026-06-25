@@ -228,6 +228,9 @@ namespace aws.S3BucketReplicationConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketReplicationConfiguration.IS3BucketReplicationConfigurationRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

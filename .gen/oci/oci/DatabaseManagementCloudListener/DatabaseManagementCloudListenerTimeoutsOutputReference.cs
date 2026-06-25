@@ -93,6 +93,9 @@ namespace oci.DatabaseManagementCloudListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseManagementCloudListener.IDatabaseManagementCloudListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseManagementCloudListener.DatabaseManagementCloudListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

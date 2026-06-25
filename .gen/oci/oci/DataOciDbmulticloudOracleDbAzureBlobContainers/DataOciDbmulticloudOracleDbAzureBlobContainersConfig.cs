@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAzureBlobContainers.DataOciDbmulticloudOracleDbAzureBlobContainersConfig")]
     public class DataOciDbmulticloudOracleDbAzureBlobContainersConfig : oci.DataOciDbmulticloudOracleDbAzureBlobContainers.IDataOciDbmulticloudOracleDbAzureBlobContainersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#compartment_id DataOciDbmulticloudOracleDbAzureBlobContainers#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#compartment_id DataOciDbmulticloudOracleDbAzureBlobContainers#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#azure_storage_account_name DataOciDbmulticloudOracleDbAzureBlobContainers#azure_storage_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#azure_storage_account_name DataOciDbmulticloudOracleDbAzureBlobContainers#azure_storage_account_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azureStorageAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzureStorageAccountName
@@ -26,7 +26,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#azure_storage_container_name DataOciDbmulticloudOracleDbAzureBlobContainers#azure_storage_container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#azure_storage_container_name DataOciDbmulticloudOracleDbAzureBlobContainers#azure_storage_container_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azureStorageContainerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzureStorageContainerName
@@ -35,7 +35,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#display_name DataOciDbmulticloudOracleDbAzureBlobContainers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#display_name DataOciDbmulticloudOracleDbAzureBlobContainers#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -48,7 +48,8 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#filter DataOciDbmulticloudOracleDbAzureBlobContainers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#filter DataOciDbmulticloudOracleDbAzureBlobContainers#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAzureBlobContainers.IDataOciDbmulticloudOracleDbAzureBlobContainersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbAzureBlobContainers.DataOciDbmulticloudOracleDbAzureBlobContainersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -78,7 +79,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#id DataOciDbmulticloudOracleDbAzureBlobContainers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#id DataOciDbmulticloudOracleDbAzureBlobContainers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +92,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainers#oracle_db_azure_blob_container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainers#oracle_db_azure_blob_container_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oracleDbAzureBlobContainerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OracleDbAzureBlobContainerId
@@ -100,7 +101,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#state DataOciDbmulticloudOracleDbAzureBlobContainers#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#state DataOciDbmulticloudOracleDbAzureBlobContainers#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -113,6 +114,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -146,6 +148,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -240,6 +243,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

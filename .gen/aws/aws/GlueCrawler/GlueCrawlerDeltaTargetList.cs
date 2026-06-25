@@ -41,6 +41,9 @@ namespace aws.GlueCrawler
             return InvokeInstanceMethod<aws.GlueCrawler.GlueCrawlerDeltaTargetOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDeltaTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDeltaTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

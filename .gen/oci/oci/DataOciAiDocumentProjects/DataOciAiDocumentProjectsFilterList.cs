@@ -41,6 +41,9 @@ namespace oci.DataOciAiDocumentProjects
             return InvokeInstanceMethod<oci.DataOciAiDocumentProjects.DataOciAiDocumentProjectsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiDocumentProjects.IDataOciAiDocumentProjectsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciAiDocumentProjects.DataOciAiDocumentProjectsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

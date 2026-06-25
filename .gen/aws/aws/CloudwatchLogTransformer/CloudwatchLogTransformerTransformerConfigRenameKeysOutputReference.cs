@@ -35,6 +35,7 @@ namespace aws.CloudwatchLogTransformer
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeysEntry" />)[]</param>
         [JsiiMethod(name: "putEntry", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEntry(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<aws.CloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntryList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeysEntry" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EntryInput
@@ -77,6 +81,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeys" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys\"}]}}", isOptional: true)]
         public virtual object? InternalValue

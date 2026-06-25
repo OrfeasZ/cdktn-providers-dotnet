@@ -5,7 +5,7 @@ namespace oci.DataOciOcvpSupportedHostShapes
     /// <remarks>
     /// <h1><c>data_oci_ocvp_supported_host_shapes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/ocvp_supported_host_shapes"><c>data_oci_ocvp_supported_host_shapes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/ocvp_supported_host_shapes"><c>data_oci_ocvp_supported_host_shapes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

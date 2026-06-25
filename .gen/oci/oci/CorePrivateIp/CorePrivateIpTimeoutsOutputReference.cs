@@ -93,6 +93,9 @@ namespace oci.CorePrivateIp
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CorePrivateIp.ICorePrivateIpTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.corePrivateIp.CorePrivateIpTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

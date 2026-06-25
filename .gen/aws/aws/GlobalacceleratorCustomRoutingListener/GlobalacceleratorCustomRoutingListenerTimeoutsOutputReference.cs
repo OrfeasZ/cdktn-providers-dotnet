@@ -93,6 +93,9 @@ namespace aws.GlobalacceleratorCustomRoutingListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlobalacceleratorCustomRoutingListener.IGlobalacceleratorCustomRoutingListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.globalacceleratorCustomRoutingListener.GlobalacceleratorCustomRoutingListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

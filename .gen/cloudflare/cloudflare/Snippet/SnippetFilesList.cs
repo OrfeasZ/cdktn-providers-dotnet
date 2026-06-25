@@ -41,6 +41,9 @@ namespace cloudflare.Snippet
             return InvokeInstanceMethod<cloudflare.Snippet.SnippetFilesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Snippet.ISnippetFiles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.snippet.SnippetFiles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

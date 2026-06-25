@@ -48,6 +48,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>knowledge_bases block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#knowledge_bases DataDigitaloceanGradientaiAgent#knowledge_bases}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentTemplateKnowledgeBases" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "knowledgeBases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentTemplateKnowledgeBases\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,6 +95,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
         /// <summary>model block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/data-sources/gradientai_agent#model DataDigitaloceanGradientaiAgent#model}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentTemplateModel" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "model", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanGradientaiAgent.DataDigitaloceanGradientaiAgentTemplateModel\"},\"kind\":\"array\"}}]}}", isOptional: true)]

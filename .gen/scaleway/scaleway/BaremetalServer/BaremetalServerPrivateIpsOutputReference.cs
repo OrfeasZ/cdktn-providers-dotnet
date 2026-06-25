@@ -47,6 +47,9 @@ namespace scaleway.BaremetalServer
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.BaremetalServer.IBaremetalServerPrivateIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.baremetalServer.BaremetalServerPrivateIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

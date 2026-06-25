@@ -180,6 +180,9 @@ namespace aws.DxBgpPeer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DxBgpPeer.IDxBgpPeerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dxBgpPeer.DxBgpPeerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

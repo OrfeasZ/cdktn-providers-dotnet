@@ -33,6 +33,7 @@ namespace oci.ApigatewayGateway
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayResponseCacheDetailsServers" />)[]</param>
         [JsiiMethod(name: "putServers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayResponseCacheDetailsServers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutServers(object @value)
         {
@@ -131,6 +132,9 @@ namespace oci.ApigatewayGateway
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSslEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsSslEnabledInput
@@ -138,6 +142,9 @@ namespace oci.ApigatewayGateway
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSslVerifyDisabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsSslVerifyDisabledInput
@@ -159,6 +166,9 @@ namespace oci.ApigatewayGateway
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayResponseCacheDetailsServers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serversInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayResponseCacheDetailsServers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ServersInput
@@ -194,6 +204,9 @@ namespace oci.ApigatewayGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isSslEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsSslEnabled
         {
@@ -221,6 +234,9 @@ namespace oci.ApigatewayGateway
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isSslVerifyDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsSslVerifyDisabled
         {

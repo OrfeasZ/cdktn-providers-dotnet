@@ -69,6 +69,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<aws.S3TablesTable.S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMaintenanceConfigurationIcebergCompaction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergCompactionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfigurationIcebergCompaction\"}]}}", isOptional: true)]
         public virtual object? IcebergCompactionInput
@@ -76,6 +79,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMaintenanceConfigurationIcebergSnapshotManagement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergSnapshotManagementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfigurationIcebergSnapshotManagement\"}]}}", isOptional: true)]
         public virtual object? IcebergSnapshotManagementInput
@@ -83,6 +89,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMaintenanceConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

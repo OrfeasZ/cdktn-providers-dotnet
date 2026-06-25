@@ -93,6 +93,9 @@ namespace oci.WaasHttpRedirect
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WaasHttpRedirect.IWaasHttpRedirectTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.waasHttpRedirect.WaasHttpRedirectTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

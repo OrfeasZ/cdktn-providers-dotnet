@@ -495,6 +495,9 @@ namespace aws.QuicksightCustomPermissions
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightCustomPermissions.IQuicksightCustomPermissionsCapabilities" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilities\"}]}}", isOptional: true)]
         public virtual object? InternalValue

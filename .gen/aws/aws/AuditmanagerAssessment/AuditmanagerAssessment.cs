@@ -46,6 +46,7 @@ namespace aws.AuditmanagerAssessment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AuditmanagerAssessment.AuditmanagerAssessment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentAssessmentReportsDestination" />)[]</param>
         [JsiiMethod(name: "putAssessmentReportsDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAssessmentReportsDestination(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.AuditmanagerAssessment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentRoles" />)[]</param>
         [JsiiMethod(name: "putRoles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentRoles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoles(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.AuditmanagerAssessment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScope" />)[]</param>
         [JsiiMethod(name: "putScope", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScope\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutScope(object @value)
         {
@@ -218,6 +221,9 @@ namespace aws.AuditmanagerAssessment
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentAssessmentReportsDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assessmentReportsDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AssessmentReportsDestinationInput
@@ -253,6 +259,9 @@ namespace aws.AuditmanagerAssessment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentRoles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rolesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RolesInput
@@ -260,6 +269,9 @@ namespace aws.AuditmanagerAssessment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScope" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScope\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScopeInput

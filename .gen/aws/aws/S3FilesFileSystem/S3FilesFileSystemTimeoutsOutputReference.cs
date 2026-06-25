@@ -73,6 +73,9 @@ namespace aws.S3FilesFileSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3FilesFileSystem.IS3FilesFileSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3FilesFileSystem.S3FilesFileSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

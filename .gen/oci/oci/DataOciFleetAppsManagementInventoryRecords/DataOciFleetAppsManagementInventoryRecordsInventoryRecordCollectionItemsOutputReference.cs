@@ -65,6 +65,12 @@ namespace oci.DataOciFleetAppsManagementInventoryRecords
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "parentTargetName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ParentTargetName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "properties", typeJson: "{\"fqn\":\"oci.dataOciFleetAppsManagementInventoryRecords.DataOciFleetAppsManagementInventoryRecordsInventoryRecordCollectionItemsPropertiesList\"}")]
         public virtual oci.DataOciFleetAppsManagementInventoryRecords.DataOciFleetAppsManagementInventoryRecordsInventoryRecordCollectionItemsPropertiesList Properties
         {

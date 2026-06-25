@@ -63,6 +63,9 @@ namespace aws.DataAwsRegions
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsRegions.IDataAwsRegionsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsRegions.DataAwsRegionsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

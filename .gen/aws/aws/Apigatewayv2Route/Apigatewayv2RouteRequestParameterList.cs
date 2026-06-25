@@ -41,6 +41,9 @@ namespace aws.Apigatewayv2Route
             return InvokeInstanceMethod<aws.Apigatewayv2Route.Apigatewayv2RouteRequestParameterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Route.IApigatewayv2RouteRequestParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Route.Apigatewayv2RouteRequestParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

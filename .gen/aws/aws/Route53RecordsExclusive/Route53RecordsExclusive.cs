@@ -46,6 +46,7 @@ namespace aws.Route53RecordsExclusive
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Route53RecordsExclusive.Route53RecordsExclusive), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSet" />)[]</param>
         [JsiiMethod(name: "putResourceRecordSet", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSet\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceRecordSet(object @value)
         {
@@ -118,6 +119,9 @@ namespace aws.Route53RecordsExclusive
             get => GetInstanceProperty<aws.Route53RecordsExclusive.Route53RecordsExclusiveTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSet" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceRecordSetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSet\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceRecordSetInput
@@ -125,6 +129,9 @@ namespace aws.Route53RecordsExclusive
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

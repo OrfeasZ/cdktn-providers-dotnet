@@ -77,10 +77,28 @@ namespace oci.DataOciCloudMigrationsMigrations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "migrationConfig", typeJson: "{\"fqn\":\"oci.dataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsMigrationCollectionItemsMigrationConfigList\"}")]
+        public virtual oci.DataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsMigrationCollectionItemsMigrationConfigList MigrationConfig
+        {
+            get => GetInstanceProperty<oci.DataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsMigrationCollectionItemsMigrationConfigList>()!;
+        }
+
+        [JsiiProperty(name: "migrationType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MigrationType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "replicationScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ReplicationScheduleId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SecurityAttributes
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]

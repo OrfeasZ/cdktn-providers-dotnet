@@ -33,6 +33,7 @@ namespace aws.EcsService
         /// <summary>lifecycle_hook block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_service#lifecycle_hook EcsService#lifecycle_hook}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHook" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleHook", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHook\"},\"kind\":\"array\"}}]}}", isOptional: true)]

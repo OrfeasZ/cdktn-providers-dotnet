@@ -46,6 +46,7 @@ namespace aws.GlueCatalogDatabase
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlueCatalogDatabase.GlueCatalogDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogDatabase.IGlueCatalogDatabaseCreateTableDefaultPermission" />)[]</param>
         [JsiiMethod(name: "putCreateTableDefaultPermission", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermission\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreateTableDefaultPermission(object @value)
         {
@@ -197,6 +198,9 @@ namespace aws.GlueCatalogDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogDatabase.IGlueCatalogDatabaseCreateTableDefaultPermission" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createTableDefaultPermissionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermission\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreateTableDefaultPermissionInput

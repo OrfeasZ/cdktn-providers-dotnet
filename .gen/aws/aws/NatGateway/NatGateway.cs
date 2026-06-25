@@ -46,6 +46,7 @@ namespace aws.NatGateway
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.NatGateway.NatGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NatGateway.INatGatewayAvailabilityZoneAddress" />)[]</param>
         [JsiiMethod(name: "putAvailabilityZoneAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.natGateway.NatGatewayAvailabilityZoneAddress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAvailabilityZoneAddress(object @value)
         {
@@ -258,6 +259,9 @@ namespace aws.NatGateway
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NatGateway.INatGatewayAvailabilityZoneAddress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZoneAddressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.natGateway.NatGatewayAvailabilityZoneAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AvailabilityZoneAddressInput
@@ -335,6 +339,9 @@ namespace aws.NatGateway
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NatGateway.INatGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.natGateway.NatGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

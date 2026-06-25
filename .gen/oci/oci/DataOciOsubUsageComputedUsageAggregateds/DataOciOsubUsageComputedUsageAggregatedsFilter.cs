@@ -9,7 +9,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
     [JsiiByValue(fqn: "oci.dataOciOsubUsageComputedUsageAggregateds.DataOciOsubUsageComputedUsageAggregatedsFilter")]
     public class DataOciOsubUsageComputedUsageAggregatedsFilter : oci.DataOciOsubUsageComputedUsageAggregateds.IDataOciOsubUsageComputedUsageAggregatedsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/osub_usage_computed_usage_aggregateds#name DataOciOsubUsageComputedUsageAggregateds#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/osub_usage_computed_usage_aggregateds#name DataOciOsubUsageComputedUsageAggregateds#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/osub_usage_computed_usage_aggregateds#values DataOciOsubUsageComputedUsageAggregateds#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/osub_usage_computed_usage_aggregateds#values DataOciOsubUsageComputedUsageAggregateds#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/osub_usage_computed_usage_aggregateds#regex DataOciOsubUsageComputedUsageAggregateds#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/osub_usage_computed_usage_aggregateds#regex DataOciOsubUsageComputedUsageAggregateds#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

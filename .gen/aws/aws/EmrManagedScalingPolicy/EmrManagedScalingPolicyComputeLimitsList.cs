@@ -41,6 +41,9 @@ namespace aws.EmrManagedScalingPolicy
             return InvokeInstanceMethod<aws.EmrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimitsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrManagedScalingPolicy.IEmrManagedScalingPolicyComputeLimits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

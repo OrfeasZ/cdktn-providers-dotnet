@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBhyveCommandlineArgs" />)[]</param>
         [JsiiMethod(name: "putArgs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainBhyveCommandlineArgs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutArgs(object @value)
         {
@@ -56,6 +57,7 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBhyveCommandlineEnvs" />)[]</param>
         [JsiiMethod(name: "putEnvs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainBhyveCommandlineEnvs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnvs(object @value)
         {
@@ -103,6 +105,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainBhyveCommandlineEnvsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBhyveCommandlineArgs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "argsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainBhyveCommandlineArgs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArgsInput
@@ -110,6 +115,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBhyveCommandlineEnvs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "envsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainBhyveCommandlineEnvs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvsInput
@@ -117,6 +125,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainBhyveCommandline" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainBhyveCommandline\"}]}}", isOptional: true)]
         public virtual object? InternalValue

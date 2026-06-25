@@ -35,6 +35,7 @@ namespace aws.ResourcegroupsGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResourcegroupsGroup.IResourcegroupsGroupConfigurationParameters" />)[]</param>
         [JsiiMethod(name: "putParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameters(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.ResourcegroupsGroup
             get => GetInstanceProperty<aws.ResourcegroupsGroup.ResourcegroupsGroupConfigurationParametersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResourcegroupsGroup.IResourcegroupsGroupConfigurationParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParametersInput
@@ -91,6 +95,9 @@ namespace aws.ResourcegroupsGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ResourcegroupsGroup.IResourcegroupsGroupConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resourcegroupsGroup.ResourcegroupsGroupConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

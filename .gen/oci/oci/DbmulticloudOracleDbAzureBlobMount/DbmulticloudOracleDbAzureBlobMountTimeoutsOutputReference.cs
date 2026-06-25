@@ -93,6 +93,9 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DbmulticloudOracleDbAzureBlobMount.IDbmulticloudOracleDbAzureBlobMountTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dbmulticloudOracleDbAzureBlobMount.DbmulticloudOracleDbAzureBlobMountTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

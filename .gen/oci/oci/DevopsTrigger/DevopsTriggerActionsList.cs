@@ -41,6 +41,9 @@ namespace oci.DevopsTrigger
             return InvokeInstanceMethod<oci.DevopsTrigger.DevopsTriggerActionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsTrigger.IDevopsTriggerActions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsTrigger.DevopsTriggerActions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

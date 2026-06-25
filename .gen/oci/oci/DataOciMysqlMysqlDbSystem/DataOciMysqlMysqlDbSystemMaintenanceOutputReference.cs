@@ -35,6 +35,42 @@ namespace oci.DataOciMysqlMysqlDbSystem
         {
         }
 
+        [JsiiProperty(name: "maintenanceDisabledWindows", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindowsList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindowsList MaintenanceDisabledWindows
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindowsList>()!;
+        }
+
+        [JsiiProperty(name: "maintenanceScheduleType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MaintenanceScheduleType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "targetVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeScheduled", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeScheduled
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "versionPreference", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VersionPreference
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "versionTrackPreference", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VersionTrackPreference
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "windowStartTime", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WindowStartTime
         {

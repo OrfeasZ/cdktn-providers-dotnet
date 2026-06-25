@@ -7,7 +7,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
     [JsiiByValue(fqn: "oci.dbmulticloudMultiCloudResourceDiscovery.DbmulticloudMultiCloudResourceDiscoveryTimeouts")]
     public class DbmulticloudMultiCloudResourceDiscoveryTimeouts : oci.DbmulticloudMultiCloudResourceDiscovery.IDbmulticloudMultiCloudResourceDiscoveryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#create DbmulticloudMultiCloudResourceDiscovery#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#create DbmulticloudMultiCloudResourceDiscovery#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#delete DbmulticloudMultiCloudResourceDiscovery#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#delete DbmulticloudMultiCloudResourceDiscovery#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#update DbmulticloudMultiCloudResourceDiscovery#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#update DbmulticloudMultiCloudResourceDiscovery#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

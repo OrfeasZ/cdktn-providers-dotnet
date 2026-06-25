@@ -113,6 +113,9 @@ namespace scaleway.DataScalewayInterlinkPops
             get => GetInstanceProperty<scaleway.DataScalewayInterlinkPops.DataScalewayInterlinkPopsPopsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dedicatedAvailableInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DedicatedAvailableInput
@@ -162,6 +165,9 @@ namespace scaleway.DataScalewayInterlinkPops
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "dedicatedAvailable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DedicatedAvailable
         {

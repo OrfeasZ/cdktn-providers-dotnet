@@ -75,6 +75,9 @@ namespace aws.EmrCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrCluster.IEmrClusterPlacementGroupConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrCluster.EmrClusterPlacementGroupConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -9,7 +9,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
     [JsiiByValue(fqn: "oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationServiceConfigurationDestination")]
     public class LoggingUnifiedAgentConfigurationServiceConfigurationDestination : oci.LoggingUnifiedAgentConfiguration.ILoggingUnifiedAgentConfigurationServiceConfigurationDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/logging_unified_agent_configuration#log_object_id LoggingUnifiedAgentConfiguration#log_object_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/logging_unified_agent_configuration#log_object_id LoggingUnifiedAgentConfiguration#log_object_id}.</summary>
         [JsiiProperty(name: "logObjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogObjectId
         {
@@ -19,7 +19,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
 
         /// <summary>operational_metrics_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/logging_unified_agent_configuration#operational_metrics_configuration LoggingUnifiedAgentConfiguration#operational_metrics_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/logging_unified_agent_configuration#operational_metrics_configuration LoggingUnifiedAgentConfiguration#operational_metrics_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "operationalMetricsConfiguration", typeJson: "{\"fqn\":\"oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfiguration\"}", isOptional: true)]

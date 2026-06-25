@@ -35,6 +35,7 @@ namespace cloudflare.UserGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroup.IUserGroupPoliciesPermissionGroups" />)[]</param>
         [JsiiMethod(name: "putPermissionGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissionGroups(object @value)
         {
@@ -58,6 +59,7 @@ namespace cloudflare.UserGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroup.IUserGroupPoliciesResourceGroups" />)[]</param>
         [JsiiMethod(name: "putResourceGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceGroups(object @value)
         {
@@ -100,6 +102,9 @@ namespace cloudflare.UserGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroup.IUserGroupPoliciesPermissionGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesPermissionGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionGroupsInput
@@ -107,6 +112,9 @@ namespace cloudflare.UserGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroup.IUserGroupPoliciesResourceGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesResourceGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceGroupsInput
@@ -121,6 +129,9 @@ namespace cloudflare.UserGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.UserGroup.IUserGroupPolicies" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.userGroup.UserGroupPolicies\"}]}}", isOptional: true)]
         public virtual object? InternalValue

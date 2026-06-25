@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubManagedInstanceAvailableWindowsUpdates.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesFilter")]
     public class DataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesFilter : oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates.IDataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#values DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#values DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#regex DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#regex DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

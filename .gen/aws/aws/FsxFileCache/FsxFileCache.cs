@@ -46,6 +46,7 @@ namespace aws.FsxFileCache
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FsxFileCache.FsxFileCache), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociation" />)[]</param>
         [JsiiMethod(name: "putDataRepositoryAssociation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheDataRepositoryAssociation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataRepositoryAssociation(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.FsxFileCache
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheLustreConfiguration" />)[]</param>
         [JsiiMethod(name: "putLustreConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheLustreConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLustreConfiguration(object @value)
         {
@@ -237,6 +239,9 @@ namespace aws.FsxFileCache
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "copyTagsToDataRepositoryAssociationsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CopyTagsToDataRepositoryAssociationsInput
@@ -244,6 +249,9 @@ namespace aws.FsxFileCache
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataRepositoryAssociationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheDataRepositoryAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataRepositoryAssociationInput
@@ -279,6 +287,9 @@ namespace aws.FsxFileCache
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheLustreConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lustreConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheLustreConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LustreConfigurationInput
@@ -328,6 +339,9 @@ namespace aws.FsxFileCache
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxFileCache.IFsxFileCacheTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxFileCache.FsxFileCacheTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -335,6 +349,9 @@ namespace aws.FsxFileCache
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "copyTagsToDataRepositoryAssociations", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object CopyTagsToDataRepositoryAssociations
         {

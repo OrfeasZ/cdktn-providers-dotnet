@@ -41,6 +41,9 @@ namespace aws.DataAwsEc2CoipPool
             return InvokeInstanceMethod<aws.DataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEc2CoipPool.IDataAwsEc2CoipPoolFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

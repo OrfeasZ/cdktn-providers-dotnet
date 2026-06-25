@@ -66,6 +66,7 @@ namespace cloudflare.WorkerVersion
         /// <summary>Array of placement targets (currently limited to single target).</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version#target WorkerVersion#target}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionPlacementTarget" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacementTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,6 +132,7 @@ namespace cloudflare.WorkerVersion
             /// <summary>Array of placement targets (currently limited to single target).</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version#target WorkerVersion#target}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionPlacementTarget" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacementTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]

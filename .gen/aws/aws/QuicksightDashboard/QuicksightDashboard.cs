@@ -58,6 +58,7 @@ namespace aws.QuicksightDashboard
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.QuicksightDashboard.IQuicksightDashboardParameters)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardPermissions" />)[]</param>
         [JsiiMethod(name: "putPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissions(object @value)
         {
@@ -304,6 +305,9 @@ namespace aws.QuicksightDashboard
             get => GetInstanceProperty<aws.QuicksightDashboard.IQuicksightDashboardParameters?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDashboard.IQuicksightDashboardPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionsInput
@@ -346,6 +350,9 @@ namespace aws.QuicksightDashboard
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightDashboard.IQuicksightDashboardTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightDashboard.QuicksightDashboardTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

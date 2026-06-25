@@ -93,6 +93,9 @@ namespace aws.BillingView
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BillingView.IBillingViewTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.billingView.BillingViewTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

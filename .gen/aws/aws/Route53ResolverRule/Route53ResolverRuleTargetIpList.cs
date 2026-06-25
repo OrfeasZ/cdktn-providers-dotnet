@@ -41,6 +41,9 @@ namespace aws.Route53ResolverRule
             return InvokeInstanceMethod<aws.Route53ResolverRule.Route53ResolverRuleTargetIpOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53ResolverRule.IRoute53ResolverRuleTargetIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53ResolverRule.Route53ResolverRuleTargetIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

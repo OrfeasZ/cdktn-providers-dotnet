@@ -93,6 +93,9 @@ namespace oci.MeteringComputationUsage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MeteringComputationUsage.IMeteringComputationUsageTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.meteringComputationUsage.MeteringComputationUsageTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

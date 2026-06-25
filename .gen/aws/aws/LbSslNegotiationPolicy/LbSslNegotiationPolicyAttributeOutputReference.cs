@@ -63,6 +63,9 @@ namespace aws.LbSslNegotiationPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LbSslNegotiationPolicy.ILbSslNegotiationPolicyAttribute" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttribute\"}]}}", isOptional: true)]
         public virtual object? InternalValue

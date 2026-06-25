@@ -41,6 +41,9 @@ namespace aws.SecurityhubAutomationRule
             return InvokeInstanceMethod<aws.SecurityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRangeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaCreatedAtDateRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

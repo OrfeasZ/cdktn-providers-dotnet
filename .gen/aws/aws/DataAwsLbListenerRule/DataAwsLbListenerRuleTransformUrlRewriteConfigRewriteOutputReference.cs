@@ -47,6 +47,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformUrlRewriteConfigRewrite" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewrite\"}]}}", isOptional: true)]
         public virtual object? InternalValue

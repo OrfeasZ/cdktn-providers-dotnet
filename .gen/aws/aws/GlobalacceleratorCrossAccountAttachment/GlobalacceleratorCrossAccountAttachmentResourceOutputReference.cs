@@ -95,6 +95,9 @@ namespace aws.GlobalacceleratorCrossAccountAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlobalacceleratorCrossAccountAttachment.IGlobalacceleratorCrossAccountAttachmentResource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachmentResource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

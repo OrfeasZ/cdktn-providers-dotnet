@@ -46,6 +46,7 @@ namespace aws.NetworkfirewallFirewall
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.NetworkfirewallFirewall.NetworkfirewallFirewall), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkfirewallFirewall.INetworkfirewallFirewallAvailabilityZoneMapping" />)[]</param>
         [JsiiMethod(name: "putAvailabilityZoneMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkfirewallFirewall.NetworkfirewallFirewallAvailabilityZoneMapping\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAvailabilityZoneMapping(object @value)
         {
@@ -75,6 +76,7 @@ namespace aws.NetworkfirewallFirewall
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.NetworkfirewallFirewall.INetworkfirewallFirewallEncryptionConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkfirewallFirewall.INetworkfirewallFirewallSubnetMapping" />)[]</param>
         [JsiiMethod(name: "putSubnetMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkfirewallFirewall.NetworkfirewallFirewallSubnetMapping\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubnetMapping(object @value)
         {
@@ -267,6 +269,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZoneChangeProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AvailabilityZoneChangeProtectionInput
@@ -274,6 +279,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkfirewallFirewall.INetworkfirewallFirewallAvailabilityZoneMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityZoneMappingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkfirewallFirewall.NetworkfirewallFirewallAvailabilityZoneMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AvailabilityZoneMappingInput
@@ -281,6 +289,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeleteProtectionInput
@@ -316,6 +327,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firewallPolicyChangeProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FirewallPolicyChangeProtectionInput
@@ -344,6 +358,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subnetChangeProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SubnetChangeProtectionInput
@@ -351,6 +368,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkfirewallFirewall.INetworkfirewallFirewallSubnetMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subnetMappingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkfirewallFirewall.NetworkfirewallFirewallSubnetMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubnetMappingInput
@@ -372,6 +392,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkfirewallFirewall.INetworkfirewallFirewallTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkfirewallFirewall.NetworkfirewallFirewallTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -393,6 +416,9 @@ namespace aws.NetworkfirewallFirewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "availabilityZoneChangeProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AvailabilityZoneChangeProtection
         {
@@ -420,6 +446,9 @@ namespace aws.NetworkfirewallFirewall
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deleteProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeleteProtection
         {
@@ -468,6 +497,9 @@ namespace aws.NetworkfirewallFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "firewallPolicyChangeProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FirewallPolicyChangeProtection
         {
@@ -516,6 +548,9 @@ namespace aws.NetworkfirewallFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "subnetChangeProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SubnetChangeProtection
         {

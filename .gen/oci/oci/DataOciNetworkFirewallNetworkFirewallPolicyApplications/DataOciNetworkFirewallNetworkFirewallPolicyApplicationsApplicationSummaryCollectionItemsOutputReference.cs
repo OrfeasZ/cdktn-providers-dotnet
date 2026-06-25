@@ -35,6 +35,12 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyApplications
         {
         }
 
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "icmpCode", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double IcmpCode
         {

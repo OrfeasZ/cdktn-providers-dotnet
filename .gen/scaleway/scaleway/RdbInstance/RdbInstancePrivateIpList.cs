@@ -41,6 +41,9 @@ namespace scaleway.RdbInstance
             return InvokeInstanceMethod<scaleway.RdbInstance.RdbInstancePrivateIpOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RdbInstance.IRdbInstancePrivateIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.rdbInstance.RdbInstancePrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

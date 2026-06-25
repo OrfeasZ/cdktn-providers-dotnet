@@ -33,6 +33,7 @@ namespace stripe.ShippingRate
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmountCurrencyOptions" />)[]</param>
         [JsiiMethod(name: "putCurrencyOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmountCurrencyOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCurrencyOptions(object @value)
         {
@@ -82,6 +83,9 @@ namespace stripe.ShippingRate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmountCurrencyOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currencyOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmountCurrencyOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CurrencyOptionsInput

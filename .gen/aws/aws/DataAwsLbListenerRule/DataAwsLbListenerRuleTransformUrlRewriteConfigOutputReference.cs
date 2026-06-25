@@ -35,6 +35,7 @@ namespace aws.DataAwsLbListenerRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformUrlRewriteConfigRewrite" />)[]</param>
         [JsiiMethod(name: "putRewrite", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewrite\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRewrite(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<aws.DataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformUrlRewriteConfigRewrite" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rewriteInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewrite\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RewriteInput
@@ -77,6 +81,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleTransformUrlRewriteConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

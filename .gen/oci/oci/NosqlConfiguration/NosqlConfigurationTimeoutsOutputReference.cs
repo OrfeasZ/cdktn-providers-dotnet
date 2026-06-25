@@ -93,6 +93,9 @@ namespace oci.NosqlConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.NosqlConfiguration.INosqlConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.nosqlConfiguration.NosqlConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

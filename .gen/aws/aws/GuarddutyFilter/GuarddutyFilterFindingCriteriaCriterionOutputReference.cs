@@ -209,6 +209,9 @@ namespace aws.GuarddutyFilter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GuarddutyFilter.IGuarddutyFilterFindingCriteriaCriterion" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion\"}]}}", isOptional: true)]
         public virtual object? InternalValue

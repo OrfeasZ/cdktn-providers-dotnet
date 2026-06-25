@@ -75,6 +75,9 @@ namespace aws.LakeformationDataLakeSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationDataLakeSettings.ILakeformationDataLakeSettingsCreateTableDefaultPermissions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

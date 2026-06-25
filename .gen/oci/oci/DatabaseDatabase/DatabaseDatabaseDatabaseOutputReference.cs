@@ -45,6 +45,36 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseEncryptionKeyLocationDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</param>
+        [JsiiMethod(name: "putManagedSoftwareUpdateDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetails\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutManagedSoftwareUpdateDetails(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putPatchOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabasePatchOptions\"}}]")]
+        public virtual void PutPatchOptions(oci.DatabaseDatabase.IDatabaseDatabaseDatabasePatchOptions @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabasePatchOptions)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSourceEncryptionKeyLocationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails\"}}]")]
         public virtual void PutSourceEncryptionKeyLocationDetails(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails @value)
         {
@@ -83,6 +113,12 @@ namespace oci.DatabaseDatabase
 
         [JsiiMethod(name: "resetDatabaseAdminPassword")]
         public virtual void ResetDatabaseAdminPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDatabaseId")]
+        public virtual void ResetDatabaseId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -153,8 +189,20 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetManagedSoftwareUpdateDetails")]
+        public virtual void ResetManagedSoftwareUpdateDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNcharacterSet")]
         public virtual void ResetNcharacterSet()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPatchOptions")]
+        public virtual void ResetPatchOptions()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -213,6 +261,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeStampForPointInTimeRecovery")]
+        public virtual void ResetTimeStampForPointInTimeRecovery()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTransportType")]
         public virtual void ResetTransportType()
         {
@@ -221,6 +275,12 @@ namespace oci.DatabaseDatabase
 
         [JsiiMethod(name: "resetVaultId")]
         public virtual void ResetVaultId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVmClusterId")]
+        public virtual void ResetVmClusterId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -235,6 +295,18 @@ namespace oci.DatabaseDatabase
         public virtual oci.DatabaseDatabase.DatabaseDatabaseDatabaseEncryptionKeyLocationDetailsOutputReference EncryptionKeyLocationDetails
         {
             get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseDatabaseEncryptionKeyLocationDetailsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "managedSoftwareUpdateDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsList\"}")]
+        public virtual oci.DatabaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsList ManagedSoftwareUpdateDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "patchOptions", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabasePatchOptionsOutputReference\"}")]
+        public virtual oci.DatabaseDatabase.DatabaseDatabaseDatabasePatchOptionsOutputReference PatchOptions
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseDatabasePatchOptionsOutputReference>()!;
         }
 
         [JsiiProperty(name: "sourceEncryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetailsOutputReference\"}")]
@@ -280,6 +352,13 @@ namespace oci.DatabaseDatabase
         [JsiiOptional]
         [JsiiProperty(name: "databaseAdminPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DatabaseAdminPasswordInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "databaseIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DatabaseIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -340,6 +419,9 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isActiveDataGuardEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsActiveDataGuardEnabledInput
@@ -361,11 +443,28 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "managedSoftwareUpdateDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ManagedSoftwareUpdateDetailsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "ncharacterSetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NcharacterSetInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "patchOptionsInput", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabasePatchOptions\"}", isOptional: true)]
+        public virtual oci.DatabaseDatabase.IDatabaseDatabaseDatabasePatchOptions? PatchOptionsInput
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabasePatchOptions?>();
         }
 
         [JsiiOptional]
@@ -432,6 +531,13 @@ namespace oci.DatabaseDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "timeStampForPointInTimeRecoveryInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeStampForPointInTimeRecoveryInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "transportTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TransportTypeInput
         {
@@ -441,6 +547,13 @@ namespace oci.DatabaseDatabase
         [JsiiOptional]
         [JsiiProperty(name: "vaultIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? VaultIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "vmClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VmClusterIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -475,6 +588,13 @@ namespace oci.DatabaseDatabase
 
         [JsiiProperty(name: "databaseAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DatabaseAdminPassword
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DatabaseId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -522,6 +642,9 @@ namespace oci.DatabaseDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isActiveDataGuardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsActiveDataGuardEnabled
         {
@@ -619,6 +742,13 @@ namespace oci.DatabaseDatabase
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "timeStampForPointInTimeRecovery", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeStampForPointInTimeRecovery
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "transportType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TransportType
         {
@@ -628,6 +758,13 @@ namespace oci.DatabaseDatabase
 
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VaultId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmClusterId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

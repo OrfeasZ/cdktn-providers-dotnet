@@ -89,6 +89,9 @@ namespace scaleway.S2SVpnConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionIkev2Ciphers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionIkev2Ciphers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

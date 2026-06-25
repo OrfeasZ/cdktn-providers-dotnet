@@ -113,6 +113,9 @@ namespace aws.ServicecatalogTagOption
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ServicecatalogTagOption.IServicecatalogTagOptionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.servicecatalogTagOption.ServicecatalogTagOptionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

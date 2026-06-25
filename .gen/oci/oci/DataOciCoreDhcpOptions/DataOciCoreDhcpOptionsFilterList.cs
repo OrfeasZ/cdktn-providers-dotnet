@@ -41,6 +41,9 @@ namespace oci.DataOciCoreDhcpOptions
             return InvokeInstanceMethod<oci.DataOciCoreDhcpOptions.DataOciCoreDhcpOptionsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreDhcpOptions.IDataOciCoreDhcpOptionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreDhcpOptions.DataOciCoreDhcpOptionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

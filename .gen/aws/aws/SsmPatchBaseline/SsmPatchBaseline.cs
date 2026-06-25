@@ -46,6 +46,7 @@ namespace aws.SsmPatchBaseline
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmPatchBaseline.SsmPatchBaseline), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRule" />)[]</param>
         [JsiiMethod(name: "putApprovalRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApprovalRule(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.SsmPatchBaseline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineGlobalFilter" />)[]</param>
         [JsiiMethod(name: "putGlobalFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGlobalFilter(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.SsmPatchBaseline
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineSource" />)[]</param>
         [JsiiMethod(name: "putSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSource(object @value)
         {
@@ -254,6 +257,9 @@ namespace aws.SsmPatchBaseline
             get => GetInstanceProperty<aws.SsmPatchBaseline.SsmPatchBaselineSourceList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "approvalRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApprovalRuleInput
@@ -268,6 +274,9 @@ namespace aws.SsmPatchBaseline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "approvedPatchesEnableNonSecurityInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApprovedPatchesEnableNonSecurityInput
@@ -296,6 +305,9 @@ namespace aws.SsmPatchBaseline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineGlobalFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "globalFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GlobalFilterInput
@@ -345,6 +357,9 @@ namespace aws.SsmPatchBaseline
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceInput
@@ -380,6 +395,9 @@ namespace aws.SsmPatchBaseline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "approvedPatchesEnableNonSecurity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApprovedPatchesEnableNonSecurity
         {

@@ -11,7 +11,10 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
     {
         private object _enableExternalNonContainerDbmFeature;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#enable_external_non_container_dbm_feature DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#enable_external_non_container_dbm_feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#enable_external_non_container_dbm_feature DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#enable_external_non_container_dbm_feature}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableExternalNonContainerDbmFeature", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object EnableExternalNonContainerDbmFeature
         {
@@ -39,7 +42,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#external_non_container_database_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#external_non_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#external_non_container_database_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#external_non_container_database_id}.</summary>
         [JsiiProperty(name: "externalNonContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalNonContainerDatabaseId
         {
@@ -49,7 +52,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
 
         /// <summary>feature_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#feature_details DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#feature_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#feature_details DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#feature_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featureDetails", typeJson: "{\"fqn\":\"oci.databaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetails\"}", isOptional: true)]
@@ -59,7 +62,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +77,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#timeouts DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#timeouts DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementTimeouts\"}", isOptional: true)]
@@ -88,6 +91,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -121,6 +125,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -215,6 +220,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

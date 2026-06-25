@@ -93,6 +93,9 @@ namespace oci.DatabaseDbNodeConsoleHistory
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseDbNodeConsoleHistory.IDatabaseDbNodeConsoleHistoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseDbNodeConsoleHistory.DatabaseDbNodeConsoleHistoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

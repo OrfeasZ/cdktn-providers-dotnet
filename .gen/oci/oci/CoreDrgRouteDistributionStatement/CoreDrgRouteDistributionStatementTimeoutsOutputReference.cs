@@ -93,6 +93,9 @@ namespace oci.CoreDrgRouteDistributionStatement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreDrgRouteDistributionStatement.ICoreDrgRouteDistributionStatementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreDrgRouteDistributionStatement.CoreDrgRouteDistributionStatementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

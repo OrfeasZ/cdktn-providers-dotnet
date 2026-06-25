@@ -133,6 +133,9 @@ namespace scaleway.InstanceUserData
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceUserData.IInstanceUserDataTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceUserData.InstanceUserDataTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

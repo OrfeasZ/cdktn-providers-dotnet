@@ -93,6 +93,9 @@ namespace oci.FunctionsFunction
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FunctionsFunction.IFunctionsFunctionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.functionsFunction.FunctionsFunctionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

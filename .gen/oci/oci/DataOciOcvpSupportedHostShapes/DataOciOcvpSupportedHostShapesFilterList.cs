@@ -41,6 +41,9 @@ namespace oci.DataOciOcvpSupportedHostShapes
             return InvokeInstanceMethod<oci.DataOciOcvpSupportedHostShapes.DataOciOcvpSupportedHostShapesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpSupportedHostShapes.IDataOciOcvpSupportedHostShapesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOcvpSupportedHostShapes.DataOciOcvpSupportedHostShapesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

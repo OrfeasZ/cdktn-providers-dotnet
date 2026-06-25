@@ -47,6 +47,12 @@ namespace oci.DataOciMysqlChannels
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "mustUseIpv6OnDualStack", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable MustUseIpv6OnDualStack
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Password
         {

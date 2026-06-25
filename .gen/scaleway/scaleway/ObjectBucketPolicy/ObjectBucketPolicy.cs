@@ -136,6 +136,9 @@ namespace scaleway.ObjectBucketPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ObjectBucketPolicy.IObjectBucketPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.objectBucketPolicy.ObjectBucketPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

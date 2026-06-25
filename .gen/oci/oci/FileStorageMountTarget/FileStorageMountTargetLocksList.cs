@@ -41,6 +41,9 @@ namespace oci.FileStorageMountTarget
             return InvokeInstanceMethod<oci.FileStorageMountTarget.FileStorageMountTargetLocksOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageMountTarget.IFileStorageMountTargetLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageMountTarget.FileStorageMountTargetLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

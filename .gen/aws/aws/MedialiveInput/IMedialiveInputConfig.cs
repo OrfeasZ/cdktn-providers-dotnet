@@ -24,6 +24,7 @@ namespace aws.MedialiveInput
         /// <summary>destinations block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputDestinations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "destinations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputDestinations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,6 +54,7 @@ namespace aws.MedialiveInput
         /// <summary>input_devices block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputInputDevices" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "inputDevices", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputInputDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,6 +80,7 @@ namespace aws.MedialiveInput
         /// <summary>media_connect_flows block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputMediaConnectFlows" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "mediaConnectFlows", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputMediaConnectFlows\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,6 +120,7 @@ namespace aws.MedialiveInput
         /// <summary>sources block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#sources MedialiveInput#sources}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputSources" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sources", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -202,6 +206,7 @@ namespace aws.MedialiveInput
             /// <summary>destinations block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputDestinations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "destinations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputDestinations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -225,6 +230,7 @@ namespace aws.MedialiveInput
             /// <summary>input_devices block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputInputDevices" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inputDevices", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputInputDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -244,6 +250,7 @@ namespace aws.MedialiveInput
             /// <summary>media_connect_flows block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputMediaConnectFlows" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mediaConnectFlows", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputMediaConnectFlows\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -274,6 +281,7 @@ namespace aws.MedialiveInput
             /// <summary>sources block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_input#sources MedialiveInput#sources}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputSources" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sources", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -322,6 +330,7 @@ namespace aws.MedialiveInput
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -332,6 +341,7 @@ namespace aws.MedialiveInput
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -382,6 +392,7 @@ namespace aws.MedialiveInput
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

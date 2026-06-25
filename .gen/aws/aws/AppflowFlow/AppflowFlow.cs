@@ -46,6 +46,7 @@ namespace aws.AppflowFlow
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppflowFlow.AppflowFlow), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowDestinationFlowConfig" />)[]</param>
         [JsiiMethod(name: "putDestinationFlowConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDestinationFlowConfig(object @value)
         {
@@ -81,6 +82,7 @@ namespace aws.AppflowFlow
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AppflowFlow.IAppflowFlowSourceFlowConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowTask" />)[]</param>
         [JsiiMethod(name: "putTask", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowTask\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTask(object @value)
         {
@@ -220,6 +222,9 @@ namespace aws.AppflowFlow
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowDestinationFlowConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationFlowConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowDestinationFlowConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DestinationFlowConfigInput
@@ -283,6 +288,9 @@ namespace aws.AppflowFlow
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowTask" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taskInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowTask\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TaskInput

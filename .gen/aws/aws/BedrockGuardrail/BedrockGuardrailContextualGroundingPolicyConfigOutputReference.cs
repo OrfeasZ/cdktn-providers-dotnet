@@ -35,6 +35,7 @@ namespace aws.BedrockGuardrail
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContextualGroundingPolicyConfigFiltersConfig" />)[]</param>
         [JsiiMethod(name: "putFiltersConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFiltersConfig(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<aws.BedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailContextualGroundingPolicyConfigFiltersConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filtersConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FiltersConfigInput
@@ -77,6 +81,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockGuardrail.IBedrockGuardrailContextualGroundingPolicyConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

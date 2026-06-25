@@ -35,6 +35,7 @@ namespace aws.SsmcontactsRotation
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceDailySettings" />)[]</param>
         [JsiiMethod(name: "putDailySettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceDailySettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDailySettings(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SsmcontactsRotation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceMonthlySettings" />)[]</param>
         [JsiiMethod(name: "putMonthlySettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMonthlySettings(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.SsmcontactsRotation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoverages" />)[]</param>
         [JsiiMethod(name: "putShiftCoverages", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoverages\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutShiftCoverages(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.SsmcontactsRotation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceWeeklySettings" />)[]</param>
         [JsiiMethod(name: "putWeeklySettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceWeeklySettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWeeklySettings(object @value)
         {
@@ -175,6 +179,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<aws.SsmcontactsRotation.SsmcontactsRotationRecurrenceWeeklySettingsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceDailySettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dailySettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceDailySettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DailySettingsInput
@@ -182,6 +189,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceMonthlySettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monthlySettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceMonthlySettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MonthlySettingsInput
@@ -203,6 +213,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoverages" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shiftCoveragesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoverages\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ShiftCoveragesInput
@@ -210,6 +223,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceWeeklySettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "weeklySettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceWeeklySettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WeeklySettingsInput
@@ -231,6 +247,9 @@ namespace aws.SsmcontactsRotation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrence" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrence\"}]}}", isOptional: true)]
         public virtual object? InternalValue

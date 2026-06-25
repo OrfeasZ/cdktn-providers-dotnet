@@ -93,6 +93,9 @@ namespace oci.DevopsDeployArtifact
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsDeployArtifact.IDevopsDeployArtifactTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsDeployArtifact.DevopsDeployArtifactTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

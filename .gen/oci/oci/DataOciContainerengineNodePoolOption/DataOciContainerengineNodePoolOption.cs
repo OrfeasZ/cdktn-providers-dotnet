@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciContainerengineNodePoolOption
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciContainerengineNodePoolOption.DataOciContainerengineNodePoolOption), fullyQualifiedName: "oci.dataOciContainerengineNodePoolOption.DataOciContainerengineNodePoolOption", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciContainerengineNodePoolOption.DataOciContainerengineNodePoolOptionConfig\"}}]")]
     public class DataOciContainerengineNodePoolOption : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciContainerengineNodePoolOption(Constructs.Construct scope, string id, oci.DataOciContainerengineNodePoolOption.IDataOciContainerengineNodePoolOptionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciContainerengineNodePoolOption
         /// <param name="importToId">The construct id used in the generated config for the DataOciContainerengineNodePoolOption to import.</param>
         /// <param name="importFromId">The id of the existing DataOciContainerengineNodePoolOption that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciContainerengineNodePoolOption to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciContainerengineNodePoolOption to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/containerengine_node_pool_option#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciContainerengineNodePoolOption that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciContainerengineNodePoolOption to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciContainerengineNodePoolOption to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_node_pool_option#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciContainerengineNodePoolOption that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciContainerengineNodePoolOption to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciContainerengineNodePoolOption.DataOciContainerengineNodePoolOption), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -54,6 +54,30 @@ namespace oci.DataOciContainerengineNodePoolOption
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNodePoolK8SVersion")]
+        public virtual void ResetNodePoolK8SVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNodePoolOsArch")]
+        public virtual void ResetNodePoolOsArch()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNodePoolOsType")]
+        public virtual void ResetNodePoolOsType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetShouldListAllPatchVersions")]
+        public virtual void ResetShouldListAllPatchVersions()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -116,10 +140,41 @@ namespace oci.DataOciContainerengineNodePoolOption
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "nodePoolK8SVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NodePoolK8SVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "nodePoolOptionIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NodePoolOptionIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nodePoolOsArchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NodePoolOsArchInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nodePoolOsTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NodePoolOsTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "shouldListAllPatchVersionsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ShouldListAllPatchVersionsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
@@ -136,11 +191,62 @@ namespace oci.DataOciContainerengineNodePoolOption
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "nodePoolK8SVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NodePoolK8SVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "nodePoolOptionId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NodePoolOptionId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "nodePoolOsArch", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NodePoolOsArch
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "nodePoolOsType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NodePoolOsType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "shouldListAllPatchVersions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object ShouldListAllPatchVersions
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

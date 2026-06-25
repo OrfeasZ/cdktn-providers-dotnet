@@ -48,6 +48,7 @@ namespace aws.LakeformationOptIn
         /// <summary>column_wildcard block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lakeformation_opt_in#column_wildcard LakeformationOptIn#column_wildcard}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTableWithColumnsColumnWildcard" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnWildcard", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTableWithColumnsColumnWildcard\"},\"kind\":\"array\"}}]}}", isOptional: true)]

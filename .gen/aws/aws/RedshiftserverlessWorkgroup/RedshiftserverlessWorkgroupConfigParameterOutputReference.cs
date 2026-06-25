@@ -63,6 +63,9 @@ namespace aws.RedshiftserverlessWorkgroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupConfigParameter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupConfigParameter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

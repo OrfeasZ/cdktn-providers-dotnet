@@ -33,6 +33,7 @@ namespace oci.FleetAppsManagementRunbookVersion
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails" />)[]</param>
         [JsiiMethod(name: "putPreviousTaskInstanceDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPreviousTaskInstanceDetails(object @value)
         {
@@ -101,6 +102,9 @@ namespace oci.FleetAppsManagementRunbookVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "previousTaskInstanceDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PreviousTaskInstanceDetailsInput

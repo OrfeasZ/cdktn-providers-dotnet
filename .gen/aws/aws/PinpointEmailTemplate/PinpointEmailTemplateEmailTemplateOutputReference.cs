@@ -35,6 +35,7 @@ namespace aws.PinpointEmailTemplate
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplateHeader" />)[]</param>
         [JsiiMethod(name: "putHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeader\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHeader(object @value)
         {
@@ -120,6 +121,9 @@ namespace aws.PinpointEmailTemplate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplateHeader" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HeaderInput
@@ -197,6 +201,9 @@ namespace aws.PinpointEmailTemplate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplate\"}]}}", isOptional: true)]
         public virtual object? InternalValue

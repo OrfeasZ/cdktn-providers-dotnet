@@ -10,6 +10,7 @@ namespace digitalocean.DedicatedInference
         /// <summary>accelerators block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/dedicated_inference#accelerators DedicatedInference#accelerators}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeploymentsAccelerators" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "accelerators", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeploymentsAccelerators\"},\"kind\":\"array\"}}]}}")]
         object Accelerators
@@ -75,6 +76,7 @@ namespace digitalocean.DedicatedInference
             /// <summary>accelerators block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/dedicated_inference#accelerators DedicatedInference#accelerators}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeploymentsAccelerators" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "accelerators", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeploymentsAccelerators\"},\"kind\":\"array\"}}]}}")]
             public object Accelerators

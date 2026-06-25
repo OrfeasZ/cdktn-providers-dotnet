@@ -46,6 +46,7 @@ namespace aws.VpcIpam
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.VpcIpam.VpcIpam), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpam.IVpcIpamOperatingRegions" />)[]</param>
         [JsiiMethod(name: "putOperatingRegions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpam.VpcIpamOperatingRegions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOperatingRegions(object @value)
         {
@@ -202,6 +203,9 @@ namespace aws.VpcIpam
             get => GetInstanceProperty<aws.VpcIpam.VpcIpamTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cascadeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CascadeInput
@@ -216,6 +220,9 @@ namespace aws.VpcIpam
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enablePrivateGuaInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnablePrivateGuaInput
@@ -237,6 +244,9 @@ namespace aws.VpcIpam
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcIpam.IVpcIpamOperatingRegions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "operatingRegionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcIpam.VpcIpamOperatingRegions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OperatingRegionsInput
@@ -272,6 +282,9 @@ namespace aws.VpcIpam
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpam.IVpcIpamTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpam.VpcIpamTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -279,6 +292,9 @@ namespace aws.VpcIpam
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "cascade", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Cascade
         {
@@ -313,6 +329,9 @@ namespace aws.VpcIpam
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enablePrivateGua", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnablePrivateGua
         {

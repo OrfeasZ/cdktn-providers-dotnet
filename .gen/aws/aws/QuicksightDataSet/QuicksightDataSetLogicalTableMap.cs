@@ -41,6 +41,7 @@ namespace aws.QuicksightDataSet
         /// <summary>data_transforms block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_set#data_transforms QuicksightDataSet#data_transforms}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransforms" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataTransforms", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms\"},\"kind\":\"array\"}}]}}", isOptional: true)]

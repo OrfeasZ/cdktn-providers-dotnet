@@ -46,6 +46,7 @@ namespace aws.RedshiftserverlessWorkgroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RedshiftserverlessWorkgroup.RedshiftserverlessWorkgroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupConfigParameter" />)[]</param>
         [JsiiMethod(name: "putConfigParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupConfigParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfigParameter(object @value)
         {
@@ -233,6 +234,9 @@ namespace aws.RedshiftserverlessWorkgroup
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupConfigParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupConfigParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigParameterInput
@@ -240,6 +244,9 @@ namespace aws.RedshiftserverlessWorkgroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enhancedVpcRoutingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnhancedVpcRoutingInput
@@ -282,6 +289,9 @@ namespace aws.RedshiftserverlessWorkgroup
             get => GetInstanceProperty<aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupPricePerformanceTarget?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publiclyAccessibleInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PubliclyAccessibleInput
@@ -324,6 +334,9 @@ namespace aws.RedshiftserverlessWorkgroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftserverlessWorkgroup.IRedshiftserverlessWorkgroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -352,6 +365,9 @@ namespace aws.RedshiftserverlessWorkgroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enhancedVpcRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnhancedVpcRouting
         {
@@ -407,6 +423,9 @@ namespace aws.RedshiftserverlessWorkgroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "publiclyAccessible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PubliclyAccessible
         {

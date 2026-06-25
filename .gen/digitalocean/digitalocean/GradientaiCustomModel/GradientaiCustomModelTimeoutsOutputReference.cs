@@ -93,6 +93,9 @@ namespace digitalocean.GradientaiCustomModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.GradientaiCustomModel.IGradientaiCustomModelTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.gradientaiCustomModel.GradientaiCustomModelTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

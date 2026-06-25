@@ -173,6 +173,12 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousContainerDatabases.DataOciDatabaseAutonomousContainerDatabasesAutonomousContainerDatabasesEncryptionKeyLocationDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousContainerDatabases.DataOciDatabaseAutonomousContainerDatabasesAutonomousContainerDatabasesEncryptionKeyLocationDetailsList EncryptionKeyLocationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousContainerDatabases.DataOciDatabaseAutonomousContainerDatabasesAutonomousContainerDatabasesEncryptionKeyLocationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "failoverTrigger", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double FailoverTrigger
         {

@@ -53,6 +53,9 @@ namespace aws.DataAwsSubnets
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSubnets.IDataAwsSubnetsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSubnets.DataAwsSubnetsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

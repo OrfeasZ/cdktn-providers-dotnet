@@ -54,6 +54,9 @@ namespace aws.MskconnectConnector
             get => GetInstanceProperty<aws.MskconnectConnector.IMskconnectConnectorPluginCustomPlugin?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MskconnectConnector.IMskconnectConnectorPlugin" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorPlugin\"}]}}", isOptional: true)]
         public virtual object? InternalValue

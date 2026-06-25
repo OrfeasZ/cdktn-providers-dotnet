@@ -41,6 +41,9 @@ namespace aws.CloudwatchLogDelivery
             return InvokeInstanceMethod<aws.CloudwatchLogDelivery.CloudwatchLogDeliveryS3DeliveryConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogDelivery.ICloudwatchLogDeliveryS3DeliveryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogDelivery.CloudwatchLogDeliveryS3DeliveryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

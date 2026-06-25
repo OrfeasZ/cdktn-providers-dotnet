@@ -41,6 +41,9 @@ namespace aws.PaymentcryptographyKey
             return InvokeInstanceMethod<aws.PaymentcryptographyKey.PaymentcryptographyKeyKeyAttributesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

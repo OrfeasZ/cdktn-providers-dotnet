@@ -87,6 +87,9 @@ namespace aws.ConnectHoursOfOperation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigA" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigA\"}]}}", isOptional: true)]
         public virtual object? InternalValue

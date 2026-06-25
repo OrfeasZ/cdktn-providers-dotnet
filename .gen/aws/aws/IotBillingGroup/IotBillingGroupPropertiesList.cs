@@ -41,6 +41,9 @@ namespace aws.IotBillingGroup
             return InvokeInstanceMethod<aws.IotBillingGroup.IotBillingGroupPropertiesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotBillingGroup.IIotBillingGroupProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotBillingGroup.IotBillingGroupProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

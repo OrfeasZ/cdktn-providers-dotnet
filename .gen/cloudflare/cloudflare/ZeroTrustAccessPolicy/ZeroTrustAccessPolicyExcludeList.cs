@@ -41,6 +41,9 @@ namespace cloudflare.ZeroTrustAccessPolicy
             return InvokeInstanceMethod<cloudflare.ZeroTrustAccessPolicy.ZeroTrustAccessPolicyExcludeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessPolicy.IZeroTrustAccessPolicyExclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessPolicy.ZeroTrustAccessPolicyExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

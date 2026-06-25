@@ -46,6 +46,7 @@ namespace aws.WafregionalSqlInjectionMatchSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalSqlInjectionMatchSet.IWafregionalSqlInjectionMatchSetSqlInjectionMatchTuple" />)[]</param>
         [JsiiMethod(name: "putSqlInjectionMatchTuple", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTuple\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSqlInjectionMatchTuple(object @value)
         {
@@ -133,6 +134,9 @@ namespace aws.WafregionalSqlInjectionMatchSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalSqlInjectionMatchSet.IWafregionalSqlInjectionMatchSetSqlInjectionMatchTuple" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqlInjectionMatchTupleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTuple\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SqlInjectionMatchTupleInput

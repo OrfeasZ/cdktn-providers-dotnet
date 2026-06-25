@@ -41,6 +41,9 @@ namespace scaleway.InstancePrivateNic
             return InvokeInstanceMethod<scaleway.InstancePrivateNic.InstancePrivateNicPrivateIpsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstancePrivateNic.IInstancePrivateNicPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

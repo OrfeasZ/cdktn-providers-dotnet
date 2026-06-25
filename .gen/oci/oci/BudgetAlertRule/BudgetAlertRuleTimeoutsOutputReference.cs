@@ -93,6 +93,9 @@ namespace oci.BudgetAlertRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BudgetAlertRule.IBudgetAlertRuleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.budgetAlertRule.BudgetAlertRuleTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -39,6 +39,7 @@ namespace aws.AppmeshVirtualNode
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolGrpc)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp" />)[]</param>
         [JsiiMethod(name: "putHttp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHttp(object @value)
         {
@@ -62,6 +63,7 @@ namespace aws.AppmeshVirtualNode
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp2" />)[]</param>
         [JsiiMethod(name: "putHttp2", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp2\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHttp2(object @value)
         {
@@ -85,6 +87,7 @@ namespace aws.AppmeshVirtualNode
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolTcp" />)[]</param>
         [JsiiMethod(name: "putTcp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolTcp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTcp(object @value)
         {
@@ -163,6 +166,9 @@ namespace aws.AppmeshVirtualNode
             get => GetInstanceProperty<aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolGrpc?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp2" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "http2Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp2\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Http2Input
@@ -170,6 +176,9 @@ namespace aws.AppmeshVirtualNode
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HttpInput
@@ -177,6 +186,9 @@ namespace aws.AppmeshVirtualNode
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolTcp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolTcp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TcpInput

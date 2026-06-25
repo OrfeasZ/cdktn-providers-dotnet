@@ -51,6 +51,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolFeaturesCowOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolFeaturesCow" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cowInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolFeaturesCow\"}]}}", isOptional: true)]
         public virtual object? CowInput
@@ -58,6 +61,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolFeatures" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolFeatures\"}]}}", isOptional: true)]
         public virtual object? InternalValue

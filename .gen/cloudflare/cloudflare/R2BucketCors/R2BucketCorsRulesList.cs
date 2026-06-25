@@ -41,6 +41,9 @@ namespace cloudflare.R2BucketCors
             return InvokeInstanceMethod<cloudflare.R2BucketCors.R2BucketCorsRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketCors.IR2BucketCorsRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketCors.R2BucketCorsRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

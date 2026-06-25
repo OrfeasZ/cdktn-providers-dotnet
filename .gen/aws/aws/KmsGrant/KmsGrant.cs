@@ -46,6 +46,7 @@ namespace aws.KmsGrant
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.KmsGrant.KmsGrant), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KmsGrant.IKmsGrantConstraints" />)[]</param>
         [JsiiMethod(name: "putConstraints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kmsGrant.KmsGrantConstraints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConstraints(object @value)
         {
@@ -148,6 +149,9 @@ namespace aws.KmsGrant
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KmsGrant.IKmsGrantConstraints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "constraintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kmsGrant.KmsGrantConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConstraintsInput
@@ -204,6 +208,9 @@ namespace aws.KmsGrant
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retireOnDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RetireOnDeleteInput
@@ -267,6 +274,9 @@ namespace aws.KmsGrant
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "retireOnDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RetireOnDelete
         {

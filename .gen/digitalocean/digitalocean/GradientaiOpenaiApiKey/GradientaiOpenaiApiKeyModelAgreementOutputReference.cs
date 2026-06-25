@@ -115,6 +115,9 @@ namespace digitalocean.GradientaiOpenaiApiKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.GradientaiOpenaiApiKey.IGradientaiOpenaiApiKeyModelAgreement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.gradientaiOpenaiApiKey.GradientaiOpenaiApiKeyModelAgreement\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.EcrRegistryScanningConfiguration
             return InvokeInstanceMethod<aws.EcrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRegistryScanningConfiguration.IEcrRegistryScanningConfigurationRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

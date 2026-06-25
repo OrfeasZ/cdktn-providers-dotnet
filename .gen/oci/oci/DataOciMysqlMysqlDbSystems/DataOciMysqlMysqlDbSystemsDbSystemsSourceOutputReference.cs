@@ -41,6 +41,12 @@ namespace oci.DataOciMysqlMysqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "channel", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsSourceChannelList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsSourceChannelList Channel
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsSourceChannelList>()!;
+        }
+
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DbSystemId
         {
@@ -49,6 +55,12 @@ namespace oci.DataOciMysqlMysqlDbSystems
 
         [JsiiProperty(name: "recoveryPoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecoveryPoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
         }

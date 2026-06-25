@@ -51,6 +51,9 @@ namespace cloudflare.AccountToken
             get => GetInstanceProperty<cloudflare.AccountToken.AccountTokenConditionRequestIpOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AccountToken.IAccountTokenConditionRequestIp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestIpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.accountToken.AccountTokenConditionRequestIp\"}]}}", isOptional: true)]
         public virtual object? RequestIpInput
@@ -58,6 +61,9 @@ namespace cloudflare.AccountToken
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AccountToken.IAccountTokenCondition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.accountToken.AccountTokenCondition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

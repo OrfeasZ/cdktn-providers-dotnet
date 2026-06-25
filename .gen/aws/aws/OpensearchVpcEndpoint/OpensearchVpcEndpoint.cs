@@ -134,6 +134,9 @@ namespace aws.OpensearchVpcEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchVpcEndpoint.IOpensearchVpcEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchVpcEndpoint.OpensearchVpcEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

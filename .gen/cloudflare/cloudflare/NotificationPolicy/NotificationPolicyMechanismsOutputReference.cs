@@ -33,6 +33,7 @@ namespace cloudflare.NotificationPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsEmail" />)[]</param>
         [JsiiMethod(name: "putEmail", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsEmail\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEmail(object @value)
         {
@@ -56,6 +57,7 @@ namespace cloudflare.NotificationPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsPagerduty" />)[]</param>
         [JsiiMethod(name: "putPagerduty", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsPagerduty\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPagerduty(object @value)
         {
@@ -79,6 +81,7 @@ namespace cloudflare.NotificationPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsWebhooks" />)[]</param>
         [JsiiMethod(name: "putWebhooks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsWebhooks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWebhooks(object @value)
         {
@@ -138,6 +141,9 @@ namespace cloudflare.NotificationPolicy
             get => GetInstanceProperty<cloudflare.NotificationPolicy.NotificationPolicyMechanismsWebhooksList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsEmail" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsEmail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EmailInput
@@ -145,6 +151,9 @@ namespace cloudflare.NotificationPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsPagerduty" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pagerdutyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsPagerduty\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PagerdutyInput
@@ -152,6 +161,9 @@ namespace cloudflare.NotificationPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsWebhooks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webhooksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanismsWebhooks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WebhooksInput
@@ -159,6 +171,9 @@ namespace cloudflare.NotificationPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanisms" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.notificationPolicy.NotificationPolicyMechanisms\"}]}}", isOptional: true)]
         public virtual object? InternalValue

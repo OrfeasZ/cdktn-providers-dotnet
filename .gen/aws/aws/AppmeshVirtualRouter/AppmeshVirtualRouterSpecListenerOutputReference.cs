@@ -54,6 +54,9 @@ namespace aws.AppmeshVirtualRouter
             get => GetInstanceProperty<aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListenerPortMapping?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListener" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListener\"}]}}", isOptional: true)]
         public virtual object? InternalValue

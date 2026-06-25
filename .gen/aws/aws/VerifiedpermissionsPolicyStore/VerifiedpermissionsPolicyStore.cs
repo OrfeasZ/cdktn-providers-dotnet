@@ -46,6 +46,7 @@ namespace aws.VerifiedpermissionsPolicyStore
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.VerifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsPolicyStore.IVerifiedpermissionsPolicyStoreValidationSettings" />)[]</param>
         [JsiiMethod(name: "putValidationSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStoreValidationSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValidationSettings(object @value)
         {
@@ -176,6 +177,9 @@ namespace aws.VerifiedpermissionsPolicyStore
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsPolicyStore.IVerifiedpermissionsPolicyStoreValidationSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStoreValidationSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValidationSettingsInput

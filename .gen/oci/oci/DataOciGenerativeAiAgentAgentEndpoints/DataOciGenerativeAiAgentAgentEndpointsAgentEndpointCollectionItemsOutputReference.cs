@@ -113,6 +113,12 @@ namespace oci.DataOciGenerativeAiAgentAgentEndpoints
             get => GetInstanceProperty<oci.DataOciGenerativeAiAgentAgentEndpoints.DataOciGenerativeAiAgentAgentEndpointsAgentEndpointCollectionItemsOutputConfigList>()!;
         }
 
+        [JsiiProperty(name: "provisionedCapacityConfig", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentAgentEndpoints.DataOciGenerativeAiAgentAgentEndpointsAgentEndpointCollectionItemsProvisionedCapacityConfigList\"}")]
+        public virtual oci.DataOciGenerativeAiAgentAgentEndpoints.DataOciGenerativeAiAgentAgentEndpointsAgentEndpointCollectionItemsProvisionedCapacityConfigList ProvisionedCapacityConfig
+        {
+            get => GetInstanceProperty<oci.DataOciGenerativeAiAgentAgentEndpoints.DataOciGenerativeAiAgentAgentEndpointsAgentEndpointCollectionItemsProvisionedCapacityConfigList>()!;
+        }
+
         [JsiiProperty(name: "sessionConfig", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentAgentEndpoints.DataOciGenerativeAiAgentAgentEndpointsAgentEndpointCollectionItemsSessionConfigList\"}")]
         public virtual oci.DataOciGenerativeAiAgentAgentEndpoints.DataOciGenerativeAiAgentAgentEndpointsAgentEndpointCollectionItemsSessionConfigList SessionConfig
         {

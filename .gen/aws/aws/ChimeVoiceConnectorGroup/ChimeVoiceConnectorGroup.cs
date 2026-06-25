@@ -46,6 +46,7 @@ namespace aws.ChimeVoiceConnectorGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ChimeVoiceConnectorGroup.ChimeVoiceConnectorGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ChimeVoiceConnectorGroup.IChimeVoiceConnectorGroupConnector" />)[]</param>
         [JsiiMethod(name: "putConnector", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnector\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnector(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.ChimeVoiceConnectorGroup
             get => GetInstanceProperty<aws.ChimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnectorList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ChimeVoiceConnectorGroup.IChimeVoiceConnectorGroupConnector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectorInput

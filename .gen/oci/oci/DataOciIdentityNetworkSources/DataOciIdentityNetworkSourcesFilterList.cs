@@ -41,6 +41,9 @@ namespace oci.DataOciIdentityNetworkSources
             return InvokeInstanceMethod<oci.DataOciIdentityNetworkSources.DataOciIdentityNetworkSourcesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityNetworkSources.IDataOciIdentityNetworkSourcesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIdentityNetworkSources.DataOciIdentityNetworkSourcesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

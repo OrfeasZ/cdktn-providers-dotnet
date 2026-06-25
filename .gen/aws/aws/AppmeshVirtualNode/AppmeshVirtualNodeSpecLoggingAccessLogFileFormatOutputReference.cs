@@ -33,6 +33,7 @@ namespace aws.AppmeshVirtualNode
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecLoggingAccessLogFileFormatJson" />)[]</param>
         [JsiiMethod(name: "putJson", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJson\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJson(object @value)
         {
@@ -74,6 +75,9 @@ namespace aws.AppmeshVirtualNode
             get => GetInstanceProperty<aws.AppmeshVirtualNode.AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecLoggingAccessLogFileFormatJson" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jsonInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJson\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? JsonInput

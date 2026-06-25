@@ -14,6 +14,7 @@ namespace aws.AlbListenerRule
         /// <summary>target_group block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/alb_listener_rule#target_group AlbListenerRule#target_group}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListenerRule.IAlbListenerRuleActionForwardTargetGroup" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "targetGroup", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListenerRule.AlbListenerRuleActionForwardTargetGroup\"},\"kind\":\"array\"}}]}}")]
         public object TargetGroup

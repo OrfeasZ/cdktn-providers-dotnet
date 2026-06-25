@@ -46,6 +46,7 @@ namespace aws.EcrRepository
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EcrRepository.EcrRepository), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepository.IEcrRepositoryEncryptionConfiguration" />)[]</param>
         [JsiiMethod(name: "putEncryptionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepository.EcrRepositoryEncryptionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryptionConfiguration(object @value)
         {
@@ -75,6 +76,7 @@ namespace aws.EcrRepository
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcrRepository.IEcrRepositoryImageScanningConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepository.IEcrRepositoryImageTagMutabilityExclusionFilter" />)[]</param>
         [JsiiMethod(name: "putImageTagMutabilityExclusionFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImageTagMutabilityExclusionFilter(object @value)
         {
@@ -225,6 +227,9 @@ namespace aws.EcrRepository
             get => GetInstanceProperty<aws.EcrRepository.EcrRepositoryTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepository.IEcrRepositoryEncryptionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepository.EcrRepositoryEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionConfigurationInput
@@ -232,6 +237,9 @@ namespace aws.EcrRepository
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDeleteInput
@@ -253,6 +261,9 @@ namespace aws.EcrRepository
             get => GetInstanceProperty<aws.EcrRepository.IEcrRepositoryImageScanningConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrRepository.IEcrRepositoryImageTagMutabilityExclusionFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageTagMutabilityExclusionFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImageTagMutabilityExclusionFilterInput
@@ -295,6 +306,9 @@ namespace aws.EcrRepository
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcrRepository.IEcrRepositoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecrRepository.EcrRepositoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -302,6 +316,9 @@ namespace aws.EcrRepository
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDelete
         {

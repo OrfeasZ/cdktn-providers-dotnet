@@ -35,6 +35,7 @@ namespace aws.DataexchangeEventAction
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionEventRevisionPublished" />)[]</param>
         [JsiiMethod(name: "putRevisionPublished", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRevisionPublished(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<aws.DataexchangeEventAction.DataexchangeEventActionEventRevisionPublishedList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionEventRevisionPublished" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revisionPublishedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RevisionPublishedInput
@@ -77,6 +81,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataexchangeEventAction.IDataexchangeEventActionEvent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEvent\"}]}}", isOptional: true)]
         public virtual object? InternalValue

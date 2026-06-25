@@ -41,6 +41,9 @@ namespace cloudflare.CloudConnectorRules
             return InvokeInstanceMethod<cloudflare.CloudConnectorRules.CloudConnectorRulesRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

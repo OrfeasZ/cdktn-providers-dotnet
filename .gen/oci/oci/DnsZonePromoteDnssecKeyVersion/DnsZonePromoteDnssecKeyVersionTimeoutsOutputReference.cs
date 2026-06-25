@@ -93,6 +93,9 @@ namespace oci.DnsZonePromoteDnssecKeyVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DnsZonePromoteDnssecKeyVersion.IDnsZonePromoteDnssecKeyVersionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dnsZonePromoteDnssecKeyVersion.DnsZonePromoteDnssecKeyVersionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.S3BucketNotification
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3BucketNotification.S3BucketNotification), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationLambdaFunction" />)[]</param>
         [JsiiMethod(name: "putLambdaFunction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationLambdaFunction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunction(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.S3BucketNotification
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationQueue" />)[]</param>
         [JsiiMethod(name: "putQueue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationQueue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutQueue(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.S3BucketNotification
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationTopic" />)[]</param>
         [JsiiMethod(name: "putTopic", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationTopic\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTopic(object @value)
         {
@@ -195,6 +198,9 @@ namespace aws.S3BucketNotification
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventbridgeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EventbridgeInput
@@ -209,6 +215,9 @@ namespace aws.S3BucketNotification
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationLambdaFunction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationLambdaFunction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionInput
@@ -216,6 +225,9 @@ namespace aws.S3BucketNotification
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationQueue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationQueue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? QueueInput
@@ -230,6 +242,9 @@ namespace aws.S3BucketNotification
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationTopic" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topicInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationTopic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TopicInput
@@ -244,6 +259,9 @@ namespace aws.S3BucketNotification
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "eventbridge", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Eventbridge
         {

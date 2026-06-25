@@ -93,6 +93,9 @@ namespace oci.OperatorAccessControlOperatorControl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OperatorAccessControlOperatorControl.IOperatorAccessControlOperatorControlTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.operatorAccessControlOperatorControl.OperatorAccessControlOperatorControlTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

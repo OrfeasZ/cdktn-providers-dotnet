@@ -13,7 +13,8 @@ namespace oci.PsqlConfiguration
 
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_configuration#items PsqlConfiguration#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_configuration#items PsqlConfiguration#items}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlConfiguration.IPsqlConfigurationDbConfigurationOverridesItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlConfiguration.PsqlConfigurationDbConfigurationOverridesItems\"},\"kind\":\"array\"}}]}}")]
         public object Items

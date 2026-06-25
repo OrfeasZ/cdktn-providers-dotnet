@@ -338,6 +338,9 @@ namespace aws.QuicksightAccountSubscription
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightAccountSubscription.IQuicksightAccountSubscriptionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightAccountSubscription.QuicksightAccountSubscriptionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

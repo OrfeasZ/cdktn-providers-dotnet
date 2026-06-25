@@ -9,7 +9,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
     [JsiiByValue(fqn: "oci.dataOciIotDigitalTwinRelationships.DataOciIotDigitalTwinRelationshipsConfig")]
     public class DataOciIotDigitalTwinRelationshipsConfig : oci.DataOciIotDigitalTwinRelationships.IDataOciIotDigitalTwinRelationshipsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#iot_domain_id DataOciIotDigitalTwinRelationships#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#iot_domain_id DataOciIotDigitalTwinRelationships#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#content_path DataOciIotDigitalTwinRelationships#content_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#content_path DataOciIotDigitalTwinRelationships#content_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentPath
@@ -26,7 +26,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#display_name DataOciIotDigitalTwinRelationships#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#display_name DataOciIotDigitalTwinRelationships#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,8 @@ namespace oci.DataOciIotDigitalTwinRelationships
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#filter DataOciIotDigitalTwinRelationships#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#filter DataOciIotDigitalTwinRelationships#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIotDigitalTwinRelationships.IDataOciIotDigitalTwinRelationshipsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIotDigitalTwinRelationships.DataOciIotDigitalTwinRelationshipsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +70,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#id DataOciIotDigitalTwinRelationships#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#id DataOciIotDigitalTwinRelationships#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +83,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#source_digital_twin_instance_id DataOciIotDigitalTwinRelationships#source_digital_twin_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#source_digital_twin_instance_id DataOciIotDigitalTwinRelationships#source_digital_twin_instance_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDigitalTwinInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceDigitalTwinInstanceId
@@ -91,7 +92,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#state DataOciIotDigitalTwinRelationships#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#state DataOciIotDigitalTwinRelationships#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -100,7 +101,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/iot_digital_twin_relationships#target_digital_twin_instance_id DataOciIotDigitalTwinRelationships#target_digital_twin_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/iot_digital_twin_relationships#target_digital_twin_instance_id DataOciIotDigitalTwinRelationships#target_digital_twin_instance_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetDigitalTwinInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetDigitalTwinInstanceId
@@ -113,6 +114,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -146,6 +148,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -240,6 +243,7 @@ namespace oci.DataOciIotDigitalTwinRelationships
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

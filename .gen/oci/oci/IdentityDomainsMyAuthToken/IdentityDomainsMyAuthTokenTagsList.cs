@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsMyAuthToken
             return InvokeInstanceMethod<oci.IdentityDomainsMyAuthToken.IdentityDomainsMyAuthTokenTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsMyAuthToken.IIdentityDomainsMyAuthTokenTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsMyAuthToken.IdentityDomainsMyAuthTokenTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

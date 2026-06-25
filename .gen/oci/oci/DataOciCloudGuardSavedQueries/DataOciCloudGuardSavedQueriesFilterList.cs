@@ -41,6 +41,9 @@ namespace oci.DataOciCloudGuardSavedQueries
             return InvokeInstanceMethod<oci.DataOciCloudGuardSavedQueries.DataOciCloudGuardSavedQueriesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardSavedQueries.IDataOciCloudGuardSavedQueriesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudGuardSavedQueries.DataOciCloudGuardSavedQueriesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

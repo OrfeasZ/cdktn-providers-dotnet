@@ -10,6 +10,9 @@ namespace libvirt.Network
         private object? _option;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#option Network#option}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsmasqOptionsOption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "option", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkDnsmasqOptionsOption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Option

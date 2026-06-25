@@ -33,6 +33,7 @@ namespace aws.LexBotAlias
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexBotAlias.ILexBotAliasConversationLogsLogSettings" />)[]</param>
         [JsiiMethod(name: "putLogSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBotAlias.LexBotAliasConversationLogsLogSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogSettings(object @value)
         {
@@ -75,6 +76,9 @@ namespace aws.LexBotAlias
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexBotAlias.ILexBotAliasConversationLogsLogSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBotAlias.LexBotAliasConversationLogsLogSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogSettingsInput

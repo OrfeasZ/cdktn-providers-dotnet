@@ -41,6 +41,9 @@ namespace aws.DataAwsElasticacheUser
             return InvokeInstanceMethod<aws.DataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsElasticacheUser.IDataAwsElasticacheUserAuthenticationMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

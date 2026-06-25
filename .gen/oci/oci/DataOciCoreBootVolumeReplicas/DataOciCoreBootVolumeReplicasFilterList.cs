@@ -41,6 +41,9 @@ namespace oci.DataOciCoreBootVolumeReplicas
             return InvokeInstanceMethod<oci.DataOciCoreBootVolumeReplicas.DataOciCoreBootVolumeReplicasFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreBootVolumeReplicas.IDataOciCoreBootVolumeReplicasFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreBootVolumeReplicas.DataOciCoreBootVolumeReplicasFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.QuicksightTemplate
             return InvokeInstanceMethod<aws.QuicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTemplate.IQuicksightTemplateSourceEntitySourceAnalysisDataSetReferences" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

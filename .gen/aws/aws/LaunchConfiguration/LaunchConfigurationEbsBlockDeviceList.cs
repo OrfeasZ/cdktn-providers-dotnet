@@ -41,6 +41,9 @@ namespace aws.LaunchConfiguration
             return InvokeInstanceMethod<aws.LaunchConfiguration.LaunchConfigurationEbsBlockDeviceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LaunchConfiguration.ILaunchConfigurationEbsBlockDevice" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.launchConfiguration.LaunchConfigurationEbsBlockDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

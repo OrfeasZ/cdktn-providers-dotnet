@@ -73,6 +73,9 @@ namespace cloudflare.UserAgentBlockingRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.UserAgentBlockingRule.IUserAgentBlockingRuleConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.userAgentBlockingRule.UserAgentBlockingRuleConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.FsxOpenzfsVolume
             return InvokeInstanceMethod<aws.FsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurationsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxOpenzfsVolume.IFsxOpenzfsVolumeNfsExportsClientConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

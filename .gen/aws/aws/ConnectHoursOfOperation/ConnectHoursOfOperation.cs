@@ -46,6 +46,7 @@ namespace aws.ConnectHoursOfOperation
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ConnectHoursOfOperation.ConnectHoursOfOperation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigA" />)[]</param>
         [JsiiMethod(name: "putConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigA\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfig(object @value)
         {
@@ -136,6 +137,9 @@ namespace aws.ConnectHoursOfOperation
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectHoursOfOperation.IConnectHoursOfOperationConfigA" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectHoursOfOperation.ConnectHoursOfOperationConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigInput

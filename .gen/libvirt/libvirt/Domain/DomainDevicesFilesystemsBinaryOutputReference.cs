@@ -135,6 +135,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesFilesystemsBinaryThreadPoolOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsBinaryCache" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryCache\"}]}}", isOptional: true)]
         public virtual object? CacheInput
@@ -142,6 +145,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsBinaryLock" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lockInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryLock\"}]}}", isOptional: true)]
         public virtual object? LockInput
@@ -149,6 +155,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsBinaryOpenFiles" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openFilesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryOpenFiles\"}]}}", isOptional: true)]
         public virtual object? OpenFilesInput
@@ -163,6 +172,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsBinarySandbox" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sandboxInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinarySandbox\"}]}}", isOptional: true)]
         public virtual object? SandboxInput
@@ -170,6 +182,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsBinaryThreadPool" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threadPoolInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryThreadPool\"}]}}", isOptional: true)]
         public virtual object? ThreadPoolInput
@@ -198,6 +213,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesFilesystemsBinary" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinary\"}]}}", isOptional: true)]
         public virtual object? InternalValue

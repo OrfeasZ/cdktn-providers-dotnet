@@ -69,6 +69,9 @@ namespace aws.S3DirectoryBucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3DirectoryBucket.IS3DirectoryBucketLocation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3DirectoryBucket.S3DirectoryBucketLocation\"}]}}", isOptional: true)]
         public virtual object? InternalValue

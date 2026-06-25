@@ -9,7 +9,10 @@ namespace oci.CoreInstance
     {
         private object? _isLiveMigrationPreferred;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_instance#is_live_migration_preferred CoreInstance#is_live_migration_preferred}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#is_live_migration_preferred CoreInstance#is_live_migration_preferred}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLiveMigrationPreferred", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsLiveMigrationPreferred
@@ -38,7 +41,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_instance#recovery_action CoreInstance#recovery_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_instance#recovery_action CoreInstance#recovery_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecoveryAction

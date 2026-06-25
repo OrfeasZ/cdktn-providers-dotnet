@@ -41,6 +41,9 @@ namespace aws.CloudsearchDomain
             return InvokeInstanceMethod<aws.CloudsearchDomain.CloudsearchDomainIndexFieldOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudsearchDomain.ICloudsearchDomainIndexField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainIndexField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

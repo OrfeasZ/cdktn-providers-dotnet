@@ -40,5 +40,36 @@ namespace oci.CloudMigrationsTargetAsset
         {
             return InvokeInstanceMethod<oci.CloudMigrationsTargetAsset.CloudMigrationsTargetAssetRecommendedSpecOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetRecommendedSpec" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetRecommendedSpec\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? InternalValue
+        {
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetRecommendedSpec[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetRecommendedSpec).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
     }
 }

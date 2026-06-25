@@ -93,6 +93,9 @@ namespace aws.CloudcontrolapiResource
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudcontrolapiResource.ICloudcontrolapiResourceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace aws.S3FilesMountTarget
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3FilesMountTarget.IS3FilesMountTargetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3FilesMountTarget.S3FilesMountTargetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -71,6 +71,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainSysInfoSmbiosOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoFwCfg" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fwCfgInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoFwCfg\"}]}}", isOptional: true)]
         public virtual object? FwCfgInput
@@ -78,6 +81,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfoSmbios" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "smbiosInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfoSmbios\"}]}}", isOptional: true)]
         public virtual object? SmbiosInput
@@ -85,6 +91,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainSysInfo" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainSysInfo\"}]}}", isOptional: true)]
         public virtual object? InternalValue

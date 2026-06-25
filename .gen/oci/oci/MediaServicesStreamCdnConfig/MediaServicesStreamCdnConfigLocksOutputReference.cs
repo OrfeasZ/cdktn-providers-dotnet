@@ -123,6 +123,9 @@ namespace oci.MediaServicesStreamCdnConfig
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MediaServicesStreamCdnConfig.IMediaServicesStreamCdnConfigLocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.mediaServicesStreamCdnConfig.MediaServicesStreamCdnConfigLocks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

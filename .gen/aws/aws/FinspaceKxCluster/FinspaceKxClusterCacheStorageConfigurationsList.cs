@@ -41,6 +41,9 @@ namespace aws.FinspaceKxCluster
             return InvokeInstanceMethod<aws.FinspaceKxCluster.FinspaceKxClusterCacheStorageConfigurationsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterCacheStorageConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

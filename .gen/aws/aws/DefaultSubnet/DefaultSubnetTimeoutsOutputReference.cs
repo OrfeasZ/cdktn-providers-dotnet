@@ -73,6 +73,9 @@ namespace aws.DefaultSubnet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DefaultSubnet.IDefaultSubnetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.defaultSubnet.DefaultSubnetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -149,6 +149,9 @@ namespace oci.CoreRouteTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreRouteTable.ICoreRouteTableRouteRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreRouteTable.CoreRouteTableRouteRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

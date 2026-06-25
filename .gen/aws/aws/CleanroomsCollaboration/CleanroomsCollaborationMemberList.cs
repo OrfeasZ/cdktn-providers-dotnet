@@ -41,6 +41,9 @@ namespace aws.CleanroomsCollaboration
             return InvokeInstanceMethod<aws.CleanroomsCollaboration.CleanroomsCollaborationMemberOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsCollaboration.ICleanroomsCollaborationMember" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsCollaboration.CleanroomsCollaborationMember\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

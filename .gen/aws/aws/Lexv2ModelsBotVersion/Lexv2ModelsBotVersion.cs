@@ -46,6 +46,7 @@ namespace aws.Lexv2ModelsBotVersion
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Lexv2ModelsBotVersion.Lexv2ModelsBotVersion), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="aws.Lexv2ModelsBotVersion.ILexv2ModelsBotVersionLocaleSpecification" />&gt;</param>
         [JsiiMethod(name: "putLocaleSpecification", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecification\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutLocaleSpecification(object @value)
         {
@@ -157,6 +158,9 @@ namespace aws.Lexv2ModelsBotVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="aws.Lexv2ModelsBotVersion.ILexv2ModelsBotVersionLocaleSpecification" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "localeSpecificationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecification\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? LocaleSpecificationInput
@@ -171,6 +175,9 @@ namespace aws.Lexv2ModelsBotVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsBotVersion.ILexv2ModelsBotVersionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

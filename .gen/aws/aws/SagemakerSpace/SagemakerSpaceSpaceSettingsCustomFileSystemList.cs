@@ -41,6 +41,9 @@ namespace aws.SagemakerSpace
             return InvokeInstanceMethod<aws.SagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystemOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystem" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystem\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

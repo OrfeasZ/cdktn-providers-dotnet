@@ -49,6 +49,9 @@ namespace stripe.Product
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Product.IProductMarketingFeatures" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.product.ProductMarketingFeatures\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -55,6 +55,9 @@ namespace oci.DatabaseAutonomousDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseCustomerContacts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseCustomerContacts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

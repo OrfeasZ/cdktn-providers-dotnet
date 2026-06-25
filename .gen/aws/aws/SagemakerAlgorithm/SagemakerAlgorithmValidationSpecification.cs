@@ -22,6 +22,7 @@ namespace aws.SagemakerAlgorithm
         /// <summary>validation_profiles block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#validation_profiles SagemakerAlgorithm#validation_profiles}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerAlgorithm.ISagemakerAlgorithmValidationSpecificationValidationProfiles" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validationProfiles", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerAlgorithm.SagemakerAlgorithmValidationSpecificationValidationProfiles\"},\"kind\":\"array\"}}]}}", isOptional: true)]

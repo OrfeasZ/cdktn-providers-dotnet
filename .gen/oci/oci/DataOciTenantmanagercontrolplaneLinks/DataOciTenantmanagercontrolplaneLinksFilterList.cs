@@ -41,6 +41,9 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             return InvokeInstanceMethod<oci.DataOciTenantmanagercontrolplaneLinks.DataOciTenantmanagercontrolplaneLinksFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneLinks.IDataOciTenantmanagercontrolplaneLinksFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciTenantmanagercontrolplaneLinks.DataOciTenantmanagercontrolplaneLinksFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

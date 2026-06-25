@@ -33,6 +33,7 @@ namespace aws.GuarddutyFilter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyFilter.IGuarddutyFilterFindingCriteriaCriterion" />)[]</param>
         [JsiiMethod(name: "putCriterion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCriterion(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.GuarddutyFilter
             get => GetInstanceProperty<aws.GuarddutyFilter.GuarddutyFilterFindingCriteriaCriterionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyFilter.IGuarddutyFilterFindingCriteriaCriterion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "criterionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CriterionInput

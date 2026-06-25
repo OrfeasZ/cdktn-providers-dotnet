@@ -46,6 +46,7 @@ namespace cloudflare.WorkersCronTrigger
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WorkersCronTrigger.WorkersCronTrigger), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersCronTrigger.IWorkersCronTriggerSchedules" />)[]</param>
         [JsiiMethod(name: "putSchedules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersCronTrigger.WorkersCronTriggerSchedules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSchedules(object @value)
         {
@@ -107,6 +108,9 @@ namespace cloudflare.WorkersCronTrigger
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersCronTrigger.IWorkersCronTriggerSchedules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schedulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersCronTrigger.WorkersCronTriggerSchedules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SchedulesInput

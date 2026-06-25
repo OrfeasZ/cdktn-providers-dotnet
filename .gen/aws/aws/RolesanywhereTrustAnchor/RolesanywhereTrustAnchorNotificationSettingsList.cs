@@ -41,6 +41,9 @@ namespace aws.RolesanywhereTrustAnchor
             return InvokeInstanceMethod<aws.RolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettingsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorNotificationSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

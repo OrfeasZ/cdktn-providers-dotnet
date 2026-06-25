@@ -93,6 +93,9 @@ namespace aws.PipesPipe
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PipesPipe.IPipesPipeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.pipesPipe.PipesPipeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

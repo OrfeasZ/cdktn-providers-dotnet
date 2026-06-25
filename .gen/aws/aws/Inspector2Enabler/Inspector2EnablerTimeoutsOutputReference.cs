@@ -93,6 +93,9 @@ namespace aws.Inspector2Enabler
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Inspector2Enabler.IInspector2EnablerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.inspector2Enabler.Inspector2EnablerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

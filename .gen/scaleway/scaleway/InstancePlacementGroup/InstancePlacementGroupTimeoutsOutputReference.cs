@@ -53,6 +53,9 @@ namespace scaleway.InstancePlacementGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstancePlacementGroup.IInstancePlacementGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instancePlacementGroup.InstancePlacementGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

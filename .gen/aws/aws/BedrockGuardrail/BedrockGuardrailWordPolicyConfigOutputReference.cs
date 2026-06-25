@@ -35,6 +35,7 @@ namespace aws.BedrockGuardrail
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfigManagedWordListsConfig" />)[]</param>
         [JsiiMethod(name: "putManagedWordListsConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutManagedWordListsConfig(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BedrockGuardrail
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfigWordsConfig" />)[]</param>
         [JsiiMethod(name: "putWordsConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWordsConfig(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<aws.BedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfigManagedWordListsConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedWordListsConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ManagedWordListsConfigInput
@@ -112,6 +117,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfigWordsConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wordsConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WordsConfigInput
@@ -119,6 +127,9 @@ namespace aws.BedrockGuardrail
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockGuardrail.IBedrockGuardrailWordPolicyConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

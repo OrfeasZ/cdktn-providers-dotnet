@@ -58,6 +58,7 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptAssets)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptBindings" />)[]</param>
         [JsiiMethod(name: "putBindings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBindings(object @value)
         {
@@ -105,6 +106,7 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptPlacement)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptTailConsumers" />)[]</param>
         [JsiiMethod(name: "putTailConsumers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptTailConsumers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTailConsumers(object @value)
         {
@@ -400,6 +402,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptAnnotations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "annotationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptAnnotations\"}]}}", isOptional: true)]
         public virtual object? AnnotationsInput
@@ -407,6 +412,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptAssets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptAssets\"}]}}", isOptional: true)]
         public virtual object? AssetsInput
@@ -414,6 +422,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptBindings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BindingsInput
@@ -470,6 +481,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keepAssetsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? KeepAssetsInput
@@ -484,6 +498,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptLimits" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptLimits\"}]}}", isOptional: true)]
         public virtual object? LimitsInput
@@ -491,6 +508,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logpushInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? LogpushInput
@@ -505,6 +525,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptMigrations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "migrationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrations\"}]}}", isOptional: true)]
         public virtual object? MigrationsInput
@@ -512,6 +535,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptObservability" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "observabilityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservability\"}]}}", isOptional: true)]
         public virtual object? ObservabilityInput
@@ -519,6 +545,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptPlacement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptPlacement\"}]}}", isOptional: true)]
         public virtual object? PlacementInput
@@ -533,6 +562,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptTailConsumers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tailConsumersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptTailConsumers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TailConsumersInput
@@ -603,6 +635,9 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "keepAssets", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object KeepAssets
         {
@@ -637,6 +672,9 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "logpush", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Logpush
         {

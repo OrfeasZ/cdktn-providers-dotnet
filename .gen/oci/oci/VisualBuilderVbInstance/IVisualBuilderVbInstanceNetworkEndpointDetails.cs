@@ -7,14 +7,14 @@ namespace oci.VisualBuilderVbInstance
     [JsiiInterface(nativeType: typeof(IVisualBuilderVbInstanceNetworkEndpointDetails), fullyQualifiedName: "oci.visualBuilderVbInstance.VisualBuilderVbInstanceNetworkEndpointDetails")]
     public interface IVisualBuilderVbInstanceNetworkEndpointDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#network_endpoint_type VisualBuilderVbInstance#network_endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#network_endpoint_type VisualBuilderVbInstance#network_endpoint_type}.</summary>
         [JsiiProperty(name: "networkEndpointType", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkEndpointType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#allowlisted_http_ips VisualBuilderVbInstance#allowlisted_http_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#allowlisted_http_ips VisualBuilderVbInstance#allowlisted_http_ips}.</summary>
         [JsiiProperty(name: "allowlistedHttpIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowlistedHttpIps
@@ -27,7 +27,8 @@ namespace oci.VisualBuilderVbInstance
 
         /// <summary>allowlisted_http_vcns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#allowlisted_http_vcns VisualBuilderVbInstance#allowlisted_http_vcns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#allowlisted_http_vcns VisualBuilderVbInstance#allowlisted_http_vcns}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VisualBuilderVbInstance.IVisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcns" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "allowlistedHttpVcns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.visualBuilderVbInstance.VisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +40,7 @@ namespace oci.VisualBuilderVbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#network_security_group_ids VisualBuilderVbInstance#network_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#network_security_group_ids VisualBuilderVbInstance#network_security_group_ids}.</summary>
         [JsiiProperty(name: "networkSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NetworkSecurityGroupIds
@@ -50,7 +51,7 @@ namespace oci.VisualBuilderVbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#private_endpoint_ip VisualBuilderVbInstance#private_endpoint_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#private_endpoint_ip VisualBuilderVbInstance#private_endpoint_ip}.</summary>
         [JsiiProperty(name: "privateEndpointIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrivateEndpointIp
@@ -61,7 +62,7 @@ namespace oci.VisualBuilderVbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#subnet_id VisualBuilderVbInstance#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#subnet_id VisualBuilderVbInstance#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -79,14 +80,14 @@ namespace oci.VisualBuilderVbInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#network_endpoint_type VisualBuilderVbInstance#network_endpoint_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#network_endpoint_type VisualBuilderVbInstance#network_endpoint_type}.</summary>
             [JsiiProperty(name: "networkEndpointType", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkEndpointType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#allowlisted_http_ips VisualBuilderVbInstance#allowlisted_http_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#allowlisted_http_ips VisualBuilderVbInstance#allowlisted_http_ips}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowlistedHttpIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowlistedHttpIps
@@ -96,7 +97,8 @@ namespace oci.VisualBuilderVbInstance
 
             /// <summary>allowlisted_http_vcns block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#allowlisted_http_vcns VisualBuilderVbInstance#allowlisted_http_vcns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#allowlisted_http_vcns VisualBuilderVbInstance#allowlisted_http_vcns}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VisualBuilderVbInstance.IVisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcns" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowlistedHttpVcns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.visualBuilderVbInstance.VisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -105,7 +107,7 @@ namespace oci.VisualBuilderVbInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#network_security_group_ids VisualBuilderVbInstance#network_security_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#network_security_group_ids VisualBuilderVbInstance#network_security_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "networkSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NetworkSecurityGroupIds
@@ -113,7 +115,7 @@ namespace oci.VisualBuilderVbInstance
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#private_endpoint_ip VisualBuilderVbInstance#private_endpoint_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#private_endpoint_ip VisualBuilderVbInstance#private_endpoint_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateEndpointIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrivateEndpointIp
@@ -121,7 +123,7 @@ namespace oci.VisualBuilderVbInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/visual_builder_vb_instance#subnet_id VisualBuilderVbInstance#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/visual_builder_vb_instance#subnet_id VisualBuilderVbInstance#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId

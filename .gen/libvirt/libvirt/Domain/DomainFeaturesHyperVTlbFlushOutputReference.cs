@@ -75,6 +75,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainFeaturesHyperVTlbFlushExtendedOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVTlbFlushDirect" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "directInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVTlbFlushDirect\"}]}}", isOptional: true)]
         public virtual object? DirectInput
@@ -82,6 +85,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVTlbFlushExtended" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extendedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVTlbFlushExtended\"}]}}", isOptional: true)]
         public virtual object? ExtendedInput
@@ -103,6 +109,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVTlbFlush" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVTlbFlush\"}]}}", isOptional: true)]
         public virtual object? InternalValue

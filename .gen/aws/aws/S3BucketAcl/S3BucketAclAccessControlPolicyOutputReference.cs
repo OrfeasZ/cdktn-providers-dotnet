@@ -33,6 +33,7 @@ namespace aws.S3BucketAcl
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketAcl.IS3BucketAclAccessControlPolicyGrant" />)[]</param>
         [JsiiMethod(name: "putGrant", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGrant(object @value)
         {
@@ -80,6 +81,9 @@ namespace aws.S3BucketAcl
             get => GetInstanceProperty<aws.S3BucketAcl.S3BucketAclAccessControlPolicyOwnerOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketAcl.IS3BucketAclAccessControlPolicyGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grantInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GrantInput

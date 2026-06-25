@@ -41,6 +41,9 @@ namespace scaleway.InstanceSecurityGroupRules
             return InvokeInstanceMethod<scaleway.InstanceSecurityGroupRules.InstanceSecurityGroupRulesInboundRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroupRules.IInstanceSecurityGroupRulesInboundRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroupRules.InstanceSecurityGroupRulesInboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

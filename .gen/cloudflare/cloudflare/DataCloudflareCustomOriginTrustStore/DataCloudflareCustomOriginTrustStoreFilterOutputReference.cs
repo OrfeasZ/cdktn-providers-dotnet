@@ -73,6 +73,9 @@ namespace cloudflare.DataCloudflareCustomOriginTrustStore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareCustomOriginTrustStore.IDataCloudflareCustomOriginTrustStoreFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareCustomOriginTrustStore.DataCloudflareCustomOriginTrustStoreFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

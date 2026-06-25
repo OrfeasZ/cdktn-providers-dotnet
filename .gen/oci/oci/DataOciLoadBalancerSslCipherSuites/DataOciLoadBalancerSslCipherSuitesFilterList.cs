@@ -41,6 +41,9 @@ namespace oci.DataOciLoadBalancerSslCipherSuites
             return InvokeInstanceMethod<oci.DataOciLoadBalancerSslCipherSuites.DataOciLoadBalancerSslCipherSuitesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLoadBalancerSslCipherSuites.IDataOciLoadBalancerSslCipherSuitesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciLoadBalancerSslCipherSuites.DataOciLoadBalancerSslCipherSuitesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

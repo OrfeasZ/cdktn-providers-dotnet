@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciDatabaseCloudAutonomousVmCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmCluster), fullyQualifiedName: "oci.dataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmClusterConfig\"}}]")]
     public class DataOciDatabaseCloudAutonomousVmCluster : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_cloud_autonomous_vm_cluster oci_database_cloud_autonomous_vm_cluster} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciDatabaseCloudAutonomousVmCluster(Constructs.Construct scope, string id, oci.DataOciDatabaseCloudAutonomousVmCluster.IDataOciDatabaseCloudAutonomousVmClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
         /// <param name="importToId">The construct id used in the generated config for the DataOciDatabaseCloudAutonomousVmCluster to import.</param>
         /// <param name="importFromId">The id of the existing DataOciDatabaseCloudAutonomousVmCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciDatabaseCloudAutonomousVmCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseCloudAutonomousVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_cloud_autonomous_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseCloudAutonomousVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseCloudAutonomousVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseCloudAutonomousVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_cloud_autonomous_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseCloudAutonomousVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseCloudAutonomousVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -185,6 +185,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "distributionAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DistributionAlgorithm
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Domain
         {
@@ -281,6 +287,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "multiCloudIdentityConnectorConfigs", typeJson: "{\"fqn\":\"oci.dataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmClusterMultiCloudIdentityConnectorConfigsList\"}")]
+        public virtual oci.DataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmClusterMultiCloudIdentityConnectorConfigsList MultiCloudIdentityConnectorConfigs
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseCloudAutonomousVmCluster.DataOciDatabaseCloudAutonomousVmClusterMultiCloudIdentityConnectorConfigsList>()!;
+        }
+
         [JsiiProperty(name: "nextMaintenanceRunId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NextMaintenanceRunId
         {
@@ -347,6 +359,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "registerPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RegisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "reservedCpus", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ReservedCpus
         {
@@ -369,6 +387,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
         public virtual Io.Cdktn.StringMap SecurityAttributes
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "sgaPercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SgaPercentage
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
@@ -399,6 +423,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "tdeKeyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TdeKeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
@@ -439,6 +469,12 @@ namespace oci.DataOciDatabaseCloudAutonomousVmCluster
 
         [JsiiProperty(name: "totalCpus", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalCpus
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "unregisterPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double UnregisterPkcsTrigger
         {
             get => GetInstanceProperty<double>()!;
         }

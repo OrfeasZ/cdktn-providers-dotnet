@@ -41,6 +41,9 @@ namespace oci.DataOciWaasEdgeSubnets
             return InvokeInstanceMethod<oci.DataOciWaasEdgeSubnets.DataOciWaasEdgeSubnetsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWaasEdgeSubnets.IDataOciWaasEdgeSubnetsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWaasEdgeSubnets.DataOciWaasEdgeSubnetsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

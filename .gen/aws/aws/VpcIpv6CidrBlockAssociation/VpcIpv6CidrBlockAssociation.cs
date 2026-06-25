@@ -137,6 +137,9 @@ namespace aws.VpcIpv6CidrBlockAssociation
             get => GetInstanceProperty<aws.VpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assignGeneratedIpv6CidrBlockInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AssignGeneratedIpv6CidrBlockInput
@@ -186,6 +189,9 @@ namespace aws.VpcIpv6CidrBlockAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpv6CidrBlockAssociation.IVpcIpv6CidrBlockAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -200,6 +206,9 @@ namespace aws.VpcIpv6CidrBlockAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "assignGeneratedIpv6CidrBlock", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AssignGeneratedIpv6CidrBlock
         {

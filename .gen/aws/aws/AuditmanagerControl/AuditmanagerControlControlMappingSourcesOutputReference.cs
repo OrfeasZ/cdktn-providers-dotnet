@@ -35,6 +35,7 @@ namespace aws.AuditmanagerControl
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword" />)[]</param>
         [JsiiMethod(name: "putSourceKeyword", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceKeyword(object @value)
         {
@@ -108,6 +109,9 @@ namespace aws.AuditmanagerControl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceKeywordInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceKeywordInput
@@ -185,6 +189,9 @@ namespace aws.AuditmanagerControl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSources" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSources\"}]}}", isOptional: true)]
         public virtual object? InternalValue

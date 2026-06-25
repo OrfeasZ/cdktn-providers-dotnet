@@ -41,6 +41,9 @@ namespace oci.DataSafeReportDefinition
             return InvokeInstanceMethod<oci.DataSafeReportDefinition.DataSafeReportDefinitionSummaryOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeReportDefinition.IDataSafeReportDefinitionSummary" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeReportDefinition.DataSafeReportDefinitionSummary\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

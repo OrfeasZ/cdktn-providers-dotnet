@@ -53,6 +53,9 @@ namespace digitalocean.KubernetesCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.KubernetesCluster.IKubernetesClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

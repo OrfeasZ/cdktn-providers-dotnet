@@ -41,6 +41,12 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
         {
@@ -49,6 +55,12 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "softwareSourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SoftwareSourceType
         {
             get => GetInstanceProperty<string>()!;
         }

@@ -127,6 +127,9 @@ namespace cloudflare.R2BucketSippy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketSippy.IR2BucketSippyDestination" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketSippy.R2BucketSippyDestination\"}]}}", isOptional: true)]
         public virtual object? DestinationInput
@@ -141,6 +144,9 @@ namespace cloudflare.R2BucketSippy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketSippy.IR2BucketSippySource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketSippy.R2BucketSippySource\"}]}}", isOptional: true)]
         public virtual object? SourceInput

@@ -41,6 +41,7 @@ namespace oci.CoreInstancePool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurationsPrimaryVnicSubnets)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurationsSecondaryVnicSubnets" />)[]</param>
         [JsiiMethod(name: "putSecondaryVnicSubnets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecondaryVnicSubnets(object @value)
         {
@@ -62,6 +63,12 @@ namespace oci.CoreInstancePool
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetComputeClusterId")]
+        public virtual void ResetComputeClusterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetFaultDomains")]
@@ -108,6 +115,13 @@ namespace oci.CoreInstancePool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "computeClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ComputeClusterIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "faultDomainsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? FaultDomainsInput
         {
@@ -128,6 +142,9 @@ namespace oci.CoreInstancePool
             get => GetInstanceProperty<oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurationsPrimaryVnicSubnets?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurationsSecondaryVnicSubnets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryVnicSubnetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolPlacementConfigurationsSecondaryVnicSubnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecondaryVnicSubnetsInput
@@ -137,6 +154,13 @@ namespace oci.CoreInstancePool
 
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AvailabilityDomain
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeClusterId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -156,6 +180,9 @@ namespace oci.CoreInstancePool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolPlacementConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

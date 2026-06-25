@@ -41,6 +41,9 @@ namespace cloudflare.ApiShield
             return InvokeInstanceMethod<cloudflare.ApiShield.ApiShieldAuthIdCharacteristicsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiShield.IApiShieldAuthIdCharacteristics" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiShield.ApiShieldAuthIdCharacteristics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

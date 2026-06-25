@@ -33,6 +33,12 @@ namespace oci.ManagedKafkaKafkaCluster
         {
         }
 
+        [JsiiMethod(name: "resetNodeShape")]
+        public virtual void ResetNodeShape()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetStorageSizeInGbs")]
         public virtual void ResetStorageSizeInGbs()
         {
@@ -44,6 +50,13 @@ namespace oci.ManagedKafkaKafkaCluster
         public virtual double? NodeCountInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nodeShapeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NodeShapeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -64,6 +77,13 @@ namespace oci.ManagedKafkaKafkaCluster
         public virtual double NodeCount
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "nodeShape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NodeShape
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

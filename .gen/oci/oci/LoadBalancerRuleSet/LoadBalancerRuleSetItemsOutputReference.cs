@@ -35,6 +35,7 @@ namespace oci.LoadBalancerRuleSet
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsConditions" />)[]</param>
         [JsiiMethod(name: "putConditions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsConditions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConditions(object @value)
         {
@@ -58,6 +59,7 @@ namespace oci.LoadBalancerRuleSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsIpMaxConnections" />)[]</param>
         [JsiiMethod(name: "putIpMaxConnections", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsIpMaxConnections\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpMaxConnections(object @value)
         {
@@ -203,6 +205,9 @@ namespace oci.LoadBalancerRuleSet
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "areInvalidCharactersAllowedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AreInvalidCharactersAllowedInput
@@ -210,6 +215,9 @@ namespace oci.LoadBalancerRuleSet
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsConditions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionsInput
@@ -245,6 +253,9 @@ namespace oci.LoadBalancerRuleSet
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsIpMaxConnections" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipMaxConnectionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsIpMaxConnections\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpMaxConnectionsInput
@@ -308,6 +319,9 @@ namespace oci.LoadBalancerRuleSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "areInvalidCharactersAllowed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AreInvalidCharactersAllowed
         {
@@ -398,6 +412,9 @@ namespace oci.LoadBalancerRuleSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.loadBalancerRuleSet.LoadBalancerRuleSetItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

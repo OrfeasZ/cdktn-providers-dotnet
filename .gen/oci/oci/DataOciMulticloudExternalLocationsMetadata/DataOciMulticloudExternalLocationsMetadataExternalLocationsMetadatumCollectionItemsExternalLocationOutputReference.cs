@@ -41,6 +41,12 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "cspLogicalAzDisplayName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CspLogicalAzDisplayName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "cspPhysicalAz", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CspPhysicalAz
         {

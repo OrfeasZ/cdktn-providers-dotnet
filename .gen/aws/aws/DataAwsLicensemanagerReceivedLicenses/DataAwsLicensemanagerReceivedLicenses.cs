@@ -46,6 +46,7 @@ namespace aws.DataAwsLicensemanagerReceivedLicenses
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsLicensemanagerReceivedLicenses.DataAwsLicensemanagerReceivedLicenses), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLicensemanagerReceivedLicenses.IDataAwsLicensemanagerReceivedLicensesFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLicensemanagerReceivedLicenses.DataAwsLicensemanagerReceivedLicensesFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -118,6 +119,9 @@ namespace aws.DataAwsLicensemanagerReceivedLicenses
             get => GetInstanceProperty<aws.DataAwsLicensemanagerReceivedLicenses.DataAwsLicensemanagerReceivedLicensesFilterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLicensemanagerReceivedLicenses.IDataAwsLicensemanagerReceivedLicensesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLicensemanagerReceivedLicenses.DataAwsLicensemanagerReceivedLicensesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

@@ -101,6 +101,12 @@ namespace oci.DataOciLogAnalyticsNamespaceRules
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "taskStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TaskStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {

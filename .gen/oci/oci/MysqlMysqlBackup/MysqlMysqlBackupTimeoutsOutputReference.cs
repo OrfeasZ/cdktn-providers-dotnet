@@ -93,6 +93,9 @@ namespace oci.MysqlMysqlBackup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MysqlMysqlBackup.IMysqlMysqlBackupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.mysqlMysqlBackup.MysqlMysqlBackupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

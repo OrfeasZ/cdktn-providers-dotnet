@@ -73,6 +73,9 @@ namespace aws.Ec2ClientVpnRoute
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2ClientVpnRoute.IEc2ClientVpnRouteTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2ClientVpnRoute.Ec2ClientVpnRouteTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

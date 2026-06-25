@@ -35,6 +35,7 @@ namespace aws.Lexv2ModelsIntent
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCardButton" />)[]</param>
         [JsiiMethod(name: "putButton", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCardButton\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutButton(object @value)
         {
@@ -82,6 +83,9 @@ namespace aws.Lexv2ModelsIntent
             get => GetInstanceProperty<aws.Lexv2ModelsIntent.Lexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCardButtonList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCardButton" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "buttonInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCardButton\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ButtonInput
@@ -131,6 +135,9 @@ namespace aws.Lexv2ModelsIntent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCard" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsIntent.Lexv2ModelsIntentClosingSettingConditionalConditionalBranchResponseMessageGroupMessageImageResponseCard\"}]}}", isOptional: true)]
         public virtual object? InternalValue

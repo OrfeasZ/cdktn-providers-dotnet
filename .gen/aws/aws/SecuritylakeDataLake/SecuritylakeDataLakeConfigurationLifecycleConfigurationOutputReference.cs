@@ -35,6 +35,7 @@ namespace aws.SecuritylakeDataLake
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration" />)[]</param>
         [JsiiMethod(name: "putExpiration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExpiration(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SecuritylakeDataLake
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationTransition" />)[]</param>
         [JsiiMethod(name: "putTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationTransition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransition(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.SecuritylakeDataLake
             get => GetInstanceProperty<aws.SecuritylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expirationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExpirationInput
@@ -112,6 +117,9 @@ namespace aws.SecuritylakeDataLake
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationTransition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfigurationTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransitionInput
@@ -119,6 +127,9 @@ namespace aws.SecuritylakeDataLake
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securitylakeDataLake.SecuritylakeDataLakeConfigurationLifecycleConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

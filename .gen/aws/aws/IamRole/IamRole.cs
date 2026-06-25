@@ -46,6 +46,7 @@ namespace aws.IamRole
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.IamRole.IamRole), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IamRole.IIamRoleInlinePolicy" />)[]</param>
         [JsiiMethod(name: "putInlinePolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iamRole.IamRoleInlinePolicy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInlinePolicy(object @value)
         {
@@ -198,6 +199,9 @@ namespace aws.IamRole
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDetachPoliciesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDetachPoliciesInput
@@ -212,6 +216,9 @@ namespace aws.IamRole
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IamRole.IIamRoleInlinePolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inlinePolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iamRole.IamRoleInlinePolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InlinePolicyInput
@@ -289,6 +296,9 @@ namespace aws.IamRole
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDetachPolicies", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDetachPolicies
         {

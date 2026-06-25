@@ -41,6 +41,9 @@ namespace aws.DataAwsDevopsguruNotificationChannel
             return InvokeInstanceMethod<aws.DataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannelFiltersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsDevopsguruNotificationChannel.IDataAwsDevopsguruNotificationChannelFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannelFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

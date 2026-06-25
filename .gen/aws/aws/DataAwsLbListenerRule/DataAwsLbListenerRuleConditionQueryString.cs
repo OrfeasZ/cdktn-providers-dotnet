@@ -12,6 +12,7 @@ namespace aws.DataAwsLbListenerRule
         /// <summary>values block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/lb_listener_rule#values DataAwsLbListenerRule#values}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleConditionQueryStringValues" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "values", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleConditionQueryStringValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]

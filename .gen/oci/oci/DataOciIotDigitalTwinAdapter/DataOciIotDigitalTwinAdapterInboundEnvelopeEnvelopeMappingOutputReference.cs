@@ -35,6 +35,18 @@ namespace oci.DataOciIotDigitalTwinAdapter
         {
         }
 
+        [JsiiProperty(name: "contentRoot", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ContentRoot
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Target
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeObserved", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeObserved
         {

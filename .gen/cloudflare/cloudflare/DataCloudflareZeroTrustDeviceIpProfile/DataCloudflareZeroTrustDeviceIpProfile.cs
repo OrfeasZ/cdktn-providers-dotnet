@@ -156,6 +156,9 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceIpProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZeroTrustDeviceIpProfile.IDataCloudflareZeroTrustDeviceIpProfileFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDeviceIpProfile.DataCloudflareZeroTrustDeviceIpProfileFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

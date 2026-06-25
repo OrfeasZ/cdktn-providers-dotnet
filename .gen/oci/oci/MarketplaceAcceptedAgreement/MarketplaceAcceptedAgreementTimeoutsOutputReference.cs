@@ -93,6 +93,9 @@ namespace oci.MarketplaceAcceptedAgreement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MarketplaceAcceptedAgreement.IMarketplaceAcceptedAgreementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.marketplaceAcceptedAgreement.MarketplaceAcceptedAgreementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

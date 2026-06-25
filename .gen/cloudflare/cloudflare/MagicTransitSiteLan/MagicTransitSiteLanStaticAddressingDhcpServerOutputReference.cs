@@ -33,6 +33,7 @@ namespace cloudflare.MagicTransitSiteLan
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions" />)[]</param>
         [JsiiMethod(name: "putDhcpOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDhcpOptions(object @value)
         {
@@ -98,6 +99,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<cloudflare.MagicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dhcpOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DhcpOptionsInput
@@ -175,6 +179,9 @@ namespace cloudflare.MagicTransitSiteLan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

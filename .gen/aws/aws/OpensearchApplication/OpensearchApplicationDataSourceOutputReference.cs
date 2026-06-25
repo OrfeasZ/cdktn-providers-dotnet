@@ -75,6 +75,9 @@ namespace aws.OpensearchApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchApplication.IOpensearchApplicationDataSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchApplication.OpensearchApplicationDataSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

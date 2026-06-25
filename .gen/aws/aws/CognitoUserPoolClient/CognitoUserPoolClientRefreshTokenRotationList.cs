@@ -41,6 +41,9 @@ namespace aws.CognitoUserPoolClient
             return InvokeInstanceMethod<aws.CognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPoolClient.ICognitoUserPoolClientRefreshTokenRotation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousDatabaseBackup.IDatabaseAutonomousDatabaseBackupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousDatabaseBackup.DatabaseAutonomousDatabaseBackupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

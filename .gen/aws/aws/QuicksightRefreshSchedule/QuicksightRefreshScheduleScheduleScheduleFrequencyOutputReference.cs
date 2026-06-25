@@ -35,6 +35,7 @@ namespace aws.QuicksightRefreshSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay" />)[]</param>
         [JsiiMethod(name: "putRefreshOnDay", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRefreshOnDay(object @value)
         {
@@ -89,6 +90,9 @@ namespace aws.QuicksightRefreshSchedule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshOnDayInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RefreshOnDayInput
@@ -131,6 +135,9 @@ namespace aws.QuicksightRefreshSchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightRefreshSchedule.IQuicksightRefreshScheduleScheduleScheduleFrequency" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency\"}]}}", isOptional: true)]
         public virtual object? InternalValue

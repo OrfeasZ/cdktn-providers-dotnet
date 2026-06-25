@@ -113,6 +113,9 @@ namespace scaleway.MongodbSnapshot
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.MongodbSnapshot.IMongodbSnapshotTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.mongodbSnapshot.MongodbSnapshotTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

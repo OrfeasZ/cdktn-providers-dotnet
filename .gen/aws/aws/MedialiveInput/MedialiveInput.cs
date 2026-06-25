@@ -46,6 +46,7 @@ namespace aws.MedialiveInput
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.MedialiveInput.MedialiveInput), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputDestinations" />)[]</param>
         [JsiiMethod(name: "putDestinations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputDestinations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDestinations(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.MedialiveInput
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputInputDevices" />)[]</param>
         [JsiiMethod(name: "putInputDevices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputInputDevices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInputDevices(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.MedialiveInput
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputMediaConnectFlows" />)[]</param>
         [JsiiMethod(name: "putMediaConnectFlows", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputMediaConnectFlows\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMediaConnectFlows(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.MedialiveInput
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputSources" />)[]</param>
         [JsiiMethod(name: "putSources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputSources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSources(object @value)
         {
@@ -307,6 +311,9 @@ namespace aws.MedialiveInput
             get => GetInstanceProperty<aws.MedialiveInput.MedialiveInputVpcOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputDestinations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputDestinations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DestinationsInput
@@ -321,6 +328,9 @@ namespace aws.MedialiveInput
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputInputDevices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputDevicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputInputDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InputDevicesInput
@@ -335,6 +345,9 @@ namespace aws.MedialiveInput
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputMediaConnectFlows" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mediaConnectFlowsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputMediaConnectFlows\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MediaConnectFlowsInput
@@ -363,6 +376,9 @@ namespace aws.MedialiveInput
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveInput.IMedialiveInputSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveInput.MedialiveInputSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourcesInput
@@ -384,6 +400,9 @@ namespace aws.MedialiveInput
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MedialiveInput.IMedialiveInputTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.medialiveInput.MedialiveInputTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

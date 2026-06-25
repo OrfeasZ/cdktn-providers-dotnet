@@ -35,6 +35,7 @@ namespace oci.ResourceSchedulerSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourcesParameters" />)[]</param>
         [JsiiMethod(name: "putParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourcesParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameters(object @value)
         {
@@ -90,6 +91,9 @@ namespace oci.ResourceSchedulerSchedule
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourcesParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourcesParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParametersInput
@@ -111,6 +115,9 @@ namespace oci.ResourceSchedulerSchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResources" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResources\"}]}}", isOptional: true)]
         public virtual object? InternalValue

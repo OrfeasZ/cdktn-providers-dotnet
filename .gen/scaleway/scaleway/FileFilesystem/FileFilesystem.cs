@@ -185,6 +185,9 @@ namespace scaleway.FileFilesystem
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.FileFilesystem.IFileFilesystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.fileFilesystem.FileFilesystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

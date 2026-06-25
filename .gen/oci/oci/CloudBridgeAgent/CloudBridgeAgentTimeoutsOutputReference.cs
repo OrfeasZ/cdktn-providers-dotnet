@@ -93,6 +93,9 @@ namespace oci.CloudBridgeAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudBridgeAgent.ICloudBridgeAgentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudBridgeAgent.CloudBridgeAgentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

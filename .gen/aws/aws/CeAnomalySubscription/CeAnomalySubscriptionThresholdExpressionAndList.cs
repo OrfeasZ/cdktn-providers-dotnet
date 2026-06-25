@@ -41,6 +41,9 @@ namespace aws.CeAnomalySubscription
             return InvokeInstanceMethod<aws.CeAnomalySubscription.CeAnomalySubscriptionThresholdExpressionAndOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionAnd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionAnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

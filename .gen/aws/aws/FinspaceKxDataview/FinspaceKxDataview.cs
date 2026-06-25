@@ -46,6 +46,7 @@ namespace aws.FinspaceKxDataview
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FinspaceKxDataview.FinspaceKxDataview), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxDataview.IFinspaceKxDataviewSegmentConfigurations" />)[]</param>
         [JsiiMethod(name: "putSegmentConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSegmentConfigurations(object @value)
         {
@@ -190,6 +191,9 @@ namespace aws.FinspaceKxDataview
             get => GetInstanceProperty<aws.FinspaceKxDataview.FinspaceKxDataviewTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoUpdateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoUpdateInput
@@ -253,6 +257,9 @@ namespace aws.FinspaceKxDataview
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "readWriteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ReadWriteInput
@@ -267,6 +274,9 @@ namespace aws.FinspaceKxDataview
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxDataview.IFinspaceKxDataviewSegmentConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "segmentConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SegmentConfigurationsInput
@@ -288,6 +298,9 @@ namespace aws.FinspaceKxDataview
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxDataview.IFinspaceKxDataviewTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxDataview.FinspaceKxDataviewTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -295,6 +308,9 @@ namespace aws.FinspaceKxDataview
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoUpdate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoUpdate
         {
@@ -378,6 +394,9 @@ namespace aws.FinspaceKxDataview
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "readWrite", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ReadWrite
         {

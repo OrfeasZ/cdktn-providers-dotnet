@@ -46,6 +46,7 @@ namespace aws.CognitoLogDeliveryConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CognitoLogDeliveryConfiguration.CognitoLogDeliveryConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoLogDeliveryConfiguration.ICognitoLogDeliveryConfigurationLogConfigurations" />)[]</param>
         [JsiiMethod(name: "putLogConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogConfigurations(object @value)
         {
@@ -106,6 +107,9 @@ namespace aws.CognitoLogDeliveryConfiguration
             get => GetInstanceProperty<aws.CognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoLogDeliveryConfiguration.ICognitoLogDeliveryConfigurationLogConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogConfigurationsInput

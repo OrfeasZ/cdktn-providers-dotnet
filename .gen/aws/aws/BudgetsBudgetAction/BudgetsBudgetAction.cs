@@ -58,6 +58,7 @@ namespace aws.BudgetsBudgetAction
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BudgetsBudgetAction.IBudgetsBudgetActionDefinition)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudgetAction.IBudgetsBudgetActionSubscriber" />)[]</param>
         [JsiiMethod(name: "putSubscriber", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubscriber(object @value)
         {
@@ -241,6 +242,9 @@ namespace aws.BudgetsBudgetAction
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudgetAction.IBudgetsBudgetActionSubscriber" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscriberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubscriberInput
@@ -262,6 +266,9 @@ namespace aws.BudgetsBudgetAction
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BudgetsBudgetAction.IBudgetsBudgetActionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

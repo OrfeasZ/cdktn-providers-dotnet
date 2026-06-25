@@ -41,6 +41,9 @@ namespace aws.Route53Zone
             return InvokeInstanceMethod<aws.Route53Zone.Route53ZoneVpcOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53Zone.IRoute53ZoneVpc" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53Zone.Route53ZoneVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

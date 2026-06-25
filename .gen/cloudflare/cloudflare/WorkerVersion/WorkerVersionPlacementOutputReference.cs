@@ -33,6 +33,7 @@ namespace cloudflare.WorkerVersion
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionPlacementTarget" />)[]</param>
         [JsiiMethod(name: "putTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacementTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTarget(object @value)
         {
@@ -120,6 +121,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionPlacementTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacementTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetInput
@@ -155,6 +159,9 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionPlacement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacement\"}]}}", isOptional: true)]
         public virtual object? InternalValue

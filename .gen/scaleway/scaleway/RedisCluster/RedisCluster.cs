@@ -46,6 +46,7 @@ namespace scaleway.RedisCluster
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.RedisCluster.RedisCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterAcl" />)[]</param>
         [JsiiMethod(name: "putAcl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterAcl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAcl(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.RedisCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateIps" />)[]</param>
         [JsiiMethod(name: "putPrivateIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterPrivateIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIps(object @value)
         {
@@ -92,6 +94,7 @@ namespace scaleway.RedisCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateNetwork" />)[]</param>
         [JsiiMethod(name: "putPrivateNetwork", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterPrivateNetwork\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateNetwork(object @value)
         {
@@ -296,6 +299,9 @@ namespace scaleway.RedisCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterAcl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aclInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AclInput
@@ -352,6 +358,9 @@ namespace scaleway.RedisCluster
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpsInput
@@ -359,6 +368,9 @@ namespace scaleway.RedisCluster
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateNetwork" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetworkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.redisCluster.RedisClusterPrivateNetwork\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateNetworkInput
@@ -394,6 +406,9 @@ namespace scaleway.RedisCluster
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RedisCluster.IRedisClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.redisCluster.RedisClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -401,6 +416,9 @@ namespace scaleway.RedisCluster
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TlsEnabledInput
@@ -499,6 +517,9 @@ namespace scaleway.RedisCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "tlsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TlsEnabled
         {

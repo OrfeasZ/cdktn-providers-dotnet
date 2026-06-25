@@ -69,6 +69,9 @@ namespace stripe.Customer
             get => GetInstanceProperty<stripe.Customer.CustomerInvoiceSettingsRenderingOptionsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomFieldsInput
@@ -97,6 +100,9 @@ namespace stripe.Customer
             get => GetInstanceProperty<stripe.Customer.ICustomerInvoiceSettingsRenderingOptions?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+        /// </remarks>
         [JsiiProperty(name: "customFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}")]
         public virtual object CustomFields
         {

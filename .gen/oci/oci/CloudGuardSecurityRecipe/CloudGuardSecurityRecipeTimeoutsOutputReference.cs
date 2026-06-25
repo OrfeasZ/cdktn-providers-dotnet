@@ -93,6 +93,9 @@ namespace oci.CloudGuardSecurityRecipe
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudGuardSecurityRecipe.ICloudGuardSecurityRecipeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudGuardSecurityRecipe.CloudGuardSecurityRecipeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

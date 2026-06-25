@@ -47,6 +47,7 @@ namespace aws.S3Bucket
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3Bucket.IS3BucketLifecycleRuleNoncurrentVersionExpiration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketLifecycleRuleNoncurrentVersionTransition" />)[]</param>
         [JsiiMethod(name: "putNoncurrentVersionTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNoncurrentVersionTransition(object @value)
         {
@@ -70,6 +71,7 @@ namespace aws.S3Bucket
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketLifecycleRuleTransition" />)[]</param>
         [JsiiMethod(name: "putTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketLifecycleRuleTransition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransition(object @value)
         {
@@ -172,6 +174,9 @@ namespace aws.S3Bucket
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -200,6 +205,9 @@ namespace aws.S3Bucket
             get => GetInstanceProperty<aws.S3Bucket.IS3BucketLifecycleRuleNoncurrentVersionExpiration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketLifecycleRuleNoncurrentVersionTransition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noncurrentVersionTransitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NoncurrentVersionTransitionInput
@@ -221,6 +229,9 @@ namespace aws.S3Bucket
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketLifecycleRuleTransition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketLifecycleRuleTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransitionInput
@@ -235,6 +246,9 @@ namespace aws.S3Bucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -283,6 +297,9 @@ namespace aws.S3Bucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3Bucket.IS3BucketLifecycleRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3Bucket.S3BucketLifecycleRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -113,6 +113,9 @@ namespace scaleway.BaremetalServer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.BaremetalServer.IBaremetalServerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.baremetalServer.BaremetalServerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

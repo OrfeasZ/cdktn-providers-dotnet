@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsOauthClientCertificate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsOauthClientCertificate.IIdentityDomainsOauthClientCertificateTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsOauthClientCertificate.IdentityDomainsOauthClientCertificateTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

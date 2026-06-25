@@ -41,6 +41,9 @@ namespace aws.KinesisAnalyticsApplication
             return InvokeInstanceMethod<aws.KinesisAnalyticsApplication.KinesisAnalyticsApplicationOutputsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationOutputs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationOutputs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

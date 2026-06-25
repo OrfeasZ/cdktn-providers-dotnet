@@ -93,6 +93,9 @@ namespace oci.VbsInstVbsInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.VbsInstVbsInstance.IVbsInstVbsInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.vbsInstVbsInstance.VbsInstVbsInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

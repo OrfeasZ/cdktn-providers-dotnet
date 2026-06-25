@@ -41,6 +41,12 @@ namespace oci.DataOciLogAnalyticsNamespaceScheduledTask
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "metricCollections", typeJson: "{\"fqn\":\"oci.dataOciLogAnalyticsNamespaceScheduledTask.DataOciLogAnalyticsNamespaceScheduledTaskActionMetricExtractionMetricCollectionsList\"}")]
+        public virtual oci.DataOciLogAnalyticsNamespaceScheduledTask.DataOciLogAnalyticsNamespaceScheduledTaskActionMetricExtractionMetricCollectionsList MetricCollections
+        {
+            get => GetInstanceProperty<oci.DataOciLogAnalyticsNamespaceScheduledTask.DataOciLogAnalyticsNamespaceScheduledTaskActionMetricExtractionMetricCollectionsList>()!;
+        }
+
         [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MetricName
         {

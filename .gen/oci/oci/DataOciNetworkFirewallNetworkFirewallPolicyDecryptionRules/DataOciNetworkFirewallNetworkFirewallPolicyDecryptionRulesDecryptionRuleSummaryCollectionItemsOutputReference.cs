@@ -53,6 +53,12 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRules
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {
@@ -87,6 +93,12 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRules
         public virtual string Secret
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "secrets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Secrets
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiOptional]

@@ -63,6 +63,9 @@ namespace cloudflare.CustomHostname
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.CustomHostname.ICustomHostnameSslCustomCertBundle" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.customHostname.CustomHostnameSslCustomCertBundle\"}]}}", isOptional: true)]
         public virtual object? InternalValue

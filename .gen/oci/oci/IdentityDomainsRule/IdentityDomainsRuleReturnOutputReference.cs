@@ -83,6 +83,9 @@ namespace oci.IdentityDomainsRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsRule.IIdentityDomainsRuleReturn" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsRule.IdentityDomainsRuleReturn\"}]}}", isOptional: true)]
         public virtual object? InternalValue

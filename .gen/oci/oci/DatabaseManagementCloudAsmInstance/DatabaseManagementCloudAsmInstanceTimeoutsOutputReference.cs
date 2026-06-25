@@ -93,6 +93,9 @@ namespace oci.DatabaseManagementCloudAsmInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseManagementCloudAsmInstance.IDatabaseManagementCloudAsmInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseManagementCloudAsmInstance.DatabaseManagementCloudAsmInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

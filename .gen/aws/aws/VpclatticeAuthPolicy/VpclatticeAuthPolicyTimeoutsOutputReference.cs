@@ -93,6 +93,9 @@ namespace aws.VpclatticeAuthPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpclatticeAuthPolicy.IVpclatticeAuthPolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

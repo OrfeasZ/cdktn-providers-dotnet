@@ -93,6 +93,9 @@ namespace oci.CloudBridgeDiscoverySchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudBridgeDiscoverySchedule.ICloudBridgeDiscoveryScheduleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudBridgeDiscoverySchedule.CloudBridgeDiscoveryScheduleTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

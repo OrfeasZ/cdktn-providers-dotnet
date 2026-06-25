@@ -46,6 +46,7 @@ namespace aws.OutpostsCapacityTask
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.OutpostsCapacityTask.OutpostsCapacityTask), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancePool" />)[]</param>
         [JsiiMethod(name: "putInstancePool", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskInstancePool\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstancePool(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.OutpostsCapacityTask
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancesToExclude" />)[]</param>
         [JsiiMethod(name: "putInstancesToExclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskInstancesToExclude\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstancesToExclude(object @value)
         {
@@ -214,6 +216,9 @@ namespace aws.OutpostsCapacityTask
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancePool" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instancePoolInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskInstancePool\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstancePoolInput
@@ -221,6 +226,9 @@ namespace aws.OutpostsCapacityTask
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancesToExclude" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instancesToExcludeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskInstancesToExclude\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstancesToExcludeInput
@@ -256,6 +264,9 @@ namespace aws.OutpostsCapacityTask
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

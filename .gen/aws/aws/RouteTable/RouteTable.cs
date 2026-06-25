@@ -46,6 +46,7 @@ namespace aws.RouteTable
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RouteTable.RouteTable), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RouteTable.IRouteTableRoute" />)[]</param>
         [JsiiMethod(name: "putRoute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.routeTable.RouteTableRoute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoute(object @value)
         {
@@ -181,6 +182,9 @@ namespace aws.RouteTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RouteTable.IRouteTableRoute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.routeTable.RouteTableRoute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RouteInput
@@ -202,6 +206,9 @@ namespace aws.RouteTable
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RouteTable.IRouteTableTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.routeTable.RouteTableTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

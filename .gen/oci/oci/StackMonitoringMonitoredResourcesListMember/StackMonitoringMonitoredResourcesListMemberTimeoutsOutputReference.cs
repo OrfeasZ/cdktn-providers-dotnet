@@ -93,6 +93,9 @@ namespace oci.StackMonitoringMonitoredResourcesListMember
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.StackMonitoringMonitoredResourcesListMember.IStackMonitoringMonitoredResourcesListMemberTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.stackMonitoringMonitoredResourcesListMember.StackMonitoringMonitoredResourcesListMemberTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

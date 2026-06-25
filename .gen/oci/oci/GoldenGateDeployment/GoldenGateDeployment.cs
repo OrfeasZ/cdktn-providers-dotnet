@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.GoldenGateDeployment
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_deployment oci_golden_gate_deployment}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment oci_golden_gate_deployment}.</summary>
     [JsiiClass(nativeType: typeof(oci.GoldenGateDeployment.GoldenGateDeployment), fullyQualifiedName: "oci.goldenGateDeployment.GoldenGateDeployment", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentConfig\"}}]")]
     public class GoldenGateDeployment : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_deployment oci_golden_gate_deployment} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment oci_golden_gate_deployment} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public GoldenGateDeployment(Constructs.Construct scope, string id, oci.GoldenGateDeployment.IGoldenGateDeploymentConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.GoldenGateDeployment
         /// <param name="importToId">The construct id used in the generated config for the GoldenGateDeployment to import.</param>
         /// <param name="importFromId">The id of the existing GoldenGateDeployment that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the GoldenGateDeployment to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGateDeployment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/golden_gate_deployment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGateDeployment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGateDeployment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGateDeployment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/golden_gate_deployment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGateDeployment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGateDeployment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.GoldenGateDeployment.GoldenGateDeployment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,6 +52,7 @@ namespace oci.GoldenGateDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GoldenGateDeployment.IGoldenGateDeploymentBackupSchedule)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentLocks" />)[]</param>
         [JsiiMethod(name: "putLocks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentLocks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocks(object @value)
         {
@@ -93,6 +94,7 @@ namespace oci.GoldenGateDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GoldenGateDeployment.IGoldenGateDeploymentOggData)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentPlacements" />)[]</param>
         [JsiiMethod(name: "putPlacements", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentPlacements\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacements(object @value)
         {
@@ -172,6 +174,12 @@ namespace oci.GoldenGateDeployment
 
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDisasterRecoveryStatus")]
+        public virtual void ResetDisasterRecoveryStatus()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -513,12 +521,6 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "timeUpgradeRequired", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string TimeUpgradeRequired
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomainInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AvailabilityDomainInput
@@ -590,6 +592,13 @@ namespace oci.GoldenGateDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "disasterRecoveryStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DisasterRecoveryStatusInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "displayNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DisplayNameInput
         {
@@ -631,6 +640,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAutoScalingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsAutoScalingEnabledInput
@@ -638,6 +650,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isByolCpuCoreCountLimitEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsByolCpuCoreCountLimitEnabledInput
@@ -645,6 +660,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isLockOverrideInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsLockOverrideInput
@@ -652,6 +670,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isPublicInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsPublicInput
@@ -673,6 +694,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocksInput
@@ -708,6 +732,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<oci.GoldenGateDeployment.IGoldenGateDeploymentOggData?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentPlacements" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentPlacements\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementsInput
@@ -750,6 +777,9 @@ namespace oci.GoldenGateDeployment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -820,6 +850,13 @@ namespace oci.GoldenGateDeployment
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "disasterRecoveryStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DisasterRecoveryStatus
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
         {
@@ -862,6 +899,9 @@ namespace oci.GoldenGateDeployment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isAutoScalingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsAutoScalingEnabled
         {
@@ -889,6 +929,9 @@ namespace oci.GoldenGateDeployment
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isByolCpuCoreCountLimitEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsByolCpuCoreCountLimitEnabled
         {
@@ -916,6 +959,9 @@ namespace oci.GoldenGateDeployment
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isLockOverride", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsLockOverride
         {
@@ -943,6 +989,9 @@ namespace oci.GoldenGateDeployment
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isPublic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsPublic
         {

@@ -116,6 +116,9 @@ namespace aws.Route53HostedZoneDnssec
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53HostedZoneDnssec.IRoute53HostedZoneDnssecTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53HostedZoneDnssec.Route53HostedZoneDnssecTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

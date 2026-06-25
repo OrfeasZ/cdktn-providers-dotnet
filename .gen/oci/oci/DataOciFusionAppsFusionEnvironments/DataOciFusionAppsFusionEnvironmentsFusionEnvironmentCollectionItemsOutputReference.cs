@@ -35,6 +35,12 @@ namespace oci.DataOciFusionAppsFusionEnvironments
         {
         }
 
+        [JsiiProperty(name: "additionalEgressRules", typeJson: "{\"fqn\":\"oci.dataOciFusionAppsFusionEnvironments.DataOciFusionAppsFusionEnvironmentsFusionEnvironmentCollectionItemsAdditionalEgressRulesList\"}")]
+        public virtual oci.DataOciFusionAppsFusionEnvironments.DataOciFusionAppsFusionEnvironmentsFusionEnvironmentCollectionItemsAdditionalEgressRulesList AdditionalEgressRules
+        {
+            get => GetInstanceProperty<oci.DataOciFusionAppsFusionEnvironments.DataOciFusionAppsFusionEnvironmentsFusionEnvironmentCollectionItemsAdditionalEgressRulesList>()!;
+        }
+
         [JsiiProperty(name: "additionalLanguagePacks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AdditionalLanguagePacks
         {

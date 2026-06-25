@@ -119,6 +119,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<aws.EcsTaskDefinition.EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configureAtLaunchInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ConfigureAtLaunchInput
@@ -168,6 +171,9 @@ namespace aws.EcsTaskDefinition
             get => GetInstanceProperty<aws.EcsTaskDefinition.IEcsTaskDefinitionVolumeS3FilesVolumeConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "configureAtLaunch", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ConfigureAtLaunch
         {
@@ -209,6 +215,9 @@ namespace aws.EcsTaskDefinition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsTaskDefinition.IEcsTaskDefinitionVolume" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolume\"}]}}", isOptional: true)]
         public virtual object? InternalValue

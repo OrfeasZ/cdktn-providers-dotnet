@@ -246,6 +246,9 @@ namespace aws.RdsReservedInstance
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsReservedInstance.IRdsReservedInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsReservedInstance.RdsReservedInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

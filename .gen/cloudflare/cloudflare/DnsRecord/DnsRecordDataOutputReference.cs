@@ -753,6 +753,9 @@ namespace cloudflare.DnsRecord
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DnsRecord.IDnsRecordData" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dnsRecord.DnsRecordData\"}]}}", isOptional: true)]
         public virtual object? InternalValue

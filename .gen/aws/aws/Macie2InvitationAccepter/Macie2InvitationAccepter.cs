@@ -122,6 +122,9 @@ namespace aws.Macie2InvitationAccepter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Macie2InvitationAccepter.IMacie2InvitationAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.macie2InvitationAccepter.Macie2InvitationAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

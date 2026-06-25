@@ -215,8 +215,20 @@ namespace oci.DataOciDatabaseDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "managedSoftwareUpdateDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesManagedSoftwareUpdateDetailsList\"}")]
+        public virtual oci.DataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesManagedSoftwareUpdateDetailsList ManagedSoftwareUpdateDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesManagedSoftwareUpdateDetailsList>()!;
+        }
+
         [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NcharacterSet
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "patchVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PatchVersion
         {
             get => GetInstanceProperty<string>()!;
         }

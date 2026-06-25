@@ -41,6 +41,9 @@ namespace aws.Macie2FindingsFilter
             return InvokeInstanceMethod<aws.Macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterFindingCriteriaCriterion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

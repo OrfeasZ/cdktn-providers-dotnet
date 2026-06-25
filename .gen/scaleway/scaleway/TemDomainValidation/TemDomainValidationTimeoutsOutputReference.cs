@@ -93,6 +93,9 @@ namespace scaleway.TemDomainValidation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.TemDomainValidation.ITemDomainValidationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.temDomainValidation.TemDomainValidationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

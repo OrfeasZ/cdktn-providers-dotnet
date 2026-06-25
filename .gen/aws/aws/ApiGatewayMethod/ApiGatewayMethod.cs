@@ -119,6 +119,9 @@ namespace aws.ApiGatewayMethod
         }
         = GetStaticProperty<string>(typeof(aws.ApiGatewayMethod.ApiGatewayMethod))!;
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiKeyRequiredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApiKeyRequiredInput
@@ -182,6 +185,9 @@ namespace aws.ApiGatewayMethod
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestParametersInput", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, object>? RequestParametersInput
@@ -210,6 +216,9 @@ namespace aws.ApiGatewayMethod
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "apiKeyRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApiKeyRequired
         {
@@ -293,6 +302,9 @@ namespace aws.ApiGatewayMethod
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
+        /// </remarks>
         [JsiiProperty(name: "requestParameters", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, object> RequestParameters
         {

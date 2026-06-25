@@ -51,6 +51,12 @@ namespace oci.DatascienceModelDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNetworkAccessType")]
+        public virtual void ResetNetworkAccessType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPrivateEndpointId")]
         public virtual void ResetPrivateEndpointId()
         {
@@ -84,6 +90,13 @@ namespace oci.DatascienceModelDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "networkAccessTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NetworkAccessTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "privateEndpointIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PrivateEndpointIdInput
         {
@@ -99,6 +112,13 @@ namespace oci.DatascienceModelDeployment
 
         [JsiiProperty(name: "instanceShapeName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InstanceShapeName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "networkAccessType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkAccessType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

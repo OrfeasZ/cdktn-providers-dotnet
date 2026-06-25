@@ -83,6 +83,9 @@ namespace aws.LexIntent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LexIntent.ILexIntentSlotValueElicitationPromptMessage" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPromptMessage\"}]}}", isOptional: true)]
         public virtual object? InternalValue

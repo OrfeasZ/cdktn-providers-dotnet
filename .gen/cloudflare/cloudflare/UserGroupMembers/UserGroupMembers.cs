@@ -46,6 +46,7 @@ namespace cloudflare.UserGroupMembers
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.UserGroupMembers.UserGroupMembers), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</param>
         [JsiiMethod(name: "putMembers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroupMembers.UserGroupMembersMembers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMembers(object @value)
         {
@@ -107,6 +108,9 @@ namespace cloudflare.UserGroupMembers
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "membersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroupMembers.UserGroupMembersMembers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MembersInput

@@ -93,6 +93,9 @@ namespace oci.DatabaseExternalPluggableDatabaseOperationsInsightsManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseExternalPluggableDatabaseOperationsInsightsManagement.IDatabaseExternalPluggableDatabaseOperationsInsightsManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseExternalPluggableDatabaseOperationsInsightsManagement.DatabaseExternalPluggableDatabaseOperationsInsightsManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

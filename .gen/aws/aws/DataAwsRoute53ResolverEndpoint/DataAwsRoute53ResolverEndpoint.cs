@@ -46,6 +46,7 @@ namespace aws.DataAwsRoute53ResolverEndpoint
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsRoute53ResolverEndpoint.DataAwsRoute53ResolverEndpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsRoute53ResolverEndpoint.IDataAwsRoute53ResolverEndpointFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsRoute53ResolverEndpoint.DataAwsRoute53ResolverEndpointFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -178,6 +179,9 @@ namespace aws.DataAwsRoute53ResolverEndpoint
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsRoute53ResolverEndpoint.IDataAwsRoute53ResolverEndpointFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsRoute53ResolverEndpoint.DataAwsRoute53ResolverEndpointFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput

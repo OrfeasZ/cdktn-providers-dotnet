@@ -59,6 +59,12 @@ namespace oci.DataOciMulticloudNetworkAnchor
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "vcnName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VcnName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciMulticloudNetworkAnchor.DataOciMulticloudNetworkAnchorOciMetadataItemVcn\"}", isOptional: true)]
         public virtual oci.DataOciMulticloudNetworkAnchor.IDataOciMulticloudNetworkAnchorOciMetadataItemVcn? InternalValue

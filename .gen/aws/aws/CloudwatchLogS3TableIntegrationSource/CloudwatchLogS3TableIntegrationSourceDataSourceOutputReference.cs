@@ -63,6 +63,9 @@ namespace aws.CloudwatchLogS3TableIntegrationSource
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchLogS3TableIntegrationSource.ICloudwatchLogS3TableIntegrationSourceDataSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceDataSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace aws.MskReplicator
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListConsumerGroupReplication" />)[]</param>
         [JsiiMethod(name: "putConsumerGroupReplication", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplication\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConsumerGroupReplication(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.MskReplicator
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListTopicReplication" />)[]</param>
         [JsiiMethod(name: "putTopicReplication", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplication\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTopicReplication(object @value)
         {
@@ -103,6 +105,9 @@ namespace aws.MskReplicator
             get => GetInstanceProperty<aws.MskReplicator.MskReplicatorReplicationInfoListTopicReplicationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListConsumerGroupReplication" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consumerGroupReplicationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplication\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConsumerGroupReplicationInput
@@ -131,6 +136,9 @@ namespace aws.MskReplicator
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListTopicReplication" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topicReplicationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplication\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TopicReplicationInput

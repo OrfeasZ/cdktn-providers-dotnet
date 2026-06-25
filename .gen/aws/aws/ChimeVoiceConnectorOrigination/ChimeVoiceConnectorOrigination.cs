@@ -46,6 +46,7 @@ namespace aws.ChimeVoiceConnectorOrigination
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ChimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ChimeVoiceConnectorOrigination.IChimeVoiceConnectorOriginationRoute" />)[]</param>
         [JsiiMethod(name: "putRoute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRoute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoute(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.ChimeVoiceConnectorOrigination
             get => GetInstanceProperty<aws.ChimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRouteList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisabledInput
@@ -133,6 +137,9 @@ namespace aws.ChimeVoiceConnectorOrigination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ChimeVoiceConnectorOrigination.IChimeVoiceConnectorOriginationRoute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRoute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RouteInput
@@ -147,6 +154,9 @@ namespace aws.ChimeVoiceConnectorOrigination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Disabled
         {

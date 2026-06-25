@@ -108,6 +108,9 @@ namespace aws.ObservabilityadminTelemetryEnrichment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ObservabilityadminTelemetryEnrichment.IObservabilityadminTelemetryEnrichmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

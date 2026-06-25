@@ -96,6 +96,9 @@ namespace cloudflare.Snippets
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Snippets.ISnippetsMetadata" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.snippets.SnippetsMetadata\"}]}}", isOptional: true)]
         public virtual object? MetadataInput

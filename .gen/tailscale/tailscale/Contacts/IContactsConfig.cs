@@ -10,6 +10,7 @@ namespace tailscale.Contacts
         /// <summary>account block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#account Contacts#account}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsAccount" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "account", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsAccount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,6 +25,7 @@ namespace tailscale.Contacts
         /// <summary>security block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#security Contacts#security}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSecurity" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "security", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSecurity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,6 +40,7 @@ namespace tailscale.Contacts
         /// <summary>support block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#support Contacts#support}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSupport" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "support", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSupport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,6 +62,7 @@ namespace tailscale.Contacts
             /// <summary>account block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#account Contacts#account}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsAccount" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "account", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsAccount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -70,6 +74,7 @@ namespace tailscale.Contacts
             /// <summary>security block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#security Contacts#security}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSecurity" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "security", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSecurity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -81,6 +86,7 @@ namespace tailscale.Contacts
             /// <summary>support block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#support Contacts#support}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSupport" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "support", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSupport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -91,6 +97,7 @@ namespace tailscale.Contacts
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -101,6 +108,7 @@ namespace tailscale.Contacts
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -151,6 +159,7 @@ namespace tailscale.Contacts
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

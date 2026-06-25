@@ -53,6 +53,9 @@ namespace aws.DbOptionGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DbOptionGroup.IDbOptionGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dbOptionGroup.DbOptionGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.BatchJobQueue
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BatchJobQueue.BatchJobQueue), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobQueue.IBatchJobQueueComputeEnvironmentOrder" />)[]</param>
         [JsiiMethod(name: "putComputeEnvironmentOrder", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrder\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComputeEnvironmentOrder(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.BatchJobQueue
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobQueue.IBatchJobQueueJobStateTimeLimitAction" />)[]</param>
         [JsiiMethod(name: "putJobStateTimeLimitAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobQueue.BatchJobQueueJobStateTimeLimitAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJobStateTimeLimitAction(object @value)
         {
@@ -189,6 +191,9 @@ namespace aws.BatchJobQueue
             get => GetInstanceProperty<aws.BatchJobQueue.BatchJobQueueTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobQueue.IBatchJobQueueComputeEnvironmentOrder" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "computeEnvironmentOrderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrder\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComputeEnvironmentOrderInput
@@ -196,6 +201,9 @@ namespace aws.BatchJobQueue
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobQueue.IBatchJobQueueJobStateTimeLimitAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobStateTimeLimitActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobQueue.BatchJobQueueJobStateTimeLimitAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? JobStateTimeLimitActionInput
@@ -245,6 +253,9 @@ namespace aws.BatchJobQueue
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BatchJobQueue.IBatchJobQueueTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.batchJobQueue.BatchJobQueueTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

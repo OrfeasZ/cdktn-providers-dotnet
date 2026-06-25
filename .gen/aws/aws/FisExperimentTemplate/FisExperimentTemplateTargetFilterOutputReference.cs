@@ -63,6 +63,9 @@ namespace aws.FisExperimentTemplate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FisExperimentTemplate.IFisExperimentTemplateTargetFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateTargetFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

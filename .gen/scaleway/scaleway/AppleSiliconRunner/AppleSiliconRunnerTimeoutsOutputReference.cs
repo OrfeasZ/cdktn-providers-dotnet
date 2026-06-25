@@ -73,6 +73,9 @@ namespace scaleway.AppleSiliconRunner
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.AppleSiliconRunner.IAppleSiliconRunnerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.appleSiliconRunner.AppleSiliconRunnerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

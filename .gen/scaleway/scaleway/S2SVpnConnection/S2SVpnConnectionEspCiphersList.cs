@@ -41,6 +41,9 @@ namespace scaleway.S2SVpnConnection
             return InvokeInstanceMethod<scaleway.S2SVpnConnection.S2SVpnConnectionEspCiphersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionEspCiphers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionEspCiphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace aws.DataAwsEcsTaskExecution
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionOverridesContainerOverrides" />)[]</param>
         [JsiiMethod(name: "putContainerOverrides", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionOverridesContainerOverrides\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContainerOverrides(object @value)
         {
@@ -92,6 +93,9 @@ namespace aws.DataAwsEcsTaskExecution
             get => GetInstanceProperty<aws.DataAwsEcsTaskExecution.DataAwsEcsTaskExecutionOverridesContainerOverridesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcsTaskExecution.IDataAwsEcsTaskExecutionOverridesContainerOverrides" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerOverridesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcsTaskExecution.DataAwsEcsTaskExecutionOverridesContainerOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContainerOverridesInput

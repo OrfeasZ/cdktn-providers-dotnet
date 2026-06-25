@@ -33,8 +33,44 @@ namespace oci.DatascienceModelDeployment
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints" />)[]</param>
+        [JsiiMethod(name: "putCustomHttpEndpoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomHttpEndpoints(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetCmd")]
         public virtual void ResetCmd()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCustomHttpEndpoints")]
+        public virtual void ResetCustomHttpEndpoints()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDefaultEnvironmentVariables")]
+        public virtual void ResetDefaultEnvironmentVariables()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -69,10 +105,28 @@ namespace oci.DatascienceModelDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetImageSignatureId")]
+        public virtual void ResetImageSignatureId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPredictApiSpecification")]
+        public virtual void ResetPredictApiSpecification()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetServerPort")]
         public virtual void ResetServerPort()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "customHttpEndpoints", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpointsList\"}")]
+        public virtual oci.DatascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpointsList CustomHttpEndpoints
+        {
+            get => GetInstanceProperty<oci.DatascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpointsList>()!;
         }
 
         [JsiiOptional]
@@ -80,6 +134,23 @@ namespace oci.DatascienceModelDeployment
         public virtual string[]? CmdInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "customHttpEndpointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetailsCustomHttpEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomHttpEndpointsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "defaultEnvironmentVariablesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? DefaultEnvironmentVariablesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
         [JsiiOptional]
@@ -125,6 +196,20 @@ namespace oci.DatascienceModelDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "imageSignatureIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ImageSignatureIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "predictApiSpecificationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PredictApiSpecificationInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "serverPortInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ServerPortInput
         {
@@ -135,6 +220,13 @@ namespace oci.DatascienceModelDeployment
         public virtual string[] Cmd
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "defaultEnvironmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> DefaultEnvironmentVariables
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -175,6 +267,20 @@ namespace oci.DatascienceModelDeployment
 
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ImageDigest
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImageSignatureId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "predictApiSpecification", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PredictApiSpecification
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -41,9 +41,35 @@ namespace oci.GoldenGatePipeline
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRelatedResourceId")]
+        public virtual void ResetRelatedResourceId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeCreated")]
+        public virtual void ResetTimeCreated()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "messageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MessageInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "relatedResourceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RelatedResourceIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "timeCreatedInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeCreatedInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -62,6 +88,20 @@ namespace oci.GoldenGatePipeline
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "relatedResourceId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RelatedResourceId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {
@@ -69,6 +109,9 @@ namespace oci.GoldenGatePipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGatePipeline.IGoldenGatePipelineLocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineLocks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

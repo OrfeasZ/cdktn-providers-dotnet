@@ -93,6 +93,9 @@ namespace aws.StoragegatewaySmbFileShare
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.StoragegatewaySmbFileShare.IStoragegatewaySmbFileShareTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

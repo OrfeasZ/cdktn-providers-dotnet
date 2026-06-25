@@ -147,6 +147,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             get => GetInstanceProperty<cloudflare.DataCloudflareDnsRecord.DataCloudflareDnsRecordFilterTagOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilterComment" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordFilterComment\"}]}}", isOptional: true)]
         public virtual object? CommentInput
@@ -154,6 +157,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilterContent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordFilterContent\"}]}}", isOptional: true)]
         public virtual object? ContentInput
@@ -175,6 +181,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilterName" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordFilterName\"}]}}", isOptional: true)]
         public virtual object? NameInput
@@ -189,6 +198,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "proxiedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ProxiedInput
@@ -203,6 +215,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilterTag" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordFilterTag\"}]}}", isOptional: true)]
         public virtual object? TagInput
@@ -245,6 +260,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "proxied", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Proxied
         {
@@ -293,6 +311,9 @@ namespace cloudflare.DataCloudflareDnsRecord
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareDnsRecord.DataCloudflareDnsRecordFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

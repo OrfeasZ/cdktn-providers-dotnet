@@ -41,6 +41,9 @@ namespace oci.DataOciOsubSubscriptionCommitments
             return InvokeInstanceMethod<oci.DataOciOsubSubscriptionCommitments.DataOciOsubSubscriptionCommitmentsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsubSubscriptionCommitments.IDataOciOsubSubscriptionCommitmentsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOsubSubscriptionCommitments.DataOciOsubSubscriptionCommitmentsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

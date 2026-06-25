@@ -41,6 +41,9 @@ namespace aws.ElasticBeanstalkEnvironment
             return InvokeInstanceMethod<aws.ElasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticBeanstalkEnvironment.IElasticBeanstalkEnvironmentSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

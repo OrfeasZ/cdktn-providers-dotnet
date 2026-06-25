@@ -33,6 +33,7 @@ namespace aws.SchedulerSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetSagemakerPipelineParametersPipelineParameter" />)[]</param>
         [JsiiMethod(name: "putPipelineParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetSagemakerPipelineParametersPipelineParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPipelineParameter(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<aws.SchedulerSchedule.SchedulerScheduleTargetSagemakerPipelineParametersPipelineParameterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetSagemakerPipelineParametersPipelineParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetSagemakerPipelineParametersPipelineParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PipelineParameterInput

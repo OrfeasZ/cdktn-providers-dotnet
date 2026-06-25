@@ -35,6 +35,7 @@ namespace aws.SsmcontactsRotation
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEnd" />)[]</param>
         [JsiiMethod(name: "putEnd", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEnd\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnd(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SsmcontactsRotation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStart" />)[]</param>
         [JsiiMethod(name: "putStart", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStart\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStart(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<aws.SsmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStartList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEnd" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEnd\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EndInput
@@ -112,6 +117,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStart" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStart\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StartInput
@@ -119,6 +127,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

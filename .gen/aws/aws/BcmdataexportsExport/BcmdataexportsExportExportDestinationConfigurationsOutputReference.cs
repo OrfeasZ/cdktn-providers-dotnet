@@ -35,6 +35,7 @@ namespace aws.BcmdataexportsExport
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurationsS3Destination" />)[]</param>
         [JsiiMethod(name: "putS3Destination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3Destination(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<aws.BcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurationsS3Destination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3DestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3DestinationInput
@@ -77,6 +81,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

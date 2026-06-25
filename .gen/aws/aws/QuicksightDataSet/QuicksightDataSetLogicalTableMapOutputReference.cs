@@ -35,6 +35,7 @@ namespace aws.QuicksightDataSet
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransforms" />)[]</param>
         [JsiiMethod(name: "putDataTransforms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataTransforms(object @value)
         {
@@ -89,6 +90,9 @@ namespace aws.QuicksightDataSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMapDataTransforms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataTransformsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataTransformsInput
@@ -124,6 +128,9 @@ namespace aws.QuicksightDataSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightDataSet.IQuicksightDataSetLogicalTableMap" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetLogicalTableMap\"}]}}", isOptional: true)]
         public virtual object? InternalValue

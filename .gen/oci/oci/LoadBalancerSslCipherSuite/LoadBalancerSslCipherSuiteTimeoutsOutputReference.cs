@@ -93,6 +93,9 @@ namespace oci.LoadBalancerSslCipherSuite
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LoadBalancerSslCipherSuite.ILoadBalancerSslCipherSuiteTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.loadBalancerSslCipherSuite.LoadBalancerSslCipherSuiteTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

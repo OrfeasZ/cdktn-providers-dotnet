@@ -157,6 +157,9 @@ namespace aws.CloudwatchLogTransformer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDateTimeConverter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

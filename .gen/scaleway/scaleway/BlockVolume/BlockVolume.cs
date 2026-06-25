@@ -187,6 +187,9 @@ namespace scaleway.BlockVolume
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.BlockVolume.IBlockVolumeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.blockVolume.BlockVolumeTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

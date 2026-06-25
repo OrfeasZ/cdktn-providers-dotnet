@@ -41,6 +41,9 @@ namespace neon.DataNeonBranchRoles
             return InvokeInstanceMethod<neon.DataNeonBranchRoles.DataNeonBranchRolesRolesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchRoles.DataNeonBranchRolesRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

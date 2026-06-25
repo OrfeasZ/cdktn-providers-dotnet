@@ -46,6 +46,7 @@ namespace aws.CognitoResourceServer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CognitoResourceServer.CognitoResourceServer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoResourceServer.ICognitoResourceServerScope" />)[]</param>
         [JsiiMethod(name: "putScope", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoResourceServer.CognitoResourceServerScope\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutScope(object @value)
         {
@@ -146,6 +147,9 @@ namespace aws.CognitoResourceServer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoResourceServer.ICognitoResourceServerScope" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoResourceServer.CognitoResourceServerScope\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ScopeInput

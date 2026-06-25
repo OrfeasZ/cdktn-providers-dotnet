@@ -21,6 +21,7 @@ namespace aws.PipesPipe
         /// <summary>environment block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#environment PipesPipe#environment}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "environment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,6 +47,7 @@ namespace aws.PipesPipe
         /// <summary>resource_requirement block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#resource_requirement PipesPipe#resource_requirement}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "resourceRequirement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,6 +77,7 @@ namespace aws.PipesPipe
             /// <summary>environment block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#environment PipesPipe#environment}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environment", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,6 +97,7 @@ namespace aws.PipesPipe
             /// <summary>resource_requirement block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#resource_requirement PipesPipe#resource_requirement}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceRequirement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement\"},\"kind\":\"array\"}}]}}", isOptional: true)]

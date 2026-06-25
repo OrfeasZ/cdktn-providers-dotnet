@@ -124,6 +124,9 @@ namespace aws.ApiGatewayMethodResponse
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseParametersInput", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, object>? ResponseParametersInput
@@ -180,6 +183,9 @@ namespace aws.ApiGatewayMethodResponse
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
+        /// </remarks>
         [JsiiProperty(name: "responseParameters", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, object> ResponseParameters
         {

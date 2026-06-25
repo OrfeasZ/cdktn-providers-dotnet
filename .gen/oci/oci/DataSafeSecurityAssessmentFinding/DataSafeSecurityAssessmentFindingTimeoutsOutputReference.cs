@@ -93,6 +93,9 @@ namespace oci.DataSafeSecurityAssessmentFinding
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeSecurityAssessmentFinding.IDataSafeSecurityAssessmentFindingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeSecurityAssessmentFinding.DataSafeSecurityAssessmentFindingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

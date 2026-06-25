@@ -52,6 +52,7 @@ namespace aws.CleanroomsCollaboration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CleanroomsCollaboration.ICleanroomsCollaborationDataEncryptionMetadata)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsCollaboration.ICleanroomsCollaborationMember" />)[]</param>
         [JsiiMethod(name: "putMember", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsCollaboration.CleanroomsCollaborationMember\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMember(object @value)
         {
@@ -219,6 +220,9 @@ namespace aws.CleanroomsCollaboration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsCollaboration.ICleanroomsCollaborationMember" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsCollaboration.CleanroomsCollaborationMember\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemberInput
@@ -261,6 +265,9 @@ namespace aws.CleanroomsCollaboration
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CleanroomsCollaboration.ICleanroomsCollaborationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cleanroomsCollaboration.CleanroomsCollaborationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

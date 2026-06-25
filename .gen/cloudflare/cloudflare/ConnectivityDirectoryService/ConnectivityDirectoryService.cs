@@ -157,6 +157,9 @@ namespace cloudflare.ConnectivityDirectoryService
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHost" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHost\"}]}}", isOptional: true)]
         public virtual object? HostInput
@@ -192,6 +195,9 @@ namespace cloudflare.ConnectivityDirectoryService
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceTlsSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceTlsSettings\"}]}}", isOptional: true)]
         public virtual object? TlsSettingsInput

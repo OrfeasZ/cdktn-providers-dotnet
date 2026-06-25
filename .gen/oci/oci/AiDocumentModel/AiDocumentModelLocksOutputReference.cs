@@ -129,6 +129,9 @@ namespace oci.AiDocumentModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiDocumentModel.IAiDocumentModelLocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiDocumentModel.AiDocumentModelLocks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

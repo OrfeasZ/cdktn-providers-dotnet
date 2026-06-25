@@ -51,6 +51,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolSourceInitiatorIqnOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolSourceInitiatorIqn" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iqnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolSourceInitiatorIqn\"}]}}", isOptional: true)]
         public virtual object? IqnInput
@@ -58,6 +61,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolSourceInitiator" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolSourceInitiator\"}]}}", isOptional: true)]
         public virtual object? InternalValue

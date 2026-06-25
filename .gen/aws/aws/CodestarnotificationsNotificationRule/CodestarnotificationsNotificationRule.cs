@@ -46,6 +46,7 @@ namespace aws.CodestarnotificationsNotificationRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CodestarnotificationsNotificationRule.CodestarnotificationsNotificationRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodestarnotificationsNotificationRule.ICodestarnotificationsNotificationRuleTarget" />)[]</param>
         [JsiiMethod(name: "putTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTarget(object @value)
         {
@@ -199,6 +200,9 @@ namespace aws.CodestarnotificationsNotificationRule
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodestarnotificationsNotificationRule.ICodestarnotificationsNotificationRuleTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetInput

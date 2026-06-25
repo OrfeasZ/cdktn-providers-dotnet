@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsOciConsoleSignOnPolicyConsent.DataOciIdentityDomainsOciConsoleSignOnPolicyConsentConfig")]
     public class DataOciIdentityDomainsOciConsoleSignOnPolicyConsentConfig : oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent.IDataOciIdentityDomainsOciConsoleSignOnPolicyConsentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#idcs_endpoint DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#idcs_endpoint DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#oci_console_sign_on_policy_consent_id DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#oci_console_sign_on_policy_consent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#oci_console_sign_on_policy_consent_id DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#oci_console_sign_on_policy_consent_id}.</summary>
         [JsiiProperty(name: "ociConsoleSignOnPolicyConsentId", typeJson: "{\"primitive\":\"string\"}")]
         public string OciConsoleSignOnPolicyConsentId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#attributes DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#attributes DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#attribute_sets DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#attribute_sets DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#authorization DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#authorization DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#id DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#id DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#resource_type_schema_version DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/identity_domains_oci_console_sign_on_policy_consent#resource_type_schema_version DataOciIdentityDomainsOciConsoleSignOnPolicyConsent#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -78,6 +78,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -111,6 +112,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -205,6 +207,7 @@ namespace oci.DataOciIdentityDomainsOciConsoleSignOnPolicyConsent
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

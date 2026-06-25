@@ -95,6 +95,9 @@ namespace oci.DatabaseMigrationMigration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationAdvancedParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationAdvancedParameters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

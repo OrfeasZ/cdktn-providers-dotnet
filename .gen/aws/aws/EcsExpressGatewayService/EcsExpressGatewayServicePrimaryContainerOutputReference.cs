@@ -35,6 +35,7 @@ namespace aws.EcsExpressGatewayService
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration" />)[]</param>
         [JsiiMethod(name: "putAwsLogsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsLogsConfiguration(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.EcsExpressGatewayService
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerEnvironment" />)[]</param>
         [JsiiMethod(name: "putEnvironment", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerEnvironment\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnvironment(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.EcsExpressGatewayService
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerRepositoryCredentials" />)[]</param>
         [JsiiMethod(name: "putRepositoryCredentials", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerRepositoryCredentials\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRepositoryCredentials(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.EcsExpressGatewayService
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerSecret" />)[]</param>
         [JsiiMethod(name: "putSecret", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerSecret\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecret(object @value)
         {
@@ -187,6 +191,9 @@ namespace aws.EcsExpressGatewayService
             get => GetInstanceProperty<aws.EcsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerSecretList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsLogsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerAwsLogsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsLogsConfigurationInput
@@ -208,6 +215,9 @@ namespace aws.EcsExpressGatewayService
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerEnvironment" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environmentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerEnvironment\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvironmentInput
@@ -222,6 +232,9 @@ namespace aws.EcsExpressGatewayService
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerRepositoryCredentials" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryCredentialsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerRepositoryCredentials\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RepositoryCredentialsInput
@@ -229,6 +242,9 @@ namespace aws.EcsExpressGatewayService
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainerSecret" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecretInput
@@ -257,6 +273,9 @@ namespace aws.EcsExpressGatewayService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EcsExpressGatewayService.IEcsExpressGatewayServicePrimaryContainer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

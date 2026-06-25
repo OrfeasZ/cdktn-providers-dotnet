@@ -107,6 +107,12 @@ namespace oci.DataOciOperatorAccessControlOperatorControls
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "notificationTopicId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NotificationTopicId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "numberOfApprovers", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double NumberOfApprovers
         {

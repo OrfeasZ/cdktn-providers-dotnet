@@ -41,6 +41,9 @@ namespace oci.DataOciOcvpSupportedSkus
             return InvokeInstanceMethod<oci.DataOciOcvpSupportedSkus.DataOciOcvpSupportedSkusFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpSupportedSkus.IDataOciOcvpSupportedSkusFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOcvpSupportedSkus.DataOciOcvpSupportedSkusFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

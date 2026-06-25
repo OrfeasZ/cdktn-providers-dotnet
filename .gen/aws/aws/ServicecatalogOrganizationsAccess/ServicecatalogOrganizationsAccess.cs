@@ -89,6 +89,9 @@ namespace aws.ServicecatalogOrganizationsAccess
             get => GetInstanceProperty<aws.ServicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -103,6 +106,9 @@ namespace aws.ServicecatalogOrganizationsAccess
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ServicecatalogOrganizationsAccess.IServicecatalogOrganizationsAccessTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -110,6 +116,9 @@ namespace aws.ServicecatalogOrganizationsAccess
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

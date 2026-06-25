@@ -47,6 +47,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<cloudflare.R2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitionsConditionOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesStorageClassTransitionsCondition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitionsCondition\"}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -68,6 +71,9 @@ namespace cloudflare.R2BucketLifecycle
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesStorageClassTransitions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesStorageClassTransitions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace oci.DataLabelingServiceDataset
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetLabelSetItems" />)[]</param>
         [JsiiMethod(name: "putItems", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataLabelingServiceDataset.DataLabelingServiceDatasetLabelSetItems\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutItems(object @value)
         {
@@ -62,6 +63,9 @@ namespace oci.DataLabelingServiceDataset
             get => GetInstanceProperty<oci.DataLabelingServiceDataset.DataLabelingServiceDatasetLabelSetItemsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetLabelSetItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "itemsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataLabelingServiceDataset.DataLabelingServiceDatasetLabelSetItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ItemsInput

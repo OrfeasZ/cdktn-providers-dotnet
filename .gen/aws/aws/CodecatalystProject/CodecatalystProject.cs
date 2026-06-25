@@ -142,6 +142,9 @@ namespace aws.CodecatalystProject
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodecatalystProject.ICodecatalystProjectTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codecatalystProject.CodecatalystProjectTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

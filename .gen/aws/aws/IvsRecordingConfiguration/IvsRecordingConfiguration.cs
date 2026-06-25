@@ -217,6 +217,9 @@ namespace aws.IvsRecordingConfiguration
             get => GetInstanceProperty<aws.IvsRecordingConfiguration.IIvsRecordingConfigurationThumbnailConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.IvsRecordingConfiguration.IIvsRecordingConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ivsRecordingConfiguration.IvsRecordingConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

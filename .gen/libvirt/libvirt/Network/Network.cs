@@ -82,6 +82,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Network.INetworkForward)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkIps" />)[]</param>
         [JsiiMethod(name: "putIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIps(object @value)
         {
@@ -123,6 +124,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Network.INetworkMtu)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkPortGroups" />)[]</param>
         [JsiiMethod(name: "putPortGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkPortGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortGroups(object @value)
         {
@@ -152,6 +154,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Network.INetworkPortOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkRoutes" />)[]</param>
         [JsiiMethod(name: "putRoutes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkRoutes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutes(object @value)
         {
@@ -416,6 +419,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkVlanOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autostartInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutostartInput
@@ -423,6 +429,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkBandwidth" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bandwidthInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkBandwidth\"}]}}", isOptional: true)]
         public virtual object? BandwidthInput
@@ -430,6 +439,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkBridge" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bridgeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkBridge\"}]}}", isOptional: true)]
         public virtual object? BridgeInput
@@ -437,6 +449,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkDns\"}]}}", isOptional: true)]
         public virtual object? DnsInput
@@ -444,6 +459,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkDnsmasqOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsmasqOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkDnsmasqOptions\"}]}}", isOptional: true)]
         public virtual object? DnsmasqOptionsInput
@@ -451,6 +469,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkDomain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkDomain\"}]}}", isOptional: true)]
         public virtual object? DomainInput
@@ -458,6 +479,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForward" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForward\"}]}}", isOptional: true)]
         public virtual object? ForwardInput
@@ -465,6 +489,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpsInput
@@ -479,6 +506,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkMac" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "macInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkMac\"}]}}", isOptional: true)]
         public virtual object? MacInput
@@ -486,6 +516,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkMetadata" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkMetadata\"}]}}", isOptional: true)]
         public virtual object? MetadataInput
@@ -493,6 +526,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkMtu" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mtuInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkMtu\"}]}}", isOptional: true)]
         public virtual object? MtuInput
@@ -507,6 +543,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkPortGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkPortGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortGroupsInput
@@ -514,6 +553,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkPortOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkPortOptions\"}]}}", isOptional: true)]
         public virtual object? PortOptionsInput
@@ -521,6 +563,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkRoutes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutesInput
@@ -535,6 +580,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkVirtualPort" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualPortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkVirtualPort\"}]}}", isOptional: true)]
         public virtual object? VirtualPortInput
@@ -542,6 +590,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkVlan" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vlanInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkVlan\"}]}}", isOptional: true)]
         public virtual object? VlanInput
@@ -549,6 +600,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autostart", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Autostart
         {

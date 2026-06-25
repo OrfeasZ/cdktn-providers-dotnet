@@ -52,6 +52,7 @@ namespace aws.FinspaceKxCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.FinspaceKxCluster.IFinspaceKxClusterAutoScalingConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterCacheStorageConfigurations" />)[]</param>
         [JsiiMethod(name: "putCacheStorageConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCacheStorageConfigurations(object @value)
         {
@@ -87,6 +88,7 @@ namespace aws.FinspaceKxCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.FinspaceKxCluster.IFinspaceKxClusterCode)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabase" />)[]</param>
         [JsiiMethod(name: "putDatabase", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabase\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDatabase(object @value)
         {
@@ -122,6 +124,7 @@ namespace aws.FinspaceKxCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.FinspaceKxCluster.IFinspaceKxClusterScalingGroupConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterTickerplantLogConfiguration" />)[]</param>
         [JsiiMethod(name: "putTickerplantLogConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTickerplantLogConfiguration(object @value)
         {
@@ -395,6 +398,9 @@ namespace aws.FinspaceKxCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterCacheStorageConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheStorageConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CacheStorageConfigurationsInput
@@ -423,6 +429,9 @@ namespace aws.FinspaceKxCluster
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabase" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabase\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DatabaseInput
@@ -514,6 +523,9 @@ namespace aws.FinspaceKxCluster
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterTickerplantLogConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tickerplantLogConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TickerplantLogConfigurationInput
@@ -521,6 +533,9 @@ namespace aws.FinspaceKxCluster
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxCluster.IFinspaceKxClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

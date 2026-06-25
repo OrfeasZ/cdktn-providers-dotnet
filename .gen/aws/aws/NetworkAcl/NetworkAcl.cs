@@ -46,6 +46,7 @@ namespace aws.NetworkAcl
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.NetworkAcl.NetworkAcl), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkAcl.INetworkAclEgress" />)[]</param>
         [JsiiMethod(name: "putEgress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkAcl.NetworkAclEgress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEgress(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.NetworkAcl
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkAcl.INetworkAclIngress" />)[]</param>
         [JsiiMethod(name: "putIngress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkAcl.NetworkAclIngress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIngress(object @value)
         {
@@ -177,6 +179,9 @@ namespace aws.NetworkAcl
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkAcl.INetworkAclEgress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkAcl.NetworkAclEgress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EgressInput
@@ -191,6 +196,9 @@ namespace aws.NetworkAcl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkAcl.INetworkAclIngress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ingressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkAcl.NetworkAclIngress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IngressInput

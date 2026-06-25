@@ -33,6 +33,7 @@ namespace aws.Macie2FindingsFilter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterFindingCriteriaCriterion" />)[]</param>
         [JsiiMethod(name: "putCriterion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCriterion(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.Macie2FindingsFilter
             get => GetInstanceProperty<aws.Macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterFindingCriteriaCriterion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "criterionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CriterionInput

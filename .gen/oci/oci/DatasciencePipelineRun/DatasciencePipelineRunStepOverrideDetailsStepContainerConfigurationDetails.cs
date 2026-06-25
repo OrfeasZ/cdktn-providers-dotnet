@@ -9,7 +9,7 @@ namespace oci.DatasciencePipelineRun
     [JsiiByValue(fqn: "oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepContainerConfigurationDetails")]
     public class DatasciencePipelineRunStepOverrideDetailsStepContainerConfigurationDetails : oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetailsStepContainerConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#container_type DatasciencePipelineRun#container_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#container_type DatasciencePipelineRun#container_type}.</summary>
         [JsiiProperty(name: "containerType", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerType
         {
@@ -17,7 +17,7 @@ namespace oci.DatasciencePipelineRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#image DatasciencePipelineRun#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#image DatasciencePipelineRun#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         public string Image
         {
@@ -25,7 +25,7 @@ namespace oci.DatasciencePipelineRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#cmd DatasciencePipelineRun#cmd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#cmd DatasciencePipelineRun#cmd}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cmd", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Cmd
@@ -34,7 +34,7 @@ namespace oci.DatasciencePipelineRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#entrypoint DatasciencePipelineRun#entrypoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#entrypoint DatasciencePipelineRun#entrypoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "entrypoint", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Entrypoint
@@ -43,7 +43,7 @@ namespace oci.DatasciencePipelineRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#image_digest DatasciencePipelineRun#image_digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#image_digest DatasciencePipelineRun#image_digest}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageDigest
@@ -52,7 +52,7 @@ namespace oci.DatasciencePipelineRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/datascience_pipeline_run#image_signature_id DatasciencePipelineRun#image_signature_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/datascience_pipeline_run#image_signature_id DatasciencePipelineRun#image_signature_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageSignatureId

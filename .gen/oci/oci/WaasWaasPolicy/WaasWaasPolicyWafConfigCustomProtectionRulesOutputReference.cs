@@ -35,6 +35,7 @@ namespace oci.WaasWaasPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCustomProtectionRulesExclusions" />)[]</param>
         [JsiiMethod(name: "putExclusions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCustomProtectionRulesExclusions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExclusions(object @value)
         {
@@ -89,6 +90,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCustomProtectionRulesExclusions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exclusionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCustomProtectionRulesExclusions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExclusionsInput
@@ -117,6 +121,9 @@ namespace oci.WaasWaasPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCustomProtectionRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCustomProtectionRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

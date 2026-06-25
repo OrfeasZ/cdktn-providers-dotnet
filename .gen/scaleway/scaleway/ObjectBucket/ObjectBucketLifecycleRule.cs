@@ -14,6 +14,7 @@ namespace scaleway.ObjectBucket
         /// <summary>Specifies if the configuration rule is Enabled or Disabled.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#enabled ObjectBucket#enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
@@ -98,6 +99,7 @@ namespace scaleway.ObjectBucket
         /// <summary>noncurrent_version_transition block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#noncurrent_version_transition ObjectBucket#noncurrent_version_transition}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noncurrentVersionTransition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -180,6 +182,7 @@ namespace scaleway.ObjectBucket
         /// <summary>transition block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#transition ObjectBucket#transition}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleTransition" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]

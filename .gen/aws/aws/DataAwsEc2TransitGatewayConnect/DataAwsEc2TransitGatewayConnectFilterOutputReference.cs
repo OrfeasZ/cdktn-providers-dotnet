@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2TransitGatewayConnect
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2TransitGatewayConnect.IDataAwsEc2TransitGatewayConnectFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2TransitGatewayConnect.DataAwsEc2TransitGatewayConnectFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

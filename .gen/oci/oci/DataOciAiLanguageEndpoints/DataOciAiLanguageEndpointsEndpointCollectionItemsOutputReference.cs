@@ -35,6 +35,12 @@ namespace oci.DataOciAiLanguageEndpoints
         {
         }
 
+        [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Alias
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {

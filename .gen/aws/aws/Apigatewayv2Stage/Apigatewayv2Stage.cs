@@ -58,6 +58,7 @@ namespace aws.Apigatewayv2Stage
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Apigatewayv2Stage.IApigatewayv2StageDefaultRouteSettings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Stage.IApigatewayv2StageRouteSettings" />)[]</param>
         [JsiiMethod(name: "putRouteSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Stage.Apigatewayv2StageRouteSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRouteSettings(object @value)
         {
@@ -222,6 +223,9 @@ namespace aws.Apigatewayv2Stage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoDeployInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoDeployInput
@@ -278,6 +282,9 @@ namespace aws.Apigatewayv2Stage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Stage.IApigatewayv2StageRouteSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routeSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Stage.Apigatewayv2StageRouteSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RouteSettingsInput
@@ -313,6 +320,9 @@ namespace aws.Apigatewayv2Stage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoDeploy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoDeploy
         {

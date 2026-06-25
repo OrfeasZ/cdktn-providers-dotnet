@@ -41,6 +41,9 @@ namespace aws.LbTargetGroup
             return InvokeInstanceMethod<aws.LbTargetGroup.LbTargetGroupTargetHealthStateOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbTargetGroup.ILbTargetGroupTargetHealthState" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbTargetGroup.LbTargetGroupTargetHealthState\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.CoreDefaultSecurityList
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreDefaultSecurityList.ICoreDefaultSecurityListTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

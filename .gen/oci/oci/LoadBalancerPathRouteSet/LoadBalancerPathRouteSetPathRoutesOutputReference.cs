@@ -82,6 +82,9 @@ namespace oci.LoadBalancerPathRouteSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LoadBalancerPathRouteSet.ILoadBalancerPathRouteSetPathRoutes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.loadBalancerPathRouteSet.LoadBalancerPathRouteSetPathRoutes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

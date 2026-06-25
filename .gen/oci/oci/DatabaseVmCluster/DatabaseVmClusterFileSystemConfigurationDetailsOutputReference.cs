@@ -75,6 +75,9 @@ namespace oci.DatabaseVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseVmCluster.IDatabaseVmClusterFileSystemConfigurationDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterFileSystemConfigurationDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

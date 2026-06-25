@@ -7,35 +7,35 @@ namespace oci.LustreFileStorageLustreFileSystem
     [JsiiInterface(nativeType: typeof(ILustreFileStorageLustreFileSystemConfig), fullyQualifiedName: "oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemConfig")]
     public interface ILustreFileStorageLustreFileSystemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#availability_domain LustreFileStorageLustreFileSystem#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#availability_domain LustreFileStorageLustreFileSystem#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityDomain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#capacity_in_gbs LustreFileStorageLustreFileSystem#capacity_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#capacity_in_gbs LustreFileStorageLustreFileSystem#capacity_in_gbs}.</summary>
         [JsiiProperty(name: "capacityInGbs", typeJson: "{\"primitive\":\"number\"}")]
         double CapacityInGbs
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#compartment_id LustreFileStorageLustreFileSystem#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#compartment_id LustreFileStorageLustreFileSystem#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_name LustreFileStorageLustreFileSystem#file_system_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_name LustreFileStorageLustreFileSystem#file_system_name}.</summary>
         [JsiiProperty(name: "fileSystemName", typeJson: "{\"primitive\":\"string\"}")]
         string FileSystemName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#performance_tier LustreFileStorageLustreFileSystem#performance_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#performance_tier LustreFileStorageLustreFileSystem#performance_tier}.</summary>
         [JsiiProperty(name: "performanceTier", typeJson: "{\"primitive\":\"string\"}")]
         string PerformanceTier
         {
@@ -44,7 +44,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
         /// <summary>root_squash_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#root_squash_configuration LustreFileStorageLustreFileSystem#root_squash_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#root_squash_configuration LustreFileStorageLustreFileSystem#root_squash_configuration}
         /// </remarks>
         [JsiiProperty(name: "rootSquashConfiguration", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemRootSquashConfiguration\"}")]
         oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemRootSquashConfiguration RootSquashConfiguration
@@ -52,14 +52,14 @@ namespace oci.LustreFileStorageLustreFileSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#subnet_id LustreFileStorageLustreFileSystem#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#subnet_id LustreFileStorageLustreFileSystem#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#cluster_placement_group_id LustreFileStorageLustreFileSystem#cluster_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#cluster_placement_group_id LustreFileStorageLustreFileSystem#cluster_placement_group_id}.</summary>
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterPlacementGroupId
@@ -70,7 +70,21 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#defined_tags LustreFileStorageLustreFileSystem#defined_tags}.</summary>
+        /// <summary>date_time_details block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#date_time_details LustreFileStorageLustreFileSystem#date_time_details}
+        /// </remarks>
+        [JsiiProperty(name: "dateTimeDetails", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetails\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails? DateTimeDetails
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#defined_tags LustreFileStorageLustreFileSystem#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -81,7 +95,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#display_name LustreFileStorageLustreFileSystem#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#display_name LustreFileStorageLustreFileSystem#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -92,7 +106,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_description LustreFileStorageLustreFileSystem#file_system_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_description LustreFileStorageLustreFileSystem#file_system_description}.</summary>
         [JsiiProperty(name: "fileSystemDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FileSystemDescription
@@ -103,7 +117,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#freeform_tags LustreFileStorageLustreFileSystem#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#freeform_tags LustreFileStorageLustreFileSystem#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -114,7 +128,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#id LustreFileStorageLustreFileSystem#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#id LustreFileStorageLustreFileSystem#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,7 +143,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#kms_key_id LustreFileStorageLustreFileSystem#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#kms_key_id LustreFileStorageLustreFileSystem#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyId
@@ -140,7 +154,21 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#nsg_ids LustreFileStorageLustreFileSystem#nsg_ids}.</summary>
+        /// <summary>maintenance_window block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#maintenance_window LustreFileStorageLustreFileSystem#maintenance_window}
+        /// </remarks>
+        [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindow\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow? MaintenanceWindow
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#nsg_ids LustreFileStorageLustreFileSystem#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -151,7 +179,18 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#system_tags LustreFileStorageLustreFileSystem#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#override_maintenance_trigger LustreFileStorageLustreFileSystem#override_maintenance_trigger}.</summary>
+        [JsiiProperty(name: "overrideMaintenanceTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? OverrideMaintenanceTrigger
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#system_tags LustreFileStorageLustreFileSystem#system_tags}.</summary>
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -164,7 +203,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#timeouts LustreFileStorageLustreFileSystem#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#timeouts LustreFileStorageLustreFileSystem#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -183,35 +222,35 @@ namespace oci.LustreFileStorageLustreFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#availability_domain LustreFileStorageLustreFileSystem#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#availability_domain LustreFileStorageLustreFileSystem#availability_domain}.</summary>
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityDomain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#capacity_in_gbs LustreFileStorageLustreFileSystem#capacity_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#capacity_in_gbs LustreFileStorageLustreFileSystem#capacity_in_gbs}.</summary>
             [JsiiProperty(name: "capacityInGbs", typeJson: "{\"primitive\":\"number\"}")]
             public double CapacityInGbs
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#compartment_id LustreFileStorageLustreFileSystem#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#compartment_id LustreFileStorageLustreFileSystem#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_name LustreFileStorageLustreFileSystem#file_system_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_name LustreFileStorageLustreFileSystem#file_system_name}.</summary>
             [JsiiProperty(name: "fileSystemName", typeJson: "{\"primitive\":\"string\"}")]
             public string FileSystemName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#performance_tier LustreFileStorageLustreFileSystem#performance_tier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#performance_tier LustreFileStorageLustreFileSystem#performance_tier}.</summary>
             [JsiiProperty(name: "performanceTier", typeJson: "{\"primitive\":\"string\"}")]
             public string PerformanceTier
             {
@@ -220,7 +259,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
             /// <summary>root_squash_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#root_squash_configuration LustreFileStorageLustreFileSystem#root_squash_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#root_squash_configuration LustreFileStorageLustreFileSystem#root_squash_configuration}
             /// </remarks>
             [JsiiProperty(name: "rootSquashConfiguration", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemRootSquashConfiguration\"}")]
             public oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemRootSquashConfiguration RootSquashConfiguration
@@ -228,14 +267,14 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemRootSquashConfiguration>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#subnet_id LustreFileStorageLustreFileSystem#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#subnet_id LustreFileStorageLustreFileSystem#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#cluster_placement_group_id LustreFileStorageLustreFileSystem#cluster_placement_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#cluster_placement_group_id LustreFileStorageLustreFileSystem#cluster_placement_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterPlacementGroupId
@@ -243,7 +282,18 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#defined_tags LustreFileStorageLustreFileSystem#defined_tags}.</summary>
+            /// <summary>date_time_details block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#date_time_details LustreFileStorageLustreFileSystem#date_time_details}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "dateTimeDetails", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetails\"}", isOptional: true)]
+            public oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails? DateTimeDetails
+            {
+                get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemDateTimeDetails?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#defined_tags LustreFileStorageLustreFileSystem#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -251,7 +301,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#display_name LustreFileStorageLustreFileSystem#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#display_name LustreFileStorageLustreFileSystem#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -259,7 +309,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_description LustreFileStorageLustreFileSystem#file_system_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_description LustreFileStorageLustreFileSystem#file_system_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fileSystemDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FileSystemDescription
@@ -267,7 +317,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#freeform_tags LustreFileStorageLustreFileSystem#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#freeform_tags LustreFileStorageLustreFileSystem#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -275,7 +325,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#id LustreFileStorageLustreFileSystem#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#id LustreFileStorageLustreFileSystem#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -287,7 +337,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#kms_key_id LustreFileStorageLustreFileSystem#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#kms_key_id LustreFileStorageLustreFileSystem#kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyId
@@ -295,7 +345,18 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#nsg_ids LustreFileStorageLustreFileSystem#nsg_ids}.</summary>
+            /// <summary>maintenance_window block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#maintenance_window LustreFileStorageLustreFileSystem#maintenance_window}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindow\"}", isOptional: true)]
+            public oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow? MaintenanceWindow
+            {
+                get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemMaintenanceWindow?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#nsg_ids LustreFileStorageLustreFileSystem#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -303,7 +364,15 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#system_tags LustreFileStorageLustreFileSystem#system_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#override_maintenance_trigger LustreFileStorageLustreFileSystem#override_maintenance_trigger}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "overrideMaintenanceTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? OverrideMaintenanceTrigger
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#system_tags LustreFileStorageLustreFileSystem#system_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -313,7 +382,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/lustre_file_storage_lustre_file_system#timeouts LustreFileStorageLustreFileSystem#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/lustre_file_storage_lustre_file_system#timeouts LustreFileStorageLustreFileSystem#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTimeouts\"}", isOptional: true)]
@@ -324,6 +393,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -334,6 +404,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -384,6 +455,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

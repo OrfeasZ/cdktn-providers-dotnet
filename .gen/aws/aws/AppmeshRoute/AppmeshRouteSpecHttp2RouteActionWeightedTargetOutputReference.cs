@@ -83,6 +83,9 @@ namespace aws.AppmeshRoute
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppmeshRoute.IAppmeshRouteSpecHttp2RouteActionWeightedTarget" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttp2RouteActionWeightedTarget\"}]}}", isOptional: true)]
         public virtual object? InternalValue

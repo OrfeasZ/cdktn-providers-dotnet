@@ -41,6 +41,9 @@ namespace cloudflare.MagicTransitSiteLan
             return InvokeInstanceMethod<cloudflare.MagicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptionsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

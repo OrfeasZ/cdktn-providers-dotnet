@@ -41,6 +41,9 @@ namespace scaleway.EdgeServicesTlsStage
             return InvokeInstanceMethod<scaleway.EdgeServicesTlsStage.EdgeServicesTlsStageSecretsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

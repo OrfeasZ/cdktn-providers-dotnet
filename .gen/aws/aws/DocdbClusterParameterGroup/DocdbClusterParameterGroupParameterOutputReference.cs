@@ -83,6 +83,9 @@ namespace aws.DocdbClusterParameterGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DocdbClusterParameterGroup.IDocdbClusterParameterGroupParameter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

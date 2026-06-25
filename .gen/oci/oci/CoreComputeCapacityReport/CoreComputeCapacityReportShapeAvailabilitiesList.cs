@@ -41,6 +41,9 @@ namespace oci.CoreComputeCapacityReport
             return InvokeInstanceMethod<oci.CoreComputeCapacityReport.CoreComputeCapacityReportShapeAvailabilitiesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreComputeCapacityReport.ICoreComputeCapacityReportShapeAvailabilities" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreComputeCapacityReport.CoreComputeCapacityReportShapeAvailabilities\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

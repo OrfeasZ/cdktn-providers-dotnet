@@ -49,6 +49,9 @@ namespace aws.DevopsguruResourceCollection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionCloudformation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation\"}]}}", isOptional: true)]
         public virtual object? InternalValue

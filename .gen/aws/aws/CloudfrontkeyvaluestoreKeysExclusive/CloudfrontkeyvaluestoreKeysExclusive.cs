@@ -46,6 +46,7 @@ namespace aws.CloudfrontkeyvaluestoreKeysExclusive
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudfrontkeyvaluestoreKeysExclusive.CloudfrontkeyvaluestoreKeysExclusive), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontkeyvaluestoreKeysExclusive.ICloudfrontkeyvaluestoreKeysExclusiveResourceKeyValuePair" />)[]</param>
         [JsiiMethod(name: "putResourceKeyValuePair", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontkeyvaluestoreKeysExclusive.CloudfrontkeyvaluestoreKeysExclusiveResourceKeyValuePair\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceKeyValuePair(object @value)
         {
@@ -126,6 +127,9 @@ namespace aws.CloudfrontkeyvaluestoreKeysExclusive
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontkeyvaluestoreKeysExclusive.ICloudfrontkeyvaluestoreKeysExclusiveResourceKeyValuePair" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceKeyValuePairInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontkeyvaluestoreKeysExclusive.CloudfrontkeyvaluestoreKeysExclusiveResourceKeyValuePair\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceKeyValuePairInput

@@ -113,6 +113,9 @@ namespace scaleway.RedisCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RedisCluster.IRedisClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.redisCluster.RedisClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

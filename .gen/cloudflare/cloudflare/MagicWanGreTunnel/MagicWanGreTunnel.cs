@@ -162,6 +162,9 @@ namespace cloudflare.MagicWanGreTunnel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticReturnRoutingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutomaticReturnRoutingInput
@@ -169,6 +172,9 @@ namespace cloudflare.MagicWanGreTunnel
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicWanGreTunnel.IMagicWanGreTunnelBgp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanGreTunnel.MagicWanGreTunnelBgp\"}]}}", isOptional: true)]
         public virtual object? BgpInput
@@ -197,6 +203,9 @@ namespace cloudflare.MagicWanGreTunnel
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicWanGreTunnel.IMagicWanGreTunnelHealthCheck" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheckInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanGreTunnel.MagicWanGreTunnelHealthCheck\"}]}}", isOptional: true)]
         public virtual object? HealthCheckInput
@@ -246,6 +255,9 @@ namespace cloudflare.MagicWanGreTunnel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "automaticReturnRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutomaticReturnRouting
         {

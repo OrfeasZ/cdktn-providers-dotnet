@@ -33,6 +33,7 @@ namespace oci.EventsRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.EventsRule.IEventsRuleActionsActions" />)[]</param>
         [JsiiMethod(name: "putActions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.eventsRule.EventsRuleActionsActions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutActions(object @value)
         {
@@ -62,6 +63,9 @@ namespace oci.EventsRule
             get => GetInstanceProperty<oci.EventsRule.EventsRuleActionsActionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.EventsRule.IEventsRuleActionsActions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.eventsRule.EventsRuleActionsActions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActionsInput

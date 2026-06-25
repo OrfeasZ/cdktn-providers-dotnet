@@ -46,6 +46,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndex), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexKeySchema" />)[]</param>
         [JsiiMethod(name: "putKeySchema", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexKeySchema\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKeySchema(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexOnDemandThroughput" />)[]</param>
         [JsiiMethod(name: "putOnDemandThroughput", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexOnDemandThroughput\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOnDemandThroughput(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexProjection" />)[]</param>
         [JsiiMethod(name: "putProjection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexProjection\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProjection(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.DynamodbGlobalSecondaryIndex
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexProvisionedThroughput" />)[]</param>
         [JsiiMethod(name: "putProvisionedThroughput", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexProvisionedThroughput\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProvisionedThroughput(object @value)
         {
@@ -260,6 +264,9 @@ namespace aws.DynamodbGlobalSecondaryIndex
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexKeySchema" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keySchemaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexKeySchema\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KeySchemaInput
@@ -267,6 +274,9 @@ namespace aws.DynamodbGlobalSecondaryIndex
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexOnDemandThroughput" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onDemandThroughputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexOnDemandThroughput\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OnDemandThroughputInput
@@ -274,6 +284,9 @@ namespace aws.DynamodbGlobalSecondaryIndex
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexProjection" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexProjection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProjectionInput
@@ -281,6 +294,9 @@ namespace aws.DynamodbGlobalSecondaryIndex
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexProvisionedThroughput" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedThroughputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexProvisionedThroughput\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProvisionedThroughputInput
@@ -302,6 +318,9 @@ namespace aws.DynamodbGlobalSecondaryIndex
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -309,6 +328,9 @@ namespace aws.DynamodbGlobalSecondaryIndex
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DynamodbGlobalSecondaryIndex.IDynamodbGlobalSecondaryIndexWarmThroughput" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "warmThroughputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dynamodbGlobalSecondaryIndex.DynamodbGlobalSecondaryIndexWarmThroughput\"}]}}", isOptional: true)]
         public virtual object? WarmThroughputInput

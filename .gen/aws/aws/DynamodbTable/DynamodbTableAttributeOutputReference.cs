@@ -63,6 +63,9 @@ namespace aws.DynamodbTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DynamodbTable.IDynamodbTableAttribute" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dynamodbTable.DynamodbTableAttribute\"}]}}", isOptional: true)]
         public virtual object? InternalValue

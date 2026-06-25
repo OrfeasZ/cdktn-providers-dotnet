@@ -46,6 +46,7 @@ namespace aws.ObservabilityadminS3TableIntegration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ObservabilityadminS3TableIntegration.ObservabilityadminS3TableIntegration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ObservabilityadminS3TableIntegration.IObservabilityadminS3TableIntegrationEncryption" />)[]</param>
         [JsiiMethod(name: "putEncryption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryption\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryption(object @value)
         {
@@ -148,6 +149,9 @@ namespace aws.ObservabilityadminS3TableIntegration
             get => GetInstanceProperty<aws.ObservabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ObservabilityadminS3TableIntegration.IObservabilityadminS3TableIntegrationEncryption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationEncryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionInput
@@ -176,6 +180,9 @@ namespace aws.ObservabilityadminS3TableIntegration
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ObservabilityadminS3TableIntegration.IObservabilityadminS3TableIntegrationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.observabilityadminS3TableIntegration.ObservabilityadminS3TableIntegrationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

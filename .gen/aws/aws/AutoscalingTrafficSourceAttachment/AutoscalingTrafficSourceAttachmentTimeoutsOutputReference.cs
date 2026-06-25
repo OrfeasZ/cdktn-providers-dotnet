@@ -73,6 +73,9 @@ namespace aws.AutoscalingTrafficSourceAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AutoscalingTrafficSourceAttachment.IAutoscalingTrafficSourceAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.autoscalingTrafficSourceAttachment.AutoscalingTrafficSourceAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

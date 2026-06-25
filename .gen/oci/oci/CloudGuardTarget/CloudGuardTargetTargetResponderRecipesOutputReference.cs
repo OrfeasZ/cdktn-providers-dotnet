@@ -35,6 +35,7 @@ namespace oci.CloudGuardTarget
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRules" />)[]</param>
         [JsiiMethod(name: "putResponderRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipesResponderRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResponderRules(object @value)
         {
@@ -125,6 +126,9 @@ namespace oci.CloudGuardTarget
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responderRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipesResponderRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResponderRulesInput
@@ -139,6 +143,9 @@ namespace oci.CloudGuardTarget
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

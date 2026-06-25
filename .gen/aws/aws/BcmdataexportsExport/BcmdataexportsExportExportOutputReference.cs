@@ -35,6 +35,7 @@ namespace aws.BcmdataexportsExport
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDataQuery" />)[]</param>
         [JsiiMethod(name: "putDataQuery", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDataQuery\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataQuery(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.BcmdataexportsExport
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurations" />)[]</param>
         [JsiiMethod(name: "putDestinationConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDestinationConfigurations(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.BcmdataexportsExport
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportRefreshCadence" />)[]</param>
         [JsiiMethod(name: "putRefreshCadence", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadence\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRefreshCadence(object @value)
         {
@@ -152,6 +155,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<aws.BcmdataexportsExport.BcmdataexportsExportExportRefreshCadenceList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDataQuery" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataQueryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDataQuery\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataQueryInput
@@ -166,6 +172,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DestinationConfigurationsInput
@@ -180,6 +189,9 @@ namespace aws.BcmdataexportsExport
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportRefreshCadence" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshCadenceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadence\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RefreshCadenceInput
@@ -201,6 +213,9 @@ namespace aws.BcmdataexportsExport
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExport" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExport\"}]}}", isOptional: true)]
         public virtual object? InternalValue

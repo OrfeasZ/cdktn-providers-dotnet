@@ -53,6 +53,9 @@ namespace aws.DataexchangeRevisionAssets
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataexchangeRevisionAssets.DataexchangeRevisionAssetsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

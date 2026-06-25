@@ -46,6 +46,7 @@ namespace aws.AuditmanagerControl
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AuditmanagerControl.AuditmanagerControl), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSources" />)[]</param>
         [JsiiMethod(name: "putControlMappingSources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutControlMappingSources(object @value)
         {
@@ -174,6 +175,9 @@ namespace aws.AuditmanagerControl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "controlMappingSourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerControl.AuditmanagerControlControlMappingSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ControlMappingSourcesInput

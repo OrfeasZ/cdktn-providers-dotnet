@@ -41,6 +41,9 @@ namespace oci.DataOciCorePeerRegionForRemotePeerings
             return InvokeInstanceMethod<oci.DataOciCorePeerRegionForRemotePeerings.DataOciCorePeerRegionForRemotePeeringsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCorePeerRegionForRemotePeerings.IDataOciCorePeerRegionForRemotePeeringsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCorePeerRegionForRemotePeerings.DataOciCorePeerRegionForRemotePeeringsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

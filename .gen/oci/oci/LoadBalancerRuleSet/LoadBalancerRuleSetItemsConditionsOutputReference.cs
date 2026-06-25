@@ -83,6 +83,9 @@ namespace oci.LoadBalancerRuleSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsConditions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsConditions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

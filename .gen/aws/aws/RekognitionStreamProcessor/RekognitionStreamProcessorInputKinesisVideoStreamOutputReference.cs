@@ -49,6 +49,9 @@ namespace aws.RekognitionStreamProcessor
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorInputKinesisVideoStream" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStream\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DataOciCloudBridgeAssetSources
             return InvokeInstanceMethod<oci.DataOciCloudBridgeAssetSources.DataOciCloudBridgeAssetSourcesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudBridgeAssetSources.IDataOciCloudBridgeAssetSourcesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudBridgeAssetSources.DataOciCloudBridgeAssetSourcesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

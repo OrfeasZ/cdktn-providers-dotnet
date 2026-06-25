@@ -93,6 +93,9 @@ namespace aws.ShieldApplicationLayerAutomaticResponse
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ShieldApplicationLayerAutomaticResponse.IShieldApplicationLayerAutomaticResponseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.shieldApplicationLayerAutomaticResponse.ShieldApplicationLayerAutomaticResponseTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

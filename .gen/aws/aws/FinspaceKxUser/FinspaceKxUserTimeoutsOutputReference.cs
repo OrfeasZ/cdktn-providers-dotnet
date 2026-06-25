@@ -93,6 +93,9 @@ namespace aws.FinspaceKxUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxUser.IFinspaceKxUserTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxUser.FinspaceKxUserTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

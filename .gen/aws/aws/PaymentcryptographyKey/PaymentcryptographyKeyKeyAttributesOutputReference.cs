@@ -35,6 +35,7 @@ namespace aws.PaymentcryptographyKey
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributesKeyModesOfUse" />)[]</param>
         [JsiiMethod(name: "putKeyModesOfUse", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUse\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKeyModesOfUse(object @value)
         {
@@ -84,6 +85,9 @@ namespace aws.PaymentcryptographyKey
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributesKeyModesOfUse" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyModesOfUseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUse\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KeyModesOfUseInput
@@ -119,6 +123,9 @@ namespace aws.PaymentcryptographyKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

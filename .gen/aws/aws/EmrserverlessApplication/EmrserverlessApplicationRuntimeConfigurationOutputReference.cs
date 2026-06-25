@@ -69,6 +69,9 @@ namespace aws.EmrserverlessApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrserverlessApplication.IEmrserverlessApplicationRuntimeConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrserverlessApplication.EmrserverlessApplicationRuntimeConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

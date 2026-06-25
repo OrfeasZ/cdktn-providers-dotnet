@@ -51,6 +51,7 @@ namespace aws.CustomerprofilesDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingExportingConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingMatchingRules" />)[]</param>
         [JsiiMethod(name: "putMatchingRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatchingRules(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.CustomerprofilesDomain
             get => GetInstanceProperty<aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingConflictResolution?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -168,6 +172,9 @@ namespace aws.CustomerprofilesDomain
             get => GetInstanceProperty<aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingExportingConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingMatchingRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchingRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchingRulesInput
@@ -196,6 +203,9 @@ namespace aws.CustomerprofilesDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

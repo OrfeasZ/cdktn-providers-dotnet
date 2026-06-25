@@ -10,6 +10,7 @@ namespace aws.DataAwsGlueScript
         /// <summary>args block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/glue_script#args DataAwsGlueScript#args}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "args", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs\"},\"kind\":\"array\"}}]}}")]
         object Args
@@ -56,6 +57,7 @@ namespace aws.DataAwsGlueScript
             /// <summary>args block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/glue_script#args DataAwsGlueScript#args}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "args", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs\"},\"kind\":\"array\"}}]}}")]
             public object Args

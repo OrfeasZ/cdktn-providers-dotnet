@@ -77,6 +77,9 @@ namespace oci.ManagementAgentNamedCredential
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ManagementAgentNamedCredential.IManagementAgentNamedCredentialProperties" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.managementAgentNamedCredential.ManagementAgentNamedCredentialProperties\"}]}}", isOptional: true)]
         public virtual object? InternalValue

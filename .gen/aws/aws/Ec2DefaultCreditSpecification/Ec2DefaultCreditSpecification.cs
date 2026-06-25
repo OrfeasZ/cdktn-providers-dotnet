@@ -110,6 +110,9 @@ namespace aws.Ec2DefaultCreditSpecification
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2DefaultCreditSpecification.IEc2DefaultCreditSpecificationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

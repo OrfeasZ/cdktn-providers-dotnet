@@ -71,6 +71,12 @@ namespace oci.DataOciMysqlMysqlBackup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "databaseConsole", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotDatabaseConsoleList\"}")]
+        public virtual oci.DataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotDatabaseConsoleList DatabaseConsole
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotDatabaseConsoleList>()!;
+        }
+
         [JsiiProperty(name: "databaseManagement", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DatabaseManagement
         {
@@ -155,6 +161,12 @@ namespace oci.DataOciMysqlMysqlBackup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ipv6Address
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isHighlyAvailable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsHighlyAvailable
         {
@@ -231,6 +243,12 @@ namespace oci.DataOciMysqlMysqlBackup
         public virtual string SubnetId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotTelemetryConfigurationList\"}")]
+        public virtual oci.DataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotTelemetryConfigurationList TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotTelemetryConfigurationList>()!;
         }
 
         [JsiiOptional]

@@ -35,6 +35,7 @@ namespace oci.CloudGuardTarget
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipesDetectorRules" />)[]</param>
         [JsiiMethod(name: "putDetectorRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetDetectorRecipesDetectorRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDetectorRules(object @value)
         {
@@ -143,6 +144,9 @@ namespace oci.CloudGuardTarget
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipesDetectorRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "detectorRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetDetectorRecipesDetectorRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DetectorRulesInput
@@ -157,6 +161,9 @@ namespace oci.CloudGuardTarget
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetDetectorRecipes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             return InvokeInstanceMethod<oci.DataOciDataSafeMaskingAnalytics.DataOciDataSafeMaskingAnalyticsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingAnalytics.IDataOciDataSafeMaskingAnalyticsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeMaskingAnalytics.DataOciDataSafeMaskingAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

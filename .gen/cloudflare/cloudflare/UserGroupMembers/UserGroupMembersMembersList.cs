@@ -41,6 +41,9 @@ namespace cloudflare.UserGroupMembers
             return InvokeInstanceMethod<cloudflare.UserGroupMembers.UserGroupMembersMembersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.userGroupMembers.UserGroupMembersMembers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

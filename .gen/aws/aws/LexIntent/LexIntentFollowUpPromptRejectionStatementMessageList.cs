@@ -41,6 +41,9 @@ namespace aws.LexIntent
             return InvokeInstanceMethod<aws.LexIntent.LexIntentFollowUpPromptRejectionStatementMessageOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentFollowUpPromptRejectionStatementMessage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -100,6 +100,9 @@ namespace aws.ApprunnerService
             get => GetInstanceProperty<aws.ApprunnerService.IApprunnerServiceSourceConfigurationAuthenticationConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoDeploymentsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AutoDeploymentsEnabledInput
@@ -121,6 +124,9 @@ namespace aws.ApprunnerService
             get => GetInstanceProperty<aws.ApprunnerService.IApprunnerServiceSourceConfigurationImageRepository?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "autoDeploymentsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AutoDeploymentsEnabled
         {

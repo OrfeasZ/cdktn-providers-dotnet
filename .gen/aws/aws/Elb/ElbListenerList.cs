@@ -41,6 +41,9 @@ namespace aws.Elb
             return InvokeInstanceMethod<aws.Elb.ElbListenerOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Elb.IElbListener" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elb.ElbListener\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

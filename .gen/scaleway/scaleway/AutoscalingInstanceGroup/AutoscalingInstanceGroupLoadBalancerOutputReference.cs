@@ -95,6 +95,9 @@ namespace scaleway.AutoscalingInstanceGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupLoadBalancer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupLoadBalancer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

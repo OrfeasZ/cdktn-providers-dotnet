@@ -127,6 +127,9 @@ namespace aws.Resourceexplorer2Index
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Resourceexplorer2Index.IResourceexplorer2IndexTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resourceexplorer2Index.Resourceexplorer2IndexTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

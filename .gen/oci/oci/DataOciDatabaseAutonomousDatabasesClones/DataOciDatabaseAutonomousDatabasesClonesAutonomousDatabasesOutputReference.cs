@@ -71,6 +71,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "autonomousDatabaseMaintenanceWindow", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesAutonomousDatabaseMaintenanceWindowList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesAutonomousDatabaseMaintenanceWindowList AutonomousDatabaseMaintenanceWindow
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesAutonomousDatabaseMaintenanceWindowList>()!;
+        }
+
         [JsiiProperty(name: "autonomousMaintenanceScheduleType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AutonomousMaintenanceScheduleType
         {
@@ -275,6 +281,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesEncryptionKeyHistoryEntryList>()!;
         }
 
+        [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesEncryptionKeyLocationDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesEncryptionKeyLocationDetailsList EncryptionKeyLocationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesEncryptionKeyLocationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "failedDataRecoveryInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double FailedDataRecoveryInSeconds
         {
@@ -447,6 +459,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
         public virtual double LocalAdgAutoFailoverMaxDataLossLimit
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "localAdgResourcePoolLeaderId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LocalAdgResourcePoolLeaderId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "localDisasterRecoveryType", typeJson: "{\"primitive\":\"string\"}")]
@@ -725,6 +743,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeMaintenancePauseUntil", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeMaintenancePauseUntil
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeOfAutoRefreshStart", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeOfAutoRefreshStart
         {
@@ -807,6 +831,18 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
         public virtual double UsedDataStorageSizeInTbs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "vanityConnectionUrls", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesVanityConnectionUrlsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesVanityConnectionUrlsList VanityConnectionUrls
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesVanityConnectionUrlsList>()!;
+        }
+
+        [JsiiProperty(name: "vanityUrlDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesVanityUrlDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesVanityUrlDetailsList VanityUrlDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabasesClones.DataOciDatabaseAutonomousDatabasesClonesAutonomousDatabasesVanityUrlDetailsList>()!;
         }
 
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]

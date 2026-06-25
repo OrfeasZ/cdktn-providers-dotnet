@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.MysqlMysqlDbSystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system}.</summary>
     [JsiiClass(nativeType: typeof(oci.MysqlMysqlDbSystem.MysqlMysqlDbSystem), fullyQualifiedName: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemConfig\"}}]")]
     public class MysqlMysqlDbSystem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public MysqlMysqlDbSystem(Constructs.Construct scope, string id, oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.MysqlMysqlDbSystem
         /// <param name="importToId">The construct id used in the generated config for the MysqlMysqlDbSystem to import.</param>
         /// <param name="importFromId">The id of the existing MysqlMysqlDbSystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the MysqlMysqlDbSystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MysqlMysqlDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_mysql_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MysqlMysqlDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MysqlMysqlDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MysqlMysqlDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_mysql_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MysqlMysqlDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MysqlMysqlDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.MysqlMysqlDbSystem.MysqlMysqlDbSystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,6 +52,7 @@ namespace oci.MysqlMysqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemBackupPolicy)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemCustomerContacts" />)[]</param>
         [JsiiMethod(name: "putCustomerContacts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemCustomerContacts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomerContacts(object @value)
         {
@@ -75,12 +76,19 @@ namespace oci.MysqlMysqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putDatabaseConsole", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDatabaseConsole\"}}]")]
+        public virtual void PutDatabaseConsole(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDatabaseConsole @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDatabaseConsole)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putDataStorage", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDataStorage\"}}]")]
         public virtual void PutDataStorage(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDataStorage @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDataStorage)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDeletionPolicy" />)[]</param>
         [JsiiMethod(name: "putDeletionPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDeletionPolicy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDeletionPolicy(object @value)
         {
@@ -108,6 +116,12 @@ namespace oci.MysqlMysqlDbSystem
         public virtual void PutEncryptData(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemEncryptData @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemEncryptData)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putIpv6AddressIpv6SubnetCidrPairDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetails\"}}]")]
+        public virtual void PutIpv6AddressIpv6SubnetCidrPairDetails(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetails)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMaintenance", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenance\"}}]")]
@@ -138,6 +152,12 @@ namespace oci.MysqlMysqlDbSystem
         public virtual void PutSource(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSource @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSource)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTelemetryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfiguration\"}}]")]
+        public virtual void PutTelemetryConfiguration(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfiguration)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTimeouts\"}}]")]
@@ -184,6 +204,12 @@ namespace oci.MysqlMysqlDbSystem
 
         [JsiiMethod(name: "resetCustomerContacts")]
         public virtual void ResetCustomerContacts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDatabaseConsole")]
+        public virtual void ResetDatabaseConsole()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -272,8 +298,20 @@ namespace oci.MysqlMysqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIpv6AddressIpv6SubnetCidrPairDetails")]
+        public virtual void ResetIpv6AddressIpv6SubnetCidrPairDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsHighlyAvailable")]
         public virtual void ResetIsHighlyAvailable()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsIpv6Enabled")]
+        public virtual void ResetIsIpv6Enabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -350,6 +388,12 @@ namespace oci.MysqlMysqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTelemetryConfiguration")]
+        public virtual void ResetTelemetryConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -399,6 +443,12 @@ namespace oci.MysqlMysqlDbSystem
             get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemCustomerContactsList>()!;
         }
 
+        [JsiiProperty(name: "databaseConsole", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDatabaseConsoleOutputReference\"}")]
+        public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemDatabaseConsoleOutputReference DatabaseConsole
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemDatabaseConsoleOutputReference>()!;
+        }
+
         [JsiiProperty(name: "dataStorage", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDataStorageOutputReference\"}")]
         public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemDataStorageOutputReference DataStorage
         {
@@ -427,6 +477,12 @@ namespace oci.MysqlMysqlDbSystem
         public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemHeatWaveClusterList HeatWaveCluster
         {
             get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemHeatWaveClusterList>()!;
+        }
+
+        [JsiiProperty(name: "ipv6AddressIpv6SubnetCidrPairDetails", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetailsOutputReference\"}")]
+        public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetailsOutputReference Ipv6AddressIpv6SubnetCidrPairDetails
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetailsOutputReference>()!;
         }
 
         [JsiiProperty(name: "isHeatWaveClusterAttached", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -481,6 +537,12 @@ namespace oci.MysqlMysqlDbSystem
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfigurationOutputReference\"}")]
+        public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfigurationOutputReference TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfigurationOutputReference>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
@@ -557,11 +619,21 @@ namespace oci.MysqlMysqlDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemCustomerContacts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerContactsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemCustomerContacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomerContactsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "databaseConsoleInput", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDatabaseConsole\"}", isOptional: true)]
+        public virtual oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDatabaseConsole? DatabaseConsoleInput
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDatabaseConsole?>();
         }
 
         [JsiiOptional]
@@ -599,6 +671,9 @@ namespace oci.MysqlMysqlDbSystem
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemDeletionPolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deletionPolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemDeletionPolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DeletionPolicyInput
@@ -663,8 +738,28 @@ namespace oci.MysqlMysqlDbSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "ipv6AddressIpv6SubnetCidrPairDetailsInput", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetails\"}", isOptional: true)]
+        public virtual oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetails? Ipv6AddressIpv6SubnetCidrPairDetailsInput
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetails?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "isHighlyAvailableInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsHighlyAvailableInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isIpv6EnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsIpv6EnabledInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -767,6 +862,16 @@ namespace oci.MysqlMysqlDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "telemetryConfigurationInput", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfiguration\"}", isOptional: true)]
+        public virtual oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfiguration? TelemetryConfigurationInput
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfiguration?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -900,8 +1005,41 @@ namespace oci.MysqlMysqlDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isHighlyAvailable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsHighlyAvailable
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isIpv6Enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsIpv6Enabled
         {
             get => GetInstanceProperty<object>()!;
             set

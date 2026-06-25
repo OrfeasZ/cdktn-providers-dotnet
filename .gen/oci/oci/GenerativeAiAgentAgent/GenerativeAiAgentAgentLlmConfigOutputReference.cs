@@ -45,6 +45,12 @@ namespace oci.GenerativeAiAgentAgent
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRuntimeVersion")]
+        public virtual void ResetRuntimeVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "routingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgent.GenerativeAiAgentAgentLlmConfigRoutingLlmCustomizationOutputReference\"}")]
         public virtual oci.GenerativeAiAgentAgent.GenerativeAiAgentAgentLlmConfigRoutingLlmCustomizationOutputReference RoutingLlmCustomization
         {
@@ -56,6 +62,20 @@ namespace oci.GenerativeAiAgentAgent
         public virtual oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentLlmConfigRoutingLlmCustomization? RoutingLlmCustomizationInput
         {
             get => GetInstanceProperty<oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentLlmConfigRoutingLlmCustomization?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "runtimeVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RuntimeVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]

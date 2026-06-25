@@ -35,6 +35,7 @@ namespace aws.RedshiftIdcApplication
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery" />)[]</param>
         [JsiiMethod(name: "putLakeFormationQuery", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLakeFormationQuery(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<aws.RedshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQueryList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lakeFormationQueryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LakeFormationQueryInput
@@ -77,6 +81,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationLakeFormation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationLakeFormation\"}]}}", isOptional: true)]
         public virtual object? InternalValue

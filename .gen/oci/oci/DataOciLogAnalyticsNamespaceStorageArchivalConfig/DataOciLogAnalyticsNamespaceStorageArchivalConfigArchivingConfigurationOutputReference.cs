@@ -47,6 +47,12 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageArchivalConfig
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeOldestActiveBucketEnded", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeOldestActiveBucketEnded
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciLogAnalyticsNamespaceStorageArchivalConfig.DataOciLogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration\"}", isOptional: true)]
         public virtual oci.DataOciLogAnalyticsNamespaceStorageArchivalConfig.IDataOciLogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration? InternalValue

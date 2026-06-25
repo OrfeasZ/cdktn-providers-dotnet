@@ -10,6 +10,7 @@ namespace aws.EksCapability
         /// <summary>aws_idc block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdAwsIdc" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "awsIdc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,6 +36,7 @@ namespace aws.EksCapability
         /// <summary>network_access block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#network_access EksCapability#network_access}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdNetworkAccess" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "networkAccess", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,6 +51,7 @@ namespace aws.EksCapability
         /// <summary>rbac_role_mapping block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#rbac_role_mapping EksCapability#rbac_role_mapping}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMapping" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rbacRoleMapping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,6 +73,7 @@ namespace aws.EksCapability
             /// <summary>aws_idc block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#aws_idc EksCapability#aws_idc}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdAwsIdc" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "awsIdc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -89,6 +93,7 @@ namespace aws.EksCapability
             /// <summary>network_access block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#network_access EksCapability#network_access}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdNetworkAccess" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkAccess", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -100,6 +105,7 @@ namespace aws.EksCapability
             /// <summary>rbac_role_mapping block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_capability#rbac_role_mapping EksCapability#rbac_role_mapping}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMapping" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rbacRoleMapping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]

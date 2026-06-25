@@ -73,6 +73,9 @@ namespace aws.DbInstanceAutomatedBackupsReplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DbInstanceAutomatedBackupsReplication.IDbInstanceAutomatedBackupsReplicationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplicationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

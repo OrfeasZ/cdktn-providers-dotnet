@@ -33,6 +33,7 @@ namespace cloudflare.AiSearchInstance
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy" />)[]</param>
         [JsiiMethod(name: "putBoostBy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostBy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBoostBy(object @value)
         {
@@ -74,6 +75,9 @@ namespace cloudflare.AiSearchInstance
             get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceRetrievalOptionsBoostByList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "boostByInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptionsBoostBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BoostByInput
@@ -95,6 +99,9 @@ namespace cloudflare.AiSearchInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

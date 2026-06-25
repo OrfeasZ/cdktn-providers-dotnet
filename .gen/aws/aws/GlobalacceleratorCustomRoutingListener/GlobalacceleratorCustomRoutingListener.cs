@@ -46,6 +46,7 @@ namespace aws.GlobalacceleratorCustomRoutingListener
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlobalacceleratorCustomRoutingListener.GlobalacceleratorCustomRoutingListener), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorCustomRoutingListener.IGlobalacceleratorCustomRoutingListenerPortRange" />)[]</param>
         [JsiiMethod(name: "putPortRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorCustomRoutingListener.GlobalacceleratorCustomRoutingListenerPortRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortRange(object @value)
         {
@@ -138,6 +139,9 @@ namespace aws.GlobalacceleratorCustomRoutingListener
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorCustomRoutingListener.IGlobalacceleratorCustomRoutingListenerPortRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorCustomRoutingListener.GlobalacceleratorCustomRoutingListenerPortRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortRangeInput
@@ -145,6 +149,9 @@ namespace aws.GlobalacceleratorCustomRoutingListener
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlobalacceleratorCustomRoutingListener.IGlobalacceleratorCustomRoutingListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.globalacceleratorCustomRoutingListener.GlobalacceleratorCustomRoutingListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

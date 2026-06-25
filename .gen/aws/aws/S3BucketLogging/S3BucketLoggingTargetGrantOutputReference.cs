@@ -68,6 +68,9 @@ namespace aws.S3BucketLogging
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketLogging.IS3BucketLoggingTargetGrant" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketLogging.S3BucketLoggingTargetGrant\"}]}}", isOptional: true)]
         public virtual object? InternalValue

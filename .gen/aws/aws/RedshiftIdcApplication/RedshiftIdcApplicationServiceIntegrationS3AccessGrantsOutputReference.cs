@@ -35,6 +35,7 @@ namespace aws.RedshiftIdcApplication
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess" />)[]</param>
         [JsiiMethod(name: "putReadWriteAccess", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReadWriteAccess(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<aws.RedshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccessList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "readWriteAccessInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReadWriteAccessInput
@@ -77,6 +81,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationS3AccessGrants" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationS3AccessGrants\"}]}}", isOptional: true)]
         public virtual object? InternalValue

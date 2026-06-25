@@ -41,6 +41,9 @@ namespace aws.CeCostCategory
             return InvokeInstanceMethod<aws.CeCostCategory.CeCostCategorySplitChargeRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategorySplitChargeRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategorySplitChargeRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

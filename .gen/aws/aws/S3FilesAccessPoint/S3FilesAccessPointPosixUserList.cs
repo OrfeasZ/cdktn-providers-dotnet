@@ -41,6 +41,9 @@ namespace aws.S3FilesAccessPoint
             return InvokeInstanceMethod<aws.S3FilesAccessPoint.S3FilesAccessPointPosixUserOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointPosixUser" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointPosixUser\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

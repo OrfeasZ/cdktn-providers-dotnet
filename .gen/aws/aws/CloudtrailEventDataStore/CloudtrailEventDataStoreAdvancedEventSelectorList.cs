@@ -41,6 +41,9 @@ namespace aws.CloudtrailEventDataStore
             return InvokeInstanceMethod<aws.CloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudtrailEventDataStore.ICloudtrailEventDataStoreAdvancedEventSelector" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelector\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

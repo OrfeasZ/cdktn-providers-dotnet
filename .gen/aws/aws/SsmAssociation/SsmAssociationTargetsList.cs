@@ -41,6 +41,9 @@ namespace aws.SsmAssociation
             return InvokeInstanceMethod<aws.SsmAssociation.SsmAssociationTargetsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmAssociation.ISsmAssociationTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmAssociation.SsmAssociationTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

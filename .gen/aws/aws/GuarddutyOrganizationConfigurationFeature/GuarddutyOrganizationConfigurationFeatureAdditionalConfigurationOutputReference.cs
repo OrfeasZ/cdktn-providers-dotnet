@@ -63,6 +63,9 @@ namespace aws.GuarddutyOrganizationConfigurationFeature
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GuarddutyOrganizationConfigurationFeature.IGuarddutyOrganizationConfigurationFeatureAdditionalConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.guarddutyOrganizationConfigurationFeature.GuarddutyOrganizationConfigurationFeatureAdditionalConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

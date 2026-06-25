@@ -33,6 +33,7 @@ namespace aws.FsxOpenzfsVolume
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxOpenzfsVolume.IFsxOpenzfsVolumeNfsExportsClientConfigurations" />)[]</param>
         [JsiiMethod(name: "putClientConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutClientConfigurations(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.FsxOpenzfsVolume
             get => GetInstanceProperty<aws.FsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxOpenzfsVolume.IFsxOpenzfsVolumeNfsExportsClientConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ClientConfigurationsInput

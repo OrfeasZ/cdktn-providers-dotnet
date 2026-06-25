@@ -35,6 +35,7 @@ namespace aws.EksCapability
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMappingIdentity" />)[]</param>
         [JsiiMethod(name: "putIdentity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIdentity(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<aws.EksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMappingIdentity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IdentityInput
@@ -91,6 +95,9 @@ namespace aws.EksCapability
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMapping" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping\"}]}}", isOptional: true)]
         public virtual object? InternalValue

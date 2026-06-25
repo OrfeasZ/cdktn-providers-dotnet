@@ -33,6 +33,7 @@ namespace libvirt.Network
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardAddresses" />)[]</param>
         [JsiiMethod(name: "putAddresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardAddresses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAddresses(object @value)
         {
@@ -62,6 +63,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Network.INetworkForwardDriver)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardInterfaces" />)[]</param>
         [JsiiMethod(name: "putInterfaces", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardInterfaces\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInterfaces(object @value)
         {
@@ -91,6 +93,7 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Network.INetworkForwardNat)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardPfs" />)[]</param>
         [JsiiMethod(name: "putPfs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardPfs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPfs(object @value)
         {
@@ -192,6 +195,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkForwardPfsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardAddresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addressesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardAddresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AddressesInput
@@ -206,6 +212,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForwardDriver" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "driverInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForwardDriver\"}]}}", isOptional: true)]
         public virtual object? DriverInput
@@ -213,6 +222,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardInterfaces" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interfacesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardInterfaces\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InterfacesInput
@@ -220,6 +232,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ManagedInput
@@ -234,6 +249,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForwardNat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "natInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForwardNat\"}]}}", isOptional: true)]
         public virtual object? NatInput
@@ -241,6 +259,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardPfs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pfsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardPfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PfsInput
@@ -255,6 +276,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "managed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Managed
         {
@@ -289,6 +313,9 @@ namespace libvirt.Network
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkForward" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkForward\"}]}}", isOptional: true)]
         public virtual object? InternalValue

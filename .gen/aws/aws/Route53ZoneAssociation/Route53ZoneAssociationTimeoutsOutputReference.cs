@@ -73,6 +73,9 @@ namespace aws.Route53ZoneAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ZoneAssociation.IRoute53ZoneAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ZoneAssociation.Route53ZoneAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

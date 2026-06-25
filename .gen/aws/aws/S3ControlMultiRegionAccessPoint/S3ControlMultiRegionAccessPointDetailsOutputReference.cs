@@ -39,6 +39,7 @@ namespace aws.S3ControlMultiRegionAccessPoint
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointDetailsPublicAccessBlock)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointDetailsRegion" />)[]</param>
         [JsiiMethod(name: "putRegion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsRegion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegion(object @value)
         {
@@ -94,6 +95,9 @@ namespace aws.S3ControlMultiRegionAccessPoint
             get => GetInstanceProperty<aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointDetailsPublicAccessBlock?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlMultiRegionAccessPoint.IS3ControlMultiRegionAccessPointDetailsRegion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsRegion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegionInput

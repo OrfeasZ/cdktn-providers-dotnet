@@ -22,6 +22,7 @@ namespace aws.BedrockagentDataSource
         /// <summary>transformation_function block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagent_data_source#transformation_function BedrockagentDataSource#transformation_function}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationCustomTransformationConfigurationTransformationTransformationFunction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transformationFunction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationCustomTransformationConfigurationTransformationTransformationFunction\"},\"kind\":\"array\"}}]}}", isOptional: true)]

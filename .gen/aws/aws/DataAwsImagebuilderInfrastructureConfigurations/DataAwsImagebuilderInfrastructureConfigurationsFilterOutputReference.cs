@@ -63,6 +63,9 @@ namespace aws.DataAwsImagebuilderInfrastructureConfigurations
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsImagebuilderInfrastructureConfigurations.IDataAwsImagebuilderInfrastructureConfigurationsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsImagebuilderInfrastructureConfigurations.DataAwsImagebuilderInfrastructureConfigurationsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

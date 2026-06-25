@@ -52,6 +52,7 @@ namespace aws.CloudwatchMetricAlarm
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationCriteria)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmMetricQuery" />)[]</param>
         [JsiiMethod(name: "putMetricQuery", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmMetricQuery\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetricQuery(object @value)
         {
@@ -268,6 +269,9 @@ namespace aws.CloudwatchMetricAlarm
             get => GetInstanceProperty<aws.CloudwatchMetricAlarm.CloudwatchMetricAlarmMetricQueryList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ActionsEnabledInput
@@ -373,6 +377,9 @@ namespace aws.CloudwatchMetricAlarm
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmMetricQuery" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricQueryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmMetricQuery\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetricQueryInput
@@ -457,6 +464,9 @@ namespace aws.CloudwatchMetricAlarm
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "actionsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ActionsEnabled
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubLifecycleEnvironments.DataOciOsManagementHubLifecycleEnvironmentsConfig")]
     public class DataOciOsManagementHubLifecycleEnvironmentsConfig : oci.DataOciOsManagementHubLifecycleEnvironments.IDataOciOsManagementHubLifecycleEnvironmentsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#arch_type DataOciOsManagementHubLifecycleEnvironments#arch_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#arch_type DataOciOsManagementHubLifecycleEnvironments#arch_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "archType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArchType
@@ -16,7 +16,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#compartment_id DataOciOsManagementHubLifecycleEnvironments#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#compartment_id DataOciOsManagementHubLifecycleEnvironments#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#display_name DataOciOsManagementHubLifecycleEnvironments#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#display_name DataOciOsManagementHubLifecycleEnvironments#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DisplayName
@@ -34,7 +34,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#display_name_contains DataOciOsManagementHubLifecycleEnvironments#display_name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#display_name_contains DataOciOsManagementHubLifecycleEnvironments#display_name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayNameContains
@@ -47,7 +47,8 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#filter DataOciOsManagementHubLifecycleEnvironments#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#filter DataOciOsManagementHubLifecycleEnvironments#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubLifecycleEnvironments.IDataOciOsManagementHubLifecycleEnvironmentsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOsManagementHubLifecycleEnvironments.DataOciOsManagementHubLifecycleEnvironmentsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -77,7 +78,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#id DataOciOsManagementHubLifecycleEnvironments#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#id DataOciOsManagementHubLifecycleEnvironments#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +91,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#lifecycle_environment_id DataOciOsManagementHubLifecycleEnvironments#lifecycle_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#lifecycle_environment_id DataOciOsManagementHubLifecycleEnvironments#lifecycle_environment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleEnvironmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleEnvironmentId
@@ -99,7 +100,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#location DataOciOsManagementHubLifecycleEnvironments#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#location DataOciOsManagementHubLifecycleEnvironments#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Location
@@ -108,7 +109,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#location_not_equal_to DataOciOsManagementHubLifecycleEnvironments#location_not_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#location_not_equal_to DataOciOsManagementHubLifecycleEnvironments#location_not_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "locationNotEqualTo", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? LocationNotEqualTo
@@ -117,7 +118,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#os_family DataOciOsManagementHubLifecycleEnvironments#os_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#os_family DataOciOsManagementHubLifecycleEnvironments#os_family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "osFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OsFamily
@@ -126,7 +127,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_lifecycle_environments#state DataOciOsManagementHubLifecycleEnvironments#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_lifecycle_environments#state DataOciOsManagementHubLifecycleEnvironments#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -139,6 +140,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -172,6 +174,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -266,6 +269,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironments
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -41,6 +41,9 @@ namespace aws.BedrockagentcoreHarness
             return InvokeInstanceMethod<aws.BedrockagentcoreHarness.BedrockagentcoreHarnessSystemPromptOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessSystemPrompt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSystemPrompt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

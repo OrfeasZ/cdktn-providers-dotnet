@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsEntityTypes.DataOciLogAnalyticsLogAnalyticsEntityTypesConfig")]
     public class DataOciLogAnalyticsLogAnalyticsEntityTypesConfig : oci.DataOciLogAnalyticsLogAnalyticsEntityTypes.IDataOciLogAnalyticsLogAnalyticsEntityTypesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#namespace DataOciLogAnalyticsLogAnalyticsEntityTypes#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#namespace DataOciLogAnalyticsLogAnalyticsEntityTypes#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#cloud_type DataOciLogAnalyticsLogAnalyticsEntityTypes#cloud_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#cloud_type DataOciLogAnalyticsLogAnalyticsEntityTypes#cloud_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudType
@@ -30,7 +30,8 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#filter DataOciLogAnalyticsLogAnalyticsEntityTypes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#filter DataOciLogAnalyticsLogAnalyticsEntityTypes#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLogAnalyticsLogAnalyticsEntityTypes.IDataOciLogAnalyticsLogAnalyticsEntityTypesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciLogAnalyticsLogAnalyticsEntityTypes.DataOciLogAnalyticsLogAnalyticsEntityTypesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -60,7 +61,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#id DataOciLogAnalyticsLogAnalyticsEntityTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#id DataOciLogAnalyticsLogAnalyticsEntityTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +74,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -82,7 +83,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#name_contains DataOciLogAnalyticsLogAnalyticsEntityTypes#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#name_contains DataOciLogAnalyticsLogAnalyticsEntityTypes#name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameContains
@@ -91,7 +92,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#state DataOciLogAnalyticsLogAnalyticsEntityTypes#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/log_analytics_log_analytics_entity_types#state DataOciLogAnalyticsLogAnalyticsEntityTypes#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -104,6 +105,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -137,6 +139,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -231,6 +234,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

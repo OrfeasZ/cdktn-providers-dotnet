@@ -46,6 +46,7 @@ namespace aws.ConfigConformancePack
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ConfigConformancePack.ConfigConformancePack), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConformancePack.IConfigConformancePackInputParameter" />)[]</param>
         [JsiiMethod(name: "putInputParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConformancePack.ConfigConformancePackInputParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInputParameter(object @value)
         {
@@ -163,6 +164,9 @@ namespace aws.ConfigConformancePack
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConformancePack.IConfigConformancePackInputParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConformancePack.ConfigConformancePackInputParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InputParameterInput

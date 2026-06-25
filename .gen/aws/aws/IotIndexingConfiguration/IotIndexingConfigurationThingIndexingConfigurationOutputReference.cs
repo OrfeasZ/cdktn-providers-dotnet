@@ -33,6 +33,7 @@ namespace aws.IotIndexingConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationCustomField" />)[]</param>
         [JsiiMethod(name: "putCustomField", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationCustomField\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomField(object @value)
         {
@@ -62,6 +63,7 @@ namespace aws.IotIndexingConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationFilter)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationManagedField" />)[]</param>
         [JsiiMethod(name: "putManagedField", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationManagedField\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutManagedField(object @value)
         {
@@ -139,6 +141,9 @@ namespace aws.IotIndexingConfiguration
             get => GetInstanceProperty<aws.IotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationManagedFieldList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationCustomField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customFieldInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationCustomField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomFieldInput
@@ -160,6 +165,9 @@ namespace aws.IotIndexingConfiguration
             get => GetInstanceProperty<aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationFilter?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingIndexingConfigurationManagedField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedFieldInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationManagedField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ManagedFieldInput

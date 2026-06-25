@@ -46,6 +46,7 @@ namespace aws.AppfabricAppAuthorizationConnection
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorizationConnection.IAppfabricAppAuthorizationConnectionAuthRequest" />)[]</param>
         [JsiiMethod(name: "putAuthRequest", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionAuthRequest\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthRequest(object @value)
         {
@@ -156,6 +157,9 @@ namespace aws.AppfabricAppAuthorizationConnection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorizationConnection.IAppfabricAppAuthorizationConnectionAuthRequest" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authRequestInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionAuthRequest\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthRequestInput
@@ -170,6 +174,9 @@ namespace aws.AppfabricAppAuthorizationConnection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppfabricAppAuthorizationConnection.IAppfabricAppAuthorizationConnectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

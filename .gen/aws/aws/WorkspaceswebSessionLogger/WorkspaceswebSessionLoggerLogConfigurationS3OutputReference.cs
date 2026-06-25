@@ -117,6 +117,9 @@ namespace aws.WorkspaceswebSessionLogger
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfigurationS3" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.NeptuneClusterParameterGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.NeptuneClusterParameterGroup.NeptuneClusterParameterGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NeptuneClusterParameterGroup.INeptuneClusterParameterGroupParameter" />)[]</param>
         [JsiiMethod(name: "putParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.neptuneClusterParameterGroup.NeptuneClusterParameterGroupParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameter(object @value)
         {
@@ -183,6 +184,9 @@ namespace aws.NeptuneClusterParameterGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NeptuneClusterParameterGroup.INeptuneClusterParameterGroupParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.neptuneClusterParameterGroup.NeptuneClusterParameterGroupParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterInput

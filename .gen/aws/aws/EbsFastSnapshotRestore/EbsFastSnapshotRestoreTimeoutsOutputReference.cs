@@ -73,6 +73,9 @@ namespace aws.EbsFastSnapshotRestore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EbsFastSnapshotRestore.IEbsFastSnapshotRestoreTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

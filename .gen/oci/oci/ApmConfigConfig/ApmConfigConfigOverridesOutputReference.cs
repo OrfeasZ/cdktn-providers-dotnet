@@ -33,6 +33,7 @@ namespace oci.ApmConfigConfig
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigOverridesOverrideListStruct" />)[]</param>
         [JsiiMethod(name: "putOverrideList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigOverridesOverrideListStruct\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOverrideList(object @value)
         {
@@ -68,6 +69,9 @@ namespace oci.ApmConfigConfig
             get => GetInstanceProperty<oci.ApmConfigConfig.ApmConfigConfigOverridesOverrideListStructList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigOverridesOverrideListStruct" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigOverridesOverrideListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OverrideListInput

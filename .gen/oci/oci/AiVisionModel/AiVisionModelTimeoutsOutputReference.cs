@@ -93,6 +93,9 @@ namespace oci.AiVisionModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiVisionModel.IAiVisionModelTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiVisionModel.AiVisionModelTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

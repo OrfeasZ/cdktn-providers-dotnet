@@ -41,6 +41,9 @@ namespace oci.OcvpSddc
             return InvokeInstanceMethod<oci.OcvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

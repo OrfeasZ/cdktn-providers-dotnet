@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.FusionAppsFusionEnvironment
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment}.</summary>
     [JsiiClass(nativeType: typeof(oci.FusionAppsFusionEnvironment.FusionAppsFusionEnvironment), fullyQualifiedName: "oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironment", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentConfig\"}}]")]
     public class FusionAppsFusionEnvironment : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fusion_apps_fusion_environment oci_fusion_apps_fusion_environment} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public FusionAppsFusionEnvironment(Constructs.Construct scope, string id, oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace oci.FusionAppsFusionEnvironment
         /// <param name="importToId">The construct id used in the generated config for the FusionAppsFusionEnvironment to import.</param>
         /// <param name="importFromId">The id of the existing FusionAppsFusionEnvironment that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the FusionAppsFusionEnvironment to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FusionAppsFusionEnvironment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/fusion_apps_fusion_environment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FusionAppsFusionEnvironment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FusionAppsFusionEnvironment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FusionAppsFusionEnvironment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/fusion_apps_fusion_environment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FusionAppsFusionEnvironment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FusionAppsFusionEnvironment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.FusionAppsFusionEnvironment.FusionAppsFusionEnvironment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentAdditionalEgressRules" />)[]</param>
+        [JsiiMethod(name: "putAdditionalEgressRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentAdditionalEgressRules\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAdditionalEgressRules(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentAdditionalEgressRules[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentAdditionalEgressRules).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentAdditionalEgressRules).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putCreateFusionEnvironmentAdminUserDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentCreateFusionEnvironmentAdminUserDetails\"}}]")]
@@ -58,6 +82,7 @@ namespace oci.FusionAppsFusionEnvironment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentMaintenancePolicy)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -85,6 +110,12 @@ namespace oci.FusionAppsFusionEnvironment
         public virtual void PutTimeouts(oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAdditionalEgressRules")]
+        public virtual void ResetAdditionalEgressRules()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetAdditionalLanguagePacks")]
@@ -165,6 +196,12 @@ namespace oci.FusionAppsFusionEnvironment
             get;
         }
         = GetStaticProperty<string>(typeof(oci.FusionAppsFusionEnvironment.FusionAppsFusionEnvironment))!;
+
+        [JsiiProperty(name: "additionalEgressRules", typeJson: "{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentAdditionalEgressRulesList\"}")]
+        public virtual oci.FusionAppsFusionEnvironment.FusionAppsFusionEnvironmentAdditionalEgressRulesList AdditionalEgressRules
+        {
+            get => GetInstanceProperty<oci.FusionAppsFusionEnvironment.FusionAppsFusionEnvironmentAdditionalEgressRulesList>()!;
+        }
 
         [JsiiProperty(name: "appliedPatchBundles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AppliedPatchBundles
@@ -286,6 +323,16 @@ namespace oci.FusionAppsFusionEnvironment
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentAdditionalEgressRules" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "additionalEgressRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentAdditionalEgressRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AdditionalEgressRulesInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "additionalLanguagePacksInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? AdditionalLanguagePacksInput
@@ -356,6 +403,9 @@ namespace oci.FusionAppsFusionEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIpv6DualStackEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIpv6DualStackEnabledInput
@@ -377,6 +427,9 @@ namespace oci.FusionAppsFusionEnvironment
             get => GetInstanceProperty<oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentMaintenancePolicy?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput
@@ -384,6 +437,9 @@ namespace oci.FusionAppsFusionEnvironment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -454,6 +510,9 @@ namespace oci.FusionAppsFusionEnvironment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIpv6DualStackEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIpv6DualStackEnabled
         {

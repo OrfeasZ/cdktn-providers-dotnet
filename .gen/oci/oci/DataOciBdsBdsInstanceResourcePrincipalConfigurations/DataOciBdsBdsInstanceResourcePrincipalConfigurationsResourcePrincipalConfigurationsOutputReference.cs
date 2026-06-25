@@ -65,6 +65,12 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfigurations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sessionTokenLifeSpanDurationInHours", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double SessionTokenLifeSpanDurationInHours
         {

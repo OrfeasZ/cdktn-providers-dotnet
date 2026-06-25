@@ -33,6 +33,7 @@ namespace oci.OsManagementHubScheduledJob
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsDisable" />)[]</param>
         [JsiiMethod(name: "putDisable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsDisable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDisable(object @value)
         {
@@ -56,6 +57,7 @@ namespace oci.OsManagementHubScheduledJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsEnable" />)[]</param>
         [JsiiMethod(name: "putEnable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsEnable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnable(object @value)
         {
@@ -79,6 +81,7 @@ namespace oci.OsManagementHubScheduledJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsInstall" />)[]</param>
         [JsiiMethod(name: "putInstall", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsInstall\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstall(object @value)
         {
@@ -102,6 +105,7 @@ namespace oci.OsManagementHubScheduledJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsRemove" />)[]</param>
         [JsiiMethod(name: "putRemove", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsRemove\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRemove(object @value)
         {
@@ -173,6 +177,9 @@ namespace oci.OsManagementHubScheduledJob
             get => GetInstanceProperty<oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsRemoveList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsDisable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsDisable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DisableInput
@@ -180,6 +187,9 @@ namespace oci.OsManagementHubScheduledJob
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsEnable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsEnable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnableInput
@@ -187,6 +197,9 @@ namespace oci.OsManagementHubScheduledJob
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsInstall" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "installInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsInstall\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstallInput
@@ -194,6 +207,9 @@ namespace oci.OsManagementHubScheduledJob
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsRemove" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "removeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsRemove\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RemoveInput

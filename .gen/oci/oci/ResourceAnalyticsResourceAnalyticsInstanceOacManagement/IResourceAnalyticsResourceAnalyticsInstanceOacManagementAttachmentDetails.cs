@@ -7,7 +7,29 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
     [JsiiInterface(nativeType: typeof(IResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails), fullyQualifiedName: "oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails")]
     public interface IResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#idcs_domain_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#idcs_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#capacity_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#capacity_type}.</summary>
+        [JsiiProperty(name: "capacityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CapacityType
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#capacity_value ResourceAnalyticsResourceAnalyticsInstanceOacManagement#capacity_value}.</summary>
+        [JsiiProperty(name: "capacityValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? CapacityValue
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#idcs_domain_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#idcs_domain_id}.</summary>
         [JsiiProperty(name: "idcsDomainId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdcsDomainId
@@ -18,7 +40,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#license_model ResourceAnalyticsResourceAnalyticsInstanceOacManagement#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#license_model ResourceAnalyticsResourceAnalyticsInstanceOacManagement#license_model}.</summary>
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseModel
@@ -31,7 +53,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
 
         /// <summary>network_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#network_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#network_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#network_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#network_details}
         /// </remarks>
         [JsiiProperty(name: "networkDetails", typeJson: "{\"fqn\":\"oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetailsNetworkDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +65,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -54,7 +76,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -72,7 +94,23 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#idcs_domain_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#idcs_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#capacity_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#capacity_type}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "capacityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CapacityType
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#capacity_value ResourceAnalyticsResourceAnalyticsInstanceOacManagement#capacity_value}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "capacityValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? CapacityValue
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#idcs_domain_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#idcs_domain_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "idcsDomainId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdcsDomainId
@@ -80,7 +118,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#license_model ResourceAnalyticsResourceAnalyticsInstanceOacManagement#license_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#license_model ResourceAnalyticsResourceAnalyticsInstanceOacManagement#license_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseModel
@@ -90,7 +128,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
 
             /// <summary>network_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#network_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#network_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#network_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#network_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkDetails", typeJson: "{\"fqn\":\"oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetailsNetworkDetails\"}", isOptional: true)]
@@ -99,7 +137,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
                 get => GetInstanceProperty<oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement.IResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetailsNetworkDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -107,7 +145,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId

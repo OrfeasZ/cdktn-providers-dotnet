@@ -1,0 +1,496 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.IdentityDomainsIdentityProofingProvider
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider oci_identity_domains_identity_proofing_provider}.</summary>
+    [JsiiClass(nativeType: typeof(oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProvider), fullyQualifiedName: "oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProvider", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfig\"}}]")]
+    public class IdentityDomainsIdentityProofingProvider : Io.Cdktn.TerraformResource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider oci_identity_domains_identity_proofing_provider} Resource.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public IdentityDomainsIdentityProofingProvider(Constructs.Construct scope, string id, oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfig config): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfig config)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected IdentityDomainsIdentityProofingProvider(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected IdentityDomainsIdentityProofingProvider(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a IdentityDomainsIdentityProofingProvider resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsIdentityProofingProvider to import.</param>
+        /// <param name="importFromId">The id of the existing IdentityDomainsIdentityProofingProvider that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the IdentityDomainsIdentityProofingProvider to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsIdentityProofingProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_identity_proofing_provider#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsIdentityProofingProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsIdentityProofingProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProvider), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderClaimMapping" />)[]</param>
+        [JsiiMethod(name: "putClaimMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderClaimMapping\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutClaimMapping(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderClaimMapping[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderClaimMapping).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderClaimMapping).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfiguration" />)[]</param>
+        [JsiiMethod(name: "putConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderRuntimeData" />)[]</param>
+        [JsiiMethod(name: "putRuntimeData", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderRuntimeData\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRuntimeData(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderRuntimeData[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderRuntimeData).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderRuntimeData).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderTimeouts\"}}]")]
+        public virtual void PutTimeouts(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAttributes")]
+        public virtual void ResetAttributes()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAttributeSets")]
+        public virtual void ResetAttributeSets()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAuthorization")]
+        public virtual void ResetAuthorization()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDescription")]
+        public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOcid")]
+        public virtual void ResetOcid()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetResourceTypeSchemaVersion")]
+        public virtual void ResetResourceTypeSchemaVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRuntimeData")]
+        public virtual void ResetRuntimeData()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStatus")]
+        public virtual void ResetStatus()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProvider))!;
+
+        [JsiiProperty(name: "claimMapping", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderClaimMappingList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderClaimMappingList ClaimMapping
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderClaimMappingList>()!;
+        }
+
+        [JsiiProperty(name: "compartmentOcid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CompartmentOcid
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfigurationList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfigurationList Configuration
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfigurationList>()!;
+        }
+
+        [JsiiProperty(name: "deleteInProgress", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable DeleteInProgress
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "domainOcid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DomainOcid
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "idcsCreatedBy", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsCreatedByList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsCreatedByList IdcsCreatedBy
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsCreatedByList>()!;
+        }
+
+        [JsiiProperty(name: "idcsLastModifiedBy", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsLastModifiedByList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsLastModifiedByList IdcsLastModifiedBy
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsLastModifiedByList>()!;
+        }
+
+        [JsiiProperty(name: "idcsLastUpgradedInRelease", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IdcsLastUpgradedInRelease
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "idcsLockedBy", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsLockedByList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsLockedByList IdcsLockedBy
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderIdcsLockedByList>()!;
+        }
+
+        [JsiiProperty(name: "idcsLockedOn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IdcsLockedOn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "idcsLockedOperations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] IdcsLockedOperations
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "idcsPreventedOperations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] IdcsPreventedOperations
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "meta", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderMetaList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderMetaList Meta
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderMetaList>()!;
+        }
+
+        [JsiiProperty(name: "runtimeData", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderRuntimeDataList\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderRuntimeDataList RuntimeData
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderRuntimeDataList>()!;
+        }
+
+        [JsiiProperty(name: "tenancyOcid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TenancyOcid
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderTimeoutsOutputReference\"}")]
+        public virtual oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<oci.IdentityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderTimeoutsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "attributeSetsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? AttributeSetsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "attributesInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AttributesInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "authorizationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AuthorizationInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderClaimMapping" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "claimMappingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderClaimMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ClaimMappingInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfiguration" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "configurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idcsEndpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdcsEndpointInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "identityProofingProviderProviderInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdentityProofingProviderProviderInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ocidInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OcidInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "resourceTypeSchemaVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ResourceTypeSchemaVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderRuntimeData" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "runtimeDataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderRuntimeData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RuntimeDataInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "schemasInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? SchemasInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "statusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StatusInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Attributes
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AttributeSets
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Authorization
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IdcsEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "identityProofingProviderProvider", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IdentityProofingProviderProvider
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ocid
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResourceTypeSchemaVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Schemas
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Status
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}

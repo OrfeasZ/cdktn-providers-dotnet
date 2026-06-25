@@ -53,6 +53,9 @@ namespace aws.DsqlClusterPeering
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DsqlClusterPeering.IDsqlClusterPeeringTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dsqlClusterPeering.DsqlClusterPeeringTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

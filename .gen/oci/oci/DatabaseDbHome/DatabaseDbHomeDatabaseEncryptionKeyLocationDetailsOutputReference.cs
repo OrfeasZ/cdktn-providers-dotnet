@@ -33,8 +33,20 @@ namespace oci.DatabaseDbHome
         {
         }
 
+        [JsiiMethod(name: "resetAwsEncryptionKeyId")]
+        public virtual void ResetAwsEncryptionKeyId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAzureEncryptionKeyId")]
         public virtual void ResetAzureEncryptionKeyId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetGoogleCloudProviderEncryptionKeyId")]
+        public virtual void ResetGoogleCloudProviderEncryptionKeyId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -46,8 +58,22 @@ namespace oci.DatabaseDbHome
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "awsEncryptionKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AwsEncryptionKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "azureEncryptionKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AzureEncryptionKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "googleCloudProviderEncryptionKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? GoogleCloudProviderEncryptionKeyIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -66,8 +92,22 @@ namespace oci.DatabaseDbHome
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsEncryptionKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AzureEncryptionKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GoogleCloudProviderEncryptionKeyId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

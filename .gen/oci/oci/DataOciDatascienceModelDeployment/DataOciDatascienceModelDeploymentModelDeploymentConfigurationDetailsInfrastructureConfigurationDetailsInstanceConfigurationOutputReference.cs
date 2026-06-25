@@ -47,6 +47,12 @@ namespace oci.DataOciDatascienceModelDeployment
             get => GetInstanceProperty<oci.DataOciDatascienceModelDeployment.DataOciDatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsInstanceConfigurationModelDeploymentInstanceShapeConfigDetailsList>()!;
         }
 
+        [JsiiProperty(name: "networkAccessType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkAccessType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrivateEndpointId
         {

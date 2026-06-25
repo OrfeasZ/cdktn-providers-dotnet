@@ -35,6 +35,7 @@ namespace aws.DataexchangeEventAction
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3" />)[]</param>
         [JsiiMethod(name: "putExportRevisionToS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExportRevisionToS3(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<aws.DataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3List>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exportRevisionToS3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExportRevisionToS3Input
@@ -77,6 +81,9 @@ namespace aws.DataexchangeEventAction
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataexchangeEventAction.IDataexchangeEventActionAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

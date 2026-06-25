@@ -41,6 +41,9 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
             return InvokeInstanceMethod<oci.DataOciResourcemanagerPrivateEndpoints.DataOciResourcemanagerPrivateEndpointsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciResourcemanagerPrivateEndpoints.IDataOciResourcemanagerPrivateEndpointsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciResourcemanagerPrivateEndpoints.DataOciResourcemanagerPrivateEndpointsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -87,6 +87,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesChannelsTargetXenOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesChannelsTargetGuestFwd" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "guestFwdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesChannelsTargetGuestFwd\"}]}}", isOptional: true)]
         public virtual object? GuestFwdInput
@@ -94,6 +97,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesChannelsTargetVirtIo" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtIoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesChannelsTargetVirtIo\"}]}}", isOptional: true)]
         public virtual object? VirtIoInput
@@ -101,6 +107,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesChannelsTargetXen" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesChannelsTargetXen\"}]}}", isOptional: true)]
         public virtual object? XenInput
@@ -108,6 +117,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesChannelsTarget" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesChannelsTarget\"}]}}", isOptional: true)]
         public virtual object? InternalValue

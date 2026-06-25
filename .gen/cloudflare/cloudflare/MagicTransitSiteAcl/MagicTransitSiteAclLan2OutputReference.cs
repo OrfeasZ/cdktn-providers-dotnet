@@ -127,6 +127,9 @@ namespace cloudflare.MagicTransitSiteAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteAcl.IMagicTransitSiteAclLan2" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteAcl.MagicTransitSiteAclLan2\"}]}}", isOptional: true)]
         public virtual object? InternalValue

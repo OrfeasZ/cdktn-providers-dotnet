@@ -7,7 +7,7 @@ namespace oci.CorePublicIpPoolCapacity
     [JsiiByValue(fqn: "oci.corePublicIpPoolCapacity.CorePublicIpPoolCapacityTimeouts")]
     public class CorePublicIpPoolCapacityTimeouts : oci.CorePublicIpPoolCapacity.ICorePublicIpPoolCapacityTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_public_ip_pool_capacity#create CorePublicIpPoolCapacity#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_public_ip_pool_capacity#create CorePublicIpPoolCapacity#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CorePublicIpPoolCapacity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_public_ip_pool_capacity#delete CorePublicIpPoolCapacity#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_public_ip_pool_capacity#delete CorePublicIpPoolCapacity#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CorePublicIpPoolCapacity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_public_ip_pool_capacity#update CorePublicIpPoolCapacity#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_public_ip_pool_capacity#update CorePublicIpPoolCapacity#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

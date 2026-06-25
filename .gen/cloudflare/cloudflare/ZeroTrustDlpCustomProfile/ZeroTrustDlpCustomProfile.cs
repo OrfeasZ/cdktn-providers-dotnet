@@ -52,6 +52,7 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileContextAwareness)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileEntries" />)[]</param>
         [JsiiMethod(name: "putEntries", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileEntries\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEntries(object @value)
         {
@@ -75,6 +76,7 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileSensitivityLevels" />)[]</param>
         [JsiiMethod(name: "putSensitivityLevels", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileSensitivityLevels\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSensitivityLevels(object @value)
         {
@@ -98,6 +100,7 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileSharedEntries" />)[]</param>
         [JsiiMethod(name: "putSharedEntries", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileSharedEntries\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSharedEntries(object @value)
         {
@@ -267,6 +270,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aiContextEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AiContextEnabledInput
@@ -288,6 +294,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileContextAwareness" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contextAwarenessInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileContextAwareness\"}]}}", isOptional: true)]
         public virtual object? ContextAwarenessInput
@@ -316,6 +325,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileEntries" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entriesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileEntries\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EntriesInput
@@ -330,6 +342,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ocrEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? OcrEnabledInput
@@ -337,6 +352,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileSensitivityLevels" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sensitivityLevelsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileSensitivityLevels\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SensitivityLevelsInput
@@ -344,6 +362,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileSharedEntries" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sharedEntriesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileSharedEntries\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SharedEntriesInput
@@ -358,6 +379,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "aiContextEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AiContextEnabled
         {
@@ -427,6 +451,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "ocrEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object OcrEnabled
         {

@@ -73,6 +73,9 @@ namespace aws.DmsS3Endpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DmsS3Endpoint.IDmsS3EndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dmsS3Endpoint.DmsS3EndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

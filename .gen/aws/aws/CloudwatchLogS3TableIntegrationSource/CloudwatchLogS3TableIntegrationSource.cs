@@ -46,6 +46,7 @@ namespace aws.CloudwatchLogS3TableIntegrationSource
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSource), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogS3TableIntegrationSource.ICloudwatchLogS3TableIntegrationSourceDataSource" />)[]</param>
         [JsiiMethod(name: "putDataSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceDataSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataSource(object @value)
         {
@@ -130,6 +131,9 @@ namespace aws.CloudwatchLogS3TableIntegrationSource
             get => GetInstanceProperty<aws.CloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogS3TableIntegrationSource.ICloudwatchLogS3TableIntegrationSourceDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataSourceInput
@@ -151,6 +155,9 @@ namespace aws.CloudwatchLogS3TableIntegrationSource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchLogS3TableIntegrationSource.ICloudwatchLogS3TableIntegrationSourceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchLogS3TableIntegrationSource.CloudwatchLogS3TableIntegrationSourceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseMigrationMigration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_migration_migration oci_database_migration_migration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration oci_database_migration_migration}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseMigrationMigration.DatabaseMigrationMigration), fullyQualifiedName: "oci.databaseMigrationMigration.DatabaseMigrationMigration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationConfig\"}}]")]
     public class DatabaseMigrationMigration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_migration_migration oci_database_migration_migration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration oci_database_migration_migration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseMigrationMigration(Constructs.Construct scope, string id, oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.DatabaseMigrationMigration
         /// <param name="importToId">The construct id used in the generated config for the DatabaseMigrationMigration to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseMigrationMigration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseMigrationMigration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseMigrationMigration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_migration_migration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseMigrationMigration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseMigrationMigration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseMigrationMigration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_migration_migration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseMigrationMigration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseMigrationMigration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseMigrationMigration.DatabaseMigrationMigration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationAdvancedParameters" />)[]</param>
         [JsiiMethod(name: "putAdvancedParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationAdvancedParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdvancedParameters(object @value)
         {
@@ -81,6 +82,7 @@ namespace oci.DatabaseMigrationMigration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationDataTransferMediumDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationExcludeObjects" />)[]</param>
         [JsiiMethod(name: "putExcludeObjects", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationExcludeObjects\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExcludeObjects(object @value)
         {
@@ -116,6 +118,7 @@ namespace oci.DatabaseMigrationMigration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationHubDetails)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationIncludeObjects" />)[]</param>
         [JsiiMethod(name: "putIncludeObjects", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationIncludeObjects\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIncludeObjects(object @value)
         {
@@ -159,6 +162,12 @@ namespace oci.DatabaseMigrationMigration
 
         [JsiiMethod(name: "resetAdvisorSettings")]
         public virtual void ResetAdvisorSettings()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAssessmentId")]
+        public virtual void ResetAssessmentId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -241,8 +250,20 @@ namespace oci.DatabaseMigrationMigration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSourceDatabaseConnectionId")]
+        public virtual void ResetSourceDatabaseConnectionId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSourceStandbyDatabaseConnectionId")]
         public virtual void ResetSourceStandbyDatabaseConnectionId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTargetDatabaseConnectionId")]
+        public virtual void ResetTargetDatabaseConnectionId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -374,6 +395,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationAdvancedParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "advancedParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationAdvancedParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdvancedParametersInput
@@ -386,6 +410,13 @@ namespace oci.DatabaseMigrationMigration
         public virtual oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationAdvisorSettings? AdvisorSettingsInput
         {
             get => GetInstanceProperty<oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationAdvisorSettings?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "assessmentIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AssessmentIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -437,6 +468,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationExcludeObjects" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludeObjectsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationExcludeObjects\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExcludeObjectsInput
@@ -472,6 +506,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationIncludeObjects" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeObjectsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationIncludeObjects\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IncludeObjectsInput
@@ -514,6 +551,9 @@ namespace oci.DatabaseMigrationMigration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -526,6 +566,13 @@ namespace oci.DatabaseMigrationMigration
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssessmentId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "bulkIncludeExcludeData", typeJson: "{\"primitive\":\"string\"}")]

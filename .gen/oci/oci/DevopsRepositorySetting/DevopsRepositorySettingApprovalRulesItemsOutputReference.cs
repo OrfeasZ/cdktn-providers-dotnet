@@ -35,6 +35,7 @@ namespace oci.DevopsRepositorySetting
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItemsReviewers" />)[]</param>
         [JsiiMethod(name: "putReviewers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItemsReviewers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReviewers(object @value)
         {
@@ -97,6 +98,9 @@ namespace oci.DevopsRepositorySetting
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItemsReviewers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reviewersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItemsReviewers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReviewersInput
@@ -125,6 +129,9 @@ namespace oci.DevopsRepositorySetting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

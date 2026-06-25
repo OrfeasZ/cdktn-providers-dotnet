@@ -93,6 +93,9 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LogAnalyticsNamespaceStorageEnableDisableArchiving.ILogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.logAnalyticsNamespaceStorageEnableDisableArchiving.LogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

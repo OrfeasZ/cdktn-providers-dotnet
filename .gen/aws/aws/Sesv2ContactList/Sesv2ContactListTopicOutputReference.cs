@@ -97,6 +97,9 @@ namespace aws.Sesv2ContactList
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Sesv2ContactList.ISesv2ContactListTopic" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sesv2ContactList.Sesv2ContactListTopic\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -89,6 +89,9 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct\"}]}}", isOptional: true)]
         public virtual object? InternalValue

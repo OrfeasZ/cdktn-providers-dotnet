@@ -46,6 +46,7 @@ namespace aws.WafregionalRateBasedRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafregionalRateBasedRule.WafregionalRateBasedRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalRateBasedRule.IWafregionalRateBasedRulePredicate" />)[]</param>
         [JsiiMethod(name: "putPredicate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPredicate(object @value)
         {
@@ -151,6 +152,9 @@ namespace aws.WafregionalRateBasedRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalRateBasedRule.IWafregionalRateBasedRulePredicate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "predicateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PredicateInput

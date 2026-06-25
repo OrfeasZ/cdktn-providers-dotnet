@@ -46,6 +46,7 @@ namespace aws.BedrockagentPrompt
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentPrompt.BedrockagentPrompt), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariant" />)[]</param>
         [JsiiMethod(name: "putVariant", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariant\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVariant(object @value)
         {
@@ -208,6 +209,9 @@ namespace aws.BedrockagentPrompt
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "variantInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VariantInput

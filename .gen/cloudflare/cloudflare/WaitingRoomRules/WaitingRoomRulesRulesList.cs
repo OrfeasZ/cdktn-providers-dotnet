@@ -41,6 +41,9 @@ namespace cloudflare.WaitingRoomRules
             return InvokeInstanceMethod<cloudflare.WaitingRoomRules.WaitingRoomRulesRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WaitingRoomRules.IWaitingRoomRulesRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.waitingRoomRules.WaitingRoomRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

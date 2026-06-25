@@ -33,6 +33,7 @@ namespace scaleway.ObjectBucketAcl
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucketAcl.IObjectBucketAclAccessControlPolicyGrant" />)[]</param>
         [JsiiMethod(name: "putGrant", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGrant(object @value)
         {
@@ -80,6 +81,9 @@ namespace scaleway.ObjectBucketAcl
             get => GetInstanceProperty<scaleway.ObjectBucketAcl.ObjectBucketAclAccessControlPolicyOwnerOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucketAcl.IObjectBucketAclAccessControlPolicyGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grantInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucketAcl.ObjectBucketAclAccessControlPolicyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GrantInput

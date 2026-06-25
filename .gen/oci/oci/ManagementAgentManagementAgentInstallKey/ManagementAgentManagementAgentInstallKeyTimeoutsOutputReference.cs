@@ -93,6 +93,9 @@ namespace oci.ManagementAgentManagementAgentInstallKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ManagementAgentManagementAgentInstallKey.IManagementAgentManagementAgentInstallKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.managementAgentManagementAgentInstallKey.ManagementAgentManagementAgentInstallKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

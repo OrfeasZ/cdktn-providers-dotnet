@@ -7,7 +7,7 @@ namespace oci.MysqlReplica
     [JsiiInterface(nativeType: typeof(IMysqlReplicaReplicaOverrides), fullyQualifiedName: "oci.mysqlReplica.MysqlReplicaReplicaOverrides")]
     public interface IMysqlReplicaReplicaOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#configuration_id MysqlReplica#configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#configuration_id MysqlReplica#configuration_id}.</summary>
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigurationId
@@ -18,7 +18,7 @@ namespace oci.MysqlReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#mysql_version MysqlReplica#mysql_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#mysql_version MysqlReplica#mysql_version}.</summary>
         [JsiiProperty(name: "mysqlVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MysqlVersion
@@ -29,7 +29,7 @@ namespace oci.MysqlReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#nsg_ids MysqlReplica#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#nsg_ids MysqlReplica#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -40,7 +40,7 @@ namespace oci.MysqlReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#security_attributes MysqlReplica#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#security_attributes MysqlReplica#security_attributes}.</summary>
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -51,10 +51,24 @@ namespace oci.MysqlReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#shape_name MysqlReplica#shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#shape_name MysqlReplica#shape_name}.</summary>
         [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShapeName
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>telemetry_configuration block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#telemetry_configuration MysqlReplica#telemetry_configuration}
+        /// </remarks>
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfiguration\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration? TelemetryConfiguration
         {
             get
             {
@@ -69,7 +83,7 @@ namespace oci.MysqlReplica
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#configuration_id MysqlReplica#configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#configuration_id MysqlReplica#configuration_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigurationId
@@ -77,7 +91,7 @@ namespace oci.MysqlReplica
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#mysql_version MysqlReplica#mysql_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#mysql_version MysqlReplica#mysql_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mysqlVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MysqlVersion
@@ -85,7 +99,7 @@ namespace oci.MysqlReplica
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#nsg_ids MysqlReplica#nsg_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#nsg_ids MysqlReplica#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -93,7 +107,7 @@ namespace oci.MysqlReplica
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#security_attributes MysqlReplica#security_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#security_attributes MysqlReplica#security_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -101,12 +115,23 @@ namespace oci.MysqlReplica
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/mysql_replica#shape_name MysqlReplica#shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#shape_name MysqlReplica#shape_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShapeName
             {
                 get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>telemetry_configuration block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/mysql_replica#telemetry_configuration MysqlReplica#telemetry_configuration}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfiguration\"}", isOptional: true)]
+            public oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration? TelemetryConfiguration
+            {
+                get => GetInstanceProperty<oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration?>();
             }
         }
     }

@@ -93,6 +93,9 @@ namespace aws.SpotInstanceRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SpotInstanceRequest.ISpotInstanceRequestTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.spotInstanceRequest.SpotInstanceRequestTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

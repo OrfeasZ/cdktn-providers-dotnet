@@ -123,6 +123,9 @@ namespace aws.S3ObjectCopy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3ObjectCopy.IS3ObjectCopyGrant" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3ObjectCopy.S3ObjectCopyGrant\"}]}}", isOptional: true)]
         public virtual object? InternalValue

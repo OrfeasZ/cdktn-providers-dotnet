@@ -41,6 +41,12 @@ namespace oci.DataOciCloudBridgeAssets
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "isCbtEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsCbtEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Location
         {

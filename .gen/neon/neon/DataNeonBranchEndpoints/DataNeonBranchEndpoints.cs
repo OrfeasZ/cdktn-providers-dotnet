@@ -46,6 +46,7 @@ namespace neon.DataNeonBranchEndpoints
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(neon.DataNeonBranchEndpoints.DataNeonBranchEndpoints), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchEndpoints.IDataNeonBranchEndpointsEndpoints" />)[]</param>
         [JsiiMethod(name: "putEndpoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchEndpoints.DataNeonBranchEndpointsEndpoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEndpoints(object @value)
         {
@@ -113,6 +114,9 @@ namespace neon.DataNeonBranchEndpoints
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchEndpoints.IDataNeonBranchEndpointsEndpoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchEndpoints.DataNeonBranchEndpointsEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EndpointsInput

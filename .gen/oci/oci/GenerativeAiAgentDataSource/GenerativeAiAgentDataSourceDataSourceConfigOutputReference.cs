@@ -33,6 +33,7 @@ namespace oci.GenerativeAiAgentDataSource
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentDataSource.IGenerativeAiAgentDataSourceDataSourceConfigObjectStoragePrefixes" />)[]</param>
         [JsiiMethod(name: "putObjectStoragePrefixes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.generativeAiAgentDataSource.GenerativeAiAgentDataSourceDataSourceConfigObjectStoragePrefixes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutObjectStoragePrefixes(object @value)
         {
@@ -69,6 +70,9 @@ namespace oci.GenerativeAiAgentDataSource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentDataSource.IGenerativeAiAgentDataSourceDataSourceConfigObjectStoragePrefixes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "objectStoragePrefixesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.generativeAiAgentDataSource.GenerativeAiAgentDataSourceDataSourceConfigObjectStoragePrefixes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ObjectStoragePrefixesInput

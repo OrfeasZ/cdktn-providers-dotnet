@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustDeviceDeploymentGroups
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroups), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceDeploymentGroups.IZeroTrustDeviceDeploymentGroupsVersionConfig" />)[]</param>
         [JsiiMethod(name: "putVersionConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsVersionConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVersionConfig(object @value)
         {
@@ -139,6 +140,9 @@ namespace cloudflare.ZeroTrustDeviceDeploymentGroups
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceDeploymentGroups.IZeroTrustDeviceDeploymentGroupsVersionConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "versionConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceDeploymentGroups.ZeroTrustDeviceDeploymentGroupsVersionConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VersionConfigInput

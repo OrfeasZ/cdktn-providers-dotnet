@@ -93,6 +93,9 @@ namespace aws.CloudfrontTrustStore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

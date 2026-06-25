@@ -7,21 +7,21 @@ namespace oci.ManagementAgentNamedCredential
     [JsiiInterface(nativeType: typeof(IManagementAgentNamedCredentialProperties), fullyQualifiedName: "oci.managementAgentNamedCredential.ManagementAgentNamedCredentialProperties")]
     public interface IManagementAgentNamedCredentialProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}.</summary>
         [JsiiProperty(name: "valueCategory", typeJson: "{\"primitive\":\"string\"}")]
         string ValueCategory
         {
@@ -35,21 +35,21 @@ namespace oci.ManagementAgentNamedCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}.</summary>
             [JsiiProperty(name: "valueCategory", typeJson: "{\"primitive\":\"string\"}")]
             public string ValueCategory
             {

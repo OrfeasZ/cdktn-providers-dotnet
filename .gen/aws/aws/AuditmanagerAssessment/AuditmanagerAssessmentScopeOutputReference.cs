@@ -35,6 +35,7 @@ namespace aws.AuditmanagerAssessment
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScopeAwsAccounts" />)[]</param>
         [JsiiMethod(name: "putAwsAccounts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsAccounts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsAccounts(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.AuditmanagerAssessment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScopeAwsServices" />)[]</param>
         [JsiiMethod(name: "putAwsServices", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServices\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsServices(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.AuditmanagerAssessment
             get => GetInstanceProperty<aws.AuditmanagerAssessment.AuditmanagerAssessmentScopeAwsServicesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScopeAwsAccounts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsAccounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsAccountsInput
@@ -112,6 +117,9 @@ namespace aws.AuditmanagerAssessment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScopeAwsServices" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsServicesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsServicesInput
@@ -119,6 +127,9 @@ namespace aws.AuditmanagerAssessment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScope" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScope\"}]}}", isOptional: true)]
         public virtual object? InternalValue

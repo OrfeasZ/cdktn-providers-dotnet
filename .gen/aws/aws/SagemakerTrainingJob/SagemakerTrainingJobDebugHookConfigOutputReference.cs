@@ -35,6 +35,7 @@ namespace aws.SagemakerTrainingJob
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugHookConfigCollectionConfigurations" />)[]</param>
         [JsiiMethod(name: "putCollectionConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobDebugHookConfigCollectionConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCollectionConfigurations(object @value)
         {
@@ -82,6 +83,9 @@ namespace aws.SagemakerTrainingJob
             get => GetInstanceProperty<aws.SagemakerTrainingJob.SagemakerTrainingJobDebugHookConfigCollectionConfigurationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugHookConfigCollectionConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "collectionConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobDebugHookConfigCollectionConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CollectionConfigurationsInput
@@ -131,6 +135,9 @@ namespace aws.SagemakerTrainingJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobDebugHookConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobDebugHookConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

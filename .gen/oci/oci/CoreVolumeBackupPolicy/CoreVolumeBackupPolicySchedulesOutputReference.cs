@@ -217,6 +217,9 @@ namespace oci.CoreVolumeBackupPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreVolumeBackupPolicy.ICoreVolumeBackupPolicySchedules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreVolumeBackupPolicy.CoreVolumeBackupPolicySchedules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

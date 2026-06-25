@@ -20,6 +20,9 @@ namespace aws.BcmdataexportsExport
         private object? _tableConfigurations;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bcmdataexports_export#table_configurations BcmdataexportsExport#table_configurations}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tableConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
         public object? TableConfigurations

@@ -35,6 +35,7 @@ namespace aws.BedrockagentAgentActionGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupApiSchemaS3" />)[]</param>
         [JsiiMethod(name: "putS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupApiSchemaS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3(object @value)
         {
@@ -83,6 +84,9 @@ namespace aws.BedrockagentAgentActionGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupApiSchemaS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupApiSchemaS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3Input
@@ -97,6 +101,9 @@ namespace aws.BedrockagentAgentActionGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupApiSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupApiSchema\"}]}}", isOptional: true)]
         public virtual object? InternalValue

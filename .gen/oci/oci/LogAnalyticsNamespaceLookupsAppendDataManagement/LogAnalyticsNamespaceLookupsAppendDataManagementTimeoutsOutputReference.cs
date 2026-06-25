@@ -53,6 +53,9 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.LogAnalyticsNamespaceLookupsAppendDataManagement.ILogAnalyticsNamespaceLookupsAppendDataManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.logAnalyticsNamespaceLookupsAppendDataManagement.LogAnalyticsNamespaceLookupsAppendDataManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

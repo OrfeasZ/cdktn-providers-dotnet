@@ -73,6 +73,9 @@ namespace scaleway.IotRoute
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.IotRoute.IIotRouteTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.iotRoute.IotRouteTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

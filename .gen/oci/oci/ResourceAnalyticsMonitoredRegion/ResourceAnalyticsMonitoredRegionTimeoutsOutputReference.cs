@@ -113,6 +113,9 @@ namespace oci.ResourceAnalyticsMonitoredRegion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ResourceAnalyticsMonitoredRegion.IResourceAnalyticsMonitoredRegionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.resourceAnalyticsMonitoredRegion.ResourceAnalyticsMonitoredRegionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

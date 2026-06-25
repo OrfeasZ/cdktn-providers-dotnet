@@ -93,6 +93,9 @@ namespace oci.EmailDkim
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.EmailDkim.IEmailDkimTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.emailDkim.EmailDkimTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

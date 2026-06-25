@@ -46,6 +46,7 @@ namespace cloudflare.EmailRoutingRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.EmailRoutingRule.EmailRoutingRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingRule.IEmailRoutingRuleActions" />)[]</param>
         [JsiiMethod(name: "putActions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingRule.EmailRoutingRuleActions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutActions(object @value)
         {
@@ -69,6 +70,7 @@ namespace cloudflare.EmailRoutingRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingRule.IEmailRoutingRuleMatchers" />)[]</param>
         [JsiiMethod(name: "putMatchers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingRule.EmailRoutingRuleMatchers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatchers(object @value)
         {
@@ -153,6 +155,9 @@ namespace cloudflare.EmailRoutingRule
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingRule.IEmailRoutingRuleActions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingRule.EmailRoutingRuleActions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActionsInput
@@ -160,6 +165,9 @@ namespace cloudflare.EmailRoutingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -167,6 +175,9 @@ namespace cloudflare.EmailRoutingRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingRule.IEmailRoutingRuleMatchers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingRule.EmailRoutingRuleMatchers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchersInput
@@ -195,6 +206,9 @@ namespace cloudflare.EmailRoutingRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

@@ -35,6 +35,7 @@ namespace digitalocean.App
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobAlert" />)[]</param>
         [JsiiMethod(name: "putAlert", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobAlert\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAlert(object @value)
         {
@@ -64,6 +65,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecJobBitbucket)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobEnv" />)[]</param>
         [JsiiMethod(name: "putEnv", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobEnv\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnv(object @value)
         {
@@ -111,6 +113,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecJobImage)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobLogDestination" />)[]</param>
         [JsiiMethod(name: "putLogDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobLogDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogDestination(object @value)
         {
@@ -296,6 +299,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.AppSpecJobTerminationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobAlert" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alertInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobAlert\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AlertInput
@@ -324,6 +330,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobEnv" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "envInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvInput
@@ -387,6 +396,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobLogDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogDestinationInput
@@ -485,6 +497,9 @@ namespace digitalocean.App
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.App.IAppSpecJob" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.app.AppSpecJob\"}]}}", isOptional: true)]
         public virtual object? InternalValue

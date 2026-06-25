@@ -41,6 +41,9 @@ namespace aws.S3BucketNotification
             return InvokeInstanceMethod<aws.S3BucketNotification.S3BucketNotificationTopicOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketNotification.IS3BucketNotificationTopic" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketNotification.S3BucketNotificationTopic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace aws.OdbNetworkPeeringConnection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OdbNetworkPeeringConnection.IOdbNetworkPeeringConnectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

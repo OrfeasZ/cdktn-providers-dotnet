@@ -41,6 +41,12 @@ namespace oci.DataOciCoreClusterNetworks
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "currentSize", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CurrentSize
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

@@ -46,6 +46,7 @@ namespace scaleway.CockpitAlertManager
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.CockpitAlertManager.CockpitAlertManager), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.CockpitAlertManager.ICockpitAlertManagerContactPoints" />)[]</param>
         [JsiiMethod(name: "putContactPoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.cockpitAlertManager.CockpitAlertManagerContactPoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContactPoints(object @value)
         {
@@ -136,6 +137,9 @@ namespace scaleway.CockpitAlertManager
             get => GetInstanceProperty<scaleway.CockpitAlertManager.CockpitAlertManagerContactPointsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.CockpitAlertManager.ICockpitAlertManagerContactPoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contactPointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.cockpitAlertManager.CockpitAlertManagerContactPoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContactPointsInput
@@ -143,6 +147,9 @@ namespace scaleway.CockpitAlertManager
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableManagedAlertsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableManagedAlertsInput
@@ -178,6 +185,9 @@ namespace scaleway.CockpitAlertManager
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableManagedAlerts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableManagedAlerts
         {

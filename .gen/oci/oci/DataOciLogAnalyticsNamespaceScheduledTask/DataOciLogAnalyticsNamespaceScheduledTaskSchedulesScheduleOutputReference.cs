@@ -47,6 +47,12 @@ namespace oci.DataOciLogAnalyticsNamespaceScheduledTask
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "queryOffsetSecs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double QueryOffsetSecs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "recurringInterval", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecurringInterval
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciLogAnalyticsNamespaceScheduledTask
         public virtual double RepeatCount
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeEnd
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}")]

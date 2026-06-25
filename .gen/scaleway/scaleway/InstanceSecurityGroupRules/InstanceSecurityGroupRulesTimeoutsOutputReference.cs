@@ -53,6 +53,9 @@ namespace scaleway.InstanceSecurityGroupRules
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceSecurityGroupRules.IInstanceSecurityGroupRulesTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceSecurityGroupRules.InstanceSecurityGroupRulesTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

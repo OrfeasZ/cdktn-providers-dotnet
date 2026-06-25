@@ -49,6 +49,9 @@ namespace aws.RedshiftIdcApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess\"}]}}", isOptional: true)]
         public virtual object? InternalValue

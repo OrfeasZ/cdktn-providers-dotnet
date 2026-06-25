@@ -63,6 +63,9 @@ namespace aws.ChimeVoiceConnectorGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ChimeVoiceConnectorGroup.IChimeVoiceConnectorGroupConnector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnector\"}]}}", isOptional: true)]
         public virtual object? InternalValue

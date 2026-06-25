@@ -41,6 +41,9 @@ namespace oci.DataOciOpsiExadataInsights
             return InvokeInstanceMethod<oci.DataOciOpsiExadataInsights.DataOciOpsiExadataInsightsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiExadataInsights.IDataOciOpsiExadataInsightsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOpsiExadataInsights.DataOciOpsiExadataInsightsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

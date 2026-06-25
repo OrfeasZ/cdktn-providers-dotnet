@@ -33,11 +33,129 @@ namespace oci.MysqlMysqlDbSystem
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows" />)[]</param>
+        [JsiiMethod(name: "putMaintenanceDisabledWindows", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutMaintenanceDisabledWindows(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetMaintenanceDisabledWindows")]
+        public virtual void ResetMaintenanceDisabledWindows()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaintenanceScheduleType")]
+        public virtual void ResetMaintenanceScheduleType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVersionPreference")]
+        public virtual void ResetVersionPreference()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVersionTrackPreference")]
+        public virtual void ResetVersionTrackPreference()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "maintenanceDisabledWindows", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindowsList\"}")]
+        public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindowsList MaintenanceDisabledWindows
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindowsList>()!;
+        }
+
+        [JsiiProperty(name: "targetVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeScheduled", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeScheduled
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "maintenanceDisabledWindowsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? MaintenanceDisabledWindowsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maintenanceScheduleTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MaintenanceScheduleTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "versionPreferenceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VersionPreferenceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "versionTrackPreferenceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VersionTrackPreferenceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "windowStartTimeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? WindowStartTimeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "maintenanceScheduleType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MaintenanceScheduleType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "versionPreference", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VersionPreference
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "versionTrackPreference", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VersionTrackPreference
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "windowStartTime", typeJson: "{\"primitive\":\"string\"}")]

@@ -8,6 +8,9 @@ namespace cloudflare.TokenValidationConfig
     public interface ITokenValidationConfigCredentials
     {
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</para>
+        /// </remarks>
         [JsiiProperty(name: "keys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentialsKeys\"},\"kind\":\"array\"}}]}}")]
         object Keys
         {
@@ -22,6 +25,9 @@ namespace cloudflare.TokenValidationConfig
             }
 
             /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
+            /// <remarks>
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</para>
+            /// </remarks>
             [JsiiProperty(name: "keys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentialsKeys\"},\"kind\":\"array\"}}]}}")]
             public object Keys
             {

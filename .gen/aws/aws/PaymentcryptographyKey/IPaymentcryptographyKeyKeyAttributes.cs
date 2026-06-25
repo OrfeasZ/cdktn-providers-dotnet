@@ -31,6 +31,7 @@ namespace aws.PaymentcryptographyKey
         /// <summary>key_modes_of_use block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributesKeyModesOfUse" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "keyModesOfUse", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUse\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,6 +74,7 @@ namespace aws.PaymentcryptographyKey
             /// <summary>key_modes_of_use block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributesKeyModesOfUse" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyModesOfUse", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUse\"},\"kind\":\"array\"}}]}}", isOptional: true)]

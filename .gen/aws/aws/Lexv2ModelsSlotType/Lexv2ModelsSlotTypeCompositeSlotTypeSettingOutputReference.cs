@@ -35,6 +35,7 @@ namespace aws.Lexv2ModelsSlotType
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots" />)[]</param>
         [JsiiMethod(name: "putSubSlots", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubSlots(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<aws.Lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlotsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subSlotsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlots\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubSlotsInput
@@ -77,6 +81,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeCompositeSlotTypeSetting" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSetting\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace aws.SecurityhubInsight
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersAwsAccountId" />)[]</param>
         [JsiiMethod(name: "putAwsAccountId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsAccountId(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersAwsAccountName" />)[]</param>
         [JsiiMethod(name: "putAwsAccountName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsAccountName(object @value)
         {
@@ -79,6 +81,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersCompanyName" />)[]</param>
         [JsiiMethod(name: "putCompanyName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersCompanyName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCompanyName(object @value)
         {
@@ -102,6 +105,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceAssociatedStandardsId" />)[]</param>
         [JsiiMethod(name: "putComplianceAssociatedStandardsId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceAssociatedStandardsId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComplianceAssociatedStandardsId(object @value)
         {
@@ -125,6 +129,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceSecurityControlId" />)[]</param>
         [JsiiMethod(name: "putComplianceSecurityControlId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComplianceSecurityControlId(object @value)
         {
@@ -148,6 +153,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceSecurityControlParametersName" />)[]</param>
         [JsiiMethod(name: "putComplianceSecurityControlParametersName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComplianceSecurityControlParametersName(object @value)
         {
@@ -171,6 +177,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceSecurityControlParametersValue" />)[]</param>
         [JsiiMethod(name: "putComplianceSecurityControlParametersValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComplianceSecurityControlParametersValue(object @value)
         {
@@ -194,6 +201,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceStatus" />)[]</param>
         [JsiiMethod(name: "putComplianceStatus", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatus\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComplianceStatus(object @value)
         {
@@ -217,6 +225,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersConfidence" />)[]</param>
         [JsiiMethod(name: "putConfidence", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersConfidence\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfidence(object @value)
         {
@@ -240,6 +249,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersCreatedAt" />)[]</param>
         [JsiiMethod(name: "putCreatedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersCreatedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCreatedAt(object @value)
         {
@@ -263,6 +273,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersCriticality" />)[]</param>
         [JsiiMethod(name: "putCriticality", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersCriticality\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCriticality(object @value)
         {
@@ -286,6 +297,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersDescription" />)[]</param>
         [JsiiMethod(name: "putDescription", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersDescription\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDescription(object @value)
         {
@@ -309,6 +321,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsConfidence" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsConfidence", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidence\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsConfidence(object @value)
         {
@@ -332,6 +345,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsCriticality" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsCriticality", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticality\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsCriticality(object @value)
         {
@@ -355,6 +369,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsRelatedFindingsId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsRelatedFindingsId(object @value)
         {
@@ -378,6 +393,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsRelatedFindingsProductArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsRelatedFindingsProductArn(object @value)
         {
@@ -401,6 +417,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsSeverityLabel" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsSeverityLabel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsSeverityLabel(object @value)
         {
@@ -424,6 +441,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsSeverityOriginal", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsSeverityOriginal(object @value)
         {
@@ -447,6 +465,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsTypes" />)[]</param>
         [JsiiMethod(name: "putFindingProviderFieldsTypes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingProviderFieldsTypes(object @value)
         {
@@ -470,6 +489,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFirstObservedAt" />)[]</param>
         [JsiiMethod(name: "putFirstObservedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFirstObservedAt(object @value)
         {
@@ -493,6 +513,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersGeneratorId" />)[]</param>
         [JsiiMethod(name: "putGeneratorId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersGeneratorId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGeneratorId(object @value)
         {
@@ -516,6 +537,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersId" />)[]</param>
         [JsiiMethod(name: "putId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutId(object @value)
         {
@@ -539,6 +561,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersKeyword" />)[]</param>
         [JsiiMethod(name: "putKeyword", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersKeyword\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKeyword(object @value)
         {
@@ -562,6 +585,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersLastObservedAt" />)[]</param>
         [JsiiMethod(name: "putLastObservedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLastObservedAt(object @value)
         {
@@ -585,6 +609,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwareName" />)[]</param>
         [JsiiMethod(name: "putMalwareName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwareName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMalwareName(object @value)
         {
@@ -608,6 +633,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwarePath" />)[]</param>
         [JsiiMethod(name: "putMalwarePath", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwarePath\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMalwarePath(object @value)
         {
@@ -631,6 +657,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwareState" />)[]</param>
         [JsiiMethod(name: "putMalwareState", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwareState\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMalwareState(object @value)
         {
@@ -654,6 +681,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwareType" />)[]</param>
         [JsiiMethod(name: "putMalwareType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwareType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMalwareType(object @value)
         {
@@ -677,6 +705,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationDomain" />)[]</param>
         [JsiiMethod(name: "putNetworkDestinationDomain", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomain\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkDestinationDomain(object @value)
         {
@@ -700,6 +729,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationIpv4" />)[]</param>
         [JsiiMethod(name: "putNetworkDestinationIpv4", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkDestinationIpv4(object @value)
         {
@@ -723,6 +753,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationIpv6" />)[]</param>
         [JsiiMethod(name: "putNetworkDestinationIpv6", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkDestinationIpv6(object @value)
         {
@@ -746,6 +777,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationPort" />)[]</param>
         [JsiiMethod(name: "putNetworkDestinationPort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPort\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkDestinationPort(object @value)
         {
@@ -769,6 +801,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDirection" />)[]</param>
         [JsiiMethod(name: "putNetworkDirection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirection\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkDirection(object @value)
         {
@@ -792,6 +825,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkProtocol" />)[]</param>
         [JsiiMethod(name: "putNetworkProtocol", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocol\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkProtocol(object @value)
         {
@@ -815,6 +849,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceDomain" />)[]</param>
         [JsiiMethod(name: "putNetworkSourceDomain", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomain\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkSourceDomain(object @value)
         {
@@ -838,6 +873,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceIpv4" />)[]</param>
         [JsiiMethod(name: "putNetworkSourceIpv4", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkSourceIpv4(object @value)
         {
@@ -861,6 +897,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceIpv6" />)[]</param>
         [JsiiMethod(name: "putNetworkSourceIpv6", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkSourceIpv6(object @value)
         {
@@ -884,6 +921,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceMac" />)[]</param>
         [JsiiMethod(name: "putNetworkSourceMac", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMac\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkSourceMac(object @value)
         {
@@ -907,6 +945,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourcePort" />)[]</param>
         [JsiiMethod(name: "putNetworkSourcePort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePort\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkSourcePort(object @value)
         {
@@ -930,6 +969,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNoteText" />)[]</param>
         [JsiiMethod(name: "putNoteText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNoteText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNoteText(object @value)
         {
@@ -953,6 +993,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNoteUpdatedAt" />)[]</param>
         [JsiiMethod(name: "putNoteUpdatedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNoteUpdatedAt(object @value)
         {
@@ -976,6 +1017,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNoteUpdatedBy" />)[]</param>
         [JsiiMethod(name: "putNoteUpdatedBy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedBy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNoteUpdatedBy(object @value)
         {
@@ -999,6 +1041,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessLaunchedAt" />)[]</param>
         [JsiiMethod(name: "putProcessLaunchedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessLaunchedAt(object @value)
         {
@@ -1022,6 +1065,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessName" />)[]</param>
         [JsiiMethod(name: "putProcessName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessName(object @value)
         {
@@ -1045,6 +1089,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessParentPid" />)[]</param>
         [JsiiMethod(name: "putProcessParentPid", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPid\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessParentPid(object @value)
         {
@@ -1068,6 +1113,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessPath" />)[]</param>
         [JsiiMethod(name: "putProcessPath", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessPath\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessPath(object @value)
         {
@@ -1091,6 +1137,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessPid" />)[]</param>
         [JsiiMethod(name: "putProcessPid", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessPid\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessPid(object @value)
         {
@@ -1114,6 +1161,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessTerminatedAt" />)[]</param>
         [JsiiMethod(name: "putProcessTerminatedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProcessTerminatedAt(object @value)
         {
@@ -1137,6 +1185,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProductArn" />)[]</param>
         [JsiiMethod(name: "putProductArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProductArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProductArn(object @value)
         {
@@ -1160,6 +1209,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProductFields" />)[]</param>
         [JsiiMethod(name: "putProductFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProductFields\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProductFields(object @value)
         {
@@ -1183,6 +1233,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProductName" />)[]</param>
         [JsiiMethod(name: "putProductName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProductName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProductName(object @value)
         {
@@ -1206,6 +1257,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRecommendationText" />)[]</param>
         [JsiiMethod(name: "putRecommendationText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRecommendationText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecommendationText(object @value)
         {
@@ -1229,6 +1281,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRecordState" />)[]</param>
         [JsiiMethod(name: "putRecordState", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRecordState\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecordState(object @value)
         {
@@ -1252,6 +1305,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRelatedFindingsId" />)[]</param>
         [JsiiMethod(name: "putRelatedFindingsId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRelatedFindingsId(object @value)
         {
@@ -1275,6 +1329,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRelatedFindingsProductArn" />)[]</param>
         [JsiiMethod(name: "putRelatedFindingsProductArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRelatedFindingsProductArn(object @value)
         {
@@ -1298,6 +1353,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceIamInstanceProfileArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceIamInstanceProfileArn(object @value)
         {
@@ -1321,6 +1377,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceImageId" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceImageId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceImageId(object @value)
         {
@@ -1344,6 +1401,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceIpv4Addresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceIpv4Addresses(object @value)
         {
@@ -1367,6 +1425,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceIpv6Addresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceIpv6Addresses(object @value)
         {
@@ -1390,6 +1449,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceKeyName" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceKeyName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceKeyName(object @value)
         {
@@ -1413,6 +1473,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceLaunchedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceLaunchedAt(object @value)
         {
@@ -1436,6 +1497,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceSubnetId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceSubnetId(object @value)
         {
@@ -1459,6 +1521,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceType" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceType(object @value)
         {
@@ -1482,6 +1545,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceVpcId" />)[]</param>
         [JsiiMethod(name: "putResourceAwsEc2InstanceVpcId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsEc2InstanceVpcId(object @value)
         {
@@ -1505,6 +1569,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt" />)[]</param>
         [JsiiMethod(name: "putResourceAwsIamAccessKeyCreatedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsIamAccessKeyCreatedAt(object @value)
         {
@@ -1528,6 +1593,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsIamAccessKeyStatus" />)[]</param>
         [JsiiMethod(name: "putResourceAwsIamAccessKeyStatus", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsIamAccessKeyStatus(object @value)
         {
@@ -1551,6 +1617,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsIamAccessKeyUserName" />)[]</param>
         [JsiiMethod(name: "putResourceAwsIamAccessKeyUserName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsIamAccessKeyUserName(object @value)
         {
@@ -1574,6 +1641,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsS3BucketOwnerId" />)[]</param>
         [JsiiMethod(name: "putResourceAwsS3BucketOwnerId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsS3BucketOwnerId(object @value)
         {
@@ -1597,6 +1665,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsS3BucketOwnerName" />)[]</param>
         [JsiiMethod(name: "putResourceAwsS3BucketOwnerName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceAwsS3BucketOwnerName(object @value)
         {
@@ -1620,6 +1689,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerImageId" />)[]</param>
         [JsiiMethod(name: "putResourceContainerImageId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceContainerImageId(object @value)
         {
@@ -1643,6 +1713,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerImageName" />)[]</param>
         [JsiiMethod(name: "putResourceContainerImageName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceContainerImageName(object @value)
         {
@@ -1666,6 +1737,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerLaunchedAt" />)[]</param>
         [JsiiMethod(name: "putResourceContainerLaunchedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceContainerLaunchedAt(object @value)
         {
@@ -1689,6 +1761,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerName" />)[]</param>
         [JsiiMethod(name: "putResourceContainerName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceContainerName(object @value)
         {
@@ -1712,6 +1785,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceDetailsOther" />)[]</param>
         [JsiiMethod(name: "putResourceDetailsOther", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOther\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceDetailsOther(object @value)
         {
@@ -1735,6 +1809,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceId" />)[]</param>
         [JsiiMethod(name: "putResourceId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceId(object @value)
         {
@@ -1758,6 +1833,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourcePartition" />)[]</param>
         [JsiiMethod(name: "putResourcePartition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourcePartition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourcePartition(object @value)
         {
@@ -1781,6 +1857,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceRegion" />)[]</param>
         [JsiiMethod(name: "putResourceRegion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceRegion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceRegion(object @value)
         {
@@ -1804,6 +1881,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceTags" />)[]</param>
         [JsiiMethod(name: "putResourceTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceTags(object @value)
         {
@@ -1827,6 +1905,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceType" />)[]</param>
         [JsiiMethod(name: "putResourceType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceType(object @value)
         {
@@ -1850,6 +1929,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersSeverityLabel" />)[]</param>
         [JsiiMethod(name: "putSeverityLabel", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabel\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSeverityLabel(object @value)
         {
@@ -1873,6 +1953,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersSourceUrl" />)[]</param>
         [JsiiMethod(name: "putSourceUrl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersSourceUrl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceUrl(object @value)
         {
@@ -1896,6 +1977,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorCategory" />)[]</param>
         [JsiiMethod(name: "putThreatIntelIndicatorCategory", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategory\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThreatIntelIndicatorCategory(object @value)
         {
@@ -1919,6 +2001,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt" />)[]</param>
         [JsiiMethod(name: "putThreatIntelIndicatorLastObservedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThreatIntelIndicatorLastObservedAt(object @value)
         {
@@ -1942,6 +2025,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorSource" />)[]</param>
         [JsiiMethod(name: "putThreatIntelIndicatorSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThreatIntelIndicatorSource(object @value)
         {
@@ -1965,6 +2049,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorSourceUrl" />)[]</param>
         [JsiiMethod(name: "putThreatIntelIndicatorSourceUrl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThreatIntelIndicatorSourceUrl(object @value)
         {
@@ -1988,6 +2073,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorType" />)[]</param>
         [JsiiMethod(name: "putThreatIntelIndicatorType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThreatIntelIndicatorType(object @value)
         {
@@ -2011,6 +2097,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorValue" />)[]</param>
         [JsiiMethod(name: "putThreatIntelIndicatorValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutThreatIntelIndicatorValue(object @value)
         {
@@ -2034,6 +2121,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersTitle" />)[]</param>
         [JsiiMethod(name: "putTitle", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersTitle\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTitle(object @value)
         {
@@ -2057,6 +2145,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersType" />)[]</param>
         [JsiiMethod(name: "putType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutType(object @value)
         {
@@ -2080,6 +2169,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersUpdatedAt" />)[]</param>
         [JsiiMethod(name: "putUpdatedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUpdatedAt(object @value)
         {
@@ -2103,6 +2193,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersUserDefinedValues" />)[]</param>
         [JsiiMethod(name: "putUserDefinedValues", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValues\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUserDefinedValues(object @value)
         {
@@ -2126,6 +2217,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersVerificationState" />)[]</param>
         [JsiiMethod(name: "putVerificationState", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersVerificationState\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVerificationState(object @value)
         {
@@ -2149,6 +2241,7 @@ namespace aws.SecurityhubInsight
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersWorkflowStatus" />)[]</param>
         [JsiiMethod(name: "putWorkflowStatus", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatus\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWorkflowStatus(object @value)
         {
@@ -3288,6 +3381,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<aws.SecurityhubInsight.SecurityhubInsightFiltersWorkflowStatusList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersAwsAccountId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsAccountIdInput
@@ -3295,6 +3391,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersAwsAccountName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsAccountNameInput
@@ -3302,6 +3401,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersCompanyName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "companyNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersCompanyName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CompanyNameInput
@@ -3309,6 +3411,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceAssociatedStandardsId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "complianceAssociatedStandardsIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceAssociatedStandardsId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComplianceAssociatedStandardsIdInput
@@ -3316,6 +3421,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceSecurityControlId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "complianceSecurityControlIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComplianceSecurityControlIdInput
@@ -3323,6 +3431,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceSecurityControlParametersName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "complianceSecurityControlParametersNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComplianceSecurityControlParametersNameInput
@@ -3330,6 +3441,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceSecurityControlParametersValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "complianceSecurityControlParametersValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceSecurityControlParametersValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComplianceSecurityControlParametersValueInput
@@ -3337,6 +3451,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersComplianceStatus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "complianceStatusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComplianceStatusInput
@@ -3344,6 +3461,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersConfidence" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "confidenceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersConfidence\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfidenceInput
@@ -3351,6 +3471,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersCreatedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createdAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersCreatedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CreatedAtInput
@@ -3358,6 +3481,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersCriticality" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "criticalityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersCriticality\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CriticalityInput
@@ -3365,6 +3491,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersDescription" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersDescription\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DescriptionInput
@@ -3372,6 +3501,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsConfidence" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsConfidenceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidence\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsConfidenceInput
@@ -3379,6 +3511,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsCriticality" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsCriticalityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticality\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsCriticalityInput
@@ -3386,6 +3521,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsRelatedFindingsIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsRelatedFindingsIdInput
@@ -3393,6 +3531,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsRelatedFindingsProductArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsRelatedFindingsProductArnInput
@@ -3400,6 +3541,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsSeverityLabel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsSeverityLabelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsSeverityLabelInput
@@ -3407,6 +3551,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsSeverityOriginalInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsSeverityOriginalInput
@@ -3414,6 +3561,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFindingProviderFieldsTypes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingProviderFieldsTypesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingProviderFieldsTypesInput
@@ -3421,6 +3571,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersFirstObservedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firstObservedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FirstObservedAtInput
@@ -3428,6 +3581,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersGeneratorId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "generatorIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersGeneratorId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GeneratorIdInput
@@ -3435,6 +3591,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IdInput
@@ -3442,6 +3601,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersKeyword" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keywordInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersKeyword\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KeywordInput
@@ -3449,6 +3611,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersLastObservedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lastObservedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LastObservedAtInput
@@ -3456,6 +3621,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwareName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "malwareNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwareName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MalwareNameInput
@@ -3463,6 +3631,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwarePath" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "malwarePathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwarePath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MalwarePathInput
@@ -3470,6 +3641,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwareState" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "malwareStateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwareState\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MalwareStateInput
@@ -3477,6 +3651,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersMalwareType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "malwareTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersMalwareType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MalwareTypeInput
@@ -3484,6 +3661,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationDomain" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkDestinationDomainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomain\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkDestinationDomainInput
@@ -3491,6 +3671,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationIpv4" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkDestinationIpv4Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkDestinationIpv4Input
@@ -3498,6 +3681,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationIpv6" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkDestinationIpv6Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkDestinationIpv6Input
@@ -3505,6 +3691,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDestinationPort" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkDestinationPortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkDestinationPortInput
@@ -3512,6 +3701,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkDirection" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkDirectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkDirectionInput
@@ -3519,6 +3711,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkProtocol" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkProtocolInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocol\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkProtocolInput
@@ -3526,6 +3721,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceDomain" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkSourceDomainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomain\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkSourceDomainInput
@@ -3533,6 +3731,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceIpv4" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkSourceIpv4Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkSourceIpv4Input
@@ -3540,6 +3741,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceIpv6" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkSourceIpv6Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkSourceIpv6Input
@@ -3547,6 +3751,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourceMac" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkSourceMacInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMac\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkSourceMacInput
@@ -3554,6 +3761,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNetworkSourcePort" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkSourcePortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkSourcePortInput
@@ -3561,6 +3771,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNoteText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noteTextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNoteText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NoteTextInput
@@ -3568,6 +3781,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNoteUpdatedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noteUpdatedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NoteUpdatedAtInput
@@ -3575,6 +3791,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersNoteUpdatedBy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noteUpdatedByInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NoteUpdatedByInput
@@ -3582,6 +3801,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessLaunchedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processLaunchedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessLaunchedAtInput
@@ -3589,6 +3811,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessNameInput
@@ -3596,6 +3821,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessParentPid" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processParentPidInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPid\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessParentPidInput
@@ -3603,6 +3831,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessPath" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processPathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessPathInput
@@ -3610,6 +3841,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessPid" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processPidInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessPid\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessPidInput
@@ -3617,6 +3851,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProcessTerminatedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "processTerminatedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProcessTerminatedAtInput
@@ -3624,6 +3861,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProductArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "productArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProductArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProductArnInput
@@ -3631,6 +3871,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProductFields" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "productFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProductFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProductFieldsInput
@@ -3638,6 +3881,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersProductName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "productNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersProductName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProductNameInput
@@ -3645,6 +3891,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRecommendationText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recommendationTextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRecommendationText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecommendationTextInput
@@ -3652,6 +3901,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRecordState" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recordStateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRecordState\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecordStateInput
@@ -3659,6 +3911,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRelatedFindingsId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relatedFindingsIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RelatedFindingsIdInput
@@ -3666,6 +3921,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersRelatedFindingsProductArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relatedFindingsProductArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RelatedFindingsProductArnInput
@@ -3673,6 +3931,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceIamInstanceProfileArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceIamInstanceProfileArnInput
@@ -3680,6 +3941,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceImageId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceImageIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceImageIdInput
@@ -3687,6 +3951,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceIpv4AddressesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceIpv4AddressesInput
@@ -3694,6 +3961,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceIpv6AddressesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceIpv6AddressesInput
@@ -3701,6 +3971,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceKeyName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceKeyNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceKeyNameInput
@@ -3708,6 +3981,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceLaunchedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceLaunchedAtInput
@@ -3715,6 +3991,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceSubnetIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceSubnetIdInput
@@ -3722,6 +4001,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceTypeInput
@@ -3729,6 +4011,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceVpcId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsEc2InstanceVpcIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsEc2InstanceVpcIdInput
@@ -3736,6 +4021,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsIamAccessKeyCreatedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsIamAccessKeyCreatedAtInput
@@ -3743,6 +4031,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsIamAccessKeyStatus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsIamAccessKeyStatusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsIamAccessKeyStatusInput
@@ -3750,6 +4041,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsIamAccessKeyUserName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsIamAccessKeyUserNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsIamAccessKeyUserNameInput
@@ -3757,6 +4051,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsS3BucketOwnerId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsS3BucketOwnerIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsS3BucketOwnerIdInput
@@ -3764,6 +4061,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsS3BucketOwnerName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceAwsS3BucketOwnerNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceAwsS3BucketOwnerNameInput
@@ -3771,6 +4071,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerImageId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceContainerImageIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceContainerImageIdInput
@@ -3778,6 +4081,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerImageName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceContainerImageNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceContainerImageNameInput
@@ -3785,6 +4091,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerLaunchedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceContainerLaunchedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceContainerLaunchedAtInput
@@ -3792,6 +4101,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceContainerName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceContainerNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceContainerNameInput
@@ -3799,6 +4111,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceDetailsOther" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceDetailsOtherInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOther\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceDetailsOtherInput
@@ -3806,6 +4121,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceIdInput
@@ -3813,6 +4131,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourcePartition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourcePartitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourcePartition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourcePartitionInput
@@ -3820,6 +4141,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceRegion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceRegionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceRegion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceRegionInput
@@ -3827,6 +4151,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceTagsInput
@@ -3834,6 +4161,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceTypeInput
@@ -3841,6 +4171,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersSeverityLabel" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "severityLabelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SeverityLabelInput
@@ -3848,6 +4181,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersSourceUrl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceUrlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersSourceUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceUrlInput
@@ -3855,6 +4191,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorCategory" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatIntelIndicatorCategoryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategory\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThreatIntelIndicatorCategoryInput
@@ -3862,6 +4201,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatIntelIndicatorLastObservedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThreatIntelIndicatorLastObservedAtInput
@@ -3869,6 +4211,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatIntelIndicatorSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThreatIntelIndicatorSourceInput
@@ -3876,6 +4221,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorSourceUrl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatIntelIndicatorSourceUrlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThreatIntelIndicatorSourceUrlInput
@@ -3883,6 +4231,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatIntelIndicatorTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThreatIntelIndicatorTypeInput
@@ -3890,6 +4241,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersThreatIntelIndicatorValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatIntelIndicatorValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ThreatIntelIndicatorValueInput
@@ -3897,6 +4251,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersTitle" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "titleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersTitle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TitleInput
@@ -3904,6 +4261,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "typeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TypeInput
@@ -3911,6 +4271,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersUpdatedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "updatedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UpdatedAtInput
@@ -3918,6 +4281,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersUserDefinedValues" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userDefinedValuesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserDefinedValuesInput
@@ -3925,6 +4291,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersVerificationState" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "verificationStateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersVerificationState\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VerificationStateInput
@@ -3932,6 +4301,9 @@ namespace aws.SecurityhubInsight
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersWorkflowStatus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workflowStatusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WorkflowStatusInput

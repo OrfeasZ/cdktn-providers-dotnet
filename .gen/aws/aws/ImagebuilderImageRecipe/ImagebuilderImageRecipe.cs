@@ -46,6 +46,7 @@ namespace aws.ImagebuilderImageRecipe
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ImagebuilderImageRecipe.ImagebuilderImageRecipe), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeBlockDeviceMapping" />)[]</param>
         [JsiiMethod(name: "putBlockDeviceMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMapping\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBlockDeviceMapping(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.ImagebuilderImageRecipe
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponent" />)[]</param>
         [JsiiMethod(name: "putComponent", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponent\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComponent(object @value)
         {
@@ -226,6 +228,9 @@ namespace aws.ImagebuilderImageRecipe
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeBlockDeviceMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockDeviceMappingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BlockDeviceMappingInput
@@ -233,6 +238,9 @@ namespace aws.ImagebuilderImageRecipe
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeComponent" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "componentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeComponent\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComponentInput

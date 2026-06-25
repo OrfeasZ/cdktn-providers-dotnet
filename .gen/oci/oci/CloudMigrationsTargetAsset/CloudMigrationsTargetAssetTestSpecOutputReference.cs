@@ -143,12 +143,35 @@ namespace oci.CloudMigrationsTargetAsset
             get => GetInstanceProperty<oci.CloudMigrationsTargetAsset.CloudMigrationsTargetAssetTestSpecSourceDetailsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetTestSpec\"}", isOptional: true)]
-        public virtual oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetTestSpec\"}]}}", isOptional: true)]
+        public virtual object? InternalValue
         {
-            get => GetInstanceProperty<oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec?>();
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

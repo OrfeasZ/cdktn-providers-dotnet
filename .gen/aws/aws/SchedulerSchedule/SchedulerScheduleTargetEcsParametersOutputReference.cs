@@ -33,6 +33,7 @@ namespace aws.SchedulerSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersCapacityProviderStrategy" />)[]</param>
         [JsiiMethod(name: "putCapacityProviderStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCapacityProviderStrategy(object @value)
         {
@@ -62,6 +63,7 @@ namespace aws.SchedulerSchedule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersNetworkConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementConstraints" />)[]</param>
         [JsiiMethod(name: "putPlacementConstraints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementConstraints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementConstraints(object @value)
         {
@@ -85,6 +87,7 @@ namespace aws.SchedulerSchedule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy" />)[]</param>
         [JsiiMethod(name: "putPlacementStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPlacementStrategy(object @value)
         {
@@ -210,6 +213,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<aws.SchedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategyList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersCapacityProviderStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityProviderStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CapacityProviderStrategyInput
@@ -217,6 +223,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableEcsManagedTagsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableEcsManagedTagsInput
@@ -224,6 +233,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableExecuteCommandInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableExecuteCommandInput
@@ -252,6 +264,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersNetworkConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementConstraints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraintsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementConstraintsInput
@@ -259,6 +274,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PlacementStrategyInput
@@ -308,6 +326,9 @@ namespace aws.SchedulerSchedule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableEcsManagedTags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableEcsManagedTags
         {
@@ -335,6 +356,9 @@ namespace aws.SchedulerSchedule
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableExecuteCommand", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableExecuteCommand
         {

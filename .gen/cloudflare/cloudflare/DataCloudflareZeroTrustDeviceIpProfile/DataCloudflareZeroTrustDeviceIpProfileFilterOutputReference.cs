@@ -53,6 +53,9 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceIpProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZeroTrustDeviceIpProfile.IDataCloudflareZeroTrustDeviceIpProfileFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDeviceIpProfile.DataCloudflareZeroTrustDeviceIpProfileFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

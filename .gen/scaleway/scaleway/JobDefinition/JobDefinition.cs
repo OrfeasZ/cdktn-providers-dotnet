@@ -52,6 +52,7 @@ namespace scaleway.JobDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.JobDefinition.IJobDefinitionCron)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.JobDefinition.IJobDefinitionSecretReference" />)[]</param>
         [JsiiMethod(name: "putSecretReference", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.jobDefinition.JobDefinitionSecretReference\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecretReference(object @value)
         {
@@ -269,6 +270,9 @@ namespace scaleway.JobDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.JobDefinition.IJobDefinitionSecretReference" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretReferenceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.jobDefinition.JobDefinitionSecretReference\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecretReferenceInput

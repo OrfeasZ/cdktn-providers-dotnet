@@ -41,6 +41,9 @@ namespace aws.SecurityhubConnectorV2
             return InvokeInstanceMethod<aws.SecurityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProvider" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProvider\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

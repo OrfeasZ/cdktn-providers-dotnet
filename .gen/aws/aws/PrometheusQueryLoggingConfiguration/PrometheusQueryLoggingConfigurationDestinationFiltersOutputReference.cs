@@ -49,6 +49,9 @@ namespace aws.PrometheusQueryLoggingConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusQueryLoggingConfiguration.IPrometheusQueryLoggingConfigurationDestinationFilters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationFilters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

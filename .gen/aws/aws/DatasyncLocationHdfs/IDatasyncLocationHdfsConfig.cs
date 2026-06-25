@@ -17,6 +17,7 @@ namespace aws.DatasyncLocationHdfs
         /// <summary>name_node block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datasync_location_hdfs#name_node DatasyncLocationHdfs#name_node}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatasyncLocationHdfs.IDatasyncLocationHdfsNameNode" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "nameNode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode\"},\"kind\":\"array\"}}]}}")]
         object NameNode
@@ -227,6 +228,7 @@ namespace aws.DatasyncLocationHdfs
             /// <summary>name_node block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datasync_location_hdfs#name_node DatasyncLocationHdfs#name_node}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatasyncLocationHdfs.IDatasyncLocationHdfsNameNode" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "nameNode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode\"},\"kind\":\"array\"}}]}}")]
             public object NameNode
@@ -374,6 +376,7 @@ namespace aws.DatasyncLocationHdfs
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -384,6 +387,7 @@ namespace aws.DatasyncLocationHdfs
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -434,6 +438,7 @@ namespace aws.DatasyncLocationHdfs
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

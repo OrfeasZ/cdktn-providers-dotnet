@@ -41,6 +41,9 @@ namespace oci.DataOciLimitsQuotas
             return InvokeInstanceMethod<oci.DataOciLimitsQuotas.DataOciLimitsQuotasFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLimitsQuotas.IDataOciLimitsQuotasFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciLimitsQuotas.DataOciLimitsQuotasFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

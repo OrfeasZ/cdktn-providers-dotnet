@@ -10,6 +10,7 @@ namespace cloudflare.MagicTransitSiteLan
         /// <summary>Optional list of custom DHCP options to include in DHCP responses. Only valid when DHCP server is enabled.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_site_lan#dhcp_options MagicTransitSiteLan#dhcp_options}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dhcpOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,6 +99,7 @@ namespace cloudflare.MagicTransitSiteLan
             /// <summary>Optional list of custom DHCP options to include in DHCP responses. Only valid when DHCP server is enabled.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/magic_transit_site_lan#dhcp_options MagicTransitSiteLan#dhcp_options}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dhcpOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanStaticAddressingDhcpServerDhcpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

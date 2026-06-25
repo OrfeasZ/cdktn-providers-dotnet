@@ -41,6 +41,9 @@ namespace scaleway.InferenceDeployment
             return InvokeInstanceMethod<scaleway.InferenceDeployment.InferenceDeploymentPrivateIpOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InferenceDeployment.IInferenceDeploymentPrivateIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.inferenceDeployment.InferenceDeploymentPrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

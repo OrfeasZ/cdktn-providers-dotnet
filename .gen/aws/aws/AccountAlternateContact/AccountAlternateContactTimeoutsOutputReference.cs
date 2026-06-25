@@ -93,6 +93,9 @@ namespace aws.AccountAlternateContact
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AccountAlternateContact.IAccountAlternateContactTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.accountAlternateContact.AccountAlternateContactTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

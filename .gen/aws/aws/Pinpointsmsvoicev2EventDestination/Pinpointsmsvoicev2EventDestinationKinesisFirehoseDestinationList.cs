@@ -41,6 +41,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             return InvokeInstanceMethod<aws.Pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestinationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationKinesisFirehoseDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

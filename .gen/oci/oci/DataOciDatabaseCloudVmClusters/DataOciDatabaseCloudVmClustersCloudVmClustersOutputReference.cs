@@ -263,6 +263,12 @@ namespace oci.DataOciDatabaseCloudVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "recoStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RecoStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "scanDnsName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ScanDnsName
         {
@@ -309,6 +315,12 @@ namespace oci.DataOciDatabaseCloudVmClusters
         public virtual string Shape
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sparseStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SparseStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "sshPublicKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
@@ -389,8 +401,20 @@ namespace oci.DataOciDatabaseCloudVmClusters
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "vmBackupStorageType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmBackupStorageType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "vmClusterType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VmClusterType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vmFileSystemStorageType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmFileSystemStorageType
         {
             get => GetInstanceProperty<string>()!;
         }

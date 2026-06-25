@@ -53,6 +53,12 @@ namespace oci.ContainerengineNodePool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetHostGroupId")]
+        public virtual void ResetHostGroupId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPreemptibleNodeConfig")]
         public virtual void ResetPreemptibleNodeConfig()
         {
@@ -84,6 +90,13 @@ namespace oci.ContainerengineNodePool
         public virtual string[]? FaultDomainsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "hostGroupIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? HostGroupIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -121,6 +134,13 @@ namespace oci.ContainerengineNodePool
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "hostGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SubnetId
         {
@@ -128,6 +148,9 @@ namespace oci.ContainerengineNodePool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ContainerengineNodePool.IContainerengineNodePoolNodeConfigDetailsPlacementConfigs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolNodeConfigDetailsPlacementConfigs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

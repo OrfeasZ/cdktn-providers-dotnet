@@ -46,6 +46,7 @@ namespace aws.Sesv2ContactList
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Sesv2ContactList.Sesv2ContactList), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Sesv2ContactList.ISesv2ContactListTopic" />)[]</param>
         [JsiiMethod(name: "putTopic", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesv2ContactList.Sesv2ContactListTopic\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTopic(object @value)
         {
@@ -190,6 +191,9 @@ namespace aws.Sesv2ContactList
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Sesv2ContactList.ISesv2ContactListTopic" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "topicInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesv2ContactList.Sesv2ContactListTopic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TopicInput

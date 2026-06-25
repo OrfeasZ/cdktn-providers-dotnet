@@ -46,6 +46,7 @@ namespace aws.AppconfigConfigurationProfile
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppconfigConfigurationProfile.AppconfigConfigurationProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigConfigurationProfile.IAppconfigConfigurationProfileValidator" />)[]</param>
         [JsiiMethod(name: "putValidator", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidator\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValidator(object @value)
         {
@@ -237,6 +238,9 @@ namespace aws.AppconfigConfigurationProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigConfigurationProfile.IAppconfigConfigurationProfileValidator" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "validatorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidator\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValidatorInput

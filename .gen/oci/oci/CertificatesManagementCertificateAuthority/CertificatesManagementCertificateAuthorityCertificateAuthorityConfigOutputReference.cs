@@ -33,6 +33,12 @@ namespace oci.CertificatesManagementCertificateAuthority
         {
         }
 
+        [JsiiMethod(name: "putActionDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails\"}}]")]
+        public virtual void PutActionDetails(oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSubject", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigSubject\"}}]")]
         public virtual void PutSubject(oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigSubject @value)
         {
@@ -45,6 +51,18 @@ namespace oci.CertificatesManagementCertificateAuthority
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigValidity)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetActionDetails")]
+        public virtual void ResetActionDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCertificatePem")]
+        public virtual void ResetCertificatePem()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIssuerCertificateAuthorityId")]
         public virtual void ResetIssuerCertificateAuthorityId()
         {
@@ -53,6 +71,12 @@ namespace oci.CertificatesManagementCertificateAuthority
 
         [JsiiMethod(name: "resetSigningAlgorithm")]
         public virtual void ResetSigningAlgorithm()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubject")]
+        public virtual void ResetSubject()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -69,6 +93,12 @@ namespace oci.CertificatesManagementCertificateAuthority
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "actionDetails", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetailsOutputReference\"}")]
+        public virtual oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetailsOutputReference ActionDetails
+        {
+            get => GetInstanceProperty<oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "subject", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigSubjectOutputReference\"}")]
         public virtual oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigSubjectOutputReference Subject
         {
@@ -79,6 +109,20 @@ namespace oci.CertificatesManagementCertificateAuthority
         public virtual oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigValidityOutputReference Validity
         {
             get => GetInstanceProperty<oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigValidityOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "actionDetailsInput", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails\"}", isOptional: true)]
+        public virtual oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails? ActionDetailsInput
+        {
+            get => GetInstanceProperty<oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "certificatePemInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CertificatePemInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -121,6 +165,13 @@ namespace oci.CertificatesManagementCertificateAuthority
         public virtual string? VersionNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificatePem
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "configType", typeJson: "{\"primitive\":\"string\"}")]

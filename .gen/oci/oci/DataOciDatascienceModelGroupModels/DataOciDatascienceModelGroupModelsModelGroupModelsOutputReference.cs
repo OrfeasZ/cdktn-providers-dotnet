@@ -77,6 +77,12 @@ namespace oci.DataOciDatascienceModelGroupModels
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "inferenceKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InferenceKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isModelByReference", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsModelByReference
         {

@@ -77,6 +77,12 @@ namespace oci.DataOciGoldenGateDeploymentPeers
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "precheckStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrecheckStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
         {
@@ -97,6 +103,12 @@ namespace oci.DataOciGoldenGateDeploymentPeers
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeLastPrecheckPerformed", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeLastPrecheckPerformed
         {
             get => GetInstanceProperty<string>()!;
         }

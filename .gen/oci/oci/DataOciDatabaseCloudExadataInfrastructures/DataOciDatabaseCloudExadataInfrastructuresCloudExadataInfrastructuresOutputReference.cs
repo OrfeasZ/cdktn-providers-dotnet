@@ -173,6 +173,12 @@ namespace oci.DataOciDatabaseCloudExadataInfrastructures
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "maintenanceVersionPreferences", typeJson: "{\"fqn\":\"oci.dataOciDatabaseCloudExadataInfrastructures.DataOciDatabaseCloudExadataInfrastructuresCloudExadataInfrastructuresMaintenanceVersionPreferencesList\"}")]
+        public virtual oci.DataOciDatabaseCloudExadataInfrastructures.DataOciDatabaseCloudExadataInfrastructuresCloudExadataInfrastructuresMaintenanceVersionPreferencesList MaintenanceVersionPreferences
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseCloudExadataInfrastructures.DataOciDatabaseCloudExadataInfrastructuresCloudExadataInfrastructuresMaintenanceVersionPreferencesList>()!;
+        }
+
         [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.dataOciDatabaseCloudExadataInfrastructures.DataOciDatabaseCloudExadataInfrastructuresCloudExadataInfrastructuresMaintenanceWindowList\"}")]
         public virtual oci.DataOciDatabaseCloudExadataInfrastructures.DataOciDatabaseCloudExadataInfrastructuresCloudExadataInfrastructuresMaintenanceWindowList MaintenanceWindow
         {

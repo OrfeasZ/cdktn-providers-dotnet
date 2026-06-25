@@ -93,6 +93,9 @@ namespace aws.BedrockagentcorePolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

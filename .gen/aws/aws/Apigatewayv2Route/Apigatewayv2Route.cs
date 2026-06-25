@@ -46,6 +46,7 @@ namespace aws.Apigatewayv2Route
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Apigatewayv2Route.Apigatewayv2Route), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Route.IApigatewayv2RouteRequestParameter" />)[]</param>
         [JsiiMethod(name: "putRequestParameter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Route.Apigatewayv2RouteRequestParameter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRequestParameter(object @value)
         {
@@ -173,6 +174,9 @@ namespace aws.Apigatewayv2Route
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiKeyRequiredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApiKeyRequiredInput
@@ -236,6 +240,9 @@ namespace aws.Apigatewayv2Route
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2Route.IApigatewayv2RouteRequestParameter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestParameterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2Route.Apigatewayv2RouteRequestParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RequestParameterInput
@@ -271,6 +278,9 @@ namespace aws.Apigatewayv2Route
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "apiKeyRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApiKeyRequired
         {

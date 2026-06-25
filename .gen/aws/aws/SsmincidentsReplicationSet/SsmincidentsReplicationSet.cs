@@ -46,6 +46,7 @@ namespace aws.SsmincidentsReplicationSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmincidentsReplicationSet.SsmincidentsReplicationSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsReplicationSet.ISsmincidentsReplicationSetRegion" />)[]</param>
         [JsiiMethod(name: "putRegion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegion(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.SsmincidentsReplicationSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsReplicationSet.ISsmincidentsReplicationSetRegions" />)[]</param>
         [JsiiMethod(name: "putRegions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegions(object @value)
         {
@@ -208,6 +210,9 @@ namespace aws.SsmincidentsReplicationSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsReplicationSet.ISsmincidentsReplicationSetRegion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegionInput
@@ -215,6 +220,9 @@ namespace aws.SsmincidentsReplicationSet
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmincidentsReplicationSet.ISsmincidentsReplicationSetRegions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegionsInput
@@ -236,6 +244,9 @@ namespace aws.SsmincidentsReplicationSet
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmincidentsReplicationSet.ISsmincidentsReplicationSetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

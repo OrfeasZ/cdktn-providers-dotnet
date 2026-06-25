@@ -63,6 +63,9 @@ namespace oci.IdentityDomainsSecurityQuestion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsSecurityQuestion.IIdentityDomainsSecurityQuestionTags" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsSecurityQuestion.IdentityDomainsSecurityQuestionTags\"}]}}", isOptional: true)]
         public virtual object? InternalValue

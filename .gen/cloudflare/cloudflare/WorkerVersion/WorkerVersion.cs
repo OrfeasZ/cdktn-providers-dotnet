@@ -58,6 +58,7 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkerVersion.IWorkerVersionAssets)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionBindings" />)[]</param>
         [JsiiMethod(name: "putBindings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBindings(object @value)
         {
@@ -81,6 +82,7 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionContainers" />)[]</param>
         [JsiiMethod(name: "putContainers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionContainers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContainers(object @value)
         {
@@ -116,6 +118,7 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkerVersion.IWorkerVersionMigrations)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionModules" />)[]</param>
         [JsiiMethod(name: "putModules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionModules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutModules(object @value)
         {
@@ -339,6 +342,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionAnnotations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "annotationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionAnnotations\"}]}}", isOptional: true)]
         public virtual object? AnnotationsInput
@@ -346,6 +352,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionAssets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionAssets\"}]}}", isOptional: true)]
         public virtual object? AssetsInput
@@ -353,6 +362,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionBindings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bindingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BindingsInput
@@ -374,6 +386,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionContainers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionContainers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContainersInput
@@ -381,6 +396,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionLimits" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionLimits\"}]}}", isOptional: true)]
         public virtual object? LimitsInput
@@ -395,6 +413,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionMigrations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "migrationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrations\"}]}}", isOptional: true)]
         public virtual object? MigrationsInput
@@ -402,6 +423,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionModules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionModules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ModulesInput
@@ -409,6 +433,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionPlacement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacement\"}]}}", isOptional: true)]
         public virtual object? PlacementInput

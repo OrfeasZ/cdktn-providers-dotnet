@@ -46,6 +46,7 @@ namespace aws.RbinRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RbinRule.RbinRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RbinRule.IRbinRuleExcludeResourceTags" />)[]</param>
         [JsiiMethod(name: "putExcludeResourceTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rbinRule.RbinRuleExcludeResourceTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExcludeResourceTags(object @value)
         {
@@ -75,6 +76,7 @@ namespace aws.RbinRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.RbinRule.IRbinRuleLockConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RbinRule.IRbinRuleResourceTags" />)[]</param>
         [JsiiMethod(name: "putResourceTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rbinRule.RbinRuleResourceTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceTags(object @value)
         {
@@ -244,6 +246,9 @@ namespace aws.RbinRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RbinRule.IRbinRuleExcludeResourceTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludeResourceTagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rbinRule.RbinRuleExcludeResourceTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExcludeResourceTagsInput
@@ -265,6 +270,9 @@ namespace aws.RbinRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RbinRule.IRbinRuleResourceTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rbinRule.RbinRuleResourceTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceTagsInput
@@ -300,6 +308,9 @@ namespace aws.RbinRule
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RbinRule.IRbinRuleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rbinRule.RbinRuleTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

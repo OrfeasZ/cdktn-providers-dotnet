@@ -93,6 +93,9 @@ namespace scaleway.RdbSnapshot
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RdbSnapshot.IRdbSnapshotTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.rdbSnapshot.RdbSnapshotTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

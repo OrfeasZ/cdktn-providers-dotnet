@@ -46,6 +46,7 @@ namespace aws.OpensearchserverlessCollectionGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.OpensearchserverlessCollectionGroup.OpensearchserverlessCollectionGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollectionGroup.IOpensearchserverlessCollectionGroupCapacityLimits" />)[]</param>
         [JsiiMethod(name: "putCapacityLimits", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollectionGroup.OpensearchserverlessCollectionGroupCapacityLimits\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCapacityLimits(object @value)
         {
@@ -148,6 +149,9 @@ namespace aws.OpensearchserverlessCollectionGroup
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollectionGroup.IOpensearchserverlessCollectionGroupCapacityLimits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityLimitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollectionGroup.OpensearchserverlessCollectionGroupCapacityLimits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CapacityLimitsInput

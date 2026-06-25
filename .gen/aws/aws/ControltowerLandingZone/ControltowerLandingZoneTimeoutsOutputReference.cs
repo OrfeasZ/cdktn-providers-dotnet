@@ -93,6 +93,9 @@ namespace aws.ControltowerLandingZone
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ControltowerLandingZone.IControltowerLandingZoneTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.controltowerLandingZone.ControltowerLandingZoneTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

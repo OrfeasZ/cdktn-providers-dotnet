@@ -89,6 +89,12 @@ namespace oci.DataOciContainerengineNodePools
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "networkLaunchType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkLaunchType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "nodeConfigDetails", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsNodeConfigDetailsList\"}")]
         public virtual oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsNodeConfigDetailsList NodeConfigDetails
         {
@@ -161,10 +167,22 @@ namespace oci.DataOciContainerengineNodePools
             get => GetInstanceProperty<oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsNodeSourceDetailsList>()!;
         }
 
+        [JsiiProperty(name: "primaryVnic", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsPrimaryVnicList\"}")]
+        public virtual oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsPrimaryVnicList PrimaryVnic
+        {
+            get => GetInstanceProperty<oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsPrimaryVnicList>()!;
+        }
+
         [JsiiProperty(name: "quantityPerSubnet", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double QuantityPerSubnet
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "secondaryVnics", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsSecondaryVnicsList\"}")]
+        public virtual oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsSecondaryVnicsList SecondaryVnics
+        {
+            get => GetInstanceProperty<oci.DataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsSecondaryVnicsList>()!;
         }
 
         [JsiiProperty(name: "sshPublicKey", typeJson: "{\"primitive\":\"string\"}")]

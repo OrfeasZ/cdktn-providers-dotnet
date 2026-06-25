@@ -93,6 +93,9 @@ namespace oci.CloudGuardManagedList
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudGuardManagedList.ICloudGuardManagedListTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudGuardManagedList.CloudGuardManagedListTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

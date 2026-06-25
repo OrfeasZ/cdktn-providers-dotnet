@@ -41,6 +41,9 @@ namespace aws.S3BucketAbac
             return InvokeInstanceMethod<aws.S3BucketAbac.S3BucketAbacAbacStatusOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketAbac.IS3BucketAbacAbacStatus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAbac.S3BucketAbacAbacStatus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

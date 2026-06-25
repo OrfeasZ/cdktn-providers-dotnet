@@ -25,6 +25,7 @@ namespace scaleway.AutoscalingInstanceGroup
         /// <summary>capacity block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/autoscaling_instance_group#capacity AutoscalingInstanceGroup#capacity}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupCapacity" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupCapacity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,6 +62,7 @@ namespace scaleway.AutoscalingInstanceGroup
         /// Set to <c>true</c> to tear them down, <c>false</c> (the default) leaves them running
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/autoscaling_instance_group#delete_servers_on_destroy AutoscalingInstanceGroup#delete_servers_on_destroy}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteServersOnDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -108,6 +110,7 @@ namespace scaleway.AutoscalingInstanceGroup
         /// <summary>load_balancer block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/autoscaling_instance_group#load_balancer AutoscalingInstanceGroup#load_balancer}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupLoadBalancer" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancer", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupLoadBalancer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -189,6 +192,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -222,6 +226,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -316,6 +321,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

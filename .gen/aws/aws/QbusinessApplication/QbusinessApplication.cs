@@ -46,6 +46,7 @@ namespace aws.QbusinessApplication
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.QbusinessApplication.QbusinessApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QbusinessApplication.IQbusinessApplicationAttachmentsConfiguration" />)[]</param>
         [JsiiMethod(name: "putAttachmentsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.qbusinessApplication.QbusinessApplicationAttachmentsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAttachmentsConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.QbusinessApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QbusinessApplication.IQbusinessApplicationEncryptionConfiguration" />)[]</param>
         [JsiiMethod(name: "putEncryptionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.qbusinessApplication.QbusinessApplicationEncryptionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryptionConfiguration(object @value)
         {
@@ -195,6 +197,9 @@ namespace aws.QbusinessApplication
             get => GetInstanceProperty<aws.QbusinessApplication.QbusinessApplicationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QbusinessApplication.IQbusinessApplicationAttachmentsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attachmentsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.qbusinessApplication.QbusinessApplicationAttachmentsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AttachmentsConfigurationInput
@@ -216,6 +221,9 @@ namespace aws.QbusinessApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QbusinessApplication.IQbusinessApplicationEncryptionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.qbusinessApplication.QbusinessApplicationEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionConfigurationInput
@@ -251,6 +259,9 @@ namespace aws.QbusinessApplication
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QbusinessApplication.IQbusinessApplicationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.qbusinessApplication.QbusinessApplicationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

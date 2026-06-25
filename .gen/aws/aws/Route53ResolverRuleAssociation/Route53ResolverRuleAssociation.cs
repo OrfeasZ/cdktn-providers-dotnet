@@ -129,6 +129,9 @@ namespace aws.Route53ResolverRuleAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ResolverRuleAssociation.IRoute53ResolverRuleAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ResolverRuleAssociation.Route53ResolverRuleAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

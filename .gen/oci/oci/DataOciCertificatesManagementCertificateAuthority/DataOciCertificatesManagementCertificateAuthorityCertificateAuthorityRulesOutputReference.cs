@@ -47,6 +47,18 @@ namespace oci.DataOciCertificatesManagementCertificateAuthority
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "nameConstraint", typeJson: "{\"fqn\":\"oci.dataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintList\"}")]
+        public virtual oci.DataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintList NameConstraint
+        {
+            get => GetInstanceProperty<oci.DataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintList>()!;
+        }
+
+        [JsiiProperty(name: "pathLengthConstraint", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PathLengthConstraint
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RuleType
         {

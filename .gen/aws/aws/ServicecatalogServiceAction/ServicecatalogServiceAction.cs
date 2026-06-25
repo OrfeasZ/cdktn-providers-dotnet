@@ -161,6 +161,9 @@ namespace aws.ServicecatalogServiceAction
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ServicecatalogServiceAction.IServicecatalogServiceActionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.servicecatalogServiceAction.ServicecatalogServiceActionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

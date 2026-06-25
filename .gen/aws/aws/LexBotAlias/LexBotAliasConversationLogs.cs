@@ -22,6 +22,7 @@ namespace aws.LexBotAlias
         /// <summary>log_settings block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_bot_alias#log_settings LexBotAlias#log_settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexBotAlias.ILexBotAliasConversationLogsLogSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexBotAlias.LexBotAliasConversationLogsLogSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]

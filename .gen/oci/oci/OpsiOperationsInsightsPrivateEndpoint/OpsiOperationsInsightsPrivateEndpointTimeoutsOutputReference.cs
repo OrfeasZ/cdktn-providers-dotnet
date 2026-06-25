@@ -93,6 +93,9 @@ namespace oci.OpsiOperationsInsightsPrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpsiOperationsInsightsPrivateEndpoint.IOpsiOperationsInsightsPrivateEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opsiOperationsInsightsPrivateEndpoint.OpsiOperationsInsightsPrivateEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

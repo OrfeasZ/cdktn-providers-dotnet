@@ -41,6 +41,9 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRings
             return InvokeInstanceMethod<oci.DataOciDbmulticloudOracleDbGcpKeyRings.DataOciDbmulticloudOracleDbGcpKeyRingsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbGcpKeyRings.IDataOciDbmulticloudOracleDbGcpKeyRingsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbGcpKeyRings.DataOciDbmulticloudOracleDbGcpKeyRingsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

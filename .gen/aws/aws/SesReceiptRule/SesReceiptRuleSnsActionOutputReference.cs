@@ -83,6 +83,9 @@ namespace aws.SesReceiptRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SesReceiptRule.ISesReceiptRuleSnsAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleSnsAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

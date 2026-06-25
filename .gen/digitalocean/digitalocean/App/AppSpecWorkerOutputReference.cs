@@ -35,6 +35,7 @@ namespace digitalocean.App
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerAlert" />)[]</param>
         [JsiiMethod(name: "putAlert", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerAlert\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAlert(object @value)
         {
@@ -70,6 +71,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecWorkerBitbucket)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerEnv" />)[]</param>
         [JsiiMethod(name: "putEnv", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerEnv\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnv(object @value)
         {
@@ -123,6 +125,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecWorkerLivenessHealthCheck)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerLogDestination" />)[]</param>
         [JsiiMethod(name: "putLogDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerLogDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogDestination(object @value)
         {
@@ -326,6 +329,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.AppSpecWorkerTerminationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerAlert" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alertInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerAlert\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AlertInput
@@ -361,6 +367,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerEnv" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "envInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvInput
@@ -424,6 +433,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.IAppSpecWorkerLivenessHealthCheck?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorkerLogDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorkerLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogDestinationInput
@@ -515,6 +527,9 @@ namespace digitalocean.App
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.App.IAppSpecWorker" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.app.AppSpecWorker\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -65,6 +65,12 @@ namespace oci.DataOciDatabaseDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DatabaseId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DatabaseSoftwareImageId
         {
@@ -131,10 +137,22 @@ namespace oci.DataOciDatabaseDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "managedSoftwareUpdateDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsList\"}")]
+        public virtual oci.DataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsList ManagedSoftwareUpdateDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsList>()!;
+        }
+
         [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NcharacterSet
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "patchOptions", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabasePatchOptionsList\"}")]
+        public virtual oci.DataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabasePatchOptionsList PatchOptions
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabasePatchOptionsList>()!;
         }
 
         [JsiiProperty(name: "pdbName", typeJson: "{\"primitive\":\"string\"}")]
@@ -191,6 +209,12 @@ namespace oci.DataOciDatabaseDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeStampForPointInTimeRecovery", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeStampForPointInTimeRecovery
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "transportType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TransportType
         {
@@ -199,6 +223,12 @@ namespace oci.DataOciDatabaseDatabase
 
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VaultId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmClusterId
         {
             get => GetInstanceProperty<string>()!;
         }

@@ -53,6 +53,12 @@ namespace oci.DataOciCoreDedicatedVmHostsInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isMemoryEncryptionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsMemoryEncryptionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Shape
         {

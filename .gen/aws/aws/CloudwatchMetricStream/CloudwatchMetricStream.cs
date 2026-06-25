@@ -46,6 +46,7 @@ namespace aws.CloudwatchMetricStream
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudwatchMetricStream.CloudwatchMetricStream), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamExcludeFilter" />)[]</param>
         [JsiiMethod(name: "putExcludeFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExcludeFilter(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.CloudwatchMetricStream
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamIncludeFilter" />)[]</param>
         [JsiiMethod(name: "putIncludeFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIncludeFilter(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.CloudwatchMetricStream
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfiguration" />)[]</param>
         [JsiiMethod(name: "putStatisticsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStatisticsConfiguration(object @value)
         {
@@ -254,6 +257,9 @@ namespace aws.CloudwatchMetricStream
             get => GetInstanceProperty<aws.CloudwatchMetricStream.CloudwatchMetricStreamTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamExcludeFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludeFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExcludeFilterInput
@@ -275,6 +281,9 @@ namespace aws.CloudwatchMetricStream
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamIncludeFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IncludeFilterInput
@@ -282,6 +291,9 @@ namespace aws.CloudwatchMetricStream
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeLinkedAccountsMetricsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IncludeLinkedAccountsMetricsInput
@@ -324,6 +336,9 @@ namespace aws.CloudwatchMetricStream
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statisticsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StatisticsConfigurationInput
@@ -345,6 +360,9 @@ namespace aws.CloudwatchMetricStream
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -366,6 +384,9 @@ namespace aws.CloudwatchMetricStream
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "includeLinkedAccountsMetrics", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IncludeLinkedAccountsMetrics
         {

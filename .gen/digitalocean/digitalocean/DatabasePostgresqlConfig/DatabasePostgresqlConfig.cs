@@ -46,6 +46,7 @@ namespace digitalocean.DatabasePostgresqlConfig
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DatabasePostgresqlConfig.DatabasePostgresqlConfig), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabasePostgresqlConfig.IDatabasePostgresqlConfigPgbouncer" />)[]</param>
         [JsiiMethod(name: "putPgbouncer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigPgbouncer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPgbouncer(object @value)
         {
@@ -558,6 +559,9 @@ namespace digitalocean.DatabasePostgresqlConfig
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jitInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? JitInput
@@ -684,6 +688,9 @@ namespace digitalocean.DatabasePostgresqlConfig
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabasePostgresqlConfig.IDatabasePostgresqlConfigPgbouncer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pgbouncerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databasePostgresqlConfig.DatabasePostgresqlConfigPgbouncer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PgbouncerInput
@@ -929,6 +936,9 @@ namespace digitalocean.DatabasePostgresqlConfig
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "jit", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Jit
         {

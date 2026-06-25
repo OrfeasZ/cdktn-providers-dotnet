@@ -93,6 +93,9 @@ namespace oci.DataflowSqlEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataflowSqlEndpoint.IDataflowSqlEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataflowSqlEndpoint.DataflowSqlEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

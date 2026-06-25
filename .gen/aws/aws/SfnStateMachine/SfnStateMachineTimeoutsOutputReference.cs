@@ -93,6 +93,9 @@ namespace aws.SfnStateMachine
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SfnStateMachine.ISfnStateMachineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sfnStateMachine.SfnStateMachineTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

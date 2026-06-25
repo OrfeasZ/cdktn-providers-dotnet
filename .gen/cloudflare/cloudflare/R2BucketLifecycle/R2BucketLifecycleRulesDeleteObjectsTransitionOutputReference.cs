@@ -51,6 +51,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<cloudflare.R2BucketLifecycle.R2BucketLifecycleRulesDeleteObjectsTransitionConditionOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesDeleteObjectsTransitionCondition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesDeleteObjectsTransitionCondition\"}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -58,6 +61,9 @@ namespace cloudflare.R2BucketLifecycle
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLifecycle.IR2BucketLifecycleRulesDeleteObjectsTransition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLifecycle.R2BucketLifecycleRulesDeleteObjectsTransition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

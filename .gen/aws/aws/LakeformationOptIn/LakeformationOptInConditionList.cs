@@ -41,6 +41,9 @@ namespace aws.LakeformationOptIn
             return InvokeInstanceMethod<aws.LakeformationOptIn.LakeformationOptInConditionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInCondition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

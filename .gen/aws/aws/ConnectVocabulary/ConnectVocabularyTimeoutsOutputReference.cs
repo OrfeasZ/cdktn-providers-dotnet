@@ -73,6 +73,9 @@ namespace aws.ConnectVocabulary
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ConnectVocabulary.IConnectVocabularyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.connectVocabulary.ConnectVocabularyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

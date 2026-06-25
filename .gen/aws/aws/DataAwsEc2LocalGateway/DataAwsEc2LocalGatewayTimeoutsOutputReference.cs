@@ -53,6 +53,9 @@ namespace aws.DataAwsEc2LocalGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2LocalGateway.IDataAwsEc2LocalGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

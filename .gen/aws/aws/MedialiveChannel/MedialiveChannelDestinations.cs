@@ -26,6 +26,7 @@ namespace aws.MedialiveChannel
         /// <summary>media_package_settings block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#media_package_settings MedialiveChannel#media_package_settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelDestinationsMediaPackageSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mediaPackageSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelDestinationsMediaPackageSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -72,6 +73,7 @@ namespace aws.MedialiveChannel
         /// <summary>settings block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/medialive_channel#settings MedialiveChannel#settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelDestinationsSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelDestinationsSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]

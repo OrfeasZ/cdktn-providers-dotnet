@@ -41,6 +41,12 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroups
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

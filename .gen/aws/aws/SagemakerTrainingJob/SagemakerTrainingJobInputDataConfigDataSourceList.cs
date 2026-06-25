@@ -41,6 +41,9 @@ namespace aws.SagemakerTrainingJob
             return InvokeInstanceMethod<aws.SagemakerTrainingJob.SagemakerTrainingJobInputDataConfigDataSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobInputDataConfigDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobInputDataConfigDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

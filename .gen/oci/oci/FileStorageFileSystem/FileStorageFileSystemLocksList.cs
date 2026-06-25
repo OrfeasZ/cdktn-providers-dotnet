@@ -41,6 +41,9 @@ namespace oci.FileStorageFileSystem
             return InvokeInstanceMethod<oci.FileStorageFileSystem.FileStorageFileSystemLocksOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageFileSystem.IFileStorageFileSystemLocks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fileStorageFileSystem.FileStorageFileSystemLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

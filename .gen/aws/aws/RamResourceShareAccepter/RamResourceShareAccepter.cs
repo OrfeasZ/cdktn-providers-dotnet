@@ -158,6 +158,9 @@ namespace aws.RamResourceShareAccepter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RamResourceShareAccepter.IRamResourceShareAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ramResourceShareAccepter.RamResourceShareAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

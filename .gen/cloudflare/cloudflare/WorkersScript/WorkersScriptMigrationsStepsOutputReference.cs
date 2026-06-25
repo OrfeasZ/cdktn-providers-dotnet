@@ -35,6 +35,7 @@ namespace cloudflare.WorkersScript
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptMigrationsStepsRenamedClasses" />)[]</param>
         [JsiiMethod(name: "putRenamedClasses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrationsStepsRenamedClasses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRenamedClasses(object @value)
         {
@@ -58,6 +59,7 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptMigrationsStepsTransferredClasses" />)[]</param>
         [JsiiMethod(name: "putTransferredClasses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrationsStepsTransferredClasses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransferredClasses(object @value)
         {
@@ -144,6 +146,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptMigrationsStepsRenamedClasses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renamedClassesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrationsStepsRenamedClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RenamedClassesInput
@@ -151,6 +156,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptMigrationsStepsTransferredClasses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferredClassesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrationsStepsTransferredClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransferredClassesInput
@@ -179,6 +187,9 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptMigrationsSteps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrationsSteps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -39,6 +39,12 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAccountKey")]
+        public virtual void ResetAccountKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAccountKeySecretId")]
         public virtual void ResetAccountKeySecretId()
         {
@@ -87,8 +93,20 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSecretAccessKey")]
+        public virtual void ResetSecretAccessKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSecretAccessKeySecretId")]
         public virtual void ResetSecretAccessKeySecretId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServiceAccountKeyFile")]
+        public virtual void ResetServiceAccountKeyFile()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -102,6 +120,13 @@ namespace oci.GoldenGateConnection
         [JsiiOptional]
         [JsiiProperty(name: "accessKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AccessKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "accountKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AccountKeyInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -163,8 +188,22 @@ namespace oci.GoldenGateConnection
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "secretAccessKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SecretAccessKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "secretAccessKeySecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SecretAccessKeySecretIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "serviceAccountKeyFileInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceAccountKeyFileInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -185,6 +224,13 @@ namespace oci.GoldenGateConnection
 
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AccessKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountKey
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -246,8 +292,22 @@ namespace oci.GoldenGateConnection
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "secretAccessKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretAccessKey
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "secretAccessKeySecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SecretAccessKeySecretId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "serviceAccountKeyFile", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceAccountKeyFile
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

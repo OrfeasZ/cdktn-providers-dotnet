@@ -173,6 +173,9 @@ namespace cloudflare.DataCloudflareShare
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareShare.IDataCloudflareShareFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareShare.DataCloudflareShareFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

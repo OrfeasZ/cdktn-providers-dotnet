@@ -46,6 +46,7 @@ namespace aws.S3ControlMultiRegionAccessPointRoutes
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3ControlMultiRegionAccessPointRoutes.S3ControlMultiRegionAccessPointRoutes), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlMultiRegionAccessPointRoutes.IS3ControlMultiRegionAccessPointRoutesRoute" />)[]</param>
         [JsiiMethod(name: "putRoute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlMultiRegionAccessPointRoutes.S3ControlMultiRegionAccessPointRoutesRoute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoute(object @value)
         {
@@ -133,6 +134,9 @@ namespace aws.S3ControlMultiRegionAccessPointRoutes
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ControlMultiRegionAccessPointRoutes.IS3ControlMultiRegionAccessPointRoutesRoute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ControlMultiRegionAccessPointRoutes.S3ControlMultiRegionAccessPointRoutesRoute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RouteInput

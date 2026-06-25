@@ -65,6 +65,18 @@ namespace oci.DataOciDatabaseDbSystems
             get => GetInstanceProperty<oci.DataOciDatabaseDbSystems.DataOciDatabaseDbSystemsDbSystemsDbHomeDatabaseConnectionStringsList>()!;
         }
 
+        [JsiiProperty(name: "databaseDefinedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap DatabaseDefinedTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "databaseFreeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap DatabaseFreeformTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DatabaseId
         {
@@ -125,6 +137,18 @@ namespace oci.DataOciDatabaseDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isActiveDataGuardEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsActiveDataGuardEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyStoreId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {
@@ -161,6 +185,18 @@ namespace oci.DataOciDatabaseDbSystems
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProtectionMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sidPrefix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SidPrefix
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -181,6 +217,12 @@ namespace oci.DataOciDatabaseDbSystems
 
         [JsiiProperty(name: "timeStampForPointInTimeRecovery", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeStampForPointInTimeRecovery
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "transportType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TransportType
         {
             get => GetInstanceProperty<string>()!;
         }

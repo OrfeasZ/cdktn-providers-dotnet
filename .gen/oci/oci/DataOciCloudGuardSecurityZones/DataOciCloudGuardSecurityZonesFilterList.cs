@@ -41,6 +41,9 @@ namespace oci.DataOciCloudGuardSecurityZones
             return InvokeInstanceMethod<oci.DataOciCloudGuardSecurityZones.DataOciCloudGuardSecurityZonesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardSecurityZones.IDataOciCloudGuardSecurityZonesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudGuardSecurityZones.DataOciCloudGuardSecurityZonesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

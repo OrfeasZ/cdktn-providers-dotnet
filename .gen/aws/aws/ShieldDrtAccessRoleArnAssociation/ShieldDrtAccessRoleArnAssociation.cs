@@ -96,6 +96,9 @@ namespace aws.ShieldDrtAccessRoleArnAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ShieldDrtAccessRoleArnAssociation.IShieldDrtAccessRoleArnAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

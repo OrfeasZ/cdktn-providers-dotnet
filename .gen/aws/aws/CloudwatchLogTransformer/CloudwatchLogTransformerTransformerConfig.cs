@@ -12,6 +12,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>add_keys block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#add_keys CloudwatchLogTransformer#add_keys}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigAddKeys" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>copy_value block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#copy_value CloudwatchLogTransformer#copy_value}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigCopyValue" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "copyValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -80,6 +82,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>csv block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#csv CloudwatchLogTransformer#csv}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigCsv" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "csv", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -114,6 +117,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>date_time_converter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#date_time_converter CloudwatchLogTransformer#date_time_converter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDateTimeConverter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dateTimeConverter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -148,6 +152,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>delete_keys block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#delete_keys CloudwatchLogTransformer#delete_keys}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDeleteKeys" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -182,6 +187,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>grok block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#grok CloudwatchLogTransformer#grok}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigGrok" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grok", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrok\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -216,6 +222,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>list_to_map block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#list_to_map CloudwatchLogTransformer#list_to_map}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigListToMap" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listToMap", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -250,6 +257,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>lower_case_string block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#lower_case_string CloudwatchLogTransformer#lower_case_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigLowerCaseString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lowerCaseString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -284,6 +292,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>move_keys block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#move_keys CloudwatchLogTransformer#move_keys}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigMoveKeys" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "moveKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -318,6 +327,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_cloudfront block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_cloudfront CloudwatchLogTransformer#parse_cloudfront}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseCloudfront" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseCloudfront", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfront\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -352,6 +362,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_json block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_json CloudwatchLogTransformer#parse_json}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseJson" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseJson", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJson\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -386,6 +397,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_key_value block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_key_value CloudwatchLogTransformer#parse_key_value}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseKeyValue" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseKeyValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -420,6 +432,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_postgres block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_postgres CloudwatchLogTransformer#parse_postgres}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParsePostgres" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parsePostgres", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgres\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -454,6 +467,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_route53 block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_route53 CloudwatchLogTransformer#parse_route53}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseRoute53" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseRoute53", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -488,6 +502,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_to_ocsf block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_to_ocsf CloudwatchLogTransformer#parse_to_ocsf}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseToOcsf" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseToOcsf", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsf\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -522,6 +537,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_vpc block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_vpc CloudwatchLogTransformer#parse_vpc}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseVpc" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseVpc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -556,6 +572,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>parse_waf block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#parse_waf CloudwatchLogTransformer#parse_waf}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseWaf" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseWaf", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWaf\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -590,6 +607,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>rename_keys block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#rename_keys CloudwatchLogTransformer#rename_keys}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeys" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renameKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -624,6 +642,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>split_string block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#split_string CloudwatchLogTransformer#split_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSplitString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "splitString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -658,6 +677,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>substitute_string block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#substitute_string CloudwatchLogTransformer#substitute_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSubstituteString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "substituteString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -692,6 +712,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>trim_string block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#trim_string CloudwatchLogTransformer#trim_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigTrimString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trimString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -726,6 +747,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>type_converter block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#type_converter CloudwatchLogTransformer#type_converter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigTypeConverter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "typeConverter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -760,6 +782,7 @@ namespace aws.CloudwatchLogTransformer
         /// <summary>upper_case_string block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_log_transformer#upper_case_string CloudwatchLogTransformer#upper_case_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigUpperCaseString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upperCaseString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseString\"},\"kind\":\"array\"}}]}}", isOptional: true)]

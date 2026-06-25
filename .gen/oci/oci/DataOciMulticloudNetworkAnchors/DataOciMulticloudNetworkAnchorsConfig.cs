@@ -4,36 +4,10 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciMulticloudNetworkAnchors
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "oci.dataOciMulticloudNetworkAnchors.DataOciMulticloudNetworkAnchorsConfig")]
     public class DataOciMulticloudNetworkAnchorsConfig : oci.DataOciMulticloudNetworkAnchors.IDataOciMulticloudNetworkAnchorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#external_location DataOciMulticloudNetworkAnchors#external_location}.</summary>
-        [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}")]
-        public string ExternalLocation
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#subscription_id DataOciMulticloudNetworkAnchors#subscription_id}.</summary>
-        [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
-        public string SubscriptionId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#subscription_service_name DataOciMulticloudNetworkAnchors#subscription_service_name}.</summary>
-        [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
-        public string SubscriptionServiceName
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#compartment_id DataOciMulticloudNetworkAnchors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#compartment_id DataOciMulticloudNetworkAnchors#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -42,7 +16,41 @@ namespace oci.DataOciMulticloudNetworkAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#display_name DataOciMulticloudNetworkAnchors#display_name}.</summary>
+        private object? _compartmentIdInSubtree;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#compartment_id_in_subtree DataOciMulticloudNetworkAnchors#compartment_id_in_subtree}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "compartmentIdInSubtree", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? CompartmentIdInSubtree
+        {
+            get => _compartmentIdInSubtree;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _compartmentIdInSubtree = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#display_name DataOciMulticloudNetworkAnchors#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -51,7 +59,16 @@ namespace oci.DataOciMulticloudNetworkAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#id DataOciMulticloudNetworkAnchors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#external_location DataOciMulticloudNetworkAnchors#external_location}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ExternalLocation
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#id DataOciMulticloudNetworkAnchors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +81,7 @@ namespace oci.DataOciMulticloudNetworkAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#limit DataOciMulticloudNetworkAnchors#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#limit DataOciMulticloudNetworkAnchors#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -73,7 +90,7 @@ namespace oci.DataOciMulticloudNetworkAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#network_anchor_lifecycle_state DataOciMulticloudNetworkAnchors#network_anchor_lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#network_anchor_lifecycle_state DataOciMulticloudNetworkAnchors#network_anchor_lifecycle_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkAnchorLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NetworkAnchorLifecycleState
@@ -82,7 +99,7 @@ namespace oci.DataOciMulticloudNetworkAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#network_anchor_oci_subnet_id DataOciMulticloudNetworkAnchors#network_anchor_oci_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#network_anchor_oci_subnet_id DataOciMulticloudNetworkAnchors#network_anchor_oci_subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkAnchorOciSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NetworkAnchorOciSubnetId
@@ -91,10 +108,62 @@ namespace oci.DataOciMulticloudNetworkAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/multicloud_network_anchors#network_anchor_oci_vcn_id DataOciMulticloudNetworkAnchors#network_anchor_oci_vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#network_anchor_oci_vcn_id DataOciMulticloudNetworkAnchors#network_anchor_oci_vcn_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkAnchorOciVcnId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NetworkAnchorOciVcnId
+        {
+            get;
+            set;
+        }
+
+        private object? _shouldFetchVcnName;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#should_fetch_vcn_name DataOciMulticloudNetworkAnchors#should_fetch_vcn_name}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "shouldFetchVcnName", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? ShouldFetchVcnName
+        {
+            get => _shouldFetchVcnName;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _shouldFetchVcnName = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#subscription_id DataOciMulticloudNetworkAnchors#subscription_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SubscriptionId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/multicloud_network_anchors#subscription_service_name DataOciMulticloudNetworkAnchors#subscription_service_name}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SubscriptionServiceName
         {
             get;
             set;
@@ -104,6 +173,7 @@ namespace oci.DataOciMulticloudNetworkAnchors
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -137,6 +207,7 @@ namespace oci.DataOciMulticloudNetworkAnchors
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -231,6 +302,7 @@ namespace oci.DataOciMulticloudNetworkAnchors
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

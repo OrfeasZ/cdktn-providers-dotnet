@@ -63,6 +63,9 @@ namespace aws.DataAwsNetworkInterfaces
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsNetworkInterfaces.IDataAwsNetworkInterfacesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfacesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

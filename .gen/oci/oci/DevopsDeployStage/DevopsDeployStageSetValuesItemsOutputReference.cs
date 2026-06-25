@@ -75,6 +75,9 @@ namespace oci.DevopsDeployStage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsDeployStage.IDevopsDeployStageSetValuesItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsDeployStage.DevopsDeployStageSetValuesItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

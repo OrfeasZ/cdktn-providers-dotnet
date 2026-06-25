@@ -35,16 +35,40 @@ namespace oci.OsManagementHubScheduledJob
         {
         }
 
+        [JsiiMethod(name: "putInstallSnapDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetails\"}}]")]
+        public virtual void PutInstallSnapDetails(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsInstallSnapDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsInstallSnapDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putManageModuleStreamsDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetails\"}}]")]
         public virtual void PutManageModuleStreamsDetails(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetails @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putRemoveSnapDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsRemoveSnapDetails\"}}]")]
+        public virtual void PutRemoveSnapDetails(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsRemoveSnapDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsRemoveSnapDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSwitchModuleStreamsDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchModuleStreamsDetails\"}}]")]
         public virtual void PutSwitchModuleStreamsDetails(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchModuleStreamsDetails @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchModuleStreamsDetails)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putSwitchSnapChannelDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchSnapChannelDetails\"}}]")]
+        public virtual void PutSwitchSnapChannelDetails(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchSnapChannelDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchSnapChannelDetails)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetInstallSnapDetails")]
+        public virtual void ResetInstallSnapDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetManageModuleStreamsDetails")]
@@ -65,6 +89,12 @@ namespace oci.OsManagementHubScheduledJob
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRemoveSnapDetails")]
+        public virtual void ResetRemoveSnapDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSoftwareSourceIds")]
         public virtual void ResetSoftwareSourceIds()
         {
@@ -77,10 +107,22 @@ namespace oci.OsManagementHubScheduledJob
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSwitchSnapChannelDetails")]
+        public virtual void ResetSwitchSnapChannelDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetWindowsUpdateNames")]
         public virtual void ResetWindowsUpdateNames()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "installSnapDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetailsOutputReference\"}")]
+        public virtual oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetailsOutputReference InstallSnapDetails
+        {
+            get => GetInstanceProperty<oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetailsOutputReference>()!;
         }
 
         [JsiiProperty(name: "manageModuleStreamsDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsOutputReference\"}")]
@@ -89,10 +131,29 @@ namespace oci.OsManagementHubScheduledJob
             get => GetInstanceProperty<oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "removeSnapDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsRemoveSnapDetailsOutputReference\"}")]
+        public virtual oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsRemoveSnapDetailsOutputReference RemoveSnapDetails
+        {
+            get => GetInstanceProperty<oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsRemoveSnapDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "switchModuleStreamsDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchModuleStreamsDetailsOutputReference\"}")]
         public virtual oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchModuleStreamsDetailsOutputReference SwitchModuleStreamsDetails
         {
             get => GetInstanceProperty<oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchModuleStreamsDetailsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "switchSnapChannelDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchSnapChannelDetailsOutputReference\"}")]
+        public virtual oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchSnapChannelDetailsOutputReference SwitchSnapChannelDetails
+        {
+            get => GetInstanceProperty<oci.OsManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchSnapChannelDetailsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "installSnapDetailsInput", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetails\"}", isOptional: true)]
+        public virtual oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsInstallSnapDetails? InstallSnapDetailsInput
+        {
+            get => GetInstanceProperty<oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsInstallSnapDetails?>();
         }
 
         [JsiiOptional]
@@ -124,6 +185,13 @@ namespace oci.OsManagementHubScheduledJob
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "removeSnapDetailsInput", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsRemoveSnapDetails\"}", isOptional: true)]
+        public virtual oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsRemoveSnapDetails? RemoveSnapDetailsInput
+        {
+            get => GetInstanceProperty<oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsRemoveSnapDetails?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "softwareSourceIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? SoftwareSourceIdsInput
         {
@@ -135,6 +203,13 @@ namespace oci.OsManagementHubScheduledJob
         public virtual oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchModuleStreamsDetails? SwitchModuleStreamsDetailsInput
         {
             get => GetInstanceProperty<oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchModuleStreamsDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "switchSnapChannelDetailsInput", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchSnapChannelDetails\"}", isOptional: true)]
+        public virtual oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchSnapChannelDetails? SwitchSnapChannelDetailsInput
+        {
+            get => GetInstanceProperty<oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsSwitchSnapChannelDetails?>();
         }
 
         [JsiiOptional]
@@ -179,6 +254,9 @@ namespace oci.OsManagementHubScheduledJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

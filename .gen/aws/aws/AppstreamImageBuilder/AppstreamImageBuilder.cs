@@ -46,6 +46,7 @@ namespace aws.AppstreamImageBuilder
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppstreamImageBuilder.AppstreamImageBuilder), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamImageBuilder.IAppstreamImageBuilderAccessEndpoint" />)[]</param>
         [JsiiMethod(name: "putAccessEndpoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccessEndpoint(object @value)
         {
@@ -220,6 +221,9 @@ namespace aws.AppstreamImageBuilder
             get => GetInstanceProperty<aws.AppstreamImageBuilder.AppstreamImageBuilderVpcConfigOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamImageBuilder.IAppstreamImageBuilderAccessEndpoint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessEndpointInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccessEndpointInput
@@ -255,6 +259,9 @@ namespace aws.AppstreamImageBuilder
             get => GetInstanceProperty<aws.AppstreamImageBuilder.IAppstreamImageBuilderDomainJoinInfo?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDefaultInternetAccessInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableDefaultInternetAccessInput
@@ -353,6 +360,9 @@ namespace aws.AppstreamImageBuilder
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableDefaultInternetAccess", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableDefaultInternetAccess
         {

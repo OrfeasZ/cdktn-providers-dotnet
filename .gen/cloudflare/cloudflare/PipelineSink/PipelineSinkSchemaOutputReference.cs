@@ -33,6 +33,7 @@ namespace cloudflare.PipelineSink
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFields" />)[]</param>
         [JsiiMethod(name: "putFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchemaFields\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFields(object @value)
         {
@@ -92,6 +93,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<cloudflare.PipelineSink.PipelineSinkSchemaFormatOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFields" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchemaFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldsInput
@@ -99,6 +103,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFormat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "formatInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchemaFormat\"}]}}", isOptional: true)]
         public virtual object? FormatInput
@@ -106,6 +113,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inferredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? InferredInput
@@ -113,6 +123,9 @@ namespace cloudflare.PipelineSink
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "inferred", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Inferred
         {
@@ -140,6 +153,9 @@ namespace cloudflare.PipelineSink
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineSink.IPipelineSinkSchema" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchema\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,8 +41,20 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "availableVmStorageInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AvailableVmStorageInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "totalStorageInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TotalStorageInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "totalVmStorageInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TotalVmStorageInGbs
         {
             get => GetInstanceProperty<double>()!;
         }

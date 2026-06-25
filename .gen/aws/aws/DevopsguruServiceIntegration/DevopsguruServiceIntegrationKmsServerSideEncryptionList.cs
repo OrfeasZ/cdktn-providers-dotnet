@@ -41,6 +41,9 @@ namespace aws.DevopsguruServiceIntegration
             return InvokeInstanceMethod<aws.DevopsguruServiceIntegration.DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationKmsServerSideEncryption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationKmsServerSideEncryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

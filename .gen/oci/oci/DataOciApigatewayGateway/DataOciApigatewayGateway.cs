@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciApigatewayGateway
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apigateway_gateway oci_apigateway_gateway}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apigateway_gateway oci_apigateway_gateway}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciApigatewayGateway.DataOciApigatewayGateway), fullyQualifiedName: "oci.dataOciApigatewayGateway.DataOciApigatewayGateway", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciApigatewayGateway.DataOciApigatewayGatewayConfig\"}}]")]
     public class DataOciApigatewayGateway : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apigateway_gateway oci_apigateway_gateway} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apigateway_gateway oci_apigateway_gateway} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciApigatewayGateway(Constructs.Construct scope, string id, oci.DataOciApigatewayGateway.IDataOciApigatewayGatewayConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciApigatewayGateway
         /// <param name="importToId">The construct id used in the generated config for the DataOciApigatewayGateway to import.</param>
         /// <param name="importFromId">The id of the existing DataOciApigatewayGateway that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciApigatewayGateway to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciApigatewayGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apigateway_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciApigatewayGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciApigatewayGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciApigatewayGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apigateway_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciApigatewayGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciApigatewayGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciApigatewayGateway.DataOciApigatewayGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -123,6 +123,24 @@ namespace oci.DataOciApigatewayGateway
         public virtual oci.DataOciApigatewayGateway.DataOciApigatewayGatewayIpAddressesList IpAddresses
         {
             get => GetInstanceProperty<oci.DataOciApigatewayGateway.DataOciApigatewayGatewayIpAddressesList>()!;
+        }
+
+        [JsiiProperty(name: "ipMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ipv4AddressConfiguration", typeJson: "{\"fqn\":\"oci.dataOciApigatewayGateway.DataOciApigatewayGatewayIpv4AddressConfigurationList\"}")]
+        public virtual oci.DataOciApigatewayGateway.DataOciApigatewayGatewayIpv4AddressConfigurationList Ipv4AddressConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciApigatewayGateway.DataOciApigatewayGatewayIpv4AddressConfigurationList>()!;
+        }
+
+        [JsiiProperty(name: "ipv6AddressConfiguration", typeJson: "{\"fqn\":\"oci.dataOciApigatewayGateway.DataOciApigatewayGatewayIpv6AddressConfigurationList\"}")]
+        public virtual oci.DataOciApigatewayGateway.DataOciApigatewayGatewayIpv6AddressConfigurationList Ipv6AddressConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciApigatewayGateway.DataOciApigatewayGatewayIpv6AddressConfigurationList>()!;
         }
 
         [JsiiProperty(name: "isLockOverride", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]

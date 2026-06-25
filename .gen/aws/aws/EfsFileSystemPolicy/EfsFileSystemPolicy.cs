@@ -83,6 +83,9 @@ namespace aws.EfsFileSystemPolicy
         }
         = GetStaticProperty<string>(typeof(aws.EfsFileSystemPolicy.EfsFileSystemPolicy))!;
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bypassPolicyLockoutSafetyCheckInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? BypassPolicyLockoutSafetyCheckInput
@@ -118,6 +121,9 @@ namespace aws.EfsFileSystemPolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "bypassPolicyLockoutSafetyCheck", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object BypassPolicyLockoutSafetyCheck
         {

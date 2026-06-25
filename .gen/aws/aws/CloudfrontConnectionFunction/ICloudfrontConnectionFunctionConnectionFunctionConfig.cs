@@ -24,6 +24,7 @@ namespace aws.CloudfrontConnectionFunction
         /// <summary>key_value_store_association block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudfront_connection_function#key_value_store_association CloudfrontConnectionFunction#key_value_store_association}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "keyValueStoreAssociation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,6 +60,7 @@ namespace aws.CloudfrontConnectionFunction
             /// <summary>key_value_store_association block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudfront_connection_function#key_value_store_association CloudfrontConnectionFunction#key_value_store_association}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyValueStoreAssociation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]

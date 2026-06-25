@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsUser
     [JsiiByValue(fqn: "oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User")]
     public class IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User : oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#cost_center IdentityDomainsUser#cost_center}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#cost_center IdentityDomainsUser#cost_center}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "costCenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CostCenter
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#department IdentityDomainsUser#department}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#department IdentityDomainsUser#department}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "department", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Department
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#division IdentityDomainsUser#division}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#division IdentityDomainsUser#division}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "division", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Division
@@ -34,7 +34,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#employee_number IdentityDomainsUser#employee_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#employee_number IdentityDomainsUser#employee_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "employeeNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EmployeeNumber
@@ -45,7 +45,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>manager block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#manager IdentityDomainsUser#manager}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#manager IdentityDomainsUser#manager}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "manager", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20UserManager\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_user#organization IdentityDomainsUser#organization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_user#organization IdentityDomainsUser#organization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Organization

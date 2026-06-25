@@ -75,6 +75,9 @@ namespace oci.OptimizerProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OptimizerProfile.IOptimizerProfileLevelsConfigurationItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.optimizerProfile.OptimizerProfileLevelsConfigurationItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

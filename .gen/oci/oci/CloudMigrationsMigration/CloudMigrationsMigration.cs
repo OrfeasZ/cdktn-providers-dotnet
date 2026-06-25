@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CloudMigrationsMigration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration}.</summary>
     [JsiiClass(nativeType: typeof(oci.CloudMigrationsMigration.CloudMigrationsMigration), fullyQualifiedName: "oci.cloudMigrationsMigration.CloudMigrationsMigration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationConfig\"}}]")]
     public class CloudMigrationsMigration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_migration oci_cloud_migrations_migration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CloudMigrationsMigration(Constructs.Construct scope, string id, oci.CloudMigrationsMigration.ICloudMigrationsMigrationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace oci.CloudMigrationsMigration
         /// <param name="importToId">The construct id used in the generated config for the CloudMigrationsMigration to import.</param>
         /// <param name="importFromId">The id of the existing CloudMigrationsMigration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CloudMigrationsMigration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudMigrationsMigration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_migrations_migration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudMigrationsMigration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudMigrationsMigration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudMigrationsMigration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_migrations_migration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudMigrationsMigration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudMigrationsMigration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CloudMigrationsMigration.CloudMigrationsMigration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putMigrationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationMigrationConfig\"}}]")]
+        public virtual void PutMigrationConfig(oci.CloudMigrationsMigration.ICloudMigrationsMigrationMigrationConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudMigrationsMigration.ICloudMigrationsMigrationMigrationConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationTimeouts\"}}]")]
@@ -76,8 +82,26 @@ namespace oci.CloudMigrationsMigration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMigrationConfig")]
+        public virtual void ResetMigrationConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMigrationType")]
+        public virtual void ResetMigrationType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetReplicationScheduleId")]
         public virtual void ResetReplicationScheduleId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSecurityAttributes")]
+        public virtual void ResetSecurityAttributes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -111,6 +135,12 @@ namespace oci.CloudMigrationsMigration
         public virtual string LifecycleDetails
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "migrationConfig", typeJson: "{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationMigrationConfigOutputReference\"}")]
+        public virtual oci.CloudMigrationsMigration.CloudMigrationsMigrationMigrationConfigOutputReference MigrationConfig
+        {
+            get => GetInstanceProperty<oci.CloudMigrationsMigration.CloudMigrationsMigrationMigrationConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -178,11 +208,28 @@ namespace oci.CloudMigrationsMigration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isCompletedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsCompletedInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "migrationConfigInput", typeJson: "{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationMigrationConfig\"}", isOptional: true)]
+        public virtual oci.CloudMigrationsMigration.ICloudMigrationsMigrationMigrationConfig? MigrationConfigInput
+        {
+            get => GetInstanceProperty<oci.CloudMigrationsMigration.ICloudMigrationsMigrationMigrationConfig?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "migrationTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MigrationTypeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -192,6 +239,16 @@ namespace oci.CloudMigrationsMigration
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "securityAttributesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SecurityAttributesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudMigrationsMigration.ICloudMigrationsMigrationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -234,6 +291,9 @@ namespace oci.CloudMigrationsMigration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isCompleted", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsCompleted
         {
@@ -261,10 +321,24 @@ namespace oci.CloudMigrationsMigration
             }
         }
 
+        [JsiiProperty(name: "migrationType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MigrationType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "replicationScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ReplicationScheduleId
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SecurityAttributes
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
     }

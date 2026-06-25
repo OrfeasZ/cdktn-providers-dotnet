@@ -12,6 +12,7 @@ namespace digitalocean.DatabaseUser
         /// <summary>acl block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/database_user#acl DatabaseUser#acl}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsAcl" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,6 +47,7 @@ namespace digitalocean.DatabaseUser
         /// <summary>opensearch_acl block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/database_user#opensearch_acl DatabaseUser#opensearch_acl}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsOpensearchAcl" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "opensearchAcl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsOpensearchAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]

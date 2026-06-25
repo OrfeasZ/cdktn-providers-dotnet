@@ -53,6 +53,9 @@ namespace oci.OcvpEsxiHost
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpEsxiHost.IOcvpEsxiHostTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpEsxiHost.OcvpEsxiHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

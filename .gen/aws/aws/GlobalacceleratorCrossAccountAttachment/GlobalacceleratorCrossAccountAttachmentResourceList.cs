@@ -41,6 +41,9 @@ namespace aws.GlobalacceleratorCrossAccountAttachment
             return InvokeInstanceMethod<aws.GlobalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachmentResourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorCrossAccountAttachment.IGlobalacceleratorCrossAccountAttachmentResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachmentResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

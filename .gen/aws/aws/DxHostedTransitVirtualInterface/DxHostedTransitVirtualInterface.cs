@@ -220,6 +220,9 @@ namespace aws.DxHostedTransitVirtualInterface
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DxHostedTransitVirtualInterface.IDxHostedTransitVirtualInterfaceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterfaceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

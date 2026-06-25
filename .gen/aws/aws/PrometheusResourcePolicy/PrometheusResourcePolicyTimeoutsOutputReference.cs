@@ -93,6 +93,9 @@ namespace aws.PrometheusResourcePolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusResourcePolicy.IPrometheusResourcePolicyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

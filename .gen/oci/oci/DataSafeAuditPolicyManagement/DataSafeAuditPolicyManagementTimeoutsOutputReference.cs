@@ -93,6 +93,9 @@ namespace oci.DataSafeAuditPolicyManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeAuditPolicyManagement.IDataSafeAuditPolicyManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeAuditPolicyManagement.DataSafeAuditPolicyManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.SagemakerFeatureGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SagemakerFeatureGroup.SagemakerFeatureGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerFeatureGroup.ISagemakerFeatureGroupFeatureDefinition" />)[]</param>
         [JsiiMethod(name: "putFeatureDefinition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFeatureDefinition(object @value)
         {
@@ -198,6 +199,9 @@ namespace aws.SagemakerFeatureGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerFeatureGroup.ISagemakerFeatureGroupFeatureDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featureDefinitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerFeatureGroup.SagemakerFeatureGroupFeatureDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FeatureDefinitionInput

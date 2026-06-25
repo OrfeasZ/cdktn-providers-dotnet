@@ -58,6 +58,7 @@ namespace aws.EcsCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsCluster.IEcsClusterServiceConnectDefaults)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsCluster.IEcsClusterSetting" />)[]</param>
         [JsiiMethod(name: "putSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsCluster.EcsClusterSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSetting(object @value)
         {
@@ -201,6 +202,9 @@ namespace aws.EcsCluster
             get => GetInstanceProperty<aws.EcsCluster.IEcsClusterServiceConnectDefaults?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsCluster.IEcsClusterSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsCluster.EcsClusterSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SettingInput

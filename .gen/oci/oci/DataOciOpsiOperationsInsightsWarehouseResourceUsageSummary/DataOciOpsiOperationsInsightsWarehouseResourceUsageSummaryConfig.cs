@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary
     [JsiiByValue(fqn: "oci.dataOciOpsiOperationsInsightsWarehouseResourceUsageSummary.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummaryConfig")]
     public class DataOciOpsiOperationsInsightsWarehouseResourceUsageSummaryConfig : oci.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary.IDataOciOpsiOperationsInsightsWarehouseResourceUsageSummaryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/opsi_operations_insights_warehouse_resource_usage_summary#operations_insights_warehouse_id DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary#operations_insights_warehouse_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/opsi_operations_insights_warehouse_resource_usage_summary#operations_insights_warehouse_id DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary#operations_insights_warehouse_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationsInsightsWarehouseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/opsi_operations_insights_warehouse_resource_usage_summary#id DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/opsi_operations_insights_warehouse_resource_usage_summary#id DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,6 +34,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -67,6 +68,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -161,6 +163,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

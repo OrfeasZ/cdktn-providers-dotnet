@@ -53,8 +53,26 @@ namespace oci.DataOciDatabaseDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dataLossExposure", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DataLossExposure
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DbSystemId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "failoverReadiness", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FailoverReadiness
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "failoverReadinessMessage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FailoverReadinessMessage
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -67,6 +85,24 @@ namespace oci.DataOciDatabaseDatabase
 
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Role
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "switchoverReadiness", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SwitchoverReadiness
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "switchoverReadinessMessage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SwitchoverReadinessMessage
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeUpdated
         {
             get => GetInstanceProperty<string>()!;
         }

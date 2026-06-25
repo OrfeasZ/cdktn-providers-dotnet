@@ -93,6 +93,9 @@ namespace oci.BlockchainPeer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BlockchainPeer.IBlockchainPeerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.blockchainPeer.BlockchainPeerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

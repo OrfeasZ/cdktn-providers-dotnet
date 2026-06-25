@@ -46,6 +46,7 @@ namespace aws.QuicksightFolder
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.QuicksightFolder.QuicksightFolder), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightFolder.IQuicksightFolderPermissions" />)[]</param>
         [JsiiMethod(name: "putPermissions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightFolder.QuicksightFolderPermissions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermissions(object @value)
         {
@@ -232,6 +233,9 @@ namespace aws.QuicksightFolder
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightFolder.IQuicksightFolderPermissions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightFolder.QuicksightFolderPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermissionsInput
@@ -260,6 +264,9 @@ namespace aws.QuicksightFolder
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QuicksightFolder.IQuicksightFolderTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.quicksightFolder.QuicksightFolderTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

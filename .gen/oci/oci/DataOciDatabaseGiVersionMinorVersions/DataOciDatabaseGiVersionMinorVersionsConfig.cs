@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
     [JsiiByValue(fqn: "oci.dataOciDatabaseGiVersionMinorVersions.DataOciDatabaseGiVersionMinorVersionsConfig")]
     public class DataOciDatabaseGiVersionMinorVersionsConfig : oci.DataOciDatabaseGiVersionMinorVersions.IDataOciDatabaseGiVersionMinorVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#version DataOciDatabaseGiVersionMinorVersions#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#version DataOciDatabaseGiVersionMinorVersions#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#availability_domain DataOciDatabaseGiVersionMinorVersions#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#availability_domain DataOciDatabaseGiVersionMinorVersions#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -26,7 +26,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#compartment_id DataOciDatabaseGiVersionMinorVersions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#compartment_id DataOciDatabaseGiVersionMinorVersions#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -39,7 +39,8 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#filter DataOciDatabaseGiVersionMinorVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#filter DataOciDatabaseGiVersionMinorVersions#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseGiVersionMinorVersions.IDataOciDatabaseGiVersionMinorVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseGiVersionMinorVersions.DataOciDatabaseGiVersionMinorVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +70,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#id DataOciDatabaseGiVersionMinorVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#id DataOciDatabaseGiVersionMinorVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +85,10 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
 
         private object? _isGiVersionForProvisioning;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#is_gi_version_for_provisioning DataOciDatabaseGiVersionMinorVersions#is_gi_version_for_provisioning}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#is_gi_version_for_provisioning DataOciDatabaseGiVersionMinorVersions#is_gi_version_for_provisioning}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isGiVersionForProvisioning", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsGiVersionForProvisioning
@@ -113,7 +117,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#shape DataOciDatabaseGiVersionMinorVersions#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#shape DataOciDatabaseGiVersionMinorVersions#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape
@@ -122,7 +126,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_gi_version_minor_versions#shape_family DataOciDatabaseGiVersionMinorVersions#shape_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_gi_version_minor_versions#shape_family DataOciDatabaseGiVersionMinorVersions#shape_family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shapeFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShapeFamily
@@ -135,6 +139,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -168,6 +173,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -262,6 +268,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -41,6 +41,9 @@ namespace aws.S3TablesTable
             return InvokeInstanceMethod<aws.S3TablesTable.S3TablesTableMetadataIcebergOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIceberg" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIceberg\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

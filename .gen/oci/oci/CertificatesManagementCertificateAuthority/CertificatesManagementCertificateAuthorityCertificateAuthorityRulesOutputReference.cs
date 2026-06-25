@@ -35,6 +35,12 @@ namespace oci.CertificatesManagementCertificateAuthority
         {
         }
 
+        [JsiiMethod(name: "putNameConstraint", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint\"}}]")]
+        public virtual void PutNameConstraint(oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetCertificateAuthorityMaxValidityDuration")]
         public virtual void ResetCertificateAuthorityMaxValidityDuration()
         {
@@ -45,6 +51,24 @@ namespace oci.CertificatesManagementCertificateAuthority
         public virtual void ResetLeafCertificateMaxValidityDuration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNameConstraint")]
+        public virtual void ResetNameConstraint()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPathLengthConstraint")]
+        public virtual void ResetPathLengthConstraint()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "nameConstraint", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintOutputReference\"}")]
+        public virtual oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintOutputReference NameConstraint
+        {
+            get => GetInstanceProperty<oci.CertificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -59,6 +83,20 @@ namespace oci.CertificatesManagementCertificateAuthority
         public virtual string? LeafCertificateMaxValidityDurationInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nameConstraintInput", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint\"}", isOptional: true)]
+        public virtual oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint? NameConstraintInput
+        {
+            get => GetInstanceProperty<oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "pathLengthConstraintInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PathLengthConstraintInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -82,6 +120,13 @@ namespace oci.CertificatesManagementCertificateAuthority
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "pathLengthConstraint", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PathLengthConstraint
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RuleType
         {
@@ -89,6 +134,9 @@ namespace oci.CertificatesManagementCertificateAuthority
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

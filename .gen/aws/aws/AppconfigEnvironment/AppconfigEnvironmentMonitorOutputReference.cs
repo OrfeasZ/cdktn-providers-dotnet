@@ -69,6 +69,9 @@ namespace aws.AppconfigEnvironment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppconfigEnvironment.IAppconfigEnvironmentMonitor" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appconfigEnvironment.AppconfigEnvironmentMonitor\"}]}}", isOptional: true)]
         public virtual object? InternalValue

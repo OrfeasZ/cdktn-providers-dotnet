@@ -31,6 +31,7 @@ namespace aws.IotTopicRule
         /// <summary>http_header block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttpHttpHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleHttpHttpHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]

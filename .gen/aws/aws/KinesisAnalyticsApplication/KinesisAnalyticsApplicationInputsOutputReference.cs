@@ -63,6 +63,7 @@ namespace aws.KinesisAnalyticsApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchema)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsStartingPositionConfiguration" />)[]</param>
         [JsiiMethod(name: "putStartingPositionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsStartingPositionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStartingPositionConfiguration(object @value)
         {
@@ -206,6 +207,9 @@ namespace aws.KinesisAnalyticsApplication
             get => GetInstanceProperty<aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchema?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsStartingPositionConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startingPositionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsStartingPositionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StartingPositionConfigurationInput

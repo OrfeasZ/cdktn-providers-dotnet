@@ -35,6 +35,7 @@ namespace aws.SagemakerModel
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSource" />)[]</param>
         [JsiiMethod(name: "putAdditionalModelDataSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdditionalModelDataSource(object @value)
         {
@@ -166,6 +167,9 @@ namespace aws.SagemakerModel
             get => GetInstanceProperty<aws.SagemakerModel.SagemakerModelContainerMultiModelConfigOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalModelDataSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdditionalModelDataSourceInput
@@ -292,6 +296,9 @@ namespace aws.SagemakerModel
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerModel.ISagemakerModelContainer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

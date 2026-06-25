@@ -49,6 +49,9 @@ namespace aws.LakeformationOptIn
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationOptIn.ILakeformationOptInPrincipal" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInPrincipal\"}]}}", isOptional: true)]
         public virtual object? InternalValue

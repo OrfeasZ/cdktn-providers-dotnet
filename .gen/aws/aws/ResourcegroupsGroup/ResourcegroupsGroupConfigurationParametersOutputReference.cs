@@ -63,6 +63,9 @@ namespace aws.ResourcegroupsGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ResourcegroupsGroup.IResourcegroupsGroupConfigurationParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParameters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

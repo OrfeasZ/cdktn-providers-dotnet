@@ -41,6 +41,9 @@ namespace oci.SchServiceConnector
             return InvokeInstanceMethod<oci.SchServiceConnector.SchServiceConnectorSourceMonitoringSourcesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

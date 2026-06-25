@@ -46,6 +46,7 @@ namespace stripe.V2BillingMeteredItem
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.V2BillingMeteredItem.V2BillingMeteredItem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingMeteredItem.IV2BillingMeteredItemMeterSegmentConditions" />)[]</param>
         [JsiiMethod(name: "putMeterSegmentConditions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingMeteredItem.V2BillingMeteredItemMeterSegmentConditions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMeterSegmentConditions(object @value)
         {
@@ -165,6 +166,9 @@ namespace stripe.V2BillingMeteredItem
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingMeteredItem.IV2BillingMeteredItemMeterSegmentConditions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "meterSegmentConditionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingMeteredItem.V2BillingMeteredItemMeterSegmentConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MeterSegmentConditionsInput

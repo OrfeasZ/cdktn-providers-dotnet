@@ -46,6 +46,7 @@ namespace aws.DatazoneAssetType
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatazoneAssetType.DatazoneAssetType), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneAssetType.IDatazoneAssetTypeFormsInput" />)[]</param>
         [JsiiMethod(name: "putFormsInput", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneAssetType.DatazoneAssetTypeFormsInput\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFormsInput(object @value)
         {
@@ -162,6 +163,9 @@ namespace aws.DatazoneAssetType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneAssetType.IDatazoneAssetTypeFormsInput" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "formsInputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneAssetType.DatazoneAssetTypeFormsInput\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FormsInputInput
@@ -190,6 +194,9 @@ namespace aws.DatazoneAssetType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatazoneAssetType.IDatazoneAssetTypeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datazoneAssetType.DatazoneAssetTypeTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

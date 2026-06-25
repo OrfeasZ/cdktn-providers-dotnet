@@ -41,6 +41,9 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             return InvokeInstanceMethod<oci.DataOciDataSafeSecurityPolicyConfigs.DataOciDataSafeSecurityPolicyConfigsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityPolicyConfigs.IDataOciDataSafeSecurityPolicyConfigsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSecurityPolicyConfigs.DataOciDataSafeSecurityPolicyConfigsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

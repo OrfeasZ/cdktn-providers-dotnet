@@ -89,6 +89,9 @@ namespace aws.GluePartition
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GluePartition.IGluePartitionStorageDescriptorColumns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorColumns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

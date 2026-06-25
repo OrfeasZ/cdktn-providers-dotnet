@@ -41,6 +41,9 @@ namespace aws.ShieldProactiveEngagement
             return InvokeInstanceMethod<aws.ShieldProactiveEngagement.ShieldProactiveEngagementEmergencyContactOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ShieldProactiveEngagement.IShieldProactiveEngagementEmergencyContact" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

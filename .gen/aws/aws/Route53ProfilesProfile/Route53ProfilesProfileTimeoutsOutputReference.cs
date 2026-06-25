@@ -93,6 +93,9 @@ namespace aws.Route53ProfilesProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ProfilesProfile.IRoute53ProfilesProfileTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ProfilesProfile.Route53ProfilesProfileTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

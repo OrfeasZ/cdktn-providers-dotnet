@@ -77,6 +77,12 @@ namespace oci.DataOciGoldenGatePipelines
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ingressIps", typeJson: "{\"fqn\":\"oci.dataOciGoldenGatePipelines.DataOciGoldenGatePipelinesPipelineCollectionItemsIngressIpsList\"}")]
+        public virtual oci.DataOciGoldenGatePipelines.DataOciGoldenGatePipelinesPipelineCollectionItemsIngressIpsList IngressIps
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGatePipelines.DataOciGoldenGatePipelinesPipelineCollectionItemsIngressIpsList>()!;
+        }
+
         [JsiiProperty(name: "isAutoScalingEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsAutoScalingEnabled
         {
@@ -139,6 +145,12 @@ namespace oci.DataOciGoldenGatePipelines
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetId
         {
             get => GetInstanceProperty<string>()!;
         }

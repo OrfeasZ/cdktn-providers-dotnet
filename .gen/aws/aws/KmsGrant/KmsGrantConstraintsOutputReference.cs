@@ -75,6 +75,9 @@ namespace aws.KmsGrant
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.KmsGrant.IKmsGrantConstraints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.kmsGrant.KmsGrantConstraints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

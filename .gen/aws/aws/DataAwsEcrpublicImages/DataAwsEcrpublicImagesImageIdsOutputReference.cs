@@ -75,6 +75,9 @@ namespace aws.DataAwsEcrpublicImages
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEcrpublicImages.IDataAwsEcrpublicImagesImageIds" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIds\"}]}}", isOptional: true)]
         public virtual object? InternalValue

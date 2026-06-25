@@ -46,6 +46,7 @@ namespace aws.S3FilesAccessPoint
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3FilesAccessPoint.S3FilesAccessPoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointPosixUser" />)[]</param>
         [JsiiMethod(name: "putPosixUser", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointPosixUser\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPosixUser(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.S3FilesAccessPoint
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectory" />)[]</param>
         [JsiiMethod(name: "putRootDirectory", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointRootDirectory\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRootDirectory(object @value)
         {
@@ -208,6 +210,9 @@ namespace aws.S3FilesAccessPoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointPosixUser" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "posixUserInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointPosixUser\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PosixUserInput
@@ -222,6 +227,9 @@ namespace aws.S3FilesAccessPoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectory" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rootDirectoryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointRootDirectory\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RootDirectoryInput
@@ -236,6 +244,9 @@ namespace aws.S3FilesAccessPoint
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

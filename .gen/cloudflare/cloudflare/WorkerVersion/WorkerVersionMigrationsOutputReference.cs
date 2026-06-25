@@ -33,6 +33,7 @@ namespace cloudflare.WorkerVersion
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsRenamedClasses" />)[]</param>
         [JsiiMethod(name: "putRenamedClasses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsRenamedClasses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRenamedClasses(object @value)
         {
@@ -56,6 +57,7 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsSteps" />)[]</param>
         [JsiiMethod(name: "putSteps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsSteps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSteps(object @value)
         {
@@ -79,6 +81,7 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsTransferredClasses" />)[]</param>
         [JsiiMethod(name: "putTransferredClasses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsTransferredClasses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransferredClasses(object @value)
         {
@@ -203,6 +206,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsRenamedClasses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renamedClassesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsRenamedClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RenamedClassesInput
@@ -210,6 +216,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepsInput
@@ -217,6 +226,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsTransferredClasses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferredClassesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsTransferredClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransferredClassesInput
@@ -259,6 +271,9 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionMigrations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

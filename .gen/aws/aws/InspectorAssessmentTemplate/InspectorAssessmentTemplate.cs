@@ -46,6 +46,7 @@ namespace aws.InspectorAssessmentTemplate
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.InspectorAssessmentTemplate.InspectorAssessmentTemplate), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.InspectorAssessmentTemplate.IInspectorAssessmentTemplateEventSubscription" />)[]</param>
         [JsiiMethod(name: "putEventSubscription", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscription\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEventSubscription(object @value)
         {
@@ -137,6 +138,9 @@ namespace aws.InspectorAssessmentTemplate
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.InspectorAssessmentTemplate.IInspectorAssessmentTemplateEventSubscription" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventSubscriptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscription\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EventSubscriptionInput

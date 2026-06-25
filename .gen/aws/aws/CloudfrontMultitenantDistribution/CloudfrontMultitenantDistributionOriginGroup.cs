@@ -26,6 +26,7 @@ namespace aws.CloudfrontMultitenantDistribution
         /// <summary>failover_criteria block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudfront_multitenant_distribution#failover_criteria CloudfrontMultitenantDistribution#failover_criteria}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginGroupFailoverCriteria" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "failoverCriteria", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginGroupFailoverCriteria\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -60,6 +61,7 @@ namespace aws.CloudfrontMultitenantDistribution
         /// <summary>member block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudfront_multitenant_distribution#member CloudfrontMultitenantDistribution#member}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginGroupMember" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "member", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginGroupMember\"},\"kind\":\"array\"}}]}}", isOptional: true)]

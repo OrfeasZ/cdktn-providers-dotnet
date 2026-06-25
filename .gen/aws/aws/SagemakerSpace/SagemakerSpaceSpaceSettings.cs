@@ -33,6 +33,7 @@ namespace aws.SagemakerSpace
         /// <summary>custom_file_system block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_space#custom_file_system SagemakerSpace#custom_file_system}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerSpace.ISagemakerSpaceSpaceSettingsCustomFileSystem" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customFileSystem", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerSpace.SagemakerSpaceSpaceSettingsCustomFileSystem\"},\"kind\":\"array\"}}]}}", isOptional: true)]

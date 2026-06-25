@@ -46,6 +46,7 @@ namespace aws.DataAwsGlueScript
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsGlueScript.DataAwsGlueScript), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagEdge" />)[]</param>
         [JsiiMethod(name: "putDagEdge", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDagEdge(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DataAwsGlueScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNode" />)[]</param>
         [JsiiMethod(name: "putDagNode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDagNode(object @value)
         {
@@ -153,6 +155,9 @@ namespace aws.DataAwsGlueScript
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagEdge" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dagEdgeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DagEdgeInput
@@ -160,6 +165,9 @@ namespace aws.DataAwsGlueScript
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dagNodeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DagNodeInput

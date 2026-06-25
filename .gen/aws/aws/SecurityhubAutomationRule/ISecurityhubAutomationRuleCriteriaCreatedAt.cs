@@ -10,6 +10,7 @@ namespace aws.SecurityhubAutomationRule
         /// <summary>date_range block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaCreatedAtDateRange" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dateRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,6 +54,7 @@ namespace aws.SecurityhubAutomationRule
             /// <summary>date_range block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubAutomationRule.ISecurityhubAutomationRuleCriteriaCreatedAtDateRange" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dateRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]

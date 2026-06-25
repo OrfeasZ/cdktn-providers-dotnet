@@ -41,6 +41,9 @@ namespace oci.DataOciOnsNotificationTopics
             return InvokeInstanceMethod<oci.DataOciOnsNotificationTopics.DataOciOnsNotificationTopicsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOnsNotificationTopics.IDataOciOnsNotificationTopicsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOnsNotificationTopics.DataOciOnsNotificationTopicsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

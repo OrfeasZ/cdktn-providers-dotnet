@@ -93,6 +93,9 @@ namespace aws.DxPrivateVirtualInterface
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DxPrivateVirtualInterface.IDxPrivateVirtualInterfaceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dxPrivateVirtualInterface.DxPrivateVirtualInterfaceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

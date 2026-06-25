@@ -49,6 +49,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationSnsDestination" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationSnsDestination\"}]}}", isOptional: true)]
         public virtual object? InternalValue

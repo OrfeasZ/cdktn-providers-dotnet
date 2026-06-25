@@ -275,6 +275,9 @@ namespace aws.DefaultRouteTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DefaultRouteTable.IDefaultRouteTableRoute" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.defaultRouteTable.DefaultRouteTableRoute\"}]}}", isOptional: true)]
         public virtual object? InternalValue

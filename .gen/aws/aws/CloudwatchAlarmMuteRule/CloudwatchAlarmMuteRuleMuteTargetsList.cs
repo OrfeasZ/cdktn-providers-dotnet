@@ -41,6 +41,9 @@ namespace aws.CloudwatchAlarmMuteRule
             return InvokeInstanceMethod<aws.CloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleMuteTargetsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchAlarmMuteRule.ICloudwatchAlarmMuteRuleMuteTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleMuteTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

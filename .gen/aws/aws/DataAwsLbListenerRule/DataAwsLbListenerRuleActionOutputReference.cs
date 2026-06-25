@@ -35,6 +35,7 @@ namespace aws.DataAwsLbListenerRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionAuthenticateCognito" />)[]</param>
         [JsiiMethod(name: "putAuthenticateCognito", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionAuthenticateCognito\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthenticateCognito(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionAuthenticateOidc" />)[]</param>
         [JsiiMethod(name: "putAuthenticateOidc", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionAuthenticateOidc\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthenticateOidc(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionFixedResponse" />)[]</param>
         [JsiiMethod(name: "putFixedResponse", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionFixedResponse\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFixedResponse(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionForward" />)[]</param>
         [JsiiMethod(name: "putForward", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionForward\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutForward(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionJwtValidation" />)[]</param>
         [JsiiMethod(name: "putJwtValidation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionJwtValidation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJwtValidation(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.DataAwsLbListenerRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionRedirect" />)[]</param>
         [JsiiMethod(name: "putRedirect", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionRedirect\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRedirect(object @value)
         {
@@ -257,6 +263,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionAuthenticateCognito" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticateCognitoInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionAuthenticateCognito\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthenticateCognitoInput
@@ -264,6 +273,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionAuthenticateOidc" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticateOidcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionAuthenticateOidc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthenticateOidcInput
@@ -271,6 +283,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionFixedResponse" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedResponseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionFixedResponse\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FixedResponseInput
@@ -278,6 +293,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionForward" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionForward\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ForwardInput
@@ -285,6 +303,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionJwtValidation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jwtValidationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionJwtValidation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? JwtValidationInput
@@ -292,6 +313,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionRedirect" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleActionRedirect\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RedirectInput
@@ -299,6 +323,9 @@ namespace aws.DataAwsLbListenerRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

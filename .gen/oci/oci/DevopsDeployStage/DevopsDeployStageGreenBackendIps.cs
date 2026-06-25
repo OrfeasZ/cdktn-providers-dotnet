@@ -7,7 +7,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageGreenBackendIps")]
     public class DevopsDeployStageGreenBackendIps : oci.DevopsDeployStage.IDevopsDeployStageGreenBackendIps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Items

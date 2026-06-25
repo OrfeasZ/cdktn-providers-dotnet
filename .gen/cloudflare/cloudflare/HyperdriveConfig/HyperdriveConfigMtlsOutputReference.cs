@@ -93,6 +93,9 @@ namespace cloudflare.HyperdriveConfig
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.HyperdriveConfig.IHyperdriveConfigMtls" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigMtls\"}]}}", isOptional: true)]
         public virtual object? InternalValue

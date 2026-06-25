@@ -35,6 +35,7 @@ namespace aws.CloudwatchLogTransformer
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigAddKeys" />)[]</param>
         [JsiiMethod(name: "putAddKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAddKeys(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigCopyValue" />)[]</param>
         [JsiiMethod(name: "putCopyValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCopyValue(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigCsv" />)[]</param>
         [JsiiMethod(name: "putCsv", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsv\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCsv(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDateTimeConverter" />)[]</param>
         [JsiiMethod(name: "putDateTimeConverter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDateTimeConverter(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDeleteKeys" />)[]</param>
         [JsiiMethod(name: "putDeleteKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDeleteKeys(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigGrok" />)[]</param>
         [JsiiMethod(name: "putGrok", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrok\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGrok(object @value)
         {
@@ -173,6 +179,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigListToMap" />)[]</param>
         [JsiiMethod(name: "putListToMap", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMap\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutListToMap(object @value)
         {
@@ -196,6 +203,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigLowerCaseString" />)[]</param>
         [JsiiMethod(name: "putLowerCaseString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseString\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLowerCaseString(object @value)
         {
@@ -219,6 +227,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigMoveKeys" />)[]</param>
         [JsiiMethod(name: "putMoveKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMoveKeys(object @value)
         {
@@ -242,6 +251,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseCloudfront" />)[]</param>
         [JsiiMethod(name: "putParseCloudfront", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfront\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseCloudfront(object @value)
         {
@@ -265,6 +275,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseJson" />)[]</param>
         [JsiiMethod(name: "putParseJson", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJson\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseJson(object @value)
         {
@@ -288,6 +299,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseKeyValue" />)[]</param>
         [JsiiMethod(name: "putParseKeyValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseKeyValue(object @value)
         {
@@ -311,6 +323,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParsePostgres" />)[]</param>
         [JsiiMethod(name: "putParsePostgres", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgres\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParsePostgres(object @value)
         {
@@ -334,6 +347,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseRoute53" />)[]</param>
         [JsiiMethod(name: "putParseRoute53", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseRoute53(object @value)
         {
@@ -357,6 +371,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseToOcsf" />)[]</param>
         [JsiiMethod(name: "putParseToOcsf", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsf\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseToOcsf(object @value)
         {
@@ -380,6 +395,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseVpc" />)[]</param>
         [JsiiMethod(name: "putParseVpc", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpc\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseVpc(object @value)
         {
@@ -403,6 +419,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseWaf" />)[]</param>
         [JsiiMethod(name: "putParseWaf", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWaf\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParseWaf(object @value)
         {
@@ -426,6 +443,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeys" />)[]</param>
         [JsiiMethod(name: "putRenameKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRenameKeys(object @value)
         {
@@ -449,6 +467,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSplitString" />)[]</param>
         [JsiiMethod(name: "putSplitString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitString\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSplitString(object @value)
         {
@@ -472,6 +491,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSubstituteString" />)[]</param>
         [JsiiMethod(name: "putSubstituteString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteString\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubstituteString(object @value)
         {
@@ -495,6 +515,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigTrimString" />)[]</param>
         [JsiiMethod(name: "putTrimString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimString\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrimString(object @value)
         {
@@ -518,6 +539,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigTypeConverter" />)[]</param>
         [JsiiMethod(name: "putTypeConverter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTypeConverter(object @value)
         {
@@ -541,6 +563,7 @@ namespace aws.CloudwatchLogTransformer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigUpperCaseString" />)[]</param>
         [JsiiMethod(name: "putUpperCaseString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseString\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUpperCaseString(object @value)
         {
@@ -840,6 +863,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<aws.CloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseStringList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigAddKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addKeysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AddKeysInput
@@ -847,6 +873,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigCopyValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "copyValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CopyValueInput
@@ -854,6 +883,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigCsv" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "csvInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CsvInput
@@ -861,6 +893,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDateTimeConverter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dateTimeConverterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DateTimeConverterInput
@@ -868,6 +903,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigDeleteKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteKeysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DeleteKeysInput
@@ -875,6 +913,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigGrok" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grokInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrok\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GrokInput
@@ -882,6 +923,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigListToMap" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listToMapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ListToMapInput
@@ -889,6 +933,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigLowerCaseString" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lowerCaseStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LowerCaseStringInput
@@ -896,6 +943,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigMoveKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "moveKeysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MoveKeysInput
@@ -903,6 +953,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseCloudfront" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseCloudfrontInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfront\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseCloudfrontInput
@@ -910,6 +963,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseJson" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseJsonInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJson\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseJsonInput
@@ -917,6 +973,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseKeyValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseKeyValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseKeyValueInput
@@ -924,6 +983,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParsePostgres" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parsePostgresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgres\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParsePostgresInput
@@ -931,6 +993,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseRoute53" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseRoute53Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseRoute53Input
@@ -938,6 +1003,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseToOcsf" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseToOcsfInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsf\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseToOcsfInput
@@ -945,6 +1013,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseVpc" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseVpcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseVpcInput
@@ -952,6 +1023,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigParseWaf" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parseWafInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWaf\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParseWafInput
@@ -959,6 +1033,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renameKeysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RenameKeysInput
@@ -966,6 +1043,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSplitString" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "splitStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SplitStringInput
@@ -973,6 +1053,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSubstituteString" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "substituteStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubstituteStringInput
@@ -980,6 +1063,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigTrimString" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trimStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TrimStringInput
@@ -987,6 +1073,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigTypeConverter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "typeConverterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TypeConverterInput
@@ -994,6 +1083,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigUpperCaseString" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upperCaseStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UpperCaseStringInput
@@ -1001,6 +1093,9 @@ namespace aws.CloudwatchLogTransformer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace cloudflare.ContentScanningExpression
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ContentScanningExpression.ContentScanningExpression), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ContentScanningExpression.IContentScanningExpressionBody" />)[]</param>
         [JsiiMethod(name: "putBody", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.contentScanningExpression.ContentScanningExpressionBody\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBody(object @value)
         {
@@ -100,6 +101,9 @@ namespace cloudflare.ContentScanningExpression
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ContentScanningExpression.IContentScanningExpressionBody" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bodyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.contentScanningExpression.ContentScanningExpressionBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BodyInput

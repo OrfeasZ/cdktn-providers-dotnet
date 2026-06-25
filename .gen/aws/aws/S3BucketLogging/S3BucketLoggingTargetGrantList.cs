@@ -41,6 +41,9 @@ namespace aws.S3BucketLogging
             return InvokeInstanceMethod<aws.S3BucketLogging.S3BucketLoggingTargetGrantOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLogging.IS3BucketLoggingTargetGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLogging.S3BucketLoggingTargetGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

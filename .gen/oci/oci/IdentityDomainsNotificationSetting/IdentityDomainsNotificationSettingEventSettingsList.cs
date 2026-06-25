@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsNotificationSetting
             return InvokeInstanceMethod<oci.IdentityDomainsNotificationSetting.IdentityDomainsNotificationSettingEventSettingsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsNotificationSetting.IIdentityDomainsNotificationSettingEventSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsNotificationSetting.IdentityDomainsNotificationSettingEventSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

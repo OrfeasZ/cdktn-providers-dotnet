@@ -35,6 +35,7 @@ namespace aws.FinspaceKxCluster
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabaseCacheConfigurations" />)[]</param>
         [JsiiMethod(name: "putCacheConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCacheConfigurations(object @value)
         {
@@ -82,6 +83,9 @@ namespace aws.FinspaceKxCluster
             get => GetInstanceProperty<aws.FinspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabaseCacheConfigurations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CacheConfigurationsInput
@@ -131,6 +135,9 @@ namespace aws.FinspaceKxCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabase" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabase\"}]}}", isOptional: true)]
         public virtual object? InternalValue

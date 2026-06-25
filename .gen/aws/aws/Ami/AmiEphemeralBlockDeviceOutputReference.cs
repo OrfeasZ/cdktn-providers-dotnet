@@ -63,6 +63,9 @@ namespace aws.Ami
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ami.IAmiEphemeralBlockDevice" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ami.AmiEphemeralBlockDevice\"}]}}", isOptional: true)]
         public virtual object? InternalValue

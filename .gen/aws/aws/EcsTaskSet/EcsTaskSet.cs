@@ -46,6 +46,7 @@ namespace aws.EcsTaskSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EcsTaskSet.EcsTaskSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskSet.IEcsTaskSetCapacityProviderStrategy" />)[]</param>
         [JsiiMethod(name: "putCapacityProviderStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCapacityProviderStrategy(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.EcsTaskSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskSet.IEcsTaskSetLoadBalancer" />)[]</param>
         [JsiiMethod(name: "putLoadBalancer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskSet.EcsTaskSetLoadBalancer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLoadBalancer(object @value)
         {
@@ -273,6 +275,9 @@ namespace aws.EcsTaskSet
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskSet.IEcsTaskSetCapacityProviderStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityProviderStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CapacityProviderStrategyInput
@@ -294,6 +299,9 @@ namespace aws.EcsTaskSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDeleteInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDeleteInput
@@ -315,6 +323,9 @@ namespace aws.EcsTaskSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsTaskSet.IEcsTaskSetLoadBalancer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsTaskSet.EcsTaskSetLoadBalancer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LoadBalancerInput
@@ -385,6 +396,9 @@ namespace aws.EcsTaskSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "waitUntilStableInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? WaitUntilStableInput
@@ -413,6 +427,9 @@ namespace aws.EcsTaskSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDelete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDelete
         {
@@ -496,6 +513,9 @@ namespace aws.EcsTaskSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "waitUntilStable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object WaitUntilStable
         {

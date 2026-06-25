@@ -73,6 +73,9 @@ namespace aws.RekognitionProject
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionProject.IRekognitionProjectTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionProject.RekognitionProjectTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

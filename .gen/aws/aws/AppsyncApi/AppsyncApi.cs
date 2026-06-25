@@ -46,6 +46,7 @@ namespace aws.AppsyncApi
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppsyncApi.AppsyncApi), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfig" />)[]</param>
         [JsiiMethod(name: "putEventConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEventConfig(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EventConfigInput

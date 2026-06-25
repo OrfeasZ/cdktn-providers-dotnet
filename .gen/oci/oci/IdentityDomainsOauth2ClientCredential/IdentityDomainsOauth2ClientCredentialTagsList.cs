@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsOauth2ClientCredential
             return InvokeInstanceMethod<oci.IdentityDomainsOauth2ClientCredential.IdentityDomainsOauth2ClientCredentialTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsOauth2ClientCredential.IIdentityDomainsOauth2ClientCredentialTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsOauth2ClientCredential.IdentityDomainsOauth2ClientCredentialTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.SsmcontactsPlan
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmcontactsPlan.SsmcontactsPlan), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStage" />)[]</param>
         [JsiiMethod(name: "putStage", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStage\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStage(object @value)
         {
@@ -127,6 +128,9 @@ namespace aws.SsmcontactsPlan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StageInput

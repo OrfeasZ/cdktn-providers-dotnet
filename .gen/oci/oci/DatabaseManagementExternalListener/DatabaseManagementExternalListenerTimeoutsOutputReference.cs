@@ -93,6 +93,9 @@ namespace oci.DatabaseManagementExternalListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseManagementExternalListener.IDatabaseManagementExternalListenerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseManagementExternalListener.DatabaseManagementExternalListenerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

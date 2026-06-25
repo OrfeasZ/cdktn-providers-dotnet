@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciContainerengineNodePool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/containerengine_node_pool oci_containerengine_node_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_node_pool oci_containerengine_node_pool}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciContainerengineNodePool.DataOciContainerengineNodePool), fullyQualifiedName: "oci.dataOciContainerengineNodePool.DataOciContainerengineNodePool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciContainerengineNodePool.DataOciContainerengineNodePoolConfig\"}}]")]
     public class DataOciContainerengineNodePool : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/containerengine_node_pool oci_containerengine_node_pool} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_node_pool oci_containerengine_node_pool} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciContainerengineNodePool(Constructs.Construct scope, string id, oci.DataOciContainerengineNodePool.IDataOciContainerengineNodePoolConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciContainerengineNodePool
         /// <param name="importToId">The construct id used in the generated config for the DataOciContainerengineNodePool to import.</param>
         /// <param name="importFromId">The id of the existing DataOciContainerengineNodePool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciContainerengineNodePool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciContainerengineNodePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/containerengine_node_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciContainerengineNodePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciContainerengineNodePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciContainerengineNodePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/containerengine_node_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciContainerengineNodePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciContainerengineNodePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciContainerengineNodePool.DataOciContainerengineNodePool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -119,6 +119,12 @@ namespace oci.DataOciContainerengineNodePool
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "networkLaunchType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkLaunchType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "nodeConfigDetails", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePool.DataOciContainerengineNodePoolNodeConfigDetailsList\"}")]
         public virtual oci.DataOciContainerengineNodePool.DataOciContainerengineNodePoolNodeConfigDetailsList NodeConfigDetails
         {
@@ -185,10 +191,22 @@ namespace oci.DataOciContainerengineNodePool
             get => GetInstanceProperty<oci.DataOciContainerengineNodePool.DataOciContainerengineNodePoolNodeSourceDetailsList>()!;
         }
 
+        [JsiiProperty(name: "primaryVnic", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePool.DataOciContainerengineNodePoolPrimaryVnicList\"}")]
+        public virtual oci.DataOciContainerengineNodePool.DataOciContainerengineNodePoolPrimaryVnicList PrimaryVnic
+        {
+            get => GetInstanceProperty<oci.DataOciContainerengineNodePool.DataOciContainerengineNodePoolPrimaryVnicList>()!;
+        }
+
         [JsiiProperty(name: "quantityPerSubnet", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double QuantityPerSubnet
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "secondaryVnics", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePool.DataOciContainerengineNodePoolSecondaryVnicsList\"}")]
+        public virtual oci.DataOciContainerengineNodePool.DataOciContainerengineNodePoolSecondaryVnicsList SecondaryVnics
+        {
+            get => GetInstanceProperty<oci.DataOciContainerengineNodePool.DataOciContainerengineNodePoolSecondaryVnicsList>()!;
         }
 
         [JsiiProperty(name: "sshPublicKey", typeJson: "{\"primitive\":\"string\"}")]

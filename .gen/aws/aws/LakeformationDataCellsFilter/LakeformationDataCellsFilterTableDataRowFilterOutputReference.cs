@@ -35,6 +35,7 @@ namespace aws.LakeformationDataCellsFilter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard" />)[]</param>
         [JsiiMethod(name: "putAllRowsWildcard", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAllRowsWildcard(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.LakeformationDataCellsFilter
             get => GetInstanceProperty<aws.LakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcardList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allRowsWildcardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataRowFilterAllRowsWildcard\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AllRowsWildcardInput
@@ -97,6 +101,9 @@ namespace aws.LakeformationDataCellsFilter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationDataCellsFilter.ILakeformationDataCellsFilterTableDataRowFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataRowFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

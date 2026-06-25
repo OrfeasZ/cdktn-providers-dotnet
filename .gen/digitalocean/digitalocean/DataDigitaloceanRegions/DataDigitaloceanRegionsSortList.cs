@@ -41,6 +41,9 @@ namespace digitalocean.DataDigitaloceanRegions
             return InvokeInstanceMethod<digitalocean.DataDigitaloceanRegions.DataDigitaloceanRegionsSortOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanRegions.IDataDigitaloceanRegionsSort" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanRegions.DataDigitaloceanRegionsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

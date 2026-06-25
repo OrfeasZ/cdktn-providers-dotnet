@@ -485,6 +485,9 @@ namespace aws.LaunchTemplate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LaunchTemplate.ILaunchTemplateNetworkInterfaces" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.launchTemplate.LaunchTemplateNetworkInterfaces\"}]}}", isOptional: true)]
         public virtual object? InternalValue

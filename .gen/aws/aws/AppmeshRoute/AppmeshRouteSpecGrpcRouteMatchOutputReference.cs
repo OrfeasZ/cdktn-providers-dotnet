@@ -33,6 +33,7 @@ namespace aws.AppmeshRoute
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadata" />)[]</param>
         [JsiiMethod(name: "putMetadata", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadata\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetadata(object @value)
         {
@@ -92,6 +93,9 @@ namespace aws.AppmeshRoute
             get => GetInstanceProperty<aws.AppmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadataList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteMatchMetadata" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteMatchMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetadataInput

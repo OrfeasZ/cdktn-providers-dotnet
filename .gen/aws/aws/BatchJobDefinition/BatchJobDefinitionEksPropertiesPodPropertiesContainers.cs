@@ -40,6 +40,7 @@ namespace aws.BatchJobDefinition
         /// <summary>env block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#env BatchJobDefinition#env}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesContainersEnv" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "env", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainersEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -116,6 +117,7 @@ namespace aws.BatchJobDefinition
         /// <summary>volume_mounts block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_job_definition#volume_mounts BatchJobDefinition#volume_mounts}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobDefinition.IBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeMounts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]

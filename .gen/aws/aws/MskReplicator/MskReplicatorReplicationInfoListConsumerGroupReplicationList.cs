@@ -41,6 +41,9 @@ namespace aws.MskReplicator
             return InvokeInstanceMethod<aws.MskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskReplicator.IMskReplicatorReplicationInfoListConsumerGroupReplication" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplication\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

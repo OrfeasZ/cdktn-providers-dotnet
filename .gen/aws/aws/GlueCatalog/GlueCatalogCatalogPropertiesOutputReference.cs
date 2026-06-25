@@ -35,6 +35,7 @@ namespace aws.GlueCatalog
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogPropertiesDataLakeAccessProperties" />)[]</param>
         [JsiiMethod(name: "putDataLakeAccessProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataLakeAccessProperties(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.GlueCatalog
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogPropertiesIcebergOptimizationProperties" />)[]</param>
         [JsiiMethod(name: "putIcebergOptimizationProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogPropertiesIcebergOptimizationProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIcebergOptimizationProperties(object @value)
         {
@@ -118,6 +120,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogPropertiesDataLakeAccessProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataLakeAccessPropertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataLakeAccessPropertiesInput
@@ -125,6 +130,9 @@ namespace aws.GlueCatalog
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalog.IGlueCatalogCatalogPropertiesIcebergOptimizationProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergOptimizationPropertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogPropertiesIcebergOptimizationProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IcebergOptimizationPropertiesInput
@@ -139,6 +147,9 @@ namespace aws.GlueCatalog
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlueCatalog.IGlueCatalogCatalogProperties" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.glueCatalog.GlueCatalogCatalogProperties\"}]}}", isOptional: true)]
         public virtual object? InternalValue

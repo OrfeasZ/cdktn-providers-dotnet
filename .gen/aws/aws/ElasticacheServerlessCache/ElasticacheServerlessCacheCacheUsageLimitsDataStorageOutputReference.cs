@@ -89,6 +89,9 @@ namespace aws.ElasticacheServerlessCache
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsDataStorage" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorage\"}]}}", isOptional: true)]
         public virtual object? InternalValue

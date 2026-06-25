@@ -33,8 +33,20 @@ namespace oci.MysqlMysqlDbSystem
         {
         }
 
+        [JsiiMethod(name: "putChannel", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemSourceChannel\"}}]")]
+        public virtual void PutChannel(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSourceChannel @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSourceChannel)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBackupId")]
         public virtual void ResetBackupId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetChannel")]
+        public virtual void ResetChannel()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -51,10 +63,22 @@ namespace oci.MysqlMysqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRegion")]
+        public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSourceUrl")]
         public virtual void ResetSourceUrl()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "channel", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemSourceChannelOutputReference\"}")]
+        public virtual oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemSourceChannelOutputReference Channel
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.MysqlMysqlDbSystemSourceChannelOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -62,6 +86,13 @@ namespace oci.MysqlMysqlDbSystem
         public virtual string? BackupIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "channelInput", typeJson: "{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemSourceChannel\"}", isOptional: true)]
+        public virtual oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSourceChannel? ChannelInput
+        {
+            get => GetInstanceProperty<oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSourceChannel?>();
         }
 
         [JsiiOptional]
@@ -74,6 +105,13 @@ namespace oci.MysqlMysqlDbSystem
         [JsiiOptional]
         [JsiiProperty(name: "recoveryPointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RecoveryPointInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -108,6 +146,13 @@ namespace oci.MysqlMysqlDbSystem
 
         [JsiiProperty(name: "recoveryPoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecoveryPoint
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

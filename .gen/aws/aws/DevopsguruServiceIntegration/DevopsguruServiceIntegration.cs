@@ -46,6 +46,7 @@ namespace aws.DevopsguruServiceIntegration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DevopsguruServiceIntegration.DevopsguruServiceIntegration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationKmsServerSideEncryption" />)[]</param>
         [JsiiMethod(name: "putKmsServerSideEncryption", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationKmsServerSideEncryption\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKmsServerSideEncryption(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DevopsguruServiceIntegration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationLogsAnomalyDetection" />)[]</param>
         [JsiiMethod(name: "putLogsAnomalyDetection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetection\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogsAnomalyDetection(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.DevopsguruServiceIntegration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationOpsCenter" />)[]</param>
         [JsiiMethod(name: "putOpsCenter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationOpsCenter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOpsCenter(object @value)
         {
@@ -182,6 +185,9 @@ namespace aws.DevopsguruServiceIntegration
             get => GetInstanceProperty<aws.DevopsguruServiceIntegration.DevopsguruServiceIntegrationOpsCenterList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationKmsServerSideEncryption" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kmsServerSideEncryptionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationKmsServerSideEncryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KmsServerSideEncryptionInput
@@ -189,6 +195,9 @@ namespace aws.DevopsguruServiceIntegration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationLogsAnomalyDetection" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logsAnomalyDetectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogsAnomalyDetectionInput
@@ -196,6 +205,9 @@ namespace aws.DevopsguruServiceIntegration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruServiceIntegration.IDevopsguruServiceIntegrationOpsCenter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "opsCenterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationOpsCenter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OpsCenterInput

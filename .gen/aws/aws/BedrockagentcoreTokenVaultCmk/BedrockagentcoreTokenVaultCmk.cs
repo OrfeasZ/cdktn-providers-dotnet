@@ -46,6 +46,7 @@ namespace aws.BedrockagentcoreTokenVaultCmk
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreTokenVaultCmk.IBedrockagentcoreTokenVaultCmkKmsConfiguration" />)[]</param>
         [JsiiMethod(name: "putKmsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmkKmsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKmsConfiguration(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.BedrockagentcoreTokenVaultCmk
             get => GetInstanceProperty<aws.BedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmkKmsConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreTokenVaultCmk.IBedrockagentcoreTokenVaultCmkKmsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kmsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmkKmsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KmsConfigurationInput

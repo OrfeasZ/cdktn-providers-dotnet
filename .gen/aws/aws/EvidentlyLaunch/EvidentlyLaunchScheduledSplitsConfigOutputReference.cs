@@ -33,6 +33,7 @@ namespace aws.EvidentlyLaunch
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigSteps" />)[]</param>
         [JsiiMethod(name: "putSteps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSteps(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.EvidentlyLaunch
             get => GetInstanceProperty<aws.EvidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepsInput

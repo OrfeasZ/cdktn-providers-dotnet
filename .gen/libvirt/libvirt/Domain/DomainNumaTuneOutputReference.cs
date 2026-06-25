@@ -33,6 +33,7 @@ namespace libvirt.Domain
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainNumaTuneMemNodes" />)[]</param>
         [JsiiMethod(name: "putMemNodes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainNumaTuneMemNodes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMemNodes(object @value)
         {
@@ -86,6 +87,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainNumaTuneMemoryOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainNumaTuneMemNodes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memNodesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainNumaTuneMemNodes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MemNodesInput
@@ -93,6 +97,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainNumaTuneMemory" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainNumaTuneMemory\"}]}}", isOptional: true)]
         public virtual object? MemoryInput
@@ -100,6 +107,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainNumaTune" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainNumaTune\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace oci.IntegrationIntegrationInstance
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcns" />)[]</param>
         [JsiiMethod(name: "putAllowlistedHttpVcns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAllowlistedHttpVcns(object @value)
         {
@@ -56,6 +57,18 @@ namespace oci.IntegrationIntegrationInstance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putDesignTime", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime\"}}]")]
+        public virtual void PutDesignTime(oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putRuntime", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsRuntime\"}}]")]
+        public virtual void PutRuntime(oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAllowlistedHttpIps")]
         public virtual void ResetAllowlistedHttpIps()
         {
@@ -68,8 +81,20 @@ namespace oci.IntegrationIntegrationInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDesignTime")]
+        public virtual void ResetDesignTime()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsIntegrationVcnAllowlisted")]
         public virtual void ResetIsIntegrationVcnAllowlisted()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRuntime")]
+        public virtual void ResetRuntime()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -80,6 +105,18 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcnsList>()!;
         }
 
+        [JsiiProperty(name: "designTime", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeOutputReference\"}")]
+        public virtual oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeOutputReference DesignTime
+        {
+            get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "runtime", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeOutputReference\"}")]
+        public virtual oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeOutputReference Runtime
+        {
+            get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "allowlistedHttpIpsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? AllowlistedHttpIpsInput
@@ -87,6 +124,9 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowlistedHttpVcnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AllowlistedHttpVcnsInput
@@ -94,6 +134,16 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "designTimeInput", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime\"}", isOptional: true)]
+        public virtual oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime? DesignTimeInput
+        {
+            get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIntegrationVcnAllowlistedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIntegrationVcnAllowlistedInput
@@ -108,6 +158,13 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "runtimeInput", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsRuntime\"}", isOptional: true)]
+        public virtual oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime? RuntimeInput
+        {
+            get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime?>();
+        }
+
         [JsiiProperty(name: "allowlistedHttpIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AllowlistedHttpIps
         {
@@ -115,6 +172,9 @@ namespace oci.IntegrationIntegrationInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIntegrationVcnAllowlisted", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIntegrationVcnAllowlisted
         {

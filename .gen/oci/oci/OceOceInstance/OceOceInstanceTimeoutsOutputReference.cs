@@ -93,6 +93,9 @@ namespace oci.OceOceInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OceOceInstance.IOceOceInstanceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.oceOceInstance.OceOceInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

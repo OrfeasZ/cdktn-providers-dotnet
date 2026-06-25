@@ -46,6 +46,7 @@ namespace aws.S3DirectoryBucket
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3DirectoryBucket.S3DirectoryBucket), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3DirectoryBucket.IS3DirectoryBucketLocation" />)[]</param>
         [JsiiMethod(name: "putLocation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3DirectoryBucket.S3DirectoryBucketLocation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocation(object @value)
         {
@@ -162,6 +163,9 @@ namespace aws.S3DirectoryBucket
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceDestroyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceDestroyInput
@@ -169,6 +173,9 @@ namespace aws.S3DirectoryBucket
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3DirectoryBucket.IS3DirectoryBucketLocation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3DirectoryBucket.S3DirectoryBucketLocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocationInput
@@ -211,6 +218,9 @@ namespace aws.S3DirectoryBucket
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceDestroy
         {

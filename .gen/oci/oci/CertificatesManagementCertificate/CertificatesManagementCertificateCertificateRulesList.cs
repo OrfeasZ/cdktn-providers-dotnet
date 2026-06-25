@@ -41,6 +41,9 @@ namespace oci.CertificatesManagementCertificate
             return InvokeInstanceMethod<oci.CertificatesManagementCertificate.CertificatesManagementCertificateCertificateRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

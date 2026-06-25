@@ -46,6 +46,7 @@ namespace aws.Lexv2ModelsSlotType
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Lexv2ModelsSlotType.Lexv2ModelsSlotType), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeCompositeSlotTypeSetting" />)[]</param>
         [JsiiMethod(name: "putCompositeSlotTypeSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCompositeSlotTypeSetting(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Lexv2ModelsSlotType
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeExternalSourceSetting" />)[]</param>
         [JsiiMethod(name: "putExternalSourceSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeExternalSourceSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExternalSourceSetting(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.Lexv2ModelsSlotType
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValues" />)[]</param>
         [JsiiMethod(name: "putSlotTypeValues", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValues\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSlotTypeValues(object @value)
         {
@@ -121,6 +124,7 @@ namespace aws.Lexv2ModelsSlotType
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeValueSelectionSetting" />)[]</param>
         [JsiiMethod(name: "putValueSelectionSetting", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeValueSelectionSetting\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutValueSelectionSetting(object @value)
         {
@@ -267,6 +271,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeCompositeSlotTypeSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compositeSlotTypeSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeCompositeSlotTypeSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CompositeSlotTypeSettingInput
@@ -281,6 +288,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeExternalSourceSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalSourceSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeExternalSourceSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExternalSourceSettingInput
@@ -316,6 +326,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValues" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slotTypeValuesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SlotTypeValuesInput
@@ -323,6 +336,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -330,6 +346,9 @@ namespace aws.Lexv2ModelsSlotType
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeValueSelectionSetting" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueSelectionSettingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeValueSelectionSetting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ValueSelectionSettingInput

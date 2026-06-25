@@ -93,6 +93,9 @@ namespace aws.NetworkmanagerCoreNetwork
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerCoreNetwork.INetworkmanagerCoreNetworkTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

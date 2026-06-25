@@ -33,6 +33,12 @@ namespace oci.CoreComputeCapacityReport
         {
         }
 
+        [JsiiMethod(name: "resetBaselineOcpuUtilization")]
+        public virtual void ResetBaselineOcpuUtilization()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMemoryInGbs")]
         public virtual void ResetMemoryInGbs()
         {
@@ -49,6 +55,13 @@ namespace oci.CoreComputeCapacityReport
         public virtual void ResetOcpus()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "baselineOcpuUtilizationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BaselineOcpuUtilizationInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -70,6 +83,13 @@ namespace oci.CoreComputeCapacityReport
         public virtual double? OcpusInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "baselineOcpuUtilization", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BaselineOcpuUtilization
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]

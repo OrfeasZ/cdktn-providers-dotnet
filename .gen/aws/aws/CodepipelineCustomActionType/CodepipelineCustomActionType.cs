@@ -46,6 +46,7 @@ namespace aws.CodepipelineCustomActionType
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CodepipelineCustomActionType.CodepipelineCustomActionType), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodepipelineCustomActionType.ICodepipelineCustomActionTypeConfigurationProperty" />)[]</param>
         [JsiiMethod(name: "putConfigurationProperty", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipelineCustomActionType.CodepipelineCustomActionTypeConfigurationProperty\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfigurationProperty(object @value)
         {
@@ -185,6 +186,9 @@ namespace aws.CodepipelineCustomActionType
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodepipelineCustomActionType.ICodepipelineCustomActionTypeConfigurationProperty" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationPropertyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipelineCustomActionType.CodepipelineCustomActionTypeConfigurationProperty\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigurationPropertyInput

@@ -41,6 +41,9 @@ namespace digitalocean.DatabaseUser
             return InvokeInstanceMethod<digitalocean.DatabaseUser.DatabaseUserSettingsAclOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsAcl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

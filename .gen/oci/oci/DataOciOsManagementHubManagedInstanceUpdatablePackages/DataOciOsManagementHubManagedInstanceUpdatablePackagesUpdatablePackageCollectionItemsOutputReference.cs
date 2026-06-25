@@ -35,6 +35,12 @@ namespace oci.DataOciOsManagementHubManagedInstanceUpdatablePackages
         {
         }
 
+        [JsiiProperty(name: "advisorySeverity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AdvisorySeverity
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Architecture
         {

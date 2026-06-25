@@ -46,6 +46,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationCloudwatchLogsDestination" />)[]</param>
         [JsiiMethod(name: "putCloudwatchLogsDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudwatchLogsDestination(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationKinesisFirehoseDestination" />)[]</param>
         [JsiiMethod(name: "putKinesisFirehoseDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKinesisFirehoseDestination(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationSnsDestination" />)[]</param>
         [JsiiMethod(name: "putSnsDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationSnsDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSnsDestination(object @value)
         {
@@ -188,6 +191,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             get => GetInstanceProperty<aws.Pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationSnsDestinationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationCloudwatchLogsDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogsDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudwatchLogsDestinationInput
@@ -202,6 +208,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -216,6 +225,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationKinesisFirehoseDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesisFirehoseDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KinesisFirehoseDestinationInput
@@ -237,6 +249,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Pinpointsmsvoicev2EventDestination.IPinpointsmsvoicev2EventDestinationSnsDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snsDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestinationSnsDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SnsDestinationInput
@@ -251,6 +266,9 @@ namespace aws.Pinpointsmsvoicev2EventDestination
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

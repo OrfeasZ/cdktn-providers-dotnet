@@ -35,6 +35,7 @@ namespace aws.CloudfrontTrustStore
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location" />)[]</param>
         [JsiiMethod(name: "putCaCertificatesBundleS3Location", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCaCertificatesBundleS3Location(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.CloudfrontTrustStore
             get => GetInstanceProperty<aws.CloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "caCertificatesBundleS3LocationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CaCertificatesBundleS3LocationInput
@@ -77,6 +81,9 @@ namespace aws.CloudfrontTrustStore
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreCaCertificatesBundleSource" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource\"}]}}", isOptional: true)]
         public virtual object? InternalValue

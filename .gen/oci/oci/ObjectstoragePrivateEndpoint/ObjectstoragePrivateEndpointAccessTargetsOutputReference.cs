@@ -77,6 +77,9 @@ namespace oci.ObjectstoragePrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointAccessTargets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointAccessTargets\"}]}}", isOptional: true)]
         public virtual object? InternalValue

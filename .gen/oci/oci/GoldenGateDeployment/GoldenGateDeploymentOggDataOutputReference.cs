@@ -63,6 +63,12 @@ namespace oci.GoldenGateDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDeploymentName")]
+        public virtual void ResetDeploymentName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetGroupToRolesMapping")]
         public virtual void ResetGroupToRolesMapping()
         {
@@ -77,6 +83,12 @@ namespace oci.GoldenGateDeployment
 
         [JsiiMethod(name: "resetKey")]
         public virtual void ResetKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKeySecretId")]
+        public virtual void ResetKeySecretId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -156,6 +168,13 @@ namespace oci.GoldenGateDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "keySecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KeySecretIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "oggVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OggVersionInput
         {
@@ -213,6 +232,13 @@ namespace oci.GoldenGateDeployment
 
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Key
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "keySecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeySecretId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

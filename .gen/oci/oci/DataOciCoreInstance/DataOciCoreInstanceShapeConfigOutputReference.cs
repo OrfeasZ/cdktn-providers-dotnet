@@ -71,6 +71,12 @@ namespace oci.DataOciCoreInstance
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "localVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double LocalVolumeSizeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "maxVnicAttachments", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxVnicAttachments
         {

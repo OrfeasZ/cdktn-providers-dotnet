@@ -93,6 +93,9 @@ namespace oci.JmsFleetAgentConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.JmsFleetAgentConfiguration.IJmsFleetAgentConfigurationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

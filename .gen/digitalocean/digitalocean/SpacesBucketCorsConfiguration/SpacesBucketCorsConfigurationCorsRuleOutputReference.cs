@@ -143,6 +143,9 @@ namespace digitalocean.SpacesBucketCorsConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.SpacesBucketCorsConfiguration.ISpacesBucketCorsConfigurationCorsRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.spacesBucketCorsConfiguration.SpacesBucketCorsConfigurationCorsRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

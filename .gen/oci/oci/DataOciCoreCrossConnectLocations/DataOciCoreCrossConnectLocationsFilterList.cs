@@ -41,6 +41,9 @@ namespace oci.DataOciCoreCrossConnectLocations
             return InvokeInstanceMethod<oci.DataOciCoreCrossConnectLocations.DataOciCoreCrossConnectLocationsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreCrossConnectLocations.IDataOciCoreCrossConnectLocationsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreCrossConnectLocations.DataOciCoreCrossConnectLocationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

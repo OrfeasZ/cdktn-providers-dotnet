@@ -93,6 +93,9 @@ namespace oci.DatascienceModelArtifactImport
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatascienceModelArtifactImport.IDatascienceModelArtifactImportTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datascienceModelArtifactImport.DatascienceModelArtifactImportTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

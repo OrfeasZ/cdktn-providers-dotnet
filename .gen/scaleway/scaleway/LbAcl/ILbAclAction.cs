@@ -20,6 +20,7 @@ namespace scaleway.LbAcl
         /// <summary>redirect block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_acl#redirect LbAcl#redirect}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbAcl.ILbAclActionRedirect" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "redirect", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbAcl.LbAclActionRedirect\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,6 +52,7 @@ namespace scaleway.LbAcl
             /// <summary>redirect block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_acl#redirect LbAcl#redirect}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbAcl.ILbAclActionRedirect" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redirect", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbAcl.LbAclActionRedirect\"},\"kind\":\"array\"}}]}}", isOptional: true)]

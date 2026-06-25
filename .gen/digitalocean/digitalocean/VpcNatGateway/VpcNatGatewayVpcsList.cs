@@ -41,6 +41,9 @@ namespace digitalocean.VpcNatGateway
             return InvokeInstanceMethod<digitalocean.VpcNatGateway.VpcNatGatewayVpcsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.VpcNatGateway.IVpcNatGatewayVpcs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayVpcs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

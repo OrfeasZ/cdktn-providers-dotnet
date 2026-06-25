@@ -93,6 +93,9 @@ namespace oci.GoldenGateDeployment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -63,6 +63,9 @@ namespace oci.IdentityNetworkSource
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityNetworkSource.IIdentityNetworkSourceVirtualSourceListStruct" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityNetworkSource.IdentityNetworkSourceVirtualSourceListStruct\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.WafregionalGeoMatchSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafregionalGeoMatchSet.WafregionalGeoMatchSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalGeoMatchSet.IWafregionalGeoMatchSetGeoMatchConstraint" />)[]</param>
         [JsiiMethod(name: "putGeoMatchConstraint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalGeoMatchSet.WafregionalGeoMatchSetGeoMatchConstraint\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGeoMatchConstraint(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.WafregionalGeoMatchSet
             get => GetInstanceProperty<aws.WafregionalGeoMatchSet.WafregionalGeoMatchSetGeoMatchConstraintList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalGeoMatchSet.IWafregionalGeoMatchSetGeoMatchConstraint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geoMatchConstraintInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalGeoMatchSet.WafregionalGeoMatchSetGeoMatchConstraint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GeoMatchConstraintInput

@@ -41,6 +41,12 @@ namespace oci.CloudMigrationsMigrationPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetClusterAssetId")]
+        public virtual void ResetClusterAssetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDedicatedVmHost")]
         public virtual void ResetDedicatedVmHost()
         {
@@ -59,8 +65,20 @@ namespace oci.CloudMigrationsMigrationPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOlvmTemplates")]
+        public virtual void ResetOlvmTemplates()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPreferredShapeType")]
         public virtual void ResetPreferredShapeType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubnet")]
+        public virtual void ResetSubnet()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -71,9 +89,28 @@ namespace oci.CloudMigrationsMigrationPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVcn")]
+        public virtual void ResetVcn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVnicProfileAssetId")]
+        public virtual void ResetVnicProfileAssetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomainInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AvailabilityDomainInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "clusterAssetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ClusterAssetIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -97,6 +134,13 @@ namespace oci.CloudMigrationsMigrationPlan
         public virtual string? MsLicenseInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "olvmTemplatesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? OlvmTemplatesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
         [JsiiOptional]
@@ -134,8 +178,22 @@ namespace oci.CloudMigrationsMigrationPlan
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "vnicProfileAssetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VnicProfileAssetIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AvailabilityDomain
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "clusterAssetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClusterAssetId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -159,6 +217,13 @@ namespace oci.CloudMigrationsMigrationPlan
         public virtual string MsLicense
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "olvmTemplates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> OlvmTemplates
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -197,6 +262,16 @@ namespace oci.CloudMigrationsMigrationPlan
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "vnicProfileAssetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VnicProfileAssetId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudMigrationsMigrationPlan.ICloudMigrationsMigrationPlanTargetEnvironments" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudMigrationsMigrationPlan.CloudMigrationsMigrationPlanTargetEnvironments\"}]}}", isOptional: true)]
         public virtual object? InternalValue

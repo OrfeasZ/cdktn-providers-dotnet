@@ -69,6 +69,9 @@ namespace aws.AppconfigConfigurationProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppconfigConfigurationProfile.IAppconfigConfigurationProfileValidator" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidator\"}]}}", isOptional: true)]
         public virtual object? InternalValue

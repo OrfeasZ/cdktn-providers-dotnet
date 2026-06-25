@@ -41,6 +41,9 @@ namespace digitalocean.DedicatedInference
             return InvokeInstanceMethod<digitalocean.DedicatedInference.DedicatedInferenceModelDeploymentsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeployments" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeployments\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,12 @@ namespace oci.DataOciCoreInstancePool
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeClusterId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "faultDomains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] FaultDomains
         {

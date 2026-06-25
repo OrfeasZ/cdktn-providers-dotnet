@@ -93,6 +93,9 @@ namespace oci.GenerativeAiAgentDataSource
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.GenerativeAiAgentDataSource.IGenerativeAiAgentDataSourceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.generativeAiAgentDataSource.GenerativeAiAgentDataSourceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

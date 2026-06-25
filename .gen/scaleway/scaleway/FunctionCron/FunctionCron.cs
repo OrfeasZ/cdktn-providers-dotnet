@@ -149,6 +149,9 @@ namespace scaleway.FunctionCron
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.FunctionCron.IFunctionCronTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.functionCron.FunctionCronTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

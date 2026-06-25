@@ -93,6 +93,9 @@ namespace oci.MediaServicesMediaAsset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.MediaServicesMediaAsset.IMediaServicesMediaAssetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.mediaServicesMediaAsset.MediaServicesMediaAssetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

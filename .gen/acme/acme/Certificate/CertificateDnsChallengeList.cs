@@ -41,6 +41,9 @@ namespace acme.Certificate
             return InvokeInstanceMethod<acme.Certificate.CertificateDnsChallengeOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="acme.Certificate.ICertificateDnsChallenge" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"acme.certificate.CertificateDnsChallenge\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

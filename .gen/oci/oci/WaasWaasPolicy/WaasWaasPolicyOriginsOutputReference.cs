@@ -35,6 +35,7 @@ namespace oci.WaasWaasPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOriginsCustomHeaders" />)[]</param>
         [JsiiMethod(name: "putCustomHeaders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyOriginsCustomHeaders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomHeaders(object @value)
         {
@@ -82,6 +83,9 @@ namespace oci.WaasWaasPolicy
             get => GetInstanceProperty<oci.WaasWaasPolicy.WaasWaasPolicyOriginsCustomHeadersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOriginsCustomHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customHeadersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyOriginsCustomHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomHeadersInput
@@ -145,6 +149,9 @@ namespace oci.WaasWaasPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WaasWaasPolicy.IWaasWaasPolicyOrigins" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyOrigins\"}]}}", isOptional: true)]
         public virtual object? InternalValue

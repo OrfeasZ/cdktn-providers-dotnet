@@ -41,6 +41,9 @@ namespace aws.ApiGatewayUsagePlan
             return InvokeInstanceMethod<aws.ApiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStagesThrottle" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

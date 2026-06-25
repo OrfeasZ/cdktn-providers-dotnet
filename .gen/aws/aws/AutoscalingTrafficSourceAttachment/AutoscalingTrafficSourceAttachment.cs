@@ -134,6 +134,9 @@ namespace aws.AutoscalingTrafficSourceAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AutoscalingTrafficSourceAttachment.IAutoscalingTrafficSourceAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.autoscalingTrafficSourceAttachment.AutoscalingTrafficSourceAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

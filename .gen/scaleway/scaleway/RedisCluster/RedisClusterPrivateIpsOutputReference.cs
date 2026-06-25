@@ -47,6 +47,9 @@ namespace scaleway.RedisCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RedisCluster.IRedisClusterPrivateIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.redisCluster.RedisClusterPrivateIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

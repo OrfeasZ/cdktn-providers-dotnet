@@ -35,6 +35,7 @@ namespace oci.ContainerInstancesContainerInstance
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersHealthChecks" />)[]</param>
         [JsiiMethod(name: "putHealthChecks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainersHealthChecks\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHealthChecks(object @value)
         {
@@ -70,6 +71,7 @@ namespace oci.ContainerInstancesContainerInstance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersSecurityContext)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersVolumeMounts" />)[]</param>
         [JsiiMethod(name: "putVolumeMounts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainersVolumeMounts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVolumeMounts(object @value)
         {
@@ -303,6 +305,9 @@ namespace oci.ContainerInstancesContainerInstance
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersHealthChecks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthChecksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainersHealthChecks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HealthChecksInput
@@ -317,6 +322,9 @@ namespace oci.ContainerInstancesContainerInstance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isResourcePrincipalDisabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsResourcePrincipalDisabledInput
@@ -338,6 +346,9 @@ namespace oci.ContainerInstancesContainerInstance
             get => GetInstanceProperty<oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersSecurityContext?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersVolumeMounts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeMountsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainersVolumeMounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VolumeMountsInput
@@ -401,6 +412,9 @@ namespace oci.ContainerInstancesContainerInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isResourcePrincipalDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsResourcePrincipalDisabled
         {
@@ -435,6 +449,9 @@ namespace oci.ContainerInstancesContainerInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

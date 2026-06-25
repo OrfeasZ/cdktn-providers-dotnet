@@ -100,6 +100,9 @@ namespace scaleway.EdgeServicesRouteStage
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.EdgeServicesRouteStage.IEdgeServicesRouteStageRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.edgeServicesRouteStage.EdgeServicesRouteStageRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

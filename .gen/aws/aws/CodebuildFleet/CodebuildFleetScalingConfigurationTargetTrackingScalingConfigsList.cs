@@ -41,6 +41,9 @@ namespace aws.CodebuildFleet
             return InvokeInstanceMethod<aws.CodebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

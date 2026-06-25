@@ -93,6 +93,9 @@ namespace oci.ManagedKafkaKafkaClusterSuperusersManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ManagedKafkaKafkaClusterSuperusersManagement.IManagedKafkaKafkaClusterSuperusersManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.managedKafkaKafkaClusterSuperusersManagement.ManagedKafkaKafkaClusterSuperusersManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.BcmdataexportsExport
             return InvokeInstanceMethod<aws.BcmdataexportsExport.BcmdataexportsExportExportOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExport" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bcmdataexportsExport.BcmdataexportsExportExport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

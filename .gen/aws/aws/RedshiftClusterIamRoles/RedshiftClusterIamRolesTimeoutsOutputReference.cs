@@ -93,6 +93,9 @@ namespace aws.RedshiftClusterIamRoles
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftClusterIamRoles.IRedshiftClusterIamRolesTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

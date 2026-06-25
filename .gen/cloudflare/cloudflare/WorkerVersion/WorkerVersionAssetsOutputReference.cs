@@ -69,6 +69,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionAssetsConfigOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionAssetsConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionAssetsConfig\"}]}}", isOptional: true)]
         public virtual object? ConfigInput
@@ -104,6 +107,9 @@ namespace cloudflare.WorkerVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionAssets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionAssets\"}]}}", isOptional: true)]
         public virtual object? InternalValue

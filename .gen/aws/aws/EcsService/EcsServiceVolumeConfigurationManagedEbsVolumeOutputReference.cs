@@ -33,6 +33,7 @@ namespace aws.EcsService
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications" />)[]</param>
         [JsiiMethod(name: "putTagSpecifications", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTagSpecifications(object @value)
         {
@@ -122,6 +123,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<aws.EcsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EncryptedInput
@@ -171,6 +175,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagSpecificationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagSpecificationsInput
@@ -199,6 +206,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "encrypted", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Encrypted
         {

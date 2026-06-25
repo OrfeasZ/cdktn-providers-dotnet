@@ -39,6 +39,18 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement.IResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetailsNetworkDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCapacityType")]
+        public virtual void ResetCapacityType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCapacityValue")]
+        public virtual void ResetCapacityValue()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIdcsDomainId")]
         public virtual void ResetIdcsDomainId()
         {
@@ -76,6 +88,20 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "capacityTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CapacityTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityValueInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CapacityValueInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "idcsDomainIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IdcsDomainIdInput
         {
@@ -108,6 +134,20 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
         public virtual string? SubnetIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "capacityType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityValue", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CapacityValue
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "idcsDomainId", typeJson: "{\"primitive\":\"string\"}")]

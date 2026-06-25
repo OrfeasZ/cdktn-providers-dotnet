@@ -41,6 +41,9 @@ namespace oci.DatabaseCloudExadataInfrastructure
             return InvokeInstanceMethod<oci.DatabaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureCustomerContactsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureCustomerContacts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureCustomerContacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

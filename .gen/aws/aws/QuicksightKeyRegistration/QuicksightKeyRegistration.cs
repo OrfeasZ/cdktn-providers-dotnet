@@ -46,6 +46,7 @@ namespace aws.QuicksightKeyRegistration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.QuicksightKeyRegistration.QuicksightKeyRegistration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightKeyRegistration.IQuicksightKeyRegistrationKeyRegistration" />)[]</param>
         [JsiiMethod(name: "putKeyRegistration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKeyRegistration(object @value)
         {
@@ -119,6 +120,9 @@ namespace aws.QuicksightKeyRegistration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightKeyRegistration.IQuicksightKeyRegistrationKeyRegistration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyRegistrationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KeyRegistrationInput

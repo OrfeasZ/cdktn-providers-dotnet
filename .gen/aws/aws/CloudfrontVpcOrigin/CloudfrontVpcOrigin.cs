@@ -52,6 +52,7 @@ namespace aws.CloudfrontVpcOrigin
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfig" />)[]</param>
         [JsiiMethod(name: "putVpcOriginEndpointConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVpcOriginEndpointConfig(object @value)
         {
@@ -155,6 +156,9 @@ namespace aws.CloudfrontVpcOrigin
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -162,6 +166,9 @@ namespace aws.CloudfrontVpcOrigin
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontVpcOrigin.ICloudfrontVpcOriginVpcOriginEndpointConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcOriginEndpointConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VpcOriginEndpointConfigInput

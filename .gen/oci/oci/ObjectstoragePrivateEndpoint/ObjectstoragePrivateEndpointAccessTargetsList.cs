@@ -41,6 +41,9 @@ namespace oci.ObjectstoragePrivateEndpoint
             return InvokeInstanceMethod<oci.ObjectstoragePrivateEndpoint.ObjectstoragePrivateEndpointAccessTargetsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstoragePrivateEndpoint.IObjectstoragePrivateEndpointAccessTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstoragePrivateEndpoint.ObjectstoragePrivateEndpointAccessTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

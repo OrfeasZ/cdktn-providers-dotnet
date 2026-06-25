@@ -285,6 +285,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<cloudflare.ZeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsTlsDecryptOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsActivityLog" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activityLogInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsActivityLog\"}]}}", isOptional: true)]
         public virtual object? ActivityLogInput
@@ -292,6 +295,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsAntivirus" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "antivirusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsAntivirus\"}]}}", isOptional: true)]
         public virtual object? AntivirusInput
@@ -299,6 +305,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsBlockPage" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockPageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsBlockPage\"}]}}", isOptional: true)]
         public virtual object? BlockPageInput
@@ -306,6 +315,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsBodyScanning" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bodyScanningInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsBodyScanning\"}]}}", isOptional: true)]
         public virtual object? BodyScanningInput
@@ -313,6 +325,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsBrowserIsolation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "browserIsolationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsBrowserIsolation\"}]}}", isOptional: true)]
         public virtual object? BrowserIsolationInput
@@ -320,6 +335,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsCertificate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsCertificate\"}]}}", isOptional: true)]
         public virtual object? CertificateInput
@@ -327,6 +345,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsCustomCertificate" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customCertificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsCustomCertificate\"}]}}", isOptional: true)]
         public virtual object? CustomCertificateInput
@@ -334,6 +355,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsExtendedEmailMatching" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extendedEmailMatchingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsExtendedEmailMatching\"}]}}", isOptional: true)]
         public virtual object? ExtendedEmailMatchingInput
@@ -341,6 +365,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsFips" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fipsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsFips\"}]}}", isOptional: true)]
         public virtual object? FipsInput
@@ -348,6 +375,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsHostSelector" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostSelectorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsHostSelector\"}]}}", isOptional: true)]
         public virtual object? HostSelectorInput
@@ -355,6 +385,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsInspection" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inspectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsInspection\"}]}}", isOptional: true)]
         public virtual object? InspectionInput
@@ -362,6 +395,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsProtocolDetection" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protocolDetectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsProtocolDetection\"}]}}", isOptional: true)]
         public virtual object? ProtocolDetectionInput
@@ -369,6 +405,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsSandbox" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sandboxInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsSandbox\"}]}}", isOptional: true)]
         public virtual object? SandboxInput
@@ -376,6 +415,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsTlsDecrypt" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsDecryptInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettingsTlsDecrypt\"}]}}", isOptional: true)]
         public virtual object? TlsDecryptInput
@@ -383,6 +425,9 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewaySettings.ZeroTrustGatewaySettingsSettings\"}]}}", isOptional: true)]
         public virtual object? InternalValue

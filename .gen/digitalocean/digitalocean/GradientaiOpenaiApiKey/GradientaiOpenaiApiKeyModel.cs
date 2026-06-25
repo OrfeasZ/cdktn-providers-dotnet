@@ -12,6 +12,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
         /// <summary>agreement block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_openai_api_key#agreement GradientaiOpenaiApiKey#agreement}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiOpenaiApiKey.IGradientaiOpenaiApiKeyModelAgreement" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agreement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiOpenaiApiKey.GradientaiOpenaiApiKeyModelAgreement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -70,6 +71,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
         /// <summary>Indicates if the Model Base is foundational.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_openai_api_key#is_foundational GradientaiOpenaiApiKey#is_foundational}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isFoundational", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -140,6 +142,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
         /// <summary>Indicates if the Model upload is complete.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_openai_api_key#upload_complete GradientaiOpenaiApiKey#upload_complete}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uploadComplete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -198,6 +201,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
         /// <summary>versions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/gradientai_openai_api_key#versions GradientaiOpenaiApiKey#versions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiOpenaiApiKey.IGradientaiOpenaiApiKeyModelVersions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.gradientaiOpenaiApiKey.GradientaiOpenaiApiKeyModelVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

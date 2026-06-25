@@ -93,6 +93,9 @@ namespace oci.DataSafeMaskingPoliciesApplyDifferenceToMaskingColumns
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeMaskingPoliciesApplyDifferenceToMaskingColumns.IDataSafeMaskingPoliciesApplyDifferenceToMaskingColumnsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeMaskingPoliciesApplyDifferenceToMaskingColumns.DataSafeMaskingPoliciesApplyDifferenceToMaskingColumnsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

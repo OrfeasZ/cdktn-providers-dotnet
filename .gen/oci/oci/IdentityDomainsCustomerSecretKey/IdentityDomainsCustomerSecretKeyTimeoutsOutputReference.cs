@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsCustomerSecretKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsCustomerSecretKey.IIdentityDomainsCustomerSecretKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsCustomerSecretKey.IdentityDomainsCustomerSecretKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.DefaultRouteTable
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DefaultRouteTable.DefaultRouteTable), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DefaultRouteTable.IDefaultRouteTableRoute" />)[]</param>
         [JsiiMethod(name: "putRoute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.defaultRouteTable.DefaultRouteTableRoute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoute(object @value)
         {
@@ -194,6 +195,9 @@ namespace aws.DefaultRouteTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DefaultRouteTable.IDefaultRouteTableRoute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.defaultRouteTable.DefaultRouteTableRoute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RouteInput
@@ -215,6 +219,9 @@ namespace aws.DefaultRouteTable
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DefaultRouteTable.IDefaultRouteTableTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.defaultRouteTable.DefaultRouteTableTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

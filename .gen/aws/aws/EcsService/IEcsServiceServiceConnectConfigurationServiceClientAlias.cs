@@ -28,6 +28,7 @@ namespace aws.EcsService
         /// <summary>test_traffic_rules block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_service#test_traffic_rules EcsService#test_traffic_rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "testTrafficRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,6 +65,7 @@ namespace aws.EcsService
             /// <summary>test_traffic_rules block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_service#test_traffic_rules EcsService#test_traffic_rules}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "testTrafficRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]

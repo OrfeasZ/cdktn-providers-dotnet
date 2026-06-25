@@ -12,6 +12,9 @@ namespace aws.CustomerprofilesDomain
         private object _enabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
         {
@@ -80,6 +83,7 @@ namespace aws.CustomerprofilesDomain
         /// <summary>matching_rules block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/customerprofiles_domain#matching_rules CustomerprofilesDomain#matching_rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CustomerprofilesDomain.ICustomerprofilesDomainRuleBasedMatchingMatchingRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchingRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]

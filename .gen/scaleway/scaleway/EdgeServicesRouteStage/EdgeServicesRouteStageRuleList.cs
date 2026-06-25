@@ -41,6 +41,9 @@ namespace scaleway.EdgeServicesRouteStage
             return InvokeInstanceMethod<scaleway.EdgeServicesRouteStage.EdgeServicesRouteStageRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesRouteStage.IEdgeServicesRouteStageRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesRouteStage.EdgeServicesRouteStageRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

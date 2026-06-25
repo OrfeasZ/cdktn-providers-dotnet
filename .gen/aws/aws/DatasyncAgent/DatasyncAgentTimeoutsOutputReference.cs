@@ -53,6 +53,9 @@ namespace aws.DatasyncAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DatasyncAgent.IDatasyncAgentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.datasyncAgent.DatasyncAgentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

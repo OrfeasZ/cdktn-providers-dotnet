@@ -46,6 +46,7 @@ namespace hcloud.DataHcloudFirewall
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(hcloud.DataHcloudFirewall.DataHcloudFirewall), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo" />)[]</param>
         [JsiiMethod(name: "putApplyTo", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApplyTo(object @value)
         {
@@ -69,6 +70,7 @@ namespace hcloud.DataHcloudFirewall
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallRule" />)[]</param>
         [JsiiMethod(name: "putRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRule(object @value)
         {
@@ -165,6 +167,9 @@ namespace hcloud.DataHcloudFirewall
             get => GetInstanceProperty<hcloud.DataHcloudFirewall.DataHcloudFirewallRuleList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallApplyTo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyToInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallApplyTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApplyToInput
@@ -186,6 +191,9 @@ namespace hcloud.DataHcloudFirewall
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mostRecentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MostRecentInput
@@ -200,6 +208,9 @@ namespace hcloud.DataHcloudFirewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.DataHcloudFirewall.IDataHcloudFirewallRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.dataHcloudFirewall.DataHcloudFirewallRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuleInput
@@ -228,6 +239,9 @@ namespace hcloud.DataHcloudFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "mostRecent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object MostRecent
         {

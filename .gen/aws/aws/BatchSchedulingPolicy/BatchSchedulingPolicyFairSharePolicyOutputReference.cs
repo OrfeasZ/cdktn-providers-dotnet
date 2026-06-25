@@ -33,6 +33,7 @@ namespace aws.BatchSchedulingPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchSchedulingPolicy.IBatchSchedulingPolicyFairSharePolicyShareDistribution" />)[]</param>
         [JsiiMethod(name: "putShareDistribution", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistribution\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutShareDistribution(object @value)
         {
@@ -94,6 +95,9 @@ namespace aws.BatchSchedulingPolicy
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchSchedulingPolicy.IBatchSchedulingPolicyFairSharePolicyShareDistribution" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareDistributionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistribution\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ShareDistributionInput

@@ -49,6 +49,9 @@ namespace aws.CloudwatchEventEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchEventEndpoint.ICloudwatchEventEndpointEventBus" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchEventEndpoint.CloudwatchEventEndpointEventBus\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -33,6 +33,7 @@ namespace oci.IdentityDomainsUser
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores" />)[]</param>
         [JsiiMethod(name: "putRiskScores", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRiskScores(object @value)
         {
@@ -81,6 +82,9 @@ namespace oci.IdentityDomainsUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "riskScoresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RiskScoresInput

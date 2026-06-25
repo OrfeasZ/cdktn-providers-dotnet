@@ -73,6 +73,9 @@ namespace aws.LakeformationResourceLfTags
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

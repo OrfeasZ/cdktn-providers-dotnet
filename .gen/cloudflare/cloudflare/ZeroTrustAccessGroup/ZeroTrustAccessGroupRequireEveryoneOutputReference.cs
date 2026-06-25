@@ -33,6 +33,9 @@ namespace cloudflare.ZeroTrustAccessGroup
         {
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupRequireEveryone" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupRequireEveryone\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.GlobalacceleratorCrossAccountAttachment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlobalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorCrossAccountAttachment.IGlobalacceleratorCrossAccountAttachmentResource" />)[]</param>
         [JsiiMethod(name: "putResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachmentResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResource(object @value)
         {
@@ -156,6 +157,9 @@ namespace aws.GlobalacceleratorCrossAccountAttachment
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlobalacceleratorCrossAccountAttachment.IGlobalacceleratorCrossAccountAttachmentResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachmentResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceInput

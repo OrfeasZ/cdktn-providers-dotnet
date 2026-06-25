@@ -35,6 +35,7 @@ namespace digitalocean.App
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceAlert" />)[]</param>
         [JsiiMethod(name: "putAlert", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceAlert\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAlert(object @value)
         {
@@ -76,6 +77,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecServiceCors)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceEnv" />)[]</param>
         [JsiiMethod(name: "putEnv", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceEnv\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEnv(object @value)
         {
@@ -135,6 +137,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.App.IAppSpecServiceLivenessHealthCheck)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceLogDestination" />)[]</param>
         [JsiiMethod(name: "putLogDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceLogDestination\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogDestination(object @value)
         {
@@ -158,6 +161,7 @@ namespace digitalocean.App
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceRoutes" />)[]</param>
         [JsiiMethod(name: "putRoutes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceRoutes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRoutes(object @value)
         {
@@ -409,6 +413,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.AppSpecServiceTerminationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceAlert" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alertInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceAlert\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AlertInput
@@ -451,6 +458,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceEnv" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "envInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EnvInput
@@ -535,6 +545,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.IAppSpecServiceLivenessHealthCheck?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceLogDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logDestinationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceLogDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogDestinationInput
@@ -549,6 +562,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecServiceRoutes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecServiceRoutes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RoutesInput
@@ -647,6 +663,9 @@ namespace digitalocean.App
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.App.IAppSpecService" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.app.AppSpecService\"}]}}", isOptional: true)]
         public virtual object? InternalValue

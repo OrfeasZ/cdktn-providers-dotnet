@@ -73,6 +73,9 @@ namespace aws.VpcEndpointSubnetAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcEndpointSubnetAssociation.IVpcEndpointSubnetAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

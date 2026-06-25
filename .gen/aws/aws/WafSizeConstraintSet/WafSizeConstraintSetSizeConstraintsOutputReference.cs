@@ -96,6 +96,9 @@ namespace aws.WafSizeConstraintSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafSizeConstraintSet.IWafSizeConstraintSetSizeConstraints" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraints\"}]}}", isOptional: true)]
         public virtual object? InternalValue

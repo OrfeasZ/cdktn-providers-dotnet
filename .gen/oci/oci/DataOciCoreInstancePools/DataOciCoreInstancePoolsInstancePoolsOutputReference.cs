@@ -47,6 +47,12 @@ namespace oci.DataOciCoreInstancePools
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "currentSize", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CurrentSize
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {
@@ -87,6 +93,12 @@ namespace oci.DataOciCoreInstancePools
         public virtual string InstanceHostnameFormatter
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "lifecycleManagement", typeJson: "{\"fqn\":\"oci.dataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLifecycleManagementList\"}")]
+        public virtual oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLifecycleManagementList LifecycleManagement
+        {
+            get => GetInstanceProperty<oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLifecycleManagementList>()!;
         }
 
         [JsiiProperty(name: "loadBalancers", typeJson: "{\"fqn\":\"oci.dataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLoadBalancersList\"}")]

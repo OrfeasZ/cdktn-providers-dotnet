@@ -58,6 +58,7 @@ namespace cloudflare.Worker
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Worker.IWorkerSubdomain)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Worker.IWorkerTailConsumers" />)[]</param>
         [JsiiMethod(name: "putTailConsumers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.worker.WorkerTailConsumers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTailConsumers(object @value)
         {
@@ -185,6 +186,9 @@ namespace cloudflare.Worker
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logpushInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? LogpushInput
@@ -199,6 +203,9 @@ namespace cloudflare.Worker
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Worker.IWorkerObservability" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "observabilityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.worker.WorkerObservability\"}]}}", isOptional: true)]
         public virtual object? ObservabilityInput
@@ -206,6 +213,9 @@ namespace cloudflare.Worker
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Worker.IWorkerSubdomain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subdomainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.worker.WorkerSubdomain\"}]}}", isOptional: true)]
         public virtual object? SubdomainInput
@@ -220,6 +230,9 @@ namespace cloudflare.Worker
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Worker.IWorkerTailConsumers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tailConsumersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.worker.WorkerTailConsumers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TailConsumersInput
@@ -234,6 +247,9 @@ namespace cloudflare.Worker
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "logpush", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Logpush
         {

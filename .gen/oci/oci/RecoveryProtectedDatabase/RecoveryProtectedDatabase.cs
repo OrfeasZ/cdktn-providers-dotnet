@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.RecoveryProtectedDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/recovery_protected_database oci_recovery_protected_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/recovery_protected_database oci_recovery_protected_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.RecoveryProtectedDatabase.RecoveryProtectedDatabase), fullyQualifiedName: "oci.recoveryProtectedDatabase.RecoveryProtectedDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.recoveryProtectedDatabase.RecoveryProtectedDatabaseConfig\"}}]")]
     public class RecoveryProtectedDatabase : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/recovery_protected_database oci_recovery_protected_database} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/recovery_protected_database oci_recovery_protected_database} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public RecoveryProtectedDatabase(Constructs.Construct scope, string id, oci.RecoveryProtectedDatabase.IRecoveryProtectedDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.RecoveryProtectedDatabase
         /// <param name="importToId">The construct id used in the generated config for the RecoveryProtectedDatabase to import.</param>
         /// <param name="importFromId">The id of the existing RecoveryProtectedDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the RecoveryProtectedDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the RecoveryProtectedDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/recovery_protected_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing RecoveryProtectedDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the RecoveryProtectedDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the RecoveryProtectedDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/recovery_protected_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing RecoveryProtectedDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the RecoveryProtectedDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.RecoveryProtectedDatabase.RecoveryProtectedDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RecoveryProtectedDatabase.IRecoveryProtectedDatabaseRecoveryServiceSubnets" />)[]</param>
         [JsiiMethod(name: "putRecoveryServiceSubnets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.recoveryProtectedDatabase.RecoveryProtectedDatabaseRecoveryServiceSubnets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecoveryServiceSubnets(object @value)
         {
@@ -289,6 +290,9 @@ namespace oci.RecoveryProtectedDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isRedoLogsShippedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsRedoLogsShippedInput
@@ -310,6 +314,9 @@ namespace oci.RecoveryProtectedDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RecoveryProtectedDatabase.IRecoveryProtectedDatabaseRecoveryServiceSubnets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryServiceSubnetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.recoveryProtectedDatabase.RecoveryProtectedDatabaseRecoveryServiceSubnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecoveryServiceSubnetsInput
@@ -324,6 +331,9 @@ namespace oci.RecoveryProtectedDatabase
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.RecoveryProtectedDatabase.IRecoveryProtectedDatabaseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.recoveryProtectedDatabase.RecoveryProtectedDatabaseTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -394,6 +404,9 @@ namespace oci.RecoveryProtectedDatabase
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isRedoLogsShipped", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsRedoLogsShipped
         {

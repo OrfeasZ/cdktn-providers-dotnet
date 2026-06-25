@@ -93,6 +93,9 @@ namespace oci.DatabaseDbSystemsUpgrade
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseDbSystemsUpgrade.IDatabaseDbSystemsUpgradeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseDbSystemsUpgrade.DatabaseDbSystemsUpgradeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace cloudflare.ManagedTransforms
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ManagedTransforms.ManagedTransforms), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</param>
         [JsiiMethod(name: "putManagedRequestHeaders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutManagedRequestHeaders(object @value)
         {
@@ -69,6 +70,7 @@ namespace cloudflare.ManagedTransforms
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</param>
         [JsiiMethod(name: "putManagedResponseHeaders", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutManagedResponseHeaders(object @value)
         {
@@ -129,6 +131,9 @@ namespace cloudflare.ManagedTransforms
             get => GetInstanceProperty<cloudflare.ManagedTransforms.ManagedTransformsManagedResponseHeadersList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedRequestHeadersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ManagedRequestHeadersInput
@@ -136,6 +141,9 @@ namespace cloudflare.ManagedTransforms
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedResponseHeadersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ManagedResponseHeadersInput

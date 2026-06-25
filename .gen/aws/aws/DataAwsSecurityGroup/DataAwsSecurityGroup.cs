@@ -46,6 +46,7 @@ namespace aws.DataAwsSecurityGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsSecurityGroup.DataAwsSecurityGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsSecurityGroup.IDataAwsSecurityGroupFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -160,6 +161,9 @@ namespace aws.DataAwsSecurityGroup
             get => GetInstanceProperty<aws.DataAwsSecurityGroup.DataAwsSecurityGroupTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsSecurityGroup.IDataAwsSecurityGroupFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -195,6 +199,9 @@ namespace aws.DataAwsSecurityGroup
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSecurityGroup.IDataAwsSecurityGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

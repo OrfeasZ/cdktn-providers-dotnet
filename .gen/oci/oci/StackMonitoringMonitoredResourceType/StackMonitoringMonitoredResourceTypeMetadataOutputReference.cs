@@ -33,6 +33,7 @@ namespace oci.StackMonitoringMonitoredResourceType
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResourceType.IStackMonitoringMonitoredResourceTypeMetadataUniquePropertySets" />)[]</param>
         [JsiiMethod(name: "putUniquePropertySets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMonitoredResourceType.StackMonitoringMonitoredResourceTypeMetadataUniquePropertySets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUniquePropertySets(object @value)
         {
@@ -125,6 +126,9 @@ namespace oci.StackMonitoringMonitoredResourceType
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResourceType.IStackMonitoringMonitoredResourceTypeMetadataUniquePropertySets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uniquePropertySetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMonitoredResourceType.StackMonitoringMonitoredResourceTypeMetadataUniquePropertySets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UniquePropertySetsInput

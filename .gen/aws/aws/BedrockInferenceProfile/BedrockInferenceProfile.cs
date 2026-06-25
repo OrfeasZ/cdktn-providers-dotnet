@@ -46,6 +46,7 @@ namespace aws.BedrockInferenceProfile
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockInferenceProfile.BedrockInferenceProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockInferenceProfile.IBedrockInferenceProfileModelSource" />)[]</param>
         [JsiiMethod(name: "putModelSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutModelSource(object @value)
         {
@@ -191,6 +192,9 @@ namespace aws.BedrockInferenceProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockInferenceProfile.IBedrockInferenceProfileModelSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ModelSourceInput
@@ -219,6 +223,9 @@ namespace aws.BedrockInferenceProfile
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockInferenceProfile.IBedrockInferenceProfileTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockInferenceProfile.BedrockInferenceProfileTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

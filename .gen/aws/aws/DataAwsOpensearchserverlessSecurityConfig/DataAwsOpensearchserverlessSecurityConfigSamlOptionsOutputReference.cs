@@ -59,6 +59,9 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigSamlOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigSamlOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

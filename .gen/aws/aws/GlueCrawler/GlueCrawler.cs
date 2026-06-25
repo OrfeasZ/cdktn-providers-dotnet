@@ -46,6 +46,7 @@ namespace aws.GlueCrawler
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlueCrawler.GlueCrawler), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerCatalogTarget" />)[]</param>
         [JsiiMethod(name: "putCatalogTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerCatalogTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCatalogTarget(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDeltaTarget" />)[]</param>
         [JsiiMethod(name: "putDeltaTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDeltaTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDeltaTarget(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDynamodbTarget" />)[]</param>
         [JsiiMethod(name: "putDynamodbTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDynamodbTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDynamodbTarget(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerHudiTarget" />)[]</param>
         [JsiiMethod(name: "putHudiTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerHudiTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHudiTarget(object @value)
         {
@@ -138,6 +142,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerIcebergTarget" />)[]</param>
         [JsiiMethod(name: "putIcebergTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerIcebergTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIcebergTarget(object @value)
         {
@@ -161,6 +166,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerJdbcTarget" />)[]</param>
         [JsiiMethod(name: "putJdbcTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerJdbcTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJdbcTarget(object @value)
         {
@@ -196,6 +202,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GlueCrawler.IGlueCrawlerLineageConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerMongodbTarget" />)[]</param>
         [JsiiMethod(name: "putMongodbTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerMongodbTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMongodbTarget(object @value)
         {
@@ -225,6 +232,7 @@ namespace aws.GlueCrawler
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.GlueCrawler.IGlueCrawlerRecrawlPolicy)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerS3Target" />)[]</param>
         [JsiiMethod(name: "putS3Target", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerS3Target\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3Target(object @value)
         {
@@ -483,6 +491,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<aws.GlueCrawler.GlueCrawlerSchemaChangePolicyOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerCatalogTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catalogTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerCatalogTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CatalogTargetInput
@@ -511,6 +522,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDeltaTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deltaTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDeltaTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DeltaTargetInput
@@ -525,6 +539,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerDynamodbTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerDynamodbTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DynamodbTargetInput
@@ -532,6 +549,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerHudiTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hudiTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerHudiTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HudiTargetInput
@@ -539,6 +559,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerIcebergTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icebergTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerIcebergTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IcebergTargetInput
@@ -553,6 +576,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerJdbcTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jdbcTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerJdbcTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? JdbcTargetInput
@@ -574,6 +600,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<aws.GlueCrawler.IGlueCrawlerLineageConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerMongodbTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mongodbTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerMongodbTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MongodbTargetInput
@@ -609,6 +638,9 @@ namespace aws.GlueCrawler
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCrawler.IGlueCrawlerS3Target" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3TargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCrawler.GlueCrawlerS3Target\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3TargetInput

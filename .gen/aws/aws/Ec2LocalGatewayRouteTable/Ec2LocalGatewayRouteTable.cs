@@ -159,6 +159,9 @@ namespace aws.Ec2LocalGatewayRouteTable
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2LocalGatewayRouteTable.IEc2LocalGatewayRouteTableTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2LocalGatewayRouteTable.Ec2LocalGatewayRouteTableTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

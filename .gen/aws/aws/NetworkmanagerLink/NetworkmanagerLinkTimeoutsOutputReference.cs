@@ -93,6 +93,9 @@ namespace aws.NetworkmanagerLink
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkmanagerLink.INetworkmanagerLinkTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkmanagerLink.NetworkmanagerLinkTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

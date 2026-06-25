@@ -53,6 +53,9 @@ namespace cloudflare.DataCloudflareAiGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareAiGateway.IDataCloudflareAiGatewayFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareAiGateway.DataCloudflareAiGatewayFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

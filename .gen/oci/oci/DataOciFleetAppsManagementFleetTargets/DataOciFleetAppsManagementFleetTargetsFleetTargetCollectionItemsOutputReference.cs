@@ -65,6 +65,12 @@ namespace oci.DataOciFleetAppsManagementFleetTargets
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "parentTargetName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ParentTargetName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Product
         {

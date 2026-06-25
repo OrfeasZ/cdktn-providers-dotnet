@@ -224,6 +224,9 @@ namespace scaleway.KafkaCluster
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.KafkaCluster.IKafkaClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.kafkaCluster.KafkaClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

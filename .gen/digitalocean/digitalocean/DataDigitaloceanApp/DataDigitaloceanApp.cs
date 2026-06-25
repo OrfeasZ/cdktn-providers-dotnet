@@ -46,6 +46,7 @@ namespace digitalocean.DataDigitaloceanApp
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanApp.DataDigitaloceanApp), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanApp.IDataDigitaloceanAppDedicatedIps" />)[]</param>
         [JsiiMethod(name: "putDedicatedIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppDedicatedIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDedicatedIps(object @value)
         {
@@ -167,6 +168,9 @@ namespace digitalocean.DataDigitaloceanApp
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanApp.IDataDigitaloceanAppDedicatedIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dedicatedIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppDedicatedIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DedicatedIpsInput

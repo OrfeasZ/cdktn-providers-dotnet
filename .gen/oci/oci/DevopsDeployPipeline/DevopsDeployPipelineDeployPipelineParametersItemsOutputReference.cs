@@ -89,6 +89,9 @@ namespace oci.DevopsDeployPipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsDeployPipeline.IDevopsDeployPipelineDeployPipelineParametersItems" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsDeployPipeline.DevopsDeployPipelineDeployPipelineParametersItems\"}]}}", isOptional: true)]
         public virtual object? InternalValue

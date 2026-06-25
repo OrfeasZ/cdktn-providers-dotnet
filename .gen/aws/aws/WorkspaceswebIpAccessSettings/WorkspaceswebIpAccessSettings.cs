@@ -46,6 +46,7 @@ namespace aws.WorkspaceswebIpAccessSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WorkspaceswebIpAccessSettings.WorkspaceswebIpAccessSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebIpAccessSettings.IWorkspaceswebIpAccessSettingsIpRule" />)[]</param>
         [JsiiMethod(name: "putIpRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpRule(object @value)
         {
@@ -176,6 +177,9 @@ namespace aws.WorkspaceswebIpAccessSettings
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebIpAccessSettings.IWorkspaceswebIpAccessSettingsIpRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpRuleInput

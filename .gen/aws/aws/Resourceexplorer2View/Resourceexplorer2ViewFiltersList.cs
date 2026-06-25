@@ -41,6 +41,9 @@ namespace aws.Resourceexplorer2View
             return InvokeInstanceMethod<aws.Resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Resourceexplorer2View.IResourceexplorer2ViewFilters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resourceexplorer2View.Resourceexplorer2ViewFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -75,6 +75,9 @@ namespace oci.ApmSyntheticsMonitor
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApmSyntheticsMonitor.IApmSyntheticsMonitorConfigurationRequestHeaders" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationRequestHeaders\"}]}}", isOptional: true)]
         public virtual object? InternalValue

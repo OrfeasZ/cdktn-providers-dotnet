@@ -41,6 +41,9 @@ namespace scaleway.K8SAcl
             return InvokeInstanceMethod<scaleway.K8SAcl.K8SAclAclRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SAcl.IK8SAclAclRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SAcl.K8SAclAclRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -51,6 +51,9 @@ namespace libvirt.Pool
             get => GetInstanceProperty<libvirt.Pool.PoolSourceAdapterParentAddrAddressOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolSourceAdapterParentAddrAddress" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolSourceAdapterParentAddrAddress\"}]}}", isOptional: true)]
         public virtual object? AddressInput
@@ -72,6 +75,9 @@ namespace libvirt.Pool
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Pool.IPoolSourceAdapterParentAddr" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.pool.PoolSourceAdapterParentAddr\"}]}}", isOptional: true)]
         public virtual object? InternalValue

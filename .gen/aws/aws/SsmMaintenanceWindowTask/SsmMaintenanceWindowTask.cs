@@ -46,6 +46,7 @@ namespace aws.SsmMaintenanceWindowTask
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmMaintenanceWindowTask.SsmMaintenanceWindowTask), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmMaintenanceWindowTask.ISsmMaintenanceWindowTaskTargets" />)[]</param>
         [JsiiMethod(name: "putTargets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTaskTargets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargets(object @value)
         {
@@ -247,6 +248,9 @@ namespace aws.SsmMaintenanceWindowTask
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmMaintenanceWindowTask.ISsmMaintenanceWindowTaskTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTaskTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetsInput

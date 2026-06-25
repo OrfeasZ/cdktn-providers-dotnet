@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustDlpDataClass
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustDlpDataClass.ZeroTrustDlpDataClass), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpDataClass.IZeroTrustDlpDataClassSensitivityLevels" />)[]</param>
         [JsiiMethod(name: "putSensitivityLevels", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpDataClass.ZeroTrustDlpDataClassSensitivityLevels\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSensitivityLevels(object @value)
         {
@@ -153,6 +154,9 @@ namespace cloudflare.ZeroTrustDlpDataClass
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpDataClass.IZeroTrustDlpDataClassSensitivityLevels" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sensitivityLevelsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpDataClass.ZeroTrustDlpDataClassSensitivityLevels\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SensitivityLevelsInput

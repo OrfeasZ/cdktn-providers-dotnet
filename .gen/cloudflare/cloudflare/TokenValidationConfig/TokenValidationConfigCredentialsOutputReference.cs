@@ -33,6 +33,7 @@ namespace cloudflare.TokenValidationConfig
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</param>
         [JsiiMethod(name: "putKeys", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentialsKeys\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKeys(object @value)
         {
@@ -62,6 +63,9 @@ namespace cloudflare.TokenValidationConfig
             get => GetInstanceProperty<cloudflare.TokenValidationConfig.TokenValidationConfigCredentialsKeysList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keysInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentialsKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KeysInput
@@ -69,6 +73,9 @@ namespace cloudflare.TokenValidationConfig
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentials" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentials\"}]}}", isOptional: true)]
         public virtual object? InternalValue

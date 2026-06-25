@@ -77,6 +77,12 @@ namespace oci.DataOciFunctionsApplications
             get => GetInstanceProperty<oci.DataOciFunctionsApplications.DataOciFunctionsApplicationsApplicationsImagePolicyConfigList>()!;
         }
 
+        [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"oci.dataOciFunctionsApplications.DataOciFunctionsApplicationsApplicationsLoggingList\"}")]
+        public virtual oci.DataOciFunctionsApplications.DataOciFunctionsApplicationsApplicationsLoggingList Logging
+        {
+            get => GetInstanceProperty<oci.DataOciFunctionsApplications.DataOciFunctionsApplicationsApplicationsLoggingList>()!;
+        }
+
         [JsiiProperty(name: "networkSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] NetworkSecurityGroupIds
         {

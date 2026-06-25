@@ -35,6 +35,12 @@ namespace oci.DataOciQueueQueues
         {
         }
 
+        [JsiiProperty(name: "capabilities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Capabilities
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "channelConsumptionLimit", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ChannelConsumptionLimit
         {

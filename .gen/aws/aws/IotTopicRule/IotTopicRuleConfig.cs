@@ -12,6 +12,9 @@ namespace aws.IotTopicRule
         private object _enabled;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#enabled IotTopicRule#enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public object Enabled
         {
@@ -68,6 +71,7 @@ namespace aws.IotTopicRule
         /// <summary>cloudwatch_alarm block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#cloudwatch_alarm IotTopicRule#cloudwatch_alarm}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchAlarm" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchAlarm", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchAlarm\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -102,6 +106,7 @@ namespace aws.IotTopicRule
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#cloudwatch_logs IotTopicRule#cloudwatch_logs}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchLogs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchLogs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -136,6 +141,7 @@ namespace aws.IotTopicRule
         /// <summary>cloudwatch_metric block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#cloudwatch_metric IotTopicRule#cloudwatch_metric}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchMetric" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchMetric", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchMetric\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -179,6 +185,7 @@ namespace aws.IotTopicRule
         /// <summary>dynamodb block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#dynamodb IotTopicRule#dynamodb}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodb" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodb", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleDynamodb\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -213,6 +220,7 @@ namespace aws.IotTopicRule
         /// <summary>dynamodbv2 block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#dynamodbv2 IotTopicRule#dynamodbv2}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodbv2" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbv2", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleDynamodbv2\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -247,6 +255,7 @@ namespace aws.IotTopicRule
         /// <summary>elasticsearch block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#elasticsearch IotTopicRule#elasticsearch}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleElasticsearch" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "elasticsearch", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleElasticsearch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -293,6 +302,7 @@ namespace aws.IotTopicRule
         /// <summary>firehose block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#firehose IotTopicRule#firehose}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleFirehose" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firehose", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleFirehose\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -327,6 +337,7 @@ namespace aws.IotTopicRule
         /// <summary>http block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#http IotTopicRule#http}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "http", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleHttp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -374,6 +385,7 @@ namespace aws.IotTopicRule
         /// <summary>iot_analytics block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#iot_analytics IotTopicRule#iot_analytics}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotAnalytics" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotAnalytics", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleIotAnalytics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -408,6 +420,7 @@ namespace aws.IotTopicRule
         /// <summary>iot_events block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#iot_events IotTopicRule#iot_events}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotEvents" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotEvents", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleIotEvents\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -442,6 +455,7 @@ namespace aws.IotTopicRule
         /// <summary>kafka block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#kafka IotTopicRule#kafka}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKafka" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kafka", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKafka\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -476,6 +490,7 @@ namespace aws.IotTopicRule
         /// <summary>kinesis block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#kinesis IotTopicRule#kinesis}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKinesis" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesis", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKinesis\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -510,6 +525,7 @@ namespace aws.IotTopicRule
         /// <summary>lambda block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#lambda IotTopicRule#lambda}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleLambda" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambda", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleLambda\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -556,6 +572,7 @@ namespace aws.IotTopicRule
         /// <summary>republish block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#republish IotTopicRule#republish}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleRepublish" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "republish", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleRepublish\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -590,6 +607,7 @@ namespace aws.IotTopicRule
         /// <summary>s3 block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#s3 IotTopicRule#s3}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleS3" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -624,6 +642,7 @@ namespace aws.IotTopicRule
         /// <summary>sns block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#sns IotTopicRule#sns}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSns" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleSns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -658,6 +677,7 @@ namespace aws.IotTopicRule
         /// <summary>sqs block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#sqs IotTopicRule#sqs}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSqs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleSqs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -692,6 +712,7 @@ namespace aws.IotTopicRule
         /// <summary>step_functions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#step_functions IotTopicRule#step_functions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleStepFunctions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepFunctions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleStepFunctions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -744,6 +765,7 @@ namespace aws.IotTopicRule
         /// <summary>timestream block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#timestream IotTopicRule#timestream}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleTimestream" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timestream", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestream\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -777,6 +799,7 @@ namespace aws.IotTopicRule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -810,6 +833,7 @@ namespace aws.IotTopicRule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -904,6 +928,7 @@ namespace aws.IotTopicRule
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

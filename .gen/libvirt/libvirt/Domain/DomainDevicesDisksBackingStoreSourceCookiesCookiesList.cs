@@ -41,6 +41,9 @@ namespace libvirt.Domain
             return InvokeInstanceMethod<libvirt.Domain.DomainDevicesDisksBackingStoreSourceCookiesCookiesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesDisksBackingStoreSourceCookiesCookies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksBackingStoreSourceCookiesCookies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

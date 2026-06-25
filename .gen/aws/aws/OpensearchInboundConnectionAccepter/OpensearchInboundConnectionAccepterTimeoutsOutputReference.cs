@@ -73,6 +73,9 @@ namespace aws.OpensearchInboundConnectionAccepter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchInboundConnectionAccepter.IOpensearchInboundConnectionAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchInboundConnectionAccepter.OpensearchInboundConnectionAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

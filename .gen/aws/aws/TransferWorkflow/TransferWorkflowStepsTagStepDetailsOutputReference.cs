@@ -33,6 +33,7 @@ namespace aws.TransferWorkflow
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowStepsTagStepDetailsTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -94,6 +95,9 @@ namespace aws.TransferWorkflow
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowStepsTagStepDetailsTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput

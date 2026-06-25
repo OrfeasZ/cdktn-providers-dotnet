@@ -46,6 +46,7 @@ namespace aws.S3BucketAbac
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3BucketAbac.S3BucketAbac), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketAbac.IS3BucketAbacAbacStatus" />)[]</param>
         [JsiiMethod(name: "putAbacStatus", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAbac.S3BucketAbacAbacStatus\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAbacStatus(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.S3BucketAbac
             get => GetInstanceProperty<aws.S3BucketAbac.S3BucketAbacAbacStatusList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketAbac.IS3BucketAbacAbacStatus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "abacStatusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketAbac.S3BucketAbacAbacStatus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AbacStatusInput

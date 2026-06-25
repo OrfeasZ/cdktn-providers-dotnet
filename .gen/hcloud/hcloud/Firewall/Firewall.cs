@@ -46,6 +46,7 @@ namespace hcloud.Firewall
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(hcloud.Firewall.Firewall), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.Firewall.IFirewallApplyTo" />)[]</param>
         [JsiiMethod(name: "putApplyTo", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.firewall.FirewallApplyTo\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutApplyTo(object @value)
         {
@@ -69,6 +70,7 @@ namespace hcloud.Firewall
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.Firewall.IFirewallRule" />)[]</param>
         [JsiiMethod(name: "putRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.firewall.FirewallRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRule(object @value)
         {
@@ -147,6 +149,9 @@ namespace hcloud.Firewall
             get => GetInstanceProperty<hcloud.Firewall.FirewallRuleList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.Firewall.IFirewallApplyTo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyToInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.firewall.FirewallApplyTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ApplyToInput
@@ -175,6 +180,9 @@ namespace hcloud.Firewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.Firewall.IFirewallRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ruleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.firewall.FirewallRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RuleInput

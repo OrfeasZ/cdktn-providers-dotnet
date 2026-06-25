@@ -35,6 +35,7 @@ namespace aws.LakeformationOptIn
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataCatalog" />)[]</param>
         [JsiiMethod(name: "putCatalog", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataCatalog\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCatalog(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataDatabase" />)[]</param>
         [JsiiMethod(name: "putDatabase", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataDatabase\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDatabase(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataDataCellsFilter" />)[]</param>
         [JsiiMethod(name: "putDataCellsFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataDataCellsFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataCellsFilter(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataDataLocation" />)[]</param>
         [JsiiMethod(name: "putDataLocation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataDataLocation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataLocation(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTag" />)[]</param>
         [JsiiMethod(name: "putLfTag", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataLfTag\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLfTag(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTagExpression" />)[]</param>
         [JsiiMethod(name: "putLfTagExpression", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataLfTagExpression\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLfTagExpression(object @value)
         {
@@ -173,6 +179,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTagPolicy" />)[]</param>
         [JsiiMethod(name: "putLfTagPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataLfTagPolicy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLfTagPolicy(object @value)
         {
@@ -196,6 +203,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTable" />)[]</param>
         [JsiiMethod(name: "putTable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTable(object @value)
         {
@@ -219,6 +227,7 @@ namespace aws.LakeformationOptIn
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTableWithColumns" />)[]</param>
         [JsiiMethod(name: "putTableWithColumns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTableWithColumns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTableWithColumns(object @value)
         {
@@ -350,6 +359,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<aws.LakeformationOptIn.LakeformationOptInResourceDataTableWithColumnsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataCatalog" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catalogInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataCatalog\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CatalogInput
@@ -357,6 +369,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataDatabase" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataDatabase\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DatabaseInput
@@ -364,6 +379,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataDataCellsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataCellsFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataDataCellsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataCellsFilterInput
@@ -371,6 +389,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataDataLocation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataLocationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataDataLocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataLocationInput
@@ -378,6 +399,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTagExpression" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfTagExpressionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataLfTagExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LfTagExpressionInput
@@ -385,6 +409,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTag" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfTagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataLfTag\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LfTagInput
@@ -392,6 +419,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataLfTagPolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfTagPolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataLfTagPolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LfTagPolicyInput
@@ -399,6 +429,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TableInput
@@ -406,6 +439,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTableWithColumns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tableWithColumnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTableWithColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TableWithColumnsInput
@@ -413,6 +449,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationOptIn.ILakeformationOptInResourceData" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceData\"}]}}", isOptional: true)]
         public virtual object? InternalValue

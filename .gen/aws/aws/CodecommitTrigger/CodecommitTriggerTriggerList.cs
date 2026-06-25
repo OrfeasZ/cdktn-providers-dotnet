@@ -41,6 +41,9 @@ namespace aws.CodecommitTrigger
             return InvokeInstanceMethod<aws.CodecommitTrigger.CodecommitTriggerTriggerOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodecommitTrigger.ICodecommitTriggerTrigger" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecommitTrigger.CodecommitTriggerTrigger\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

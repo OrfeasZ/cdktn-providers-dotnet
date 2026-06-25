@@ -46,6 +46,7 @@ namespace aws.WorkspaceswebUserSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WorkspaceswebUserSettings.WorkspaceswebUserSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebUserSettings.IWorkspaceswebUserSettingsCookieSynchronizationConfiguration" />)[]</param>
         [JsiiMethod(name: "putCookieSynchronizationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebUserSettings.WorkspaceswebUserSettingsCookieSynchronizationConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCookieSynchronizationConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.WorkspaceswebUserSettings
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebUserSettings.IWorkspaceswebUserSettingsToolbarConfiguration" />)[]</param>
         [JsiiMethod(name: "putToolbarConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutToolbarConfiguration(object @value)
         {
@@ -202,6 +204,9 @@ namespace aws.WorkspaceswebUserSettings
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebUserSettings.IWorkspaceswebUserSettingsCookieSynchronizationConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookieSynchronizationConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebUserSettings.WorkspaceswebUserSettingsCookieSynchronizationConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CookieSynchronizationConfigurationInput
@@ -279,6 +284,9 @@ namespace aws.WorkspaceswebUserSettings
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebUserSettings.IWorkspaceswebUserSettingsToolbarConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "toolbarConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ToolbarConfigurationInput

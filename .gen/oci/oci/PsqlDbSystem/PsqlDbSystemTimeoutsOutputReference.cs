@@ -93,6 +93,9 @@ namespace oci.PsqlDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.PsqlDbSystem.IPsqlDbSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

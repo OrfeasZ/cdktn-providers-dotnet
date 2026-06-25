@@ -41,6 +41,9 @@ namespace aws.XrayIndexingRule
             return InvokeInstanceMethod<aws.XrayIndexingRule.XrayIndexingRuleRuleProbabilisticOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.XrayIndexingRule.IXrayIndexingRuleRuleProbabilistic" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.xrayIndexingRule.XrayIndexingRuleRuleProbabilistic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.SsmcontactsRotation
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes" />)[]</param>
         [JsiiMethod(name: "putCoverageTimes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCoverageTimes(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.SsmcontactsRotation
             get => GetInstanceProperty<aws.SsmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "coverageTimesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CoverageTimesInput
@@ -91,6 +95,9 @@ namespace aws.SsmcontactsRotation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoverages" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoverages\"}]}}", isOptional: true)]
         public virtual object? InternalValue

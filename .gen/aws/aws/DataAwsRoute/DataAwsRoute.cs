@@ -284,6 +284,9 @@ namespace aws.DataAwsRoute
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsRoute.IDataAwsRouteTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsRoute.DataAwsRouteTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustAccessMtlsHostnameSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustAccessMtlsHostnameSettings.ZeroTrustAccessMtlsHostnameSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessMtlsHostnameSettings.IZeroTrustAccessMtlsHostnameSettingsSettings" />)[]</param>
         [JsiiMethod(name: "putSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessMtlsHostnameSettings.ZeroTrustAccessMtlsHostnameSettingsSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSettings(object @value)
         {
@@ -131,6 +132,9 @@ namespace cloudflare.ZeroTrustAccessMtlsHostnameSettings
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessMtlsHostnameSettings.IZeroTrustAccessMtlsHostnameSettingsSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustAccessMtlsHostnameSettings.ZeroTrustAccessMtlsHostnameSettingsSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SettingsInput

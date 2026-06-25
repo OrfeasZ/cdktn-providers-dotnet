@@ -131,6 +131,18 @@ namespace oci.DataOciFileStorageOutboundConnectors
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "trustedCertificateSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustedCertificateSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "trustedCertificateSecretVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TrustedCertificateSecretVersion
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciFileStorageOutboundConnectors.DataOciFileStorageOutboundConnectorsOutboundConnectors\"}", isOptional: true)]
         public virtual oci.DataOciFileStorageOutboundConnectors.IDataOciFileStorageOutboundConnectorsOutboundConnectors? InternalValue

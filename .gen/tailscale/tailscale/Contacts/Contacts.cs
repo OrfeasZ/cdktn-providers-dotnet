@@ -46,6 +46,7 @@ namespace tailscale.Contacts
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(tailscale.Contacts.Contacts), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsAccount" />)[]</param>
         [JsiiMethod(name: "putAccount", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsAccount\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccount(object @value)
         {
@@ -69,6 +70,7 @@ namespace tailscale.Contacts
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSecurity" />)[]</param>
         [JsiiMethod(name: "putSecurity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSecurity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecurity(object @value)
         {
@@ -92,6 +94,7 @@ namespace tailscale.Contacts
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSupport" />)[]</param>
         [JsiiMethod(name: "putSupport", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSupport\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSupport(object @value)
         {
@@ -176,6 +179,9 @@ namespace tailscale.Contacts
             get => GetInstanceProperty<tailscale.Contacts.ContactsSupportList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsAccount" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsAccount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccountInput
@@ -183,6 +189,9 @@ namespace tailscale.Contacts
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSecurity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSecurity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecurityInput
@@ -190,6 +199,9 @@ namespace tailscale.Contacts
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSupport" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "supportInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"tailscale.contacts.ContactsSupport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SupportInput

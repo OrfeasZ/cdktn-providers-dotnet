@@ -33,6 +33,7 @@ namespace scaleway.DomainRecord
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordGeoIpMatches" />)[]</param>
         [JsiiMethod(name: "putMatches", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordGeoIpMatches\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMatches(object @value)
         {
@@ -62,6 +63,9 @@ namespace scaleway.DomainRecord
             get => GetInstanceProperty<scaleway.DomainRecord.DomainRecordGeoIpMatchesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordGeoIpMatches" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "matchesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordGeoIpMatches\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MatchesInput

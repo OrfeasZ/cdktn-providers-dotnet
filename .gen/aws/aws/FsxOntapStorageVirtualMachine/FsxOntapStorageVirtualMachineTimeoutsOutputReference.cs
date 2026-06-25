@@ -93,6 +93,9 @@ namespace aws.FsxOntapStorageVirtualMachine
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxOntapStorageVirtualMachine.IFsxOntapStorageVirtualMachineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxOntapStorageVirtualMachine.FsxOntapStorageVirtualMachineTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

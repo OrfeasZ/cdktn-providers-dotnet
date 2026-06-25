@@ -64,6 +64,9 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptBindingsOutboundWorker" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsOutboundWorker\"}]}}", isOptional: true)]
         public virtual object? WorkerInput
@@ -78,6 +81,9 @@ namespace cloudflare.WorkersScript
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptBindingsOutbound" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsOutbound\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -65,6 +65,12 @@ namespace oci.DataOciCoreIpv6S
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Hostname
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

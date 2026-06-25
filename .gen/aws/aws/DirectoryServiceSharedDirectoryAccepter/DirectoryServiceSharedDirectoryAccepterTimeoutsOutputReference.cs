@@ -73,6 +73,9 @@ namespace aws.DirectoryServiceSharedDirectoryAccepter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DirectoryServiceSharedDirectoryAccepter.IDirectoryServiceSharedDirectoryAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.directoryServiceSharedDirectoryAccepter.DirectoryServiceSharedDirectoryAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

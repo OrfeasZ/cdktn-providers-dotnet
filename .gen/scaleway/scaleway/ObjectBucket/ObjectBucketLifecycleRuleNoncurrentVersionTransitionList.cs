@@ -41,6 +41,9 @@ namespace scaleway.ObjectBucket
             return InvokeInstanceMethod<scaleway.ObjectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransitionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -129,6 +129,9 @@ namespace aws.OpensearchPackageAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchPackageAssociation.IOpensearchPackageAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

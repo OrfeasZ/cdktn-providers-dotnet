@@ -46,6 +46,7 @@ namespace stripe.V2BillingLicenseFee
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.V2BillingLicenseFee.V2BillingLicenseFee), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingLicenseFee.IV2BillingLicenseFeeTiers" />)[]</param>
         [JsiiMethod(name: "putTiers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingLicenseFee.V2BillingLicenseFeeTiers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTiers(object @value)
         {
@@ -211,6 +212,9 @@ namespace stripe.V2BillingLicenseFee
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingLicenseFee.IV2BillingLicenseFeeTiers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tiersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingLicenseFee.V2BillingLicenseFeeTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TiersInput

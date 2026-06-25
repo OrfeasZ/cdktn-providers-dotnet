@@ -41,6 +41,9 @@ namespace aws.DataAwsEbsSnapshot
             return InvokeInstanceMethod<aws.DataAwsEbsSnapshot.DataAwsEbsSnapshotFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEbsSnapshot.IDataAwsEbsSnapshotFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEbsSnapshot.DataAwsEbsSnapshotFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

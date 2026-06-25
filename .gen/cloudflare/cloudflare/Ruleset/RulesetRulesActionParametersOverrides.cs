@@ -24,6 +24,7 @@ namespace cloudflare.Ruleset
         /// <summary>A list of category-level overrides. This option has the second-highest precedence after rule-level overrides.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#categories Ruleset#categories}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverridesCategories" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "categories", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesCategories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -58,6 +59,7 @@ namespace cloudflare.Ruleset
         /// <summary>Whether to enable execution of all rules. This option has lower precedence than rule and category overrides.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#enabled Ruleset#enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -92,6 +94,7 @@ namespace cloudflare.Ruleset
         /// <summary>A list of rule-level overrides. This option has the highest precedence.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rules Ruleset#rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOverridesRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]

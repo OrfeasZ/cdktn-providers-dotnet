@@ -41,6 +41,9 @@ namespace oci.DataOciBdsBdsInstanceIdentityConfigurations
             return InvokeInstanceMethod<oci.DataOciBdsBdsInstanceIdentityConfigurations.DataOciBdsBdsInstanceIdentityConfigurationsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstanceIdentityConfigurations.IDataOciBdsBdsInstanceIdentityConfigurationsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciBdsBdsInstanceIdentityConfigurations.DataOciBdsBdsInstanceIdentityConfigurationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

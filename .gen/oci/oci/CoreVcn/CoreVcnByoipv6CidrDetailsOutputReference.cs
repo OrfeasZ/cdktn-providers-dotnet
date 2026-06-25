@@ -63,6 +63,9 @@ namespace oci.CoreVcn
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreVcn.ICoreVcnByoipv6CidrDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreVcn.CoreVcnByoipv6CidrDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

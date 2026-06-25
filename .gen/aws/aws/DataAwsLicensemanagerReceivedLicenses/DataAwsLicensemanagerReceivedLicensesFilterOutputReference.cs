@@ -63,6 +63,9 @@ namespace aws.DataAwsLicensemanagerReceivedLicenses
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsLicensemanagerReceivedLicenses.IDataAwsLicensemanagerReceivedLicensesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsLicensemanagerReceivedLicenses.DataAwsLicensemanagerReceivedLicensesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,24 @@ namespace oci.DataOciCloudBridgeAssets
         {
         }
 
+        [JsiiProperty(name: "assetClassName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetClassName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "assetClassVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetClassVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "assetDetails", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetDetails
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "assetSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AssetSourceIds
         {
@@ -45,6 +63,30 @@ namespace oci.DataOciCloudBridgeAssets
         public virtual string AssetType
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "attachedEbsVolumesCost", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAttachedEbsVolumesCostList\"}")]
+        public virtual oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAttachedEbsVolumesCostList AttachedEbsVolumesCost
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAttachedEbsVolumesCostList>()!;
+        }
+
+        [JsiiProperty(name: "awsEbs", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEbsList\"}")]
+        public virtual oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEbsList AwsEbs
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEbsList>()!;
+        }
+
+        [JsiiProperty(name: "awsEc2", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEc2List\"}")]
+        public virtual oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEc2List AwsEc2
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEc2List>()!;
+        }
+
+        [JsiiProperty(name: "awsEc2Cost", typeJson: "{\"fqn\":\"oci.dataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEc2CostList\"}")]
+        public virtual oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEc2CostList AwsEc2Cost
+        {
+            get => GetInstanceProperty<oci.DataOciCloudBridgeAssets.DataOciCloudBridgeAssetsAssetCollectionItemsAwsEc2CostList>()!;
         }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
@@ -67,6 +109,12 @@ namespace oci.DataOciCloudBridgeAssets
 
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EnvironmentType
         {
             get => GetInstanceProperty<string>()!;
         }

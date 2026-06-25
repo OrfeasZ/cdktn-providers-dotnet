@@ -59,6 +59,9 @@ namespace hcloud.DataHcloudServer
             get => GetInstanceProperty<double>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="hcloud.DataHcloudServer.IDataHcloudServerNetwork" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"hcloud.dataHcloudServer.DataHcloudServerNetwork\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -52,6 +52,7 @@ namespace cloudflare.DataCloudflareZeroTrustDexTest
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareZeroTrustDexTest.IDataCloudflareZeroTrustDexTestFilter)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.DataCloudflareZeroTrustDexTest.IDataCloudflareZeroTrustDexTestTargetPolicies" />)[]</param>
         [JsiiMethod(name: "putTargetPolicies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTest.DataCloudflareZeroTrustDexTestTargetPolicies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetPolicies(object @value)
         {
@@ -192,6 +193,9 @@ namespace cloudflare.DataCloudflareZeroTrustDexTest
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZeroTrustDexTest.IDataCloudflareZeroTrustDexTestFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTest.DataCloudflareZeroTrustDexTestFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -199,6 +203,9 @@ namespace cloudflare.DataCloudflareZeroTrustDexTest
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.DataCloudflareZeroTrustDexTest.IDataCloudflareZeroTrustDexTestTargetPolicies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetPoliciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTest.DataCloudflareZeroTrustDexTestTargetPolicies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetPoliciesInput

@@ -33,6 +33,7 @@ namespace oci.AiDocumentProcessorJob
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobInputLocationObjectLocations" />)[]</param>
         [JsiiMethod(name: "putObjectLocations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobInputLocationObjectLocations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutObjectLocations(object @value)
         {
@@ -87,6 +88,9 @@ namespace oci.AiDocumentProcessorJob
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobInputLocationObjectLocations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "objectLocationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobInputLocationObjectLocations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ObjectLocationsInput

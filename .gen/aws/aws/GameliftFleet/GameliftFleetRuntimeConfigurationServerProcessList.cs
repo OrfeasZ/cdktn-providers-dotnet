@@ -41,6 +41,9 @@ namespace aws.GameliftFleet
             return InvokeInstanceMethod<aws.GameliftFleet.GameliftFleetRuntimeConfigurationServerProcessOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GameliftFleet.IGameliftFleetRuntimeConfigurationServerProcess" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace scaleway.AutoscalingInstancePolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.AutoscalingInstancePolicy.AutoscalingInstancePolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstancePolicy.IAutoscalingInstancePolicyMetric" />)[]</param>
         [JsiiMethod(name: "putMetric", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstancePolicy.AutoscalingInstancePolicyMetric\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMetric(object @value)
         {
@@ -145,6 +146,9 @@ namespace scaleway.AutoscalingInstancePolicy
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstancePolicy.IAutoscalingInstancePolicyMetric" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstancePolicy.AutoscalingInstancePolicyMetric\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MetricInput

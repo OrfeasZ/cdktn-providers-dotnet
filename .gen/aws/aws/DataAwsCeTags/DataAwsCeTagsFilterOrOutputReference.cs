@@ -110,6 +110,9 @@ namespace aws.DataAwsCeTags
             get => GetInstanceProperty<aws.DataAwsCeTags.IDataAwsCeTagsFilterOrTags?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterOr" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterOr\"}]}}", isOptional: true)]
         public virtual object? InternalValue

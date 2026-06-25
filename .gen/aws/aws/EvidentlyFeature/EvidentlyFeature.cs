@@ -52,6 +52,7 @@ namespace aws.EvidentlyFeature
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EvidentlyFeature.IEvidentlyFeatureTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyFeature.IEvidentlyFeatureVariations" />)[]</param>
         [JsiiMethod(name: "putVariations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyFeature.EvidentlyFeatureVariations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVariations(object @value)
         {
@@ -266,6 +267,9 @@ namespace aws.EvidentlyFeature
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EvidentlyFeature.IEvidentlyFeatureTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.evidentlyFeature.EvidentlyFeatureTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -273,6 +277,9 @@ namespace aws.EvidentlyFeature
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyFeature.IEvidentlyFeatureVariations" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "variationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyFeature.EvidentlyFeatureVariations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VariationsInput

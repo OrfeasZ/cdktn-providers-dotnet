@@ -73,6 +73,9 @@ namespace aws.ObservabilityadminTelemetryEnrichment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ObservabilityadminTelemetryEnrichment.IObservabilityadminTelemetryEnrichmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

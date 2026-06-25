@@ -14,6 +14,7 @@ namespace aws.AppconfigExtension
         /// <summary>action block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appconfig_extension#action AppconfigExtension#action}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigExtension.IAppconfigExtensionActionPointAction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionActionPointAction\"},\"kind\":\"array\"}}]}}")]
         public object Action

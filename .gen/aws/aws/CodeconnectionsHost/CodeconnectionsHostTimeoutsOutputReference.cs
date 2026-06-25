@@ -93,6 +93,9 @@ namespace aws.CodeconnectionsHost
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodeconnectionsHost.ICodeconnectionsHostTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

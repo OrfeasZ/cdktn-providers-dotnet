@@ -119,6 +119,12 @@ namespace oci.DataOciGoldenGateDeployments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "disasterRecoveryStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DisasterRecoveryStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
         {
@@ -373,12 +379,6 @@ namespace oci.DataOciGoldenGateDeployments
 
         [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeUpdated
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "timeUpgradeRequired", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string TimeUpgradeRequired
         {
             get => GetInstanceProperty<string>()!;
         }

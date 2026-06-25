@@ -35,6 +35,7 @@ namespace aws.AppsyncApi
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider" />)[]</param>
         [JsiiMethod(name: "putAuthProvider", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProvider\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthProvider(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.AppsyncApi
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigConnectionAuthMode" />)[]</param>
         [JsiiMethod(name: "putConnectionAuthMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConnectionAuthMode(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.AppsyncApi
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultPublishAuthMode" />)[]</param>
         [JsiiMethod(name: "putDefaultPublishAuthMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefaultPublishAuthMode(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.AppsyncApi
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultSubscribeAuthMode" />)[]</param>
         [JsiiMethod(name: "putDefaultSubscribeAuthMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefaultSubscribeAuthMode(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.AppsyncApi
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigLogConfig" />)[]</param>
         [JsiiMethod(name: "putLogConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigLogConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogConfig(object @value)
         {
@@ -210,6 +215,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<aws.AppsyncApi.AppsyncApiEventConfigLogConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authProviderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigAuthProvider\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthProviderInput
@@ -217,6 +225,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigConnectionAuthMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionAuthModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConnectionAuthModeInput
@@ -224,6 +235,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultPublishAuthMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultPublishAuthModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefaultPublishAuthModeInput
@@ -231,6 +245,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultSubscribeAuthMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSubscribeAuthModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefaultSubscribeAuthModeInput
@@ -238,6 +255,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigLogConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfigLogConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogConfigInput
@@ -245,6 +265,9 @@ namespace aws.AppsyncApi
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppsyncApi.IAppsyncApiEventConfig" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appsyncApi.AppsyncApiEventConfig\"}]}}", isOptional: true)]
         public virtual object? InternalValue

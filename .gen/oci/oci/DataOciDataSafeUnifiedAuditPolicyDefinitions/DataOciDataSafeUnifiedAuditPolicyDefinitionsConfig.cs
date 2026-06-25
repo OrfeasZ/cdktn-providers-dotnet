@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
     [JsiiByValue(fqn: "oci.dataOciDataSafeUnifiedAuditPolicyDefinitions.DataOciDataSafeUnifiedAuditPolicyDefinitionsConfig")]
     public class DataOciDataSafeUnifiedAuditPolicyDefinitionsConfig : oci.DataOciDataSafeUnifiedAuditPolicyDefinitions.IDataOciDataSafeUnifiedAuditPolicyDefinitionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#compartment_id DataOciDataSafeUnifiedAuditPolicyDefinitions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#compartment_id DataOciDataSafeUnifiedAuditPolicyDefinitions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#access_level DataOciDataSafeUnifiedAuditPolicyDefinitions#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#access_level DataOciDataSafeUnifiedAuditPolicyDefinitions#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -28,7 +28,10 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#compartment_id_in_subtree DataOciDataSafeUnifiedAuditPolicyDefinitions#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#compartment_id_in_subtree DataOciDataSafeUnifiedAuditPolicyDefinitions#compartment_id_in_subtree}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentIdInSubtree", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? CompartmentIdInSubtree
@@ -57,7 +60,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#display_name DataOciDataSafeUnifiedAuditPolicyDefinitions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#display_name DataOciDataSafeUnifiedAuditPolicyDefinitions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -70,7 +73,8 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#filter DataOciDataSafeUnifiedAuditPolicyDefinitions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#filter DataOciDataSafeUnifiedAuditPolicyDefinitions#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeUnifiedAuditPolicyDefinitions.IDataOciDataSafeUnifiedAuditPolicyDefinitionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeUnifiedAuditPolicyDefinitions.DataOciDataSafeUnifiedAuditPolicyDefinitionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -100,7 +104,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#id DataOciDataSafeUnifiedAuditPolicyDefinitions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#id DataOciDataSafeUnifiedAuditPolicyDefinitions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +119,10 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         private object? _isSeeded;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#is_seeded DataOciDataSafeUnifiedAuditPolicyDefinitions#is_seeded}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#is_seeded DataOciDataSafeUnifiedAuditPolicyDefinitions#is_seeded}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSeeded", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsSeeded
@@ -144,7 +151,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#state DataOciDataSafeUnifiedAuditPolicyDefinitions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#state DataOciDataSafeUnifiedAuditPolicyDefinitions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -153,7 +160,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#unified_audit_policy_category DataOciDataSafeUnifiedAuditPolicyDefinitions#unified_audit_policy_category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#unified_audit_policy_category DataOciDataSafeUnifiedAuditPolicyDefinitions#unified_audit_policy_category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unifiedAuditPolicyCategory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UnifiedAuditPolicyCategory
@@ -162,7 +169,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicyDefinitions#unified_audit_policy_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#unified_audit_policy_definition_id DataOciDataSafeUnifiedAuditPolicyDefinitions#unified_audit_policy_definition_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unifiedAuditPolicyDefinitionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UnifiedAuditPolicyDefinitionId
@@ -171,7 +178,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/data_safe_unified_audit_policy_definitions#unified_audit_policy_name DataOciDataSafeUnifiedAuditPolicyDefinitions#unified_audit_policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/data_safe_unified_audit_policy_definitions#unified_audit_policy_name DataOciDataSafeUnifiedAuditPolicyDefinitions#unified_audit_policy_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "unifiedAuditPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UnifiedAuditPolicyName
@@ -184,6 +191,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -217,6 +225,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -311,6 +320,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

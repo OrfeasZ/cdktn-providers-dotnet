@@ -35,6 +35,7 @@ namespace aws.TransferWebApp
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetailsIdentityCenterConfig" />)[]</param>
         [JsiiMethod(name: "putIdentityCenterConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetailsIdentityCenterConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIdentityCenterConfig(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<aws.TransferWebApp.TransferWebAppIdentityProviderDetailsIdentityCenterConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetailsIdentityCenterConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityCenterConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetailsIdentityCenterConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IdentityCenterConfigInput
@@ -77,6 +81,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

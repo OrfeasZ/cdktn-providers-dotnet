@@ -33,6 +33,7 @@ namespace oci.ApmConfigConfig
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigConfigConfigMap" />)[]</param>
         [JsiiMethod(name: "putConfigMap", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigConfigConfigMap\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfigMap(object @value)
         {
@@ -68,6 +69,9 @@ namespace oci.ApmConfigConfig
             get => GetInstanceProperty<oci.ApmConfigConfig.ApmConfigConfigConfigConfigMapList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigConfigConfigMap" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configMapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigConfigConfigMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigMapInput

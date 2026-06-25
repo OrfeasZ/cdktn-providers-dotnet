@@ -35,6 +35,7 @@ namespace aws.M2Environment
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationEfs" />)[]</param>
         [JsiiMethod(name: "putEfs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationEfs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEfs(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.M2Environment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationFsx" />)[]</param>
         [JsiiMethod(name: "putFsx", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationFsx\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFsx(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<aws.M2Environment.M2EnvironmentStorageConfigurationFsxList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationEfs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "efsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationEfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EfsInput
@@ -112,6 +117,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationFsx" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fsxInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationFsx\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FsxInput
@@ -119,6 +127,9 @@ namespace aws.M2Environment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.M2Environment.IM2EnvironmentStorageConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

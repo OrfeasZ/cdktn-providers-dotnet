@@ -59,6 +59,12 @@ namespace oci.DataOciMysqlMysqlBackup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "readEndpointIpv6AddressIpv6SubnetCidrPairDetails", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsList\"}")]
+        public virtual oci.DataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsList ReadEndpointIpv6AddressIpv6SubnetCidrPairDetails
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotReadEndpointReadEndpointIpv6AddressIpv6SubnetCidrPairDetailsList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupDbSystemSnapshotReadEndpoint\"}", isOptional: true)]
         public virtual oci.DataOciMysqlMysqlBackup.IDataOciMysqlMysqlBackupDbSystemSnapshotReadEndpoint? InternalValue

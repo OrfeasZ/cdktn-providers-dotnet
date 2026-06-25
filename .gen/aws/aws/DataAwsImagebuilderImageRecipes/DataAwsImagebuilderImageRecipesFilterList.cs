@@ -41,6 +41,9 @@ namespace aws.DataAwsImagebuilderImageRecipes
             return InvokeInstanceMethod<aws.DataAwsImagebuilderImageRecipes.DataAwsImagebuilderImageRecipesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsImagebuilderImageRecipes.IDataAwsImagebuilderImageRecipesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsImagebuilderImageRecipes.DataAwsImagebuilderImageRecipesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

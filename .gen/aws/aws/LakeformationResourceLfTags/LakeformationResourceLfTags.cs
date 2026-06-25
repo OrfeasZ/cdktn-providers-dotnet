@@ -52,6 +52,7 @@ namespace aws.LakeformationResourceLfTags
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsDatabase)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsLfTag" />)[]</param>
         [JsiiMethod(name: "putLfTag", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTag\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLfTag(object @value)
         {
@@ -205,6 +206,9 @@ namespace aws.LakeformationResourceLfTags
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsLfTag" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lfTagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTag\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LfTagInput
@@ -233,6 +237,9 @@ namespace aws.LakeformationResourceLfTags
             get => GetInstanceProperty<aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsTableWithColumns?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationResourceLfTags.ILakeformationResourceLfTagsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -10,6 +10,7 @@ namespace aws.DataexchangeEventAction
         /// <summary>revision_published block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionEventRevisionPublished" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "revisionPublished", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,6 +32,7 @@ namespace aws.DataexchangeEventAction
             /// <summary>revision_published block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dataexchange_event_action#revision_published DataexchangeEventAction#revision_published}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionEventRevisionPublished" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "revisionPublished", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished\"},\"kind\":\"array\"}}]}}", isOptional: true)]

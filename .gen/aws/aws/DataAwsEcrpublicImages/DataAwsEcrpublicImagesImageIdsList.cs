@@ -41,6 +41,9 @@ namespace aws.DataAwsEcrpublicImages
             return InvokeInstanceMethod<aws.DataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIdsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsEcrpublicImages.IDataAwsEcrpublicImagesImageIds" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIds\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

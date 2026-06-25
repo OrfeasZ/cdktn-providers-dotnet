@@ -46,6 +46,7 @@ namespace aws.FinspaceKxEnvironment
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FinspaceKxEnvironment.FinspaceKxEnvironment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxEnvironment.IFinspaceKxEnvironmentCustomDnsConfiguration" />)[]</param>
         [JsiiMethod(name: "putCustomDnsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxEnvironment.FinspaceKxEnvironmentCustomDnsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomDnsConfiguration(object @value)
         {
@@ -202,6 +203,9 @@ namespace aws.FinspaceKxEnvironment
             get => GetInstanceProperty<aws.FinspaceKxEnvironment.FinspaceKxEnvironmentTransitGatewayConfigurationOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxEnvironment.IFinspaceKxEnvironmentCustomDnsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customDnsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxEnvironment.FinspaceKxEnvironmentCustomDnsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomDnsConfigurationInput
@@ -251,6 +255,9 @@ namespace aws.FinspaceKxEnvironment
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxEnvironment.IFinspaceKxEnvironmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxEnvironment.FinspaceKxEnvironmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -73,6 +73,9 @@ namespace aws.OpensearchPackageAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchPackageAssociation.IOpensearchPackageAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

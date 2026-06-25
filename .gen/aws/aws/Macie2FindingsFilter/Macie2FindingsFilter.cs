@@ -219,6 +219,9 @@ namespace aws.Macie2FindingsFilter
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.macie2FindingsFilter.Macie2FindingsFilterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

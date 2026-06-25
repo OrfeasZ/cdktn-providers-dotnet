@@ -188,6 +188,9 @@ namespace aws.Codepipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Codepipeline.ICodepipelineStageOnFailureConditionRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codepipeline.CodepipelineStageOnFailureConditionRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

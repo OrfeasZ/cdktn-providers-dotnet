@@ -53,6 +53,12 @@ namespace oci.DataOciDatabaseVmClusterNetworks
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "scanListenerPortTcpSsl", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ScanListenerPortTcpSsl
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciDatabaseVmClusterNetworks.DataOciDatabaseVmClusterNetworksVmClusterNetworksDrScans\"}", isOptional: true)]
         public virtual oci.DataOciDatabaseVmClusterNetworks.IDataOciDatabaseVmClusterNetworksVmClusterNetworksDrScans? InternalValue

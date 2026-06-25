@@ -75,6 +75,9 @@ namespace cloudflare.WaitingRoom
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WaitingRoom.IWaitingRoomAdditionalRoutes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.waitingRoom.WaitingRoomAdditionalRoutes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.ManagementAgentManagementAgent
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ManagementAgentManagementAgent.IManagementAgentManagementAgentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.managementAgentManagementAgent.ManagementAgentManagementAgentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

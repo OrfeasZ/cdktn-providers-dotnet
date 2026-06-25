@@ -46,6 +46,7 @@ namespace aws.BedrockagentAgentCollaborator
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentAgentCollaborator.BedrockagentAgentCollaborator), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentCollaborator.IBedrockagentAgentCollaboratorAgentDescriptor" />)[]</param>
         [JsiiMethod(name: "putAgentDescriptor", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentCollaborator.BedrockagentAgentCollaboratorAgentDescriptor\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAgentDescriptor(object @value)
         {
@@ -154,6 +155,9 @@ namespace aws.BedrockagentAgentCollaborator
             get => GetInstanceProperty<aws.BedrockagentAgentCollaborator.BedrockagentAgentCollaboratorTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentCollaborator.IBedrockagentAgentCollaboratorAgentDescriptor" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agentDescriptorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentCollaborator.BedrockagentAgentCollaboratorAgentDescriptor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AgentDescriptorInput
@@ -189,6 +193,9 @@ namespace aws.BedrockagentAgentCollaborator
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prepareAgentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PrepareAgentInput
@@ -210,6 +217,9 @@ namespace aws.BedrockagentAgentCollaborator
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentAgentCollaborator.IBedrockagentAgentCollaboratorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentAgentCollaborator.BedrockagentAgentCollaboratorTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -245,6 +255,9 @@ namespace aws.BedrockagentAgentCollaborator
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "prepareAgent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object PrepareAgent
         {

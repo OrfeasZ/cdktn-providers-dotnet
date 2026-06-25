@@ -93,6 +93,9 @@ namespace oci.CoreLocalPeeringGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreLocalPeeringGateway.ICoreLocalPeeringGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreLocalPeeringGateway.CoreLocalPeeringGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

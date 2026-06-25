@@ -46,6 +46,7 @@ namespace digitalocean.VpcNatGateway
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.VpcNatGateway.VpcNatGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.VpcNatGateway.IVpcNatGatewayVpcs" />)[]</param>
         [JsiiMethod(name: "putVpcs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayVpcs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVpcs(object @value)
         {
@@ -204,6 +205,9 @@ namespace digitalocean.VpcNatGateway
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.VpcNatGateway.IVpcNatGatewayVpcs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayVpcs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VpcsInput

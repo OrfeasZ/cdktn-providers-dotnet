@@ -40,6 +40,9 @@ namespace cloudflare.ZeroTrustRiskBehavior
             return InvokeInstanceMethod<cloudflare.ZeroTrustRiskBehavior.ZeroTrustRiskBehaviorBehaviorsOutputReference>(new System.Type[]{typeof(string)}, new object[]{key})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.ZeroTrustRiskBehavior.IZeroTrustRiskBehaviorBehaviors" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustRiskBehavior.ZeroTrustRiskBehaviorBehaviors\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

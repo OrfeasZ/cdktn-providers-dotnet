@@ -41,6 +41,9 @@ namespace digitalocean.App
             return InvokeInstanceMethod<digitalocean.App.AppSpecFunctionAlertOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecFunctionAlert" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunctionAlert\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

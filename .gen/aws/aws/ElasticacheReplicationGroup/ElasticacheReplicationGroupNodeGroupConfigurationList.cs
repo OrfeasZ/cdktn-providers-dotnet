@@ -41,6 +41,9 @@ namespace aws.ElasticacheReplicationGroup
             return InvokeInstanceMethod<aws.ElasticacheReplicationGroup.ElasticacheReplicationGroupNodeGroupConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheReplicationGroup.IElasticacheReplicationGroupNodeGroupConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheReplicationGroup.ElasticacheReplicationGroupNodeGroupConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

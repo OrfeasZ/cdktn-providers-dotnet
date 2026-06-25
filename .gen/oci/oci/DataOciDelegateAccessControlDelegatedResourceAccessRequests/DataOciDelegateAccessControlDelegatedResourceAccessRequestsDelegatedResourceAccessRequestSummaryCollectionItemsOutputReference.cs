@@ -59,6 +59,12 @@ namespace oci.DataOciDelegateAccessControlDelegatedResourceAccessRequests
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "databaseIdList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DatabaseIdList
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "databaseNameList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] DatabaseNameList
         {

@@ -163,6 +163,9 @@ namespace aws.AutoscalingGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AutoscalingGroup.IAutoscalingGroupInitialLifecycleHook" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInitialLifecycleHook\"}]}}", isOptional: true)]
         public virtual object? InternalValue

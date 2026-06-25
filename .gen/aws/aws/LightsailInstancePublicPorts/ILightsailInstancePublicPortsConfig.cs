@@ -17,6 +17,7 @@ namespace aws.LightsailInstancePublicPorts
         /// <summary>port_info block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lightsail_instance_public_ports#port_info LightsailInstancePublicPorts#port_info}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailInstancePublicPorts.ILightsailInstancePublicPortsPortInfo" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "portInfo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfo\"},\"kind\":\"array\"}}]}}")]
         object PortInfo
@@ -70,6 +71,7 @@ namespace aws.LightsailInstancePublicPorts
             /// <summary>port_info block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lightsail_instance_public_ports#port_info LightsailInstancePublicPorts#port_info}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailInstancePublicPorts.ILightsailInstancePublicPortsPortInfo" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "portInfo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfo\"},\"kind\":\"array\"}}]}}")]
             public object PortInfo
@@ -102,6 +104,7 @@ namespace aws.LightsailInstancePublicPorts
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -112,6 +115,7 @@ namespace aws.LightsailInstancePublicPorts
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -162,6 +166,7 @@ namespace aws.LightsailInstancePublicPorts
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

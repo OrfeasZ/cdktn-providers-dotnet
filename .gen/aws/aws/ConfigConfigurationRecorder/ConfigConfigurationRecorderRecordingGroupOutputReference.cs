@@ -33,6 +33,7 @@ namespace aws.ConfigConfigurationRecorder
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigurationRecorder.IConfigConfigurationRecorderRecordingGroupExclusionByResourceTypes" />)[]</param>
         [JsiiMethod(name: "putExclusionByResourceTypes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupExclusionByResourceTypes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExclusionByResourceTypes(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.ConfigConfigurationRecorder
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigurationRecorder.IConfigConfigurationRecorderRecordingGroupRecordingStrategy" />)[]</param>
         [JsiiMethod(name: "putRecordingStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecordingStrategy(object @value)
         {
@@ -121,6 +123,9 @@ namespace aws.ConfigConfigurationRecorder
             get => GetInstanceProperty<aws.ConfigConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategyList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allSupportedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllSupportedInput
@@ -128,6 +133,9 @@ namespace aws.ConfigConfigurationRecorder
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigurationRecorder.IConfigConfigurationRecorderRecordingGroupExclusionByResourceTypes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exclusionByResourceTypesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupExclusionByResourceTypes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExclusionByResourceTypesInput
@@ -135,6 +143,9 @@ namespace aws.ConfigConfigurationRecorder
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeGlobalResourceTypesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IncludeGlobalResourceTypesInput
@@ -142,6 +153,9 @@ namespace aws.ConfigConfigurationRecorder
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigurationRecorder.IConfigConfigurationRecorderRecordingGroupRecordingStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recordingStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecordingStrategyInput
@@ -156,6 +170,9 @@ namespace aws.ConfigConfigurationRecorder
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allSupported", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllSupported
         {
@@ -183,6 +200,9 @@ namespace aws.ConfigConfigurationRecorder
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "includeGlobalResourceTypes", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IncludeGlobalResourceTypes
         {

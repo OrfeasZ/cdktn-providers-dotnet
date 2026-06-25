@@ -28,6 +28,7 @@ namespace aws.DatapipelinePipelineDefinition
         /// <summary>field block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datapipeline_pipeline_definition#field DatapipelinePipelineDefinition#field}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObjectField" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "field", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,6 +68,7 @@ namespace aws.DatapipelinePipelineDefinition
             /// <summary>field block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datapipeline_pipeline_definition#field DatapipelinePipelineDefinition#field}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObjectField" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "field", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectField\"},\"kind\":\"array\"}}]}}", isOptional: true)]

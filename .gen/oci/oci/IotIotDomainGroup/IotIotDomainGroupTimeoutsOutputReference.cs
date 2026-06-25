@@ -93,6 +93,9 @@ namespace oci.IotIotDomainGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IotIotDomainGroup.IIotIotDomainGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.iotIotDomainGroup.IotIotDomainGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

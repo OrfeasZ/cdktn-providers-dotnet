@@ -135,6 +135,9 @@ namespace aws.Ec2ClientVpnNetworkAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2ClientVpnNetworkAssociation.IEc2ClientVpnNetworkAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

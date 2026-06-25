@@ -33,6 +33,7 @@ namespace cloudflare.Ruleset
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersEdgeTtlStatusCodeTtl" />)[]</param>
         [JsiiMethod(name: "putStatusCodeTtl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtlStatusCodeTtl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStatusCodeTtl(object @value)
         {
@@ -88,6 +89,9 @@ namespace cloudflare.Ruleset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersEdgeTtlStatusCodeTtl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusCodeTtlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtlStatusCodeTtl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StatusCodeTtlInput
@@ -109,6 +113,9 @@ namespace cloudflare.Ruleset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersEdgeTtl" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtl\"}]}}", isOptional: true)]
         public virtual object? InternalValue

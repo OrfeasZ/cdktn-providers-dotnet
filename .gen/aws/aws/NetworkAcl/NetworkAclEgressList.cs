@@ -41,6 +41,9 @@ namespace aws.NetworkAcl
             return InvokeInstanceMethod<aws.NetworkAcl.NetworkAclEgressOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkAcl.INetworkAclEgress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkAcl.NetworkAclEgress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,7 @@ namespace cloudflare.AiGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiGateway.IAiGatewaySpendLimitsRulesAiGatewayProvider)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.AiGateway.IAiGatewaySpendLimitsRulesMetadata" />&gt;</param>
         [JsiiMethod(name: "putMetadata", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesMetadata\"},\"kind\":\"map\"}}]}}}]")]
         public virtual void PutMetadata(object @value)
         {
@@ -124,6 +125,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<cloudflare.AiGateway.AiGatewaySpendLimitsRulesModelOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewaySpendLimitsRulesAiGatewayProvider" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aiGatewayProviderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesAiGatewayProvider\"}]}}", isOptional: true)]
         public virtual object? AiGatewayProviderInput
@@ -131,6 +135,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -159,6 +166,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.AiGateway.IAiGatewaySpendLimitsRulesMetadata" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesMetadata\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? MetadataInput
@@ -166,6 +176,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewaySpendLimitsRulesModel" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRulesModel\"}]}}", isOptional: true)]
         public virtual object? ModelInput
@@ -187,6 +200,9 @@ namespace cloudflare.AiGateway
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -249,6 +265,9 @@ namespace cloudflare.AiGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiGateway.IAiGatewaySpendLimitsRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimitsRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

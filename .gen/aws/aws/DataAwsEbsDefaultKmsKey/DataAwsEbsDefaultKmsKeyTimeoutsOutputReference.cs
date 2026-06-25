@@ -53,6 +53,9 @@ namespace aws.DataAwsEbsDefaultKmsKey
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEbsDefaultKmsKey.IDataAwsEbsDefaultKmsKeyTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEbsDefaultKmsKey.DataAwsEbsDefaultKmsKeyTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

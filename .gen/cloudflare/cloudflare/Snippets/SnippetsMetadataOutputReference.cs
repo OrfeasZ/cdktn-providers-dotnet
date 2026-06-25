@@ -47,6 +47,9 @@ namespace cloudflare.Snippets
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Snippets.ISnippetsMetadata" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.snippets.SnippetsMetadata\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -63,6 +63,9 @@ namespace aws.Inspector2Filter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaTitle" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaTitle\"}]}}", isOptional: true)]
         public virtual object? InternalValue

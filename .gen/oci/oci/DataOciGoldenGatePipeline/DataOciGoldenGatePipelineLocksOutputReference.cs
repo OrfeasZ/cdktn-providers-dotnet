@@ -41,6 +41,18 @@ namespace oci.DataOciGoldenGatePipeline
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "relatedResourceId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RelatedResourceId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {

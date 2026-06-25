@@ -33,6 +33,7 @@ namespace aws.ConnectQuickConnect
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigPhoneConfig" />)[]</param>
         [JsiiMethod(name: "putPhoneConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigPhoneConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPhoneConfig(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.ConnectQuickConnect
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigQueueConfig" />)[]</param>
         [JsiiMethod(name: "putQueueConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigQueueConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutQueueConfig(object @value)
         {
@@ -79,6 +81,7 @@ namespace aws.ConnectQuickConnect
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigUserConfig" />)[]</param>
         [JsiiMethod(name: "putUserConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigUserConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUserConfig(object @value)
         {
@@ -138,6 +141,9 @@ namespace aws.ConnectQuickConnect
             get => GetInstanceProperty<aws.ConnectQuickConnect.ConnectQuickConnectQuickConnectConfigUserConfigList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigPhoneConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "phoneConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigPhoneConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PhoneConfigInput
@@ -145,6 +151,9 @@ namespace aws.ConnectQuickConnect
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigQueueConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queueConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigQueueConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? QueueConfigInput
@@ -159,6 +168,9 @@ namespace aws.ConnectQuickConnect
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigUserConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigUserConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserConfigInput

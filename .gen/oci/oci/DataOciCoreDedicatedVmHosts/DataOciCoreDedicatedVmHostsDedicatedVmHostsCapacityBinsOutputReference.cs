@@ -41,6 +41,12 @@ namespace oci.DataOciCoreDedicatedVmHosts
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "remainingLocalVolumeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RemainingLocalVolumeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "remainingMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RemainingMemoryInGbs
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciCoreDedicatedVmHosts
         public virtual string[] SupportedShapes
         {
             get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "totalLocalVolumeInGbs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double TotalLocalVolumeInGbs
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "totalMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]

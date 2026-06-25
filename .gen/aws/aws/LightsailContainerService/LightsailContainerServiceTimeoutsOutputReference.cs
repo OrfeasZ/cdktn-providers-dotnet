@@ -93,6 +93,9 @@ namespace aws.LightsailContainerService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LightsailContainerService.ILightsailContainerServiceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServiceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

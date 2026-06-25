@@ -198,6 +198,9 @@ namespace scaleway.Datalab
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hasNotebookInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? HasNotebookInput
@@ -205,6 +208,9 @@ namespace scaleway.Datalab
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.Datalab.IDatalabMain" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mainInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.datalab.DatalabMain\"}]}}", isOptional: true)]
         public virtual object? MainInput
@@ -254,6 +260,9 @@ namespace scaleway.Datalab
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.Datalab.IDatalabTotalStorage" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "totalStorageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.datalab.DatalabTotalStorage\"}]}}", isOptional: true)]
         public virtual object? TotalStorageInput
@@ -261,6 +270,9 @@ namespace scaleway.Datalab
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.Datalab.IDatalabWorker" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.datalab.DatalabWorker\"}]}}", isOptional: true)]
         public virtual object? WorkerInput
@@ -275,6 +287,9 @@ namespace scaleway.Datalab
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "hasNotebook", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object HasNotebook
         {

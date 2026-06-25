@@ -41,6 +41,9 @@ namespace aws.SecurityhubInsight
             return InvokeInstanceMethod<aws.SecurityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsS3BucketOwnerId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

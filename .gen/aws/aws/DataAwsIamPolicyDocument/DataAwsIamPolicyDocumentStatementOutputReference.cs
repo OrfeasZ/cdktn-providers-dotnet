@@ -35,6 +35,7 @@ namespace aws.DataAwsIamPolicyDocument
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementCondition" />)[]</param>
         [JsiiMethod(name: "putCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementCondition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCondition(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.DataAwsIamPolicyDocument
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementNotPrincipals" />)[]</param>
         [JsiiMethod(name: "putNotPrincipals", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementNotPrincipals\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNotPrincipals(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.DataAwsIamPolicyDocument
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementPrincipals" />)[]</param>
         [JsiiMethod(name: "putPrincipals", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementPrincipals\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrincipals(object @value)
         {
@@ -183,6 +186,9 @@ namespace aws.DataAwsIamPolicyDocument
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementCondition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConditionInput
@@ -204,6 +210,9 @@ namespace aws.DataAwsIamPolicyDocument
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementNotPrincipals" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notPrincipalsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementNotPrincipals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NotPrincipalsInput
@@ -218,6 +227,9 @@ namespace aws.DataAwsIamPolicyDocument
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementPrincipals" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "principalsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementPrincipals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrincipalsInput
@@ -281,6 +293,9 @@ namespace aws.DataAwsIamPolicyDocument
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatement" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatement\"}]}}", isOptional: true)]
         public virtual object? InternalValue

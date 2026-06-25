@@ -41,6 +41,12 @@ namespace oci.DataOciGenerativeAiAgentAgent
             get => GetInstanceProperty<oci.DataOciGenerativeAiAgentAgent.DataOciGenerativeAiAgentAgentLlmConfigRoutingLlmCustomizationList>()!;
         }
 
+        [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentAgent.DataOciGenerativeAiAgentAgentLlmConfig\"}", isOptional: true)]
         public virtual oci.DataOciGenerativeAiAgentAgent.IDataOciGenerativeAiAgentAgentLlmConfig? InternalValue

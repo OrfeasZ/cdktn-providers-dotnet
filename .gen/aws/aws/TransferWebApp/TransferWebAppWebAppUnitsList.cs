@@ -41,6 +41,9 @@ namespace aws.TransferWebApp
             return InvokeInstanceMethod<aws.TransferWebApp.TransferWebAppWebAppUnitsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppWebAppUnits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppWebAppUnits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

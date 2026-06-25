@@ -47,6 +47,12 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules
             get => GetInstanceProperty<oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules.DataOciNetworkFirewallNetworkFirewallPolicySecurityRulesSecurityRuleSummaryCollectionItemsConditionList>()!;
         }
 
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "inspection", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Inspection
         {

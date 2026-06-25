@@ -41,6 +41,24 @@ namespace oci.DataOciMulticloudResourceAnchor
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "cspAdditionalProperties", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap CspAdditionalProperties
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "cspResourceAnchorId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CspResourceAnchorId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cspResourceAnchorName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CspResourceAnchorName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "projectNumber", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProjectNumber
         {

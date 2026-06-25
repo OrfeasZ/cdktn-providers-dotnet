@@ -41,6 +41,9 @@ namespace aws.Lexv2ModelsSlotType
             return InvokeInstanceMethod<aws.Lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValuesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlotType.ILexv2ModelsSlotTypeSlotTypeValues" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexv2ModelsSlotType.Lexv2ModelsSlotTypeSlotTypeValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

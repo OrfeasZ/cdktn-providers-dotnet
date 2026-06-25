@@ -46,6 +46,7 @@ namespace aws.RedshiftIdcApplication
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.RedshiftIdcApplication.RedshiftIdcApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationAuthorizedTokenIssuer" />)[]</param>
         [JsiiMethod(name: "putAuthorizedTokenIssuer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationAuthorizedTokenIssuer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthorizedTokenIssuer(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.RedshiftIdcApplication
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegration" />)[]</param>
         [JsiiMethod(name: "putServiceIntegration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutServiceIntegration(object @value)
         {
@@ -184,6 +186,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationAuthorizedTokenIssuer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authorizedTokenIssuerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationAuthorizedTokenIssuer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthorizedTokenIssuerInput
@@ -233,6 +238,9 @@ namespace aws.RedshiftIdcApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceIntegrationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ServiceIntegrationInput

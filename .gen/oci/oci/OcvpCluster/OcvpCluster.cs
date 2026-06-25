@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.OcvpCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_cluster oci_ocvp_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_cluster oci_ocvp_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.OcvpCluster.OcvpCluster), fullyQualifiedName: "oci.ocvpCluster.OcvpCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.ocvpCluster.OcvpClusterConfig\"}}]")]
     public class OcvpCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_cluster oci_ocvp_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_cluster oci_ocvp_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public OcvpCluster(Constructs.Construct scope, string id, oci.OcvpCluster.IOcvpClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,19 @@ namespace oci.OcvpCluster
         /// <param name="importToId">The construct id used in the generated config for the OcvpCluster to import.</param>
         /// <param name="importFromId">The id of the existing OcvpCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the OcvpCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OcvpCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OcvpCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OcvpCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OcvpCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OcvpCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OcvpCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.OcvpCluster.OcvpCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        [JsiiMethod(name: "putClusterByolAllocationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.ocvpCluster.OcvpClusterClusterByolAllocationDetails\"}}]")]
+        public virtual void PutClusterByolAllocationDetails(oci.OcvpCluster.IOcvpClusterClusterByolAllocationDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OcvpCluster.IOcvpClusterClusterByolAllocationDetails)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpCluster.IOcvpClusterDatastores" />)[]</param>
         [JsiiMethod(name: "putDatastores", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpCluster.OcvpClusterDatastores\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDatastores(object @value)
         {
@@ -89,6 +96,18 @@ namespace oci.OcvpCluster
 
         [JsiiMethod(name: "resetCapacityReservationId")]
         public virtual void ResetCapacityReservationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetClusterByolAllocationDetails")]
+        public virtual void ResetClusterByolAllocationDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDatastoreClusterIds")]
+        public virtual void ResetDatastoreClusterIds()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -153,6 +172,12 @@ namespace oci.OcvpCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetInitialVcfByolAllocationId")]
+        public virtual void ResetInitialVcfByolAllocationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInstanceDisplayNamePrefix")]
         public virtual void ResetInstanceDisplayNamePrefix()
         {
@@ -208,16 +233,16 @@ namespace oci.OcvpCluster
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "clusterByolAllocationDetails", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterClusterByolAllocationDetailsOutputReference\"}")]
+        public virtual oci.OcvpCluster.OcvpClusterClusterByolAllocationDetailsOutputReference ClusterByolAllocationDetails
+        {
+            get => GetInstanceProperty<oci.OcvpCluster.OcvpClusterClusterByolAllocationDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "datastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] DatastoreClusterIds
-        {
-            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "datastores", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterDatastoresList\"}")]
@@ -236,6 +261,12 @@ namespace oci.OcvpCluster
         public virtual string State
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
@@ -289,12 +320,29 @@ namespace oci.OcvpCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "clusterByolAllocationDetailsInput", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterClusterByolAllocationDetails\"}", isOptional: true)]
+        public virtual oci.OcvpCluster.IOcvpClusterClusterByolAllocationDetails? ClusterByolAllocationDetailsInput
+        {
+            get => GetInstanceProperty<oci.OcvpCluster.IOcvpClusterClusterByolAllocationDetails?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "computeAvailabilityDomainInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ComputeAvailabilityDomainInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "datastoreClusterIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? DatastoreClusterIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpCluster.IOcvpClusterDatastores" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "datastoresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpCluster.OcvpClusterDatastores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DatastoresInput
@@ -373,12 +421,22 @@ namespace oci.OcvpCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "initialVcfByolAllocationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InitialVcfByolAllocationIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "instanceDisplayNamePrefixInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? InstanceDisplayNamePrefixInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isShieldedInstanceEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsShieldedInstanceEnabledInput
@@ -400,6 +458,9 @@ namespace oci.OcvpCluster
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpCluster.IOcvpClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpCluster.OcvpClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -439,6 +500,13 @@ namespace oci.OcvpCluster
         public virtual string ComputeAvailabilityDomain
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "datastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DatastoreClusterIds
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -512,6 +580,13 @@ namespace oci.OcvpCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "initialVcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialVcfByolAllocationId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "instanceDisplayNamePrefix", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InstanceDisplayNamePrefix
         {
@@ -519,6 +594,9 @@ namespace oci.OcvpCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isShieldedInstanceEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsShieldedInstanceEnabled
         {

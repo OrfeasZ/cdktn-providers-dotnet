@@ -75,6 +75,9 @@ namespace oci.FleetAppsManagementFleet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsEntitySpecificsVariables" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsEntitySpecificsVariables\"}]}}", isOptional: true)]
         public virtual object? InternalValue

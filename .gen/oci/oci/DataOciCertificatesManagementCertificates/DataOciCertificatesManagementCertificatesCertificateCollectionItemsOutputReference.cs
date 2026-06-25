@@ -77,6 +77,12 @@ namespace oci.DataOciCertificatesManagementCertificates
             get => GetInstanceProperty<oci.DataOciCertificatesManagementCertificates.DataOciCertificatesManagementCertificatesCertificateCollectionItemsCurrentVersionList>()!;
         }
 
+        [JsiiProperty(name: "currentVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CurrentVersionNumber
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

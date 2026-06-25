@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2CoipPools
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2CoipPools.IDataAwsEc2CoipPoolsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2CoipPools.DataAwsEc2CoipPoolsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

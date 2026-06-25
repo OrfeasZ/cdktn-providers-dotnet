@@ -35,6 +35,7 @@ namespace oci.AiDocumentProcessorJob
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFieldsMap" />)[]</param>
         [JsiiMethod(name: "putMap", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFieldsMap\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMap(object @value)
         {
@@ -70,6 +71,9 @@ namespace oci.AiDocumentProcessorJob
             get => GetInstanceProperty<oci.AiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFieldsMapList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFieldsMap" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFieldsMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MapInput
@@ -77,6 +81,9 @@ namespace oci.AiDocumentProcessorJob
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFields" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigNormalizationFields\"}]}}", isOptional: true)]
         public virtual object? InternalValue

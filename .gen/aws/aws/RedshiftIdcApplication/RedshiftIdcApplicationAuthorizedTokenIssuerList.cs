@@ -41,6 +41,9 @@ namespace aws.RedshiftIdcApplication
             return InvokeInstanceMethod<aws.RedshiftIdcApplication.RedshiftIdcApplicationAuthorizedTokenIssuerOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationAuthorizedTokenIssuer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationAuthorizedTokenIssuer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

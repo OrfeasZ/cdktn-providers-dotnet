@@ -41,6 +41,9 @@ namespace oci.DataOciOptimizerProfileLevels
             return InvokeInstanceMethod<oci.DataOciOptimizerProfileLevels.DataOciOptimizerProfileLevelsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOptimizerProfileLevels.IDataOciOptimizerProfileLevelsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOptimizerProfileLevels.DataOciOptimizerProfileLevelsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

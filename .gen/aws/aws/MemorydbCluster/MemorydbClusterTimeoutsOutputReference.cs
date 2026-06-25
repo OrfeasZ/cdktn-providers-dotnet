@@ -93,6 +93,9 @@ namespace aws.MemorydbCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MemorydbCluster.IMemorydbClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.memorydbCluster.MemorydbClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

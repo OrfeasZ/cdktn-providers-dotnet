@@ -103,6 +103,9 @@ namespace aws.AppconfigExtension
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppconfigExtension.IAppconfigExtensionActionPointAction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appconfigExtension.AppconfigExtensionActionPointAction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

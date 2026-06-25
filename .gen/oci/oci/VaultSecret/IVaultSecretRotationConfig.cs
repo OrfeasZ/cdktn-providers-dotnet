@@ -9,7 +9,7 @@ namespace oci.VaultSecret
     {
         /// <summary>target_system_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#target_system_details VaultSecret#target_system_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#target_system_details VaultSecret#target_system_details}
         /// </remarks>
         [JsiiProperty(name: "targetSystemDetails", typeJson: "{\"fqn\":\"oci.vaultSecret.VaultSecretRotationConfigTargetSystemDetails\"}")]
         oci.VaultSecret.IVaultSecretRotationConfigTargetSystemDetails TargetSystemDetails
@@ -17,7 +17,10 @@ namespace oci.VaultSecret
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#is_scheduled_rotation_enabled VaultSecret#is_scheduled_rotation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#is_scheduled_rotation_enabled VaultSecret#is_scheduled_rotation_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isScheduledRotationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? IsScheduledRotationEnabled
@@ -28,7 +31,7 @@ namespace oci.VaultSecret
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#rotation_interval VaultSecret#rotation_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#rotation_interval VaultSecret#rotation_interval}.</summary>
         [JsiiProperty(name: "rotationInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RotationInterval
@@ -48,7 +51,7 @@ namespace oci.VaultSecret
 
             /// <summary>target_system_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#target_system_details VaultSecret#target_system_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#target_system_details VaultSecret#target_system_details}
             /// </remarks>
             [JsiiProperty(name: "targetSystemDetails", typeJson: "{\"fqn\":\"oci.vaultSecret.VaultSecretRotationConfigTargetSystemDetails\"}")]
             public oci.VaultSecret.IVaultSecretRotationConfigTargetSystemDetails TargetSystemDetails
@@ -56,7 +59,10 @@ namespace oci.VaultSecret
                 get => GetInstanceProperty<oci.VaultSecret.IVaultSecretRotationConfigTargetSystemDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#is_scheduled_rotation_enabled VaultSecret#is_scheduled_rotation_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#is_scheduled_rotation_enabled VaultSecret#is_scheduled_rotation_enabled}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isScheduledRotationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
             public object? IsScheduledRotationEnabled
@@ -64,7 +70,7 @@ namespace oci.VaultSecret
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/vault_secret#rotation_interval VaultSecret#rotation_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/vault_secret#rotation_interval VaultSecret#rotation_interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rotationInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RotationInterval

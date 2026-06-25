@@ -35,6 +35,7 @@ namespace aws.EksCapability
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdAwsIdc" />)[]</param>
         [JsiiMethod(name: "putAwsIdc", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsIdc(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.EksCapability
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdNetworkAccess" />)[]</param>
         [JsiiMethod(name: "putNetworkAccess", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkAccess(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.EksCapability
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMapping" />)[]</param>
         [JsiiMethod(name: "putRbacRoleMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRbacRoleMapping(object @value)
         {
@@ -152,6 +155,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdAwsIdc" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsIdcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsIdcInput
@@ -166,6 +172,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdNetworkAccess" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkAccessInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkAccessInput
@@ -173,6 +182,9 @@ namespace aws.EksCapability
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rbacRoleMappingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RbacRoleMappingInput
@@ -187,6 +199,9 @@ namespace aws.EksCapability
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCd" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCd\"}]}}", isOptional: true)]
         public virtual object? InternalValue

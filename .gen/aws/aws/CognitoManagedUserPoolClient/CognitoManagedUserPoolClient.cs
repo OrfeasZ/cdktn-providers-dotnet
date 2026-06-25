@@ -46,6 +46,7 @@ namespace aws.CognitoManagedUserPoolClient
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CognitoManagedUserPoolClient.CognitoManagedUserPoolClient), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientAnalyticsConfiguration" />)[]</param>
         [JsiiMethod(name: "putAnalyticsConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAnalyticsConfiguration(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.CognitoManagedUserPoolClient
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientRefreshTokenRotation" />)[]</param>
         [JsiiMethod(name: "putRefreshTokenRotation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRefreshTokenRotation(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.CognitoManagedUserPoolClient
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientTokenValidityUnits" />)[]</param>
         [JsiiMethod(name: "putTokenValidityUnits", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnits\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTokenValidityUnits(object @value)
         {
@@ -322,6 +325,9 @@ namespace aws.CognitoManagedUserPoolClient
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedOauthFlowsUserPoolClientInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowedOauthFlowsUserPoolClientInput
@@ -336,6 +342,9 @@ namespace aws.CognitoManagedUserPoolClient
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientAnalyticsConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "analyticsConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AnalyticsConfigurationInput
@@ -364,6 +373,9 @@ namespace aws.CognitoManagedUserPoolClient
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enablePropagateAdditionalUserContextDataInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnablePropagateAdditionalUserContextDataInput
@@ -371,6 +383,9 @@ namespace aws.CognitoManagedUserPoolClient
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableTokenRevocationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableTokenRevocationInput
@@ -427,6 +442,9 @@ namespace aws.CognitoManagedUserPoolClient
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientRefreshTokenRotation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshTokenRotationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RefreshTokenRotationInput
@@ -455,6 +473,9 @@ namespace aws.CognitoManagedUserPoolClient
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientTokenValidityUnits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenValidityUnitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TokenValidityUnitsInput
@@ -490,6 +511,9 @@ namespace aws.CognitoManagedUserPoolClient
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "allowedOauthFlowsUserPoolClient", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AllowedOauthFlowsUserPoolClient
         {
@@ -545,6 +569,9 @@ namespace aws.CognitoManagedUserPoolClient
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enablePropagateAdditionalUserContextData", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnablePropagateAdditionalUserContextData
         {
@@ -572,6 +599,9 @@ namespace aws.CognitoManagedUserPoolClient
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableTokenRevocation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableTokenRevocation
         {

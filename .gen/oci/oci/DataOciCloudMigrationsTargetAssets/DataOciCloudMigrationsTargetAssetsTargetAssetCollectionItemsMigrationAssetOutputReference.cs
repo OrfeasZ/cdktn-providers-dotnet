@@ -59,6 +59,12 @@ namespace oci.DataOciCloudMigrationsTargetAssets
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "destinationDisks", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap DestinationDisks
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DisplayName
         {
@@ -99,6 +105,12 @@ namespace oci.DataOciCloudMigrationsTargetAssets
         public virtual string ReplicationCompartmentId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "replicationLocationDetail", typeJson: "{\"fqn\":\"oci.dataOciCloudMigrationsTargetAssets.DataOciCloudMigrationsTargetAssetsTargetAssetCollectionItemsMigrationAssetReplicationLocationDetailList\"}")]
+        public virtual oci.DataOciCloudMigrationsTargetAssets.DataOciCloudMigrationsTargetAssetsTargetAssetCollectionItemsMigrationAssetReplicationLocationDetailList ReplicationLocationDetail
+        {
+            get => GetInstanceProperty<oci.DataOciCloudMigrationsTargetAssets.DataOciCloudMigrationsTargetAssetsTargetAssetCollectionItemsMigrationAssetReplicationLocationDetailList>()!;
         }
 
         [JsiiProperty(name: "replicationScheduleId", typeJson: "{\"primitive\":\"string\"}")]

@@ -9,7 +9,8 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
     {
         /// <summary>privileged_operation_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#privileged_operation_list ApiaccesscontrolPrivilegedApiRequest#privileged_operation_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#privileged_operation_list ApiaccesscontrolPrivilegedApiRequest#privileged_operation_list}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiRequest.IApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStruct" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "privilegedOperationList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiRequest.ApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStruct\"},\"kind\":\"array\"}}]}}")]
         object PrivilegedOperationList
@@ -17,21 +18,21 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_summary ApiaccesscontrolPrivilegedApiRequest#reason_summary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_summary ApiaccesscontrolPrivilegedApiRequest#reason_summary}.</summary>
         [JsiiProperty(name: "reasonSummary", typeJson: "{\"primitive\":\"string\"}")]
         string ReasonSummary
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#resource_id ApiaccesscontrolPrivilegedApiRequest#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#resource_id ApiaccesscontrolPrivilegedApiRequest#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#compartment_id ApiaccesscontrolPrivilegedApiRequest#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#compartment_id ApiaccesscontrolPrivilegedApiRequest#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -42,7 +43,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#defined_tags ApiaccesscontrolPrivilegedApiRequest#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#defined_tags ApiaccesscontrolPrivilegedApiRequest#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -53,7 +54,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#duration_in_hrs ApiaccesscontrolPrivilegedApiRequest#duration_in_hrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#duration_in_hrs ApiaccesscontrolPrivilegedApiRequest#duration_in_hrs}.</summary>
         [JsiiProperty(name: "durationInHrs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DurationInHrs
@@ -64,7 +65,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#freeform_tags ApiaccesscontrolPrivilegedApiRequest#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#freeform_tags ApiaccesscontrolPrivilegedApiRequest#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -75,7 +76,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#id ApiaccesscontrolPrivilegedApiRequest#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#id ApiaccesscontrolPrivilegedApiRequest#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +91,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#notification_topic_id ApiaccesscontrolPrivilegedApiRequest#notification_topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#notification_topic_id ApiaccesscontrolPrivilegedApiRequest#notification_topic_id}.</summary>
         [JsiiProperty(name: "notificationTopicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NotificationTopicId
@@ -101,7 +102,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_detail ApiaccesscontrolPrivilegedApiRequest#reason_detail}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_detail ApiaccesscontrolPrivilegedApiRequest#reason_detail}.</summary>
         [JsiiProperty(name: "reasonDetail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReasonDetail
@@ -112,7 +113,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#severity ApiaccesscontrolPrivilegedApiRequest#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#severity ApiaccesscontrolPrivilegedApiRequest#severity}.</summary>
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Severity
@@ -123,7 +124,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#sub_resource_name_list ApiaccesscontrolPrivilegedApiRequest#sub_resource_name_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#sub_resource_name_list ApiaccesscontrolPrivilegedApiRequest#sub_resource_name_list}.</summary>
         [JsiiProperty(name: "subResourceNameList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SubResourceNameList
@@ -134,7 +135,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#ticket_numbers ApiaccesscontrolPrivilegedApiRequest#ticket_numbers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#ticket_numbers ApiaccesscontrolPrivilegedApiRequest#ticket_numbers}.</summary>
         [JsiiProperty(name: "ticketNumbers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TicketNumbers
@@ -147,7 +148,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#timeouts ApiaccesscontrolPrivilegedApiRequest#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#timeouts ApiaccesscontrolPrivilegedApiRequest#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiRequest.ApiaccesscontrolPrivilegedApiRequestTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +160,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#time_requested_for_future_access ApiaccesscontrolPrivilegedApiRequest#time_requested_for_future_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#time_requested_for_future_access ApiaccesscontrolPrivilegedApiRequest#time_requested_for_future_access}.</summary>
         [JsiiProperty(name: "timeRequestedForFutureAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeRequestedForFutureAccess
@@ -179,7 +180,8 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
 
             /// <summary>privileged_operation_list block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#privileged_operation_list ApiaccesscontrolPrivilegedApiRequest#privileged_operation_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#privileged_operation_list ApiaccesscontrolPrivilegedApiRequest#privileged_operation_list}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiRequest.IApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStruct" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "privilegedOperationList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiRequest.ApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListStruct\"},\"kind\":\"array\"}}]}}")]
             public object PrivilegedOperationList
@@ -187,21 +189,21 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_summary ApiaccesscontrolPrivilegedApiRequest#reason_summary}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_summary ApiaccesscontrolPrivilegedApiRequest#reason_summary}.</summary>
             [JsiiProperty(name: "reasonSummary", typeJson: "{\"primitive\":\"string\"}")]
             public string ReasonSummary
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#resource_id ApiaccesscontrolPrivilegedApiRequest#resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#resource_id ApiaccesscontrolPrivilegedApiRequest#resource_id}.</summary>
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#compartment_id ApiaccesscontrolPrivilegedApiRequest#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#compartment_id ApiaccesscontrolPrivilegedApiRequest#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -209,7 +211,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#defined_tags ApiaccesscontrolPrivilegedApiRequest#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#defined_tags ApiaccesscontrolPrivilegedApiRequest#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -217,7 +219,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#duration_in_hrs ApiaccesscontrolPrivilegedApiRequest#duration_in_hrs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#duration_in_hrs ApiaccesscontrolPrivilegedApiRequest#duration_in_hrs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "durationInHrs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DurationInHrs
@@ -225,7 +227,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#freeform_tags ApiaccesscontrolPrivilegedApiRequest#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#freeform_tags ApiaccesscontrolPrivilegedApiRequest#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -233,7 +235,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#id ApiaccesscontrolPrivilegedApiRequest#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#id ApiaccesscontrolPrivilegedApiRequest#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -245,7 +247,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#notification_topic_id ApiaccesscontrolPrivilegedApiRequest#notification_topic_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#notification_topic_id ApiaccesscontrolPrivilegedApiRequest#notification_topic_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notificationTopicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NotificationTopicId
@@ -253,7 +255,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_detail ApiaccesscontrolPrivilegedApiRequest#reason_detail}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#reason_detail ApiaccesscontrolPrivilegedApiRequest#reason_detail}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reasonDetail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReasonDetail
@@ -261,7 +263,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#severity ApiaccesscontrolPrivilegedApiRequest#severity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#severity ApiaccesscontrolPrivilegedApiRequest#severity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Severity
@@ -269,7 +271,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#sub_resource_name_list ApiaccesscontrolPrivilegedApiRequest#sub_resource_name_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#sub_resource_name_list ApiaccesscontrolPrivilegedApiRequest#sub_resource_name_list}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subResourceNameList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SubResourceNameList
@@ -277,7 +279,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#ticket_numbers ApiaccesscontrolPrivilegedApiRequest#ticket_numbers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#ticket_numbers ApiaccesscontrolPrivilegedApiRequest#ticket_numbers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ticketNumbers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TicketNumbers
@@ -287,7 +289,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#timeouts ApiaccesscontrolPrivilegedApiRequest#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#timeouts ApiaccesscontrolPrivilegedApiRequest#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiRequest.ApiaccesscontrolPrivilegedApiRequestTimeouts\"}", isOptional: true)]
@@ -296,7 +298,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<oci.ApiaccesscontrolPrivilegedApiRequest.IApiaccesscontrolPrivilegedApiRequestTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/apiaccesscontrol_privileged_api_request#time_requested_for_future_access ApiaccesscontrolPrivilegedApiRequest#time_requested_for_future_access}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/apiaccesscontrol_privileged_api_request#time_requested_for_future_access ApiaccesscontrolPrivilegedApiRequest#time_requested_for_future_access}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeRequestedForFutureAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeRequestedForFutureAccess
@@ -306,6 +308,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -316,6 +319,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -366,6 +370,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

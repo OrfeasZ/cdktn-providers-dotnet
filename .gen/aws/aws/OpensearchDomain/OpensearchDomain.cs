@@ -106,6 +106,7 @@ namespace aws.OpensearchDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.OpensearchDomain.IOpensearchDomainIdentityCenterOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchDomain.IOpensearchDomainLogPublishingOptions" />)[]</param>
         [JsiiMethod(name: "putLogPublishingOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchDomain.OpensearchDomainLogPublishingOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogPublishingOptions(object @value)
         {
@@ -590,6 +591,9 @@ namespace aws.OpensearchDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchDomain.IOpensearchDomainLogPublishingOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logPublishingOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchDomain.OpensearchDomainLogPublishingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogPublishingOptionsInput
@@ -646,6 +650,9 @@ namespace aws.OpensearchDomain
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchDomain.IOpensearchDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchDomain.OpensearchDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

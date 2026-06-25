@@ -41,6 +41,9 @@ namespace aws.FinspaceKxVolume
             return InvokeInstanceMethod<aws.FinspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxVolume.IFinspaceKxVolumeNas1Configuration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

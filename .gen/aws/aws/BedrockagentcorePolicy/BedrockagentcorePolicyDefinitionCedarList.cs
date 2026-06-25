@@ -41,6 +41,9 @@ namespace aws.BedrockagentcorePolicy
             return InvokeInstanceMethod<aws.BedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedarOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinitionCedar" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

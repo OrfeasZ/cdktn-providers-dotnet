@@ -41,6 +41,9 @@ namespace oci.DataOciWafProtectionCapabilities
             return InvokeInstanceMethod<oci.DataOciWafProtectionCapabilities.DataOciWafProtectionCapabilitiesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWafProtectionCapabilities.IDataOciWafProtectionCapabilitiesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWafProtectionCapabilities.DataOciWafProtectionCapabilitiesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -155,6 +155,9 @@ namespace aws.OpensearchOutboundConnection
             get => GetInstanceProperty<aws.OpensearchOutboundConnection.OpensearchOutboundConnectionTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acceptConnectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AcceptConnectionInput
@@ -211,6 +214,9 @@ namespace aws.OpensearchOutboundConnection
             get => GetInstanceProperty<aws.OpensearchOutboundConnection.IOpensearchOutboundConnectionRemoteDomainInfo?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchOutboundConnection.IOpensearchOutboundConnectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchOutboundConnection.OpensearchOutboundConnectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -218,6 +224,9 @@ namespace aws.OpensearchOutboundConnection
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "acceptConnection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AcceptConnection
         {

@@ -76,6 +76,7 @@ namespace aws.Route53DomainsDomain
         /// <summary>extra_param block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainRegistrantContactExtraParam" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "extraParam", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactExtraParam\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -222,6 +223,7 @@ namespace aws.Route53DomainsDomain
             /// <summary>extra_param block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainRegistrantContactExtraParam" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "extraParam", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactExtraParam\"},\"kind\":\"array\"}}]}}", isOptional: true)]

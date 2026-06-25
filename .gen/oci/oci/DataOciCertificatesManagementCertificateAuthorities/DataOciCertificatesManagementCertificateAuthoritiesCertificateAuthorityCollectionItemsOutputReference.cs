@@ -83,6 +83,12 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorities
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "externalKeyDescription", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExternalKeyDescription
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {

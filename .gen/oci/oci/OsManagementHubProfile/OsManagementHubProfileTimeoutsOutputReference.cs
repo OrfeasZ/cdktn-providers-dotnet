@@ -93,6 +93,9 @@ namespace oci.OsManagementHubProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubProfile.IOsManagementHubProfileTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubProfile.OsManagementHubProfileTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

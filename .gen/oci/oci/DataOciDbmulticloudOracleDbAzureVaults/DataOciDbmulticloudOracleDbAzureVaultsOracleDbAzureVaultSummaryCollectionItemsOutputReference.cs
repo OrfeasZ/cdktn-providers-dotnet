@@ -35,6 +35,12 @@ namespace oci.DataOciDbmulticloudOracleDbAzureVaults
         {
         }
 
+        [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Action
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "azureVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AzureVaultId
         {
@@ -107,6 +113,12 @@ namespace oci.DataOciDbmulticloudOracleDbAzureVaults
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "replicationMetadata", typeJson: "{\"fqn\":\"oci.dataOciDbmulticloudOracleDbAzureVaults.DataOciDbmulticloudOracleDbAzureVaultsOracleDbAzureVaultSummaryCollectionItemsReplicationMetadataList\"}")]
+        public virtual oci.DataOciDbmulticloudOracleDbAzureVaults.DataOciDbmulticloudOracleDbAzureVaultsOracleDbAzureVaultSummaryCollectionItemsReplicationMetadataList ReplicationMetadata
+        {
+            get => GetInstanceProperty<oci.DataOciDbmulticloudOracleDbAzureVaults.DataOciDbmulticloudOracleDbAzureVaultsOracleDbAzureVaultSummaryCollectionItemsReplicationMetadataList>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -117,6 +129,12 @@ namespace oci.DataOciDbmulticloudOracleDbAzureVaults
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetRegion
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

@@ -33,6 +33,7 @@ namespace aws.EksNodeGroup
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksNodeGroup.IEksNodeGroupNodeRepairConfigNodeRepairConfigOverrides" />)[]</param>
         [JsiiMethod(name: "putNodeRepairConfigOverrides", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupNodeRepairConfigNodeRepairConfigOverrides\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNodeRepairConfigOverrides(object @value)
         {
@@ -98,6 +99,9 @@ namespace aws.EksNodeGroup
             get => GetInstanceProperty<aws.EksNodeGroup.EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -133,6 +137,9 @@ namespace aws.EksNodeGroup
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksNodeGroup.IEksNodeGroupNodeRepairConfigNodeRepairConfigOverrides" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeRepairConfigOverridesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupNodeRepairConfigNodeRepairConfigOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NodeRepairConfigOverridesInput
@@ -140,6 +147,9 @@ namespace aws.EksNodeGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

@@ -76,6 +76,7 @@ namespace stripe.Customer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Customer.ICustomerTax)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTaxIdData" />)[]</param>
         [JsiiMethod(name: "putTaxIdData", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerTaxIdData\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTaxIdData(object @value)
         {
@@ -417,6 +418,9 @@ namespace stripe.Customer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTaxIdData" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxIdDataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerTaxIdData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TaxIdDataInput

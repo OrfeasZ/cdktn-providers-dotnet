@@ -33,6 +33,7 @@ namespace oci.StackMonitoringMetricExtension
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMetricExtension.IStackMonitoringMetricExtensionQueryPropertiesInParamDetails" />)[]</param>
         [JsiiMethod(name: "putInParamDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMetricExtension.StackMonitoringMetricExtensionQueryPropertiesInParamDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInParamDetails(object @value)
         {
@@ -242,6 +243,9 @@ namespace oci.StackMonitoringMetricExtension
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMetricExtension.IStackMonitoringMetricExtensionQueryPropertiesInParamDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inParamDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringMetricExtension.StackMonitoringMetricExtensionQueryPropertiesInParamDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InParamDetailsInput
@@ -249,6 +253,9 @@ namespace oci.StackMonitoringMetricExtension
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isMetricServiceEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsMetricServiceEnabledInput
@@ -368,6 +375,9 @@ namespace oci.StackMonitoringMetricExtension
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isMetricServiceEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsMetricServiceEnabled
         {

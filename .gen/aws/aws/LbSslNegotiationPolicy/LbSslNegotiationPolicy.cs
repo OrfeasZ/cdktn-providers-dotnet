@@ -46,6 +46,7 @@ namespace aws.LbSslNegotiationPolicy
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LbSslNegotiationPolicy.LbSslNegotiationPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbSslNegotiationPolicy.ILbSslNegotiationPolicyAttribute" />)[]</param>
         [JsiiMethod(name: "putAttribute", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttribute\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAttribute(object @value)
         {
@@ -118,6 +119,9 @@ namespace aws.LbSslNegotiationPolicy
             get => GetInstanceProperty<aws.LbSslNegotiationPolicy.LbSslNegotiationPolicyAttributeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbSslNegotiationPolicy.ILbSslNegotiationPolicyAttribute" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attributeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttribute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AttributeInput

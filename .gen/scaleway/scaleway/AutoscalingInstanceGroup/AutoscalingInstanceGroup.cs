@@ -46,6 +46,7 @@ namespace scaleway.AutoscalingInstanceGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.AutoscalingInstanceGroup.AutoscalingInstanceGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupCapacity" />)[]</param>
         [JsiiMethod(name: "putCapacity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupCapacity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCapacity(object @value)
         {
@@ -69,6 +70,7 @@ namespace scaleway.AutoscalingInstanceGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupLoadBalancer" />)[]</param>
         [JsiiMethod(name: "putLoadBalancer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupLoadBalancer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLoadBalancer(object @value)
         {
@@ -183,6 +185,9 @@ namespace scaleway.AutoscalingInstanceGroup
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupCapacity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupCapacity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CapacityInput
@@ -190,6 +195,9 @@ namespace scaleway.AutoscalingInstanceGroup
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteServersOnDestroyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DeleteServersOnDestroyInput
@@ -204,6 +212,9 @@ namespace scaleway.AutoscalingInstanceGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupLoadBalancer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loadBalancerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupLoadBalancer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LoadBalancerInput
@@ -246,6 +257,9 @@ namespace scaleway.AutoscalingInstanceGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "deleteServersOnDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object DeleteServersOnDestroy
         {

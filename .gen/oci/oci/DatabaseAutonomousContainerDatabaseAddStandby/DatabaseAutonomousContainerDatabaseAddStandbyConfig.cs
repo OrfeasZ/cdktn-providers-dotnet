@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
     [JsiiByValue(fqn: "oci.databaseAutonomousContainerDatabaseAddStandby.DatabaseAutonomousContainerDatabaseAddStandbyConfig")]
     public class DatabaseAutonomousContainerDatabaseAddStandbyConfig : oci.DatabaseAutonomousContainerDatabaseAddStandby.IDatabaseAutonomousContainerDatabaseAddStandbyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#autonomous_container_database_id DatabaseAutonomousContainerDatabaseAddStandby#autonomous_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#autonomous_container_database_id DatabaseAutonomousContainerDatabaseAddStandby#autonomous_container_database_id}.</summary>
         [JsiiProperty(name: "autonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousContainerDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#fast_start_fail_over_lag_limit_in_seconds DatabaseAutonomousContainerDatabaseAddStandby#fast_start_fail_over_lag_limit_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#fast_start_fail_over_lag_limit_in_seconds DatabaseAutonomousContainerDatabaseAddStandby#fast_start_fail_over_lag_limit_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fastStartFailOverLagLimitInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FastStartFailOverLagLimitInSeconds
@@ -26,7 +26,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,10 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         private object? _isAutomaticFailoverEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#is_automatic_failover_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_automatic_failover_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#is_automatic_failover_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_automatic_failover_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isAutomaticFailoverEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsAutomaticFailoverEnabled
@@ -72,7 +75,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         /// <summary>peer_autonomous_container_database_backup_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_backup_config DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_backup_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_backup_config DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_backup_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "peerAutonomousContainerDatabaseBackupConfig", typeJson: "{\"fqn\":\"oci.databaseAutonomousContainerDatabaseAddStandby.DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfig\"}", isOptional: true)]
@@ -82,7 +85,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_compartment_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_compartment_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerAutonomousContainerDatabaseCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerAutonomousContainerDatabaseCompartmentId
@@ -91,7 +94,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_display_name DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_display_name DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerAutonomousContainerDatabaseDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerAutonomousContainerDatabaseDisplayName
@@ -100,7 +103,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_vm_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerAutonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerAutonomousVmClusterId
@@ -109,7 +112,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#peer_cloud_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_cloud_autonomous_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#peer_cloud_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_cloud_autonomous_vm_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerCloudAutonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerCloudAutonomousVmClusterId
@@ -118,7 +121,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#peer_db_unique_name DatabaseAutonomousContainerDatabaseAddStandby#peer_db_unique_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#peer_db_unique_name DatabaseAutonomousContainerDatabaseAddStandby#peer_db_unique_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerDbUniqueName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerDbUniqueName
@@ -127,7 +130,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#protection_mode DatabaseAutonomousContainerDatabaseAddStandby#protection_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#protection_mode DatabaseAutonomousContainerDatabaseAddStandby#protection_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProtectionMode
@@ -136,7 +139,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#standby_maintenance_buffer_in_days DatabaseAutonomousContainerDatabaseAddStandby#standby_maintenance_buffer_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#standby_maintenance_buffer_in_days DatabaseAutonomousContainerDatabaseAddStandby#standby_maintenance_buffer_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "standbyMaintenanceBufferInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StandbyMaintenanceBufferInDays
@@ -147,7 +150,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_autonomous_container_database_add_standby#timeouts DatabaseAutonomousContainerDatabaseAddStandby#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_autonomous_container_database_add_standby#timeouts DatabaseAutonomousContainerDatabaseAddStandby#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseAutonomousContainerDatabaseAddStandby.DatabaseAutonomousContainerDatabaseAddStandbyTimeouts\"}", isOptional: true)]
@@ -161,6 +164,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -194,6 +198,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -288,6 +293,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

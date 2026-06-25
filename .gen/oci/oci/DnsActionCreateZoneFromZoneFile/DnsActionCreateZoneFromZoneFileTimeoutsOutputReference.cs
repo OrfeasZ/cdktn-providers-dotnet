@@ -93,6 +93,9 @@ namespace oci.DnsActionCreateZoneFromZoneFile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DnsActionCreateZoneFromZoneFile.IDnsActionCreateZoneFromZoneFileTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dnsActionCreateZoneFromZoneFile.DnsActionCreateZoneFromZoneFileTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

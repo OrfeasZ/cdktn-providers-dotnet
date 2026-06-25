@@ -33,6 +33,7 @@ namespace stripe.PromotionCode
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodeRestrictionsCurrencyOptions" />)[]</param>
         [JsiiMethod(name: "putCurrencyOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.promotionCode.PromotionCodeRestrictionsCurrencyOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCurrencyOptions(object @value)
         {
@@ -86,6 +87,9 @@ namespace stripe.PromotionCode
             get => GetInstanceProperty<stripe.PromotionCode.PromotionCodeRestrictionsCurrencyOptionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodeRestrictionsCurrencyOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currencyOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.promotionCode.PromotionCodeRestrictionsCurrencyOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CurrencyOptionsInput
@@ -93,6 +97,9 @@ namespace stripe.PromotionCode
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firstTimeTransactionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? FirstTimeTransactionInput
@@ -114,6 +121,9 @@ namespace stripe.PromotionCode
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "firstTimeTransaction", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object FirstTimeTransaction
         {

@@ -52,6 +52,7 @@ namespace scaleway.InferenceDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.InferenceDeployment.IInferenceDeploymentPrivateEndpoint)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InferenceDeployment.IInferenceDeploymentPrivateIp" />)[]</param>
         [JsiiMethod(name: "putPrivateIp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.inferenceDeployment.InferenceDeploymentPrivateIp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIp(object @value)
         {
@@ -238,6 +239,9 @@ namespace scaleway.InferenceDeployment
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acceptEulaInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AcceptEulaInput
@@ -294,6 +298,9 @@ namespace scaleway.InferenceDeployment
             get => GetInstanceProperty<scaleway.InferenceDeployment.IInferenceDeploymentPrivateEndpoint?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InferenceDeployment.IInferenceDeploymentPrivateIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.inferenceDeployment.InferenceDeploymentPrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpInput
@@ -336,6 +343,9 @@ namespace scaleway.InferenceDeployment
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InferenceDeployment.IInferenceDeploymentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.inferenceDeployment.InferenceDeploymentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -343,6 +353,9 @@ namespace scaleway.InferenceDeployment
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "acceptEula", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object AcceptEula
         {

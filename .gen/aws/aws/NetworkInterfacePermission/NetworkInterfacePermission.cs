@@ -123,6 +123,9 @@ namespace aws.NetworkInterfacePermission
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkInterfacePermission.INetworkInterfacePermissionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkInterfacePermission.NetworkInterfacePermissionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

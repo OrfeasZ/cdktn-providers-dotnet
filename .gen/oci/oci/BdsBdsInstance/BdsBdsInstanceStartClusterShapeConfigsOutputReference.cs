@@ -35,6 +35,7 @@ namespace oci.BdsBdsInstance
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs" />)[]</param>
         [JsiiMethod(name: "putNodeTypeShapeConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNodeTypeShapeConfigs(object @value)
         {
@@ -70,6 +71,9 @@ namespace oci.BdsBdsInstance
             get => GetInstanceProperty<oci.BdsBdsInstance.BdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeTypeShapeConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NodeTypeShapeConfigsInput
@@ -77,6 +81,9 @@ namespace oci.BdsBdsInstance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BdsBdsInstance.IBdsBdsInstanceStartClusterShapeConfigs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceStartClusterShapeConfigs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -58,6 +58,7 @@ namespace aws.SagemakerEndpointConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationDataCaptureConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariants" />)[]</param>
         [JsiiMethod(name: "putProductionVariants", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariants\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProductionVariants(object @value)
         {
@@ -81,6 +82,7 @@ namespace aws.SagemakerEndpointConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationShadowProductionVariants" />)[]</param>
         [JsiiMethod(name: "putShadowProductionVariants", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariants\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutShadowProductionVariants(object @value)
         {
@@ -268,6 +270,9 @@ namespace aws.SagemakerEndpointConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariants" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "productionVariantsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariants\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProductionVariantsInput
@@ -282,6 +287,9 @@ namespace aws.SagemakerEndpointConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationShadowProductionVariants" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shadowProductionVariantsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariants\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ShadowProductionVariantsInput

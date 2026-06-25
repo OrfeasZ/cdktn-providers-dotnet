@@ -103,6 +103,9 @@ namespace cloudflare.ZoneSubscription
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneSubscription.IZoneSubscriptionRatePlan" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneSubscription.ZoneSubscriptionRatePlan\"}]}}", isOptional: true)]
         public virtual object? InternalValue

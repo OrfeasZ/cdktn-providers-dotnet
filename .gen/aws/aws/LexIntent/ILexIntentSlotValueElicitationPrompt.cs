@@ -17,6 +17,7 @@ namespace aws.LexIntent
         /// <summary>message block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#message LexIntent#message}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentSlotValueElicitationPromptMessage" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPromptMessage\"},\"kind\":\"array\"}}]}}")]
         object Message
@@ -52,6 +53,7 @@ namespace aws.LexIntent
             /// <summary>message block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#message LexIntent#message}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentSlotValueElicitationPromptMessage" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentSlotValueElicitationPromptMessage\"},\"kind\":\"array\"}}]}}")]
             public object Message

@@ -24,6 +24,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
         /// <summary>Indicates whether to disable MFA for this resource. This option is available at the application and policy level.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_access_policy#mfa_disabled ZeroTrustAccessPolicy#mfa_disabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mfaDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

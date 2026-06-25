@@ -109,6 +109,9 @@ namespace cloudflare.R2BucketEventNotification
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketEventNotification.IR2BucketEventNotificationRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

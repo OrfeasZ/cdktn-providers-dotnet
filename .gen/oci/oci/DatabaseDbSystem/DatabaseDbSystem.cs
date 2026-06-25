@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseDbSystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_system oci_database_db_system}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_system oci_database_db_system}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseDbSystem.DatabaseDbSystem), fullyQualifiedName: "oci.databaseDbSystem.DatabaseDbSystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseDbSystem.DatabaseDbSystemConfig\"}}]")]
     public class DatabaseDbSystem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_system oci_database_db_system} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_system oci_database_db_system} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseDbSystem(Constructs.Construct scope, string id, oci.DatabaseDbSystem.IDatabaseDbSystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseDbSystem
         /// <param name="importToId">The construct id used in the generated config for the DatabaseDbSystem to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseDbSystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseDbSystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseDbSystem.DatabaseDbSystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -222,6 +222,30 @@ namespace oci.DatabaseDbSystem
 
         [JsiiMethod(name: "resetNsgIds")]
         public virtual void ResetNsgIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOsPatchAction")]
+        public virtual void ResetOsPatchAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOsPatchDbNodeId")]
+        public virtual void ResetOsPatchDbNodeId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOsPatchTrigger")]
+        public virtual void ResetOsPatchTrigger()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPrimaryDbSystemId")]
+        public virtual void ResetPrimaryDbSystemId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -671,6 +695,34 @@ namespace oci.DatabaseDbSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "osPatchActionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OsPatchActionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "osPatchDbNodeIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OsPatchDbNodeIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "osPatchTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? OsPatchTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "primaryDbSystemIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrimaryDbSystemIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "privateIpInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PrivateIpInput
         {
@@ -719,6 +771,9 @@ namespace oci.DatabaseDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sparseDiskgroupInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? SparseDiskgroupInput
@@ -754,6 +809,9 @@ namespace oci.DatabaseDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseDbSystem.IDatabaseDbSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseDbSystem.DatabaseDbSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -943,6 +1001,34 @@ namespace oci.DatabaseDbSystem
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "osPatchAction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OsPatchAction
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "osPatchDbNodeId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OsPatchDbNodeId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "osPatchTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double OsPatchTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "primaryDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryDbSystemId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrivateIp
         {
@@ -992,6 +1078,9 @@ namespace oci.DatabaseDbSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "sparseDiskgroup", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object SparseDiskgroup
         {

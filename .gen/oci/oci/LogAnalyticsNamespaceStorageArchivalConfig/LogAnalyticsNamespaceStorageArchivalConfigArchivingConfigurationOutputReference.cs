@@ -45,6 +45,12 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeOldestActiveBucketEnded")]
+        public virtual void ResetTimeOldestActiveBucketEnded()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "activeStorageDurationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ActiveStorageDurationInput
@@ -59,6 +65,13 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "timeOldestActiveBucketEndedInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeOldestActiveBucketEndedInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "activeStorageDuration", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ActiveStorageDuration
         {
@@ -68,6 +81,13 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
 
         [JsiiProperty(name: "archivalStorageDuration", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ArchivalStorageDuration
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "timeOldestActiveBucketEnded", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeOldestActiveBucketEnded
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

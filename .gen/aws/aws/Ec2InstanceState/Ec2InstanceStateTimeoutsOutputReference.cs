@@ -93,6 +93,9 @@ namespace aws.Ec2InstanceState
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2InstanceState.IEc2InstanceStateTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2InstanceState.Ec2InstanceStateTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -9,7 +9,7 @@ namespace oci.LogAnalyticsNamespaceLookup
     [JsiiByValue(fqn: "oci.logAnalyticsNamespaceLookup.LogAnalyticsNamespaceLookupConfig")]
     public class LogAnalyticsNamespaceLookupConfig : oci.LogAnalyticsNamespaceLookup.ILogAnalyticsNamespaceLookupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#lookup_name LogAnalyticsNamespaceLookup#lookup_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#lookup_name LogAnalyticsNamespaceLookup#lookup_name}.</summary>
         [JsiiProperty(name: "lookupName", typeJson: "{\"primitive\":\"string\"}")]
         public string LookupName
         {
@@ -17,7 +17,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#namespace LogAnalyticsNamespaceLookup#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#namespace LogAnalyticsNamespaceLookup#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#register_lookup_file LogAnalyticsNamespaceLookup#register_lookup_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#register_lookup_file LogAnalyticsNamespaceLookup#register_lookup_file}.</summary>
         [JsiiProperty(name: "registerLookupFile", typeJson: "{\"primitive\":\"string\"}")]
         public string RegisterLookupFile
         {
@@ -33,7 +33,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#type LogAnalyticsNamespaceLookup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#type LogAnalyticsNamespaceLookup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -45,7 +45,8 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         /// <summary>categories block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#categories LogAnalyticsNamespaceLookup#categories}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#categories LogAnalyticsNamespaceLookup#categories}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceLookup.ILogAnalyticsNamespaceLookupCategories" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "categories", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsNamespaceLookup.LogAnalyticsNamespaceLookupCategories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -75,7 +76,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#char_encoding LogAnalyticsNamespaceLookup#char_encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#char_encoding LogAnalyticsNamespaceLookup#char_encoding}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "charEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CharEncoding
@@ -84,7 +85,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#compartment_id LogAnalyticsNamespaceLookup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#compartment_id LogAnalyticsNamespaceLookup#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -93,7 +94,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#default_match_value LogAnalyticsNamespaceLookup#default_match_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultMatchValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultMatchValue
@@ -102,7 +103,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#defined_tags LogAnalyticsNamespaceLookup#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#defined_tags LogAnalyticsNamespaceLookup#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -111,7 +112,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#description LogAnalyticsNamespaceLookup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#description LogAnalyticsNamespaceLookup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -124,7 +125,8 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         /// <summary>fields block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#fields LogAnalyticsNamespaceLookup#fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#fields LogAnalyticsNamespaceLookup#fields}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceLookup.ILogAnalyticsNamespaceLookupFields" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsNamespaceLookup.LogAnalyticsNamespaceLookupFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -154,7 +156,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#freeform_tags LogAnalyticsNamespaceLookup#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#freeform_tags LogAnalyticsNamespaceLookup#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -163,7 +165,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#id LogAnalyticsNamespaceLookup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#id LogAnalyticsNamespaceLookup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -178,7 +180,10 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         private object? _isHidden;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#is_hidden LogAnalyticsNamespaceLookup#is_hidden}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#is_hidden LogAnalyticsNamespaceLookup#is_hidden}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isHidden", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsHidden
@@ -207,7 +212,7 @@ namespace oci.LogAnalyticsNamespaceLookup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#max_matches LogAnalyticsNamespaceLookup#max_matches}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#max_matches LogAnalyticsNamespaceLookup#max_matches}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxMatches", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxMatches
@@ -218,7 +223,7 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/log_analytics_namespace_lookup#timeouts LogAnalyticsNamespaceLookup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/log_analytics_namespace_lookup#timeouts LogAnalyticsNamespaceLookup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceLookup.LogAnalyticsNamespaceLookupTimeouts\"}", isOptional: true)]
@@ -232,6 +237,7 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -265,6 +271,7 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -359,6 +366,7 @@ namespace oci.LogAnalyticsNamespaceLookup
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

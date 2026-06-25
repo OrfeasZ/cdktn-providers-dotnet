@@ -89,6 +89,12 @@ namespace oci.DataOciCoreSubnets
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv4CidrBlocks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Ipv4CidrBlocks
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "ipv6CidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Ipv6CidrBlock
         {

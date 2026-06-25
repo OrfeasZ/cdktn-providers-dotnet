@@ -46,6 +46,7 @@ namespace aws.LightsailContainerServiceDeploymentVersion
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailContainerServiceDeploymentVersion.ILightsailContainerServiceDeploymentVersionContainer" />)[]</param>
         [JsiiMethod(name: "putContainer", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionContainer\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutContainer(object @value)
         {
@@ -160,6 +161,9 @@ namespace aws.LightsailContainerServiceDeploymentVersion
             get => GetInstanceProperty<double>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailContainerServiceDeploymentVersion.ILightsailContainerServiceDeploymentVersionContainer" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionContainer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ContainerInput
@@ -195,6 +199,9 @@ namespace aws.LightsailContainerServiceDeploymentVersion
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LightsailContainerServiceDeploymentVersion.ILightsailContainerServiceDeploymentVersionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

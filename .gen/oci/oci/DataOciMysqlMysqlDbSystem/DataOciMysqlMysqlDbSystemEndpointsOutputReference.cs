@@ -47,6 +47,12 @@ namespace oci.DataOciMysqlMysqlDbSystem
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipAddressVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpAddressVersion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "modes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Modes
         {

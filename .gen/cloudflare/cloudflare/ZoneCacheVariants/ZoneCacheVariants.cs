@@ -95,6 +95,9 @@ namespace cloudflare.ZoneCacheVariants
             get => GetInstanceProperty<cloudflare.ZoneCacheVariants.ZoneCacheVariantsValueOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZoneCacheVariants.IZoneCacheVariantsValue" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zoneCacheVariants.ZoneCacheVariantsValue\"}]}}", isOptional: true)]
         public virtual object? ValueInput

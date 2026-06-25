@@ -73,6 +73,9 @@ namespace aws.VpcIpv6CidrBlockAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpv6CidrBlockAssociation.IVpcIpv6CidrBlockAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

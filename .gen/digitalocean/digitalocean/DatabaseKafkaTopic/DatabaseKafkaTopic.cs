@@ -46,6 +46,7 @@ namespace digitalocean.DatabaseKafkaTopic
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DatabaseKafkaTopic.DatabaseKafkaTopic), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseKafkaTopic.IDatabaseKafkaTopicConfigA" />)[]</param>
         [JsiiMethod(name: "putConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseKafkaTopic.DatabaseKafkaTopicConfigA\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConfig(object @value)
         {
@@ -131,6 +132,9 @@ namespace digitalocean.DatabaseKafkaTopic
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseKafkaTopic.IDatabaseKafkaTopicConfigA" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseKafkaTopic.DatabaseKafkaTopicConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConfigInput

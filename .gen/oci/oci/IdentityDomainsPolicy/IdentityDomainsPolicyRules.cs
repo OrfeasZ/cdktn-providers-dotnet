@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsPolicy
     [JsiiByValue(fqn: "oci.identityDomainsPolicy.IdentityDomainsPolicyRules")]
     public class IdentityDomainsPolicyRules : oci.IdentityDomainsPolicy.IIdentityDomainsPolicyRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_policy#sequence IdentityDomainsPolicy#sequence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_policy#sequence IdentityDomainsPolicy#sequence}.</summary>
         [JsiiProperty(name: "sequence", typeJson: "{\"primitive\":\"number\"}")]
         public double Sequence
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_policy#value IdentityDomainsPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_policy#value IdentityDomainsPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

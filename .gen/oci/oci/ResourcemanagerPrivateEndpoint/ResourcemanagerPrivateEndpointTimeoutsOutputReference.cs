@@ -93,6 +93,9 @@ namespace oci.ResourcemanagerPrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ResourcemanagerPrivateEndpoint.IResourcemanagerPrivateEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.resourcemanagerPrivateEndpoint.ResourcemanagerPrivateEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -12,6 +12,7 @@ namespace aws.PipesPipe
         /// <summary>container_override block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#container_override PipesPipe#container_override}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerOverride", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -76,6 +77,7 @@ namespace aws.PipesPipe
         /// <summary>inference_accelerator_override block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pipes_pipe#inference_accelerator_override PipesPipe#inference_accelerator_override}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceAcceleratorOverride", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]

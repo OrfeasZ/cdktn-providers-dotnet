@@ -41,6 +41,9 @@ namespace oci.DataOciSecretsSecretbundleVersions
             return InvokeInstanceMethod<oci.DataOciSecretsSecretbundleVersions.DataOciSecretsSecretbundleVersionsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciSecretsSecretbundleVersions.IDataOciSecretsSecretbundleVersionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciSecretsSecretbundleVersions.DataOciSecretsSecretbundleVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

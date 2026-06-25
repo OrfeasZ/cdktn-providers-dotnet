@@ -16,6 +16,7 @@ namespace libvirt.Domain
         /// See: <a href="https://libvirt.org/formatdomain.html#setting-vlan-tag-on-supported-network-types-only">https://libvirt.org/formatdomain.html#setting-vlan-tag-on-supported-network-types-only</a>
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tags Domain#tags}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesInterfacesVlanTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesVlanTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]

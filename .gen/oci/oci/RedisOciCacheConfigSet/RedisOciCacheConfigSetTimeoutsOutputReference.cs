@@ -93,6 +93,9 @@ namespace oci.RedisOciCacheConfigSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

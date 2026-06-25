@@ -35,6 +35,7 @@ namespace aws.SecuritylakeCustomLogSource
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfigurationCrawlerConfiguration" />)[]</param>
         [JsiiMethod(name: "putCrawlerConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCrawlerConfiguration(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.SecuritylakeCustomLogSource
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfigurationProviderIdentity" />)[]</param>
         [JsiiMethod(name: "putProviderIdentity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProviderIdentity(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.SecuritylakeCustomLogSource
             get => GetInstanceProperty<aws.SecuritylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentityList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfigurationCrawlerConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crawlerConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CrawlerConfigurationInput
@@ -112,6 +117,9 @@ namespace aws.SecuritylakeCustomLogSource
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfigurationProviderIdentity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "providerIdentityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProviderIdentityInput
@@ -119,6 +127,9 @@ namespace aws.SecuritylakeCustomLogSource
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecuritylakeCustomLogSource.ISecuritylakeCustomLogSourceConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

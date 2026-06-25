@@ -41,6 +41,9 @@ namespace oci.MeteringComputationUsageCarbonEmission
             return InvokeInstanceMethod<oci.MeteringComputationUsageCarbonEmission.MeteringComputationUsageCarbonEmissionGroupByTagOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MeteringComputationUsageCarbonEmission.IMeteringComputationUsageCarbonEmissionGroupByTag" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.meteringComputationUsageCarbonEmission.MeteringComputationUsageCarbonEmissionGroupByTag\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,9 @@ namespace aws.GuarddutyInviteAccepter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GuarddutyInviteAccepter.IGuarddutyInviteAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.guarddutyInviteAccepter.GuarddutyInviteAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

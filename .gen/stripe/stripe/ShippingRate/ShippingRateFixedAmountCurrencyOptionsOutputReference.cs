@@ -83,6 +83,9 @@ namespace stripe.ShippingRate
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.ShippingRate.IShippingRateFixedAmountCurrencyOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmountCurrencyOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

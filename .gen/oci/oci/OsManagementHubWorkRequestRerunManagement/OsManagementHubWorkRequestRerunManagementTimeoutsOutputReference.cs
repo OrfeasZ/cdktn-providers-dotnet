@@ -93,6 +93,9 @@ namespace oci.OsManagementHubWorkRequestRerunManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubWorkRequestRerunManagement.IOsManagementHubWorkRequestRerunManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubWorkRequestRerunManagement.OsManagementHubWorkRequestRerunManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

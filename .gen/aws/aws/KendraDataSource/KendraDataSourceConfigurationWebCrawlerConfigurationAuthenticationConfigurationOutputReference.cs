@@ -33,6 +33,7 @@ namespace aws.KendraDataSource
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KendraDataSource.IKendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication" />)[]</param>
         [JsiiMethod(name: "putBasicAuthentication", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBasicAuthentication(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.KendraDataSource
             get => GetInstanceProperty<aws.KendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KendraDataSource.IKendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "basicAuthenticationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kendraDataSource.KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BasicAuthenticationInput

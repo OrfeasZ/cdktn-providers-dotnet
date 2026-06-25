@@ -122,6 +122,9 @@ namespace aws.AcmCertificateValidation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AcmCertificateValidation.IAcmCertificateValidationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.acmCertificateValidation.AcmCertificateValidationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -101,6 +101,12 @@ namespace oci.DataOciMysqlMysqlDbSystems
             get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsCustomerContactsList>()!;
         }
 
+        [JsiiProperty(name: "databaseConsole", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsDatabaseConsoleList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsDatabaseConsoleList DatabaseConsole
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsDatabaseConsoleList>()!;
+        }
+
         [JsiiProperty(name: "databaseManagement", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DatabaseManagement
         {
@@ -197,6 +203,12 @@ namespace oci.DataOciMysqlMysqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv6AddressIpv6SubnetCidrPairDetails", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsIpv6AddressIpv6SubnetCidrPairDetailsList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsIpv6AddressIpv6SubnetCidrPairDetailsList Ipv6AddressIpv6SubnetCidrPairDetails
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsIpv6AddressIpv6SubnetCidrPairDetailsList>()!;
+        }
+
         [JsiiProperty(name: "isHeatWaveClusterAttached", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsHeatWaveClusterAttached
         {
@@ -205,6 +217,12 @@ namespace oci.DataOciMysqlMysqlDbSystems
 
         [JsiiProperty(name: "isHighlyAvailable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsHighlyAvailable
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isIpv6Enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsIpv6Enabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
@@ -309,6 +327,12 @@ namespace oci.DataOciMysqlMysqlDbSystems
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsTelemetryConfigurationList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsTelemetryConfigurationList TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystems.DataOciMysqlMysqlDbSystemsDbSystemsTelemetryConfigurationList>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

@@ -93,6 +93,9 @@ namespace oci.OpsiNewsReport
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpsiNewsReport.IOpsiNewsReportTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opsiNewsReport.OpsiNewsReportTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

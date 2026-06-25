@@ -59,6 +59,12 @@ namespace oci.DataOciIntegrationIntegrationInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "convertInstanceTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ConvertInstanceTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "customEndpoint", typeJson: "{\"fqn\":\"oci.dataOciIntegrationIntegrationInstances.DataOciIntegrationIntegrationInstancesIntegrationInstancesCustomEndpointList\"}")]
         public virtual oci.DataOciIntegrationIntegrationInstances.DataOciIntegrationIntegrationInstancesIntegrationInstancesCustomEndpointList CustomEndpoint
         {
@@ -75,6 +81,12 @@ namespace oci.DataOciIntegrationIntegrationInstances
         public virtual Io.Cdktn.StringMap DefinedTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "disableProcessAutomationTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DisableProcessAutomationTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "disasterRecoveryDetails", typeJson: "{\"fqn\":\"oci.dataOciIntegrationIntegrationInstances.DataOciIntegrationIntegrationInstancesIntegrationInstancesDisasterRecoveryDetailsList\"}")]
@@ -181,6 +193,12 @@ namespace oci.DataOciIntegrationIntegrationInstances
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LogGroupId
         {
             get => GetInstanceProperty<string>()!;
         }

@@ -46,6 +46,7 @@ namespace aws.VpcRouteServerPeer
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.VpcRouteServerPeer.VpcRouteServerPeer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcRouteServerPeer.IVpcRouteServerPeerBgpOptions" />)[]</param>
         [JsiiMethod(name: "putBgpOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBgpOptions(object @value)
         {
@@ -178,6 +179,9 @@ namespace aws.VpcRouteServerPeer
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpcRouteServerPeer.IVpcRouteServerPeerBgpOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgpOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BgpOptionsInput
@@ -213,6 +217,9 @@ namespace aws.VpcRouteServerPeer
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcRouteServerPeer.IVpcRouteServerPeerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcRouteServerPeer.VpcRouteServerPeerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

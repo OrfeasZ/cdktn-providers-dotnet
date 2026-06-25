@@ -33,6 +33,7 @@ namespace aws.CognitoUserPool
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPool.ICognitoUserPoolAccountRecoverySettingRecoveryMechanism" />)[]</param>
         [JsiiMethod(name: "putRecoveryMechanism", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolAccountRecoverySettingRecoveryMechanism\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRecoveryMechanism(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.CognitoUserPool
             get => GetInstanceProperty<aws.CognitoUserPool.CognitoUserPoolAccountRecoverySettingRecoveryMechanismList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPool.ICognitoUserPoolAccountRecoverySettingRecoveryMechanism" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryMechanismInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolAccountRecoverySettingRecoveryMechanism\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RecoveryMechanismInput

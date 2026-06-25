@@ -41,6 +41,9 @@ namespace scaleway.LbFrontend
             return InvokeInstanceMethod<scaleway.LbFrontend.LbFrontendAclOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbFrontend.ILbFrontendAcl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbFrontend.LbFrontendAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

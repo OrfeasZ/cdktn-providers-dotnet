@@ -103,6 +103,9 @@ namespace aws.DataAwsKmsSecret
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsKmsSecret.IDataAwsKmsSecretSecret" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsKmsSecret.DataAwsKmsSecretSecret\"}]}}", isOptional: true)]
         public virtual object? InternalValue

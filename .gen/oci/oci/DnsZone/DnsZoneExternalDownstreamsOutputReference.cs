@@ -89,6 +89,9 @@ namespace oci.DnsZone
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DnsZone.IDnsZoneExternalDownstreams" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dnsZone.DnsZoneExternalDownstreams\"}]}}", isOptional: true)]
         public virtual object? InternalValue

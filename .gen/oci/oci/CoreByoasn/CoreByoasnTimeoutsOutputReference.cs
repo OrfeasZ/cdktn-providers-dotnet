@@ -93,6 +93,9 @@ namespace oci.CoreByoasn
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreByoasn.ICoreByoasnTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreByoasn.CoreByoasnTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

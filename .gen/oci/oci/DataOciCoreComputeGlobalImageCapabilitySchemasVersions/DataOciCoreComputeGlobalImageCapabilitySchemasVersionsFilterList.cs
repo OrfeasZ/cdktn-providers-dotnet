@@ -41,6 +41,9 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
             return InvokeInstanceMethod<oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions.DataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions.IDataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreComputeGlobalImageCapabilitySchemasVersions.DataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.CoreBootVolume
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreBootVolume.ICoreBootVolumeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreBootVolume.CoreBootVolumeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

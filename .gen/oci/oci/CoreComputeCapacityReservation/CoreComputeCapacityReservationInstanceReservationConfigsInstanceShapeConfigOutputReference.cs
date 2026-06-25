@@ -45,6 +45,12 @@ namespace oci.CoreComputeCapacityReservation
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetResourceManagement")]
+        public virtual void ResetResourceManagement()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? MemoryInGbsInput
@@ -59,6 +65,13 @@ namespace oci.CoreComputeCapacityReservation
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "resourceManagementInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ResourceManagementInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MemoryInGbs
         {
@@ -70,6 +83,13 @@ namespace oci.CoreComputeCapacityReservation
         public virtual double Ocpus
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "resourceManagement", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResourceManagement
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

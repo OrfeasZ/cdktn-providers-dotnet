@@ -33,6 +33,7 @@ namespace oci.OspGatewaySubscription
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscriptionBillingAddress" />)[]</param>
         [JsiiMethod(name: "putBillingAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionSubscriptionBillingAddress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBillingAddress(object @value)
         {
@@ -62,6 +63,7 @@ namespace oci.OspGatewaySubscription
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscriptionPaymentGateway)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscriptionPaymentOptions" />)[]</param>
         [JsiiMethod(name: "putPaymentOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionSubscriptionPaymentOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPaymentOptions(object @value)
         {
@@ -248,6 +250,9 @@ namespace oci.OspGatewaySubscription
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscriptionBillingAddress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingAddressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionSubscriptionBillingAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BillingAddressInput
@@ -283,6 +288,9 @@ namespace oci.OspGatewaySubscription
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isCorporateConversionAllowedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsCorporateConversionAllowedInput
@@ -290,6 +298,9 @@ namespace oci.OspGatewaySubscription
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isIntentToPayInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsIntentToPayInput
@@ -318,6 +329,9 @@ namespace oci.OspGatewaySubscription
             get => GetInstanceProperty<oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscriptionPaymentGateway?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscriptionPaymentOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionSubscriptionPaymentOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PaymentOptionsInput
@@ -430,6 +444,9 @@ namespace oci.OspGatewaySubscription
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isCorporateConversionAllowed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsCorporateConversionAllowed
         {
@@ -457,6 +474,9 @@ namespace oci.OspGatewaySubscription
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isIntentToPay", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsIntentToPay
         {

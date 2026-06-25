@@ -47,6 +47,9 @@ namespace scaleway.InstancePrivateNic
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstancePrivateNic.IInstancePrivateNicPrivateIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicPrivateIps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

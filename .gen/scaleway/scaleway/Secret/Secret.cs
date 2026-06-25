@@ -46,6 +46,7 @@ namespace scaleway.Secret
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.Secret.Secret), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.Secret.ISecretEphemeralPolicy" />)[]</param>
         [JsiiMethod(name: "putEphemeralPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.secret.SecretEphemeralPolicy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEphemeralPolicy(object @value)
         {
@@ -203,6 +204,9 @@ namespace scaleway.Secret
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.Secret.ISecretEphemeralPolicy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralPolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.secret.SecretEphemeralPolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EphemeralPolicyInput
@@ -238,6 +242,9 @@ namespace scaleway.Secret
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protectedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ProtectedInput
@@ -259,6 +266,9 @@ namespace scaleway.Secret
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.Secret.ISecretTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.secret.SecretTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -308,6 +318,9 @@ namespace scaleway.Secret
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "protected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Protected
         {

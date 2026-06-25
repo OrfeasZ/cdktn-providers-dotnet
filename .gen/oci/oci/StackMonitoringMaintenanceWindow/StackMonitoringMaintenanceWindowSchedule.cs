@@ -9,7 +9,7 @@ namespace oci.StackMonitoringMaintenanceWindow
     [JsiiByValue(fqn: "oci.stackMonitoringMaintenanceWindow.StackMonitoringMaintenanceWindowSchedule")]
     public class StackMonitoringMaintenanceWindowSchedule : oci.StackMonitoringMaintenanceWindow.IStackMonitoringMaintenanceWindowSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/stack_monitoring_maintenance_window#schedule_type StackMonitoringMaintenanceWindow#schedule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_maintenance_window#schedule_type StackMonitoringMaintenanceWindow#schedule_type}.</summary>
         [JsiiProperty(name: "scheduleType", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleType
         {
@@ -17,7 +17,7 @@ namespace oci.StackMonitoringMaintenanceWindow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/stack_monitoring_maintenance_window#maintenance_window_duration StackMonitoringMaintenanceWindow#maintenance_window_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_maintenance_window#maintenance_window_duration StackMonitoringMaintenanceWindow#maintenance_window_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceWindowDuration
@@ -26,7 +26,7 @@ namespace oci.StackMonitoringMaintenanceWindow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/stack_monitoring_maintenance_window#maintenance_window_recurrences StackMonitoringMaintenanceWindow#maintenance_window_recurrences}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_maintenance_window#maintenance_window_recurrences StackMonitoringMaintenanceWindow#maintenance_window_recurrences}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowRecurrences", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceWindowRecurrences
@@ -35,7 +35,7 @@ namespace oci.StackMonitoringMaintenanceWindow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/stack_monitoring_maintenance_window#time_maintenance_window_end StackMonitoringMaintenanceWindow#time_maintenance_window_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_maintenance_window#time_maintenance_window_end StackMonitoringMaintenanceWindow#time_maintenance_window_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeMaintenanceWindowEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeMaintenanceWindowEnd
@@ -44,7 +44,7 @@ namespace oci.StackMonitoringMaintenanceWindow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/stack_monitoring_maintenance_window#time_maintenance_window_start StackMonitoringMaintenanceWindow#time_maintenance_window_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/stack_monitoring_maintenance_window#time_maintenance_window_start StackMonitoringMaintenanceWindow#time_maintenance_window_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeMaintenanceWindowStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeMaintenanceWindowStart

@@ -33,6 +33,12 @@ namespace oci.MysqlReplica
         {
         }
 
+        [JsiiMethod(name: "putTelemetryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfiguration\"}}]")]
+        public virtual void PutTelemetryConfiguration(oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetConfigurationId")]
         public virtual void ResetConfigurationId()
         {
@@ -61,6 +67,18 @@ namespace oci.MysqlReplica
         public virtual void ResetShapeName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTelemetryConfiguration")]
+        public virtual void ResetTelemetryConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfigurationOutputReference\"}")]
+        public virtual oci.MysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfigurationOutputReference TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.MysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfigurationOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -96,6 +114,13 @@ namespace oci.MysqlReplica
         public virtual string? ShapeNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "telemetryConfigurationInput", typeJson: "{\"fqn\":\"oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfiguration\"}", isOptional: true)]
+        public virtual oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration? TelemetryConfigurationInput
+        {
+            get => GetInstanceProperty<oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfiguration?>();
         }
 
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]

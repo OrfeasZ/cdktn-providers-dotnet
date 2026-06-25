@@ -46,6 +46,7 @@ namespace aws.WorkspaceswebSessionLogger
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WorkspaceswebSessionLogger.WorkspaceswebSessionLogger), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerEventFilter" />)[]</param>
         [JsiiMethod(name: "putEventFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEventFilter(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.WorkspaceswebSessionLogger
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfiguration" />)[]</param>
         [JsiiMethod(name: "putLogConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogConfiguration(object @value)
         {
@@ -204,6 +206,9 @@ namespace aws.WorkspaceswebSessionLogger
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerEventFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EventFilterInput
@@ -211,6 +216,9 @@ namespace aws.WorkspaceswebSessionLogger
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogConfigurationInput

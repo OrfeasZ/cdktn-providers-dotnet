@@ -35,6 +35,7 @@ namespace aws.SsmPatchBaseline
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRulePatchFilter" />)[]</param>
         [JsiiMethod(name: "putPatchFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPatchFilter(object @value)
         {
@@ -109,6 +110,9 @@ namespace aws.SsmPatchBaseline
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableNonSecurityInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableNonSecurityInput
@@ -116,6 +120,9 @@ namespace aws.SsmPatchBaseline
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRulePatchFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "patchFilterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PatchFilterInput
@@ -144,6 +151,9 @@ namespace aws.SsmPatchBaseline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableNonSecurity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableNonSecurity
         {
@@ -171,6 +181,9 @@ namespace aws.SsmPatchBaseline
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsmPatchBaseline.ISsmPatchBaselineApprovalRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssmPatchBaseline.SsmPatchBaselineApprovalRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

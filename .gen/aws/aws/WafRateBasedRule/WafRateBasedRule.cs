@@ -46,6 +46,7 @@ namespace aws.WafRateBasedRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafRateBasedRule.WafRateBasedRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafRateBasedRule.IWafRateBasedRulePredicates" />)[]</param>
         [JsiiMethod(name: "putPredicates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafRateBasedRule.WafRateBasedRulePredicates\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPredicates(object @value)
         {
@@ -145,6 +146,9 @@ namespace aws.WafRateBasedRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafRateBasedRule.IWafRateBasedRulePredicates" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "predicatesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafRateBasedRule.WafRateBasedRulePredicates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PredicatesInput

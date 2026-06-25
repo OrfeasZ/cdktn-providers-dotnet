@@ -33,6 +33,7 @@ namespace digitalocean.App
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobImageDeployOnPush" />)[]</param>
         [JsiiMethod(name: "putDeployOnPush", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobImageDeployOnPush\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDeployOnPush(object @value)
         {
@@ -92,6 +93,9 @@ namespace digitalocean.App
             get => GetInstanceProperty<digitalocean.App.AppSpecJobImageDeployOnPushList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJobImageDeployOnPush" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deployOnPushInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJobImageDeployOnPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DeployOnPushInput

@@ -93,6 +93,9 @@ namespace oci.DatacatalogCatalogPrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatacatalogCatalogPrivateEndpoint.IDatacatalogCatalogPrivateEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datacatalogCatalogPrivateEndpoint.DatacatalogCatalogPrivateEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

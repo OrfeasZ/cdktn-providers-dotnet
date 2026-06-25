@@ -35,6 +35,7 @@ namespace cloudflare.FlagshipFlag
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.FlagshipFlag.IFlagshipFlagRulesConditionsClauses" />)[]</param>
         [JsiiMethod(name: "putClauses", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesConditionsClauses\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutClauses(object @value)
         {
@@ -101,6 +102,9 @@ namespace cloudflare.FlagshipFlag
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.FlagshipFlag.IFlagshipFlagRulesConditionsClauses" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clausesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesConditionsClauses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ClausesInput
@@ -157,6 +161,9 @@ namespace cloudflare.FlagshipFlag
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.FlagshipFlag.IFlagshipFlagRulesConditions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRulesConditions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

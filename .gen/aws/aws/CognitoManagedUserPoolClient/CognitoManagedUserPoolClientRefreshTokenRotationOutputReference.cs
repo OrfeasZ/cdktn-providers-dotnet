@@ -69,6 +69,9 @@ namespace aws.CognitoManagedUserPoolClient
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CognitoManagedUserPoolClient.ICognitoManagedUserPoolClientRefreshTokenRotation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotation\"}]}}", isOptional: true)]
         public virtual object? InternalValue

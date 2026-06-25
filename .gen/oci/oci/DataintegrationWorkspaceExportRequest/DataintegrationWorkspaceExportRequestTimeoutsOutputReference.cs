@@ -93,6 +93,9 @@ namespace oci.DataintegrationWorkspaceExportRequest
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataintegrationWorkspaceExportRequest.IDataintegrationWorkspaceExportRequestTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataintegrationWorkspaceExportRequest.DataintegrationWorkspaceExportRequestTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -95,6 +95,12 @@ namespace oci.DataOciFleetAppsManagementTaskRecord
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "systemVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] SystemVariables
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TargetCompartmentId
         {

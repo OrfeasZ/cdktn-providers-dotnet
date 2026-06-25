@@ -41,6 +41,9 @@ namespace libvirt.Domain
             return InvokeInstanceMethod<libvirt.Domain.DomainQemuCommandlineEnvsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuCommandlineEnvs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuCommandlineEnvs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -52,6 +52,7 @@ namespace aws.CodeconnectionsHost
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CodeconnectionsHost.ICodeconnectionsHostTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodeconnectionsHost.ICodeconnectionsHostVpcConfiguration" />)[]</param>
         [JsiiMethod(name: "putVpcConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVpcConfiguration(object @value)
         {
@@ -183,6 +184,9 @@ namespace aws.CodeconnectionsHost
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodeconnectionsHost.ICodeconnectionsHostTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -190,6 +194,9 @@ namespace aws.CodeconnectionsHost
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodeconnectionsHost.ICodeconnectionsHostVpcConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VpcConfigurationInput

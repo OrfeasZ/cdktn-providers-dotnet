@@ -52,6 +52,7 @@ namespace aws.EksAddon
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksAddon.IEksAddonNamespaceConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksAddon.IEksAddonPodIdentityAssociation" />)[]</param>
         [JsiiMethod(name: "putPodIdentityAssociation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksAddon.EksAddonPodIdentityAssociation\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPodIdentityAssociation(object @value)
         {
@@ -256,6 +257,9 @@ namespace aws.EksAddon
             get => GetInstanceProperty<aws.EksAddon.IEksAddonNamespaceConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksAddon.IEksAddonPodIdentityAssociation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "podIdentityAssociationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksAddon.EksAddonPodIdentityAssociation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PodIdentityAssociationInput
@@ -263,6 +267,9 @@ namespace aws.EksAddon
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preserveInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? PreserveInput
@@ -312,6 +319,9 @@ namespace aws.EksAddon
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EksAddon.IEksAddonTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.eksAddon.EksAddonTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -354,6 +364,9 @@ namespace aws.EksAddon
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "preserve", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Preserve
         {

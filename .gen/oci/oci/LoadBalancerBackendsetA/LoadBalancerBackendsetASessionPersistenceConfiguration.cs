@@ -9,7 +9,7 @@ namespace oci.LoadBalancerBackendsetA
     [JsiiByValue(fqn: "oci.loadBalancerBackendsetA.LoadBalancerBackendsetASessionPersistenceConfiguration")]
     public class LoadBalancerBackendsetASessionPersistenceConfiguration : oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetASessionPersistenceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/load_balancer_backendset#cookie_name LoadBalancerBackendsetA#cookie_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#cookie_name LoadBalancerBackendsetA#cookie_name}.</summary>
         [JsiiProperty(name: "cookieName", typeJson: "{\"primitive\":\"string\"}")]
         public string CookieName
         {
@@ -19,7 +19,10 @@ namespace oci.LoadBalancerBackendsetA
 
         private object? _disableFallback;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/load_balancer_backendset#disable_fallback LoadBalancerBackendsetA#disable_fallback}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/load_balancer_backendset#disable_fallback LoadBalancerBackendsetA#disable_fallback}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disableFallback", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? DisableFallback

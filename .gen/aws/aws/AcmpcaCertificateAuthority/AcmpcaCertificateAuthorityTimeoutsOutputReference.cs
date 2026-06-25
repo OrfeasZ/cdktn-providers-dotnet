@@ -53,6 +53,9 @@ namespace aws.AcmpcaCertificateAuthority
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AcmpcaCertificateAuthority.IAcmpcaCertificateAuthorityTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

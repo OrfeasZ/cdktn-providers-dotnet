@@ -125,6 +125,12 @@ namespace oci.DataOciFileStorageMountTargets
             get => GetInstanceProperty<oci.DataOciFileStorageMountTargets.DataOciFileStorageMountTargetsMountTargetsLocksList>()!;
         }
 
+        [JsiiProperty(name: "mountTargetIpv6Ids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] MountTargetIpv6Ids
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] NsgIds
         {
@@ -153,6 +159,12 @@ namespace oci.DataOciFileStorageMountTargets
         public virtual string ReservedStorageCapacity
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SecurityAttributes
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]

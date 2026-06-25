@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.OcvpSddc
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_sddc oci_ocvp_sddc}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_sddc oci_ocvp_sddc}.</summary>
     [JsiiClass(nativeType: typeof(oci.OcvpSddc.OcvpSddc), fullyQualifiedName: "oci.ocvpSddc.OcvpSddc", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcConfig\"}}]")]
     public class OcvpSddc : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_sddc oci_ocvp_sddc} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_sddc oci_ocvp_sddc} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public OcvpSddc(Constructs.Construct scope, string id, oci.OcvpSddc.IOcvpSddcConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.OcvpSddc
         /// <param name="importToId">The construct id used in the generated config for the OcvpSddc to import.</param>
         /// <param name="importFromId">The id of the existing OcvpSddc that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the OcvpSddc to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OcvpSddc to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ocvp_sddc#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OcvpSddc that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OcvpSddc to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OcvpSddc to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ocvp_sddc#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OcvpSddc that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OcvpSddc to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.OcvpSddc.OcvpSddc), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcDatastores" />)[]</param>
         [JsiiMethod(name: "putDatastores", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcDatastores\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDatastores(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.OcvpSddc
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfiguration" />)[]</param>
         [JsiiMethod(name: "putInitialConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInitialConfiguration(object @value)
         {
@@ -90,6 +92,12 @@ namespace oci.OcvpSddc
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putSddcByolAllocationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcSddcByolAllocationDetails\"}}]")]
+        public virtual void PutSddcByolAllocationDetails(oci.OcvpSddc.IOcvpSddcSddcByolAllocationDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OcvpSddc.IOcvpSddcSddcByolAllocationDetails)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcTimeouts\"}}]")]
@@ -266,6 +274,12 @@ namespace oci.OcvpSddc
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSddcByolAllocationDetails")]
+        public virtual void ResetSddcByolAllocationDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -423,6 +437,12 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "sddcByolAllocationDetails", typeJson: "{\"fqn\":\"oci.ocvpSddc.OcvpSddcSddcByolAllocationDetailsOutputReference\"}")]
+        public virtual oci.OcvpSddc.OcvpSddcSddcByolAllocationDetailsOutputReference SddcByolAllocationDetails
+        {
+            get => GetInstanceProperty<oci.OcvpSddc.OcvpSddcSddcByolAllocationDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -528,6 +548,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcDatastores" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "datastoresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcDatastores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DatastoresInput
@@ -591,6 +614,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InitialConfigurationInput
@@ -626,6 +652,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isHcxEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsHcxEnabledInput
@@ -633,6 +662,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isShieldedInstanceEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsShieldedInstanceEnabledInput
@@ -640,6 +672,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isSingleHostSddcInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsSingleHostSddcInput
@@ -689,6 +724,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshHcxLicenseStatusInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RefreshHcxLicenseStatusInput
@@ -711,12 +749,22 @@ namespace oci.OcvpSddc
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "sddcByolAllocationDetailsInput", typeJson: "{\"fqn\":\"oci.ocvpSddc.OcvpSddcSddcByolAllocationDetails\"}", isOptional: true)]
+        public virtual oci.OcvpSddc.IOcvpSddcSddcByolAllocationDetails? SddcByolAllocationDetailsInput
+        {
+            get => GetInstanceProperty<oci.OcvpSddc.IOcvpSddcSddcByolAllocationDetails?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "sshAuthorizedKeysInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SshAuthorizedKeysInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpSddc.IOcvpSddcTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpSddc.OcvpSddcTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -864,6 +912,9 @@ namespace oci.OcvpSddc
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isHcxEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsHcxEnabled
         {
@@ -891,6 +942,9 @@ namespace oci.OcvpSddc
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isShieldedInstanceEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsShieldedInstanceEnabled
         {
@@ -918,6 +972,9 @@ namespace oci.OcvpSddc
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isSingleHostSddc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsSingleHostSddc
         {
@@ -987,6 +1044,9 @@ namespace oci.OcvpSddc
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "refreshHcxLicenseStatus", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RefreshHcxLicenseStatus
         {

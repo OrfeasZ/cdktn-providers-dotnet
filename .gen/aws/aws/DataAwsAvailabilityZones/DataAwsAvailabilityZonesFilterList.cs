@@ -41,6 +41,9 @@ namespace aws.DataAwsAvailabilityZones
             return InvokeInstanceMethod<aws.DataAwsAvailabilityZones.DataAwsAvailabilityZonesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsAvailabilityZones.IDataAwsAvailabilityZonesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsAvailabilityZones.DataAwsAvailabilityZonesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

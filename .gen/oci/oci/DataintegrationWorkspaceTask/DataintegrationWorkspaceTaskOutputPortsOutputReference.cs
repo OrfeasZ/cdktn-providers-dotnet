@@ -239,6 +239,9 @@ namespace oci.DataintegrationWorkspaceTask
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataintegrationWorkspaceTask.IDataintegrationWorkspaceTaskOutputPorts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataintegrationWorkspaceTask.DataintegrationWorkspaceTaskOutputPorts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

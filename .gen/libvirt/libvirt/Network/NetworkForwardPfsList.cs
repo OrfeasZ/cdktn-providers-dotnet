@@ -41,6 +41,9 @@ namespace libvirt.Network
             return InvokeInstanceMethod<libvirt.Network.NetworkForwardPfsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkForwardPfs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.network.NetworkForwardPfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

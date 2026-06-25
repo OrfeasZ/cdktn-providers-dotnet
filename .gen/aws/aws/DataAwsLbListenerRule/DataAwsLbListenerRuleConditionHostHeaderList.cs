@@ -41,6 +41,9 @@ namespace aws.DataAwsLbListenerRule
             return InvokeInstanceMethod<aws.DataAwsLbListenerRule.DataAwsLbListenerRuleConditionHostHeaderOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleConditionHostHeader" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsLbListenerRule.DataAwsLbListenerRuleConditionHostHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

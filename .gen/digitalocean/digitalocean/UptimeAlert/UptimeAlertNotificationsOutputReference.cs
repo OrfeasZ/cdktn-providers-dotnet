@@ -35,6 +35,7 @@ namespace digitalocean.UptimeAlert
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotificationsSlack" />)[]</param>
         [JsiiMethod(name: "putSlack", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotificationsSlack\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSlack(object @value)
         {
@@ -83,6 +84,9 @@ namespace digitalocean.UptimeAlert
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotificationsSlack" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slackInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotificationsSlack\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SlackInput
@@ -97,6 +101,9 @@ namespace digitalocean.UptimeAlert
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.UptimeAlert.IUptimeAlertNotifications" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.uptimeAlert.UptimeAlertNotifications\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.Inspector2Filter
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Inspector2Filter.Inspector2Filter), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteria" />)[]</param>
         [JsiiMethod(name: "putFilterCriteria", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteria\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilterCriteria(object @value)
         {
@@ -150,6 +151,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteria" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterCriteriaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteria\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterCriteriaInput

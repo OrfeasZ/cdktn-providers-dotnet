@@ -46,6 +46,7 @@ namespace aws.ConnectRoutingProfile
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ConnectRoutingProfile.ConnectRoutingProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectRoutingProfile.IConnectRoutingProfileMediaConcurrencies" />)[]</param>
         [JsiiMethod(name: "putMediaConcurrencies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrencies\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMediaConcurrencies(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.ConnectRoutingProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectRoutingProfile.IConnectRoutingProfileQueueConfigs" />)[]</param>
         [JsiiMethod(name: "putQueueConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutQueueConfigs(object @value)
         {
@@ -193,6 +195,9 @@ namespace aws.ConnectRoutingProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectRoutingProfile.IConnectRoutingProfileMediaConcurrencies" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mediaConcurrenciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrencies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MediaConcurrenciesInput
@@ -207,6 +212,9 @@ namespace aws.ConnectRoutingProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectRoutingProfile.IConnectRoutingProfileQueueConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "queueConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? QueueConfigsInput

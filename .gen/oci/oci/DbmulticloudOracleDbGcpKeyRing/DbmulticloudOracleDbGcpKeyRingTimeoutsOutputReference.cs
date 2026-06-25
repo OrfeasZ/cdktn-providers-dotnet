@@ -93,6 +93,9 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DbmulticloudOracleDbGcpKeyRing.IDbmulticloudOracleDbGcpKeyRingTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dbmulticloudOracleDbGcpKeyRing.DbmulticloudOracleDbGcpKeyRingTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.WafRule
             return InvokeInstanceMethod<aws.WafRule.WafRulePredicatesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafRule.IWafRulePredicates" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafRule.WafRulePredicates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

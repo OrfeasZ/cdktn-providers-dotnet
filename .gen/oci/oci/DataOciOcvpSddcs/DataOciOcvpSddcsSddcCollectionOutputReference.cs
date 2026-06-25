@@ -305,6 +305,12 @@ namespace oci.DataOciOcvpSddcs
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "sddcByolAllocationDetails", typeJson: "{\"fqn\":\"oci.dataOciOcvpSddcs.DataOciOcvpSddcsSddcCollectionSddcByolAllocationDetailsList\"}")]
+        public virtual oci.DataOciOcvpSddcs.DataOciOcvpSddcsSddcCollectionSddcByolAllocationDetailsList SddcByolAllocationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOcvpSddcs.DataOciOcvpSddcsSddcCollectionSddcByolAllocationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "sshAuthorizedKeys", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SshAuthorizedKeys
         {

@@ -41,6 +41,9 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
             return InvokeInstanceMethod<oci.DataOciAiLanguageModelEvaluationResults.DataOciAiLanguageModelEvaluationResultsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiLanguageModelEvaluationResults.IDataOciAiLanguageModelEvaluationResultsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciAiLanguageModelEvaluationResults.DataOciAiLanguageModelEvaluationResultsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

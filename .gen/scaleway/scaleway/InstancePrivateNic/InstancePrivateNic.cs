@@ -46,6 +46,7 @@ namespace scaleway.InstancePrivateNic
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.InstancePrivateNic.InstancePrivateNic), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstancePrivateNic.IInstancePrivateNicPrivateIps" />)[]</param>
         [JsiiMethod(name: "putPrivateIps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicPrivateIps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPrivateIps(object @value)
         {
@@ -175,6 +176,9 @@ namespace scaleway.InstancePrivateNic
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstancePrivateNic.IInstancePrivateNicPrivateIps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicPrivateIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PrivateIpsInput
@@ -203,6 +207,9 @@ namespace scaleway.InstancePrivateNic
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstancePrivateNic.IInstancePrivateNicTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

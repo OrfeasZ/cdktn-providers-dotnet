@@ -59,6 +59,12 @@ namespace oci.DataOciDatabaseMigrationJobs
             get => GetInstanceProperty<oci.DataOciDatabaseMigrationJobs.DataOciDatabaseMigrationJobsJobCollectionItemsProgressPhasesExtractList>()!;
         }
 
+        [JsiiProperty(name: "groupDisplayName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GroupDisplayName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isAdvisorReportAvailable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsAdvisorReportAvailable
         {

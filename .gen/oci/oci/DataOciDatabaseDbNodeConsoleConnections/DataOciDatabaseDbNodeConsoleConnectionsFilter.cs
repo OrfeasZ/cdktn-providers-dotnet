@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleConnections
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbNodeConsoleConnections.DataOciDatabaseDbNodeConsoleConnectionsFilter")]
     public class DataOciDatabaseDbNodeConsoleConnectionsFilter : oci.DataOciDatabaseDbNodeConsoleConnections.IDataOciDatabaseDbNodeConsoleConnectionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_db_node_console_connections#name DataOciDatabaseDbNodeConsoleConnections#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_db_node_console_connections#name DataOciDatabaseDbNodeConsoleConnections#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_db_node_console_connections#values DataOciDatabaseDbNodeConsoleConnections#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_db_node_console_connections#values DataOciDatabaseDbNodeConsoleConnections#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciDatabaseDbNodeConsoleConnections
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_db_node_console_connections#regex DataOciDatabaseDbNodeConsoleConnections#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_db_node_console_connections#regex DataOciDatabaseDbNodeConsoleConnections#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

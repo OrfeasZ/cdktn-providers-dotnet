@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsOnPremiseVantagePointWorker.DataOciApmSyntheticsOnPremiseVantagePointWorkerConfig")]
     public class DataOciApmSyntheticsOnPremiseVantagePointWorkerConfig : oci.DataOciApmSyntheticsOnPremiseVantagePointWorker.IDataOciApmSyntheticsOnPremiseVantagePointWorkerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorker#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorker#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorker#on_premise_vantage_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorker#on_premise_vantage_point_id}.</summary>
         [JsiiProperty(name: "onPremiseVantagePointId", typeJson: "{\"primitive\":\"string\"}")]
         public string OnPremiseVantagePointId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#worker_id DataOciApmSyntheticsOnPremiseVantagePointWorker#worker_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#worker_id DataOciApmSyntheticsOnPremiseVantagePointWorker#worker_id}.</summary>
         [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkerId
         {
@@ -37,6 +37,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -70,6 +71,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -164,6 +166,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

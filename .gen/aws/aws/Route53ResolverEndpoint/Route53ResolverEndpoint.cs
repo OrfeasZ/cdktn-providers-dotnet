@@ -46,6 +46,7 @@ namespace aws.Route53ResolverEndpoint
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Route53ResolverEndpoint.Route53ResolverEndpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53ResolverEndpoint.IRoute53ResolverEndpointIpAddress" />)[]</param>
         [JsiiMethod(name: "putIpAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddress\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpAddress(object @value)
         {
@@ -192,6 +193,9 @@ namespace aws.Route53ResolverEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53ResolverEndpoint.IRoute53ResolverEndpointIpAddress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpAddressInput
@@ -227,6 +231,9 @@ namespace aws.Route53ResolverEndpoint
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rniEnhancedMetricsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RniEnhancedMetricsEnabledInput
@@ -255,6 +262,9 @@ namespace aws.Route53ResolverEndpoint
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetNameServerMetricsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? TargetNameServerMetricsEnabledInput
@@ -262,6 +272,9 @@ namespace aws.Route53ResolverEndpoint
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ResolverEndpoint.IRoute53ResolverEndpointTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ResolverEndpoint.Route53ResolverEndpointTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -311,6 +324,9 @@ namespace aws.Route53ResolverEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "rniEnhancedMetricsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RniEnhancedMetricsEnabled
         {
@@ -359,6 +375,9 @@ namespace aws.Route53ResolverEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "targetNameServerMetricsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object TargetNameServerMetricsEnabled
         {

@@ -47,6 +47,9 @@ namespace scaleway.RdbInstance
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.RdbInstance.IRdbInstancePrivateIp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.rdbInstance.RdbInstancePrivateIp\"}]}}", isOptional: true)]
         public virtual object? InternalValue

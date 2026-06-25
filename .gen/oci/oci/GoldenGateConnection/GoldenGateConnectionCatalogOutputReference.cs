@@ -45,6 +45,12 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetClientSecret")]
+        public virtual void ResetClientSecret()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetClientSecretSecretId")]
         public virtual void ResetClientSecretSecretId()
         {
@@ -65,6 +71,12 @@ namespace oci.GoldenGateConnection
 
         [JsiiMethod(name: "resetPrincipalRole")]
         public virtual void ResetPrincipalRole()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetProperties")]
+        public virtual void ResetProperties()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -103,6 +115,13 @@ namespace oci.GoldenGateConnection
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "clientSecretInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ClientSecretInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "clientSecretSecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ClientSecretSecretIdInput
         {
@@ -126,6 +145,13 @@ namespace oci.GoldenGateConnection
         [JsiiOptional]
         [JsiiProperty(name: "principalRoleInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PrincipalRoleInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "propertiesInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PropertiesInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -165,6 +191,13 @@ namespace oci.GoldenGateConnection
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientSecret
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "clientSecretSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClientSecretSecretId
         {
@@ -188,6 +221,13 @@ namespace oci.GoldenGateConnection
 
         [JsiiProperty(name: "principalRole", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrincipalRole
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "properties", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Properties
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

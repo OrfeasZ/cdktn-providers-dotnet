@@ -46,6 +46,7 @@ namespace aws.SecretsmanagerSecret
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecretsmanagerSecret.SecretsmanagerSecret), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecretsmanagerSecret.ISecretsmanagerSecretReplica" />)[]</param>
         [JsiiMethod(name: "putReplica", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.secretsmanagerSecret.SecretsmanagerSecretReplica\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReplica(object @value)
         {
@@ -179,6 +180,9 @@ namespace aws.SecretsmanagerSecret
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forceOverwriteReplicaSecretInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ForceOverwriteReplicaSecretInput
@@ -235,6 +239,9 @@ namespace aws.SecretsmanagerSecret
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecretsmanagerSecret.ISecretsmanagerSecretReplica" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replicaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.secretsmanagerSecret.SecretsmanagerSecretReplica\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReplicaInput
@@ -263,6 +270,9 @@ namespace aws.SecretsmanagerSecret
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "forceOverwriteReplicaSecret", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ForceOverwriteReplicaSecret
         {

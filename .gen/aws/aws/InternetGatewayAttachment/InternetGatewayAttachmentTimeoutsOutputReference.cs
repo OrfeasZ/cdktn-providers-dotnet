@@ -73,6 +73,9 @@ namespace aws.InternetGatewayAttachment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.InternetGatewayAttachment.IInternetGatewayAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.internetGatewayAttachment.InternetGatewayAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

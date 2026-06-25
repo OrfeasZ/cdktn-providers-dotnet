@@ -19,6 +19,9 @@ namespace aws.GlueCatalogTable
         private object? _isProtected;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#is_protected GlueCatalogTable#is_protected}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isProtected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? IsProtected
@@ -70,6 +73,7 @@ namespace aws.GlueCatalogTable
         /// <summary>representations block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#representations GlueCatalogTable#representations}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTableViewDefinitionRepresentations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "representations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableViewDefinitionRepresentations\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -46,6 +46,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDelegationSignerRecord.IRoute53DomainsDelegationSignerRecordSigningAttributes" />)[]</param>
         [JsiiMethod(name: "putSigningAttributes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecordSigningAttributes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSigningAttributes(object @value)
         {
@@ -137,6 +138,9 @@ namespace aws.Route53DomainsDelegationSignerRecord
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDelegationSignerRecord.IRoute53DomainsDelegationSignerRecordSigningAttributes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "signingAttributesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecordSigningAttributes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SigningAttributesInput
@@ -144,6 +148,9 @@ namespace aws.Route53DomainsDelegationSignerRecord
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53DomainsDelegationSignerRecord.IRoute53DomainsDelegationSignerRecordTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecordTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

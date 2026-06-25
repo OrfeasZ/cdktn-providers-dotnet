@@ -30,6 +30,7 @@ namespace aws.BatchSchedulingPolicy
         /// <summary>share_distribution block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchSchedulingPolicy.IBatchSchedulingPolicyFairSharePolicyShareDistribution" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareDistribution", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistribution\"},\"kind\":\"array\"}}]}}", isOptional: true)]

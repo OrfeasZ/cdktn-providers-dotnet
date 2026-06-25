@@ -73,6 +73,9 @@ namespace aws.CloudhsmV2Hsm
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudhsmV2Hsm.ICloudhsmV2HsmTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudhsmV2Hsm.CloudhsmV2HsmTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

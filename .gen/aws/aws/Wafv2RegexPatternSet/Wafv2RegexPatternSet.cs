@@ -46,6 +46,7 @@ namespace aws.Wafv2RegexPatternSet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Wafv2RegexPatternSet.Wafv2RegexPatternSet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RegexPatternSet.IWafv2RegexPatternSetRegularExpression" />)[]</param>
         [JsiiMethod(name: "putRegularExpression", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RegexPatternSet.Wafv2RegexPatternSetRegularExpression\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRegularExpression(object @value)
         {
@@ -189,6 +190,9 @@ namespace aws.Wafv2RegexPatternSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RegexPatternSet.IWafv2RegexPatternSetRegularExpression" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regularExpressionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RegexPatternSet.Wafv2RegexPatternSetRegularExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RegularExpressionInput

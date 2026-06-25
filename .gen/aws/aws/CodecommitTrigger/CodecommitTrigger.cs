@@ -46,6 +46,7 @@ namespace aws.CodecommitTrigger
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CodecommitTrigger.CodecommitTrigger), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodecommitTrigger.ICodecommitTriggerTrigger" />)[]</param>
         [JsiiMethod(name: "putTrigger", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecommitTrigger.CodecommitTriggerTrigger\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTrigger(object @value)
         {
@@ -133,6 +134,9 @@ namespace aws.CodecommitTrigger
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodecommitTrigger.ICodecommitTriggerTrigger" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "triggerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecommitTrigger.CodecommitTriggerTrigger\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TriggerInput

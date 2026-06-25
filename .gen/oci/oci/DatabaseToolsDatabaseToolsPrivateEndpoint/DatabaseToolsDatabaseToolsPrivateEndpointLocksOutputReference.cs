@@ -109,6 +109,9 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseToolsDatabaseToolsPrivateEndpoint.IDatabaseToolsDatabaseToolsPrivateEndpointLocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseToolsDatabaseToolsPrivateEndpoint.DatabaseToolsDatabaseToolsPrivateEndpointLocks\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.GuarddutyOrganizationConfigurationFeature
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GuarddutyOrganizationConfigurationFeature.GuarddutyOrganizationConfigurationFeature), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyOrganizationConfigurationFeature.IGuarddutyOrganizationConfigurationFeatureAdditionalConfiguration" />)[]</param>
         [JsiiMethod(name: "putAdditionalConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyOrganizationConfigurationFeature.GuarddutyOrganizationConfigurationFeatureAdditionalConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdditionalConfiguration(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.GuarddutyOrganizationConfigurationFeature
             get => GetInstanceProperty<aws.GuarddutyOrganizationConfigurationFeature.GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyOrganizationConfigurationFeature.IGuarddutyOrganizationConfigurationFeatureAdditionalConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyOrganizationConfigurationFeature.GuarddutyOrganizationConfigurationFeatureAdditionalConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdditionalConfigurationInput

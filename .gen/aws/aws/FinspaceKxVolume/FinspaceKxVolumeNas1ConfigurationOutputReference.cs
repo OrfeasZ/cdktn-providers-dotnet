@@ -63,6 +63,9 @@ namespace aws.FinspaceKxVolume
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FinspaceKxVolume.IFinspaceKxVolumeNas1Configuration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

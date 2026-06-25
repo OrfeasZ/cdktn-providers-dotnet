@@ -69,6 +69,9 @@ namespace oci.ResourceSchedulerSchedule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourcesParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourcesParameters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

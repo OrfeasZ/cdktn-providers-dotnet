@@ -41,6 +41,9 @@ namespace aws.EksCapability
             return InvokeInstanceMethod<aws.EksCapability.EksCapabilityConfigurationArgoCdNetworkAccessOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdNetworkAccess" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

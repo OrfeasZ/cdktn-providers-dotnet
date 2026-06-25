@@ -41,6 +41,9 @@ namespace scaleway.MongodbInstance
             return InvokeInstanceMethod<scaleway.MongodbInstance.MongodbInstancePrivateIpOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.MongodbInstance.IMongodbInstancePrivateIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.mongodbInstance.MongodbInstancePrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

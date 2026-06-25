@@ -105,6 +105,9 @@ namespace cloudflare.DataCloudflareOrganization
             get => GetInstanceProperty<cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationFilterParentOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterContaining" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterContaining\"}]}}", isOptional: true)]
         public virtual object? ContainingInput
@@ -119,6 +122,9 @@ namespace cloudflare.DataCloudflareOrganization
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterName" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterName\"}]}}", isOptional: true)]
         public virtual object? NameInput
@@ -140,6 +146,9 @@ namespace cloudflare.DataCloudflareOrganization
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterParent" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterParent\"}]}}", isOptional: true)]
         public virtual object? ParentInput
@@ -168,6 +177,9 @@ namespace cloudflare.DataCloudflareOrganization
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

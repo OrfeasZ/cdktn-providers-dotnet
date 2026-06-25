@@ -117,6 +117,9 @@ namespace aws.EmrManagedScalingPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EmrManagedScalingPolicy.IEmrManagedScalingPolicyComputeLimits" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimits\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.BedrockInferenceProfile
             return InvokeInstanceMethod<aws.BedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockInferenceProfile.IBedrockInferenceProfileModelSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

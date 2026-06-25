@@ -41,6 +41,9 @@ namespace oci.ObjectstorageObjectLifecyclePolicy
             return InvokeInstanceMethod<oci.ObjectstorageObjectLifecyclePolicy.ObjectstorageObjectLifecyclePolicyRulesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ObjectstorageObjectLifecyclePolicy.IObjectstorageObjectLifecyclePolicyRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.objectstorageObjectLifecyclePolicy.ObjectstorageObjectLifecyclePolicyRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

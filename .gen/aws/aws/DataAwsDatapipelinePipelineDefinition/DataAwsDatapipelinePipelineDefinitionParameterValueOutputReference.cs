@@ -47,6 +47,9 @@ namespace aws.DataAwsDatapipelinePipelineDefinition
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsDatapipelinePipelineDefinition.IDataAwsDatapipelinePipelineDefinitionParameterValue" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterValue\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -149,6 +149,9 @@ namespace cloudflare.DataCloudflareTokenValidationRules
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareTokenValidationRules.IDataCloudflareTokenValidationRulesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareTokenValidationRules.DataCloudflareTokenValidationRulesFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

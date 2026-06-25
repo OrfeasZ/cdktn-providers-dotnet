@@ -22,6 +22,7 @@ namespace aws.NetworkflowmonitorScope
         /// <summary>target_id block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifierTargetId" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetId\"},\"kind\":\"array\"}}]}}", isOptional: true)]

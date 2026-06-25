@@ -63,6 +63,9 @@ namespace aws.DataAwsKeyPair
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsKeyPair.IDataAwsKeyPairFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsKeyPair.DataAwsKeyPairFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

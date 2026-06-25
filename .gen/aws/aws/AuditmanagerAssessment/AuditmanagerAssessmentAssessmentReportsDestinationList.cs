@@ -41,6 +41,9 @@ namespace aws.AuditmanagerAssessment
             return InvokeInstanceMethod<aws.AuditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestinationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentAssessmentReportsDestination" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentAssessmentReportsDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

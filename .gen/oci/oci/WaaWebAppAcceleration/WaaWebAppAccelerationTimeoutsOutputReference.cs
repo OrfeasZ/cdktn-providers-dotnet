@@ -93,6 +93,9 @@ namespace oci.WaaWebAppAcceleration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.WaaWebAppAcceleration.IWaaWebAppAccelerationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.waaWebAppAcceleration.WaaWebAppAccelerationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

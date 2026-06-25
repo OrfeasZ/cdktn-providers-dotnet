@@ -63,6 +63,9 @@ namespace aws.ServiceDiscoveryService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ServiceDiscoveryService.IServiceDiscoveryServiceDnsConfigDnsRecords" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"}]}}", isOptional: true)]
         public virtual object? InternalValue

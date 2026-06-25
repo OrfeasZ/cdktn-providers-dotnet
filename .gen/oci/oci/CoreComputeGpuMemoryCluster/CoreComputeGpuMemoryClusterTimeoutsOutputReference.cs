@@ -93,6 +93,9 @@ namespace oci.CoreComputeGpuMemoryCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeGpuMemoryCluster.ICoreComputeGpuMemoryClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeGpuMemoryCluster.CoreComputeGpuMemoryClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

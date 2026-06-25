@@ -93,6 +93,9 @@ namespace aws.SagemakerHubContentReference
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerHubContentReference.ISagemakerHubContentReferenceTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerHubContentReference.SagemakerHubContentReferenceTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

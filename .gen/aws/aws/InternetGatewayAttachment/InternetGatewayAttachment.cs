@@ -116,6 +116,9 @@ namespace aws.InternetGatewayAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.InternetGatewayAttachment.IInternetGatewayAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.internetGatewayAttachment.InternetGatewayAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

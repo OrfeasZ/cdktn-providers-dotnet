@@ -93,6 +93,9 @@ namespace oci.DatascienceModelCustomMetadataArtifact
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatascienceModelCustomMetadataArtifact.IDatascienceModelCustomMetadataArtifactTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.datascienceModelCustomMetadataArtifact.DatascienceModelCustomMetadataArtifactTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

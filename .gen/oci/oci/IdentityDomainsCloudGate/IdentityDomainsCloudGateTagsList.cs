@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsCloudGate
             return InvokeInstanceMethod<oci.IdentityDomainsCloudGate.IdentityDomainsCloudGateTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsCloudGate.IIdentityDomainsCloudGateTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsCloudGate.IdentityDomainsCloudGateTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

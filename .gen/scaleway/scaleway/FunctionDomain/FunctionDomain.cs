@@ -129,6 +129,9 @@ namespace scaleway.FunctionDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.FunctionDomain.IFunctionDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.functionDomain.FunctionDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

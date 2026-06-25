@@ -41,6 +41,9 @@ namespace aws.SchedulerSchedule
             return InvokeInstanceMethod<aws.SchedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategyOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

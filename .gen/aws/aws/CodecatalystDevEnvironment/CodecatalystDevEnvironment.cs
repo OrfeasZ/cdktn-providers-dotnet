@@ -58,6 +58,7 @@ namespace aws.CodecatalystDevEnvironment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentPersistentStorage)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentRepositories" />)[]</param>
         [JsiiMethod(name: "putRepositories", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRepositories(object @value)
         {
@@ -222,6 +223,9 @@ namespace aws.CodecatalystDevEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentRepositories" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repositoriesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RepositoriesInput
@@ -236,6 +240,9 @@ namespace aws.CodecatalystDevEnvironment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodecatalystDevEnvironment.ICodecatalystDevEnvironmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

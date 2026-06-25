@@ -46,6 +46,7 @@ namespace aws.DatapipelinePipelineDefinition
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DatapipelinePipelineDefinition.DatapipelinePipelineDefinition), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterObject" />)[]</param>
         [JsiiMethod(name: "putParameterObject", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObject\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameterObject(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.DatapipelinePipelineDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterValue" />)[]</param>
         [JsiiMethod(name: "putParameterValue", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValue\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParameterValue(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.DatapipelinePipelineDefinition
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObject" />)[]</param>
         [JsiiMethod(name: "putPipelineObject", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObject\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPipelineObject(object @value)
         {
@@ -183,6 +186,9 @@ namespace aws.DatapipelinePipelineDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterObject" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterObjectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObject\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterObjectInput
@@ -190,6 +196,9 @@ namespace aws.DatapipelinePipelineDefinition
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionParameterValue" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameterValueInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParameterValueInput
@@ -204,6 +213,9 @@ namespace aws.DatapipelinePipelineDefinition
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatapipelinePipelineDefinition.IDatapipelinePipelineDefinitionPipelineObject" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineObjectInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObject\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PipelineObjectInput

@@ -41,6 +41,12 @@ namespace oci.DataOciDatascienceModelDeployments
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeTargetId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "infrastructureType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InfrastructureType
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciDatascienceModelDeployments
         public virtual double MaximumBandwidthMbps
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "modelDeploymentResourceConfiguration", typeJson: "{\"fqn\":\"oci.dataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationList\"}")]
+        public virtual oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationList ModelDeploymentResourceConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationList>()!;
         }
 
         [JsiiProperty(name: "scalingPolicy", typeJson: "{\"fqn\":\"oci.dataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsScalingPolicyList\"}")]

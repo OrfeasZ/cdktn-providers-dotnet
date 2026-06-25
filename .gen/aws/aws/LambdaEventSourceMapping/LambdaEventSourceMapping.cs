@@ -100,6 +100,7 @@ namespace aws.LambdaEventSourceMapping
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LambdaEventSourceMapping.ILambdaEventSourceMappingSelfManagedKafkaEventSourceConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LambdaEventSourceMapping.ILambdaEventSourceMappingSourceAccessConfiguration" />)[]</param>
         [JsiiMethod(name: "putSourceAccessConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingSourceAccessConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSourceAccessConfiguration(object @value)
         {
@@ -432,6 +433,9 @@ namespace aws.LambdaEventSourceMapping
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bisectBatchOnFunctionErrorInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? BisectBatchOnFunctionErrorInput
@@ -453,6 +457,9 @@ namespace aws.LambdaEventSourceMapping
             get => GetInstanceProperty<aws.LambdaEventSourceMapping.ILambdaEventSourceMappingDocumentDbEventSourceConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -579,6 +586,9 @@ namespace aws.LambdaEventSourceMapping
             get => GetInstanceProperty<aws.LambdaEventSourceMapping.ILambdaEventSourceMappingSelfManagedKafkaEventSourceConfig?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LambdaEventSourceMapping.ILambdaEventSourceMappingSourceAccessConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceAccessConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingSourceAccessConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceAccessConfigurationInput
@@ -635,6 +645,9 @@ namespace aws.LambdaEventSourceMapping
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "bisectBatchOnFunctionError", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object BisectBatchOnFunctionError
         {
@@ -662,6 +675,9 @@ namespace aws.LambdaEventSourceMapping
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

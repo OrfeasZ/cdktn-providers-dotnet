@@ -33,6 +33,7 @@ namespace oci.DataflowSqlEndpoint
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataflowSqlEndpoint.IDataflowSqlEndpointNetworkConfigurationAccessControlRules" />)[]</param>
         [JsiiMethod(name: "putAccessControlRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataflowSqlEndpoint.DataflowSqlEndpointNetworkConfigurationAccessControlRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccessControlRules(object @value)
         {
@@ -104,6 +105,9 @@ namespace oci.DataflowSqlEndpoint
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataflowSqlEndpoint.IDataflowSqlEndpointNetworkConfigurationAccessControlRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessControlRulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataflowSqlEndpoint.DataflowSqlEndpointNetworkConfigurationAccessControlRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccessControlRulesInput

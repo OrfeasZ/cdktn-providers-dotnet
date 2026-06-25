@@ -41,6 +41,9 @@ namespace aws.AlbListenerRule
             return InvokeInstanceMethod<aws.AlbListenerRule.AlbListenerRuleActionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListenerRule.IAlbListenerRuleAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListenerRule.AlbListenerRuleAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

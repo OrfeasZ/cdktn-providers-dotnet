@@ -48,6 +48,7 @@ namespace cloudflare.WorkerVersion
         /// <summary>A list of classes with Durable Object namespaces that were renamed.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version#renamed_classes WorkerVersion#renamed_classes}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsStepsRenamedClasses" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renamedClasses", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsStepsRenamedClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -82,6 +83,7 @@ namespace cloudflare.WorkerVersion
         /// <summary>A list of transfers for Durable Object namespaces from a different Worker and class to a class defined in this Worker.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version#transferred_classes WorkerVersion#transferred_classes}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsStepsTransferredClasses" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferredClasses", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsStepsTransferredClasses\"},\"kind\":\"array\"}}]}}", isOptional: true)]

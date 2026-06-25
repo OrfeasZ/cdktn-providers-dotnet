@@ -41,6 +41,9 @@ namespace aws.DataAwsNetworkInterfaces
             return InvokeInstanceMethod<aws.DataAwsNetworkInterfaces.DataAwsNetworkInterfacesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsNetworkInterfaces.IDataAwsNetworkInterfacesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfacesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

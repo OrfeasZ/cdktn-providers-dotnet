@@ -46,6 +46,7 @@ namespace aws.DataAwsElasticacheUser
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsElasticacheUser.DataAwsElasticacheUser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsElasticacheUser.IDataAwsElasticacheUserAuthenticationMode" />)[]</param>
         [JsiiMethod(name: "putAuthenticationMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAuthenticationMode(object @value)
         {
@@ -149,6 +150,9 @@ namespace aws.DataAwsElasticacheUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsElasticacheUser.IDataAwsElasticacheUserAuthenticationMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AuthenticationModeInput
@@ -170,6 +174,9 @@ namespace aws.DataAwsElasticacheUser
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noPasswordRequiredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? NoPasswordRequiredInput
@@ -226,6 +233,9 @@ namespace aws.DataAwsElasticacheUser
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "noPasswordRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object NoPasswordRequired
         {

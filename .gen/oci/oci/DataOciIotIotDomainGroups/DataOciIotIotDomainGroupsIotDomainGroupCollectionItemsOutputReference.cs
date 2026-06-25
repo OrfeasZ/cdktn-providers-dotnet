@@ -119,6 +119,12 @@ namespace oci.DataOciIotIotDomainGroups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciIotIotDomainGroups.DataOciIotIotDomainGroupsIotDomainGroupCollectionItems\"}", isOptional: true)]
         public virtual oci.DataOciIotIotDomainGroups.IDataOciIotIotDomainGroupsIotDomainGroupCollectionItems? InternalValue

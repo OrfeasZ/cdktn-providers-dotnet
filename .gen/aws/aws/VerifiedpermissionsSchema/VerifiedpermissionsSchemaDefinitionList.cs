@@ -41,6 +41,9 @@ namespace aws.VerifiedpermissionsSchema
             return InvokeInstanceMethod<aws.VerifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedpermissionsSchema.IVerifiedpermissionsSchemaDefinition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

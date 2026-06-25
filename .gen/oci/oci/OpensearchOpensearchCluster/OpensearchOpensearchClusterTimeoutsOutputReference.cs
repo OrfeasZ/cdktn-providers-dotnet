@@ -93,6 +93,9 @@ namespace oci.OpensearchOpensearchCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

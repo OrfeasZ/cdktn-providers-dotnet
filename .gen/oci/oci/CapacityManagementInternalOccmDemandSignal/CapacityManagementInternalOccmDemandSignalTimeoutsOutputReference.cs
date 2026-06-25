@@ -93,6 +93,9 @@ namespace oci.CapacityManagementInternalOccmDemandSignal
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CapacityManagementInternalOccmDemandSignal.ICapacityManagementInternalOccmDemandSignalTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.capacityManagementInternalOccmDemandSignal.CapacityManagementInternalOccmDemandSignalTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

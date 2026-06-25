@@ -93,6 +93,9 @@ namespace oci.CoreClusterNetwork
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreClusterNetwork.ICoreClusterNetworkTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

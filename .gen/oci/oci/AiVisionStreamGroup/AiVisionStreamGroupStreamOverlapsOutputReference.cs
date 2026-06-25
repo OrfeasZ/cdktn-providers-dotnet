@@ -55,6 +55,9 @@ namespace oci.AiVisionStreamGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.AiVisionStreamGroup.IAiVisionStreamGroupStreamOverlaps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.aiVisionStreamGroup.AiVisionStreamGroupStreamOverlaps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -10,6 +10,7 @@ namespace aws.BedrockCustomModel
         /// <summary>validator block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_custom_model#validator BedrockCustomModel#validator}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfigValidator" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "validator", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidator\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,6 +32,7 @@ namespace aws.BedrockCustomModel
             /// <summary>validator block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrock_custom_model#validator BedrockCustomModel#validator}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfigValidator" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validator", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidator\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -52,6 +52,7 @@ namespace aws.DataAwsCeTags
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.DataAwsCeTags.IDataAwsCeTagsFilter)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsSortBy" />)[]</param>
         [JsiiMethod(name: "putSortBy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsSortBy\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSortBy(object @value)
         {
@@ -175,6 +176,9 @@ namespace aws.DataAwsCeTags
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsSortBy" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sortByInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsSortBy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SortByInput

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ContainerengineNodePool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/containerengine_node_pool oci_containerengine_node_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/containerengine_node_pool oci_containerengine_node_pool}.</summary>
     [JsiiClass(nativeType: typeof(oci.ContainerengineNodePool.ContainerengineNodePool), fullyQualifiedName: "oci.containerengineNodePool.ContainerengineNodePool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolConfig\"}}]")]
     public class ContainerengineNodePool : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/containerengine_node_pool oci_containerengine_node_pool} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/containerengine_node_pool oci_containerengine_node_pool} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ContainerengineNodePool(Constructs.Construct scope, string id, oci.ContainerengineNodePool.IContainerengineNodePoolConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.ContainerengineNodePool
         /// <param name="importToId">The construct id used in the generated config for the ContainerengineNodePool to import.</param>
         /// <param name="importFromId">The id of the existing ContainerengineNodePool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ContainerengineNodePool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ContainerengineNodePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/containerengine_node_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ContainerengineNodePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ContainerengineNodePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ContainerengineNodePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/containerengine_node_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ContainerengineNodePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ContainerengineNodePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ContainerengineNodePool.ContainerengineNodePool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerengineNodePool.IContainerengineNodePoolInitialNodeLabels" />)[]</param>
         [JsiiMethod(name: "putInitialNodeLabels", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolInitialNodeLabels\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInitialNodeLabels(object @value)
         {
@@ -99,6 +100,36 @@ namespace oci.ContainerengineNodePool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ContainerengineNodePool.IContainerengineNodePoolNodeSourceDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putPrimaryVnic", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolPrimaryVnic\"}}]")]
+        public virtual void PutPrimaryVnic(oci.ContainerengineNodePool.IContainerengineNodePoolPrimaryVnic @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ContainerengineNodePool.IContainerengineNodePoolPrimaryVnic)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnics" />)[]</param>
+        [JsiiMethod(name: "putSecondaryVnics", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolSecondaryVnics\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutSecondaryVnics(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnics[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnics).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnics).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolTimeouts\"}}]")]
         public virtual void PutTimeouts(oci.ContainerengineNodePool.IContainerengineNodePoolTimeouts @value)
         {
@@ -131,6 +162,12 @@ namespace oci.ContainerengineNodePool
 
         [JsiiMethod(name: "resetKubernetesVersion")]
         public virtual void ResetKubernetesVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNetworkLaunchType")]
+        public virtual void ResetNetworkLaunchType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -183,8 +220,20 @@ namespace oci.ContainerengineNodePool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPrimaryVnic")]
+        public virtual void ResetPrimaryVnic()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetQuantityPerSubnet")]
         public virtual void ResetQuantityPerSubnet()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSecondaryVnics")]
+        public virtual void ResetSecondaryVnics()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -280,6 +329,18 @@ namespace oci.ContainerengineNodePool
             get => GetInstanceProperty<oci.ContainerengineNodePool.ContainerengineNodePoolNodeSourceDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "primaryVnic", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolPrimaryVnicOutputReference\"}")]
+        public virtual oci.ContainerengineNodePool.ContainerengineNodePoolPrimaryVnicOutputReference PrimaryVnic
+        {
+            get => GetInstanceProperty<oci.ContainerengineNodePool.ContainerengineNodePoolPrimaryVnicOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "secondaryVnics", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolSecondaryVnicsList\"}")]
+        public virtual oci.ContainerengineNodePool.ContainerengineNodePoolSecondaryVnicsList SecondaryVnics
+        {
+            get => GetInstanceProperty<oci.ContainerengineNodePool.ContainerengineNodePoolSecondaryVnicsList>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -327,6 +388,9 @@ namespace oci.ContainerengineNodePool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerengineNodePool.IContainerengineNodePoolInitialNodeLabels" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initialNodeLabelsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolInitialNodeLabels\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InitialNodeLabelsInput
@@ -344,6 +408,13 @@ namespace oci.ContainerengineNodePool
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "networkLaunchTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NetworkLaunchTypeInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -412,10 +483,27 @@ namespace oci.ContainerengineNodePool
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "primaryVnicInput", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolPrimaryVnic\"}", isOptional: true)]
+        public virtual oci.ContainerengineNodePool.IContainerengineNodePoolPrimaryVnic? PrimaryVnicInput
+        {
+            get => GetInstanceProperty<oci.ContainerengineNodePool.IContainerengineNodePoolPrimaryVnic?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "quantityPerSubnetInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? QuantityPerSubnetInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnics" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "secondaryVnicsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolSecondaryVnics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? SecondaryVnicsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -432,6 +520,9 @@ namespace oci.ContainerengineNodePool
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ContainerengineNodePool.IContainerengineNodePoolTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -483,6 +574,13 @@ namespace oci.ContainerengineNodePool
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "networkLaunchType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkLaunchType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

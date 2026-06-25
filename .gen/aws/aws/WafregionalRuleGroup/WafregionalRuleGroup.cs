@@ -46,6 +46,7 @@ namespace aws.WafregionalRuleGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafregionalRuleGroup.WafregionalRuleGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalRuleGroup.IWafregionalRuleGroupActivatedRule" />)[]</param>
         [JsiiMethod(name: "putActivatedRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutActivatedRule(object @value)
         {
@@ -130,6 +131,9 @@ namespace aws.WafregionalRuleGroup
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafregionalRuleGroup.IWafregionalRuleGroupActivatedRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activatedRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ActivatedRuleInput

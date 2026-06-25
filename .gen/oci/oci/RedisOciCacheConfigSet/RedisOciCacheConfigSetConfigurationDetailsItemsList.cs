@@ -41,6 +41,9 @@ namespace oci.RedisOciCacheConfigSet
             return InvokeInstanceMethod<oci.RedisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetailsItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

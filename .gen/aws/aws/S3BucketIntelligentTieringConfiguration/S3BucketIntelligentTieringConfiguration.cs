@@ -52,6 +52,7 @@ namespace aws.S3BucketIntelligentTieringConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3BucketIntelligentTieringConfiguration.IS3BucketIntelligentTieringConfigurationFilter)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketIntelligentTieringConfiguration.IS3BucketIntelligentTieringConfigurationTiering" />)[]</param>
         [JsiiMethod(name: "putTiering", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfigurationTiering\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTiering(object @value)
         {
@@ -172,6 +173,9 @@ namespace aws.S3BucketIntelligentTieringConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketIntelligentTieringConfiguration.IS3BucketIntelligentTieringConfigurationTiering" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tieringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfigurationTiering\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TieringInput

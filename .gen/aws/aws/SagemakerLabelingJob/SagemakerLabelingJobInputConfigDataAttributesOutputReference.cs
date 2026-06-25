@@ -55,6 +55,9 @@ namespace aws.SagemakerLabelingJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerLabelingJob.ISagemakerLabelingJobInputConfigDataAttributes" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerLabelingJob.SagemakerLabelingJobInputConfigDataAttributes\"}]}}", isOptional: true)]
         public virtual object? InternalValue

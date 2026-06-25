@@ -41,6 +41,9 @@ namespace aws.S3ObjectCopy
             return InvokeInstanceMethod<aws.S3ObjectCopy.S3ObjectCopyGrantOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ObjectCopy.IS3ObjectCopyGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3ObjectCopy.S3ObjectCopyGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

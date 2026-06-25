@@ -28,6 +28,9 @@ namespace digitalocean.KubernetesCluster
         private object? _autoScale;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/kubernetes_cluster#auto_scale KubernetesCluster#auto_scale}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoScale", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? AutoScale
@@ -106,6 +109,7 @@ namespace digitalocean.KubernetesCluster
         /// <summary>taint block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/kubernetes_cluster#taint KubernetesCluster#taint}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.KubernetesCluster.IKubernetesClusterNodePoolTaint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNodePoolTaint\"},\"kind\":\"array\"}}]}}", isOptional: true)]

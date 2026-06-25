@@ -93,6 +93,9 @@ namespace oci.IdentityDomainsNetworkPerimeter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

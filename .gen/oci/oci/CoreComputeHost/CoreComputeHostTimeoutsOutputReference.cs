@@ -93,6 +93,9 @@ namespace oci.CoreComputeHost
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreComputeHost.ICoreComputeHostTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreComputeHost.CoreComputeHostTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,18 @@ namespace oci.DataOciIdentityDomainsSocialIdentityProviders
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "appleDevId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AppleDevId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "appleKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AppleKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Authorization
         {

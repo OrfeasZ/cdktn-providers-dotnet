@@ -35,6 +35,12 @@ namespace oci.DataOciOpsiExadataInsights
         {
         }
 
+        [JsiiProperty(name: "chargebackPlanDetails", typeJson: "{\"fqn\":\"oci.dataOciOpsiExadataInsights.DataOciOpsiExadataInsightsExadataInsightSummaryCollectionItemsChargebackPlanDetailsList\"}")]
+        public virtual oci.DataOciOpsiExadataInsights.DataOciOpsiExadataInsightsExadataInsightSummaryCollectionItemsChargebackPlanDetailsList ChargebackPlanDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOpsiExadataInsights.DataOciOpsiExadataInsightsExadataInsightSummaryCollectionItemsChargebackPlanDetailsList>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -175,6 +181,12 @@ namespace oci.DataOciOpsiExadataInsights
 
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "statusDetails", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StatusDetails
         {
             get => GetInstanceProperty<string>()!;
         }

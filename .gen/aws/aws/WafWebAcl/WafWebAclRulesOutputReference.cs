@@ -133,6 +133,9 @@ namespace aws.WafWebAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafWebAcl.IWafWebAclRules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafWebAcl.WafWebAclRules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

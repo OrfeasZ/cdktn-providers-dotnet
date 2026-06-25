@@ -89,6 +89,9 @@ namespace cloudflare.ImageVariant
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ImageVariant.IImageVariantOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.imageVariant.ImageVariantOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

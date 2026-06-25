@@ -53,6 +53,9 @@ namespace aws.Macie2CustomDataIdentifier
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Macie2CustomDataIdentifier.IMacie2CustomDataIdentifierTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

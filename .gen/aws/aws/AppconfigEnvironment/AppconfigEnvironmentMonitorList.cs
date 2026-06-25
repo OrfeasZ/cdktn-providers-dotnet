@@ -41,6 +41,9 @@ namespace aws.AppconfigEnvironment
             return InvokeInstanceMethod<aws.AppconfigEnvironment.AppconfigEnvironmentMonitorOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppconfigEnvironment.IAppconfigEnvironmentMonitor" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appconfigEnvironment.AppconfigEnvironmentMonitor\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

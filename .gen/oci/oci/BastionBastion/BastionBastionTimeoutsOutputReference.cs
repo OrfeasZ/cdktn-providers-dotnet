@@ -93,6 +93,9 @@ namespace oci.BastionBastion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BastionBastion.IBastionBastionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.bastionBastion.BastionBastionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -186,6 +186,9 @@ namespace digitalocean.PartnerAttachment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.PartnerAttachment.IPartnerAttachmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.partnerAttachment.PartnerAttachmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

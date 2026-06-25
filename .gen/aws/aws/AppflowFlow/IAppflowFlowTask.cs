@@ -17,6 +17,7 @@ namespace aws.AppflowFlow
         /// <summary>connector_operator block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appflow_flow#connector_operator AppflowFlow#connector_operator}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowTaskConnectorOperator" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "connectorOperator", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowTaskConnectorOperator\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,6 +79,7 @@ namespace aws.AppflowFlow
             /// <summary>connector_operator block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appflow_flow#connector_operator AppflowFlow#connector_operator}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppflowFlow.IAppflowFlowTaskConnectorOperator" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectorOperator", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appflowFlow.AppflowFlowTaskConnectorOperator\"},\"kind\":\"array\"}}]}}", isOptional: true)]

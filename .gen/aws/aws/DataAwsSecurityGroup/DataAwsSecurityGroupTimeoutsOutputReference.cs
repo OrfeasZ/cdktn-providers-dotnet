@@ -53,6 +53,9 @@ namespace aws.DataAwsSecurityGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSecurityGroup.IDataAwsSecurityGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -63,6 +63,9 @@ namespace aws.DataAwsCustomerGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsCustomerGateway.IDataAwsCustomerGatewayFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsCustomerGateway.DataAwsCustomerGatewayFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

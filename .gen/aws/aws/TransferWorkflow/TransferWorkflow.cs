@@ -46,6 +46,7 @@ namespace aws.TransferWorkflow
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TransferWorkflow.TransferWorkflow), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowOnExceptionSteps" />)[]</param>
         [JsiiMethod(name: "putOnExceptionSteps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowOnExceptionSteps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOnExceptionSteps(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.TransferWorkflow
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowSteps" />)[]</param>
         [JsiiMethod(name: "putSteps", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowSteps\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSteps(object @value)
         {
@@ -179,6 +181,9 @@ namespace aws.TransferWorkflow
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowOnExceptionSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onExceptionStepsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowOnExceptionSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OnExceptionStepsInput
@@ -193,6 +198,9 @@ namespace aws.TransferWorkflow
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepsInput

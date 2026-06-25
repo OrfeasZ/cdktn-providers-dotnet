@@ -41,6 +41,9 @@ namespace aws.DataAwsRdsEngineVersion
             return InvokeInstanceMethod<aws.DataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsRdsEngineVersion.IDataAwsRdsEngineVersionFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

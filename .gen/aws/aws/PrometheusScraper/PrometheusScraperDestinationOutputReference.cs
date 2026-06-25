@@ -35,6 +35,7 @@ namespace aws.PrometheusScraper
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</param>
         [JsiiMethod(name: "putAmp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationAmp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAmp(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.PrometheusScraper
             get => GetInstanceProperty<aws.PrometheusScraper.PrometheusScraperDestinationAmpList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ampInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationAmp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AmpInput
@@ -77,6 +81,9 @@ namespace aws.PrometheusScraper
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.PrometheusScraper.IPrometheusScraperDestination" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestination\"}]}}", isOptional: true)]
         public virtual object? InternalValue

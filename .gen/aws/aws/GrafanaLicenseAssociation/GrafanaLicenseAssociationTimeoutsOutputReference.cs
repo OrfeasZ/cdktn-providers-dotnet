@@ -73,6 +73,9 @@ namespace aws.GrafanaLicenseAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GrafanaLicenseAssociation.IGrafanaLicenseAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.grafanaLicenseAssociation.GrafanaLicenseAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

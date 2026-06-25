@@ -49,6 +49,9 @@ namespace oci.FleetAppsManagementPatch
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FleetAppsManagementPatch.IFleetAppsManagementPatchDependentPatches" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fleetAppsManagementPatch.FleetAppsManagementPatchDependentPatches\"}]}}", isOptional: true)]
         public virtual object? InternalValue

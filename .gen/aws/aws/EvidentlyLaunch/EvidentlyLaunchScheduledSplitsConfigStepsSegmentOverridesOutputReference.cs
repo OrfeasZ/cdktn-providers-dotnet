@@ -77,6 +77,9 @@ namespace aws.EvidentlyLaunch
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides\"}]}}", isOptional: true)]
         public virtual object? InternalValue

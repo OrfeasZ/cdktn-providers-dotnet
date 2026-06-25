@@ -82,6 +82,9 @@ namespace aws.WafregionalRegexMatchSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafregionalRegexMatchSet.IWafregionalRegexMatchSetRegexMatchTuple" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTuple\"}]}}", isOptional: true)]
         public virtual object? InternalValue

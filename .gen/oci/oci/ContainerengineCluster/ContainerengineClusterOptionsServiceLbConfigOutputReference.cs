@@ -33,6 +33,12 @@ namespace oci.ContainerengineCluster
         {
         }
 
+        [JsiiMethod(name: "resetBackendNsgIds")]
+        public virtual void ResetBackendNsgIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDefinedTags")]
         public virtual void ResetDefinedTags()
         {
@@ -43,6 +49,13 @@ namespace oci.ContainerengineCluster
         public virtual void ResetFreeformTags()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "backendNsgIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? BackendNsgIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -57,6 +70,13 @@ namespace oci.ContainerengineCluster
         public virtual System.Collections.Generic.IDictionary<string, string>? FreeformTagsInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiProperty(name: "backendNsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] BackendNsgIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]

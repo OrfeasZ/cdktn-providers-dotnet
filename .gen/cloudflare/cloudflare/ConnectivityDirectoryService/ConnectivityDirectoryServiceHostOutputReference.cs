@@ -108,6 +108,9 @@ namespace cloudflare.ConnectivityDirectoryService
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostNetwork" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostNetwork\"}]}}", isOptional: true)]
         public virtual object? NetworkInput
@@ -115,6 +118,9 @@ namespace cloudflare.ConnectivityDirectoryService
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHostResolverNetwork" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resolverNetworkInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHostResolverNetwork\"}]}}", isOptional: true)]
         public virtual object? ResolverNetworkInput
@@ -143,6 +149,9 @@ namespace cloudflare.ConnectivityDirectoryService
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ConnectivityDirectoryService.IConnectivityDirectoryServiceHost" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.connectivityDirectoryService.ConnectivityDirectoryServiceHost\"}]}}", isOptional: true)]
         public virtual object? InternalValue

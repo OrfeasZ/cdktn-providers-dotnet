@@ -84,6 +84,9 @@ namespace cloudflare.MagicTransitCf1Site
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitCf1Site.IMagicTransitCf1SiteBodyLocation" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitCf1Site.MagicTransitCf1SiteBodyLocation\"}]}}", isOptional: true)]
         public virtual object? LocationInput
@@ -112,6 +115,9 @@ namespace cloudflare.MagicTransitCf1Site
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitCf1Site.IMagicTransitCf1SiteBody" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitCf1Site.MagicTransitCf1SiteBody\"}]}}", isOptional: true)]
         public virtual object? InternalValue

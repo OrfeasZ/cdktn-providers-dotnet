@@ -35,6 +35,12 @@ namespace oci.FileStorageFilesystemSnapshotPolicy
         {
         }
 
+        [JsiiMethod(name: "putLockDurationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.fileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicySchedulesLockDurationDetails\"}}]")]
+        public virtual void PutLockDurationDetails(oci.FileStorageFilesystemSnapshotPolicy.IFileStorageFilesystemSnapshotPolicySchedulesLockDurationDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.FileStorageFilesystemSnapshotPolicy.IFileStorageFilesystemSnapshotPolicySchedulesLockDurationDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetDayOfMonth")]
         public virtual void ResetDayOfMonth()
         {
@@ -49,6 +55,12 @@ namespace oci.FileStorageFilesystemSnapshotPolicy
 
         [JsiiMethod(name: "resetHourOfDay")]
         public virtual void ResetHourOfDay()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLockDurationDetails")]
+        public virtual void ResetLockDurationDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -77,6 +89,12 @@ namespace oci.FileStorageFilesystemSnapshotPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "lockDurationDetails", typeJson: "{\"fqn\":\"oci.fileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicySchedulesLockDurationDetailsOutputReference\"}")]
+        public virtual oci.FileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicySchedulesLockDurationDetailsOutputReference LockDurationDetails
+        {
+            get => GetInstanceProperty<oci.FileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicySchedulesLockDurationDetailsOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "dayOfMonthInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? DayOfMonthInput
@@ -96,6 +114,13 @@ namespace oci.FileStorageFilesystemSnapshotPolicy
         public virtual double? HourOfDayInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "lockDurationDetailsInput", typeJson: "{\"fqn\":\"oci.fileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicySchedulesLockDurationDetails\"}", isOptional: true)]
+        public virtual oci.FileStorageFilesystemSnapshotPolicy.IFileStorageFilesystemSnapshotPolicySchedulesLockDurationDetails? LockDurationDetailsInput
+        {
+            get => GetInstanceProperty<oci.FileStorageFilesystemSnapshotPolicy.IFileStorageFilesystemSnapshotPolicySchedulesLockDurationDetails?>();
         }
 
         [JsiiOptional]
@@ -203,6 +228,9 @@ namespace oci.FileStorageFilesystemSnapshotPolicy
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.FileStorageFilesystemSnapshotPolicy.IFileStorageFilesystemSnapshotPolicySchedules" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.fileStorageFilesystemSnapshotPolicy.FileStorageFilesystemSnapshotPolicySchedules\"}]}}", isOptional: true)]
         public virtual object? InternalValue

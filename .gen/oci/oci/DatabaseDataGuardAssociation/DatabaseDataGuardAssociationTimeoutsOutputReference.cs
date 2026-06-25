@@ -93,6 +93,9 @@ namespace oci.DatabaseDataGuardAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseDataGuardAssociation.IDatabaseDataGuardAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseDataGuardAssociation.DatabaseDataGuardAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

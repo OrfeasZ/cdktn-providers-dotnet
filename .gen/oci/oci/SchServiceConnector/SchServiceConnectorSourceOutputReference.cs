@@ -39,6 +39,7 @@ namespace oci.SchServiceConnector
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.SchServiceConnector.ISchServiceConnectorSourceCursor)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceLogSources" />)[]</param>
         [JsiiMethod(name: "putLogSources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceLogSources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLogSources(object @value)
         {
@@ -62,6 +63,7 @@ namespace oci.SchServiceConnector
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSources" />)[]</param>
         [JsiiMethod(name: "putMonitoringSources", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSources\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutMonitoringSources(object @value)
         {
@@ -166,6 +168,9 @@ namespace oci.SchServiceConnector
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceLogSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logSourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceLogSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LogSourcesInput
@@ -173,6 +178,9 @@ namespace oci.SchServiceConnector
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSources" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monitoringSourcesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? MonitoringSourcesInput

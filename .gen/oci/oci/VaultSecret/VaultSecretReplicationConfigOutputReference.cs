@@ -33,6 +33,7 @@ namespace oci.VaultSecret
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VaultSecret.IVaultSecretReplicationConfigReplicationTargets" />)[]</param>
         [JsiiMethod(name: "putReplicationTargets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.vaultSecret.VaultSecretReplicationConfigReplicationTargets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutReplicationTargets(object @value)
         {
@@ -68,6 +69,9 @@ namespace oci.VaultSecret
             get => GetInstanceProperty<oci.VaultSecret.VaultSecretReplicationConfigReplicationTargetsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isWriteForwardEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsWriteForwardEnabledInput
@@ -75,6 +79,9 @@ namespace oci.VaultSecret
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VaultSecret.IVaultSecretReplicationConfigReplicationTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replicationTargetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.vaultSecret.VaultSecretReplicationConfigReplicationTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ReplicationTargetsInput
@@ -82,6 +89,9 @@ namespace oci.VaultSecret
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isWriteForwardEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsWriteForwardEnabled
         {

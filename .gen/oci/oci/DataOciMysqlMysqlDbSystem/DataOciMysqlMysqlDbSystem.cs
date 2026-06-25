@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciMysqlMysqlDbSystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/mysql_mysql_db_system oci_mysql_mysql_db_system}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/mysql_mysql_db_system oci_mysql_mysql_db_system}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystem), fullyQualifiedName: "oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemConfig\"}}]")]
     public class DataOciMysqlMysqlDbSystem : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/mysql_mysql_db_system oci_mysql_mysql_db_system} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/mysql_mysql_db_system oci_mysql_mysql_db_system} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciMysqlMysqlDbSystem(Constructs.Construct scope, string id, oci.DataOciMysqlMysqlDbSystem.IDataOciMysqlMysqlDbSystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciMysqlMysqlDbSystem
         /// <param name="importToId">The construct id used in the generated config for the DataOciMysqlMysqlDbSystem to import.</param>
         /// <param name="importFromId">The id of the existing DataOciMysqlMysqlDbSystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciMysqlMysqlDbSystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciMysqlMysqlDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/mysql_mysql_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciMysqlMysqlDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciMysqlMysqlDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciMysqlMysqlDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/mysql_mysql_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciMysqlMysqlDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciMysqlMysqlDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -129,6 +129,12 @@ namespace oci.DataOciMysqlMysqlDbSystem
         public virtual oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemCustomerContactsList CustomerContacts
         {
             get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemCustomerContactsList>()!;
+        }
+
+        [JsiiProperty(name: "databaseConsole", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemDatabaseConsoleList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemDatabaseConsoleList DatabaseConsole
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemDatabaseConsoleList>()!;
         }
 
         [JsiiProperty(name: "databaseManagement", typeJson: "{\"primitive\":\"string\"}")]
@@ -227,6 +233,12 @@ namespace oci.DataOciMysqlMysqlDbSystem
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv6AddressIpv6SubnetCidrPairDetails", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetailsList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetailsList Ipv6AddressIpv6SubnetCidrPairDetails
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemIpv6AddressIpv6SubnetCidrPairDetailsList>()!;
+        }
+
         [JsiiProperty(name: "isHeatWaveClusterAttached", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsHeatWaveClusterAttached
         {
@@ -235,6 +247,12 @@ namespace oci.DataOciMysqlMysqlDbSystem
 
         [JsiiProperty(name: "isHighlyAvailable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsHighlyAvailable
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isIpv6Enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsIpv6Enabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
@@ -339,6 +357,12 @@ namespace oci.DataOciMysqlMysqlDbSystem
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "telemetryConfiguration", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemTelemetryConfigurationList\"}")]
+        public virtual oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemTelemetryConfigurationList TelemetryConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemTelemetryConfigurationList>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

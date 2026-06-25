@@ -93,6 +93,9 @@ namespace oci.DataSafeMaskingPolicyHealthReportManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeMaskingPolicyHealthReportManagement.IDataSafeMaskingPolicyHealthReportManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeMaskingPolicyHealthReportManagement.DataSafeMaskingPolicyHealthReportManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

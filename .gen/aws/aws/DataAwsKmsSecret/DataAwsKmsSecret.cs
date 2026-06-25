@@ -46,6 +46,7 @@ namespace aws.DataAwsKmsSecret
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsKmsSecret.DataAwsKmsSecret), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsKmsSecret.IDataAwsKmsSecretSecret" />)[]</param>
         [JsiiMethod(name: "putSecret", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsKmsSecret.DataAwsKmsSecretSecret\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSecret(object @value)
         {
@@ -120,6 +121,9 @@ namespace aws.DataAwsKmsSecret
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsKmsSecret.IDataAwsKmsSecretSecret" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsKmsSecret.DataAwsKmsSecretSecret\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SecretInput

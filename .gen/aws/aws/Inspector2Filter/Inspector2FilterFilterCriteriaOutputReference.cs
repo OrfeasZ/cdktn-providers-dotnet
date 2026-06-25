@@ -35,6 +35,7 @@ namespace aws.Inspector2Filter
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaAwsAccountId" />)[]</param>
         [JsiiMethod(name: "putAwsAccountId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAwsAccountId(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeRepositoryProjectName" />)[]</param>
         [JsiiMethod(name: "putCodeRepositoryProjectName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeRepositoryProjectName(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeRepositoryProviderType" />)[]</param>
         [JsiiMethod(name: "putCodeRepositoryProviderType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeRepositoryProviderType(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeVulnerabilityDetectorName" />)[]</param>
         [JsiiMethod(name: "putCodeVulnerabilityDetectorName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeVulnerabilityDetectorName(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags" />)[]</param>
         [JsiiMethod(name: "putCodeVulnerabilityDetectorTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeVulnerabilityDetectorTags(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeVulnerabilityFilePath" />)[]</param>
         [JsiiMethod(name: "putCodeVulnerabilityFilePath", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePath\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCodeVulnerabilityFilePath(object @value)
         {
@@ -173,6 +179,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaComponentId" />)[]</param>
         [JsiiMethod(name: "putComponentId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComponentId(object @value)
         {
@@ -196,6 +203,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaComponentType" />)[]</param>
         [JsiiMethod(name: "putComponentType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutComponentType(object @value)
         {
@@ -219,6 +227,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceImageId" />)[]</param>
         [JsiiMethod(name: "putEc2InstanceImageId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEc2InstanceImageId(object @value)
         {
@@ -242,6 +251,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceSubnetId" />)[]</param>
         [JsiiMethod(name: "putEc2InstanceSubnetId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEc2InstanceSubnetId(object @value)
         {
@@ -265,6 +275,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceVpcId" />)[]</param>
         [JsiiMethod(name: "putEc2InstanceVpcId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEc2InstanceVpcId(object @value)
         {
@@ -288,6 +299,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageArchitecture" />)[]</param>
         [JsiiMethod(name: "putEcrImageArchitecture", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitecture\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageArchitecture(object @value)
         {
@@ -311,6 +323,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageHash" />)[]</param>
         [JsiiMethod(name: "putEcrImageHash", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHash\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageHash(object @value)
         {
@@ -334,6 +347,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageInUseCount" />)[]</param>
         [JsiiMethod(name: "putEcrImageInUseCount", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCount\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageInUseCount(object @value)
         {
@@ -357,6 +371,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageLastInUseAt" />)[]</param>
         [JsiiMethod(name: "putEcrImageLastInUseAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageLastInUseAt(object @value)
         {
@@ -380,6 +395,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImagePushedAt" />)[]</param>
         [JsiiMethod(name: "putEcrImagePushedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImagePushedAt(object @value)
         {
@@ -403,6 +419,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageRegistry" />)[]</param>
         [JsiiMethod(name: "putEcrImageRegistry", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistry\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageRegistry(object @value)
         {
@@ -426,6 +443,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageRepositoryName" />)[]</param>
         [JsiiMethod(name: "putEcrImageRepositoryName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageRepositoryName(object @value)
         {
@@ -449,6 +467,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageTags" />)[]</param>
         [JsiiMethod(name: "putEcrImageTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcrImageTags(object @value)
         {
@@ -472,6 +491,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEpssScore" />)[]</param>
         [JsiiMethod(name: "putEpssScore", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScore\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEpssScore(object @value)
         {
@@ -495,6 +515,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaExploitAvailable" />)[]</param>
         [JsiiMethod(name: "putExploitAvailable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExploitAvailable(object @value)
         {
@@ -518,6 +539,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFindingArn" />)[]</param>
         [JsiiMethod(name: "putFindingArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingArn(object @value)
         {
@@ -541,6 +563,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFindingStatus" />)[]</param>
         [JsiiMethod(name: "putFindingStatus", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatus\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingStatus(object @value)
         {
@@ -564,6 +587,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFindingType" />)[]</param>
         [JsiiMethod(name: "putFindingType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFindingType(object @value)
         {
@@ -587,6 +611,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFirstObservedAt" />)[]</param>
         [JsiiMethod(name: "putFirstObservedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFirstObservedAt(object @value)
         {
@@ -610,6 +635,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFixAvailable" />)[]</param>
         [JsiiMethod(name: "putFixAvailable", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailable\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFixAvailable(object @value)
         {
@@ -633,6 +659,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaInspectorScore" />)[]</param>
         [JsiiMethod(name: "putInspectorScore", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScore\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInspectorScore(object @value)
         {
@@ -656,6 +683,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionExecutionRoleArn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionExecutionRoleArn(object @value)
         {
@@ -679,6 +707,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionLastModifiedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionLastModifiedAt(object @value)
         {
@@ -702,6 +731,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionLayers" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionLayers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayers\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionLayers(object @value)
         {
@@ -725,6 +755,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionName" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionName(object @value)
         {
@@ -748,6 +779,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionRuntime" />)[]</param>
         [JsiiMethod(name: "putLambdaFunctionRuntime", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntime\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaFunctionRuntime(object @value)
         {
@@ -771,6 +803,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLastObservedAt" />)[]</param>
         [JsiiMethod(name: "putLastObservedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLastObservedAt(object @value)
         {
@@ -794,6 +827,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaNetworkProtocol" />)[]</param>
         [JsiiMethod(name: "putNetworkProtocol", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocol\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkProtocol(object @value)
         {
@@ -817,6 +851,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaPortRange" />)[]</param>
         [JsiiMethod(name: "putPortRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPortRange(object @value)
         {
@@ -840,6 +875,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaRelatedVulnerabilities" />)[]</param>
         [JsiiMethod(name: "putRelatedVulnerabilities", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilities\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRelatedVulnerabilities(object @value)
         {
@@ -863,6 +899,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaResourceId" />)[]</param>
         [JsiiMethod(name: "putResourceId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceId(object @value)
         {
@@ -886,6 +923,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaResourceTags" />)[]</param>
         [JsiiMethod(name: "putResourceTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceTags(object @value)
         {
@@ -909,6 +947,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaResourceType" />)[]</param>
         [JsiiMethod(name: "putResourceType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceType\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutResourceType(object @value)
         {
@@ -932,6 +971,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaSeverity" />)[]</param>
         [JsiiMethod(name: "putSeverity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSeverity(object @value)
         {
@@ -955,6 +995,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaTitle" />)[]</param>
         [JsiiMethod(name: "putTitle", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaTitle\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTitle(object @value)
         {
@@ -978,6 +1019,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaUpdatedAt" />)[]</param>
         [JsiiMethod(name: "putUpdatedAt", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAt\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUpdatedAt(object @value)
         {
@@ -1001,6 +1043,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVendorSeverity" />)[]</param>
         [JsiiMethod(name: "putVendorSeverity", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverity\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVendorSeverity(object @value)
         {
@@ -1024,6 +1067,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerabilityId" />)[]</param>
         [JsiiMethod(name: "putVulnerabilityId", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityId\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVulnerabilityId(object @value)
         {
@@ -1047,6 +1091,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerabilitySource" />)[]</param>
         [JsiiMethod(name: "putVulnerabilitySource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVulnerabilitySource(object @value)
         {
@@ -1070,6 +1115,7 @@ namespace aws.Inspector2Filter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackages" />)[]</param>
         [JsiiMethod(name: "putVulnerablePackages", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackages\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVulnerablePackages(object @value)
         {
@@ -1645,6 +1691,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<aws.Inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaAwsAccountId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AwsAccountIdInput
@@ -1652,6 +1701,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeRepositoryProjectName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeRepositoryProjectNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeRepositoryProjectNameInput
@@ -1659,6 +1711,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeRepositoryProviderType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeRepositoryProviderTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeRepositoryProviderTypeInput
@@ -1666,6 +1721,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeVulnerabilityDetectorName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeVulnerabilityDetectorNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeVulnerabilityDetectorNameInput
@@ -1673,6 +1731,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeVulnerabilityDetectorTagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeVulnerabilityDetectorTagsInput
@@ -1680,6 +1741,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaCodeVulnerabilityFilePath" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeVulnerabilityFilePathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CodeVulnerabilityFilePathInput
@@ -1687,6 +1751,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaComponentId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "componentIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComponentIdInput
@@ -1694,6 +1761,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaComponentType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "componentTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ComponentTypeInput
@@ -1701,6 +1771,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceImageId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2InstanceImageIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ec2InstanceImageIdInput
@@ -1708,6 +1781,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceSubnetId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2InstanceSubnetIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ec2InstanceSubnetIdInput
@@ -1715,6 +1791,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEc2InstanceVpcId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ec2InstanceVpcIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ec2InstanceVpcIdInput
@@ -1722,6 +1801,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageArchitecture" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageArchitectureInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitecture\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageArchitectureInput
@@ -1729,6 +1811,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageHash" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageHashInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHash\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageHashInput
@@ -1736,6 +1821,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageInUseCount" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageInUseCountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageInUseCountInput
@@ -1743,6 +1831,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageLastInUseAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageLastInUseAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageLastInUseAtInput
@@ -1750,6 +1841,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImagePushedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImagePushedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImagePushedAtInput
@@ -1757,6 +1851,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageRegistry" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageRegistryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageRegistryInput
@@ -1764,6 +1861,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageRepositoryName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageRepositoryNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageRepositoryNameInput
@@ -1771,6 +1871,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEcrImageTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecrImageTagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcrImageTagsInput
@@ -1778,6 +1881,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaEpssScore" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "epssScoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScore\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EpssScoreInput
@@ -1785,6 +1891,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaExploitAvailable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exploitAvailableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExploitAvailableInput
@@ -1792,6 +1901,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFindingArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingArnInput
@@ -1799,6 +1911,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFindingStatus" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingStatusInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatus\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingStatusInput
@@ -1806,6 +1921,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFindingType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "findingTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FindingTypeInput
@@ -1813,6 +1931,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFirstObservedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firstObservedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FirstObservedAtInput
@@ -1820,6 +1941,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaFixAvailable" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixAvailableInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailable\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FixAvailableInput
@@ -1827,6 +1951,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaInspectorScore" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inspectorScoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScore\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InspectorScoreInput
@@ -1834,6 +1961,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionExecutionRoleArnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionExecutionRoleArnInput
@@ -1841,6 +1971,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionLastModifiedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionLastModifiedAtInput
@@ -1848,6 +1981,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionLayers" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionLayersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionLayersInput
@@ -1855,6 +1991,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionNameInput
@@ -1862,6 +2001,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLambdaFunctionRuntime" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaFunctionRuntimeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntime\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaFunctionRuntimeInput
@@ -1869,6 +2011,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaLastObservedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lastObservedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LastObservedAtInput
@@ -1876,6 +2021,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaNetworkProtocol" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkProtocolInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocol\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NetworkProtocolInput
@@ -1883,6 +2031,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaPortRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PortRangeInput
@@ -1890,6 +2041,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaRelatedVulnerabilities" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relatedVulnerabilitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilities\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RelatedVulnerabilitiesInput
@@ -1897,6 +2051,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaResourceId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceIdInput
@@ -1904,6 +2061,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaResourceTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceTagsInput
@@ -1911,6 +2071,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaResourceType" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ResourceTypeInput
@@ -1918,6 +2081,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaSeverity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "severityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SeverityInput
@@ -1925,6 +2091,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaTitle" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "titleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaTitle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TitleInput
@@ -1932,6 +2101,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaUpdatedAt" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "updatedAtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAt\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UpdatedAtInput
@@ -1939,6 +2111,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVendorSeverity" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vendorSeverityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VendorSeverityInput
@@ -1946,6 +2121,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerabilityId" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vulnerabilityIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityId\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VulnerabilityIdInput
@@ -1953,6 +2131,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerabilitySource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vulnerabilitySourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VulnerabilitySourceInput
@@ -1960,6 +2141,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackages" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vulnerablePackagesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackages\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VulnerablePackagesInput
@@ -1967,6 +2151,9 @@ namespace aws.Inspector2Filter
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteria" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.inspector2Filter.Inspector2FilterFilterCriteria\"}]}}", isOptional: true)]
         public virtual object? InternalValue

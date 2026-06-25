@@ -77,6 +77,12 @@ namespace oci.DataOciDatabaseVmClusters
             get => GetInstanceProperty<oci.DataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersDataCollectionOptionsList>()!;
         }
 
+        [JsiiProperty(name: "dataStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DataStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "dataStorageSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double DataStorageSizeInGb
         {
@@ -197,10 +203,22 @@ namespace oci.DataOciDatabaseVmClusters
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "recoStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RecoStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Shape
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sparseStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SparseStoragePercentage
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "sshPublicKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
@@ -245,6 +263,12 @@ namespace oci.DataOciDatabaseVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "vmBackupStorageType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmBackupStorageType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "vmClusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VmClusterNetworkId
         {
@@ -253,6 +277,12 @@ namespace oci.DataOciDatabaseVmClusters
 
         [JsiiProperty(name: "vmClusterType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VmClusterType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vmFileSystemStorageType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmFileSystemStorageType
         {
             get => GetInstanceProperty<string>()!;
         }

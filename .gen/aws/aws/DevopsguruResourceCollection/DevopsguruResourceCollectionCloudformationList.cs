@@ -41,6 +41,9 @@ namespace aws.DevopsguruResourceCollection
             return InvokeInstanceMethod<aws.DevopsguruResourceCollection.DevopsguruResourceCollectionCloudformationOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DevopsguruResourceCollection.IDevopsguruResourceCollectionCloudformation" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

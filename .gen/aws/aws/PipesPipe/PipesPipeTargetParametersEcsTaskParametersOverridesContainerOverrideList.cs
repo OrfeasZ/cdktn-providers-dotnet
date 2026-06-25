@@ -41,6 +41,9 @@ namespace aws.PipesPipe
             return InvokeInstanceMethod<aws.PipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

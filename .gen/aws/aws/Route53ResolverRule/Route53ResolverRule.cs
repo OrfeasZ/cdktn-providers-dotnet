@@ -46,6 +46,7 @@ namespace aws.Route53ResolverRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Route53ResolverRule.Route53ResolverRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53ResolverRule.IRoute53ResolverRuleTargetIp" />)[]</param>
         [JsiiMethod(name: "putTargetIp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53ResolverRule.Route53ResolverRuleTargetIp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetIp(object @value)
         {
@@ -228,6 +229,9 @@ namespace aws.Route53ResolverRule
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53ResolverRule.IRoute53ResolverRuleTargetIp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetIpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53ResolverRule.Route53ResolverRuleTargetIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetIpInput
@@ -235,6 +239,9 @@ namespace aws.Route53ResolverRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ResolverRule.IRoute53ResolverRuleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ResolverRule.Route53ResolverRuleTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

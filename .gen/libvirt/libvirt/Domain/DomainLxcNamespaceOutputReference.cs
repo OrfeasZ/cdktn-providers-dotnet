@@ -87,6 +87,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainLxcNamespaceShareUtsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainLxcNamespaceShareIpc" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareIpcInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainLxcNamespaceShareIpc\"}]}}", isOptional: true)]
         public virtual object? ShareIpcInput
@@ -94,6 +97,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainLxcNamespaceShareNet" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareNetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainLxcNamespaceShareNet\"}]}}", isOptional: true)]
         public virtual object? ShareNetInput
@@ -101,6 +107,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainLxcNamespaceShareUts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareUtsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainLxcNamespaceShareUts\"}]}}", isOptional: true)]
         public virtual object? ShareUtsInput
@@ -108,6 +117,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainLxcNamespace" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainLxcNamespace\"}]}}", isOptional: true)]
         public virtual object? InternalValue

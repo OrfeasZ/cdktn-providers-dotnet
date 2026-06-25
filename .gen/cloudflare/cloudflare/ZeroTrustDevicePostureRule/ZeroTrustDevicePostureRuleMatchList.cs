@@ -41,6 +41,9 @@ namespace cloudflare.ZeroTrustDevicePostureRule
             return InvokeInstanceMethod<cloudflare.ZeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatchOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDevicePostureRule.IZeroTrustDevicePostureRuleMatch" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDevicePostureRule.ZeroTrustDevicePostureRuleMatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

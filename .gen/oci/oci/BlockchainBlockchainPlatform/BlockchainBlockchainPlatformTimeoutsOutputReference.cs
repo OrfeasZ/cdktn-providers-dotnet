@@ -93,6 +93,9 @@ namespace oci.BlockchainBlockchainPlatform
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BlockchainBlockchainPlatform.IBlockchainBlockchainPlatformTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.blockchainBlockchainPlatform.BlockchainBlockchainPlatformTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

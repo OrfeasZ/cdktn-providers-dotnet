@@ -73,6 +73,9 @@ namespace aws.BedrockGuardrailVersion
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockGuardrailVersion.IBedrockGuardrailVersionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

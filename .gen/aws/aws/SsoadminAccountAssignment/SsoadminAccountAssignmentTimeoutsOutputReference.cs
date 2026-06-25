@@ -73,6 +73,9 @@ namespace aws.SsoadminAccountAssignment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SsoadminAccountAssignment.ISsoadminAccountAssignmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

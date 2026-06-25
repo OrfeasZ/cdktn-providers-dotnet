@@ -35,6 +35,7 @@ namespace aws.AppsyncChannelNamespace
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublish" />)[]</param>
         [JsiiMethod(name: "putOnPublish", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublish\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOnPublish(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.AppsyncChannelNamespace
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnSubscribe" />)[]</param>
         [JsiiMethod(name: "putOnSubscribe", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnSubscribe\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOnSubscribe(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<aws.AppsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnSubscribeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublish" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onPublishInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublish\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OnPublishInput
@@ -112,6 +117,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnSubscribe" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onSubscribeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnSubscribe\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OnSubscribeInput
@@ -119,6 +127,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

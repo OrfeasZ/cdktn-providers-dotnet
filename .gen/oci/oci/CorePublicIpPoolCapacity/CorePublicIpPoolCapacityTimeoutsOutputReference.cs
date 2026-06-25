@@ -93,6 +93,9 @@ namespace oci.CorePublicIpPoolCapacity
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CorePublicIpPoolCapacity.ICorePublicIpPoolCapacityTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.corePublicIpPoolCapacity.CorePublicIpPoolCapacityTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

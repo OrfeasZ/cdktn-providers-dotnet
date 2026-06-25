@@ -41,6 +41,9 @@ namespace oci.ContainerInstancesContainerInstance
             return InvokeInstanceMethod<oci.ContainerInstancesContainerInstance.ContainerInstancesContainerInstanceImagePullSecretsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceImagePullSecrets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceImagePullSecrets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

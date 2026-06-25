@@ -93,6 +93,9 @@ namespace aws.MskconnectConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.MskconnectConnector.IMskconnectConnectorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

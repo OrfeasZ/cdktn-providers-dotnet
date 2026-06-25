@@ -33,6 +33,7 @@ namespace aws.AppmeshRoute
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteActionWeightedTarget" />)[]</param>
         [JsiiMethod(name: "putWeightedTarget", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteActionWeightedTarget\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWeightedTarget(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.AppmeshRoute
             get => GetInstanceProperty<aws.AppmeshRoute.AppmeshRouteSpecGrpcRouteActionWeightedTargetList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecGrpcRouteActionWeightedTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "weightedTargetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecGrpcRouteActionWeightedTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WeightedTargetInput

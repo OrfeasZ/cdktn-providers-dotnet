@@ -41,6 +41,9 @@ namespace aws.ServicecatalogProvisionedProduct
             return InvokeInstanceMethod<aws.ServicecatalogProvisionedProduct.ServicecatalogProvisionedProductProvisioningParametersOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServicecatalogProvisionedProduct.IServicecatalogProvisionedProductProvisioningParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProductProvisioningParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

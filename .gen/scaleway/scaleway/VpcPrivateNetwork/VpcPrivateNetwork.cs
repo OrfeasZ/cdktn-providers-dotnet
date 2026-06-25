@@ -52,6 +52,7 @@ namespace scaleway.VpcPrivateNetwork
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.VpcPrivateNetwork.IVpcPrivateNetworkIpv4Subnet)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcPrivateNetwork.IVpcPrivateNetworkIpv6Subnets" />)[]</param>
         [JsiiMethod(name: "putIpv6Subnets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcPrivateNetwork.VpcPrivateNetworkIpv6Subnets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpv6Subnets(object @value)
         {
@@ -190,6 +191,9 @@ namespace scaleway.VpcPrivateNetwork
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enableDefaultRoutePropagationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnableDefaultRoutePropagationInput
@@ -211,6 +215,9 @@ namespace scaleway.VpcPrivateNetwork
             get => GetInstanceProperty<scaleway.VpcPrivateNetwork.IVpcPrivateNetworkIpv4Subnet?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.VpcPrivateNetwork.IVpcPrivateNetworkIpv6Subnets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6SubnetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.vpcPrivateNetwork.VpcPrivateNetworkIpv6Subnets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Ipv6SubnetsInput
@@ -218,6 +225,9 @@ namespace scaleway.VpcPrivateNetwork
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isRegionalInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsRegionalInput
@@ -267,6 +277,9 @@ namespace scaleway.VpcPrivateNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enableDefaultRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EnableDefaultRoutePropagation
         {
@@ -301,6 +314,9 @@ namespace scaleway.VpcPrivateNetwork
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isRegional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsRegional
         {

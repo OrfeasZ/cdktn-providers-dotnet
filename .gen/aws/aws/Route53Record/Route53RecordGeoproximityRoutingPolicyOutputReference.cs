@@ -33,6 +33,7 @@ namespace aws.Route53Record
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicyCoordinates" />)[]</param>
         [JsiiMethod(name: "putCoordinates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCoordinates(object @value)
         {
@@ -100,6 +101,9 @@ namespace aws.Route53Record
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicyCoordinates" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "coordinatesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicyCoordinates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CoordinatesInput

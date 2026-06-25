@@ -93,6 +93,9 @@ namespace oci.SchServiceConnector
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.SchServiceConnector.ISchServiceConnectorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

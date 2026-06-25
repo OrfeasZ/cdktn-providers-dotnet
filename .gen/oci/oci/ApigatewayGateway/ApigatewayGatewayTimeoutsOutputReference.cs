@@ -93,6 +93,9 @@ namespace oci.ApigatewayGateway
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApigatewayGateway.IApigatewayGatewayTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

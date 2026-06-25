@@ -12,6 +12,7 @@ namespace libvirt.Domain
         /// <summary>Lists individual QEMU frontend properties to override on the selected device.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#properties Domain#properties}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuOverrideDevicesFrontendProperties" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "properties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevicesFrontendProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]

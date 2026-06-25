@@ -46,6 +46,7 @@ namespace aws.GlueMlTransform
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.GlueMlTransform.GlueMlTransform), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueMlTransform.IGlueMlTransformInputRecordTables" />)[]</param>
         [JsiiMethod(name: "putInputRecordTables", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueMlTransform.GlueMlTransformInputRecordTables\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInputRecordTables(object @value)
         {
@@ -211,6 +212,9 @@ namespace aws.GlueMlTransform
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueMlTransform.IGlueMlTransformInputRecordTables" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputRecordTablesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueMlTransform.GlueMlTransformInputRecordTables\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InputRecordTablesInput

@@ -122,6 +122,9 @@ namespace aws.EbsFastSnapshotRestore
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EbsFastSnapshotRestore.IEbsFastSnapshotRestoreTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -46,6 +46,7 @@ namespace aws.S3BucketCorsConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.S3BucketCorsConfiguration.S3BucketCorsConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketCorsConfiguration.IS3BucketCorsConfigurationCorsRule" />)[]</param>
         [JsiiMethod(name: "putCorsRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCorsRule(object @value)
         {
@@ -119,6 +120,9 @@ namespace aws.S3BucketCorsConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketCorsConfiguration.IS3BucketCorsConfigurationCorsRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "corsRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CorsRuleInput

@@ -63,6 +63,9 @@ namespace stripe.Coupon
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Coupon.ICouponCurrencyOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.coupon.CouponCurrencyOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,12 @@ namespace oci.DataOciFileStorageFilesystemSnapshotPolicies
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "lockDurationDetails", typeJson: "{\"fqn\":\"oci.dataOciFileStorageFilesystemSnapshotPolicies.DataOciFileStorageFilesystemSnapshotPoliciesFilesystemSnapshotPoliciesSchedulesLockDurationDetailsList\"}")]
+        public virtual oci.DataOciFileStorageFilesystemSnapshotPolicies.DataOciFileStorageFilesystemSnapshotPoliciesFilesystemSnapshotPoliciesSchedulesLockDurationDetailsList LockDurationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciFileStorageFilesystemSnapshotPolicies.DataOciFileStorageFilesystemSnapshotPoliciesFilesystemSnapshotPoliciesSchedulesLockDurationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Month
         {

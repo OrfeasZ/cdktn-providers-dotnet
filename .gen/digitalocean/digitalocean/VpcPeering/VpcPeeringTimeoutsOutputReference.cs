@@ -73,6 +73,9 @@ namespace digitalocean.VpcPeering
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.VpcPeering.IVpcPeeringTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.vpcPeering.VpcPeeringTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

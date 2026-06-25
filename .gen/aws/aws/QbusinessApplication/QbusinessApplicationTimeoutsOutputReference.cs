@@ -93,6 +93,9 @@ namespace aws.QbusinessApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.QbusinessApplication.IQbusinessApplicationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.qbusinessApplication.QbusinessApplicationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -109,6 +109,9 @@ namespace aws.ElasticacheUserGroupAssociation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheUserGroupAssociation.IElasticacheUserGroupAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -63,6 +63,9 @@ namespace aws.DataAwsVpcIpams
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsVpcIpams.IDataAwsVpcIpamsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsVpcIpams.DataAwsVpcIpamsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.TransferAccess
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TransferAccess.TransferAccess), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferAccess.ITransferAccessHomeDirectoryMappings" />)[]</param>
         [JsiiMethod(name: "putHomeDirectoryMappings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferAccess.TransferAccessHomeDirectoryMappings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHomeDirectoryMappings(object @value)
         {
@@ -168,6 +169,9 @@ namespace aws.TransferAccess
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferAccess.ITransferAccessHomeDirectoryMappings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "homeDirectoryMappingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferAccess.TransferAccessHomeDirectoryMappings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HomeDirectoryMappingsInput

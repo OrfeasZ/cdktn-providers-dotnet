@@ -53,6 +53,9 @@ namespace aws.LbTrustStoreRevocation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LbTrustStoreRevocation.ILbTrustStoreRevocationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

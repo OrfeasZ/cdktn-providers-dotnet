@@ -41,6 +41,9 @@ namespace aws.S3Bucket
             return InvokeInstanceMethod<aws.S3Bucket.S3BucketGrantOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketGrant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

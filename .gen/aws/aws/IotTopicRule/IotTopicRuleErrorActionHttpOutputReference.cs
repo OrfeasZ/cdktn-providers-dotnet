@@ -33,6 +33,7 @@ namespace aws.IotTopicRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleErrorActionHttpHttpHeader" />)[]</param>
         [JsiiMethod(name: "putHttpHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionHttpHttpHeader\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHttpHeader(object @value)
         {
@@ -81,6 +82,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleErrorActionHttpHttpHeader" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionHttpHttpHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HttpHeaderInput

@@ -63,6 +63,9 @@ namespace oci.IdentityDomainsNotificationSetting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsNotificationSetting.IIdentityDomainsNotificationSettingTags" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsNotificationSetting.IdentityDomainsNotificationSettingTags\"}]}}", isOptional: true)]
         public virtual object? InternalValue

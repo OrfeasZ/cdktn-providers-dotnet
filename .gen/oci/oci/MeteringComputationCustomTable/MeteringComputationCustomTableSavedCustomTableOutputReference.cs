@@ -33,6 +33,7 @@ namespace oci.MeteringComputationCustomTable
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MeteringComputationCustomTable.IMeteringComputationCustomTableSavedCustomTableGroupByTag" />)[]</param>
         [JsiiMethod(name: "putGroupByTag", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.meteringComputationCustomTable.MeteringComputationCustomTableSavedCustomTableGroupByTag\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutGroupByTag(object @value)
         {
@@ -113,6 +114,9 @@ namespace oci.MeteringComputationCustomTable
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MeteringComputationCustomTable.IMeteringComputationCustomTableSavedCustomTableGroupByTag" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupByTagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.meteringComputationCustomTable.MeteringComputationCustomTableSavedCustomTableGroupByTag\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GroupByTagInput

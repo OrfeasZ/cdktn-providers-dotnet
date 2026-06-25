@@ -160,6 +160,9 @@ namespace scaleway.LbPrivateNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.LbPrivateNetwork.ILbPrivateNetworkTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.lbPrivateNetwork.LbPrivateNetworkTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

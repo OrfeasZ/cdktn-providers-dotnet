@@ -51,6 +51,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<libvirt.Network.NetworkVirtualPortParamsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkVirtualPortParams" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paramsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkVirtualPortParams\"}]}}", isOptional: true)]
         public virtual object? ParamsInput
@@ -58,6 +61,9 @@ namespace libvirt.Network
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Network.INetworkVirtualPort" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.network.NetworkVirtualPort\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.SsmDocument
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SsmDocument.SsmDocument), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmDocument.ISsmDocumentAttachmentsSource" />)[]</param>
         [JsiiMethod(name: "putAttachmentsSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmDocument.SsmDocumentAttachmentsSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAttachmentsSource(object @value)
         {
@@ -226,6 +227,9 @@ namespace aws.SsmDocument
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmDocument.ISsmDocumentAttachmentsSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "attachmentsSourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmDocument.SsmDocumentAttachmentsSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AttachmentsSourceInput

@@ -19,6 +19,9 @@ namespace aws.BedrockagentAgent
         private object? _sessionSummaryConfiguration;
 
         /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagent_agent#session_summary_configuration BedrockagentAgent#session_summary_configuration}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentMemoryConfigurationSessionSummaryConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionSummaryConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? SessionSummaryConfiguration

@@ -59,6 +59,12 @@ namespace oci.CoreClusterNetwork
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "currentSize", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CurrentSize
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -171,6 +177,9 @@ namespace oci.CoreClusterNetwork
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreClusterNetwork.ICoreClusterNetworkInstancePools" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkInstancePools\"}]}}", isOptional: true)]
         public virtual object? InternalValue

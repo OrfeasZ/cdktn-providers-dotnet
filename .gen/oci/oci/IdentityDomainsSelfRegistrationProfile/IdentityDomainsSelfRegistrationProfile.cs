@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IdentityDomainsSelfRegistrationProfile
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_self_registration_profile oci_identity_domains_self_registration_profile}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_self_registration_profile oci_identity_domains_self_registration_profile}.</summary>
     [JsiiClass(nativeType: typeof(oci.IdentityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfile), fullyQualifiedName: "oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfile", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileConfig\"}}]")]
     public class IdentityDomainsSelfRegistrationProfile : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_self_registration_profile oci_identity_domains_self_registration_profile} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_self_registration_profile oci_identity_domains_self_registration_profile} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IdentityDomainsSelfRegistrationProfile(Constructs.Construct scope, string id, oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
         /// <param name="importToId">The construct id used in the generated config for the IdentityDomainsSelfRegistrationProfile to import.</param>
         /// <param name="importFromId">The id of the existing IdentityDomainsSelfRegistrationProfile that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IdentityDomainsSelfRegistrationProfile to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsSelfRegistrationProfile to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/identity_domains_self_registration_profile#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsSelfRegistrationProfile that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsSelfRegistrationProfile to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IdentityDomainsSelfRegistrationProfile to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/identity_domains_self_registration_profile#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IdentityDomainsSelfRegistrationProfile that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IdentityDomainsSelfRegistrationProfile to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IdentityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileAfterSubmitText" />)[]</param>
         [JsiiMethod(name: "putAfterSubmitText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileAfterSubmitText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAfterSubmitText(object @value)
         {
@@ -69,6 +70,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileConsentText" />)[]</param>
         [JsiiMethod(name: "putConsentText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileConsentText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutConsentText(object @value)
         {
@@ -92,6 +94,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileDefaultGroups" />)[]</param>
         [JsiiMethod(name: "putDefaultGroups", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileDefaultGroups\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDefaultGroups(object @value)
         {
@@ -115,6 +118,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileDisplayName" />)[]</param>
         [JsiiMethod(name: "putDisplayName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileDisplayName\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDisplayName(object @value)
         {
@@ -144,6 +148,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileEmailTemplate)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileFooterText" />)[]</param>
         [JsiiMethod(name: "putFooterText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileFooterText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFooterText(object @value)
         {
@@ -167,6 +172,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileHeaderText" />)[]</param>
         [JsiiMethod(name: "putHeaderText", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileHeaderText\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHeaderText(object @value)
         {
@@ -190,6 +196,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileTags" />)[]</param>
         [JsiiMethod(name: "putTags", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileTags\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTags(object @value)
         {
@@ -219,6 +226,7 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileUserAttributes" />)[]</param>
         [JsiiMethod(name: "putUserAttributes", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileUserAttributes\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUserAttributes(object @value)
         {
@@ -495,6 +503,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<oci.IdentityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileUserAttributesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activationEmailRequiredInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ActivationEmailRequiredInput
@@ -502,6 +513,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ActiveInput
@@ -509,6 +523,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileAfterSubmitText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "afterSubmitTextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileAfterSubmitText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AfterSubmitTextInput
@@ -544,6 +561,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileConsentText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consentTextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileConsentText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ConsentTextInput
@@ -551,6 +571,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consentTextPresentInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ConsentTextPresentInput
@@ -558,6 +581,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileDefaultGroups" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultGroupsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileDefaultGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DefaultGroupsInput
@@ -572,6 +598,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileDisplayName" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileDisplayName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DisplayNameInput
@@ -600,6 +629,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileFooterText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "footerTextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileFooterText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FooterTextInput
@@ -614,6 +646,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileHeaderText" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headerTextInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileHeaderText\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HeaderTextInput
@@ -670,6 +705,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "showOnLoginPageInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ShowOnLoginPageInput
@@ -677,6 +715,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TagsInput
@@ -684,6 +725,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -691,6 +735,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsSelfRegistrationProfile.IIdentityDomainsSelfRegistrationProfileUserAttributes" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userAttributesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsSelfRegistrationProfile.IdentityDomainsSelfRegistrationProfileUserAttributes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserAttributesInput
@@ -698,6 +745,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "activationEmailRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ActivationEmailRequired
         {
@@ -725,6 +775,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Active
         {
@@ -780,6 +833,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "consentTextPresent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ConsentTextPresent
         {
@@ -884,6 +940,9 @@ namespace oci.IdentityDomainsSelfRegistrationProfile
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "showOnLoginPage", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ShowOnLoginPage
         {

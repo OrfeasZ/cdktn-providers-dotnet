@@ -46,6 +46,7 @@ namespace aws.DataAwsS3FilesFileSystems
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsS3FilesFileSystems.DataAwsS3FilesFileSystems), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsS3FilesFileSystems.IDataAwsS3FilesFileSystemsFileSystems" />)[]</param>
         [JsiiMethod(name: "putFileSystems", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsS3FilesFileSystems.DataAwsS3FilesFileSystemsFileSystems\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFileSystems(object @value)
         {
@@ -106,6 +107,9 @@ namespace aws.DataAwsS3FilesFileSystems
             get => GetInstanceProperty<aws.DataAwsS3FilesFileSystems.DataAwsS3FilesFileSystemsFileSystemsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsS3FilesFileSystems.IDataAwsS3FilesFileSystemsFileSystems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystemsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsS3FilesFileSystems.DataAwsS3FilesFileSystemsFileSystems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FileSystemsInput

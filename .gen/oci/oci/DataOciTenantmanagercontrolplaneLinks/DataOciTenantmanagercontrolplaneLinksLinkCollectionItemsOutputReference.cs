@@ -41,6 +41,12 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Feature
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

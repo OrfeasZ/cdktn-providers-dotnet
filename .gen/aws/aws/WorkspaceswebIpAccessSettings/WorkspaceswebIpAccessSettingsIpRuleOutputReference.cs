@@ -69,6 +69,9 @@ namespace aws.WorkspaceswebIpAccessSettings
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspaceswebIpAccessSettings.IWorkspaceswebIpAccessSettingsIpRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

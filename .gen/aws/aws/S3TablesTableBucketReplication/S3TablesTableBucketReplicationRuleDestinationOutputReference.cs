@@ -49,6 +49,9 @@ namespace aws.S3TablesTableBucketReplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTableBucketReplication.IS3TablesTableBucketReplicationRuleDestination" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleDestination\"}]}}", isOptional: true)]
         public virtual object? InternalValue

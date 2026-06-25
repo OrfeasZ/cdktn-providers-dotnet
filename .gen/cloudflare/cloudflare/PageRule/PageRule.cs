@@ -107,6 +107,9 @@ namespace cloudflare.PageRule
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PageRule.IPageRuleActions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "actionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pageRule.PageRuleActions\"}]}}", isOptional: true)]
         public virtual object? ActionsInput

@@ -88,6 +88,7 @@ namespace aws.CognitoUserPool
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CognitoUserPool.ICognitoUserPoolPasswordPolicy)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPool.ICognitoUserPoolSchema" />)[]</param>
         [JsiiMethod(name: "putSchema", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSchema\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSchema(object @value)
         {
@@ -608,6 +609,9 @@ namespace aws.CognitoUserPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPool.ICognitoUserPoolSchema" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schemaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSchema\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SchemaInput

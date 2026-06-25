@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsApprovalWorkflow
             return InvokeInstanceMethod<oci.IdentityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTagsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowTags" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

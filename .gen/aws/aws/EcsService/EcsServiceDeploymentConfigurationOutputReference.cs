@@ -39,6 +39,7 @@ namespace aws.EcsService
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsService.IEcsServiceDeploymentConfigurationCanaryConfiguration)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHook" />)[]</param>
         [JsiiMethod(name: "putLifecycleHook", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHook\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLifecycleHook(object @value)
         {
@@ -130,6 +131,9 @@ namespace aws.EcsService
             get => GetInstanceProperty<aws.EcsService.IEcsServiceDeploymentConfigurationCanaryConfiguration?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHook" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleHookInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHook\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LifecycleHookInput

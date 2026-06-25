@@ -148,6 +148,9 @@ namespace cloudflare.MagicTransitSiteWan
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteWan.IMagicTransitSiteWanStaticAddressing" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "staticAddressingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteWan.MagicTransitSiteWanStaticAddressing\"}]}}", isOptional: true)]
         public virtual object? StaticAddressingInput

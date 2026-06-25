@@ -27,6 +27,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// <summary>Requires the SSH PIV key to be stored on a FIPS 140-2 Level 1 or higher validated device.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/zero_trust_organization#require_fips_device ZeroTrustOrganization#require_fips_device}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requireFipsDevice", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

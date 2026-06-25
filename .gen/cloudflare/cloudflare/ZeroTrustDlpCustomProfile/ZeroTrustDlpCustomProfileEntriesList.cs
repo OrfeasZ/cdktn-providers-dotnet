@@ -41,6 +41,9 @@ namespace cloudflare.ZeroTrustDlpCustomProfile
             return InvokeInstanceMethod<cloudflare.ZeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileEntriesOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDlpCustomProfile.IZeroTrustDlpCustomProfileEntries" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDlpCustomProfile.ZeroTrustDlpCustomProfileEntries\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

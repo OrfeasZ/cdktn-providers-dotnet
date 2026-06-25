@@ -73,6 +73,9 @@ namespace aws.Ec2TransitGatewayConnectPeer
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2TransitGatewayConnectPeer.IEc2TransitGatewayConnectPeerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2TransitGatewayConnectPeer.Ec2TransitGatewayConnectPeerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

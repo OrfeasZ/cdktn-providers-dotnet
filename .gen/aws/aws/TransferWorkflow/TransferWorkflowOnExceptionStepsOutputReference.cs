@@ -174,6 +174,9 @@ namespace aws.TransferWorkflow
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.TransferWorkflow.ITransferWorkflowOnExceptionSteps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.transferWorkflow.TransferWorkflowOnExceptionSteps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

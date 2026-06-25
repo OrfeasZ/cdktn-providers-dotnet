@@ -41,6 +41,9 @@ namespace aws.LaunchTemplate
             return InvokeInstanceMethod<aws.LaunchTemplate.LaunchTemplateTagSpecificationsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LaunchTemplate.ILaunchTemplateTagSpecifications" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.launchTemplate.LaunchTemplateTagSpecifications\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -133,6 +133,9 @@ namespace scaleway.EdgeServicesPipeline
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.EdgeServicesPipeline.IEdgeServicesPipelineTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.edgeServicesPipeline.EdgeServicesPipelineTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

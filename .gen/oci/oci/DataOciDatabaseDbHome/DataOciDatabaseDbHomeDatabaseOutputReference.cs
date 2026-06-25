@@ -215,6 +215,12 @@ namespace oci.DataOciDatabaseDbHome
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VmClusterId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDbHome.DataOciDatabaseDbHomeDatabase\"}", isOptional: true)]
         public virtual oci.DataOciDatabaseDbHome.IDataOciDatabaseDbHomeDatabase? InternalValue

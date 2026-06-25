@@ -46,6 +46,7 @@ namespace aws.AppfabricAppAuthorization
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppfabricAppAuthorization.AppfabricAppAuthorization), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredential" />)[]</param>
         [JsiiMethod(name: "putCredential", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredential\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCredential(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.AppfabricAppAuthorization
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationTenant" />)[]</param>
         [JsiiMethod(name: "putTenant", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenant\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTenant(object @value)
         {
@@ -228,6 +230,9 @@ namespace aws.AppfabricAppAuthorization
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredential" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "credentialInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredential\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CredentialInput
@@ -249,6 +254,9 @@ namespace aws.AppfabricAppAuthorization
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationTenant" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tenantInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TenantInput
@@ -256,6 +264,9 @@ namespace aws.AppfabricAppAuthorization
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

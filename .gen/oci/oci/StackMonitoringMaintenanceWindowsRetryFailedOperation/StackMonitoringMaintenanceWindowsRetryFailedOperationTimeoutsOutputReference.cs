@@ -93,6 +93,9 @@ namespace oci.StackMonitoringMaintenanceWindowsRetryFailedOperation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.StackMonitoringMaintenanceWindowsRetryFailedOperation.IStackMonitoringMaintenanceWindowsRetryFailedOperationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.stackMonitoringMaintenanceWindowsRetryFailedOperation.StackMonitoringMaintenanceWindowsRetryFailedOperationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -53,6 +53,9 @@ namespace aws.DataAwsAmiIds
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsAmiIds.IDataAwsAmiIdsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsAmiIds.DataAwsAmiIdsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

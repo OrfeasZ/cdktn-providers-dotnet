@@ -107,6 +107,9 @@ namespace aws.DataAwsSecretsmanagerSecretVersions
             get => GetInstanceProperty<aws.DataAwsSecretsmanagerSecretVersions.DataAwsSecretsmanagerSecretVersionsVersionsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeDeprecatedInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IncludeDeprecatedInput
@@ -128,6 +131,9 @@ namespace aws.DataAwsSecretsmanagerSecretVersions
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "includeDeprecated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IncludeDeprecated
         {

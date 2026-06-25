@@ -46,6 +46,7 @@ namespace cloudflare.CloudConnectorRules
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.CloudConnectorRules.CloudConnectorRules), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</param>
         [JsiiMethod(name: "putRules", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRules(object @value)
         {
@@ -106,6 +107,9 @@ namespace cloudflare.CloudConnectorRules
             get => GetInstanceProperty<cloudflare.CloudConnectorRules.CloudConnectorRulesRulesList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RulesInput

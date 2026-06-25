@@ -41,6 +41,9 @@ namespace aws.CloudfrontTrustStore
             return InvokeInstanceMethod<aws.CloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontTrustStore.ICloudfrontTrustStoreCaCertificatesBundleSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

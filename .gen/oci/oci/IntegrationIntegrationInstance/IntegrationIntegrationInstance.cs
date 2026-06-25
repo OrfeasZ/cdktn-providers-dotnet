@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.IntegrationIntegrationInstance
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/integration_integration_instance oci_integration_integration_instance}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/integration_integration_instance oci_integration_integration_instance}.</summary>
     [JsiiClass(nativeType: typeof(oci.IntegrationIntegrationInstance.IntegrationIntegrationInstance), fullyQualifiedName: "oci.integrationIntegrationInstance.IntegrationIntegrationInstance", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceConfig\"}}]")]
     public class IntegrationIntegrationInstance : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/integration_integration_instance oci_integration_integration_instance} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/integration_integration_instance oci_integration_integration_instance} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IntegrationIntegrationInstance(Constructs.Construct scope, string id, oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,12 +40,13 @@ namespace oci.IntegrationIntegrationInstance
         /// <param name="importToId">The construct id used in the generated config for the IntegrationIntegrationInstance to import.</param>
         /// <param name="importFromId">The id of the existing IntegrationIntegrationInstance that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IntegrationIntegrationInstance to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IntegrationIntegrationInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/integration_integration_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IntegrationIntegrationInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IntegrationIntegrationInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IntegrationIntegrationInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/integration_integration_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IntegrationIntegrationInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IntegrationIntegrationInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.IntegrationIntegrationInstance.IntegrationIntegrationInstance), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceAlternateCustomEndpoints" />)[]</param>
         [JsiiMethod(name: "putAlternateCustomEndpoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceAlternateCustomEndpoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAlternateCustomEndpoints(object @value)
         {
@@ -99,14 +100,32 @@ namespace oci.IntegrationIntegrationInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetConvertInstanceTrigger")]
+        public virtual void ResetConvertInstanceTrigger()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCustomEndpoint")]
         public virtual void ResetCustomEndpoint()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDataRetentionPeriod")]
+        public virtual void ResetDataRetentionPeriod()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDefinedTags")]
         public virtual void ResetDefinedTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDisableProcessAutomationTrigger")]
+        public virtual void ResetDisableProcessAutomationTrigger()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -171,6 +190,12 @@ namespace oci.IntegrationIntegrationInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLogGroupId")]
+        public virtual void ResetLogGroupId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNetworkEndpointDetails")]
         public virtual void ResetNetworkEndpointDetails()
         {
@@ -191,6 +216,12 @@ namespace oci.IntegrationIntegrationInstance
 
         [JsiiMethod(name: "resetState")]
         public virtual void ResetState()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSystemTags")]
+        public virtual void ResetSystemTags()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -236,12 +267,6 @@ namespace oci.IntegrationIntegrationInstance
         public virtual oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceCustomEndpointOutputReference CustomEndpoint
         {
             get => GetInstanceProperty<oci.IntegrationIntegrationInstance.IntegrationIntegrationInstanceCustomEndpointOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "dataRetentionPeriod", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DataRetentionPeriod
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "disasterRecoveryDetails", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceDisasterRecoveryDetailsList\"}")]
@@ -292,12 +317,6 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
-        public virtual Io.Cdktn.StringMap SystemTags
-        {
-            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
-        }
-
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {
@@ -316,6 +335,9 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceAlternateCustomEndpoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alternateCustomEndpointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceAlternateCustomEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AlternateCustomEndpointsInput
@@ -338,6 +360,13 @@ namespace oci.IntegrationIntegrationInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "convertInstanceTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? ConvertInstanceTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "customEndpointInput", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceCustomEndpoint\"}", isOptional: true)]
         public virtual oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceCustomEndpoint? CustomEndpointInput
         {
@@ -345,10 +374,24 @@ namespace oci.IntegrationIntegrationInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "dataRetentionPeriodInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DataRetentionPeriodInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "definedTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? DefinedTagsInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "disableProcessAutomationTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DisableProcessAutomationTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -414,6 +457,9 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isByolInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsByolInput
@@ -421,6 +467,9 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isDisasterRecoveryEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsDisasterRecoveryEnabledInput
@@ -428,6 +477,9 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isFileServerEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsFileServerEnabledInput
@@ -435,11 +487,21 @@ namespace oci.IntegrationIntegrationInstance
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isVisualBuilderEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsVisualBuilderEnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "logGroupIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LogGroupIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -478,6 +540,16 @@ namespace oci.IntegrationIntegrationInstance
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "systemTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SystemTagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
         {
@@ -498,10 +570,31 @@ namespace oci.IntegrationIntegrationInstance
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "convertInstanceTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ConvertInstanceTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dataRetentionPeriod", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DataRetentionPeriod
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> DefinedTags
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "disableProcessAutomationTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DisableProcessAutomationTrigger
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -568,6 +661,9 @@ namespace oci.IntegrationIntegrationInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isByol", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsByol
         {
@@ -595,6 +691,9 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isDisasterRecoveryEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsDisasterRecoveryEnabled
         {
@@ -622,6 +721,9 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isFileServerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsFileServerEnabled
         {
@@ -649,6 +751,9 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isVisualBuilderEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsVisualBuilderEnabled
         {
@@ -676,6 +781,13 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
+        [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LogGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "messagePacks", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MessagePacks
         {
@@ -701,6 +813,13 @@ namespace oci.IntegrationIntegrationInstance
         public virtual string State
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SystemTags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
     }

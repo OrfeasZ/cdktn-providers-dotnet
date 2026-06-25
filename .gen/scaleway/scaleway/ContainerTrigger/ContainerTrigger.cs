@@ -249,6 +249,9 @@ namespace scaleway.ContainerTrigger
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ContainerTrigger.IContainerTriggerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

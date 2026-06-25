@@ -47,6 +47,12 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "compartmentName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CompartmentName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

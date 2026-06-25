@@ -103,6 +103,9 @@ namespace aws.ShieldApplicationLayerAutomaticResponse
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ShieldApplicationLayerAutomaticResponse.IShieldApplicationLayerAutomaticResponseTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.shieldApplicationLayerAutomaticResponse.ShieldApplicationLayerAutomaticResponseTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -11,7 +11,7 @@ namespace oci.DatabaseDatabase
     {
         /// <summary>database block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#database DatabaseDatabase#database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#database DatabaseDatabase#database}
         /// </remarks>
         [JsiiProperty(name: "database", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabase\"}")]
         public oci.DatabaseDatabase.IDatabaseDatabaseDatabase Database
@@ -20,15 +20,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#db_home_id DatabaseDatabase#db_home_id}.</summary>
-        [JsiiProperty(name: "dbHomeId", typeJson: "{\"primitive\":\"string\"}")]
-        public string DbHomeId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#source DatabaseDatabase#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#source DatabaseDatabase#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {
@@ -36,7 +28,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#action_trigger DatabaseDatabase#action_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#action_trigger DatabaseDatabase#action_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ActionTrigger
@@ -45,7 +37,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#data_guard_action DatabaseDatabase#data_guard_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#data_guard_action DatabaseDatabase#data_guard_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataGuardAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataGuardAction
@@ -54,7 +46,16 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#db_version DatabaseDatabase#db_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#db_home_id DatabaseDatabase#db_home_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "dbHomeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? DbHomeId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#db_version DatabaseDatabase#db_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbVersion
@@ -63,7 +64,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#id DatabaseDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#id DatabaseDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +77,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#key_store_id DatabaseDatabase#key_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#key_store_id DatabaseDatabase#key_store_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyStoreId
@@ -85,7 +86,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#kms_key_id DatabaseDatabase#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#kms_key_id DatabaseDatabase#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -96,7 +97,10 @@ namespace oci.DatabaseDatabase
 
         private object? _kmsKeyMigration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#kms_key_migration DatabaseDatabase#kms_key_migration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#kms_key_migration DatabaseDatabase#kms_key_migration}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyMigration", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? KmsKeyMigration
@@ -125,7 +129,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#kms_key_rotation DatabaseDatabase#kms_key_rotation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#kms_key_rotation DatabaseDatabase#kms_key_rotation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyRotation", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? KmsKeyRotation
@@ -134,7 +138,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#kms_key_version_id DatabaseDatabase#kms_key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#kms_key_version_id DatabaseDatabase#kms_key_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyVersionId
@@ -143,9 +147,44 @@ namespace oci.DatabaseDatabase
             set;
         }
 
+        private object? _managedSoftwareUpdateDetails;
+
+        /// <summary>managed_software_update_details block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#managed_software_update_details DatabaseDatabase#managed_software_update_details}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "managedSoftwareUpdateDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseManagedSoftwareUpdateDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ManagedSoftwareUpdateDetails
+        {
+            get => _managedSoftwareUpdateDetails;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatabaseDatabase.IDatabaseDatabaseManagedSoftwareUpdateDetails).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _managedSoftwareUpdateDetails = value;
+            }
+        }
+
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#timeouts DatabaseDatabase#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#timeouts DatabaseDatabase#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseTimeouts\"}", isOptional: true)]
@@ -155,10 +194,19 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_database#vault_id DatabaseDatabase#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#vault_id DatabaseDatabase#vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VaultId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_database#vm_cluster_id DatabaseDatabase#vm_cluster_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? VmClusterId
         {
             get;
             set;
@@ -168,6 +216,7 @@ namespace oci.DatabaseDatabase
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -201,6 +250,7 @@ namespace oci.DatabaseDatabase
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -295,6 +345,7 @@ namespace oci.DatabaseDatabase
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

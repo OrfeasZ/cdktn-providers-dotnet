@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubProfileAvailableSoftwareSources.DataOciOsManagementHubProfileAvailableSoftwareSourcesFilter")]
     public class DataOciOsManagementHubProfileAvailableSoftwareSourcesFilter : oci.DataOciOsManagementHubProfileAvailableSoftwareSources.IDataOciOsManagementHubProfileAvailableSoftwareSourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_profile_available_software_sources#name DataOciOsManagementHubProfileAvailableSoftwareSources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_profile_available_software_sources#name DataOciOsManagementHubProfileAvailableSoftwareSources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_profile_available_software_sources#values DataOciOsManagementHubProfileAvailableSoftwareSources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_profile_available_software_sources#values DataOciOsManagementHubProfileAvailableSoftwareSources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,10 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/os_management_hub_profile_available_software_sources#regex DataOciOsManagementHubProfileAvailableSoftwareSources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/os_management_hub_profile_available_software_sources#regex DataOciOsManagementHubProfileAvailableSoftwareSources#regex}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regex", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public object? Regex

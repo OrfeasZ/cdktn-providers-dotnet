@@ -46,6 +46,7 @@ namespace aws.SesReceiptRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SesReceiptRule.SesReceiptRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleAddHeaderAction" />)[]</param>
         [JsiiMethod(name: "putAddHeaderAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleAddHeaderAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAddHeaderAction(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.SesReceiptRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleBounceAction" />)[]</param>
         [JsiiMethod(name: "putBounceAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleBounceAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBounceAction(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.SesReceiptRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleLambdaAction" />)[]</param>
         [JsiiMethod(name: "putLambdaAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleLambdaAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambdaAction(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.SesReceiptRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleS3Action" />)[]</param>
         [JsiiMethod(name: "putS3Action", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleS3Action\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3Action(object @value)
         {
@@ -138,6 +142,7 @@ namespace aws.SesReceiptRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleSnsAction" />)[]</param>
         [JsiiMethod(name: "putSnsAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleSnsAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSnsAction(object @value)
         {
@@ -161,6 +166,7 @@ namespace aws.SesReceiptRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleStopAction" />)[]</param>
         [JsiiMethod(name: "putStopAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleStopAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStopAction(object @value)
         {
@@ -184,6 +190,7 @@ namespace aws.SesReceiptRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleWorkmailAction" />)[]</param>
         [JsiiMethod(name: "putWorkmailAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleWorkmailAction\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWorkmailAction(object @value)
         {
@@ -358,6 +365,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<aws.SesReceiptRule.SesReceiptRuleWorkmailActionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleAddHeaderAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "addHeaderActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleAddHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AddHeaderActionInput
@@ -372,6 +382,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleBounceAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bounceActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleBounceAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BounceActionInput
@@ -379,6 +392,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -393,6 +409,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleLambdaAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleLambdaAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaActionInput
@@ -428,6 +447,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleS3Action" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3ActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleS3Action\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3ActionInput
@@ -435,6 +457,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scanEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ScanEnabledInput
@@ -442,6 +467,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleSnsAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snsActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleSnsAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SnsActionInput
@@ -449,6 +477,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleStopAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stopActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleStopAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StopActionInput
@@ -463,6 +494,9 @@ namespace aws.SesReceiptRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleWorkmailAction" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workmailActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sesReceiptRule.SesReceiptRuleWorkmailAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WorkmailActionInput
@@ -477,6 +511,9 @@ namespace aws.SesReceiptRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {
@@ -539,6 +576,9 @@ namespace aws.SesReceiptRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "scanEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ScanEnabled
         {

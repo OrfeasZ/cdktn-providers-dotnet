@@ -53,6 +53,9 @@ namespace aws.SagemakerModelCardExportJob
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerModelCardExportJob.ISagemakerModelCardExportJobTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerModelCardExportJob.SagemakerModelCardExportJobTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.OcvpDatastore
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpDatastore.IOcvpDatastoreTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpDatastore.OcvpDatastoreTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

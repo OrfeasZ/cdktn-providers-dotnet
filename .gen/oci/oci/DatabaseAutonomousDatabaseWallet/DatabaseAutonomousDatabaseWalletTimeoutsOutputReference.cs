@@ -93,6 +93,9 @@ namespace oci.DatabaseAutonomousDatabaseWallet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseAutonomousDatabaseWallet.IDatabaseAutonomousDatabaseWalletTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseAutonomousDatabaseWallet.DatabaseAutonomousDatabaseWalletTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

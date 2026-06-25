@@ -41,6 +41,12 @@ namespace oci.DataOciDesktopsDesktopPoolDesktops
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "desktopConnection", typeJson: "{\"fqn\":\"oci.dataOciDesktopsDesktopPoolDesktops.DataOciDesktopsDesktopPoolDesktopsDesktopPoolDesktopCollectionItemsDesktopConnectionList\"}")]
+        public virtual oci.DataOciDesktopsDesktopPoolDesktops.DataOciDesktopsDesktopPoolDesktopsDesktopPoolDesktopCollectionItemsDesktopConnectionList DesktopConnection
+        {
+            get => GetInstanceProperty<oci.DataOciDesktopsDesktopPoolDesktops.DataOciDesktopsDesktopPoolDesktopsDesktopPoolDesktopCollectionItemsDesktopConnectionList>()!;
+        }
+
         [JsiiProperty(name: "desktopId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DesktopId
         {
@@ -51,6 +57,12 @@ namespace oci.DataOciDesktopsDesktopPoolDesktops
         public virtual Io.Cdktn.StringMap FreeformTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "image", typeJson: "{\"fqn\":\"oci.dataOciDesktopsDesktopPoolDesktops.DataOciDesktopsDesktopPoolDesktopsDesktopPoolDesktopCollectionItemsImageList\"}")]
+        public virtual oci.DataOciDesktopsDesktopPoolDesktops.DataOciDesktopsDesktopPoolDesktopsDesktopPoolDesktopCollectionItemsImageList Image
+        {
+            get => GetInstanceProperty<oci.DataOciDesktopsDesktopPoolDesktops.DataOciDesktopsDesktopPoolDesktopsDesktopPoolDesktopCollectionItemsImageList>()!;
         }
 
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]

@@ -103,6 +103,9 @@ namespace aws.GlueMlTransform
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.GlueMlTransform.IGlueMlTransformInputRecordTables" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.glueMlTransform.GlueMlTransformInputRecordTables\"}]}}", isOptional: true)]
         public virtual object? InternalValue

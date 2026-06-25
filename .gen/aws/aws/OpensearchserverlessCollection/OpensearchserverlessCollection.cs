@@ -46,6 +46,7 @@ namespace aws.OpensearchserverlessCollection
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.OpensearchserverlessCollection.OpensearchserverlessCollection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionEncryptionConfig" />)[]</param>
         [JsiiMethod(name: "putEncryptionConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollection.OpensearchserverlessCollectionEncryptionConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEncryptionConfig(object @value)
         {
@@ -75,6 +76,7 @@ namespace aws.OpensearchserverlessCollection
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionVectorOptions" />)[]</param>
         [JsiiMethod(name: "putVectorOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutVectorOptions(object @value)
         {
@@ -239,6 +241,9 @@ namespace aws.OpensearchserverlessCollection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionEncryptionConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollection.OpensearchserverlessCollectionEncryptionConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EncryptionConfigInput
@@ -274,6 +279,9 @@ namespace aws.OpensearchserverlessCollection
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchserverlessCollection.OpensearchserverlessCollectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -288,6 +296,9 @@ namespace aws.OpensearchserverlessCollection
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionVectorOptions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vectorOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? VectorOptionsInput

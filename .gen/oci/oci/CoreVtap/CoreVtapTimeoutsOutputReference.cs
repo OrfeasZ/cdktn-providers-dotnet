@@ -93,6 +93,9 @@ namespace oci.CoreVtap
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreVtap.ICoreVtapTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreVtap.CoreVtapTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

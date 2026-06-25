@@ -47,6 +47,9 @@ namespace neon.DataNeonBranchRoles
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"neon.dataNeonBranchRoles.DataNeonBranchRolesRoles\"}]}}", isOptional: true)]
         public virtual object? InternalValue

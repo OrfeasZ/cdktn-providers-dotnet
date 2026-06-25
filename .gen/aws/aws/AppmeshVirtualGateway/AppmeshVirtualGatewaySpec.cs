@@ -14,6 +14,7 @@ namespace aws.AppmeshVirtualGateway
         /// <summary>listener block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appmesh_virtual_gateway#listener AppmeshVirtualGateway#listener}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualGateway.IAppmeshVirtualGatewaySpecListener" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "listener", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecListener\"},\"kind\":\"array\"}}]}}")]
         public object Listener

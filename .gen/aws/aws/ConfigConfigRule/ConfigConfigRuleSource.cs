@@ -34,6 +34,7 @@ namespace aws.ConfigConfigRule
         /// <summary>source_detail block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/config_config_rule#source_detail ConfigConfigRule#source_detail}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleSourceSourceDetail" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDetail", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleSourceSourceDetail\"},\"kind\":\"array\"}}]}}", isOptional: true)]

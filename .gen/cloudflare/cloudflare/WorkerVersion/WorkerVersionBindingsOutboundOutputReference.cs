@@ -33,6 +33,7 @@ namespace cloudflare.WorkerVersion
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionBindingsOutboundParams" />)[]</param>
         [JsiiMethod(name: "putParams", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsOutboundParams\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParams(object @value)
         {
@@ -86,6 +87,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionBindingsOutboundWorkerOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionBindingsOutboundParams" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paramsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsOutboundParams\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ParamsInput
@@ -93,6 +97,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionBindingsOutboundWorker" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsOutboundWorker\"}]}}", isOptional: true)]
         public virtual object? WorkerInput
@@ -100,6 +107,9 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionBindingsOutbound" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsOutbound\"}]}}", isOptional: true)]
         public virtual object? InternalValue

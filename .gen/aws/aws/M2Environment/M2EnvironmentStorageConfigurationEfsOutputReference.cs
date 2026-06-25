@@ -63,6 +63,9 @@ namespace aws.M2Environment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationEfs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.m2Environment.M2EnvironmentStorageConfigurationEfs\"}]}}", isOptional: true)]
         public virtual object? InternalValue

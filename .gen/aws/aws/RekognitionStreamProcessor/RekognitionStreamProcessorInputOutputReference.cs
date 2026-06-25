@@ -35,6 +35,7 @@ namespace aws.RekognitionStreamProcessor
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorInputKinesisVideoStream" />)[]</param>
         [JsiiMethod(name: "putKinesisVideoStream", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStream\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKinesisVideoStream(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<aws.RekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStreamList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorInputKinesisVideoStream" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesisVideoStreamInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStream\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KinesisVideoStreamInput
@@ -77,6 +81,9 @@ namespace aws.RekognitionStreamProcessor
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorInput" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rekognitionStreamProcessor.RekognitionStreamProcessorInput\"}]}}", isOptional: true)]
         public virtual object? InternalValue

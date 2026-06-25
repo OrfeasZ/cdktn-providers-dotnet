@@ -58,6 +58,7 @@ namespace scaleway.EdgeServicesBackendStage
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageFunctionBackendConfig)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageLbBackendConfig" />)[]</param>
         [JsiiMethod(name: "putLbBackendConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLbBackendConfig(object @value)
         {
@@ -199,6 +200,9 @@ namespace scaleway.EdgeServicesBackendStage
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesBackendStage.IEdgeServicesBackendStageLbBackendConfig" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lbBackendConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesBackendStage.EdgeServicesBackendStageLbBackendConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LbBackendConfigInput

@@ -41,6 +41,9 @@ namespace oci.DevopsRepositorySetting
             return InvokeInstanceMethod<oci.DevopsRepositorySetting.DevopsRepositorySettingApprovalRulesItemsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItems" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

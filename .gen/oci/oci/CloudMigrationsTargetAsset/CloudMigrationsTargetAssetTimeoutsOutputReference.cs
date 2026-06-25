@@ -93,6 +93,9 @@ namespace oci.CloudMigrationsTargetAsset
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

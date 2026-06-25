@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CloudBridgeAsset
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset}.</summary>
     [JsiiClass(nativeType: typeof(oci.CloudBridgeAsset.CloudBridgeAsset), fullyQualifiedName: "oci.cloudBridgeAsset.CloudBridgeAsset", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetConfig\"}}]")]
     public class CloudBridgeAsset : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CloudBridgeAsset(Constructs.Construct scope, string id, oci.CloudBridgeAsset.ICloudBridgeAssetConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace oci.CloudBridgeAsset
         /// <param name="importToId">The construct id used in the generated config for the CloudBridgeAsset to import.</param>
         /// <param name="importFromId">The id of the existing CloudBridgeAsset that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CloudBridgeAsset to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudBridgeAsset to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/cloud_bridge_asset#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudBridgeAsset that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudBridgeAsset to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudBridgeAsset to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/cloud_bridge_asset#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudBridgeAsset that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudBridgeAsset to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CloudBridgeAsset.CloudBridgeAsset), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putAttachedEbsVolumesCost", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAttachedEbsVolumesCost\"}}]")]
+        public virtual void PutAttachedEbsVolumesCost(oci.CloudBridgeAsset.ICloudBridgeAssetAttachedEbsVolumesCost @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudBridgeAsset.ICloudBridgeAssetAttachedEbsVolumesCost)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putAwsEbs", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEbs\"}}]")]
+        public virtual void PutAwsEbs(oci.CloudBridgeAsset.ICloudBridgeAssetAwsEbs @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudBridgeAsset.ICloudBridgeAssetAwsEbs)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putAwsEc2", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2\"}}]")]
+        public virtual void PutAwsEc2(oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2 @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putAwsEc2Cost", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2Cost\"}}]")]
+        public virtual void PutAwsEc2Cost(oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2Cost @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2Cost)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putCompute", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetCompute\"}}]")]
@@ -76,8 +100,50 @@ namespace oci.CloudBridgeAsset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CloudBridgeAsset.ICloudBridgeAssetVmwareVm)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAssetClassName")]
+        public virtual void ResetAssetClassName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAssetClassVersion")]
+        public virtual void ResetAssetClassVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAssetDetails")]
+        public virtual void ResetAssetDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAssetSourceIds")]
         public virtual void ResetAssetSourceIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAttachedEbsVolumesCost")]
+        public virtual void ResetAttachedEbsVolumesCost()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAwsEbs")]
+        public virtual void ResetAwsEbs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAwsEc2")]
+        public virtual void ResetAwsEc2()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAwsEc2Cost")]
+        public virtual void ResetAwsEc2Cost()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -155,10 +221,40 @@ namespace oci.CloudBridgeAsset
         }
         = GetStaticProperty<string>(typeof(oci.CloudBridgeAsset.CloudBridgeAsset))!;
 
+        [JsiiProperty(name: "attachedEbsVolumesCost", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAttachedEbsVolumesCostOutputReference\"}")]
+        public virtual oci.CloudBridgeAsset.CloudBridgeAssetAttachedEbsVolumesCostOutputReference AttachedEbsVolumesCost
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.CloudBridgeAssetAttachedEbsVolumesCostOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "awsEbs", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEbsOutputReference\"}")]
+        public virtual oci.CloudBridgeAsset.CloudBridgeAssetAwsEbsOutputReference AwsEbs
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.CloudBridgeAssetAwsEbsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "awsEc2", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2OutputReference\"}")]
+        public virtual oci.CloudBridgeAsset.CloudBridgeAssetAwsEc2OutputReference AwsEc2
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.CloudBridgeAssetAwsEc2OutputReference>()!;
+        }
+
+        [JsiiProperty(name: "awsEc2Cost", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2CostOutputReference\"}")]
+        public virtual oci.CloudBridgeAsset.CloudBridgeAssetAwsEc2CostOutputReference AwsEc2Cost
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.CloudBridgeAssetAwsEc2CostOutputReference>()!;
+        }
+
         [JsiiProperty(name: "compute", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetComputeOutputReference\"}")]
         public virtual oci.CloudBridgeAsset.CloudBridgeAssetComputeOutputReference Compute
         {
             get => GetInstanceProperty<oci.CloudBridgeAsset.CloudBridgeAssetComputeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EnvironmentType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -210,6 +306,27 @@ namespace oci.CloudBridgeAsset
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "assetClassNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AssetClassNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "assetClassVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AssetClassVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "assetDetailsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AssetDetailsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "assetSourceIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? AssetSourceIdsInput
         {
@@ -221,6 +338,34 @@ namespace oci.CloudBridgeAsset
         public virtual string? AssetTypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "attachedEbsVolumesCostInput", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAttachedEbsVolumesCost\"}", isOptional: true)]
+        public virtual oci.CloudBridgeAsset.ICloudBridgeAssetAttachedEbsVolumesCost? AttachedEbsVolumesCostInput
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.ICloudBridgeAssetAttachedEbsVolumesCost?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "awsEbsInput", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEbs\"}", isOptional: true)]
+        public virtual oci.CloudBridgeAsset.ICloudBridgeAssetAwsEbs? AwsEbsInput
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.ICloudBridgeAssetAwsEbs?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "awsEc2CostInput", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2Cost\"}", isOptional: true)]
+        public virtual oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2Cost? AwsEc2CostInput
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2Cost?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "awsEc2Input", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2\"}", isOptional: true)]
+        public virtual oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2? AwsEc2Input
+        {
+            get => GetInstanceProperty<oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2?>();
         }
 
         [JsiiOptional]
@@ -286,6 +431,9 @@ namespace oci.CloudBridgeAsset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CloudBridgeAsset.ICloudBridgeAssetTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -312,6 +460,27 @@ namespace oci.CloudBridgeAsset
         public virtual oci.CloudBridgeAsset.ICloudBridgeAssetVmwareVm? VmwareVmInput
         {
             get => GetInstanceProperty<oci.CloudBridgeAsset.ICloudBridgeAssetVmwareVm?>();
+        }
+
+        [JsiiProperty(name: "assetClassName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetClassName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "assetClassVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetClassVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "assetDetails", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AssetDetails
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "assetSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

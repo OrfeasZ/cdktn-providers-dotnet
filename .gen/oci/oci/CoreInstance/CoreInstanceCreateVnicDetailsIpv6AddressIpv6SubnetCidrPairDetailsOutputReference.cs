@@ -41,6 +41,12 @@ namespace oci.CoreInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIpv6Id")]
+        public virtual void ResetIpv6Id()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIpv6SubnetCidr")]
         public virtual void ResetIpv6SubnetCidr()
         {
@@ -50,6 +56,13 @@ namespace oci.CoreInstance
         [JsiiOptional]
         [JsiiProperty(name: "ipv6AddressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? Ipv6AddressInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ipv6IdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? Ipv6IdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -68,6 +81,13 @@ namespace oci.CoreInstance
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Ipv6Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Ipv6SubnetCidr
         {
@@ -75,6 +95,9 @@ namespace oci.CoreInstance
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreInstance.ICoreInstanceCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreInstance.CoreInstanceCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails\"}]}}", isOptional: true)]
         public virtual object? InternalValue

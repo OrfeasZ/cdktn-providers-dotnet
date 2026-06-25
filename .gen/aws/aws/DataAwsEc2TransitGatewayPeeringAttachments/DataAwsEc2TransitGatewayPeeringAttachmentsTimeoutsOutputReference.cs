@@ -53,6 +53,9 @@ namespace aws.DataAwsEc2TransitGatewayPeeringAttachments
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2TransitGatewayPeeringAttachments.IDataAwsEc2TransitGatewayPeeringAttachmentsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachmentsTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

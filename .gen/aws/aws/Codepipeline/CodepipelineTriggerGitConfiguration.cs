@@ -22,6 +22,7 @@ namespace aws.Codepipeline
         /// <summary>pull_request block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/codepipeline#pull_request Codepipeline#pull_request}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTriggerGitConfigurationPullRequest" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pullRequest", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequest\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -56,6 +57,7 @@ namespace aws.Codepipeline
         /// <summary>push block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/codepipeline#push Codepipeline#push}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineTriggerGitConfigurationPush" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "push", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineTriggerGitConfigurationPush\"},\"kind\":\"array\"}}]}}", isOptional: true)]

@@ -41,6 +41,12 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfiles
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isAutoIncludeAltName", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsAutoIncludeAltName
         {

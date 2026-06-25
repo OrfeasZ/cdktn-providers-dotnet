@@ -49,6 +49,9 @@ namespace cloudflare.UserGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.UserGroup.IUserGroupPoliciesResourceGroups" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.userGroup.UserGroupPoliciesResourceGroups\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -257,6 +257,12 @@ namespace oci.DataOciDisasterRecoveryDrProtectionGroup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "resourceModifierMappings", typeJson: "{\"fqn\":\"oci.dataOciDisasterRecoveryDrProtectionGroup.DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsList\"}")]
+        public virtual oci.DataOciDisasterRecoveryDrProtectionGroup.DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsList ResourceModifierMappings
+        {
+            get => GetInstanceProperty<oci.DataOciDisasterRecoveryDrProtectionGroup.DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsList>()!;
+        }
+
         [JsiiProperty(name: "sourceVolumeToDestinationEncryptionKeyMappings", typeJson: "{\"fqn\":\"oci.dataOciDisasterRecoveryDrProtectionGroup.DataOciDisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsList\"}")]
         public virtual oci.DataOciDisasterRecoveryDrProtectionGroup.DataOciDisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsList SourceVolumeToDestinationEncryptionKeyMappings
         {

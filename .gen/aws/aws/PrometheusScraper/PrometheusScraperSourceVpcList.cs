@@ -41,6 +41,9 @@ namespace aws.PrometheusScraper
             return InvokeInstanceMethod<aws.PrometheusScraper.PrometheusScraperSourceVpcOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperSourceVpc" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperSourceVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

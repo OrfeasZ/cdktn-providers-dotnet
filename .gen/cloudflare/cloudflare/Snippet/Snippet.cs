@@ -46,6 +46,7 @@ namespace cloudflare.Snippet
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.Snippet.Snippet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Snippet.ISnippetFiles" />)[]</param>
         [JsiiMethod(name: "putFiles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.snippet.SnippetFiles\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFiles(object @value)
         {
@@ -124,6 +125,9 @@ namespace cloudflare.Snippet
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Snippet.ISnippetFiles" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.snippet.SnippetFiles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilesInput
@@ -131,6 +135,9 @@ namespace cloudflare.Snippet
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Snippet.ISnippetMetadata" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.snippet.SnippetMetadata\"}]}}", isOptional: true)]
         public virtual object? MetadataInput

@@ -41,6 +41,9 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
             return InvokeInstanceMethod<oci.DataOciIdentityIamWorkRequestLogs.DataOciIdentityIamWorkRequestLogsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityIamWorkRequestLogs.IDataOciIdentityIamWorkRequestLogsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIdentityIamWorkRequestLogs.DataOciIdentityIamWorkRequestLogsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace digitalocean.Firewall
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.Firewall.Firewall), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Firewall.IFirewallInboundRule" />)[]</param>
         [JsiiMethod(name: "putInboundRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.firewall.FirewallInboundRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInboundRule(object @value)
         {
@@ -69,6 +70,7 @@ namespace digitalocean.Firewall
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Firewall.IFirewallOutboundRule" />)[]</param>
         [JsiiMethod(name: "putOutboundRule", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.firewall.FirewallOutboundRule\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutboundRule(object @value)
         {
@@ -185,6 +187,9 @@ namespace digitalocean.Firewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Firewall.IFirewallInboundRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inboundRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.firewall.FirewallInboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InboundRuleInput
@@ -199,6 +204,9 @@ namespace digitalocean.Firewall
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Firewall.IFirewallOutboundRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outboundRuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.firewall.FirewallOutboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutboundRuleInput

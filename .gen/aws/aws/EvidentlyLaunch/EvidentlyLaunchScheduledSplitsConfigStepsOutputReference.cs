@@ -35,6 +35,7 @@ namespace aws.EvidentlyLaunch
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides" />)[]</param>
         [JsiiMethod(name: "putSegmentOverrides", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSegmentOverrides(object @value)
         {
@@ -77,6 +78,9 @@ namespace aws.EvidentlyLaunch
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, double>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "segmentOverridesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SegmentOverridesInput
@@ -105,6 +109,9 @@ namespace aws.EvidentlyLaunch
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigSteps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps\"}]}}", isOptional: true)]
         public virtual object? InternalValue

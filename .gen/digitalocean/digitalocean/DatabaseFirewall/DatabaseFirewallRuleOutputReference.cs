@@ -75,6 +75,9 @@ namespace digitalocean.DatabaseFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DatabaseFirewall.IDatabaseFirewallRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.databaseFirewall.DatabaseFirewallRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

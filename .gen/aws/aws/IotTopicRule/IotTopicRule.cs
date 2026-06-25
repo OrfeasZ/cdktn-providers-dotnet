@@ -46,6 +46,7 @@ namespace aws.IotTopicRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.IotTopicRule.IotTopicRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchAlarm" />)[]</param>
         [JsiiMethod(name: "putCloudwatchAlarm", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchAlarm\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudwatchAlarm(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchLogs" />)[]</param>
         [JsiiMethod(name: "putCloudwatchLogs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchLogs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudwatchLogs(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchMetric" />)[]</param>
         [JsiiMethod(name: "putCloudwatchMetric", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchMetric\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCloudwatchMetric(object @value)
         {
@@ -115,6 +118,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodb" />)[]</param>
         [JsiiMethod(name: "putDynamodb", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleDynamodb\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDynamodb(object @value)
         {
@@ -138,6 +142,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodbv2" />)[]</param>
         [JsiiMethod(name: "putDynamodbv2", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleDynamodbv2\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDynamodbv2(object @value)
         {
@@ -161,6 +166,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleElasticsearch" />)[]</param>
         [JsiiMethod(name: "putElasticsearch", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleElasticsearch\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutElasticsearch(object @value)
         {
@@ -190,6 +196,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.IotTopicRule.IIotTopicRuleErrorAction)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleFirehose" />)[]</param>
         [JsiiMethod(name: "putFirehose", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleFirehose\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFirehose(object @value)
         {
@@ -213,6 +220,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttp" />)[]</param>
         [JsiiMethod(name: "putHttp", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleHttp\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHttp(object @value)
         {
@@ -236,6 +244,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotAnalytics" />)[]</param>
         [JsiiMethod(name: "putIotAnalytics", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleIotAnalytics\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIotAnalytics(object @value)
         {
@@ -259,6 +268,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotEvents" />)[]</param>
         [JsiiMethod(name: "putIotEvents", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleIotEvents\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIotEvents(object @value)
         {
@@ -282,6 +292,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKafka" />)[]</param>
         [JsiiMethod(name: "putKafka", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKafka\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKafka(object @value)
         {
@@ -305,6 +316,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKinesis" />)[]</param>
         [JsiiMethod(name: "putKinesis", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKinesis\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutKinesis(object @value)
         {
@@ -328,6 +340,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleLambda" />)[]</param>
         [JsiiMethod(name: "putLambda", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleLambda\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLambda(object @value)
         {
@@ -351,6 +364,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleRepublish" />)[]</param>
         [JsiiMethod(name: "putRepublish", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleRepublish\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRepublish(object @value)
         {
@@ -374,6 +388,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleS3" />)[]</param>
         [JsiiMethod(name: "putS3", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleS3\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutS3(object @value)
         {
@@ -397,6 +412,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSns" />)[]</param>
         [JsiiMethod(name: "putSns", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleSns\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSns(object @value)
         {
@@ -420,6 +436,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSqs" />)[]</param>
         [JsiiMethod(name: "putSqs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleSqs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSqs(object @value)
         {
@@ -443,6 +460,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleStepFunctions" />)[]</param>
         [JsiiMethod(name: "putStepFunctions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleStepFunctions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStepFunctions(object @value)
         {
@@ -466,6 +484,7 @@ namespace aws.IotTopicRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleTimestream" />)[]</param>
         [JsiiMethod(name: "putTimestream", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestream\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTimestream(object @value)
         {
@@ -784,6 +803,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<aws.IotTopicRule.IotTopicRuleTimestreamList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchAlarm" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchAlarmInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchAlarm\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudwatchAlarmInput
@@ -791,6 +813,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchLogs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchLogsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchLogs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudwatchLogsInput
@@ -798,6 +823,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchMetric" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudwatchMetricInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleCloudwatchMetric\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CloudwatchMetricInput
@@ -812,6 +840,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodb" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleDynamodb\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DynamodbInput
@@ -819,6 +850,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodbv2" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamodbv2Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleDynamodbv2\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? Dynamodbv2Input
@@ -826,6 +860,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleElasticsearch" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "elasticsearchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleElasticsearch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ElasticsearchInput
@@ -833,6 +870,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EnabledInput
@@ -847,6 +887,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<aws.IotTopicRule.IIotTopicRuleErrorAction?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleFirehose" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firehoseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleFirehose\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FirehoseInput
@@ -854,6 +897,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleHttp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HttpInput
@@ -868,6 +914,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotAnalytics" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotAnalyticsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleIotAnalytics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IotAnalyticsInput
@@ -875,6 +924,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotEvents" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotEventsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleIotEvents\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IotEventsInput
@@ -882,6 +934,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKafka" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kafkaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKafka\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KafkaInput
@@ -889,6 +944,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKinesis" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kinesisInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleKinesis\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? KinesisInput
@@ -896,6 +954,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleLambda" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lambdaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleLambda\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LambdaInput
@@ -917,6 +978,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleRepublish" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "republishInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleRepublish\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RepublishInput
@@ -924,6 +988,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleS3" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? S3Input
@@ -931,6 +998,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSns" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleSns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SnsInput
@@ -952,6 +1022,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSqs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sqsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleSqs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SqsInput
@@ -959,6 +1032,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleStepFunctions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepFunctionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleStepFunctions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StepFunctionsInput
@@ -980,6 +1056,9 @@ namespace aws.IotTopicRule
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleTimestream" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timestreamInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleTimestream\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TimestreamInput
@@ -994,6 +1073,9 @@ namespace aws.IotTopicRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Enabled
         {

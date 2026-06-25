@@ -9,7 +9,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
     [JsiiByValue(fqn: "oci.opsiOperationsInsightsWarehouseDownloadWarehouseWallet.OpsiOperationsInsightsWarehouseDownloadWarehouseWalletConfig")]
     public class OpsiOperationsInsightsWarehouseDownloadWarehouseWalletConfig : oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet.IOpsiOperationsInsightsWarehouseDownloadWarehouseWalletConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#operations_insights_warehouse_id OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#operations_insights_warehouse_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#operations_insights_warehouse_id OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#operations_insights_warehouse_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationsInsightsWarehouseId
         {
@@ -17,7 +17,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#operations_insights_warehouse_wallet_password OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#operations_insights_warehouse_wallet_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#operations_insights_warehouse_wallet_password OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#operations_insights_warehouse_wallet_password}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseWalletPassword", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationsInsightsWarehouseWalletPassword
         {
@@ -25,7 +25,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#id OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#id OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#timeouts OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/opsi_operations_insights_warehouse_download_warehouse_wallet#timeouts OpsiOperationsInsightsWarehouseDownloadWarehouseWallet#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opsiOperationsInsightsWarehouseDownloadWarehouseWallet.OpsiOperationsInsightsWarehouseDownloadWarehouseWalletTimeouts\"}", isOptional: true)]
@@ -54,6 +54,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -87,6 +88,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -181,6 +183,7 @@ namespace oci.OpsiOperationsInsightsWarehouseDownloadWarehouseWallet
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

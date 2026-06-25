@@ -87,6 +87,9 @@ namespace cloudflare.R2BucketLock
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2BucketLock.IR2BucketLockRulesCondition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2BucketLock.R2BucketLockRulesCondition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

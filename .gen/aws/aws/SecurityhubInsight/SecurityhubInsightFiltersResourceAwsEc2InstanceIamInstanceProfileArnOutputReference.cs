@@ -63,6 +63,9 @@ namespace aws.SecurityhubInsight
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SecurityhubInsight.ISecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn\"}]}}", isOptional: true)]
         public virtual object? InternalValue

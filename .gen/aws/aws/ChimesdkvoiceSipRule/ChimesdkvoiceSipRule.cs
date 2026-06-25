@@ -46,6 +46,7 @@ namespace aws.ChimesdkvoiceSipRule
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ChimesdkvoiceSipRule.ChimesdkvoiceSipRule), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ChimesdkvoiceSipRule.IChimesdkvoiceSipRuleTargetApplications" />)[]</param>
         [JsiiMethod(name: "putTargetApplications", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplications\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargetApplications(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.ChimesdkvoiceSipRule
             get => GetInstanceProperty<aws.ChimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "disabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? DisabledInput
@@ -140,6 +144,9 @@ namespace aws.ChimesdkvoiceSipRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ChimesdkvoiceSipRule.IChimesdkvoiceSipRuleTargetApplications" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetApplicationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplications\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetApplicationsInput
@@ -161,6 +168,9 @@ namespace aws.ChimesdkvoiceSipRule
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object Disabled
         {

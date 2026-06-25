@@ -65,6 +65,12 @@ namespace oci.DataOciGenerativeAiAgentTool
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "embeddingLlmCustomization", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigEmbeddingLlmCustomizationList\"}")]
+        public virtual oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigEmbeddingLlmCustomizationList EmbeddingLlmCustomization
+        {
+            get => GetInstanceProperty<oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigEmbeddingLlmCustomizationList>()!;
+        }
+
         [JsiiProperty(name: "function", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigFunctionList\"}")]
         public virtual oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigFunctionList Function
         {
@@ -97,6 +103,24 @@ namespace oci.DataOciGenerativeAiAgentTool
 
         [JsiiProperty(name: "modelSize", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModelSize
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "reasoningLlmCustomization", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigReasoningLlmCustomizationList\"}")]
+        public virtual oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigReasoningLlmCustomizationList ReasoningLlmCustomization
+        {
+            get => GetInstanceProperty<oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigReasoningLlmCustomizationList>()!;
+        }
+
+        [JsiiProperty(name: "rerankingLlmCustomization", typeJson: "{\"fqn\":\"oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigRerankingLlmCustomizationList\"}")]
+        public virtual oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigRerankingLlmCustomizationList RerankingLlmCustomization
+        {
+            get => GetInstanceProperty<oci.DataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolToolConfigRerankingLlmCustomizationList>()!;
+        }
+
+        [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuntimeVersion
         {
             get => GetInstanceProperty<string>()!;
         }

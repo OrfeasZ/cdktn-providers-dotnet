@@ -41,6 +41,9 @@ namespace oci.DataOciRecoveryProtectedDatabases
             return InvokeInstanceMethod<oci.DataOciRecoveryProtectedDatabases.DataOciRecoveryProtectedDatabasesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciRecoveryProtectedDatabases.IDataOciRecoveryProtectedDatabasesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciRecoveryProtectedDatabases.DataOciRecoveryProtectedDatabasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

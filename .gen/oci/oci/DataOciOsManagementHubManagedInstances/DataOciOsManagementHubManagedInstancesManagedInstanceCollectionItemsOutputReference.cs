@@ -47,6 +47,12 @@ namespace oci.DataOciOsManagementHubManagedInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "areSourcesManaged", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable AreSourcesManaged
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "autonomousSettings", typeJson: "{\"fqn\":\"oci.dataOciOsManagementHubManagedInstances.DataOciOsManagementHubManagedInstancesManagedInstanceCollectionItemsAutonomousSettingsList\"}")]
         public virtual oci.DataOciOsManagementHubManagedInstances.DataOciOsManagementHubManagedInstancesManagedInstanceCollectionItemsAutonomousSettingsList AutonomousSettings
         {
@@ -259,6 +265,12 @@ namespace oci.DataOciOsManagementHubManagedInstances
 
         [JsiiProperty(name: "timeLastCheckin", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeLastCheckin
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeLastSoftwareRefresh", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeLastSoftwareRefresh
         {
             get => GetInstanceProperty<string>()!;
         }

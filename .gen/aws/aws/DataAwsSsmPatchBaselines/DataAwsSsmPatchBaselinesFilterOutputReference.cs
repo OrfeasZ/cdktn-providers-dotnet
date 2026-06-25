@@ -63,6 +63,9 @@ namespace aws.DataAwsSsmPatchBaselines
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSsmPatchBaselines.IDataAwsSsmPatchBaselinesFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSsmPatchBaselines.DataAwsSsmPatchBaselinesFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

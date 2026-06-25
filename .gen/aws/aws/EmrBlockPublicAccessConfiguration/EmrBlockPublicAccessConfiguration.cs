@@ -46,6 +46,7 @@ namespace aws.EmrBlockPublicAccessConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EmrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrBlockPublicAccessConfiguration.IEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRange" />)[]</param>
         [JsiiMethod(name: "putPermittedPublicSecurityGroupRuleRange", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRange\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPermittedPublicSecurityGroupRuleRange(object @value)
         {
@@ -112,6 +113,9 @@ namespace aws.EmrBlockPublicAccessConfiguration
             get => GetInstanceProperty<aws.EmrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockPublicSecurityGroupRulesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? BlockPublicSecurityGroupRulesInput
@@ -126,6 +130,9 @@ namespace aws.EmrBlockPublicAccessConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrBlockPublicAccessConfiguration.IEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRange" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permittedPublicSecurityGroupRuleRangeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PermittedPublicSecurityGroupRuleRangeInput
@@ -140,6 +147,9 @@ namespace aws.EmrBlockPublicAccessConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "blockPublicSecurityGroupRules", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object BlockPublicSecurityGroupRules
         {

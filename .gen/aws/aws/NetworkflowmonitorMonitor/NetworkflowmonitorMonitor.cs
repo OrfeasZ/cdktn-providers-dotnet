@@ -46,6 +46,7 @@ namespace aws.NetworkflowmonitorMonitor
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.NetworkflowmonitorMonitor.NetworkflowmonitorMonitor), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorMonitor.INetworkflowmonitorMonitorLocalResource" />)[]</param>
         [JsiiMethod(name: "putLocalResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLocalResource(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.NetworkflowmonitorMonitor
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorMonitor.INetworkflowmonitorMonitorRemoteResource" />)[]</param>
         [JsiiMethod(name: "putRemoteResource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRemoteResource(object @value)
         {
@@ -177,6 +179,9 @@ namespace aws.NetworkflowmonitorMonitor
             get => GetInstanceProperty<aws.NetworkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorMonitor.INetworkflowmonitorMonitorLocalResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "localResourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LocalResourceInput
@@ -198,6 +203,9 @@ namespace aws.NetworkflowmonitorMonitor
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorMonitor.INetworkflowmonitorMonitorRemoteResource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "remoteResourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? RemoteResourceInput
@@ -219,6 +227,9 @@ namespace aws.NetworkflowmonitorMonitor
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NetworkflowmonitorMonitor.INetworkflowmonitorMonitorTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

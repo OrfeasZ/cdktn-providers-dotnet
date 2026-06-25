@@ -41,6 +41,9 @@ namespace oci.DataOciCoreFastConnectProviderServices
             return InvokeInstanceMethod<oci.DataOciCoreFastConnectProviderServices.DataOciCoreFastConnectProviderServicesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreFastConnectProviderServices.IDataOciCoreFastConnectProviderServicesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreFastConnectProviderServices.DataOciCoreFastConnectProviderServicesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

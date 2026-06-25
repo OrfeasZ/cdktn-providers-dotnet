@@ -49,6 +49,9 @@ namespace aws.AuditmanagerAssessment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AuditmanagerAssessment.IAuditmanagerAssessmentScopeAwsServices" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.auditmanagerAssessment.AuditmanagerAssessmentScopeAwsServices\"}]}}", isOptional: true)]
         public virtual object? InternalValue

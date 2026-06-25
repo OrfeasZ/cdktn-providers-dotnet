@@ -133,6 +133,9 @@ namespace scaleway.InferenceDeployment
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InferenceDeployment.IInferenceDeploymentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.inferenceDeployment.InferenceDeploymentTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

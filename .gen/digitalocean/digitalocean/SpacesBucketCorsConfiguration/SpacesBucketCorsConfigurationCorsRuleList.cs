@@ -41,6 +41,9 @@ namespace digitalocean.SpacesBucketCorsConfiguration
             return InvokeInstanceMethod<digitalocean.SpacesBucketCorsConfiguration.SpacesBucketCorsConfigurationCorsRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucketCorsConfiguration.ISpacesBucketCorsConfigurationCorsRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.spacesBucketCorsConfiguration.SpacesBucketCorsConfigurationCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -148,6 +148,9 @@ namespace cloudflare.MagicWanStaticRoute
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicWanStaticRoute.IMagicWanStaticRouteScope" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicWanStaticRoute.MagicWanStaticRouteScope\"}]}}", isOptional: true)]
         public virtual object? ScopeInput

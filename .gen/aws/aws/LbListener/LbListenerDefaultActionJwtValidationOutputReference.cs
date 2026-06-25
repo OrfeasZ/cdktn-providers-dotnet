@@ -33,6 +33,7 @@ namespace aws.LbListener
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbListener.ILbListenerDefaultActionJwtValidationAdditionalClaim" />)[]</param>
         [JsiiMethod(name: "putAdditionalClaim", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAdditionalClaim(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.LbListener
             get => GetInstanceProperty<aws.LbListener.LbListenerDefaultActionJwtValidationAdditionalClaimList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbListener.ILbListenerDefaultActionJwtValidationAdditionalClaim" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalClaimInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AdditionalClaimInput

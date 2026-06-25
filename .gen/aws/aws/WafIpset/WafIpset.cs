@@ -46,6 +46,7 @@ namespace aws.WafIpset
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.WafIpset.WafIpset), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafIpset.IWafIpsetIpSetDescriptors" />)[]</param>
         [JsiiMethod(name: "putIpSetDescriptors", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafIpset.WafIpsetIpSetDescriptors\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIpSetDescriptors(object @value)
         {
@@ -119,6 +120,9 @@ namespace aws.WafIpset
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafIpset.IWafIpsetIpSetDescriptors" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipSetDescriptorsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafIpset.WafIpsetIpSetDescriptors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpSetDescriptorsInput

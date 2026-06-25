@@ -73,6 +73,9 @@ namespace aws.LocationTrackerAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LocationTrackerAssociation.ILocationTrackerAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.locationTrackerAssociation.LocationTrackerAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

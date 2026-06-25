@@ -345,6 +345,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainFeaturesHyperVXmmInputOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVAvic" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "avicInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVAvic\"}]}}", isOptional: true)]
         public virtual object? AvicInput
@@ -352,6 +355,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVEmsrBitmap" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emsrBitmapInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVEmsrBitmap\"}]}}", isOptional: true)]
         public virtual object? EmsrBitmapInput
@@ -359,6 +365,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVEvmcs" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "evmcsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVEvmcs\"}]}}", isOptional: true)]
         public virtual object? EvmcsInput
@@ -366,6 +375,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVFrequencies" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "frequenciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVFrequencies\"}]}}", isOptional: true)]
         public virtual object? FrequenciesInput
@@ -373,6 +385,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVIpi" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipiInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVIpi\"}]}}", isOptional: true)]
         public virtual object? IpiInput
@@ -387,6 +402,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVReEnlightenment" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reEnlightenmentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVReEnlightenment\"}]}}", isOptional: true)]
         public virtual object? ReEnlightenmentInput
@@ -394,6 +412,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVRelaxed" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relaxedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVRelaxed\"}]}}", isOptional: true)]
         public virtual object? RelaxedInput
@@ -401,6 +422,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVReset" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVReset\"}]}}", isOptional: true)]
         public virtual object? ResetInput
@@ -408,6 +432,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVRuntime" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVRuntime\"}]}}", isOptional: true)]
         public virtual object? RuntimeInput
@@ -415,6 +442,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVSpinlocks" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spinlocksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVSpinlocks\"}]}}", isOptional: true)]
         public virtual object? SpinlocksInput
@@ -422,6 +452,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVStimer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stimerInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVStimer\"}]}}", isOptional: true)]
         public virtual object? StimerInput
@@ -429,6 +462,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVSynic" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "synicInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVSynic\"}]}}", isOptional: true)]
         public virtual object? SynicInput
@@ -436,6 +472,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVTlbFlush" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlbFlushInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVTlbFlush\"}]}}", isOptional: true)]
         public virtual object? TlbFlushInput
@@ -443,6 +482,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVVapic" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vapicInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVVapic\"}]}}", isOptional: true)]
         public virtual object? VapicInput
@@ -450,6 +492,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVVendorId" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vendorIdInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVVendorId\"}]}}", isOptional: true)]
         public virtual object? VendorIdInput
@@ -457,6 +502,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVVpIndex" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpIndexInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVVpIndex\"}]}}", isOptional: true)]
         public virtual object? VpIndexInput
@@ -464,6 +512,9 @@ namespace libvirt.Domain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperVXmmInput" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xmmInputInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVXmmInput\"}]}}", isOptional: true)]
         public virtual object? XmmInputInput
@@ -478,6 +529,9 @@ namespace libvirt.Domain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainFeaturesHyperV" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainFeaturesHyperV\"}]}}", isOptional: true)]
         public virtual object? InternalValue

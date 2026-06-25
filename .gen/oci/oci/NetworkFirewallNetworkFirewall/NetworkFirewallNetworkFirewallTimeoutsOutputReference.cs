@@ -93,6 +93,9 @@ namespace oci.NetworkFirewallNetworkFirewall
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.NetworkFirewallNetworkFirewall.INetworkFirewallNetworkFirewallTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.networkFirewallNetworkFirewall.NetworkFirewallNetworkFirewallTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

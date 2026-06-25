@@ -46,6 +46,7 @@ namespace aws.QuicksightCustomPermissions
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.QuicksightCustomPermissions.QuicksightCustomPermissions), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightCustomPermissions.IQuicksightCustomPermissionsCapabilities" />)[]</param>
         [JsiiMethod(name: "putCapabilities", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilities\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCapabilities(object @value)
         {
@@ -137,6 +138,9 @@ namespace aws.QuicksightCustomPermissions
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightCustomPermissions.IQuicksightCustomPermissionsCapabilities" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capabilitiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilities\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CapabilitiesInput

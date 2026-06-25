@@ -49,6 +49,7 @@ namespace aws.Provider
         /// <summary>assume_role block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#assume_role AwsProvider#assume_role}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderAssumeRole" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "assumeRole", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderAssumeRole\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,6 +64,7 @@ namespace aws.Provider
         /// <summary>assume_role_with_web_identity block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#assume_role_with_web_identity AwsProvider#assume_role_with_web_identity}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderAssumeRoleWithWebIdentity" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "assumeRoleWithWebIdentity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderAssumeRoleWithWebIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,6 +95,7 @@ namespace aws.Provider
         /// <summary>default_tags block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#default_tags AwsProvider#default_tags}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderDefaultTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "defaultTags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderDefaultTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,6 +138,7 @@ namespace aws.Provider
         /// <summary>endpoints block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#endpoints AwsProvider#endpoints}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderEndpoints" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "endpoints", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -192,6 +196,7 @@ namespace aws.Provider
         /// <summary>ignore_tags block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#ignore_tags AwsProvider#ignore_tags}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderIgnoreTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ignoreTags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderIgnoreTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -206,6 +211,7 @@ namespace aws.Provider
         /// <summary>Explicitly allow the provider to perform "insecure" SSL requests. If omitted, default value is `false`.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#insecure AwsProvider#insecure}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "insecure", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -313,6 +319,7 @@ namespace aws.Provider
         /// <summary>Set this to true to enable the request to use path-style addressing, i.e., https://s3.amazonaws.com/BUCKET/KEY. By default, the S3 client will use virtual hosted bucket addressing when possible (https://BUCKET.s3.amazonaws.com/KEY). Specific to the Amazon S3 service.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#s3_use_path_style AwsProvider#s3_use_path_style}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "s3UsePathStyle", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -369,6 +376,7 @@ namespace aws.Provider
         /// <summary>Skip the credentials validation via STS API. Used for AWS API implementations that do not have STS available/implemented.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#skip_credentials_validation AwsProvider#skip_credentials_validation}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "skipCredentialsValidation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -399,6 +407,7 @@ namespace aws.Provider
         /// Used by users of alternative AWS-like APIs or users w/ access to regions that are not public (yet).
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#skip_region_validation AwsProvider#skip_region_validation}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "skipRegionValidation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -413,6 +422,7 @@ namespace aws.Provider
         /// <summary>Skip requesting the account ID. Used for AWS API implementations that do not have IAM/STS API and/or metadata API.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#skip_requesting_account_id AwsProvider#skip_requesting_account_id}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "skipRequestingAccountId", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -485,6 +495,7 @@ namespace aws.Provider
         /// <summary>Resolve an endpoint with DualStack capability.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#use_dualstack_endpoint AwsProvider#use_dualstack_endpoint}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useDualstackEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -499,6 +510,7 @@ namespace aws.Provider
         /// <summary>Resolve an endpoint with FIPS capability.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#use_fips_endpoint AwsProvider#use_fips_endpoint}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useFipsEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -564,6 +576,7 @@ namespace aws.Provider
             /// <summary>assume_role block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#assume_role AwsProvider#assume_role}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderAssumeRole" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "assumeRole", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderAssumeRole\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -575,6 +588,7 @@ namespace aws.Provider
             /// <summary>assume_role_with_web_identity block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#assume_role_with_web_identity AwsProvider#assume_role_with_web_identity}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderAssumeRoleWithWebIdentity" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "assumeRoleWithWebIdentity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderAssumeRoleWithWebIdentity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -599,6 +613,7 @@ namespace aws.Provider
             /// <summary>default_tags block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#default_tags AwsProvider#default_tags}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderDefaultTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultTags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderDefaultTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -632,6 +647,7 @@ namespace aws.Provider
             /// <summary>endpoints block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#endpoints AwsProvider#endpoints}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderEndpoints" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpoints", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -677,6 +693,7 @@ namespace aws.Provider
             /// <summary>ignore_tags block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#ignore_tags AwsProvider#ignore_tags}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Provider.IAwsProviderIgnoreTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreTags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.provider.AwsProviderIgnoreTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -688,6 +705,7 @@ namespace aws.Provider
             /// <summary>Explicitly allow the provider to perform "insecure" SSL requests. If omitted, default value is `false`.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#insecure AwsProvider#insecure}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "insecure", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -774,6 +792,7 @@ namespace aws.Provider
             /// <summary>Set this to true to enable the request to use path-style addressing, i.e., https://s3.amazonaws.com/BUCKET/KEY. By default, the S3 client will use virtual hosted bucket addressing when possible (https://BUCKET.s3.amazonaws.com/KEY). Specific to the Amazon S3 service.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#s3_use_path_style AwsProvider#s3_use_path_style}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "s3UsePathStyle", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -818,6 +837,7 @@ namespace aws.Provider
             /// <summary>Skip the credentials validation via STS API. Used for AWS API implementations that do not have STS available/implemented.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#skip_credentials_validation AwsProvider#skip_credentials_validation}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "skipCredentialsValidation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -842,6 +862,7 @@ namespace aws.Provider
             /// Used by users of alternative AWS-like APIs or users w/ access to regions that are not public (yet).
             ///
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#skip_region_validation AwsProvider#skip_region_validation}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "skipRegionValidation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -853,6 +874,7 @@ namespace aws.Provider
             /// <summary>Skip requesting the account ID. Used for AWS API implementations that do not have IAM/STS API and/or metadata API.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#skip_requesting_account_id AwsProvider#skip_requesting_account_id}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "skipRequestingAccountId", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -910,6 +932,7 @@ namespace aws.Provider
             /// <summary>Resolve an endpoint with DualStack capability.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#use_dualstack_endpoint AwsProvider#use_dualstack_endpoint}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "useDualstackEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -921,6 +944,7 @@ namespace aws.Provider
             /// <summary>Resolve an endpoint with FIPS capability.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs#use_fips_endpoint AwsProvider#use_fips_endpoint}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "useFipsEndpoint", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

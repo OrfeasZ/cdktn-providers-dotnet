@@ -10,6 +10,7 @@ namespace aws.DataAwsGlueScript
         /// <summary>dag_edge block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/glue_script#dag_edge DataAwsGlueScript#dag_edge}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagEdge" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dagEdge", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge\"},\"kind\":\"array\"}}]}}")]
         object DagEdge
@@ -20,6 +21,7 @@ namespace aws.DataAwsGlueScript
         /// <summary>dag_node block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/glue_script#dag_node DataAwsGlueScript#dag_node}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNode" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dagNode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNode\"},\"kind\":\"array\"}}]}}")]
         object DagNode
@@ -77,6 +79,7 @@ namespace aws.DataAwsGlueScript
             /// <summary>dag_edge block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/glue_script#dag_edge DataAwsGlueScript#dag_edge}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagEdge" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "dagEdge", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge\"},\"kind\":\"array\"}}]}}")]
             public object DagEdge
@@ -87,6 +90,7 @@ namespace aws.DataAwsGlueScript
             /// <summary>dag_node block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/glue_script#dag_node DataAwsGlueScript#dag_node}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNode" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "dagNode", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNode\"},\"kind\":\"array\"}}]}}")]
             public object DagNode
@@ -127,6 +131,7 @@ namespace aws.DataAwsGlueScript
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -137,6 +142,7 @@ namespace aws.DataAwsGlueScript
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -187,6 +193,7 @@ namespace aws.DataAwsGlueScript
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

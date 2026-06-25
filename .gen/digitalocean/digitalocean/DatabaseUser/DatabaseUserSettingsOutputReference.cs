@@ -35,6 +35,7 @@ namespace digitalocean.DatabaseUser
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsAcl" />)[]</param>
         [JsiiMethod(name: "putAcl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsAcl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAcl(object @value)
         {
@@ -58,6 +59,7 @@ namespace digitalocean.DatabaseUser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsOpensearchAcl" />)[]</param>
         [JsiiMethod(name: "putOpensearchAcl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsOpensearchAcl\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOpensearchAcl(object @value)
         {
@@ -105,6 +107,9 @@ namespace digitalocean.DatabaseUser
             get => GetInstanceProperty<digitalocean.DatabaseUser.DatabaseUserSettingsOpensearchAclList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsAcl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aclInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AclInput
@@ -112,6 +117,9 @@ namespace digitalocean.DatabaseUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DatabaseUser.IDatabaseUserSettingsOpensearchAcl" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "opensearchAclInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettingsOpensearchAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OpensearchAclInput
@@ -119,6 +127,9 @@ namespace digitalocean.DatabaseUser
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.DatabaseUser.IDatabaseUserSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.databaseUser.DatabaseUserSettings\"}]}}", isOptional: true)]
         public virtual object? InternalValue

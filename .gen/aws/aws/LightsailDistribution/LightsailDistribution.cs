@@ -46,6 +46,7 @@ namespace aws.LightsailDistribution
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LightsailDistribution.LightsailDistribution), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailDistribution.ILightsailDistributionCacheBehavior" />)[]</param>
         [JsiiMethod(name: "putCacheBehavior", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionCacheBehavior\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCacheBehavior(object @value)
         {
@@ -263,6 +264,9 @@ namespace aws.LightsailDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailDistribution.ILightsailDistributionCacheBehavior" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheBehaviorInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionCacheBehavior\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CacheBehaviorInput
@@ -305,6 +309,9 @@ namespace aws.LightsailDistribution
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsEnabledInput
@@ -347,6 +354,9 @@ namespace aws.LightsailDistribution
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LightsailDistribution.ILightsailDistributionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -382,6 +392,9 @@ namespace aws.LightsailDistribution
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsEnabled
         {

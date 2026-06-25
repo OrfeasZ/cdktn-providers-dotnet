@@ -41,6 +41,7 @@ namespace cloudflare.CustomHostname
         /// This will add a subdomain of sni.cloudflaressl.com as the Common Name if set to true.
         ///
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_hostname#cloudflare_branding CustomHostname#cloudflare_branding}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudflareBranding", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -75,6 +76,7 @@ namespace cloudflare.CustomHostname
         /// <summary>Array of custom certificate and key pairs (1 or 2 pairs allowed).</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_hostname#custom_cert_bundle CustomHostname#custom_cert_bundle}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CustomHostname.ICustomHostnameSslCustomCertBundle" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customCertBundle", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.customHostname.CustomHostnameSslCustomCertBundle\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -181,6 +183,7 @@ namespace cloudflare.CustomHostname
         /// <summary>Indicates whether the certificate covers a wildcard.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_hostname#wildcard CustomHostname#wildcard}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wildcard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]

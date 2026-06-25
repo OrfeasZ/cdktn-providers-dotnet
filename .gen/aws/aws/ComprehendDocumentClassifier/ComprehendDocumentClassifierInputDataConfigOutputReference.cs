@@ -33,6 +33,7 @@ namespace aws.ComprehendDocumentClassifier
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendDocumentClassifier.IComprehendDocumentClassifierInputDataConfigAugmentedManifests" />)[]</param>
         [JsiiMethod(name: "putAugmentedManifests", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierInputDataConfigAugmentedManifests\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAugmentedManifests(object @value)
         {
@@ -92,6 +93,9 @@ namespace aws.ComprehendDocumentClassifier
             get => GetInstanceProperty<aws.ComprehendDocumentClassifier.ComprehendDocumentClassifierInputDataConfigAugmentedManifestsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendDocumentClassifier.IComprehendDocumentClassifierInputDataConfigAugmentedManifests" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "augmentedManifestsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendDocumentClassifier.ComprehendDocumentClassifierInputDataConfigAugmentedManifests\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AugmentedManifestsInput

@@ -73,6 +73,9 @@ namespace aws.OpensearchserverlessCollection
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchserverlessCollection.IOpensearchserverlessCollectionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchserverlessCollection.OpensearchserverlessCollectionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

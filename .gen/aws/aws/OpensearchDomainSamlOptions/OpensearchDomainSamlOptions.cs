@@ -141,6 +141,9 @@ namespace aws.OpensearchDomainSamlOptions
             get => GetInstanceProperty<aws.OpensearchDomainSamlOptions.IOpensearchDomainSamlOptionsSamlOptions?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.OpensearchDomainSamlOptions.IOpensearchDomainSamlOptionsTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

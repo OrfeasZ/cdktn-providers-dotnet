@@ -52,6 +52,7 @@ namespace aws.CloudsearchDomain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudsearchDomain.ICloudsearchDomainEndpointOptions)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudsearchDomain.ICloudsearchDomainIndexField" />)[]</param>
         [JsiiMethod(name: "putIndexField", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainIndexField\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIndexField(object @value)
         {
@@ -210,6 +211,9 @@ namespace aws.CloudsearchDomain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudsearchDomain.ICloudsearchDomainIndexField" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "indexFieldInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainIndexField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IndexFieldInput
@@ -217,6 +221,9 @@ namespace aws.CloudsearchDomain
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiAzInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? MultiAzInput
@@ -245,6 +252,9 @@ namespace aws.CloudsearchDomain
             get => GetInstanceProperty<aws.CloudsearchDomain.ICloudsearchDomainScalingParameters?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudsearchDomain.ICloudsearchDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudsearchDomain.CloudsearchDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -259,6 +269,9 @@ namespace aws.CloudsearchDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "multiAz", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object MultiAz
         {

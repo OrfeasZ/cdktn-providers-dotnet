@@ -47,6 +47,12 @@ namespace oci.DataOciCoreComputeCapacityReservations
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "resourceManagement", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResourceManagement
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciCoreComputeCapacityReservations.DataOciCoreComputeCapacityReservationsComputeCapacityReservationsInstanceReservationConfigsInstanceShapeConfig\"}", isOptional: true)]
         public virtual oci.DataOciCoreComputeCapacityReservations.IDataOciCoreComputeCapacityReservationsComputeCapacityReservationsInstanceReservationConfigsInstanceShapeConfig? InternalValue

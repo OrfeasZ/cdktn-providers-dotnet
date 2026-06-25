@@ -33,6 +33,7 @@ namespace aws.ServiceDiscoveryService
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServiceDiscoveryService.IServiceDiscoveryServiceDnsConfigDnsRecords" />)[]</param>
         [JsiiMethod(name: "putDnsRecords", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDnsRecords(object @value)
         {
@@ -68,6 +69,9 @@ namespace aws.ServiceDiscoveryService
             get => GetInstanceProperty<aws.ServiceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecordsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServiceDiscoveryService.IServiceDiscoveryServiceDnsConfigDnsRecords" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsRecordsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DnsRecordsInput

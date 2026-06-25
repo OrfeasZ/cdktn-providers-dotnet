@@ -63,6 +63,9 @@ namespace aws.BillingView
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BillingView.IBillingViewDataFilterExpressionTags" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.billingView.BillingViewDataFilterExpressionTags\"}]}}", isOptional: true)]
         public virtual object? InternalValue

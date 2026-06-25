@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementCompliancePolicyRules.DataOciFleetAppsManagementCompliancePolicyRulesConfig")]
     public class DataOciFleetAppsManagementCompliancePolicyRulesConfig : oci.DataOciFleetAppsManagementCompliancePolicyRules.IDataOciFleetAppsManagementCompliancePolicyRulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#compartment_id DataOciFleetAppsManagementCompliancePolicyRules#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#compartment_id DataOciFleetAppsManagementCompliancePolicyRules#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#compliance_policy_id DataOciFleetAppsManagementCompliancePolicyRules#compliance_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#compliance_policy_id DataOciFleetAppsManagementCompliancePolicyRules#compliance_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compliancePolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompliancePolicyId
@@ -25,7 +25,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#display_name DataOciFleetAppsManagementCompliancePolicyRules#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#display_name DataOciFleetAppsManagementCompliancePolicyRules#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,8 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#filter DataOciFleetAppsManagementCompliancePolicyRules#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#filter DataOciFleetAppsManagementCompliancePolicyRules#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementCompliancePolicyRules.IDataOciFleetAppsManagementCompliancePolicyRulesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFleetAppsManagementCompliancePolicyRules.DataOciFleetAppsManagementCompliancePolicyRulesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -68,7 +69,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#id DataOciFleetAppsManagementCompliancePolicyRules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#id DataOciFleetAppsManagementCompliancePolicyRules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +82,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#patch_name DataOciFleetAppsManagementCompliancePolicyRules#patch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#patch_name DataOciFleetAppsManagementCompliancePolicyRules#patch_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchName
@@ -90,7 +91,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#state DataOciFleetAppsManagementCompliancePolicyRules#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/fleet_apps_management_compliance_policy_rules#state DataOciFleetAppsManagementCompliancePolicyRules#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -103,6 +104,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -136,6 +138,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -230,6 +233,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRules
 
         /// <remarks>
         /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -46,6 +46,7 @@ namespace aws.ArczonalshiftZonalAutoshiftConfiguration
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ArczonalshiftZonalAutoshiftConfiguration.ArczonalshiftZonalAutoshiftConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArczonalshiftZonalAutoshiftConfiguration.IArczonalshiftZonalAutoshiftConfigurationBlockingAlarms" />)[]</param>
         [JsiiMethod(name: "putBlockingAlarms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arczonalshiftZonalAutoshiftConfiguration.ArczonalshiftZonalAutoshiftConfigurationBlockingAlarms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutBlockingAlarms(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.ArczonalshiftZonalAutoshiftConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArczonalshiftZonalAutoshiftConfiguration.IArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms" />)[]</param>
         [JsiiMethod(name: "putOutcomeAlarms", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arczonalshiftZonalAutoshiftConfiguration.ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutcomeAlarms(object @value)
         {
@@ -180,6 +182,9 @@ namespace aws.ArczonalshiftZonalAutoshiftConfiguration
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArczonalshiftZonalAutoshiftConfiguration.IArczonalshiftZonalAutoshiftConfigurationBlockingAlarms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blockingAlarmsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arczonalshiftZonalAutoshiftConfiguration.ArczonalshiftZonalAutoshiftConfigurationBlockingAlarms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? BlockingAlarmsInput
@@ -187,6 +192,9 @@ namespace aws.ArczonalshiftZonalAutoshiftConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArczonalshiftZonalAutoshiftConfiguration.IArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outcomeAlarmsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arczonalshiftZonalAutoshiftConfiguration.ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutcomeAlarmsInput

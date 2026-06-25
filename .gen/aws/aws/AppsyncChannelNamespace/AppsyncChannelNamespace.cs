@@ -46,6 +46,7 @@ namespace aws.AppsyncChannelNamespace
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppsyncChannelNamespace.AppsyncChannelNamespace), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigs" />)[]</param>
         [JsiiMethod(name: "putHandlerConfigs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigs\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutHandlerConfigs(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.AppsyncChannelNamespace
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespacePublishAuthMode" />)[]</param>
         [JsiiMethod(name: "putPublishAuthMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespacePublishAuthMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPublishAuthMode(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.AppsyncChannelNamespace
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceSubscribeAuthMode" />)[]</param>
         [JsiiMethod(name: "putSubscribeAuthMode", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceSubscribeAuthMode\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubscribeAuthMode(object @value)
         {
@@ -214,6 +217,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigs" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "handlerConfigsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? HandlerConfigsInput
@@ -228,6 +234,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespacePublishAuthMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publishAuthModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespacePublishAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PublishAuthModeInput
@@ -242,6 +251,9 @@ namespace aws.AppsyncChannelNamespace
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceSubscribeAuthMode" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscribeAuthModeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceSubscribeAuthMode\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubscribeAuthModeInput

@@ -46,6 +46,7 @@ namespace aws.Ec2AllowedImagesSettings
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Ec2AllowedImagesSettings.Ec2AllowedImagesSettings), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2AllowedImagesSettings.IEc2AllowedImagesSettingsImageCriterion" />)[]</param>
         [JsiiMethod(name: "putImageCriterion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterion\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutImageCriterion(object @value)
         {
@@ -106,6 +107,9 @@ namespace aws.Ec2AllowedImagesSettings
             get => GetInstanceProperty<aws.Ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2AllowedImagesSettings.IEc2AllowedImagesSettingsImageCriterion" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageCriterionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ImageCriterionInput

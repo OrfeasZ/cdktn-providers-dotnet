@@ -33,6 +33,7 @@ namespace aws.LightsailContainerService
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailContainerService.ILightsailContainerServicePublicDomainNamesCertificate" />)[]</param>
         [JsiiMethod(name: "putCertificate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCertificate(object @value)
         {
@@ -62,6 +63,9 @@ namespace aws.LightsailContainerService
             get => GetInstanceProperty<aws.LightsailContainerService.LightsailContainerServicePublicDomainNamesCertificateList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailContainerService.ILightsailContainerServicePublicDomainNamesCertificate" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CertificateInput

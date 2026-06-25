@@ -116,6 +116,9 @@ namespace scaleway.InstanceUserData
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstanceUserData.IInstanceUserDataTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instanceUserData.InstanceUserDataTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

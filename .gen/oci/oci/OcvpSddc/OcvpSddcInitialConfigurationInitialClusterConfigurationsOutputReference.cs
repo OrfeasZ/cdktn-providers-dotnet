@@ -35,6 +35,13 @@ namespace oci.OcvpSddc
         {
         }
 
+        [JsiiMethod(name: "putClusterByolAllocationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails\"}}]")]
+        public virtual void PutClusterByolAllocationDetails(oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsDatastores" />)[]</param>
         [JsiiMethod(name: "putDatastores", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsDatastores\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDatastores(object @value)
         {
@@ -66,6 +73,12 @@ namespace oci.OcvpSddc
 
         [JsiiMethod(name: "resetCapacityReservationId")]
         public virtual void ResetCapacityReservationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetClusterByolAllocationDetails")]
+        public virtual void ResetClusterByolAllocationDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -106,6 +119,12 @@ namespace oci.OcvpSddc
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetInitialVcfByolAllocationId")]
+        public virtual void ResetInitialVcfByolAllocationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInstanceDisplayNamePrefix")]
         public virtual void ResetInstanceDisplayNamePrefix()
         {
@@ -136,6 +155,12 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "clusterByolAllocationDetails", typeJson: "{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetailsOutputReference\"}")]
+        public virtual oci.OcvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetailsOutputReference ClusterByolAllocationDetails
+        {
+            get => GetInstanceProperty<oci.OcvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "datastores", typeJson: "{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsDatastoresList\"}")]
         public virtual oci.OcvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsDatastoresList Datastores
         {
@@ -156,6 +181,13 @@ namespace oci.OcvpSddc
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "clusterByolAllocationDetailsInput", typeJson: "{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails\"}", isOptional: true)]
+        public virtual oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails? ClusterByolAllocationDetailsInput
+        {
+            get => GetInstanceProperty<oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "computeAvailabilityDomainInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ComputeAvailabilityDomainInput
         {
@@ -169,6 +201,9 @@ namespace oci.OcvpSddc
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurationsDatastores" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "datastoresInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsDatastores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DatastoresInput
@@ -212,12 +247,22 @@ namespace oci.OcvpSddc
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "initialVcfByolAllocationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InitialVcfByolAllocationIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "instanceDisplayNamePrefixInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? InstanceDisplayNamePrefixInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "isShieldedInstanceEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IsShieldedInstanceEnabledInput
@@ -302,6 +347,13 @@ namespace oci.OcvpSddc
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "initialVcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialVcfByolAllocationId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "instanceDisplayNamePrefix", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InstanceDisplayNamePrefix
         {
@@ -309,6 +361,9 @@ namespace oci.OcvpSddc
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "isShieldedInstanceEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsShieldedInstanceEnabled
         {
@@ -350,6 +405,9 @@ namespace oci.OcvpSddc
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OcvpSddc.IOcvpSddcInitialConfigurationInitialClusterConfigurations" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurations\"}]}}", isOptional: true)]
         public virtual object? InternalValue

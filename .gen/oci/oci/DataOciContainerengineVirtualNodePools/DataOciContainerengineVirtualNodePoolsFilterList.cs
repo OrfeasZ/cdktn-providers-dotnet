@@ -41,6 +41,9 @@ namespace oci.DataOciContainerengineVirtualNodePools
             return InvokeInstanceMethod<oci.DataOciContainerengineVirtualNodePools.DataOciContainerengineVirtualNodePoolsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineVirtualNodePools.IDataOciContainerengineVirtualNodePoolsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciContainerengineVirtualNodePools.DataOciContainerengineVirtualNodePoolsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DataOciDatabaseManagementExternalAsms
             return InvokeInstanceMethod<oci.DataOciDatabaseManagementExternalAsms.DataOciDatabaseManagementExternalAsmsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalAsms.IDataOciDatabaseManagementExternalAsmsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementExternalAsms.DataOciDatabaseManagementExternalAsmsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

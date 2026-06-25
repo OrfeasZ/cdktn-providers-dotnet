@@ -46,6 +46,7 @@ namespace aws.ServicecatalogProvisionedProduct
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ServicecatalogProvisionedProduct.ServicecatalogProvisionedProduct), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServicecatalogProvisionedProduct.IServicecatalogProvisionedProductProvisioningParameters" />)[]</param>
         [JsiiMethod(name: "putProvisioningParameters", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProductProvisioningParameters\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProvisioningParameters(object @value)
         {
@@ -300,6 +301,9 @@ namespace aws.ServicecatalogProvisionedProduct
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ignoreErrorsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IgnoreErrorsInput
@@ -363,6 +367,9 @@ namespace aws.ServicecatalogProvisionedProduct
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ServicecatalogProvisionedProduct.IServicecatalogProvisionedProductProvisioningParameters" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioningParametersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProductProvisioningParameters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ProvisioningParametersInput
@@ -377,6 +384,9 @@ namespace aws.ServicecatalogProvisionedProduct
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retainPhysicalResourcesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RetainPhysicalResourcesInput
@@ -405,6 +415,9 @@ namespace aws.ServicecatalogProvisionedProduct
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ServicecatalogProvisionedProduct.IServicecatalogProvisionedProductTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProductTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -426,6 +439,9 @@ namespace aws.ServicecatalogProvisionedProduct
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "ignoreErrors", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IgnoreErrors
         {
@@ -516,6 +532,9 @@ namespace aws.ServicecatalogProvisionedProduct
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "retainPhysicalResources", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RetainPhysicalResources
         {

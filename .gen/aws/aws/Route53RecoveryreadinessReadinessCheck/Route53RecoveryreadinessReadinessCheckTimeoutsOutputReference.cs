@@ -53,6 +53,9 @@ namespace aws.Route53RecoveryreadinessReadinessCheck
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53RecoveryreadinessReadinessCheck.IRoute53RecoveryreadinessReadinessCheckTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -40,6 +40,9 @@ namespace cloudflare.PagesProject
             return InvokeInstanceMethod<cloudflare.PagesProject.PagesProjectDeploymentConfigsProductionR2BucketsOutputReference>(new System.Type[]{typeof(string)}, new object[]{key})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionR2Buckets" />&gt;</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionR2Buckets\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -39,6 +39,7 @@ namespace oci.FleetAppsManagementPatch
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.FleetAppsManagementPatch.IFleetAppsManagementPatchArtifactDetailsArtifact)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementPatch.IFleetAppsManagementPatchArtifactDetailsArtifacts" />)[]</param>
         [JsiiMethod(name: "putArtifacts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementPatch.FleetAppsManagementPatchArtifactDetailsArtifacts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutArtifacts(object @value)
         {
@@ -93,6 +94,9 @@ namespace oci.FleetAppsManagementPatch
             get => GetInstanceProperty<oci.FleetAppsManagementPatch.IFleetAppsManagementPatchArtifactDetailsArtifact?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementPatch.IFleetAppsManagementPatchArtifactDetailsArtifacts" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "artifactsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementPatch.FleetAppsManagementPatchArtifactDetailsArtifacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArtifactsInput

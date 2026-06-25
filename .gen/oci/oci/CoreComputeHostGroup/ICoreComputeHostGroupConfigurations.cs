@@ -7,7 +7,7 @@ namespace oci.CoreComputeHostGroup
     [JsiiInterface(nativeType: typeof(ICoreComputeHostGroupConfigurations), fullyQualifiedName: "oci.coreComputeHostGroup.CoreComputeHostGroupConfigurations")]
     public interface ICoreComputeHostGroupConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_host_group#firmware_bundle_id CoreComputeHostGroup#firmware_bundle_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#firmware_bundle_id CoreComputeHostGroup#firmware_bundle_id}.</summary>
         [JsiiProperty(name: "firmwareBundleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FirmwareBundleId
@@ -18,7 +18,7 @@ namespace oci.CoreComputeHostGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_host_group#recycle_level CoreComputeHostGroup#recycle_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#recycle_level CoreComputeHostGroup#recycle_level}.</summary>
         [JsiiProperty(name: "recycleLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RecycleLevel
@@ -29,7 +29,18 @@ namespace oci.CoreComputeHostGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_host_group#target CoreComputeHostGroup#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#state CoreComputeHostGroup#state}.</summary>
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? State
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#target CoreComputeHostGroup#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Target
@@ -47,7 +58,7 @@ namespace oci.CoreComputeHostGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_host_group#firmware_bundle_id CoreComputeHostGroup#firmware_bundle_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#firmware_bundle_id CoreComputeHostGroup#firmware_bundle_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "firmwareBundleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FirmwareBundleId
@@ -55,7 +66,7 @@ namespace oci.CoreComputeHostGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_host_group#recycle_level CoreComputeHostGroup#recycle_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#recycle_level CoreComputeHostGroup#recycle_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recycleLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RecycleLevel
@@ -63,7 +74,15 @@ namespace oci.CoreComputeHostGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/core_compute_host_group#target CoreComputeHostGroup#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#state CoreComputeHostGroup#state}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? State
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/core_compute_host_group#target CoreComputeHostGroup#target}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Target

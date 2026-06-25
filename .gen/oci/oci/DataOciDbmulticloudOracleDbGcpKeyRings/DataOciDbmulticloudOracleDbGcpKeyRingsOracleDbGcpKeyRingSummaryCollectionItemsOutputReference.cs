@@ -35,6 +35,12 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRings
         {
         }
 
+        [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Action
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -95,6 +101,12 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRings
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "replicationMetadata", typeJson: "{\"fqn\":\"oci.dataOciDbmulticloudOracleDbGcpKeyRings.DataOciDbmulticloudOracleDbGcpKeyRingsOracleDbGcpKeyRingSummaryCollectionItemsReplicationMetadataList\"}")]
+        public virtual oci.DataOciDbmulticloudOracleDbGcpKeyRings.DataOciDbmulticloudOracleDbGcpKeyRingsOracleDbGcpKeyRingSummaryCollectionItemsReplicationMetadataList ReplicationMetadata
+        {
+            get => GetInstanceProperty<oci.DataOciDbmulticloudOracleDbGcpKeyRings.DataOciDbmulticloudOracleDbGcpKeyRingsOracleDbGcpKeyRingSummaryCollectionItemsReplicationMetadataList>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -105,6 +117,12 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeyRings
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetRegion
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

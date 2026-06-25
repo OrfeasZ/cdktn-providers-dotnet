@@ -46,6 +46,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfileLocalDomainFallback
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustDeviceCustomProfileLocalDomainFallback.ZeroTrustDeviceCustomProfileLocalDomainFallback), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceCustomProfileLocalDomainFallback.IZeroTrustDeviceCustomProfileLocalDomainFallbackDomains" />)[]</param>
         [JsiiMethod(name: "putDomains", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfileLocalDomainFallback.ZeroTrustDeviceCustomProfileLocalDomainFallbackDomains\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDomains(object @value)
         {
@@ -107,6 +108,9 @@ namespace cloudflare.ZeroTrustDeviceCustomProfileLocalDomainFallback
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceCustomProfileLocalDomainFallback.IZeroTrustDeviceCustomProfileLocalDomainFallbackDomains" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfileLocalDomainFallback.ZeroTrustDeviceCustomProfileLocalDomainFallbackDomains\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DomainsInput

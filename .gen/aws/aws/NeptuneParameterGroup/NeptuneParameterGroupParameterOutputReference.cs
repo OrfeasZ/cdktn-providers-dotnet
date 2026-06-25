@@ -83,6 +83,9 @@ namespace aws.NeptuneParameterGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.NeptuneParameterGroup.INeptuneParameterGroupParameter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.neptuneParameterGroup.NeptuneParameterGroupParameter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

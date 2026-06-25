@@ -33,6 +33,7 @@ namespace aws.KeyspacesTable
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionClusteringKey" />)[]</param>
         [JsiiMethod(name: "putClusteringKey", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionClusteringKey\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutClusteringKey(object @value)
         {
@@ -56,6 +57,7 @@ namespace aws.KeyspacesTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionColumn" />)[]</param>
         [JsiiMethod(name: "putColumn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumn(object @value)
         {
@@ -79,6 +81,7 @@ namespace aws.KeyspacesTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionPartitionKey" />)[]</param>
         [JsiiMethod(name: "putPartitionKey", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionPartitionKey\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPartitionKey(object @value)
         {
@@ -102,6 +105,7 @@ namespace aws.KeyspacesTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionStaticColumn" />)[]</param>
         [JsiiMethod(name: "putStaticColumn", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionStaticColumn\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStaticColumn(object @value)
         {
@@ -161,6 +165,9 @@ namespace aws.KeyspacesTable
             get => GetInstanceProperty<aws.KeyspacesTable.KeyspacesTableSchemaDefinitionStaticColumnList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionClusteringKey" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clusteringKeyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionClusteringKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ClusteringKeyInput
@@ -168,6 +175,9 @@ namespace aws.KeyspacesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionColumn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnInput
@@ -175,6 +185,9 @@ namespace aws.KeyspacesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionPartitionKey" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "partitionKeyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionPartitionKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PartitionKeyInput
@@ -182,6 +195,9 @@ namespace aws.KeyspacesTable
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionStaticColumn" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "staticColumnInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionStaticColumn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StaticColumnInput

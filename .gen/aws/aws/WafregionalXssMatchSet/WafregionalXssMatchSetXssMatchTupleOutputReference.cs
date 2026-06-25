@@ -68,6 +68,9 @@ namespace aws.WafregionalXssMatchSet
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WafregionalXssMatchSet.IWafregionalXssMatchSetXssMatchTuple" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTuple\"}]}}", isOptional: true)]
         public virtual object? InternalValue

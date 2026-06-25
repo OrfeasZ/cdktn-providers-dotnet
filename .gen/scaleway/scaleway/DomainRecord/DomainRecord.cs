@@ -64,6 +64,7 @@ namespace scaleway.DomainRecord
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.DomainRecord.IDomainRecordTimeouts)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordView" />)[]</param>
         [JsiiMethod(name: "putView", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordView\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutView(object @value)
         {
@@ -87,6 +88,7 @@ namespace scaleway.DomainRecord
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordWeighted" />)[]</param>
         [JsiiMethod(name: "putWeighted", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordWeighted\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWeighted(object @value)
         {
@@ -287,6 +289,9 @@ namespace scaleway.DomainRecord
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.DomainRecord.IDomainRecordTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.domainRecord.DomainRecordTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
@@ -308,6 +313,9 @@ namespace scaleway.DomainRecord
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordView" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "viewInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordView\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ViewInput
@@ -315,6 +323,9 @@ namespace scaleway.DomainRecord
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.DomainRecord.IDomainRecordWeighted" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "weightedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.domainRecord.DomainRecordWeighted\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WeightedInput

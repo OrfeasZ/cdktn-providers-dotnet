@@ -39,6 +39,7 @@ namespace oci.CertificatesManagementCertificate
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigSubject)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigSubjectAlternativeNames" />)[]</param>
         [JsiiMethod(name: "putSubjectAlternativeNames", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigSubjectAlternativeNames\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSubjectAlternativeNames(object @value)
         {
@@ -68,6 +69,18 @@ namespace oci.CertificatesManagementCertificate
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigValidity)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCertChainPem")]
+        public virtual void ResetCertChainPem()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCertificatePem")]
+        public virtual void ResetCertificatePem()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCertificateProfileType")]
         public virtual void ResetCertificateProfileType()
         {
@@ -92,8 +105,26 @@ namespace oci.CertificatesManagementCertificate
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPrivateKeyPem")]
+        public virtual void ResetPrivateKeyPem()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPrivateKeyPemPassphrase")]
+        public virtual void ResetPrivateKeyPemPassphrase()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSignatureAlgorithm")]
         public virtual void ResetSignatureAlgorithm()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStage")]
+        public virtual void ResetStage()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -141,6 +172,20 @@ namespace oci.CertificatesManagementCertificate
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "certChainPemInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CertChainPemInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "certificatePemInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CertificatePemInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "certificateProfileTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CertificateProfileTypeInput
         {
@@ -176,12 +221,36 @@ namespace oci.CertificatesManagementCertificate
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "privateKeyPemInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrivateKeyPemInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "privateKeyPemPassphraseInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrivateKeyPemPassphraseInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "signatureAlgorithmInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SignatureAlgorithmInput
         {
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "stageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StageInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificate.ICertificatesManagementCertificateCertificateConfigSubjectAlternativeNames" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subjectAlternativeNamesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateConfigSubjectAlternativeNames\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SubjectAlternativeNamesInput
@@ -208,6 +277,20 @@ namespace oci.CertificatesManagementCertificate
         public virtual string? VersionNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "certChainPem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertChainPem
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificatePem
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "certificateProfileType", typeJson: "{\"primitive\":\"string\"}")]
@@ -245,8 +328,29 @@ namespace oci.CertificatesManagementCertificate
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "privateKeyPem", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateKeyPem
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "privateKeyPemPassphrase", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateKeyPemPassphrase
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "signatureAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SignatureAlgorithm
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Stage
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -53,6 +53,9 @@ namespace aws.DataAwsEbsEncryptionByDefault
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEbsEncryptionByDefault.IDataAwsEbsEncryptionByDefaultTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEbsEncryptionByDefault.DataAwsEbsEncryptionByDefaultTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

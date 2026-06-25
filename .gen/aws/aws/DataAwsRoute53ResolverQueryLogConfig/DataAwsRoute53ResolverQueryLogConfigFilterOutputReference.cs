@@ -63,6 +63,9 @@ namespace aws.DataAwsRoute53ResolverQueryLogConfig
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsRoute53ResolverQueryLogConfig.IDataAwsRoute53ResolverQueryLogConfigFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfigFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

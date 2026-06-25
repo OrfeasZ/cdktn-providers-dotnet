@@ -32,6 +32,7 @@ namespace aws.TransferWorkflow
         /// <summary>tags block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowStepsTagStepDetailsTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,6 +70,7 @@ namespace aws.TransferWorkflow
             /// <summary>tags block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWorkflow.ITransferWorkflowStepsTagStepDetailsTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]

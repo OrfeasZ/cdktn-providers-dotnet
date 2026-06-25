@@ -47,10 +47,22 @@ namespace oci.DataOciFleetAppsManagementFleet
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "compartmentIdInSubtree", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable CompartmentIdInSubtree
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "conditions", typeJson: "{\"fqn\":\"oci.dataOciFleetAppsManagementFleet.DataOciFleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditionsList\"}")]
         public virtual oci.DataOciFleetAppsManagementFleet.DataOciFleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditionsList Conditions
         {
             get => GetInstanceProperty<oci.DataOciFleetAppsManagementFleet.DataOciFleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditionsList>()!;
+        }
+
+        [JsiiProperty(name: "matchCondition", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MatchCondition
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "resourceCompartmentId", typeJson: "{\"primitive\":\"string\"}")]

@@ -22,6 +22,7 @@ namespace aws.IotTopicRule
         /// <summary>dimension block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iot_topic_rule#dimension IotTopicRule#dimension}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleErrorActionTimestreamDimension" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dimension", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorActionTimestreamDimension\"},\"kind\":\"array\"}}]}}")]
         public object Dimension

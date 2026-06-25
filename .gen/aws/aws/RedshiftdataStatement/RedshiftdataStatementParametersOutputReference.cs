@@ -63,6 +63,9 @@ namespace aws.RedshiftdataStatement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RedshiftdataStatement.IRedshiftdataStatementParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.redshiftdataStatement.RedshiftdataStatementParameters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

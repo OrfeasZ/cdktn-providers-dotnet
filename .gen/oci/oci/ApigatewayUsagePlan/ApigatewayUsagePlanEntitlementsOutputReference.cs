@@ -47,6 +47,7 @@ namespace oci.ApigatewayUsagePlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsRateLimit)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsTargets" />)[]</param>
         [JsiiMethod(name: "putTargets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsTargets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargets(object @value)
         {
@@ -140,6 +141,9 @@ namespace oci.ApigatewayUsagePlan
             get => GetInstanceProperty<oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsRateLimit?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetsInput
@@ -161,6 +165,9 @@ namespace oci.ApigatewayUsagePlan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlements" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlements\"}]}}", isOptional: true)]
         public virtual object? InternalValue

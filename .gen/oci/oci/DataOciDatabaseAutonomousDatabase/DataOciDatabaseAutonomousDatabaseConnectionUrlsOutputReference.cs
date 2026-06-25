@@ -77,6 +77,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "spatialStudioUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SpatialStudioUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sqlDevWebUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SqlDevWebUrl
         {

@@ -41,6 +41,9 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
             return InvokeInstanceMethod<oci.DataOciBdsBdsInstanceNodeReplaceConfigurations.DataOciBdsBdsInstanceNodeReplaceConfigurationsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstanceNodeReplaceConfigurations.IDataOciBdsBdsInstanceNodeReplaceConfigurationsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciBdsBdsInstanceNodeReplaceConfigurations.DataOciBdsBdsInstanceNodeReplaceConfigurationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

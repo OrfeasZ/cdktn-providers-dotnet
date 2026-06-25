@@ -41,6 +41,9 @@ namespace cloudflare.WorkerVersion
             return InvokeInstanceMethod<cloudflare.WorkerVersion.WorkerVersionMigrationsStepsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionMigrationsSteps" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionMigrationsSteps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

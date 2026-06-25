@@ -7,28 +7,28 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#execution_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#execution_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#execution_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#execution_id}.</summary>
         [JsiiProperty(name: "executionId", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_object_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_object_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_object_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_object_id}.</summary>
         [JsiiProperty(name: "sqlObjectId", typeJson: "{\"primitive\":\"string\"}")]
         string SqlObjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_tuning_advisor_task_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_tuning_advisor_task_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_tuning_advisor_task_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_tuning_advisor_task_id}.</summary>
         [JsiiProperty(name: "sqlTuningAdvisorTaskId", typeJson: "{\"primitive\":\"string\"}")]
         string SqlTuningAdvisorTaskId
         {
@@ -37,7 +37,8 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#filter DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#filter DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations.IDataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +50,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +65,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#opc_named_credential_id}.</summary>
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpcNamedCredentialId
@@ -82,28 +83,28 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#execution_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#execution_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#execution_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#execution_id}.</summary>
             [JsiiProperty(name: "executionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_object_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_object_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_object_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_object_id}.</summary>
             [JsiiProperty(name: "sqlObjectId", typeJson: "{\"primitive\":\"string\"}")]
             public string SqlObjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_tuning_advisor_task_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_tuning_advisor_task_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_tuning_advisor_task_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_tuning_advisor_task_id}.</summary>
             [JsiiProperty(name: "sqlTuningAdvisorTaskId", typeJson: "{\"primitive\":\"string\"}")]
             public string SqlTuningAdvisorTaskId
             {
@@ -112,7 +113,8 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#filter DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#filter DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations.IDataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -121,7 +123,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -133,7 +135,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#opc_named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#opc_named_credential_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpcNamedCredentialId
@@ -143,6 +145,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -153,6 +156,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -203,6 +207,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecom
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

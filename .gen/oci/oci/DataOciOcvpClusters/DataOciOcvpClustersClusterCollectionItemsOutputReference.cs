@@ -53,6 +53,12 @@ namespace oci.DataOciOcvpClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "clusterByolAllocationDetails", typeJson: "{\"fqn\":\"oci.dataOciOcvpClusters.DataOciOcvpClustersClusterCollectionItemsClusterByolAllocationDetailsList\"}")]
+        public virtual oci.DataOciOcvpClusters.DataOciOcvpClustersClusterCollectionItemsClusterByolAllocationDetailsList ClusterByolAllocationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOcvpClusters.DataOciOcvpClustersClusterCollectionItemsClusterByolAllocationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -137,6 +143,12 @@ namespace oci.DataOciOcvpClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "initialVcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialVcfByolAllocationId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "instanceDisplayNamePrefix", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InstanceDisplayNamePrefix
         {
@@ -165,6 +177,12 @@ namespace oci.DataOciOcvpClusters
         public virtual string State
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

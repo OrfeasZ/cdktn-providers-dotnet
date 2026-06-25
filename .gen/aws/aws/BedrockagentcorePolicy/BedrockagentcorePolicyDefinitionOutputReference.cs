@@ -35,6 +35,7 @@ namespace aws.BedrockagentcorePolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinitionCedar" />)[]</param>
         [JsiiMethod(name: "putCedar", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCedar(object @value)
         {
@@ -70,6 +71,9 @@ namespace aws.BedrockagentcorePolicy
             get => GetInstanceProperty<aws.BedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedarList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinitionCedar" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cedarInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CedarInput
@@ -77,6 +81,9 @@ namespace aws.BedrockagentcorePolicy
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockagentcorePolicy.IBedrockagentcorePolicyDefinition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,12 @@ namespace oci.DataOciManagedKafkaKafkaClusters
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "nodeShape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NodeShape
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "ocpuCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double OcpuCount
         {

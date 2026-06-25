@@ -41,6 +41,9 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstances
             return InvokeInstanceMethod<oci.DataOciDatabaseManagementCloudClusterInstances.DataOciDatabaseManagementCloudClusterInstancesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudClusterInstances.IDataOciDatabaseManagementCloudClusterInstancesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementCloudClusterInstances.DataOciDatabaseManagementCloudClusterInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

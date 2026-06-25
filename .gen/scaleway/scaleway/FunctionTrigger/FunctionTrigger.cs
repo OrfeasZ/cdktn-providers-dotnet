@@ -192,6 +192,9 @@ namespace scaleway.FunctionTrigger
             get => GetInstanceProperty<scaleway.FunctionTrigger.IFunctionTriggerSqs?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.FunctionTrigger.IFunctionTriggerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.functionTrigger.FunctionTriggerTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

@@ -46,6 +46,7 @@ namespace aws.TransferWebApp
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.TransferWebApp.TransferWebApp), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetails" />)[]</param>
         [JsiiMethod(name: "putEndpointDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEndpointDetails(object @value)
         {
@@ -69,6 +70,7 @@ namespace aws.TransferWebApp
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetails" />)[]</param>
         [JsiiMethod(name: "putIdentityProviderDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIdentityProviderDetails(object @value)
         {
@@ -92,6 +94,7 @@ namespace aws.TransferWebApp
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppWebAppUnits" />)[]</param>
         [JsiiMethod(name: "putWebAppUnits", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppWebAppUnits\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWebAppUnits(object @value)
         {
@@ -219,6 +222,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endpointDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppEndpointDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EndpointDetailsInput
@@ -226,6 +232,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityProviderDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IdentityProviderDetailsInput
@@ -254,6 +263,9 @@ namespace aws.TransferWebApp
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppWebAppUnits" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webAppUnitsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppWebAppUnits\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? WebAppUnitsInput

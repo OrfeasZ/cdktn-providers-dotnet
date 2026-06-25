@@ -41,6 +41,9 @@ namespace aws.ImagebuilderImagePipeline
             return InvokeInstanceMethod<aws.ImagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderImagePipeline.IImagebuilderImagePipelineWorkflow" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace oci.DatabaseVmClusterNetwork
             return InvokeInstanceMethod<oci.DatabaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworksOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworks" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

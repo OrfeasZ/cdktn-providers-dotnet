@@ -41,6 +41,9 @@ namespace oci.DataOciLogAnalyticsNamespaceRules
             return InvokeInstanceMethod<oci.DataOciLogAnalyticsNamespaceRules.DataOciLogAnalyticsNamespaceRulesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLogAnalyticsNamespaceRules.IDataOciLogAnalyticsNamespaceRulesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciLogAnalyticsNamespaceRules.DataOciLogAnalyticsNamespaceRulesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -41,6 +41,9 @@ namespace aws.Apigatewayv2RoutingRule
             return InvokeInstanceMethod<aws.Apigatewayv2RoutingRule.Apigatewayv2RoutingRuleActionInvokeApiOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleActionInvokeApi" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.apigatewayv2RoutingRule.Apigatewayv2RoutingRuleActionInvokeApi\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

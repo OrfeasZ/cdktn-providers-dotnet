@@ -102,6 +102,9 @@ namespace aws.CloudwatchOtelEnrichment
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

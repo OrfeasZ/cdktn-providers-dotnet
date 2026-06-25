@@ -63,6 +63,9 @@ namespace aws.DataAwsEc2ManagedPrefixList
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2ManagedPrefixList.IDataAwsEc2ManagedPrefixListFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2ManagedPrefixList.DataAwsEc2ManagedPrefixListFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

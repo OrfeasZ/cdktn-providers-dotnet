@@ -12,6 +12,7 @@ namespace aws.RedshiftIdcApplication
         /// <summary>read_write_access block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/redshift_idc_application#read_write_access RedshiftIdcApplication#read_write_access}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "readWriteAccess", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess\"},\"kind\":\"array\"}}]}}", isOptional: true)]

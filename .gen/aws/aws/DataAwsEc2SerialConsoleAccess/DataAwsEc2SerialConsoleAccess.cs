@@ -115,6 +115,9 @@ namespace aws.DataAwsEc2SerialConsoleAccess
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsEc2SerialConsoleAccess.IDataAwsEc2SerialConsoleAccessTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccessTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

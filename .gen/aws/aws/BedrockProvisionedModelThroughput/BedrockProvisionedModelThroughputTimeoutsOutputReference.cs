@@ -53,6 +53,9 @@ namespace aws.BedrockProvisionedModelThroughput
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.BedrockProvisionedModelThroughput.IBedrockProvisionedModelThroughputTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

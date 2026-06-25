@@ -35,6 +35,7 @@ namespace aws.ElasticacheServerlessCache
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsDataStorage" />)[]</param>
         [JsiiMethod(name: "putDataStorage", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorage\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDataStorage(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.ElasticacheServerlessCache
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond" />)[]</param>
         [JsiiMethod(name: "putEcpuPerSecond", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutEcpuPerSecond(object @value)
         {
@@ -105,6 +107,9 @@ namespace aws.ElasticacheServerlessCache
             get => GetInstanceProperty<aws.ElasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsDataStorage" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataStorageInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DataStorageInput
@@ -112,6 +117,9 @@ namespace aws.ElasticacheServerlessCache
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ecpuPerSecondInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? EcpuPerSecondInput
@@ -119,6 +127,9 @@ namespace aws.ElasticacheServerlessCache
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimits" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -46,6 +46,7 @@ namespace aws.IotBillingGroup
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.IotBillingGroup.IotBillingGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotBillingGroup.IIotBillingGroupProperties" />)[]</param>
         [JsiiMethod(name: "putProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotBillingGroup.IotBillingGroupProperties\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutProperties(object @value)
         {
@@ -149,6 +150,9 @@ namespace aws.IotBillingGroup
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotBillingGroup.IIotBillingGroupProperties" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "propertiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotBillingGroup.IotBillingGroupProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PropertiesInput

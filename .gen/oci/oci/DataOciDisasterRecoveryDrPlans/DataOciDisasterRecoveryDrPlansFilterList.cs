@@ -41,6 +41,9 @@ namespace oci.DataOciDisasterRecoveryDrPlans
             return InvokeInstanceMethod<oci.DataOciDisasterRecoveryDrPlans.DataOciDisasterRecoveryDrPlansFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDisasterRecoveryDrPlans.IDataOciDisasterRecoveryDrPlansFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDisasterRecoveryDrPlans.DataOciDisasterRecoveryDrPlansFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

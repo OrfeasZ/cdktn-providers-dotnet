@@ -41,6 +41,9 @@ namespace oci.IdentityDomainsIdentitySetting
             return InvokeInstanceMethod<oci.IdentityDomainsIdentitySetting.IdentityDomainsIdentitySettingTokensOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsIdentitySetting.IIdentityDomainsIdentitySettingTokens" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsIdentitySetting.IdentityDomainsIdentitySettingTokens\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

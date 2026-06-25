@@ -59,6 +59,12 @@ namespace oci.DataOciOsManagementHubScheduledJobs
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dynamicSetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DynamicSetIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {

@@ -69,6 +69,9 @@ namespace aws.AlbListener
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.AlbListener.IAlbListenerDefaultActionForwardTargetGroup" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.albListener.AlbListenerDefaultActionForwardTargetGroup\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -7,7 +7,7 @@ namespace oci.DatabaseVmClusterAddVirtualMachine
     [JsiiInterface(nativeType: typeof(IDatabaseVmClusterAddVirtualMachineDbServers), fullyQualifiedName: "oci.databaseVmClusterAddVirtualMachine.DatabaseVmClusterAddVirtualMachineDbServers")]
     public interface IDatabaseVmClusterAddVirtualMachineDbServers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_vm_cluster_add_virtual_machine#db_server_id DatabaseVmClusterAddVirtualMachine#db_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_vm_cluster_add_virtual_machine#db_server_id DatabaseVmClusterAddVirtualMachine#db_server_id}.</summary>
         [JsiiProperty(name: "dbServerId", typeJson: "{\"primitive\":\"string\"}")]
         string DbServerId
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseVmClusterAddVirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/database_vm_cluster_add_virtual_machine#db_server_id DatabaseVmClusterAddVirtualMachine#db_server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/database_vm_cluster_add_virtual_machine#db_server_id DatabaseVmClusterAddVirtualMachine#db_server_id}.</summary>
             [JsiiProperty(name: "dbServerId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbServerId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
     [JsiiInterface(nativeType: typeof(IDataOciWlmsWlsDomainAgreementRecordsConfig), fullyQualifiedName: "oci.dataOciWlmsWlsDomainAgreementRecords.DataOciWlmsWlsDomainAgreementRecordsConfig")]
     public interface IDataOciWlmsWlsDomainAgreementRecordsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/wlms_wls_domain_agreement_records#wls_domain_id DataOciWlmsWlsDomainAgreementRecords#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_agreement_records#wls_domain_id DataOciWlmsWlsDomainAgreementRecords#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string WlsDomainId
         {
@@ -16,7 +16,8 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/wlms_wls_domain_agreement_records#filter DataOciWlmsWlsDomainAgreementRecords#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_agreement_records#filter DataOciWlmsWlsDomainAgreementRecords#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainAgreementRecords.IDataOciWlmsWlsDomainAgreementRecordsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWlmsWlsDomainAgreementRecords.DataOciWlmsWlsDomainAgreementRecordsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +29,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/wlms_wls_domain_agreement_records#id DataOciWlmsWlsDomainAgreementRecords#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_agreement_records#id DataOciWlmsWlsDomainAgreementRecords#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +51,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/wlms_wls_domain_agreement_records#wls_domain_id DataOciWlmsWlsDomainAgreementRecords#wls_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_agreement_records#wls_domain_id DataOciWlmsWlsDomainAgreementRecords#wls_domain_id}.</summary>
             [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string WlsDomainId
             {
@@ -59,7 +60,8 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/wlms_wls_domain_agreement_records#filter DataOciWlmsWlsDomainAgreementRecords#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_agreement_records#filter DataOciWlmsWlsDomainAgreementRecords#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainAgreementRecords.IDataOciWlmsWlsDomainAgreementRecordsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWlmsWlsDomainAgreementRecords.DataOciWlmsWlsDomainAgreementRecordsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -68,7 +70,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/wlms_wls_domain_agreement_records#id DataOciWlmsWlsDomainAgreementRecords#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/wlms_wls_domain_agreement_records#id DataOciWlmsWlsDomainAgreementRecords#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,6 +84,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -92,6 +95,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -142,6 +146,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

@@ -93,6 +93,9 @@ namespace aws.CloudfrontConnectionGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudfrontConnectionGroup.ICloudfrontConnectionGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudfrontConnectionGroup.CloudfrontConnectionGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

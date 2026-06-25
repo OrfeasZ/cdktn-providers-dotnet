@@ -53,6 +53,9 @@ namespace aws.DataAwsSsoadminPrincipalApplicationAssignments
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSsoadminPrincipalApplicationAssignments.IDataAwsSsoadminPrincipalApplicationAssignmentsApplicationAssignments" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignmentsApplicationAssignments\"}]}}", isOptional: true)]
         public virtual object? InternalValue

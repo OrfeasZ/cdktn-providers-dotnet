@@ -93,6 +93,9 @@ namespace oci.DataSafeTargetDatabaseGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeTargetDatabaseGroup.IDataSafeTargetDatabaseGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeTargetDatabaseGroup.DataSafeTargetDatabaseGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

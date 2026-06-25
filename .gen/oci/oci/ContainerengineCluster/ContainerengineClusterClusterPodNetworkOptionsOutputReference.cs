@@ -49,6 +49,9 @@ namespace oci.ContainerengineCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.ContainerengineCluster.IContainerengineClusterClusterPodNetworkOptions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterClusterPodNetworkOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

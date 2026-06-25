@@ -41,6 +41,9 @@ namespace aws.IotTopicRule
             return InvokeInstanceMethod<aws.IotTopicRule.IotTopicRuleHttpOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttp" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleHttp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

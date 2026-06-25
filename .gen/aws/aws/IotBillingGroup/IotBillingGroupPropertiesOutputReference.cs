@@ -55,6 +55,9 @@ namespace aws.IotBillingGroup
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.IotBillingGroup.IIotBillingGroupProperties" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.iotBillingGroup.IotBillingGroupProperties\"}]}}", isOptional: true)]
         public virtual object? InternalValue

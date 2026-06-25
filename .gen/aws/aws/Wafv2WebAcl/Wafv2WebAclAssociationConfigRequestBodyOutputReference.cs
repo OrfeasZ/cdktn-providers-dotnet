@@ -160,6 +160,9 @@ namespace aws.Wafv2WebAcl
             get => GetInstanceProperty<aws.Wafv2WebAcl.IWafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstance?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Wafv2WebAcl.IWafv2WebAclAssociationConfigRequestBody" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclAssociationConfigRequestBody\"}]}}", isOptional: true)]
         public virtual object? InternalValue

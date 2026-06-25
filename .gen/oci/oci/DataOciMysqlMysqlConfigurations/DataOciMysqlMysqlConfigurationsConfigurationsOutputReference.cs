@@ -77,6 +77,12 @@ namespace oci.DataOciMysqlMysqlConfigurations
             get => GetInstanceProperty<oci.DataOciMysqlMysqlConfigurations.DataOciMysqlMysqlConfigurationsConfigurationsInitVariablesList>()!;
         }
 
+        [JsiiProperty(name: "options", typeJson: "{\"fqn\":\"oci.dataOciMysqlMysqlConfigurations.DataOciMysqlMysqlConfigurationsConfigurationsOptionsList\"}")]
+        public virtual oci.DataOciMysqlMysqlConfigurations.DataOciMysqlMysqlConfigurationsConfigurationsOptionsList Options
+        {
+            get => GetInstanceProperty<oci.DataOciMysqlMysqlConfigurations.DataOciMysqlMysqlConfigurationsConfigurationsOptionsList>()!;
+        }
+
         [JsiiProperty(name: "parentConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ParentConfigurationId
         {

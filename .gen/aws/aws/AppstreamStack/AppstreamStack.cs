@@ -46,6 +46,7 @@ namespace aws.AppstreamStack
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AppstreamStack.AppstreamStack), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamStack.IAppstreamStackAccessEndpoints" />)[]</param>
         [JsiiMethod(name: "putAccessEndpoints", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamStack.AppstreamStackAccessEndpoints\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAccessEndpoints(object @value)
         {
@@ -75,6 +76,7 @@ namespace aws.AppstreamStack
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AppstreamStack.IAppstreamStackApplicationSettings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamStack.IAppstreamStackStorageConnectors" />)[]</param>
         [JsiiMethod(name: "putStorageConnectors", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamStack.AppstreamStackStorageConnectors\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStorageConnectors(object @value)
         {
@@ -104,6 +106,7 @@ namespace aws.AppstreamStack
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AppstreamStack.IAppstreamStackStreamingExperienceSettings)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamStack.IAppstreamStackUserSettings" />)[]</param>
         [JsiiMethod(name: "putUserSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamStack.AppstreamStackUserSettings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutUserSettings(object @value)
         {
@@ -272,6 +275,9 @@ namespace aws.AppstreamStack
             get => GetInstanceProperty<aws.AppstreamStack.AppstreamStackUserSettingsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamStack.IAppstreamStackAccessEndpoints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessEndpointsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamStack.AppstreamStackAccessEndpoints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AccessEndpointsInput
@@ -342,6 +348,9 @@ namespace aws.AppstreamStack
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamStack.IAppstreamStackStorageConnectors" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageConnectorsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamStack.AppstreamStackStorageConnectors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StorageConnectorsInput
@@ -370,6 +379,9 @@ namespace aws.AppstreamStack
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamStack.IAppstreamStackUserSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appstreamStack.AppstreamStackUserSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? UserSettingsInput

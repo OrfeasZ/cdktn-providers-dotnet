@@ -7,7 +7,7 @@ namespace oci.AiVisionStreamGroup
     [JsiiInterface(nativeType: typeof(IAiVisionStreamGroupStreamOverlaps), fullyQualifiedName: "oci.aiVisionStreamGroup.AiVisionStreamGroupStreamOverlaps")]
     public interface IAiVisionStreamGroupStreamOverlaps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}.</summary>
         [JsiiProperty(name: "overlappingStreams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? OverlappingStreams
@@ -25,7 +25,7 @@ namespace oci.AiVisionStreamGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "overlappingStreams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? OverlappingStreams

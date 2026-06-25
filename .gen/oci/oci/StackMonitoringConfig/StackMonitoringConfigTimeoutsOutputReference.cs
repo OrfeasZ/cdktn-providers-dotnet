@@ -93,6 +93,9 @@ namespace oci.StackMonitoringConfig
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.StackMonitoringConfig.IStackMonitoringConfigTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.stackMonitoringConfig.StackMonitoringConfigTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -35,6 +35,7 @@ namespace aws.CloudwatchMetricStream
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfigurationIncludeMetric" />)[]</param>
         [JsiiMethod(name: "putIncludeMetric", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIncludeMetric(object @value)
         {
@@ -71,6 +72,9 @@ namespace aws.CloudwatchMetricStream
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfigurationIncludeMetric" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "includeMetricInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IncludeMetricInput
@@ -85,6 +89,9 @@ namespace aws.CloudwatchMetricStream
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

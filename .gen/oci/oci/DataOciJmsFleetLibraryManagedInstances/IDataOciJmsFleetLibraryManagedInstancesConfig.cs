@@ -7,21 +7,21 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
     [JsiiInterface(nativeType: typeof(IDataOciJmsFleetLibraryManagedInstancesConfig), fullyQualifiedName: "oci.dataOciJmsFleetLibraryManagedInstances.DataOciJmsFleetLibraryManagedInstancesConfig")]
     public interface IDataOciJmsFleetLibraryManagedInstancesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#fleet_id DataOciJmsFleetLibraryManagedInstances#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#fleet_id DataOciJmsFleetLibraryManagedInstances#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#library_key DataOciJmsFleetLibraryManagedInstances#library_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#library_key DataOciJmsFleetLibraryManagedInstances#library_key}.</summary>
         [JsiiProperty(name: "libraryKey", typeJson: "{\"primitive\":\"string\"}")]
         string LibraryKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#application_id DataOciJmsFleetLibraryManagedInstances#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#application_id DataOciJmsFleetLibraryManagedInstances#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ApplicationId
@@ -34,7 +34,8 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#filter DataOciJmsFleetLibraryManagedInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#filter DataOciJmsFleetLibraryManagedInstances#filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsFleetLibraryManagedInstances.IDataOciJmsFleetLibraryManagedInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsFleetLibraryManagedInstances.DataOciJmsFleetLibraryManagedInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,7 +47,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#host_name DataOciJmsFleetLibraryManagedInstances#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#host_name DataOciJmsFleetLibraryManagedInstances#host_name}.</summary>
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostName
@@ -57,7 +58,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#hostname_contains DataOciJmsFleetLibraryManagedInstances#hostname_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#hostname_contains DataOciJmsFleetLibraryManagedInstances#hostname_contains}.</summary>
         [JsiiProperty(name: "hostnameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostnameContains
@@ -68,7 +69,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#id DataOciJmsFleetLibraryManagedInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#id DataOciJmsFleetLibraryManagedInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +84,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#managed_instance_id DataOciJmsFleetLibraryManagedInstances#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#managed_instance_id DataOciJmsFleetLibraryManagedInstances#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ManagedInstanceId
@@ -94,7 +95,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#time_end DataOciJmsFleetLibraryManagedInstances#time_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#time_end DataOciJmsFleetLibraryManagedInstances#time_end}.</summary>
         [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeEnd
@@ -105,7 +106,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#time_start DataOciJmsFleetLibraryManagedInstances#time_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#time_start DataOciJmsFleetLibraryManagedInstances#time_start}.</summary>
         [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStart
@@ -123,21 +124,21 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#fleet_id DataOciJmsFleetLibraryManagedInstances#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#fleet_id DataOciJmsFleetLibraryManagedInstances#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#library_key DataOciJmsFleetLibraryManagedInstances#library_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#library_key DataOciJmsFleetLibraryManagedInstances#library_key}.</summary>
             [JsiiProperty(name: "libraryKey", typeJson: "{\"primitive\":\"string\"}")]
             public string LibraryKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#application_id DataOciJmsFleetLibraryManagedInstances#application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#application_id DataOciJmsFleetLibraryManagedInstances#application_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ApplicationId
@@ -147,7 +148,8 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#filter DataOciJmsFleetLibraryManagedInstances#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#filter DataOciJmsFleetLibraryManagedInstances#filter}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsFleetLibraryManagedInstances.IDataOciJmsFleetLibraryManagedInstancesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsFleetLibraryManagedInstances.DataOciJmsFleetLibraryManagedInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -156,7 +158,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#host_name DataOciJmsFleetLibraryManagedInstances#host_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#host_name DataOciJmsFleetLibraryManagedInstances#host_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostName
@@ -164,7 +166,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#hostname_contains DataOciJmsFleetLibraryManagedInstances#hostname_contains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#hostname_contains DataOciJmsFleetLibraryManagedInstances#hostname_contains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostnameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostnameContains
@@ -172,7 +174,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#id DataOciJmsFleetLibraryManagedInstances#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#id DataOciJmsFleetLibraryManagedInstances#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +186,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#managed_instance_id DataOciJmsFleetLibraryManagedInstances#managed_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#managed_instance_id DataOciJmsFleetLibraryManagedInstances#managed_instance_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ManagedInstanceId
@@ -192,7 +194,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#time_end DataOciJmsFleetLibraryManagedInstances#time_end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#time_end DataOciJmsFleetLibraryManagedInstances#time_end}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeEnd
@@ -200,7 +202,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/data-sources/jms_fleet_library_managed_instances#time_start DataOciJmsFleetLibraryManagedInstances#time_start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/data-sources/jms_fleet_library_managed_instances#time_start DataOciJmsFleetLibraryManagedInstances#time_start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStart
@@ -210,6 +212,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -220,6 +223,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -270,6 +274,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

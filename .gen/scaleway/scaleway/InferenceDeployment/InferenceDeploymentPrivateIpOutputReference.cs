@@ -47,6 +47,9 @@ namespace scaleway.InferenceDeployment
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InferenceDeployment.IInferenceDeploymentPrivateIp" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.inferenceDeployment.InferenceDeploymentPrivateIp\"}]}}", isOptional: true)]
         public virtual object? InternalValue

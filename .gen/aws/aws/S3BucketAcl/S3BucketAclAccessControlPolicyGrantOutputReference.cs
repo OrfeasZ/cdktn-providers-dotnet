@@ -74,6 +74,9 @@ namespace aws.S3BucketAcl
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketAcl.IS3BucketAclAccessControlPolicyGrant" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketAcl.S3BucketAclAccessControlPolicyGrant\"}]}}", isOptional: true)]
         public virtual object? InternalValue

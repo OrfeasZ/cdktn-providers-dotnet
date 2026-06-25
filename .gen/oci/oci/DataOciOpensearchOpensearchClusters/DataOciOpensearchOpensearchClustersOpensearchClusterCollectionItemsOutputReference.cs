@@ -59,6 +59,36 @@ namespace oci.DataOciOpensearchOpensearchClusters
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "coordinatorNodeCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CoordinatorNodeCount
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CoordinatorNodeHostMemoryGb
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CoordinatorNodeHostOcpuCount
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostShape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CoordinatorNodeHostShape
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "coordinatorNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CoordinatorNodeHostType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "dataNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double DataNodeCount
         {
@@ -143,6 +173,12 @@ namespace oci.DataOciOpensearchOpensearchClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "loadBalancerConfig", typeJson: "{\"fqn\":\"oci.dataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsLoadBalancerConfigList\"}")]
+        public virtual oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsLoadBalancerConfigList LoadBalancerConfig
+        {
+            get => GetInstanceProperty<oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsLoadBalancerConfigList>()!;
+        }
+
         [JsiiProperty(name: "maintenanceDetails", typeJson: "{\"fqn\":\"oci.dataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsMaintenanceDetailsList\"}")]
         public virtual oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsMaintenanceDetailsList MaintenanceDetails
         {
@@ -183,6 +219,42 @@ namespace oci.DataOciOpensearchOpensearchClusters
         public virtual string MasterNodeHostType
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "mlNodeCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeCount
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "mlNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeHostMemoryGb
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "mlNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeHostOcpuCount
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "mlNodeHostShape", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MlNodeHostShape
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "mlNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MlNodeHostType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "mlNodeStorageGb", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MlNodeStorageGb
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "nsgId", typeJson: "{\"primitive\":\"string\"}")]

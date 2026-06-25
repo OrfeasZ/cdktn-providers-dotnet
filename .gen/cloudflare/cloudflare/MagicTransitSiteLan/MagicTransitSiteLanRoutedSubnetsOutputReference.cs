@@ -53,6 +53,9 @@ namespace cloudflare.MagicTransitSiteLan
             get => GetInstanceProperty<cloudflare.MagicTransitSiteLan.MagicTransitSiteLanRoutedSubnetsNatOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanRoutedSubnetsNat" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "natInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanRoutedSubnetsNat\"}]}}", isOptional: true)]
         public virtual object? NatInput
@@ -88,6 +91,9 @@ namespace cloudflare.MagicTransitSiteLan
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.MagicTransitSiteLan.IMagicTransitSiteLanRoutedSubnets" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.magicTransitSiteLan.MagicTransitSiteLanRoutedSubnets\"}]}}", isOptional: true)]
         public virtual object? InternalValue

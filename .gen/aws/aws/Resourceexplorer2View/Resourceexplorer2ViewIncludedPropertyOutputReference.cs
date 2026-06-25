@@ -49,6 +49,9 @@ namespace aws.Resourceexplorer2View
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Resourceexplorer2View.IResourceexplorer2ViewIncludedProperty" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.resourceexplorer2View.Resourceexplorer2ViewIncludedProperty\"}]}}", isOptional: true)]
         public virtual object? InternalValue

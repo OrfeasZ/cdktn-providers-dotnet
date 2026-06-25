@@ -133,6 +133,9 @@ namespace scaleway.ContainerTrigger
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.ContainerTrigger.IContainerTriggerTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.containerTrigger.ContainerTriggerTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

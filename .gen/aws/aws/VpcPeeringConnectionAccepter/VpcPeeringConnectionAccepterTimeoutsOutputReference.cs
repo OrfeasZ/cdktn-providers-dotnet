@@ -73,6 +73,9 @@ namespace aws.VpcPeeringConnectionAccepter
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcPeeringConnectionAccepter.IVpcPeeringConnectionAccepterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcPeeringConnectionAccepter.VpcPeeringConnectionAccepterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

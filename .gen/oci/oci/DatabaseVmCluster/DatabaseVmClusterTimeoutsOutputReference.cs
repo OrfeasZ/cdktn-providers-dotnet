@@ -93,6 +93,9 @@ namespace oci.DatabaseVmCluster
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseVmCluster.IDatabaseVmClusterTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

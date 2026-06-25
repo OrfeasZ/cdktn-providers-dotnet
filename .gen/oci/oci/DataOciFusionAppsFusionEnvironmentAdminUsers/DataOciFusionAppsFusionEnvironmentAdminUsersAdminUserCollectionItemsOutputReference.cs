@@ -71,12 +71,6 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Password
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Username
         {

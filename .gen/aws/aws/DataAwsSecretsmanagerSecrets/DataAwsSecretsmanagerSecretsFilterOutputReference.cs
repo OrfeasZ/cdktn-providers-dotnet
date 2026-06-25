@@ -63,6 +63,9 @@ namespace aws.DataAwsSecretsmanagerSecrets
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsSecretsmanagerSecrets.IDataAwsSecretsmanagerSecretsFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsSecretsmanagerSecrets.DataAwsSecretsmanagerSecretsFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

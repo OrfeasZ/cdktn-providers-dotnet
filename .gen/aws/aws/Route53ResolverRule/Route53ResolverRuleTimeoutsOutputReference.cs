@@ -93,6 +93,9 @@ namespace aws.Route53ResolverRule
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53ResolverRule.IRoute53ResolverRuleTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53ResolverRule.Route53ResolverRuleTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

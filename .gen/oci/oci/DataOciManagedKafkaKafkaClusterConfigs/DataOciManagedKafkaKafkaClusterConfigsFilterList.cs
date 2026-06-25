@@ -41,6 +41,9 @@ namespace oci.DataOciManagedKafkaKafkaClusterConfigs
             return InvokeInstanceMethod<oci.DataOciManagedKafkaKafkaClusterConfigs.DataOciManagedKafkaKafkaClusterConfigsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciManagedKafkaKafkaClusterConfigs.IDataOciManagedKafkaKafkaClusterConfigsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciManagedKafkaKafkaClusterConfigs.DataOciManagedKafkaKafkaClusterConfigsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

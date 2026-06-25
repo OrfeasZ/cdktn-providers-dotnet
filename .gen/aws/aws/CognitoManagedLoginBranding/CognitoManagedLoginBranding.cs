@@ -46,6 +46,7 @@ namespace aws.CognitoManagedLoginBranding
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CognitoManagedLoginBranding.CognitoManagedLoginBranding), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedLoginBranding.ICognitoManagedLoginBrandingAsset" />)[]</param>
         [JsiiMethod(name: "putAsset", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAsset\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAsset(object @value)
         {
@@ -130,6 +131,9 @@ namespace aws.CognitoManagedLoginBranding
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoManagedLoginBranding.ICognitoManagedLoginBrandingAsset" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assetInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAsset\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AssetInput
@@ -158,6 +162,9 @@ namespace aws.CognitoManagedLoginBranding
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "useCognitoProvidedValuesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? UseCognitoProvidedValuesInput
@@ -193,6 +200,9 @@ namespace aws.CognitoManagedLoginBranding
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "useCognitoProvidedValues", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object UseCognitoProvidedValues
         {

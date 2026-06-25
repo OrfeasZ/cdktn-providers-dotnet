@@ -35,6 +35,7 @@ namespace aws.S3BucketLifecycleConfiguration
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpload" />)[]</param>
         [JsiiMethod(name: "putAbortIncompleteMultipartUpload", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpload\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutAbortIncompleteMultipartUpload(object @value)
         {
@@ -58,6 +59,7 @@ namespace aws.S3BucketLifecycleConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleExpiration" />)[]</param>
         [JsiiMethod(name: "putExpiration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleExpiration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExpiration(object @value)
         {
@@ -81,6 +83,7 @@ namespace aws.S3BucketLifecycleConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleFilter" />)[]</param>
         [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleFilter\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFilter(object @value)
         {
@@ -104,6 +107,7 @@ namespace aws.S3BucketLifecycleConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleNoncurrentVersionExpiration" />)[]</param>
         [JsiiMethod(name: "putNoncurrentVersionExpiration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleNoncurrentVersionExpiration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNoncurrentVersionExpiration(object @value)
         {
@@ -127,6 +131,7 @@ namespace aws.S3BucketLifecycleConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleNoncurrentVersionTransition" />)[]</param>
         [JsiiMethod(name: "putNoncurrentVersionTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNoncurrentVersionTransition(object @value)
         {
@@ -150,6 +155,7 @@ namespace aws.S3BucketLifecycleConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleTransition" />)[]</param>
         [JsiiMethod(name: "putTransition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransition\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTransition(object @value)
         {
@@ -251,6 +257,9 @@ namespace aws.S3BucketLifecycleConfiguration
             get => GetInstanceProperty<aws.S3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransitionList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpload" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "abortIncompleteMultipartUploadInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUpload\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AbortIncompleteMultipartUploadInput
@@ -258,6 +267,9 @@ namespace aws.S3BucketLifecycleConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleExpiration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expirationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleExpiration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExpirationInput
@@ -265,6 +277,9 @@ namespace aws.S3BucketLifecycleConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FilterInput
@@ -279,6 +294,9 @@ namespace aws.S3BucketLifecycleConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleNoncurrentVersionExpiration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noncurrentVersionExpirationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleNoncurrentVersionExpiration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NoncurrentVersionExpirationInput
@@ -286,6 +304,9 @@ namespace aws.S3BucketLifecycleConfiguration
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleNoncurrentVersionTransition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "noncurrentVersionTransitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? NoncurrentVersionTransitionInput
@@ -307,6 +328,9 @@ namespace aws.S3BucketLifecycleConfiguration
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRuleTransition" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transitionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TransitionInput
@@ -335,6 +359,9 @@ namespace aws.S3BucketLifecycleConfiguration
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3BucketLifecycleConfiguration.IS3BucketLifecycleConfigurationRule" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRule\"}]}}", isOptional: true)]
         public virtual object? InternalValue

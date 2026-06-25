@@ -73,6 +73,9 @@ namespace aws.Ec2TransitGatewayMulticastDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Ec2TransitGatewayMulticastDomain.IEc2TransitGatewayMulticastDomainTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.ec2TransitGatewayMulticastDomain.Ec2TransitGatewayMulticastDomainTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

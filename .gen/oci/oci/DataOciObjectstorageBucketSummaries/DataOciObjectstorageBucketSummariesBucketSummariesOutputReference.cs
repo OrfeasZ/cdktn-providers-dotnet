@@ -65,6 +65,12 @@ namespace oci.DataOciObjectstorageBucketSummaries
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "bucketScope", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BucketScope
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {

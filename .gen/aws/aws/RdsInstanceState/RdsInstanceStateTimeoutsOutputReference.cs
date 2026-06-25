@@ -73,6 +73,9 @@ namespace aws.RdsInstanceState
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.RdsInstanceState.IRdsInstanceStateTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.rdsInstanceState.RdsInstanceStateTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

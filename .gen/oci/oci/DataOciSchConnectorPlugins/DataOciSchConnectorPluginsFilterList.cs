@@ -41,6 +41,9 @@ namespace oci.DataOciSchConnectorPlugins
             return InvokeInstanceMethod<oci.DataOciSchConnectorPlugins.DataOciSchConnectorPluginsFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciSchConnectorPlugins.IDataOciSchConnectorPluginsFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciSchConnectorPlugins.DataOciSchConnectorPluginsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

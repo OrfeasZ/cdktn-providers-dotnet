@@ -35,6 +35,7 @@ namespace oci.DataSafeMaskingPoliciesMaskingColumn
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeMaskingPoliciesMaskingColumn.IDataSafeMaskingPoliciesMaskingColumnMaskingFormatsFormatEntries" />)[]</param>
         [JsiiMethod(name: "putFormatEntries", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeMaskingPoliciesMaskingColumn.DataSafeMaskingPoliciesMaskingColumnMaskingFormatsFormatEntries\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutFormatEntries(object @value)
         {
@@ -90,6 +91,9 @@ namespace oci.DataSafeMaskingPoliciesMaskingColumn
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeMaskingPoliciesMaskingColumn.IDataSafeMaskingPoliciesMaskingColumnMaskingFormatsFormatEntries" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "formatEntriesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeMaskingPoliciesMaskingColumn.DataSafeMaskingPoliciesMaskingColumnMaskingFormatsFormatEntries\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FormatEntriesInput
@@ -111,6 +115,9 @@ namespace oci.DataSafeMaskingPoliciesMaskingColumn
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataSafeMaskingPoliciesMaskingColumn.IDataSafeMaskingPoliciesMaskingColumnMaskingFormats" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataSafeMaskingPoliciesMaskingColumn.DataSafeMaskingPoliciesMaskingColumnMaskingFormats\"}]}}", isOptional: true)]
         public virtual object? InternalValue

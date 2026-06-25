@@ -207,6 +207,9 @@ namespace cloudflare.CustomSsl
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.CustomSsl.ICustomSslGeoRestrictions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "geoRestrictionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.customSsl.CustomSslGeoRestrictions\"}]}}", isOptional: true)]
         public virtual object? GeoRestrictionsInput

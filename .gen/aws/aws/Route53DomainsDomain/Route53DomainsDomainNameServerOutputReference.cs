@@ -75,6 +75,9 @@ namespace aws.Route53DomainsDomain
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainNameServer" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainNameServer\"}]}}", isOptional: true)]
         public virtual object? InternalValue

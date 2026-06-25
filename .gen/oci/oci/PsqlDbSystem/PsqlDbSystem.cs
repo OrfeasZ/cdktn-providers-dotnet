@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.PsqlDbSystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system oci_psql_db_system}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system oci_psql_db_system}.</summary>
     [JsiiClass(nativeType: typeof(oci.PsqlDbSystem.PsqlDbSystem), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemConfig\"}}]")]
     public class PsqlDbSystem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system oci_psql_db_system} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system oci_psql_db_system} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public PsqlDbSystem(Constructs.Construct scope, string id, oci.PsqlDbSystem.IPsqlDbSystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.PsqlDbSystem
         /// <param name="importToId">The construct id used in the generated config for the PsqlDbSystem to import.</param>
         /// <param name="importFromId">The id of the existing PsqlDbSystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the PsqlDbSystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PsqlDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.23.0/docs/resources/psql_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PsqlDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PsqlDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PsqlDbSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.19.0/docs/resources/psql_db_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PsqlDbSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PsqlDbSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.PsqlDbSystem.PsqlDbSystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,6 +52,7 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemCredentials)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemInstancesDetails" />)[]</param>
         [JsiiMethod(name: "putInstancesDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemInstancesDetails\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutInstancesDetails(object @value)
         {
@@ -75,6 +76,12 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putKerberosAuthDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetails\"}}]")]
+        public virtual void PutKerberosAuthDetails(oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putManagementPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicy\"}}]")]
         public virtual void PutManagementPolicy(oci.PsqlDbSystem.IPsqlDbSystemManagementPolicy @value)
         {
@@ -87,6 +94,13 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemNetworkDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putOdspInsightDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemOdspInsightDetails\"}}]")]
+        public virtual void PutOdspInsightDetails(oci.PsqlDbSystem.IPsqlDbSystemOdspInsightDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemOdspInsightDetails)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemPatchOperations" />)[]</param>
         [JsiiMethod(name: "putPatchOperations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemPatchOperations\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutPatchOperations(object @value)
         {
@@ -110,6 +124,12 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putReplicationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemReplicationConfig\"}}]")]
+        public virtual void PutReplicationConfig(oci.PsqlDbSystem.IPsqlDbSystemReplicationConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemReplicationConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemSource\"}}]")]
         public virtual void PutSource(oci.PsqlDbSystem.IPsqlDbSystemSource @value)
         {
@@ -126,6 +146,12 @@ namespace oci.PsqlDbSystem
         public virtual void PutTimeouts(oci.PsqlDbSystem.IPsqlDbSystemTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetApplyChangeModeToStandAlone")]
+        public virtual void ResetApplyChangeModeToStandAlone()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetApplyConfig")]
@@ -194,8 +220,20 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetKerberosAuthDetails")]
+        public virtual void ResetKerberosAuthDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetManagementPolicy")]
         public virtual void ResetManagementPolicy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOdspInsightDetails")]
+        public virtual void ResetOdspInsightDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -206,8 +244,20 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetReplicationConfig")]
+        public virtual void ResetReplicationConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSource")]
         public virtual void ResetSource()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetState")]
+        public virtual void ResetState()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -267,6 +317,12 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemInstancesDetailsList>()!;
         }
 
+        [JsiiProperty(name: "kerberosAuthDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetailsOutputReference\"}")]
+        public virtual oci.PsqlDbSystem.PsqlDbSystemKerberosAuthDetailsOutputReference KerberosAuthDetails
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemKerberosAuthDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -285,10 +341,22 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemNetworkDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "odspInsightDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemOdspInsightDetailsOutputReference\"}")]
+        public virtual oci.PsqlDbSystem.PsqlDbSystemOdspInsightDetailsOutputReference OdspInsightDetails
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemOdspInsightDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "patchOperations", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemPatchOperationsList\"}")]
         public virtual oci.PsqlDbSystem.PsqlDbSystemPatchOperationsList PatchOperations
         {
             get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemPatchOperationsList>()!;
+        }
+
+        [JsiiProperty(name: "replicationConfig", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemReplicationConfigOutputReference\"}")]
+        public virtual oci.PsqlDbSystem.PsqlDbSystemReplicationConfigOutputReference ReplicationConfig
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemReplicationConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemSourceOutputReference\"}")]
@@ -297,16 +365,16 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemSourceOutputReference>()!;
         }
 
-        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string State
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "storageDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemStorageDetailsOutputReference\"}")]
         public virtual oci.PsqlDbSystem.PsqlDbSystemStorageDetailsOutputReference StorageDetails
         {
             get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemStorageDetailsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "systemRole", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SystemRole
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
@@ -331,6 +399,13 @@ namespace oci.PsqlDbSystem
         public virtual string TimeUpdated
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "applyChangeModeToStandAloneInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApplyChangeModeToStandAloneInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -424,11 +499,21 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemInstancesDetails" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instancesDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemInstancesDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InstancesDetailsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kerberosAuthDetailsInput", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetails\"}", isOptional: true)]
+        public virtual oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetails? KerberosAuthDetailsInput
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetails?>();
         }
 
         [JsiiOptional]
@@ -446,10 +531,27 @@ namespace oci.PsqlDbSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "odspInsightDetailsInput", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemOdspInsightDetails\"}", isOptional: true)]
+        public virtual oci.PsqlDbSystem.IPsqlDbSystemOdspInsightDetails? OdspInsightDetailsInput
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemOdspInsightDetails?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemPatchOperations" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
         [JsiiProperty(name: "patchOperationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemPatchOperations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? PatchOperationsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "replicationConfigInput", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemReplicationConfig\"}", isOptional: true)]
+        public virtual oci.PsqlDbSystem.IPsqlDbSystemReplicationConfig? ReplicationConfigInput
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemReplicationConfig?>();
         }
 
         [JsiiOptional]
@@ -467,6 +569,13 @@ namespace oci.PsqlDbSystem
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "stateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StateInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "storageDetailsInput", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemStorageDetails\"}", isOptional: true)]
         public virtual oci.PsqlDbSystem.IPsqlDbSystemStorageDetails? StorageDetailsInput
         {
@@ -480,11 +589,21 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.PsqlDbSystem.IPsqlDbSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "applyChangeModeToStandAlone", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ApplyChangeModeToStandAlone
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "applyConfig", typeJson: "{\"primitive\":\"string\"}")]
@@ -573,6 +692,13 @@ namespace oci.PsqlDbSystem
 
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Shape
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string State
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

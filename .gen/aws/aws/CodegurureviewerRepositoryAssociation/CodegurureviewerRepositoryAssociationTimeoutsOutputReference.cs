@@ -93,6 +93,9 @@ namespace aws.CodegurureviewerRepositoryAssociation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CodegurureviewerRepositoryAssociation.ICodegurureviewerRepositoryAssociationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -83,6 +83,9 @@ namespace aws.Sesv2EmailIdentityFeedbackAttributes
         }
         = GetStaticProperty<string>(typeof(aws.Sesv2EmailIdentityFeedbackAttributes.Sesv2EmailIdentityFeedbackAttributes))!;
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailForwardingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? EmailForwardingEnabledInput
@@ -111,6 +114,9 @@ namespace aws.Sesv2EmailIdentityFeedbackAttributes
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "emailForwardingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object EmailForwardingEnabled
         {

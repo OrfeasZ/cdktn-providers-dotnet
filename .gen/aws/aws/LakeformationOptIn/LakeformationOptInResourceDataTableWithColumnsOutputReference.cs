@@ -35,6 +35,7 @@ namespace aws.LakeformationOptIn
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTableWithColumnsColumnWildcard" />)[]</param>
         [JsiiMethod(name: "putColumnWildcard", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTableWithColumnsColumnWildcard\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutColumnWildcard(object @value)
         {
@@ -96,6 +97,9 @@ namespace aws.LakeformationOptIn
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTableWithColumnsColumnWildcard" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "columnWildcardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTableWithColumnsColumnWildcard\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ColumnWildcardInput
@@ -145,6 +149,9 @@ namespace aws.LakeformationOptIn
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LakeformationOptIn.ILakeformationOptInResourceDataTableWithColumns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lakeformationOptIn.LakeformationOptInResourceDataTableWithColumns\"}]}}", isOptional: true)]
         public virtual object? InternalValue

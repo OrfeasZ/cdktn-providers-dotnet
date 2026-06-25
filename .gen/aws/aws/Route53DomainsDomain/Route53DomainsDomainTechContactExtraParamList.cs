@@ -41,6 +41,9 @@ namespace aws.Route53DomainsDomain
             return InvokeInstanceMethod<aws.Route53DomainsDomain.Route53DomainsDomainTechContactExtraParamOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainTechContactExtraParam" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTechContactExtraParam\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

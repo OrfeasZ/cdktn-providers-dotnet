@@ -52,6 +52,7 @@ namespace aws.SsmAssociation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SsmAssociation.ISsmAssociationOutputLocation)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmAssociation.ISsmAssociationTargets" />)[]</param>
         [JsiiMethod(name: "putTargets", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmAssociation.SsmAssociationTargets\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutTargets(object @value)
         {
@@ -226,6 +227,9 @@ namespace aws.SsmAssociation
             get => GetInstanceProperty<aws.SsmAssociation.SsmAssociationTargetsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applyOnlyAtCronIntervalInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ApplyOnlyAtCronIntervalInput
@@ -345,6 +349,9 @@ namespace aws.SsmAssociation
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmAssociation.ISsmAssociationTargets" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmAssociation.SsmAssociationTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TargetsInput
@@ -359,6 +366,9 @@ namespace aws.SsmAssociation
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "applyOnlyAtCronInterval", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ApplyOnlyAtCronInterval
         {

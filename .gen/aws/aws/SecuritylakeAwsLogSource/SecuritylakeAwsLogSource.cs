@@ -46,6 +46,7 @@ namespace aws.SecuritylakeAwsLogSource
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecuritylakeAwsLogSource.SecuritylakeAwsLogSource), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeAwsLogSource.ISecuritylakeAwsLogSourceSource" />)[]</param>
         [JsiiMethod(name: "putSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSource\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutSource(object @value)
         {
@@ -119,6 +120,9 @@ namespace aws.SecuritylakeAwsLogSource
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeAwsLogSource.ISecuritylakeAwsLogSourceSource" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSource\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? SourceInput

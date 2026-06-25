@@ -41,6 +41,9 @@ namespace scaleway.K8SPool
             return InvokeInstanceMethod<scaleway.K8SPool.K8SPoolStartupTaintsOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.K8SPool.IK8SPoolStartupTaints" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.k8SPool.K8SPoolStartupTaints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

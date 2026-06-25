@@ -179,6 +179,9 @@ namespace cloudflare.SpectrumApplication
             get => GetInstanceProperty<cloudflare.SpectrumApplication.SpectrumApplicationOriginDnsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "argoSmartRoutingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? ArgoSmartRoutingInput
@@ -186,6 +189,9 @@ namespace cloudflare.SpectrumApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.SpectrumApplication.ISpectrumApplicationDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationDns\"}]}}", isOptional: true)]
         public virtual object? DnsInput
@@ -193,6 +199,9 @@ namespace cloudflare.SpectrumApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.SpectrumApplication.ISpectrumApplicationEdgeIps" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "edgeIpsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationEdgeIps\"}]}}", isOptional: true)]
         public virtual object? EdgeIpsInput
@@ -200,6 +209,9 @@ namespace cloudflare.SpectrumApplication
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipFirewallInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? IpFirewallInput
@@ -214,6 +226,9 @@ namespace cloudflare.SpectrumApplication
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.SpectrumApplication.ISpectrumApplicationOriginDns" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originDnsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationOriginDns\"}]}}", isOptional: true)]
         public virtual object? OriginDnsInput
@@ -270,6 +285,9 @@ namespace cloudflare.SpectrumApplication
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "argoSmartRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object ArgoSmartRouting
         {
@@ -297,6 +315,9 @@ namespace cloudflare.SpectrumApplication
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiProperty(name: "ipFirewall", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IpFirewall
         {

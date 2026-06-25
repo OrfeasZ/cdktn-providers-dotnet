@@ -57,6 +57,9 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<aws.S3TablesTable.S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMaintenanceConfigurationIcebergCompactionSettings" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfigurationIcebergCompactionSettings\"}]}}", isOptional: true)]
         public virtual object? SettingsInput
@@ -78,6 +81,9 @@ namespace aws.S3TablesTable
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.S3TablesTable.IS3TablesTableMaintenanceConfigurationIcebergCompaction" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.s3TablesTable.S3TablesTableMaintenanceConfigurationIcebergCompaction\"}]}}", isOptional: true)]
         public virtual object? InternalValue

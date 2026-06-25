@@ -216,6 +216,9 @@ namespace cloudflare.DataCloudflareLoadBalancerPool
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareLoadBalancerPool.IDataCloudflareLoadBalancerPoolFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareLoadBalancerPool.DataCloudflareLoadBalancerPoolFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

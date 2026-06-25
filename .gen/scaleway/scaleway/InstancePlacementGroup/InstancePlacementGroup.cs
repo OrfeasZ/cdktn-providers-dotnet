@@ -179,6 +179,9 @@ namespace scaleway.InstancePlacementGroup
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.InstancePlacementGroup.IInstancePlacementGroupTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.instancePlacementGroup.InstancePlacementGroupTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

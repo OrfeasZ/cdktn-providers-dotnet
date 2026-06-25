@@ -49,6 +49,9 @@ namespace oci.DatabaseVmClusterAddVirtualMachine
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseVmClusterAddVirtualMachine.IDatabaseVmClusterAddVirtualMachineDbServers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.databaseVmClusterAddVirtualMachine.DatabaseVmClusterAddVirtualMachineDbServers\"}]}}", isOptional: true)]
         public virtual object? InternalValue

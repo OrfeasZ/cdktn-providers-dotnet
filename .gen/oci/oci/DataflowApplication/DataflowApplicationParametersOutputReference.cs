@@ -63,6 +63,9 @@ namespace oci.DataflowApplication
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DataflowApplication.IDataflowApplicationParameters" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.dataflowApplication.DataflowApplicationParameters\"}]}}", isOptional: true)]
         public virtual object? InternalValue

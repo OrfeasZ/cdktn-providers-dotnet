@@ -10,6 +10,7 @@ namespace scaleway.S2SVpnConnection
         /// <summary>bgp_config_ipv4 block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#bgp_config_ipv4 S2SVpnConnection#bgp_config_ipv4}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv4" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "bgpConfigIpv4", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv4\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,6 +25,7 @@ namespace scaleway.S2SVpnConnection
         /// <summary>bgp_config_ipv6 block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#bgp_config_ipv6 S2SVpnConnection#bgp_config_ipv6}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv6" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "bgpConfigIpv6", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv6\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,6 +54,7 @@ namespace scaleway.S2SVpnConnection
         /// <summary>Defines whether route propagation is enabled or not.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#enable_route_propagation S2SVpnConnection#enable_route_propagation}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enableRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,6 +69,7 @@ namespace scaleway.S2SVpnConnection
         /// <summary>esp_ciphers block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#esp_ciphers S2SVpnConnection#esp_ciphers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionEspCiphers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "espCiphers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionEspCiphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,6 +99,7 @@ namespace scaleway.S2SVpnConnection
         /// <summary>ikev2_ciphers block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#ikev2_ciphers S2SVpnConnection#ikev2_ciphers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionIkev2Ciphers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ikev2Ciphers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionIkev2Ciphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,6 +128,7 @@ namespace scaleway.S2SVpnConnection
         /// <summary>Defines IP version of the IPSec Tunnel.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#is_ipv6 S2SVpnConnection#is_ipv6}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -214,6 +220,7 @@ namespace scaleway.S2SVpnConnection
             /// <summary>bgp_config_ipv4 block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#bgp_config_ipv4 S2SVpnConnection#bgp_config_ipv4}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv4" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bgpConfigIpv4", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv4\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -225,6 +232,7 @@ namespace scaleway.S2SVpnConnection
             /// <summary>bgp_config_ipv6 block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#bgp_config_ipv6 S2SVpnConnection#bgp_config_ipv6}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionBgpConfigIpv6" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bgpConfigIpv6", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionBgpConfigIpv6\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -247,6 +255,7 @@ namespace scaleway.S2SVpnConnection
             /// <summary>Defines whether route propagation is enabled or not.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#enable_route_propagation S2SVpnConnection#enable_route_propagation}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enableRoutePropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -258,6 +267,7 @@ namespace scaleway.S2SVpnConnection
             /// <summary>esp_ciphers block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#esp_ciphers S2SVpnConnection#esp_ciphers}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionEspCiphers" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "espCiphers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionEspCiphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -281,6 +291,7 @@ namespace scaleway.S2SVpnConnection
             /// <summary>ikev2_ciphers block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#ikev2_ciphers S2SVpnConnection#ikev2_ciphers}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.S2SVpnConnection.IS2SVpnConnectionIkev2Ciphers" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ikev2Ciphers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionIkev2Ciphers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -303,6 +314,7 @@ namespace scaleway.S2SVpnConnection
             /// <summary>Defines IP version of the IPSec Tunnel.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/s2s_vpn_connection#is_ipv6 S2SVpnConnection#is_ipv6}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -368,6 +380,7 @@ namespace scaleway.S2SVpnConnection
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
@@ -378,6 +391,7 @@ namespace scaleway.S2SVpnConnection
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
@@ -428,6 +442,7 @@ namespace scaleway.S2SVpnConnection
 
             /// <remarks>
             /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]

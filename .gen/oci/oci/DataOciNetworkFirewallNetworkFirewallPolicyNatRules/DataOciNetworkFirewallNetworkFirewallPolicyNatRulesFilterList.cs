@@ -41,6 +41,9 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyNatRules
             return InvokeInstanceMethod<oci.DataOciNetworkFirewallNetworkFirewallPolicyNatRules.DataOciNetworkFirewallNetworkFirewallPolicyNatRulesFilterOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkFirewallNetworkFirewallPolicyNatRules.IDataOciNetworkFirewallNetworkFirewallPolicyNatRulesFilter" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciNetworkFirewallNetworkFirewallPolicyNatRules.DataOciNetworkFirewallNetworkFirewallPolicyNatRulesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

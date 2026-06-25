@@ -10,6 +10,7 @@ namespace aws.S3FilesAccessPoint
         /// <summary>creation_permissions block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectoryCreationPermissions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "creationPermissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointRootDirectoryCreationPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,6 +46,7 @@ namespace aws.S3FilesAccessPoint
             /// <summary>creation_permissions block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectoryCreationPermissions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "creationPermissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointRootDirectoryCreationPermissions\"},\"kind\":\"array\"}}]}}", isOptional: true)]

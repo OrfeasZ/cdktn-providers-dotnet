@@ -49,6 +49,9 @@ namespace aws.VpcIpamResourceDiscovery
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcIpamResourceDiscovery.IVpcIpamResourceDiscoveryOperatingRegions" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegions\"}]}}", isOptional: true)]
         public virtual object? InternalValue

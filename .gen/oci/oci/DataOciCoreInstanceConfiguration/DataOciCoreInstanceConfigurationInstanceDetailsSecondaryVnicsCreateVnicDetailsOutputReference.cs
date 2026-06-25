@@ -95,6 +95,12 @@ namespace oci.DataOciCoreInstanceConfiguration
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateIpId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap SecurityAttributes
         {
@@ -105,6 +111,12 @@ namespace oci.DataOciCoreInstanceConfiguration
         public virtual Io.Cdktn.IResolvable SkipSourceDestCheck
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "subnetCidr", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetCidr
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]

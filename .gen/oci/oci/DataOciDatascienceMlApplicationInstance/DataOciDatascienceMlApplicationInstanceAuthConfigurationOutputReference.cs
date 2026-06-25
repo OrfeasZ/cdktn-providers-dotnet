@@ -35,18 +35,6 @@ namespace oci.DataOciDatascienceMlApplicationInstance
         {
         }
 
-        [JsiiProperty(name: "applicationName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ApplicationName
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DomainId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {

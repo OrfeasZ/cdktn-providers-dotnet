@@ -110,6 +110,9 @@ namespace aws.VpcRouteServerPropagation
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.VpcRouteServerPropagation.IVpcRouteServerPropagationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.vpcRouteServerPropagation.VpcRouteServerPropagationTimeouts\"}]}}", isOptional: true)]
         public virtual object? TimeoutsInput

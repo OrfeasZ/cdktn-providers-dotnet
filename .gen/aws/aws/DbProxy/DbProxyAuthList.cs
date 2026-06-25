@@ -41,6 +41,9 @@ namespace aws.DbProxy
             return InvokeInstanceMethod<aws.DbProxy.DbProxyAuthOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DbProxy.IDbProxyAuth" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dbProxy.DbProxyAuth\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

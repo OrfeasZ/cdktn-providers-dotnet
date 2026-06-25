@@ -63,6 +63,9 @@ namespace aws.DataAwsAvailabilityZone
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.DataAwsAvailabilityZone.IDataAwsAvailabilityZoneFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilter\"}]}}", isOptional: true)]
         public virtual object? InternalValue

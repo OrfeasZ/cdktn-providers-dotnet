@@ -93,6 +93,9 @@ namespace aws.FsxLustreFileSystem
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.FsxLustreFileSystem.IFsxLustreFileSystemTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.fsxLustreFileSystem.FsxLustreFileSystemTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.BdsBdsInstanceSoftwareUpdateAction.IBdsBdsInstanceSoftwareUpdateActionTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.bdsBdsInstanceSoftwareUpdateAction.BdsBdsInstanceSoftwareUpdateActionTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

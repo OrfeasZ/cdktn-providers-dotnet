@@ -93,6 +93,9 @@ namespace oci.CoreConsoleHistory
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.CoreConsoleHistory.ICoreConsoleHistoryTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.coreConsoleHistory.CoreConsoleHistoryTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.OsManagementHubProfileAttachLifecycleStageManagement
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OsManagementHubProfileAttachLifecycleStageManagement.IOsManagementHubProfileAttachLifecycleStageManagementTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.osManagementHubProfileAttachLifecycleStageManagement.OsManagementHubProfileAttachLifecycleStageManagementTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

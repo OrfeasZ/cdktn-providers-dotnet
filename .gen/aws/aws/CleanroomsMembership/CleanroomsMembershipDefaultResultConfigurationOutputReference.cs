@@ -35,6 +35,7 @@ namespace aws.CleanroomsMembership
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfiguration" />)[]</param>
         [JsiiMethod(name: "putOutputConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOutputConfiguration(object @value)
         {
@@ -76,6 +77,9 @@ namespace aws.CleanroomsMembership
             get => GetInstanceProperty<aws.CleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? OutputConfigurationInput
@@ -97,6 +101,9 @@ namespace aws.CleanroomsMembership
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfiguration" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfiguration\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -93,6 +93,9 @@ namespace oci.OpsiEnterpriseManagerBridge
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OpsiEnterpriseManagerBridge.IOpsiEnterpriseManagerBridgeTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.opsiEnterpriseManagerBridge.OpsiEnterpriseManagerBridgeTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

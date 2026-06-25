@@ -24,6 +24,7 @@ namespace aws.VpclatticeListener
         /// <summary>forward block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/vpclattice_listener#forward VpclatticeListener#forward}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListener.IVpclatticeListenerDefaultActionForward" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "forward", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListener.VpclatticeListenerDefaultActionForward\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,6 +57,7 @@ namespace aws.VpclatticeListener
             /// <summary>forward block.</summary>
             /// <remarks>
             /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/vpclattice_listener#forward VpclatticeListener#forward}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListener.IVpclatticeListenerDefaultActionForward" />)[]</para>
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forward", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListener.VpclatticeListenerDefaultActionForward\"},\"kind\":\"array\"}}]}}", isOptional: true)]

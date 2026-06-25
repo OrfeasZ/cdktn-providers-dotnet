@@ -12,6 +12,7 @@ namespace aws.VpclatticeListener
         /// <summary>target_groups block.</summary>
         /// <remarks>
         /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/vpclattice_listener#target_groups VpclatticeListener#target_groups}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListener.IVpclatticeListenerDefaultActionForwardTargetGroups" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.vpclatticeListener.VpclatticeListenerDefaultActionForwardTargetGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]

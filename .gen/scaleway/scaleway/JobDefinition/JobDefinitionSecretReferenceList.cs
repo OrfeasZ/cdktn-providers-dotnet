@@ -41,6 +41,9 @@ namespace scaleway.JobDefinition
             return InvokeInstanceMethod<scaleway.JobDefinition.JobDefinitionSecretReferenceOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.JobDefinition.IJobDefinitionSecretReference" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.jobDefinition.JobDefinitionSecretReference\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

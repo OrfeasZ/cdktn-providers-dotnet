@@ -35,6 +35,9 @@ namespace aws.WorkspaceswebSessionLogger
         {
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerEventFilterAll" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerEventFilterAll\"}]}}", isOptional: true)]
         public virtual object? InternalValue

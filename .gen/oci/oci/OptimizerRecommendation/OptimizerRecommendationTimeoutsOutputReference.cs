@@ -93,6 +93,9 @@ namespace oci.OptimizerRecommendation
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.OptimizerRecommendation.IOptimizerRecommendationTimeouts" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.optimizerRecommendation.OptimizerRecommendationTimeouts\"}]}}", isOptional: true)]
         public virtual object? InternalValue

@@ -47,6 +47,12 @@ namespace oci.DataOciIntegrationIntegrationInstance
             get => GetInstanceProperty<oci.DataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcnsList>()!;
         }
 
+        [JsiiProperty(name: "designTime", typeJson: "{\"fqn\":\"oci.dataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeList\"}")]
+        public virtual oci.DataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeList DesignTime
+        {
+            get => GetInstanceProperty<oci.DataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeList>()!;
+        }
+
         [JsiiProperty(name: "isIntegrationVcnAllowlisted", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsIntegrationVcnAllowlisted
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciIntegrationIntegrationInstance
         public virtual string NetworkEndpointType
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "runtime", typeJson: "{\"fqn\":\"oci.dataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeList\"}")]
+        public virtual oci.DataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeList Runtime
+        {
+            get => GetInstanceProperty<oci.DataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeList>()!;
         }
 
         [JsiiOptional]

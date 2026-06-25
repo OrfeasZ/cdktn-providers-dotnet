@@ -41,6 +41,9 @@ namespace aws.Codepipeline
             return InvokeInstanceMethod<aws.Codepipeline.CodepipelineStageBeforeEntryConditionRuleOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageBeforeEntryConditionRule" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageBeforeEntryConditionRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

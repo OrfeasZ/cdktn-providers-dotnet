@@ -137,6 +137,9 @@ namespace cloudflare.DataCloudflareEmailRoutingRule
             get => GetInstanceProperty<string>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareEmailRoutingRule.IDataCloudflareEmailRoutingRuleFilter" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareEmailRoutingRule.DataCloudflareEmailRoutingRuleFilter\"}]}}", isOptional: true)]
         public virtual object? FilterInput

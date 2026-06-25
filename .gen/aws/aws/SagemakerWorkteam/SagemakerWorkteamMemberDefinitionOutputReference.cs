@@ -85,6 +85,9 @@ namespace aws.SagemakerWorkteam
             get => GetInstanceProperty<aws.SagemakerWorkteam.ISagemakerWorkteamMemberDefinitionOidcMemberDefinition?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.SagemakerWorkteam.ISagemakerWorkteamMemberDefinition" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.sagemakerWorkteam.SagemakerWorkteamMemberDefinition\"}]}}", isOptional: true)]
         public virtual object? InternalValue

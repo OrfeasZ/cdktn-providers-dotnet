@@ -41,6 +41,9 @@ namespace aws.CodestarnotificationsNotificationRule
             return InvokeInstanceMethod<aws.CodestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodestarnotificationsNotificationRule.ICodestarnotificationsNotificationRuleTarget" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? InternalValue

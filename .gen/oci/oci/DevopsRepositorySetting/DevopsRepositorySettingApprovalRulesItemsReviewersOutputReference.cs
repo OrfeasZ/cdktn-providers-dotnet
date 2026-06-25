@@ -67,6 +67,9 @@ namespace oci.DevopsRepositorySetting
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItemsReviewers" /></para>
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItemsReviewers\"}]}}", isOptional: true)]
         public virtual object? InternalValue
