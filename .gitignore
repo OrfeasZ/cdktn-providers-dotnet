@@ -343,3 +343,7 @@ ASALocalRun/
 
 
 # End of https://www.gitignore.io/api/csharp
+
+# Generated jsii tarballs are stored as GitHub release assets, not in git.
+# They are produced by `cdktn get` and uploaded via sync-providers.py.
+.gen/**/*.tgz

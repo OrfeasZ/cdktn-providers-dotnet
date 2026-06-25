@@ -23,11 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write # Required for OIDC trusted publishing
+      contents: read # Required to download provider binaries from the release
 
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # full history required for selective-publish diff
 
       - name: Select providers to publish
         id: selection
@@ -39,6 +40,44 @@ jobs:
           --before "$SELECT_BEFORE"
           --after "$SELECT_AFTER"
           --output "$GITHUB_OUTPUT"
+
+      - name: Download provider binaries
+        if: steps.selection.outputs.should_publish == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: provider-binaries
+        run: |
+          # The embedded jsii tarballs live as release assets, not in git.
+          # Fetch only the ones for the providers we are about to pack.
+          download() {
+            local provider="$1"
+            local csproj=".gen/$provider/$provider.csproj"
+
+            if [ ! -f "$csproj" ]; then
+              echo "Expected project not found: $csproj"
+              exit 1
+            fi
+
+            local tgz
+            tgz=$(grep -oP 'EmbeddedResource Include="\K[^"]+\.tgz' "$csproj")
+            if [ -z "$tgz" ]; then
+              echo "No embedded tarball referenced in $csproj"
+              exit 1
+            fi
+
+            gh release download "$RELEASE_TAG" --pattern "$tgz" --dir ".gen/$provider" --clobber
+          }
+
+          if [ "${{ steps.selection.outputs.build_all }}" = "true" ]; then
+            for dir in .gen/*/; do
+              download "$(basename "$dir")"
+            done
+          else
+            for provider in ${{ steps.selection.outputs.providers }}; do
+              download "$provider"
+            done
+          fi
 
       - name: Setup .NET
         if: steps.selection.outputs.should_publish == 'true'

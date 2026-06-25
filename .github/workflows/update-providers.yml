@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Setup Node
         uses: actions/setup-node@v6
@@ -40,55 +40,19 @@ jobs:
       - name: Install CDKTN CLI
         run: npm install --global cdktn-cli@0.23.3
 
-      - name: Update provider constraints
-        run: python update-providers.py
-
-      - name: Detect constraint changes
-        id: constraint-changes
+      - name: Configure git identity
         run: |
-          if git diff --quiet -- cdktf.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Regenerate provider bindings
-        if: steps.constraint-changes.outputs.changed == 'true'
-        run: cdktn get --parallelism 1
-
-      - name: Verify generated providers build
-        if: steps.constraint-changes.outputs.changed == 'true'
-        shell: bash
-        run: |
-          for csproj in .gen/*/*.csproj; do
-            dotnet build "$csproj" -c Release
-          done
-
-      - name: Commit updated providers
-        id: push-updates
-        if: steps.constraint-changes.outputs.changed == 'true'
-        run: |
-          if git diff --quiet; then
-            echo "pushed=false" >> "$GITHUB_OUTPUT"
-            echo "No generated changes to commit."
-            exit 0
-          fi
-
-          before_sha=$(git rev-parse HEAD)
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cdktf.json .gen
-          git commit -m "Update generated providers"
-          after_sha=$(git rev-parse HEAD)
-          git push
 
-          echo "pushed=true" >> "$GITHUB_OUTPUT"
-          echo "before_sha=$before_sha" >> "$GITHUB_OUTPUT"
-          echo "after_sha=$after_sha" >> "$GITHUB_OUTPUT"
+      - name: Generate, upload and commit provider bindings
+        id: sync
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python sync-providers.py --update-constraints --verify
 
       - name: Trigger build workflow
-        if: steps.push-updates.outputs.pushed == 'true'
+        if: steps.sync.outputs.pushed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -97,5 +61,5 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             /repos/${{ github.repository }}/actions/workflows/build.yml/dispatches \
             -f ref="${{ github.ref_name }}" \
-            -f inputs[before_sha]="${{ steps.push-updates.outputs.before_sha }}" \
-            -f inputs[after_sha]="${{ steps.push-updates.outputs.after_sha }}"
+            -f inputs[before_sha]="${{ steps.sync.outputs.before_sha }}" \
+            -f inputs[after_sha]="${{ steps.sync.outputs.after_sha }}"
