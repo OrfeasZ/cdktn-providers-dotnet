@@ -5,7 +5,7 @@ namespace scaleway.MnqSnsCredentials
     /// <remarks>
     /// <h1><c>scaleway_mnq_sns_credentials</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/mnq_sns_credentials"><c>scaleway_mnq_sns_credentials</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/mnq_sns_credentials"><c>scaleway_mnq_sns_credentials</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

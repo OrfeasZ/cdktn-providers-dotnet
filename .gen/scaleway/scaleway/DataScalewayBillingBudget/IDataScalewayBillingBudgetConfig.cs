@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayBillingBudget
     {
         /// <summary>The ID of the budget to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/billing_budget#budget_id DataScalewayBillingBudget#budget_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/billing_budget#budget_id DataScalewayBillingBudget#budget_id}
         /// </remarks>
         [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
         string BudgetId
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayBillingBudget
 
         /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/billing_budget#organization_id DataScalewayBillingBudget#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/billing_budget#organization_id DataScalewayBillingBudget#organization_id}
         /// </remarks>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayBillingBudget
 
             /// <summary>The ID of the budget to retrieve.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/billing_budget#budget_id DataScalewayBillingBudget#budget_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/billing_budget#budget_id DataScalewayBillingBudget#budget_id}
             /// </remarks>
             [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
             public string BudgetId
@@ -50,7 +50,7 @@ namespace scaleway.DataScalewayBillingBudget
 
             /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/billing_budget#organization_id DataScalewayBillingBudget#organization_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/billing_budget#organization_id DataScalewayBillingBudget#organization_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

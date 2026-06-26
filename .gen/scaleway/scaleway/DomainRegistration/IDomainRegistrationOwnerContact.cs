@@ -9,7 +9,7 @@ namespace scaleway.DomainRegistration
     {
         /// <summary>Primary address line for the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#address_line_1 DomainRegistration#address_line_1}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#address_line_1 DomainRegistration#address_line_1}
         /// </remarks>
         [JsiiProperty(name: "addressLine1", typeJson: "{\"primitive\":\"string\"}")]
         string AddressLine1
@@ -19,7 +19,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>City of the contact's address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#city DomainRegistration#city}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#city DomainRegistration#city}
         /// </remarks>
         [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}")]
         string City
@@ -29,7 +29,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Country code of the contact's address (ISO format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#country DomainRegistration#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#country DomainRegistration#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         string Country
@@ -39,7 +39,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Primary email address of the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#email DomainRegistration#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#email DomainRegistration#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
@@ -49,7 +49,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>First name of the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#firstname DomainRegistration#firstname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#firstname DomainRegistration#firstname}
         /// </remarks>
         [JsiiProperty(name: "firstname", typeJson: "{\"primitive\":\"string\"}")]
         string Firstname
@@ -59,7 +59,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Last name of the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#lastname DomainRegistration#lastname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#lastname DomainRegistration#lastname}
         /// </remarks>
         [JsiiProperty(name: "lastname", typeJson: "{\"primitive\":\"string\"}")]
         string Lastname
@@ -69,7 +69,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Legal form of the contact (e.g., 'individual' or 'organization').</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#legal_form DomainRegistration#legal_form}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#legal_form DomainRegistration#legal_form}
         /// </remarks>
         [JsiiProperty(name: "legalForm", typeJson: "{\"primitive\":\"string\"}")]
         string LegalForm
@@ -79,7 +79,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Primary phone number of the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#phone_number DomainRegistration#phone_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#phone_number DomainRegistration#phone_number}
         /// </remarks>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
         string PhoneNumber
@@ -89,7 +89,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Postal code of the contact's address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#zip DomainRegistration#zip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#zip DomainRegistration#zip}
         /// </remarks>
         [JsiiProperty(name: "zip", typeJson: "{\"primitive\":\"string\"}")]
         string Zip
@@ -99,7 +99,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Secondary address line for the contact (optional).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#address_line_2 DomainRegistration#address_line_2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#address_line_2 DomainRegistration#address_line_2}
         /// </remarks>
         [JsiiProperty(name: "addressLine2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -113,7 +113,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Company identification code (e.g., SIREN/SIRET in France) for the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#company_identification_code DomainRegistration#company_identification_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#company_identification_code DomainRegistration#company_identification_code}
         /// </remarks>
         [JsiiProperty(name: "companyIdentificationCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -127,7 +127,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Name of the company associated with the contact (if applicable).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#company_name DomainRegistration#company_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#company_name DomainRegistration#company_name}
         /// </remarks>
         [JsiiProperty(name: "companyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,7 +141,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Alternative email address for the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#email_alt DomainRegistration#email_alt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#email_alt DomainRegistration#email_alt}
         /// </remarks>
         [JsiiProperty(name: "emailAlt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -155,7 +155,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>extension_eu block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#extension_eu DomainRegistration#extension_eu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#extension_eu DomainRegistration#extension_eu}
         /// </remarks>
         [JsiiProperty(name: "extensionEu", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionEu\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -169,7 +169,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>extension_fr block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#extension_fr DomainRegistration#extension_fr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#extension_fr DomainRegistration#extension_fr}
         /// </remarks>
         [JsiiProperty(name: "extensionFr", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionFr\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -183,7 +183,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Extension details specific to Dutch domain registrations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#extension_nl DomainRegistration#extension_nl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#extension_nl DomainRegistration#extension_nl}
         /// </remarks>
         [JsiiProperty(name: "extensionNl", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -197,7 +197,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Fax number for the contact (if available).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#fax_number DomainRegistration#fax_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#fax_number DomainRegistration#fax_number}
         /// </remarks>
         [JsiiProperty(name: "faxNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -211,7 +211,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Preferred language of the contact (e.g., 'en_US', 'fr_FR').</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#lang DomainRegistration#lang}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#lang DomainRegistration#lang}
         /// </remarks>
         [JsiiProperty(name: "lang", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -225,7 +225,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Indicates if the contact is used for resale purposes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#resale DomainRegistration#resale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#resale DomainRegistration#resale}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "resale", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -240,7 +240,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>State or region of the contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#state DomainRegistration#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#state DomainRegistration#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -254,7 +254,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>VAT identification code of the contact, if applicable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#vat_identification_code DomainRegistration#vat_identification_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#vat_identification_code DomainRegistration#vat_identification_code}
         /// </remarks>
         [JsiiProperty(name: "vatIdentificationCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -268,7 +268,7 @@ namespace scaleway.DomainRegistration
 
         /// <summary>Indicates whether the contact has opted into WHOIS publishing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#whois_opt_in DomainRegistration#whois_opt_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#whois_opt_in DomainRegistration#whois_opt_in}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "whoisOptIn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Primary address line for the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#address_line_1 DomainRegistration#address_line_1}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#address_line_1 DomainRegistration#address_line_1}
             /// </remarks>
             [JsiiProperty(name: "addressLine1", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressLine1
@@ -300,7 +300,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>City of the contact's address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#city DomainRegistration#city}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#city DomainRegistration#city}
             /// </remarks>
             [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}")]
             public string City
@@ -310,7 +310,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Country code of the contact's address (ISO format).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#country DomainRegistration#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#country DomainRegistration#country}
             /// </remarks>
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
             public string Country
@@ -320,7 +320,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Primary email address of the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#email DomainRegistration#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#email DomainRegistration#email}
             /// </remarks>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
@@ -330,7 +330,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>First name of the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#firstname DomainRegistration#firstname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#firstname DomainRegistration#firstname}
             /// </remarks>
             [JsiiProperty(name: "firstname", typeJson: "{\"primitive\":\"string\"}")]
             public string Firstname
@@ -340,7 +340,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Last name of the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#lastname DomainRegistration#lastname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#lastname DomainRegistration#lastname}
             /// </remarks>
             [JsiiProperty(name: "lastname", typeJson: "{\"primitive\":\"string\"}")]
             public string Lastname
@@ -350,7 +350,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Legal form of the contact (e.g., 'individual' or 'organization').</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#legal_form DomainRegistration#legal_form}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#legal_form DomainRegistration#legal_form}
             /// </remarks>
             [JsiiProperty(name: "legalForm", typeJson: "{\"primitive\":\"string\"}")]
             public string LegalForm
@@ -360,7 +360,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Primary phone number of the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#phone_number DomainRegistration#phone_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#phone_number DomainRegistration#phone_number}
             /// </remarks>
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string PhoneNumber
@@ -370,7 +370,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Postal code of the contact's address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#zip DomainRegistration#zip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#zip DomainRegistration#zip}
             /// </remarks>
             [JsiiProperty(name: "zip", typeJson: "{\"primitive\":\"string\"}")]
             public string Zip
@@ -380,7 +380,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Secondary address line for the contact (optional).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#address_line_2 DomainRegistration#address_line_2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#address_line_2 DomainRegistration#address_line_2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "addressLine2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -391,7 +391,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Company identification code (e.g., SIREN/SIRET in France) for the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#company_identification_code DomainRegistration#company_identification_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#company_identification_code DomainRegistration#company_identification_code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "companyIdentificationCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -402,7 +402,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Name of the company associated with the contact (if applicable).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#company_name DomainRegistration#company_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#company_name DomainRegistration#company_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "companyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -413,7 +413,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Alternative email address for the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#email_alt DomainRegistration#email_alt}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#email_alt DomainRegistration#email_alt}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "emailAlt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -424,7 +424,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>extension_eu block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#extension_eu DomainRegistration#extension_eu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#extension_eu DomainRegistration#extension_eu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "extensionEu", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionEu\"}", isOptional: true)]
@@ -435,7 +435,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>extension_fr block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#extension_fr DomainRegistration#extension_fr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#extension_fr DomainRegistration#extension_fr}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "extensionFr", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionFr\"}", isOptional: true)]
@@ -446,7 +446,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Extension details specific to Dutch domain registrations.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#extension_nl DomainRegistration#extension_nl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#extension_nl DomainRegistration#extension_nl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "extensionNl", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -457,7 +457,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Fax number for the contact (if available).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#fax_number DomainRegistration#fax_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#fax_number DomainRegistration#fax_number}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "faxNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -468,7 +468,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Preferred language of the contact (e.g., 'en_US', 'fr_FR').</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#lang DomainRegistration#lang}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#lang DomainRegistration#lang}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lang", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -479,7 +479,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Indicates if the contact is used for resale purposes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#resale DomainRegistration#resale}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#resale DomainRegistration#resale}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -491,7 +491,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>State or region of the contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#state DomainRegistration#state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#state DomainRegistration#state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -502,7 +502,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>VAT identification code of the contact, if applicable.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#vat_identification_code DomainRegistration#vat_identification_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#vat_identification_code DomainRegistration#vat_identification_code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vatIdentificationCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -513,7 +513,7 @@ namespace scaleway.DomainRegistration
 
             /// <summary>Indicates whether the contact has opted into WHOIS publishing.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/domain_registration#whois_opt_in DomainRegistration#whois_opt_in}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/domain_registration#whois_opt_in DomainRegistration#whois_opt_in}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

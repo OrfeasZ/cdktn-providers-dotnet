@@ -4,14 +4,14 @@
     "acme": "2.48.1",
     "aws": "6.52.0",
     "cloudflare": "5.21.1",
-    "digitalocean": "2.91.0",
+    "digitalocean": "2.92.0",
     "hcloud": "1.66.0",
     "libvirt": "0.9.8",
     "neon": "0.13.0",
     "null": "3.3.0",
     "oci": "8.20.0",
     "random": "3.9.0",
-    "scaleway": "2.77.0",
+    "scaleway": "2.77.1",
     "stripe": "0.2.2",
     "tailscale": "0.29.2"
   }

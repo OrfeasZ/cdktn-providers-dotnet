@@ -7,7 +7,7 @@ namespace digitalocean.App
     [JsiiByValue(fqn: "digitalocean.app.AppSpecIngressRuleComponent")]
     public class AppSpecIngressRuleComponent : digitalocean.App.IAppSpecIngressRuleComponent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/app#name App#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#name App#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -18,7 +18,7 @@ namespace digitalocean.App
 
         private object? _preservePathPrefix;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#preserve_path_prefix App#preserve_path_prefix}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace digitalocean.App
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.91.0/docs/resources/app#rewrite App#rewrite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#rewrite App#rewrite}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rewrite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Rewrite

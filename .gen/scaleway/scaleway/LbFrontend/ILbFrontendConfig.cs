@@ -9,7 +9,7 @@ namespace scaleway.LbFrontend
     {
         /// <summary>The load-balancer backend ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#backend_id LbFrontend#backend_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#backend_id LbFrontend#backend_id}
         /// </remarks>
         [JsiiProperty(name: "backendId", typeJson: "{\"primitive\":\"string\"}")]
         string BackendId
@@ -19,7 +19,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>TCP port to listen on the front side.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#inbound_port LbFrontend#inbound_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#inbound_port LbFrontend#inbound_port}
         /// </remarks>
         [JsiiProperty(name: "inboundPort", typeJson: "{\"primitive\":\"number\"}")]
         double InboundPort
@@ -29,7 +29,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>The load-balancer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#lb_id LbFrontend#lb_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#lb_id LbFrontend#lb_id}
         /// </remarks>
         [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
         string LbId
@@ -39,7 +39,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>acl block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#acl LbFrontend#acl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#acl LbFrontend#acl}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbFrontend.ILbFrontendAcl" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "acl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.lbFrontend.LbFrontendAcl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>Collection of Certificate IDs related to the load balancer and domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#certificate_ids LbFrontend#certificate_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#certificate_ids LbFrontend#certificate_ids}
         /// </remarks>
         [JsiiProperty(name: "certificateIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace scaleway.LbFrontend
         /// <remarks>
         /// Use 0 value to disable, else value is connections per second
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#connection_rate_limit LbFrontend#connection_rate_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#connection_rate_limit LbFrontend#connection_rate_limit}
         /// </remarks>
         [JsiiProperty(name: "connectionRateLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>Defines whether to enable access logs on the frontend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#enable_access_logs LbFrontend#enable_access_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#enable_access_logs LbFrontend#enable_access_logs}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enableAccessLogs", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>Activates HTTP/3 protocol.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#enable_http3 LbFrontend#enable_http3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#enable_http3 LbFrontend#enable_http3}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enableHttp3", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.LbFrontend
         /// <remarks>
         /// If set to <c>true</c>, <c>acl</c> attribute cannot be set directly in the lb frontend
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#external_acls LbFrontend#external_acls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#external_acls LbFrontend#external_acls}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "externalAcls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace scaleway.LbFrontend
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#id LbFrontend#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#id LbFrontend#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -146,7 +146,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>The name of the frontend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#name LbFrontend#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#name LbFrontend#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -160,7 +160,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>Set the maximum inactivity time on the client side.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#timeout_client LbFrontend#timeout_client}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#timeout_client LbFrontend#timeout_client}
         /// </remarks>
         [JsiiProperty(name: "timeoutClient", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -174,7 +174,7 @@ namespace scaleway.LbFrontend
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#timeouts LbFrontend#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#timeouts LbFrontend#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbFrontend.LbFrontendTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -195,7 +195,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>The load-balancer backend ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#backend_id LbFrontend#backend_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#backend_id LbFrontend#backend_id}
             /// </remarks>
             [JsiiProperty(name: "backendId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackendId
@@ -205,7 +205,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>TCP port to listen on the front side.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#inbound_port LbFrontend#inbound_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#inbound_port LbFrontend#inbound_port}
             /// </remarks>
             [JsiiProperty(name: "inboundPort", typeJson: "{\"primitive\":\"number\"}")]
             public double InboundPort
@@ -215,7 +215,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>The load-balancer ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#lb_id LbFrontend#lb_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#lb_id LbFrontend#lb_id}
             /// </remarks>
             [JsiiProperty(name: "lbId", typeJson: "{\"primitive\":\"string\"}")]
             public string LbId
@@ -225,7 +225,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>acl block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#acl LbFrontend#acl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#acl LbFrontend#acl}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.LbFrontend.ILbFrontendAcl" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -237,7 +237,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>Collection of Certificate IDs related to the load balancer and domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#certificate_ids LbFrontend#certificate_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#certificate_ids LbFrontend#certificate_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificateIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -250,7 +250,7 @@ namespace scaleway.LbFrontend
             /// <remarks>
             /// Use 0 value to disable, else value is connections per second
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#connection_rate_limit LbFrontend#connection_rate_limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#connection_rate_limit LbFrontend#connection_rate_limit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectionRateLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -261,7 +261,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>Defines whether to enable access logs on the frontend.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#enable_access_logs LbFrontend#enable_access_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#enable_access_logs LbFrontend#enable_access_logs}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -273,7 +273,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>Activates HTTP/3 protocol.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#enable_http3 LbFrontend#enable_http3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#enable_http3 LbFrontend#enable_http3}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -287,7 +287,7 @@ namespace scaleway.LbFrontend
             /// <remarks>
             /// If set to <c>true</c>, <c>acl</c> attribute cannot be set directly in the lb frontend
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#external_acls LbFrontend#external_acls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#external_acls LbFrontend#external_acls}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -297,7 +297,7 @@ namespace scaleway.LbFrontend
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#id LbFrontend#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#id LbFrontend#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -311,7 +311,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>The name of the frontend.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#name LbFrontend#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#name LbFrontend#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -322,7 +322,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>Set the maximum inactivity time on the client side.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#timeout_client LbFrontend#timeout_client}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#timeout_client LbFrontend#timeout_client}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutClient", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -333,7 +333,7 @@ namespace scaleway.LbFrontend
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/lb_frontend#timeouts LbFrontend#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/lb_frontend#timeouts LbFrontend#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.lbFrontend.LbFrontendTimeouts\"}", isOptional: true)]

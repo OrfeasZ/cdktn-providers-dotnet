@@ -11,7 +11,7 @@ namespace scaleway.VpcPublicGateway
     {
         /// <summary>gateway type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#type VpcPublicGateway#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#type VpcPublicGateway#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>Set a definitive list of IP ranges (in CIDR notation) allowed to connect to the SSH bastion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#allowed_ip_ranges VpcPublicGateway#allowed_ip_ranges}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#allowed_ip_ranges VpcPublicGateway#allowed_ip_ranges}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedIpRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>Enable SSH bastion on the gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#bastion_enabled VpcPublicGateway#bastion_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#bastion_enabled VpcPublicGateway#bastion_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>Port of the SSH bastion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#bastion_port VpcPublicGateway#bastion_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#bastion_port VpcPublicGateway#bastion_port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bastionPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>Enable SMTP on the gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#enable_smtp VpcPublicGateway#enable_smtp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#enable_smtp VpcPublicGateway#enable_smtp}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -114,7 +114,7 @@ namespace scaleway.VpcPublicGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#id VpcPublicGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#id VpcPublicGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,7 +129,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>attach an existing IP to the gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#ip_id VpcPublicGateway#ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#ip_id VpcPublicGateway#ip_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>Put a Public Gateway in IPAM mode, so that it can be used with the Public Gateways API v2.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#move_to_ipam VpcPublicGateway#move_to_ipam}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#move_to_ipam VpcPublicGateway#move_to_ipam}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -176,7 +176,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>name of the gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#name VpcPublicGateway#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#name VpcPublicGateway#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -188,7 +188,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#project_id VpcPublicGateway#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#project_id VpcPublicGateway#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>Trigger a refresh of the SSH keys for a given Public Gateway by changing this field's value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#refresh_ssh_keys VpcPublicGateway#refresh_ssh_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#refresh_ssh_keys VpcPublicGateway#refresh_ssh_keys}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshSshKeys", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>The tags associated with public gateway.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#tags VpcPublicGateway#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#tags VpcPublicGateway#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#timeouts VpcPublicGateway#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#timeouts VpcPublicGateway#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.vpcPublicGateway.VpcPublicGatewayTimeouts\"}", isOptional: true)]
@@ -236,7 +236,7 @@ namespace scaleway.VpcPublicGateway
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/vpc_public_gateway#zone VpcPublicGateway#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/vpc_public_gateway#zone VpcPublicGateway#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

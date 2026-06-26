@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
     {
         /// <summary>The bucket's name or regional ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
 
         /// <summary>The ID of the bucket server side encryption configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket_server_side_encryption_configuration_id DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket_server_side_encryption_configuration_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket_server_side_encryption_configuration_id DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket_server_side_encryption_configuration_id}
         /// </remarks>
         [JsiiProperty(name: "bucketServerSideEncryptionConfigurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#id DataScalewayObjectBucketServerSideEncryptionConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#id DataScalewayObjectBucketServerSideEncryptionConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#project_id DataScalewayObjectBucketServerSideEncryptionConfiguration#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#project_id DataScalewayObjectBucketServerSideEncryptionConfiguration#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>The bucket's name or regional ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>The ID of the bucket server side encryption configuration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket_server_side_encryption_configuration_id DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket_server_side_encryption_configuration_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#bucket_server_side_encryption_configuration_id DataScalewayObjectBucketServerSideEncryptionConfiguration#bucket_server_side_encryption_configuration_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bucketServerSideEncryptionConfigurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#id DataScalewayObjectBucketServerSideEncryptionConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#id DataScalewayObjectBucketServerSideEncryptionConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace scaleway.DataScalewayObjectBucketServerSideEncryptionConfiguration
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/object_bucket_server_side_encryption_configuration#project_id DataScalewayObjectBucketServerSideEncryptionConfiguration#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/object_bucket_server_side_encryption_configuration#project_id DataScalewayObjectBucketServerSideEncryptionConfiguration#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

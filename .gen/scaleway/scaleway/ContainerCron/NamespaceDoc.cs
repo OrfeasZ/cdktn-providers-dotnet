@@ -5,7 +5,7 @@ namespace scaleway.ContainerCron
     /// <remarks>
     /// <h1><c>scaleway_container_cron</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/container_cron"><c>scaleway_container_cron</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container_cron"><c>scaleway_container_cron</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

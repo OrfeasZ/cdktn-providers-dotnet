@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayVpcIngressRule
     [JsiiByValue(fqn: "scaleway.dataScalewayVpcIngressRule.DataScalewayVpcIngressRuleConfig")]
     public class DataScalewayVpcIngressRuleConfig : scaleway.DataScalewayVpcIngressRule.IDataScalewayVpcIngressRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#id DataScalewayVpcIngressRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#id DataScalewayVpcIngressRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>The ID of the VPC ingress rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#ingress_rule_id DataScalewayVpcIngressRule#ingress_rule_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#ingress_rule_id DataScalewayVpcIngressRule#ingress_rule_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ingressRuleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>Only ingress rules with the matching IP version will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#is_ipv6 DataScalewayVpcIngressRule#is_ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#is_ipv6 DataScalewayVpcIngressRule#is_ipv6}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>The ID of the nexthop private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#nexthop_private_network_id DataScalewayVpcIngressRule#nexthop_private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#nexthop_private_network_id DataScalewayVpcIngressRule#nexthop_private_network_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nexthopPrivateNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>IP of the nexthop resource for the ingress rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#nexthop_resource_ip DataScalewayVpcIngressRule#nexthop_resource_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#nexthop_resource_ip DataScalewayVpcIngressRule#nexthop_resource_ip}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nexthopResourceIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#region DataScalewayVpcIngressRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#region DataScalewayVpcIngressRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>The tags associated with the ingress rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#tags DataScalewayVpcIngressRule#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#tags DataScalewayVpcIngressRule#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace scaleway.DataScalewayVpcIngressRule
 
         /// <summary>The ID of the VPC the ingress rule belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/vpc_ingress_rule#vpc_id DataScalewayVpcIngressRule#vpc_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/vpc_ingress_rule#vpc_id DataScalewayVpcIngressRule#vpc_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

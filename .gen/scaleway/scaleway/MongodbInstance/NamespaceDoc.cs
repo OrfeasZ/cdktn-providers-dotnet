@@ -5,7 +5,7 @@ namespace scaleway.MongodbInstance
     /// <remarks>
     /// <h1><c>scaleway_mongodb_instance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/mongodb_instance"><c>scaleway_mongodb_instance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/mongodb_instance"><c>scaleway_mongodb_instance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

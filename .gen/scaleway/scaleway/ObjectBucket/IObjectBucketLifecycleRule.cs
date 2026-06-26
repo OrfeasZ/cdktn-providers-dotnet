@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucket
     {
         /// <summary>Specifies if the configuration rule is Enabled or Disabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#enabled ObjectBucket#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#enabled ObjectBucket#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -20,7 +20,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>Specifies the number of days after initiating a multipart upload when the multipart upload must be completed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#abort_incomplete_multipart_upload_days ObjectBucket#abort_incomplete_multipart_upload_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#abort_incomplete_multipart_upload_days ObjectBucket#abort_incomplete_multipart_upload_days}
         /// </remarks>
         [JsiiProperty(name: "abortIncompleteMultipartUploadDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>expiration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#expiration ObjectBucket#expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#expiration ObjectBucket#expiration}
         /// </remarks>
         [JsiiProperty(name: "expiration", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleExpiration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>Unique identifier for the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#id ObjectBucket#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#id ObjectBucket#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>noncurrent_version_expiration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#noncurrent_version_expiration ObjectBucket#noncurrent_version_expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#noncurrent_version_expiration ObjectBucket#noncurrent_version_expiration}
         /// </remarks>
         [JsiiProperty(name: "noncurrentVersionExpiration", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpiration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>noncurrent_version_transition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#noncurrent_version_transition ObjectBucket#noncurrent_version_transition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#noncurrent_version_transition ObjectBucket#noncurrent_version_transition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "noncurrentVersionTransition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>Minimum object size (in bytes) to which the rule applies.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#object_size_greater_than ObjectBucket#object_size_greater_than}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#object_size_greater_than ObjectBucket#object_size_greater_than}
         /// </remarks>
         [JsiiProperty(name: "objectSizeGreaterThan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>Maximum object size (in bytes) to which the rule applies.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#object_size_less_than ObjectBucket#object_size_less_than}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#object_size_less_than ObjectBucket#object_size_less_than}
         /// </remarks>
         [JsiiProperty(name: "objectSizeLessThan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>The prefix identifying one or more objects to which the rule applies.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#prefix ObjectBucket#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#prefix ObjectBucket#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>The tags associated with the bucket lifecycle.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#tags ObjectBucket#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#tags ObjectBucket#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,7 +150,7 @@ namespace scaleway.ObjectBucket
 
         /// <summary>transition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#transition ObjectBucket#transition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#transition ObjectBucket#transition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleTransition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "transition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleTransition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>Specifies if the configuration rule is Enabled or Disabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#enabled ObjectBucket#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#enabled ObjectBucket#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -183,7 +183,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>Specifies the number of days after initiating a multipart upload when the multipart upload must be completed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#abort_incomplete_multipart_upload_days ObjectBucket#abort_incomplete_multipart_upload_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#abort_incomplete_multipart_upload_days ObjectBucket#abort_incomplete_multipart_upload_days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "abortIncompleteMultipartUploadDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>expiration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#expiration ObjectBucket#expiration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#expiration ObjectBucket#expiration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiration", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleExpiration\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>Unique identifier for the rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#id ObjectBucket#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#id ObjectBucket#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -219,7 +219,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>noncurrent_version_expiration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#noncurrent_version_expiration ObjectBucket#noncurrent_version_expiration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#noncurrent_version_expiration ObjectBucket#noncurrent_version_expiration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "noncurrentVersionExpiration", typeJson: "{\"fqn\":\"scaleway.objectBucket.ObjectBucketLifecycleRuleNoncurrentVersionExpiration\"}", isOptional: true)]
@@ -230,7 +230,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>noncurrent_version_transition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#noncurrent_version_transition ObjectBucket#noncurrent_version_transition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#noncurrent_version_transition ObjectBucket#noncurrent_version_transition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleNoncurrentVersionTransition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -242,7 +242,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>Minimum object size (in bytes) to which the rule applies.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#object_size_greater_than ObjectBucket#object_size_greater_than}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#object_size_greater_than ObjectBucket#object_size_greater_than}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "objectSizeGreaterThan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>Maximum object size (in bytes) to which the rule applies.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#object_size_less_than ObjectBucket#object_size_less_than}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#object_size_less_than ObjectBucket#object_size_less_than}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "objectSizeLessThan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>The prefix identifying one or more objects to which the rule applies.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#prefix ObjectBucket#prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#prefix ObjectBucket#prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -275,7 +275,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>The tags associated with the bucket lifecycle.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#tags ObjectBucket#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#tags ObjectBucket#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -286,7 +286,7 @@ namespace scaleway.ObjectBucket
 
             /// <summary>transition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/object_bucket#transition ObjectBucket#transition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/object_bucket#transition ObjectBucket#transition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.ObjectBucket.IObjectBucketLifecycleRuleTransition" />)[]</para>
             /// </remarks>
             [JsiiOptional]

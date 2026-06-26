@@ -11,7 +11,7 @@ namespace scaleway.AppleSiliconServer
     {
         /// <summary>Type of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#type AppleSiliconServer#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#type AppleSiliconServer#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>The commitment period of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#commitment AppleSiliconServer#commitment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#commitment AppleSiliconServer#commitment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>Whether or not to enable VPC access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#enable_vpc AppleSiliconServer#enable_vpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#enable_vpc AppleSiliconServer#enable_vpc}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -67,7 +67,7 @@ namespace scaleway.AppleSiliconServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#id AppleSiliconServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#id AppleSiliconServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>Name of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#name AppleSiliconServer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#name AppleSiliconServer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>The OS ID of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#os_id AppleSiliconServer#os_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#os_id AppleSiliconServer#os_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>private_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#private_ips AppleSiliconServer#private_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#private_ips AppleSiliconServer#private_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -143,7 +143,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#private_network AppleSiliconServer#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#private_network AppleSiliconServer#private_network}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AppleSiliconServer.IAppleSiliconServerPrivateNetwork" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -176,7 +176,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#project_id AppleSiliconServer#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#project_id AppleSiliconServer#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -188,7 +188,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>The public bandwidth of the server in bits per second.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#public_bandwidth AppleSiliconServer#public_bandwidth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#public_bandwidth AppleSiliconServer#public_bandwidth}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicBandwidth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>List of runner ids attach to the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#runner_ids AppleSiliconServer#runner_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#runner_ids AppleSiliconServer#runner_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runnerIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#timeouts AppleSiliconServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#timeouts AppleSiliconServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.appleSiliconServer.AppleSiliconServerTimeouts\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace scaleway.AppleSiliconServer
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/resources/apple_silicon_server#zone AppleSiliconServer#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/apple_silicon_server#zone AppleSiliconServer#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

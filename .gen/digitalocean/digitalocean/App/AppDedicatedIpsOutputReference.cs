@@ -96,10 +96,10 @@ namespace digitalocean.App
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.App.IAppDedicatedIps" /></para>
+        /// <para>Type union: either <see cref="digitalocean.App.IAppDedicatedIps" /> or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.app.AppDedicatedIps\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"digitalocean.app.AppDedicatedIps\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? InternalValue
         {
             get => GetInstanceProperty<object?>();
@@ -109,9 +109,9 @@ namespace digitalocean.App
                 {
                     switch (value)
                     {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
                         case digitalocean.App.IAppDedicatedIps cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -119,7 +119,7 @@ namespace digitalocean.App
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.App.IAppDedicatedIps).FullName}; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(digitalocean.App.IAppDedicatedIps).FullName}, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 SetInstanceProperty(value);

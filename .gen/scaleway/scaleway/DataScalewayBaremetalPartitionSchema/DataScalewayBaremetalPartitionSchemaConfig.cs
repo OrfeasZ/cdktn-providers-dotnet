@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayBaremetalPartitionSchema
     {
         /// <summary>ID of the server offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/baremetal_partition_schema#offer_id DataScalewayBaremetalPartitionSchema#offer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/baremetal_partition_schema#offer_id DataScalewayBaremetalPartitionSchema#offer_id}
         /// </remarks>
         [JsiiProperty(name: "offerId", typeJson: "{\"primitive\":\"string\"}")]
         public string OfferId
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayBaremetalPartitionSchema
 
         /// <summary>The base image of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/baremetal_partition_schema#os_id DataScalewayBaremetalPartitionSchema#os_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/baremetal_partition_schema#os_id DataScalewayBaremetalPartitionSchema#os_id}
         /// </remarks>
         [JsiiProperty(name: "osId", typeJson: "{\"primitive\":\"string\"}")]
         public string OsId
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayBaremetalPartitionSchema
 
         /// <summary>Mount point must be an absolute path.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/baremetal_partition_schema#ext_4_mountpoint DataScalewayBaremetalPartitionSchema#ext_4_mountpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/baremetal_partition_schema#ext_4_mountpoint DataScalewayBaremetalPartitionSchema#ext_4_mountpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ext4Mountpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace scaleway.DataScalewayBaremetalPartitionSchema
 
         /// <summary>set extra ext_4 partition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/baremetal_partition_schema#extra_partition DataScalewayBaremetalPartitionSchema#extra_partition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/baremetal_partition_schema#extra_partition DataScalewayBaremetalPartitionSchema#extra_partition}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -78,7 +78,7 @@ namespace scaleway.DataScalewayBaremetalPartitionSchema
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/baremetal_partition_schema#id DataScalewayBaremetalPartitionSchema#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/baremetal_partition_schema#id DataScalewayBaremetalPartitionSchema#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ namespace scaleway.DataScalewayBaremetalPartitionSchema
 
         /// <summary>set swap partition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/baremetal_partition_schema#swap DataScalewayBaremetalPartitionSchema#swap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/baremetal_partition_schema#swap DataScalewayBaremetalPartitionSchema#swap}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

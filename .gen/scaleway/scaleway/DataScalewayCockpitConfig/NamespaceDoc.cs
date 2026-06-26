@@ -5,7 +5,7 @@ namespace scaleway.DataScalewayCockpitConfig
     /// <remarks>
     /// <h1><c>data_scaleway_cockpit_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.0/docs/data-sources/cockpit_config"><c>data_scaleway_cockpit_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/data-sources/cockpit_config"><c>data_scaleway_cockpit_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
