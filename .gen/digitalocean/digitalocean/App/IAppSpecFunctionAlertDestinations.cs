@@ -7,7 +7,7 @@ namespace digitalocean.App
     [JsiiInterface(nativeType: typeof(IAppSpecFunctionAlertDestinations), fullyQualifiedName: "digitalocean.app.AppSpecFunctionAlertDestinations")]
     public interface IAppSpecFunctionAlertDestinations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#emails App#emails}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/app#emails App#emails}.</summary>
         [JsiiProperty(name: "emails", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Emails
@@ -20,7 +20,7 @@ namespace digitalocean.App
 
         /// <summary>slack_webhooks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#slack_webhooks App#slack_webhooks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/app#slack_webhooks App#slack_webhooks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecFunctionAlertDestinationsSlackWebhooks" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "slackWebhooks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunctionAlertDestinationsSlackWebhooks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace digitalocean.App
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#emails App#emails}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/app#emails App#emails}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emails", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Emails
@@ -50,7 +50,7 @@ namespace digitalocean.App
 
             /// <summary>slack_webhooks block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/app#slack_webhooks App#slack_webhooks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/app#slack_webhooks App#slack_webhooks}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecFunctionAlertDestinationsSlackWebhooks" />)[]</para>
             /// </remarks>
             [JsiiOptional]

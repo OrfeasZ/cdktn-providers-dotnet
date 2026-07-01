@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModel
     /// <remarks>
     /// <h1><c>data_digitalocean_gradientai_custom_model</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/gradientai_custom_model"><c>data_digitalocean_gradientai_custom_model</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_model"><c>data_digitalocean_gradientai_custom_model</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

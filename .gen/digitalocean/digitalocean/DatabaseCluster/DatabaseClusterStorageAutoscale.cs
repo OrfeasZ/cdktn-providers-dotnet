@@ -11,7 +11,7 @@ namespace digitalocean.DatabaseCluster
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/database_cluster#enabled DatabaseCluster#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/database_cluster#enabled DatabaseCluster#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -46,7 +46,7 @@ namespace digitalocean.DatabaseCluster
         /// <remarks>
         /// If not specified, system auto-calculates (25% of current size, min 50 GiB, max 1024 GiB, rounded to 10 GiB steps). Cooldown: 1 hour between autoscale operations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/database_cluster#increment_gib DatabaseCluster#increment_gib}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/database_cluster#increment_gib DatabaseCluster#increment_gib}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "incrementGib", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace digitalocean.DatabaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/database_cluster#threshold_percent DatabaseCluster#threshold_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/database_cluster#threshold_percent DatabaseCluster#threshold_percent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "thresholdPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ThresholdPercent

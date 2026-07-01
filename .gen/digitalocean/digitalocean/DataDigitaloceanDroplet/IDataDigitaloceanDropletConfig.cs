@@ -7,7 +7,7 @@ namespace digitalocean.DataDigitaloceanDroplet
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanDropletConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanDroplet.DataDigitaloceanDropletConfig")]
     public interface IDataDigitaloceanDropletConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#gpu DataDigitaloceanDroplet#gpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#gpu DataDigitaloceanDroplet#gpu}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -23,7 +23,7 @@ namespace digitalocean.DataDigitaloceanDroplet
 
         /// <summary>id of the Droplet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#id DataDigitaloceanDroplet#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#id DataDigitaloceanDroplet#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanDroplet
 
         /// <summary>name of the Droplet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#name DataDigitaloceanDroplet#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#name DataDigitaloceanDroplet#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace digitalocean.DataDigitaloceanDroplet
 
         /// <summary>unique tag of the Droplet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#tag DataDigitaloceanDroplet#tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#tag DataDigitaloceanDroplet#tag}
         /// </remarks>
         [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace digitalocean.DataDigitaloceanDroplet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#gpu DataDigitaloceanDroplet#gpu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#gpu DataDigitaloceanDroplet#gpu}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -86,7 +86,7 @@ namespace digitalocean.DataDigitaloceanDroplet
 
             /// <summary>id of the Droplet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#id DataDigitaloceanDroplet#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#id DataDigitaloceanDroplet#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,7 +100,7 @@ namespace digitalocean.DataDigitaloceanDroplet
 
             /// <summary>name of the Droplet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#name DataDigitaloceanDroplet#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#name DataDigitaloceanDroplet#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace digitalocean.DataDigitaloceanDroplet
 
             /// <summary>unique tag of the Droplet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/droplet#tag DataDigitaloceanDroplet#tag}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/droplet#tag DataDigitaloceanDroplet#tag}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

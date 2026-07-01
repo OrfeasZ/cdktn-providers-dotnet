@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanContainerRegistry
     /// <remarks>
     /// <h1><c>data_digitalocean_container_registry</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/container_registry"><c>data_digitalocean_container_registry</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/container_registry"><c>data_digitalocean_container_registry</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

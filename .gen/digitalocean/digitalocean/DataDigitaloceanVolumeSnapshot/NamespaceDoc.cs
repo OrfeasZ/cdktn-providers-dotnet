@@ -5,7 +5,7 @@ namespace digitalocean.DataDigitaloceanVolumeSnapshot
     /// <remarks>
     /// <h1><c>data_digitalocean_volume_snapshot</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/data-sources/volume_snapshot"><c>data_digitalocean_volume_snapshot</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/volume_snapshot"><c>data_digitalocean_volume_snapshot</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

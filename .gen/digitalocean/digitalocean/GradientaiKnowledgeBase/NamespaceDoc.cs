@@ -5,7 +5,7 @@ namespace digitalocean.GradientaiKnowledgeBase
     /// <remarks>
     /// <h1><c>digitalocean_gradientai_knowledge_base</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.92.0/docs/resources/gradientai_knowledge_base"><c>digitalocean_gradientai_knowledge_base</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_knowledge_base"><c>digitalocean_gradientai_knowledge_base</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
