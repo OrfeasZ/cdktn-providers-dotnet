@@ -7,7 +7,7 @@ namespace aws.GlueMlTransform
     [JsiiByValue(fqn: "aws.glueMlTransform.GlueMlTransformParametersFindMatchesParameters")]
     public class GlueMlTransformParametersFindMatchesParameters : aws.GlueMlTransform.IGlueMlTransformParametersFindMatchesParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_ml_transform#accuracy_cost_trade_off GlueMlTransform#accuracy_cost_trade_off}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#accuracy_cost_trade_off GlueMlTransform#accuracy_cost_trade_off}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accuracyCostTradeOff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AccuracyCostTradeOff
@@ -18,7 +18,7 @@ namespace aws.GlueMlTransform
 
         private object? _enforceProvidedLabels;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace aws.GlueMlTransform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_ml_transform#precision_recall_trade_off GlueMlTransform#precision_recall_trade_off}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#precision_recall_trade_off GlueMlTransform#precision_recall_trade_off}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "precisionRecallTradeOff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PrecisionRecallTradeOff
@@ -59,7 +59,7 @@ namespace aws.GlueMlTransform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryKeyColumnName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimaryKeyColumnName

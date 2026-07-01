@@ -7,7 +7,7 @@ namespace aws.SsmcontactsRotation
     [JsiiInterface(nativeType: typeof(ISsmcontactsRotationRecurrenceShiftCoverages), fullyQualifiedName: "aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoverages")]
     public interface ISsmcontactsRotationRecurrenceShiftCoverages
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmcontacts_rotation#map_block_key SsmcontactsRotation#map_block_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#map_block_key SsmcontactsRotation#map_block_key}.</summary>
         [JsiiProperty(name: "mapBlockKey", typeJson: "{\"primitive\":\"string\"}")]
         string MapBlockKey
         {
@@ -16,7 +16,7 @@ namespace aws.SsmcontactsRotation
 
         /// <summary>coverage_times block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "coverageTimes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace aws.SsmcontactsRotation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmcontacts_rotation#map_block_key SsmcontactsRotation#map_block_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#map_block_key SsmcontactsRotation#map_block_key}.</summary>
             [JsiiProperty(name: "mapBlockKey", typeJson: "{\"primitive\":\"string\"}")]
             public string MapBlockKey
             {
@@ -45,7 +45,7 @@ namespace aws.SsmcontactsRotation
 
             /// <summary>coverage_times block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes" />)[]</para>
             /// </remarks>
             [JsiiOptional]

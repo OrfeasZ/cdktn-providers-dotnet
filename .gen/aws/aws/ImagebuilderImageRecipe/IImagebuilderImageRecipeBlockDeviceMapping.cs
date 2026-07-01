@@ -7,7 +7,7 @@ namespace aws.ImagebuilderImageRecipe
     [JsiiInterface(nativeType: typeof(IImagebuilderImageRecipeBlockDeviceMapping), fullyQualifiedName: "aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMapping")]
     public interface IImagebuilderImageRecipeBlockDeviceMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceName
@@ -20,7 +20,7 @@ namespace aws.ImagebuilderImageRecipe
 
         /// <summary>ebs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
         /// </remarks>
         [JsiiProperty(name: "ebs", typeJson: "{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingEbs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace aws.ImagebuilderImageRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -46,7 +46,7 @@ namespace aws.ImagebuilderImageRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}.</summary>
         [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VirtualName
@@ -64,7 +64,7 @@ namespace aws.ImagebuilderImageRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceName
@@ -74,7 +74,7 @@ namespace aws.ImagebuilderImageRecipe
 
             /// <summary>ebs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ebs", typeJson: "{\"fqn\":\"aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingEbs\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace aws.ImagebuilderImageRecipe
                 get => GetInstanceProperty<aws.ImagebuilderImageRecipe.IImagebuilderImageRecipeBlockDeviceMappingEbs?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -94,7 +94,7 @@ namespace aws.ImagebuilderImageRecipe
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VirtualName

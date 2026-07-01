@@ -7,7 +7,7 @@ namespace aws.AthenaWorkgroup
     [JsiiByValue(fqn: "aws.athenaWorkgroup.AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration")]
     public class AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration : aws.AthenaWorkgroup.IAthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKey

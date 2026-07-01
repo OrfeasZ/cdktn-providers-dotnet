@@ -9,7 +9,7 @@ namespace aws.LexIntent
     {
         /// <summary>fulfillment_activity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#fulfillment_activity LexIntent#fulfillment_activity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#fulfillment_activity LexIntent#fulfillment_activity}
         /// </remarks>
         [JsiiProperty(name: "fulfillmentActivity", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFulfillmentActivity\"}")]
         aws.LexIntent.ILexIntentFulfillmentActivity FulfillmentActivity
@@ -17,7 +17,7 @@ namespace aws.LexIntent
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -26,7 +26,7 @@ namespace aws.LexIntent
 
         /// <summary>conclusion_statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#conclusion_statement LexIntent#conclusion_statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#conclusion_statement LexIntent#conclusion_statement}
         /// </remarks>
         [JsiiProperty(name: "conclusionStatement", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentConclusionStatement\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace aws.LexIntent
 
         /// <summary>confirmation_prompt block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#confirmation_prompt LexIntent#confirmation_prompt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#confirmation_prompt LexIntent#confirmation_prompt}
         /// </remarks>
         [JsiiProperty(name: "confirmationPrompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentConfirmationPrompt\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#create_version LexIntent#create_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#create_version LexIntent#create_version}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -66,7 +66,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -79,7 +79,7 @@ namespace aws.LexIntent
 
         /// <summary>dialog_code_hook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#dialog_code_hook LexIntent#dialog_code_hook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#dialog_code_hook LexIntent#dialog_code_hook}
         /// </remarks>
         [JsiiProperty(name: "dialogCodeHook", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentDialogCodeHook\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace aws.LexIntent
 
         /// <summary>follow_up_prompt block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#follow_up_prompt LexIntent#follow_up_prompt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#follow_up_prompt LexIntent#follow_up_prompt}
         /// </remarks>
         [JsiiProperty(name: "followUpPrompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFollowUpPrompt\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,7 +105,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#id LexIntent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#id LexIntent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,7 +120,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#parent_intent_signature LexIntent#parent_intent_signature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#parent_intent_signature LexIntent#parent_intent_signature}.</summary>
         [JsiiProperty(name: "parentIntentSignature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParentIntentSignature
@@ -133,7 +133,7 @@ namespace aws.LexIntent
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#region LexIntent#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#region LexIntent#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -147,7 +147,7 @@ namespace aws.LexIntent
 
         /// <summary>rejection_statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
         /// </remarks>
         [JsiiProperty(name: "rejectionStatement", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentRejectionStatement\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +159,7 @@ namespace aws.LexIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
         [JsiiProperty(name: "sampleUtterances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SampleUtterances
@@ -172,7 +172,7 @@ namespace aws.LexIntent
 
         /// <summary>slot block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#slot LexIntent#slot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#slot LexIntent#slot}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentSlot" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "slot", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentSlot\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -187,7 +187,7 @@ namespace aws.LexIntent
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#timeouts LexIntent#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#timeouts LexIntent#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -208,7 +208,7 @@ namespace aws.LexIntent
 
             /// <summary>fulfillment_activity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#fulfillment_activity LexIntent#fulfillment_activity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#fulfillment_activity LexIntent#fulfillment_activity}
             /// </remarks>
             [JsiiProperty(name: "fulfillmentActivity", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFulfillmentActivity\"}")]
             public aws.LexIntent.ILexIntentFulfillmentActivity FulfillmentActivity
@@ -216,7 +216,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<aws.LexIntent.ILexIntentFulfillmentActivity>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#name LexIntent#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -225,7 +225,7 @@ namespace aws.LexIntent
 
             /// <summary>conclusion_statement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#conclusion_statement LexIntent#conclusion_statement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#conclusion_statement LexIntent#conclusion_statement}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "conclusionStatement", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentConclusionStatement\"}", isOptional: true)]
@@ -236,7 +236,7 @@ namespace aws.LexIntent
 
             /// <summary>confirmation_prompt block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#confirmation_prompt LexIntent#confirmation_prompt}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#confirmation_prompt LexIntent#confirmation_prompt}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "confirmationPrompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentConfirmationPrompt\"}", isOptional: true)]
@@ -245,7 +245,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<aws.LexIntent.ILexIntentConfirmationPrompt?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#create_version LexIntent#create_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#create_version LexIntent#create_version}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -256,7 +256,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#description LexIntent#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -266,7 +266,7 @@ namespace aws.LexIntent
 
             /// <summary>dialog_code_hook block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#dialog_code_hook LexIntent#dialog_code_hook}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#dialog_code_hook LexIntent#dialog_code_hook}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dialogCodeHook", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentDialogCodeHook\"}", isOptional: true)]
@@ -277,7 +277,7 @@ namespace aws.LexIntent
 
             /// <summary>follow_up_prompt block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#follow_up_prompt LexIntent#follow_up_prompt}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#follow_up_prompt LexIntent#follow_up_prompt}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "followUpPrompt", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentFollowUpPrompt\"}", isOptional: true)]
@@ -286,7 +286,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<aws.LexIntent.ILexIntentFollowUpPrompt?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#id LexIntent#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#id LexIntent#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -298,7 +298,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#parent_intent_signature LexIntent#parent_intent_signature}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#parent_intent_signature LexIntent#parent_intent_signature}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parentIntentSignature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParentIntentSignature
@@ -308,7 +308,7 @@ namespace aws.LexIntent
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#region LexIntent#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#region LexIntent#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -319,7 +319,7 @@ namespace aws.LexIntent
 
             /// <summary>rejection_statement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#rejection_statement LexIntent#rejection_statement}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rejectionStatement", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentRejectionStatement\"}", isOptional: true)]
@@ -328,7 +328,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<aws.LexIntent.ILexIntentRejectionStatement?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#sample_utterances LexIntent#sample_utterances}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sampleUtterances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SampleUtterances
@@ -338,7 +338,7 @@ namespace aws.LexIntent
 
             /// <summary>slot block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#slot LexIntent#slot}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#slot LexIntent#slot}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentSlot" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -350,7 +350,7 @@ namespace aws.LexIntent
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lex_intent#timeouts LexIntent#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lex_intent#timeouts LexIntent#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lexIntent.LexIntentTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.CloudwatchMetricStream
     [JsiiInterface(nativeType: typeof(ICloudwatchMetricStreamStatisticsConfiguration), fullyQualifiedName: "aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfiguration")]
     public interface ICloudwatchMetricStreamStatisticsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}.</summary>
         [JsiiProperty(name: "additionalStatistics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AdditionalStatistics
         {
@@ -16,7 +16,7 @@ namespace aws.CloudwatchMetricStream
 
         /// <summary>include_metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_metric_stream#include_metric CloudwatchMetricStream#include_metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#include_metric CloudwatchMetricStream#include_metric}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfigurationIncludeMetric" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "includeMetric", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric\"},\"kind\":\"array\"}}]}}")]
@@ -32,7 +32,7 @@ namespace aws.CloudwatchMetricStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}.</summary>
             [JsiiProperty(name: "additionalStatistics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AdditionalStatistics
             {
@@ -41,7 +41,7 @@ namespace aws.CloudwatchMetricStream
 
             /// <summary>include_metric block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_metric_stream#include_metric CloudwatchMetricStream#include_metric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_stream#include_metric CloudwatchMetricStream#include_metric}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricStream.ICloudwatchMetricStreamStatisticsConfigurationIncludeMetric" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "includeMetric", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric\"},\"kind\":\"array\"}}]}}")]

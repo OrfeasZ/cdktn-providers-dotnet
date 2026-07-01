@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreCodeInterpreter
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter}.</summary>
     [JsiiClass(nativeType: typeof(aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreter), fullyQualifiedName: "aws.bedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreter", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.bedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterConfig\"}}]")]
     public class BedrockagentcoreCodeInterpreter : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BedrockagentcoreCodeInterpreter(Constructs.Construct scope, string id, aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace aws.BedrockagentcoreCodeInterpreter
         /// <param name="importToId">The construct id used in the generated config for the BedrockagentcoreCodeInterpreter to import.</param>
         /// <param name="importFromId">The id of the existing BedrockagentcoreCodeInterpreter that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BedrockagentcoreCodeInterpreter to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreCodeInterpreter to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_code_interpreter#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreCodeInterpreter that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreCodeInterpreter to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreCodeInterpreter to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_code_interpreter#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreCodeInterpreter that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreCodeInterpreter to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreter), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterCertificate" />)[]</param>
+        [JsiiMethod(name: "putCertificate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterCertificate\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCertificate(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterCertificate[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterCertificate).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterCertificate).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterNetworkConfiguration" />)[]</param>
@@ -74,6 +98,12 @@ namespace aws.BedrockagentcoreCodeInterpreter
         public virtual void PutTimeouts(aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetCertificate")]
+        public virtual void ResetCertificate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDescription")]
@@ -131,6 +161,12 @@ namespace aws.BedrockagentcoreCodeInterpreter
         }
         = GetStaticProperty<string>(typeof(aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreter))!;
 
+        [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"aws.bedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterCertificateList\"}")]
+        public virtual aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterCertificateList Certificate
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterCertificateList>()!;
+        }
+
         [JsiiProperty(name: "codeInterpreterArn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CodeInterpreterArn
         {
@@ -159,6 +195,16 @@ namespace aws.BedrockagentcoreCodeInterpreter
         public virtual aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterTimeoutsOutputReference Timeouts
         {
             get => GetInstanceProperty<aws.BedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterTimeoutsOutputReference>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreCodeInterpreter.IBedrockagentcoreCodeInterpreterCertificate" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CertificateInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

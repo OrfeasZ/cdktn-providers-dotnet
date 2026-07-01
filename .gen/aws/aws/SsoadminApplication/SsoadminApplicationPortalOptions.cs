@@ -11,7 +11,7 @@ namespace aws.SsoadminApplication
 
         /// <summary>sign_in_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssoadmin_application#sign_in_options SsoadminApplication#sign_in_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssoadmin_application#sign_in_options SsoadminApplication#sign_in_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsoadminApplication.ISsoadminApplicationPortalOptionsSignInOptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.SsoadminApplication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ssoadmin_application#visibility SsoadminApplication#visibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ssoadmin_application#visibility SsoadminApplication#visibility}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Visibility

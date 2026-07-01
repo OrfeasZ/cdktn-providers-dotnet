@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreBrowser
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.</summary>
     [JsiiClass(nativeType: typeof(aws.BedrockagentcoreBrowser.BedrockagentcoreBrowser), fullyQualifiedName: "aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserConfig\"}}]")]
     public class BedrockagentcoreBrowser : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BedrockagentcoreBrowser(Constructs.Construct scope, string id, aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,82 @@ namespace aws.BedrockagentcoreBrowser
         /// <param name="importToId">The construct id used in the generated config for the BedrockagentcoreBrowser to import.</param>
         /// <param name="importFromId">The id of the existing BedrockagentcoreBrowser that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BedrockagentcoreBrowser to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreBrowser to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_browser#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreBrowser that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreBrowser to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreBrowser to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreBrowser that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreBrowser to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreBrowser.BedrockagentcoreBrowser), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserBrowserSigning" />)[]</param>
+        [JsiiMethod(name: "putBrowserSigning", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserBrowserSigning\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutBrowserSigning(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserBrowserSigning[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserBrowserSigning).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserBrowserSigning).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserCertificate" />)[]</param>
+        [JsiiMethod(name: "putCertificate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserCertificate\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCertificate(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserCertificate[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserCertificate).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserCertificate).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserEnterprisePolicy" />)[]</param>
+        [JsiiMethod(name: "putEnterprisePolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserEnterprisePolicy\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutEnterprisePolicy(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserEnterprisePolicy[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserEnterprisePolicy).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserEnterprisePolicy).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserNetworkConfiguration" />)[]</param>
@@ -100,8 +172,26 @@ namespace aws.BedrockagentcoreBrowser
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserTimeouts)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetBrowserSigning")]
+        public virtual void ResetBrowserSigning()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCertificate")]
+        public virtual void ResetCertificate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEnterprisePolicy")]
+        public virtual void ResetEnterprisePolicy()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -173,6 +263,24 @@ namespace aws.BedrockagentcoreBrowser
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "browserSigning", typeJson: "{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserBrowserSigningList\"}")]
+        public virtual aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserBrowserSigningList BrowserSigning
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserBrowserSigningList>()!;
+        }
+
+        [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserCertificateList\"}")]
+        public virtual aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserCertificateList Certificate
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserCertificateList>()!;
+        }
+
+        [JsiiProperty(name: "enterprisePolicy", typeJson: "{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserEnterprisePolicyList\"}")]
+        public virtual aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserEnterprisePolicyList EnterprisePolicy
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserEnterprisePolicyList>()!;
+        }
+
         [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserNetworkConfigurationList\"}")]
         public virtual aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserNetworkConfigurationList NetworkConfiguration
         {
@@ -197,11 +305,41 @@ namespace aws.BedrockagentcoreBrowser
             get => GetInstanceProperty<aws.BedrockagentcoreBrowser.BedrockagentcoreBrowserTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserBrowserSigning" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "browserSigningInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserBrowserSigning\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? BrowserSigningInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserCertificate" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "certificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CertificateInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserEnterprisePolicy" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "enterprisePolicyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserEnterprisePolicy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? EnterprisePolicyInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
