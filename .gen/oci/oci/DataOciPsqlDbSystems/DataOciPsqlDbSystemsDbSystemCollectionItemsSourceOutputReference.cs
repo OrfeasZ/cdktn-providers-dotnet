@@ -41,6 +41,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DbSystemId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "isHavingRestoreConfigOverrides", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsHavingRestoreConfigOverrides
         {
@@ -55,6 +61,12 @@ namespace oci.DataOciPsqlDbSystems
 
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SourceType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeToRestore", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeToRestore
         {
             get => GetInstanceProperty<string>()!;
         }

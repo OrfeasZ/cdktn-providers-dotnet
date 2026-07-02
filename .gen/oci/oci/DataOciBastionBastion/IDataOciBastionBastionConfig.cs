@@ -7,7 +7,7 @@ namespace oci.DataOciBastionBastion
     [JsiiInterface(nativeType: typeof(IDataOciBastionBastionConfig), fullyQualifiedName: "oci.dataOciBastionBastion.DataOciBastionBastionConfig")]
     public interface IDataOciBastionBastionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}.</summary>
         [JsiiProperty(name: "bastionId", typeJson: "{\"primitive\":\"string\"}")]
         string BastionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBastionBastion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}.</summary>
             [JsiiProperty(name: "bastionId", typeJson: "{\"primitive\":\"string\"}")]
             public string BastionId
             {

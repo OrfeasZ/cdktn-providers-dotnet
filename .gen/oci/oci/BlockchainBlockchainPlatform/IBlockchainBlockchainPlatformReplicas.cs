@@ -7,7 +7,7 @@ namespace oci.BlockchainBlockchainPlatform
     [JsiiInterface(nativeType: typeof(IBlockchainBlockchainPlatformReplicas), fullyQualifiedName: "oci.blockchainBlockchainPlatform.BlockchainBlockchainPlatformReplicas")]
     public interface IBlockchainBlockchainPlatformReplicas
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#ca_count BlockchainBlockchainPlatform#ca_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#ca_count BlockchainBlockchainPlatform#ca_count}.</summary>
         [JsiiProperty(name: "caCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CaCount
@@ -18,7 +18,7 @@ namespace oci.BlockchainBlockchainPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#console_count BlockchainBlockchainPlatform#console_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#console_count BlockchainBlockchainPlatform#console_count}.</summary>
         [JsiiProperty(name: "consoleCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConsoleCount
@@ -29,7 +29,7 @@ namespace oci.BlockchainBlockchainPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#proxy_count BlockchainBlockchainPlatform#proxy_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#proxy_count BlockchainBlockchainPlatform#proxy_count}.</summary>
         [JsiiProperty(name: "proxyCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ProxyCount
@@ -47,7 +47,7 @@ namespace oci.BlockchainBlockchainPlatform
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#ca_count BlockchainBlockchainPlatform#ca_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#ca_count BlockchainBlockchainPlatform#ca_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "caCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CaCount
@@ -55,7 +55,7 @@ namespace oci.BlockchainBlockchainPlatform
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#console_count BlockchainBlockchainPlatform#console_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#console_count BlockchainBlockchainPlatform#console_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "consoleCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConsoleCount
@@ -63,7 +63,7 @@ namespace oci.BlockchainBlockchainPlatform
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#proxy_count BlockchainBlockchainPlatform#proxy_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#proxy_count BlockchainBlockchainPlatform#proxy_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "proxyCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ProxyCount

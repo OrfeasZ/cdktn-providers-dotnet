@@ -47,6 +47,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "pitrPolicy", typeJson: "{\"fqn\":\"oci.dataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsManagementPolicyPitrPolicyList\"}")]
+        public virtual oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsManagementPolicyPitrPolicyList PitrPolicy
+        {
+            get => GetInstanceProperty<oci.DataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsManagementPolicyPitrPolicyList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciPsqlDbSystems.DataOciPsqlDbSystemsDbSystemCollectionItemsManagementPolicy\"}", isOptional: true)]
         public virtual oci.DataOciPsqlDbSystems.IDataOciPsqlDbSystemsDbSystemCollectionItemsManagementPolicy? InternalValue

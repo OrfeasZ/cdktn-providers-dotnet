@@ -107,6 +107,12 @@ namespace oci.DataOciObjectstorageBucketSummaries
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isBucketKeyEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsBucketKeyEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isReadOnly", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsReadOnly
         {

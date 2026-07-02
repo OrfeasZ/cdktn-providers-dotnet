@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
     [JsiiByValue(fqn: "oci.dataOciMulticloudMulticloudsubscriptions.DataOciMulticloudMulticloudsubscriptionsConfig")]
     public class DataOciMulticloudMulticloudsubscriptionsConfig : oci.DataOciMulticloudMulticloudsubscriptions.IDataOciMulticloudMulticloudsubscriptionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_multicloudsubscriptions#compartment_id DataOciMulticloudMulticloudsubscriptions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_multicloudsubscriptions#compartment_id DataOciMulticloudMulticloudsubscriptions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_multicloudsubscriptions#display_name DataOciMulticloudMulticloudsubscriptions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_multicloudsubscriptions#display_name DataOciMulticloudMulticloudsubscriptions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_multicloudsubscriptions#filter DataOciMulticloudMulticloudsubscriptions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_multicloudsubscriptions#filter DataOciMulticloudMulticloudsubscriptions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudMulticloudsubscriptions.IDataOciMulticloudMulticloudsubscriptionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_multicloudsubscriptions#id DataOciMulticloudMulticloudsubscriptions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_multicloudsubscriptions#id DataOciMulticloudMulticloudsubscriptions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_multicloudsubscriptions#limit DataOciMulticloudMulticloudsubscriptions#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_multicloudsubscriptions#limit DataOciMulticloudMulticloudsubscriptions#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit

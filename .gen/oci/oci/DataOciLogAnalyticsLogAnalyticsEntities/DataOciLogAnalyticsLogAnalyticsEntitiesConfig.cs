@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsEntities.DataOciLogAnalyticsLogAnalyticsEntitiesConfig")]
     public class DataOciLogAnalyticsLogAnalyticsEntitiesConfig : oci.DataOciLogAnalyticsLogAnalyticsEntities.IDataOciLogAnalyticsLogAnalyticsEntitiesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#compartment_id DataOciLogAnalyticsLogAnalyticsEntities#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#compartment_id DataOciLogAnalyticsLogAnalyticsEntities#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#namespace DataOciLogAnalyticsLogAnalyticsEntities#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#namespace DataOciLogAnalyticsLogAnalyticsEntities#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#cloud_resource_id DataOciLogAnalyticsLogAnalyticsEntities#cloud_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#cloud_resource_id DataOciLogAnalyticsLogAnalyticsEntities#cloud_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudResourceId
@@ -34,7 +34,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#defined_tag_equals DataOciLogAnalyticsLogAnalyticsEntities#defined_tag_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#defined_tag_equals DataOciLogAnalyticsLogAnalyticsEntities#defined_tag_equals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTagEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DefinedTagEquals
@@ -43,7 +43,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#defined_tag_exists DataOciLogAnalyticsLogAnalyticsEntities#defined_tag_exists}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#defined_tag_exists DataOciLogAnalyticsLogAnalyticsEntities#defined_tag_exists}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTagExists", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DefinedTagExists
@@ -52,7 +52,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#entity_type_name DataOciLogAnalyticsLogAnalyticsEntities#entity_type_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#entity_type_name DataOciLogAnalyticsLogAnalyticsEntities#entity_type_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "entityTypeName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? EntityTypeName
@@ -65,7 +65,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#filter DataOciLogAnalyticsLogAnalyticsEntities#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#filter DataOciLogAnalyticsLogAnalyticsEntities#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLogAnalyticsLogAnalyticsEntities.IDataOciLogAnalyticsLogAnalyticsEntitiesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -96,7 +96,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#freeform_tag_equals DataOciLogAnalyticsLogAnalyticsEntities#freeform_tag_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#freeform_tag_equals DataOciLogAnalyticsLogAnalyticsEntities#freeform_tag_equals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTagEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FreeformTagEquals
@@ -105,7 +105,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#freeform_tag_exists DataOciLogAnalyticsLogAnalyticsEntities#freeform_tag_exists}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#freeform_tag_exists DataOciLogAnalyticsLogAnalyticsEntities#freeform_tag_exists}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTagExists", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FreeformTagExists
@@ -114,7 +114,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#hostname DataOciLogAnalyticsLogAnalyticsEntities#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#hostname DataOciLogAnalyticsLogAnalyticsEntities#hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Hostname
@@ -123,7 +123,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#hostname_contains DataOciLogAnalyticsLogAnalyticsEntities#hostname_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#hostname_contains DataOciLogAnalyticsLogAnalyticsEntities#hostname_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostnameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostnameContains
@@ -132,7 +132,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#id DataOciLogAnalyticsLogAnalyticsEntities#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#id DataOciLogAnalyticsLogAnalyticsEntities#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +145,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#is_management_agent_id_null DataOciLogAnalyticsLogAnalyticsEntities#is_management_agent_id_null}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#is_management_agent_id_null DataOciLogAnalyticsLogAnalyticsEntities#is_management_agent_id_null}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "isManagementAgentIdNull", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IsManagementAgentIdNull
@@ -156,7 +156,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
 
         private object? _isShowAssociatedSourcesCount;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#is_show_associated_sources_count DataOciLogAnalyticsLogAnalyticsEntities#is_show_associated_sources_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#is_show_associated_sources_count DataOciLogAnalyticsLogAnalyticsEntities#is_show_associated_sources_count}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -188,7 +188,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#lifecycle_details_contains DataOciLogAnalyticsLogAnalyticsEntities#lifecycle_details_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#lifecycle_details_contains DataOciLogAnalyticsLogAnalyticsEntities#lifecycle_details_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleDetailsContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleDetailsContains
@@ -197,7 +197,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#metadata_equals DataOciLogAnalyticsLogAnalyticsEntities#metadata_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#metadata_equals DataOciLogAnalyticsLogAnalyticsEntities#metadata_equals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadataEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MetadataEquals
@@ -206,7 +206,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#name DataOciLogAnalyticsLogAnalyticsEntities#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#name DataOciLogAnalyticsLogAnalyticsEntities#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -215,7 +215,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#name_contains DataOciLogAnalyticsLogAnalyticsEntities#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#name_contains DataOciLogAnalyticsLogAnalyticsEntities#name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameContains
@@ -224,7 +224,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#source_id DataOciLogAnalyticsLogAnalyticsEntities#source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#source_id DataOciLogAnalyticsLogAnalyticsEntities#source_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceId
@@ -233,7 +233,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/log_analytics_log_analytics_entities#state DataOciLogAnalyticsLogAnalyticsEntities#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_log_analytics_entities#state DataOciLogAnalyticsLogAnalyticsEntities#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

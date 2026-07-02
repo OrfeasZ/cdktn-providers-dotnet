@@ -5,7 +5,7 @@ namespace oci.DataOciAiVisionProject
     /// <remarks>
     /// <h1><c>data_oci_ai_vision_project</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_project"><c>data_oci_ai_vision_project</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_vision_project"><c>data_oci_ai_vision_project</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -13,7 +13,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>routes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#routes ApigatewayDeployment#routes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#routes ApigatewayDeployment#routes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRoutes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "routes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutes\"},\"kind\":\"array\"}}]}}")]
@@ -45,7 +45,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>logging_policies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loggingPolicies", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationLoggingPolicies\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>request_policies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestPolicies", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPolicies\"}", isOptional: true)]

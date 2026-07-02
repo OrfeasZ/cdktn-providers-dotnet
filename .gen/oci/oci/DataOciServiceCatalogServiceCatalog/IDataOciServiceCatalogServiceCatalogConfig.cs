@@ -7,7 +7,7 @@ namespace oci.DataOciServiceCatalogServiceCatalog
     [JsiiInterface(nativeType: typeof(IDataOciServiceCatalogServiceCatalogConfig), fullyQualifiedName: "oci.dataOciServiceCatalogServiceCatalog.DataOciServiceCatalogServiceCatalogConfig")]
     public interface IDataOciServiceCatalogServiceCatalogConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/service_catalog_service_catalog#service_catalog_id DataOciServiceCatalogServiceCatalog#service_catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_service_catalog#service_catalog_id DataOciServiceCatalogServiceCatalog#service_catalog_id}.</summary>
         [JsiiProperty(name: "serviceCatalogId", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceCatalogId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciServiceCatalogServiceCatalog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/service_catalog_service_catalog#service_catalog_id DataOciServiceCatalogServiceCatalog#service_catalog_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_service_catalog#service_catalog_id DataOciServiceCatalogServiceCatalog#service_catalog_id}.</summary>
             [JsiiProperty(name: "serviceCatalogId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceCatalogId
             {

@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiInterface(nativeType: typeof(ICloudBridgeAssetAwsEc2Placement), fullyQualifiedName: "oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2Placement")]
     public interface ICloudBridgeAssetAwsEc2Placement
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#affinity CloudBridgeAsset#affinity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#affinity CloudBridgeAsset#affinity}.</summary>
         [JsiiProperty(name: "affinity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Affinity
@@ -18,7 +18,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#availability_zone CloudBridgeAsset#availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#availability_zone CloudBridgeAsset#availability_zone}.</summary>
         [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityZone
@@ -29,7 +29,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#group_name CloudBridgeAsset#group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#group_name CloudBridgeAsset#group_name}.</summary>
         [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GroupName
@@ -40,7 +40,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#host_key CloudBridgeAsset#host_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#host_key CloudBridgeAsset#host_key}.</summary>
         [JsiiProperty(name: "hostKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostKey
@@ -51,7 +51,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#host_resource_group_arn CloudBridgeAsset#host_resource_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#host_resource_group_arn CloudBridgeAsset#host_resource_group_arn}.</summary>
         [JsiiProperty(name: "hostResourceGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostResourceGroupArn
@@ -62,7 +62,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#partition_number CloudBridgeAsset#partition_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#partition_number CloudBridgeAsset#partition_number}.</summary>
         [JsiiProperty(name: "partitionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PartitionNumber
@@ -73,7 +73,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#spread_domain CloudBridgeAsset#spread_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#spread_domain CloudBridgeAsset#spread_domain}.</summary>
         [JsiiProperty(name: "spreadDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SpreadDomain
@@ -84,7 +84,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#tenancy CloudBridgeAsset#tenancy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#tenancy CloudBridgeAsset#tenancy}.</summary>
         [JsiiProperty(name: "tenancy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Tenancy
@@ -102,7 +102,7 @@ namespace oci.CloudBridgeAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#affinity CloudBridgeAsset#affinity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#affinity CloudBridgeAsset#affinity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "affinity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Affinity
@@ -110,7 +110,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#availability_zone CloudBridgeAsset#availability_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#availability_zone CloudBridgeAsset#availability_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityZone
@@ -118,7 +118,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#group_name CloudBridgeAsset#group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#group_name CloudBridgeAsset#group_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GroupName
@@ -126,7 +126,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#host_key CloudBridgeAsset#host_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#host_key CloudBridgeAsset#host_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostKey
@@ -134,7 +134,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#host_resource_group_arn CloudBridgeAsset#host_resource_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#host_resource_group_arn CloudBridgeAsset#host_resource_group_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostResourceGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostResourceGroupArn
@@ -142,7 +142,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#partition_number CloudBridgeAsset#partition_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#partition_number CloudBridgeAsset#partition_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "partitionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PartitionNumber
@@ -150,7 +150,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#spread_domain CloudBridgeAsset#spread_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#spread_domain CloudBridgeAsset#spread_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "spreadDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SpreadDomain
@@ -158,7 +158,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_bridge_asset#tenancy CloudBridgeAsset#tenancy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_bridge_asset#tenancy CloudBridgeAsset#tenancy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tenancy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Tenancy

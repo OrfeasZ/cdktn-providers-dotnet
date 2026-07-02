@@ -7,7 +7,7 @@ namespace oci.DataOciCloudMigrationsMigrationPlan
     [JsiiInterface(nativeType: typeof(IDataOciCloudMigrationsMigrationPlanConfig), fullyQualifiedName: "oci.dataOciCloudMigrationsMigrationPlan.DataOciCloudMigrationsMigrationPlanConfig")]
     public interface IDataOciCloudMigrationsMigrationPlanConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_migrations_migration_plan#migration_plan_id DataOciCloudMigrationsMigrationPlan#migration_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_migrations_migration_plan#migration_plan_id DataOciCloudMigrationsMigrationPlan#migration_plan_id}.</summary>
         [JsiiProperty(name: "migrationPlanId", typeJson: "{\"primitive\":\"string\"}")]
         string MigrationPlanId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudMigrationsMigrationPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_migrations_migration_plan#migration_plan_id DataOciCloudMigrationsMigrationPlan#migration_plan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_migrations_migration_plan#migration_plan_id DataOciCloudMigrationsMigrationPlan#migration_plan_id}.</summary>
             [JsiiProperty(name: "migrationPlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string MigrationPlanId
             {

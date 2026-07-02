@@ -7,7 +7,7 @@ namespace oci.DataOciStackMonitoringMaintenanceWindow
     [JsiiInterface(nativeType: typeof(IDataOciStackMonitoringMaintenanceWindowConfig), fullyQualifiedName: "oci.dataOciStackMonitoringMaintenanceWindow.DataOciStackMonitoringMaintenanceWindowConfig")]
     public interface IDataOciStackMonitoringMaintenanceWindowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_maintenance_window#maintenance_window_id DataOciStackMonitoringMaintenanceWindow#maintenance_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_maintenance_window#maintenance_window_id DataOciStackMonitoringMaintenanceWindow#maintenance_window_id}.</summary>
         [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}")]
         string MaintenanceWindowId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStackMonitoringMaintenanceWindow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_maintenance_window#maintenance_window_id DataOciStackMonitoringMaintenanceWindow#maintenance_window_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_maintenance_window#maintenance_window_id DataOciStackMonitoringMaintenanceWindow#maintenance_window_id}.</summary>
             [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaintenanceWindowId
             {

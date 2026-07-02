@@ -7,7 +7,7 @@ namespace oci.DataOciCorePublicIp
     [JsiiByValue(fqn: "oci.dataOciCorePublicIp.DataOciCorePublicIpConfig")]
     public class DataOciCorePublicIpConfig : oci.DataOciCorePublicIp.IDataOciCorePublicIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_public_ip#id DataOciCorePublicIp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_public_ip#id DataOciCorePublicIp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,7 +20,7 @@ namespace oci.DataOciCorePublicIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_public_ip#ip_address DataOciCorePublicIp#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_public_ip#ip_address DataOciCorePublicIp#ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddress
@@ -29,7 +29,7 @@ namespace oci.DataOciCorePublicIp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_public_ip#private_ip_id DataOciCorePublicIp#private_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_public_ip#private_ip_id DataOciCorePublicIp#private_ip_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateIpId
@@ -40,7 +40,7 @@ namespace oci.DataOciCorePublicIp
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_public_ip#timeouts DataOciCorePublicIp#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_public_ip#timeouts DataOciCorePublicIp#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataOciCorePublicIp.DataOciCorePublicIpTimeouts\"}", isOptional: true)]

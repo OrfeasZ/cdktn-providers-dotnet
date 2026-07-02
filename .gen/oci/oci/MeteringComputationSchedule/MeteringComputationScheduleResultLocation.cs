@@ -9,7 +9,7 @@ namespace oci.MeteringComputationSchedule
     [JsiiByValue(fqn: "oci.meteringComputationSchedule.MeteringComputationScheduleResultLocation")]
     public class MeteringComputationScheduleResultLocation : oci.MeteringComputationSchedule.IMeteringComputationScheduleResultLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/metering_computation_schedule#bucket MeteringComputationSchedule#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/metering_computation_schedule#bucket MeteringComputationSchedule#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.MeteringComputationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/metering_computation_schedule#location_type MeteringComputationSchedule#location_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/metering_computation_schedule#location_type MeteringComputationSchedule#location_type}.</summary>
         [JsiiProperty(name: "locationType", typeJson: "{\"primitive\":\"string\"}")]
         public string LocationType
         {
@@ -25,7 +25,7 @@ namespace oci.MeteringComputationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/metering_computation_schedule#namespace MeteringComputationSchedule#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/metering_computation_schedule#namespace MeteringComputationSchedule#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace oci.MeteringComputationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/metering_computation_schedule#region MeteringComputationSchedule#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/metering_computation_schedule#region MeteringComputationSchedule#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {

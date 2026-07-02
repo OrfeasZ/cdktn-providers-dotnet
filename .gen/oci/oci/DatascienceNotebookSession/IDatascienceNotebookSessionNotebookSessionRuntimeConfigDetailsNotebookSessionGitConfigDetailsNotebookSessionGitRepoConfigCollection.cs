@@ -7,7 +7,7 @@ namespace oci.DatascienceNotebookSession
     [JsiiInterface(nativeType: typeof(IDatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection), fullyQualifiedName: "oci.datascienceNotebookSession.DatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection")]
     public interface IDatascienceNotebookSessionNotebookSessionRuntimeConfigDetailsNotebookSessionGitConfigDetailsNotebookSessionGitRepoConfigCollection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_notebook_session#url DatascienceNotebookSession#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_notebook_session#url DatascienceNotebookSession#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
         {
@@ -21,7 +21,7 @@ namespace oci.DatascienceNotebookSession
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_notebook_session#url DatascienceNotebookSession#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_notebook_session#url DatascienceNotebookSession#url}.</summary>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
             {

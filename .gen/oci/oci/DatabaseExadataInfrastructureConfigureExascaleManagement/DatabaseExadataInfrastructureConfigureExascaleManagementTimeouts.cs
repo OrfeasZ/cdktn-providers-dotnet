@@ -7,7 +7,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
     [JsiiByValue(fqn: "oci.databaseExadataInfrastructureConfigureExascaleManagement.DatabaseExadataInfrastructureConfigureExascaleManagementTimeouts")]
     public class DatabaseExadataInfrastructureConfigureExascaleManagementTimeouts : oci.DatabaseExadataInfrastructureConfigureExascaleManagement.IDatabaseExadataInfrastructureConfigureExascaleManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#create DatabaseExadataInfrastructureConfigureExascaleManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#create DatabaseExadataInfrastructureConfigureExascaleManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#delete DatabaseExadataInfrastructureConfigureExascaleManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#delete DatabaseExadataInfrastructureConfigureExascaleManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#update DatabaseExadataInfrastructureConfigureExascaleManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#update DatabaseExadataInfrastructureConfigureExascaleManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

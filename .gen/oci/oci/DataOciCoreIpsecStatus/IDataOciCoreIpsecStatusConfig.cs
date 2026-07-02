@@ -7,7 +7,7 @@ namespace oci.DataOciCoreIpsecStatus
     [JsiiInterface(nativeType: typeof(IDataOciCoreIpsecStatusConfig), fullyQualifiedName: "oci.dataOciCoreIpsecStatus.DataOciCoreIpsecStatusConfig")]
     public interface IDataOciCoreIpsecStatusConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_status#ipsec_id DataOciCoreIpsecStatus#ipsec_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipsec_status#ipsec_id DataOciCoreIpsecStatus#ipsec_id}.</summary>
         [JsiiProperty(name: "ipsecId", typeJson: "{\"primitive\":\"string\"}")]
         string IpsecId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciCoreIpsecStatus
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_status#filter DataOciCoreIpsecStatus#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipsec_status#filter DataOciCoreIpsecStatus#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreIpsecStatus.IDataOciCoreIpsecStatusFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreIpsecStatus.DataOciCoreIpsecStatusFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciCoreIpsecStatus
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_status#id DataOciCoreIpsecStatus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipsec_status#id DataOciCoreIpsecStatus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciCoreIpsecStatus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_status#ipsec_id DataOciCoreIpsecStatus#ipsec_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipsec_status#ipsec_id DataOciCoreIpsecStatus#ipsec_id}.</summary>
             [JsiiProperty(name: "ipsecId", typeJson: "{\"primitive\":\"string\"}")]
             public string IpsecId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciCoreIpsecStatus
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_status#filter DataOciCoreIpsecStatus#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipsec_status#filter DataOciCoreIpsecStatus#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreIpsecStatus.IDataOciCoreIpsecStatusFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciCoreIpsecStatus
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipsec_status#id DataOciCoreIpsecStatus#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipsec_status#id DataOciCoreIpsecStatus#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

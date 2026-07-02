@@ -7,14 +7,14 @@ namespace oci.ApigatewayDeployment
     [JsiiInterface(nativeType: typeof(IApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyClientDetails), fullyQualifiedName: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyClientDetails")]
     public interface IApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyClientDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientId
@@ -25,7 +25,7 @@ namespace oci.ApigatewayDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}.</summary>
         [JsiiProperty(name: "clientSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientSecretId
@@ -36,7 +36,7 @@ namespace oci.ApigatewayDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}.</summary>
         [JsiiProperty(name: "clientSecretVersionNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientSecretVersionNumber
@@ -54,14 +54,14 @@ namespace oci.ApigatewayDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientId
@@ -69,7 +69,7 @@ namespace oci.ApigatewayDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientSecretId
@@ -77,7 +77,7 @@ namespace oci.ApigatewayDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientSecretVersionNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientSecretVersionNumber

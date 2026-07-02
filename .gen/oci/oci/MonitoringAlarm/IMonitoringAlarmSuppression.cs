@@ -7,21 +7,21 @@ namespace oci.MonitoringAlarm
     [JsiiInterface(nativeType: typeof(IMonitoringAlarmSuppression), fullyQualifiedName: "oci.monitoringAlarm.MonitoringAlarmSuppression")]
     public interface IMonitoringAlarmSuppression
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/monitoring_alarm#time_suppress_from MonitoringAlarm#time_suppress_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/monitoring_alarm#time_suppress_from MonitoringAlarm#time_suppress_from}.</summary>
         [JsiiProperty(name: "timeSuppressFrom", typeJson: "{\"primitive\":\"string\"}")]
         string TimeSuppressFrom
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/monitoring_alarm#time_suppress_until MonitoringAlarm#time_suppress_until}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/monitoring_alarm#time_suppress_until MonitoringAlarm#time_suppress_until}.</summary>
         [JsiiProperty(name: "timeSuppressUntil", typeJson: "{\"primitive\":\"string\"}")]
         string TimeSuppressUntil
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/monitoring_alarm#description MonitoringAlarm#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/monitoring_alarm#description MonitoringAlarm#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -39,21 +39,21 @@ namespace oci.MonitoringAlarm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/monitoring_alarm#time_suppress_from MonitoringAlarm#time_suppress_from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/monitoring_alarm#time_suppress_from MonitoringAlarm#time_suppress_from}.</summary>
             [JsiiProperty(name: "timeSuppressFrom", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeSuppressFrom
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/monitoring_alarm#time_suppress_until MonitoringAlarm#time_suppress_until}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/monitoring_alarm#time_suppress_until MonitoringAlarm#time_suppress_until}.</summary>
             [JsiiProperty(name: "timeSuppressUntil", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeSuppressUntil
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/monitoring_alarm#description MonitoringAlarm#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/monitoring_alarm#description MonitoringAlarm#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description

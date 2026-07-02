@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringProcessSet
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringProcessSet.DataOciStackMonitoringProcessSetConfig")]
     public class DataOciStackMonitoringProcessSetConfig : oci.DataOciStackMonitoringProcessSet.IDataOciStackMonitoringProcessSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_process_set#process_set_id DataOciStackMonitoringProcessSet#process_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_process_set#process_set_id DataOciStackMonitoringProcessSet#process_set_id}.</summary>
         [JsiiProperty(name: "processSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessSetId
         {

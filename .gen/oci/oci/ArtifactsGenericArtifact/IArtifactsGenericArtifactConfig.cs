@@ -7,14 +7,14 @@ namespace oci.ArtifactsGenericArtifact
     [JsiiInterface(nativeType: typeof(IArtifactsGenericArtifactConfig), fullyQualifiedName: "oci.artifactsGenericArtifact.ArtifactsGenericArtifactConfig")]
     public interface IArtifactsGenericArtifactConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#artifact_id ArtifactsGenericArtifact#artifact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#artifact_id ArtifactsGenericArtifact#artifact_id}.</summary>
         [JsiiProperty(name: "artifactId", typeJson: "{\"primitive\":\"string\"}")]
         string ArtifactId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#defined_tags ArtifactsGenericArtifact#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#defined_tags ArtifactsGenericArtifact#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -25,7 +25,7 @@ namespace oci.ArtifactsGenericArtifact
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#freeform_tags ArtifactsGenericArtifact#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#freeform_tags ArtifactsGenericArtifact#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -36,7 +36,7 @@ namespace oci.ArtifactsGenericArtifact
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#id ArtifactsGenericArtifact#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#id ArtifactsGenericArtifact#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ namespace oci.ArtifactsGenericArtifact
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#timeouts ArtifactsGenericArtifact#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#timeouts ArtifactsGenericArtifact#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.artifactsGenericArtifact.ArtifactsGenericArtifactTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,14 +72,14 @@ namespace oci.ArtifactsGenericArtifact
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#artifact_id ArtifactsGenericArtifact#artifact_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#artifact_id ArtifactsGenericArtifact#artifact_id}.</summary>
             [JsiiProperty(name: "artifactId", typeJson: "{\"primitive\":\"string\"}")]
             public string ArtifactId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#defined_tags ArtifactsGenericArtifact#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#defined_tags ArtifactsGenericArtifact#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -87,7 +87,7 @@ namespace oci.ArtifactsGenericArtifact
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#freeform_tags ArtifactsGenericArtifact#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#freeform_tags ArtifactsGenericArtifact#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -95,7 +95,7 @@ namespace oci.ArtifactsGenericArtifact
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#id ArtifactsGenericArtifact#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#id ArtifactsGenericArtifact#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.ArtifactsGenericArtifact
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/artifacts_generic_artifact#timeouts ArtifactsGenericArtifact#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/artifacts_generic_artifact#timeouts ArtifactsGenericArtifact#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.artifactsGenericArtifact.ArtifactsGenericArtifactTimeouts\"}", isOptional: true)]

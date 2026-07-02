@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
     [JsiiByValue(fqn: "oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString")]
     public class DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString : oci.DatabaseManagementExternalDbSystemDiscovery.IDatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#host_name DatabaseManagementExternalDbSystemDiscovery#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#host_name DatabaseManagementExternalDbSystemDiscovery#host_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostName
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#hosts DatabaseManagementExternalDbSystemDiscovery#hosts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#hosts DatabaseManagementExternalDbSystemDiscovery#hosts}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Hosts
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#port DatabaseManagementExternalDbSystemDiscovery#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#port DatabaseManagementExternalDbSystemDiscovery#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -34,7 +34,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#protocol DatabaseManagementExternalDbSystemDiscovery#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#protocol DatabaseManagementExternalDbSystemDiscovery#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -43,7 +43,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#service DatabaseManagementExternalDbSystemDiscovery#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#service DatabaseManagementExternalDbSystemDiscovery#service}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Service

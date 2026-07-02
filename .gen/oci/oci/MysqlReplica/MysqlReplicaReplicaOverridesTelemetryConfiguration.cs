@@ -11,7 +11,7 @@ namespace oci.MysqlReplica
 
         /// <summary>logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_replica#logs MysqlReplica#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_replica#logs MysqlReplica#logs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfigurationLogs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

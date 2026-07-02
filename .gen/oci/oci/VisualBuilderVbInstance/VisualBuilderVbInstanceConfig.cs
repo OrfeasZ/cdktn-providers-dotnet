@@ -9,7 +9,7 @@ namespace oci.VisualBuilderVbInstance
     [JsiiByValue(fqn: "oci.visualBuilderVbInstance.VisualBuilderVbInstanceConfig")]
     public class VisualBuilderVbInstanceConfig : oci.VisualBuilderVbInstance.IVisualBuilderVbInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#compartment_id VisualBuilderVbInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#compartment_id VisualBuilderVbInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#display_name VisualBuilderVbInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#display_name VisualBuilderVbInstance#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#node_count VisualBuilderVbInstance#node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#node_count VisualBuilderVbInstance#node_count}.</summary>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double NodeCount
         {
@@ -37,7 +37,7 @@ namespace oci.VisualBuilderVbInstance
 
         /// <summary>alternate_custom_endpoints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#alternate_custom_endpoints VisualBuilderVbInstance#alternate_custom_endpoints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#alternate_custom_endpoints VisualBuilderVbInstance#alternate_custom_endpoints}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.VisualBuilderVbInstance.IVisualBuilderVbInstanceAlternateCustomEndpoints" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.VisualBuilderVbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#consumption_model VisualBuilderVbInstance#consumption_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#consumption_model VisualBuilderVbInstance#consumption_model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "consumptionModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConsumptionModel
@@ -79,7 +79,7 @@ namespace oci.VisualBuilderVbInstance
 
         /// <summary>custom_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#custom_endpoint VisualBuilderVbInstance#custom_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#custom_endpoint VisualBuilderVbInstance#custom_endpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customEndpoint", typeJson: "{\"fqn\":\"oci.visualBuilderVbInstance.VisualBuilderVbInstanceCustomEndpoint\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#defined_tags VisualBuilderVbInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#defined_tags VisualBuilderVbInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -98,7 +98,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#freeform_tags VisualBuilderVbInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#freeform_tags VisualBuilderVbInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -107,7 +107,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#id VisualBuilderVbInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#id VisualBuilderVbInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,7 +120,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#idcs_open_id VisualBuilderVbInstance#idcs_open_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#idcs_open_id VisualBuilderVbInstance#idcs_open_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idcsOpenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdcsOpenId
@@ -131,7 +131,7 @@ namespace oci.VisualBuilderVbInstance
 
         private object? _isVisualBuilderEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#is_visual_builder_enabled VisualBuilderVbInstance#is_visual_builder_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#is_visual_builder_enabled VisualBuilderVbInstance#is_visual_builder_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -165,7 +165,7 @@ namespace oci.VisualBuilderVbInstance
 
         /// <summary>network_endpoint_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#network_endpoint_details VisualBuilderVbInstance#network_endpoint_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#network_endpoint_details VisualBuilderVbInstance#network_endpoint_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkEndpointDetails", typeJson: "{\"fqn\":\"oci.visualBuilderVbInstance.VisualBuilderVbInstanceNetworkEndpointDetails\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace oci.VisualBuilderVbInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/visual_builder_vb_instance#timeouts VisualBuilderVbInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/visual_builder_vb_instance#timeouts VisualBuilderVbInstance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.visualBuilderVbInstance.VisualBuilderVbInstanceTimeouts\"}", isOptional: true)]

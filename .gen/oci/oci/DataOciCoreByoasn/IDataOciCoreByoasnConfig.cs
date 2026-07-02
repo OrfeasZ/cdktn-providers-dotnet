@@ -7,7 +7,7 @@ namespace oci.DataOciCoreByoasn
     [JsiiInterface(nativeType: typeof(IDataOciCoreByoasnConfig), fullyQualifiedName: "oci.dataOciCoreByoasn.DataOciCoreByoasnConfig")]
     public interface IDataOciCoreByoasnConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_byoasn#byoasn_id DataOciCoreByoasn#byoasn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_byoasn#byoasn_id DataOciCoreByoasn#byoasn_id}.</summary>
         [JsiiProperty(name: "byoasnId", typeJson: "{\"primitive\":\"string\"}")]
         string ByoasnId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreByoasn
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_byoasn#byoasn_id DataOciCoreByoasn#byoasn_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_byoasn#byoasn_id DataOciCoreByoasn#byoasn_id}.</summary>
             [JsiiProperty(name: "byoasnId", typeJson: "{\"primitive\":\"string\"}")]
             public string ByoasnId
             {

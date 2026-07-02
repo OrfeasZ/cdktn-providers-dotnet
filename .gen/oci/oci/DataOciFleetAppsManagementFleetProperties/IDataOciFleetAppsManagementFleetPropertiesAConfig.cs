@@ -7,14 +7,14 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementFleetPropertiesAConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementFleetProperties.DataOciFleetAppsManagementFleetPropertiesAConfig")]
     public interface IDataOciFleetAppsManagementFleetPropertiesAConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#fleet_id DataOciFleetAppsManagementFleetPropertiesA#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#fleet_id DataOciFleetAppsManagementFleetPropertiesA#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#display_name DataOciFleetAppsManagementFleetPropertiesA#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#display_name DataOciFleetAppsManagementFleetPropertiesA#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#filter DataOciFleetAppsManagementFleetPropertiesA#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#filter DataOciFleetAppsManagementFleetPropertiesA#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementFleetProperties.IDataOciFleetAppsManagementFleetPropertiesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFleetAppsManagementFleetProperties.DataOciFleetAppsManagementFleetPropertiesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#id DataOciFleetAppsManagementFleetPropertiesA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#id DataOciFleetAppsManagementFleetPropertiesA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#state DataOciFleetAppsManagementFleetPropertiesA#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#state DataOciFleetAppsManagementFleetPropertiesA#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,14 +73,14 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#fleet_id DataOciFleetAppsManagementFleetPropertiesA#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#fleet_id DataOciFleetAppsManagementFleetPropertiesA#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#display_name DataOciFleetAppsManagementFleetPropertiesA#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#display_name DataOciFleetAppsManagementFleetPropertiesA#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -90,7 +90,7 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#filter DataOciFleetAppsManagementFleetPropertiesA#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#filter DataOciFleetAppsManagementFleetPropertiesA#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementFleetProperties.IDataOciFleetAppsManagementFleetPropertiesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#id DataOciFleetAppsManagementFleetPropertiesA#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#id DataOciFleetAppsManagementFleetPropertiesA#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace oci.DataOciFleetAppsManagementFleetProperties
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_fleet_properties#state DataOciFleetAppsManagementFleetPropertiesA#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_fleet_properties#state DataOciFleetAppsManagementFleetPropertiesA#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

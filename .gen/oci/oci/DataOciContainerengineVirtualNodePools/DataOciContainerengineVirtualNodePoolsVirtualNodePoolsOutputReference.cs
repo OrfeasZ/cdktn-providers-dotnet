@@ -143,6 +143,12 @@ namespace oci.DataOciContainerengineVirtualNodePools
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "virtualNodePoolCyclingDetails", typeJson: "{\"fqn\":\"oci.dataOciContainerengineVirtualNodePools.DataOciContainerengineVirtualNodePoolsVirtualNodePoolsVirtualNodePoolCyclingDetailsList\"}")]
+        public virtual oci.DataOciContainerengineVirtualNodePools.DataOciContainerengineVirtualNodePoolsVirtualNodePoolsVirtualNodePoolCyclingDetailsList VirtualNodePoolCyclingDetails
+        {
+            get => GetInstanceProperty<oci.DataOciContainerengineVirtualNodePools.DataOciContainerengineVirtualNodePoolsVirtualNodePoolsVirtualNodePoolCyclingDetailsList>()!;
+        }
+
         [JsiiProperty(name: "virtualNodePoolId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VirtualNodePoolId
         {

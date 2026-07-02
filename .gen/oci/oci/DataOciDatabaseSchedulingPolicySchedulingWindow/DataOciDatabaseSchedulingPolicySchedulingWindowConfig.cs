@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindow
     [JsiiByValue(fqn: "oci.dataOciDatabaseSchedulingPolicySchedulingWindow.DataOciDatabaseSchedulingPolicySchedulingWindowConfig")]
     public class DataOciDatabaseSchedulingPolicySchedulingWindowConfig : oci.DataOciDatabaseSchedulingPolicySchedulingWindow.IDataOciDatabaseSchedulingPolicySchedulingWindowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchedulingPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}.</summary>
         [JsiiProperty(name: "schedulingWindowId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchedulingWindowId
         {

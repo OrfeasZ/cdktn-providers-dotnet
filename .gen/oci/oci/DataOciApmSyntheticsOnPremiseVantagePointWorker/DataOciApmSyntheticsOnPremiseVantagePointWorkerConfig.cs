@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsOnPremiseVantagePointWorker.DataOciApmSyntheticsOnPremiseVantagePointWorkerConfig")]
     public class DataOciApmSyntheticsOnPremiseVantagePointWorkerConfig : oci.DataOciApmSyntheticsOnPremiseVantagePointWorker.IDataOciApmSyntheticsOnPremiseVantagePointWorkerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorker#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorker#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorker#on_premise_vantage_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorker#on_premise_vantage_point_id}.</summary>
         [JsiiProperty(name: "onPremiseVantagePointId", typeJson: "{\"primitive\":\"string\"}")]
         public string OnPremiseVantagePointId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePointWorker
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#worker_id DataOciApmSyntheticsOnPremiseVantagePointWorker#worker_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_worker#worker_id DataOciApmSyntheticsOnPremiseVantagePointWorker#worker_id}.</summary>
         [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkerId
         {

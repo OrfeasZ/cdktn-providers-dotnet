@@ -7,7 +7,7 @@ namespace oci.ContainerengineAddon
     [JsiiInterface(nativeType: typeof(IContainerengineAddonConfigurations), fullyQualifiedName: "oci.containerengineAddon.ContainerengineAddonConfigurations")]
     public interface IContainerengineAddonConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/containerengine_addon#key ContainerengineAddon#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_addon#key ContainerengineAddon#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Key
@@ -18,7 +18,7 @@ namespace oci.ContainerengineAddon
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/containerengine_addon#value ContainerengineAddon#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_addon#value ContainerengineAddon#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -36,7 +36,7 @@ namespace oci.ContainerengineAddon
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/containerengine_addon#key ContainerengineAddon#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_addon#key ContainerengineAddon#key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Key
@@ -44,7 +44,7 @@ namespace oci.ContainerengineAddon
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/containerengine_addon#value ContainerengineAddon#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_addon#value ContainerengineAddon#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

@@ -7,21 +7,21 @@ namespace oci.IdentitySmtpCredential
     [JsiiInterface(nativeType: typeof(IIdentitySmtpCredentialConfig), fullyQualifiedName: "oci.identitySmtpCredential.IdentitySmtpCredentialConfig")]
     public interface IIdentitySmtpCredentialConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#description IdentitySmtpCredential#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#description IdentitySmtpCredential#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         string Description
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#user_id IdentitySmtpCredential#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#user_id IdentitySmtpCredential#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         string UserId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#id IdentitySmtpCredential#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#id IdentitySmtpCredential#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.IdentitySmtpCredential
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#timeouts IdentitySmtpCredential#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#timeouts IdentitySmtpCredential#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identitySmtpCredential.IdentitySmtpCredentialTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace oci.IdentitySmtpCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#description IdentitySmtpCredential#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#description IdentitySmtpCredential#description}.</summary>
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
             public string Description
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#user_id IdentitySmtpCredential#user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#user_id IdentitySmtpCredential#user_id}.</summary>
             [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#id IdentitySmtpCredential#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#id IdentitySmtpCredential#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.IdentitySmtpCredential
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_smtp_credential#timeouts IdentitySmtpCredential#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_smtp_credential#timeouts IdentitySmtpCredential#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identitySmtpCredential.IdentitySmtpCredentialTimeouts\"}", isOptional: true)]

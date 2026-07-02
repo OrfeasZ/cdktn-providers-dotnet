@@ -7,7 +7,7 @@ namespace oci.DataOciMarketplacePublication
     [JsiiInterface(nativeType: typeof(IDataOciMarketplacePublicationConfig), fullyQualifiedName: "oci.dataOciMarketplacePublication.DataOciMarketplacePublicationConfig")]
     public interface IDataOciMarketplacePublicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/marketplace_publication#publication_id DataOciMarketplacePublication#publication_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/marketplace_publication#publication_id DataOciMarketplacePublication#publication_id}.</summary>
         [JsiiProperty(name: "publicationId", typeJson: "{\"primitive\":\"string\"}")]
         string PublicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMarketplacePublication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/marketplace_publication#publication_id DataOciMarketplacePublication#publication_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/marketplace_publication#publication_id DataOciMarketplacePublication#publication_id}.</summary>
             [JsiiProperty(name: "publicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string PublicationId
             {

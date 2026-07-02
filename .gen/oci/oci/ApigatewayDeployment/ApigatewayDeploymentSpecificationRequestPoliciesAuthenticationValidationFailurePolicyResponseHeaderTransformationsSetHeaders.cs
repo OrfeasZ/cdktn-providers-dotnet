@@ -11,7 +11,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsSetHeadersItems" />)[]</para>
         /// </remarks>
         [JsiiOptional]

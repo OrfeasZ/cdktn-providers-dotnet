@@ -45,6 +45,12 @@ namespace oci.DatascienceSchedule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetInitialJitterInMinutes")]
+        public virtual void ResetInitialJitterInMinutes()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInterval")]
         public virtual void ResetInterval()
         {
@@ -87,6 +93,13 @@ namespace oci.DatascienceSchedule
         public virtual string? FrequencyInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "initialJitterInMinutesInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? InitialJitterInMinutesInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -145,6 +158,13 @@ namespace oci.DatascienceSchedule
         public virtual string Frequency
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "initialJitterInMinutes", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double InitialJitterInMinutes
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

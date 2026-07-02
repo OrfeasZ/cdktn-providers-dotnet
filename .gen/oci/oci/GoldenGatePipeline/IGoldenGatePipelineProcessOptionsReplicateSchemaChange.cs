@@ -7,14 +7,14 @@ namespace oci.GoldenGatePipeline
     [JsiiInterface(nativeType: typeof(IGoldenGatePipelineProcessOptionsReplicateSchemaChange), fullyQualifiedName: "oci.goldenGatePipeline.GoldenGatePipelineProcessOptionsReplicateSchemaChange")]
     public interface IGoldenGatePipelineProcessOptionsReplicateSchemaChange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}.</summary>
         [JsiiProperty(name: "canReplicateSchemaChange", typeJson: "{\"primitive\":\"string\"}")]
         string CanReplicateSchemaChange
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}.</summary>
         [JsiiProperty(name: "actionOnDdlError", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ActionOnDdlError
@@ -25,7 +25,7 @@ namespace oci.GoldenGatePipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}.</summary>
         [JsiiProperty(name: "actionOnDmlError", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ActionOnDmlError
@@ -43,14 +43,14 @@ namespace oci.GoldenGatePipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}.</summary>
             [JsiiProperty(name: "canReplicateSchemaChange", typeJson: "{\"primitive\":\"string\"}")]
             public string CanReplicateSchemaChange
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "actionOnDdlError", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ActionOnDdlError
@@ -58,7 +58,7 @@ namespace oci.GoldenGatePipeline
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "actionOnDmlError", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ActionOnDmlError

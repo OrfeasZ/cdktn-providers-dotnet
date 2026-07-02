@@ -9,7 +9,7 @@ namespace oci.DataOciDnsResolverEndpoints
     [JsiiByValue(fqn: "oci.dataOciDnsResolverEndpoints.DataOciDnsResolverEndpointsAConfig")]
     public class DataOciDnsResolverEndpointsAConfig : oci.DataOciDnsResolverEndpoints.IDataOciDnsResolverEndpointsAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_resolver_endpoints#resolver_id DataOciDnsResolverEndpointsA#resolver_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver_endpoints#resolver_id DataOciDnsResolverEndpointsA#resolver_id}.</summary>
         [JsiiProperty(name: "resolverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResolverId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDnsResolverEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_resolver_endpoints#scope DataOciDnsResolverEndpointsA#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver_endpoints#scope DataOciDnsResolverEndpointsA#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciDnsResolverEndpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_resolver_endpoints#filter DataOciDnsResolverEndpointsA#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver_endpoints#filter DataOciDnsResolverEndpointsA#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDnsResolverEndpoints.IDataOciDnsResolverEndpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciDnsResolverEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_resolver_endpoints#id DataOciDnsResolverEndpointsA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver_endpoints#id DataOciDnsResolverEndpointsA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciDnsResolverEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_resolver_endpoints#name DataOciDnsResolverEndpointsA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver_endpoints#name DataOciDnsResolverEndpointsA#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -82,7 +82,7 @@ namespace oci.DataOciDnsResolverEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_resolver_endpoints#state DataOciDnsResolverEndpointsA#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver_endpoints#state DataOciDnsResolverEndpointsA#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

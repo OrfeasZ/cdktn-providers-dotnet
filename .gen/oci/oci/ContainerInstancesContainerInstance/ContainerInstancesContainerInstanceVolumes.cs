@@ -9,7 +9,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiByValue(fqn: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceVolumes")]
     public class ContainerInstancesContainerInstanceVolumes : oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceVolumes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#name ContainerInstancesContainerInstance#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#name ContainerInstancesContainerInstance#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#volume_type ContainerInstancesContainerInstance#volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#volume_type ContainerInstancesContainerInstance#volume_type}.</summary>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeType
         {
@@ -25,7 +25,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#backing_store ContainerInstancesContainerInstance#backing_store}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#backing_store ContainerInstancesContainerInstance#backing_store}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backingStore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackingStore
@@ -38,7 +38,7 @@ namespace oci.ContainerInstancesContainerInstance
 
         /// <summary>configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#configs ContainerInstancesContainerInstance#configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#configs ContainerInstancesContainerInstance#configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceVolumesConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

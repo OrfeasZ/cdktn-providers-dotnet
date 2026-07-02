@@ -9,7 +9,7 @@ namespace oci.LoggingLog
     [JsiiByValue(fqn: "oci.loggingLog.LoggingLogConfig")]
     public class LoggingLogConfig : oci.LoggingLog.ILoggingLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#display_name LoggingLog#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#display_name LoggingLog#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace oci.LoggingLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#log_group_id LoggingLog#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#log_group_id LoggingLog#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -25,7 +25,7 @@ namespace oci.LoggingLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#log_type LoggingLog#log_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#log_type LoggingLog#log_type}.</summary>
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}")]
         public string LogType
         {
@@ -35,7 +35,7 @@ namespace oci.LoggingLog
 
         /// <summary>configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#configuration LoggingLog#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#configuration LoggingLog#configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"oci.loggingLog.LoggingLogConfiguration\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace oci.LoggingLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#defined_tags LoggingLog#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#defined_tags LoggingLog#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -54,7 +54,7 @@ namespace oci.LoggingLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#freeform_tags LoggingLog#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#freeform_tags LoggingLog#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -63,7 +63,7 @@ namespace oci.LoggingLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#id LoggingLog#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#id LoggingLog#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ namespace oci.LoggingLog
 
         private object? _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#is_enabled LoggingLog#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#is_enabled LoggingLog#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -110,7 +110,7 @@ namespace oci.LoggingLog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#retention_duration LoggingLog#retention_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#retention_duration LoggingLog#retention_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionDuration
@@ -121,7 +121,7 @@ namespace oci.LoggingLog
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_log#timeouts LoggingLog#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_log#timeouts LoggingLog#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loggingLog.LoggingLogTimeouts\"}", isOptional: true)]

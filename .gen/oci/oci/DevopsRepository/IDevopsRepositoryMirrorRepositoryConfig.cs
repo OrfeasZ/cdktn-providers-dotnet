@@ -7,7 +7,7 @@ namespace oci.DevopsRepository
     [JsiiInterface(nativeType: typeof(IDevopsRepositoryMirrorRepositoryConfig), fullyQualifiedName: "oci.devopsRepository.DevopsRepositoryMirrorRepositoryConfig")]
     public interface IDevopsRepositoryMirrorRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#connector_id DevopsRepository#connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository#connector_id DevopsRepository#connector_id}.</summary>
         [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConnectorId
@@ -18,7 +18,7 @@ namespace oci.DevopsRepository
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#repository_url DevopsRepository#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository#repository_url DevopsRepository#repository_url}.</summary>
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RepositoryUrl
@@ -31,7 +31,7 @@ namespace oci.DevopsRepository
 
         /// <summary>trigger_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#trigger_schedule DevopsRepository#trigger_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository#trigger_schedule DevopsRepository#trigger_schedule}
         /// </remarks>
         [JsiiProperty(name: "triggerSchedule", typeJson: "{\"fqn\":\"oci.devopsRepository.DevopsRepositoryMirrorRepositoryConfigTriggerSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace oci.DevopsRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#connector_id DevopsRepository#connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository#connector_id DevopsRepository#connector_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConnectorId
@@ -58,7 +58,7 @@ namespace oci.DevopsRepository
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#repository_url DevopsRepository#repository_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository#repository_url DevopsRepository#repository_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RepositoryUrl
@@ -68,7 +68,7 @@ namespace oci.DevopsRepository
 
             /// <summary>trigger_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_repository#trigger_schedule DevopsRepository#trigger_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository#trigger_schedule DevopsRepository#trigger_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "triggerSchedule", typeJson: "{\"fqn\":\"oci.devopsRepository.DevopsRepositoryMirrorRepositoryConfigTriggerSchedule\"}", isOptional: true)]

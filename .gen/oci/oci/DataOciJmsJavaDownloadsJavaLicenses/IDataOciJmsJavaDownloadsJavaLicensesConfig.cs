@@ -7,7 +7,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaLicensesConfig), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaLicenses.DataOciJmsJavaDownloadsJavaLicensesConfig")]
     public interface IDataOciJmsJavaDownloadsJavaLicensesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#display_name DataOciJmsJavaDownloadsJavaLicenses#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#display_name DataOciJmsJavaDownloadsJavaLicenses#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -20,7 +20,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#filter DataOciJmsJavaDownloadsJavaLicenses#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#filter DataOciJmsJavaDownloadsJavaLicenses#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaLicenses.IDataOciJmsJavaDownloadsJavaLicensesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsJavaDownloadsJavaLicenses.DataOciJmsJavaDownloadsJavaLicensesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#id DataOciJmsJavaDownloadsJavaLicenses#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#id DataOciJmsJavaDownloadsJavaLicenses#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#license_type DataOciJmsJavaDownloadsJavaLicenses#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#license_type DataOciJmsJavaDownloadsJavaLicenses#license_type}.</summary>
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseType
@@ -66,7 +66,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#display_name DataOciJmsJavaDownloadsJavaLicenses#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#display_name DataOciJmsJavaDownloadsJavaLicenses#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -76,7 +76,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#filter DataOciJmsJavaDownloadsJavaLicenses#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#filter DataOciJmsJavaDownloadsJavaLicenses#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaLicenses.IDataOciJmsJavaDownloadsJavaLicensesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -86,7 +86,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#id DataOciJmsJavaDownloadsJavaLicenses#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#id DataOciJmsJavaDownloadsJavaLicenses#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_licenses#license_type DataOciJmsJavaDownloadsJavaLicenses#license_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_licenses#license_type DataOciJmsJavaDownloadsJavaLicenses#license_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseType

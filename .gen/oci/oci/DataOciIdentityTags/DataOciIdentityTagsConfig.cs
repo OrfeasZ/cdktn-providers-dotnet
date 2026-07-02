@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityTags
     [JsiiByValue(fqn: "oci.dataOciIdentityTags.DataOciIdentityTagsConfig")]
     public class DataOciIdentityTagsConfig : oci.DataOciIdentityTags.IDataOciIdentityTagsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tags#tag_namespace_id DataOciIdentityTags#tag_namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tags#tag_namespace_id DataOciIdentityTags#tag_namespace_id}.</summary>
         [JsiiProperty(name: "tagNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TagNamespaceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityTags
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tags#filter DataOciIdentityTags#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tags#filter DataOciIdentityTags#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityTags.IDataOciIdentityTagsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityTags
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tags#id DataOciIdentityTags#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tags#id DataOciIdentityTags#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciIdentityTags
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tags#state DataOciIdentityTags#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tags#state DataOciIdentityTags#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -7,7 +7,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
     [JsiiByValue(fqn: "oci.iotIotDomainGroupConfigureDataAccess.IotIotDomainGroupConfigureDataAccessTimeouts")]
     public class IotIotDomainGroupConfigureDataAccessTimeouts : oci.IotIotDomainGroupConfigureDataAccess.IIotIotDomainGroupConfigureDataAccessTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_group_configure_data_access#create IotIotDomainGroupConfigureDataAccess#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_group_configure_data_access#create IotIotDomainGroupConfigureDataAccess#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_group_configure_data_access#delete IotIotDomainGroupConfigureDataAccess#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_group_configure_data_access#delete IotIotDomainGroupConfigureDataAccess#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_group_configure_data_access#update IotIotDomainGroupConfigureDataAccess#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_group_configure_data_access#update IotIotDomainGroupConfigureDataAccess#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

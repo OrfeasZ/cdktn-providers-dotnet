@@ -9,7 +9,7 @@ namespace oci.DataOciServiceCatalogConfiguration
     [JsiiByValue(fqn: "oci.dataOciServiceCatalogConfiguration.DataOciServiceCatalogConfigurationConfig")]
     public class DataOciServiceCatalogConfigurationConfig : oci.DataOciServiceCatalogConfiguration.IDataOciServiceCatalogConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/service_catalog_configuration#compartment_id DataOciServiceCatalogConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_configuration#compartment_id DataOciServiceCatalogConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciServiceCatalogConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/service_catalog_configuration#id DataOciServiceCatalogConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_configuration#id DataOciServiceCatalogConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

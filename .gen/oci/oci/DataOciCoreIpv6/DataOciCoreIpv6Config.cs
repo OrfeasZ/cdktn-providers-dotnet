@@ -9,7 +9,7 @@ namespace oci.DataOciCoreIpv6
     [JsiiByValue(fqn: "oci.dataOciCoreIpv6.DataOciCoreIpv6Config")]
     public class DataOciCoreIpv6Config : oci.DataOciCoreIpv6.IDataOciCoreIpv6Config
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_ipv6#ipv6id DataOciCoreIpv6#ipv6id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_ipv6#ipv6id DataOciCoreIpv6#ipv6id}.</summary>
         [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}")]
         public string Ipv6Id
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciZprConfiguration
     [JsiiByValue(fqn: "oci.dataOciZprConfiguration.DataOciZprConfigurationConfig")]
     public class DataOciZprConfigurationConfig : oci.DataOciZprConfiguration.IDataOciZprConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

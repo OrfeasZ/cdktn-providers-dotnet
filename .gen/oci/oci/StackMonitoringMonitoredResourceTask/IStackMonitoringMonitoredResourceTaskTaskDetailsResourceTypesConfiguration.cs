@@ -9,7 +9,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
     {
         /// <summary>availability_metrics_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#availability_metrics_config StackMonitoringMonitoredResourceTask#availability_metrics_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#availability_metrics_config StackMonitoringMonitoredResourceTask#availability_metrics_config}
         /// </remarks>
         [JsiiProperty(name: "availabilityMetricsConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationAvailabilityMetricsConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
         /// <summary>handler_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#handler_config StackMonitoringMonitoredResourceTask#handler_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#handler_config StackMonitoringMonitoredResourceTask#handler_config}
         /// </remarks>
         [JsiiProperty(name: "handlerConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#resource_type StackMonitoringMonitoredResourceTask#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#resource_type StackMonitoringMonitoredResourceTask#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceType
@@ -55,7 +55,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
             /// <summary>availability_metrics_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#availability_metrics_config StackMonitoringMonitoredResourceTask#availability_metrics_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#availability_metrics_config StackMonitoringMonitoredResourceTask#availability_metrics_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityMetricsConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationAvailabilityMetricsConfig\"}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
             /// <summary>handler_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#handler_config StackMonitoringMonitoredResourceTask#handler_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#handler_config StackMonitoringMonitoredResourceTask#handler_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "handlerConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfig\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
                 get => GetInstanceProperty<oci.StackMonitoringMonitoredResourceTask.IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#resource_type StackMonitoringMonitoredResourceTask#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#resource_type StackMonitoringMonitoredResourceTask#resource_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceType

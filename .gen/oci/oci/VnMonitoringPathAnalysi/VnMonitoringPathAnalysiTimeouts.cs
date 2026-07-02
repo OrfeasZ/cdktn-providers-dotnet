@@ -7,7 +7,7 @@ namespace oci.VnMonitoringPathAnalysi
     [JsiiByValue(fqn: "oci.vnMonitoringPathAnalysi.VnMonitoringPathAnalysiTimeouts")]
     public class VnMonitoringPathAnalysiTimeouts : oci.VnMonitoringPathAnalysi.IVnMonitoringPathAnalysiTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vn_monitoring_path_analysi#create VnMonitoringPathAnalysi#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vn_monitoring_path_analysi#create VnMonitoringPathAnalysi#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.VnMonitoringPathAnalysi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vn_monitoring_path_analysi#delete VnMonitoringPathAnalysi#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vn_monitoring_path_analysi#delete VnMonitoringPathAnalysi#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.VnMonitoringPathAnalysi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/vn_monitoring_path_analysi#update VnMonitoringPathAnalysi#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vn_monitoring_path_analysi#update VnMonitoringPathAnalysi#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalDelivery
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccmDemandSignalDelivery.DataOciCapacityManagementInternalOccmDemandSignalDeliveryConfig")]
     public class DataOciCapacityManagementInternalOccmDemandSignalDeliveryConfig : oci.DataOciCapacityManagementInternalOccmDemandSignalDelivery.IDataOciCapacityManagementInternalOccmDemandSignalDeliveryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_internal_occm_demand_signal_delivery#occm_demand_signal_delivery_id DataOciCapacityManagementInternalOccmDemandSignalDelivery#occm_demand_signal_delivery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_internal_occm_demand_signal_delivery#occm_demand_signal_delivery_id DataOciCapacityManagementInternalOccmDemandSignalDelivery#occm_demand_signal_delivery_id}.</summary>
         [JsiiProperty(name: "occmDemandSignalDeliveryId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccmDemandSignalDeliveryId
         {

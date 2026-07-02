@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsNotificationSetting
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsNotificationSetting.DataOciIdentityDomainsNotificationSettingConfig")]
     public class DataOciIdentityDomainsNotificationSettingConfig : oci.DataOciIdentityDomainsNotificationSetting.IDataOciIdentityDomainsNotificationSettingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_notification_setting#idcs_endpoint DataOciIdentityDomainsNotificationSetting#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_notification_setting#idcs_endpoint DataOciIdentityDomainsNotificationSetting#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_notification_setting#notification_setting_id DataOciIdentityDomainsNotificationSetting#notification_setting_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_notification_setting#notification_setting_id DataOciIdentityDomainsNotificationSetting#notification_setting_id}.</summary>
         [JsiiProperty(name: "notificationSettingId", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationSettingId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_notification_setting#attributes DataOciIdentityDomainsNotificationSetting#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_notification_setting#attributes DataOciIdentityDomainsNotificationSetting#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_notification_setting#attribute_sets DataOciIdentityDomainsNotificationSetting#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_notification_setting#attribute_sets DataOciIdentityDomainsNotificationSetting#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_notification_setting#authorization DataOciIdentityDomainsNotificationSetting#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_notification_setting#authorization DataOciIdentityDomainsNotificationSetting#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_domains_notification_setting#resource_type_schema_version DataOciIdentityDomainsNotificationSetting#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_notification_setting#resource_type_schema_version DataOciIdentityDomainsNotificationSetting#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

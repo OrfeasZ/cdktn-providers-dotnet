@@ -9,7 +9,7 @@ namespace oci.DataOciCoreSubnet
     [JsiiByValue(fqn: "oci.dataOciCoreSubnet.DataOciCoreSubnetConfig")]
     public class DataOciCoreSubnetConfig : oci.DataOciCoreSubnet.IDataOciCoreSubnetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_subnet#subnet_id DataOciCoreSubnet#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_subnet#subnet_id DataOciCoreSubnet#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {

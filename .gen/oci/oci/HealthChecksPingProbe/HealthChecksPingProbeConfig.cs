@@ -9,7 +9,7 @@ namespace oci.HealthChecksPingProbe
     [JsiiByValue(fqn: "oci.healthChecksPingProbe.HealthChecksPingProbeConfig")]
     public class HealthChecksPingProbeConfig : oci.HealthChecksPingProbe.IHealthChecksPingProbeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#compartment_id HealthChecksPingProbe#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#compartment_id HealthChecksPingProbe#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.HealthChecksPingProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#protocol HealthChecksPingProbe#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#protocol HealthChecksPingProbe#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -25,7 +25,7 @@ namespace oci.HealthChecksPingProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#targets HealthChecksPingProbe#targets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#targets HealthChecksPingProbe#targets}.</summary>
         [JsiiProperty(name: "targets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Targets
         {
@@ -33,7 +33,7 @@ namespace oci.HealthChecksPingProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#id HealthChecksPingProbe#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#id HealthChecksPingProbe#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace oci.HealthChecksPingProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#port HealthChecksPingProbe#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#port HealthChecksPingProbe#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -55,7 +55,7 @@ namespace oci.HealthChecksPingProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#timeout_in_seconds HealthChecksPingProbe#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#timeout_in_seconds HealthChecksPingProbe#timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInSeconds
@@ -66,7 +66,7 @@ namespace oci.HealthChecksPingProbe
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#timeouts HealthChecksPingProbe#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#timeouts HealthChecksPingProbe#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.healthChecksPingProbe.HealthChecksPingProbeTimeouts\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace oci.HealthChecksPingProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/health_checks_ping_probe#vantage_point_names HealthChecksPingProbe#vantage_point_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/health_checks_ping_probe#vantage_point_names HealthChecksPingProbe#vantage_point_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vantagePointNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VantagePointNames

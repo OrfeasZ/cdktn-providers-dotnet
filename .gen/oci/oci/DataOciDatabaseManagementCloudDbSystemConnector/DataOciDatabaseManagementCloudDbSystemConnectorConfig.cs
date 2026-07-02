@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnector
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbSystemConnector.DataOciDatabaseManagementCloudDbSystemConnectorConfig")]
     public class DataOciDatabaseManagementCloudDbSystemConnectorConfig : oci.DataOciDatabaseManagementCloudDbSystemConnector.IDataOciDatabaseManagementCloudDbSystemConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_db_system_connector#cloud_db_system_connector_id DataOciDatabaseManagementCloudDbSystemConnector#cloud_db_system_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_db_system_connector#cloud_db_system_connector_id DataOciDatabaseManagementCloudDbSystemConnector#cloud_db_system_connector_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudDbSystemConnectorId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciOceOceInstance
     [JsiiInterface(nativeType: typeof(IDataOciOceOceInstanceConfig), fullyQualifiedName: "oci.dataOciOceOceInstance.DataOciOceOceInstanceConfig")]
     public interface IDataOciOceOceInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}.</summary>
         [JsiiProperty(name: "oceInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string OceInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOceOceInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}.</summary>
             [JsiiProperty(name: "oceInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string OceInstanceId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateDeploymentEnvironments
     [JsiiByValue(fqn: "oci.dataOciGoldenGateDeploymentEnvironments.DataOciGoldenGateDeploymentEnvironmentsFilter")]
     public class DataOciGoldenGateDeploymentEnvironmentsFilter : oci.DataOciGoldenGateDeploymentEnvironments.IDataOciGoldenGateDeploymentEnvironmentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_environments#name DataOciGoldenGateDeploymentEnvironments#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_deployment_environments#name DataOciGoldenGateDeploymentEnvironments#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateDeploymentEnvironments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_environments#values DataOciGoldenGateDeploymentEnvironments#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_deployment_environments#values DataOciGoldenGateDeploymentEnvironments#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGoldenGateDeploymentEnvironments
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_deployment_environments#regex DataOciGoldenGateDeploymentEnvironments#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_deployment_environments#regex DataOciGoldenGateDeploymentEnvironments#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

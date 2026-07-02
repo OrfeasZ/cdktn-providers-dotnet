@@ -9,7 +9,7 @@ namespace oci.ApmSyntheticsDedicatedVantagePoint
     [JsiiByValue(fqn: "oci.apmSyntheticsDedicatedVantagePoint.ApmSyntheticsDedicatedVantagePointDvpStackDetails")]
     public class ApmSyntheticsDedicatedVantagePointDvpStackDetails : oci.ApmSyntheticsDedicatedVantagePoint.IApmSyntheticsDedicatedVantagePointDvpStackDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_stack_id ApmSyntheticsDedicatedVantagePoint#dvp_stack_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_stack_id ApmSyntheticsDedicatedVantagePoint#dvp_stack_id}.</summary>
         [JsiiProperty(name: "dvpStackId", typeJson: "{\"primitive\":\"string\"}")]
         public string DvpStackId
         {
@@ -17,7 +17,7 @@ namespace oci.ApmSyntheticsDedicatedVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_stack_type ApmSyntheticsDedicatedVantagePoint#dvp_stack_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_stack_type ApmSyntheticsDedicatedVantagePoint#dvp_stack_type}.</summary>
         [JsiiProperty(name: "dvpStackType", typeJson: "{\"primitive\":\"string\"}")]
         public string DvpStackType
         {
@@ -25,7 +25,7 @@ namespace oci.ApmSyntheticsDedicatedVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_stream_id ApmSyntheticsDedicatedVantagePoint#dvp_stream_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_stream_id ApmSyntheticsDedicatedVantagePoint#dvp_stream_id}.</summary>
         [JsiiProperty(name: "dvpStreamId", typeJson: "{\"primitive\":\"string\"}")]
         public string DvpStreamId
         {
@@ -33,7 +33,7 @@ namespace oci.ApmSyntheticsDedicatedVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_version ApmSyntheticsDedicatedVantagePoint#dvp_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_dedicated_vantage_point#dvp_version ApmSyntheticsDedicatedVantagePoint#dvp_version}.</summary>
         [JsiiProperty(name: "dvpVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string DvpVersion
         {

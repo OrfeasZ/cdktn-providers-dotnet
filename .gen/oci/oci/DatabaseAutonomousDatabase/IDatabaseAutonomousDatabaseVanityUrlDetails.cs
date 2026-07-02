@@ -7,7 +7,7 @@ namespace oci.DatabaseAutonomousDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseAutonomousDatabaseVanityUrlDetails), fullyQualifiedName: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseVanityUrlDetails")]
     public interface IDatabaseAutonomousDatabaseVanityUrlDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#api_gateway_id DatabaseAutonomousDatabase#api_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#api_gateway_id DatabaseAutonomousDatabase#api_gateway_id}.</summary>
         [JsiiProperty(name: "apiGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ApiGatewayId
@@ -18,7 +18,7 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#is_disabled DatabaseAutonomousDatabase#is_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#is_disabled DatabaseAutonomousDatabase#is_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#vanity_url_host_name DatabaseAutonomousDatabase#vanity_url_host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#vanity_url_host_name DatabaseAutonomousDatabase#vanity_url_host_name}.</summary>
         [JsiiProperty(name: "vanityUrlHostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VanityUrlHostName
@@ -50,7 +50,7 @@ namespace oci.DatabaseAutonomousDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#api_gateway_id DatabaseAutonomousDatabase#api_gateway_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#api_gateway_id DatabaseAutonomousDatabase#api_gateway_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "apiGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ApiGatewayId
@@ -58,7 +58,7 @@ namespace oci.DatabaseAutonomousDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#is_disabled DatabaseAutonomousDatabase#is_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#is_disabled DatabaseAutonomousDatabase#is_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -69,7 +69,7 @@ namespace oci.DatabaseAutonomousDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#vanity_url_host_name DatabaseAutonomousDatabase#vanity_url_host_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#vanity_url_host_name DatabaseAutonomousDatabase#vanity_url_host_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vanityUrlHostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VanityUrlHostName

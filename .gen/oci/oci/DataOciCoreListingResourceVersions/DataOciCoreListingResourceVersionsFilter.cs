@@ -9,7 +9,7 @@ namespace oci.DataOciCoreListingResourceVersions
     [JsiiByValue(fqn: "oci.dataOciCoreListingResourceVersions.DataOciCoreListingResourceVersionsFilter")]
     public class DataOciCoreListingResourceVersionsFilter : oci.DataOciCoreListingResourceVersions.IDataOciCoreListingResourceVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_listing_resource_versions#name DataOciCoreListingResourceVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_listing_resource_versions#name DataOciCoreListingResourceVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreListingResourceVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_listing_resource_versions#values DataOciCoreListingResourceVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_listing_resource_versions#values DataOciCoreListingResourceVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreListingResourceVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_listing_resource_versions#regex DataOciCoreListingResourceVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_listing_resource_versions#regex DataOciCoreListingResourceVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

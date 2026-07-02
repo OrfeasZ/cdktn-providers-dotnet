@@ -7,7 +7,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
     [JsiiInterface(nativeType: typeof(IDataOciResourceAnalyticsResourceAnalyticsInstancesConfig), fullyQualifiedName: "oci.dataOciResourceAnalyticsResourceAnalyticsInstances.DataOciResourceAnalyticsResourceAnalyticsInstancesConfig")]
     public interface IDataOciResourceAnalyticsResourceAnalyticsInstancesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#compartment_id DataOciResourceAnalyticsResourceAnalyticsInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#compartment_id DataOciResourceAnalyticsResourceAnalyticsInstances#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#display_name DataOciResourceAnalyticsResourceAnalyticsInstances#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#display_name DataOciResourceAnalyticsResourceAnalyticsInstances#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -31,7 +31,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#filter DataOciResourceAnalyticsResourceAnalyticsInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#filter DataOciResourceAnalyticsResourceAnalyticsInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciResourceAnalyticsResourceAnalyticsInstances.IDataOciResourceAnalyticsResourceAnalyticsInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciResourceAnalyticsResourceAnalyticsInstances.DataOciResourceAnalyticsResourceAnalyticsInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#id DataOciResourceAnalyticsResourceAnalyticsInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#id DataOciResourceAnalyticsResourceAnalyticsInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#state DataOciResourceAnalyticsResourceAnalyticsInstances#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#state DataOciResourceAnalyticsResourceAnalyticsInstances#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -77,7 +77,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#compartment_id DataOciResourceAnalyticsResourceAnalyticsInstances#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#compartment_id DataOciResourceAnalyticsResourceAnalyticsInstances#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -85,7 +85,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#display_name DataOciResourceAnalyticsResourceAnalyticsInstances#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#display_name DataOciResourceAnalyticsResourceAnalyticsInstances#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -95,7 +95,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#filter DataOciResourceAnalyticsResourceAnalyticsInstances#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#filter DataOciResourceAnalyticsResourceAnalyticsInstances#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciResourceAnalyticsResourceAnalyticsInstances.IDataOciResourceAnalyticsResourceAnalyticsInstancesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -105,7 +105,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#id DataOciResourceAnalyticsResourceAnalyticsInstances#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#id DataOciResourceAnalyticsResourceAnalyticsInstances#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,7 +117,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/resource_analytics_resource_analytics_instances#state DataOciResourceAnalyticsResourceAnalyticsInstances#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_resource_analytics_instances#state DataOciResourceAnalyticsResourceAnalyticsInstances#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

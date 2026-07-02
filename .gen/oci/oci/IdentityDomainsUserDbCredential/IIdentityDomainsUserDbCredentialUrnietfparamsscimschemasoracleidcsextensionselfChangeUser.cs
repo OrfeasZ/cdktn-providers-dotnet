@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsUserDbCredential
     [JsiiInterface(nativeType: typeof(IIdentityDomainsUserDbCredentialUrnietfparamsscimschemasoracleidcsextensionselfChangeUser), fullyQualifiedName: "oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialUrnietfparamsscimschemasoracleidcsextensionselfChangeUser")]
     public interface IIdentityDomainsUserDbCredentialUrnietfparamsscimschemasoracleidcsextensionselfChangeUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user_db_credential#allow_self_change IdentityDomainsUserDbCredential#allow_self_change}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user_db_credential#allow_self_change IdentityDomainsUserDbCredential#allow_self_change}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.IdentityDomainsUserDbCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user_db_credential#allow_self_change IdentityDomainsUserDbCredential#allow_self_change}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user_db_credential#allow_self_change IdentityDomainsUserDbCredential#allow_self_change}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

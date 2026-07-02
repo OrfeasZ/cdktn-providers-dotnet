@@ -39,6 +39,12 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDbSystemId")]
+        public virtual void ResetDbSystemId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsHavingRestoreConfigOverrides")]
         public virtual void ResetIsHavingRestoreConfigOverrides()
         {
@@ -57,9 +63,22 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeToRestore")]
+        public virtual void ResetTimeToRestore()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "backupIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BackupIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dbSystemIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DbSystemIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -88,8 +107,22 @@ namespace oci.PsqlDbSystem
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "timeToRestoreInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeToRestoreInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string BackupId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DbSystemId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -134,6 +167,13 @@ namespace oci.PsqlDbSystem
 
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SourceType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "timeToRestore", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeToRestore
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

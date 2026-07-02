@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineNodePoolOption
     [JsiiByValue(fqn: "oci.dataOciContainerengineNodePoolOption.DataOciContainerengineNodePoolOptionConfig")]
     public class DataOciContainerengineNodePoolOptionConfig : oci.DataOciContainerengineNodePoolOption.IDataOciContainerengineNodePoolOptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#node_pool_option_id DataOciContainerengineNodePoolOption#node_pool_option_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#node_pool_option_id DataOciContainerengineNodePoolOption#node_pool_option_id}.</summary>
         [JsiiProperty(name: "nodePoolOptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string NodePoolOptionId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciContainerengineNodePoolOption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#compartment_id DataOciContainerengineNodePoolOption#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#compartment_id DataOciContainerengineNodePoolOption#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciContainerengineNodePoolOption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#id DataOciContainerengineNodePoolOption#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#id DataOciContainerengineNodePoolOption#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataOciContainerengineNodePoolOption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#node_pool_k8s_version DataOciContainerengineNodePoolOption#node_pool_k8s_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#node_pool_k8s_version DataOciContainerengineNodePoolOption#node_pool_k8s_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodePoolK8SVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodePoolK8SVersion
@@ -48,7 +48,7 @@ namespace oci.DataOciContainerengineNodePoolOption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#node_pool_os_arch DataOciContainerengineNodePoolOption#node_pool_os_arch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#node_pool_os_arch DataOciContainerengineNodePoolOption#node_pool_os_arch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodePoolOsArch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodePoolOsArch
@@ -57,7 +57,7 @@ namespace oci.DataOciContainerengineNodePoolOption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#node_pool_os_type DataOciContainerengineNodePoolOption#node_pool_os_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#node_pool_os_type DataOciContainerengineNodePoolOption#node_pool_os_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodePoolOsType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodePoolOsType
@@ -68,7 +68,7 @@ namespace oci.DataOciContainerengineNodePoolOption
 
         private object? _shouldListAllPatchVersions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool_option#should_list_all_patch_versions DataOciContainerengineNodePoolOption#should_list_all_patch_versions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool_option#should_list_all_patch_versions DataOciContainerengineNodePoolOption#should_list_all_patch_versions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

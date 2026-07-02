@@ -9,7 +9,7 @@ namespace oci.DataOciPsqlDbSystemPrimaryDbInstance
     [JsiiByValue(fqn: "oci.dataOciPsqlDbSystemPrimaryDbInstance.DataOciPsqlDbSystemPrimaryDbInstanceConfig")]
     public class DataOciPsqlDbSystemPrimaryDbInstanceConfig : oci.DataOciPsqlDbSystemPrimaryDbInstance.IDataOciPsqlDbSystemPrimaryDbInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psql_db_system_primary_db_instance#db_system_id DataOciPsqlDbSystemPrimaryDbInstance#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psql_db_system_primary_db_instance#db_system_id DataOciPsqlDbSystemPrimaryDbInstance#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciPsqlDbSystemPrimaryDbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psql_db_system_primary_db_instance#id DataOciPsqlDbSystemPrimaryDbInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psql_db_system_primary_db_instance#id DataOciPsqlDbSystemPrimaryDbInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

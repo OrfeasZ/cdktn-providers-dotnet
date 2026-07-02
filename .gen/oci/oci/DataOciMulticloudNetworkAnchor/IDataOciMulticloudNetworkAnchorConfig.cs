@@ -7,28 +7,28 @@ namespace oci.DataOciMulticloudNetworkAnchor
     [JsiiInterface(nativeType: typeof(IDataOciMulticloudNetworkAnchorConfig), fullyQualifiedName: "oci.dataOciMulticloudNetworkAnchor.DataOciMulticloudNetworkAnchorConfig")]
     public interface IDataOciMulticloudNetworkAnchorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}.</summary>
         [JsiiProperty(name: "networkAnchorId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkAnchorId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionServiceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}.</summary>
         [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExternalLocation
@@ -39,7 +39,7 @@ namespace oci.DataOciMulticloudNetworkAnchor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#should_fetch_vcn_name DataOciMulticloudNetworkAnchor#should_fetch_vcn_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#should_fetch_vcn_name DataOciMulticloudNetworkAnchor#should_fetch_vcn_name}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,28 +60,28 @@ namespace oci.DataOciMulticloudNetworkAnchor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}.</summary>
             [JsiiProperty(name: "networkAnchorId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkAnchorId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}.</summary>
             [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionServiceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExternalLocation
@@ -89,7 +89,7 @@ namespace oci.DataOciMulticloudNetworkAnchor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/multicloud_network_anchor#should_fetch_vcn_name DataOciMulticloudNetworkAnchor#should_fetch_vcn_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/multicloud_network_anchor#should_fetch_vcn_name DataOciMulticloudNetworkAnchor#should_fetch_vcn_name}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

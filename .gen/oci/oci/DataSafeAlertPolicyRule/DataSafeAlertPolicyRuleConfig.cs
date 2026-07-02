@@ -9,7 +9,7 @@ namespace oci.DataSafeAlertPolicyRule
     [JsiiByValue(fqn: "oci.dataSafeAlertPolicyRule.DataSafeAlertPolicyRuleConfig")]
     public class DataSafeAlertPolicyRuleConfig : oci.DataSafeAlertPolicyRule.IDataSafeAlertPolicyRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_alert_policy_rule#alert_policy_id DataSafeAlertPolicyRule#alert_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_alert_policy_rule#alert_policy_id DataSafeAlertPolicyRule#alert_policy_id}.</summary>
         [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlertPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeAlertPolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_alert_policy_rule#expression DataSafeAlertPolicyRule#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_alert_policy_rule#expression DataSafeAlertPolicyRule#expression}.</summary>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         public string Expression
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeAlertPolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_alert_policy_rule#description DataSafeAlertPolicyRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_alert_policy_rule#description DataSafeAlertPolicyRule#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -34,7 +34,7 @@ namespace oci.DataSafeAlertPolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_alert_policy_rule#display_name DataSafeAlertPolicyRule#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_alert_policy_rule#display_name DataSafeAlertPolicyRule#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -43,7 +43,7 @@ namespace oci.DataSafeAlertPolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_alert_policy_rule#id DataSafeAlertPolicyRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_alert_policy_rule#id DataSafeAlertPolicyRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.DataSafeAlertPolicyRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_alert_policy_rule#timeouts DataSafeAlertPolicyRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_alert_policy_rule#timeouts DataSafeAlertPolicyRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeAlertPolicyRule.DataSafeAlertPolicyRuleTimeouts\"}", isOptional: true)]

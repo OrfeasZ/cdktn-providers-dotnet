@@ -7,7 +7,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
     [JsiiByValue(fqn: "oci.dataOciApiaccesscontrolApiMetadataByEntityTypes.DataOciApiaccesscontrolApiMetadataByEntityTypesConfig")]
     public class DataOciApiaccesscontrolApiMetadataByEntityTypesConfig : oci.DataOciApiaccesscontrolApiMetadataByEntityTypes.IDataOciApiaccesscontrolApiMetadataByEntityTypesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#compartment_id DataOciApiaccesscontrolApiMetadataByEntityTypes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#compartment_id DataOciApiaccesscontrolApiMetadataByEntityTypes#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#display_name DataOciApiaccesscontrolApiMetadataByEntityTypes#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#display_name DataOciApiaccesscontrolApiMetadataByEntityTypes#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#filter DataOciApiaccesscontrolApiMetadataByEntityTypes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#filter DataOciApiaccesscontrolApiMetadataByEntityTypes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApiaccesscontrolApiMetadataByEntityTypes.IDataOciApiaccesscontrolApiMetadataByEntityTypesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#id DataOciApiaccesscontrolApiMetadataByEntityTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#id DataOciApiaccesscontrolApiMetadataByEntityTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#resource_type DataOciApiaccesscontrolApiMetadataByEntityTypes#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#resource_type DataOciApiaccesscontrolApiMetadataByEntityTypes#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -82,7 +82,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#state DataOciApiaccesscontrolApiMetadataByEntityTypes#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#state DataOciApiaccesscontrolApiMetadataByEntityTypes#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

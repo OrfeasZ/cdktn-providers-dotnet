@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     {
         /// <summary>password_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#password_details PsqlDbSystem#password_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#password_details PsqlDbSystem#password_details}
         /// </remarks>
         [JsiiProperty(name: "passwordDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemCredentialsPasswordDetails\"}")]
         oci.PsqlDbSystem.IPsqlDbSystemCredentialsPasswordDetails PasswordDetails
@@ -17,7 +17,7 @@ namespace oci.PsqlDbSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#username PsqlDbSystem#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#username PsqlDbSystem#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
         {
@@ -33,7 +33,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>password_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#password_details PsqlDbSystem#password_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#password_details PsqlDbSystem#password_details}
             /// </remarks>
             [JsiiProperty(name: "passwordDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemCredentialsPasswordDetails\"}")]
             public oci.PsqlDbSystem.IPsqlDbSystemCredentialsPasswordDetails PasswordDetails
@@ -41,7 +41,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemCredentialsPasswordDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#username PsqlDbSystem#username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#username PsqlDbSystem#username}.</summary>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username
             {

@@ -7,7 +7,7 @@ namespace oci.DatabaseDbSystemsUpgrade
     [JsiiByValue(fqn: "oci.databaseDbSystemsUpgrade.DatabaseDbSystemsUpgradeTimeouts")]
     public class DatabaseDbSystemsUpgradeTimeouts : oci.DatabaseDbSystemsUpgrade.IDatabaseDbSystemsUpgradeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_db_systems_upgrade#create DatabaseDbSystemsUpgrade#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_db_systems_upgrade#create DatabaseDbSystemsUpgrade#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseDbSystemsUpgrade
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_db_systems_upgrade#delete DatabaseDbSystemsUpgrade#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_db_systems_upgrade#delete DatabaseDbSystemsUpgrade#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseDbSystemsUpgrade
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_db_systems_upgrade#update DatabaseDbSystemsUpgrade#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_db_systems_upgrade#update DatabaseDbSystemsUpgrade#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistoryContent
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDbNodeConsoleHistoryContentConfig), fullyQualifiedName: "oci.dataOciDatabaseDbNodeConsoleHistoryContent.DataOciDatabaseDbNodeConsoleHistoryContentConfig")]
     public interface IDataOciDatabaseDbNodeConsoleHistoryContentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_db_node_console_history_content#console_history_id DataOciDatabaseDbNodeConsoleHistoryContent#console_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_db_node_console_history_content#console_history_id DataOciDatabaseDbNodeConsoleHistoryContent#console_history_id}.</summary>
         [JsiiProperty(name: "consoleHistoryId", typeJson: "{\"primitive\":\"string\"}")]
         string ConsoleHistoryId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_db_node_console_history_content#db_node_id DataOciDatabaseDbNodeConsoleHistoryContent#db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_db_node_console_history_content#db_node_id DataOciDatabaseDbNodeConsoleHistoryContent#db_node_id}.</summary>
         [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}")]
         string DbNodeId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_db_node_console_history_content#id DataOciDatabaseDbNodeConsoleHistoryContent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_db_node_console_history_content#id DataOciDatabaseDbNodeConsoleHistoryContent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistoryContent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_db_node_console_history_content#console_history_id DataOciDatabaseDbNodeConsoleHistoryContent#console_history_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_db_node_console_history_content#console_history_id DataOciDatabaseDbNodeConsoleHistoryContent#console_history_id}.</summary>
             [JsiiProperty(name: "consoleHistoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsoleHistoryId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_db_node_console_history_content#db_node_id DataOciDatabaseDbNodeConsoleHistoryContent#db_node_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_db_node_console_history_content#db_node_id DataOciDatabaseDbNodeConsoleHistoryContent#db_node_id}.</summary>
             [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbNodeId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_db_node_console_history_content#id DataOciDatabaseDbNodeConsoleHistoryContent#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_db_node_console_history_content#id DataOciDatabaseDbNodeConsoleHistoryContent#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

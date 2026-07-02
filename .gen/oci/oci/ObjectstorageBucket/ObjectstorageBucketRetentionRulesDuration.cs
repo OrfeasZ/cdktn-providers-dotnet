@@ -9,7 +9,7 @@ namespace oci.ObjectstorageBucket
     [JsiiByValue(fqn: "oci.objectstorageBucket.ObjectstorageBucketRetentionRulesDuration")]
     public class ObjectstorageBucketRetentionRulesDuration : oci.ObjectstorageBucket.IObjectstorageBucketRetentionRulesDuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}.</summary>
         [JsiiProperty(name: "timeAmount", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeAmount
         {
@@ -17,7 +17,7 @@ namespace oci.ObjectstorageBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}.</summary>
         [JsiiProperty(name: "timeUnit", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeUnit
         {

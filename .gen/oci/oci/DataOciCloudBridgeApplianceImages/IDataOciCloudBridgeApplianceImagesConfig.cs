@@ -7,14 +7,14 @@ namespace oci.DataOciCloudBridgeApplianceImages
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeApplianceImagesConfig), fullyQualifiedName: "oci.dataOciCloudBridgeApplianceImages.DataOciCloudBridgeApplianceImagesConfig")]
     public interface IDataOciCloudBridgeApplianceImagesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#compartment_id DataOciCloudBridgeApplianceImages#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#compartment_id DataOciCloudBridgeApplianceImages#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#display_name DataOciCloudBridgeApplianceImages#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#display_name DataOciCloudBridgeApplianceImages#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciCloudBridgeApplianceImages
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#filter DataOciCloudBridgeApplianceImages#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#filter DataOciCloudBridgeApplianceImages#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudBridgeApplianceImages.IDataOciCloudBridgeApplianceImagesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudBridgeApplianceImages.DataOciCloudBridgeApplianceImagesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciCloudBridgeApplianceImages
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#id DataOciCloudBridgeApplianceImages#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#id DataOciCloudBridgeApplianceImages#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,14 +62,14 @@ namespace oci.DataOciCloudBridgeApplianceImages
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#compartment_id DataOciCloudBridgeApplianceImages#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#compartment_id DataOciCloudBridgeApplianceImages#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#display_name DataOciCloudBridgeApplianceImages#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#display_name DataOciCloudBridgeApplianceImages#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -79,7 +79,7 @@ namespace oci.DataOciCloudBridgeApplianceImages
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#filter DataOciCloudBridgeApplianceImages#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#filter DataOciCloudBridgeApplianceImages#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudBridgeApplianceImages.IDataOciCloudBridgeApplianceImagesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -89,7 +89,7 @@ namespace oci.DataOciCloudBridgeApplianceImages
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_appliance_images#id DataOciCloudBridgeApplianceImages#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_appliance_images#id DataOciCloudBridgeApplianceImages#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.CoreInstanceConfiguration
     [JsiiInterface(nativeType: typeof(ICoreInstanceConfigurationInstanceDetailsLaunchDetailsAgentConfig), fullyQualifiedName: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsLaunchDetailsAgentConfig")]
     public interface ICoreInstanceConfigurationInstanceDetailsLaunchDetailsAgentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#are_all_plugins_disabled CoreInstanceConfiguration#are_all_plugins_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#are_all_plugins_disabled CoreInstanceConfiguration#are_all_plugins_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#is_management_disabled CoreInstanceConfiguration#is_management_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#is_management_disabled CoreInstanceConfiguration#is_management_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#is_monitoring_disabled CoreInstanceConfiguration#is_monitoring_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#is_monitoring_disabled CoreInstanceConfiguration#is_monitoring_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace oci.CoreInstanceConfiguration
 
         /// <summary>plugins_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#plugins_config CoreInstanceConfiguration#plugins_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#plugins_config CoreInstanceConfiguration#plugins_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsLaunchDetailsAgentConfigPluginsConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "pluginsConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsLaunchDetailsAgentConfigPluginsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace oci.CoreInstanceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#are_all_plugins_disabled CoreInstanceConfiguration#are_all_plugins_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#are_all_plugins_disabled CoreInstanceConfiguration#are_all_plugins_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -82,7 +82,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#is_management_disabled CoreInstanceConfiguration#is_management_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#is_management_disabled CoreInstanceConfiguration#is_management_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -93,7 +93,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#is_monitoring_disabled CoreInstanceConfiguration#is_monitoring_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#is_monitoring_disabled CoreInstanceConfiguration#is_monitoring_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -106,7 +106,7 @@ namespace oci.CoreInstanceConfiguration
 
             /// <summary>plugins_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#plugins_config CoreInstanceConfiguration#plugins_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#plugins_config CoreInstanceConfiguration#plugins_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsLaunchDetailsAgentConfigPluginsConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]

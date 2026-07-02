@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackOmkSecretsSecretData")]
     public class DifStackOmkSecretsSecretData : oci.DifStack.IDifStackOmkSecretsSecretData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#key DifStack#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dif_stack#key DifStack#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dif_stack#secret_id DifStack#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dif_stack#secret_id DifStack#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {

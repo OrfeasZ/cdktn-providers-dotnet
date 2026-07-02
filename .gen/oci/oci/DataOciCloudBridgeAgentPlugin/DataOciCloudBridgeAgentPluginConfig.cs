@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeAgentPlugin
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeAgentPlugin.DataOciCloudBridgeAgentPluginConfig")]
     public class DataOciCloudBridgeAgentPluginConfig : oci.DataOciCloudBridgeAgentPlugin.IDataOciCloudBridgeAgentPluginConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_agent_plugin#agent_id DataOciCloudBridgeAgentPlugin#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_agent_plugin#agent_id DataOciCloudBridgeAgentPlugin#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudBridgeAgentPlugin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_bridge_agent_plugin#plugin_name DataOciCloudBridgeAgentPlugin#plugin_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_agent_plugin#plugin_name DataOciCloudBridgeAgentPlugin#plugin_name}.</summary>
         [JsiiProperty(name: "pluginName", typeJson: "{\"primitive\":\"string\"}")]
         public string PluginName
         {

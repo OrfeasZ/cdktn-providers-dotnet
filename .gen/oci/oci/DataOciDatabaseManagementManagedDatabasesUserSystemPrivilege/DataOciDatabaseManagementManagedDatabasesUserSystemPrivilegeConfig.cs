@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabasesUserSystemPrivilege.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilegeConfig")]
     public class DataOciDatabaseManagementManagedDatabasesUserSystemPrivilegeConfig : oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege.IDataOciDatabaseManagementManagedDatabasesUserSystemPrivilegeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_databases_user_system_privilege#managed_database_id DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_databases_user_system_privilege#managed_database_id DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_databases_user_system_privilege#user_name DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_databases_user_system_privilege#user_name DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_databases_user_system_privilege#id DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_databases_user_system_privilege#id DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_managed_databases_user_system_privilege#name DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_databases_user_system_privilege#name DataOciDatabaseManagementManagedDatabasesUserSystemPrivilege#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

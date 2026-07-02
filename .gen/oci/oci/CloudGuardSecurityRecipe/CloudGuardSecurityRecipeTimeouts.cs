@@ -7,7 +7,7 @@ namespace oci.CloudGuardSecurityRecipe
     [JsiiByValue(fqn: "oci.cloudGuardSecurityRecipe.CloudGuardSecurityRecipeTimeouts")]
     public class CloudGuardSecurityRecipeTimeouts : oci.CloudGuardSecurityRecipe.ICloudGuardSecurityRecipeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_security_recipe#create CloudGuardSecurityRecipe#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_security_recipe#create CloudGuardSecurityRecipe#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CloudGuardSecurityRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_security_recipe#delete CloudGuardSecurityRecipe#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_security_recipe#delete CloudGuardSecurityRecipe#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CloudGuardSecurityRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_security_recipe#update CloudGuardSecurityRecipe#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_security_recipe#update CloudGuardSecurityRecipe#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

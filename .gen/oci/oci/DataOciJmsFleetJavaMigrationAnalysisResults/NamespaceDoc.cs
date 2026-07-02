@@ -5,7 +5,7 @@ namespace oci.DataOciJmsFleetJavaMigrationAnalysisResults
     /// <remarks>
     /// <h1><c>data_oci_jms_fleet_java_migration_analysis_results</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_fleet_java_migration_analysis_results"><c>data_oci_jms_fleet_java_migration_analysis_results</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_java_migration_analysis_results"><c>data_oci_jms_fleet_java_migration_analysis_results</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     {
         /// <summary>destination_encryption_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#destination_encryption_key DisasterRecoveryDrProtectionGroup#destination_encryption_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#destination_encryption_key DisasterRecoveryDrProtectionGroup#destination_encryption_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinationEncryptionKey", typeJson: "{\"fqn\":\"oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsDestinationEncryptionKey\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#source_volume_id DisasterRecoveryDrProtectionGroup#source_volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#source_volume_id DisasterRecoveryDrProtectionGroup#source_volume_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceVolumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceVolumeId

@@ -7,7 +7,7 @@ namespace oci.DataOciDelegateAccessControlDelegationSubscription
     [JsiiInterface(nativeType: typeof(IDataOciDelegateAccessControlDelegationSubscriptionConfig), fullyQualifiedName: "oci.dataOciDelegateAccessControlDelegationSubscription.DataOciDelegateAccessControlDelegationSubscriptionConfig")]
     public interface IDataOciDelegateAccessControlDelegationSubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/delegate_access_control_delegation_subscription#delegation_subscription_id DataOciDelegateAccessControlDelegationSubscription#delegation_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/delegate_access_control_delegation_subscription#delegation_subscription_id DataOciDelegateAccessControlDelegationSubscription#delegation_subscription_id}.</summary>
         [JsiiProperty(name: "delegationSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string DelegationSubscriptionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDelegateAccessControlDelegationSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/delegate_access_control_delegation_subscription#delegation_subscription_id DataOciDelegateAccessControlDelegationSubscription#delegation_subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/delegate_access_control_delegation_subscription#delegation_subscription_id DataOciDelegateAccessControlDelegationSubscription#delegation_subscription_id}.</summary>
             [JsiiProperty(name: "delegationSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string DelegationSubscriptionId
             {

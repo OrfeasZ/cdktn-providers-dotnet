@@ -7,21 +7,21 @@ namespace oci.ResourceAnalyticsTenancyAttachment
     [JsiiInterface(nativeType: typeof(IResourceAnalyticsTenancyAttachmentConfig), fullyQualifiedName: "oci.resourceAnalyticsTenancyAttachment.ResourceAnalyticsTenancyAttachmentConfig")]
     public interface IResourceAnalyticsTenancyAttachmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#resource_analytics_instance_id ResourceAnalyticsTenancyAttachment#resource_analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#resource_analytics_instance_id ResourceAnalyticsTenancyAttachment#resource_analytics_instance_id}.</summary>
         [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceAnalyticsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#tenancy_id ResourceAnalyticsTenancyAttachment#tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#tenancy_id ResourceAnalyticsTenancyAttachment#tenancy_id}.</summary>
         [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}")]
         string TenancyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#description ResourceAnalyticsTenancyAttachment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#description ResourceAnalyticsTenancyAttachment#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -32,7 +32,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#id ResourceAnalyticsTenancyAttachment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#id ResourceAnalyticsTenancyAttachment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#timeouts ResourceAnalyticsTenancyAttachment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#timeouts ResourceAnalyticsTenancyAttachment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.resourceAnalyticsTenancyAttachment.ResourceAnalyticsTenancyAttachmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,21 +68,21 @@ namespace oci.ResourceAnalyticsTenancyAttachment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#resource_analytics_instance_id ResourceAnalyticsTenancyAttachment#resource_analytics_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#resource_analytics_instance_id ResourceAnalyticsTenancyAttachment#resource_analytics_instance_id}.</summary>
             [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceAnalyticsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#tenancy_id ResourceAnalyticsTenancyAttachment#tenancy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#tenancy_id ResourceAnalyticsTenancyAttachment#tenancy_id}.</summary>
             [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}")]
             public string TenancyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#description ResourceAnalyticsTenancyAttachment#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#description ResourceAnalyticsTenancyAttachment#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -90,7 +90,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#id ResourceAnalyticsTenancyAttachment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#id ResourceAnalyticsTenancyAttachment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_analytics_tenancy_attachment#timeouts ResourceAnalyticsTenancyAttachment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#timeouts ResourceAnalyticsTenancyAttachment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.resourceAnalyticsTenancyAttachment.ResourceAnalyticsTenancyAttachmentTimeouts\"}", isOptional: true)]

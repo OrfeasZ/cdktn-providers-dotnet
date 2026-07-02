@@ -9,7 +9,7 @@ namespace oci.DatabaseCloudDatabaseManagement
     [JsiiByValue(fqn: "oci.databaseCloudDatabaseManagement.DatabaseCloudDatabaseManagementCredentialdetails")]
     public class DatabaseCloudDatabaseManagementCredentialdetails : oci.DatabaseCloudDatabaseManagement.IDatabaseCloudDatabaseManagementCredentialdetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_cloud_database_management#password_secret_id DatabaseCloudDatabaseManagement#password_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_cloud_database_management#password_secret_id DatabaseCloudDatabaseManagement#password_secret_id}.</summary>
         [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public string PasswordSecretId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseCloudDatabaseManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_cloud_database_management#user_name DatabaseCloudDatabaseManagement#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_cloud_database_management#user_name DatabaseCloudDatabaseManagement#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {

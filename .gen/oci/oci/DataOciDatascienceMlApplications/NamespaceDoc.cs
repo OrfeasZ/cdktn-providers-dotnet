@@ -5,7 +5,7 @@ namespace oci.DataOciDatascienceMlApplications
     /// <remarks>
     /// <h1><c>data_oci_datascience_ml_applications</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_ml_applications"><c>data_oci_datascience_ml_applications</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datascience_ml_applications"><c>data_oci_datascience_ml_applications</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

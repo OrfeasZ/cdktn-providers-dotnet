@@ -7,7 +7,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     [JsiiByValue(fqn: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDbSystemAdminUserDetails")]
     public class DisasterRecoveryDrProtectionGroupMembersDbSystemAdminUserDetails : oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersDbSystemAdminUserDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordVaultSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PasswordVaultSecretId
@@ -16,7 +16,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#username DisasterRecoveryDrProtectionGroup#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#username DisasterRecoveryDrProtectionGroup#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

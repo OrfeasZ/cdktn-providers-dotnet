@@ -7,7 +7,7 @@ namespace oci.DatabaseAutonomousDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseAutonomousDatabaseTransportableTablespace), fullyQualifiedName: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespace")]
     public interface IDatabaseAutonomousDatabaseTransportableTablespace
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#tts_bundle_url DatabaseAutonomousDatabase#tts_bundle_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#tts_bundle_url DatabaseAutonomousDatabase#tts_bundle_url}.</summary>
         [JsiiProperty(name: "ttsBundleUrl", typeJson: "{\"primitive\":\"string\"}")]
         string TtsBundleUrl
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseAutonomousDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_database#tts_bundle_url DatabaseAutonomousDatabase#tts_bundle_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#tts_bundle_url DatabaseAutonomousDatabase#tts_bundle_url}.</summary>
             [JsiiProperty(name: "ttsBundleUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string TtsBundleUrl
             {

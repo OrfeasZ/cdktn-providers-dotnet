@@ -9,7 +9,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
     [JsiiByValue(fqn: "oci.stackMonitoringMonitoringTemplateAlarmCondition.StackMonitoringMonitoringTemplateAlarmConditionConditions")]
     public class StackMonitoringMonitoringTemplateAlarmConditionConditions : oci.StackMonitoringMonitoringTemplateAlarmCondition.IStackMonitoringMonitoringTemplateAlarmConditionConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#query StackMonitoringMonitoringTemplateAlarmCondition#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#query StackMonitoringMonitoringTemplateAlarmCondition#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         public string Query
         {
@@ -17,7 +17,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#severity StackMonitoringMonitoringTemplateAlarmCondition#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#severity StackMonitoringMonitoringTemplateAlarmCondition#severity}.</summary>
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}")]
         public string Severity
         {
@@ -25,7 +25,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#body StackMonitoringMonitoringTemplateAlarmCondition#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#body StackMonitoringMonitoringTemplateAlarmCondition#body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Body
@@ -36,7 +36,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
 
         private object? _shouldAppendNote;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#should_append_note StackMonitoringMonitoringTemplateAlarmCondition#should_append_note}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#should_append_note StackMonitoringMonitoringTemplateAlarmCondition#should_append_note}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -70,7 +70,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
 
         private object? _shouldAppendUrl;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#should_append_url StackMonitoringMonitoringTemplateAlarmCondition#should_append_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#should_append_url StackMonitoringMonitoringTemplateAlarmCondition#should_append_url}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -102,7 +102,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#trigger_delay StackMonitoringMonitoringTemplateAlarmCondition#trigger_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#trigger_delay StackMonitoringMonitoringTemplateAlarmCondition#trigger_delay}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "triggerDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TriggerDelay

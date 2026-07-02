@@ -7,7 +7,7 @@ namespace oci.DataOciCoreCaptureFilter
     [JsiiInterface(nativeType: typeof(IDataOciCoreCaptureFilterConfig), fullyQualifiedName: "oci.dataOciCoreCaptureFilter.DataOciCoreCaptureFilterConfig")]
     public interface IDataOciCoreCaptureFilterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_capture_filter#capture_filter_id DataOciCoreCaptureFilter#capture_filter_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_capture_filter#capture_filter_id DataOciCoreCaptureFilter#capture_filter_id}.</summary>
         [JsiiProperty(name: "captureFilterId", typeJson: "{\"primitive\":\"string\"}")]
         string CaptureFilterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreCaptureFilter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_capture_filter#capture_filter_id DataOciCoreCaptureFilter#capture_filter_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_capture_filter#capture_filter_id DataOciCoreCaptureFilter#capture_filter_id}.</summary>
             [JsiiProperty(name: "captureFilterId", typeJson: "{\"primitive\":\"string\"}")]
             public string CaptureFilterId
             {

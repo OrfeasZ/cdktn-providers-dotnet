@@ -7,7 +7,7 @@ namespace oci.JmsFleetAgentConfiguration
     [JsiiByValue(fqn: "oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationTimeouts")]
     public class JmsFleetAgentConfigurationTimeouts : oci.JmsFleetAgentConfiguration.IJmsFleetAgentConfigurationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/jms_fleet_agent_configuration#create JmsFleetAgentConfiguration#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#create JmsFleetAgentConfiguration#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.JmsFleetAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/jms_fleet_agent_configuration#delete JmsFleetAgentConfiguration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#delete JmsFleetAgentConfiguration#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.JmsFleetAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/jms_fleet_agent_configuration#update JmsFleetAgentConfiguration#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#update JmsFleetAgentConfiguration#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

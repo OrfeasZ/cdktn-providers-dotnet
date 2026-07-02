@@ -7,7 +7,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
     [JsiiByValue(fqn: "oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseShardDetailsPeerDetailsVmClusterDetails")]
     public class DistributedDatabaseDistributedDatabaseShardDetailsPeerDetailsVmClusterDetails : oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseShardDetailsPeerDetailsVmClusterDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#backup_network_nsg_ids DistributedDatabaseDistributedDatabase#backup_network_nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#backup_network_nsg_ids DistributedDatabaseDistributedDatabase#backup_network_nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupNetworkNsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? BackupNetworkNsgIds
@@ -16,7 +16,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#backup_subnet_id DistributedDatabaseDistributedDatabase#backup_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#backup_subnet_id DistributedDatabaseDistributedDatabase#backup_subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupSubnetId
@@ -25,7 +25,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#domain DistributedDatabaseDistributedDatabase#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#domain DistributedDatabaseDistributedDatabase#domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Domain
@@ -34,7 +34,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#enabled_ecpu_count DistributedDatabaseDistributedDatabase#enabled_ecpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#enabled_ecpu_count DistributedDatabaseDistributedDatabase#enabled_ecpu_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enabledEcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EnabledEcpuCount
@@ -45,7 +45,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         private object? _isDiagnosticsEventsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#is_diagnostics_events_enabled DistributedDatabaseDistributedDatabase#is_diagnostics_events_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#is_diagnostics_events_enabled DistributedDatabaseDistributedDatabase#is_diagnostics_events_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -79,7 +79,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         private object? _isHealthMonitoringEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#is_health_monitoring_enabled DistributedDatabaseDistributedDatabase#is_health_monitoring_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#is_health_monitoring_enabled DistributedDatabaseDistributedDatabase#is_health_monitoring_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -113,7 +113,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         private object? _isIncidentLogsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#is_incident_logs_enabled DistributedDatabaseDistributedDatabase#is_incident_logs_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#is_incident_logs_enabled DistributedDatabaseDistributedDatabase#is_incident_logs_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -145,7 +145,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#license_model DistributedDatabaseDistributedDatabase#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#license_model DistributedDatabaseDistributedDatabase#license_model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseModel
@@ -154,7 +154,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#nsg_ids DistributedDatabaseDistributedDatabase#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#nsg_ids DistributedDatabaseDistributedDatabase#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds
@@ -163,7 +163,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#private_zone_id DistributedDatabaseDistributedDatabase#private_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#private_zone_id DistributedDatabaseDistributedDatabase#private_zone_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateZoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateZoneId
@@ -172,7 +172,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#ssh_public_keys DistributedDatabaseDistributedDatabase#ssh_public_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#ssh_public_keys DistributedDatabaseDistributedDatabase#ssh_public_keys}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sshPublicKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SshPublicKeys
@@ -181,7 +181,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#subnet_id DistributedDatabaseDistributedDatabase#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#subnet_id DistributedDatabaseDistributedDatabase#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -190,7 +190,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#total_ecpu_count DistributedDatabaseDistributedDatabase#total_ecpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#total_ecpu_count DistributedDatabaseDistributedDatabase#total_ecpu_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "totalEcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TotalEcpuCount
@@ -199,7 +199,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/distributed_database_distributed_database#vm_file_system_storage_size DistributedDatabaseDistributedDatabase#vm_file_system_storage_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/distributed_database_distributed_database#vm_file_system_storage_size DistributedDatabaseDistributedDatabase#vm_file_system_storage_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vmFileSystemStorageSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VmFileSystemStorageSize

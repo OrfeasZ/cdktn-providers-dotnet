@@ -7,7 +7,7 @@ namespace oci.DataOciEmailEmailDomain
     [JsiiInterface(nativeType: typeof(IDataOciEmailEmailDomainConfig), fullyQualifiedName: "oci.dataOciEmailEmailDomain.DataOciEmailEmailDomainConfig")]
     public interface IDataOciEmailEmailDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}.</summary>
         [JsiiProperty(name: "emailDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string EmailDomainId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEmailEmailDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}.</summary>
             [JsiiProperty(name: "emailDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string EmailDomainId
             {

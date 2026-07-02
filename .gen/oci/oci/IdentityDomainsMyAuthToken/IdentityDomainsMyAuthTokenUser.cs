@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsMyAuthToken
     [JsiiByValue(fqn: "oci.identityDomainsMyAuthToken.IdentityDomainsMyAuthTokenUser")]
     public class IdentityDomainsMyAuthTokenUser : oci.IdentityDomainsMyAuthToken.IIdentityDomainsMyAuthTokenUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_auth_token#ocid IdentityDomainsMyAuthToken#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_my_auth_token#ocid IdentityDomainsMyAuthToken#ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ocid
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsMyAuthToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

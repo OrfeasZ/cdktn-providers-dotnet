@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagementStationSynchronizeMirrorsManagement.OsManagementHubManagementStationSynchronizeMirrorsManagementConfig")]
     public class OsManagementHubManagementStationSynchronizeMirrorsManagementConfig : oci.OsManagementHubManagementStationSynchronizeMirrorsManagement.IOsManagementHubManagementStationSynchronizeMirrorsManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#management_station_id OsManagementHubManagementStationSynchronizeMirrorsManagement#management_station_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#management_station_id OsManagementHubManagementStationSynchronizeMirrorsManagement#management_station_id}.</summary>
         [JsiiProperty(name: "managementStationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementStationId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#software_source_list OsManagementHubManagementStationSynchronizeMirrorsManagement#software_source_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#software_source_list OsManagementHubManagementStationSynchronizeMirrorsManagement#software_source_list}.</summary>
         [JsiiProperty(name: "softwareSourceList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SoftwareSourceList
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#id OsManagementHubManagementStationSynchronizeMirrorsManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#id OsManagementHubManagementStationSynchronizeMirrorsManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#timeouts OsManagementHubManagementStationSynchronizeMirrorsManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#timeouts OsManagementHubManagementStationSynchronizeMirrorsManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagementStationSynchronizeMirrorsManagement.OsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts\"}", isOptional: true)]

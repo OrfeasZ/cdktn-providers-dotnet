@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementExternalDbSystem
     [JsiiByValue(fqn: "oci.databaseManagementExternalDbSystem.DatabaseManagementExternalDbSystemDatabaseManagementConfig")]
     public class DatabaseManagementExternalDbSystemDatabaseManagementConfig : oci.DatabaseManagementExternalDbSystem.IDatabaseManagementExternalDbSystemDatabaseManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system#license_model DatabaseManagementExternalDbSystem#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system#license_model DatabaseManagementExternalDbSystem#license_model}.</summary>
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}")]
         public string LicenseModel
         {

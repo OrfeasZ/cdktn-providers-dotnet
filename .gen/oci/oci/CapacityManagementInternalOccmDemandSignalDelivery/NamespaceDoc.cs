@@ -5,7 +5,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignalDelivery
     /// <remarks>
     /// <h1><c>oci_capacity_management_internal_occm_demand_signal_delivery</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery"><c>oci_capacity_management_internal_occm_demand_signal_delivery</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery"><c>oci_capacity_management_internal_occm_demand_signal_delivery</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

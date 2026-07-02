@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAzureBlobContainers.DataOciDbmulticloudOracleDbAzureBlobContainersFilter")]
     public class DataOciDbmulticloudOracleDbAzureBlobContainersFilter : oci.DataOciDbmulticloudOracleDbAzureBlobContainers.IDataOciDbmulticloudOracleDbAzureBlobContainersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#name DataOciDbmulticloudOracleDbAzureBlobContainers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#name DataOciDbmulticloudOracleDbAzureBlobContainers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#values DataOciDbmulticloudOracleDbAzureBlobContainers#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#values DataOciDbmulticloudOracleDbAzureBlobContainers#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainers
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#regex DataOciDbmulticloudOracleDbAzureBlobContainers#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_containers#regex DataOciDbmulticloudOracleDbAzureBlobContainers#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneOrganizationTenancies.DataOciTenantmanagercontrolplaneOrganizationTenanciesFilter")]
     public class DataOciTenantmanagercontrolplaneOrganizationTenanciesFilter : oci.DataOciTenantmanagercontrolplaneOrganizationTenancies.IDataOciTenantmanagercontrolplaneOrganizationTenanciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#name DataOciTenantmanagercontrolplaneOrganizationTenancies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#name DataOciTenantmanagercontrolplaneOrganizationTenancies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#values DataOciTenantmanagercontrolplaneOrganizationTenancies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#values DataOciTenantmanagercontrolplaneOrganizationTenancies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#regex DataOciTenantmanagercontrolplaneOrganizationTenancies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#regex DataOciTenantmanagercontrolplaneOrganizationTenancies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

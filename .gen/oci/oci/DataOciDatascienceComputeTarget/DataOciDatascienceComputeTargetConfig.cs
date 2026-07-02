@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceComputeTarget
     [JsiiByValue(fqn: "oci.dataOciDatascienceComputeTarget.DataOciDatascienceComputeTargetConfig")]
     public class DataOciDatascienceComputeTargetConfig : oci.DataOciDatascienceComputeTarget.IDataOciDatascienceComputeTargetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datascience_compute_target#compute_target_id DataOciDatascienceComputeTarget#compute_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datascience_compute_target#compute_target_id DataOciDatascienceComputeTarget#compute_target_id}.</summary>
         [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeTargetId
         {

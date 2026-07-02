@@ -7,7 +7,7 @@ namespace oci.DatabaseSchedulingPolicy
     [JsiiInterface(nativeType: typeof(IDatabaseSchedulingPolicyCadenceStartMonth), fullyQualifiedName: "oci.databaseSchedulingPolicy.DatabaseSchedulingPolicyCadenceStartMonth")]
     public interface IDatabaseSchedulingPolicyCadenceStartMonth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy#name DatabaseSchedulingPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_scheduling_policy#name DatabaseSchedulingPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseSchedulingPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_scheduling_policy#name DatabaseSchedulingPolicy#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_scheduling_policy#name DatabaseSchedulingPolicy#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

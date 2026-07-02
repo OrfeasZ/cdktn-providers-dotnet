@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstances
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudClusterInstances.DataOciDatabaseManagementCloudClusterInstancesConfig")]
     public class DataOciDatabaseManagementCloudClusterInstancesConfig : oci.DataOciDatabaseManagementCloudClusterInstances.IDataOciDatabaseManagementCloudClusterInstancesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_cluster_instances#cloud_cluster_id DataOciDatabaseManagementCloudClusterInstances#cloud_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_cluster_instances#cloud_cluster_id DataOciDatabaseManagementCloudClusterInstances#cloud_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudClusterId
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_cluster_instances#compartment_id DataOciDatabaseManagementCloudClusterInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_cluster_instances#compartment_id DataOciDatabaseManagementCloudClusterInstances#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_cluster_instances#display_name DataOciDatabaseManagementCloudClusterInstances#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_cluster_instances#display_name DataOciDatabaseManagementCloudClusterInstances#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_cluster_instances#filter DataOciDatabaseManagementCloudClusterInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_cluster_instances#filter DataOciDatabaseManagementCloudClusterInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudClusterInstances.IDataOciDatabaseManagementCloudClusterInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_cluster_instances#id DataOciDatabaseManagementCloudClusterInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_cluster_instances#id DataOciDatabaseManagementCloudClusterInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

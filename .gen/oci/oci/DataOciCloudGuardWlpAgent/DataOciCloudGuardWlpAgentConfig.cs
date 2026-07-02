@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardWlpAgent
     [JsiiByValue(fqn: "oci.dataOciCloudGuardWlpAgent.DataOciCloudGuardWlpAgentConfig")]
     public class DataOciCloudGuardWlpAgentConfig : oci.DataOciCloudGuardWlpAgent.IDataOciCloudGuardWlpAgentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_wlp_agent#wlp_agent_id DataOciCloudGuardWlpAgent#wlp_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_guard_wlp_agent#wlp_agent_id DataOciCloudGuardWlpAgent#wlp_agent_id}.</summary>
         [JsiiProperty(name: "wlpAgentId", typeJson: "{\"primitive\":\"string\"}")]
         public string WlpAgentId
         {

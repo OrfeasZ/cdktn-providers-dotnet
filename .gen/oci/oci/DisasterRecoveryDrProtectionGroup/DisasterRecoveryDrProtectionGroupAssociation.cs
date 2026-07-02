@@ -9,7 +9,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     [JsiiByValue(fqn: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupAssociation")]
     public class DisasterRecoveryDrProtectionGroupAssociation : oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#role DisasterRecoveryDrProtectionGroup#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#role DisasterRecoveryDrProtectionGroup#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -17,7 +17,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#peer_id DisasterRecoveryDrProtectionGroup#peer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#peer_id DisasterRecoveryDrProtectionGroup#peer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerId
@@ -26,7 +26,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#peer_region DisasterRecoveryDrProtectionGroup#peer_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#peer_region DisasterRecoveryDrProtectionGroup#peer_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeerRegion

@@ -7,7 +7,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignalDelivery
     [JsiiByValue(fqn: "oci.capacityManagementInternalOccmDemandSignalDelivery.CapacityManagementInternalOccmDemandSignalDeliveryTimeouts")]
     public class CapacityManagementInternalOccmDemandSignalDeliveryTimeouts : oci.CapacityManagementInternalOccmDemandSignalDelivery.ICapacityManagementInternalOccmDemandSignalDeliveryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#create CapacityManagementInternalOccmDemandSignalDelivery#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#create CapacityManagementInternalOccmDemandSignalDelivery#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignalDelivery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#delete CapacityManagementInternalOccmDemandSignalDelivery#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#delete CapacityManagementInternalOccmDemandSignalDelivery#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignalDelivery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#update CapacityManagementInternalOccmDemandSignalDelivery#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#update CapacityManagementInternalOccmDemandSignalDelivery#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

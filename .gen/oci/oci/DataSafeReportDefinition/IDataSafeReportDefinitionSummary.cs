@@ -7,21 +7,21 @@ namespace oci.DataSafeReportDefinition
     [JsiiInterface(nativeType: typeof(IDataSafeReportDefinitionSummary), fullyQualifiedName: "oci.dataSafeReportDefinition.DataSafeReportDefinitionSummary")]
     public interface IDataSafeReportDefinitionSummary
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}.</summary>
         [JsiiProperty(name: "displayOrder", typeJson: "{\"primitive\":\"number\"}")]
         double DisplayOrder
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#name DataSafeReportDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#name DataSafeReportDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#count_of DataSafeReportDefinition#count_of}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#count_of DataSafeReportDefinition#count_of}.</summary>
         [JsiiProperty(name: "countOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CountOf
@@ -32,7 +32,7 @@ namespace oci.DataSafeReportDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#group_by_field_name DataSafeReportDefinition#group_by_field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#group_by_field_name DataSafeReportDefinition#group_by_field_name}.</summary>
         [JsiiProperty(name: "groupByFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GroupByFieldName
@@ -43,7 +43,7 @@ namespace oci.DataSafeReportDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -57,7 +57,7 @@ namespace oci.DataSafeReportDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#scim_filter DataSafeReportDefinition#scim_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#scim_filter DataSafeReportDefinition#scim_filter}.</summary>
         [JsiiProperty(name: "scimFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScimFilter
@@ -75,21 +75,21 @@ namespace oci.DataSafeReportDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#display_order DataSafeReportDefinition#display_order}.</summary>
             [JsiiProperty(name: "displayOrder", typeJson: "{\"primitive\":\"number\"}")]
             public double DisplayOrder
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#name DataSafeReportDefinition#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#name DataSafeReportDefinition#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#count_of DataSafeReportDefinition#count_of}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#count_of DataSafeReportDefinition#count_of}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "countOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CountOf
@@ -97,7 +97,7 @@ namespace oci.DataSafeReportDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#group_by_field_name DataSafeReportDefinition#group_by_field_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#group_by_field_name DataSafeReportDefinition#group_by_field_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupByFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GroupByFieldName
@@ -105,7 +105,7 @@ namespace oci.DataSafeReportDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#is_hidden DataSafeReportDefinition#is_hidden}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -116,7 +116,7 @@ namespace oci.DataSafeReportDefinition
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_report_definition#scim_filter DataSafeReportDefinition#scim_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_report_definition#scim_filter DataSafeReportDefinition#scim_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scimFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScimFilter

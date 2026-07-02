@@ -9,7 +9,7 @@ namespace oci.ObjectstorageObject
     [JsiiByValue(fqn: "oci.objectstorageObject.ObjectstorageObjectSourceUriDetails")]
     public class ObjectstorageObjectSourceUriDetails : oci.ObjectstorageObject.IObjectstorageObjectSourceUriDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#bucket ObjectstorageObject#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#bucket ObjectstorageObject#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#namespace ObjectstorageObject#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#namespace ObjectstorageObject#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#object ObjectstorageObject#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#object ObjectstorageObject#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -33,7 +33,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#region ObjectstorageObject#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#region ObjectstorageObject#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -41,7 +41,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#destination_object_if_match_etag ObjectstorageObject#destination_object_if_match_etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#destination_object_if_match_etag ObjectstorageObject#destination_object_if_match_etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationObjectIfMatchEtag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationObjectIfMatchEtag
@@ -50,7 +50,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#destination_object_if_none_match_etag ObjectstorageObject#destination_object_if_none_match_etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#destination_object_if_none_match_etag ObjectstorageObject#destination_object_if_none_match_etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationObjectIfNoneMatchEtag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationObjectIfNoneMatchEtag
@@ -59,7 +59,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#source_object_if_match_etag ObjectstorageObject#source_object_if_match_etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#source_object_if_match_etag ObjectstorageObject#source_object_if_match_etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceObjectIfMatchEtag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceObjectIfMatchEtag
@@ -68,7 +68,7 @@ namespace oci.ObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_object#source_version_id ObjectstorageObject#source_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_object#source_version_id ObjectstorageObject#source_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceVersionId

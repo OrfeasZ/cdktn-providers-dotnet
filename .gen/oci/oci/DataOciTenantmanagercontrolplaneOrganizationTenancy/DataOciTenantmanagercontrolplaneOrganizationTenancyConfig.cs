@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancy
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneOrganizationTenancy.DataOciTenantmanagercontrolplaneOrganizationTenancyConfig")]
     public class DataOciTenantmanagercontrolplaneOrganizationTenancyConfig : oci.DataOciTenantmanagercontrolplaneOrganizationTenancy.IDataOciTenantmanagercontrolplaneOrganizationTenancyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancy#organization_id DataOciTenantmanagercontrolplaneOrganizationTenancy#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancy#organization_id DataOciTenantmanagercontrolplaneOrganizationTenancy#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         public string OrganizationId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancy#tenancy_id DataOciTenantmanagercontrolplaneOrganizationTenancy#tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancy#tenancy_id DataOciTenantmanagercontrolplaneOrganizationTenancy#tenancy_id}.</summary>
         [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenancyId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancy#id DataOciTenantmanagercontrolplaneOrganizationTenancy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancy#id DataOciTenantmanagercontrolplaneOrganizationTenancy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

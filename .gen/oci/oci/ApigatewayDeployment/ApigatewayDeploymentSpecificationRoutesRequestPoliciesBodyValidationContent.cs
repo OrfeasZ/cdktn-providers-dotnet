@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidationContent")]
     public class ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidationContent : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidationContent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#media_type ApigatewayDeployment#media_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#media_type ApigatewayDeployment#media_type}.</summary>
         [JsiiProperty(name: "mediaType", typeJson: "{\"primitive\":\"string\"}")]
         public string MediaType
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_deployment#validation_type ApigatewayDeployment#validation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_deployment#validation_type ApigatewayDeployment#validation_type}.</summary>
         [JsiiProperty(name: "validationType", typeJson: "{\"primitive\":\"string\"}")]
         public string ValidationType
         {

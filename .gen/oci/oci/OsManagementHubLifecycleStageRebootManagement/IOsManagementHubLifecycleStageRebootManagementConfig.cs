@@ -7,14 +7,14 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubLifecycleStageRebootManagementConfig), fullyQualifiedName: "oci.osManagementHubLifecycleStageRebootManagement.OsManagementHubLifecycleStageRebootManagementConfig")]
     public interface IOsManagementHubLifecycleStageRebootManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#lifecycle_stage_id OsManagementHubLifecycleStageRebootManagement#lifecycle_stage_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#lifecycle_stage_id OsManagementHubLifecycleStageRebootManagement#lifecycle_stage_id}.</summary>
         [JsiiProperty(name: "lifecycleStageId", typeJson: "{\"primitive\":\"string\"}")]
         string LifecycleStageId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#id OsManagementHubLifecycleStageRebootManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#id OsManagementHubLifecycleStageRebootManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#reboot_timeout_in_mins OsManagementHubLifecycleStageRebootManagement#reboot_timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#reboot_timeout_in_mins OsManagementHubLifecycleStageRebootManagement#reboot_timeout_in_mins}.</summary>
         [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RebootTimeoutInMins
@@ -42,7 +42,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#timeouts OsManagementHubLifecycleStageRebootManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#timeouts OsManagementHubLifecycleStageRebootManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageRebootManagement.OsManagementHubLifecycleStageRebootManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#work_request_details OsManagementHubLifecycleStageRebootManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#work_request_details OsManagementHubLifecycleStageRebootManagement#work_request_details}
         /// </remarks>
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageRebootManagement.OsManagementHubLifecycleStageRebootManagementWorkRequestDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,14 +75,14 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#lifecycle_stage_id OsManagementHubLifecycleStageRebootManagement#lifecycle_stage_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#lifecycle_stage_id OsManagementHubLifecycleStageRebootManagement#lifecycle_stage_id}.</summary>
             [JsiiProperty(name: "lifecycleStageId", typeJson: "{\"primitive\":\"string\"}")]
             public string LifecycleStageId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#id OsManagementHubLifecycleStageRebootManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#id OsManagementHubLifecycleStageRebootManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,7 +94,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#reboot_timeout_in_mins OsManagementHubLifecycleStageRebootManagement#reboot_timeout_in_mins}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#reboot_timeout_in_mins OsManagementHubLifecycleStageRebootManagement#reboot_timeout_in_mins}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RebootTimeoutInMins
@@ -104,7 +104,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#timeouts OsManagementHubLifecycleStageRebootManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#timeouts OsManagementHubLifecycleStageRebootManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageRebootManagement.OsManagementHubLifecycleStageRebootManagementTimeouts\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
 
             /// <summary>work_request_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#work_request_details OsManagementHubLifecycleStageRebootManagement#work_request_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#work_request_details OsManagementHubLifecycleStageRebootManagement#work_request_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageRebootManagement.OsManagementHubLifecycleStageRebootManagementWorkRequestDetails\"}", isOptional: true)]

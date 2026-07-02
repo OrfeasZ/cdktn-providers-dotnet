@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsConfig")]
     public interface IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsConnectionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#user_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#user_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#user_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#user_key}.</summary>
         [JsiiProperty(name: "userKey", typeJson: "{\"primitive\":\"string\"}")]
         string UserKey
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,14 +58,14 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#database_tools_connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#database_tools_connection_id}.</summary>
             [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsConnectionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#user_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#user_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#user_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#user_key}.</summary>
             [JsiiProperty(name: "userKey", typeJson: "{\"primitive\":\"string\"}")]
             public string UserKey
             {
@@ -74,7 +74,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -84,7 +84,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

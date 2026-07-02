@@ -5,7 +5,7 @@ namespace oci.CapacityManagementOccCustomerGroupOccCustomer
     /// <remarks>
     /// <h1><c>oci_capacity_management_occ_customer_group_occ_customer</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_customer_group_occ_customer"><c>oci_capacity_management_occ_customer_group_occ_customer</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_occ_customer_group_occ_customer"><c>oci_capacity_management_occ_customer_group_occ_customer</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

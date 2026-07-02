@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
     [JsiiInterface(nativeType: typeof(IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigTelegrafResourceNameConfig), fullyQualifiedName: "oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigTelegrafResourceNameConfig")]
     public interface IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigTelegrafResourceNameConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_tags StackMonitoringMonitoredResourceTask#exclude_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_tags StackMonitoringMonitoredResourceTask#exclude_tags}.</summary>
         [JsiiProperty(name: "excludeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ExcludeTags
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#include_tags StackMonitoringMonitoredResourceTask#include_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#include_tags StackMonitoringMonitoredResourceTask#include_tags}.</summary>
         [JsiiProperty(name: "includeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IncludeTags
@@ -29,7 +29,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#is_use_tags_only StackMonitoringMonitoredResourceTask#is_use_tags_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#is_use_tags_only StackMonitoringMonitoredResourceTask#is_use_tags_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_tags StackMonitoringMonitoredResourceTask#exclude_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_tags StackMonitoringMonitoredResourceTask#exclude_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "excludeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ExcludeTags
@@ -58,7 +58,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#include_tags StackMonitoringMonitoredResourceTask#include_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#include_tags StackMonitoringMonitoredResourceTask#include_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "includeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IncludeTags
@@ -66,7 +66,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#is_use_tags_only StackMonitoringMonitoredResourceTask#is_use_tags_only}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#is_use_tags_only StackMonitoringMonitoredResourceTask#is_use_tags_only}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

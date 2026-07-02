@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerBackends
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerBackends.DataOciNetworkLoadBalancerBackendsConfig")]
     public class DataOciNetworkLoadBalancerBackendsConfig : oci.DataOciNetworkLoadBalancerBackends.IDataOciNetworkLoadBalancerBackendsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_backends#backend_set_name DataOciNetworkLoadBalancerBackends#backend_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_load_balancer_backends#backend_set_name DataOciNetworkLoadBalancerBackends#backend_set_name}.</summary>
         [JsiiProperty(name: "backendSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendSetName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkLoadBalancerBackends
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_backends#network_load_balancer_id DataOciNetworkLoadBalancerBackends#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_load_balancer_backends#network_load_balancer_id DataOciNetworkLoadBalancerBackends#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciNetworkLoadBalancerBackends
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_backends#filter DataOciNetworkLoadBalancerBackends#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_load_balancer_backends#filter DataOciNetworkLoadBalancerBackends#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkLoadBalancerBackends.IDataOciNetworkLoadBalancerBackendsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciNetworkLoadBalancerBackends
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_backends#id DataOciNetworkLoadBalancerBackends#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_load_balancer_backends#id DataOciNetworkLoadBalancerBackends#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

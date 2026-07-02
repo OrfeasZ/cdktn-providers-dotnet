@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
     [JsiiByValue(fqn: "oci.dataOciMysqlDbSystemMaintenanceEvents.DataOciMysqlDbSystemMaintenanceEventsConfig")]
     public class DataOciMysqlDbSystemMaintenanceEventsConfig : oci.DataOciMysqlDbSystemMaintenanceEvents.IDataOciMysqlDbSystemMaintenanceEventsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#db_system_id DataOciMysqlDbSystemMaintenanceEvents#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#db_system_id DataOciMysqlDbSystemMaintenanceEvents#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#filter DataOciMysqlDbSystemMaintenanceEvents#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#filter DataOciMysqlDbSystemMaintenanceEvents#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMysqlDbSystemMaintenanceEvents.IDataOciMysqlDbSystemMaintenanceEventsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#id DataOciMysqlDbSystemMaintenanceEvents#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#id DataOciMysqlDbSystemMaintenanceEvents#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#maintenance_action DataOciMysqlDbSystemMaintenanceEvents#maintenance_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#maintenance_action DataOciMysqlDbSystemMaintenanceEvents#maintenance_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceAction
@@ -74,7 +74,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#maintenance_status DataOciMysqlDbSystemMaintenanceEvents#maintenance_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#maintenance_status DataOciMysqlDbSystemMaintenanceEvents#maintenance_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceStatus
@@ -83,7 +83,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#maintenance_type DataOciMysqlDbSystemMaintenanceEvents#maintenance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#maintenance_type DataOciMysqlDbSystemMaintenanceEvents#maintenance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceType
@@ -92,7 +92,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#mysql_version_after_maintenance DataOciMysqlDbSystemMaintenanceEvents#mysql_version_after_maintenance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#mysql_version_after_maintenance DataOciMysqlDbSystemMaintenanceEvents#mysql_version_after_maintenance}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mysqlVersionAfterMaintenance", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MysqlVersionAfterMaintenance
@@ -101,7 +101,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/mysql_db_system_maintenance_events#mysql_version_before_maintenance DataOciMysqlDbSystemMaintenanceEvents#mysql_version_before_maintenance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_db_system_maintenance_events#mysql_version_before_maintenance DataOciMysqlDbSystemMaintenanceEvents#mysql_version_before_maintenance}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mysqlVersionBeforeMaintenance", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MysqlVersionBeforeMaintenance

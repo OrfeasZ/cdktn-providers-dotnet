@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceManifest
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubSoftwareSourceManifestConfig), fullyQualifiedName: "oci.dataOciOsManagementHubSoftwareSourceManifest.DataOciOsManagementHubSoftwareSourceManifestConfig")]
     public interface IDataOciOsManagementHubSoftwareSourceManifestConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_software_source_manifest#software_source_id DataOciOsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_software_source_manifest#software_source_id DataOciOsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareSourceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceManifest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/os_management_hub_software_source_manifest#software_source_id DataOciOsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_software_source_manifest#software_source_id DataOciOsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
             [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareSourceId
             {

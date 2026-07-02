@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig
     [JsiiByValue(fqn: "oci.databaseToolsDatabaseToolsDatabaseApiGatewayConfig.DatabaseToolsDatabaseToolsDatabaseApiGatewayConfigLocks")]
     public class DatabaseToolsDatabaseToolsDatabaseApiGatewayConfigLocks : oci.DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig.IDatabaseToolsDatabaseToolsDatabaseApiGatewayConfigLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_database_api_gateway_config#type DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_database_api_gateway_config#type DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_database_api_gateway_config#message DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_database_api_gateway_config#message DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message
@@ -26,7 +26,7 @@ namespace oci.DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_database_api_gateway_config#related_resource_id DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#related_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_database_api_gateway_config#related_resource_id DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#related_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelatedResourceId
@@ -35,7 +35,7 @@ namespace oci.DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_database_api_gateway_config#time_created DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#time_created}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_database_api_gateway_config#time_created DatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#time_created}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreated

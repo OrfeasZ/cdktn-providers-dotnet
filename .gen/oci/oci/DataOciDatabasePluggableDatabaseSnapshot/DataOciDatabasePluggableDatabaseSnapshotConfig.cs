@@ -9,7 +9,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshot
     [JsiiByValue(fqn: "oci.dataOciDatabasePluggableDatabaseSnapshot.DataOciDatabasePluggableDatabaseSnapshotConfig")]
     public class DataOciDatabasePluggableDatabaseSnapshotConfig : oci.DataOciDatabasePluggableDatabaseSnapshot.IDataOciDatabasePluggableDatabaseSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_pluggable_database_snapshot#pluggable_database_snapshot_id DataOciDatabasePluggableDatabaseSnapshot#pluggable_database_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_pluggable_database_snapshot#pluggable_database_snapshot_id DataOciDatabasePluggableDatabaseSnapshot#pluggable_database_snapshot_id}.</summary>
         [JsiiProperty(name: "pluggableDatabaseSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
         public string PluggableDatabaseSnapshotId
         {

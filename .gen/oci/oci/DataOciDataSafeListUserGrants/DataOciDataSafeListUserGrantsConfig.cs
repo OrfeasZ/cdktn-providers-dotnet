@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeListUserGrants
     [JsiiByValue(fqn: "oci.dataOciDataSafeListUserGrants.DataOciDataSafeListUserGrantsConfig")]
     public class DataOciDataSafeListUserGrantsConfig : oci.DataOciDataSafeListUserGrants.IDataOciDataSafeListUserGrantsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#user_assessment_id DataOciDataSafeListUserGrants#user_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#user_assessment_id DataOciDataSafeListUserGrants#user_assessment_id}.</summary>
         [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserAssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#user_key DataOciDataSafeListUserGrants#user_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#user_key DataOciDataSafeListUserGrants#user_key}.</summary>
         [JsiiProperty(name: "userKey", typeJson: "{\"primitive\":\"string\"}")]
         public string UserKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#depth_level DataOciDataSafeListUserGrants#depth_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#depth_level DataOciDataSafeListUserGrants#depth_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "depthLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DepthLevel
@@ -34,7 +34,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#depth_level_greater_than_or_equal_to DataOciDataSafeListUserGrants#depth_level_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#depth_level_greater_than_or_equal_to DataOciDataSafeListUserGrants#depth_level_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "depthLevelGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DepthLevelGreaterThanOrEqualTo
@@ -43,7 +43,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#depth_level_less_than DataOciDataSafeListUserGrants#depth_level_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#depth_level_less_than DataOciDataSafeListUserGrants#depth_level_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "depthLevelLessThan", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DepthLevelLessThan
@@ -56,7 +56,7 @@ namespace oci.DataOciDataSafeListUserGrants
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#filter DataOciDataSafeListUserGrants#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#filter DataOciDataSafeListUserGrants#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeListUserGrants.IDataOciDataSafeListUserGrantsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeListUserGrants
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#grant_key DataOciDataSafeListUserGrants#grant_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#grant_key DataOciDataSafeListUserGrants#grant_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "grantKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GrantKey
@@ -96,7 +96,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#grant_name DataOciDataSafeListUserGrants#grant_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#grant_name DataOciDataSafeListUserGrants#grant_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "grantName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GrantName
@@ -105,7 +105,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#id DataOciDataSafeListUserGrants#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#id DataOciDataSafeListUserGrants#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#privilege_category DataOciDataSafeListUserGrants#privilege_category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#privilege_category DataOciDataSafeListUserGrants#privilege_category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privilegeCategory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivilegeCategory
@@ -127,7 +127,7 @@ namespace oci.DataOciDataSafeListUserGrants
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_list_user_grants#privilege_type DataOciDataSafeListUserGrants#privilege_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_list_user_grants#privilege_type DataOciDataSafeListUserGrants#privilege_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privilegeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivilegeType

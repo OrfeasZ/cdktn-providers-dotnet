@@ -5,7 +5,7 @@ namespace oci.LogAnalyticsNamespaceLookup
     /// <remarks>
     /// <h1><c>oci_log_analytics_namespace_lookup</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/log_analytics_namespace_lookup"><c>oci_log_analytics_namespace_lookup</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_namespace_lookup"><c>oci_log_analytics_namespace_lookup</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

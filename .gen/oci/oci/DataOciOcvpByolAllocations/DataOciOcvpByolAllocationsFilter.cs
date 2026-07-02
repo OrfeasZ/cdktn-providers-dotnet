@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpByolAllocations
     [JsiiByValue(fqn: "oci.dataOciOcvpByolAllocations.DataOciOcvpByolAllocationsFilter")]
     public class DataOciOcvpByolAllocationsFilter : oci.DataOciOcvpByolAllocations.IDataOciOcvpByolAllocationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ocvp_byol_allocations#name DataOciOcvpByolAllocations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_byol_allocations#name DataOciOcvpByolAllocations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ocvp_byol_allocations#values DataOciOcvpByolAllocations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_byol_allocations#values DataOciOcvpByolAllocations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOcvpByolAllocations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ocvp_byol_allocations#regex DataOciOcvpByolAllocations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_byol_allocations#regex DataOciOcvpByolAllocations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

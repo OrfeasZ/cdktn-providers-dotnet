@@ -5,7 +5,7 @@ namespace oci.IdentityDomainsMySupportAccount
     /// <remarks>
     /// <h1><c>oci_identity_domains_my_support_account</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_support_account"><c>oci_identity_domains_my_support_account</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_my_support_account"><c>oci_identity_domains_my_support_account</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

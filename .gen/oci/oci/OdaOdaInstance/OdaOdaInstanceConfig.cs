@@ -9,7 +9,7 @@ namespace oci.OdaOdaInstance
     [JsiiByValue(fqn: "oci.odaOdaInstance.OdaOdaInstanceConfig")]
     public class OdaOdaInstanceConfig : oci.OdaOdaInstance.IOdaOdaInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#compartment_id OdaOdaInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#compartment_id OdaOdaInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#shape_name OdaOdaInstance#shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#shape_name OdaOdaInstance#shape_name}.</summary>
         [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}")]
         public string ShapeName
         {
@@ -25,7 +25,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#defined_tags OdaOdaInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#defined_tags OdaOdaInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#description OdaOdaInstance#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#description OdaOdaInstance#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -43,7 +43,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#display_name OdaOdaInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#display_name OdaOdaInstance#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -52,7 +52,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#freeform_tags OdaOdaInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#freeform_tags OdaOdaInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -61,7 +61,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#id OdaOdaInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#id OdaOdaInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.OdaOdaInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#identity_domain OdaOdaInstance#identity_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#identity_domain OdaOdaInstance#identity_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdentityDomain
@@ -85,7 +85,7 @@ namespace oci.OdaOdaInstance
 
         private object? _isRoleBasedAccess;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#is_role_based_access OdaOdaInstance#is_role_based_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#is_role_based_access OdaOdaInstance#is_role_based_access}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -117,7 +117,7 @@ namespace oci.OdaOdaInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#state OdaOdaInstance#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#state OdaOdaInstance#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -128,7 +128,7 @@ namespace oci.OdaOdaInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/oda_oda_instance#timeouts OdaOdaInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/oda_oda_instance#timeouts OdaOdaInstance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.odaOdaInstance.OdaOdaInstanceTimeouts\"}", isOptional: true)]

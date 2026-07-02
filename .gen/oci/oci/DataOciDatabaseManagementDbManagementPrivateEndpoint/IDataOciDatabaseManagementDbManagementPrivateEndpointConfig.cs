@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementDbManagementPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementDbManagementPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementDbManagementPrivateEndpoint.DataOciDatabaseManagementDbManagementPrivateEndpointConfig")]
     public interface IDataOciDatabaseManagementDbManagementPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_db_management_private_endpoint#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpoint#db_management_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_db_management_private_endpoint#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpoint#db_management_private_endpoint_id}.</summary>
         [JsiiProperty(name: "dbManagementPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string DbManagementPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementDbManagementPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_db_management_private_endpoint#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpoint#db_management_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_db_management_private_endpoint#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpoint#db_management_private_endpoint_id}.</summary>
             [JsiiProperty(name: "dbManagementPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbManagementPrivateEndpointId
             {

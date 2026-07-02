@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
     [JsiiInterface(nativeType: typeof(IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricNameConfig), fullyQualifiedName: "oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricNameConfig")]
     public interface IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricNameConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_pattern_on_prefix StackMonitoringMonitoredResourceTask#exclude_pattern_on_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_pattern_on_prefix StackMonitoringMonitoredResourceTask#exclude_pattern_on_prefix}.</summary>
         [JsiiProperty(name: "excludePatternOnPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExcludePatternOnPrefix
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#is_prefix_with_collector_type StackMonitoringMonitoredResourceTask#is_prefix_with_collector_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#is_prefix_with_collector_type StackMonitoringMonitoredResourceTask#is_prefix_with_collector_type}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_pattern_on_prefix StackMonitoringMonitoredResourceTask#exclude_pattern_on_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_pattern_on_prefix StackMonitoringMonitoredResourceTask#exclude_pattern_on_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "excludePatternOnPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExcludePatternOnPrefix
@@ -47,7 +47,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/stack_monitoring_monitored_resource_task#is_prefix_with_collector_type StackMonitoringMonitoredResourceTask#is_prefix_with_collector_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/stack_monitoring_monitored_resource_task#is_prefix_with_collector_type StackMonitoringMonitoredResourceTask#is_prefix_with_collector_type}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,14 +7,14 @@ namespace oci.ObjectstorageNamespaceMetadata
     [JsiiInterface(nativeType: typeof(IObjectstorageNamespaceMetadataConfig), fullyQualifiedName: "oci.objectstorageNamespaceMetadata.ObjectstorageNamespaceMetadataConfig")]
     public interface IObjectstorageNamespaceMetadataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#namespace ObjectstorageNamespaceMetadata#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#namespace ObjectstorageNamespaceMetadata#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#default_s3compartment_id ObjectstorageNamespaceMetadata#default_s3compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#default_s3compartment_id ObjectstorageNamespaceMetadata#default_s3compartment_id}.</summary>
         [JsiiProperty(name: "defaultS3CompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultS3CompartmentId
@@ -25,7 +25,7 @@ namespace oci.ObjectstorageNamespaceMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#default_swift_compartment_id ObjectstorageNamespaceMetadata#default_swift_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#default_swift_compartment_id ObjectstorageNamespaceMetadata#default_swift_compartment_id}.</summary>
         [JsiiProperty(name: "defaultSwiftCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultSwiftCompartmentId
@@ -36,7 +36,7 @@ namespace oci.ObjectstorageNamespaceMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#id ObjectstorageNamespaceMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#id ObjectstorageNamespaceMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ namespace oci.ObjectstorageNamespaceMetadata
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#timeouts ObjectstorageNamespaceMetadata#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#timeouts ObjectstorageNamespaceMetadata#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.objectstorageNamespaceMetadata.ObjectstorageNamespaceMetadataTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,14 +72,14 @@ namespace oci.ObjectstorageNamespaceMetadata
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#namespace ObjectstorageNamespaceMetadata#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#namespace ObjectstorageNamespaceMetadata#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#default_s3compartment_id ObjectstorageNamespaceMetadata#default_s3compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#default_s3compartment_id ObjectstorageNamespaceMetadata#default_s3compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultS3CompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultS3CompartmentId
@@ -87,7 +87,7 @@ namespace oci.ObjectstorageNamespaceMetadata
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#default_swift_compartment_id ObjectstorageNamespaceMetadata#default_swift_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#default_swift_compartment_id ObjectstorageNamespaceMetadata#default_swift_compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultSwiftCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultSwiftCompartmentId
@@ -95,7 +95,7 @@ namespace oci.ObjectstorageNamespaceMetadata
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#id ObjectstorageNamespaceMetadata#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#id ObjectstorageNamespaceMetadata#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.ObjectstorageNamespaceMetadata
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/objectstorage_namespace_metadata#timeouts ObjectstorageNamespaceMetadata#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/objectstorage_namespace_metadata#timeouts ObjectstorageNamespaceMetadata#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.objectstorageNamespaceMetadata.ObjectstorageNamespaceMetadataTimeouts\"}", isOptional: true)]

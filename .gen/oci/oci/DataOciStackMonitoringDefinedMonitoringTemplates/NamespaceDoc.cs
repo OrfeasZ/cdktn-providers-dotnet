@@ -5,7 +5,7 @@ namespace oci.DataOciStackMonitoringDefinedMonitoringTemplates
     /// <remarks>
     /// <h1><c>data_oci_stack_monitoring_defined_monitoring_templates</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/stack_monitoring_defined_monitoring_templates"><c>data_oci_stack_monitoring_defined_monitoring_templates</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_defined_monitoring_templates"><c>data_oci_stack_monitoring_defined_monitoring_templates</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

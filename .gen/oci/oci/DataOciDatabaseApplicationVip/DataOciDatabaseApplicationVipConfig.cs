@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseApplicationVip
     [JsiiByValue(fqn: "oci.dataOciDatabaseApplicationVip.DataOciDatabaseApplicationVipConfig")]
     public class DataOciDatabaseApplicationVipConfig : oci.DataOciDatabaseApplicationVip.IDataOciDatabaseApplicationVipConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_application_vip#application_vip_id DataOciDatabaseApplicationVip#application_vip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_application_vip#application_vip_id DataOciDatabaseApplicationVip#application_vip_id}.</summary>
         [JsiiProperty(name: "applicationVipId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationVipId
         {

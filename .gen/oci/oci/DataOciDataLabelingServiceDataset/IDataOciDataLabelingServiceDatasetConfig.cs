@@ -7,7 +7,7 @@ namespace oci.DataOciDataLabelingServiceDataset
     [JsiiInterface(nativeType: typeof(IDataOciDataLabelingServiceDatasetConfig), fullyQualifiedName: "oci.dataOciDataLabelingServiceDataset.DataOciDataLabelingServiceDatasetConfig")]
     public interface IDataOciDataLabelingServiceDatasetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_labeling_service_dataset#dataset_id DataOciDataLabelingServiceDataset#dataset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_labeling_service_dataset#dataset_id DataOciDataLabelingServiceDataset#dataset_id}.</summary>
         [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}")]
         string DatasetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataLabelingServiceDataset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_labeling_service_dataset#dataset_id DataOciDataLabelingServiceDataset#dataset_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_labeling_service_dataset#dataset_id DataOciDataLabelingServiceDataset#dataset_id}.</summary>
             [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatasetId
             {

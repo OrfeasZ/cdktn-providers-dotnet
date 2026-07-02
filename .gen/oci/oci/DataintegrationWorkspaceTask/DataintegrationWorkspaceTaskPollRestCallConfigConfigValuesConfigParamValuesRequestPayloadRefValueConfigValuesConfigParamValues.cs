@@ -9,7 +9,7 @@ namespace oci.DataintegrationWorkspaceTask
     {
         /// <summary>data_param block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataintegration_workspace_task#data_param DataintegrationWorkspaceTask#data_param}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataParam", typeJson: "{\"fqn\":\"oci.dataintegrationWorkspaceTask.DataintegrationWorkspaceTaskPollRestCallConfigConfigValuesConfigParamValuesRequestPayloadRefValueConfigValuesConfigParamValuesDataParam\"}", isOptional: true)]

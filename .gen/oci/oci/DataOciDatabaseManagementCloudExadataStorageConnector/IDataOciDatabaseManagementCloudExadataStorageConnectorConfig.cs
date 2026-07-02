@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageConnector
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudExadataStorageConnectorConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudExadataStorageConnector.DataOciDatabaseManagementCloudExadataStorageConnectorConfig")]
     public interface IDataOciDatabaseManagementCloudExadataStorageConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_storage_connector#cloud_exadata_storage_connector_id DataOciDatabaseManagementCloudExadataStorageConnector#cloud_exadata_storage_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_exadata_storage_connector#cloud_exadata_storage_connector_id DataOciDatabaseManagementCloudExadataStorageConnector#cloud_exadata_storage_connector_id}.</summary>
         [JsiiProperty(name: "cloudExadataStorageConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudExadataStorageConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_cloud_exadata_storage_connector#cloud_exadata_storage_connector_id DataOciDatabaseManagementCloudExadataStorageConnector#cloud_exadata_storage_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_exadata_storage_connector#cloud_exadata_storage_connector_id DataOciDatabaseManagementCloudExadataStorageConnector#cloud_exadata_storage_connector_id}.</summary>
             [JsiiProperty(name: "cloudExadataStorageConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudExadataStorageConnectorId
             {

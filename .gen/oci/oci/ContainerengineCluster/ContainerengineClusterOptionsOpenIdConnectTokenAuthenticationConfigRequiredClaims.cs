@@ -7,7 +7,7 @@ namespace oci.ContainerengineCluster
     [JsiiByValue(fqn: "oci.containerengineCluster.ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfigRequiredClaims")]
     public class ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfigRequiredClaims : oci.ContainerengineCluster.IContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfigRequiredClaims
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/containerengine_cluster#key ContainerengineCluster#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_cluster#key ContainerengineCluster#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace oci.ContainerengineCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/containerengine_cluster#value ContainerengineCluster#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_cluster#value ContainerengineCluster#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

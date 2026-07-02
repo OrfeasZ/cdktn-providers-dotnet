@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSecurityAssessment
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityAssessmentConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityAssessment.DataOciDataSafeSecurityAssessmentConfig")]
     public interface IDataOciDataSafeSecurityAssessmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment#security_assessment_id DataOciDataSafeSecurityAssessment#security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment#security_assessment_id DataOciDataSafeSecurityAssessment#security_assessment_id}.</summary>
         [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityAssessmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSecurityAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment#security_assessment_id DataOciDataSafeSecurityAssessment#security_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment#security_assessment_id DataOciDataSafeSecurityAssessment#security_assessment_id}.</summary>
             [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityAssessmentId
             {

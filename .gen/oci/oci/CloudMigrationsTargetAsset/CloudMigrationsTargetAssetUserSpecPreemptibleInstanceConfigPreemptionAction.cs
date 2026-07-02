@@ -9,7 +9,7 @@ namespace oci.CloudMigrationsTargetAsset
     [JsiiByValue(fqn: "oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionAction")]
     public class CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionAction : oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace oci.CloudMigrationsTargetAsset
 
         private object? _preserveBootVolume;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#preserve_boot_volume CloudMigrationsTargetAsset#preserve_boot_volume}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#preserve_boot_volume CloudMigrationsTargetAsset#preserve_boot_volume}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

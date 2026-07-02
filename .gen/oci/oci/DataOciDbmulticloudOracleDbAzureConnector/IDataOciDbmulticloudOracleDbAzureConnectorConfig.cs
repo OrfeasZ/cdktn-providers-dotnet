@@ -7,7 +7,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureConnector
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAzureConnectorConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAzureConnector.DataOciDbmulticloudOracleDbAzureConnectorConfig")]
     public interface IDataOciDbmulticloudOracleDbAzureConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_connector#oracle_db_azure_connector_id DataOciDbmulticloudOracleDbAzureConnector#oracle_db_azure_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_connector#oracle_db_azure_connector_id DataOciDbmulticloudOracleDbAzureConnector#oracle_db_azure_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbAzureConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_connector#oracle_db_azure_connector_id DataOciDbmulticloudOracleDbAzureConnector#oracle_db_azure_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_connector#oracle_db_azure_connector_id DataOciDbmulticloudOracleDbAzureConnector#oracle_db_azure_connector_id}.</summary>
             [JsiiProperty(name: "oracleDbAzureConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbAzureConnectorId
             {

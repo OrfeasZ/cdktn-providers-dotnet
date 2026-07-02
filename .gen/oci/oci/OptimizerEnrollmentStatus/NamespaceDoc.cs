@@ -5,7 +5,7 @@ namespace oci.OptimizerEnrollmentStatus
     /// <remarks>
     /// <h1><c>oci_optimizer_enrollment_status</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/optimizer_enrollment_status"><c>oci_optimizer_enrollment_status</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_enrollment_status"><c>oci_optimizer_enrollment_status</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

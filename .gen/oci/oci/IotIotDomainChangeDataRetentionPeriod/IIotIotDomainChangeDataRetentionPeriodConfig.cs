@@ -7,28 +7,28 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
     [JsiiInterface(nativeType: typeof(IIotIotDomainChangeDataRetentionPeriodConfig), fullyQualifiedName: "oci.iotIotDomainChangeDataRetentionPeriod.IotIotDomainChangeDataRetentionPeriodConfig")]
     public interface IIotIotDomainChangeDataRetentionPeriodConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#data_retention_period_in_days IotIotDomainChangeDataRetentionPeriod#data_retention_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#data_retention_period_in_days IotIotDomainChangeDataRetentionPeriod#data_retention_period_in_days}.</summary>
         [JsiiProperty(name: "dataRetentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}")]
         double DataRetentionPeriodInDays
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#iot_domain_id IotIotDomainChangeDataRetentionPeriod#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#iot_domain_id IotIotDomainChangeDataRetentionPeriod#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string IotDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#type IotIotDomainChangeDataRetentionPeriod#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#type IotIotDomainChangeDataRetentionPeriod#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#id IotIotDomainChangeDataRetentionPeriod#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#id IotIotDomainChangeDataRetentionPeriod#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#timeouts IotIotDomainChangeDataRetentionPeriod#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#timeouts IotIotDomainChangeDataRetentionPeriod#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotDomainChangeDataRetentionPeriod.IotIotDomainChangeDataRetentionPeriodTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,28 +64,28 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#data_retention_period_in_days IotIotDomainChangeDataRetentionPeriod#data_retention_period_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#data_retention_period_in_days IotIotDomainChangeDataRetentionPeriod#data_retention_period_in_days}.</summary>
             [JsiiProperty(name: "dataRetentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}")]
             public double DataRetentionPeriodInDays
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#iot_domain_id IotIotDomainChangeDataRetentionPeriod#iot_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#iot_domain_id IotIotDomainChangeDataRetentionPeriod#iot_domain_id}.</summary>
             [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string IotDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#type IotIotDomainChangeDataRetentionPeriod#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#type IotIotDomainChangeDataRetentionPeriod#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#id IotIotDomainChangeDataRetentionPeriod#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#id IotIotDomainChangeDataRetentionPeriod#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_iot_domain_change_data_retention_period#timeouts IotIotDomainChangeDataRetentionPeriod#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_iot_domain_change_data_retention_period#timeouts IotIotDomainChangeDataRetentionPeriod#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotDomainChangeDataRetentionPeriod.IotIotDomainChangeDataRetentionPeriodTimeouts\"}", isOptional: true)]

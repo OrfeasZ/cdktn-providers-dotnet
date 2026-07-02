@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionStreamGroup
     [JsiiByValue(fqn: "oci.dataOciAiVisionStreamGroup.DataOciAiVisionStreamGroupConfig")]
     public class DataOciAiVisionStreamGroupConfig : oci.DataOciAiVisionStreamGroup.IDataOciAiVisionStreamGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_stream_group#stream_group_id DataOciAiVisionStreamGroup#stream_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_vision_stream_group#stream_group_id DataOciAiVisionStreamGroup#stream_group_id}.</summary>
         [JsiiProperty(name: "streamGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamGroupId
         {

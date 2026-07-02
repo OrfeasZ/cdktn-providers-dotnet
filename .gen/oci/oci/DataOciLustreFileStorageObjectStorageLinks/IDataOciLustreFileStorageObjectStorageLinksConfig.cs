@@ -7,7 +7,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
     [JsiiInterface(nativeType: typeof(IDataOciLustreFileStorageObjectStorageLinksConfig), fullyQualifiedName: "oci.dataOciLustreFileStorageObjectStorageLinks.DataOciLustreFileStorageObjectStorageLinksConfig")]
     public interface IDataOciLustreFileStorageObjectStorageLinksConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#availability_domain DataOciLustreFileStorageObjectStorageLinks#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#availability_domain DataOciLustreFileStorageObjectStorageLinks#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityDomain
@@ -18,7 +18,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#compartment_id DataOciLustreFileStorageObjectStorageLinks#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#compartment_id DataOciLustreFileStorageObjectStorageLinks#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#display_name DataOciLustreFileStorageObjectStorageLinks#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#display_name DataOciLustreFileStorageObjectStorageLinks#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -42,7 +42,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#filter DataOciLustreFileStorageObjectStorageLinks#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#filter DataOciLustreFileStorageObjectStorageLinks#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLustreFileStorageObjectStorageLinks.IDataOciLustreFileStorageObjectStorageLinksFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciLustreFileStorageObjectStorageLinks.DataOciLustreFileStorageObjectStorageLinksFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#id DataOciLustreFileStorageObjectStorageLinks#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#id DataOciLustreFileStorageObjectStorageLinks#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#lustre_file_system_id DataOciLustreFileStorageObjectStorageLinks#lustre_file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#lustre_file_system_id DataOciLustreFileStorageObjectStorageLinks#lustre_file_system_id}.</summary>
         [JsiiProperty(name: "lustreFileSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LustreFileSystemId
@@ -81,7 +81,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#state DataOciLustreFileStorageObjectStorageLinks#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#state DataOciLustreFileStorageObjectStorageLinks#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -99,7 +99,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#availability_domain DataOciLustreFileStorageObjectStorageLinks#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#availability_domain DataOciLustreFileStorageObjectStorageLinks#availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityDomain
@@ -107,7 +107,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#compartment_id DataOciLustreFileStorageObjectStorageLinks#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#compartment_id DataOciLustreFileStorageObjectStorageLinks#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -115,7 +115,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#display_name DataOciLustreFileStorageObjectStorageLinks#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#display_name DataOciLustreFileStorageObjectStorageLinks#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -125,7 +125,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#filter DataOciLustreFileStorageObjectStorageLinks#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#filter DataOciLustreFileStorageObjectStorageLinks#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLustreFileStorageObjectStorageLinks.IDataOciLustreFileStorageObjectStorageLinksFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -135,7 +135,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#id DataOciLustreFileStorageObjectStorageLinks#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#id DataOciLustreFileStorageObjectStorageLinks#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -147,7 +147,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#lustre_file_system_id DataOciLustreFileStorageObjectStorageLinks#lustre_file_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#lustre_file_system_id DataOciLustreFileStorageObjectStorageLinks#lustre_file_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lustreFileSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LustreFileSystemId
@@ -155,7 +155,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/lustre_file_storage_object_storage_links#state DataOciLustreFileStorageObjectStorageLinks#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_links#state DataOciLustreFileStorageObjectStorageLinks#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetConfig")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetConfig : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_property_set#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_property_set#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_runtime_database_tools_connection_property_set#property_set_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#property_set_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_property_set#property_set_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#property_set_key}.</summary>
         [JsiiProperty(name: "propertySetKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PropertySetKey
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciKmsKey
     [JsiiByValue(fqn: "oci.dataOciKmsKey.DataOciKmsKeyConfig")]
     public class DataOciKmsKeyConfig : oci.DataOciKmsKey.IDataOciKmsKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/kms_key#key_id DataOciKmsKey#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/kms_key#key_id DataOciKmsKey#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciKmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/kms_key#management_endpoint DataOciKmsKey#management_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/kms_key#management_endpoint DataOciKmsKey#management_endpoint}.</summary>
         [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementEndpoint
         {

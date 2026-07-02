@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseMigrationJob
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationJobConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationJob.DataOciDatabaseMigrationJobConfig")]
     public interface IDataOciDatabaseMigrationJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_migration_job#job_id DataOciDatabaseMigrationJob#job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_job#job_id DataOciDatabaseMigrationJob#job_id}.</summary>
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
         string JobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseMigrationJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_migration_job#job_id DataOciDatabaseMigrationJob#job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_job#job_id DataOciDatabaseMigrationJob#job_id}.</summary>
             [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
             public string JobId
             {

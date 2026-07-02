@@ -7,14 +7,14 @@ namespace oci.AiDocumentModel
     [JsiiInterface(nativeType: typeof(IAiDocumentModelModelSubType), fullyQualifiedName: "oci.aiDocumentModel.AiDocumentModelModelSubType")]
     public interface IAiDocumentModelModelSubType
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}.</summary>
         [JsiiProperty(name: "modelSubType", typeJson: "{\"primitive\":\"string\"}")]
         string ModelSubType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}.</summary>
         [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
         string ModelType
         {
@@ -28,14 +28,14 @@ namespace oci.AiDocumentModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}.</summary>
             [JsiiProperty(name: "modelSubType", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelSubType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}.</summary>
             [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelType
             {

@@ -7,7 +7,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiInterface(nativeType: typeof(IApmSyntheticsMonitorConfigurationClientCertificateDetailsClientCertificate), fullyQualifiedName: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationClientCertificateDetailsClientCertificate")]
     public interface IApmSyntheticsMonitorConfigurationClientCertificateDetailsClientCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_monitor#content ApmSyntheticsMonitor#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_monitor#content ApmSyntheticsMonitor#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Content
@@ -18,7 +18,7 @@ namespace oci.ApmSyntheticsMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_monitor#file_name ApmSyntheticsMonitor#file_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_monitor#file_name ApmSyntheticsMonitor#file_name}.</summary>
         [JsiiProperty(name: "fileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FileName
@@ -36,7 +36,7 @@ namespace oci.ApmSyntheticsMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_monitor#content ApmSyntheticsMonitor#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_monitor#content ApmSyntheticsMonitor#content}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Content
@@ -44,7 +44,7 @@ namespace oci.ApmSyntheticsMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apm_synthetics_monitor#file_name ApmSyntheticsMonitor#file_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_synthetics_monitor#file_name ApmSyntheticsMonitor#file_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FileName

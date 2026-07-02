@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagedInstanceInstallPackagesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstanceInstallPackagesManagementWorkRequestDetails), fullyQualifiedName: "oci.osManagementHubManagedInstanceInstallPackagesManagement.OsManagementHubManagedInstanceInstallPackagesManagementWorkRequestDetails")]
     public interface IOsManagementHubManagedInstanceInstallPackagesManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_install_packages_management#description OsManagementHubManagedInstanceInstallPackagesManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_install_packages_management#description OsManagementHubManagedInstanceInstallPackagesManagement#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubManagedInstanceInstallPackagesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_install_packages_management#display_name OsManagementHubManagedInstanceInstallPackagesManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_install_packages_management#display_name OsManagementHubManagedInstanceInstallPackagesManagement#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -36,7 +36,7 @@ namespace oci.OsManagementHubManagedInstanceInstallPackagesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_install_packages_management#description OsManagementHubManagedInstanceInstallPackagesManagement#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_install_packages_management#description OsManagementHubManagedInstanceInstallPackagesManagement#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -44,7 +44,7 @@ namespace oci.OsManagementHubManagedInstanceInstallPackagesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_install_packages_management#display_name OsManagementHubManagedInstanceInstallPackagesManagement#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_install_packages_management#display_name OsManagementHubManagedInstanceInstallPackagesManagement#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName

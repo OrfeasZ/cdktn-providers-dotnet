@@ -5,7 +5,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
     /// <remarks>
     /// <h1><c>data_oci_fleet_apps_management_task_records</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fleet_apps_management_task_records"><c>data_oci_fleet_apps_management_task_records</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_task_records"><c>data_oci_fleet_apps_management_task_records</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

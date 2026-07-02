@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmInstance
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalAsmInstanceConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalAsmInstance.DataOciDatabaseManagementExternalAsmInstanceConfig")]
     public interface IDataOciDatabaseManagementExternalAsmInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_asm_instance#external_asm_instance_id DataOciDatabaseManagementExternalAsmInstance#external_asm_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_asm_instance#external_asm_instance_id DataOciDatabaseManagementExternalAsmInstance#external_asm_instance_id}.</summary>
         [JsiiProperty(name: "externalAsmInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalAsmInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_asm_instance#external_asm_instance_id DataOciDatabaseManagementExternalAsmInstance#external_asm_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_asm_instance#external_asm_instance_id DataOciDatabaseManagementExternalAsmInstance#external_asm_instance_id}.</summary>
             [JsiiProperty(name: "externalAsmInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalAsmInstanceId
             {

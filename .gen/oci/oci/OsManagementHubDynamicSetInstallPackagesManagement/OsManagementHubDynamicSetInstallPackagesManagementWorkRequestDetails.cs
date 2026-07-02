@@ -7,7 +7,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
     [JsiiByValue(fqn: "oci.osManagementHubDynamicSetInstallPackagesManagement.OsManagementHubDynamicSetInstallPackagesManagementWorkRequestDetails")]
     public class OsManagementHubDynamicSetInstallPackagesManagementWorkRequestDetails : oci.OsManagementHubDynamicSetInstallPackagesManagement.IOsManagementHubDynamicSetInstallPackagesManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#description OsManagementHubDynamicSetInstallPackagesManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#description OsManagementHubDynamicSetInstallPackagesManagement#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#display_name OsManagementHubDynamicSetInstallPackagesManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#display_name OsManagementHubDynamicSetInstallPackagesManagement#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

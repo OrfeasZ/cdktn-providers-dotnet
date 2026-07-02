@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeAlertAnalytic
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAlertAnalyticConfig), fullyQualifiedName: "oci.dataOciDataSafeAlertAnalytic.DataOciDataSafeAlertAnalyticConfig")]
     public interface IDataOciDataSafeAlertAnalyticConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#compartment_id DataOciDataSafeAlertAnalytic#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#compartment_id DataOciDataSafeAlertAnalytic#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#access_level DataOciDataSafeAlertAnalytic#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#access_level DataOciDataSafeAlertAnalytic#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#compartment_id_in_subtree DataOciDataSafeAlertAnalytic#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#compartment_id_in_subtree DataOciDataSafeAlertAnalytic#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#group_by DataOciDataSafeAlertAnalytic#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#group_by DataOciDataSafeAlertAnalytic#group_by}.</summary>
         [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? GroupBy
@@ -50,7 +50,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#id DataOciDataSafeAlertAnalytic#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#id DataOciDataSafeAlertAnalytic#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#query_time_zone DataOciDataSafeAlertAnalytic#query_time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#query_time_zone DataOciDataSafeAlertAnalytic#query_time_zone}.</summary>
         [JsiiProperty(name: "queryTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? QueryTimeZone
@@ -76,7 +76,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#scim_query DataOciDataSafeAlertAnalytic#scim_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#scim_query DataOciDataSafeAlertAnalytic#scim_query}.</summary>
         [JsiiProperty(name: "scimQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScimQuery
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#summary_field DataOciDataSafeAlertAnalytic#summary_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#summary_field DataOciDataSafeAlertAnalytic#summary_field}.</summary>
         [JsiiProperty(name: "summaryField", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SummaryField
@@ -98,7 +98,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#time_ended DataOciDataSafeAlertAnalytic#time_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#time_ended DataOciDataSafeAlertAnalytic#time_ended}.</summary>
         [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeEnded
@@ -109,7 +109,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#time_started DataOciDataSafeAlertAnalytic#time_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#time_started DataOciDataSafeAlertAnalytic#time_started}.</summary>
         [JsiiProperty(name: "timeStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStarted
@@ -127,14 +127,14 @@ namespace oci.DataOciDataSafeAlertAnalytic
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#compartment_id DataOciDataSafeAlertAnalytic#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#compartment_id DataOciDataSafeAlertAnalytic#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#access_level DataOciDataSafeAlertAnalytic#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#access_level DataOciDataSafeAlertAnalytic#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -142,7 +142,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#compartment_id_in_subtree DataOciDataSafeAlertAnalytic#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#compartment_id_in_subtree DataOciDataSafeAlertAnalytic#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -153,7 +153,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#group_by DataOciDataSafeAlertAnalytic#group_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#group_by DataOciDataSafeAlertAnalytic#group_by}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? GroupBy
@@ -161,7 +161,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#id DataOciDataSafeAlertAnalytic#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#id DataOciDataSafeAlertAnalytic#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#query_time_zone DataOciDataSafeAlertAnalytic#query_time_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#query_time_zone DataOciDataSafeAlertAnalytic#query_time_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "queryTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? QueryTimeZone
@@ -181,7 +181,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#scim_query DataOciDataSafeAlertAnalytic#scim_query}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#scim_query DataOciDataSafeAlertAnalytic#scim_query}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scimQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScimQuery
@@ -189,7 +189,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#summary_field DataOciDataSafeAlertAnalytic#summary_field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#summary_field DataOciDataSafeAlertAnalytic#summary_field}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "summaryField", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SummaryField
@@ -197,7 +197,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#time_ended DataOciDataSafeAlertAnalytic#time_ended}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#time_ended DataOciDataSafeAlertAnalytic#time_ended}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeEnded
@@ -205,7 +205,7 @@ namespace oci.DataOciDataSafeAlertAnalytic
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_alert_analytic#time_started DataOciDataSafeAlertAnalytic#time_started}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_analytic#time_started DataOciDataSafeAlertAnalytic#time_started}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStarted

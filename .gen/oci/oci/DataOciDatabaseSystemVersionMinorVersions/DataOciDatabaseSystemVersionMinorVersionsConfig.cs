@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
     [JsiiByValue(fqn: "oci.dataOciDatabaseSystemVersionMinorVersions.DataOciDatabaseSystemVersionMinorVersionsConfig")]
     public class DataOciDatabaseSystemVersionMinorVersionsConfig : oci.DataOciDatabaseSystemVersionMinorVersions.IDataOciDatabaseSystemVersionMinorVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#compartment_id DataOciDatabaseSystemVersionMinorVersions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#compartment_id DataOciDatabaseSystemVersionMinorVersions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#gi_version DataOciDatabaseSystemVersionMinorVersions#gi_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#gi_version DataOciDatabaseSystemVersionMinorVersions#gi_version}.</summary>
         [JsiiProperty(name: "giVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string GiVersion
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#major_version DataOciDatabaseSystemVersionMinorVersions#major_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#major_version DataOciDatabaseSystemVersionMinorVersions#major_version}.</summary>
         [JsiiProperty(name: "majorVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string MajorVersion
         {
@@ -37,7 +37,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#filter DataOciDatabaseSystemVersionMinorVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#filter DataOciDatabaseSystemVersionMinorVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseSystemVersionMinorVersions.IDataOciDatabaseSystemVersionMinorVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#id DataOciDatabaseSystemVersionMinorVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#id DataOciDatabaseSystemVersionMinorVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
 
         private object? _isLatest;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#is_latest DataOciDatabaseSystemVersionMinorVersions#is_latest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#is_latest DataOciDatabaseSystemVersionMinorVersions#is_latest}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -115,7 +115,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#resource_id DataOciDatabaseSystemVersionMinorVersions#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#resource_id DataOciDatabaseSystemVersionMinorVersions#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -124,7 +124,7 @@ namespace oci.DataOciDatabaseSystemVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_system_version_minor_versions#shape DataOciDatabaseSystemVersionMinorVersions#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_system_version_minor_versions#shape DataOciDatabaseSystemVersionMinorVersions#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape

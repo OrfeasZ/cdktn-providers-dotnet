@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneSubscriptionAvailableRegions.DataOciTenantmanagercontrolplaneSubscriptionAvailableRegionsConfig")]
     public class DataOciTenantmanagercontrolplaneSubscriptionAvailableRegionsConfig : oci.DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions.IDataOciTenantmanagercontrolplaneSubscriptionAvailableRegionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_subscription_available_regions#subscription_id DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_subscription_available_regions#subscription_id DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_subscription_available_regions#filter DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_subscription_available_regions#filter DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions.IDataOciTenantmanagercontrolplaneSubscriptionAvailableRegionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/tenantmanagercontrolplane_subscription_available_regions#id DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_subscription_available_regions#id DataOciTenantmanagercontrolplaneSubscriptionAvailableRegions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

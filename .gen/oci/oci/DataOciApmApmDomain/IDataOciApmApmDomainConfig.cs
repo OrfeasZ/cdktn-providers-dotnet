@@ -7,7 +7,7 @@ namespace oci.DataOciApmApmDomain
     [JsiiInterface(nativeType: typeof(IDataOciApmApmDomainConfig), fullyQualifiedName: "oci.dataOciApmApmDomain.DataOciApmApmDomainConfig")]
     public interface IDataOciApmApmDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_apm_domain#apm_domain_id DataOciApmApmDomain#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_apm_domain#apm_domain_id DataOciApmApmDomain#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string ApmDomainId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApmApmDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_apm_domain#apm_domain_id DataOciApmApmDomain#apm_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_apm_domain#apm_domain_id DataOciApmApmDomain#apm_domain_id}.</summary>
             [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApmDomainId
             {

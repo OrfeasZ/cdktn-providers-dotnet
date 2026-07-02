@@ -7,7 +7,7 @@ namespace oci.DataOciBatchBatchTaskProfile
     [JsiiInterface(nativeType: typeof(IDataOciBatchBatchTaskProfileConfig), fullyQualifiedName: "oci.dataOciBatchBatchTaskProfile.DataOciBatchBatchTaskProfileConfig")]
     public interface IDataOciBatchBatchTaskProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_task_profile#batch_task_profile_id DataOciBatchBatchTaskProfile#batch_task_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_task_profile#batch_task_profile_id DataOciBatchBatchTaskProfile#batch_task_profile_id}.</summary>
         [JsiiProperty(name: "batchTaskProfileId", typeJson: "{\"primitive\":\"string\"}")]
         string BatchTaskProfileId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBatchBatchTaskProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_task_profile#batch_task_profile_id DataOciBatchBatchTaskProfile#batch_task_profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_task_profile#batch_task_profile_id DataOciBatchBatchTaskProfile#batch_task_profile_id}.</summary>
             [JsiiProperty(name: "batchTaskProfileId", typeJson: "{\"primitive\":\"string\"}")]
             public string BatchTaskProfileId
             {

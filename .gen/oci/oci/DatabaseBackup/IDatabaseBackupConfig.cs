@@ -7,21 +7,21 @@ namespace oci.DatabaseBackup
     [JsiiInterface(nativeType: typeof(IDatabaseBackupConfig), fullyQualifiedName: "oci.databaseBackup.DatabaseBackupConfig")]
     public interface IDatabaseBackupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#database_id DatabaseBackup#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#database_id DatabaseBackup#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#display_name DatabaseBackup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#display_name DatabaseBackup#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#id DatabaseBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#id DatabaseBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace oci.DatabaseBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#retention_period_in_days DatabaseBackup#retention_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#retention_period_in_days DatabaseBackup#retention_period_in_days}.</summary>
         [JsiiProperty(name: "retentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionPeriodInDays
@@ -47,7 +47,7 @@ namespace oci.DatabaseBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#retention_period_in_years DatabaseBackup#retention_period_in_years}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#retention_period_in_years DatabaseBackup#retention_period_in_years}.</summary>
         [JsiiProperty(name: "retentionPeriodInYears", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionPeriodInYears
@@ -60,7 +60,7 @@ namespace oci.DatabaseBackup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#timeouts DatabaseBackup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#timeouts DatabaseBackup#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseBackup.DatabaseBackupTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,21 +79,21 @@ namespace oci.DatabaseBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#database_id DatabaseBackup#database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#database_id DatabaseBackup#database_id}.</summary>
             [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#display_name DatabaseBackup#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#display_name DatabaseBackup#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#id DatabaseBackup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#id DatabaseBackup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace oci.DatabaseBackup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#retention_period_in_days DatabaseBackup#retention_period_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#retention_period_in_days DatabaseBackup#retention_period_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionPeriodInDays
@@ -113,7 +113,7 @@ namespace oci.DatabaseBackup
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#retention_period_in_years DatabaseBackup#retention_period_in_years}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#retention_period_in_years DatabaseBackup#retention_period_in_years}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPeriodInYears", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionPeriodInYears
@@ -123,7 +123,7 @@ namespace oci.DatabaseBackup
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_backup#timeouts DatabaseBackup#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_backup#timeouts DatabaseBackup#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseBackup.DatabaseBackupTimeouts\"}", isOptional: true)]

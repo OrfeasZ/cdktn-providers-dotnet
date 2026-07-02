@@ -7,21 +7,21 @@ namespace oci.DataOciCapacityManagementOccAvailabilityCatalogs
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementOccAvailabilityCatalogsFilter), fullyQualifiedName: "oci.dataOciCapacityManagementOccAvailabilityCatalogs.DataOciCapacityManagementOccAvailabilityCatalogsFilter")]
     public interface IDataOciCapacityManagementOccAvailabilityCatalogsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_availability_catalogs#name DataOciCapacityManagementOccAvailabilityCatalogs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_availability_catalogs#name DataOciCapacityManagementOccAvailabilityCatalogs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_availability_catalogs#values DataOciCapacityManagementOccAvailabilityCatalogs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_availability_catalogs#values DataOciCapacityManagementOccAvailabilityCatalogs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_availability_catalogs#regex DataOciCapacityManagementOccAvailabilityCatalogs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_availability_catalogs#regex DataOciCapacityManagementOccAvailabilityCatalogs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCapacityManagementOccAvailabilityCatalogs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_availability_catalogs#name DataOciCapacityManagementOccAvailabilityCatalogs#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_availability_catalogs#name DataOciCapacityManagementOccAvailabilityCatalogs#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_availability_catalogs#values DataOciCapacityManagementOccAvailabilityCatalogs#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_availability_catalogs#values DataOciCapacityManagementOccAvailabilityCatalogs#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_availability_catalogs#regex DataOciCapacityManagementOccAvailabilityCatalogs#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_availability_catalogs#regex DataOciCapacityManagementOccAvailabilityCatalogs#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

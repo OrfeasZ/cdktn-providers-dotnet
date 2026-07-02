@@ -7,7 +7,7 @@ namespace oci.DataflowInvokeRun
     [JsiiByValue(fqn: "oci.dataflowInvokeRun.DataflowInvokeRunDriverShapeConfig")]
     public class DataflowInvokeRunDriverShapeConfig : oci.DataflowInvokeRun.IDataflowInvokeRunDriverShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_invoke_run#memory_in_gbs DataflowInvokeRun#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_invoke_run#memory_in_gbs DataflowInvokeRun#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -16,7 +16,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_invoke_run#ocpus DataflowInvokeRun#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_invoke_run#ocpus DataflowInvokeRun#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDatabases
     [JsiiByValue(fqn: "oci.dataOciDatabaseDatabases.DataOciDatabaseDatabasesConfig")]
     public class DataOciDatabaseDatabasesConfig : oci.DataOciDatabaseDatabases.IDataOciDatabaseDatabasesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#compartment_id DataOciDatabaseDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#compartment_id DataOciDatabaseDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#db_home_id DataOciDatabaseDatabases#db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#db_home_id DataOciDatabaseDatabases#db_home_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbHomeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbHomeId
@@ -26,7 +26,7 @@ namespace oci.DataOciDatabaseDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#db_name DataOciDatabaseDatabases#db_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#db_name DataOciDatabaseDatabases#db_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbName
@@ -39,7 +39,7 @@ namespace oci.DataOciDatabaseDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#filter DataOciDatabaseDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#filter DataOciDatabaseDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDatabases.IDataOciDatabaseDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#id DataOciDatabaseDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#id DataOciDatabaseDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#state DataOciDatabaseDatabases#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#state DataOciDatabaseDatabases#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_databases#system_id DataOciDatabaseDatabases#system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_databases#system_id DataOciDatabaseDatabases#system_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "systemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SystemId

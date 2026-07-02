@@ -9,7 +9,7 @@ namespace oci.DataOciPsqlDefaultConfiguration
     [JsiiByValue(fqn: "oci.dataOciPsqlDefaultConfiguration.DataOciPsqlDefaultConfigurationConfig")]
     public class DataOciPsqlDefaultConfigurationConfig : oci.DataOciPsqlDefaultConfiguration.IDataOciPsqlDefaultConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psql_default_configuration#default_configuration_id DataOciPsqlDefaultConfiguration#default_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psql_default_configuration#default_configuration_id DataOciPsqlDefaultConfiguration#default_configuration_id}.</summary>
         [JsiiProperty(name: "defaultConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultConfigurationId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciPsqlDefaultConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psql_default_configuration#compatible_shapes DataOciPsqlDefaultConfiguration#compatible_shapes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psql_default_configuration#compatible_shapes DataOciPsqlDefaultConfiguration#compatible_shapes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compatibleShapes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CompatibleShapes
@@ -26,7 +26,7 @@ namespace oci.DataOciPsqlDefaultConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psql_default_configuration#id DataOciPsqlDefaultConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psql_default_configuration#id DataOciPsqlDefaultConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataOciPsqlDefaultConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/psql_default_configuration#shape DataOciPsqlDefaultConfiguration#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psql_default_configuration#shape DataOciPsqlDefaultConfiguration#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape

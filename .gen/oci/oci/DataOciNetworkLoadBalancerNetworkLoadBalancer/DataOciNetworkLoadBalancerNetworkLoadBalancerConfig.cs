@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancer
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerNetworkLoadBalancer.DataOciNetworkLoadBalancerNetworkLoadBalancerConfig")]
     public class DataOciNetworkLoadBalancerNetworkLoadBalancerConfig : oci.DataOciNetworkLoadBalancerNetworkLoadBalancer.IDataOciNetworkLoadBalancerNetworkLoadBalancerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/network_load_balancer_network_load_balancer#network_load_balancer_id DataOciNetworkLoadBalancerNetworkLoadBalancer#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_load_balancer_network_load_balancer#network_load_balancer_id DataOciNetworkLoadBalancerNetworkLoadBalancer#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {

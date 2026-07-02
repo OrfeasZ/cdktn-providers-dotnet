@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesStreamCdnConfig
     [JsiiByValue(fqn: "oci.dataOciMediaServicesStreamCdnConfig.DataOciMediaServicesStreamCdnConfigConfig")]
     public class DataOciMediaServicesStreamCdnConfigConfig : oci.DataOciMediaServicesStreamCdnConfig.IDataOciMediaServicesStreamCdnConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/media_services_stream_cdn_config#stream_cdn_config_id DataOciMediaServicesStreamCdnConfig#stream_cdn_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_stream_cdn_config#stream_cdn_config_id DataOciMediaServicesStreamCdnConfig#stream_cdn_config_id}.</summary>
         [JsiiProperty(name: "streamCdnConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamCdnConfigId
         {

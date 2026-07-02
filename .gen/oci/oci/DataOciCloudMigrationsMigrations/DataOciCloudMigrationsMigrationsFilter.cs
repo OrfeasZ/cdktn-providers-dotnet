@@ -9,7 +9,7 @@ namespace oci.DataOciCloudMigrationsMigrations
     [JsiiByValue(fqn: "oci.dataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsFilter")]
     public class DataOciCloudMigrationsMigrationsFilter : oci.DataOciCloudMigrationsMigrations.IDataOciCloudMigrationsMigrationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_migrations_migrations#name DataOciCloudMigrationsMigrations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_migrations_migrations#name DataOciCloudMigrationsMigrations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudMigrationsMigrations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_migrations_migrations#values DataOciCloudMigrationsMigrations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_migrations_migrations#values DataOciCloudMigrationsMigrations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCloudMigrationsMigrations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_migrations_migrations#regex DataOciCloudMigrationsMigrations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_migrations_migrations#regex DataOciCloudMigrationsMigrations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

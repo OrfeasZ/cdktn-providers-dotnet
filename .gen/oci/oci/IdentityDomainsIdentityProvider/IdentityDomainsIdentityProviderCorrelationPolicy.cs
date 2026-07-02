@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsIdentityProvider
     [JsiiByValue(fqn: "oci.identityDomainsIdentityProvider.IdentityDomainsIdentityProviderCorrelationPolicy")]
     public class IdentityDomainsIdentityProviderCorrelationPolicy : oci.IdentityDomainsIdentityProvider.IIdentityDomainsIdentityProviderCorrelationPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_provider#type IdentityDomainsIdentityProvider#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_provider#type IdentityDomainsIdentityProvider#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_provider#value IdentityDomainsIdentityProvider#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_provider#value IdentityDomainsIdentityProvider#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsIdentityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_provider#display IdentityDomainsIdentityProvider#display}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_provider#display IdentityDomainsIdentityProvider#display}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "display", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Display

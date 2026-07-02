@@ -7,7 +7,7 @@ namespace oci.OpsiEnterpriseManagerBridge
     [JsiiByValue(fqn: "oci.opsiEnterpriseManagerBridge.OpsiEnterpriseManagerBridgeTimeouts")]
     public class OpsiEnterpriseManagerBridgeTimeouts : oci.OpsiEnterpriseManagerBridge.IOpsiEnterpriseManagerBridgeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opsi_enterprise_manager_bridge#create OpsiEnterpriseManagerBridge#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opsi_enterprise_manager_bridge#create OpsiEnterpriseManagerBridge#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opsi_enterprise_manager_bridge#delete OpsiEnterpriseManagerBridge#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opsi_enterprise_manager_bridge#delete OpsiEnterpriseManagerBridge#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opsi_enterprise_manager_bridge#update OpsiEnterpriseManagerBridge#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opsi_enterprise_manager_bridge#update OpsiEnterpriseManagerBridge#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,14 +7,14 @@ namespace oci.DatascienceModel
     [JsiiInterface(nativeType: typeof(IDatascienceModelBackupSetting), fullyQualifiedName: "oci.datascienceModel.DatascienceModelBackupSetting")]
     public interface IDatascienceModelBackupSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model#backup_region DatascienceModel#backup_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model#backup_region DatascienceModel#backup_region}.</summary>
         [JsiiProperty(name: "backupRegion", typeJson: "{\"primitive\":\"string\"}")]
         string BackupRegion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model#is_backup_enabled DatascienceModel#is_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model#is_backup_enabled DatascienceModel#is_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.DatascienceModel
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}.</summary>
         [JsiiProperty(name: "customerNotificationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomerNotificationType
@@ -42,14 +42,14 @@ namespace oci.DatascienceModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model#backup_region DatascienceModel#backup_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model#backup_region DatascienceModel#backup_region}.</summary>
             [JsiiProperty(name: "backupRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupRegion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model#is_backup_enabled DatascienceModel#is_backup_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model#is_backup_enabled DatascienceModel#is_backup_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -59,7 +59,7 @@ namespace oci.DatascienceModel
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customerNotificationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomerNotificationType

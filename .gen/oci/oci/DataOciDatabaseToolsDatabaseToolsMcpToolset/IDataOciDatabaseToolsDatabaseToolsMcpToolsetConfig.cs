@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpToolset
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsDatabaseToolsMcpToolsetConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsDatabaseToolsMcpToolset.DataOciDatabaseToolsDatabaseToolsMcpToolsetConfig")]
     public interface IDataOciDatabaseToolsDatabaseToolsMcpToolsetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_toolset#database_tools_mcp_toolset_id DataOciDatabaseToolsDatabaseToolsMcpToolset#database_tools_mcp_toolset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_toolset#database_tools_mcp_toolset_id DataOciDatabaseToolsDatabaseToolsMcpToolset#database_tools_mcp_toolset_id}.</summary>
         [JsiiProperty(name: "databaseToolsMcpToolsetId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsMcpToolsetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpToolset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_toolset#database_tools_mcp_toolset_id DataOciDatabaseToolsDatabaseToolsMcpToolset#database_tools_mcp_toolset_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_toolset#database_tools_mcp_toolset_id DataOciDatabaseToolsDatabaseToolsMcpToolset#database_tools_mcp_toolset_id}.</summary>
             [JsiiProperty(name: "databaseToolsMcpToolsetId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsMcpToolsetId
             {

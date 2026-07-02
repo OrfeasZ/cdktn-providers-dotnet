@@ -13,7 +13,7 @@ namespace oci.EventsRule
 
         /// <summary>actions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/events_rule#actions EventsRule#actions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/events_rule#actions EventsRule#actions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.EventsRule.IEventsRuleActionsActions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "actions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.eventsRule.EventsRuleActionsActions\"},\"kind\":\"array\"}}]}}")]

@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheBackup
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheBackup.DataOciRedisOciCacheBackupConfig")]
     public class DataOciRedisOciCacheBackupConfig : oci.DataOciRedisOciCacheBackup.IDataOciRedisOciCacheBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_backup#oci_cache_backup_id DataOciRedisOciCacheBackup#oci_cache_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_backup#oci_cache_backup_id DataOciRedisOciCacheBackup#oci_cache_backup_id}.</summary>
         [JsiiProperty(name: "ociCacheBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string OciCacheBackupId
         {

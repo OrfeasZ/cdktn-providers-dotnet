@@ -7,7 +7,7 @@ namespace oci.AdmRemediationRecipe
     [JsiiInterface(nativeType: typeof(IAdmRemediationRecipeConfig), fullyQualifiedName: "oci.admRemediationRecipe.AdmRemediationRecipeConfig")]
     public interface IAdmRemediationRecipeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#compartment_id AdmRemediationRecipe#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#compartment_id AdmRemediationRecipe#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.AdmRemediationRecipe
 
         /// <summary>detect_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#detect_configuration AdmRemediationRecipe#detect_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#detect_configuration AdmRemediationRecipe#detect_configuration}
         /// </remarks>
         [JsiiProperty(name: "detectConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeDetectConfiguration\"}")]
         oci.AdmRemediationRecipe.IAdmRemediationRecipeDetectConfiguration DetectConfiguration
@@ -24,7 +24,7 @@ namespace oci.AdmRemediationRecipe
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#is_run_triggered_on_kb_change AdmRemediationRecipe#is_run_triggered_on_kb_change}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#is_run_triggered_on_kb_change AdmRemediationRecipe#is_run_triggered_on_kb_change}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -34,7 +34,7 @@ namespace oci.AdmRemediationRecipe
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#knowledge_base_id AdmRemediationRecipe#knowledge_base_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#knowledge_base_id AdmRemediationRecipe#knowledge_base_id}.</summary>
         [JsiiProperty(name: "knowledgeBaseId", typeJson: "{\"primitive\":\"string\"}")]
         string KnowledgeBaseId
         {
@@ -43,7 +43,7 @@ namespace oci.AdmRemediationRecipe
 
         /// <summary>network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#network_configuration AdmRemediationRecipe#network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#network_configuration AdmRemediationRecipe#network_configuration}
         /// </remarks>
         [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeNetworkConfiguration\"}")]
         oci.AdmRemediationRecipe.IAdmRemediationRecipeNetworkConfiguration NetworkConfiguration
@@ -53,7 +53,7 @@ namespace oci.AdmRemediationRecipe
 
         /// <summary>scm_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#scm_configuration AdmRemediationRecipe#scm_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#scm_configuration AdmRemediationRecipe#scm_configuration}
         /// </remarks>
         [JsiiProperty(name: "scmConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeScmConfiguration\"}")]
         oci.AdmRemediationRecipe.IAdmRemediationRecipeScmConfiguration ScmConfiguration
@@ -63,7 +63,7 @@ namespace oci.AdmRemediationRecipe
 
         /// <summary>verify_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#verify_configuration AdmRemediationRecipe#verify_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#verify_configuration AdmRemediationRecipe#verify_configuration}
         /// </remarks>
         [JsiiProperty(name: "verifyConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeVerifyConfiguration\"}")]
         oci.AdmRemediationRecipe.IAdmRemediationRecipeVerifyConfiguration VerifyConfiguration
@@ -71,7 +71,7 @@ namespace oci.AdmRemediationRecipe
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#defined_tags AdmRemediationRecipe#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#defined_tags AdmRemediationRecipe#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -82,7 +82,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#display_name AdmRemediationRecipe#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#display_name AdmRemediationRecipe#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -93,7 +93,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#freeform_tags AdmRemediationRecipe#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#freeform_tags AdmRemediationRecipe#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -104,7 +104,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#id AdmRemediationRecipe#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#id AdmRemediationRecipe#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#state AdmRemediationRecipe#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#state AdmRemediationRecipe#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -132,7 +132,7 @@ namespace oci.AdmRemediationRecipe
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#timeouts AdmRemediationRecipe#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#timeouts AdmRemediationRecipe#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -151,7 +151,7 @@ namespace oci.AdmRemediationRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#compartment_id AdmRemediationRecipe#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#compartment_id AdmRemediationRecipe#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -160,7 +160,7 @@ namespace oci.AdmRemediationRecipe
 
             /// <summary>detect_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#detect_configuration AdmRemediationRecipe#detect_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#detect_configuration AdmRemediationRecipe#detect_configuration}
             /// </remarks>
             [JsiiProperty(name: "detectConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeDetectConfiguration\"}")]
             public oci.AdmRemediationRecipe.IAdmRemediationRecipeDetectConfiguration DetectConfiguration
@@ -168,7 +168,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<oci.AdmRemediationRecipe.IAdmRemediationRecipeDetectConfiguration>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#is_run_triggered_on_kb_change AdmRemediationRecipe#is_run_triggered_on_kb_change}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#is_run_triggered_on_kb_change AdmRemediationRecipe#is_run_triggered_on_kb_change}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -178,7 +178,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#knowledge_base_id AdmRemediationRecipe#knowledge_base_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#knowledge_base_id AdmRemediationRecipe#knowledge_base_id}.</summary>
             [JsiiProperty(name: "knowledgeBaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string KnowledgeBaseId
             {
@@ -187,7 +187,7 @@ namespace oci.AdmRemediationRecipe
 
             /// <summary>network_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#network_configuration AdmRemediationRecipe#network_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#network_configuration AdmRemediationRecipe#network_configuration}
             /// </remarks>
             [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeNetworkConfiguration\"}")]
             public oci.AdmRemediationRecipe.IAdmRemediationRecipeNetworkConfiguration NetworkConfiguration
@@ -197,7 +197,7 @@ namespace oci.AdmRemediationRecipe
 
             /// <summary>scm_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#scm_configuration AdmRemediationRecipe#scm_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#scm_configuration AdmRemediationRecipe#scm_configuration}
             /// </remarks>
             [JsiiProperty(name: "scmConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeScmConfiguration\"}")]
             public oci.AdmRemediationRecipe.IAdmRemediationRecipeScmConfiguration ScmConfiguration
@@ -207,7 +207,7 @@ namespace oci.AdmRemediationRecipe
 
             /// <summary>verify_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#verify_configuration AdmRemediationRecipe#verify_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#verify_configuration AdmRemediationRecipe#verify_configuration}
             /// </remarks>
             [JsiiProperty(name: "verifyConfiguration", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeVerifyConfiguration\"}")]
             public oci.AdmRemediationRecipe.IAdmRemediationRecipeVerifyConfiguration VerifyConfiguration
@@ -215,7 +215,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<oci.AdmRemediationRecipe.IAdmRemediationRecipeVerifyConfiguration>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#defined_tags AdmRemediationRecipe#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#defined_tags AdmRemediationRecipe#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -223,7 +223,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#display_name AdmRemediationRecipe#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#display_name AdmRemediationRecipe#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -231,7 +231,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#freeform_tags AdmRemediationRecipe#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#freeform_tags AdmRemediationRecipe#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -239,7 +239,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#id AdmRemediationRecipe#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#id AdmRemediationRecipe#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -251,7 +251,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#state AdmRemediationRecipe#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#state AdmRemediationRecipe#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -261,7 +261,7 @@ namespace oci.AdmRemediationRecipe
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/adm_remediation_recipe#timeouts AdmRemediationRecipe#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/adm_remediation_recipe#timeouts AdmRemediationRecipe#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.admRemediationRecipe.AdmRemediationRecipeTimeouts\"}", isOptional: true)]

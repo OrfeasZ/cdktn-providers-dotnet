@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateTrailSequences
     [JsiiByValue(fqn: "oci.dataOciGoldenGateTrailSequences.DataOciGoldenGateTrailSequencesConfig")]
     public class DataOciGoldenGateTrailSequencesConfig : oci.DataOciGoldenGateTrailSequences.IDataOciGoldenGateTrailSequencesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequences#deployment_id DataOciGoldenGateTrailSequences#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequences#deployment_id DataOciGoldenGateTrailSequences#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateTrailSequences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequences#display_name DataOciGoldenGateTrailSequences#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequences#display_name DataOciGoldenGateTrailSequences#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciGoldenGateTrailSequences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequences#trail_file_id DataOciGoldenGateTrailSequences#trail_file_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequences#trail_file_id DataOciGoldenGateTrailSequences#trail_file_id}.</summary>
         [JsiiProperty(name: "trailFileId", typeJson: "{\"primitive\":\"string\"}")]
         public string TrailFileId
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciGoldenGateTrailSequences
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequences#trail_sequence_id DataOciGoldenGateTrailSequences#trail_sequence_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequences#trail_sequence_id DataOciGoldenGateTrailSequences#trail_sequence_id}.</summary>
         [JsiiProperty(name: "trailSequenceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TrailSequenceId
         {
@@ -45,7 +45,7 @@ namespace oci.DataOciGoldenGateTrailSequences
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequences#filter DataOciGoldenGateTrailSequences#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequences#filter DataOciGoldenGateTrailSequences#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateTrailSequences.IDataOciGoldenGateTrailSequencesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -76,7 +76,7 @@ namespace oci.DataOciGoldenGateTrailSequences
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequences#id DataOciGoldenGateTrailSequences#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequences#id DataOciGoldenGateTrailSequences#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

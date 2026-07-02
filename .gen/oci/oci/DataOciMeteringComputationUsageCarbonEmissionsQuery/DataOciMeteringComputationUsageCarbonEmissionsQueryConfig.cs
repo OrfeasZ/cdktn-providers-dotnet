@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationUsageCarbonEmissionsQuery
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationUsageCarbonEmissionsQuery.DataOciMeteringComputationUsageCarbonEmissionsQueryConfig")]
     public class DataOciMeteringComputationUsageCarbonEmissionsQueryConfig : oci.DataOciMeteringComputationUsageCarbonEmissionsQuery.IDataOciMeteringComputationUsageCarbonEmissionsQueryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/metering_computation_usage_carbon_emissions_query#usage_carbon_emissions_query_id DataOciMeteringComputationUsageCarbonEmissionsQuery#usage_carbon_emissions_query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/metering_computation_usage_carbon_emissions_query#usage_carbon_emissions_query_id DataOciMeteringComputationUsageCarbonEmissionsQuery#usage_carbon_emissions_query_id}.</summary>
         [JsiiProperty(name: "usageCarbonEmissionsQueryId", typeJson: "{\"primitive\":\"string\"}")]
         public string UsageCarbonEmissionsQueryId
         {

@@ -7,7 +7,7 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileAttachManagedInstanceGroupManagement.OsManagementHubProfileAttachManagedInstanceGroupManagementTimeouts")]
     public class OsManagementHubProfileAttachManagedInstanceGroupManagementTimeouts : oci.OsManagementHubProfileAttachManagedInstanceGroupManagement.IOsManagementHubProfileAttachManagedInstanceGroupManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#create OsManagementHubProfileAttachManagedInstanceGroupManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#create OsManagementHubProfileAttachManagedInstanceGroupManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#delete OsManagementHubProfileAttachManagedInstanceGroupManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#delete OsManagementHubProfileAttachManagedInstanceGroupManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#update OsManagementHubProfileAttachManagedInstanceGroupManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#update OsManagementHubProfileAttachManagedInstanceGroupManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

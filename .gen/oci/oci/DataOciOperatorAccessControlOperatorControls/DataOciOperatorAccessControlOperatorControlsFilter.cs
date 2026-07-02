@@ -9,7 +9,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControls
     [JsiiByValue(fqn: "oci.dataOciOperatorAccessControlOperatorControls.DataOciOperatorAccessControlOperatorControlsFilter")]
     public class DataOciOperatorAccessControlOperatorControlsFilter : oci.DataOciOperatorAccessControlOperatorControls.IDataOciOperatorAccessControlOperatorControlsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/operator_access_control_operator_controls#name DataOciOperatorAccessControlOperatorControls#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_operator_controls#name DataOciOperatorAccessControlOperatorControls#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/operator_access_control_operator_controls#values DataOciOperatorAccessControlOperatorControls#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_operator_controls#values DataOciOperatorAccessControlOperatorControls#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControls
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/operator_access_control_operator_controls#regex DataOciOperatorAccessControlOperatorControls#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_operator_controls#regex DataOciOperatorAccessControlOperatorControls#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheConfigSets
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheConfigSets.DataOciRedisOciCacheConfigSetsFilter")]
     public class DataOciRedisOciCacheConfigSetsFilter : oci.DataOciRedisOciCacheConfigSets.IDataOciRedisOciCacheConfigSetsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_config_sets#name DataOciRedisOciCacheConfigSets#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_config_sets#name DataOciRedisOciCacheConfigSets#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciRedisOciCacheConfigSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_config_sets#values DataOciRedisOciCacheConfigSets#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_config_sets#values DataOciRedisOciCacheConfigSets#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciRedisOciCacheConfigSets
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_config_sets#regex DataOciRedisOciCacheConfigSets#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_config_sets#regex DataOciRedisOciCacheConfigSets#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

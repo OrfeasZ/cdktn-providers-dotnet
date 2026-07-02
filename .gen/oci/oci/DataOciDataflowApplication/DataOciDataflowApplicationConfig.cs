@@ -9,7 +9,7 @@ namespace oci.DataOciDataflowApplication
     [JsiiByValue(fqn: "oci.dataOciDataflowApplication.DataOciDataflowApplicationConfig")]
     public class DataOciDataflowApplicationConfig : oci.DataOciDataflowApplication.IDataOciDataflowApplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_application#application_id DataOciDataflowApplication#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataflow_application#application_id DataOciDataflowApplication#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
         {

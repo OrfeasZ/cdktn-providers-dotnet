@@ -9,7 +9,7 @@ namespace oci.DatascienceJob
     [JsiiByValue(fqn: "oci.datascienceJob.DatascienceJobJobStorageMountConfigurationDetailsListStruct")]
     public class DatascienceJobJobStorageMountConfigurationDetailsListStruct : oci.DatascienceJob.IDatascienceJobJobStorageMountConfigurationDetailsListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#destination_directory_name DatascienceJob#destination_directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#destination_directory_name DatascienceJob#destination_directory_name}.</summary>
         [JsiiProperty(name: "destinationDirectoryName", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationDirectoryName
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#storage_type DatascienceJob#storage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#storage_type DatascienceJob#storage_type}.</summary>
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageType
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#bucket DatascienceJob#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#bucket DatascienceJob#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -34,7 +34,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#destination_path DatascienceJob#destination_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#destination_path DatascienceJob#destination_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationPath
@@ -43,7 +43,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#export_id DatascienceJob#export_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#export_id DatascienceJob#export_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExportId
@@ -52,7 +52,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#mount_target_id DatascienceJob#mount_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#mount_target_id DatascienceJob#mount_target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mountTargetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MountTargetId
@@ -61,7 +61,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#namespace DatascienceJob#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#namespace DatascienceJob#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -70,7 +70,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_job#prefix DatascienceJob#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_job#prefix DatascienceJob#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

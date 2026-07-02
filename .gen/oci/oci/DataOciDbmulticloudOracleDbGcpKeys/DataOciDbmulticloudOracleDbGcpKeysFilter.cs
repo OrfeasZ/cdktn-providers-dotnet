@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeys
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbGcpKeys.DataOciDbmulticloudOracleDbGcpKeysFilter")]
     public class DataOciDbmulticloudOracleDbGcpKeysFilter : oci.DataOciDbmulticloudOracleDbGcpKeys.IDataOciDbmulticloudOracleDbGcpKeysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_gcp_keys#name DataOciDbmulticloudOracleDbGcpKeys#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_gcp_keys#name DataOciDbmulticloudOracleDbGcpKeys#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_gcp_keys#values DataOciDbmulticloudOracleDbGcpKeys#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_gcp_keys#values DataOciDbmulticloudOracleDbGcpKeys#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKeys
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_gcp_keys#regex DataOciDbmulticloudOracleDbGcpKeys#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_gcp_keys#regex DataOciDbmulticloudOracleDbGcpKeys#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

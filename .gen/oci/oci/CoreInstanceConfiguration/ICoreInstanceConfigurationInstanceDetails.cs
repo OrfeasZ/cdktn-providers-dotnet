@@ -7,7 +7,7 @@ namespace oci.CoreInstanceConfiguration
     [JsiiInterface(nativeType: typeof(ICoreInstanceConfigurationInstanceDetails), fullyQualifiedName: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetails")]
     public interface ICoreInstanceConfigurationInstanceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#instance_type CoreInstanceConfiguration#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#instance_type CoreInstanceConfiguration#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceType
         {
@@ -16,7 +16,7 @@ namespace oci.CoreInstanceConfiguration
 
         /// <summary>block_volumes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#block_volumes CoreInstanceConfiguration#block_volumes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#block_volumes CoreInstanceConfiguration#block_volumes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsBlockVolumes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "blockVolumes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsBlockVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.CoreInstanceConfiguration
 
         /// <summary>launch_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#launch_details CoreInstanceConfiguration#launch_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#launch_details CoreInstanceConfiguration#launch_details}
         /// </remarks>
         [JsiiProperty(name: "launchDetails", typeJson: "{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsLaunchDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace oci.CoreInstanceConfiguration
 
         /// <summary>options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#options CoreInstanceConfiguration#options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#options CoreInstanceConfiguration#options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsOptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "options", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace oci.CoreInstanceConfiguration
 
         /// <summary>secondary_vnics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#secondary_vnics CoreInstanceConfiguration#secondary_vnics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#secondary_vnics CoreInstanceConfiguration#secondary_vnics}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsSecondaryVnics" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "secondaryVnics", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsSecondaryVnics\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.CoreInstanceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#instance_type CoreInstanceConfiguration#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#instance_type CoreInstanceConfiguration#instance_type}.</summary>
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceType
             {
@@ -89,7 +89,7 @@ namespace oci.CoreInstanceConfiguration
 
             /// <summary>block_volumes block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#block_volumes CoreInstanceConfiguration#block_volumes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#block_volumes CoreInstanceConfiguration#block_volumes}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsBlockVolumes" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -101,7 +101,7 @@ namespace oci.CoreInstanceConfiguration
 
             /// <summary>launch_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#launch_details CoreInstanceConfiguration#launch_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#launch_details CoreInstanceConfiguration#launch_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "launchDetails", typeJson: "{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsLaunchDetails\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace oci.CoreInstanceConfiguration
 
             /// <summary>options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#options CoreInstanceConfiguration#options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#options CoreInstanceConfiguration#options}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -124,7 +124,7 @@ namespace oci.CoreInstanceConfiguration
 
             /// <summary>secondary_vnics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#secondary_vnics CoreInstanceConfiguration#secondary_vnics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#secondary_vnics CoreInstanceConfiguration#secondary_vnics}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsSecondaryVnics" />)[]</para>
             /// </remarks>
             [JsiiOptional]

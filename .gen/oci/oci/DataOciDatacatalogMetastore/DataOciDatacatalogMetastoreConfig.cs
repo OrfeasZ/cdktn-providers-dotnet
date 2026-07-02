@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogMetastore
     [JsiiByValue(fqn: "oci.dataOciDatacatalogMetastore.DataOciDatacatalogMetastoreConfig")]
     public class DataOciDatacatalogMetastoreConfig : oci.DataOciDatacatalogMetastore.IDataOciDatacatalogMetastoreConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/datacatalog_metastore#metastore_id DataOciDatacatalogMetastore#metastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datacatalog_metastore#metastore_id DataOciDatacatalogMetastore#metastore_id}.</summary>
         [JsiiProperty(name: "metastoreId", typeJson: "{\"primitive\":\"string\"}")]
         public string MetastoreId
         {

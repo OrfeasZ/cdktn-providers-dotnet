@@ -7,14 +7,14 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemCredentialsPasswordDetails), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemCredentialsPasswordDetails")]
     public interface IPsqlDbSystemCredentialsPasswordDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#password_type PsqlDbSystem#password_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#password_type PsqlDbSystem#password_type}.</summary>
         [JsiiProperty(name: "passwordType", typeJson: "{\"primitive\":\"string\"}")]
         string PasswordType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#password PsqlDbSystem#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#password PsqlDbSystem#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Password
@@ -25,7 +25,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#secret_id PsqlDbSystem#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#secret_id PsqlDbSystem#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretId
@@ -36,7 +36,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#secret_version PsqlDbSystem#secret_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#secret_version PsqlDbSystem#secret_version}.</summary>
         [JsiiProperty(name: "secretVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretVersion
@@ -54,14 +54,14 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#password_type PsqlDbSystem#password_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#password_type PsqlDbSystem#password_type}.</summary>
             [JsiiProperty(name: "passwordType", typeJson: "{\"primitive\":\"string\"}")]
             public string PasswordType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#password PsqlDbSystem#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#password PsqlDbSystem#password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Password
@@ -69,7 +69,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#secret_id PsqlDbSystem#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#secret_id PsqlDbSystem#secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretId
@@ -77,7 +77,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/psql_db_system#secret_version PsqlDbSystem#secret_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#secret_version PsqlDbSystem#secret_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretVersion

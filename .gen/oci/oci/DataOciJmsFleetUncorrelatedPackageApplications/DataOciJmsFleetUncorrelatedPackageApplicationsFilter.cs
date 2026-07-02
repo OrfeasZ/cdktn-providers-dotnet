@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
     [JsiiByValue(fqn: "oci.dataOciJmsFleetUncorrelatedPackageApplications.DataOciJmsFleetUncorrelatedPackageApplicationsFilter")]
     public class DataOciJmsFleetUncorrelatedPackageApplicationsFilter : oci.DataOciJmsFleetUncorrelatedPackageApplications.IDataOciJmsFleetUncorrelatedPackageApplicationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#name DataOciJmsFleetUncorrelatedPackageApplications#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#name DataOciJmsFleetUncorrelatedPackageApplications#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#values DataOciJmsFleetUncorrelatedPackageApplications#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#values DataOciJmsFleetUncorrelatedPackageApplications#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#regex DataOciJmsFleetUncorrelatedPackageApplications#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#regex DataOciJmsFleetUncorrelatedPackageApplications#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

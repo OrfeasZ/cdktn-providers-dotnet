@@ -7,14 +7,14 @@ namespace oci.DataOciCoreConsoleHistoryData
     [JsiiInterface(nativeType: typeof(IDataOciCoreConsoleHistoryDataConfig), fullyQualifiedName: "oci.dataOciCoreConsoleHistoryData.DataOciCoreConsoleHistoryDataConfig")]
     public interface IDataOciCoreConsoleHistoryDataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#console_history_id DataOciCoreConsoleHistoryData#console_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#console_history_id DataOciCoreConsoleHistoryData#console_history_id}.</summary>
         [JsiiProperty(name: "consoleHistoryId", typeJson: "{\"primitive\":\"string\"}")]
         string ConsoleHistoryId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#id DataOciCoreConsoleHistoryData#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#id DataOciCoreConsoleHistoryData#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciCoreConsoleHistoryData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#length DataOciCoreConsoleHistoryData#length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#length DataOciCoreConsoleHistoryData#length}.</summary>
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Length
@@ -40,7 +40,7 @@ namespace oci.DataOciCoreConsoleHistoryData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#offset DataOciCoreConsoleHistoryData#offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#offset DataOciCoreConsoleHistoryData#offset}.</summary>
         [JsiiProperty(name: "offset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Offset
@@ -58,14 +58,14 @@ namespace oci.DataOciCoreConsoleHistoryData
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#console_history_id DataOciCoreConsoleHistoryData#console_history_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#console_history_id DataOciCoreConsoleHistoryData#console_history_id}.</summary>
             [JsiiProperty(name: "consoleHistoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsoleHistoryId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#id DataOciCoreConsoleHistoryData#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#id DataOciCoreConsoleHistoryData#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciCoreConsoleHistoryData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#length DataOciCoreConsoleHistoryData#length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#length DataOciCoreConsoleHistoryData#length}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Length
@@ -85,7 +85,7 @@ namespace oci.DataOciCoreConsoleHistoryData
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_console_history_data#offset DataOciCoreConsoleHistoryData#offset}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_console_history_data#offset DataOciCoreConsoleHistoryData#offset}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "offset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Offset

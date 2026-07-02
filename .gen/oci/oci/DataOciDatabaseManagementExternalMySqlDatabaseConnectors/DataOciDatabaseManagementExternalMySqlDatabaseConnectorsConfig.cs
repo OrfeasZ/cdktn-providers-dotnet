@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalMySqlDatabaseConnectors.DataOciDatabaseManagementExternalMySqlDatabaseConnectorsConfig")]
     public class DataOciDatabaseManagementExternalMySqlDatabaseConnectorsConfig : oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors.IDataOciDatabaseManagementExternalMySqlDatabaseConnectorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_my_sql_database_connectors#compartment_id DataOciDatabaseManagementExternalMySqlDatabaseConnectors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_my_sql_database_connectors#compartment_id DataOciDatabaseManagementExternalMySqlDatabaseConnectors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_my_sql_database_connectors#filter DataOciDatabaseManagementExternalMySqlDatabaseConnectors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_my_sql_database_connectors#filter DataOciDatabaseManagementExternalMySqlDatabaseConnectors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors.IDataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_my_sql_database_connectors#id DataOciDatabaseManagementExternalMySqlDatabaseConnectors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_my_sql_database_connectors#id DataOciDatabaseManagementExternalMySqlDatabaseConnectors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_management_external_my_sql_database_connectors#name DataOciDatabaseManagementExternalMySqlDatabaseConnectors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_my_sql_database_connectors#name DataOciDatabaseManagementExternalMySqlDatabaseConnectors#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

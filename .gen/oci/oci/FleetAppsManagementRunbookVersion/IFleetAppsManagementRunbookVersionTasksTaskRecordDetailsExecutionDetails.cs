@@ -7,14 +7,14 @@ namespace oci.FleetAppsManagementRunbookVersion
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetails), fullyQualifiedName: "oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetails")]
     public interface IFleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#execution_type FleetAppsManagementRunbookVersion#execution_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#execution_type FleetAppsManagementRunbookVersion#execution_type}.</summary>
         [JsiiProperty(name: "executionType", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CatalogId
@@ -25,7 +25,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#command FleetAppsManagementRunbookVersion#command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#command FleetAppsManagementRunbookVersion#command}.</summary>
         [JsiiProperty(name: "command", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Command
@@ -36,7 +36,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#config_file FleetAppsManagementRunbookVersion#config_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#config_file FleetAppsManagementRunbookVersion#config_file}.</summary>
         [JsiiProperty(name: "configFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigFile
@@ -49,7 +49,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         /// <summary>content block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#content FleetAppsManagementRunbookVersion#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#content FleetAppsManagementRunbookVersion#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsContent\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#credentials FleetAppsManagementRunbookVersion#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#credentials FleetAppsManagementRunbookVersion#credentials}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsCredentials" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "credentials", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsCredentials\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#endpoint FleetAppsManagementRunbookVersion#endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#endpoint FleetAppsManagementRunbookVersion#endpoint}.</summary>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Endpoint
@@ -87,7 +87,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#is_executable_content FleetAppsManagementRunbookVersion#is_executable_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#is_executable_content FleetAppsManagementRunbookVersion#is_executable_content}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -101,7 +101,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#is_locked FleetAppsManagementRunbookVersion#is_locked}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#is_locked FleetAppsManagementRunbookVersion#is_locked}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -115,7 +115,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#is_read_output_variable_enabled FleetAppsManagementRunbookVersion#is_read_output_variable_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#is_read_output_variable_enabled FleetAppsManagementRunbookVersion#is_read_output_variable_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -129,7 +129,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#target_compartment_id FleetAppsManagementRunbookVersion#target_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#target_compartment_id FleetAppsManagementRunbookVersion#target_compartment_id}.</summary>
         [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetCompartmentId
@@ -142,7 +142,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         /// <summary>variables block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#variables FleetAppsManagementRunbookVersion#variables}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#variables FleetAppsManagementRunbookVersion#variables}
         /// </remarks>
         [JsiiProperty(name: "variables", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsVariables\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -161,14 +161,14 @@ namespace oci.FleetAppsManagementRunbookVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#execution_type FleetAppsManagementRunbookVersion#execution_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#execution_type FleetAppsManagementRunbookVersion#execution_type}.</summary>
             [JsiiProperty(name: "executionType", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#catalog_id FleetAppsManagementRunbookVersion#catalog_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CatalogId
@@ -176,7 +176,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#command FleetAppsManagementRunbookVersion#command}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#command FleetAppsManagementRunbookVersion#command}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "command", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Command
@@ -184,7 +184,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#config_file FleetAppsManagementRunbookVersion#config_file}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#config_file FleetAppsManagementRunbookVersion#config_file}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigFile
@@ -194,7 +194,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
             /// <summary>content block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#content FleetAppsManagementRunbookVersion#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#content FleetAppsManagementRunbookVersion#content}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsContent\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
             /// <summary>credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#credentials FleetAppsManagementRunbookVersion#credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#credentials FleetAppsManagementRunbookVersion#credentials}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsCredentials" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -215,7 +215,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#endpoint FleetAppsManagementRunbookVersion#endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#endpoint FleetAppsManagementRunbookVersion#endpoint}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Endpoint
@@ -223,7 +223,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#is_executable_content FleetAppsManagementRunbookVersion#is_executable_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#is_executable_content FleetAppsManagementRunbookVersion#is_executable_content}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -234,7 +234,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#is_locked FleetAppsManagementRunbookVersion#is_locked}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#is_locked FleetAppsManagementRunbookVersion#is_locked}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -245,7 +245,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#is_read_output_variable_enabled FleetAppsManagementRunbookVersion#is_read_output_variable_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#is_read_output_variable_enabled FleetAppsManagementRunbookVersion#is_read_output_variable_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -256,7 +256,7 @@ namespace oci.FleetAppsManagementRunbookVersion
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#target_compartment_id FleetAppsManagementRunbookVersion#target_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#target_compartment_id FleetAppsManagementRunbookVersion#target_compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetCompartmentId
@@ -266,7 +266,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
             /// <summary>variables block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fleet_apps_management_runbook_version#variables FleetAppsManagementRunbookVersion#variables}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fleet_apps_management_runbook_version#variables FleetAppsManagementRunbookVersion#variables}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "variables", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionTasksTaskRecordDetailsExecutionDetailsVariables\"}", isOptional: true)]

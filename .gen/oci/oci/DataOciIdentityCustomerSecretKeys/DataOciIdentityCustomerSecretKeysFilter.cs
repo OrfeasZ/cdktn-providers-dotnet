@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityCustomerSecretKeys
     [JsiiByValue(fqn: "oci.dataOciIdentityCustomerSecretKeys.DataOciIdentityCustomerSecretKeysFilter")]
     public class DataOciIdentityCustomerSecretKeysFilter : oci.DataOciIdentityCustomerSecretKeys.IDataOciIdentityCustomerSecretKeysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_customer_secret_keys#name DataOciIdentityCustomerSecretKeys#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_customer_secret_keys#name DataOciIdentityCustomerSecretKeys#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityCustomerSecretKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_customer_secret_keys#values DataOciIdentityCustomerSecretKeys#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_customer_secret_keys#values DataOciIdentityCustomerSecretKeys#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciIdentityCustomerSecretKeys
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_customer_secret_keys#regex DataOciIdentityCustomerSecretKeys#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_customer_secret_keys#regex DataOciIdentityCustomerSecretKeys#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.CloudMigrationsTargetAsset
     [JsiiInterface(nativeType: typeof(ICloudMigrationsTargetAssetUserSpecAgentConfig), fullyQualifiedName: "oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpecAgentConfig")]
     public interface ICloudMigrationsTargetAssetUserSpecAgentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#are_all_plugins_disabled CloudMigrationsTargetAsset#are_all_plugins_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#are_all_plugins_disabled CloudMigrationsTargetAsset#are_all_plugins_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.CloudMigrationsTargetAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#is_management_disabled CloudMigrationsTargetAsset#is_management_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#is_management_disabled CloudMigrationsTargetAsset#is_management_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace oci.CloudMigrationsTargetAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#is_monitoring_disabled CloudMigrationsTargetAsset#is_monitoring_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#is_monitoring_disabled CloudMigrationsTargetAsset#is_monitoring_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace oci.CloudMigrationsTargetAsset
 
         /// <summary>plugins_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#plugins_config CloudMigrationsTargetAsset#plugins_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#plugins_config CloudMigrationsTargetAsset#plugins_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "pluginsConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace oci.CloudMigrationsTargetAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#are_all_plugins_disabled CloudMigrationsTargetAsset#are_all_plugins_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#are_all_plugins_disabled CloudMigrationsTargetAsset#are_all_plugins_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -82,7 +82,7 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#is_management_disabled CloudMigrationsTargetAsset#is_management_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#is_management_disabled CloudMigrationsTargetAsset#is_management_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -93,7 +93,7 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#is_monitoring_disabled CloudMigrationsTargetAsset#is_monitoring_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#is_monitoring_disabled CloudMigrationsTargetAsset#is_monitoring_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -106,7 +106,7 @@ namespace oci.CloudMigrationsTargetAsset
 
             /// <summary>plugins_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_target_asset#plugins_config CloudMigrationsTargetAsset#plugins_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#plugins_config CloudMigrationsTargetAsset#plugins_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]

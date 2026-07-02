@@ -7,14 +7,14 @@ namespace oci.CoreInstance
     [JsiiInterface(nativeType: typeof(ICoreInstanceAgentConfigPluginsConfig), fullyQualifiedName: "oci.coreInstance.CoreInstanceAgentConfigPluginsConfig")]
     public interface ICoreInstanceAgentConfigPluginsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#desired_state CoreInstance#desired_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance#desired_state CoreInstance#desired_state}.</summary>
         [JsiiProperty(name: "desiredState", typeJson: "{\"primitive\":\"string\"}")]
         string DesiredState
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#name CoreInstance#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance#name CoreInstance#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -28,14 +28,14 @@ namespace oci.CoreInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#desired_state CoreInstance#desired_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance#desired_state CoreInstance#desired_state}.</summary>
             [JsiiProperty(name: "desiredState", typeJson: "{\"primitive\":\"string\"}")]
             public string DesiredState
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance#name CoreInstance#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance#name CoreInstance#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

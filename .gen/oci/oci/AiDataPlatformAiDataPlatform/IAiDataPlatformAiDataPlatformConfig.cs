@@ -7,14 +7,14 @@ namespace oci.AiDataPlatformAiDataPlatform
     [JsiiInterface(nativeType: typeof(IAiDataPlatformAiDataPlatformConfig), fullyQualifiedName: "oci.aiDataPlatformAiDataPlatform.AiDataPlatformAiDataPlatformConfig")]
     public interface IAiDataPlatformAiDataPlatformConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#compartment_id AiDataPlatformAiDataPlatform#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#compartment_id AiDataPlatformAiDataPlatform#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#ai_data_platform_type AiDataPlatformAiDataPlatform#ai_data_platform_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#ai_data_platform_type AiDataPlatformAiDataPlatform#ai_data_platform_type}.</summary>
         [JsiiProperty(name: "aiDataPlatformType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AiDataPlatformType
@@ -25,7 +25,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#default_workspace_name AiDataPlatformAiDataPlatform#default_workspace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#default_workspace_name AiDataPlatformAiDataPlatform#default_workspace_name}.</summary>
         [JsiiProperty(name: "defaultWorkspaceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultWorkspaceName
@@ -36,7 +36,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#defined_tags AiDataPlatformAiDataPlatform#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#defined_tags AiDataPlatformAiDataPlatform#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -47,7 +47,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#display_name AiDataPlatformAiDataPlatform#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#display_name AiDataPlatformAiDataPlatform#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -58,7 +58,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#freeform_tags AiDataPlatformAiDataPlatform#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#freeform_tags AiDataPlatformAiDataPlatform#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -69,7 +69,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#id AiDataPlatformAiDataPlatform#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#id AiDataPlatformAiDataPlatform#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#system_tags AiDataPlatformAiDataPlatform#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#system_tags AiDataPlatformAiDataPlatform#system_tags}.</summary>
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -97,7 +97,7 @@ namespace oci.AiDataPlatformAiDataPlatform
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#timeouts AiDataPlatformAiDataPlatform#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#timeouts AiDataPlatformAiDataPlatform#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.aiDataPlatformAiDataPlatform.AiDataPlatformAiDataPlatformTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,14 +116,14 @@ namespace oci.AiDataPlatformAiDataPlatform
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#compartment_id AiDataPlatformAiDataPlatform#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#compartment_id AiDataPlatformAiDataPlatform#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#ai_data_platform_type AiDataPlatformAiDataPlatform#ai_data_platform_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#ai_data_platform_type AiDataPlatformAiDataPlatform#ai_data_platform_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "aiDataPlatformType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AiDataPlatformType
@@ -131,7 +131,7 @@ namespace oci.AiDataPlatformAiDataPlatform
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#default_workspace_name AiDataPlatformAiDataPlatform#default_workspace_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#default_workspace_name AiDataPlatformAiDataPlatform#default_workspace_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultWorkspaceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultWorkspaceName
@@ -139,7 +139,7 @@ namespace oci.AiDataPlatformAiDataPlatform
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#defined_tags AiDataPlatformAiDataPlatform#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#defined_tags AiDataPlatformAiDataPlatform#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -147,7 +147,7 @@ namespace oci.AiDataPlatformAiDataPlatform
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#display_name AiDataPlatformAiDataPlatform#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#display_name AiDataPlatformAiDataPlatform#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -155,7 +155,7 @@ namespace oci.AiDataPlatformAiDataPlatform
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#freeform_tags AiDataPlatformAiDataPlatform#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#freeform_tags AiDataPlatformAiDataPlatform#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -163,7 +163,7 @@ namespace oci.AiDataPlatformAiDataPlatform
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#id AiDataPlatformAiDataPlatform#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#id AiDataPlatformAiDataPlatform#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,7 +175,7 @@ namespace oci.AiDataPlatformAiDataPlatform
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#system_tags AiDataPlatformAiDataPlatform#system_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#system_tags AiDataPlatformAiDataPlatform#system_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -185,7 +185,7 @@ namespace oci.AiDataPlatformAiDataPlatform
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_data_platform_ai_data_platform#timeouts AiDataPlatformAiDataPlatform#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#timeouts AiDataPlatformAiDataPlatform#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.aiDataPlatformAiDataPlatform.AiDataPlatformAiDataPlatformTimeouts\"}", isOptional: true)]

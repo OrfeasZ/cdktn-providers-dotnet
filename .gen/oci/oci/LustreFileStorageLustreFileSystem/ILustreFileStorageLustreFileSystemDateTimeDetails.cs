@@ -7,14 +7,14 @@ namespace oci.LustreFileStorageLustreFileSystem
     [JsiiInterface(nativeType: typeof(ILustreFileStorageLustreFileSystemDateTimeDetails), fullyQualifiedName: "oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemDateTimeDetails")]
     public interface ILustreFileStorageLustreFileSystemDateTimeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/lustre_file_storage_lustre_file_system#date LustreFileStorageLustreFileSystem#date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/lustre_file_storage_lustre_file_system#date LustreFileStorageLustreFileSystem#date}.</summary>
         [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}")]
         string Date
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/lustre_file_storage_lustre_file_system#time LustreFileStorageLustreFileSystem#time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/lustre_file_storage_lustre_file_system#time LustreFileStorageLustreFileSystem#time}.</summary>
         [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
         string Time
         {
@@ -28,14 +28,14 @@ namespace oci.LustreFileStorageLustreFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/lustre_file_storage_lustre_file_system#date LustreFileStorageLustreFileSystem#date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/lustre_file_storage_lustre_file_system#date LustreFileStorageLustreFileSystem#date}.</summary>
             [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"string\"}")]
             public string Date
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/lustre_file_storage_lustre_file_system#time LustreFileStorageLustreFileSystem#time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/lustre_file_storage_lustre_file_system#time LustreFileStorageLustreFileSystem#time}.</summary>
             [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
             public string Time
             {

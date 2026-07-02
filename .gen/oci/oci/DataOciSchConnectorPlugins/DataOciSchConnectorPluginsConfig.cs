@@ -7,7 +7,7 @@ namespace oci.DataOciSchConnectorPlugins
     [JsiiByValue(fqn: "oci.dataOciSchConnectorPlugins.DataOciSchConnectorPluginsConfig")]
     public class DataOciSchConnectorPluginsConfig : oci.DataOciSchConnectorPlugins.IDataOciSchConnectorPluginsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/sch_connector_plugins#display_name DataOciSchConnectorPlugins#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/sch_connector_plugins#display_name DataOciSchConnectorPlugins#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -20,7 +20,7 @@ namespace oci.DataOciSchConnectorPlugins
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/sch_connector_plugins#filter DataOciSchConnectorPlugins#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/sch_connector_plugins#filter DataOciSchConnectorPlugins#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciSchConnectorPlugins.IDataOciSchConnectorPluginsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciSchConnectorPlugins
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/sch_connector_plugins#id DataOciSchConnectorPlugins#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/sch_connector_plugins#id DataOciSchConnectorPlugins#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciSchConnectorPlugins
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/sch_connector_plugins#name DataOciSchConnectorPlugins#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/sch_connector_plugins#name DataOciSchConnectorPlugins#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -73,7 +73,7 @@ namespace oci.DataOciSchConnectorPlugins
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/sch_connector_plugins#state DataOciSchConnectorPlugins#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/sch_connector_plugins#state DataOciSchConnectorPlugins#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

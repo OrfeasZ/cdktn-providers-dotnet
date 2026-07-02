@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceMetastoreConfig
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceMetastoreConfig.DataOciBdsBdsInstanceMetastoreConfigConfig")]
     public class DataOciBdsBdsInstanceMetastoreConfigConfig : oci.DataOciBdsBdsInstanceMetastoreConfig.IDataOciBdsBdsInstanceMetastoreConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_metastore_config#bds_instance_id DataOciBdsBdsInstanceMetastoreConfig#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bds_bds_instance_metastore_config#bds_instance_id DataOciBdsBdsInstanceMetastoreConfig#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceMetastoreConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_metastore_config#metastore_config_id DataOciBdsBdsInstanceMetastoreConfig#metastore_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bds_bds_instance_metastore_config#metastore_config_id DataOciBdsBdsInstanceMetastoreConfig#metastore_config_id}.</summary>
         [JsiiProperty(name: "metastoreConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string MetastoreConfigId
         {

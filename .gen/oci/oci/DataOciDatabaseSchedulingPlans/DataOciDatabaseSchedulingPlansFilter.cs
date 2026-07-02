@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
     [JsiiByValue(fqn: "oci.dataOciDatabaseSchedulingPlans.DataOciDatabaseSchedulingPlansFilter")]
     public class DataOciDatabaseSchedulingPlansFilter : oci.DataOciDatabaseSchedulingPlans.IDataOciDatabaseSchedulingPlansFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_plans#name DataOciDatabaseSchedulingPlans#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_plans#name DataOciDatabaseSchedulingPlans#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_plans#values DataOciDatabaseSchedulingPlans#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_plans#values DataOciDatabaseSchedulingPlans#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduling_plans#regex DataOciDatabaseSchedulingPlans#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_plans#regex DataOciDatabaseSchedulingPlans#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

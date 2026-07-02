@@ -9,7 +9,7 @@ namespace oci.DataOciVnMonitoringPathAnalyzerTest
     [JsiiByValue(fqn: "oci.dataOciVnMonitoringPathAnalyzerTest.DataOciVnMonitoringPathAnalyzerTestConfig")]
     public class DataOciVnMonitoringPathAnalyzerTestConfig : oci.DataOciVnMonitoringPathAnalyzerTest.IDataOciVnMonitoringPathAnalyzerTestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/vn_monitoring_path_analyzer_test#path_analyzer_test_id DataOciVnMonitoringPathAnalyzerTest#path_analyzer_test_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/vn_monitoring_path_analyzer_test#path_analyzer_test_id DataOciVnMonitoringPathAnalyzerTest#path_analyzer_test_id}.</summary>
         [JsiiProperty(name: "pathAnalyzerTestId", typeJson: "{\"primitive\":\"string\"}")]
         public string PathAnalyzerTestId
         {

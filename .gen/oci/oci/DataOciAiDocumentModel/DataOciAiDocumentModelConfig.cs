@@ -9,7 +9,7 @@ namespace oci.DataOciAiDocumentModel
     [JsiiByValue(fqn: "oci.dataOciAiDocumentModel.DataOciAiDocumentModelConfig")]
     public class DataOciAiDocumentModelConfig : oci.DataOciAiDocumentModel.IDataOciAiDocumentModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_document_model#model_id DataOciAiDocumentModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_document_model#model_id DataOciAiDocumentModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {

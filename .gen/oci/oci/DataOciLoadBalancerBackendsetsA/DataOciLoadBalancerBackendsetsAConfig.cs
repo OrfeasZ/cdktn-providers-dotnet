@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerBackendsetsA
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerBackendsetsA.DataOciLoadBalancerBackendsetsAConfig")]
     public class DataOciLoadBalancerBackendsetsAConfig : oci.DataOciLoadBalancerBackendsetsA.IDataOciLoadBalancerBackendsetsAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backendsets#load_balancer_id DataOciLoadBalancerBackendsetsA#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/load_balancer_backendsets#load_balancer_id DataOciLoadBalancerBackendsetsA#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLoadBalancerBackendsetsA
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backendsets#filter DataOciLoadBalancerBackendsetsA#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/load_balancer_backendsets#filter DataOciLoadBalancerBackendsetsA#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLoadBalancerBackendsetsA.IDataOciLoadBalancerBackendsetsAFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciLoadBalancerBackendsetsA
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/load_balancer_backendsets#id DataOciLoadBalancerBackendsetsA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/load_balancer_backendsets#id DataOciLoadBalancerBackendsetsA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

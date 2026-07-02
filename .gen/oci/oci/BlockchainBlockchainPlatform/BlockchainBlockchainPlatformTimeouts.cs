@@ -7,7 +7,7 @@ namespace oci.BlockchainBlockchainPlatform
     [JsiiByValue(fqn: "oci.blockchainBlockchainPlatform.BlockchainBlockchainPlatformTimeouts")]
     public class BlockchainBlockchainPlatformTimeouts : oci.BlockchainBlockchainPlatform.IBlockchainBlockchainPlatformTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#create BlockchainBlockchainPlatform#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#create BlockchainBlockchainPlatform#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.BlockchainBlockchainPlatform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#delete BlockchainBlockchainPlatform#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#delete BlockchainBlockchainPlatform#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.BlockchainBlockchainPlatform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/blockchain_blockchain_platform#update BlockchainBlockchainPlatform#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/blockchain_blockchain_platform#update BlockchainBlockchainPlatform#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

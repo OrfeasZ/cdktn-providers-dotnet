@@ -5,7 +5,7 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfigurations
     /// <remarks>
     /// <h1><c>data_oci_bds_bds_instance_resource_principal_configurations</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_resource_principal_configurations"><c>data_oci_bds_bds_instance_resource_principal_configurations</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bds_bds_instance_resource_principal_configurations"><c>data_oci_bds_bds_instance_resource_principal_configurations</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

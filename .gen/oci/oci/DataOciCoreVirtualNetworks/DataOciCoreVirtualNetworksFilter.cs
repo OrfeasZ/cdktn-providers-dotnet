@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVirtualNetworks
     [JsiiByValue(fqn: "oci.dataOciCoreVirtualNetworks.DataOciCoreVirtualNetworksFilter")]
     public class DataOciCoreVirtualNetworksFilter : oci.DataOciCoreVirtualNetworks.IDataOciCoreVirtualNetworksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_virtual_networks#name DataOciCoreVirtualNetworks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_networks#name DataOciCoreVirtualNetworks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreVirtualNetworks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_virtual_networks#values DataOciCoreVirtualNetworks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_networks#values DataOciCoreVirtualNetworks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreVirtualNetworks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_virtual_networks#regex DataOciCoreVirtualNetworks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_networks#regex DataOciCoreVirtualNetworks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadToken
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaDownloadTokenConfig), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaDownloadToken.DataOciJmsJavaDownloadsJavaDownloadTokenConfig")]
     public interface IDataOciJmsJavaDownloadsJavaDownloadTokenConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_download_token#java_download_token_id DataOciJmsJavaDownloadsJavaDownloadToken#java_download_token_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_token#java_download_token_id DataOciJmsJavaDownloadsJavaDownloadToken#java_download_token_id}.</summary>
         [JsiiProperty(name: "javaDownloadTokenId", typeJson: "{\"primitive\":\"string\"}")]
         string JavaDownloadTokenId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadToken
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_download_token#java_download_token_id DataOciJmsJavaDownloadsJavaDownloadToken#java_download_token_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_token#java_download_token_id DataOciJmsJavaDownloadsJavaDownloadToken#java_download_token_id}.</summary>
             [JsiiProperty(name: "javaDownloadTokenId", typeJson: "{\"primitive\":\"string\"}")]
             public string JavaDownloadTokenId
             {

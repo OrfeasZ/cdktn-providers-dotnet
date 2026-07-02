@@ -7,7 +7,7 @@ namespace oci.ApiPlatformApiPlatformInstance
     [JsiiInterface(nativeType: typeof(IApiPlatformApiPlatformInstanceTimeouts), fullyQualifiedName: "oci.apiPlatformApiPlatformInstance.ApiPlatformApiPlatformInstanceTimeouts")]
     public interface IApiPlatformApiPlatformInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.ApiPlatformApiPlatformInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -36,7 +36,7 @@ namespace oci.ApiPlatformApiPlatformInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -44,7 +44,7 @@ namespace oci.ApiPlatformApiPlatformInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete

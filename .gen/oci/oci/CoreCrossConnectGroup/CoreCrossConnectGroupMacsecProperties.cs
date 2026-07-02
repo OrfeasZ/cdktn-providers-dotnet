@@ -9,7 +9,7 @@ namespace oci.CoreCrossConnectGroup
     [JsiiByValue(fqn: "oci.coreCrossConnectGroup.CoreCrossConnectGroupMacsecProperties")]
     public class CoreCrossConnectGroupMacsecProperties : oci.CoreCrossConnectGroup.ICoreCrossConnectGroupMacsecProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_cross_connect_group#state CoreCrossConnectGroup#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_cross_connect_group#state CoreCrossConnectGroup#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State
         {
@@ -17,7 +17,7 @@ namespace oci.CoreCrossConnectGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_cross_connect_group#encryption_cipher CoreCrossConnectGroup#encryption_cipher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_cross_connect_group#encryption_cipher CoreCrossConnectGroup#encryption_cipher}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionCipher", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionCipher
@@ -28,7 +28,7 @@ namespace oci.CoreCrossConnectGroup
 
         private object? _isUnprotectedTrafficAllowed;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_cross_connect_group#is_unprotected_traffic_allowed CoreCrossConnectGroup#is_unprotected_traffic_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_cross_connect_group#is_unprotected_traffic_allowed CoreCrossConnectGroup#is_unprotected_traffic_allowed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -62,7 +62,7 @@ namespace oci.CoreCrossConnectGroup
 
         /// <summary>primary_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_cross_connect_group#primary_key CoreCrossConnectGroup#primary_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_cross_connect_group#primary_key CoreCrossConnectGroup#primary_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "primaryKey", typeJson: "{\"fqn\":\"oci.coreCrossConnectGroup.CoreCrossConnectGroupMacsecPropertiesPrimaryKey\"}", isOptional: true)]

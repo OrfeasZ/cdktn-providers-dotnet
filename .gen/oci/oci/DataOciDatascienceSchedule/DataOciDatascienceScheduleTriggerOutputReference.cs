@@ -47,6 +47,12 @@ namespace oci.DataOciDatascienceSchedule
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "initialJitterInMinutes", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double InitialJitterInMinutes
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Interval
         {

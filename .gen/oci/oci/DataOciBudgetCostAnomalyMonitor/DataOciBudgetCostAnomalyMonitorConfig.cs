@@ -9,7 +9,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitor
     [JsiiByValue(fqn: "oci.dataOciBudgetCostAnomalyMonitor.DataOciBudgetCostAnomalyMonitorConfig")]
     public class DataOciBudgetCostAnomalyMonitorConfig : oci.DataOciBudgetCostAnomalyMonitor.IDataOciBudgetCostAnomalyMonitorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/budget_cost_anomaly_monitor#cost_anomaly_monitor_id DataOciBudgetCostAnomalyMonitor#cost_anomaly_monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/budget_cost_anomaly_monitor#cost_anomaly_monitor_id DataOciBudgetCostAnomalyMonitor#cost_anomaly_monitor_id}.</summary>
         [JsiiProperty(name: "costAnomalyMonitorId", typeJson: "{\"primitive\":\"string\"}")]
         public string CostAnomalyMonitorId
         {

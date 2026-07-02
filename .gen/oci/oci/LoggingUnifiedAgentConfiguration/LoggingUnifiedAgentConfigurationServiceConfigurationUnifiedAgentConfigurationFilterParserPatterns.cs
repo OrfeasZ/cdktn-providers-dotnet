@@ -7,7 +7,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
     [JsiiByValue(fqn: "oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserPatterns")]
     public class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserPatterns : oci.LoggingUnifiedAgentConfiguration.ILoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserPatterns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fieldTimeFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FieldTimeFormat
@@ -16,7 +16,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fieldTimeKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FieldTimeKey
@@ -25,7 +25,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fieldTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FieldTimeZone
@@ -34,7 +34,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -43,7 +43,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Pattern

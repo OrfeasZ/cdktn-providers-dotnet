@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsMySmtpCredential
     [JsiiByValue(fqn: "oci.identityDomainsMySmtpCredential.IdentityDomainsMySmtpCredentialTags")]
     public class IdentityDomainsMySmtpCredentialTags : oci.IdentityDomainsMySmtpCredential.IIdentityDomainsMySmtpCredentialTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_smtp_credential#key IdentityDomainsMySmtpCredential#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_my_smtp_credential#key IdentityDomainsMySmtpCredential#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_my_smtp_credential#value IdentityDomainsMySmtpCredential#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_my_smtp_credential#value IdentityDomainsMySmtpCredential#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

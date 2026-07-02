@@ -5,7 +5,7 @@ namespace oci.DataOciCloudGuardProblemEntities
     /// <remarks>
     /// <h1><c>data_oci_cloud_guard_problem_entities</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/cloud_guard_problem_entities"><c>data_oci_cloud_guard_problem_entities</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_guard_problem_entities"><c>data_oci_cloud_guard_problem_entities</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

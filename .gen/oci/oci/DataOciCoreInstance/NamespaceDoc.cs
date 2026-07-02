@@ -5,7 +5,7 @@ namespace oci.DataOciCoreInstance
     /// <remarks>
     /// <h1><c>data_oci_core_instance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_instance"><c>data_oci_core_instance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_instance"><c>data_oci_core_instance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

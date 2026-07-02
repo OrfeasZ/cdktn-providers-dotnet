@@ -9,7 +9,7 @@ namespace oci.FileStorageMountTarget
     [JsiiByValue(fqn: "oci.fileStorageMountTarget.FileStorageMountTargetLocks")]
     public class FileStorageMountTargetLocks : oci.FileStorageMountTarget.IFileStorageMountTargetLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_mount_target#type FileStorageMountTarget#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/file_storage_mount_target#type FileStorageMountTarget#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.FileStorageMountTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_mount_target#message FileStorageMountTarget#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/file_storage_mount_target#message FileStorageMountTarget#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message
@@ -26,7 +26,7 @@ namespace oci.FileStorageMountTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_mount_target#related_resource_id FileStorageMountTarget#related_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/file_storage_mount_target#related_resource_id FileStorageMountTarget#related_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelatedResourceId
@@ -35,7 +35,7 @@ namespace oci.FileStorageMountTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/file_storage_mount_target#time_created FileStorageMountTarget#time_created}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/file_storage_mount_target#time_created FileStorageMountTarget#time_created}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreated

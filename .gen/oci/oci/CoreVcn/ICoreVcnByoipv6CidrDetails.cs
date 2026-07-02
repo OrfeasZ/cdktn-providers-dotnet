@@ -7,14 +7,14 @@ namespace oci.CoreVcn
     [JsiiInterface(nativeType: typeof(ICoreVcnByoipv6CidrDetails), fullyQualifiedName: "oci.coreVcn.CoreVcnByoipv6CidrDetails")]
     public interface ICoreVcnByoipv6CidrDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_vcn#byoipv6range_id CoreVcn#byoipv6range_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_vcn#byoipv6range_id CoreVcn#byoipv6range_id}.</summary>
         [JsiiProperty(name: "byoipv6RangeId", typeJson: "{\"primitive\":\"string\"}")]
         string Byoipv6RangeId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_vcn#ipv6cidr_block CoreVcn#ipv6cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_vcn#ipv6cidr_block CoreVcn#ipv6cidr_block}.</summary>
         [JsiiProperty(name: "ipv6CidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         string Ipv6CidrBlock
         {
@@ -28,14 +28,14 @@ namespace oci.CoreVcn
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_vcn#byoipv6range_id CoreVcn#byoipv6range_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_vcn#byoipv6range_id CoreVcn#byoipv6range_id}.</summary>
             [JsiiProperty(name: "byoipv6RangeId", typeJson: "{\"primitive\":\"string\"}")]
             public string Byoipv6RangeId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_vcn#ipv6cidr_block CoreVcn#ipv6cidr_block}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_vcn#ipv6cidr_block CoreVcn#ipv6cidr_block}.</summary>
             [JsiiProperty(name: "ipv6CidrBlock", typeJson: "{\"primitive\":\"string\"}")]
             public string Ipv6CidrBlock
             {

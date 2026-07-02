@@ -9,7 +9,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabase
     [JsiiByValue(fqn: "oci.dataOciDistributedDatabaseDistributedAutonomousDatabase.DataOciDistributedDatabaseDistributedAutonomousDatabaseConfig")]
     public class DataOciDistributedDatabaseDistributedAutonomousDatabaseConfig : oci.DataOciDistributedDatabaseDistributedAutonomousDatabase.IDataOciDistributedDatabaseDistributedAutonomousDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/distributed_database_distributed_autonomous_database#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabase#distributed_autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_autonomous_database#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabase#distributed_autonomous_database_id}.</summary>
         [JsiiProperty(name: "distributedAutonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string DistributedAutonomousDatabaseId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabase
 
         /// <summary>Optional query parameter forwarded to the GET /distributedAutonomousDatabases API as `metadata`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/distributed_database_distributed_autonomous_database#metadata_query DataOciDistributedDatabaseDistributedAutonomousDatabase#metadata_query}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_autonomous_database#metadata_query DataOciDistributedDatabaseDistributedAutonomousDatabase#metadata_query}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadataQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.WafWebAppFirewallPolicy
     [JsiiByValue(fqn: "oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyActions")]
     public class WafWebAppFirewallPolicyActions : oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.WafWebAppFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -27,7 +27,7 @@ namespace oci.WafWebAppFirewallPolicy
 
         /// <summary>body block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#body WafWebAppFirewallPolicy#body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#body WafWebAppFirewallPolicy#body}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"fqn\":\"oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyActionsBody\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace oci.WafWebAppFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#code WafWebAppFirewallPolicy#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#code WafWebAppFirewallPolicy#code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Code
@@ -50,7 +50,7 @@ namespace oci.WafWebAppFirewallPolicy
 
         /// <summary>headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#headers WafWebAppFirewallPolicy#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#headers WafWebAppFirewallPolicy#headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyActionsHeaders" />)[]</para>
         /// </remarks>
         [JsiiOptional]

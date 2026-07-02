@@ -7,7 +7,7 @@ namespace oci.AiVisionStreamJob
     [JsiiInterface(nativeType: typeof(IAiVisionStreamJobFeaturesTrackingTypes), fullyQualifiedName: "oci.aiVisionStreamJob.AiVisionStreamJobFeaturesTrackingTypes")]
     public interface IAiVisionStreamJobFeaturesTrackingTypes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#biometric_store_compartment_id AiVisionStreamJob#biometric_store_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#biometric_store_compartment_id AiVisionStreamJob#biometric_store_compartment_id}.</summary>
         [JsiiProperty(name: "biometricStoreCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BiometricStoreCompartmentId
@@ -18,7 +18,7 @@ namespace oci.AiVisionStreamJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#biometric_store_id AiVisionStreamJob#biometric_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#biometric_store_id AiVisionStreamJob#biometric_store_id}.</summary>
         [JsiiProperty(name: "biometricStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BiometricStoreId
@@ -29,7 +29,7 @@ namespace oci.AiVisionStreamJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#detection_model_id AiVisionStreamJob#detection_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#detection_model_id AiVisionStreamJob#detection_model_id}.</summary>
         [JsiiProperty(name: "detectionModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DetectionModelId
@@ -40,7 +40,7 @@ namespace oci.AiVisionStreamJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}.</summary>
         [JsiiProperty(name: "maxResults", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxResults
@@ -51,7 +51,7 @@ namespace oci.AiVisionStreamJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#objects AiVisionStreamJob#objects}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#objects AiVisionStreamJob#objects}.</summary>
         [JsiiProperty(name: "objects", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Objects
@@ -62,7 +62,7 @@ namespace oci.AiVisionStreamJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -76,7 +76,7 @@ namespace oci.AiVisionStreamJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#tracking_model_id AiVisionStreamJob#tracking_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#tracking_model_id AiVisionStreamJob#tracking_model_id}.</summary>
         [JsiiProperty(name: "trackingModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrackingModelId
@@ -94,7 +94,7 @@ namespace oci.AiVisionStreamJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#biometric_store_compartment_id AiVisionStreamJob#biometric_store_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#biometric_store_compartment_id AiVisionStreamJob#biometric_store_compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "biometricStoreCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BiometricStoreCompartmentId
@@ -102,7 +102,7 @@ namespace oci.AiVisionStreamJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#biometric_store_id AiVisionStreamJob#biometric_store_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#biometric_store_id AiVisionStreamJob#biometric_store_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "biometricStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BiometricStoreId
@@ -110,7 +110,7 @@ namespace oci.AiVisionStreamJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#detection_model_id AiVisionStreamJob#detection_model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#detection_model_id AiVisionStreamJob#detection_model_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "detectionModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DetectionModelId
@@ -118,7 +118,7 @@ namespace oci.AiVisionStreamJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxResults", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxResults
@@ -126,7 +126,7 @@ namespace oci.AiVisionStreamJob
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#objects AiVisionStreamJob#objects}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#objects AiVisionStreamJob#objects}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "objects", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Objects
@@ -134,7 +134,7 @@ namespace oci.AiVisionStreamJob
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -145,7 +145,7 @@ namespace oci.AiVisionStreamJob
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ai_vision_stream_job#tracking_model_id AiVisionStreamJob#tracking_model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_vision_stream_job#tracking_model_id AiVisionStreamJob#tracking_model_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trackingModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrackingModelId

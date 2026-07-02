@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseRefreshableClones.DataOciDatabaseAutonomousDatabaseRefreshableClonesFilter")]
     public class DataOciDatabaseAutonomousDatabaseRefreshableClonesFilter : oci.DataOciDatabaseAutonomousDatabaseRefreshableClones.IDataOciDatabaseAutonomousDatabaseRefreshableClonesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_database_refreshable_clones#name DataOciDatabaseAutonomousDatabaseRefreshableClones#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_autonomous_database_refreshable_clones#name DataOciDatabaseAutonomousDatabaseRefreshableClones#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_database_refreshable_clones#values DataOciDatabaseAutonomousDatabaseRefreshableClones#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_autonomous_database_refreshable_clones#values DataOciDatabaseAutonomousDatabaseRefreshableClones#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_database_refreshable_clones#regex DataOciDatabaseAutonomousDatabaseRefreshableClones#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_autonomous_database_refreshable_clones#regex DataOciDatabaseAutonomousDatabaseRefreshableClones#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

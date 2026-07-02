@@ -7,7 +7,7 @@ namespace oci.DataOciBatchBatchJobPools
     [JsiiByValue(fqn: "oci.dataOciBatchBatchJobPools.DataOciBatchBatchJobPoolsConfig")]
     public class DataOciBatchBatchJobPoolsConfig : oci.DataOciBatchBatchJobPools.IDataOciBatchBatchJobPoolsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_job_pools#batch_context_id DataOciBatchBatchJobPools#batch_context_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_job_pools#batch_context_id DataOciBatchBatchJobPools#batch_context_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "batchContextId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BatchContextId
@@ -16,7 +16,7 @@ namespace oci.DataOciBatchBatchJobPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_job_pools#compartment_id DataOciBatchBatchJobPools#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_job_pools#compartment_id DataOciBatchBatchJobPools#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciBatchBatchJobPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_job_pools#display_name DataOciBatchBatchJobPools#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_job_pools#display_name DataOciBatchBatchJobPools#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciBatchBatchJobPools
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_job_pools#filter DataOciBatchBatchJobPools#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_job_pools#filter DataOciBatchBatchJobPools#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBatchBatchJobPools.IDataOciBatchBatchJobPoolsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciBatchBatchJobPools
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_job_pools#id DataOciBatchBatchJobPools#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_job_pools#id DataOciBatchBatchJobPools#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciBatchBatchJobPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/batch_batch_job_pools#state DataOciBatchBatchJobPools#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/batch_batch_job_pools#state DataOciBatchBatchJobPools#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

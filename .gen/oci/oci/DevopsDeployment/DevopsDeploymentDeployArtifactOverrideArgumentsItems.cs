@@ -7,7 +7,7 @@ namespace oci.DevopsDeployment
     [JsiiByValue(fqn: "oci.devopsDeployment.DevopsDeploymentDeployArtifactOverrideArgumentsItems")]
     public class DevopsDeploymentDeployArtifactOverrideArgumentsItems : oci.DevopsDeployment.IDevopsDeploymentDeployArtifactOverrideArgumentsItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deployment#deploy_artifact_id DevopsDeployment#deploy_artifact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_deployment#deploy_artifact_id DevopsDeployment#deploy_artifact_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deployArtifactId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeployArtifactId
@@ -16,7 +16,7 @@ namespace oci.DevopsDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deployment#name DevopsDeployment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_deployment#name DevopsDeployment#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -25,7 +25,7 @@ namespace oci.DevopsDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_deployment#value DevopsDeployment#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_deployment#value DevopsDeployment#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

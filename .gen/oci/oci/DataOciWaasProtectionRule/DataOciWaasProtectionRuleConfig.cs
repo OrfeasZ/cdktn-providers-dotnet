@@ -9,7 +9,7 @@ namespace oci.DataOciWaasProtectionRule
     [JsiiByValue(fqn: "oci.dataOciWaasProtectionRule.DataOciWaasProtectionRuleConfig")]
     public class DataOciWaasProtectionRuleConfig : oci.DataOciWaasProtectionRule.IDataOciWaasProtectionRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waas_protection_rule#protection_rule_key DataOciWaasProtectionRule#protection_rule_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waas_protection_rule#protection_rule_key DataOciWaasProtectionRule#protection_rule_key}.</summary>
         [JsiiProperty(name: "protectionRuleKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ProtectionRuleKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWaasProtectionRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waas_protection_rule#waas_policy_id DataOciWaasProtectionRule#waas_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waas_protection_rule#waas_policy_id DataOciWaasProtectionRule#waas_policy_id}.</summary>
         [JsiiProperty(name: "waasPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string WaasPolicyId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciWaasProtectionRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waas_protection_rule#id DataOciWaasProtectionRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waas_protection_rule#id DataOciWaasProtectionRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

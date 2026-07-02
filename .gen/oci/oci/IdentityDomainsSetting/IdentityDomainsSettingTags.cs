@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsSetting
     [JsiiByValue(fqn: "oci.identityDomainsSetting.IdentityDomainsSettingTags")]
     public class IdentityDomainsSettingTags : oci.IdentityDomainsSetting.IIdentityDomainsSettingTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_setting#key IdentityDomainsSetting#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_setting#key IdentityDomainsSetting#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_setting#value IdentityDomainsSetting#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_setting#value IdentityDomainsSetting#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

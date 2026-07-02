@@ -9,7 +9,7 @@ namespace oci.DataOciCoreClusterNetwork
     [JsiiByValue(fqn: "oci.dataOciCoreClusterNetwork.DataOciCoreClusterNetworkConfig")]
     public class DataOciCoreClusterNetworkConfig : oci.DataOciCoreClusterNetwork.IDataOciCoreClusterNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}.</summary>
         [JsiiProperty(name: "clusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterNetworkId
         {

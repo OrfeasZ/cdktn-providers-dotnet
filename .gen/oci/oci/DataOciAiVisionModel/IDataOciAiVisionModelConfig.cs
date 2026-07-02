@@ -7,7 +7,7 @@ namespace oci.DataOciAiVisionModel
     [JsiiInterface(nativeType: typeof(IDataOciAiVisionModelConfig), fullyQualifiedName: "oci.dataOciAiVisionModel.DataOciAiVisionModelConfig")]
     public interface IDataOciAiVisionModelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_model#model_id DataOciAiVisionModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_vision_model#model_id DataOciAiVisionModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiVisionModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_model#model_id DataOciAiVisionModel#model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_vision_model#model_id DataOciAiVisionModel#model_id}.</summary>
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelId
             {

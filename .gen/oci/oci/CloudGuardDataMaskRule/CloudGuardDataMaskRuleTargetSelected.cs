@@ -9,7 +9,7 @@ namespace oci.CloudGuardDataMaskRule
     [JsiiByValue(fqn: "oci.cloudGuardDataMaskRule.CloudGuardDataMaskRuleTargetSelected")]
     public class CloudGuardDataMaskRuleTargetSelected : oci.CloudGuardDataMaskRule.ICloudGuardDataMaskRuleTargetSelected
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_data_mask_rule#kind CloudGuardDataMaskRule#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_data_mask_rule#kind CloudGuardDataMaskRule#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -17,7 +17,7 @@ namespace oci.CloudGuardDataMaskRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_data_mask_rule#values CloudGuardDataMaskRule#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_data_mask_rule#values CloudGuardDataMaskRule#values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Values

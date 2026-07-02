@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityAssessmentFinding.DataOciDataSafeSecurityAssessmentFindingConfig")]
     public class DataOciDataSafeSecurityAssessmentFindingConfig : oci.DataOciDataSafeSecurityAssessmentFinding.IDataOciDataSafeSecurityAssessmentFindingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#security_assessment_id DataOciDataSafeSecurityAssessmentFinding#security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#security_assessment_id DataOciDataSafeSecurityAssessmentFinding#security_assessment_id}.</summary>
         [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityAssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#access_level DataOciDataSafeSecurityAssessmentFinding#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#access_level DataOciDataSafeSecurityAssessmentFinding#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -26,7 +26,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#category DataOciDataSafeSecurityAssessmentFinding#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#category DataOciDataSafeSecurityAssessmentFinding#category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Category
@@ -35,7 +35,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#compartment_id DataOciDataSafeSecurityAssessmentFinding#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#compartment_id DataOciDataSafeSecurityAssessmentFinding#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -46,7 +46,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentFinding#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentFinding#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -78,7 +78,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#contains_references DataOciDataSafeSecurityAssessmentFinding#contains_references}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#contains_references DataOciDataSafeSecurityAssessmentFinding#contains_references}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containsReferences", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ContainsReferences
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#contains_severity DataOciDataSafeSecurityAssessmentFinding#contains_severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#contains_severity DataOciDataSafeSecurityAssessmentFinding#contains_severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containsSeverity", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ContainsSeverity
@@ -96,7 +96,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#field DataOciDataSafeSecurityAssessmentFinding#field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#field DataOciDataSafeSecurityAssessmentFinding#field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "field", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Field
@@ -109,7 +109,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#filter DataOciDataSafeSecurityAssessmentFinding#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#filter DataOciDataSafeSecurityAssessmentFinding#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityAssessmentFinding.IDataOciDataSafeSecurityAssessmentFindingFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -140,7 +140,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#finding_key DataOciDataSafeSecurityAssessmentFinding#finding_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#finding_key DataOciDataSafeSecurityAssessmentFinding#finding_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "findingKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FindingKey
@@ -149,7 +149,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#id DataOciDataSafeSecurityAssessmentFinding#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#id DataOciDataSafeSecurityAssessmentFinding#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -164,7 +164,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
 
         private object? _isTopFinding;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#is_top_finding DataOciDataSafeSecurityAssessmentFinding#is_top_finding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#is_top_finding DataOciDataSafeSecurityAssessmentFinding#is_top_finding}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -196,7 +196,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#references DataOciDataSafeSecurityAssessmentFinding#references}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#references DataOciDataSafeSecurityAssessmentFinding#references}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "references", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? References
@@ -205,7 +205,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#scim_query DataOciDataSafeSecurityAssessmentFinding#scim_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#scim_query DataOciDataSafeSecurityAssessmentFinding#scim_query}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scimQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScimQuery
@@ -214,7 +214,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#severity DataOciDataSafeSecurityAssessmentFinding#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#severity DataOciDataSafeSecurityAssessmentFinding#severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Severity
@@ -223,7 +223,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#state DataOciDataSafeSecurityAssessmentFinding#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#state DataOciDataSafeSecurityAssessmentFinding#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -232,7 +232,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#target_id DataOciDataSafeSecurityAssessmentFinding#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#target_id DataOciDataSafeSecurityAssessmentFinding#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -241,7 +241,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentFinding
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_assessment_finding#target_ids DataOciDataSafeSecurityAssessmentFinding#target_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_assessment_finding#target_ids DataOciDataSafeSecurityAssessmentFinding#target_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TargetIds

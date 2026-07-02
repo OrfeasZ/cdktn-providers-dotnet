@@ -9,7 +9,7 @@ namespace oci.GenerativeAiImportedModel
     [JsiiByValue(fqn: "oci.generativeAiImportedModel.GenerativeAiImportedModelConfig")]
     public class GenerativeAiImportedModelConfig : oci.GenerativeAiImportedModel.IGenerativeAiImportedModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#compartment_id GenerativeAiImportedModel#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#compartment_id GenerativeAiImportedModel#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.GenerativeAiImportedModel
 
         /// <summary>data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#data_source GenerativeAiImportedModel#data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#data_source GenerativeAiImportedModel#data_source}
         /// </remarks>
         [JsiiProperty(name: "dataSource", typeJson: "{\"fqn\":\"oci.generativeAiImportedModel.GenerativeAiImportedModelDataSource\"}")]
         public oci.GenerativeAiImportedModel.IGenerativeAiImportedModelDataSource DataSource
@@ -28,7 +28,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#capabilities GenerativeAiImportedModel#capabilities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#capabilities GenerativeAiImportedModel#capabilities}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capabilities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Capabilities
@@ -37,7 +37,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#defined_tags GenerativeAiImportedModel#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#defined_tags GenerativeAiImportedModel#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#description GenerativeAiImportedModel#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#description GenerativeAiImportedModel#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -55,7 +55,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#display_name GenerativeAiImportedModel#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#display_name GenerativeAiImportedModel#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -64,7 +64,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#freeform_tags GenerativeAiImportedModel#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#freeform_tags GenerativeAiImportedModel#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -73,7 +73,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#id GenerativeAiImportedModel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#id GenerativeAiImportedModel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace oci.GenerativeAiImportedModel
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#timeouts GenerativeAiImportedModel#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#timeouts GenerativeAiImportedModel#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiImportedModel.GenerativeAiImportedModelTimeouts\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#vendor GenerativeAiImportedModel#vendor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#vendor GenerativeAiImportedModel#vendor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vendor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Vendor
@@ -107,7 +107,7 @@ namespace oci.GenerativeAiImportedModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#version GenerativeAiImportedModel#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#version GenerativeAiImportedModel#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

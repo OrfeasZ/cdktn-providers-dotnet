@@ -7,7 +7,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
     [JsiiInterface(nativeType: typeof(IBudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementTimeouts), fullyQualifiedName: "oci.budgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementTimeouts")]
     public interface IBudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#create BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#create BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#delete BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#delete BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#update BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#update BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#create BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#create BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#delete BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#delete BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#update BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#update BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

@@ -9,7 +9,7 @@ namespace oci.LoadBalancer
     [JsiiByValue(fqn: "oci.loadBalancer.LoadBalancerConfig")]
     public class LoadBalancerConfig : oci.LoadBalancer.ILoadBalancerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#compartment_id LoadBalancer#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#compartment_id LoadBalancer#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#display_name LoadBalancer#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#display_name LoadBalancer#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#shape LoadBalancer#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#shape LoadBalancer#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public string Shape
         {
@@ -33,7 +33,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#subnet_ids LoadBalancer#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#subnet_ids LoadBalancer#subnet_ids}.</summary>
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubnetIds
         {
@@ -41,7 +41,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#defined_tags LoadBalancer#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#defined_tags LoadBalancer#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#freeform_tags LoadBalancer#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#freeform_tags LoadBalancer#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -59,7 +59,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#id LoadBalancer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#id LoadBalancer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#ip_mode LoadBalancer#ip_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#ip_mode LoadBalancer#ip_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpMode
@@ -81,7 +81,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#ipv6subnet_cidr LoadBalancer#ipv6subnet_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#ipv6subnet_cidr LoadBalancer#ipv6subnet_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6SubnetCidr
@@ -92,7 +92,7 @@ namespace oci.LoadBalancer
 
         private object? _isDeleteProtectionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#is_delete_protection_enabled LoadBalancer#is_delete_protection_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#is_delete_protection_enabled LoadBalancer#is_delete_protection_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -126,7 +126,7 @@ namespace oci.LoadBalancer
 
         private object? _isPrivate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#is_private LoadBalancer#is_private}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#is_private LoadBalancer#is_private}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -160,7 +160,7 @@ namespace oci.LoadBalancer
 
         private object? _isRequestIdEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#is_request_id_enabled LoadBalancer#is_request_id_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#is_request_id_enabled LoadBalancer#is_request_id_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -192,7 +192,7 @@ namespace oci.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#network_security_group_ids LoadBalancer#network_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#network_security_group_ids LoadBalancer#network_security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NetworkSecurityGroupIds
@@ -201,7 +201,7 @@ namespace oci.LoadBalancer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#request_id_header LoadBalancer#request_id_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#request_id_header LoadBalancer#request_id_header}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestIdHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestIdHeader
@@ -214,7 +214,7 @@ namespace oci.LoadBalancer
 
         /// <summary>reserved_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#reserved_ips LoadBalancer#reserved_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#reserved_ips LoadBalancer#reserved_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LoadBalancer.ILoadBalancerReservedIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -245,7 +245,7 @@ namespace oci.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#security_attributes LoadBalancer#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#security_attributes LoadBalancer#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -256,7 +256,7 @@ namespace oci.LoadBalancer
 
         /// <summary>shape_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#shape_details LoadBalancer#shape_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#shape_details LoadBalancer#shape_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shapeDetails", typeJson: "{\"fqn\":\"oci.loadBalancer.LoadBalancerShapeDetails\"}", isOptional: true)]
@@ -268,7 +268,7 @@ namespace oci.LoadBalancer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/load_balancer#timeouts LoadBalancer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer#timeouts LoadBalancer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancer.LoadBalancerTimeouts\"}", isOptional: true)]

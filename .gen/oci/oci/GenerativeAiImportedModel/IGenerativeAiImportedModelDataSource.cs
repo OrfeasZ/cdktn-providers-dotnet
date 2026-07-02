@@ -7,7 +7,7 @@ namespace oci.GenerativeAiImportedModel
     [JsiiInterface(nativeType: typeof(IGenerativeAiImportedModelDataSource), fullyQualifiedName: "oci.generativeAiImportedModel.GenerativeAiImportedModelDataSource")]
     public interface IGenerativeAiImportedModelDataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#access_token GenerativeAiImportedModel#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#access_token GenerativeAiImportedModel#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessToken
@@ -18,7 +18,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#branch GenerativeAiImportedModel#branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#branch GenerativeAiImportedModel#branch}.</summary>
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Branch
@@ -29,7 +29,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#bucket GenerativeAiImportedModel#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#bucket GenerativeAiImportedModel#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -40,7 +40,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#commit GenerativeAiImportedModel#commit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#commit GenerativeAiImportedModel#commit}.</summary>
         [JsiiProperty(name: "commit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Commit
@@ -51,7 +51,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#model_id GenerativeAiImportedModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#model_id GenerativeAiImportedModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ModelId
@@ -62,7 +62,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#namespace GenerativeAiImportedModel#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#namespace GenerativeAiImportedModel#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -73,7 +73,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#prefix_name GenerativeAiImportedModel#prefix_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#prefix_name GenerativeAiImportedModel#prefix_name}.</summary>
         [JsiiProperty(name: "prefixName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrefixName
@@ -84,7 +84,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#region GenerativeAiImportedModel#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#region GenerativeAiImportedModel#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
@@ -95,7 +95,7 @@ namespace oci.GenerativeAiImportedModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#source_type GenerativeAiImportedModel#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#source_type GenerativeAiImportedModel#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceType
@@ -113,7 +113,7 @@ namespace oci.GenerativeAiImportedModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#access_token GenerativeAiImportedModel#access_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#access_token GenerativeAiImportedModel#access_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessToken
@@ -121,7 +121,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#branch GenerativeAiImportedModel#branch}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#branch GenerativeAiImportedModel#branch}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Branch
@@ -129,7 +129,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#bucket GenerativeAiImportedModel#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#bucket GenerativeAiImportedModel#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -137,7 +137,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#commit GenerativeAiImportedModel#commit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#commit GenerativeAiImportedModel#commit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "commit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Commit
@@ -145,7 +145,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#model_id GenerativeAiImportedModel#model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#model_id GenerativeAiImportedModel#model_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ModelId
@@ -153,7 +153,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#namespace GenerativeAiImportedModel#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#namespace GenerativeAiImportedModel#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace
@@ -161,7 +161,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#prefix_name GenerativeAiImportedModel#prefix_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#prefix_name GenerativeAiImportedModel#prefix_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "prefixName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrefixName
@@ -169,7 +169,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#region GenerativeAiImportedModel#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#region GenerativeAiImportedModel#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region
@@ -177,7 +177,7 @@ namespace oci.GenerativeAiImportedModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/generative_ai_imported_model#source_type GenerativeAiImportedModel#source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_imported_model#source_type GenerativeAiImportedModel#source_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceType

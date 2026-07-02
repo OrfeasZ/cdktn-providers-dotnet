@@ -7,7 +7,7 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiInterface(nativeType: typeof(IOpensearchOpensearchClusterOutboundClusterConfig), fullyQualifiedName: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterOutboundClusterConfig")]
     public interface IOpensearchOpensearchClusterOutboundClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>outbound_clusters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opensearch_opensearch_cluster#outbound_clusters OpensearchOpensearchCluster#outbound_clusters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opensearch_opensearch_cluster#outbound_clusters OpensearchOpensearchCluster#outbound_clusters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterOutboundClusterConfigOutboundClusters" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "outboundClusters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterOutboundClusterConfigOutboundClusters\"},\"kind\":\"array\"}}]}}")]
@@ -35,7 +35,7 @@ namespace oci.OpensearchOpensearchCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -47,7 +47,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>outbound_clusters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/opensearch_opensearch_cluster#outbound_clusters OpensearchOpensearchCluster#outbound_clusters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opensearch_opensearch_cluster#outbound_clusters OpensearchOpensearchCluster#outbound_clusters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterOutboundClusterConfigOutboundClusters" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "outboundClusters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterOutboundClusterConfigOutboundClusters\"},\"kind\":\"array\"}}]}}")]

@@ -7,7 +7,7 @@ namespace oci.DataflowPool
     [JsiiInterface(nativeType: typeof(IDataflowPoolConfigurationsShapeConfig), fullyQualifiedName: "oci.dataflowPool.DataflowPoolConfigurationsShapeConfig")]
     public interface IDataflowPoolConfigurationsShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_pool#memory_in_gbs DataflowPool#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#memory_in_gbs DataflowPool#memory_in_gbs}.</summary>
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MemoryInGbs
@@ -18,7 +18,7 @@ namespace oci.DataflowPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_pool#ocpus DataflowPool#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#ocpus DataflowPool#ocpus}.</summary>
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ocpus
@@ -36,7 +36,7 @@ namespace oci.DataflowPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_pool#memory_in_gbs DataflowPool#memory_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#memory_in_gbs DataflowPool#memory_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MemoryInGbs
@@ -44,7 +44,7 @@ namespace oci.DataflowPool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_pool#ocpus DataflowPool#ocpus}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#ocpus DataflowPool#ocpus}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ocpus

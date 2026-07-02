@@ -7,7 +7,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     [JsiiByValue(fqn: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersBackupConfig")]
     public class DisasterRecoveryDrProtectionGroupMembersBackupConfig : oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#backup_schedule DisasterRecoveryDrProtectionGroup#backup_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#backup_schedule DisasterRecoveryDrProtectionGroup#backup_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupSchedule
@@ -16,7 +16,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#exclude_namespaces DisasterRecoveryDrProtectionGroup#exclude_namespaces}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#exclude_namespaces DisasterRecoveryDrProtectionGroup#exclude_namespaces}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludeNamespaces", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExcludeNamespaces
@@ -25,7 +25,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#image_replication_vault_secret_id DisasterRecoveryDrProtectionGroup#image_replication_vault_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#image_replication_vault_secret_id DisasterRecoveryDrProtectionGroup#image_replication_vault_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageReplicationVaultSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageReplicationVaultSecretId
@@ -34,7 +34,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#max_number_of_backups_retained DisasterRecoveryDrProtectionGroup#max_number_of_backups_retained}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#max_number_of_backups_retained DisasterRecoveryDrProtectionGroup#max_number_of_backups_retained}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxNumberOfBackupsRetained", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxNumberOfBackupsRetained
@@ -43,7 +43,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#namespaces DisasterRecoveryDrProtectionGroup#namespaces}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#namespaces DisasterRecoveryDrProtectionGroup#namespaces}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespaces", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Namespaces
@@ -52,7 +52,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/disaster_recovery_dr_protection_group#replicate_images DisasterRecoveryDrProtectionGroup#replicate_images}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/disaster_recovery_dr_protection_group#replicate_images DisasterRecoveryDrProtectionGroup#replicate_images}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicateImages", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReplicateImages

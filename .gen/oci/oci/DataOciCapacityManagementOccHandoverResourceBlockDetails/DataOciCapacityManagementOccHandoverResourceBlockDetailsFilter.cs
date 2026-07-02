@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementOccHandoverResourceBlockDetails
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccHandoverResourceBlockDetails.DataOciCapacityManagementOccHandoverResourceBlockDetailsFilter")]
     public class DataOciCapacityManagementOccHandoverResourceBlockDetailsFilter : oci.DataOciCapacityManagementOccHandoverResourceBlockDetails.IDataOciCapacityManagementOccHandoverResourceBlockDetailsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_handover_resource_block_details#name DataOciCapacityManagementOccHandoverResourceBlockDetails#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_handover_resource_block_details#name DataOciCapacityManagementOccHandoverResourceBlockDetails#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementOccHandoverResourceBlockDetails
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_handover_resource_block_details#values DataOciCapacityManagementOccHandoverResourceBlockDetails#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_handover_resource_block_details#values DataOciCapacityManagementOccHandoverResourceBlockDetails#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCapacityManagementOccHandoverResourceBlockDetails
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/capacity_management_occ_handover_resource_block_details#regex DataOciCapacityManagementOccHandoverResourceBlockDetails#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_occ_handover_resource_block_details#regex DataOciCapacityManagementOccHandoverResourceBlockDetails#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

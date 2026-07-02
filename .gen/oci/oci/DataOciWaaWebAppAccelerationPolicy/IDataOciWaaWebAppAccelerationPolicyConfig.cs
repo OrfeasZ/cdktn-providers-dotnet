@@ -7,7 +7,7 @@ namespace oci.DataOciWaaWebAppAccelerationPolicy
     [JsiiInterface(nativeType: typeof(IDataOciWaaWebAppAccelerationPolicyConfig), fullyQualifiedName: "oci.dataOciWaaWebAppAccelerationPolicy.DataOciWaaWebAppAccelerationPolicyConfig")]
     public interface IDataOciWaaWebAppAccelerationPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waa_web_app_acceleration_policy#web_app_acceleration_policy_id DataOciWaaWebAppAccelerationPolicy#web_app_acceleration_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waa_web_app_acceleration_policy#web_app_acceleration_policy_id DataOciWaaWebAppAccelerationPolicy#web_app_acceleration_policy_id}.</summary>
         [JsiiProperty(name: "webAppAccelerationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string WebAppAccelerationPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWaaWebAppAccelerationPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waa_web_app_acceleration_policy#web_app_acceleration_policy_id DataOciWaaWebAppAccelerationPolicy#web_app_acceleration_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waa_web_app_acceleration_policy#web_app_acceleration_policy_id DataOciWaaWebAppAccelerationPolicy#web_app_acceleration_policy_id}.</summary>
             [JsiiProperty(name: "webAppAccelerationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string WebAppAccelerationPolicyId
             {

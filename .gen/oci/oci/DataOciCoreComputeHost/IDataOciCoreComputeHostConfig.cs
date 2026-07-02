@@ -7,14 +7,14 @@ namespace oci.DataOciCoreComputeHost
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeHostConfig), fullyQualifiedName: "oci.dataOciCoreComputeHost.DataOciCoreComputeHostConfig")]
     public interface IDataOciCoreComputeHostConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_host#compute_host_id DataOciCoreComputeHost#compute_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_compute_host#compute_host_id DataOciCoreComputeHost#compute_host_id}.</summary>
         [JsiiProperty(name: "computeHostId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeHostId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_host#id DataOciCoreComputeHost#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_compute_host#id DataOciCoreComputeHost#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciCoreComputeHost
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_host#compute_host_id DataOciCoreComputeHost#compute_host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_compute_host#compute_host_id DataOciCoreComputeHost#compute_host_id}.</summary>
             [JsiiProperty(name: "computeHostId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeHostId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_compute_host#id DataOciCoreComputeHost#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_compute_host#id DataOciCoreComputeHost#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

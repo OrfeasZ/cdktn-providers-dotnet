@@ -7,7 +7,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
     [JsiiInterface(nativeType: typeof(IDataSafeSensitiveDataModelsApplyDiscoveryJobResultsTimeouts), fullyQualifiedName: "oci.dataSafeSensitiveDataModelsApplyDiscoveryJobResults.DataSafeSensitiveDataModelsApplyDiscoveryJobResultsTimeouts")]
     public interface IDataSafeSensitiveDataModelsApplyDiscoveryJobResultsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#create DataSafeSensitiveDataModelsApplyDiscoveryJobResults#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#create DataSafeSensitiveDataModelsApplyDiscoveryJobResults#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#delete DataSafeSensitiveDataModelsApplyDiscoveryJobResults#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#delete DataSafeSensitiveDataModelsApplyDiscoveryJobResults#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#update DataSafeSensitiveDataModelsApplyDiscoveryJobResults#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#update DataSafeSensitiveDataModelsApplyDiscoveryJobResults#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#create DataSafeSensitiveDataModelsApplyDiscoveryJobResults#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#create DataSafeSensitiveDataModelsApplyDiscoveryJobResults#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#delete DataSafeSensitiveDataModelsApplyDiscoveryJobResults#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#delete DataSafeSensitiveDataModelsApplyDiscoveryJobResults#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#update DataSafeSensitiveDataModelsApplyDiscoveryJobResults#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#update DataSafeSensitiveDataModelsApplyDiscoveryJobResults#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

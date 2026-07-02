@@ -9,7 +9,7 @@ namespace oci.DataOciApmTracesScheduledQuery
     [JsiiByValue(fqn: "oci.dataOciApmTracesScheduledQuery.DataOciApmTracesScheduledQueryConfig")]
     public class DataOciApmTracesScheduledQueryConfig : oci.DataOciApmTracesScheduledQuery.IDataOciApmTracesScheduledQueryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_traces_scheduled_query#apm_domain_id DataOciApmTracesScheduledQuery#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_traces_scheduled_query#apm_domain_id DataOciApmTracesScheduledQuery#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmTracesScheduledQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/apm_traces_scheduled_query#scheduled_query_id DataOciApmTracesScheduledQuery#scheduled_query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apm_traces_scheduled_query#scheduled_query_id DataOciApmTracesScheduledQuery#scheduled_query_id}.</summary>
         [JsiiProperty(name: "scheduledQueryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduledQueryId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachment
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentServiceAttachment.DataOciFusionAppsFusionEnvironmentServiceAttachmentConfig")]
     public class DataOciFusionAppsFusionEnvironmentServiceAttachmentConfig : oci.DataOciFusionAppsFusionEnvironmentServiceAttachment.IDataOciFusionAppsFusionEnvironmentServiceAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_service_attachment#fusion_environment_id DataOciFusionAppsFusionEnvironmentServiceAttachment#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachment#fusion_environment_id DataOciFusionAppsFusionEnvironmentServiceAttachment#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_service_attachment#service_attachment_id DataOciFusionAppsFusionEnvironmentServiceAttachment#service_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachment#service_attachment_id DataOciFusionAppsFusionEnvironmentServiceAttachment#service_attachment_id}.</summary>
         [JsiiProperty(name: "serviceAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceAttachmentId
         {

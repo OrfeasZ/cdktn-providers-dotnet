@@ -39,6 +39,12 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyBackupPolicy)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putPitrPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyPitrPolicy\"}}]")]
+        public virtual void PutPitrPolicy(oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyPitrPolicy @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyPitrPolicy)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBackupPolicy")]
         public virtual void ResetBackupPolicy()
         {
@@ -51,10 +57,22 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPitrPolicy")]
+        public virtual void ResetPitrPolicy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "backupPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyOutputReference\"}")]
         public virtual oci.PsqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyOutputReference BackupPolicy
         {
             get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "pitrPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyPitrPolicyOutputReference\"}")]
+        public virtual oci.PsqlDbSystem.PsqlDbSystemManagementPolicyPitrPolicyOutputReference PitrPolicy
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.PsqlDbSystemManagementPolicyPitrPolicyOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -69,6 +87,13 @@ namespace oci.PsqlDbSystem
         public virtual string? MaintenanceWindowStartInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "pitrPolicyInput", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyPitrPolicy\"}", isOptional: true)]
+        public virtual oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyPitrPolicy? PitrPolicyInput
+        {
+            get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyPitrPolicy?>();
         }
 
         [JsiiProperty(name: "maintenanceWindowStart", typeJson: "{\"primitive\":\"string\"}")]

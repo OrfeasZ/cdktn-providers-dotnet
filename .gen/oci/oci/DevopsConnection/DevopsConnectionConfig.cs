@@ -9,7 +9,7 @@ namespace oci.DevopsConnection
     [JsiiByValue(fqn: "oci.devopsConnection.DevopsConnectionConfig")]
     public class DevopsConnectionConfig : oci.DevopsConnection.IDevopsConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#connection_type DevopsConnection#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#connection_type DevopsConnection#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#project_id DevopsConnection#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#project_id DevopsConnection#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#access_token DevopsConnection#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#access_token DevopsConnection#access_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessToken
@@ -34,7 +34,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#app_password DevopsConnection#app_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#app_password DevopsConnection#app_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "appPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AppPassword
@@ -43,7 +43,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#base_url DevopsConnection#base_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#base_url DevopsConnection#base_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BaseUrl
@@ -52,7 +52,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#defined_tags DevopsConnection#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#defined_tags DevopsConnection#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -61,7 +61,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#description DevopsConnection#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#description DevopsConnection#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -70,7 +70,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#display_name DevopsConnection#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#display_name DevopsConnection#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -79,7 +79,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#freeform_tags DevopsConnection#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#freeform_tags DevopsConnection#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -88,7 +88,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#id DevopsConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#id DevopsConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,7 +103,7 @@ namespace oci.DevopsConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#timeouts DevopsConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#timeouts DevopsConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.devopsConnection.DevopsConnectionTimeouts\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace oci.DevopsConnection
 
         /// <summary>tls_verify_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#tls_verify_config DevopsConnection#tls_verify_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#tls_verify_config DevopsConnection#tls_verify_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlsVerifyConfig", typeJson: "{\"fqn\":\"oci.devopsConnection.DevopsConnectionTlsVerifyConfig\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace oci.DevopsConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_connection#username DevopsConnection#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#username DevopsConnection#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

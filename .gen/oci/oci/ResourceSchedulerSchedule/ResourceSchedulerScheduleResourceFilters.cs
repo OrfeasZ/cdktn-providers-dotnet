@@ -9,7 +9,7 @@ namespace oci.ResourceSchedulerSchedule
     [JsiiByValue(fqn: "oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFilters")]
     public class ResourceSchedulerScheduleResourceFilters : oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}.</summary>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}")]
         public string Attribute
         {
@@ -17,7 +17,7 @@ namespace oci.ResourceSchedulerSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Condition
@@ -28,7 +28,7 @@ namespace oci.ResourceSchedulerSchedule
 
         private object? _shouldIncludeChildCompartments;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace oci.ResourceSchedulerSchedule
 
         /// <summary>value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFiltersValue" />)[]</para>
         /// </remarks>
         [JsiiOptional]

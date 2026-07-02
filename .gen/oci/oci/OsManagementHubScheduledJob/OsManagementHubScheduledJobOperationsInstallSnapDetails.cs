@@ -9,7 +9,7 @@ namespace oci.OsManagementHubScheduledJob
     [JsiiByValue(fqn: "oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetails")]
     public class OsManagementHubScheduledJobOperationsInstallSnapDetails : oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsInstallSnapDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_scheduled_job#name OsManagementHubScheduledJob#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_scheduled_job#name OsManagementHubScheduledJob#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubScheduledJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_scheduled_job#channel OsManagementHubScheduledJob#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_scheduled_job#channel OsManagementHubScheduledJob#channel}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Channel
@@ -28,7 +28,7 @@ namespace oci.OsManagementHubScheduledJob
 
         private object? _isSigned;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_scheduled_job#is_signed OsManagementHubScheduledJob#is_signed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_scheduled_job#is_signed OsManagementHubScheduledJob#is_signed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace oci.OsManagementHubScheduledJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_scheduled_job#mode OsManagementHubScheduledJob#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_scheduled_job#mode OsManagementHubScheduledJob#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -69,7 +69,7 @@ namespace oci.OsManagementHubScheduledJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_scheduled_job#revision OsManagementHubScheduledJob#revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_scheduled_job#revision OsManagementHubScheduledJob#revision}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Revision

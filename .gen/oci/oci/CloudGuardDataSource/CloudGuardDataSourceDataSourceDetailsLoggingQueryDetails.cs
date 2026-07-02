@@ -9,7 +9,7 @@ namespace oci.CloudGuardDataSource
     [JsiiByValue(fqn: "oci.cloudGuardDataSource.CloudGuardDataSourceDataSourceDetailsLoggingQueryDetails")]
     public class CloudGuardDataSourceDataSourceDetailsLoggingQueryDetails : oci.CloudGuardDataSource.ICloudGuardDataSourceDataSourceDetailsLoggingQueryDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_data_source#logging_query_type CloudGuardDataSource#logging_query_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_data_source#logging_query_type CloudGuardDataSource#logging_query_type}.</summary>
         [JsiiProperty(name: "loggingQueryType", typeJson: "{\"primitive\":\"string\"}")]
         public string LoggingQueryType
         {
@@ -17,7 +17,7 @@ namespace oci.CloudGuardDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_guard_data_source#key_entities_count CloudGuardDataSource#key_entities_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_data_source#key_entities_count CloudGuardDataSource#key_entities_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyEntitiesCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? KeyEntitiesCount

@@ -9,7 +9,7 @@ namespace oci.CloudMigrationsMigration
     [JsiiByValue(fqn: "oci.cloudMigrationsMigration.CloudMigrationsMigrationConfig")]
     public class CloudMigrationsMigrationConfig : oci.CloudMigrationsMigration.ICloudMigrationsMigrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#compartment_id CloudMigrationsMigration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#compartment_id CloudMigrationsMigration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#display_name CloudMigrationsMigration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#display_name CloudMigrationsMigration#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#defined_tags CloudMigrationsMigration#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#defined_tags CloudMigrationsMigration#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#freeform_tags CloudMigrationsMigration#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#freeform_tags CloudMigrationsMigration#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -43,7 +43,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#id CloudMigrationsMigration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#id CloudMigrationsMigration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.CloudMigrationsMigration
 
         private object? _isCompleted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#is_completed CloudMigrationsMigration#is_completed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#is_completed CloudMigrationsMigration#is_completed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -92,7 +92,7 @@ namespace oci.CloudMigrationsMigration
 
         /// <summary>migration_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#migration_config CloudMigrationsMigration#migration_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#migration_config CloudMigrationsMigration#migration_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "migrationConfig", typeJson: "{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationMigrationConfig\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#migration_type CloudMigrationsMigration#migration_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#migration_type CloudMigrationsMigration#migration_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "migrationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MigrationType
@@ -111,7 +111,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#replication_schedule_id CloudMigrationsMigration#replication_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#replication_schedule_id CloudMigrationsMigration#replication_schedule_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicationScheduleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReplicationScheduleId
@@ -120,7 +120,7 @@ namespace oci.CloudMigrationsMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#security_attributes CloudMigrationsMigration#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#security_attributes CloudMigrationsMigration#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -131,7 +131,7 @@ namespace oci.CloudMigrationsMigration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/cloud_migrations_migration#timeouts CloudMigrationsMigration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_migration#timeouts CloudMigrationsMigration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.cloudMigrationsMigration.CloudMigrationsMigrationTimeouts\"}", isOptional: true)]

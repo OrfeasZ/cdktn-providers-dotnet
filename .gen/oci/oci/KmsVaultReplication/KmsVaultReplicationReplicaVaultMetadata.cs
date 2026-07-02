@@ -9,7 +9,7 @@ namespace oci.KmsVaultReplication
     [JsiiByValue(fqn: "oci.kmsVaultReplication.KmsVaultReplicationReplicaVaultMetadata")]
     public class KmsVaultReplicationReplicaVaultMetadata : oci.KmsVaultReplication.IKmsVaultReplicationReplicaVaultMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault_replication#idcs_account_name_url KmsVaultReplication#idcs_account_name_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_vault_replication#idcs_account_name_url KmsVaultReplication#idcs_account_name_url}.</summary>
         [JsiiProperty(name: "idcsAccountNameUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsAccountNameUrl
         {
@@ -17,7 +17,7 @@ namespace oci.KmsVaultReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault_replication#private_endpoint_id KmsVaultReplication#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_vault_replication#private_endpoint_id KmsVaultReplication#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateEndpointId
         {
@@ -25,7 +25,7 @@ namespace oci.KmsVaultReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/kms_vault_replication#vault_type KmsVaultReplication#vault_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_vault_replication#vault_type KmsVaultReplication#vault_type}.</summary>
         [JsiiProperty(name: "vaultType", typeJson: "{\"primitive\":\"string\"}")]
         public string VaultType
         {

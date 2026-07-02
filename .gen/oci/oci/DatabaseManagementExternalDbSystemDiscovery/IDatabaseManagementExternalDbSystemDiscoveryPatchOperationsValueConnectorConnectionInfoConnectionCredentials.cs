@@ -7,14 +7,14 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
     [JsiiInterface(nativeType: typeof(IDatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials), fullyQualifiedName: "oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials")]
     public interface IDatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#credential_type DatabaseManagementExternalDbSystemDiscovery#credential_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#credential_type DatabaseManagementExternalDbSystemDiscovery#credential_type}.</summary>
         [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}")]
         string CredentialType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#credential_name DatabaseManagementExternalDbSystemDiscovery#credential_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#credential_name DatabaseManagementExternalDbSystemDiscovery#credential_name}.</summary>
         [JsiiProperty(name: "credentialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CredentialName
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#password_secret_id DatabaseManagementExternalDbSystemDiscovery#password_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#password_secret_id DatabaseManagementExternalDbSystemDiscovery#password_secret_id}.</summary>
         [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PasswordSecretId
@@ -36,7 +36,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#role DatabaseManagementExternalDbSystemDiscovery#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#role DatabaseManagementExternalDbSystemDiscovery#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Role
@@ -47,7 +47,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#ssl_secret_id DatabaseManagementExternalDbSystemDiscovery#ssl_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#ssl_secret_id DatabaseManagementExternalDbSystemDiscovery#ssl_secret_id}.</summary>
         [JsiiProperty(name: "sslSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SslSecretId
@@ -58,7 +58,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#user_name DatabaseManagementExternalDbSystemDiscovery#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#user_name DatabaseManagementExternalDbSystemDiscovery#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserName
@@ -76,14 +76,14 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#credential_type DatabaseManagementExternalDbSystemDiscovery#credential_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#credential_type DatabaseManagementExternalDbSystemDiscovery#credential_type}.</summary>
             [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}")]
             public string CredentialType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#credential_name DatabaseManagementExternalDbSystemDiscovery#credential_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#credential_name DatabaseManagementExternalDbSystemDiscovery#credential_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "credentialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CredentialName
@@ -91,7 +91,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#password_secret_id DatabaseManagementExternalDbSystemDiscovery#password_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#password_secret_id DatabaseManagementExternalDbSystemDiscovery#password_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PasswordSecretId
@@ -99,7 +99,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#role DatabaseManagementExternalDbSystemDiscovery#role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#role DatabaseManagementExternalDbSystemDiscovery#role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Role
@@ -107,7 +107,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#ssl_secret_id DatabaseManagementExternalDbSystemDiscovery#ssl_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#ssl_secret_id DatabaseManagementExternalDbSystemDiscovery#ssl_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sslSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SslSecretId
@@ -115,7 +115,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_external_db_system_discovery#user_name DatabaseManagementExternalDbSystemDiscovery#user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_discovery#user_name DatabaseManagementExternalDbSystemDiscovery#user_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserName

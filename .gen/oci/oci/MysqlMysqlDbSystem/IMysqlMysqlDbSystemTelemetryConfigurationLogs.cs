@@ -7,7 +7,7 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiInterface(nativeType: typeof(IMysqlMysqlDbSystemTelemetryConfigurationLogs), fullyQualifiedName: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfigurationLogs")]
     public interface IMysqlMysqlDbSystemTelemetryConfigurationLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_db_system#destination MysqlMysqlDbSystem#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#destination MysqlMysqlDbSystem#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         string Destination
         {
@@ -16,7 +16,7 @@ namespace oci.MysqlMysqlDbSystem
 
         /// <summary>destination_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_db_system#destination_configurations MysqlMysqlDbSystem#destination_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#destination_configurations MysqlMysqlDbSystem#destination_configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfigurationLogsDestinationConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "destinationConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfigurationLogsDestinationConfigurations\"},\"kind\":\"array\"}}]}}")]
@@ -25,7 +25,7 @@ namespace oci.MysqlMysqlDbSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_db_system#log_types MysqlMysqlDbSystem#log_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#log_types MysqlMysqlDbSystem#log_types}.</summary>
         [JsiiProperty(name: "logTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] LogTypes
         {
@@ -39,7 +39,7 @@ namespace oci.MysqlMysqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_db_system#destination MysqlMysqlDbSystem#destination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#destination MysqlMysqlDbSystem#destination}.</summary>
             [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
             public string Destination
             {
@@ -48,7 +48,7 @@ namespace oci.MysqlMysqlDbSystem
 
             /// <summary>destination_configurations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_db_system#destination_configurations MysqlMysqlDbSystem#destination_configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#destination_configurations MysqlMysqlDbSystem#destination_configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfigurationLogsDestinationConfigurations" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "destinationConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemTelemetryConfigurationLogsDestinationConfigurations\"},\"kind\":\"array\"}}]}}")]
@@ -57,7 +57,7 @@ namespace oci.MysqlMysqlDbSystem
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/mysql_mysql_db_system#log_types MysqlMysqlDbSystem#log_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#log_types MysqlMysqlDbSystem#log_types}.</summary>
             [JsiiProperty(name: "logTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] LogTypes
             {

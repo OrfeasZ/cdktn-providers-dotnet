@@ -7,7 +7,7 @@ namespace oci.DataOciIotDigitalTwinRelationship
     [JsiiInterface(nativeType: typeof(IDataOciIotDigitalTwinRelationshipConfig), fullyQualifiedName: "oci.dataOciIotDigitalTwinRelationship.DataOciIotDigitalTwinRelationshipConfig")]
     public interface IDataOciIotDigitalTwinRelationshipConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/iot_digital_twin_relationship#digital_twin_relationship_id DataOciIotDigitalTwinRelationship#digital_twin_relationship_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationship#digital_twin_relationship_id DataOciIotDigitalTwinRelationship#digital_twin_relationship_id}.</summary>
         [JsiiProperty(name: "digitalTwinRelationshipId", typeJson: "{\"primitive\":\"string\"}")]
         string DigitalTwinRelationshipId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIotDigitalTwinRelationship
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/iot_digital_twin_relationship#digital_twin_relationship_id DataOciIotDigitalTwinRelationship#digital_twin_relationship_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationship#digital_twin_relationship_id DataOciIotDigitalTwinRelationship#digital_twin_relationship_id}.</summary>
             [JsiiProperty(name: "digitalTwinRelationshipId", typeJson: "{\"primitive\":\"string\"}")]
             public string DigitalTwinRelationshipId
             {

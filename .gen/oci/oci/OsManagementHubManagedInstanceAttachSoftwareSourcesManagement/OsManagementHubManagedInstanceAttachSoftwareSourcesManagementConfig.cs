@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceAttachSoftwareSourcesManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceAttachSoftwareSourcesManagement.OsManagementHubManagedInstanceAttachSoftwareSourcesManagementConfig")]
     public class OsManagementHubManagedInstanceAttachSoftwareSourcesManagementConfig : oci.OsManagementHubManagedInstanceAttachSoftwareSourcesManagement.IOsManagementHubManagedInstanceAttachSoftwareSourcesManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#managed_instance_id OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#managed_instance_id OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstanceAttachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#software_sources OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#software_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#software_sources OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#software_sources}.</summary>
         [JsiiProperty(name: "softwareSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SoftwareSources
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubManagedInstanceAttachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#id OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#id OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubManagedInstanceAttachSoftwareSourcesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#timeouts OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#timeouts OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceAttachSoftwareSourcesManagement.OsManagementHubManagedInstanceAttachSoftwareSourcesManagementTimeouts\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace oci.OsManagementHubManagedInstanceAttachSoftwareSourcesManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#work_request_details OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_attach_software_sources_management#work_request_details OsManagementHubManagedInstanceAttachSoftwareSourcesManagement#work_request_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceAttachSoftwareSourcesManagement.OsManagementHubManagedInstanceAttachSoftwareSourcesManagementWorkRequestDetails\"}", isOptional: true)]

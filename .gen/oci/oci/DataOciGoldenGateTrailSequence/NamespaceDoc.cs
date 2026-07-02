@@ -5,7 +5,7 @@ namespace oci.DataOciGoldenGateTrailSequence
     /// <remarks>
     /// <h1><c>data_oci_golden_gate_trail_sequence</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/golden_gate_trail_sequence"><c>data_oci_golden_gate_trail_sequence</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_trail_sequence"><c>data_oci_golden_gate_trail_sequence</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

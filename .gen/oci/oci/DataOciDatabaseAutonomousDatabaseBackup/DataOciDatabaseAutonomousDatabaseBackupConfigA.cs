@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseBackup
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseBackup.DataOciDatabaseAutonomousDatabaseBackupConfigA")]
     public class DataOciDatabaseAutonomousDatabaseBackupConfigA : oci.DataOciDatabaseAutonomousDatabaseBackup.IDataOciDatabaseAutonomousDatabaseBackupConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_autonomous_database_backup#autonomous_database_backup_id DataOciDatabaseAutonomousDatabaseBackup#autonomous_database_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_autonomous_database_backup#autonomous_database_backup_id DataOciDatabaseAutonomousDatabaseBackup#autonomous_database_backup_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseBackupId
         {

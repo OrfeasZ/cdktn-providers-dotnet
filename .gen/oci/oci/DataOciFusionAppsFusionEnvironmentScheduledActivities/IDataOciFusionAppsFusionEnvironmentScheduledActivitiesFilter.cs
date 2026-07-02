@@ -7,21 +7,21 @@ namespace oci.DataOciFusionAppsFusionEnvironmentScheduledActivities
     [JsiiInterface(nativeType: typeof(IDataOciFusionAppsFusionEnvironmentScheduledActivitiesFilter), fullyQualifiedName: "oci.dataOciFusionAppsFusionEnvironmentScheduledActivities.DataOciFusionAppsFusionEnvironmentScheduledActivitiesFilter")]
     public interface IDataOciFusionAppsFusionEnvironmentScheduledActivitiesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#name DataOciFusionAppsFusionEnvironmentScheduledActivities#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#name DataOciFusionAppsFusionEnvironmentScheduledActivities#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#values DataOciFusionAppsFusionEnvironmentScheduledActivities#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#values DataOciFusionAppsFusionEnvironmentScheduledActivities#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#regex DataOciFusionAppsFusionEnvironmentScheduledActivities#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#regex DataOciFusionAppsFusionEnvironmentScheduledActivities#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFusionAppsFusionEnvironmentScheduledActivities
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#name DataOciFusionAppsFusionEnvironmentScheduledActivities#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#name DataOciFusionAppsFusionEnvironmentScheduledActivities#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#values DataOciFusionAppsFusionEnvironmentScheduledActivities#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#values DataOciFusionAppsFusionEnvironmentScheduledActivities#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#regex DataOciFusionAppsFusionEnvironmentScheduledActivities#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#regex DataOciFusionAppsFusionEnvironmentScheduledActivities#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

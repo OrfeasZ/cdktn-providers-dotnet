@@ -9,7 +9,7 @@ namespace oci.DevopsBuildRun
     [JsiiByValue(fqn: "oci.devopsBuildRun.DevopsBuildRunBuildRunArgumentsItems")]
     public class DevopsBuildRunBuildRunArgumentsItems : oci.DevopsBuildRun.IDevopsBuildRunBuildRunArgumentsItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#name DevopsBuildRun#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_build_run#name DevopsBuildRun#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsBuildRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/devops_build_run#value DevopsBuildRun#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_build_run#value DevopsBuildRun#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

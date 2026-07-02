@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsDeployEnvironment
     [JsiiByValue(fqn: "oci.dataOciDevopsDeployEnvironment.DataOciDevopsDeployEnvironmentConfig")]
     public class DataOciDevopsDeployEnvironmentConfig : oci.DataOciDevopsDeployEnvironment.IDataOciDevopsDeployEnvironmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_deploy_environment#deploy_environment_id DataOciDevopsDeployEnvironment#deploy_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_deploy_environment#deploy_environment_id DataOciDevopsDeployEnvironment#deploy_environment_id}.</summary>
         [JsiiProperty(name: "deployEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeployEnvironmentId
         {

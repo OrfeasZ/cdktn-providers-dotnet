@@ -7,21 +7,21 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
     [JsiiInterface(nativeType: typeof(IApiaccesscontrolPrivilegedApiControlConfig), fullyQualifiedName: "oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlConfig")]
     public interface IApiaccesscontrolPrivilegedApiControlConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#approver_group_id_list ApiaccesscontrolPrivilegedApiControl#approver_group_id_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#approver_group_id_list ApiaccesscontrolPrivilegedApiControl#approver_group_id_list}.</summary>
         [JsiiProperty(name: "approverGroupIdList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] ApproverGroupIdList
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#compartment_id ApiaccesscontrolPrivilegedApiControl#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#compartment_id ApiaccesscontrolPrivilegedApiControl#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#notification_topic_id ApiaccesscontrolPrivilegedApiControl#notification_topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#notification_topic_id ApiaccesscontrolPrivilegedApiControl#notification_topic_id}.</summary>
         [JsiiProperty(name: "notificationTopicId", typeJson: "{\"primitive\":\"string\"}")]
         string NotificationTopicId
         {
@@ -30,7 +30,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
 
         /// <summary>privileged_operation_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#privileged_operation_list ApiaccesscontrolPrivilegedApiControl#privileged_operation_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#privileged_operation_list ApiaccesscontrolPrivilegedApiControl#privileged_operation_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "privilegedOperationList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct\"},\"kind\":\"array\"}}]}}")]
@@ -39,21 +39,21 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#resources ApiaccesscontrolPrivilegedApiControl#resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#resources ApiaccesscontrolPrivilegedApiControl#resources}.</summary>
         [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Resources
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#resource_type ApiaccesscontrolPrivilegedApiControl#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#resource_type ApiaccesscontrolPrivilegedApiControl#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#defined_tags ApiaccesscontrolPrivilegedApiControl#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#defined_tags ApiaccesscontrolPrivilegedApiControl#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -64,7 +64,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#description ApiaccesscontrolPrivilegedApiControl#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#description ApiaccesscontrolPrivilegedApiControl#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -75,7 +75,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#display_name ApiaccesscontrolPrivilegedApiControl#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#display_name ApiaccesscontrolPrivilegedApiControl#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -86,7 +86,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#freeform_tags ApiaccesscontrolPrivilegedApiControl#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#freeform_tags ApiaccesscontrolPrivilegedApiControl#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -97,7 +97,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#id ApiaccesscontrolPrivilegedApiControl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#id ApiaccesscontrolPrivilegedApiControl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#number_of_approvers ApiaccesscontrolPrivilegedApiControl#number_of_approvers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#number_of_approvers ApiaccesscontrolPrivilegedApiControl#number_of_approvers}.</summary>
         [JsiiProperty(name: "numberOfApprovers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NumberOfApprovers
@@ -125,7 +125,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#timeouts ApiaccesscontrolPrivilegedApiControl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#timeouts ApiaccesscontrolPrivilegedApiControl#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,21 +144,21 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#approver_group_id_list ApiaccesscontrolPrivilegedApiControl#approver_group_id_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#approver_group_id_list ApiaccesscontrolPrivilegedApiControl#approver_group_id_list}.</summary>
             [JsiiProperty(name: "approverGroupIdList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] ApproverGroupIdList
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#compartment_id ApiaccesscontrolPrivilegedApiControl#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#compartment_id ApiaccesscontrolPrivilegedApiControl#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#notification_topic_id ApiaccesscontrolPrivilegedApiControl#notification_topic_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#notification_topic_id ApiaccesscontrolPrivilegedApiControl#notification_topic_id}.</summary>
             [JsiiProperty(name: "notificationTopicId", typeJson: "{\"primitive\":\"string\"}")]
             public string NotificationTopicId
             {
@@ -167,7 +167,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
 
             /// <summary>privileged_operation_list block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#privileged_operation_list ApiaccesscontrolPrivilegedApiControl#privileged_operation_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#privileged_operation_list ApiaccesscontrolPrivilegedApiControl#privileged_operation_list}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "privilegedOperationList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct\"},\"kind\":\"array\"}}]}}")]
@@ -176,21 +176,21 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#resources ApiaccesscontrolPrivilegedApiControl#resources}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#resources ApiaccesscontrolPrivilegedApiControl#resources}.</summary>
             [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Resources
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#resource_type ApiaccesscontrolPrivilegedApiControl#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#resource_type ApiaccesscontrolPrivilegedApiControl#resource_type}.</summary>
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#defined_tags ApiaccesscontrolPrivilegedApiControl#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#defined_tags ApiaccesscontrolPrivilegedApiControl#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -198,7 +198,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#description ApiaccesscontrolPrivilegedApiControl#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#description ApiaccesscontrolPrivilegedApiControl#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -206,7 +206,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#display_name ApiaccesscontrolPrivilegedApiControl#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#display_name ApiaccesscontrolPrivilegedApiControl#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -214,7 +214,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#freeform_tags ApiaccesscontrolPrivilegedApiControl#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#freeform_tags ApiaccesscontrolPrivilegedApiControl#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -222,7 +222,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#id ApiaccesscontrolPrivilegedApiControl#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#id ApiaccesscontrolPrivilegedApiControl#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -234,7 +234,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#number_of_approvers ApiaccesscontrolPrivilegedApiControl#number_of_approvers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#number_of_approvers ApiaccesscontrolPrivilegedApiControl#number_of_approvers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "numberOfApprovers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NumberOfApprovers
@@ -244,7 +244,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apiaccesscontrol_privileged_api_control#timeouts ApiaccesscontrolPrivilegedApiControl#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#timeouts ApiaccesscontrolPrivilegedApiControl#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeReport
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeReportConfig), fullyQualifiedName: "oci.dataOciDataSafeReport.DataOciDataSafeReportConfig")]
     public interface IDataOciDataSafeReportConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_report#report_id DataOciDataSafeReport#report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_report#report_id DataOciDataSafeReport#report_id}.</summary>
         [JsiiProperty(name: "reportId", typeJson: "{\"primitive\":\"string\"}")]
         string ReportId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_report#report_id DataOciDataSafeReport#report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_report#report_id DataOciDataSafeReport#report_id}.</summary>
             [JsiiProperty(name: "reportId", typeJson: "{\"primitive\":\"string\"}")]
             public string ReportId
             {

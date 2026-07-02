@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciAiVisionVisionPrivateEndpoint.DataOciAiVisionVisionPrivateEndpointConfig")]
     public class DataOciAiVisionVisionPrivateEndpointConfig : oci.DataOciAiVisionVisionPrivateEndpoint.IDataOciAiVisionVisionPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/ai_vision_vision_private_endpoint#vision_private_endpoint_id DataOciAiVisionVisionPrivateEndpoint#vision_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_vision_vision_private_endpoint#vision_private_endpoint_id DataOciAiVisionVisionPrivateEndpoint#vision_private_endpoint_id}.</summary>
         [JsiiProperty(name: "visionPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string VisionPrivateEndpointId
         {

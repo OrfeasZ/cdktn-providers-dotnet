@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAzureKeys.DataOciDbmulticloudOracleDbAzureKeysConfig")]
     public class DataOciDbmulticloudOracleDbAzureKeysConfig : oci.DataOciDbmulticloudOracleDbAzureKeys.IDataOciDbmulticloudOracleDbAzureKeysConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#compartment_id DataOciDbmulticloudOracleDbAzureKeys#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#compartment_id DataOciDbmulticloudOracleDbAzureKeys#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#display_name DataOciDbmulticloudOracleDbAzureKeys#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#display_name DataOciDbmulticloudOracleDbAzureKeys#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#filter DataOciDbmulticloudOracleDbAzureKeys#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#filter DataOciDbmulticloudOracleDbAzureKeys#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAzureKeys.IDataOciDbmulticloudOracleDbAzureKeysFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#id DataOciDbmulticloudOracleDbAzureKeys#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#id DataOciDbmulticloudOracleDbAzureKeys#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_key_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_key_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oracleDbAzureKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OracleDbAzureKeyId
@@ -83,7 +83,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oracleDbAzureVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OracleDbAzureVaultId
@@ -92,7 +92,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#state DataOciDbmulticloudOracleDbAzureKeys#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#state DataOciDbmulticloudOracleDbAzureKeys#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

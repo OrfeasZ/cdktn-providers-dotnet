@@ -9,7 +9,7 @@ namespace oci.DataOciOptimizerProfile
     [JsiiByValue(fqn: "oci.dataOciOptimizerProfile.DataOciOptimizerProfileConfig")]
     public class DataOciOptimizerProfileConfig : oci.DataOciOptimizerProfile.IDataOciOptimizerProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/optimizer_profile#profile_id DataOciOptimizerProfile#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/optimizer_profile#profile_id DataOciOptimizerProfile#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId
         {

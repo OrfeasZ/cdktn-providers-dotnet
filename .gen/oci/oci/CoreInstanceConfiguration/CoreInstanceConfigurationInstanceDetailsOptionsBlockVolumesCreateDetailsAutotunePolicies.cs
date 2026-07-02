@@ -9,7 +9,7 @@ namespace oci.CoreInstanceConfiguration
     [JsiiByValue(fqn: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptionsBlockVolumesCreateDetailsAutotunePolicies")]
     public class CoreInstanceConfigurationInstanceDetailsOptionsBlockVolumesCreateDetailsAutotunePolicies : oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsOptionsBlockVolumesCreateDetailsAutotunePolicies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#autotune_type CoreInstanceConfiguration#autotune_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#autotune_type CoreInstanceConfiguration#autotune_type}.</summary>
         [JsiiProperty(name: "autotuneType", typeJson: "{\"primitive\":\"string\"}")]
         public string AutotuneType
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/core_instance_configuration#max_vpus_per_gb CoreInstanceConfiguration#max_vpus_per_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_instance_configuration#max_vpus_per_gb CoreInstanceConfiguration#max_vpus_per_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxVpusPerGb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxVpusPerGb

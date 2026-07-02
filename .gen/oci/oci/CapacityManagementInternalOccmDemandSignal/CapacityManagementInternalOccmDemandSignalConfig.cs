@@ -9,7 +9,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignal
     [JsiiByValue(fqn: "oci.capacityManagementInternalOccmDemandSignal.CapacityManagementInternalOccmDemandSignalConfig")]
     public class CapacityManagementInternalOccmDemandSignalConfig : oci.CapacityManagementInternalOccmDemandSignal.ICapacityManagementInternalOccmDemandSignalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal#occm_demand_signal_id CapacityManagementInternalOccmDemandSignal#occm_demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal#occm_demand_signal_id CapacityManagementInternalOccmDemandSignal#occm_demand_signal_id}.</summary>
         [JsiiProperty(name: "occmDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccmDemandSignalId
         {
@@ -17,7 +17,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal#id CapacityManagementInternalOccmDemandSignal#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal#id CapacityManagementInternalOccmDemandSignal#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal#lifecycle_details CapacityManagementInternalOccmDemandSignal#lifecycle_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal#lifecycle_details CapacityManagementInternalOccmDemandSignal#lifecycle_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleDetails
@@ -41,7 +41,7 @@ namespace oci.CapacityManagementInternalOccmDemandSignal
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_internal_occm_demand_signal#timeouts CapacityManagementInternalOccmDemandSignal#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_internal_occm_demand_signal#timeouts CapacityManagementInternalOccmDemandSignal#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.capacityManagementInternalOccmDemandSignal.CapacityManagementInternalOccmDemandSignalTimeouts\"}", isOptional: true)]

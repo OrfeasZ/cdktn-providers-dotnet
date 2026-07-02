@@ -9,7 +9,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiByValue(fqn: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceImagePullSecrets")]
     public class ContainerInstancesContainerInstanceImagePullSecrets : oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceImagePullSecrets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#registry_endpoint ContainerInstancesContainerInstance#registry_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#registry_endpoint ContainerInstancesContainerInstance#registry_endpoint}.</summary>
         [JsiiProperty(name: "registryEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string RegistryEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#secret_type ContainerInstancesContainerInstance#secret_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#secret_type ContainerInstancesContainerInstance#secret_type}.</summary>
         [JsiiProperty(name: "secretType", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretType
         {
@@ -25,7 +25,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#password ContainerInstancesContainerInstance#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#password ContainerInstancesContainerInstance#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -34,7 +34,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#secret_id ContainerInstancesContainerInstance#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#secret_id ContainerInstancesContainerInstance#secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretId
@@ -43,7 +43,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/container_instances_container_instance#username ContainerInstancesContainerInstance#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/container_instances_container_instance#username ContainerInstancesContainerInstance#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

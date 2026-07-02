@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsUser
     [JsiiInterface(nativeType: typeof(IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserDevices), fullyQualifiedName: "oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserDevices")]
     public interface IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserDevices
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#value IdentityDomainsUser#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#value IdentityDomainsUser#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#authentication_method IdentityDomainsUser#authentication_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#authentication_method IdentityDomainsUser#authentication_method}.</summary>
         [JsiiProperty(name: "authenticationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthenticationMethod
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#display IdentityDomainsUser#display}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#display IdentityDomainsUser#display}.</summary>
         [JsiiProperty(name: "display", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Display
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_status IdentityDomainsUser#factor_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#factor_status IdentityDomainsUser#factor_status}.</summary>
         [JsiiProperty(name: "factorStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FactorStatus
@@ -47,7 +47,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
         [JsiiProperty(name: "factorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FactorType
@@ -58,7 +58,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#last_sync_time IdentityDomainsUser#last_sync_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#last_sync_time IdentityDomainsUser#last_sync_time}.</summary>
         [JsiiProperty(name: "lastSyncTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastSyncTime
@@ -69,7 +69,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#status IdentityDomainsUser#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#status IdentityDomainsUser#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -80,7 +80,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#third_party_vendor_name IdentityDomainsUser#third_party_vendor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#third_party_vendor_name IdentityDomainsUser#third_party_vendor_name}.</summary>
         [JsiiProperty(name: "thirdPartyVendorName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ThirdPartyVendorName
@@ -98,14 +98,14 @@ namespace oci.IdentityDomainsUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#value IdentityDomainsUser#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#value IdentityDomainsUser#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#authentication_method IdentityDomainsUser#authentication_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#authentication_method IdentityDomainsUser#authentication_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthenticationMethod
@@ -113,7 +113,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#display IdentityDomainsUser#display}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#display IdentityDomainsUser#display}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "display", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Display
@@ -121,7 +121,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_status IdentityDomainsUser#factor_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#factor_status IdentityDomainsUser#factor_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "factorStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FactorStatus
@@ -129,7 +129,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "factorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FactorType
@@ -137,7 +137,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#last_sync_time IdentityDomainsUser#last_sync_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#last_sync_time IdentityDomainsUser#last_sync_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastSyncTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastSyncTime
@@ -145,7 +145,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#status IdentityDomainsUser#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#status IdentityDomainsUser#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -153,7 +153,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_user#third_party_vendor_name IdentityDomainsUser#third_party_vendor_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#third_party_vendor_name IdentityDomainsUser#third_party_vendor_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "thirdPartyVendorName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ThirdPartyVendorName

@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord
     [JsiiByValue(fqn: "oci.dataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig")]
     public class DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig : oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord.IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/jms_java_downloads_java_license_acceptance_record#java_license_acceptance_record_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord#java_license_acceptance_record_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license_acceptance_record#java_license_acceptance_record_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord#java_license_acceptance_record_id}.</summary>
         [JsiiProperty(name: "javaLicenseAcceptanceRecordId", typeJson: "{\"primitive\":\"string\"}")]
         public string JavaLicenseAcceptanceRecordId
         {

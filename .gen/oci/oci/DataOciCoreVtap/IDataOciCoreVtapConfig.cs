@@ -7,7 +7,7 @@ namespace oci.DataOciCoreVtap
     [JsiiInterface(nativeType: typeof(IDataOciCoreVtapConfig), fullyQualifiedName: "oci.dataOciCoreVtap.DataOciCoreVtapConfig")]
     public interface IDataOciCoreVtapConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_vtap#vtap_id DataOciCoreVtap#vtap_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_vtap#vtap_id DataOciCoreVtap#vtap_id}.</summary>
         [JsiiProperty(name: "vtapId", typeJson: "{\"primitive\":\"string\"}")]
         string VtapId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreVtap
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_vtap#vtap_id DataOciCoreVtap#vtap_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_vtap#vtap_id DataOciCoreVtap#vtap_id}.</summary>
             [JsiiProperty(name: "vtapId", typeJson: "{\"primitive\":\"string\"}")]
             public string VtapId
             {

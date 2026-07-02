@@ -9,7 +9,7 @@ namespace oci.CapacityManagementOccCustomerGroup
     [JsiiByValue(fqn: "oci.capacityManagementOccCustomerGroup.CapacityManagementOccCustomerGroupCustomersListStruct")]
     public class CapacityManagementOccCustomerGroupCustomersListStruct : oci.CapacityManagementOccCustomerGroup.ICapacityManagementOccCustomerGroupCustomersListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_customer_group#display_name CapacityManagementOccCustomerGroup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_occ_customer_group#display_name CapacityManagementOccCustomerGroup#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace oci.CapacityManagementOccCustomerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_customer_group#tenancy_id CapacityManagementOccCustomerGroup#tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_occ_customer_group#tenancy_id CapacityManagementOccCustomerGroup#tenancy_id}.</summary>
         [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenancyId
         {
@@ -25,7 +25,7 @@ namespace oci.CapacityManagementOccCustomerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_customer_group#description CapacityManagementOccCustomerGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_occ_customer_group#description CapacityManagementOccCustomerGroup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -34,7 +34,7 @@ namespace oci.CapacityManagementOccCustomerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/capacity_management_occ_customer_group#status CapacityManagementOccCustomerGroup#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/capacity_management_occ_customer_group#status CapacityManagementOccCustomerGroup#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

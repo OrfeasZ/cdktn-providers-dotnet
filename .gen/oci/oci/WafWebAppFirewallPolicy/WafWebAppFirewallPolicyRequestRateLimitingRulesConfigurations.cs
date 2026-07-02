@@ -9,7 +9,7 @@ namespace oci.WafWebAppFirewallPolicy
     [JsiiByValue(fqn: "oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyRequestRateLimitingRulesConfigurations")]
     public class WafWebAppFirewallPolicyRequestRateLimitingRulesConfigurations : oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyRequestRateLimitingRulesConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#period_in_seconds WafWebAppFirewallPolicy#period_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#period_in_seconds WafWebAppFirewallPolicy#period_in_seconds}.</summary>
         [JsiiProperty(name: "periodInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public double PeriodInSeconds
         {
@@ -17,7 +17,7 @@ namespace oci.WafWebAppFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#requests_limit WafWebAppFirewallPolicy#requests_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#requests_limit WafWebAppFirewallPolicy#requests_limit}.</summary>
         [JsiiProperty(name: "requestsLimit", typeJson: "{\"primitive\":\"number\"}")]
         public double RequestsLimit
         {
@@ -25,7 +25,7 @@ namespace oci.WafWebAppFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/waf_web_app_firewall_policy#action_duration_in_seconds WafWebAppFirewallPolicy#action_duration_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/waf_web_app_firewall_policy#action_duration_in_seconds WafWebAppFirewallPolicy#action_duration_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionDurationInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ActionDurationInSeconds

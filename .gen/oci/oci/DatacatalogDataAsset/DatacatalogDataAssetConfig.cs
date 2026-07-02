@@ -9,7 +9,7 @@ namespace oci.DatacatalogDataAsset
     [JsiiByValue(fqn: "oci.datacatalogDataAsset.DatacatalogDataAssetConfig")]
     public class DatacatalogDataAssetConfig : oci.DatacatalogDataAsset.IDatacatalogDataAssetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#catalog_id DatacatalogDataAsset#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#catalog_id DatacatalogDataAsset#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogId
         {
@@ -17,7 +17,7 @@ namespace oci.DatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#display_name DatacatalogDataAsset#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#display_name DatacatalogDataAsset#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#type_key DatacatalogDataAsset#type_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#type_key DatacatalogDataAsset#type_key}.</summary>
         [JsiiProperty(name: "typeKey", typeJson: "{\"primitive\":\"string\"}")]
         public string TypeKey
         {
@@ -33,7 +33,7 @@ namespace oci.DatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#description DatacatalogDataAsset#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#description DatacatalogDataAsset#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -42,7 +42,7 @@ namespace oci.DatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#id DatacatalogDataAsset#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#id DatacatalogDataAsset#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#properties DatacatalogDataAsset#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#properties DatacatalogDataAsset#properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Properties
@@ -66,7 +66,7 @@ namespace oci.DatacatalogDataAsset
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datacatalog_data_asset#timeouts DatacatalogDataAsset#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datacatalog_data_asset#timeouts DatacatalogDataAsset#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datacatalogDataAsset.DatacatalogDataAssetTimeouts\"}", isOptional: true)]

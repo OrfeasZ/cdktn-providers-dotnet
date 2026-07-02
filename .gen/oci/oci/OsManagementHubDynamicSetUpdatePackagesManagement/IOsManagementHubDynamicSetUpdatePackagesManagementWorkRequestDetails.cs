@@ -7,7 +7,7 @@ namespace oci.OsManagementHubDynamicSetUpdatePackagesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubDynamicSetUpdatePackagesManagementWorkRequestDetails), fullyQualifiedName: "oci.osManagementHubDynamicSetUpdatePackagesManagement.OsManagementHubDynamicSetUpdatePackagesManagementWorkRequestDetails")]
     public interface IOsManagementHubDynamicSetUpdatePackagesManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#description OsManagementHubDynamicSetUpdatePackagesManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#description OsManagementHubDynamicSetUpdatePackagesManagement#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubDynamicSetUpdatePackagesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#display_name OsManagementHubDynamicSetUpdatePackagesManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#display_name OsManagementHubDynamicSetUpdatePackagesManagement#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -36,7 +36,7 @@ namespace oci.OsManagementHubDynamicSetUpdatePackagesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#description OsManagementHubDynamicSetUpdatePackagesManagement#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#description OsManagementHubDynamicSetUpdatePackagesManagement#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -44,7 +44,7 @@ namespace oci.OsManagementHubDynamicSetUpdatePackagesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#display_name OsManagementHubDynamicSetUpdatePackagesManagement#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_dynamic_set_update_packages_management#display_name OsManagementHubDynamicSetUpdatePackagesManagement#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName

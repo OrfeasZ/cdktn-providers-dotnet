@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
     [JsiiByValue(fqn: "oci.databaseToolsDatabaseToolsMcpToolset.DatabaseToolsDatabaseToolsMcpToolsetConfig")]
     public class DatabaseToolsDatabaseToolsMcpToolsetConfig : oci.DatabaseToolsDatabaseToolsMcpToolset.IDatabaseToolsDatabaseToolsMcpToolsetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#compartment_id DatabaseToolsDatabaseToolsMcpToolset#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#compartment_id DatabaseToolsDatabaseToolsMcpToolset#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#database_tools_mcp_server_id DatabaseToolsDatabaseToolsMcpToolset#database_tools_mcp_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#database_tools_mcp_server_id DatabaseToolsDatabaseToolsMcpToolset#database_tools_mcp_server_id}.</summary>
         [JsiiProperty(name: "databaseToolsMcpServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsMcpServerId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#display_name DatabaseToolsDatabaseToolsMcpToolset#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#display_name DatabaseToolsDatabaseToolsMcpToolset#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#type DatabaseToolsDatabaseToolsMcpToolset#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#type DatabaseToolsDatabaseToolsMcpToolset#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#version DatabaseToolsDatabaseToolsMcpToolset#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#version DatabaseToolsDatabaseToolsMcpToolset#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"number\"}")]
         public double Version
         {
@@ -49,7 +49,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#allowed_roles DatabaseToolsDatabaseToolsMcpToolset#allowed_roles}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#allowed_roles DatabaseToolsDatabaseToolsMcpToolset#allowed_roles}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedRoles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AllowedRoles
@@ -58,7 +58,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#default_execution_type DatabaseToolsDatabaseToolsMcpToolset#default_execution_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#default_execution_type DatabaseToolsDatabaseToolsMcpToolset#default_execution_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultExecutionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultExecutionType
@@ -67,7 +67,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#defined_tags DatabaseToolsDatabaseToolsMcpToolset#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#defined_tags DatabaseToolsDatabaseToolsMcpToolset#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -76,7 +76,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#description DatabaseToolsDatabaseToolsMcpToolset#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#description DatabaseToolsDatabaseToolsMcpToolset#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -85,7 +85,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#freeform_tags DatabaseToolsDatabaseToolsMcpToolset#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#freeform_tags DatabaseToolsDatabaseToolsMcpToolset#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -94,7 +94,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#generative_ai_semantic_store_id DatabaseToolsDatabaseToolsMcpToolset#generative_ai_semantic_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#generative_ai_semantic_store_id DatabaseToolsDatabaseToolsMcpToolset#generative_ai_semantic_store_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "generativeAiSemanticStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GenerativeAiSemanticStoreId
@@ -103,7 +103,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#id DatabaseToolsDatabaseToolsMcpToolset#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#id DatabaseToolsDatabaseToolsMcpToolset#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,7 +120,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#locks DatabaseToolsDatabaseToolsMcpToolset#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#locks DatabaseToolsDatabaseToolsMcpToolset#locks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsMcpToolset.IDatabaseToolsDatabaseToolsMcpToolsetLocks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -155,7 +155,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
 
         /// <summary>reports block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#reports DatabaseToolsDatabaseToolsMcpToolset#reports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#reports DatabaseToolsDatabaseToolsMcpToolset#reports}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsMcpToolset.IDatabaseToolsDatabaseToolsMcpToolsetReports" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -188,7 +188,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#source DatabaseToolsDatabaseToolsMcpToolset#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#source DatabaseToolsDatabaseToolsMcpToolset#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.databaseToolsDatabaseToolsMcpToolset.DatabaseToolsDatabaseToolsMcpToolsetSource\"}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#timeouts DatabaseToolsDatabaseToolsMcpToolset#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#timeouts DatabaseToolsDatabaseToolsMcpToolset#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsDatabaseToolsMcpToolset.DatabaseToolsDatabaseToolsMcpToolsetTimeouts\"}", isOptional: true)]
@@ -210,7 +210,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#tool_description DatabaseToolsDatabaseToolsMcpToolset#tool_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#tool_description DatabaseToolsDatabaseToolsMcpToolset#tool_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toolDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ToolDescription
@@ -219,7 +219,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#tool_name DatabaseToolsDatabaseToolsMcpToolset#tool_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#tool_name DatabaseToolsDatabaseToolsMcpToolset#tool_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "toolName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ToolName
@@ -232,7 +232,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
 
         /// <summary>tools block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#tools DatabaseToolsDatabaseToolsMcpToolset#tools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#tools DatabaseToolsDatabaseToolsMcpToolset#tools}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsMcpToolset.IDatabaseToolsDatabaseToolsMcpToolsetTools" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -267,7 +267,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpToolset
 
         /// <summary>variables block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_tools_database_tools_mcp_toolset#variables DatabaseToolsDatabaseToolsMcpToolset#variables}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_mcp_toolset#variables DatabaseToolsDatabaseToolsMcpToolset#variables}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsMcpToolset.IDatabaseToolsDatabaseToolsMcpToolsetVariables" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
     [JsiiInterface(nativeType: typeof(IDatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetailsConnectorDetails), fullyQualifiedName: "oci.databaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetailsConnectorDetails")]
     public interface IDatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagementFeatureDetailsConnectorDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_type DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_type DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_type}.</summary>
         [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConnectorType
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#database_connector_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#database_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#database_connector_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#database_connector_id}.</summary>
         [JsiiProperty(name: "databaseConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseConnectorId
@@ -29,7 +29,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#management_agent_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#management_agent_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#management_agent_id}.</summary>
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ManagementAgentId
@@ -40,7 +40,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#private_end_point_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#private_end_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#private_end_point_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#private_end_point_id}.</summary>
         [JsiiProperty(name: "privateEndPointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrivateEndPointId
@@ -58,7 +58,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_type DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#connector_type DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#connector_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConnectorType
@@ -66,7 +66,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#database_connector_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#database_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#database_connector_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#database_connector_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseConnectorId
@@ -74,7 +74,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#management_agent_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#management_agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#management_agent_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#management_agent_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ManagementAgentId
@@ -82,7 +82,7 @@ namespace oci.DatabaseManagementExternalnoncontainerdatabaseExternalNonContainer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#private_end_point_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#private_end_point_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_externalnoncontainerdatabase_external_non_container_dbm_features_management#private_end_point_id DatabaseManagementExternalnoncontainerdatabaseExternalNonContainerDbmFeaturesManagement#private_end_point_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateEndPointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrivateEndPointId

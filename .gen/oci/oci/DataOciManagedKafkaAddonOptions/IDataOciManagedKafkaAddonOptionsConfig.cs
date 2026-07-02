@@ -7,7 +7,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
     [JsiiInterface(nativeType: typeof(IDataOciManagedKafkaAddonOptionsConfig), fullyQualifiedName: "oci.dataOciManagedKafkaAddonOptions.DataOciManagedKafkaAddonOptionsConfig")]
     public interface IDataOciManagedKafkaAddonOptionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#compartment_id DataOciManagedKafkaAddonOptions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#compartment_id DataOciManagedKafkaAddonOptions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -20,7 +20,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#filter DataOciManagedKafkaAddonOptions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#filter DataOciManagedKafkaAddonOptions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciManagedKafkaAddonOptions.IDataOciManagedKafkaAddonOptionsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciManagedKafkaAddonOptions.DataOciManagedKafkaAddonOptionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#id DataOciManagedKafkaAddonOptions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#id DataOciManagedKafkaAddonOptions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#name DataOciManagedKafkaAddonOptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#name DataOciManagedKafkaAddonOptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -66,7 +66,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#compartment_id DataOciManagedKafkaAddonOptions#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#compartment_id DataOciManagedKafkaAddonOptions#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -76,7 +76,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#filter DataOciManagedKafkaAddonOptions#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#filter DataOciManagedKafkaAddonOptions#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciManagedKafkaAddonOptions.IDataOciManagedKafkaAddonOptionsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -86,7 +86,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#id DataOciManagedKafkaAddonOptions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#id DataOciManagedKafkaAddonOptions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/managed_kafka_addon_options#name DataOciManagedKafkaAddonOptions#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_addon_options#name DataOciManagedKafkaAddonOptions#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

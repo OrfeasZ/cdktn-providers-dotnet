@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
     [JsiiByValue(fqn: "oci.dataOciDatabaseAdvancedClusterFileSystems.DataOciDatabaseAdvancedClusterFileSystemsFilter")]
     public class DataOciDatabaseAdvancedClusterFileSystemsFilter : oci.DataOciDatabaseAdvancedClusterFileSystems.IDataOciDatabaseAdvancedClusterFileSystemsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_advanced_cluster_file_systems#name DataOciDatabaseAdvancedClusterFileSystems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_advanced_cluster_file_systems#name DataOciDatabaseAdvancedClusterFileSystems#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_advanced_cluster_file_systems#values DataOciDatabaseAdvancedClusterFileSystems#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_advanced_cluster_file_systems#values DataOciDatabaseAdvancedClusterFileSystems#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_advanced_cluster_file_systems#regex DataOciDatabaseAdvancedClusterFileSystems#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_advanced_cluster_file_systems#regex DataOciDatabaseAdvancedClusterFileSystems#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

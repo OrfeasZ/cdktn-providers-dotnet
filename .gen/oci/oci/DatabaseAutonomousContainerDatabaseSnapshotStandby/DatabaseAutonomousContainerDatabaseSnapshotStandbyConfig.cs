@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
     [JsiiByValue(fqn: "oci.databaseAutonomousContainerDatabaseSnapshotStandby.DatabaseAutonomousContainerDatabaseSnapshotStandbyConfig")]
     public class DatabaseAutonomousContainerDatabaseSnapshotStandbyConfig : oci.DatabaseAutonomousContainerDatabaseSnapshotStandby.IDatabaseAutonomousContainerDatabaseSnapshotStandbyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_container_database_snapshot_standby#autonomous_container_database_id DatabaseAutonomousContainerDatabaseSnapshotStandby#autonomous_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_container_database_snapshot_standby#autonomous_container_database_id DatabaseAutonomousContainerDatabaseSnapshotStandby#autonomous_container_database_id}.</summary>
         [JsiiProperty(name: "autonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousContainerDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_container_database_snapshot_standby#role DatabaseAutonomousContainerDatabaseSnapshotStandby#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_container_database_snapshot_standby#role DatabaseAutonomousContainerDatabaseSnapshotStandby#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_container_database_snapshot_standby#connection_strings_type DatabaseAutonomousContainerDatabaseSnapshotStandby#connection_strings_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_container_database_snapshot_standby#connection_strings_type DatabaseAutonomousContainerDatabaseSnapshotStandby#connection_strings_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionStringsType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionStringsType
@@ -34,7 +34,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_container_database_snapshot_standby#id DatabaseAutonomousContainerDatabaseSnapshotStandby#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_container_database_snapshot_standby#id DatabaseAutonomousContainerDatabaseSnapshotStandby#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_autonomous_container_database_snapshot_standby#timeouts DatabaseAutonomousContainerDatabaseSnapshotStandby#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_container_database_snapshot_standby#timeouts DatabaseAutonomousContainerDatabaseSnapshotStandby#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseAutonomousContainerDatabaseSnapshotStandby.DatabaseAutonomousContainerDatabaseSnapshotStandbyTimeouts\"}", isOptional: true)]

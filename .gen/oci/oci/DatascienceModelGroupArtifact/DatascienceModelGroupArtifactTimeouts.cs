@@ -7,7 +7,7 @@ namespace oci.DatascienceModelGroupArtifact
     [JsiiByValue(fqn: "oci.datascienceModelGroupArtifact.DatascienceModelGroupArtifactTimeouts")]
     public class DatascienceModelGroupArtifactTimeouts : oci.DatascienceModelGroupArtifact.IDatascienceModelGroupArtifactTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group_artifact#create DatascienceModelGroupArtifact#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_group_artifact#create DatascienceModelGroupArtifact#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatascienceModelGroupArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group_artifact#delete DatascienceModelGroupArtifact#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_group_artifact#delete DatascienceModelGroupArtifact#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelGroupArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/datascience_model_group_artifact#update DatascienceModelGroupArtifact#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_group_artifact#update DatascienceModelGroupArtifact#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

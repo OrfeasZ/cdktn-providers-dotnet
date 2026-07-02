@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumnConfig), fullyQualifiedName: "oci.dataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn.DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumnConfig")]
     public interface IDataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumnConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#difference_column_key DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#difference_column_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#difference_column_key DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#difference_column_key}.</summary>
         [JsiiProperty(name: "differenceColumnKey", typeJson: "{\"primitive\":\"string\"}")]
         string DifferenceColumnKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#sdm_masking_policy_difference_id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#sdm_masking_policy_difference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#sdm_masking_policy_difference_id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#sdm_masking_policy_difference_id}.</summary>
         [JsiiProperty(name: "sdmMaskingPolicyDifferenceId", typeJson: "{\"primitive\":\"string\"}")]
         string SdmMaskingPolicyDifferenceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#difference_column_key DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#difference_column_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#difference_column_key DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#difference_column_key}.</summary>
             [JsiiProperty(name: "differenceColumnKey", typeJson: "{\"primitive\":\"string\"}")]
             public string DifferenceColumnKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#sdm_masking_policy_difference_id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#sdm_masking_policy_difference_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#sdm_masking_policy_difference_id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#sdm_masking_policy_difference_id}.</summary>
             [JsiiProperty(name: "sdmMaskingPolicyDifferenceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SdmMaskingPolicyDifferenceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference_difference_column#id DataOciDataSafeSdmMaskingPolicyDifferenceDifferenceColumn#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

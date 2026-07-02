@@ -7,14 +7,14 @@ namespace oci.IotDigitalTwinAdapter
     [JsiiInterface(nativeType: typeof(IIotDigitalTwinAdapterInboundRoutes), fullyQualifiedName: "oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutes")]
     public interface IIotDigitalTwinAdapterInboundRoutes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#condition IotDigitalTwinAdapter#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#condition IotDigitalTwinAdapter#condition}.</summary>
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}")]
         string Condition
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -25,7 +25,7 @@ namespace oci.IotDigitalTwinAdapter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#payload_mapping IotDigitalTwinAdapter#payload_mapping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#payload_mapping IotDigitalTwinAdapter#payload_mapping}.</summary>
         [JsiiProperty(name: "payloadMapping", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? PayloadMapping
@@ -38,7 +38,7 @@ namespace oci.IotDigitalTwinAdapter
 
         /// <summary>reference_payload block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
         /// </remarks>
         [JsiiProperty(name: "referencePayload", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutesReferencePayload\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,14 +57,14 @@ namespace oci.IotDigitalTwinAdapter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#condition IotDigitalTwinAdapter#condition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#condition IotDigitalTwinAdapter#condition}.</summary>
             [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}")]
             public string Condition
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -72,7 +72,7 @@ namespace oci.IotDigitalTwinAdapter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#payload_mapping IotDigitalTwinAdapter#payload_mapping}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#payload_mapping IotDigitalTwinAdapter#payload_mapping}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "payloadMapping", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? PayloadMapping
@@ -82,7 +82,7 @@ namespace oci.IotDigitalTwinAdapter
 
             /// <summary>reference_payload block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "referencePayload", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutesReferencePayload\"}", isOptional: true)]

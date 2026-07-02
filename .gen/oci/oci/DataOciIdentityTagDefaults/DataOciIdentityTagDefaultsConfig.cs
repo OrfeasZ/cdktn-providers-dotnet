@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityTagDefaults
     [JsiiByValue(fqn: "oci.dataOciIdentityTagDefaults.DataOciIdentityTagDefaultsConfig")]
     public class DataOciIdentityTagDefaultsConfig : oci.DataOciIdentityTagDefaults.IDataOciIdentityTagDefaultsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tag_defaults#compartment_id DataOciIdentityTagDefaults#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tag_defaults#compartment_id DataOciIdentityTagDefaults#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -20,7 +20,7 @@ namespace oci.DataOciIdentityTagDefaults
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tag_defaults#filter DataOciIdentityTagDefaults#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tag_defaults#filter DataOciIdentityTagDefaults#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityTagDefaults.IDataOciIdentityTagDefaultsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciIdentityTagDefaults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tag_defaults#id DataOciIdentityTagDefaults#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tag_defaults#id DataOciIdentityTagDefaults#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciIdentityTagDefaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tag_defaults#state DataOciIdentityTagDefaults#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tag_defaults#state DataOciIdentityTagDefaults#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -73,7 +73,7 @@ namespace oci.DataOciIdentityTagDefaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_tag_defaults#tag_definition_id DataOciIdentityTagDefaults#tag_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_tag_defaults#tag_definition_id DataOciIdentityTagDefaults#tag_definition_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagDefinitionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TagDefinitionId

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseScheduledAction
     [JsiiByValue(fqn: "oci.dataOciDatabaseScheduledAction.DataOciDatabaseScheduledActionConfig")]
     public class DataOciDatabaseScheduledActionConfig : oci.DataOciDatabaseScheduledAction.IDataOciDatabaseScheduledActionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_scheduled_action#scheduled_action_id DataOciDatabaseScheduledAction#scheduled_action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduled_action#scheduled_action_id DataOciDatabaseScheduledAction#scheduled_action_id}.</summary>
         [JsiiProperty(name: "scheduledActionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduledActionId
         {

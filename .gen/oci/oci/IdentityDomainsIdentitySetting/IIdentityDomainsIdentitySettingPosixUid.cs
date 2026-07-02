@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsIdentitySetting
     [JsiiInterface(nativeType: typeof(IIdentityDomainsIdentitySettingPosixUid), fullyQualifiedName: "oci.identityDomainsIdentitySetting.IdentityDomainsIdentitySettingPosixUid")]
     public interface IIdentityDomainsIdentitySettingPosixUid
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#manual_assignment_ends_at IdentityDomainsIdentitySetting#manual_assignment_ends_at}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_setting#manual_assignment_ends_at IdentityDomainsIdentitySetting#manual_assignment_ends_at}.</summary>
         [JsiiProperty(name: "manualAssignmentEndsAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ManualAssignmentEndsAt
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsIdentitySetting
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#manual_assignment_starts_from IdentityDomainsIdentitySetting#manual_assignment_starts_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_setting#manual_assignment_starts_from IdentityDomainsIdentitySetting#manual_assignment_starts_from}.</summary>
         [JsiiProperty(name: "manualAssignmentStartsFrom", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ManualAssignmentStartsFrom
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsIdentitySetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#manual_assignment_ends_at IdentityDomainsIdentitySetting#manual_assignment_ends_at}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_setting#manual_assignment_ends_at IdentityDomainsIdentitySetting#manual_assignment_ends_at}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "manualAssignmentEndsAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ManualAssignmentEndsAt
@@ -44,7 +44,7 @@ namespace oci.IdentityDomainsIdentitySetting
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/identity_domains_identity_setting#manual_assignment_starts_from IdentityDomainsIdentitySetting#manual_assignment_starts_from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_setting#manual_assignment_starts_from IdentityDomainsIdentitySetting#manual_assignment_starts_from}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "manualAssignmentStartsFrom", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ManualAssignmentStartsFrom

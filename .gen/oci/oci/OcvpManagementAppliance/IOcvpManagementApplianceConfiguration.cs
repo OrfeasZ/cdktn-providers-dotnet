@@ -7,7 +7,7 @@ namespace oci.OcvpManagementAppliance
     [JsiiInterface(nativeType: typeof(IOcvpManagementApplianceConfiguration), fullyQualifiedName: "oci.ocvpManagementAppliance.OcvpManagementApplianceConfiguration")]
     public interface IOcvpManagementApplianceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#is_log_ingestion_enabled OcvpManagementAppliance#is_log_ingestion_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#is_log_ingestion_enabled OcvpManagementAppliance#is_log_ingestion_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace oci.OcvpManagementAppliance
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#is_metrics_collection_enabled OcvpManagementAppliance#is_metrics_collection_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#is_metrics_collection_enabled OcvpManagementAppliance#is_metrics_collection_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -27,7 +27,7 @@ namespace oci.OcvpManagementAppliance
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#metrics OcvpManagementAppliance#metrics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#metrics OcvpManagementAppliance#metrics}.</summary>
         [JsiiProperty(name: "metrics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Metrics
@@ -38,7 +38,7 @@ namespace oci.OcvpManagementAppliance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#support_bundle_bucket_id OcvpManagementAppliance#support_bundle_bucket_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#support_bundle_bucket_id OcvpManagementAppliance#support_bundle_bucket_id}.</summary>
         [JsiiProperty(name: "supportBundleBucketId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SupportBundleBucketId
@@ -56,7 +56,7 @@ namespace oci.OcvpManagementAppliance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#is_log_ingestion_enabled OcvpManagementAppliance#is_log_ingestion_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#is_log_ingestion_enabled OcvpManagementAppliance#is_log_ingestion_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -66,7 +66,7 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#is_metrics_collection_enabled OcvpManagementAppliance#is_metrics_collection_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#is_metrics_collection_enabled OcvpManagementAppliance#is_metrics_collection_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -76,7 +76,7 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#metrics OcvpManagementAppliance#metrics}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#metrics OcvpManagementAppliance#metrics}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metrics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Metrics
@@ -84,7 +84,7 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/ocvp_management_appliance#support_bundle_bucket_id OcvpManagementAppliance#support_bundle_bucket_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#support_bundle_bucket_id OcvpManagementAppliance#support_bundle_bucket_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "supportBundleBucketId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SupportBundleBucketId

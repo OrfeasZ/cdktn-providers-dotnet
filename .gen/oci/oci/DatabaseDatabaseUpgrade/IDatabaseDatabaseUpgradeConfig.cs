@@ -7,14 +7,14 @@ namespace oci.DatabaseDatabaseUpgrade
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseUpgradeConfig), fullyQualifiedName: "oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeConfig")]
     public interface IDatabaseDatabaseUpgradeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#action DatabaseDatabaseUpgrade#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#action DatabaseDatabaseUpgrade#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#database_id DatabaseDatabaseUpgrade#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#database_id DatabaseDatabaseUpgrade#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseId
         {
@@ -23,7 +23,7 @@ namespace oci.DatabaseDatabaseUpgrade
 
         /// <summary>database_upgrade_source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#database_upgrade_source_details DatabaseDatabaseUpgrade#database_upgrade_source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#database_upgrade_source_details DatabaseDatabaseUpgrade#database_upgrade_source_details}
         /// </remarks>
         [JsiiProperty(name: "databaseUpgradeSourceDetails", typeJson: "{\"fqn\":\"oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace oci.DatabaseDatabaseUpgrade
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#id DatabaseDatabaseUpgrade#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#id DatabaseDatabaseUpgrade#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace oci.DatabaseDatabaseUpgrade
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#timeouts DatabaseDatabaseUpgrade#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#timeouts DatabaseDatabaseUpgrade#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,14 +71,14 @@ namespace oci.DatabaseDatabaseUpgrade
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#action DatabaseDatabaseUpgrade#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#action DatabaseDatabaseUpgrade#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#database_id DatabaseDatabaseUpgrade#database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#database_id DatabaseDatabaseUpgrade#database_id}.</summary>
             [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseId
             {
@@ -87,7 +87,7 @@ namespace oci.DatabaseDatabaseUpgrade
 
             /// <summary>database_upgrade_source_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#database_upgrade_source_details DatabaseDatabaseUpgrade#database_upgrade_source_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#database_upgrade_source_details DatabaseDatabaseUpgrade#database_upgrade_source_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "databaseUpgradeSourceDetails", typeJson: "{\"fqn\":\"oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace oci.DatabaseDatabaseUpgrade
                 get => GetInstanceProperty<oci.DatabaseDatabaseUpgrade.IDatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#id DatabaseDatabaseUpgrade#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#id DatabaseDatabaseUpgrade#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace oci.DatabaseDatabaseUpgrade
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/database_database_upgrade#timeouts DatabaseDatabaseUpgrade#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_database_upgrade#timeouts DatabaseDatabaseUpgrade#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeTimeouts\"}", isOptional: true)]

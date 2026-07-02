@@ -7,7 +7,7 @@ namespace oci.DataOciCoreInstanceMaintenanceEvent
     [JsiiInterface(nativeType: typeof(IDataOciCoreInstanceMaintenanceEventConfig), fullyQualifiedName: "oci.dataOciCoreInstanceMaintenanceEvent.DataOciCoreInstanceMaintenanceEventConfig")]
     public interface IDataOciCoreInstanceMaintenanceEventConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_instance_maintenance_event#instance_maintenance_event_id DataOciCoreInstanceMaintenanceEvent#instance_maintenance_event_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_instance_maintenance_event#instance_maintenance_event_id DataOciCoreInstanceMaintenanceEvent#instance_maintenance_event_id}.</summary>
         [JsiiProperty(name: "instanceMaintenanceEventId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceMaintenanceEventId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreInstanceMaintenanceEvent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/core_instance_maintenance_event#instance_maintenance_event_id DataOciCoreInstanceMaintenanceEvent#instance_maintenance_event_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_instance_maintenance_event#instance_maintenance_event_id DataOciCoreInstanceMaintenanceEvent#instance_maintenance_event_id}.</summary>
             [JsiiProperty(name: "instanceMaintenanceEventId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceMaintenanceEventId
             {

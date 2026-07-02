@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositoryDiffs.DataOciDevopsRepositoryDiffsConfig")]
     public class DataOciDevopsRepositoryDiffsConfig : oci.DataOciDevopsRepositoryDiffs.IDataOciDevopsRepositoryDiffsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#base_version DataOciDevopsRepositoryDiffs#base_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#base_version DataOciDevopsRepositoryDiffs#base_version}.</summary>
         [JsiiProperty(name: "baseVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string BaseVersion
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#repository_id DataOciDevopsRepositoryDiffs#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#repository_id DataOciDevopsRepositoryDiffs#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#target_version DataOciDevopsRepositoryDiffs#target_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#target_version DataOciDevopsRepositoryDiffs#target_version}.</summary>
         [JsiiProperty(name: "targetVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetVersion
         {
@@ -37,7 +37,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#filter DataOciDevopsRepositoryDiffs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#filter DataOciDevopsRepositoryDiffs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDevopsRepositoryDiffs.IDataOciDevopsRepositoryDiffsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#id DataOciDevopsRepositoryDiffs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#id DataOciDevopsRepositoryDiffs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
 
         private object? _isComparisonFromMergeBase;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#is_comparison_from_merge_base DataOciDevopsRepositoryDiffs#is_comparison_from_merge_base}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#is_comparison_from_merge_base DataOciDevopsRepositoryDiffs#is_comparison_from_merge_base}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -115,7 +115,7 @@ namespace oci.DataOciDevopsRepositoryDiffs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/devops_repository_diffs#target_repository_id DataOciDevopsRepositoryDiffs#target_repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_diffs#target_repository_id DataOciDevopsRepositoryDiffs#target_repository_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetRepositoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetRepositoryId

@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineNodePool
     [JsiiByValue(fqn: "oci.dataOciContainerengineNodePool.DataOciContainerengineNodePoolConfig")]
     public class DataOciContainerengineNodePoolConfig : oci.DataOciContainerengineNodePool.IDataOciContainerengineNodePoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/containerengine_node_pool#node_pool_id DataOciContainerengineNodePool#node_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/containerengine_node_pool#node_pool_id DataOciContainerengineNodePool#node_pool_id}.</summary>
         [JsiiProperty(name: "nodePoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string NodePoolId
         {

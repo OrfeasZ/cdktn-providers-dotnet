@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntryConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntryConfig")]
     public interface IDataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#database_view_access_entry_key DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#database_view_access_entry_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#database_view_access_entry_key DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#database_view_access_entry_key}.</summary>
         [JsiiProperty(name: "databaseViewAccessEntryKey", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseViewAccessEntryKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#security_policy_report_id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#security_policy_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#security_policy_report_id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#security_policy_report_id}.</summary>
         [JsiiProperty(name: "securityPolicyReportId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityPolicyReportId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#database_view_access_entry_key DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#database_view_access_entry_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#database_view_access_entry_key DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#database_view_access_entry_key}.</summary>
             [JsiiProperty(name: "databaseViewAccessEntryKey", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseViewAccessEntryKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#security_policy_report_id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#security_policy_report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#security_policy_report_id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#security_policy_report_id}.</summary>
             [JsiiProperty(name: "securityPolicyReportId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityPolicyReportId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entry#id DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

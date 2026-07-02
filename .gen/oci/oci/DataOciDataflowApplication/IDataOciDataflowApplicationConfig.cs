@@ -7,7 +7,7 @@ namespace oci.DataOciDataflowApplication
     [JsiiInterface(nativeType: typeof(IDataOciDataflowApplicationConfig), fullyQualifiedName: "oci.dataOciDataflowApplication.DataOciDataflowApplicationConfig")]
     public interface IDataOciDataflowApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_application#application_id DataOciDataflowApplication#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataflow_application#application_id DataOciDataflowApplication#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ApplicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataflowApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dataflow_application#application_id DataOciDataflowApplication#application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataflow_application#application_id DataOciDataflowApplication#application_id}.</summary>
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplicationId
             {

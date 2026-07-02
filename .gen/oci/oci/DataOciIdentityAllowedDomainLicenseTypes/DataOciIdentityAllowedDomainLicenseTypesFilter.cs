@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
     [JsiiByValue(fqn: "oci.dataOciIdentityAllowedDomainLicenseTypes.DataOciIdentityAllowedDomainLicenseTypesFilter")]
     public class DataOciIdentityAllowedDomainLicenseTypesFilter : oci.DataOciIdentityAllowedDomainLicenseTypes.IDataOciIdentityAllowedDomainLicenseTypesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#name DataOciIdentityAllowedDomainLicenseTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_allowed_domain_license_types#name DataOciIdentityAllowedDomainLicenseTypes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#values DataOciIdentityAllowedDomainLicenseTypes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_allowed_domain_license_types#values DataOciIdentityAllowedDomainLicenseTypes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciIdentityAllowedDomainLicenseTypes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/identity_allowed_domain_license_types#regex DataOciIdentityAllowedDomainLicenseTypes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_allowed_domain_license_types#regex DataOciIdentityAllowedDomainLicenseTypes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

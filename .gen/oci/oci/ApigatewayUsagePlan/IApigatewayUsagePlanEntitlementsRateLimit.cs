@@ -7,14 +7,14 @@ namespace oci.ApigatewayUsagePlan
     [JsiiInterface(nativeType: typeof(IApigatewayUsagePlanEntitlementsRateLimit), fullyQualifiedName: "oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsRateLimit")]
     public interface IApigatewayUsagePlanEntitlementsRateLimit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         string Unit
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         double Value
         {
@@ -28,14 +28,14 @@ namespace oci.ApigatewayUsagePlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
             [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
             public string Unit
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
             public double Value
             {

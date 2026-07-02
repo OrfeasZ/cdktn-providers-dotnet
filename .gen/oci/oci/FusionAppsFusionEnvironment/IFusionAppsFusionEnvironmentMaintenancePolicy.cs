@@ -7,7 +7,7 @@ namespace oci.FusionAppsFusionEnvironment
     [JsiiInterface(nativeType: typeof(IFusionAppsFusionEnvironmentMaintenancePolicy), fullyQualifiedName: "oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentMaintenancePolicy")]
     public interface IFusionAppsFusionEnvironmentMaintenancePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fusion_apps_fusion_environment#environment_maintenance_override FusionAppsFusionEnvironment#environment_maintenance_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fusion_apps_fusion_environment#environment_maintenance_override FusionAppsFusionEnvironment#environment_maintenance_override}.</summary>
         [JsiiProperty(name: "environmentMaintenanceOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EnvironmentMaintenanceOverride
@@ -18,7 +18,7 @@ namespace oci.FusionAppsFusionEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fusion_apps_fusion_environment#monthly_patching_override FusionAppsFusionEnvironment#monthly_patching_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fusion_apps_fusion_environment#monthly_patching_override FusionAppsFusionEnvironment#monthly_patching_override}.</summary>
         [JsiiProperty(name: "monthlyPatchingOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MonthlyPatchingOverride
@@ -36,7 +36,7 @@ namespace oci.FusionAppsFusionEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fusion_apps_fusion_environment#environment_maintenance_override FusionAppsFusionEnvironment#environment_maintenance_override}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fusion_apps_fusion_environment#environment_maintenance_override FusionAppsFusionEnvironment#environment_maintenance_override}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "environmentMaintenanceOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EnvironmentMaintenanceOverride
@@ -44,7 +44,7 @@ namespace oci.FusionAppsFusionEnvironment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/fusion_apps_fusion_environment#monthly_patching_override FusionAppsFusionEnvironment#monthly_patching_override}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/fusion_apps_fusion_environment#monthly_patching_override FusionAppsFusionEnvironment#monthly_patching_override}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "monthlyPatchingOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MonthlyPatchingOverride

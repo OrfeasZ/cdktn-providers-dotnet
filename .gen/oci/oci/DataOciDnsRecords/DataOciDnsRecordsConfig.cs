@@ -9,7 +9,7 @@ namespace oci.DataOciDnsRecords
     [JsiiByValue(fqn: "oci.dataOciDnsRecords.DataOciDnsRecordsConfig")]
     public class DataOciDnsRecordsConfig : oci.DataOciDnsRecords.IDataOciDnsRecordsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#zone_name_or_id DataOciDnsRecords#zone_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#zone_name_or_id DataOciDnsRecords#zone_name_or_id}.</summary>
         [JsiiProperty(name: "zoneNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneNameOrId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#compartment_id DataOciDnsRecords#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#compartment_id DataOciDnsRecords#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#domain DataOciDnsRecords#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#domain DataOciDnsRecords#domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Domain
@@ -35,7 +35,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#domain_contains DataOciDnsRecords#domain_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#domain_contains DataOciDnsRecords#domain_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DomainContains
@@ -48,7 +48,7 @@ namespace oci.DataOciDnsRecords
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#filter DataOciDnsRecords#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#filter DataOciDnsRecords#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDnsRecords.IDataOciDnsRecordsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciDnsRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#id DataOciDnsRecords#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#id DataOciDnsRecords#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#rtype DataOciDnsRecords#rtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#rtype DataOciDnsRecords#rtype}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Rtype
@@ -101,7 +101,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#sort_by DataOciDnsRecords#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#sort_by DataOciDnsRecords#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -110,7 +110,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#sort_order DataOciDnsRecords#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#sort_order DataOciDnsRecords#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -119,7 +119,7 @@ namespace oci.DataOciDnsRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/dns_records#zone_version DataOciDnsRecords#zone_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_records#zone_version DataOciDnsRecords#zone_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zoneVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ZoneVersion

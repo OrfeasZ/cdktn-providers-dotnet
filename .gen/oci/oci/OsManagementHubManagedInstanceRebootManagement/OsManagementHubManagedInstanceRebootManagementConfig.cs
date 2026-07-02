@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceRebootManagement.OsManagementHubManagedInstanceRebootManagementConfig")]
     public class OsManagementHubManagedInstanceRebootManagementConfig : oci.OsManagementHubManagedInstanceRebootManagement.IOsManagementHubManagedInstanceRebootManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#managed_instance_id OsManagementHubManagedInstanceRebootManagement#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_reboot_management#managed_instance_id OsManagementHubManagedInstanceRebootManagement#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#id OsManagementHubManagedInstanceRebootManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_reboot_management#id OsManagementHubManagedInstanceRebootManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceRebootManagement#reboot_timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceRebootManagement#reboot_timeout_in_mins}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RebootTimeoutInMins
@@ -41,7 +41,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#timeouts OsManagementHubManagedInstanceRebootManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_reboot_management#timeouts OsManagementHubManagedInstanceRebootManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceRebootManagement.OsManagementHubManagedInstanceRebootManagementTimeouts\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace oci.OsManagementHubManagedInstanceRebootManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/os_management_hub_managed_instance_reboot_management#work_request_details OsManagementHubManagedInstanceRebootManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_reboot_management#work_request_details OsManagementHubManagedInstanceRebootManagement#work_request_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceRebootManagement.OsManagementHubManagedInstanceRebootManagementWorkRequestDetails\"}", isOptional: true)]

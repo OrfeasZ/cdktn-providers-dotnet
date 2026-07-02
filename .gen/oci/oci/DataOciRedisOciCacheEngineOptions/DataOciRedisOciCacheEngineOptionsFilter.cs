@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheEngineOptions
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheEngineOptions.DataOciRedisOciCacheEngineOptionsFilter")]
     public class DataOciRedisOciCacheEngineOptionsFilter : oci.DataOciRedisOciCacheEngineOptions.IDataOciRedisOciCacheEngineOptionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_engine_options#name DataOciRedisOciCacheEngineOptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_engine_options#name DataOciRedisOciCacheEngineOptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciRedisOciCacheEngineOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_engine_options#values DataOciRedisOciCacheEngineOptions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_engine_options#values DataOciRedisOciCacheEngineOptions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciRedisOciCacheEngineOptions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/redis_oci_cache_engine_options#regex DataOciRedisOciCacheEngineOptions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_engine_options#regex DataOciRedisOciCacheEngineOptions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

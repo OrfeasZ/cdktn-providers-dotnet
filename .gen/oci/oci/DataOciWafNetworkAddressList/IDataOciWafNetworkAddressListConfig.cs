@@ -7,7 +7,7 @@ namespace oci.DataOciWafNetworkAddressList
     [JsiiInterface(nativeType: typeof(IDataOciWafNetworkAddressListConfig), fullyQualifiedName: "oci.dataOciWafNetworkAddressList.DataOciWafNetworkAddressListConfig")]
     public interface IDataOciWafNetworkAddressListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waf_network_address_list#network_address_list_id DataOciWafNetworkAddressList#network_address_list_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waf_network_address_list#network_address_list_id DataOciWafNetworkAddressList#network_address_list_id}.</summary>
         [JsiiProperty(name: "networkAddressListId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkAddressListId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWafNetworkAddressList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/waf_network_address_list#network_address_list_id DataOciWafNetworkAddressList#network_address_list_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waf_network_address_list#network_address_list_id DataOciWafNetworkAddressList#network_address_list_id}.</summary>
             [JsiiProperty(name: "networkAddressListId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkAddressListId
             {

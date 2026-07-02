@@ -9,7 +9,7 @@ namespace oci.ApigatewayUsagePlan
     [JsiiByValue(fqn: "oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsQuota")]
     public class ApigatewayUsagePlanEntitlementsQuota : oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsQuota
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#operation_on_breach ApigatewayUsagePlan#operation_on_breach}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#operation_on_breach ApigatewayUsagePlan#operation_on_breach}.</summary>
         [JsiiProperty(name: "operationOnBreach", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationOnBreach
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#reset_policy ApigatewayUsagePlan#reset_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#reset_policy ApigatewayUsagePlan#reset_policy}.</summary>
         [JsiiProperty(name: "resetPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string ResetPolicy
         {
@@ -25,7 +25,7 @@ namespace oci.ApigatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         public string Unit
         {
@@ -33,7 +33,7 @@ namespace oci.ApigatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {

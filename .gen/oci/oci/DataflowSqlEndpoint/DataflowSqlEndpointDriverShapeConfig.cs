@@ -7,7 +7,7 @@ namespace oci.DataflowSqlEndpoint
     [JsiiByValue(fqn: "oci.dataflowSqlEndpoint.DataflowSqlEndpointDriverShapeConfig")]
     public class DataflowSqlEndpointDriverShapeConfig : oci.DataflowSqlEndpoint.IDataflowSqlEndpointDriverShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_sql_endpoint#memory_in_gbs DataflowSqlEndpoint#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_sql_endpoint#memory_in_gbs DataflowSqlEndpoint#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -16,7 +16,7 @@ namespace oci.DataflowSqlEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dataflow_sql_endpoint#ocpus DataflowSqlEndpoint#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_sql_endpoint#ocpus DataflowSqlEndpoint#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus

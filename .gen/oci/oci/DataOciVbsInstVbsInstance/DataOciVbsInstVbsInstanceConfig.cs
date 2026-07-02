@@ -9,7 +9,7 @@ namespace oci.DataOciVbsInstVbsInstance
     [JsiiByValue(fqn: "oci.dataOciVbsInstVbsInstance.DataOciVbsInstVbsInstanceConfig")]
     public class DataOciVbsInstVbsInstanceConfig : oci.DataOciVbsInstVbsInstance.IDataOciVbsInstVbsInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/vbs_inst_vbs_instance#vbs_instance_id DataOciVbsInstVbsInstance#vbs_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/vbs_inst_vbs_instance#vbs_instance_id DataOciVbsInstVbsInstance#vbs_instance_id}.</summary>
         [JsiiProperty(name: "vbsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string VbsInstanceId
         {

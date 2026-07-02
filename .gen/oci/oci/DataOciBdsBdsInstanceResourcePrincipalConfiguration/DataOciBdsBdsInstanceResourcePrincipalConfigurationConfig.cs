@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfiguration
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceResourcePrincipalConfiguration.DataOciBdsBdsInstanceResourcePrincipalConfigurationConfig")]
     public class DataOciBdsBdsInstanceResourcePrincipalConfigurationConfig : oci.DataOciBdsBdsInstanceResourcePrincipalConfiguration.IDataOciBdsBdsInstanceResourcePrincipalConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_resource_principal_configuration#bds_instance_id DataOciBdsBdsInstanceResourcePrincipalConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bds_bds_instance_resource_principal_configuration#bds_instance_id DataOciBdsBdsInstanceResourcePrincipalConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/bds_bds_instance_resource_principal_configuration#resource_principal_configuration_id DataOciBdsBdsInstanceResourcePrincipalConfiguration#resource_principal_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/bds_bds_instance_resource_principal_configuration#resource_principal_configuration_id DataOciBdsBdsInstanceResourcePrincipalConfiguration#resource_principal_configuration_id}.</summary>
         [JsiiProperty(name: "resourcePrincipalConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourcePrincipalConfigurationId
         {

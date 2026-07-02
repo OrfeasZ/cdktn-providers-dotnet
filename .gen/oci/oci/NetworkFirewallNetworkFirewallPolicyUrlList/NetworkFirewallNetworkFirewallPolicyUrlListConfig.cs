@@ -9,7 +9,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyUrlList
     [JsiiByValue(fqn: "oci.networkFirewallNetworkFirewallPolicyUrlList.NetworkFirewallNetworkFirewallPolicyUrlListConfig")]
     public class NetworkFirewallNetworkFirewallPolicyUrlListConfig : oci.NetworkFirewallNetworkFirewallPolicyUrlList.INetworkFirewallNetworkFirewallPolicyUrlListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_url_list#name NetworkFirewallNetworkFirewallPolicyUrlList#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/network_firewall_network_firewall_policy_url_list#name NetworkFirewallNetworkFirewallPolicyUrlList#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyUrlList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_url_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyUrlList#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/network_firewall_network_firewall_policy_url_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyUrlList#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {
@@ -29,7 +29,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyUrlList
 
         /// <summary>urls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_url_list#urls NetworkFirewallNetworkFirewallPolicyUrlList#urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/network_firewall_network_firewall_policy_url_list#urls NetworkFirewallNetworkFirewallPolicyUrlList#urls}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.NetworkFirewallNetworkFirewallPolicyUrlList.INetworkFirewallNetworkFirewallPolicyUrlListUrls" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "urls", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyUrlList.NetworkFirewallNetworkFirewallPolicyUrlListUrls\"},\"kind\":\"array\"}}]}}")]
@@ -59,7 +59,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyUrlList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_url_list#description NetworkFirewallNetworkFirewallPolicyUrlList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/network_firewall_network_firewall_policy_url_list#description NetworkFirewallNetworkFirewallPolicyUrlList#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -68,7 +68,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyUrlList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_url_list#id NetworkFirewallNetworkFirewallPolicyUrlList#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/network_firewall_network_firewall_policy_url_list#id NetworkFirewallNetworkFirewallPolicyUrlList#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyUrlList
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/network_firewall_network_firewall_policy_url_list#timeouts NetworkFirewallNetworkFirewallPolicyUrlList#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/network_firewall_network_firewall_policy_url_list#timeouts NetworkFirewallNetworkFirewallPolicyUrlList#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyUrlList.NetworkFirewallNetworkFirewallPolicyUrlListTimeouts\"}", isOptional: true)]

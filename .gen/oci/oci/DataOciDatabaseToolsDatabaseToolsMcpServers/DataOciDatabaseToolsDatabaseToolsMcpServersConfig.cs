@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsMcpServers.DataOciDatabaseToolsDatabaseToolsMcpServersConfig")]
     public class DataOciDatabaseToolsDatabaseToolsMcpServersConfig : oci.DataOciDatabaseToolsDatabaseToolsMcpServers.IDataOciDatabaseToolsDatabaseToolsMcpServersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#compartment_id DataOciDatabaseToolsDatabaseToolsMcpServers#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#compartment_id DataOciDatabaseToolsDatabaseToolsMcpServers#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsMcpServers#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsMcpServers#database_tools_connection_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseToolsConnectionId
@@ -26,7 +26,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#display_name DataOciDatabaseToolsDatabaseToolsMcpServers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#display_name DataOciDatabaseToolsDatabaseToolsMcpServers#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#filter DataOciDatabaseToolsDatabaseToolsMcpServers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#filter DataOciDatabaseToolsDatabaseToolsMcpServers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseToolsDatabaseToolsMcpServers.IDataOciDatabaseToolsDatabaseToolsMcpServersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#id DataOciDatabaseToolsDatabaseToolsMcpServers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#id DataOciDatabaseToolsDatabaseToolsMcpServers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#related_resource_identifier DataOciDatabaseToolsDatabaseToolsMcpServers#related_resource_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#related_resource_identifier DataOciDatabaseToolsDatabaseToolsMcpServers#related_resource_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relatedResourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelatedResourceIdentifier
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#state DataOciDatabaseToolsDatabaseToolsMcpServers#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#state DataOciDatabaseToolsDatabaseToolsMcpServers#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -101,7 +101,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/data-sources/database_tools_database_tools_mcp_servers#type DataOciDatabaseToolsDatabaseToolsMcpServers#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_servers#type DataOciDatabaseToolsDatabaseToolsMcpServers#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Type

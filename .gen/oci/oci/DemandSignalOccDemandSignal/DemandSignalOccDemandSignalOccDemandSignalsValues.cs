@@ -9,7 +9,7 @@ namespace oci.DemandSignalOccDemandSignal
     [JsiiByValue(fqn: "oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignalsValues")]
     public class DemandSignalOccDemandSignalOccDemandSignalsValues : oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignalsValues
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#time_expected DemandSignalOccDemandSignal#time_expected}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/demand_signal_occ_demand_signal#time_expected DemandSignalOccDemandSignal#time_expected}.</summary>
         [JsiiProperty(name: "timeExpected", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeExpected
         {
@@ -17,7 +17,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#value DemandSignalOccDemandSignal#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/demand_signal_occ_demand_signal#value DemandSignalOccDemandSignal#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {
@@ -25,7 +25,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/demand_signal_occ_demand_signal#comments DemandSignalOccDemandSignal#comments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/demand_signal_occ_demand_signal#comments DemandSignalOccDemandSignal#comments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comments", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comments

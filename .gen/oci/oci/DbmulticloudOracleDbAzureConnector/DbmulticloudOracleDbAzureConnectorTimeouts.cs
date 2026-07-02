@@ -7,7 +7,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAzureConnector.DbmulticloudOracleDbAzureConnectorTimeouts")]
     public class DbmulticloudOracleDbAzureConnectorTimeouts : oci.DbmulticloudOracleDbAzureConnector.IDbmulticloudOracleDbAzureConnectorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_connector#create DbmulticloudOracleDbAzureConnector#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dbmulticloud_oracle_db_azure_connector#create DbmulticloudOracleDbAzureConnector#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_connector#delete DbmulticloudOracleDbAzureConnector#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dbmulticloud_oracle_db_azure_connector#delete DbmulticloudOracleDbAzureConnector#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.20.0/docs/resources/dbmulticloud_oracle_db_azure_connector#update DbmulticloudOracleDbAzureConnector#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dbmulticloud_oracle_db_azure_connector#update DbmulticloudOracleDbAzureConnector#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update
